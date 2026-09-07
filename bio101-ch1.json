@@ -1,0 +1,439 @@
+{
+  "quizId": "bio101-ch1-cell-structure",
+  "title": "BIO 101 Chapter 1: Cell Structure and Function",
+  "subject": "Biology",
+  "description": "Test your knowledge of cell structure, organelles, and their functions.",
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 60,
+  "settings": {
+    "canChangeTime": true,
+    "canPracticeMode": true,
+    "canSeeCorrection": true,
+    "canRetake": true,
+    "passMark": 50,
+    "shuffleQuestions": false,
+    "shuffleOptions": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitochondria generate ATP through cellular respiration, providing energy for the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 2,
+      "question": "Which structure controls the movement of substances in and out of the cell?",
+      "options": [
+        "Cell wall",
+        "Cell membrane",
+        "Cytoplasm",
+        "Nucleolus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane is selectively permeable and regulates the passage of materials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 3,
+      "question": "Which organelle is responsible for protein synthesis?",
+      "options": [
+        "Lysosome",
+        "Smooth endoplasmic reticulum",
+        "Ribosome",
+        "Vacuole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ribosomes are the sites of protein synthesis in the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the function of the Golgi apparatus?",
+      "options": [
+        "ATP production",
+        "Modifying, sorting, and packaging proteins",
+        "Digesting worn-out organelles",
+        "Storing genetic information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Golgi apparatus processes and packages proteins for secretion or use within the cell.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 5,
+      "question": "Which organelle contains digestive enzymes to break down waste?",
+      "options": [
+        "Peroxisome",
+        "Lysosome",
+        "Centriole",
+        "Chloroplast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lysosomes contain hydrolytic enzymes that digest macromolecules, old cell parts, and microorganisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 6,
+      "question": "Which structure is found in plant cells but not in animal cells?",
+      "options": [
+        "Mitochondria",
+        "Cell wall",
+        "Nucleus",
+        "Ribosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plant cells have a rigid cell wall made of cellulose; animal cells do not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 7,
+      "question": "The fluid inside the cell where organelles are suspended is called:",
+      "options": [
+        "Nucleoplasm",
+        "Cytoplasm",
+        "Cytosol",
+        "Protoplasm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cytosol is the liquid part of the cytoplasm, excluding organelles.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 8,
+      "question": "Which organelle is the site of photosynthesis?",
+      "options": [
+        "Chloroplast",
+        "Mitochondrion",
+        "Leucoplast",
+        "Amyloplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chloroplasts capture light energy and convert it to chemical energy via photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 9,
+      "question": "The nucleus is surrounded by a double membrane called the:",
+      "options": [
+        "Nuclear envelope",
+        "Plasma membrane",
+        "Cell cortex",
+        "Tonoplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nuclear envelope encloses the nucleus and has pores for molecular transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 10,
+      "question": "Which organelle is involved in detoxification and lipid synthesis?",
+      "options": [
+        "Rough ER",
+        "Smooth ER",
+        "Golgi apparatus",
+        "Peroxisome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smooth ER is involved in lipid synthesis, carbohydrate metabolism, and detoxification.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 11,
+      "question": "Chromosomes are located in which part of the cell?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromosomes, made of DNA, are housed inside the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 12,
+      "question": "Which structure is responsible for maintaining cell shape and anchoring organelles?",
+      "options": [
+        "Cell wall",
+        "Cytoskeleton",
+        "Cell membrane",
+        "Nuclear lamina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cytoskeleton is a network of fibers that provides structural support and facilitates movement.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 13,
+      "question": "Ribosomes are composed of:",
+      "options": [
+        "DNA and RNA",
+        "RNA and protein",
+        "Lipids and carbohydrates",
+        "Proteins only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribosomes are made of ribosomal RNA (rRNA) and proteins.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 14,
+      "question": "The organelle that modifies proteins and sends them to their destination is the:",
+      "options": [
+        "Lysosome",
+        "Peroxisome",
+        "Golgi apparatus",
+        "Vacuole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Golgi apparatus modifies, sorts, and packages proteins for transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a function of the vacuole in plant cells?",
+      "options": [
+        "ATP production",
+        "Storage of water and nutrients",
+        "Protein synthesis",
+        "Cell division"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plant cell vacuoles store water, ions, and nutrients, and help maintain turgor pressure.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 16,
+      "question": "The organelle that contains its own DNA and can replicate independently is:",
+      "options": [
+        "Nucleus",
+        "Mitochondrion",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria (and chloroplasts) have their own DNA and can reproduce independently.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 17,
+      "question": "Which structure is involved in cell division in animal cells?",
+      "options": [
+        "Centriole",
+        "Cell wall",
+        "Chloroplast",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Centrioles help organize spindle fibers during mitosis in animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 18,
+      "question": "The organelle that is continuous with the nuclear envelope is the:",
+      "options": [
+        "Golgi apparatus",
+        "Endoplasmic reticulum",
+        "Plasma membrane",
+        "Vacuole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rough and smooth ER are continuous with the outer membrane of the nuclear envelope.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 19,
+      "question": "Which organelle is absent in prokaryotic cells?",
+      "options": [
+        "Ribosomes",
+        "Cell membrane",
+        "Nucleus",
+        "Cytoplasm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prokaryotic cells lack a membrane-bound nucleus; their DNA is in the cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 20,
+      "question": "The term 'selectively permeable' refers to the ability of the cell membrane to:",
+      "options": [
+        "Allow all substances to pass freely",
+        "Regulate what enters and leaves the cell",
+        "Prevent any substance from entering",
+        "Only allow water to pass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Selectively permeable means the membrane controls which molecules pass through.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT a function of the smooth ER?",
+      "options": [
+        "Lipid synthesis",
+        "Detoxification",
+        "Protein synthesis",
+        "Calcium ion storage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Protein synthesis occurs on ribosomes, not the smooth ER.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 22,
+      "question": "What is the main component of the cell wall in plants?",
+      "options": [
+        "Chitin",
+        "Cellulose",
+        "Peptidoglycan",
+        "Starch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plant cell walls are primarily composed of cellulose fibers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 23,
+      "question": "The organelle that degrades fatty acids and toxic compounds is the:",
+      "options": [
+        "Lysosome",
+        "Peroxisome",
+        "Vacuole",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peroxisomes break down fatty acids and detoxify harmful substances like alcohol.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 24,
+      "question": "Which structure gives the cell its shape and allows movement?",
+      "options": [
+        "Cell wall",
+        "Cytoskeleton",
+        "Cell membrane",
+        "Nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cytoskeleton provides structural support and enables cell movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 25,
+      "question": "The nucleolus is the site of:",
+      "options": [
+        "DNA replication",
+        "Ribosomal RNA synthesis",
+        "Protein synthesis",
+        "Lipid synthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleolus is where ribosomal RNA (rRNA) is transcribed and ribosome subunits are assembled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 26,
+      "question": "Which organelle would be most abundant in a muscle cell?",
+      "options": [
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus",
+        "Smooth ER"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Muscle cells require large amounts of ATP, so they contain many mitochondria.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 27,
+      "question": "The jelly-like substance inside the nucleus is called:",
+      "options": [
+        "Cytoplasm",
+        "Nucleoplasm",
+        "Cytosol",
+        "Matrix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nucleoplasm is the semi-fluid medium inside the nuclear envelope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is TRUE about both mitochondria and chloroplasts?",
+      "options": [
+        "Both are found in all eukaryotic cells",
+        "Both contain their own DNA and ribosomes",
+        "Both are involved in ATP production only",
+        "Both have a single membrane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria and chloroplasts are semi-autonomous organelles with their own DNA and ribosomes.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 29,
+      "question": "The nuclear pores allow for the passage of:",
+      "options": [
+        "Only water",
+        "Ions and small molecules",
+        "RNA and proteins",
+        "Lipids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nuclear pores regulate the transport of RNA, proteins, and other large molecules between nucleus and cytoplasm.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": 30,
+      "question": "Which organelle is responsible for breaking down old organelles?",
+      "options": [
+        "Lysosome",
+        "Peroxisome",
+        "Vacuole",
+        "Centriole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysosomes contain enzymes that digest worn-out organelles and cellular debris.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
+}
