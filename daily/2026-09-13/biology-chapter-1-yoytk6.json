@@ -3,7 +3,7 @@
   "title": "Biology Chapter 1",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 10,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
@@ -14,5 +14,146 @@
     "shuffleQuestions": false,
     "shuffleOptions": false
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1789341576167.7947,
+      "question": "What is the capital of Nigeria?",
+      "options": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Port Harcourt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abuja became Nigeria's capital in 1991, replacing Lagos.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.6492,
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Saturn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mars appears red because of iron oxide (rust) on its surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.1882,
+      "question": "What is the chemical symbol for water?",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "NaCl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water is two hydrogen atoms bonded to one oxygen atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.3877,
+      "question": "Who wrote \"Things Fall Apart\"?",
+      "options": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ben Okri",
+        "Chimamanda Ngozi Adichie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Published in 1958, it's one of the most widely read African novels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.0195,
+      "question": "What is 15% of 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "45"
+      ],
+      "correctAnswer": 2,
+      "explanation": "15% of 200 = 0.15 × 200 = 30.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.9414,
+      "question": "Which gas do plants absorb during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Plants absorb CO2 and release oxygen during photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.25,
+      "question": "How many continents are there on Earth?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Africa, Antarctica, Asia, Australia, Europe, North America, South America.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.4028,
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Pacific Ocean covers about 63 million square miles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.552,
+      "question": "In which year did Nigeria gain independence?",
+      "options": [
+        "1957",
+        "1960",
+        "1963",
+        "1970"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria gained independence from Britain on October 1, 1960.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789341576168.8044,
+      "question": "What is the boiling point of water at sea level?",
+      "options": [
+        "50°C",
+        "90°C",
+        "100°C",
+        "120°C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At standard atmospheric pressure, water boils at 100°C (212°F).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
