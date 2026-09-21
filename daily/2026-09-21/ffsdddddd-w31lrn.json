@@ -3,7 +3,7 @@
   "title": "ffsdddddd",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 10,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
@@ -11,8 +11,149 @@
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1789990475361.8066,
+      "question": "What is the capital city of Nigeria?",
+      "options": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Ibadan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abuja became Nigeria's capital on 12 December 1991, replacing Lagos.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475362.799,
+      "question": "Which river is the longest in Nigeria?",
+      "options": [
+        "River Benue",
+        "River Niger",
+        "River Kaduna",
+        "River Ogun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The River Niger is about 4,180 km long and is the principal river of West Africa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475362.2966,
+      "question": "In what year did Nigeria gain independence from Britain?",
+      "options": [
+        "1957",
+        "1960",
+        "1963",
+        "1966"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria gained independence on 1 October 1960.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.5168,
+      "question": "How many states are there in Nigeria?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria has 36 states plus the Federal Capital Territory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.4834,
+      "question": "Who was Nigeria's first President?",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Tafawa Balewa",
+        "Olusegun Obasanjo",
+        "Yakubu Gowon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nnamdi Azikiwe served as the first President of Nigeria from 1963 to 1966.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.078,
+      "question": "What is the currency of Nigeria?",
+      "options": [
+        "Cedi",
+        "Naira",
+        "Shilling",
+        "Franc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Nigerian Naira (₦) was introduced in 1973, replacing the pound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.1226,
+      "question": "Which is the largest ethnic group in Nigeria?",
+      "options": [
+        "Yoruba",
+        "Igbo",
+        "Hausa",
+        "Ijaw"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Hausa are the largest ethnic group in Nigeria, followed by the Yoruba and Igbo.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.913,
+      "question": "What is the highest mountain in Nigeria?",
+      "options": [
+        "Mount Cameroon",
+        "Chappal Waddi",
+        "Mount Kilimanjaro",
+        "Zuma Rock"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chappal Waddi, in Taraba State, is Nigeria's highest peak at about 2,419 metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.562,
+      "question": "Which Nigerian won the Nobel Prize in Literature?",
+      "options": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ben Okri",
+        "Chimamanda Ngozi Adichie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wole Soyinka won the Nobel Prize in Literature in 1986.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1789990475363.1772,
+      "question": "How many local government areas are there in Nigeria?",
+      "options": [
+        "500",
+        "700",
+        "774",
+        "800"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria has 774 local government areas across its 36 states and the FCT.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
