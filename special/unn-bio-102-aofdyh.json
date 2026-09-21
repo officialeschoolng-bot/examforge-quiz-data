@@ -3,7 +3,7 @@
   "title": "UNN BIO 102",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
@@ -11,8 +11,709 @@
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790018555786.815,
+      "question": "Enzymes are described as which type of macromolecules?",
+      "options": [
+        "Carbohydrates",
+        "Proteins",
+        "Lipids",
+        "Nucleic acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.9685,
+      "question": "Enzyme catalyzed reactions are involved in all facets of cellular life EXCEPT:",
+      "options": [
+        "Metabolism",
+        "Biosynthesis",
+        "Detoxification",
+        "Genetic mutation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.4062,
+      "question": "Louis Pasteur concluded that alcoholic fermentation is correlated with:",
+      "options": [
+        "Death of yeast cells",
+        "Putrefaction of cells",
+        "Life and organization of yeast cells",
+        "Chemical reactions without cells"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.7966,
+      "question": "Who discovered that yeast extracts could ferment sugar to alcohol and CO2?",
+      "options": [
+        "Louis Pasteur",
+        "Edward Buchner",
+        "James Sumner",
+        "Frederick Kuhne"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.314,
+      "question": "Who coined the term \"enzyme\" from the Greek word \"enzymos\"?",
+      "options": [
+        "Edward Buchner",
+        "Louis Pasteur",
+        "Frederick W Kuhne",
+        "James Sumner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.708,
+      "question": "In 1926, who isolated and crystallized urease from jack bean?",
+      "options": [
+        "Northrop and Stanley",
+        "David C. Philips",
+        "James Sumner",
+        "Edward Buchner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.153,
+      "question": "The active site of an enzyme often makes up what percentage of the total enzyme volume?",
+      "options": [
+        "50-60%",
+        "30-40%",
+        "10-20%",
+        "70-80%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.674,
+      "question": "The active site of an enzyme is usually a:",
+      "options": [
+        "Hydrophobic pocket",
+        "Hydrophilic cleft or cavity",
+        "Rigid flat surface",
+        "Negatively charged sphere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.0454,
+      "question": "Which type of enzyme-substrate interaction involves a donor with a lone pair of electrons?",
+      "options": [
+        "Electrostatic interaction",
+        "Hydrophobic interaction",
+        "Hydrogen bonding",
+        "Non-polar interaction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.7546,
+      "question": "Electrostatic interaction exists between substrates containing ionisable functional groups and amino acids with:",
+      "options": [
+        "Similar charges",
+        "Opposite charges",
+        "Neutral charges",
+        "No charges"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.5237,
+      "question": "Hydrophobic interaction exists between substrates containing a hydrophobic group and:",
+      "options": [
+        "Hydrophilic part of active site",
+        "Hydrophobic part of active site",
+        "Charged part of active site",
+        "Neutral part of active site"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.3882,
+      "question": "Which of the following justifies that not all enzymes are proteins?",
+      "options": [
+        "All enzymes follow Michaelis Menten hypothesis",
+        "RNA molecules can have catalytic action",
+        "Antibodies never take part in catalysis",
+        "Metals are not involved in enzyme attachment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.1921,
+      "question": "RNA molecules with catalytic action are called:",
+      "options": [
+        "Ribosomes",
+        "Ribozymes",
+        "Apoenzymes",
+        "Holoenzymes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.0483,
+      "question": "A complete catalytically active enzyme together with its bound coenzyme is called:",
+      "options": [
+        "Apoenzyme",
+        "Holoenzyme",
+        "Prosthetic group",
+        "Coenzyme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.0857,
+      "question": "The protein part of an enzyme without its cofactor is called:",
+      "options": [
+        "Holoenzyme",
+        "Apoenzyme",
+        "Prosthetic group",
+        "Coenzyme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.5688,
+      "question": "Enzymology is the study of:",
+      "options": [
+        "Only enzyme structure",
+        "Enzymes and enzyme catalyzed reactions",
+        "Only enzyme kinetics",
+        "Only enzyme classification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.0027,
+      "question": "The comprehensive study of an enzyme involves investigation of all EXCEPT:",
+      "options": [
+        "Molecular structure",
+        "Protein properties",
+        "Patient medical history",
+        "Active site"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.6235,
+      "question": "To study an enzyme in detail, it must be isolated in:",
+      "options": [
+        "Crude form",
+        "Pure form",
+        "Mixed form",
+        "Denatured form"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.259,
+      "question": "Intracellular enzymes function:",
+      "options": [
+        "Outside the cell",
+        "Inside the cell",
+        "In the bloodstream",
+        "In the digestive tract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.641,
+      "question": "Extracellular enzymes carry out their functions:",
+      "options": [
+        "Inside the mitochondria",
+        "Outside the cells",
+        "Inside the nucleus",
+        "Inside the cytoplasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.6716,
+      "question": "Constitutive enzymes are:",
+      "options": [
+        "Synthesized only when needed",
+        "Always present in the cell regardless of substrate amount",
+        "Present only during stress",
+        "Synthesized in response to heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.1926,
+      "question": "Inducible enzymes are synthesized in response to:",
+      "options": [
+        "Always present stimuli",
+        "Presence of a chemical or physical stimulus",
+        "Absence of substrate",
+        "Genetic mutations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.671,
+      "question": "Oxidoreductases catalyze which type of reaction?",
+      "options": [
+        "Hydrolysis",
+        "Oxidation or reduction",
+        "Isomerization",
+        "Group transfer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.946,
+      "question": "Transferases are responsible for:",
+      "options": [
+        "Electron transfer",
+        "Transfer of functional groups between molecules",
+        "Hydrolysis of bonds",
+        "Formation of C-C bonds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.9307,
+      "question": "Hydrolases catalyze which type of reaction?",
+      "options": [
+        "Oxidation",
+        "Hydrolysis",
+        "Isomerization",
+        "Condensation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.9563,
+      "question": "Lyases catalyze the removal of groups to form:",
+      "options": [
+        "Single bonds",
+        "Double bonds",
+        "Triple bonds",
+        "Ionic bonds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.0635,
+      "question": "Isomerases catalyze:",
+      "options": [
+        "Oxidation reactions",
+        "Isomerization of molecules",
+        "Hydrolysis reactions",
+        "Bond formation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.2305,
+      "question": "Ligases catalyze the joining of two molecules coupled with hydrolysis of:",
+      "options": [
+        "ATP pyrophosphate bond",
+        "Peptide bonds",
+        "Hydrogen bonds",
+        "Glycosidic bonds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.199,
+      "question": "Previously, enzymes were named using substrate and adding which suffix?",
+      "options": [
+        "-ose",
+        "-ase",
+        "-in",
+        "-ol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.7437,
+      "question": "The International Union of Biochemistry initiated standards of enzyme nomenclature in:",
+      "options": [
+        "1897",
+        "1955",
+        "1973",
+        "1965"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.1985,
+      "question": "According to IUPAC, enzymes are classified into how many general categories?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.8623,
+      "question": "Who first proposed the existence of enzyme-substrate complex in 1880?",
+      "options": [
+        "Louis Pasteur",
+        "Charles Adolphe Wurtz",
+        "Edward Buchner",
+        "James Sumner"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.6597,
+      "question": "The distinguishing feature of enzyme-catalyzed reactions is that they take place within:",
+      "options": [
+        "The cell membrane",
+        "The active site pocket",
+        "The nucleus",
+        "The cytoplasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.797,
+      "question": "Enzymes do their work by lowering the:",
+      "options": [
+        "Substrate concentration",
+        "Activation energy",
+        "Product concentration",
+        "Temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.5598,
+      "question": "The molecule that is bound in the active site and acted upon by the enzyme is called:",
+      "options": [
+        "Cofactor",
+        "Substrate",
+        "Product",
+        "Activator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.3757,
+      "question": "Enzymes are sensitive to temperature and are denatured by:",
+      "options": [
+        "Low temperatures",
+        "Excess heat",
+        "Neutral pH",
+        "High substrate concentration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.5417,
+      "question": "The optimum pH for pepsin in the stomach is about:",
+      "options": [
+        "pH 7",
+        "pH 2",
+        "pH 9",
+        "pH 5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.6716,
+      "question": "Saturation point of an enzyme is also its:",
+      "options": [
+        "Minimum velocity",
+        "Maximum velocity",
+        "Optimum temperature",
+        "Isoelectric point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555787.8293,
+      "question": "Which hypothesis illustrates that enzymes are substrate specific?",
+      "options": [
+        "Michaelis Menten hypothesis",
+        "Lock and key hypothesis",
+        "Induced fit hypothesis",
+        "Saturation hypothesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.9387,
+      "question": "At 0 degrees C, enzyme action is low because:",
+      "options": [
+        "Enzymes are denatured",
+        "Movement of molecules is low",
+        "Substrate concentration is high",
+        "pH is optimal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.5022,
+      "question": "Maximum enzyme action occurs at what temperature?",
+      "options": [
+        "0 degrees C",
+        "40 degrees C",
+        "60 degrees C",
+        "100 degrees C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.1118,
+      "question": "Enzyme action decreases above 40 degrees C because:",
+      "options": [
+        "Substrate concentration decreases",
+        "Enzymes are denaturing more quickly",
+        "pH changes",
+        "Activators are removed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.735,
+      "question": "Enzyme action is greatest within a narrow range of pH because:",
+      "options": [
+        "All enzymes are active and shape of active site is maintained",
+        "Substrate concentration is highest",
+        "Temperature is optimal",
+        "Inhibitors are absent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.8481,
+      "question": "Enzymes catalyse all metabolic reactions by lowering the:",
+      "options": [
+        "Substrate concentration",
+        "Activation energy",
+        "Product concentration",
+        "Enzyme concentration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.0737,
+      "question": "The activity of a cell is determined by:",
+      "options": [
+        "Which enzymes are active in the cell at that time",
+        "The total number of cells",
+        "The size of the cell",
+        "The age of the organism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.068,
+      "question": "Deficiencies in enzyme quantity or catalytic activity can result from all EXCEPT:",
+      "options": [
+        "Genetic defects",
+        "Nutritional deficits",
+        "Toxins",
+        "Adequate exercise"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.6152,
+      "question": "Vibrio cholerae is an example of a pathogen that can cause:",
+      "options": [
+        "Genetic mutations",
+        "Defective enzymes",
+        "Nutritional deficits",
+        "Toxin exposure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.3748,
+      "question": "Bioprocessing is the use of biological materials to carry out:",
+      "options": [
+        "Only scientific research",
+        "Manufacturing or treatment procedures",
+        "Only medical diagnosis",
+        "Only food production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.8994,
+      "question": "Glucose isomerase is used for:",
+      "options": [
+        "Production of glucose from fructose",
+        "Production of fructose from glucose",
+        "Testing blood for glucose",
+        "Production of clear juice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790018555788.3276,
+      "question": "Pectinase is used for:",
+      "options": [
+        "Production of fructose from glucose",
+        "Production of clear juice from apples and grapes",
+        "Testing blood for glucose",
+        "Production of glucose from sucrose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
