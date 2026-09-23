@@ -6,10 +6,10 @@
   "totalQuestions": 10,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
-    "canSeeCorrection": true,
-    "canRetake": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
+    "canSeeCorrection": false,
+    "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": false,
     "shuffleOptions": false
