@@ -3,7 +3,7 @@
   "title": "PHY 102 PREP EXAM QUESTIONS FOR UNN",
   "subject": "PHY 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 29,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
@@ -11,8 +11,415 @@
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790266323028.368,
+      "question": "If the electric potential V is given by V = 4x³, the electric field E at x = 2 m is:",
+      "options": [
+        "–48 V/m",
+        "+48 V/m",
+        "+32 V/m",
+        "–32 V/m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = –dV/dx = –12x²; at x=2 → –48 V/m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.5017,
+      "question": "<svg viewBox='0 0 340 110' width='340' height='110' xmlns='http://www.w3.org/2000/svg'><circle cx='40' cy='55' r='3' fill='#1a1a1a'/><text x='35' y='43' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>A</text><line x1='40.0' y1='55' x2='55.6' y2='55' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M 55.6,55.0 L 64.8,64.0 L 74.1,46.0 L 83.3,64.0 L 92.6,46.0 L 101.8,64.0 L 111.1,55.0' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='83.3' y='41' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>R1=1.2kΩ</text><line x1='126.7' y1='55' x2='142.3' y2='55' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M 142.3,55.0 L 151.5,64.0 L 160.8,46.0 L 170.0,64.0 L 179.2,46.0 L 188.5,64.0 L 197.7,55.0' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='170.0' y='41' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>R2=4.7kΩ</text><line x1='213.3' y1='55' x2='228.9' y2='55' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M 228.9,55.0 L 238.2,64.0 L 247.4,46.0 L 256.7,64.0 L 265.9,46.0 L 275.2,64.0 L 284.4,55.0' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='256.7' y='41' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>R3=2.2kΩ</text><line x1='284.4' y1='55' x2='300.0' y2='55' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='300' cy='55' r='3' fill='#1a1a1a'/><text x='298' y='43' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>B</text></svg><p>Find the effective resistance between terminals A and B.</p>",
+      "options": [
+        "7.6kΩ",
+        "8.6kΩ",
+        "9.1kΩ",
+        "8.1kΩ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In series, Req = R1+R2+R3 = 1.2kΩ + 4.7kΩ + 2.2kΩ = 8.1kΩ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.4492,
+      "question": "If the distance between two charges is halved, the electrostatic force becomes:",
+      "options": [
+        "Half",
+        "Double",
+        "Four times",
+        "One-fourth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F ∝ 1/r² → r halved → F ×4",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.2046,
+      "question": "The Poynting vector points in the direction of:",
+      "options": [
+        "Charge flow",
+        "Wave propagation",
+        "The electric field",
+        "The magnetic field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "S = (1/μ₀) E×B gives direction of energy flow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.5283,
+      "question": "Like magnetic poles:",
+      "options": [
+        "Have no effect on each other",
+        "Repel each other",
+        "Cancel each other's field",
+        "Attract each other"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Like poles (N‑N or S‑S) repel each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.1785,
+      "question": "A long straight wire carries 3.0 A. The magnetic field at 0.15 m from the wire is (μ₀ = 4π×10<sup>-7</sup> T·m/A):",
+      "options": [
+        "8.0×10<sup>-6</sup> T",
+        "6.0×10<sup>-6</sup> T",
+        "2.0×10<sup>-6</sup> T",
+        "4.0×10<sup>-6</sup> T"
+      ],
+      "correctAnswer": 3,
+      "explanation": "B = μ₀I/(2πr) = (4π×10<sup>-7</sup> × 3.0)/(2π×0.15) = 4.0×10<sup>-6</sup> T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.86,
+      "question": "The electric flux through a closed surface containing no charge is:",
+      "options": [
+        "Negative",
+        "Zero",
+        "Positive",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gauss's law: ∮E·dA = Q<sub>enc</sub>/ε₀ = 0, so flux is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.463,
+      "question": "<svg viewBox='0 0 280 170' width='280' height='170' xmlns='http://www.w3.org/2000/svg'><line x1='60' y1='40' x2='60' y2='65' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><line x1='48' y1='65' x2='72' y2='65' stroke='#1a1a1a' stroke-width='3'/><line x1='54' y1='75' x2='66' y2='75' stroke='#1a1a1a' stroke-width='3'/><line x1='60' y1='75' x2='60' y2='130' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='20' y='90.0' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>V=12V</text><line x1='60' y1='130' x2='220' y2='130' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><line x1='220' y1='130' x2='220' y2='40' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><line x1='60' y1='40' x2='92.0' y2='40' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><path d='M 92.0,40.0 L 108.0,49.0 L 124.0,31.0 L 140.0,49.0 L 156.0,31.0 L 172.0,49.0 L 188.0,40.0' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><line x1='188.0' y1='40' x2='220' y2='40' stroke='#1a1a1a' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/><text x='140.0' y='28' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='13' fill='#1a1a1a'>R=6Ω</text></svg><p>Using Ohm's law, find the current I flowing in the circuit.</p>",
+      "options": [
+        "1A",
+        "4A",
+        "3A",
+        "2A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "I = V/R = 12V/6Ω = 2A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.061,
+      "question": "Unlike magnetic poles:",
+      "options": [
+        "Cancel each other's field",
+        "Repel each other",
+        "Attract each other",
+        "Have no effect on each other"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike poles (N‑S) attract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.6982,
+      "question": "The average power consumed in a pure inductor connected to an AC source over one full cycle is:",
+      "options": [
+        "Vrms Irms / 2",
+        "Maximum",
+        "Zero",
+        "Vrms Irms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Same as capacitor; ideal inductor stores and returns energy, average power zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.6116,
+      "question": "For a loop placed in a magnetic field, when is the magnetic flux through the loop maximum?",
+      "options": [
+        "θ = 45°",
+        "θ = 90°",
+        "θ = 270°",
+        "θ = 0°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "cos 0° = 1, maximum flux.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.5999,
+      "question": "The instantaneous power in a pure resistive circuit is always:",
+      "options": [
+        "Zero",
+        "Negative",
+        "Positive or zero",
+        "Alternating between positive and negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "p = i²R is always ≥ 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.657,
+      "question": "The electric field intensity (E) is defined as the:",
+      "options": [
+        "Force exerted per unit negative test charge",
+        "Force exerted per unit positive test charge",
+        "Work done per unit charge",
+        "Charge per unit area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = F/q₀, where q₀ is a positive test charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.4639,
+      "question": "The force between two charges is 36 N when separated by 0.5 m. What is the force if the separation is reduced to 0.25 m?",
+      "options": [
+        "72 N",
+        "9 N",
+        "18 N",
+        "144 N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "r halved → F ×4 → 36×4 = 144 N",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323028.9927,
+      "question": "Two charges +Q and –Q are placed at x = 1 m and x = –1 m respectively in an external field E = 3î + 4ĵ. The torque on the dipole (magnitude) is:",
+      "options": [
+        "10Q N·m",
+        "12Q N·m",
+        "6Q N·m",
+        "8Q N·m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Torque = p × E; p = 2Q î, so τ = (2Q î)×(3î+4ĵ) = 8Q k̂, magnitude 8Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.2883,
+      "question": "A magnetic field is a vector quantity because it has both:",
+      "options": [
+        "Speed and acceleration",
+        "Magnitude and direction",
+        "Force and torque",
+        "Mass and weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A vector quantity is defined by both magnitude and direction; magnetic field has both.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.5615,
+      "question": "The electrostatic force between two charges is 10 N. If one charge is doubled and the other is halved, and the distance is kept constant, the new force is:",
+      "options": [
+        "2.5 N",
+        "10 N",
+        "20 N",
+        "5 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Product q1q2 unchanged (2 × ½ = 1) → force same = 10 N",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.517,
+      "question": "The wavelength of a 5.00 × 10^{19} Hz wave in free space is:",
+      "options": [
+        "3.0 × 10^{-12} m",
+        "6.0 × 10^{-12} m",
+        "1.2 × 10^{-11} m",
+        "9.0 × 10^{-12} m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "λ = c/f = 3e8 / 5e19 = 6e-12 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.6392,
+      "question": "A 50 kW radio transmitter radiates uniformly. At 10 km, the intensity is roughly:",
+      "options": [
+        "8.0 × 10^{-5} W/m²",
+        "2.0 × 10^{-5} W/m²",
+        "4.0 × 10^{-5} W/m²",
+        "6.0 × 10^{-5} W/m²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "I = P/(4πr²) = 50×10³ / (4π×(10⁴)²) ≈ 3.98×10⁻⁵ W/m².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.8425,
+      "question": "The relationship between charge and voltage in a capacitor is given by Q = CV. The current is then expressed as:",
+      "options": [
+        "I = V/R",
+        "I = C dV/dt",
+        "I = C V",
+        "I = L dI/dt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "I = dQ/dt = C dV/dt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.7815,
+      "question": "Electric lines of force are always perpendicular to:",
+      "options": [
+        "Charge distributions",
+        "Equipotential surfaces",
+        "Electric field vectors",
+        "Conductor surfaces only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Field lines are perpendicular to equipotential surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.6152,
+      "question": "Who performed the first experimental confirmation of electromagnetic waves?",
+      "options": [
+        "Hertz",
+        "Faraday",
+        "Oersted",
+        "Maxwell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heinrich Hertz generated and detected radio waves in 1887.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.1006,
+      "question": "The unit of inductance is the Henry (H). The unit of inductive reactance is the:",
+      "options": [
+        "Henry",
+        "Siemens",
+        "Ohm",
+        "Farad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactance is measured in ohms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.0195,
+      "question": "A single-turn loop in a changing magnetic field has an induced electromotive force (emf) of 30.14 mV. If the loop is replaced with a coil having 5 turns under the exact same conditions",
+      "options": [
+        "75.4 mV",
+        "30.1 mV",
+        "150.7 mV",
+        "301.4 mV"
+      ],
+      "correctAnswer": 2,
+      "explanation": "emf = N ΔΦ/Δt = 5×30.14 mV = 150.7 mV.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.1587,
+      "question": "A transformer with a primary winding of 440 turns is connected to a 220 V supply. Find the number of secondary turns required to deliver an output voltage of 22 V.",
+      "options": [
+        "44 turns",
+        "22 turns",
+        "88 turns",
+        "66 turns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N_s = 440 × (22/220) = 44 turns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.3008,
+      "question": "What is the energy stored in a 10 μF capacitor charged to 200 V?",
+      "options": [
+        "0.02 J",
+        "0.2 J",
+        "0.4 J",
+        "0.1 J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "U = ½CV² = 0.5 × 10×10<sup>-6</sup> × (200)² = 0.5×10×10<sup>-6</sup>×40000 = 0.2 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.3113,
+      "question": "A charge of +6 μC is placed at a point where the electric field is 300 N/C directed upward. What is the force on the charge?",
+      "options": [
+        "1.8 × 10⁻³ N upward",
+        "5 × 10⁻⁴ N upward",
+        "1.8 × 10⁻³ N downward",
+        "5 × 10⁻⁴ N downward"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = qE = 6×10⁻⁶ × 300 = 1.8×10⁻³ N upward (same as E for positive charge)",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.5352,
+      "question": "A capacitor of 10 μF and 20 μF are connected in parallel across a 30 V source. The total charge stored is:",
+      "options": [
+        "1.2 × 10<sup>-3</sup> C",
+        "6 × 10<sup>-4</sup> C",
+        "3 × 10<sup>-4</sup> C",
+        "9 × 10<sup>-4</sup> C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C<sub>eq</sub> = 10+20 = 30 μF, Q = 30×10<sup>-6</sup> × 30 = 9×10<sup>-4</sup> C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790266323029.9517,
+      "question": "A charged particle experiences a force of 2.0 × 10<sup>-15</sup> N in an electric field of 5000 N/C. The charge is:",
+      "options": [
+        "8.0 × 10<sup>-19</sup> C",
+        "2.5 × 10<sup>-19</sup> C",
+        "4.0 × 10<sup>-19</sup> C",
+        "1.0 × 10<sup>-19</sup> C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "q = F/E = 2×10<sup>-15</sup>/5000 = 4×10<sup>-19</sup> C.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
