@@ -3,16 +3,507 @@
   "title": "PHY 102 PREP EXAM QUESTIONS FOR UNN",
   "subject": "PHY 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 35,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": true,
     "shuffleOptions": true
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790270887371.1704,
+      "question": "If the distance between two charges is halved, the electrostatic force becomes:",
+      "options": [
+        "Half",
+        "Double",
+        "Four times",
+        "One-fourth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F ∝ 1/r² → r halved → F ×4",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.7966,
+      "question": "Like magnetic poles:",
+      "options": [
+        "Have no effect on each other",
+        "Repel each other",
+        "Cancel each other's field",
+        "Attract each other"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Like poles (N‑N or S‑S) repel each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.9697,
+      "question": "A long straight wire carries 3.0 A. The magnetic field at 0.15 m from the wire is (μ₀ = 4π×10<sup>-7</sup> T·m/A):",
+      "options": [
+        "8.0×10<sup>-6</sup> T",
+        "6.0×10<sup>-6</sup> T",
+        "2.0×10<sup>-6</sup> T",
+        "4.0×10<sup>-6</sup> T"
+      ],
+      "correctAnswer": 3,
+      "explanation": "B = μ₀I/(2πr) = (4π×10<sup>-7</sup> × 3.0)/(2π×0.15) = 4.0×10<sup>-6</sup> T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.0227,
+      "question": "The electric flux through a closed surface containing no charge is:",
+      "options": [
+        "Negative",
+        "Zero",
+        "Positive",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gauss's law: ∮E·dA = Q<sub>enc</sub>/ε₀ = 0, so flux is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.059,
+      "question": "V=12V R=6Ω<br>\nUsing Ohm's law, find the current I flowing in the circuit.",
+      "options": [
+        "1A",
+        "4A",
+        "3A",
+        "2A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "I = V/R = 12V/6Ω = 2A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.8093,
+      "question": "Unlike magnetic poles:",
+      "options": [
+        "Cancel each other's field",
+        "Repel each other",
+        "Attract each other",
+        "Have no effect on each other"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike poles (N‑S) attract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.6335,
+      "question": "The average power consumed in a pure inductor connected to an AC source over one full cycle is:",
+      "options": [
+        "V<sub>rms</sub>I<sub>rms</sub>/ 2",
+        "Maximum",
+        "Zero",
+        "Vrms Irms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Same as capacitor; ideal inductor stores and returns energy, average power zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.8928,
+      "question": "The instantaneous power in a pure resistive circuit is always:",
+      "options": [
+        "Zero",
+        "Negative",
+        "Positive or zero",
+        "Negative or zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "p = i²R is always ≥ 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.3232,
+      "question": "The electric field intensity (E) is defined as the:",
+      "options": [
+        "Force exerted per unit negative test charge",
+        "Force exerted per unit positive test charge",
+        "Work done per unit charge",
+        "Charge per unit area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = F/q₀, where q₀ is a positive test charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.2712,
+      "question": "The force between two charges is 36 N when separated by 0.5 m. What is the force if the separation is reduced to 0.25 m?",
+      "options": [
+        "72 N",
+        "9 N",
+        "18 N",
+        "144 N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "r halved → F ×4 → 36×4 = 144 N",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.2114,
+      "question": "Two charges +Q and –Q are placed at x = 1 m and x = –1 m respectively in an external field E = 3î + 4ĵ. The torque on the dipole is:",
+      "options": [
+        "10Q N·m",
+        "12Q N·m",
+        "6Q N·m",
+        "8Q N·m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Torque = p × E; p = 2Q î, so τ = (2Q î)×(3î+4ĵ) = 8Q k̂, magnitude 8Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.6868,
+      "question": "A magnetic field is a vector quantity because it has both:",
+      "options": [
+        "Speed and acceleration",
+        "Magnitude and direction",
+        "Force and torque",
+        "Mass and weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A vector quantity is defined by both magnitude and direction; magnetic field has both.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887371.303,
+      "question": "The electrostatic force between two charges is 10 N. If one charge is doubled and the other is halved, and the distance is kept constant, the new force is:",
+      "options": [
+        "2.5 N",
+        "10 N",
+        "20 N",
+        "5 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Product q1q2 unchanged (2 × ½ = 1) → force same = 10 N",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.2925,
+      "question": "Who performed the first experimental confirmation of electromagnetic waves?",
+      "options": [
+        "Hertz",
+        "Faraday",
+        "Oersted",
+        "Maxwell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heinrich Hertz generated and detected radio waves in 1887.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.0505,
+      "question": "The unit of inductance is the Henry (H). The unit of inductive reactance is the:",
+      "options": [
+        "Henry",
+        "Siemens",
+        "Ohm",
+        "Farad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactance is measured in ohms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.764,
+      "question": "A single-turn loop in a changing magnetic field has an induced electromotive force (emf) of 30.14 mV. If the loop is replaced with a coil having 5 turns under the exact same conditions",
+      "options": [
+        "75.4 mV",
+        "30.1 mV",
+        "150.7 mV",
+        "301.4 mV"
+      ],
+      "correctAnswer": 2,
+      "explanation": "emf = N ΔΦ/Δt = 5×30.14 mV = 150.7 mV.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.991,
+      "question": "A transformer with a primary winding of 440 turns is connected to a 220 V supply. Find the number of secondary turns required to deliver an output voltage of 22 V.",
+      "options": [
+        "44 turns",
+        "22 turns",
+        "88 turns",
+        "66 turns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "N_s = 440 × (22/220) = 44 turns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.6018,
+      "question": "What is the energy stored in a 10 μF capacitor charged to 200 V?",
+      "options": [
+        "0.02 J",
+        "0.2 J",
+        "0.4 J",
+        "0.1 J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "U = ½CV² = 0.5 × 10×10<sup>-6</sup> × (200)² = 0.5×10×10<sup>-6</sup>×40000 = 0.2 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.2837,
+      "question": "A charge of +6 μC is placed at a point where the electric field is 300 N/C directed upward. What is the force on the charge?",
+      "options": [
+        "1.8 × 10⁻³ N upward",
+        "5 × 10⁻⁴ N upward",
+        "1.8 × 10⁻³ N downward",
+        "5 × 10⁻⁴ N downward"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = qE = 6×10⁻⁶ × 300 = 1.8×10⁻³ N upward (same as E for positive charge)",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.7324,
+      "question": "A capacitor of 10 μF and 20 μF are connected in parallel across a 30 V source. The total charge stored is:",
+      "options": [
+        "1.2 × 10<sup>-3</sup> C",
+        "6 × 10<sup>-4</sup> C",
+        "3 × 10<sup>-4</sup> C",
+        "9 × 10<sup>-4</sup> C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C<sub>eq</sub> = 10+20 = 30 μF, Q = 30×10<sup>-6</sup> × 30 = 9×10<sup>-4</sup> C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790270887372.6453,
+      "question": "A charged particle experiences a force of 2.0 × 10<sup>-15</sup> N in an electric field of 5000 N/C. The charge is:",
+      "options": [
+        "8.0 × 10<sup>-19</sup> C",
+        "2.5 × 10<sup>-19</sup> C",
+        "4.0 × 10<sup>-19</sup> C",
+        "1.0 × 10<sup>-19</sup> C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "q = F/E = 2×10<sup>-15</sup>/5000 = 4×10<sup>-19</sup> C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.1257,
+      "question": "Four identical capacitors of 2 μF each are connected in parallel. The total capacitance is:",
+      "options": [
+        "4 μF",
+        "8 μF",
+        "2 μF",
+        "6 μF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parallel: C = 2+2+2+2 = 8 μF.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.6445,
+      "question": "An infinite line charge has linear charge density λ = 5.0 × 10<sup>-9</sup> C/m. What is the electric field at a distance of 2.0 cm from the line?",
+      "options": [
+        "4.5 × 10<sup>6</sup> N/C",
+        "4.5 × 10<sup>3</sup> N/C",
+        "4.5 × 10<sup>5</sup> N/C",
+        "4.5 × 10<sup>4</sup> N/C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = λ/(2πε₀r) = (2kλ)/r = (2×9×10<sup>9</sup>×5×10<sup>-9</sup>)/0.02 = 4.5×10<sup>3</sup> N/C. The original key marked C, but calculation confirms A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.47,
+      "question": "The mathematical form of Ampere's law is:",
+      "options": [
+        "∮B·dl = μ₀I_enc",
+        "∮E·dl = -dΦB/dt",
+        "∮B·dA = 0",
+        "∮B·dl = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ampere's law: line integral of B around closed loop equals μ₀ times enclosed current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.4194,
+      "question": "A proton (charge = 1.6 × 10<sup>-19</sup> C) is placed in an electric field of 1000 N/C. What force acts on it?",
+      "options": [
+        "1.6 × 10<sup>-22</sup> N",
+        "1.6 × 10<sup>-19</sup> N",
+        "1.6 × 10<sup>-13</sup> N",
+        "1.6 × 10<sup>-16</sup> N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F = qE = 1.6×10<sup>-19</sup> × 1000 = 1.6×10<sup>-16</sup> N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.1765,
+      "question": "A step-up transformer increases 20 V to 100 V. If the secondary has 500 turns, how many turns are on the primary?",
+      "options": [
+        "400 turns",
+        "100 turns",
+        "50 turns",
+        "200 turns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "N_p/N_s = V_p/V_s = 20/100 = 1/5, N_p = 500/5 = 100 turns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.2812,
+      "question": "The electric field at a point 5 cm from a charge of magnitude 3.2 × 10⁻¹⁹ C is approximately:",
+      "options": [
+        "5.76 × 10⁻⁷ N/C",
+        "2.30 × 10⁻⁶ N/C",
+        "3.45 × 10⁻⁶ N/C",
+        "1.15 × 10⁻⁶ N/C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "E = kq/r² = (9×10⁹)(3.2×10⁻¹⁹)/(0.05)² ≈ 1.15×10⁻⁶ N/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.3516,
+      "question": "An ideal transformer has a primary voltage of 100 V and a primary current of 5 A. If the secondary voltage is 50 V, what is the secondary current?",
+      "options": [
+        "2.5 A",
+        "10 A",
+        "25 A",
+        "5 A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power conservation: V_p I_p = V_s I_s ⇒ I_s = (100×5)/50 = 10 A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.3774,
+      "question": "A large plane charge sheet has surface charge density σ = 2.0 × 10<sup>-6</sup> C/m². What is the electric flux through a circular area of radius 1 cm with its normal making 60° with the Z-axis?",
+      "options": [
+        "8.75 N·m²/C",
+        "35.0 N·m²/C",
+        "17.5 N·m²/C",
+        "70.0 N·m²/C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E = σ/(2ε₀) = 2.0×10<sup>-6</sup>/(2×8.85×10<sup>-12</sup>) = 1.13×10<sup>5</sup> N/C. A = π(0.01)² = 3.14×10<sup>-4</sup> m². Φ = E·A·cos60° = 1.13×10<sup>5</sup> × 3.14×10<sup>-4</sup> × 0.5 ≈ 17.5 N·m²/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.717,
+      "question": "The fundamental theorem of network topology relating branches (b), independent loops (l), and nodes (n) is:",
+      "options": [
+        "b = l × n",
+        "n = b + l",
+        "b = l + n − 1",
+        "b = l − n + 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A network must satisfy b = l + n − 1, relating the number of branches, independent loops, and nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.231,
+      "question": "A coil of inductance 0.30 H carries 4.0 A. The stored magnetic energy is:",
+      "options": [
+        "4.80 J",
+        "1.20 J",
+        "2.40 J",
+        "3.60 J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E = ½LI² = 0.5 × 0.30 × 16 = 2.40 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.7505,
+      "question": "Two inductive coils have a mutual inductance of 0.80 H. The current in one coil changes from 2 A to 8 A in 0.040 s. What is the voltage induced in the other coil?",
+      "options": [
+        "120 V",
+        "100 V",
+        "60 V",
+        "80 V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "emf = M ΔI/Δt = 0.80 × (8-2)/0.04 = 0.80×150 = 120 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379034.8308,
+      "question": "If the current in a solenoid is doubled, the magnetic field inside:",
+      "options": [
+        "Doubles",
+        "Quadruples",
+        "Halves",
+        "Remains the same"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B ∝ I, so doubling I doubles B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379035.603,
+      "question": "Lenz’s law is a direct consequence of which fundamental principle?",
+      "options": [
+        "Conservation of charge",
+        "Conservation of energy",
+        "Conservation of linear momentum",
+        "Conservation of angular momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lenz's law ensures that induced emf does not violate energy conservation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790271379035.2566,
+      "question": "The formula for impedance in a series RLC circuit is:",
+      "options": [
+        "Z = √(R² + (XL – XC)²)",
+        "Z = √(R² + XL² + XC²)",
+        "Z = R² + (XL – XC)²",
+        "Z = R + XL + XC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct vector sum: Z = √(R² + (XL−XC)²).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
