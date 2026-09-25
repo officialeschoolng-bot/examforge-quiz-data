@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : INTRODUCTION TO PARASITOLOGY",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790353581673.4338,
+      "question": "Parasitic diseases are particularly severe in which regions?",
+      "options": [
+        "Cold regions",
+        "Tropical regions",
+        "Polar regions",
+        "Desert regions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Warm, humid tropical climates favour the survival and transmission of parasites and their vectors, which is why parasitic diseases are most prevalent and severe in tropical regions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581677.2488,
+      "question": "Many human parasites are either protozoa or which group?",
+      "options": [
+        "Helminthes",
+        "Bacteria",
+        "Fungi",
+        "Viruses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Human parasites fall into two major groups — protozoa (single-celled) and helminthes (worms). Bacteria, fungi, and viruses are not classified as parasites in this context.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581688.0618,
+      "question": "Parasites are considered parasitic mainly when they do what?",
+      "options": [
+        "Form spores",
+        "Live freely",
+        "Contact hosts",
+        "Die quickly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The parasitic state is defined by the relationship the organism has with its host — it becomes parasitic when it establishes contact with and depends on a host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.9575,
+      "question": "A common saying among parasitologists is that more than half the foods of rural poor go to what?",
+      "options": [
+        "Wild birds",
+        "Market traders",
+        "Farm animals",
+        "Parasitic worms"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A well-known observation in parasitology — the rural poor often lose more than half of their nutritional intake to parasitic worm infections that feed on and compete with them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.686,
+      "question": "Parasitism describes contact between individuals of how many species?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parasitism is a two-species association — the parasite and its host — in which the parasite benefits at the host's expense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.8164,
+      "question": "A parasite is metabolically dependent on its host to what degree?",
+      "options": [
+        "No degree",
+        "Equal degree",
+        "Some degree",
+        "Total degree"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parasites are dependent on their hosts to some degree — nutritional, developmental, or otherwise — but the level of dependence varies between species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.8362,
+      "question": "According to Smyth 1976, parasites may depend on hosts for all except which item?",
+      "options": [
+        "Developmental stimuli",
+        "Digestive enzymes",
+        "Nutritional materials",
+        "Oxygen only"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Smyth (1976) lists developmental stimuli, digestive enzymes, and nutritional materials as host-provided requirements. Oxygen is not a specific host dependency — parasites obtain it through normal respiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.4563,
+      "question": "Parasitism is described as what kind of term?",
+      "options": [
+        "Relative",
+        "Absolute",
+        "Fixed",
+        "Legal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parasitism is a relative term — the same organism may be parasitic in one host or environment and free-living in another. It is not a fixed category.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.9917,
+      "question": "Ectoparasites are found where on hosts?",
+      "options": [
+        "In liver",
+        "On surface",
+        "In blood",
+        "In lungs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ectoparasites live on the external surface of the host — on skin, hair, or feathers — as opposed to endoparasites, which live inside.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.5122,
+      "question": "Infection by ectoparasites is known as what?",
+      "options": [
+        "Infestation",
+        "Ingestion",
+        "Injection",
+        "Infarction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Infestation\" is the correct term for ectoparasite colonisation; \"infection\" typically refers to invasion by internal parasites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.5078,
+      "question": "All protozoan and helminth parasites of humans are what?",
+      "options": [
+        "Ectoparasitic",
+        "Free-living",
+        "Hyper-parasitic",
+        "Endoparasitic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All protozoan and helminth parasites of humans live inside the body — in the gut, blood, tissues, or organs — making them endoparasites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.3174,
+      "question": "Obligate parasites depend on hosts for how long?",
+      "options": [
+        "Only adulthood",
+        "Only larvae",
+        "Part or all life cycle",
+        "Never"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Obligate parasites must spend either part of or their entire life cycle in or on a host to survive. They cannot complete the cycle free-living.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.7979,
+      "question": "Facultative parasites normally live free but can assume what mode?",
+      "options": [
+        "Obligate",
+        "Hyper",
+        "Permanent",
+        "Parasitic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Facultative parasites are normally free-living, but can adopt a parasitic mode when the opportunity arises (e.g. when a wound exposes them to a host).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.6218,
+      "question": "Proliferous parasites are also called what?",
+      "options": [
+        "Macro-parasites",
+        "Micro-parasites",
+        "Ectoparasites",
+        "Transport hosts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Proliferous parasites multiply within the human body, which makes their numbers increase over time. They are called micro-parasites because of their small size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.888,
+      "question": "Non-proliferous parasites do not do what in the human body?",
+      "options": [
+        "Multiply",
+        "Feed",
+        "Move",
+        "Attach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Non-proliferous parasites (most helminths) do not multiply in the human body — their numbers stay fixed at the number that entered. Multiplication occurs in intermediate hosts or the external environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.8528,
+      "question": "Temporary parasites are best described as those that do what?",
+      "options": [
+        "Reside permanently",
+        "Never leave",
+        "Make occasional visits",
+        "Live freely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temporary parasites visit the host only briefly — to feed, for example — and spend the rest of their life elsewhere. Mosquitoes and leeches are examples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.6455,
+      "question": "Accidental parasites are also known as what?",
+      "options": [
+        "Permanent parasites",
+        "Obligate parasites",
+        "Hyper-parasites",
+        "Occasional parasites"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Accidental parasites (also called occasional parasites) infect a host that is not their usual host — such as when a human acquires a worm normally found in another animal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.523,
+      "question": "Hyper-parasites are parasites of what?",
+      "options": [
+        "Plants",
+        "Other parasites",
+        "Soil",
+        "Water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hyper-parasites are parasites that live on or in other parasites — for example, a protozoan infecting a helminth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.06,
+      "question": "A host is defined as an organism that provides what?",
+      "options": [
+        "Only transport",
+        "Only oxygen",
+        "Nourishment and shelter",
+        "Only enzymes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A host provides both nourishment and shelter to the parasite — it is the organism the parasite depends on for survival.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.9048,
+      "question": "The definitive host is where the parasite does what?",
+      "options": [
+        "Sexual reproduction",
+        "Larval survival",
+        "No development",
+        "Accidental entry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The definitive host is where the parasite reaches sexual maturity and reproduces sexually. This is the diagnostic feature that distinguishes it from an intermediate host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.2893,
+      "question": "The intermediate host contains which parasite stages?",
+      "options": [
+        "Adult stages",
+        "Larval or asexual stages",
+        "Free-living stages",
+        "Resistant spores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intermediate host harbours larval or asexual stages of the parasite. Sexual development occurs only in the definitive host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.3604,
+      "question": "A paratenic host is one where larval stages do what?",
+      "options": [
+        "Develop fully",
+        "Reproduce sexually",
+        "Die quickly",
+        "Survive without further development"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A paratenic (or transport) host harbours larval stages that survive but do not develop further. The parasite simply waits to be eaten by the definitive host — the larva is essentially in storage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.8389,
+      "question": "A reservoir host is important because it does what?",
+      "options": [
+        "Prevents infection",
+        "Kills parasites",
+        "Serves as infection source",
+        "Blocks transmission"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A reservoir host maintains the parasite in nature and serves as a source of infection for humans. Wild animals are often reservoirs for zoonotic parasites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.0842,
+      "question": "Paragonimus requires a snail and crustacean as what?",
+      "options": [
+        "Intermediate hosts",
+        "Definitive hosts",
+        "Reservoir hosts",
+        "Paratenic hosts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paragonimus (lung fluke) requires both a snail and a crustacean (crab or crayfish) as intermediate hosts before reaching the human definitive host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.984,
+      "question": "Which is a common source of parasitic infection?",
+      "options": [
+        "Clean air",
+        "Contaminated soil and water",
+        "Pasteurized milk",
+        "Cooked rice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contaminated soil and water are major sources of parasitic infection — they carry eggs, cysts, and larvae that enter the body via ingestion or through the skin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.4917,
+      "question": "Raw or undercooked pork and beef can be sources of what?",
+      "options": [
+        "Vitamin excess",
+        "Bacterial toxins only",
+        "Allergies only",
+        "Parasitic infections"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Raw or undercooked pork and beef can transmit tapeworms (Taenia solium, Taenia saginata) and other parasites. Thorough cooking is essential to kill infective larvae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.2512,
+      "question": "Autoinfection is listed as what?",
+      "options": [
+        "A host type",
+        "A parasite class",
+        "A source of infection",
+        "A vector organ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Autoinfection is a source of infection in which the same individual reinfects themselves — as with Strongyloides or Enterobius, whose eggs can hatch in the perianal area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.2039,
+      "question": "Necrosis caused by lack of blood flow is called what?",
+      "options": [
+        "Ischemia",
+        "Trauma",
+        "Allergy",
+        "Inflammation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ischemia is reduced or blocked blood supply to a tissue, leading to tissue death (necrosis). Parasites that block vessels can cause ischemic necrosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.2124,
+      "question": "Trauma as a pathogenic effect is seen in which parasites?",
+      "options": [
+        "Plasmodium only",
+        "Trypanosoma only",
+        "Toxoplasma only",
+        "Hookworms and roundworms"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hookworms and roundworms cause direct mechanical trauma — hookworms lacerate the intestinal mucosa to feed, and large roundworms can obstruct or damage the gut wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.6145,
+      "question": "Lytic necrosis is illustrated by which infection?",
+      "options": [
+        "Trichinellosis",
+        "Amoebiasis",
+        "Leishmaniasis",
+        "Hydatid cysts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amoebiasis is the classic example of lytic necrosis — Entamoeba histolytica produces cysteine proteases that dissolve host tissue, forming flask-shaped ulcers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.482,
+      "question": "Which is a portal of entry for parasites?",
+      "options": [
+        "Hair",
+        "Nail",
+        "Mouth",
+        "Skin pore only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The mouth is a major portal of entry — most intestinal parasites enter via ingestion of contaminated food or water. Skin is also a portal, but not hair, nails, or skin pores specifically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.099,
+      "question": "Parasites may suck blood, lymph, or what else?",
+      "options": [
+        "Exudates",
+        "Bone",
+        "Cartilage",
+        "Keratin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blood-feeding parasites may also feed on exudates (inflammatory fluids) in tissues. Bone, cartilage, and keratin are not nutritional sources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.2622,
+      "question": "D. latum competes with the host for which vitamin?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diphyllobothrium latum (the broad fish tapeworm) absorbs large amounts of vitamin B12 from the host's intestine, potentially causing megaloblastic anaemia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.8428,
+      "question": "Ascarids may cause mechanical obstruction of what?",
+      "options": [
+        "Skin",
+        "Intestine",
+        "Hair",
+        "Nail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A heavy burden of Ascaris lumbricoides can cause intestinal obstruction — a serious complication, particularly in children.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581689.1082,
+      "question": "Mosquitoes injure hosts by carrying which disease?",
+      "options": [
+        "Rabies",
+        "Tetanus",
+        "Malaria",
+        "Measles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mosquitoes transmit malaria (Plasmodium) — the parasite is biologically transmitted, meaning it develops within the mosquito before infecting the human host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.6392,
+      "question": "Inflammation links which two defence mechanisms?",
+      "options": [
+        "Specific and non-specific",
+        "Innate and acquired only",
+        "Physical and chemical only",
+        "Cellular and genetic only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inflammation acts as a bridge between specific (adaptive) and non-specific (innate) immunity — it initiates innate responses and helps recruit adaptive immune cells to the site.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.9568,
+      "question": "Under normal conditions, host and parasite exist in what state?",
+      "options": [
+        "War",
+        "Sterility",
+        "Immunity only",
+        "Balance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In a well-adapted host-parasite relationship, both survive — the parasite does not kill the host and the host does not eliminate the parasite. This is a state of balance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.4756,
+      "question": "Size reduction in parasites is what kind of adaptation?",
+      "options": [
+        "Physiological",
+        "Reproductive",
+        "Morphological",
+        "Behavioural"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Size reduction is a morphological adaptation — parasites have lost body structures they no longer need (e.g. locomotory organs) and become smaller than their free-living relatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.0447,
+      "question": "Loss of sense and locomotory organs is due to what?",
+      "options": [
+        "High oxygen",
+        "Constant parasitic environment",
+        "Low food",
+        "Cold weather"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The stable, nutrient-rich environment inside the host makes sense organs and locomotory organs unnecessary. Loss of these structures is an adaptation to a constant parasitic environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.32,
+      "question": "Some gut parasites lack an alimentary canal because they do what?",
+      "options": [
+        "Absorb digested food",
+        "Photosynthesize",
+        "Store water",
+        "Produce toxins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gut parasites like tapeworms live in a bath of already-digested host food and absorb nutrients directly across their body surface. An alimentary canal would be redundant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.0986,
+      "question": "A thick resistant outer covering helps parasites resist what?",
+      "options": [
+        "Sunlight",
+        "Desiccation only",
+        "Predators only",
+        "Digestive enzymes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The thick tegument or cuticle protects the parasite from the host's digestive enzymes and immune attack — essential for parasites living in the gut or bloodstream.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.088,
+      "question": "Hooks and suckers of tapeworms are examples of what?",
+      "options": [
+        "Sense organs",
+        "Locomotory organs",
+        "Attachment organs",
+        "Reproductive organs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hooks and suckers are specialised attachment organs — they anchor the tapeworm to the intestinal wall so it isn't swept away by peristalsis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.8325,
+      "question": "Anti-coagulants are produced by which parasites?",
+      "options": [
+        "Gut parasites",
+        "Blood-feeding parasites",
+        "Lung parasites",
+        "Skin parasites"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood-feeding parasites produce anti-coagulants in their saliva to prevent the host's blood from clotting at the feeding site, keeping the blood flowing while they feed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.2615,
+      "question": "Antigenic disguise is seen in which parasite?",
+      "options": [
+        "Schistosomes",
+        "Ascaris",
+        "Enterobius",
+        "Trichuris"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Schistosomes coat themselves with host antigens, effectively hiding from the immune system — a form of antigenic disguise that allows long-term survival in the bloodstream.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.6792,
+      "question": "Production of large numbers of eggs is what kind of adaptation?",
+      "options": [
+        "Morphological",
+        "Physiological",
+        "Behavioural",
+        "Reproductive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Producing enormous numbers of eggs is a reproductive adaptation — it compensates for the low probability that any single egg will successfully reach a new host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.3699,
+      "question": "Polyembryony is seen in which parasite group?",
+      "options": [
+        "Nematodes",
+        "Arthropods",
+        "Digenetic trematodes",
+        "Cestodes only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polyembryony (one egg producing many embryos) occurs in digenetic trematodes — a single larval cell mass can give rise to many offspring, multiplying the parasite's reproductive output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.9773,
+      "question": "Mutualism is an association in which both associates do what?",
+      "options": [
+        "Lose",
+        "Benefit",
+        "Harm each other",
+        "Ignore each other"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mutualism is a two-species association in which both partners benefit. Neither is harmed — unlike parasitism, where one partner benefits at the other's expense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.1562,
+      "question": "The hermit crab and sea anemone illustrate what association?",
+      "options": [
+        "Commensalism",
+        "Parasitism",
+        "Phoresis",
+        "Hyper-parasitism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sea anemone rides on the hermit crab's shell and gains mobility, while the crab gains protection from the anemone's stinging cells. Neither is harmed — this is commensalism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.0022,
+      "question": "The remora and shark illustrate what association?",
+      "options": [
+        "Mutualism",
+        "Parasitism",
+        "Commensalism",
+        "Phoresis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The remora attaches to the shark and is carried along — this is phoresis (transport commensalism). One partner is transported; neither benefits nor is harmed nutritionally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353581690.8433,
+      "question": "Termite flagellates are described as what type of association?",
+      "options": [
+        "Predation",
+        "Phoresis",
+        "Symbiotic parasitism",
+        "Accidental parasitism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Termite flagellates live in the termite gut and help digest cellulose. Since the flagellate cannot survive outside the termite and the termite cannot digest wood without it, the association is described as symbiotic parasitism — mutual dependence.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
