@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : TRICHOMONIASIS",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790357025684.8394,
+      "question": "Trichomonads are flagellate protozoa possessing how many anterior flagella?",
+      "options": [
+        "One to two",
+        "Six to eight",
+        "Three to five",
+        "Nine to ten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trichomonads possess three to five anterior flagella — one of the features used to classify them within the family Trichomonadidae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.0203,
+      "question": "Members of the family Trichomonadidae are found in intestinal or reproductive tracts of vertebrates and invertebrates, with one group living exclusively in the gut of what?",
+      "options": [
+        "Bees",
+        "Termites",
+        "Ants",
+        "Beetles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One group of trichomonads lives exclusively in the gut of termites, where they help digest cellulose — a mutualistic association.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.9604,
+      "question": "How many trichomonad species are common in humans?",
+      "options": [
+        "Two",
+        "Four",
+        "Five",
+        "Three"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Three trichomonad species are common in humans: T. tenax (mouth), T. hominis (intestine), and T. vaginalis (urogenital tract).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.888,
+      "question": "Which Trichomonas species causes the most common form of trichomoniasis in humans?",
+      "options": [
+        "T. tenax",
+        "T. hominis",
+        "T. vaginalis",
+        "T. foetus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trichomonas vaginalis causes the most common form of trichomoniasis in humans — a sexually transmitted infection of the urogenital tract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.827,
+      "question": "Trichomonas tenax was first discovered by whom?",
+      "options": [
+        "Donne",
+        "Davaine",
+        "O.F Muller",
+        "Leuckart"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trichomonas tenax was first discovered by O.F. Müller in 1773 — one of the earliest described trichomonads.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.4326,
+      "question": "In which year was Trichomonas tenax first discovered?",
+      "options": [
+        "1836",
+        "1773",
+        "1860",
+        "1879"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O.F. Müller discovered T. tenax in 1773 — more than a century before the other human trichomonads were identified.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.859,
+      "question": "Trichomonas tenax possesses how many anterior flagella?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T. tenax possesses four anterior flagella — a distinguishing morphological feature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.6045,
+      "question": "The fifth flagellum of T. tenax curves back along the margin of what?",
+      "options": [
+        "The nucleus",
+        "The cytostome",
+        "An undulating membrane",
+        "The axostyle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fifth flagellum of T. tenax curves back along the margin of an undulating membrane — the same pattern seen in other trichomonads.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.0925,
+      "question": "Trichomonas tenax has been found only in which part of the human body?",
+      "options": [
+        "Large intestine",
+        "Vagina",
+        "Urethra",
+        "Human mouth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T. tenax has been found only in the human mouth — specifically in the tartar between teeth, in gums, and in tooth cavities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.9773,
+      "question": "Trichomonas tenax is considered to be what?",
+      "options": [
+        "Pathogenic",
+        "Harmless commensal",
+        "Invasive",
+        "Destructive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T. tenax is considered a harmless commensal of the mouth. It does not cause disease and is only noted because it can be mistaken for other trichomonads.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.8418,
+      "question": "Transmission of T. tenax is direct, usually through what?",
+      "options": [
+        "Contaminated water",
+        "Insect bites",
+        "Kissing or common use of utensils",
+        "Sexual intercourse"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transmission of T. tenax is direct, usually through kissing or common use of utensils — habits that pass oral secretions from person to person.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.0771,
+      "question": "Trophozoites of T. tenax divide by what process?",
+      "options": [
+        "Schizogony",
+        "Binary fission",
+        "Endodyogeny",
+        "Sporogony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trophozoites of T. tenax divide by binary fission. No cyst stage is known for this species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.4675,
+      "question": "Trichomonas tenax is most abundant between the teeth and gums and in what else?",
+      "options": [
+        "The stomach",
+        "The small intestine",
+        "Pus pockets and tooth cavities",
+        "The colon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T. tenax is most abundant between the teeth and gums, and in pus pockets around teeth and in tooth cavities — environments rich in organic debris.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.6677,
+      "question": "Trichomonas hominis was discovered by whom?",
+      "options": [
+        "Donne",
+        "O.F Muller",
+        "Leuckart",
+        "Davaine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Trichomonas hominis was discovered by Davaine, who named it Cercomonas hominis in 1860.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.8928,
+      "question": "In which year did Davaine name the organism Cercomonas hominis?",
+      "options": [
+        "1773",
+        "1836",
+        "1879",
+        "1860"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Davaine named the organism Cercomonas hominis in 1860. It was later reclassified into the genus Trichomonas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.2544,
+      "question": "Trichomonas hominis is a harmless commensal of which organ?",
+      "options": [
+        "Human mouth",
+        "Vagina",
+        "Large intestine",
+        "Urethra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T. hominis is a harmless commensal of the large intestine. It does not invade tissue or cause disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.9268,
+      "question": "Trichomonas hominis is the most common intestinal flagellate of humans after which organism?",
+      "options": [
+        "Trichomonas vaginalis",
+        "Entamoeba coli",
+        "Balantidium coli",
+        "Giardia intestinalis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T. hominis is the most common intestinal flagellate of humans after Giardia intestinalis. Both are found worldwide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.1936,
+      "question": "Which stage of Trichomonas hominis is known?",
+      "options": [
+        "Cyst only",
+        "Trophozoite only",
+        "Both cyst and trophozoite",
+        "Sporozoite only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only the trophozoite stage of T. hominis is known. No cyst stage has been identified — transmission is by direct transfer of trophozoites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.7883,
+      "question": "The trophozoite of Trichomonas hominis is described as what shape?",
+      "options": [
+        "Round",
+        "Oval",
+        "Elongate",
+        "Pear-shaped"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The trophozoite of T. hominis is pear-shaped (pyriform), with a rounded anterior end and tapering posterior end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.4973,
+      "question": "The flagella arrangement in T. hominis is referred to as what?",
+      "options": [
+        "Two-plus-two",
+        "Four-plus-one",
+        "Three-plus-two",
+        "Five-plus-zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flagella arrangement in T. hominis is four-plus-one — four anterior flagella plus one that curves along the undulating membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.5093,
+      "question": "Trichomonas hominis divides by what process?",
+      "options": [
+        "Transverse binary fission",
+        "Schizogony",
+        "Longitudinal binary fission",
+        "Endodyogeny"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T. hominis divides by longitudinal binary fission — the plane of division runs lengthwise, producing two identical daughter cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.5613,
+      "question": "In formed stools, Trichomonas hominis are rounded and dormant but not what?",
+      "options": [
+        "Dead",
+        "Mobile",
+        "Encysted",
+        "Feeding"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In formed stools, T. hominis trophozoites become rounded and dormant, but they are not truly encysted — they lack a cyst wall. They resume activity when conditions improve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025687.5898,
+      "question": "Flies associated with filth can serve as what for T. hominis?",
+      "options": [
+        "Reservoirs",
+        "Mechanical vectors",
+        "Intermediate hosts",
+        "Definitive hosts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flies associated with filth can serve as mechanical vectors for T. hominis — they carry trophozoites on their bodies and deposit them on food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.349,
+      "question": "Diagnosis of T. hominis depends on identification of the organism in what?",
+      "options": [
+        "Blood samples",
+        "Urine samples",
+        "Saliva samples",
+        "Faecal preparations"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diagnosis of T. hominis depends on identification of the trophozoite in faecal preparations — fresh wet mounts examined microscopically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.7297,
+      "question": "Trichomonas vaginalis was first found by whom?",
+      "options": [
+        "O.F Muller",
+        "Donne",
+        "Davaine",
+        "Leuckart"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trichomonas vaginalis was first found by Donne in 1836 in the vaginal secretions of a woman with vaginitis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.627,
+      "question": "In which year was Trichomonas vaginalis first found?",
+      "options": [
+        "1773",
+        "1860",
+        "1836",
+        "1879"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Donne discovered T. vaginalis in 1836 — a full 60 years before it was recognised as the cause of trichomoniasis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.4153,
+      "question": "Trichomonas vaginalis is found inhabiting which tracts?",
+      "options": [
+        "Intestinal tracts",
+        "Respiratory tracts",
+        "Reproductive tracts",
+        "Nervous tracts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T. vaginalis inhabits the reproductive tracts of both sexes — vagina, cervix, and urethra in women; prostate, seminal vesicles, and urethra in men.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.662,
+      "question": "In women, T. vaginalis lives in the vagina, vulva, cervix, and what else?",
+      "options": [
+        "Prostate",
+        "Seminal vesicles",
+        "Urethra",
+        "Colon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In women, T. vaginalis lives in the vagina, vulva, cervix, and urethra — the entire lower urogenital tract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.2686,
+      "question": "In men, T. vaginalis lives in the prostate, seminal vesicles, and what else?",
+      "options": [
+        "Vagina",
+        "Urethra",
+        "Cervix",
+        "Vulva"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In men, T. vaginalis lives in the prostate, seminal vesicles, and urethra — often asymptomatically, which is why men are important carriers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.4587,
+      "question": "Trichomonas vaginalis is transmitted primarily by what?",
+      "options": [
+        "Contaminated food",
+        "Insect bites",
+        "Air droplets",
+        "Sexual intercourse"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T. vaginalis is transmitted primarily by sexual intercourse. It is one of the most common sexually transmitted infections worldwide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.6052,
+      "question": "The acidity of normal vagina is what pH range?",
+      "options": [
+        "1.0 to 2.5",
+        "5.0 to 6.0",
+        "3.8 to 4.5",
+        "7.0 to 8.0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The normal vaginal pH is 3.8 to 4.5 — maintained by lactic acid-producing bacteria (Lactobacillus). This acidity protects against many pathogens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.3228,
+      "question": "Once established, T. vaginalis causes a shift toward what?",
+      "options": [
+        "Acidity",
+        "Neutrality",
+        "Alkalinity",
+        "No change"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Once established, T. vaginalis causes a shift toward alkalinity — the parasite consumes the lactobacilli and produces its own metabolic products that raise pH.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.6755,
+      "question": "The pH shift caused by T. vaginalis is to what range?",
+      "options": [
+        "1.0 to 2.0",
+        "5 to 6",
+        "2.5 to 3.5",
+        "7 to 8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pH shift caused by T. vaginalis is to a range of 5 to 6 — much less acidic, allowing other pathogens to flourish and producing the characteristic symptoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.608,
+      "question": "Trichomoniasis is a chronic infection of which tract?",
+      "options": [
+        "Intestinal tract",
+        "Respiratory tract",
+        "Urinary tract only",
+        "Genital tract"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Trichomoniasis is a chronic infection of the genital tract. It can persist for years if untreated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.6787,
+      "question": "In the female, trichomoniasis presents with vaginitis accompanied by what?",
+      "options": [
+        "Dryness",
+        "Bleeding",
+        "Copious discharge",
+        "Ulcers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the female, trichomoniasis presents with vaginitis accompanied by copious discharge — typically thin, frothy, yellow-green, and foul-smelling.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.0684,
+      "question": "Trichomoniasis is caused by which organism?",
+      "options": [
+        "Trichomonas tenax",
+        "Trichomonas hominis",
+        "Trichomonas foetus",
+        "Trichomonas vaginalis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Trichomoniasis is caused by Trichomonas vaginalis — the urogenital trichomonad. The other species cause no disease in humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.691,
+      "question": "The incubation period of trichomoniasis is how long?",
+      "options": [
+        "1 to 3 days",
+        "1 to 3 months",
+        "1 to 3 weeks",
+        "1 to 3 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The incubation period of trichomoniasis is 1 to 3 weeks, though some infections remain asymptomatic for much longer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.147,
+      "question": "A few days after infection, there is degeneration of vaginal epithelium followed by infiltration by what?",
+      "options": [
+        "Erythrocytes",
+        "Platelets",
+        "Leucocytes",
+        "Plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A few days after infection, there is degeneration of vaginal epithelium followed by infiltration by leucocytes — the immune response that produces the heavy discharge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.2883,
+      "question": "The vaginal secretions in trichomoniasis become abundant and white, a condition known as what?",
+      "options": [
+        "Haemorrhage",
+        "Leucorrhoea",
+        "Amenorrhoea",
+        "Dysmenorrhoea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vaginal secretions in trichomoniasis become abundant and white, a condition known as leucorrhoea — the classical presenting complaint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.0122,
+      "question": "Signs and symptoms in females with trichomoniasis include vulvae pruritis and what else?",
+      "options": [
+        "Numbness",
+        "Burning sensation",
+        "Paralysis",
+        "Swelling only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Signs and symptoms in females include vulval pruritus (itching) and a burning sensation — especially during urination and intercourse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.4292,
+      "question": "In men, trichomoniasis is usually what?",
+      "options": [
+        "Symptomatic",
+        "Severe",
+        "Asymptomatic",
+        "Fatal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In men, trichomoniasis is usually asymptomatic. Men act as silent carriers who reinfect their partners — a key reason simultaneous treatment is required.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.732,
+      "question": "Diagnosis of trichomoniasis depends on examination of what?",
+      "options": [
+        "Blood sample",
+        "Urine sample",
+        "Stool sample",
+        "Wet film preparation of vaginal or urethral secretions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diagnosis depends on examination of wet film preparations of vaginal or urethral secretions — motile trophozoites are seen under the microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.3225,
+      "question": "Which drug usually cures trichomoniasis in about five days?",
+      "options": [
+        "Chloroquine",
+        "Penicillin",
+        "Metronidazole",
+        "Tetracycline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Metronidazole usually cures trichomoniasis in about five days — it is the drug of choice, well tolerated and highly effective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.031,
+      "question": "Which drugs are equally effective as metronidazole with fewer side effects?",
+      "options": [
+        "Chloroquine and primaquine",
+        "Penicillin and streptomycin",
+        "Tinidazole and ornidazole",
+        "Tetracycline and doxycycline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tinidazole and ornidazole are equally effective as metronidazole with fewer side effects — they have longer half-lives and can be given in single doses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.9783,
+      "question": "Postmenopausal patients may require treatment with what to improve vaginal epithelium?",
+      "options": [
+        "Progesterone",
+        "Testosterone",
+        "Cortisone",
+        "Estrogens"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Postmenopausal patients may require treatment with estrogens — low estrogen thins the vaginal epithelium, making it more vulnerable. Estrogen restores thickness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.3037,
+      "question": "The reservoir of trichomoniasis infection is exclusively in what?",
+      "options": [
+        "Animals",
+        "Insects",
+        "Humans",
+        "Environment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The reservoir of trichomoniasis is exclusively in humans. No animal reservoir exists — T. vaginalis is anthroponotic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.2542,
+      "question": "Infants may be infected with T. vaginalis during what?",
+      "options": [
+        "Breastfeeding",
+        "Weaning",
+        "Birth",
+        "Vaccination"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Infants may be infected during birth — they can acquire T. vaginalis from an infected mother's birth canal, though the infection often clears spontaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.5635,
+      "question": "Control of T. vaginalis infections always requires simultaneous treatment of whom?",
+      "options": [
+        "Only the female",
+        "Both sexual partners",
+        "Only the male",
+        "All family members"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Control always requires simultaneous treatment of both sexual partners — otherwise the untreated partner reinfects the treated one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.6692,
+      "question": "Mechanical protection during intercourse until infection is eradicated is provided by what?",
+      "options": [
+        "Diaphragm",
+        "Spermicide",
+        "Condom",
+        "Pessary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mechanical protection during intercourse is provided by a condom. It prevents transmission of T. vaginalis and other STIs while treatment is completed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790357025688.5894,
+      "question": "Trichomoniasis has what type of distribution?",
+      "options": [
+        "Tropical only",
+        "Worldwide",
+        "Temperate only",
+        "Polar only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trichomoniasis has a worldwide distribution — it is one of the most common non-viral sexually transmitted infections globally.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
