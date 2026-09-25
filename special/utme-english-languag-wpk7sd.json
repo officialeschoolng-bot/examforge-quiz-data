@@ -3,16 +3,718 @@
   "title": "UTME ENGLISH LANGUAGE PRACTICE QUESTIONS",
   "subject": "English Language",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790373032312.8772,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>If he were here, it could be more fun.",
+      "options": [
+        "He was expected but did not show up to make the occasion lively.",
+        "There was no fun because he was not present.",
+        "He did not show up and so the occasion lacked much fun.",
+        "He was being expected to supply more fun."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence uses a second conditional — \"If he were here, it could be more fun\" — which implies the \"if\" clause is false. He is not here. The speaker is saying that the absence of this person is the reason the occasion is less enjoyable than it could have been. Option C captures this directly: he did not come, and as a result there was less fun. Option A adds \"was expected,\" which the sentence does not say. Option B is too absolute — the sentence says \"could be more fun,\" meaning some fun was present. Option D misreads \"could be\" as an expectation of future entertainment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.4836,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>The secretary said that the postponement of the meeting was due to unforeseen circumstances.",
+      "options": [
+        "The date of the meeting was shifted as a result of unexpected reasons.",
+        "The meeting's date was put off for strange reasons.",
+        "The meeting was called off as a result of obstacles hitherto unknown.",
+        "The meeting broke off as a result of unusual difficulties."
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Postponement\" means the meeting was moved to a later date, not cancelled. \"Unforeseen\" means unexpected or not anticipated — not \"strange\" or \"unusual.\" Option A is the only one that correctly conveys both ideas: the date was shifted, and the reason was something nobody had anticipated. Option B uses \"strange\" instead of \"unexpected.\" Option C uses \"called off\" (cancelled), which contradicts \"postponement.\" Option D uses \"broke off,\" which means it ended mid-way, not that it was rescheduled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.7942,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>The hunter has a bird's-eye view of the animals.",
+      "options": [
+        "He views the animal from a high position.",
+        "He views the bird's eye.",
+        "He views the birds on the tree with one eye.",
+        "He watches animals and birds closely."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A \"bird's-eye view\" is an idiom meaning a view from a very high vantage point, as if seen from a bird flying above. The hunter is able to see the animals from such a height. Option B reads it literally (looking at a bird's eye), which is absurd. Option C is a nonsense reading. Option D shifts the meaning to \"watching closely,\" which is a different idiom (\"to watch like a hawk\" or \"to keep a close eye on\").",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.4875,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>Even though Susan was the last in the examination, her result wasn't too different from what had been expected.",
+      "options": [
+        "Her result was poor.",
+        "Her result was a disappointment.",
+        "Her result was as expected.",
+        "She had not been serious with her studies."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase \"wasn't too different from what had been expected\" is a diplomatic way of saying the result matched expectations. The \"even though\" clause acknowledges she came last, but the main clause emphasises that this outcome was not a surprise. Option C captures this. Option A is true but misses the point — the sentence is not about how poor the result was, but about how unsurprising it was. Option B contradicts the sentence. Option D introduces a cause the sentence does not mention.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.944,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>Mrs. Adasu does all her work with more haste, less speed.",
+      "options": [
+        "She accepts whatever she does with more haste and speed.",
+        "She approaches whatever she does hurriedly.",
+        "She addresses everything she does very quickly to avoid mistakes.",
+        "She does everything carefully to avoid mistakes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The proverb \"more haste, less speed\" means that rushing produces slower results because of mistakes. Applied to Mrs. Adasu, the sentence characterises her as someone who hurries, and the proverb warns that her haste is counter-productive. Option B is the closest to the literal description. Option D contradicts the sentence — it says she does everything carefully, but the sentence criticises her haste. Option C confuses the proverb by adding \"to avoid mistakes,\" when the proverb warns of mistakes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.5706,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>She stopped her education as her uncle left her in the lurch.",
+      "options": [
+        "Her uncle deceived her.",
+        "Her uncle disinherited her.",
+        "Her uncle refused to help her.",
+        "Her uncle disrespected her."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To \"leave someone in the lurch\" is an idiom meaning to abandon someone in a difficult situation when they most need help. The sentence says she stopped her education because her uncle, who was presumably her sponsor, abandoned her. Option C matches: he refused to help her. Option A is weaker — \"deceived\" implies trickery, not abandonment. Option B means he removed her from his will, which is not the same as abandoning her. Option D has nothing to do with the idiom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.6272,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>The plan to upgrade the dispensary to a general hospital did not materialize.",
+      "options": [
+        "The plan did not meet the required specifications.",
+        "The arrangement did not work out as wished.",
+        "It was difficult to obtain the materials.",
+        "The materials purchased were not the right ones."
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Did not materialize\" means the plan did not become reality — it did not happen. Option B conveys this in plain terms: the arrangement did not work out. Option A introduces specifications, which the sentence does not mention. Option C offers a reason (difficulty obtaining materials) that is not stated. Option D also introduces a specific reason that the sentence does not give.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.1548,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>Okon's company took a hit last year.",
+      "options": [
+        "His company improved last year.",
+        "His company made a huge success last year.",
+        "His company was badly damaged last year.",
+        "His company was established last year."
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Took a hit\" is an idiom meaning suffered damage or a setback. It is typically used for financial or reputational damage. Option C captures this. Options A and B are opposite in meaning. Option D confuses \"hit\" with the idea of founding or starting, which is not what the idiom means.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.3694,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>My eldest son, who is in Lagos is studying English.",
+      "options": [
+        "Only my son is in Lagos studying English.",
+        "My only son is in Lagos studying English.",
+        "One of my sons is in Lagos studying English.",
+        "My sons are in Lagos but only one is studying English."
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"My eldest son\" implies the speaker has more than one son — otherwise, they would say \"my only son.\" The relative clause identifies which of the sons is in Lagos studying English. So the sentence states that one of the speaker's sons (the eldest) is in Lagos studying English. Option C is correct. Option A suggests only one son exists, but \"eldest\" contradicts that. Option B also implies only one son. Option D says all sons are in Lagos, which the sentence does not claim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.306,
+      "question": "<i>Instruction: Select the option that best explains the information conveyed in the sentence.</i><br><br>If I went to the village, I would visit the king.",
+      "options": [
+        "If I go to the village I will visit the king.",
+        "I did not go to the village and I did not visit the king.",
+        "All the times I went to village I also visited the King.",
+        "I will visit the king when I go to the village."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a second conditional — \"If I went... I would visit...\" — which describes a hypothetical or unreal situation in the present or past. By using the past tense in the \"if\" clause, the speaker implies that they did NOT go to the village. So both the going and the visiting did not happen. Option B captures that. Option A changes it to a first conditional (real future possibility). Option C misreads it as a habitual statement. Option D also changes the conditional structure to a real future.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.0854,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>Since its <u>inception</u> in 1983, the newspaper has attracted thousands of readers.",
+      "options": [
+        "renaissance",
+        "coming",
+        "commencement",
+        "publication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Inception\" means the beginning or start of something. \"Commencement\" also means a beginning. Option C is therefore the closest in meaning. \"Renaissance\" means rebirth or revival — different from a first beginning. \"Coming\" is informal and not equivalent in register. \"Publication\" is the act of making public, not the beginning itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.3152,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>Mrs. Asio wanted her sister to stop being so <u>detached</u>.",
+      "options": [
+        "friendly",
+        "careless",
+        "indifferent",
+        "passionate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Detached\" describes someone emotionally distant or uninvolved. \"Indifferent\" means having no interest or concern — the closest match. \"Friendly\" is the opposite. \"Careless\" refers to a lack of care or attention, not emotional distance. \"Passionate\" is the opposite of detached.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.0088,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>Lantana <u>dwelt</u> in a ruined cottage on the hillside.",
+      "options": [
+        "sat",
+        "worked",
+        "slept",
+        "lived"
+      ],
+      "correctAnswer": 3,
+      "explanation": "\"Dwelt\" is the past tense of \"dwell,\" which means to live in a particular place. Option D is the direct synonym. \"Sat\" and \"slept\" describe temporary states, not residence. \"Worked\" refers to employment, not dwelling.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.482,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>The mistake brought the show to an <u>ignominious</u> end.",
+      "options": [
+        "a good",
+        "a palatable",
+        "a disgraceful",
+        "a satisfactory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Ignominious\" means deserving or causing public disgrace or shame. Option C is the closest synonym. Options A, B, and D all carry positive connotations, which contradict the meaning of \"ignominious.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.5254,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>He <u>compliments</u> me on my way of doing things.",
+      "options": [
+        "complements",
+        "imitates",
+        "disgusts",
+        "praises"
+      ],
+      "correctAnswer": 3,
+      "explanation": "To \"compliment\" someone is to express praise or admiration. Option D is the direct synonym. Option A, \"complements,\" is a homophone-like spelling variant that means \"completes\" or \"goes well with\" — different meaning. Options B and C are unrelated to praise.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.7183,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>Their new house was roofed with <u>corrugated</u> sheets.",
+      "options": [
+        "folded",
+        "iron",
+        "aluminium",
+        "corrupted"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Corrugated\" describes a surface shaped into alternate ridges and grooves — like a wave pattern. Option A, \"folded,\" captures the idea of the folded or ridged surface. \"Iron\" and \"aluminium\" describe materials, not the shape of the sheet. \"Corrupted\" is a completely different word with a different meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.283,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>The stockbroker said it was an <u>astute</u> move to sell the shares then.",
+      "options": [
+        "a bad",
+        "a shrewd",
+        "an unprofitable",
+        "an insincere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Astute\" means having or showing sharp judgment — shrewd, perceptive, clever. Option B is the direct synonym. \"Bad,\" \"unprofitable,\" and \"insincere\" all have negative or unrelated meanings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.019,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>The principal described Oche as the most <u>tactful</u> person he had ever worked with.",
+      "options": [
+        "passionate",
+        "discrete",
+        "hard-working",
+        "innovate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tactful\" means showing sensitivity in dealing with others — being discreet and diplomatic. Option B, \"discrete,\" is a common misspelling of \"discreet,\" which means careful and prudent in speech or action. This is the intended synonym. Note: the option as written is misspelled (\"discrete\" instead of \"discreet\"), but of the four options, it is the only one that conveys the intended meaning. \"Passionate,\" \"hard-working,\" and \"innovate\" are unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.7278,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>The old woman is suffering from <u>dementia</u>.",
+      "options": [
+        "lucidity",
+        "senility",
+        "insanity",
+        "sagacity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Dementia\" is a chronic or persistent disorder of mental processes caused by brain disease or injury, marked by memory loss and personality changes. It is most common in the elderly. \"Senility\" refers to the mental and physical decline associated with old age — the closest match. \"Lucidity\" and \"sagacity\" mean clarity and wisdom — opposites. \"Insanity\" is a legal term for severe mental illness, broader than dementia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.8252,
+      "question": "<i>Instruction: Choose the option nearest in meaning to the underlined word or phrase.</i><br><br>Some drugs have <u>deleterious</u> effect on a child's development.",
+      "options": [
+        "debilitating",
+        "helpful",
+        "harmful",
+        "healing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Deleterious\" means causing harm or damage. Option C, \"harmful,\" is the direct synonym. \"Helpful\" and \"healing\" are opposites. \"Debilitating\" means weakening, which is a specific kind of harm, but \"harmful\" is the broader and more direct equivalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.4233,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>The warring communities were <u>coerced</u> into negotiation a settlement.",
+      "options": [
+        "driven",
+        "compelled",
+        "persuaded",
+        "pressured"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Coerced\" means forced or compelled by threat or pressure. The opposite is to be persuaded — convinced by reasoning rather than force. Options A, B, and D (\"driven,\" \"compelled,\" \"pressured\") are all synonyms of \"coerced,\" not antonyms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.604,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>His father served as a <u>mercenary</u> in the army.",
+      "options": [
+        "preacher",
+        "regular",
+        "recruit",
+        "officer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A \"mercenary\" is a soldier who fights for money rather than out of loyalty to a nation or cause — a hired, irregular soldier. The opposite is a \"regular\" soldier, who is a permanent member of a national army. \"Preacher,\" \"recruit,\" and \"officer\" describe roles within an army, not the regular/mercenary distinction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.3862,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>Jummai is <u>cruel</u> to her husband.",
+      "options": [
+        "harsh",
+        "brutal",
+        "passionate",
+        "ferocious"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Cruel\" means deliberately causing pain or suffering. Among the options, \"passionate\" is the only one that can mean the opposite — showing strong affection or warmth. \"Harsh\" and \"brutal\" are synonyms of cruel. \"Ferocious\" means fierce or violent — closer to cruel than its opposite. Note: \"passionate\" is not a strict antonym of \"cruel\"; the true antonym is \"kind.\" Of the four options, it is the best available choice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.6414,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>The teacher who beat the student was treated with <u>mercy</u>.",
+      "options": [
+        "disrespect",
+        "contempt",
+        "vengeance",
+        "kindness"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Mercy\" means compassion or forgiveness shown toward someone who has done wrong. The opposite is \"vengeance\" — punishing someone in retaliation, without compassion. \"Disrespect\" and \"contempt\" are unrelated in meaning. \"Kindness\" is a synonym of mercy, not an antonym.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.727,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>His wife hated his <u>garrulous</u> attitude.",
+      "options": [
+        "outspoken",
+        "unfriendly",
+        "reticent",
+        "thoughtful"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Garrulous\" means excessively talkative. The opposite is \"reticent\" — reserved, unwilling to speak much. \"Outspoken\" means frank in speech, but not excessive. \"Unfriendly\" and \"thoughtful\" do not relate to talkativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.4092,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>Agoshito is a <u>callow</u> youth, said the teacher.",
+      "options": [
+        "An ignorant",
+        "An experience",
+        "An idle",
+        "An organized"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Callow\" means inexperienced and immature. The opposite is \"experienced.\" Option B, \"an experience\" — though grammatically awkward (the correct form would be \"an experienced youth\") — is the only option that carries the sense of experience as opposed to inexperience. \"Ignorant\" and \"idle\" are closer to callow than its opposite. Note: the option as written has a grammatical error; the intended answer is clearly \"experienced.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.6543,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>What you are asking me to do is a <u>herculean</u> task.",
+      "options": [
+        "a strenuous",
+        "a demanding",
+        "a lovely",
+        "an easy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "\"Herculean\" means requiring great strength or effort — extremely difficult. The opposite is \"easy.\" \"Strenuous\" and \"demanding\" are synonyms of herculean. \"Lovely\" is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.0447,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>Nkechi was a <u>novice</u> when she was first employed.",
+      "options": [
+        "manager",
+        "clerk",
+        "supervisor",
+        "professional"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A \"novice\" is a beginner — someone new and inexperienced. The opposite is a \"professional\" — someone experienced and skilled. \"Manager,\" \"clerk,\" and \"supervisor\" describe job titles, not levels of experience.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.4414,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>'I do not trust him' he said, in a rare moment of <u>candour</u>.",
+      "options": [
+        "reproach",
+        "dishonesty",
+        "frankness",
+        "fairness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Candour\" means honesty, openness, frankness. The opposite is \"dishonesty.\" \"Frankness\" and \"fairness\" are synonyms of candour. \"Reproach\" means blame or disapproval, which is a different concept.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.2563,
+      "question": "<i>Instruction: Choose the option opposite in meaning to the underlined word or phrase.</i><br><br>Mrs Akunilo looks <u>anaemic</u> today.",
+      "options": [
+        "strange",
+        "sick",
+        "weak",
+        "strong"
+      ],
+      "correctAnswer": 3,
+      "explanation": "\"Anaemic\" describes a pale, weak, or sickly appearance — usually caused by low red blood cells. The opposite of weak/pale is \"strong.\" \"Sick\" is close to anaemic. \"Strange\" is unrelated. \"Weak\" is a synonym of anaemic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373032312.7817,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>When his car tyre ______ on the way, he did not know what to do.",
+      "options": [
+        "has burst",
+        "had burst",
+        "bursted",
+        "burst"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sentence describes a single completed event in the past (\"he did not know what to do\" — past tense). The simple past \"burst\" is the correct form. The past participle of \"burst\" is also \"burst\" — it does not change. Option A (\"has burst\") uses the present perfect, which clashes with the past-tense main clause. Option B (\"had burst\") uses past perfect, implying a sequence before another past event, but no such sequence exists in the sentence. Option C (\"bursted\") is an incorrect form — \"burst\" is irregular and does not take \"-ed.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.4426,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Lami's father ______ as a gardener when he was young, but now he is a driver.",
+      "options": [
+        "had been working",
+        "use to work",
+        "has worked",
+        "used to work"
+      ],
+      "correctAnswer": 3,
+      "explanation": "\"Used to\" expresses a past habit or state that has ended — exactly what the sentence requires. The contrast \"but now he is a driver\" confirms this. Option A (\"had been working\") implies a continuous action leading up to another past event, which the sentence does not provide. Option B (\"use to work\") is grammatically wrong in a positive statement — the correct form is \"used to.\" Option C (\"has worked\") is present perfect, implying continued relevance to the present, which clashes with \"but now.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.5967,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>It is important that you clear the refuse in front of your house every ______.",
+      "options": [
+        "fourthnight",
+        "forthnight",
+        "fourthnight",
+        "forthnight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct spelling is \"fortnight\" — a period of two weeks. None of the four options is spelled correctly. Options A and C are spelled \"fourthnight,\" and options B and D are spelled \"forthnight.\" The correct form is \"fortnight\" (from \"fourteen nights\"). Since all options are wrong, the closest shape is option A. Flag this question — it has an error in the printed paper. The right answer should read \"fortnight.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.834,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Suara needn't come with us, ______?",
+      "options": [
+        "does she",
+        "will she",
+        "can she",
+        "need she"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In question tags, the tag uses the same auxiliary as the statement. \"Needn't\" is the negative form of \"need,\" so the tag is \"need she?\" — the positive form. Option D is correct. Options A, B, and C use different auxiliaries, which would be ungrammatical with \"needn't.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.4116,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Unoka ______ the whole house to find his missing wristwatch.",
+      "options": [
+        "scourged",
+        "scoured",
+        "scored",
+        "scouted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Scoured\" means to search a place thoroughly. \"Scourged\" means to whip or punish severely. \"Scored\" means to make marks or points. \"Scouted\" means to reconnoitre or look for talent. Only \"scoured\" fits the context of searching a house for a missing item.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.1238,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Ife asked me ______.",
+      "options": [
+        "what time it was",
+        "what is it by my time",
+        "what time is it",
+        "what time it is"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is reported speech — an indirect question. In reported speech, the word order is statement order (subject before verb), not question order, and the tense shifts back one step. The original question was \"What time is it?\" — the reported form becomes \"what time it was.\" Option A is correct. Option C keeps the direct question order, which is wrong after \"asked.\" Option B is ungrammatical. Option D keeps the present tense (\"is\") instead of shifting to the past (\"was\").",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.8184,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>There are many ways to kill a rat, so we should be ______ in our approach to the task ahead of us.",
+      "options": [
+        "ecletic",
+        "eclectic",
+        "eclectic",
+        "eclectic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct spelling is \"eclectic\" — meaning drawing ideas or approaches from a broad range of sources. Options B, C, and D all show the same correct spelling. Option A is a typo. The intended answer is \"eclectic.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.1582,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Audu took these action purely ______ his own career.",
+      "options": [
+        "on furtherance of",
+        "in furtherance of",
+        "to furtherance in",
+        "in furtherance with"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The idiomatic expression is \"in furtherance of,\" meaning to promote or advance something. Option B is the only one that uses the correct preposition. \"On,\" \"to,\" and \"with\" are all wrong in this fixed phrase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.6277,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Instead of ______ she lied.",
+      "options": [
+        "pleading",
+        "her to plead",
+        "her pleading",
+        "plead"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Instead of\" is a preposition, and the -ing form follows it. The subject of \"instead of\" and the subject of the main clause are the same (\"she\" — the same person). So the correct form is \"pleading.\" Option A is correct. Option B (\"her to plead\") inserts a different subject, which is unnecessary. Option C (\"her pleading\") also changes the subject unnecessarily. Option D (\"plead\") is the base form, which cannot follow a preposition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.2444,
+      "question": "<i>Instruction: Choose the option that best completes the gap.</i><br><br>Of the three girls, Uka is the ______.",
+      "options": [
+        "so much notorious",
+        "notorious",
+        "naught",
+        "naughtiest"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When comparing three or more people or things, English uses the superlative form — \"the naughtiest.\" The phrase \"of the three girls\" signals a superlative context. Option D is correct. Option B is the positive degree, not the superlative. Options A and C are ungrammatical or unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.5815,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br>b<u>u</u>bble",
+      "options": [
+        "guy",
+        "bull",
+        "bumper",
+        "gurgle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The \"u\" in \"bubble\" is pronounced /ʌ/ — a short, central vowel (the same sound as in \"cup,\" \"run,\" \"love\"). \"Bumper\" also has /ʌ/. \"Guy\" has /aɪ/. \"Bull\" has /ʊ/. \"Gurgle\" has /ɜː/. Only \"bumper\" matches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.3171,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br>w<u>eigh</u>t",
+      "options": [
+        "whale",
+        "while",
+        "wheat",
+        "writhe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The \"eigh\" in \"weight\" is pronounced /eɪ/ (like \"ay\" in \"day\"). \"Whale\" also has /eɪ/. \"While\" has /aɪ/. \"Wheat\" has /iː/. \"Writhe\" has /aɪ/. Only \"whale\" matches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.6665,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br>L<u>ea</u>ch",
+      "options": [
+        "gear",
+        "cedar",
+        "cheer",
+        "death"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The \"ea\" in \"leach\" is pronounced /iː/ (a long \"ee\" sound). \"Cedar\" also has /iː/. \"Gear\" and \"cheer\" have /ɪə/. \"Death\" has /ɛ/. Only \"cedar\" matches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.2488,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br>men<u>ti</u>on",
+      "options": [
+        "that",
+        "machine",
+        "church",
+        "test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The \"ti\" in \"mention\" is pronounced /ʃ/ — a \"sh\" sound (the word sounds like \"menshun\"). \"Machine\" also has /ʃ/ in \"chine\" (the word sounds like \"masheen\"). \"That\" has /ð/. \"Church\" has /tʃ/. \"Test\" has /t/. Only \"machine\" contains the same /ʃ/ sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.5635,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br>presti<u>ge</u>",
+      "options": [
+        "bag",
+        "badge",
+        "reggae",
+        "leisure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The \"ge\" in \"prestige\" is pronounced /ʒ/ — a soft \"zh\" sound (the word sounds like \"presteezh\"). \"Leisure\" also has /ʒ/ (it sounds like \"leezhur\"). \"Bag\" has /g/. \"Badge\" has /dʒ/. \"Reggae\" has /g/ or /dʒ/ depending on pronunciation, but not /ʒ/. Only \"leisure\" matches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.0066,
+      "question": "<i>Instruction: Choose the option that has the same vowel sound as the one represented by the underlined letter(s).</i><br><br><u>kn</u>ot",
+      "options": [
+        "cot",
+        "keep",
+        "norm",
+        "king"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The \"kn\" in \"knot\" is pronounced /n/ — the \"k\" is silent. \"Norm\" contains /n/ as its initial sound. \"Cot\" starts with /k/. \"Keep\" starts with /k/. \"King\" starts with /k/. Only \"norm\" begins with a plain /n/ sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.8088,
+      "question": "<i>Instruction: Choose the appropriate stress pattern from the options. The syllables are written in capital letters.</i><br><br>meditative",
+      "options": [
+        "meDItative",
+        "mediTative",
+        "Meditative",
+        "meditaTIVE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The stress in \"meditative\" falls on the first syllable — MED-i-ta-tive. The vowel in the first syllable is /ɛ/ and is pronounced with full length and emphasis. The remaining syllables are reduced and unstressed. Option C shows the first syllable in capitals, which is the correct stress pattern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.312,
+      "question": "<i>Instruction: Choose the appropriate stress pattern from the options. The syllables are written in capital letters.</i><br><br>Suggestible",
+      "options": [
+        "suggeSTible",
+        "Suggestible",
+        "suGGEstible",
+        "suggestible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The stress in \"suggestible\" falls on the second syllable — sug-GEST-i-ble. The vowel in the second syllable is fully pronounced and emphasised. Option C shows the second syllable in capitals, which is the correct stress pattern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.0771,
+      "question": "<i>Instruction: In this question, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates.</i><br><br>Uche LOVES Toyota cars.",
+      "options": [
+        "Who loves Toyota cars?",
+        "What brand of car does Uche love?",
+        "Does Uche hate Toyota cars?",
+        "Does Uche love bicycles?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word in focus is \"LOVES.\" The sentence with emphatic stress on \"loves\" is answering the implicit question \"Does Uche love or hate Toyota cars?\" — the speaker is emphasising the positive feeling. Option C is the question that matches this emphasis. Option A would put stress on \"Uche.\" Option B would put stress on \"Toyota.\" Option D would put stress on \"cars.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790373086750.4353,
+      "question": "<i>Instruction: In this question, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates.</i><br><br>The POLICE arrested the suspect.",
+      "options": [
+        "Did the police placate the suspect?",
+        "Who arrested the suspect?",
+        "Who did the police arrest?",
+        "Did the police arrest the suspect?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word in focus is \"POLICE.\" The sentence with emphatic stress on \"police\" is answering the implicit question \"Who arrested the suspect?\" — the speaker is emphasising the identity of the arresting party. Option B matches. Option A would put stress on the verb (\"placate\" vs \"arrest\"). Option C would put stress on \"the suspect.\" Option D would be a yes/no question that puts stress on the truth of the whole clause.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
