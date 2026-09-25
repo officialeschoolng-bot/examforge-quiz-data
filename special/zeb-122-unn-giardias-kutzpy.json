@@ -4,15 +4,16 @@
   "subject": "ZEB 122",
   "description": "",
   "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "defaultTimePerQuestion": 12,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 12
   },
   "questions": []
 }
