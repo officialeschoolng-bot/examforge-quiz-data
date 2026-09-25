@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : MALARIA",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790353787304.7158,
+      "question": "Malaria is caused by a protozoon of which genus?",
+      "options": [
+        "Trypanosoma",
+        "Plasmodium",
+        "Leishmania",
+        "Toxoplasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Malaria is caused by protozoa of the genus Plasmodium. Four species naturally infect humans: P. falciparum, P. vivax, P. malariae, and P. ovale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787311.0767,
+      "question": "Malaria is transmitted to humans through the bite of which mosquito?",
+      "options": [
+        "Male Anopheles",
+        "Culex",
+        "Female Anopheles",
+        "Aedes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only the female Anopheles mosquito transmits malaria. She requires a blood meal for egg development, and it is during this feeding that she injects sporozoites into the human host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787311.0632,
+      "question": "How many Plasmodium species are naturally parasitic in humans?",
+      "options": [
+        "Two",
+        "Three",
+        "Five",
+        "Four"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Four Plasmodium species naturally infect humans — P. falciparum, P. vivax, P. malariae, and P. ovale. A fifth (P. knowlesi) primarily infects monkeys and occasionally humans in Southeast Asia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.4885,
+      "question": "Which is not a human Plasmodium species?",
+      "options": [
+        "P. falciparum",
+        "P. vivax",
+        "P. canis",
+        "P. malariae"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P. canis is a parasite of dogs, not a human Plasmodium species. The four human species are P. falciparum, P. vivax, P. malariae, and P. ovale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.4026,
+      "question": "Malaria is characterized by fever, anaemia, and which condition?",
+      "options": [
+        "Splenomegaly",
+        "Jaundice only",
+        "Skin rash",
+        "Hair loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The classical triad of malaria is periodic fever, anaemia, and splenomegaly (enlarged spleen). Jaundice can occur in severe cases but is not part of the classical triad.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.5461,
+      "question": "Which Plasmodium species causes malignant tertian malaria?",
+      "options": [
+        "P. vivax",
+        "P. malariae",
+        "P. ovale",
+        "P. falciparum"
+      ],
+      "correctAnswer": 3,
+      "explanation": "P. falciparum causes malignant tertian malaria — the most severe form. It is responsible for the vast majority of malaria deaths worldwide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.9563,
+      "question": "P. falciparum is described as the most what of the human plasmodia?",
+      "options": [
+        "Benign",
+        "Virulent",
+        "Rare",
+        "Nonpathogenic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P. falciparum is the most virulent of the human plasmodia, capable of causing severe complications including cerebral malaria and death within days if untreated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.304,
+      "question": "The exoerythrocytic schizont of P. falciparum grows in which cells?",
+      "options": [
+        "Kidney cells",
+        "Brain cells",
+        "Liver cells",
+        "Skin cells"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The exoerythrocytic (pre-erythrocytic) stage of P. falciparum develops in liver cells (hepatocytes) before releasing merozoites into the bloodstream.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.802,
+      "question": "Relapses do not occur in P. falciparum malaria, but what may follow remission?",
+      "options": [
+        "Recrudescences",
+        "Relapses",
+        "Reinfection",
+        "Autoinfection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P. falciparum has no persistent liver stage, so true relapses cannot occur. However, recrudescences — recurrence from surviving blood-stage parasites — may follow clinical remission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.9856,
+      "question": "P. falciparum merozoites can invade erythrocytes of what age?",
+      "options": [
+        "Only old cells",
+        "Only young cells",
+        "Only reticulocytes",
+        "Any age"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Unlike P. vivax (which invades only reticulocytes) and P. malariae (which prefers aging cells), P. falciparum invades erythrocytes of any age, leading to much higher parasite densities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.2002,
+      "question": "Infected erythrocytes in P. falciparum develop which structures?",
+      "options": [
+        "Schuffner's dots",
+        "Maurer's clefts",
+        "Howell-Jolly bodies",
+        "Heinz bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P. falciparum-infected erythrocytes develop Maurer's clefts — irregular, red-staining patches in the cytoplasm visible on stained films. Schuffner's dots are seen in P. vivax and P. ovale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.6387,
+      "question": "Sequestration in P. falciparum malaria means withdrawal of what?",
+      "options": [
+        "Leukocytes",
+        "Platelets",
+        "Infected red blood cells",
+        "Plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sequestration is the adhesion of parasitized erythrocytes to the endothelial lining of deep blood vessels, effectively withdrawing them from circulation. This is a hallmark of falciparum malaria and contributes to organ damage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.3901,
+      "question": "Rosettes in falciparum malaria form when infected cells bind to what?",
+      "options": [
+        "Uninfected red cells",
+        "Platelets",
+        "Endothelial cells",
+        "Leukocytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rosetting is the binding of infected erythrocytes to uninfected red cells, forming a rosette-like cluster. This contributes to microvascular obstruction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.1128,
+      "question": "The early ring-stage trophozoite of P. falciparum is the smallest of any what?",
+      "options": [
+        "Mosquito stage",
+        "Human Plasmodium",
+        "Liver stage",
+        "Gametocyte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ring-stage trophozoite of P. falciparum is the smallest of all human Plasmodium species — often described as \"delicate\" and easy to miss on microscopy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.5083,
+      "question": "P. vivax is the causative agent of which malaria?",
+      "options": [
+        "Quartan malaria",
+        "Malignant tertian malaria",
+        "Benign tertian malaria",
+        "Ovale malaria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P. vivax causes benign tertian malaria, named for the milder course and the 48-hour (tertian) fever cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.5417,
+      "question": "Fever paroxysms in P. vivax malaria typically recur every how many hours?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "96 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 48-hour cycle reflects the duration of erythrocytic schizogony in P. vivax. The paroxysm recurs every third day by inclusive counting, hence \"tertian.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.1094,
+      "question": "Sporozoites of P. vivax may remain in liver cells as what?",
+      "options": [
+        "Hypnozoites",
+        "Merozoites",
+        "Gametocytes",
+        "Oocysts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P. vivax (and P. ovale) form dormant hypnozoites in the liver. These can reactivate months or years later, causing true relapses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.6592,
+      "question": "Relapses of vivax malaria can occur up to how many years after infection?",
+      "options": [
+        "Two years",
+        "Four years",
+        "Eight years",
+        "Twenty years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Relapses of P. vivax malaria can occur up to 8 years after the initial infection, due to the reactivation of hypnozoites in the liver.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.333,
+      "question": "Merozoites of P. vivax invade only which erythrocytes?",
+      "options": [
+        "Mature erythrocytes",
+        "Reticulocytes",
+        "Leukocytes",
+        "Platelets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P. vivax merozoites invade only reticulocytes (young red cells). This limits parasite density, which is one reason vivax malaria is generally milder than falciparum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.8481,
+      "question": "The characteristic stippling in P. vivax infected erythrocytes is called what?",
+      "options": [
+        "Maurer's clefts",
+        "Rosettes",
+        "Schuffner's dots",
+        "Haemozoin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Schuffner's dots are fine, pinkish-red stippling seen throughout the cytoplasm of P. vivax-infected erythrocytes on stained films.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.4211,
+      "question": "Erythrocytic schizogony of P. vivax takes about how long?",
+      "options": [
+        "24 hours",
+        "72 hours",
+        "96 hours",
+        "48 hours"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The erythrocytic cycle of P. vivax takes about 48 hours, matching the 48-hour fever periodicity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.7249,
+      "question": "P. malariae is the causative organism of which malaria?",
+      "options": [
+        "Benign tertian malaria",
+        "Quartan malaria",
+        "Malignant tertian malaria",
+        "Ovale malaria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P. malariae causes quartan malaria, named for its 72-hour fever cycle — every fourth day by inclusive counting.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.8765,
+      "question": "Paroxysms in P. malariae malaria occur every how many hours?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "96 hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 72-hour cycle reflects the longer erythrocytic schizogony of P. malariae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.4944,
+      "question": "Merozoites of P. malariae apparently invade which erythrocytes?",
+      "options": [
+        "Aging erythrocytes",
+        "Young erythrocytes",
+        "Any erythrocytes",
+        "Reticulocytes only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P. malariae merozoites preferentially invade aging erythrocytes. This is why the parasite density remains low and the infection tends to be chronic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.9963,
+      "question": "Recrudescences of quartan malaria can recur up to how many years?",
+      "options": [
+        "Five years",
+        "Ten years",
+        "Fifty-three years",
+        "One hundred years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Recrudescences of P. malariae malaria have been documented up to 53 years after the initial infection — the longest of any human malaria species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.8647,
+      "question": "P. malariae is the most important cause of which condition?",
+      "options": [
+        "Cerebral malaria",
+        "Transfusion malaria",
+        "Blackwater fever",
+        "Pulmonary oedema"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because P. malariae persists in the blood at low, often undetectable levels for years, it is the most common cause of transfusion-transmitted malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787312.3586,
+      "question": "P. ovale causes which type of malaria?",
+      "options": [
+        "Quartan malaria",
+        "Malignant tertian malaria",
+        "Ovale or mild tertian malaria",
+        "Benign tertian malaria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P. ovale causes ovale malaria, also called mild tertian malaria. It is milder than P. vivax and largely confined to West Africa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.4207,
+      "question": "P. ovale is the rarest of how many human malaria parasites?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P. ovale is the rarest of the four human malaria parasites. It occurs mainly in West Africa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.3333,
+      "question": "Pathogenesis of malaria involves destruction of large numbers of what?",
+      "options": [
+        "Neurons",
+        "Erythrocytes",
+        "Hepatocytes only",
+        "Platelets only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The destruction of large numbers of erythrocytes during schizogony causes anaemia, jaundice, and haemoglobinuria — the core pathogenic mechanism of malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.0935,
+      "question": "Intense haemolysis in P. falciparum infection may cause what?",
+      "options": [
+        "Diabetes",
+        "Asthma",
+        "Arthritis",
+        "Blackwater fever"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Blackwater fever is a complication of falciparum malaria in which massive intravascular haemolysis causes haemoglobinuria, producing dark-red to black urine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.433,
+      "question": "The malaria pigment produced from host haemoglobin is called what?",
+      "options": [
+        "Bilirubin",
+        "Haemozoin",
+        "Melanin",
+        "Hemosiderin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haemozoin (malaria pigment) is a dark brown-black crystalline pigment produced by the parasite as a by-product of haemoglobin digestion. It accumulates in the liver, spleen, and bone marrow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.3525,
+      "question": "Enlargement of the liver is known as what?",
+      "options": [
+        "Splenomegaly",
+        "Hepatomegaly",
+        "Cardiomegaly",
+        "Nephromegaly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hepatomegaly is enlargement of the liver. Splenomegaly is enlargement of the spleen. Both occur in chronic malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.7493,
+      "question": "Margination in malaria refers to arrangement of parasitized erythrocytes in what?",
+      "options": [
+        "Blood vessels",
+        "Liver",
+        "Spleen",
+        "Bone marrow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Margination is the accumulation of parasitized erythrocytes along the walls of blood vessels (especially capillaries and venules), contributing to microvascular obstruction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.4934,
+      "question": "Clinical features of malaria include periodic fever, splenomegaly, anaemia, and what?",
+      "options": [
+        "Polycythemia",
+        "Leucopaenia",
+        "Thrombocytosis",
+        "Eosinophilia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leucopaenia (reduced white blood cell count) is a common feature of malaria, alongside periodic fever, splenomegaly, and anaemia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.828,
+      "question": "Falciparum malaria is always described as what?",
+      "options": [
+        "Mild",
+        "Asymptomatic",
+        "Dangerous",
+        "Benign"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falciparum malaria is always described as dangerous — it can progress rapidly to severe complications and death without prompt treatment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.1604,
+      "question": "The intrinsic incubation period for falciparum malaria is how many days?",
+      "options": [
+        "5 to 7 days",
+        "11 to 14 days",
+        "14 to 26 days",
+        "30 to 40 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intrinsic incubation period for P. falciparum malaria is 11 to 14 days — the time from sporozoite inoculation to the appearance of clinical symptoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.4744,
+      "question": "The typical paroxysm of benign tertian malaria begins with what?",
+      "options": [
+        "Rigor",
+        "Sweating",
+        "Coma",
+        "Rash"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A malarial paroxysm has three stages: a cold stage with rigor (shivering), a hot stage with fever, and a sweating stage. It begins with rigor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.8965,
+      "question": "The sweating stage of a malarial paroxysm lasts how many hours?",
+      "options": [
+        "1 to 2 hours",
+        "2 to 3 hours",
+        "4 to 5 hours",
+        "6 to 7 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sweating stage of a malarial paroxysm lasts 2 to 3 hours. The patient sweats profusely as the fever breaks, and the temperature returns to normal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.9673,
+      "question": "In quartan malaria, the total duration of a paroxysm averages how many hours?",
+      "options": [
+        "Eight hours",
+        "Ten hours",
+        "Eleven hours",
+        "Twelve hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In P. malariae (quartan) malaria, the paroxysm averages 11 hours total. This is longer than in the other species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.7869,
+      "question": "Nephrosis in chronic malaria occurs especially in which infection?",
+      "options": [
+        "P. falciparum",
+        "P. vivax",
+        "P. ovale",
+        "P. malariae"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nephrotic syndrome is a recognised complication of chronic P. malariae infection, especially in West African children.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.732,
+      "question": "Cerebral malaria is characterized by headache, coma, and what else?",
+      "options": [
+        "Hypothermia",
+        "Hyperpyrexia",
+        "Bradycardia",
+        "Hypotension only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cerebral malaria is characterized by severe headache, hyperpyrexia (very high fever), and coma. It is a medical emergency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.656,
+      "question": "Pulmonary oedema in severe falciparum malaria may result from over administration of what?",
+      "options": [
+        "Oral drugs",
+        "Oxygen",
+        "Intravenous fluids",
+        "Blood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Iatrogenic pulmonary oedema in falciparum malaria often results from over-administration of intravenous fluids, causing fluid overload.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.8252,
+      "question": "Algid malaria is a rapid development of what?",
+      "options": [
+        "Shock",
+        "Immunity",
+        "Anaemia only",
+        "Fever only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Algid malaria is a rare, rapidly progressive form of severe falciparum malaria characterized by shock, hypothermia, and circulatory collapse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.4434,
+      "question": "Blackwater fever is characterized by dark-red to black what?",
+      "options": [
+        "Stool",
+        "Sputum",
+        "Skin",
+        "Urine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Blackwater fever produces dark-red to black urine (haemoglobinuria) due to massive intravascular haemolysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.0828,
+      "question": "Hypoglycaemia in falciparum malaria means reduced concentration of what?",
+      "options": [
+        "Blood urea",
+        "Blood glucose",
+        "Blood calcium",
+        "Blood sodium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hypoglycaemia is a common and dangerous complication of severe falciparum malaria, especially in children and pregnant women. Blood glucose concentration is reduced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.0645,
+      "question": "Microscopy is currently described as which method for detecting malaria parasites?",
+      "options": [
+        "Gold standard",
+        "Screening only",
+        "Backup method",
+        "Research tool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microscopic examination of Giemsa-stained thick and thin blood films remains the gold standard for malaria diagnosis — it allows species identification and parasite quantification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.8218,
+      "question": "Clinical diagnosis of malaria is very sensitive but has low what?",
+      "options": [
+        "Sensitivity",
+        "Cost",
+        "Specificity",
+        "Speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clinical diagnosis (based on symptoms alone) is sensitive — it catches most real cases — but has low specificity, meaning it also misdiagnoses many non-malaria fevers as malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.783,
+      "question": "Microscopy allows parasite densities to be quantified from the ratio of parasites to what?",
+      "options": [
+        "Leucocytes or erythrocytes",
+        "Platelets or plasma",
+        "Lymphocytes only",
+        "Monocytes only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parasite density is quantified by counting parasites against leucocytes (in thick films) or erythrocytes (in thin films). This gives the parasite count per microlitre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.8855,
+      "question": "Prophylactic antimalarial drugs include chloroquine/proguanil, doxycycline, and what?",
+      "options": [
+        "Paracetamol",
+        "Ibuprofen",
+        "Atovaquone/proguanil",
+        "Aspirin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atovaquone/proguanil (Malarone) is a common prophylactic regimen, along with chloroquine/proguanil and doxycycline.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790353787313.471,
+      "question": "Classical larvicides include Paris green, larvicidal oils, and what?",
+      "options": [
+        "DDT",
+        "Chloroquine",
+        "Fansidar",
+        "Polystyrene beads"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polystyrene beads are a modern larvicide — they form a floating layer on water surfaces that prevents mosquito larvae from breathing. Paris green and larvicidal oils are older larvicides.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
