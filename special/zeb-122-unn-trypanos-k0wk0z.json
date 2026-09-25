@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : TRYPANOSOMIASIS",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790356132675.9636,
+      "question": "Human African trypanosomiasis is caused by haemoflagellates of which genus?",
+      "options": [
+        "Leishmania",
+        "Trypanosoma",
+        "Plasmodium",
+        "Toxoplasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human African trypanosomiasis (HAT) is caused by haemoflagellates of the genus Trypanosoma, specifically T. b. gambiense and T. b. rhodesiense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4236,
+      "question": "Human African trypanosomiasis is transmitted by flies of which genus?",
+      "options": [
+        "Glossina",
+        "Anopheles",
+        "Phlebotomus",
+        "Lutzomyia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HAT is transmitted by flies of the genus Glossina — the tsetse fly. Both male and female flies can transmit the parasite, unlike mosquitoes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.8193,
+      "question": "The acute form of HAT is distinguished by fever, adenitis, rash, and what else?",
+      "options": [
+        "Transitory oedemas",
+        "Blindness",
+        "Paralysis",
+        "Deafness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The acute form of HAT is distinguished by fever, adenitis (swollen lymph nodes), rash, and transitory oedemas — temporary swelling of the face and hands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4116,
+      "question": "The chronic form of HAT appears when which system is invaded?",
+      "options": [
+        "Respiratory system",
+        "Central nervous system",
+        "Digestive system",
+        "Urinary system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The chronic form appears when the parasite invades the central nervous system, causing neurological signs including the characteristic sleep disturbances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4907,
+      "question": "HAT occurs in some how many sub-Saharan countries?",
+      "options": [
+        "16",
+        "26",
+        "36",
+        "46"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HAT occurs in some 36 sub-Saharan countries, across a belt that spans from Senegal in the west to Uganda and Tanzania in the east.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.5276,
+      "question": "HAT is the only vector borne parasitic disease limited to which continent?",
+      "options": [
+        "Asian",
+        "European",
+        "American",
+        "African"
+      ],
+      "correctAnswer": 3,
+      "explanation": "HAT is the only vector-borne parasitic disease limited to the African continent — its distribution is entirely determined by the range of the tsetse fly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.3123,
+      "question": "Trypanosoma brucei gambiense is distributed in which part of Africa?",
+      "options": [
+        "East and Southern Africa",
+        "West and Central Africa",
+        "North Africa only",
+        "South Africa only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T.b. gambiense is distributed in West and Central Africa, where it causes the chronic form of HAT.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.5579,
+      "question": "Which country has both T.b. gambiense and T.b. rhodesiense?",
+      "options": [
+        "Uganda",
+        "Nigeria",
+        "Kenya",
+        "Ghana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uganda is the only country where both T.b. gambiense and T.b. rhodesiense occur. The two forms are separated geographically by the Victoria Nile.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4207,
+      "question": "T.b. gambiense is transmitted by which tsetse fly group?",
+      "options": [
+        "Morsitans group",
+        "Fusca group",
+        "Palpalis group",
+        "Austenina group"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T.b. gambiense is transmitted by the Palpalis group of tsetse flies, which breed near rivers and lakes and prefer human blood meals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.121,
+      "question": "T.b. rhodesiense is transmitted to man by which tsetse fly group?",
+      "options": [
+        "Palpalis group",
+        "Morsitans group",
+        "Fusca group",
+        "Nemorhina group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T.b. rhodesiense is transmitted to man by the Morsitans group of tsetse flies, which inhabit savannah woodland and feed on wild animals and cattle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9512,
+      "question": "T.b. rhodesiense is maintained in wild animals, making it what?",
+      "options": [
+        "Anthroponosis",
+        "Zoonosis",
+        "Nosocomial",
+        "Epidemic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T.b. rhodesiense is maintained in wild animals, making it a zoonosis — a disease transmitted from animals to humans. Humans are incidental hosts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9614,
+      "question": "Which subspecies is more virulent in man?",
+      "options": [
+        "T.b. gambiense",
+        "T.b. brucei",
+        "T.b. rhodesiense",
+        "T.b. equiperdum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T.b. rhodesiense is more virulent in man, causing an acute disease that progresses over weeks or months, whereas T.b. gambiense causes a chronic infection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.5383,
+      "question": "T.b. brucei is not pathogenic to humans because it is lysed by what?",
+      "options": [
+        "A heptoglobin-like molecule",
+        "A complement enzyme",
+        "An antibody only",
+        "A cytokine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T.b. brucei is lysed by a heptoglobin-like molecule in human serum — a trypanosome lytic factor that protects humans from this animal subspecies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.752,
+      "question": "The whole life cycle of Trypanosoma brucei lasts about how long?",
+      "options": [
+        "10 days",
+        "20 days",
+        "30 days",
+        "40 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The whole life cycle of Trypanosoma brucei lasts about 30 days — from ingestion of bloodstream trypomastigotes by the fly to development of metacyclic forms that can infect a new host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9224,
+      "question": "When Glossina takes a blood meal, it ingests which forms?",
+      "options": [
+        "Metacyclic trypomastigotes",
+        "Bloodstream trypomastigotes",
+        "Procyclic stages",
+        "Epimastigotes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When Glossina takes a blood meal from an infected mammal, it ingests bloodstream trypomastigotes — the form circulating in the mammalian host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4038,
+      "question": "In the fly midgut, trypanosomes transform into which stage?",
+      "options": [
+        "Procyclic stage",
+        "Metacyclic stage",
+        "Amastigote stage",
+        "Tachyzoite stage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the fly midgut, trypanosomes transform into the procyclic stage — a replicating form adapted to the insect environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4197,
+      "question": "The only stage infective to vertebrates is what?",
+      "options": [
+        "Procyclic trypomastigote",
+        "Metacyclic trypomastigote",
+        "Amastigote",
+        "Epimastigote"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The metacyclic trypomastigote is the only stage infective to vertebrates. It develops in the fly's salivary glands and is injected during a bite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9126,
+      "question": "An infected tsetse fly remains infective for how long?",
+      "options": [
+        "1 to 2 months",
+        "3 to 4 months",
+        "6 to 8 months",
+        "1 year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An infected tsetse fly remains infective for about 3 to 4 months — the remainder of its natural lifespan.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9768,
+      "question": "The genus Glossina includes about how many known species?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The genus Glossina includes about 30 known species, divided into three groups based on their habitat and behaviour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7039,
+      "question": "Glossina is divided into how many groups?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Glossina is divided into three groups: Palpalis (riverine), Morsitans (savannah), and Fusca (forest). Only the first two groups include vectors of HAT.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.316,
+      "question": "Only which groups contain vectors of T.b. gambiense?",
+      "options": [
+        "Palpalis and Morsitans",
+        "Fusca and Austenina",
+        "Morsitans and Fusca",
+        "Palpalis and Fusca"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Only the Palpalis and Morsitans groups contain vectors of T.b. gambiense. The Fusca group feeds mainly on forest animals and is not a significant vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.49,
+      "question": "Transmission of trypanosomes depends on Glossina density, longevity, susceptibility, and what else?",
+      "options": [
+        "Human behaviour",
+        "Soil type",
+        "Rainfall only",
+        "Altitude"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transmission depends on Glossina density, longevity, susceptibility, and human behaviour — specifically, how often humans enter fly-infested areas and how much skin they expose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.728,
+      "question": "Humans are the main reservoir of which subspecies?",
+      "options": [
+        "T.b. rhodesiense",
+        "T.b. brucei",
+        "T.b. gambiense",
+        "T.b. equiperdum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Humans are the main reservoir of T.b. gambiense. The disease is anthroponotic — it maintains itself in the human population without needing an animal reservoir.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.779,
+      "question": "The key determinant of Gambian HAT epidemic potential is what?",
+      "options": [
+        "Short incubation",
+        "Long duration of infection",
+        "High virulence",
+        "Animal reservoir"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The key determinant of Gambian HAT epidemic potential is the long duration of infection — years of low-level parasitaemia give many opportunities for tsetse flies to acquire and transmit the parasite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4863,
+      "question": "Which human population density is optimal for HAT to prosper?",
+      "options": [
+        "Very light",
+        "Very high",
+        "Intermediate",
+        "No density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intermediate human population density is optimal for HAT — dense enough to provide blood meals for flies, but not so dense that the disease burns through the population quickly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.8413,
+      "question": "T.b. rhodesiense is sporadically transmitted to humans who venture into what?",
+      "options": [
+        "Bush infested by tsetse",
+        "Clean water",
+        "Urban markets",
+        "High mountains"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T.b. rhodesiense is sporadically transmitted to humans who venture into bush infested by tsetse flies — hunters, fishermen, and tourists are at highest risk.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7888,
+      "question": "Cattle are the major reservoir of which trypanosomiasis?",
+      "options": [
+        "Gambian",
+        "Rhodesiense",
+        "American",
+        "Mediterranean"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cattle are the major reservoir of rhodesiense trypanosomiasis. Infected cattle serve as a source of parasites for tsetse flies that then bite humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.2683,
+      "question": "Rhodesiense trypanosomiasis is mainly an occupational disease of whom?",
+      "options": [
+        "Adult men",
+        "Young children",
+        "Elderly women",
+        "Infants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rhodesiense trypanosomiasis is mainly an occupational disease of adult men — hunters, fishermen, and herdsmen whose work brings them into contact with tsetse-infested bush.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7053,
+      "question": "Rhodesiense trypanosomiasis shows higher incidence during which season?",
+      "options": [
+        "Cold season",
+        "Rainy season",
+        "Warmer season",
+        "Dry season"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rhodesiense trypanosomiasis shows higher incidence during the warmer season, when tsetse fly activity is greatest and more people venture into bush for farming and fishing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.277,
+      "question": "Gambiense HAT is chronic, with signs appearing after how long?",
+      "options": [
+        "Days",
+        "Weeks",
+        "Months or years",
+        "Hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gambiense HAT is chronic — signs appear after months or years of silent infection. This long latency is why it spreads readily through communities before being noticed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.3772,
+      "question": "Rhodesiense HAT progresses over what period?",
+      "options": [
+        "Weeks or months",
+        "Months or years",
+        "Many years",
+        "Decades"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rhodesiense HAT progresses over weeks or months — an acute, rapidly fatal disease if untreated, in contrast to the chronic Gambian form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4128,
+      "question": "HAT is classified into how many clinical stages?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HAT is classified into two clinical stages: stage 1 (haematolymphatic) and stage 2 (meningoencephalitic), depending on whether the CNS is involved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.5872,
+      "question": "The first stage of HAT is also called what?",
+      "options": [
+        "Meningoencephalitic stage",
+        "Haematolymphatic stage",
+        "Neurological stage",
+        "Chronic stage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first stage of HAT is also called the haematolymphatic stage — the parasite is confined to the blood and lymphatic system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.1868,
+      "question": "The primary lesion at the site of infecting bite is called what?",
+      "options": [
+        "Chancre",
+        "Nodule",
+        "Papule",
+        "Vesicle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary lesion at the site of the infecting bite is called a chancre — a painful, indurated, red swelling that appears about a week after infection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7844,
+      "question": "Winterbottom's sign refers to enlargement of which lymph nodes?",
+      "options": [
+        "Inguinal",
+        "Axillary",
+        "Posterior cervical",
+        "Popliteal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Winterbottom's sign refers to enlargement of the posterior cervical lymph nodes — a classic sign of Gambian HAT, first described by Winterbottom in 1803.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9968,
+      "question": "Fever in Gambian HAT is recurrent and lasts how many days?",
+      "options": [
+        "1 to 3 days",
+        "5 to 7 days",
+        "10 to 14 days",
+        "21 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fever in Gambian HAT is recurrent, with each febrile episode lasting 1 to 3 days, followed by afebrile intervals of days to weeks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7996,
+      "question": "In the second stage, what rhythm disappears?",
+      "options": [
+        "Circadian sleep rhythm",
+        "Cardiac rhythm",
+        "Respiratory rhythm",
+        "Menstrual rhythm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the second stage, the circadian sleep rhythm disappears — the hallmark of \"sleeping sickness.\" Patients are drowsy by day and restless at night.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.2444,
+      "question": "Abnormal movements in the second stage include what?",
+      "options": [
+        "Tremors of hands and fingers",
+        "Paralysis of legs",
+        "Stiff neck",
+        "Drooping eyelid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abnormal movements in the second stage include tremors of the hands and fingers, choreiform (dance-like) movements, and fasciculations — all signs of CNS involvement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.5654,
+      "question": "HAT control relies on reducing the parasite reservoir and reducing what?",
+      "options": [
+        "Man-fly contact",
+        "Water supply",
+        "Food intake",
+        "Animal breeding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HAT control relies on reducing the parasite reservoir (through case detection and treatment) and reducing man-fly contact (through vector control and traps).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.783,
+      "question": "For T.b. gambiense, reduction of the human reservoir is limited by low sensitivity of what?",
+      "options": [
+        "Standard parasitological techniques",
+        "Serological tests",
+        "Clinical signs",
+        "Vector traps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reduction of the human reservoir is limited by the low sensitivity of standard parasitological techniques — parasitaemia is often too low to detect reliably.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.1267,
+      "question": "Case detection has been the cornerstone of HAT control and relied on what?",
+      "options": [
+        "Swollen cervical lymph nodes",
+        "Skin rash",
+        "Joint pain",
+        "Weight loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Case detection has relied on examining for swollen cervical lymph nodes (Winterbottom's sign), which can be punctured and examined directly for trypanosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.899,
+      "question": "Lymph node fluid is examined for evidence of what?",
+      "options": [
+        "Trypanosomes",
+        "Bacteria",
+        "Viruses",
+        "Fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lymph node fluid is examined microscopically for trypanosomes — motile, flagellated organisms that confirm the diagnosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.4094,
+      "question": "In the 1970s, which test was most reliable for epidemiological surveillance?",
+      "options": [
+        "CATT",
+        "IFAT",
+        "CIATT",
+        "mAECT"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the 1970s, the Indirect Fluorescent Antibody Test (IFAT) was the most reliable test for epidemiological surveillance of HAT.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.8943,
+      "question": "IFAT was supplanted by which test?",
+      "options": [
+        "CATT",
+        "Woo's test",
+        "PCR",
+        "ELISA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IFAT was supplanted by CATT (Card Agglutination Test for Trypanosomiasis) — simpler, faster, and not requiring a fluorescence microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.184,
+      "question": "CATT is which type of test?",
+      "options": [
+        "Latex agglutination",
+        "Complement fixation",
+        "Precipitation",
+        "Neutralization"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CATT is a latex agglutination test — it uses trypanosome antigens coated on latex particles that agglutinate in the presence of specific antibodies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7405,
+      "question": "CATT results are available within how many minutes?",
+      "options": [
+        "5",
+        "10",
+        "30",
+        "60"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CATT results are available within 10 minutes — making it suitable for field use and mass screening in endemic areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.7888,
+      "question": "Confirmation of diagnosis depends on demonstrating trypanosomes in blood and what?",
+      "options": [
+        "Urine",
+        "Cerebrospinal fluid",
+        "Saliva",
+        "Stool"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Confirmation of diagnosis depends on demonstrating trypanosomes in blood or cerebrospinal fluid. CSF examination is essential to determine the stage of the disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.9077,
+      "question": "Which test is most sensitive for detecting blood parasites?",
+      "options": [
+        "Woo's test",
+        "mAECT",
+        "Wet smear",
+        "Lymph node aspirate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mAECT (mini Anion Exchange Centrifugation Technique) is the most sensitive test for detecting blood parasites — it concentrates trypanosomes from large volumes of blood.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.6475,
+      "question": "Before insecticides, vector control depended on eliminating what?",
+      "options": [
+        "Wooded vegetation",
+        "Water bodies",
+        "Animal shelters",
+        "Human dwellings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Before insecticides, vector control depended on eliminating wooded vegetation — clearing bush to destroy tsetse fly resting and breeding sites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790356132676.35,
+      "question": "Traps should be re-impregnated with insecticide every how long?",
+      "options": [
+        "2 months",
+        "4 months",
+        "6 months",
+        "12 months"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traps should be re-impregnated with insecticide every 6 months to remain effective. Regular re-treatment is essential for sustained vector control.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
