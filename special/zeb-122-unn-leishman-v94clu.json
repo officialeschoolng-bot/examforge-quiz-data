@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : LEISHMANIASIS",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790355933856.1033,
+      "question": "Leishmaniasis is caused by protozoans of which genus?",
+      "options": [
+        "Trypanosoma",
+        "Plasmodium",
+        "Leishmania",
+        "Toxoplasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leishmaniasis is caused by protozoan parasites of the genus Leishmania, which are obligate intracellular parasites of macrophages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933869.5232,
+      "question": "Which family do Leishmania parasites belong to?",
+      "options": [
+        "Plasmodiidae",
+        "Trypanosomidae",
+        "Eimeriidae",
+        "Sarcocystidae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leishmania belongs to the family Trypanosomidae, alongside the trypanosomes — both are flagellated protozoa transmitted by insect vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933871.903,
+      "question": "What are the only known vectors of leishmaniasis?",
+      "options": [
+        "Mosquitoes",
+        "Tsetse flies",
+        "Blackflies",
+        "Phlebotomine sandflies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phlebotomine sandflies are the only known vectors of leishmaniasis. Only the female sandfly transmits the parasite when taking a blood meal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933874.9243,
+      "question": "How many main clinical syndromes does leishmaniasis consist of?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leishmaniasis presents as four main clinical syndromes: visceral, cutaneous, muco-cutaneous, and post-kala-azar dermal leishmaniasis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933874.2397,
+      "question": "Which is not a main clinical syndrome of leishmaniasis?",
+      "options": [
+        "Cutaneous",
+        "Pulmonary",
+        "Visceral",
+        "Muco-cutaneous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pulmonary is not a recognised main clinical syndrome of leishmaniasis. The four recognised syndromes are visceral, cutaneous, muco-cutaneous, and PKDL.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933874.9739,
+      "question": "Muco-cutaneous leishmaniasis is also known as what?",
+      "options": [
+        "Kala-azar",
+        "Oriental sore",
+        "Dumdum fever",
+        "Espundia"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Muco-cutaneous leishmaniasis is also known as espundia — it involves destruction of the mucous membranes of the nose, mouth, and throat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933874.6453,
+      "question": "Visceral leishmaniasis is also known as what?",
+      "options": [
+        "Espundia",
+        "Oriental sore",
+        "Kala azar",
+        "Jericho boil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Visceral leishmaniasis is also known as kala-azar, meaning \"black sickness\" — a reference to the darkening of the skin seen in some patients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.5054,
+      "question": "Post-kala-azar dermal leishmaniasis is characterized by what type of rash?",
+      "options": [
+        "Macular, maculo-papular, or nodular",
+        "Vesicular only",
+        "Pustular only",
+        "Petechial only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PKDL is characterised by a macular, maculo-papular, or nodular rash — typically appearing on the face and trunk months to years after treated kala-azar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.4885,
+      "question": "Post-kala-azar dermal leishmaniasis is a complication of which condition?",
+      "options": [
+        "Cutaneous leishmaniasis",
+        "Visceral leishmaniasis",
+        "Mucocutaneous leishmaniasis",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PKDL is a complication of visceral leishmaniasis, appearing after apparent cure of the visceral disease. It serves as a reservoir of infection for sandflies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.6218,
+      "question": "Which species is responsible for most cases of muco-cutaneous leishmaniasis?",
+      "options": [
+        "L. tropica",
+        "L. donovani",
+        "L. braziliensis",
+        "L. infantum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leishmania braziliensis is the main cause of muco-cutaneous leishmaniasis, primarily found in South and Central America.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.268,
+      "question": "Kala-azar is caused by which Leishmania species?",
+      "options": [
+        "L. tropica or L. major",
+        "L. braziliensis",
+        "L. donovani or L. infantum",
+        "L. aethiopica"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Visceral leishmaniasis (kala-azar) is caused by L. donovani or L. infantum. L. donovani is anthroponotic; L. infantum is zoonotic with dogs as the main reservoir.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.7454,
+      "question": "Which is a synonym for visceral leishmaniasis?",
+      "options": [
+        "Oriental sore",
+        "Baghdad boil",
+        "Espundia",
+        "Dumdum fever"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dumdum fever is a synonym for visceral leishmaniasis, named after Dum Dum, a town near Kolkata, India, where the disease was first described.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.9707,
+      "question": "Visceral leishmaniasis is characterized by irregular fever, splenomegaly, hepatomegaly, emaciation, anaemia, and what?",
+      "options": [
+        "Polycythemia",
+        "Leucopaenia",
+        "Thrombocytosis",
+        "Eosinophilia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visceral leishmaniasis is characterised by irregular fever, splenomegaly, hepatomegaly, emaciation, anaemia, and leucopaenia — the parasite suppresses bone marrow function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.374,
+      "question": "Indian kala-azar is endemic in which region?",
+      "options": [
+        "Eastern India",
+        "Southern Italy",
+        "Brazil",
+        "Sudan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indian kala-azar is endemic in Eastern India, particularly in Bihar, West Bengal, and neighbouring states along the Ganges plain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.8672,
+      "question": "Mediterranean kala-azar is often referred to as what?",
+      "options": [
+        "African kala-azar",
+        "American kala-azar",
+        "Infantile kala-azar",
+        "Indian kala-azar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mediterranean kala-azar is also called infantile kala-azar because it predominantly affects young children, caused by L. infantum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.3987,
+      "question": "Over 90% of visceral leishmaniasis cases occur in how many countries?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Over 90% of global visceral leishmaniasis cases occur in six countries: Bangladesh, India, Nepal, Sudan, Ethiopia, and Brazil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.795,
+      "question": "Which is not one of the six countries with majority of VL cases?",
+      "options": [
+        "Bangladesh",
+        "Nigeria",
+        "India",
+        "Nepal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria is not among the six countries with the highest visceral leishmaniasis burden. The six are Bangladesh, India, Nepal, Sudan, Ethiopia, and Brazil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.7712,
+      "question": "L. donovani infects which age groups?",
+      "options": [
+        "Only children",
+        "All age groups",
+        "Only adults",
+        "Only elderly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L. donovani infects all age groups. Unlike L. infantum, which predominantly affects children, L. donovani causes disease across the age spectrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.3435,
+      "question": "L. infantum infects mostly which group?",
+      "options": [
+        "All ages equally",
+        "Only adults",
+        "Children and immunosuppressed",
+        "Only elderly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L. infantum mostly infects children and immunosuppressed individuals — its synonym \"infantile kala-azar\" reflects the age pattern in Mediterranean regions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.8386,
+      "question": "Which factor drives increased incidence of visceral leishmaniasis?",
+      "options": [
+        "Clean water",
+        "HIV co-infection",
+        "Vaccination",
+        "Improved housing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HIV co-infection drives increased incidence of visceral leishmaniasis. HIV and Leishmania each worsen the other, and co-infected patients are highly infectious to sandflies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.1147,
+      "question": "What are the three essential factors for transmission of kala-azar?",
+      "options": [
+        "Water, food, air",
+        "Soil, water, plants",
+        "Reservoir, vector, susceptible population",
+        "Host, parasite, environment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transmission of kala-azar requires three essential factors: a reservoir (human or animal), the vector (phlebotomine sandfly), and a susceptible population.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.315,
+      "question": "What is the main reservoir of L. infantum in zoonotic visceral leishmaniasis?",
+      "options": [
+        "Cats",
+        "Dogs",
+        "Rats",
+        "Cattle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dogs are the main reservoir of L. infantum in zoonotic visceral leishmaniasis. Infected dogs provide the source from which sandflies acquire the parasite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.6575,
+      "question": "In India, what is the only reservoir of kala-azar?",
+      "options": [
+        "Dogs",
+        "Rats",
+        "Man",
+        "Cattle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In India, the only reservoir of kala-azar is man — the disease is anthroponotic. No animal reservoir has been identified in the Indian subcontinent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.5757,
+      "question": "Which sandfly is the main vector of kala-azar in India?",
+      "options": [
+        "Phlebotomus argentipes",
+        "P. chinensis",
+        "P. orientalis",
+        "Lutzomyia longipalpis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phlebotomus argentipes is the main vector of kala-azar in India. It is zoophilic and feeds readily on humans in endemic areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.535,
+      "question": "Which form of L. donovani is found in the gut of the arthropod vector?",
+      "options": [
+        "Amastigote",
+        "Trophozoite",
+        "Promastigote",
+        "Bradyzoite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The promastigote form (with a free flagellum) is found in the gut of the sandfly vector. It is the infective form injected into the mammalian host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.2178,
+      "question": "Which form of L. donovani develops intracellularly in the mammalian host?",
+      "options": [
+        "Promastigote",
+        "Sporozoite",
+        "Merozoite",
+        "Amastigote"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The amastigote form (without a free flagellum) develops intracellularly inside macrophages in the mammalian host. It multiplies by binary fission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.9258,
+      "question": "Only which sex of phlebotomine sandflies transmit leishmaniasis?",
+      "options": [
+        "Male",
+        "Female",
+        "Both",
+        "Neither"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only female sandflies transmit leishmaniasis — they require a blood meal for egg development, and it is during this feeding that they inject promastigotes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.3618,
+      "question": "Visceral leishmaniasis is essentially a disease of which system?",
+      "options": [
+        "Nervous system",
+        "Reticuloendothelial system",
+        "Cardiovascular system",
+        "Respiratory system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visceral leishmaniasis is essentially a disease of the reticuloendothelial system — the parasite multiplies in macrophages of the spleen, liver, and bone marrow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.624,
+      "question": "The incubation period of visceral leishmaniasis generally lasts how long?",
+      "options": [
+        "10 to 14 days",
+        "2 years",
+        "2 to 6 months",
+        "5 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The incubation period of visceral leishmaniasis generally lasts 2 to 6 months, though it can range from 10 days to several years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.4517,
+      "question": "Enlarged lymph nodes are rarely found in which kala-azar patients?",
+      "options": [
+        "Sudanese",
+        "Brazilian",
+        "Indian",
+        "Mediterranean"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Enlarged lymph nodes are rarely found in Indian kala-azar patients. Lymphadenopathy is more common in Sudanese and other African forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.3262,
+      "question": "Hyper-pigmentation has only been described in patients from which country?",
+      "options": [
+        "Sudan",
+        "India",
+        "Brazil",
+        "China"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hyper-pigmentation — the darkening of skin that gave kala-azar its name \"black sickness\" — has only been described in patients from India.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.5117,
+      "question": "The aldehyde test detects what in visceral leishmaniasis?",
+      "options": [
+        "Parasite DNA",
+        "Specific antibodies",
+        "Polyclonal hypergammaglobulinemia",
+        "Anaemia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The aldehyde test detects polyclonal hypergammaglobulinemia, which causes serum proteins to gel when formalin is added. It is a nonspecific but useful screening test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.491,
+      "question": "Which test is the classical confirmatory test for visceral leishmaniasis?",
+      "options": [
+        "Microscopic examination of aspirates",
+        "Aldehyde test",
+        "PCR",
+        "Culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microscopic examination of aspirates — from spleen, bone marrow, or lymph node — is the classical confirmatory test for visceral leishmaniasis, showing amastigotes within macrophages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.2007,
+      "question": "Sensitivity of microscopy is highest for which aspirate?",
+      "options": [
+        "Bone marrow",
+        "Spleen",
+        "Lymph node",
+        "Blood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sensitivity of microscopy is highest for spleen aspirate (about 93–99%), followed by bone marrow (53–86%) and lymph node (53–65%).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.6387,
+      "question": "Which drug was the first effective oral drug for visceral leishmaniasis?",
+      "options": [
+        "Sodium stibogluconate",
+        "Amphotericin B",
+        "Miltefosine",
+        "Sitamaquine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Miltefosine was the first effective oral drug for visceral leishmaniasis, originally developed as an anticancer agent and later found to be active against Leishmania.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.6147,
+      "question": "Which drug replaced antimonials as first-line treatment in some areas of India?",
+      "options": [
+        "Miltefosine",
+        "Amphotericin B",
+        "Paromomycin",
+        "Sitamaquine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amphotericin B replaced antimonials as first-line treatment in some areas of India after widespread antimony resistance emerged in Bihar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.8176,
+      "question": "Which is a pentavalent antimonial used for visceral leishmaniasis?",
+      "options": [
+        "Miltefosine",
+        "Sodium stibogluconate",
+        "Amphotericin B",
+        "Deltamethrin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sodium stibogluconate is a pentavalent antimonial — the traditional first-line drug for visceral leishmaniasis, though resistance has developed in some regions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.5938,
+      "question": "What is the suggested way forward for treatment of visceral leishmaniasis?",
+      "options": [
+        "Single drug only",
+        "Combination therapy",
+        "No treatment",
+        "Surgery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combination therapy is the suggested way forward — pairing drugs with different mechanisms prevents resistance and shortens treatment duration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.6516,
+      "question": "Which control strategy is used for visceral leishmaniasis?",
+      "options": [
+        "Vaccination only",
+        "Reservoir and vector control",
+        "Antibiotics only",
+        "No control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reservoir and vector control is the main strategy — targeting infected dogs (in zoonotic areas) and the sandfly vector through indoor residual spraying.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.7808,
+      "question": "Deltamethrine-treated collars are used to reduce infection in what?",
+      "options": [
+        "Cats",
+        "Dogs",
+        "Humans",
+        "Sandflies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deltamethrin-treated collars reduce infection in dogs — the main reservoir for L. infantum in zoonotic visceral leishmaniasis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.3596,
+      "question": "Cutaneous leishmaniasis is also known as what?",
+      "options": [
+        "Kala-azar",
+        "Oriental sore",
+        "Espundia",
+        "Dumdum fever"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cutaneous leishmaniasis is also known as oriental sore — a self-healing skin lesion caused by various Leishmania species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.967,
+      "question": "The aetiologic agent of cutaneous leishmaniasis is which species?",
+      "options": [
+        "L. donovani",
+        "L. braziliensis",
+        "Leishmania tropica",
+        "L. infantum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leishmania tropica is the main aetiologic agent of Old World cutaneous leishmaniasis, along with L. major and L. aethiopica.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.964,
+      "question": "L. tropica major causes which type of leishmaniasis?",
+      "options": [
+        "Dry or urban",
+        "Moist or rural",
+        "Visceral",
+        "Mucocutaneous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L. tropica major causes moist (rural) cutaneous leishmaniasis — the lesions are wet, ulcerate early, and heal relatively quickly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.8577,
+      "question": "L. tropica minor causes which type of leishmaniasis?",
+      "options": [
+        "Moist or rural",
+        "Visceral",
+        "Dry or urban",
+        "Mucocutaneous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L. tropica minor causes dry (urban) cutaneous leishmaniasis — lesions are dry, ulcerate late, and heal slowly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.831,
+      "question": "Which vector transmits L. tropica major from rodents to man?",
+      "options": [
+        "Sergentomyia arpaklensis",
+        "Phlebotomus papatasi",
+        "Lutzomyia longipalpis",
+        "P. sergenti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phlebotomus papatasi transmits L. tropica major from rodents to man. It is the main vector of rural cutaneous leishmaniasis in the Middle East.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.7295,
+      "question": "Diffuse cutaneous leishmaniasis in Ethiopia and Kenya is caused by which species?",
+      "options": [
+        "L. tropica",
+        "L. major",
+        "L. aethiopica",
+        "L. braziliensis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leishmania aethiopica causes diffuse cutaneous leishmaniasis in Ethiopia and Kenya, characterised by non-ulcerating nodules all over the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.9695,
+      "question": "In cutaneous leishmaniasis, the incubation period in the moist form is how long?",
+      "options": [
+        "Many months to over a year",
+        "Few weeks to few months",
+        "2 to 6 months",
+        "10 to 14 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the moist (rural) form of cutaneous leishmaniasis, the incubation period is short — a few weeks to a few months.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.467,
+      "question": "In the dry form of cutaneous leishmaniasis, lesions last for how long?",
+      "options": [
+        "Many months",
+        "Up to 6 months",
+        "Few weeks",
+        "2 years"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the dry (urban) form, lesions last for many months — up to a year or more — before healing, leaving depressed scars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.803,
+      "question": "Uncomplicated cutaneous leishmaniasis ulcers heal within how long?",
+      "options": [
+        "2 to 6 months",
+        "10 to 14 days",
+        "Two months to a year",
+        "Over 2 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uncomplicated cutaneous leishmaniasis ulcers heal within two months to a year, leaving a permanent scar. They are often self-limiting.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790355933875.9626,
+      "question": "Mucocutaneous leishmaniasis is caused by which species?",
+      "options": [
+        "L. tropica",
+        "L. braziliensis",
+        "L. donovani",
+        "L. infantum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mucocutaneous leishmaniasis is caused by L. braziliensis, which produces destructive lesions of the mucous membranes of the nose, mouth, and pharynx.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
