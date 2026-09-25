@@ -3,16 +3,717 @@
   "title": "ZEB 122 (UNN): ENTAMOEBA AND BALANTIDIUM",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790338632474.1284,
+      "question": "Entamoeba belongs to which super class?",
+      "options": [
+        "Ciliata",
+        "Sarcodina",
+        "Flagellata",
+        "Sporozoa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Entamoeba is classified under superclass Sarcodina, which includes organisms that move and feed by means of pseudopodia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632474.5825,
+      "question": "Entamoeba belongs to which class?",
+      "options": [
+        "Rhizopoda",
+        "Ciliata",
+        "Flagellata",
+        "Sporozoa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Within Sarcodina, Entamoeba belongs to class Rhizopoda — the amoebae that use pseudopodia for locomotion and feeding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.7234,
+      "question": "Locomotion in Entamoeba is by lobopoda, filopoda, reticulopoda, or what?",
+      "options": [
+        "Cilia",
+        "Flagella",
+        "Proplasmic flow",
+        "Pseudopodia only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Entamoeba moves by protoplasmic flow, which produces the pseudopodia (lobopodia, filopodia, reticulopodia) characteristic of the class.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.319,
+      "question": "Parasitic forms include Entamoeba, Iodamoeba, Endolimax, and what?",
+      "options": [
+        "Dientamoeba",
+        "Giardia",
+        "Balantidium",
+        "Trichomonas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The four parasitic amoebic genera in humans are Entamoeba, Iodamoeba, Endolimax, and Dientamoeba.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9958,
+      "question": "Entamoeba species are differentiated on the basis of what?",
+      "options": [
+        "Size",
+        "Shape",
+        "Nuclear morphology",
+        "Motility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since all Entamoeba species are morphologically similar in size and shape, they are distinguished primarily by nuclear morphology — number of nuclei in the cyst, and endosome structure in the trophozoite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.793,
+      "question": "Entamoeba histolytica is described as what type of species?",
+      "options": [
+        "Nonpathogenic",
+        "Commensal",
+        "Pathogenic",
+        "Symbiotic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike the other Entamoeba species, E. histolytica is a true pathogen — it invades and destroys host tissue, causing invasive amoebiasis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.0571,
+      "question": "Entamoeba histolytica invades tissues of which organ?",
+      "options": [
+        "Small intestine",
+        "Stomach",
+        "Large intestine",
+        "Liver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E. histolytica colonises and invades the mucosa of the large intestine, primarily the cecum and ascending colon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.884,
+      "question": "Clinical amebiasis is most prevalent in which areas?",
+      "options": [
+        "Polar regions",
+        "Temperate regions",
+        "Desert regions",
+        "Tropical and subtropical areas"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Amoebiasis is a disease of warm, humid climates. Tropical and subtropical regions have the highest prevalence, particularly where sanitation is poor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.0613,
+      "question": "Which age group is more susceptible to amebiasis?",
+      "options": [
+        "Elderly",
+        "Children",
+        "Adults",
+        "Infants only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Children are disproportionately affected — they have less developed immunity and are more likely to ingest contaminated food or water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.2034,
+      "question": "Which insect is an important mechanical vector of Entamoeba cysts?",
+      "options": [
+        "Mosquito",
+        "Tsetse fly",
+        "Sandfly",
+        "Musca domestica"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Musca domestica (the housefly) is a mechanical vector — it carries cysts on its legs and body from faeces to food. It is not a biological vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.886,
+      "question": "The trophozoite of E. histolytica measures how many micrometers?",
+      "options": [
+        "5 to 10",
+        "10 to 15",
+        "20 to 30",
+        "40 to 50"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The invasive trophozoite is relatively large — typically 20 to 30 µm, which is one of the features distinguishing it from the smaller non-pathogenic amoebae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.729,
+      "question": "The small centrally located structure in the nucleus of E. histolytica is called what?",
+      "options": [
+        "Nucleolus",
+        "Karyosome",
+        "Centromere",
+        "Chromatid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The karyosome (also called the endosome) is the small, compact, centrally or slightly eccentrically located mass of chromatin inside the Entamoeba nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.3672,
+      "question": "Trophozoites passed in stools are unable to do what?",
+      "options": [
+        "Move",
+        "Feed",
+        "Encyst",
+        "Divide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trophozoites passed in stool are non-infective — they cannot encyst outside the body and die quickly, so they cannot transmit the infection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.7795,
+      "question": "Precysts of E. histolytica are rich in what?",
+      "options": [
+        "Protein",
+        "Glycogen",
+        "Fat",
+        "Starch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The precyst stores glycogen as an energy reserve to fuel the formation of the cyst wall and nuclear divisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.4114,
+      "question": "The cyst of E. histolytica usually measures how wide?",
+      "options": [
+        "5 to 10 µm",
+        "10 to 20 µm",
+        "20 to 30 µm",
+        "30 to 40 µm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mature cyst is typically 10 to 20 µm in diameter — round, with a smooth, colourless, highly refractile wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5566,
+      "question": "The quadri-nucleated cyst of E. histolytica is referred to as what?",
+      "options": [
+        "Precyst",
+        "Trophozoite",
+        "Metacyst",
+        "Metacystic trophozoite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The metacyst is the mature, infective, four-nucleated cyst. When it is swallowed and excysts in the small intestine, its four nuclei give rise to eight metacystic trophozoites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9917,
+      "question": "Entamoeba histolytica hydrolyzes host tissue because trophozoite has what on its surface?",
+      "options": [
+        "Lipase enzyme",
+        "Amylase enzyme",
+        "Active cysteine protease",
+        "Kinase enzyme"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The trophozoite surface carries active cysteine proteases that degrade host extracellular matrix, allowing the amoeba to penetrate and destroy tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.8347,
+      "question": "Intestinal lesion of amebiasis first develops in cecum, appendix, or what?",
+      "options": [
+        "Rectum",
+        "Upper colon",
+        "Ileum",
+        "Duodenum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lesions begin where the cyst first excysts and settles — the cecum, appendix, or upper colon — where the faecal flow is slowest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.479,
+      "question": "A granulomatous mass formed in the intestinal wall in amebiasis is called what?",
+      "options": [
+        "Chancre",
+        "Nodule",
+        "Papule",
+        "Ameboma"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An ameboma is a tumour-like granulomatous swelling in the intestinal wall, formed by chronic amoebic infection. It can mimic carcinoma or appendicitis on examination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5635,
+      "question": "Hepatic amebiasis occurs when trophozoites travel to liver through what?",
+      "options": [
+        "Lymphatics",
+        "Arteries",
+        "Hepatoportal system",
+        "Nerves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trophozoites enter the portal circulation from colonic lesions and are carried via the hepatoportal system to the liver sinusoids, where they establish an abscess.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.749,
+      "question": "Acute amebic dysentery passes an average of how many stools per day?",
+      "options": [
+        "5 to 10",
+        "15 to 20",
+        "25 to 30",
+        "35 to 40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In acute amoebic dysentery the patient passes an average of 15 to 20 mucoid, blood-tinged stools daily, with associated tenesmus and abdominal cramps.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9343,
+      "question": "Examination of what sample is the most effective diagnostic means for E. histolytica?",
+      "options": [
+        "Urine",
+        "Blood",
+        "Stool",
+        "Saliva"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microscopic examination of fresh stool is the primary diagnostic method — it reveals trophozoites (in acute disease) or cysts (in chronic carriers).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.0046,
+      "question": "Which modern method distinguishes between different strains of amoebas?",
+      "options": [
+        "ELISA",
+        "Nested PCR",
+        "X-ray",
+        "Microscopy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nested PCR amplifies species-specific DNA sequences and reliably distinguishes E. histolytica from E. dispar and other morphologically identical amoebae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.722,
+      "question": "Which drug has become the preferred treatment for amebiasis?",
+      "options": [
+        "Quinacrine",
+        "Chloroquine",
+        "Metronidazole",
+        "Penicillin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Metronidazole (a nitroimidazole) is the drug of choice for invasive amoebiasis — it kills trophozoites in tissue — and is usually followed by a luminal agent to clear cysts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.3567,
+      "question": "Entamoeba coli is described as what in human colon?",
+      "options": [
+        "Pathogenic",
+        "Invasive",
+        "Nonpathogenic",
+        "Destructive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E. coli is a harmless commensal of the human colon. It does not invade tissue and does not cause disease — it is only important because it can be mistaken for E. histolytica on microscopy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.8591,
+      "question": "Entamoeba coli is more common than E. histolytica because of superior ability to survive in what?",
+      "options": [
+        "Water",
+        "Putrefaction",
+        "Soil",
+        "Air"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E. coli tolerates the putrefactive environment of the colon better than E. histolytica, which is why it is the more commonly isolated amoeba.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.2068,
+      "question": "The chromatin lining the nuclear membrane of E. coli is what compared to E. histolytica?",
+      "options": [
+        "Finer",
+        "Coarser",
+        "Smoother",
+        "Thinner"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The peripheral chromatin of E. coli is coarse and irregularly distributed, compared with the fine, uniform peripheral chromatin of E. histolytica.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.8093,
+      "question": "The mature cyst of E. coli contains how many nuclei?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The mature E. coli cyst contains up to eight nuclei, unlike E. histolytica whose mature cyst contains four.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.1301,
+      "question": "The endosome of Endolimax is attached to nuclear membrane by what?",
+      "options": [
+        "Protein bridge",
+        "Chromatic thread",
+        "Lipid layer",
+        "Carbohydrate chain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Endolimax endosome is attached to the nuclear membrane by a delicate chromatic thread — a distinguishing feature on microscopy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5806,
+      "question": "The trophozoite of Endolimax nana is described as what shape?",
+      "options": [
+        "Oval",
+        "Pear",
+        "Round",
+        "Elongate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Endolimax nana trophozoite is small and round, with finely granular cytoplasm and a single nucleus with a large, irregular endosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5742,
+      "question": "The mature cyst of Endolimax nana contains how many nuclei?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mature E. nana cyst contains four nuclei and measures 5 to 14 µm — smaller than both E. histolytica and E. coli cysts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.6172,
+      "question": "Dientamoeba fragilis trophozoite may have how many nuclei?",
+      "options": [
+        "One or two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 0,
+      "explanation": "D. fragilis typically has a binucleate trophozoite, though a single nucleus may be seen in some cells — hence \"one or two\".",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.4836,
+      "question": "The endosome of Dientamoeba fragilis has how many chromatin granules?",
+      "options": [
+        "1 to 3",
+        "4 to 8",
+        "9 to 12",
+        "13 to 16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The endosome of Dientamoeba fragilis contains 4 to 8 chromatin granules — a diagnostic feature of the species on stained preparation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5842,
+      "question": "Dientamoeba fragilis food vacuoles contain what?",
+      "options": [
+        "Red blood cells",
+        "Bacteria",
+        "Yeast",
+        "Plant cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The food vacuoles of D. fragilis typically contain ingested bacteria, which form the organism's main nutrient source in the large intestine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.0251,
+      "question": "Naegleria fowleri causes which disease?",
+      "options": [
+        "Primary Amoebic Meningoencephalitis",
+        "Amebic dysentery",
+        "Giardiasis",
+        "Balantidiasis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Naegleria fowleri is a free-living amoeba that enters the nasal cavity and travels to the brain, causing Primary Amoebic Meningoencephalitis (PAM) — a rapidly fatal condition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.2869,
+      "question": "The flagellated form of Naegleria fowleri bears how many flagella?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The biflagellate form of N. fowleri has two flagella and is the free-swimming stage found in warm freshwater. It is not the infective stage — the amoeboid form is.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.888,
+      "question": "The structure in Naegleria fowleri with phagocytosis function is called what?",
+      "options": [
+        "Amoebastomes",
+        "Pseudopodia",
+        "Cytostome",
+        "Vacuole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amoebastomes are small, cup-like structures on the surface of N. fowleri through which the amoeba ingests bacteria and other particles — the functional equivalent of a mouth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.305,
+      "question": "Balantidium coli is the largest protozoan parasite of humans and is a commensal of what?",
+      "options": [
+        "Cattle",
+        "Swine",
+        "Sheep",
+        "Goats"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Balantidium coli is a commensal of swine — the pig is the principal reservoir — and is transmitted to humans through contact with pig faeces or contaminated water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9172,
+      "question": "Balantidium coli trophozoites measure how long?",
+      "options": [
+        "10 to 50 µm",
+        "30 to 150 µm",
+        "200 to 300 µm",
+        "400 to 500 µm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The trophozoite of B. coli measures 30 to 150 µm in length, making it the largest protozoan parasite of humans. It is covered with cilia and moves rapidly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5964,
+      "question": "The macronucleus of Balantidium coli is found where?",
+      "options": [
+        "At the anterior end",
+        "Near the middle of the body",
+        "At the posterior end",
+        "Outside the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The large, kidney-shaped macronucleus lies near the middle of the trophozoite — a key identifying feature on microscopy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.8135,
+      "question": "The micronucleus of Balantidium coli is found where?",
+      "options": [
+        "Within the concavity of the macronucleus",
+        "At the anterior end",
+        "Outside the cell",
+        "In the cytostome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The small, spherical micronucleus sits inside the concave indentation of the macronucleus — used for sexual reproduction (conjugation).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.337,
+      "question": "Balantidium coli cysts measure how many micrometers in diameter?",
+      "options": [
+        "10 to 20",
+        "20 to 30",
+        "40 to 60",
+        "80 to 100"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The B. coli cyst is roughly spherical and measures 40 to 60 µm in diameter — significantly larger than the cysts of Entamoeba species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9192,
+      "question": "Balantidiasis in humans is most common in which country?",
+      "options": [
+        "Brazil",
+        "India",
+        "Nigeria",
+        "Philippines"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Balantidiasis has its highest human prevalence in the Philippines — associated with close contact between humans and pigs in rural communities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5857,
+      "question": "Balantidiasis occurs in less than what percentage of human population?",
+      "options": [
+        "1%",
+        "5%",
+        "10%",
+        "20%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Balantidiasis is rare in humans — it affects less than 1% of the global population, even in endemic areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.8674,
+      "question": "Which animals represent a reservoir of Balantidium infection to humans?",
+      "options": [
+        "Birds",
+        "Primates",
+        "Fish",
+        "Reptiles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primates, especially monkeys, can harbour B. coli and act as a reservoir of infection for humans — in addition to pigs, which are the primary reservoir.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.3406,
+      "question": "Balantidium coli cysts can remain alive for how long in pig faeces?",
+      "options": [
+        "Hours",
+        "Days",
+        "Weeks",
+        "Years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cyst is highly resistant and can remain viable in pig faeces for weeks — this long survival is a major factor in transmission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.976,
+      "question": "Balantidium coli trophozoites multiply by what process?",
+      "options": [
+        "Binary or transverse fission",
+        "Schizogony",
+        "Endodyogeny",
+        "Sporogony"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trophozoites multiply by binary (transverse) fission — they divide across the short axis of the body. Conjugation also occurs for genetic exchange.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.5593,
+      "question": "The ulcer caused by Balantidium coli is usually shaped like what?",
+      "options": [
+        "Round",
+        "Oval",
+        "Flask",
+        "Star"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The colonic ulcers produced by B. coli are flask-shaped — narrow at the mucosal surface and wider deeper in the submucosa, similar to those of Entamoeba histolytica.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.6396,
+      "question": "Balantidium coli colonic ulceration produces infiltration with what?",
+      "options": [
+        "Eosinophils",
+        "Lymphocytes",
+        "Basophils",
+        "Neutrophils"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inflammatory infiltrate in B. coli ulceration is predominantly lymphocytic — unlike the eosinophilic infiltrate seen in many helminthic infections.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790338632475.9832,
+      "question": "Balantidium coli can be treated with carbarsone, diiodohydroxyquin, and what?",
+      "options": [
+        "Chloroquine",
+        "Penicillin",
+        "Tetracycline",
+        "Metronidazole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tetracycline is effective against B. coli, along with carbarsone and diiodohydroxyquin — the three drugs traditionally used to treat balantidiasis.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
