@@ -3,16 +3,718 @@
   "title": "ZEB 122 ( UNN ) : TOXOPLASMOSIS",
   "subject": "ZEB 122",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790354011385.093,
+      "question": "In which year was Toxoplasma gondii discovered?",
+      "options": [
+        "1918",
+        "1908",
+        "1928",
+        "1938"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Toxoplasma gondii was discovered in 1908 by Nicolle and Manceaux in the desert rodent Ctenodactylus gundi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011392.167,
+      "question": "Who discovered Toxoplasma gondii?",
+      "options": [
+        "Smith and Jones",
+        "Sabin and Feldman",
+        "Bruce and Chwatt",
+        "Nicolle and Manceaux"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nicolle and Manceaux discovered T. gondii in 1908 at the Pasteur Institute in Tunis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.781,
+      "question": "Toxoplasma gondii was first discovered in which animal?",
+      "options": [
+        "Desert rodent gond",
+        "Domestic cat",
+        "Sheep",
+        "Pig"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The parasite was first isolated from the gundi (Ctenodactylus gundi), a desert rodent found in North Africa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.4663,
+      "question": "The colony where Toxoplasma gondii was first discovered was maintained at which institute?",
+      "options": [
+        "Pasteur Institute in Paris",
+        "London School of Hygiene",
+        "Pasteur Institute in Tunis",
+        "Liverpool School of Tropical Medicine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Pasteur Institute in Tunis, Tunisia, is where the original discovery was made.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.407,
+      "question": "Since the 1980s, Toxoplasma gondii has been recognized as a complicating factor for which patients?",
+      "options": [
+        "Diabetic patients",
+        "Immunosuppressed patients",
+        "Hypertensive patients",
+        "Anaemic patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The HIV/AIDS epidemic since the 1980s brought toxoplasmosis into prominence as a major opportunistic infection in immunosuppressed patients, particularly those with AIDS.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.4941,
+      "question": "Toxoplasma gondii is currently described as what in the human population?",
+      "options": [
+        "Cosmopolitan",
+        "Eradicated",
+        "Rare",
+        "Seasonal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T. gondii is cosmopolitan — found worldwide. It is one of the most successful parasites on earth, infecting roughly a third of the human population.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.4172,
+      "question": "Toxoplasma gondii is an obligate intracellular parasite of many kinds of what?",
+      "options": [
+        "Fluids",
+        "Secretions",
+        "Excretions",
+        "Tissues"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T. gondii is an obligate intracellular parasite — it must live inside host cells of many kinds of tissues to survive and multiply.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.3806,
+      "question": "Toxoplasma gondii possesses affinities with which group?",
+      "options": [
+        "Flagellates",
+        "Amoebae",
+        "Coccidia",
+        "Ciliates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T. gondii has affinities with the coccidia — the intestinal phase of its life cycle in cats resembles that of other coccidian parasites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.5781,
+      "question": "In heavy acute infections, Toxoplasma gondii can be found free in blood and what else?",
+      "options": [
+        "Peritoneal exudates",
+        "Urine",
+        "Bile",
+        "Saliva"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During heavy acute infections, tachyzoites can be found free in the bloodstream and in peritoneal exudates, facilitating systemic spread.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.795,
+      "question": "Toxoplasma gondii usually lives in which part of the host cell?",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Mitochondrion",
+        "Vacuole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T. gondii typically resides in the cytoplasm of the host cell, in a vacuole of its own making — the parasitophorous vacuole.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.8235,
+      "question": "Intestinal-epithelial development of Toxoplasma gondii occurs in which animal?",
+      "options": [
+        "Dogs",
+        "Sheep",
+        "Cats",
+        "Cattle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The intestinal-epithelial development (with sexual reproduction) occurs only in cats — the definitive host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.3152,
+      "question": "Sexual reproduction of Toxoplasma gondii occurs in which host?",
+      "options": [
+        "Dog",
+        "Sheep",
+        "Man",
+        "Cat"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cat is the definitive host — sexual reproduction (gametogony) occurs in the intestinal epithelium of felines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.7883,
+      "question": "In hosts other than cats, only what type of reproduction is known for Toxoplasma gondii?",
+      "options": [
+        "Sexual",
+        "Asexual",
+        "Both",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In all hosts other than cats, only asexual reproduction (endodyogeny) occurs. These hosts are intermediate hosts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.7798,
+      "question": "Intestinal development in cats begins with ingestion of what?",
+      "options": [
+        "Zoitocyst",
+        "Sporocyst",
+        "Trophozoite",
+        "Merozoite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intestinal development in cats begins with the ingestion of tissue cysts (zoitocysts) containing bradyzoites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.3542,
+      "question": "Asexual generations of Toxoplasma gondii divide by which process?",
+      "options": [
+        "Binary fission",
+        "Schizogony",
+        "Endodyogeny",
+        "Sporogony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asexual generations divide by endodyogeny — an internal budding process in which two daughter cells form inside the mother cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011393.8967,
+      "question": "Endodyogeny forms how many daughter cells inside the mother cell?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Endodyogeny produces exactly two daughter cells inside the mother cell before it ruptures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.3828,
+      "question": "Once inside an epithelial cell of the cat, Toxoplasma gondii becomes what?",
+      "options": [
+        "Trophozoite",
+        "Sporozoite",
+        "Oocyst",
+        "Bradyzoite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once inside an epithelial cell, the parasite becomes a trophozoite and begins asexual multiplication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.9119,
+      "question": "Merogony is multiple fission to produce what?",
+      "options": [
+        "Sporozoites",
+        "Merozoites",
+        "Tachyzoites",
+        "Bradyzoites"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Merogony is multiple fission that produces merozoites — this occurs in the intestinal phase in cats.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.1995,
+      "question": "Extraintestinal stages of Toxoplasma gondii begin when a host ingests what?",
+      "options": [
+        "Oocysts",
+        "Sporozoites",
+        "Trophozoites",
+        "Bradyzoites"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Extraintestinal stages begin when a host ingests tissue cysts containing bradyzoites — these invade cells and transform into tachyzoites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.7095,
+      "question": "Ingested tachyzoites or which other forms are infective?",
+      "options": [
+        "Merozoites",
+        "Gametocytes",
+        "Sporocysts",
+        "Schizonts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ingested tachyzoites or sporocysts (released from ingested oocysts) are infective and initiate the extraintestinal cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.0256,
+      "question": "In the cat, some sporozoites enter epithelial cells to initiate which cycle?",
+      "options": [
+        "Erythrocytic",
+        "Enteroepithelial",
+        "Exoerythrocytic",
+        "Tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the cat, some sporozoites enter epithelial cells of the intestine to initiate the enteroepithelial cycle — leading to sexual reproduction and oocyst formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.3867,
+      "question": "In cells other than those of cats, there is no what development?",
+      "options": [
+        "Asexual",
+        "Intracellular",
+        "Enteroepithelial",
+        "Cystic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Enteroepithelial development (the sexual cycle) occurs only in cats. In other hosts, only the extraintestinal asexual cycle occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.249,
+      "question": "Rapidly dividing cells in acute infections are called what?",
+      "options": [
+        "Tachyzoites",
+        "Bradyzoites",
+        "Sporozoites",
+        "Merozoites"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tachyzoites are the rapidly multiplying stage found during acute infection. They are crescent-shaped, multiply by endodyogeny, and cause tissue damage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.3184,
+      "question": "As infection becomes chronic, slowly multiplying zoites are called what?",
+      "options": [
+        "Tachyzoites",
+        "Sporozoites",
+        "Gametocytes",
+        "Bradyzoites"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bradyzoites are the slowly multiplying stage that forms tissue cysts during chronic infection. They persist for life in the host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.5938,
+      "question": "Toxoplasmosis is caused by which organism?",
+      "options": [
+        "Plasmodium vivax",
+        "Trypanosoma cruzi",
+        "Toxoplasma gondii",
+        "Leishmania donovani"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Toxoplasmosis is caused by Toxoplasma gondii, an obligate intracellular protozoan parasite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.9026,
+      "question": "Toxoplasmosis varies in severity from inapparent infection to severe systemic disease terminating in what?",
+      "options": [
+        "Anaemia and jaundice",
+        "Encephalitis and death",
+        "Diarrhoea and dehydration",
+        "Rash and fever"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Toxoplasmosis ranges from asymptomatic to severe systemic disease. In its worst form — especially in immunocompromised patients — it causes encephalitis and can be fatal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.9392,
+      "question": "Man normally acquires Toxoplasma infection by ingesting oocysts from what?",
+      "options": [
+        "Cat faeces",
+        "Dog urine",
+        "Sheep milk",
+        "Cattle blood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oocysts are shed in cat faeces and become infective after sporulation in the environment. Humans acquire infection by ingesting contaminated food, water, or soil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.5696,
+      "question": "Man acquires Toxoplasma infection by ingesting cysts containing bradyzoites from what?",
+      "options": [
+        "Fresh vegetables",
+        "Pasteurized milk",
+        "Clean water",
+        "Raw or undercooked meat"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tissue cysts containing bradyzoites are found in raw or undercooked meat — especially pork, lamb, and venison — and are a major source of human infection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.0093,
+      "question": "The liver and which organ seem to be primary sites of multiplication in human infection?",
+      "options": [
+        "Lungs",
+        "Kidneys",
+        "Spleen",
+        "Brain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After ingestion, the parasite invades the intestinal wall and spreads via the bloodstream. The liver and lungs are the primary sites of multiplication in human infection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.2673,
+      "question": "Congenital transmission of Toxoplasma may be by which route?",
+      "options": [
+        "Faecal-oral",
+        "Vector-borne",
+        "Transplacental",
+        "Direct contact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Congenital toxoplasmosis occurs when tachyzoites cross the placenta during a primary maternal infection. The risk and severity depend on the trimester.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.7014,
+      "question": "Although antibody to Toxoplasma is widely prevalent, clinical toxoplasmosis is what?",
+      "options": [
+        "Common",
+        "Rare",
+        "Increasing",
+        "Epidemic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Despite high seroprevalence worldwide (up to a third of humans), clinical toxoplasmosis is rare — most infections are asymptomatic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.8015,
+      "question": "Which factor contributes to the degree of pathology in toxoplasmosis?",
+      "options": [
+        "Blood group of the host",
+        "Sex of the host",
+        "Height of the host",
+        "Age of the host"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The age of the host is a significant factor. Older hosts tend to be more resistant, while foetuses and immunocompromised individuals suffer the most severe disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.4128,
+      "question": "Older hosts are more what to toxoplasmosis?",
+      "options": [
+        "Susceptible",
+        "Infectious",
+        "Resistant",
+        "Allergic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Older hosts are more resistant to toxoplasmosis — they have had more time to develop immunity, and their immune systems have typically been exposed to the parasite already.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.0764,
+      "question": "Symptomatic toxoplasmosis is classified as acute, subacute, chronic, or what?",
+      "options": [
+        "Congenital",
+        "Latent",
+        "Recurrent",
+        "Primary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Symptomatic toxoplasmosis is classified into four types: acute, subacute, chronic, and congenital.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.1018,
+      "question": "In acute toxoplasmosis, which organ is the first site of infection?",
+      "options": [
+        "Liver",
+        "Intestine",
+        "Lung",
+        "Brain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intestine is the first site of infection — the parasite invades the intestinal epithelium after being ingested.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011394.027,
+      "question": "The first extra-intestinal sites in humans are mesenteric lymph nodes and what?",
+      "options": [
+        "Kidney cortex",
+        "Spleen capsule",
+        "Heart muscle",
+        "Liver parenchyma"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From the intestine, the parasite spreads first to the mesenteric lymph nodes and liver parenchyma before reaching other organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.242,
+      "question": "The most common symptom of acute toxoplasmosis is painful, swollen what?",
+      "options": [
+        "Lymph glands",
+        "Joints",
+        "Muscles",
+        "Tendons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lymphadenopathy — painful, swollen lymph glands — is the most common symptom of acute toxoplasmosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.903,
+      "question": "In acute toxoplasmosis, lymph glands are commonly swollen in inguinal, cervical, and which regions?",
+      "options": [
+        "Axillary",
+        "Popliteal",
+        "Supraclavicular",
+        "Occipital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lymphadenopathy in acute toxoplasmosis typically involves the inguinal, cervical, and supraclavicular regions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.708,
+      "question": "Subacute toxoplasmosis occurs when immunity in the host develops how?",
+      "options": [
+        "Rapidly",
+        "Slowly",
+        "Completely",
+        "Not at all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subacute toxoplasmosis occurs when host immunity develops slowly, allowing the parasite to spread and cause more extensive lesions before being controlled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.4158,
+      "question": "In subacute toxoplasmosis, extensive lesions develop in lung, heart, liver, brain, and what?",
+      "options": [
+        "Kidneys",
+        "Spleen",
+        "Skin",
+        "Eyes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Subacute toxoplasmosis produces extensive lesions in the lungs, heart, liver, brain, and eyes — including the characteristic chorioretinitis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.8506,
+      "question": "Damage is more extensive in the central nervous system because of lower what?",
+      "options": [
+        "Immunocompetence",
+        "Blood supply",
+        "Oxygen level",
+        "Nutrient supply"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CNS has lower immunocompetence than other tissues — immune cells and antibodies penetrate it less easily — so damage is more extensive there.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.2532,
+      "question": "Chronic toxoplasmosis occurs when immunity builds sufficiently to suppress what?",
+      "options": [
+        "Bradyzoite formation",
+        "Cyst rupture",
+        "Tachyzoite proliferation",
+        "Antibody production"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chronic toxoplasmosis occurs when host immunity builds sufficiently to suppress tachyzoite proliferation. The parasite then transforms into bradyzoites and forms tissue cysts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.6797,
+      "question": "Chronic toxoplasmosis coincides with the formation of what?",
+      "options": [
+        "Oocysts",
+        "Cysts",
+        "Sporocysts",
+        "Gametocytes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chronic toxoplasmosis coincides with the formation of tissue cysts — clusters of bradyzoites walled off by the host immune response, persisting for life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.0908,
+      "question": "Chronic toxoplasmosis may cause myocarditis leading to permanent heart damage and what?",
+      "options": [
+        "Pneumonia",
+        "Hepatitis",
+        "Nephritis",
+        "Arthritis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chronic toxoplasmosis may cause myocarditis leading to permanent heart damage and pneumonia as the parasite affects the lungs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.131,
+      "question": "Congenital toxoplasmosis may cause malformations including hydrocephaly, microcephaly, cerebral calcification, chorio-retinitis, and what?",
+      "options": [
+        "Skeletal deformities",
+        "Cardiac defects",
+        "Renal agenesis",
+        "Psychomotor disturbances"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Congenital toxoplasmosis causes a classic tetrad — hydrocephalus or microcephaly, cerebral calcification, chorioretinitis, and psychomotor disturbances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.1228,
+      "question": "Toxoplasma gondii may be isolated by intraperitoneal injection of biopsy material into mice, guinea pigs, or which other animal?",
+      "options": [
+        "Rats",
+        "Rabbits",
+        "Hamsters",
+        "Monkeys"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Isolation can be done by intraperitoneal injection of biopsy material into mice, guinea pigs, or hamsters — susceptible laboratory animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.599,
+      "question": "Which animal is the most suitable medium for culturing Toxoplasma gondii?",
+      "options": [
+        "Guinea pigs",
+        "Mice",
+        "Hamsters",
+        "Rats"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mice are the most suitable laboratory medium for culturing T. gondii — they are highly susceptible to infection, and the parasite multiplies readily in their tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.8276,
+      "question": "Which serological test is most widely used for detecting antibodies to Toxoplasma gondii?",
+      "options": [
+        "Widal test",
+        "Weil-Felix test",
+        "Paul-Bunnell test",
+        "Sabin-Feldman dye test"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Sabin-Feldman dye test is the most widely used and historically the standard serological test for T. gondii antibodies. It measures specific IgG using live tachyzoites and methylene blue dye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.2456,
+      "question": "The most convincing method of diagnosing active toxoplasmosis is a four-fold rise in titre coupled with what?",
+      "options": [
+        "Isolation of Toxoplasma",
+        "Detection of oocysts",
+        "Presence of fever",
+        "Enlarged spleen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The most convincing diagnosis of active toxoplasmosis is a four-fold rise in antibody titre combined with isolation of the parasite — either by animal inoculation or culture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790354011395.369,
+      "question": "The most effective treatment for toxoplasmosis in humans and animals is a combination of pyrimethamine and what?",
+      "options": [
+        "Penicillin",
+        "Metronidazole",
+        "Sulphonamides",
+        "Tetracycline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The most effective treatment is a combination of pyrimethamine and sulphonamides. These drugs act synergistically by blocking sequential steps in the parasite's folate metabolism.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
