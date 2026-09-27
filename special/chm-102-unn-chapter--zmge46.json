@@ -3,16 +3,718 @@
   "title": "CHM 102 ( UNN ) : CHAPTER 4",
   "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790526113506.6157,
+      "question": "Organic compounds are classified by solubility for what purpose?",
+      "options": [
+        "Distillation",
+        "Identification",
+        "Titration",
+        "Filtration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The material states organic compounds are divided into classes for identification based on solubility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.3525,
+      "question": "Which solvent is not used in solubility classification?",
+      "options": [
+        "Water",
+        "Ether",
+        "Ethanol",
+        "Sodium hydroxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The listed solvents are water, ether, NaOH, NaHCO3, HCl, H2SO4, H3PO4. Ethanol is not listed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4182,
+      "question": "For water test, what mass of solid sample is used?",
+      "options": [
+        "0.10 g",
+        "1.00 g",
+        "0.50 g",
+        "5.00 g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The procedure says treat about 0.10 g of the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.06,
+      "question": "A solid is insoluble in water if it does not dissolve in how much water?",
+      "options": [
+        "1.0 mL",
+        "2.0 mL",
+        "3.0 mL",
+        "5.0 mL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If it does not dissolve completely in 3.0 mL of water, it is regarded as insoluble.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.8738,
+      "question": "For ether test, how much liquid sample is used?",
+      "options": [
+        "0.20 mL",
+        "2.0 mL",
+        "0.02 mL",
+        "20 mL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For liquid, add 0.20 mL of the compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.8374,
+      "question": "Why must ether test not be performed near a flame?",
+      "options": [
+        "Ether is toxic",
+        "Ether is flammable",
+        "Ether is corrosive",
+        "Ether is volatile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The material notes ether is highly flammable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4883,
+      "question": "In NaOH test, what should be noted besides solubility?",
+      "options": [
+        "Colour change",
+        "Gas evolution",
+        "Temperature rise",
+        "Melting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The procedure says note whether there is any rise in temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4053,
+      "question": "Turbidity after adding HCl to NaOH supernatant places compound in which group?",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 3",
+        "Group 4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Production of turbidity will place the compound in group 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.8926,
+      "question": "NaHCO3 test is done only if compound is soluble in what?",
+      "options": [
+        "Water",
+        "Ether",
+        "NaOH",
+        "HCl"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the compound is soluble in sodium hydroxide solution, test its solubility in NaHCO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.6204,
+      "question": "Immediate CO2 evolution with NaHCO3 indicates which class?",
+      "options": [
+        "Carboxylic acids",
+        "Simple alcohols",
+        "Primary amines",
+        "Saturated alkanes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Immediate CO2 is given by carboxylic acids, sulphonic acids, negatively substituted phenols.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.8794,
+      "question": "If solution occurs in HCl test, the unknown is assigned to which group?",
+      "options": [
+        "Group 2",
+        "Group 3",
+        "Group 5",
+        "Group 4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If solution occurs at any time, the unknown is assigned group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.5386,
+      "question": "Precipitate after making HCl supernatant basic places compound in which group?",
+      "options": [
+        "Group 7",
+        "Group 4",
+        "Group 6",
+        "Group 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formation of a precipitate will place the compound in group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.9307,
+      "question": "How much concentrated H2SO4 is placed in the test tube?",
+      "options": [
+        "1.0 mL",
+        "5.0 mL",
+        "3.0 mL",
+        "10.0 mL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Place 3.0 mL of pure concentrated sulphuric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.6458,
+      "question": "Which observation is not specifically mentioned for conc H2SO4 test?",
+      "options": [
+        "Charring",
+        "Colour change",
+        "Gas evolution",
+        "Melting point"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Observations include colour change, charring, gas evolution, polymerization. Melting point is not mentioned.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.6113,
+      "question": "H3PO4 85% test is applied only if compound is soluble in what?",
+      "options": [
+        "Water only",
+        "Ether only",
+        "NaOH solution",
+        "Conc H2SO4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This test should only be applied if the compound is soluble in concentrated sulphuric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.6047,
+      "question": "How many solvent columns are in Table 3?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists Water, Ether, NaOH, NaHCO3, HCl, Conc H2SO4, H3PO4 (85%) = 7 columns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.5034,
+      "question": "In Table 3, group 1 is soluble in water and which other solvent?",
+      "options": [
+        "Ether",
+        "NaOH",
+        "NaHCO3",
+        "HCl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group 1 is soluble in both water and ether.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.091,
+      "question": "In Table 3, group 5A is soluble in concentrated H2SO4 and which other acid?",
+      "options": [
+        "H3PO4",
+        "HCl",
+        "HNO3",
+        "H2CO3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group 5A shows Sol for Conc H2SO4 and Sol for H3PO4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.066,
+      "question": "Group 1 includes lower members containing which elements?",
+      "options": [
+        "Sulphur only",
+        "Oxygen, nitrogen",
+        "Halogens only",
+        "Metals only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Group 1 includes lower members of homologous series containing oxygen and/or nitrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.5671,
+      "question": "Group 1 compounds are water soluble because of what?",
+      "options": [
+        "High carbon content",
+        "High sulphur",
+        "Low oxygen",
+        "Low carbon"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They are soluble in water because of their low carbon content.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.989,
+      "question": "If a compound is soluble in both water and ether, what test should still be performed?",
+      "options": [
+        "NaHCO3 test",
+        "HCl test",
+        "H2SO4 test",
+        "H3PO4 test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Further solubility tests are generally unnecessary, but the test with sodium bicarbonate solution should be performed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4275,
+      "question": "Group 1 compounds are classified based on litmus as?",
+      "options": [
+        "Solid, liquid, gas",
+        "Soluble, insoluble",
+        "Basic, acidic, neutral",
+        "Volatile, nonvolatile"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compounds in this group are classified into three: basic, acidic, neutral to litmus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.262,
+      "question": "Which compound is basic to litmus in Group 1?",
+      "options": [
+        "Acetic acid",
+        "Acetone",
+        "Benzoquinone",
+        "Benzylamine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Benzylamine is listed as basic to litmus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.241,
+      "question": "Group 2 classes are usually soluble in dilute alkali and what?",
+      "options": [
+        "Acid",
+        "Water",
+        "Ether",
+        "H2SO4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The classes 1 to 5 are usually soluble in dilute alkali and acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.0405,
+      "question": "Salt of a water soluble base gives amine odour when treated with what?",
+      "options": [
+        "Dilute acid",
+        "Water",
+        "Ether",
+        "Dilute alkali"
+      ],
+      "correctAnswer": 3,
+      "explanation": "With a salt of a water soluble base, the odour of an amine is apparent when treated with dilute alkali.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4531,
+      "question": "Salts of sulphonic acids and quaternary bases are unaffected by dilute NaOH and what?",
+      "options": [
+        "HCl",
+        "H2SO4",
+        "H3PO4",
+        "NaHCO3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The salts of sulphonic acids and quaternary bases are unaffected by dilute sodium hydroxide or dilute hydrochloric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.263,
+      "question": "Group 3A compounds are soluble in which solution?",
+      "options": [
+        "Conc H2SO4 only",
+        "HCl only",
+        "Dilute NaHCO3",
+        "Ether only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 3A compounds are soluble in dilute sodium bicarbonate solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.5132,
+      "question": "Which is an example of Group 3A?",
+      "options": [
+        "Benzene ring",
+        "Acetone liquid",
+        "Pyridine base",
+        "Picric acid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Picric acid is listed as an example of Group 3A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.6296,
+      "question": "Group 3A includes all except which?",
+      "options": [
+        "Carboxylic acids",
+        "Benzene",
+        "Sulphonic acids",
+        "Tribromophenol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzene is not listed in Group 3A; it is a hydrocarbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.886,
+      "question": "Group 3B compounds are soluble in what?",
+      "options": [
+        "Dilute NaHCO3 but not NaOH",
+        "Water and ether",
+        "Dilute NaOH but not NaHCO3",
+        "Conc H2SO4 only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 3B phenols are soluble in dilute sodium hydroxide but insoluble in dilute sodium bicarbonate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.4465,
+      "question": "Group 3B includes phenols not well substituted with what?",
+      "options": [
+        "Electron donating groups",
+        "Alkyl groups",
+        "Hydrogen",
+        "Electron withdrawing groups"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They include all phenols that are not well substituted with electron withdrawing groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113511.8113,
+      "question": "Which is an example of Group 3B?",
+      "options": [
+        "Benzene",
+        "Acetone",
+        "Nitrophenols",
+        "Pyridine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitrophenols are listed as examples of Group 3B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.7642,
+      "question": "Group 4: hydrochlorides of some bases are sparingly soluble in what?",
+      "options": [
+        "Hot water",
+        "Ether",
+        "NaOH",
+        "Cold water"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The hydrochlorides of some bases are sparingly soluble in cold water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.2402,
+      "question": "In Group 4, if no precipitate after making filtrate alkaline, compound belongs to which group?",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 5",
+        "Group 7"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If no precipitate was formed, the compound is further probed to belong to group 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.0627,
+      "question": "Group 4 examples include which of the following?",
+      "options": [
+        "Alkanes",
+        "Benzoquinones",
+        "Amines",
+        "Xylenes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amines are listed as examples of Group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.5718,
+      "question": "Group 5A compounds are water insoluble and soluble in what?",
+      "options": [
+        "Cold H2SO4",
+        "Dilute NaOH",
+        "Dilute HCl",
+        "Water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group 5A includes water-insoluble hydrocarbons soluble in cold concentrated sulphuric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.5913,
+      "question": "Which ester is an exception in Group 5A?",
+      "options": [
+        "Ethyl acetate",
+        "Methyl butyrate",
+        "Benzyl acetate",
+        "Ethyl benzoate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Esters are included except ethyl benzoate, ethyl malonate, or ethyl oxalate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.6963,
+      "question": "Group 5A includes cyclic ketones containing less than how many carbon atoms?",
+      "options": [
+        "Seven carbon atoms",
+        "Five carbon atoms",
+        "Nine carbon atoms",
+        "Twelve carbon atoms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cyclic ketones containing less than nine carbon atoms are soluble.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.081,
+      "question": "Which is an example of Group 5A?",
+      "options": [
+        "Benzoquinone",
+        "Benzophenone",
+        "Acetophenone",
+        "Naphthalene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acetophenone is listed as an example of Group 5A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.7258,
+      "question": "Group 5A ethers are soluble if they contain less than how many atoms?",
+      "options": [
+        "Seven atoms",
+        "Nine atoms",
+        "Five atoms",
+        "Twelve atoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethers containing less than seven atoms are soluble in both concentrated sulphuric acid and 85% phosphoric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.9768,
+      "question": "Group 5B compounds are soluble in conc H2SO4 but insoluble in what?",
+      "options": [
+        "Water",
+        "Ether",
+        "NaOH",
+        "H3PO4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Group 5B members are soluble in concentrated sulphuric acid but insoluble in 85% phosphoric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.1372,
+      "question": "Group 5B includes which of the following?",
+      "options": [
+        "Simple sugars",
+        "Amino acids",
+        "Benzoquinones",
+        "Carboxylic acids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzoquinones are listed as examples of Group 5B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.1155,
+      "question": "Which is an example of Group 5B?",
+      "options": [
+        "Benzene",
+        "Benzophenone",
+        "Acetone",
+        "Pyridine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzophenone is listed as an example of Group 5B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.0513,
+      "question": "Group 6 compounds are not soluble in what?",
+      "options": [
+        "Water",
+        "Ether",
+        "NaOH",
+        "H2SO4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Members of this group are not soluble in concentrated sulphuric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.1128,
+      "question": "Group 6 includes which of the following?",
+      "options": [
+        "Nitro compounds",
+        "Sulphonamides",
+        "Aromatic hydrocarbons",
+        "Hydrazones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aromatic hydrocarbons like benzene, toluene are in Group 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.2693,
+      "question": "Group 6 compounds do not contain which elements?",
+      "options": [
+        "Carbon only",
+        "Hydrogen only",
+        "Nitrogen, sulphur",
+        "Oxygen only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 6 members do not contain nitrogen or sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.6416,
+      "question": "Group 7 compounds contain which elements?",
+      "options": [
+        "Only oxygen",
+        "Only carbon",
+        "Only hydrogen",
+        "Nitrogen, sulphur"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Group 7 comprises all compounds containing nitrogen and/or sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.9106,
+      "question": "Group 7 compounds are insoluble in water, NaOH, NaHCO3, HCl, and what?",
+      "options": [
+        "H2SO4",
+        "Ether",
+        "Ethanol",
+        "Acetone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They are insoluble in water, NaOH, NaHCO3, HCl, and H2SO4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.1877,
+      "question": "Which is an example of Group 7?",
+      "options": [
+        "Alkanes",
+        "Alcohols",
+        "Nitro compounds",
+        "Carboxylic acids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitro compounds are listed as examples of Group 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790526113512.8486,
+      "question": "Group 7 includes derivatives of aldehydes and ketones containing nitrogen or sulphur, such as?",
+      "options": [
+        "Hydrazone",
+        "Acetone",
+        "Benzene",
+        "Ethanol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrazone, oximes, semicarbazones are examples of Group 7.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
