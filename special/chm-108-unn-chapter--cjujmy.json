@@ -3,16 +3,718 @@
   "title": "CHM 108 ( UNN ) : CHAPTER 5",
   "subject": "CHM 108",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790531253495.259,
+      "question": "What must covalently bonded elements be converted to for elemental analysis?",
+      "options": [
+        "Solid form",
+        "Gaseous form",
+        "Liquid form",
+        "Ionic form"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The text states covalently bonded elements must first be converted to their ionic form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.3757,
+      "question": "Elemental analysis uses sodium fusion to identify which elements?",
+      "options": [
+        "Carbon and hydrogen",
+        "Oxygen and metals",
+        "Nitrogen, sulphur, halogens, phosphorus",
+        "Silicon and boron"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The test identifies nitrogen, sulphur, halogens, and phosphorus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.266,
+      "question": "The compound in elemental analysis is sandwiched between what?",
+      "options": [
+        "Two glass slides",
+        "Two filter papers",
+        "Two metal plates",
+        "Two pieces of sodium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It involves heating the compound sandwiched between two pieces of elemental sodium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.9092,
+      "question": "Sodium fusion test is also called?",
+      "options": [
+        "Lassaigne's test",
+        "Liebig's test",
+        "Dumas test",
+        "Kjeldahl test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sodium fusion test is also referred to as Lassaigne's test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.6738,
+      "question": "How much sample is placed in the fusion tube?",
+      "options": [
+        "0.5 g",
+        "0.05 mg",
+        "5.0 mg",
+        "0.5 mg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Place about 0.05 mg of the sample in a short hard glass tube.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.057,
+      "question": "What is added on top of the sample in the fusion tube?",
+      "options": [
+        "Small piece of potassium",
+        "Small piece of calcium",
+        "Small piece of sodium",
+        "Small piece of magnesium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Add another small piece of metallic sodium on the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253498.2654,
+      "question": "How should heating initially be done?",
+      "options": [
+        "Rapidly and strongly",
+        "Slowly and weakly",
+        "Intermittently and softly",
+        "Gently and cautiously"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Heat gently and cautiously at first till violent reaction subsides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2134,
+      "question": "The fusion tube is heated until what appears?",
+      "options": [
+        "Blue hot",
+        "Red hot",
+        "White hot",
+        "Yellow hot"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Usually identified when the fusion tube has been heated to red hot.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2654,
+      "question": "The red hot tube is plunged into what?",
+      "options": [
+        "Tap water",
+        "Acid solution",
+        "Distilled water",
+        "Alkali solution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plunge the red hot tube into about 5 mL of distilled water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.5908,
+      "question": "A water-clear filtrate indicates what?",
+      "options": [
+        "Incomplete combustion",
+        "Presence of nitrogen",
+        "Presence of sulphur",
+        "Complete combustion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A water-clear filtrate indicates complete combustion of the organic material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.3032,
+      "question": "A black coloured filtrate indicates what?",
+      "options": [
+        "Complete combustion",
+        "Incomplete combustion",
+        "Excess sodium",
+        "Absence of halogens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A black coloured filtrate indicates incomplete combustion which may affect the result.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.7766,
+      "question": "Why is excess sodium essential?",
+      "options": [
+        "To speed reaction",
+        "To reduce cost",
+        "To prevent sodium thiocyanate",
+        "To increase colour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Essential to use excess sodium otherwise sodium thiocyanate may be produced if sulphur and nitrogen are both present.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.4292,
+      "question": "In sodium fusion, nitrogen is converted to what?",
+      "options": [
+        "Sodium sulphide",
+        "Sodium cyanide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nitrogen present is converted to inorganic cyanide in the form of sodium cyanide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.783,
+      "question": "What is added to 1 mL of filtrate to test for nitrogen?",
+      "options": [
+        "Sodium nitroprusside",
+        "Silver nitrate",
+        "Ammonium molybdate",
+        "Ferrous sulphate crystals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Add few crystals of ferrous sulphate to 1 mL of the filtrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2375,
+      "question": "A greenish-grey precipitate of what forms initially?",
+      "options": [
+        "Ferric hydroxide",
+        "Silver chloride",
+        "Ferrous hydroxide",
+        "Barium sulphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An immediate greenish-grey precipitate of ferrous hydroxide should occur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.1511,
+      "question": "Prussian blue colour indicates presence of what?",
+      "options": [
+        "Sulphur",
+        "Halogen",
+        "Phosphorus",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Appearance of Prussian blue or greenish-blue colour indicates presence of nitrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.366,
+      "question": "Only green colouration after acidification indicates what?",
+      "options": [
+        "Excess sodium",
+        "Insufficient reaction with sodium",
+        "Presence of sulphur",
+        "Presence of halogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If only green colouration obtained, it indicates insufficient reaction with sodium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.8562,
+      "question": "Alternative nitrogen test uses 4-nitrobenzaldehyde and what?",
+      "options": [
+        "1,3-dinitrobenzene",
+        "1,2-dinitrobenzene",
+        "1,4-dinitrobenzene",
+        "Nitrobenzene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mix 1 mL of 4-nitrobenzaldehyde and 1 mL of 1,2-dinitrobenzene solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.1917,
+      "question": "Deep blue-purple colour in alternative test indicates what?",
+      "options": [
+        "Sulphur",
+        "Halogen",
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Deep blue-purple colouration indicates the presence of nitrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.5156,
+      "question": "Yellow colouration in alternative test indicates what?",
+      "options": [
+        "Positive test",
+        "Presence of sulphur",
+        "Presence of halogen",
+        "Negative test"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A yellow colouration indicates a negative test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2568,
+      "question": "In sodium fusion, sulphur is converted to what?",
+      "options": [
+        "Sodium cyanide",
+        "Sodium sulphide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sulphur present is converted to inorganic sulphide in the form of sodium sulphide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.5989,
+      "question": "What is added to filtrate to test for sulphur?",
+      "options": [
+        "Ferrous sulphate",
+        "Silver nitrate",
+        "Ammonium molybdate",
+        "Sodium nitroprusside"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Add a few crystals of sodium nitroprusside to 1 mL of filtrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.984,
+      "question": "Purple or deep blue-violet colour indicates what?",
+      "options": [
+        "Nitrogen",
+        "Halogen",
+        "Sulphur",
+        "Phosphorus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A purple or deep blue-violet colour indicates the presence of sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.25,
+      "question": "The colouration for sulphur is sometimes what?",
+      "options": [
+        "Permanent",
+        "Transient",
+        "Green",
+        "Yellow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This colouration is sometimes transient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.7405,
+      "question": "How much filtrate is used in sulphur test?",
+      "options": [
+        "2 mL",
+        "5 mL",
+        "10 mL",
+        "1 mL"
+      ],
+      "correctAnswer": 3,
+      "explanation": "To 1 mL of the sodium fusion filtrate, add a few crystals of sodium nitroprusside.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.606,
+      "question": "In sodium fusion, halogens are converted to what?",
+      "options": [
+        "Sodium cyanide",
+        "Sodium sulphide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Halogens are converted to inorganic halide in the form of sodium halide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.3704,
+      "question": "If nitrogen and sulphur are absent, the filtrate is acidified with what?",
+      "options": [
+        "Dilute sulphuric acid",
+        "Dilute nitric acid",
+        "Dilute hydrochloric acid",
+        "Dilute acetic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acidify the sodium fusion solution with dilute nitric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.5864,
+      "question": "After acidification, what is added to test for halogens?",
+      "options": [
+        "Ferrous sulphate",
+        "Sodium nitroprusside",
+        "Excess silver nitrate",
+        "Ammonium molybdate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Add excess of silver nitrate solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.0295,
+      "question": "White precipitate dissolving rapidly in ammonia indicates what?",
+      "options": [
+        "Bromine",
+        "Iodine",
+        "Chlorine",
+        "Fluorine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "White precipitate dissolving rapidly in ammonia indicates chlorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.8984,
+      "question": "Pale yellow precipitate sparingly soluble in ammonia indicates what?",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Iodine",
+        "Fluorine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pale yellow precipitate sparingly soluble in ammonia indicates bromine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.6738,
+      "question": "Yellow precipitate insoluble in ammonia indicates what?",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Iodine",
+        "Fluorine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Yellow precipitate insoluble in ammonia indicates iodine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.082,
+      "question": "If iodine is present, the organic phase first becomes what colour?",
+      "options": [
+        "Brown",
+        "Colourless",
+        "Purple",
+        "Yellow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If iodine is present, the organic phase first becomes purple.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.429,
+      "question": "If bromine is present, what colour is observed after purple disappears?",
+      "options": [
+        "Blue",
+        "Brown or reddish",
+        "Green",
+        "Yellow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If bromine is present, a brown or reddish colour will be observed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.0288,
+      "question": "If bromine is absent, the organic layer becomes what?",
+      "options": [
+        "Purple",
+        "Brown",
+        "Colourless",
+        "Yellow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If bromine is absent, the organic layer will be colourless.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.464,
+      "question": "Removal of cyanide is achieved by boiling with what?",
+      "options": [
+        "Alkali",
+        "Acid",
+        "Water",
+        "Alcohol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Removal of sodium cyanide is achieved by boiling with acid as HCN.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.1895,
+      "question": "If too much sulphuric acid or silver nitrate is used, what precipitate may form?",
+      "options": [
+        "Silver chloride",
+        "Silver bromide",
+        "Silver sulphate",
+        "Silver iodide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A precipitate of silver sulphate may be formed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2253,
+      "question": "In sodium fusion, fluorine is converted to what?",
+      "options": [
+        "Sodium chloride",
+        "Sodium fluoride",
+        "Sodium bromide",
+        "Sodium iodide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluorine is converted to sodium fluoride after sodium fusion test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.3354,
+      "question": "Why does silver nitrate test fail for fluoride?",
+      "options": [
+        "Silver fluoride is volatile",
+        "Silver fluoride is coloured",
+        "Silver fluoride is unstable",
+        "Silver fluoride is soluble"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Silver fluoride is soluble in water thereby preventing a precipitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2837,
+      "question": "Which test is used to identify fluorine?",
+      "options": [
+        "Prussian blue test",
+        "Zirconium-Alizarin test",
+        "Silver nitrate test",
+        "Ammonium molybdate test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zirconium-Alizarin test is used to identify the presence of fluorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.3142,
+      "question": "Zirconium-alizarin reagent is prepared by mixing zirconium solution and what?",
+      "options": [
+        "Silver nitrate solution",
+        "Alizarin solution",
+        "Ferrous sulphate solution",
+        "Sodium nitroprusside solution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prepared by mixing equal volumes of zirconium solution and alizarin solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.1426,
+      "question": "Zirconium oxychloride is dissolved in water with what acids?",
+      "options": [
+        "Nitric and acetic",
+        "Sulphuric and hydrochloric",
+        "Phosphoric and citric",
+        "Carbonic and formic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add 17 mL of conc. sulphuric acid and 50.5 mL of conc. HCl.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.9368,
+      "question": "Change from red-violet to yellow indicates presence of what?",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Fluorine",
+        "Iodine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The change from red-violet to yellow colour indicates the presence of fluorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.7092,
+      "question": "The organic compound is fused with sodium peroxide or a mixture of what?",
+      "options": [
+        "Sodium chloride and potassium chloride",
+        "Sodium sulphate and potassium sulphate",
+        "Sodium carbonate and potassium nitrate",
+        "Sodium hydroxide and potassium hydroxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fused with sodium peroxide or a mixture of sodium carbonate and potassium nitrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.0662,
+      "question": "Phosphorus is converted to what soluble compound?",
+      "options": [
+        "Sodium phosphide",
+        "Sodium phosphite",
+        "Sodium phosphate",
+        "Sodium pyrophosphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Convert phosphorus into soluble sodium phosphate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.946,
+      "question": "The fused mass is boiled with what to remove interferences?",
+      "options": [
+        "Dilute hydrochloric acid",
+        "Concentrated sulphuric acid",
+        "Concentrated nitric acid",
+        "Dilute acetic acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boiled with concentrated nitric acid to remove interferences like sulphide and cyanide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2144,
+      "question": "What is added to test for phosphorus?",
+      "options": [
+        "Silver nitrate",
+        "Ammonium molybdate",
+        "Ferrous sulphate",
+        "Sodium nitroprusside"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add about 1 mL of ammonium molybdate to about 1 mL of the solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.5066,
+      "question": "Yellow precipitate of what shows presence of phosphorus?",
+      "options": [
+        "Magnesium ammonium phosphate",
+        "Silver phosphate",
+        "Ammonium phosphomolybdate",
+        "Calcium phosphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Appearance of yellow precipitate of ammonium phosphomolybdate shows presence of phosphorus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2012,
+      "question": "The yellow precipitate is dissolved in what to confirm phosphorus?",
+      "options": [
+        "Nitric acid",
+        "Ammonia",
+        "Sulphuric acid",
+        "Hydrochloric acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dissolving the yellow precipitate in ammonia and treating with magnesia mixture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.716,
+      "question": "Magnesia mixture contains MgCl2, NH4Cl, and what?",
+      "options": [
+        "NaOH",
+        "HCl",
+        "H2SO4",
+        "NH3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Magnesia mixture is a solution of MgCl2, NH4Cl, and NH3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790531253499.2427,
+      "question": "White precipitate of what confirms phosphorus?",
+      "options": [
+        "Ammonium phosphomolybdate",
+        "Magnesium ammonium phosphate",
+        "Silver phosphate",
+        "Calcium phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Production of a white precipitate of magnesium ammonium phosphate confirms phosphorus.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
