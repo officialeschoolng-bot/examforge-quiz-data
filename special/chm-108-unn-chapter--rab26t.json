@@ -3,16 +3,718 @@
   "title": "CHM 108 ( UNN ) : CHAPTER 2",
   "subject": "CHM 108",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790525068584.9263,
+      "question": "What shape is a typical beaker?",
+      "options": [
+        "Conical with narrow neck",
+        "Cylindrical, flat base",
+        "Spherical with long neck",
+        "Pear-shaped with stopcock"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A beaker has a cylindrical body with a flat bottom for stable placement on a workbench. The flat base lets it stand without support, and the cylindrical shape gives a large opening for pouring and stirring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068592.5261,
+      "question": "What feature helps beakers pour liquids?",
+      "options": [
+        "Side arm",
+        "Ground glass joint",
+        "Tiny spout or beak",
+        "Perforated plate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most beakers have a small spout or beak on the rim that channels the flow of liquid when pouring. Without it, liquid would run down the outside of the beaker.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.057,
+      "question": "Erlenmeyer flask is also known as?",
+      "options": [
+        "Conical or titration flask",
+        "Boiling or Florence flask",
+        "Measuring or graduated flask",
+        "Vacuum or suction flask"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Erlenmeyer flask has a conical body and narrow neck, and is commonly used in titrations because it can be swirled without spilling. Hence \"conical\" or \"titration\" flask.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.6414,
+      "question": "Who created the Erlenmeyer flask?",
+      "options": [
+        "Robert Koch",
+        "Erlenmeyer",
+        "Julius Petri",
+        "David Stark"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flask is named after Emil Erlenmeyer, a German chemist who designed it in 1860. The shape was deliberately created for chemistry work, with a conical body that allows swirling.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.632,
+      "question": "Florence flask is also known as?",
+      "options": [
+        "Boiling flask",
+        "Measuring flask",
+        "Titration flask",
+        "Culture tube"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Florence flask has a round body and long neck, designed for uniform heating of liquids. It is used for boiling liquids in distillation and reflux, hence \"boiling flask.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.3455,
+      "question": "Florence flask is usually made of?",
+      "options": [
+        "Fused quartz glass",
+        "Borosilicate",
+        "Porcelain",
+        "Teflon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Borosilicate glass (e.g. Pyrex) is standard for Florence flasks because of its low thermal expansion. It can withstand rapid heating and cooling without cracking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.1848,
+      "question": "Graduated cylinder measures?",
+      "options": [
+        "Liquid volume",
+        "Temperature of solution",
+        "Mass",
+        "Pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The graduated cylinder is designed specifically to measure the volume of liquids. The graduations along the side give readings accurate to within a few percent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.253,
+      "question": "Graduated cylinder is also called?",
+      "options": [
+        "Titration flask",
+        "Boiling flask",
+        "Volume cylinder",
+        "Culture tube"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The terms \"graduated cylinder\" and \"measuring cylinder\" are used interchangeably. Both refer to the tall, narrow container with volume markings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.2175,
+      "question": "Volumetric flask is calibrated at?",
+      "options": [
+        "Specific pressure",
+        "Specific mass",
+        "Fixed temperature",
+        "Specific humidity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volumetric flasks are calibrated at a specified temperature, usually 20 °C. Glass expands with temperature, so the marked volume is only accurate at that reference point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.6572,
+      "question": "Volumetric flask is used for?",
+      "options": [
+        "Cell culture",
+        "Dilutions",
+        "Vacuum filtration",
+        "Heating samples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The volumetric flask has a single calibration mark and a narrow neck, making it ideal for preparing precise dilutions and standard solutions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.5806,
+      "question": "Buchner flask is also called?",
+      "options": [
+        "Boiling flask",
+        "Measuring flask",
+        "Culture tube",
+        "Suction flask"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Buchner flask has a thick-walled construction and a side arm for connecting to a vacuum source. It is used to collect filtrate under suction, hence \"suction flask.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.9458,
+      "question": "Buchner funnel is used for?",
+      "options": [
+        "Fast vacuum filtration",
+        "Slow gravity filtration",
+        "Distillation",
+        "Titration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Buchner funnel uses a vacuum to pull liquid through a filter paper rapidly. It is much faster than gravity filtration because suction accelerates the flow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.614,
+      "question": "Plastic test tubes with screw-top closure are called?",
+      "options": [
+        "Falcon tubes",
+        "Vacutainers",
+        "Culture dishes",
+        "Burettes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Falcon tubes are plastic centrifuge/test tubes with screw caps, named after the Falcon brand (now part of BD). They are widely used in biology labs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.4727,
+      "question": "Blue-top vacutainer contains?",
+      "options": [
+        "Silica gel",
+        "Sodium citrate",
+        "Sodium chloride",
+        "Acetone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blue-top vacutainers contain sodium citrate, an anticoagulant used for coagulation tests. Other colours contain different additives — purple has EDTA, red has no additive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.4167,
+      "question": "Micropipette transfers volumes mainly?",
+      "options": [
+        "More than one liter",
+        "Exactly one liter",
+        "More than ten liters",
+        "Below 1 mL"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Micropipettes are precision instruments that handle very small volumes — typically from 0.1 µL to 1000 µL (1 mL). They are essential in molecular biology and analytical chemistry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.558,
+      "question": "Pipette tips are?",
+      "options": [
+        "Disposable add-ons",
+        "Reusable glass bulbs",
+        "Metal needles",
+        "Porcelain plates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pipette tips are disposable plastic attachments that fit on the end of a micropipette. They are discarded after each use to prevent cross-contamination between samples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.97,
+      "question": "Burette is used especially in?",
+      "options": [
+        "Cell culture",
+        "Weighing",
+        "Titrations",
+        "Annealing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The burette is a long graduated tube with a stopcock, used to dispense precise volumes of liquid during titrations. It lets the operator add titrant drop by drop.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.4626,
+      "question": "Digital burette eliminates?",
+      "options": [
+        "Static charge",
+        "Scale errors",
+        "Light exposure",
+        "Air bubbles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The traditional glass burette requires reading the meniscus, and reading errors are a common source of titration inaccuracy. A digital burette measures and displays volume electronically, removing that error source.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.41,
+      "question": "Petri dish was created by?",
+      "options": [
+        "Emil Erlenmeyer",
+        "Robert Koch",
+        "David Stark",
+        "Julius Petri"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Petri dish was designed in 1887 by Julius Richard Petri, who worked in Robert Koch's lab. It replaced the flat glass plates that were previously used to culture bacteria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.503,
+      "question": "Petri dish is a shallow transparent dish with?",
+      "options": [
+        "Lid",
+        "Stopcock",
+        "Side arm",
+        "Ground joint"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A Petri dish consists of two shallow dishes — a base and a slightly larger lid that sits over it. The lid keeps contaminants out while allowing gas exchange.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.8572,
+      "question": "Condenser cools vapors to?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasmas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A condenser cools hot vapour back into a liquid by passing coolant (usually cold water) around a tube through which the vapour travels. The condensed liquid is then collected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.4346,
+      "question": "Which is a condenser type?",
+      "options": [
+        "Buchner",
+        "Schlenk",
+        "Liebig",
+        "Nessler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Liebig condenser is a straight-tube condenser with an outer water jacket. Other common types are the Graham (coiled), Allihn (bulbed), and Dimroth (coiled inner tube).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.1465,
+      "question": "Spring scale uses which law?",
+      "options": [
+        "Ohm's law",
+        "Boyle's law",
+        "Charles's law",
+        "Hooke's law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A spring scale works because the stretch of a spring is proportional to the force applied to it — this is Hooke's law. The deflection is translated into a weight reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.2156,
+      "question": "Which button resets a digital scale to zero?",
+      "options": [
+        "TARE",
+        "MODE key",
+        "CAL",
+        "ON"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TARE (or ZERO) button cancels the weight of the container on the pan, so the display reads 0 with the container still in place. This is useful for measuring just the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.23,
+      "question": "Centrifuge separates materials by?",
+      "options": [
+        "Distillation",
+        "Filtration",
+        "Density",
+        "Sublimation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A centrifuge separates components by density — heavier components move to the bottom of the tube under centrifugal force, while lighter components stay near the top.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.3203,
+      "question": "Microcentrifuge tubes capacity range is?",
+      "options": [
+        "5 mL to 50 mL",
+        "250 µL-2 mL",
+        "1 L to 2 L",
+        "20 L to 50 L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microcentrifuge tubes (often called Eppendorf tubes) typically hold 250 µL to 2.0 mL. Larger centrifuge tubes are used for bigger volumes, but not in a microcentrifuge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.151,
+      "question": "Which is a laboratory heater?",
+      "options": [
+        "Mantle",
+        "Desiccator",
+        "Glove box",
+        "Burette"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A heating mantle is a flexible, bowl-shaped heater that wraps around round-bottom flasks to provide even heating. It is a standard piece of lab heating equipment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068593.159,
+      "question": "Hot plates, mantles, and burners provide?",
+      "options": [
+        "Vacuum filtration",
+        "Centrifugation",
+        "Titration",
+        "Heating control"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All three are laboratory heat sources but each gives a different level of control — hot plates are variable, mantles are even, and burners are rapid but less precise. Collectively, they provide regulated heating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.596,
+      "question": "Water bath can be used up to?",
+      "options": [
+        "150 °C",
+        "200 °C",
+        "99 °C",
+        "300 °C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A water bath cannot exceed 100 °C because water boils at that temperature. In practice, the useful upper limit is about 99 °C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.552,
+      "question": "For temperatures above 100 °C, use?",
+      "options": [
+        "Ice bath",
+        "Oil bath",
+        "Water bath",
+        "Acetone bath"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oil, silicone oil, and sand baths are used when a water bath won't reach the required temperature. They can go well above 100 °C without boiling off.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.75,
+      "question": "Sonicator bath uses?",
+      "options": [
+        "Microwaves",
+        "Infrared light",
+        "X-rays",
+        "Sound waves"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A sonicator bath uses high-frequency sound waves (usually 40 kHz) to create microscopic bubbles that clean surfaces or break up cells — a process called cavitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.326,
+      "question": "Sonicator tank is usually made of?",
+      "options": [
+        "Steel",
+        "Porcelain",
+        "Plastic",
+        "Copper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sonicator tanks are made of stainless steel because it is corrosion-resistant, durable, and efficiently transmits ultrasonic vibrations without absorbing them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.86,
+      "question": "Dean-Stark apparatus collects?",
+      "options": [
+        "Solid precipitates",
+        "Gases only",
+        "Water",
+        "Metal filings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Dean-Stark apparatus collects water that is produced during reactions (e.g. esterification) by trapping it in a side trap, allowing the reaction to proceed further.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.0107,
+      "question": "Dean-Stark improved whose 1905 setup?",
+      "options": [
+        "Emil Erlenmeyer",
+        "Marcusson",
+        "Robert Koch",
+        "Julius Petri"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Dean-Stark apparatus improved on a design by Julius Marcusson from 1905. The original setup was less efficient at trapping water, and Dean and Stark refined it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.6829,
+      "question": "Rotary evaporator gently removes?",
+      "options": [
+        "Solids",
+        "Precipitates",
+        "Cells",
+        "Solvents"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A rotary evaporator (rotovap) evaporates solvents under reduced pressure and gentle heating, concentrating solutions without damaging heat-sensitive compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.1482,
+      "question": "Rotovap sample is heated in?",
+      "options": [
+        "Hot bath",
+        "Furnace",
+        "Autoclave",
+        "Sonicator"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The round-bottom flask containing the sample is partially immersed in a warm water or oil bath. The gentle heat promotes evaporation without degrading the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.6663,
+      "question": "Laboratory oven provides?",
+      "options": [
+        "Vacuum filtration",
+        "Centrifugation",
+        "Temp control",
+        "Titration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The laboratory oven is used for drying, sterilising, and heating samples at controlled temperatures. It maintains a stable, set temperature over long periods.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.2354,
+      "question": "Laboratory oven size range is?",
+      "options": [
+        "50 to 100 cubic feet",
+        "1 to 32 cubic feet",
+        "100 to 200 cubic feet",
+        "1 to 32 cubic inches"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Standard lab ovens range from about 1 to 32 cubic feet — the smaller end for benchtop models, the larger end for floor-standing units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.488,
+      "question": "Lab furnace temperature range is?",
+      "options": [
+        "0 °C to 100 °C",
+        "100 °C to 200 °C",
+        "1800 °C to 3000 °C",
+        "200 to 1800+ °C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A laboratory furnace operates from about 200 °C up to over 1800 °C, far beyond what an oven can achieve. It is used for ashing, calcination, and melting.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.3555,
+      "question": "Which furnace is for ashing or calcination?",
+      "options": [
+        "Muffle",
+        "Water bath",
+        "Sonicator",
+        "Desiccator"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The muffle furnace is designed for ashing and calcination — heating samples to high temperatures in a chamber isolated from the flame, so no contamination reaches the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.278,
+      "question": "Schlenk tube handles compounds sensitive to?",
+      "options": [
+        "Light only",
+        "Water or air",
+        "Sound",
+        "Pressure only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schlenk tubes are used for air- and moisture-sensitive compounds. They allow manipulation under an inert gas (nitrogen or argon) so the compound never contacts oxygen or water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.6528,
+      "question": "Schlenk tube side arm has?",
+      "options": [
+        "Funnel",
+        "Perforated plate",
+        "Stopcock",
+        "Beak"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The side arm of a Schlenk tube has a stopcock that can be opened to the manifold or closed to seal the tube. This lets the chemist switch between vacuum and inert gas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.3188,
+      "question": "Schlenk flask has?",
+      "options": [
+        "Perforated plate and lid",
+        "Spout and beaker shape",
+        "Condenser coil",
+        "Side arm and joint"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A Schlenk flask has a side arm with a stopcock and a ground-glass joint at the neck. The joint connects to a manifold or other glassware; the side arm controls gas flow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.434,
+      "question": "Schlenk flask valve controls exposure to?",
+      "options": [
+        "Manifold",
+        "Light or dark",
+        "Heat or cold",
+        "Acid or base"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Schlenk flask's valve connects the flask to the Schlenk manifold, controlling whether the flask is exposed to vacuum, inert gas, or sealed off.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.79,
+      "question": "Schlenk bomb is a subclass of?",
+      "options": [
+        "Burettes",
+        "Condensers",
+        "Schlenk",
+        "Petri dishes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Schlenk bomb is a specialised Schlenk flask designed for reactions at elevated temperature and pressure. It shares the same basic design — side arm and ground joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.4905,
+      "question": "Schlenk bomb is used for reactions at?",
+      "options": [
+        "Low temperature only",
+        "High pressure",
+        "Atmospheric pressure only",
+        "Zero gravity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Schlenk bomb is built to withstand high pressure and temperature, allowing reactions under inert atmosphere to be run at conditions a normal Schlenk flask cannot handle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.7937,
+      "question": "Glove box is a?",
+      "options": [
+        "Measuring cylinder",
+        "Heating mantle",
+        "Funnel",
+        "Sealed container"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A glove box is a sealed container with a transparent front and built-in gloves. The operator works on samples inside without ever exposing them to the outside atmosphere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.591,
+      "question": "Glove box antechamber helps move objects?",
+      "options": [
+        "Unchanged inner air",
+        "With more oxygen",
+        "With water vapor",
+        "With light exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The antechamber (or airlock) lets objects pass in and out while keeping the interior atmosphere unchanged. It is evacuated and refilled with inert gas before items pass through.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.893,
+      "question": "Desiccator shields items from?",
+      "options": [
+        "Light",
+        "Sound",
+        "Humidity",
+        "Radiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A desiccator is a sealed container that keeps its contents dry. It shields them from atmospheric humidity, which could otherwise hydrate moisture-sensitive samples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525068594.6047,
+      "question": "Desiccator uses which desiccant?",
+      "options": [
+        "Sodium citrate",
+        "Silica gel",
+        "Sodium chloride",
+        "Acetone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Silica gel is the most common desiccant in a desiccator — it absorbs moisture from the enclosed air. Other desiccants include calcium chloride and phosphorus pentoxide.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
