@@ -3,16 +3,718 @@
   "title": "CHM 108 ( UNN ) : CHAPTER 3",
   "subject": "CHM 108",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790525478671.6765,
+      "question": "Organic qualitative analysis depends strongly on?",
+      "options": [
+        "Rigid reference tables",
+        "Experience",
+        "Electronic calculators",
+        "Automated machines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organic qualitative analysis is not a mechanical procedure. It requires a chemist's judgement to interpret colours, odours, flame behaviour, and test outcomes — textbook tables only get you so far. Experience is what separates an accurate analysis from a guess.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478676.7996,
+      "question": "The notes in organic qualitative analysis are to be used as?",
+      "options": [
+        "Absolute final laws",
+        "Rigid exact rules",
+        "Rough guides",
+        "Fixed universal formulas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The notes handed to students are approximations, not laws. Different samples may give slightly different results, and the analyst must recognise when an observation deviates from the expected pattern. Treating the notes as exact rules leads to misidentification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478680.4624,
+      "question": "Preliminary tests determine all except?",
+      "options": [
+        "Colour and odour",
+        "Flame behaviour",
+        "Physical state",
+        "Molecular mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Preliminary tests are quick, low-equipment observations — colour, odour, physical state, flame behaviour, and reaction with sodalime. Determining molecular mass requires a separate, more involved procedure (mass spectrometry or similar).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478683.4543,
+      "question": "Effect of sodalime with heat is part of?",
+      "options": [
+        "Preliminary tests",
+        "Melting point tests",
+        "Unsaturation tests",
+        "Odour tests"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heating a sample with sodalime is one of the preliminary tests. It gives information about the functional groups present, since different classes of compounds break down differently under these conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.1228,
+      "question": "Most simple organic compounds are?",
+      "options": [
+        "Deep blue-violet",
+        "White or pale",
+        "Bright crimson red",
+        "Dark forest green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simple organic compounds — alkanes, alcohols, carboxylic acids, sugars, amino acids — are colourless or white. Colour appears only when a compound absorbs visible light, which requires extended conjugation or a strongly absorbing chromophore.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.8538,
+      "question": "Colour arises when absorption occurs in?",
+      "options": [
+        "Visible region",
+        "Radio region",
+        "Microwave region",
+        "X-ray region"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A compound appears coloured only when it absorbs light in the visible region (roughly 400–700 nm). Absorption in radio, microwave, or X-ray regions does not produce visible colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.5256,
+      "question": "Increased conjugation causes absorption at?",
+      "options": [
+        "Shorter wavelength",
+        "Same wavelength",
+        "No wavelength",
+        "Longer wavelength"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As conjugation extends, the energy gap between the highest occupied and lowest unoccupied molecular orbitals shrinks. A smaller energy gap means absorption at lower energy — i.e. longer wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.266,
+      "question": "Which group is chromophoric?",
+      "options": [
+        "NH2",
+        "OH",
+        "NO2",
+        "OR"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A chromophore is a group that absorbs light at a specific wavelength. The nitro group (NO2) is a classic chromophore. NH2, OH, and OR are auxochromes — they shift absorption but do not produce it on their own.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.3162,
+      "question": "Which group is auxochromic?",
+      "options": [
+        "N=N",
+        "NO2",
+        "C=O",
+        "OH"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Auxochromes are saturated groups with lone pairs (like OH, NH2, OR) that attach to a chromophore and shift or intensify its absorption. N=N, NO2, and C=O are the chromophores themselves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.2114,
+      "question": "Increasing conjugated double bonds does what to the energy gap?",
+      "options": [
+        "Increases it greatly",
+        "Removes it",
+        "Decreases it",
+        "Doubles it"
+      ],
+      "correctAnswer": 2,
+      "explanation": "More conjugation means the π electrons are delocalised over a longer region, which raises the HOMO and lowers the LUMO. The gap between them narrows, so the compound absorbs at lower energy (longer wavelength).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.7993,
+      "question": "Odour is detected by?",
+      "options": [
+        "The olfactory sense",
+        "The visual processing system",
+        "The auditory system",
+        "The tactile system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Odour detection happens in the nasal cavity, where volatile molecules bind to receptors in the olfactory epithelium. It is one of the fastest, most sensitive detectors available to a chemist — a well-trained nose can identify compounds at parts-per-billion levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.2185,
+      "question": "E-noses analyze?",
+      "options": [
+        "One single chemical compound only",
+        "Colour and light only",
+        "Mass and charge only",
+        "Vapour pattern"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An electronic nose does not identify individual molecules. It uses an array of sensors to build an overall pattern — a \"fingerprint\" — of the volatile compounds present. That pattern is then matched against a reference library.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.487,
+      "question": "E-noses are used in medical diagnosis for?",
+      "options": [
+        "Bone fracture",
+        "Diabetes only",
+        "Lung cancer",
+        "Hypertension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E-noses can detect volatile organic compounds in exhaled breath that are biomarkers for certain diseases. Lung cancer is one of the most studied applications, though diabetes (via acetone) is also diagnosed this way.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.1614,
+      "question": "Wafting means fanning vapour?",
+      "options": [
+        "Toward the nose",
+        "Away from the nose",
+        "Into the liquid",
+        "Into the flame"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wafting is a safe technique for smelling a chemical — you fan the vapour toward your nose with your hand rather than putting your nose directly over the container. This limits your exposure to potentially harmful fumes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.4521,
+      "question": "E-noses mimic which system?",
+      "options": [
+        "The entire human digestive system",
+        "The nervous system",
+        "The circulatory system",
+        "Mammal olfactory"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An electronic nose is designed to work like a mammalian olfactory system — multiple sensors acting as receptor cells, and a pattern-recognition algorithm acting as the brain. The result is a device that can \"smell\" complex mixtures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.1467,
+      "question": "Esters generally smell?",
+      "options": [
+        "Fishy, rancid, or oily",
+        "Sharp and rancid",
+        "Fruity or flowery",
+        "Musty or earthy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Esters are well known for their pleasant, fruity, or flowery odours. Many are used in the food and perfume industries — isoamyl acetate (banana), ethyl butyrate (pineapple), and methyl salicylate (wintergreen) are all esters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.277,
+      "question": "Isoamyl acetate smells like?",
+      "options": [
+        "Banana",
+        "Almonds",
+        "Cinnamon",
+        "Vinegar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isoamyl acetate (also called isopentyl acetate) has a strong banana-like smell. It is the compound responsible for the flavour of banana candy and is one of the most recognisable esters in the lab.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.7375,
+      "question": "Benzaldehyde smells like?",
+      "options": [
+        "Mint",
+        "Almonds",
+        "Banana",
+        "Garlic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzaldehyde is the compound that gives almonds (and marzipan) their characteristic smell. It occurs naturally in bitter almonds and is widely used as a flavouring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.9631,
+      "question": "Ignition test assesses?",
+      "options": [
+        "The sample's density value",
+        "The sample's viscosity value",
+        "pH value",
+        "Aromaticity or unsaturation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Burning a small sample tells you a lot about its carbon-to-hydrogen ratio. Sooty flames indicate aromatic or highly unsaturated compounds; clean blue flames indicate aliphatic saturated compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.4531,
+      "question": "A clear blue flame suggests?",
+      "options": [
+        "Aromatic compound",
+        "Aliphatic compound",
+        "Metal compound",
+        "Unsaturated compound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aliphatic saturated compounds (like simple alkanes) burn cleanly with a blue flame because they have a high hydrogen-to-carbon ratio. Sooty yellow flames are typical of aromatic or highly unsaturated compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.366,
+      "question": "A sooty yellow flame suggests?",
+      "options": [
+        "Aliphatic compound",
+        "Inorganic salt",
+        "Aromatic compound",
+        "Water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aromatic compounds have a high carbon-to-hydrogen ratio, so their combustion is incomplete — the unburnt carbon appears as soot, giving a yellow, smoky flame.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.5125,
+      "question": "Aromatic compounds burn with soot due to?",
+      "options": [
+        "High carbon ratio",
+        "Low carbon ratio",
+        "High oxygen",
+        "Low hydrogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aromatic rings are carbon-rich and hydrogen-poor. Incomplete combustion leaves unburnt carbon behind as soot, whereas hydrogen-rich aliphatic compounds burn cleanly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.1167,
+      "question": "Residue after ignition indicates?",
+      "options": [
+        "Halogen only",
+        "Water only",
+        "Metal",
+        "Oxygen only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Organic compounds burn away completely, leaving no residue — unless a metal is present. A white or coloured ash after ignition strongly suggests the presence of a metal salt or organometallic compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.364,
+      "question": "White precipitate with Na2CO3 on ash indicates?",
+      "options": [
+        "Li, Na, K",
+        "Ammonium only",
+        "Arsenic only",
+        "Some metals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Adding sodium carbonate solution to the ash gives a white precipitate for many metals, but not for Li, Na, or K — their carbonates are soluble. So a white precipitate rules out the alkali metals and indicates one of the others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.604,
+      "question": "Boiling point is when vapour pressure equals?",
+      "options": [
+        "Zero pressure",
+        "1 atm",
+        "Critical pressure",
+        "Osmotic pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boiling occurs when the vapour pressure of the liquid equals the external (atmospheric) pressure. At sea level, that pressure is 1 atm, which is why water boils at 100 °C there.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.5303,
+      "question": "Melting point is when solid and liquid are?",
+      "options": [
+        "In balance",
+        "Absent",
+        "Boiling",
+        "Condensing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The melting point is the temperature at which the solid and liquid phases coexist in equilibrium — the rate of melting equals the rate of freezing. This equilibrium is what defines the melting point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.766,
+      "question": "Capillary tube is?",
+      "options": [
+        "Wide-bore tube",
+        "Flat plate",
+        "Narrow tube",
+        "Round flask"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A capillary tube is a thin, narrow-bore glass tube. Its small diameter lets it hold a very small sample and heat it rapidly and evenly, which is why it is used for melting point and boiling point determinations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478684.966,
+      "question": "Capillary tube is used in clinical labs as?",
+      "options": [
+        "A standard burette",
+        "Condenser",
+        "Desiccator",
+        "Hematocrit tube"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In clinical labs, capillary tubes are used as haematocrit tubes — they hold a blood sample that is spun in a centrifuge to separate plasma from red cells. The same basic tube shape serves both purposes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.3975,
+      "question": "Capillary tube supplied to students is usually?",
+      "options": [
+        "Sealed both ends",
+        "Both ends open",
+        "Sealed one end",
+        "Glass stopper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Students seal the tube themselves during the practical — they receive tubes with both ends open. Flame-sealing one end is part of the procedure, not something done in advance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.3984,
+      "question": "Flame sealing uses which flame part?",
+      "options": [
+        "Blue part",
+        "Inner cone",
+        "Yellow",
+        "Base"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The yellow, luminous part of the flame is the coolest visible region — hot enough to melt the glass but not so hot that it deforms the tube. Using the blue part would overheat and possibly shatter the capillary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.1956,
+      "question": "Lower pressure causes boiling point to?",
+      "options": [
+        "Fall",
+        "Rise",
+        "Remain same",
+        "Double"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Boiling happens when vapour pressure matches external pressure. Lower the external pressure and the liquid reaches that match at a lower temperature, so the boiling point falls. This is why water boils below 100 °C on a mountain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.9883,
+      "question": "Water boils at 100 °C at?",
+      "options": [
+        "1905 m",
+        "Vacuum",
+        "Mountain top",
+        "Sea level"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Water's normal boiling point of 100 °C is defined at 1 atm, which is the pressure at sea level. At higher altitudes, or in a vacuum, water boils at a lower temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.605,
+      "question": "Normal boiling point is defined at?",
+      "options": [
+        "2 atm",
+        "1 atm",
+        "0 atm",
+        "5 atm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The normal boiling point is defined as the temperature at which a liquid's vapour pressure equals exactly 1 atmosphere. It is a standardised reference value so results from different labs can be compared.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.3643,
+      "question": "For boiling point below water, use?",
+      "options": [
+        "Water bath",
+        "Oil bath",
+        "Sand bath",
+        "Metal bath"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For compounds that boil below 100 °C, a water bath provides gentle, controlled heating at a temperature the water can maintain. Oil or sand baths are reserved for compounds with higher boiling points.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.4724,
+      "question": "In boiling point test, liquid volume used is?",
+      "options": [
+        "10 mL",
+        "50 mL",
+        "1 mL",
+        "100 mL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boiling point determination uses a very small sample — around 1 mL — because you only need enough to fill the capillary and produce a steady stream of bubbles. Large volumes would heat unevenly and waste sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.8904,
+      "question": "The capillary tube in boiling point test is?",
+      "options": [
+        "Open both ends",
+        "Sealed both ends",
+        "Side arm",
+        "Inverted"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the boiling point test, the capillary tube is inverted — its closed end faces upward — so that air trapped inside can escape as bubbles when the surrounding liquid boils. The temperature at which the last bubble emerges is recorded as the boiling point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.361,
+      "question": "When last bubble emerges, one records?",
+      "options": [
+        "Colour of the liquid",
+        "Temperature",
+        "Odour",
+        "Mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The last-bubble point marks the moment when the vapour pressure inside the capillary matches the external pressure. That temperature is the boiling point of the liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.3005,
+      "question": "Pure substances have melting point that is?",
+      "options": [
+        "A range",
+        "Always low",
+        "Distinct",
+        "Always high"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A pure substance melts at a single, sharp, reproducible temperature. Impure substances melt over a range, often starting lower than the pure melting point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.8635,
+      "question": "Impurities generally cause melting point to?",
+      "options": [
+        "Lower",
+        "Rise",
+        "Stay same",
+        "Disappear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Impurities disrupt the crystal lattice, making it easier for the solid to melt. The melting point drops, and the sample melts over a wider range rather than at a single temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.9592,
+      "question": "Melting point is independent of?",
+      "options": [
+        "Pressure",
+        "Purity",
+        "Impurity",
+        "Mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The melting point depends on the substance itself, not on how much of it you have. A tiny grain and a large block of the same pure compound melt at the same temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.2488,
+      "question": "Freezing point is usually same as?",
+      "options": [
+        "Boiling point",
+        "Melting point",
+        "Ignition point",
+        "Flash point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For most pure substances, the freezing point and the melting point are the same temperature. The solid-liquid equilibrium is identical whether you are heating the solid or cooling the liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.5442,
+      "question": "Sample for melting point should be?",
+      "options": [
+        "Wet and coarse",
+        "Large lumps",
+        "Dry and fine",
+        "Liquid only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sample must be dry — moisture changes the melting behaviour — and finely powdered so it packs evenly into the capillary. Large lumps heat unevenly and give a poor reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.0767,
+      "question": "Sample packed in capillary should be?",
+      "options": [
+        "1 to 2 mm",
+        "1 to 2 cm",
+        "5 to 10 cm",
+        "10 to 20 mm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Only a small column — about 1 to 2 mm of packed solid — is needed. Any more and the sample heats unevenly; any less and the melt is hard to see.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.8562,
+      "question": "Heating near melting point should be?",
+      "options": [
+        "Very fast",
+        "Sudden",
+        "No heating",
+        "Gradual"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When the temperature approaches the expected melting point, the rate of heating must be slowed to about 1 °C per minute. Heating faster than that causes the thermometer to lag behind the actual sample temperature, giving an inaccurate reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.8447,
+      "question": "Melting point range is from?",
+      "options": [
+        "Start of melt",
+        "The start of the sample to boiling",
+        "Cold to hot",
+        "Solid to gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The melting point range is reported from the temperature at which the first drop of liquid appears to the temperature at which the last solid disappears. A narrow range (1–2 °C) indicates purity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.952,
+      "question": "Capillary tube is centered in?",
+      "options": [
+        "Flame only",
+        "Oil bath",
+        "Beaker mouth",
+        "Funnel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The capillary is placed in the groove of the melting point apparatus, next to the thermometer, so both are immersed in the same oil bath and reach the same temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.847,
+      "question": "Unsaturated compound contains at least one?",
+      "options": [
+        "Sigma bond only",
+        "Ionic bond",
+        "Pi bond",
+        "Hydrogen bond"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The defining feature of an unsaturated compound is at least one π bond — from a double or triple bond. Sigma-only compounds are saturated; π bonds are what allow addition reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.3403,
+      "question": "Br2 in CCl4 decolourization with HBr indicates?",
+      "options": [
+        "Addition only",
+        "Oxidation",
+        "Reduction",
+        "Substitution"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rapid decolourisation of bromine in CCl4 usually indicates addition to a double bond. But when HBr gas is also evolved, the reaction is a substitution — the bromine replaces a hydrogen on the molecule rather than adding across a π bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.6282,
+      "question": "Decolourization without HBr indicates?",
+      "options": [
+        "Saturated compound",
+        "Unsaturated",
+        "Metal",
+        "Alcohol only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When bromine decolourises without any HBr gas being given off, the mechanism is addition to a double or triple bond — proof that the sample is unsaturated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790525478685.4744,
+      "question": "KMnO4 in chloroform with sample in NaHCO3 gives?",
+      "options": [
+        "Colour change",
+        "White crystals",
+        "Blue flame",
+        "No change"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Potassium permanganate oxidises unsaturated compounds and is reduced from purple MnO4⁻ to brown MnO2. The colour change — purple to brown — indicates unsaturation. Bicarbonate keeps the medium slightly alkaline, which favours the reaction.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
