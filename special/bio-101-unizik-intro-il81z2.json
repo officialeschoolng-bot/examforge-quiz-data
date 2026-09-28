@@ -3,16 +3,718 @@
   "title": "BIO 101 ( UNIZIK ) : INTRODUCTION",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790618511851.469,
+      "question": "The word \"biology\" is derived from which Greek words?",
+      "options": [
+        "Bios and logos",
+        "Bio and logia",
+        "Bios and logy",
+        "Bio and logos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biology is derived from the Greek words \"bios\" meaning \"life\" and \"logos\" meaning \"study.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511856.0554,
+      "question": "What does \"bios\" mean in Greek?",
+      "options": [
+        "Study",
+        "Life",
+        "Organism",
+        "Science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Bios\" is the Greek word for \"life.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.7222,
+      "question": "What does \"logos\" mean in Greek?",
+      "options": [
+        "Life",
+        "Organism",
+        "Study",
+        "Nature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Logos\" is the Greek word for \"study.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.2178,
+      "question": "Biology is defined as the study of all of the following EXCEPT:",
+      "options": [
+        "Origins of living organisms",
+        "Anatomy and morphology",
+        "Rocks and earth structures",
+        "Behaviour and distribution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biology is the study of living organisms, their origins, anatomy, morphology, physiology, behaviour, and distribution. Rocks are studied in geology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.184,
+      "question": "Which branch of biology deals with the study of organisms' structures?",
+      "options": [
+        "Physiology",
+        "Anatomy",
+        "Morphology",
+        "Ecology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anatomy is the study of organisms' structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.965,
+      "question": "Which branch of biology studies the chemical reactions required for life to exist and function?",
+      "options": [
+        "Molecular biology",
+        "Biochemistry",
+        "Pharmacology",
+        "Cell biology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemistry is the study of the chemical reactions required for life to exist and function, usually a focus on the cellular level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.7617,
+      "question": "Which branch of biology involves the use of information technology for the study, collection, and storage of genomic and other biological data?",
+      "options": [
+        "Biotechnology",
+        "Bioinformatics",
+        "Genetics",
+        "Molecular biology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bioinformatics is the use of information technology for the study, collection, and storage of genomic and other biological data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.287,
+      "question": "Which branch of biology deals with the manipulation of living matter, including genetic modification and synthetic biology?",
+      "options": [
+        "Genetics",
+        "Bioinformatics",
+        "Biotechnology",
+        "Microbiology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biotechnology is the study of the manipulation of living matter, including genetic modification and synthetic biology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.894,
+      "question": "Which branch of biology is concerned with the study of plants?",
+      "options": [
+        "Zoology",
+        "Botany",
+        "Ecology",
+        "Microbiology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Botany is the study of plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.8801,
+      "question": "Which branch of biology studies the cell as a complete unit?",
+      "options": [
+        "Molecular biology",
+        "Biochemistry",
+        "Cell biology",
+        "Genetics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cell biology is the study of the cell as a complete unit, and the molecular and chemical interactions that occur within a living cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.1003,
+      "question": "Which branch of biology deals with the interactions of living organisms with one another and with the non-living elements of their environment?",
+      "options": [
+        "Ecology",
+        "Physiology",
+        "Genetics",
+        "Immunology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ecology is the study of the interactions of living organisms with one another and with the non-living elements of their environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.09,
+      "question": "Which branch of biology is the study of genes and heredity?",
+      "options": [
+        "Genetics",
+        "Molecular biology",
+        "Cell biology",
+        "Biochemistry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetics is the study of genes and heredity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.063,
+      "question": "Which branch of biology deals with the study of the immune system?",
+      "options": [
+        "Pathology",
+        "Pharmacology",
+        "Immunology",
+        "Microbiology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Immunology is the study of the immune system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.088,
+      "question": "Which branch of biology studies microscopic organisms and their interactions with other living things?",
+      "options": [
+        "Molecular biology",
+        "Microbiology",
+        "Cell biology",
+        "Biochemistry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microbiology is the study of microscopic organisms (microorganisms) and their interactions with other living things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.8333,
+      "question": "Which branch of biology studies biology and biological functions at the molecular level?",
+      "options": [
+        "Biochemistry",
+        "Molecular biology",
+        "Cell biology",
+        "Genetics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molecular biology is the study of biology and biological functions at the molecular level, some cross over with biochemistry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.7522,
+      "question": "Which branch of biology deals with the study of diseases and their causes, processes, nature, and development?",
+      "options": [
+        "Immunology",
+        "Pharmacology",
+        "Pathology",
+        "Physiology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pathobiology or pathology is the study of diseases, and the causes, processes, nature, and development of disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.602,
+      "question": "Which branch of biology studies the interactions between drugs and organisms?",
+      "options": [
+        "Pharmacology",
+        "Biochemistry",
+        "Pathology",
+        "Physiology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pharmacology is the study of the interactions between drugs and organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.0154,
+      "question": "Which branch of biology studies the functions and mechanisms occurring in living organisms?",
+      "options": [
+        "Anatomy",
+        "Physiology",
+        "Morphology",
+        "Ecology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Physiology is the study of the functions and mechanisms occurring in living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.1646,
+      "question": "Which branch of biology is the study of animals, including classification, physiology, development, and behaviour?",
+      "options": [
+        "Botany",
+        "Zoology",
+        "Ecology",
+        "Microbiology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zoology is the study of animals, including classification, physiology, development, and behaviour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.9082,
+      "question": "The term \"living things\" refers to any organism that possesses:",
+      "options": [
+        "A cell wall",
+        "A nucleus",
+        "The characteristics of life",
+        "The ability to photosynthesize"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Living things refers to any organism or a living form that possesses the characteristics of life or being alive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.5198,
+      "question": "Living things include all of the following EXCEPT:",
+      "options": [
+        "Plants",
+        "Animals",
+        "Microorganisms",
+        "Rocks"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Living things include plants, animals, and microorganisms. Rocks are non-living.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.205,
+      "question": "Living things were initially classified as:",
+      "options": [
+        "Prokaryotes or eukaryotes",
+        "Plant or animal",
+        "Autotrophs or heterotrophs",
+        "Unicellular or multicellular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Living things were initially classified as a plant or an animal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511865.2896,
+      "question": "Both plants and animals are:",
+      "options": [
+        "Prokaryotic",
+        "Eukaryotic",
+        "Autotrophic",
+        "Unicellular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both plants and animals are eukaryotic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.4844,
+      "question": "Animals are basically living organisms that are:",
+      "options": [
+        "Non-motile and photosynthetic",
+        "Motile and heterotrophic",
+        "Non-motile and heterotrophic",
+        "Motile and autotrophic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animals are basically living organisms that are motile and heterotrophic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.7876,
+      "question": "Plants are living organisms that are:",
+      "options": [
+        "Motile, photosynthetic",
+        "Non-motile, photosynthetic",
+        "Non-motile, heterotrophic",
+        "Motile, heterotrophic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plants are non-motile, photosynthetic, and have a cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.5918,
+      "question": "Why are bacteria neither plants nor animals?",
+      "options": [
+        "They are multicellular",
+        "They are prokaryotes",
+        "They are autotrophic",
+        "They lack a cell wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bacteria are neither plants nor animals mainly because they are prokaryotes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.2495,
+      "question": "Which of the following contain only single-celled organisms?",
+      "options": [
+        "Bacteria and archaea",
+        "Plants and animals",
+        "Fungi and protista",
+        "Plantae and animalia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The bacteria and archaea contain only single-celled organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.9849,
+      "question": "Both archaea and bacteria have cell walls, but:",
+      "options": [
+        "Only bacteria have a nucleus",
+        "Their cell walls are of different materials",
+        "Only archaea have a nucleus",
+        "Their cell membrane covers the cell wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both archaea and bacteria have cell walls, but their cell walls are made up of different materials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.8376,
+      "question": "Archaea and bacteria lack:",
+      "options": [
+        "A cell wall",
+        "A nucleus",
+        "Ribosomes",
+        "DNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Archaea and bacteria lack a nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.6797,
+      "question": "The classification of living things includes how many levels?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The classification of living things includes 7 levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.675,
+      "question": "The correct order of classification levels from largest to smallest is:",
+      "options": [
+        "Kingdom, phylum, classes, order, families, genes, species",
+        "Kingdom, phylum, order, classes, families, genes, species",
+        "Species, genes, families, order, classes, phylum, kingdom",
+        "Phylum, kingdom, classes, order, families, genes, species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The classification of living things includes 7 levels namely: kingdom, phylum, classes, order, families, genes, and species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.196,
+      "question": "The most fundamental classification of living things is:",
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The most fundamental classification of living things is kingdoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.2783,
+      "question": "How many kingdoms are there currently?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are five kingdoms currently (Animalia, Plantae, Monera, Protista, Fungi).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.2996,
+      "question": "The five kingdoms are:",
+      "options": [
+        "Animalia, Plantae, Monera, Protista, Fungi",
+        "Animalia, Plantae, Bacteria, Protista, Fungi",
+        "Animalia, Plantae, Monera, Archaea, Fungi",
+        "Animalia, Plantae, Monera, Protista, Archaea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The five kingdoms are Animalia, Plantae, Monera, Protista, and Fungi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.6406,
+      "question": "Living things are placed into kingdoms based on all of the following EXCEPT:",
+      "options": [
+        "How they acquire their food",
+        "Types of cells they make in the body",
+        "The number of cells they contain",
+        "Their geographical location"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Living things are placed into kingdoms based on how they acquire their food, types of cells they make in the body, and the number of cells they contain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.841,
+      "question": "Which level comes immediately after kingdom in classification?",
+      "options": [
+        "Class",
+        "Order",
+        "Phylum",
+        "Family"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phylum is the next level in the classification of living things followed by the kingdom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.277,
+      "question": "Phylum is an attempt to find some kind of physical resemblance among organisms within a kingdom, suggesting:",
+      "options": [
+        "They are the same species",
+        "There is a common ancestry",
+        "They have identical DNA",
+        "They live in the same habitat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Physical similarities suggest that there is a common ancestry among the organisms in a particular phylum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.2449,
+      "question": "Classes are the way to further subdivide organisms of a:",
+      "options": [
+        "Kingdom",
+        "Phylum",
+        "Order",
+        "Family"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Classes are the way to further subdivide organisms of a phylum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.1558,
+      "question": "Humans belong to which class because they drink milk as a baby?",
+      "options": [
+        "Reptilia",
+        "Aves",
+        "Mammalia",
+        "Amphibia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Humans belong to the mammal class because they drink milk as a baby.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.3281,
+      "question": "What is used to determine to which order an organism belongs?",
+      "options": [
+        "A microscope",
+        "A taxonomy key",
+        "A dichotomous formula",
+        "A genetic test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A taxonomy key is used to determine to which the organism belongs to.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.9207,
+      "question": "A taxonomy key is:",
+      "options": [
+        "A checklist of characteristics that determine how organisms are grouped together",
+        "A map of evolutionary history",
+        "A list of all known species",
+        "A diagram of cell structure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A taxonomy key is nothing but a checklist of the characteristics that determine how the organisms are grouped together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.9307,
+      "question": "Orders are divided into:",
+      "options": [
+        "Classes",
+        "Phyla",
+        "Families",
+        "Genus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Orders are divided into families.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.3752,
+      "question": "Organisms within a family have more in common than with organisms in any classification level above it. Because of familiarity, the organisms of a family are said to be:",
+      "options": [
+        "Identical",
+        "Related to each other",
+        "The same species",
+        "The same genus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because of familiarity, the organisms of a family are said to be related to each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.477,
+      "question": "Genus is a way to characterize the:",
+      "options": [
+        "Scientific name of an organism",
+        "Generic name for an organism",
+        "Species name of an organism",
+        "Family name of an organism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genus is a way to characterize the generic name for an organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.0635,
+      "question": "When using taxonomy to name an organism, the genus is used to complete:",
+      "options": [
+        "The second part of its two-part name",
+        "The first part of its two-part name",
+        "The entire name",
+        "The family name"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When using taxonomy to name an organism, the genus is used to complete the first part of its two-part name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.0789,
+      "question": "What is the lowest and most exacting level of classification of living things?",
+      "options": [
+        "Genus",
+        "Family",
+        "Species",
+        "Order"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Species are as specific as you can get. It is the lowest and most exacting level of classification of living things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.2112,
+      "question": "The main pattern for an organism to be placed in a particular species is:",
+      "options": [
+        "The ability to breed with other organisms",
+        "Physical appearance of the organisms",
+        "Geographical location of the organisms",
+        "Mode of nutrition of the organisms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main pattern for an organism to be placed in a particular species is the ability to breed with other organisms of that same species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.829,
+      "question": "The species of an organism regulates:",
+      "options": [
+        "The first part of its two-part name",
+        "The second part of its two-part name",
+        "The entire name",
+        "The family name"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The species of an organism regulates the second part of its two-part name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.1064,
+      "question": "Which kingdom has prokaryotic cells, a non-cellulosic cell wall, and no nuclear membrane?",
+      "options": [
+        "Protista",
+        "Monera",
+        "Fungi",
+        "Plantae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monera has prokaryotic cells, a non-cellulosic cell wall, and no nuclear membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790618511866.5876,
+      "question": "Which kingdom is unicellular with a cell wall and autotrophic nutrition?",
+      "options": [
+        "Monera",
+        "Fungi",
+        "Protista",
+        "Animalia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Protista is unicellular with a cell wall and autotrophic nutrition.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
