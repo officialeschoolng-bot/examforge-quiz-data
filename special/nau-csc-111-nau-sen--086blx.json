@@ -3,16 +3,718 @@
   "title": "NAU-CSC 111/NAU-SEN: Logic",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A practice CBT exam for NAU-CSC 111/NAU-SEN 111",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 18,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 18
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790682173985.3093,
+      "question": "A logical system is 'Complete' if which of the following holds?",
+      "options": [
+        "No contradictions can be derived",
+        "All true statements are provable",
+        "Every proof is finite in length",
+        "All provable statements are true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Completeness</strong> is the property that guarantees the system can prove <em>every</em> statement that is true in all interpretations. In formal terms: for any formula φ, if φ is logically valid (⊨ φ), then φ is provable (⊢ φ). <br><br>The other options describe different properties: <ul><li><strong>A</strong> — that's <em>consistency</em></li><li><strong>C</strong> — that's a finiteness requirement, unrelated to completeness</li><li><strong>D</strong> — that's <em>soundness</em> (the reverse direction of completeness)</li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.0986,
+      "question": "In first-order predicate logic, a 'Domain of Discourse' refers to:",
+      "options": [
+        "The set of all logical connectives",
+        "The set of values variables can take",
+        "The range of truth table rows",
+        "The sequence of inference rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>domain of discourse</strong> (also called the <em>universe of discourse</em>) is the collection of individual objects that the quantifiers ∀ (for all) and ∃ (there exists) range over. <br><br>For example, in the statement <code>∀x P(x)</code>, the variable <em>x</em> can take any value from the domain. If the domain is \"all Nigerian students,\" then the statement means \"for every Nigerian student, P holds.\" Change the domain, and you change the meaning of every quantified statement on the page.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.6543,
+      "question": "Which property ensures that a system's axioms do not lead to P ∧ ¬P?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Consistency</strong> is the guarantee that the system cannot prove a contradiction — i.e. there is no formula φ such that both φ and ¬φ are theorems. The symbol P ∧ ¬P is the canonical form of a contradiction (P and not-P). <br><br>If a system is inconsistent, every formula becomes provable (this is called the <em>principle of explosion</em>, or <em>ex falso quodlibet</em>), which makes the system useless for reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.718,
+      "question": "The statement (P ∧ (P → Q)) → Q is a known tautology called:",
+      "options": [
+        "Modus Tollens",
+        "Law of Syllogism",
+        "Modus Ponens",
+        "Addition Rule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Modus Ponens</strong> (\"mode of affirming\") is the rule: from P and P → Q, infer Q. It is the most fundamental inference rule in propositional logic. <br><br>The other rules: <ul><li><strong>Modus Tollens</strong>: (P → Q) ∧ ¬Q → ¬P</li><li><strong>Law of Syllogism</strong>: (P → Q) ∧ (Q → R) → (P → R)</li><li><strong>Addition Rule</strong>: P → (P ∨ Q)</li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9692,
+      "question": "A 'Contingency' is a compound proposition that is:",
+      "options": [
+        "Always true",
+        "Always false",
+        "Neither a tautology nor a contradiction",
+        "Logically equivalent to its negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>contingency</strong> is a formula whose truth value depends on the interpretation — it is true in some rows of the truth table and false in others. <br><br>Compare: <ul><li><strong>Tautology</strong> — always true (e.g. P ∨ ¬P)</li><li><strong>Contradiction</strong> — always false (e.g. P ∧ ¬P)</li><li><strong>Contingency</strong> — sometimes true, sometimes false (e.g. P → Q)</li></ul>Most real-world propositions are contingencies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.1873,
+      "question": "Which of the following connectives is 'Functionally Complete' by itself?",
+      "options": [
+        "NOR",
+        "AND",
+        "OR",
+        "Implication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <strong>functionally complete</strong> connective can express every other connective through combinations of itself. Only <strong>NAND</strong> (↑) and <strong>NOR</strong> (↓) have this property among the standard binary connectives. <br><br>For example, using only NOR: <ul><li>¬P ≡ P ↓ P</li><li>P ∧ Q ≡ (P ↓ P) ↓ (Q ↓ Q)</li><li>P ∨ Q ≡ (P ↓ Q) ↓ (P ↓ Q)</li></ul>AND, OR, and IMPLICATION are each <em>not</em> functionally complete on their own.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.43,
+      "question": "What is the negation of the statement: 'For all x, there exists y such that P(x,y)'?",
+      "options": [
+        "∀x, ∀y, ¬P(x,y)",
+        "∃x, ∀y, ¬P(x,y)",
+        "∃x, ∃y, ¬P(x,y)",
+        "∀x, ∃y, ¬P(x,y)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The negation of a quantified statement follows two rules: <br><br>1. <strong>Flip the quantifier</strong> — ∀ becomes ∃, and ∃ becomes ∀<br>2. <strong>Negate the body</strong> — P becomes ¬P<br><br>Applied step by step: <code>¬(∀x ∃y P(x,y))</code> → <code>∃x ¬(∃y P(x,y))</code> → <code>∃x ∀y ¬P(x,y)</code>. The wrong answers either flip only one quantifier or leave the wrong one intact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9175,
+      "question": "The limitation of Propositional Logic in expressing 'Every student is smart' is due to its lack of:",
+      "options": [
+        "Connectives",
+        "Truth values",
+        "Quantifiers",
+        "Parentheses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Propositional logic treats each sentence as an atomic unit — a single letter P. It cannot look <em>inside</em> the sentence to say \"for every x, if x is a student then x is smart.\" <br><br><strong>Predicate logic</strong> extends propositional logic with quantifiers (∀, ∃) and predicates, allowing it to express: <code>∀x (Student(x) → Smart(x))</code>. Without quantifiers, propositional logic cannot express universal or existential claims.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.557,
+      "question": "The compound proposition ¬P → (Q ∧ ¬Q) implies that:",
+      "options": [
+        "P is false",
+        "Q is true",
+        "P is true",
+        "Q is false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The consequent <code>Q ∧ ¬Q</code> is a contradiction — always false. An implication with a false consequent can only be true if the antecedent is also false. Therefore <code>¬P</code> must be false, which means <strong>P is true</strong>. <br><br>This is actually <em>Modus Tollens</em> in disguise: if ¬P implies a contradiction, then ¬P must be false, so P must be true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.681,
+      "question": "The contrapositive of 'If x is prime, then x is not even' is:",
+      "options": [
+        "If x is even, then x is not prime",
+        "If x is not prime, then x is even",
+        "If x is prime, then x is even",
+        "If x is not even, then x is prime"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <strong>contrapositive</strong> of <code>P → Q</code> is <code>¬Q → ¬P</code>. It is logically <em>equivalent</em> to the original. <br><br>Here: <ul><li>P = \"x is prime\"</li><li>Q = \"x is not even\"</li><li>¬Q = \"x is even\"</li><li>¬P = \"x is not prime\"</li></ul>So the contrapositive is: <em>if x is even, then x is not prime</em>. Note that B is the <em>inverse</em>, D is the <em>converse</em> — neither is equivalent to the original.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5637,
+      "question": "In a formal logical system, if every sentence that is true under all interpretations is also a theorem of the system, the system is:",
+      "options": [
+        "Consistently Sound",
+        "Semantically Complete",
+        "Syntactically Sound",
+        "Logically Contingent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Semantic completeness</strong> is the property linking truth (semantics) to provability (syntax): if a formula is true in every model, then it is provable. <br><br>The relationship between the two directions: <ul><li><strong>Soundness</strong> — provable ⇒ true (⊢ φ → ⊨ φ)</li><li><strong>Completeness</strong> — true ⇒ provable (⊨ φ → ⊢ φ)</li></ul>Gödel's Completeness Theorem (1930) states that first-order logic is both sound and complete.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.0762,
+      "question": "Which of the following best describes the 'Soundness' of a deductive system?",
+      "options": [
+        "All true statements are provable",
+        "All provable statements are true",
+        "No statement is both true and false",
+        "Every predicate has a variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Soundness</strong> means the system never proves false things: every theorem is logically valid. Formally, if <code>⊢ φ</code> then <code>⊨ φ</code>. <br><br>A sound system cannot produce a false conclusion from true premises. This is the property that makes a system <em>trustworthy</em>. Option A describes completeness (the opposite direction); option C describes consistency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.068,
+      "question": "Predicate logic is considered a 'First-Order' logic because quantifiers can only range over:",
+      "options": [
+        "Relations",
+        "Functions",
+        "Individual objects",
+        "Other predicates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In <strong>first-order logic</strong>, quantifiers range over the <em>individuals</em> in the domain — people, numbers, objects. They cannot quantify over predicates or sets of predicates. <br><br>For example, <code>∀x P(x)</code> says \"for every individual x, P holds.\" You cannot write <code>∀P ∀x P(x)</code> in first-order logic — that would be <strong>second-order logic</strong>, which allows quantification over properties and relations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.8503,
+      "question": "Which statement is logically equivalent to the negation of (P → Q)?",
+      "options": [
+        "¬P ∧ Q",
+        "P ∧ ¬Q",
+        "¬P ∨ Q",
+        "Q → P"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the definition of implication as <code>¬P ∨ Q</code>, we negate: <br><br><code>¬(P → Q)</code> ≡ <code>¬(¬P ∨ Q)</code> ≡ <code>P ∧ ¬Q</code> (by De Morgan's law). <br><br>So the negation of an implication is exactly \"the antecedent is true AND the consequent is false\" — the only case where an implication is false. Option C is the definition of the implication itself; D is the converse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5918,
+      "question": "The logical expression ((P → Q) ∧ ¬Q) → ¬P is an example of a:",
+      "options": [
+        "Contradiction",
+        "Contingency",
+        "Tautology",
+        "Fallacy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is <strong>Modus Tollens</strong> — one of the fundamental inference rules of propositional logic. It is always true regardless of the truth values of P and Q. <br><br>Proof: if <code>P → Q</code> is true and Q is false, then P must be false (otherwise Q would have to be true, contradicting ¬Q). The formula is a tautology — a tautology is a valid inference rule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.7395,
+      "question": "Using De Morgan's Law, the statement ¬(∀x (P(x) → Q(x))) is equivalent to:",
+      "options": [
+        "∀x (P(x) ∧ ¬Q(x))",
+        "∃x (P(x) ∧ ¬Q(x))",
+        "∃x (¬P(x) ∨ Q(x))",
+        "∀x (¬P(x) ∧ Q(x))"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Step by step: <br><br><code>¬∀x (P(x) → Q(x))</code><br>≡ <code>∃x ¬(P(x) → Q(x))</code> (quantifier negation)<br>≡ <code>∃x ¬(¬P(x) ∨ Q(x))</code> (implication as disjunction)<br>≡ <code>∃x (P(x) ∧ ¬Q(x))</code> (De Morgan's law)<br><br>So the negation says: \"there exists some x such that P(x) is true but Q(x) is false\" — i.e. a counterexample to the original universal claim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9844,
+      "question": "In the context of propositional logic limitations, which of these cannot be represented without predicates?",
+      "options": [
+        "Nested implications",
+        "Complex disjunctions",
+        "Relative properties between objects",
+        "Truth-functional negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Propositional logic can handle nested implications (<code>P → (Q → R)</code>), complex disjunctions (<code>P ∨ Q ∨ R</code>), and negation fine. What it <em>cannot</em> do is express statements about <strong>relationships between objects</strong> — like \"x is greater than y,\" \"a is the parent of b,\" or \"student s passed course c.\" <br><br>These require <em>predicates with arguments</em> — the essential extension that distinguishes predicate logic from propositional logic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.4258,
+      "question": "Which connective is functionally complete on its own (meaning it can define all other connectives)?",
+      "options": [
+        "Conjunction (∧)",
+        "Material Implication (→)",
+        "NAND (↑)",
+        "Exclusive OR (⊕)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>NAND</strong> (also written as ↑, the Sheffer stroke) can express every other connective. Examples: <ul><li>¬P ≡ P ↑ P</li><li>P ∧ Q ≡ ¬(P ↑ Q) ≡ (P ↑ Q) ↑ (P ↑ Q)</li><li>P ∨ Q ≡ (P ↑ P) ↑ (Q ↑ Q)</li></ul>Neither conjunction, implication, nor XOR is functionally complete. NAND is used extensively in digital circuit design because a single gate type can build any logic circuit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.799,
+      "question": "The 'Uniqueness Quantifier' (∃! x) is logically defined as the existence of x such that P(x) is true and:",
+      "options": [
+        "P(y) is false for all y",
+        "x is equal to every y for which P(y) is true",
+        "P(x) is a tautology and x is equal to P(y)",
+        "x is the only element in the domain of the function P(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The uniqueness quantifier ∃! is defined as: <br><br><code>∃!x P(x) ≡ ∃x [P(x) ∧ ∀y (P(y) → y = x)]</code><br><br>In plain English: \"there is an x such that P(x) is true, AND every y satisfying P is identical to x.\" That second clause is what enforces uniqueness — if two different values satisfied P, the statement would be false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.8604,
+      "question": "A 'Vacuously True' implication P → Q occurs specifically when:",
+      "options": [
+        "P is true and Q is true",
+        "P is false",
+        "Q is false",
+        "P and Q are equivalent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An implication <code>P → Q</code> is <strong>vacuously true</strong> whenever the antecedent P is false — regardless of whether Q is true or false. <br><br>This follows from the truth table for implication: the only row where <code>P → Q</code> is false is when P is true and Q is false. Every row where P is false is true. For example: \"If 2 + 2 = 5, then the moon is made of cheese\" is vacuously true, because the antecedent is false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.294,
+      "question": "Which property ensures that every statement that is true in all interpretations of a system can be proven using that system's rules?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Completeness</strong> is the guarantee that the proof system is powerful enough to derive every logically valid formula. Formally: if <code>⊨ φ</code> (φ is true in all models), then <code>⊢ φ</code> (φ is provable). <br><br>This is one of the most important meta-theorems in logic — first proven by Kurt Gödel in 1930 for first-order logic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.1885,
+      "question": "In formal logic, a system is 'Sound' if:",
+      "options": [
+        "All provable statements are true",
+        "It can prove its own consistency",
+        "No contradictions exist",
+        "All true statements are provable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Soundness</strong> = \"no false theorems.\" Every formula the system can prove is logically valid. Formally: <code>⊢ φ → ⊨ φ</code>. <br><br>Options C and D describe <em>consistency</em> and <em>completeness</em> respectively. Option B is impossible for any sufficiently powerful system by Gödel's Second Incompleteness Theorem (1931).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5764,
+      "question": "Which of the following describes 'Predicate Logic' but NOT 'Propositional Logic'?",
+      "options": [
+        "Uses logical connectives",
+        "Determines truth values",
+        "Employs variables and quantifiers",
+        "Follows rules of inference"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both logics use logical connectives (∧, ∨, ¬, →), assign truth values, and follow inference rules. What distinguishes predicate logic is its <strong>richer vocabulary</strong>: variables (x, y, z), predicates (P(x), Q(x,y)), and quantifiers (∀, ∃). <br><br>This extra machinery lets predicate logic express statements about objects and their properties — which propositional logic, treating everything as a whole proposition, cannot.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.1772,
+      "question": "A statement whose truth value is always true, regardless of the truth values of its components, is a:",
+      "options": [
+        "Fallacy",
+        "Contingency",
+        "Tautology",
+        "Predicate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>tautology</strong> is a formula that is true in every row of its truth table. Classic examples: <ul><li><code>P ∨ ¬P</code> (law of excluded middle)</li><li><code>P → P</code> (identity)</li><li><code>(P ∧ Q) → P</code> (simplification)</li></ul>Tautologies represent logical truths — they are true regardless of what P and Q mean.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9253,
+      "question": "In the implication P → Q, which term describes Q?",
+      "options": [
+        "Antecedent",
+        "Consequent",
+        "Premise",
+        "Hypothesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <code>P → Q</code>: <ul><li><strong>P</strong> is the <em>antecedent</em> (also called hypothesis or premise) — the \"if\" part</li><li><strong>Q</strong> is the <em>consequent</em> (also called conclusion) — the \"then\" part</li></ul>So the correct term for Q is the <em>consequent</em>. \"Antecedent,\" \"premise,\" and \"hypothesis\" all describe P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.0454,
+      "question": "Which logical law is represented by p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)?",
+      "options": [
+        "Associative Law",
+        "Distributive Law",
+        "Idempotent Law",
+        "De Morgan's Law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the <strong>distributive law</strong> — conjunction distributing over disjunction. It works exactly like arithmetic distribution: <code>a(b + c) = ab + ac</code>. <br><br>Related laws: <ul><li><strong>Associative</strong>: (P ∧ Q) ∧ R ≡ P ∧ (Q ∧ R)</li><li><strong>Idempotent</strong>: P ∧ P ≡ P and P ∨ P ≡ P</li><li><strong>De Morgan</strong>: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q</li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5747,
+      "question": "What is the logical negation of the statement: ∃x, P(x) ∧ Q(x)?",
+      "options": [
+        "∀x, ¬P(x) ∧ ¬Q(x)",
+        "∃x, ¬P(x) ∨ ¬Q(x)",
+        "∀x, P(x) → ¬Q(x)",
+        "∀x, ¬P(x) ∨ Q(x)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Step by step: <br><br><code>¬∃x (P ∧ Q)</code><br>≡ <code>∀x ¬(P ∧ Q)</code> (quantifier negation)<br>≡ <code>∀x (¬P ∨ ¬Q)</code> (De Morgan)<br>≡ <code>∀x (P → ¬Q)</code> (implication as disjunction)<br><br>So the negation says: \"for every x, if P(x) then ¬Q(x)\" — meaning no x satisfies both P and Q simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.3184,
+      "question": "The 'Exclusive OR' (⊕) differs from the 'Inclusive OR' (∨) because it is false when:",
+      "options": [
+        "Both inputs are false",
+        "Both inputs are true",
+        "The first input is true",
+        "The second input is true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Inclusive OR</strong> (∨) is true if at least one input is true — it's only false when both are false. <strong>Exclusive OR</strong> (⊕) is true only when exactly one input is true — it's false when both are true AND when both are false. <br><br>Truth table comparison: <ul><li>P ∨ Q: false only in row (F,F)</li><li>P ⊕ Q: false in rows (T,T) and (F,F)</li></ul>The distinguishing row is \"both true\" — that's where exclusive OR differs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5728,
+      "question": "Which of the following is a limitation of Propositional Logic?",
+      "options": [
+        "It uses truth tables",
+        "It cannot express 'some' or 'all'",
+        "It lacks symbolic notation",
+        "It cannot handle negation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic has no quantifiers, so it cannot express universal (\"all\") or existential (\"some\") statements. Each sentence is treated as one indivisible atom. <br><br>For example, you cannot directly express <em>\"all men are mortal\"</em> in propositional logic. You'd have to treat the whole sentence as a single proposition — losing the ability to reason about the internal structure of \"men\" and \"mortal.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.1267,
+      "question": "The statement P → Q is logically equivalent to which of the following?",
+      "options": [
+        "¬P ∨ Q",
+        "P ∧ ¬Q",
+        "¬Q → P",
+        "Q → P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The equivalence <code>P → Q ≡ ¬P ∨ Q</code> is called <strong>material implication</strong>. It gives the same truth table: <br><br><ul><li>P=T, Q=T: T</li><li>P=T, Q=F: F</li><li>P=F, Q=T: T</li><li>P=F, Q=F: T</li></ul>Option B is the <em>negation</em> of the implication. Options C and D are the contrapositive and converse — different formulas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9028,
+      "question": "What is the primary focus of logic?",
+      "options": [
+        "Mathematical calculations",
+        "Systematic study of reasoning",
+        "Natural language processing",
+        "Hardware architecture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Logic</strong> is the systematic study of the principles of correct reasoning. It is a branch of philosophy that studies valid inference — how to move from premises to conclusions in a way that preserves truth. <br><br>Its applications span mathematics (proofs), computer science (algorithms, circuits), linguistics (formal semantics), and law (legal argumentation).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9468,
+      "question": "Which property ensures a logical system has no contradictions?",
+      "options": [
+        "Completeness",
+        "Soundness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Consistency</strong> means the system cannot prove both a formula and its negation. A consistent system never derives <code>P ∧ ¬P</code> for any P. <br><br>Every sound system is automatically consistent (because a sound system only proves true formulas, and no formula is both true and false). But a system can be consistent without being sound — it just can't prove enough things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.593,
+      "question": "A declarative statement that is either true or false is a:",
+      "options": [
+        "Proposition",
+        "Predicate",
+        "Quantifier",
+        "Connective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <strong>proposition</strong> is a sentence that has a definite truth value — either true or false, but not both. Examples: <ul><li>\"Lagos is in Nigeria\" — true</li><li>\"2 + 2 = 5\" — false</li></ul>Not propositions: questions (\"What time is it?\"), commands (\"Close the door\"), exclamations (\"Ouch!\") — none can be assigned true or false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.2676,
+      "question": "Which branch of logic uses variables and quantifiers (∀, ∃)?",
+      "options": [
+        "Sentential Logic",
+        "Propositional Logic",
+        "Predicate Logic",
+        "Boolean Logic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Predicate logic</strong> (also called first-order logic) extends propositional logic with variables, predicates, and quantifiers. <br><br>Note that \"Sentential Logic\" and \"Propositional Logic\" are the same thing (both old and new names for the same system). \"Boolean Logic\" refers to the algebra of 0 and 1 values used in digital circuits — a specific application, not a full logical system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.2456,
+      "question": "In an implication P → Q, P is referred to as the:",
+      "options": [
+        "Conclusion",
+        "Antecedent",
+        "Consequent",
+        "Derivative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <code>P → Q</code>, P is the <strong>antecedent</strong> (or hypothesis, or premise) — the condition that must hold. Q is the <em>consequent</em> — the result that follows. <br><br>Example: \"If it rains (P), then the ground gets wet (Q).\" Here \"it rains\" is the antecedent; \"the ground gets wet\" is the consequent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9321,
+      "question": "The conjunction P ∧ Q is true ONLY when:",
+      "options": [
+        "P is true",
+        "Q is true",
+        "Both P and Q are true",
+        "Both P and Q are false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conjunction <code>P ∧ Q</code> (\"P and Q\") is true in exactly one row of the truth table: when P is true AND Q is true. Every other combination yields false. <br><br>Truth table: <ul><li>P=T, Q=T → <strong>TRUE</strong></li><li>P=T, Q=F → false</li><li>P=F, Q=T → false</li><li>P=F, Q=F → false</li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.2815,
+      "question": "The disjunction P ∨ Q is false ONLY when:",
+      "options": [
+        "P is false",
+        "Q is false",
+        "Both P and Q are false",
+        "Both P and Q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The inclusive disjunction <code>P ∨ Q</code> (\"P or Q, or both\") is false in exactly one row: when both P and Q are false. Every other combination yields true. <br><br>Truth table: <ul><li>P=T, Q=T → true</li><li>P=T, Q=F → true</li><li>P=F, Q=T → true</li><li>P=F, Q=F → <strong>FALSE</strong></li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.7334,
+      "question": "Which of the following is a limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express relationships between objects",
+        "It lacks logical connectives for combining statements",
+        "It cannot be used in computer science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic cannot express relations like <em>\"x is greater than y,\"</em> <em>\"A is the parent of B,\"</em> or <em>\"student s scored 80 in course c.\"</em> These require <strong>predicates with multiple arguments</strong>. <br><br>Propositional logic can still handle truth values (option A is wrong), has plenty of connectives (option C is wrong), and is widely used in computer science (option D is wrong — Boolean circuits are propositional logic in action).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5332,
+      "question": "The negation of '∀x P(x)' is logically equivalent to:",
+      "options": [
+        "∀x ¬P(x)",
+        "∃x ¬P(x)",
+        "∃x P(x)",
+        "¬∃x P(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The quantifier negation rule states: <code>¬∀x P(x) ≡ ∃x ¬P(x)</code>. <br><br>In plain English: \"it is not the case that every x satisfies P\" is equivalent to \"there exists at least one x that does not satisfy P.\" Note that <code>∀x ¬P(x)</code> (option A) means something much stronger — that <em>every</em> x fails P, not just one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.8525,
+      "question": "A truth table for three propositions (p, q, r) will have how many rows?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each proposition contributes 2 possible values (true/false). With n propositions, the total number of rows is <code>2ⁿ</code>. For n = 3: <code>2³ = 8</code>. <br><br>Compare: <ul><li>1 proposition → 2 rows</li><li>2 propositions → 4 rows</li><li>3 propositions → 8 rows</li><li>4 propositions → 16 rows</li></ul>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.0803,
+      "question": "What is the systematic study of reasoning called?",
+      "options": [
+        "Mathematics",
+        "Logic",
+        "Algorithms",
+        "Philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Logic</strong> is the systematic study of valid reasoning and inference. While it is <em>part</em> of philosophy in the traditional sense, the defining characteristic is that it studies reasoning itself — its structure, rules, and validity. <br><br>Mathematics uses logic; algorithms are built on logic; philosophy contains logic. But the study of reasoning as its own subject is what we call logic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.0972,
+      "question": "Which property of logic ensures that a system does not lead to a contradiction, such as proving both P and ¬P?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Validity",
+        "Consistency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Consistency</strong> is the guarantee that no formula and its negation can both be proven. Formally, a system is consistent if there is no formula φ such that both <code>⊢ φ</code> and <code>⊢ ¬φ</code>. <br><br>An inconsistent system is worthless — from a contradiction, every formula follows (principle of explosion), so the system proves everything.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.1924,
+      "question": "Which of the following is NOT a proposition?",
+      "options": [
+        "2 + 2 = 4",
+        "The sky is green",
+        "Close the door!",
+        "Logic is a branch of science"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A proposition must be a <em>declarative</em> statement with a definite truth value. <br><br>Commands, questions, and exclamations are not propositions: <ul><li><strong>Commands</strong>: \"Close the door!\" — you cannot say this is true or false</li><li><strong>Questions</strong>: \"What time is it?\" — no truth value</li><li><strong>Exclamations</strong>: \"Ouch!\" — no truth value</li></ul>Note that \"The sky is green\" <em>is</em> a proposition — it's false, but propositions can be false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.4614,
+      "question": "In propositional logic, when is the implication (P → Q) considered false?",
+      "options": [
+        "When P is true and Q is false",
+        "When P is false and Q is true",
+        "When both P and Q are false",
+        "When both P and Q are true"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An implication <code>P → Q</code> is false in exactly one case: when the antecedent is true but the consequent is false. This is because the implication claims \"whenever P holds, Q must hold\" — so a single case of P true and Q false is a counterexample. <br><br>All other rows yield true. This is why implications with false antecedents are called \"vacuously true\" — they're true by default, not by any real connection between P and Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.607,
+      "question": "Which logic system allows for the use of variables, predicates, and quantifiers?",
+      "options": [
+        "Propositional Logic",
+        "Sentential Logic",
+        "Predicate Logic",
+        "Boolean Logic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Predicate logic</strong> (first-order logic) adds three things to propositional logic: <ul><li><strong>Variables</strong> (x, y, z) — placeholders for objects</li><li><strong>Predicates</strong> (P(x), Q(x,y)) — properties and relations</li><li><strong>Quantifiers</strong> (∀, ∃) — \"for all\" and \"there exists\"</li></ul>\"Propositional Logic\" and \"Sentential Logic\" are the same thing — neither has quantifiers or variables.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.3965,
+      "question": "A conjunction (P ∧ Q) is true only when:",
+      "options": [
+        "At least one proposition is true",
+        "Both propositions are true",
+        "Both propositions are false",
+        "The first proposition is true and the second is false"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The conjunction <code>P ∧ Q</code> requires <em>both</em> conjuncts to be true. If either P or Q is false, the whole conjunction is false. <br><br>Contrast with disjunction (∨), which requires only one to be true. And contrast with the first option — \"at least one\" describes disjunction, not conjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.9624,
+      "question": "The disjunction symbol (∨) in propositional logic represents an:",
+      "options": [
+        "Exclusive OR",
+        "Inclusive OR",
+        "Implication",
+        "Atomic unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The symbol <code>∨</code> represents <strong>inclusive OR</strong> — true when at least one of the disjuncts is true, including when both are true. <br><br>This is different from the exclusive OR (⊕), which is true only when exactly one is true. In logic, \"or\" without qualification always means inclusive OR. When you see \"you can have tea or coffee,\" everyday language sometimes implies you can't have both — that's exclusive OR. But in logic, <code>∨</code> always means \"at least one.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.5183,
+      "question": "Which of De Morgan's Laws is correct?",
+      "options": [
+        "¬(p ∧ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+        "¬(p ∨ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ p ∨ q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "De Morgan's laws are a pair of equivalences: <ul><li><code>¬(p ∧ q) ≡ ¬p ∨ ¬q</code> — negating a conjunction gives a disjunction of negations</li><li><code>¬(p ∨ q) ≡ ¬p ∧ ¬q</code> — negating a disjunction gives a conjunction of negations</li></ul>In plain English: \"not (P and Q)\" means \"not P or not Q.\" And \"not (P or Q)\" means \"neither P nor Q.\" Option A is the correct form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.411,
+      "question": "What is a major limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express universal or existential quantification",
+        "It cannot be used in computer science",
+        "It cannot handle the construction of truth tables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic cannot express statements like \"all humans are mortal\" or \"some students passed\" because it lacks quantifiers. These need <code>∀</code> and <code>∃</code>, which only appear in predicate logic. <br><br>Propositional logic <em>does</em> handle truth values (option A is false), is <em>heavily</em> used in computer science (Boolean circuits, program verification, AI) (option C is false), and is <em>the</em> system designed around truth tables (option D is false).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790682173986.2266,
+      "question": "How many rows are required in a truth table for a statement involving n propositions?",
+      "options": [
+        "n²",
+        "2n",
+        "2ⁿ",
+        "n+1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each proposition has 2 possible truth values, and each proposition is independent, so the total combinations are <code>2 × 2 × ... × 2</code> (n times) = <strong>2ⁿ</strong>. <br><br>Examples: <ul><li>1 variable → 2 rows</li><li>2 variables → 4 rows</li><li>3 variables → 8 rows</li><li>4 variables → 16 rows</li></ul>The formula <code>n²</code> (option A) grows much faster for large n but is not the truth-table count. This exponential growth is one reason truth tables become impractical beyond ~5 variables.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
