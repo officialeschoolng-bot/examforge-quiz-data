@@ -3,7 +3,7 @@
   "title": "NAU-CSC 111/NAU-SEN: Logical Connectives",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A practice CBT exam on NAU-CSC 111/NAU-SEN",
-  "totalQuestions": 0,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -15,5 +15,705 @@
     "shuffleOptions": true,
     "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790684029593.6921,
+      "question": "What are logical connectives?",
+      "options": [
+        "Symbols used to combine propositions",
+        "Symbols used to quantify propositions",
+        "Words used to negate propositions only",
+        "Symbols used to represent variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Logical connectives</strong> (also called sentential connectives) are symbols or words — ¬, ∧, ∨, →, ↔ — that combine one or more propositions into a compound proposition. The truth value of the compound is a function of the truth values of its components and of the specific connective used. Example: p ∧ q is true only when both p and q are true, while p ∨ q is true when at least one is true. Quantifiers belong to predicate logic, not propositional logic, which is why option B is wrong.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.734,
+      "question": "Which of the following is NOT a common logical connective?",
+      "options": [
+        "Negation (¬)",
+        "Conjunction (∧)",
+        "Disjunction (∨)",
+        "Quantifier (∀)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The five common propositional connectives are negation (¬), conjunction (∧), disjunction (∨), implication (→), and biconditional (↔). <strong>Quantifiers</strong> (∀ \"for all\", ∃ \"there exists\") are not connectives — they belong to predicate logic and operate on predicates, not on whole propositions. This is why ∀ is the odd one out.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.7468,
+      "question": "The symbol ∧ represents which logical connective?",
+      "options": [
+        "Negation",
+        "Conjunction",
+        "Disjunction",
+        "Implication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The symbol <strong>∧</strong> (a wedge, sometimes called \"ampersand-shaped\") represents <strong>conjunction</strong>, read as \"p and q\". It is true only when both of its operands are true; in every other case the conjunction is false. Negation is ¬, disjunction is ∨, implication is →.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.2617,
+      "question": "The symbol ∨ represents which logical connective?",
+      "options": [
+        "Conjunction",
+        "Negation",
+        "Disjunction",
+        "Biconditional"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The symbol <strong>∨</strong> (a \"vee\") represents <strong>disjunction</strong>, read as \"p or q\". The standard ∨ is <em>inclusive</em> — it is true when at least one disjunct is true, including when both are true. Biconditional is ↔; negation is ¬; conjunction is ∧.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.264,
+      "question": "A conjunction p ∧ q is true only when:",
+      "options": [
+        "p is true",
+        "q is true",
+        "Both p and q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conjunction p ∧ q is true <strong>only</strong> when both p and q are true; if either conjunct fails, the whole statement is false. Intuition: the word \"and\" in English demands that every part hold. Note options A and B describe only one condition each — one of them can hold while the other fails, which still makes p ∧ q false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.241,
+      "question": "The disjunction p ∨ q is false only when:",
+      "options": [
+        "p is false",
+        "q is false",
+        "Both p and q are false",
+        "Both p and q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An inclusive disjunction p ∨ q is false in exactly <strong>one</strong> case: when both disjuncts are false. If either p or q (or both) is true, the disjunction is true. This is why truth tables for ∨ have three true rows and only one false row — the (F, F) row.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.6396,
+      "question": "In propositional logic, the disjunction symbol ∨ represents an:",
+      "options": [
+        "Exclusive OR",
+        "Inclusive OR",
+        "Implication",
+        "Atomic unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard ∨ is <strong>inclusive OR</strong> — \"p or q, or both.\" Exclusive OR (⊕) is a separate connective that excludes the case where both are true. In everyday English \"or\" is often ambiguous between the two, but in formal logic ∨ is always inclusive unless ⊕ is used explicitly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.1208,
+      "question": "Which of De Morgan's Laws is correct?",
+      "options": [
+        "¬(p ∧ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+        "¬(p ∨ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ p ∨ q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>De Morgan's laws:</strong> ¬(p ∧ q) ≡ ¬p ∨ ¬q and ¬(p ∨ q) ≡ ¬p ∧ ¬q. In words — negating a conjunction swaps ∧ for ∨ and negates each part; negating a disjunction swaps ∨ for ∧ and negates each part. Option B keeps the ∧ (wrong), option C keeps the ∨ (wrong), and option D drops the negations entirely (wrong).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.94,
+      "question": "What is a major limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express quantification",
+        "It cannot be used in computer science",
+        "It cannot handle the construction of truth tables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic has no quantifiers, so it cannot express statements like \"all students are registered\" or \"some students failed.\" It <em>does</em> handle truth values and truth tables (so A and D are wrong), and it is the foundation of digital circuit design and many areas of CS (so C is wrong). The real limitations are the lack of quantification, internal structure, and relations between objects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.4475,
+      "question": "How many rows are required in a truth table for a statement involving n propositions?",
+      "options": [
+        "n²",
+        "2n",
+        "2ⁿ",
+        "n+1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each proposition has 2 truth values (T/F), and with n independent propositions there are 2 × 2 × ... × 2 (n times) = <strong>2ⁿ</strong> distinct combinations, hence 2ⁿ rows. This exponential growth is a key limitation — with n = 20 you'd already need over a million rows, making propositional logic impractical for large systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.8774,
+      "question": "The limitation of Propositional Logic in expressing 'Every student is smart' is due to its lack of:",
+      "options": [
+        "Connectives",
+        "Truth values",
+        "Quantifiers",
+        "Parentheses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Every student is smart\" is a <strong>universally quantified</strong> statement — formalised as ∀x (Student(x) → Smart(x)). Propositional logic has no ∀ or ∃, so it cannot express the \"every\" or \"some\" parts. It does have connectives (A), truth values (B), and parenthesisation (D) — those are not the problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.3662,
+      "question": "In the context of propositional logic limitations, which of these cannot be represented without predicates?",
+      "options": [
+        "Nested implications",
+        "Complex disjunctions",
+        "Relative properties",
+        "Truth-functional negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Relative properties</strong> — relationships between objects, like \"x is greater than y\" or \"Student X teaches Course Y\" — cannot be captured by atomic propositions alone; they need predicates and variables. Nested implications (A), complex disjunctions (B), and truth-functional negation (D) are all expressible in propositional logic using only connectives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.1924,
+      "question": "Which of the following describes 'Predicate Logic' but NOT 'Propositional Logic'?",
+      "options": [
+        "Uses logical connectives",
+        "Determines truth values",
+        "Employs quantifiers",
+        "Follows rules of inference"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Predicate logic (first-order logic) extends propositional logic with <strong>quantifiers</strong> (∀, ∃) and predicates applied to variables. Options A, B, and D are shared by both systems — both use connectives, both assign truth values, and both have rules of inference. Only quantification is unique to predicate logic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.7122,
+      "question": "Which logical law is represented by p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)?",
+      "options": [
+        "Associative Law",
+        "Distributive Law",
+        "Idempotent Law",
+        "De Morgan's Law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the <strong>distributive law</strong> of ∧ over ∨ — it lets conjunction \"distribute\" across a disjunction, exactly like multiplication distributes over addition in arithmetic: a(b + c) = ab + ac. The dual form also holds: p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r). It is not associative (which only regroups), not idempotent (which collapses p ∧ p ≡ p), and not De Morgan (which concerns negation).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.1155,
+      "question": "The 'Exclusive OR' (⊕) differs from the 'Inclusive OR' (∨) because it is false when:",
+      "options": [
+        "Both inputs are false",
+        "Both inputs are true",
+        "The first input is true",
+        "The second input is true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exclusive OR (⊕) is true when <strong>exactly one</strong> of its operands is true, so it is <em>false</em> when both are true. Inclusive OR (∨) is true whenever at least one operand is true — including when both are. That single row — (T, T) — is where ⊕ and ∨ disagree. Both connectives are false in the (F, F) row, so option A is not the difference.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029593.4214,
+      "question": "Which of the following is a limitation of Propositional Logic?",
+      "options": [
+        "It uses truth tables",
+        "It cannot express 'some' or 'all'",
+        "It lacks symbolic notation",
+        "It cannot handle negation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic has no quantifiers, so it cannot express <strong>universal</strong> (\"all students are registered\") or <strong>existential</strong> (\"some students failed\") statements. It does have symbolic notation (so C is wrong), does handle negation (D wrong), and truth tables are a feature not a limitation (A wrong). The core limitations are quantification, internal structure, relations, scalability, and natural-language ambiguity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.1555,
+      "question": "The statement P → Q is logically equivalent to which of the following?",
+      "options": [
+        "¬P ∨ Q",
+        "P ∧ ¬Q",
+        "¬Q → P",
+        "Q → P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Material implication</strong>: P → Q ≡ ¬P ∨ Q. The implication is only false when P is true and Q is false, which is exactly the single row where ¬P ∨ Q is false. Option B (P ∧ ¬Q) is in fact the negation of P → Q, not an equivalence. Options C and D are converses/inverses, which are <em>not</em> equivalent in general.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2642,
+      "question": "A truth table for three propositions (p, q, r) will have how many rows?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With n = 3, the number of rows is <strong>2³ = 8</strong>. The rows enumerate every combination of T/F for p, q, and r: TTT, TTF, TFT, TFF, FTT, FTF, FFT, FFF. Option A (6) is 2 × 3, a common confusion; option D (9) is 3². The correct formula is 2ⁿ, not n² or 2n.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.901,
+      "question": "The conjunction P ∧ Q is true ONLY when:",
+      "options": [
+        "P is true",
+        "Q is true",
+        "Both P and Q are true",
+        "Both P and Q are false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A conjunction is true only when <strong>both</strong> conjuncts are true. If P is true but Q is false, the whole conjunction collapses to false. Options A and B describe necessary conditions individually but neither is sufficient on its own, and option D is the exact opposite of the truth condition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.4749,
+      "question": "The disjunction P ∨ Q is false ONLY when:",
+      "options": [
+        "P is false",
+        "Q is false",
+        "Both P and Q are false",
+        "Both P and Q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An inclusive disjunction is false in exactly the <strong>(F, F)</strong> case — when both disjuncts are false. As long as one side is true, the disjunction is true, so options A and B are each insufficient on their own and option D actually makes the disjunction true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.9814,
+      "question": "Which of the following is a limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express relationships between objects",
+        "It lacks logical connectives for combining statements",
+        "It cannot be used in computer science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic treats each proposition as an atomic unit, so it cannot express <strong>relations</strong> between objects — \"A is greater than B\", \"Student X teaches Course Y\" — without predicates and variables. It does handle truth values (A wrong), has connectives for combining statements (C wrong), and is heavily used in CS for digital circuits, program verification, and AI (D wrong).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.9795,
+      "question": "The negation of '∀x P(x)' is logically equivalent to:",
+      "options": [
+        "∀x ¬P(x)",
+        "∃x ¬P(x)",
+        "∃x P(x)",
+        "¬∃x P(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Quantifier negation:</strong> ¬∀x P(x) ≡ ∃x ¬P(x). Intuition — \"not everyone is P\" means \"someone is not P.\" Dually, ¬∃x P(x) ≡ ∀x ¬P(x). Option A (∀x ¬P(x)) says \"no one is P\", which is stronger than the original negation. Option C is unrelated. Option D is the negation of the existential, not of the universal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.5403,
+      "question": "In propositional logic, when is the implication (P → Q) considered false?",
+      "options": [
+        "When P is true and Q is false",
+        "When P is false and Q is true",
+        "When both P and Q are false",
+        "When both P and Q are true"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An implication P → Q is false in exactly <strong>one</strong> case: the antecedent P is true while the consequent Q is false. In every other combination — including when P is false — the implication is vacuously true. This \"vacuously true\" behaviour surprises many students, but it makes → behave correctly in chains of reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2202,
+      "question": "Which logic system allows for the use of variables, predicates, and quantifiers?",
+      "options": [
+        "Propositional Logic",
+        "Sentential Logic",
+        "Predicate Logic",
+        "Boolean Logic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Predicate logic</strong> (first-order logic) extends propositional logic with variables (x, y, z), predicates (P(x), R(x, y)), and quantifiers (∀, ∃). Propositional logic and sentential logic are the same thing — atomic propositions only, no internal structure. Boolean logic is algebra over 0/1 values and connectives, without quantifiers or predicates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.6292,
+      "question": "What is the primary limitation of propositional logic regarding natural language?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot capture ambiguity",
+        "It cannot use logical connectives",
+        "It cannot form compound propositions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural language is full of <strong>ambiguity, context, and implied meaning</strong> that propositional logic cannot capture. Classic example: \"You may submit the assignment today or tomorrow\" — is the OR exclusive (only one day) or inclusive (either or both)? Propositional logic forces you to choose, losing the original ambiguity. Options A, C, and D are all things propositional logic <em>can</em> do.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2842,
+      "question": "The property that p ∧ q ≡ q ∧ p is called:",
+      "options": [
+        "Associative",
+        "Commutative",
+        "Idempotent",
+        "Identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Commutative</strong> — the order of operands does not affect the result. Addition and multiplication are commutative (a + b = b + a); so are ∧ and ∨. Associative concerns regrouping: (p ∧ q) ∧ r ≡ p ∧ (q ∧ r). Idempotent is p ∧ p ≡ p. Identity is p ∧ T ≡ p.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.957,
+      "question": "The property that (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) is called:",
+      "options": [
+        "Commutative",
+        "Associative",
+        "Distributive",
+        "Idempotent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Associative</strong> — regrouping does not change the result. You can evaluate the ∧'s in any grouping. Note the operands stay in the same relative order; only the parentheses move. Distributive would involve both ∧ and ∨ in the same identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.566,
+      "question": "The property that p ∧ T ≡ p is called:",
+      "options": [
+        "Domination",
+        "Identity",
+        "Idempotent",
+        "Commutative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Identity law</strong> — T (true) is the identity element for ∧, because ANDing anything with T leaves it unchanged. Compare with arithmetic: p × 1 = p, so 1 is the multiplicative identity. Domination would be p ∧ F ≡ F. Idempotent would be p ∧ p ≡ p.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2903,
+      "question": "The property that p ∧ F ≡ F is called:",
+      "options": [
+        "Identity",
+        "Domination",
+        "Idempotent",
+        "Associative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Domination law</strong> — F (false) dominates ∧, forcing the whole expression to F regardless of p. Intuition: \"p AND false\" can never be true. Compare with arithmetic: p × 0 = 0, so 0 dominates multiplication. The dual for ∨ is p ∨ T ≡ T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.6545,
+      "question": "The property that p ∧ p ≡ p is called:",
+      "options": [
+        "Commutative",
+        "Associative",
+        "Idempotent",
+        "Identity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Idempotent</strong> — repeating an operand with ∧ (or ∨) does not change anything: p ∧ p ≡ p. From Latin <em>idem</em> (same) + <em>potens</em> (power) — \"same power\". Compare p + p = 2p in arithmetic, which is why students sometimes wrongly expect a change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.8562,
+      "question": "The property that p ∨ q ≡ q ∨ p is called:",
+      "options": [
+        "Associative",
+        "Commutative",
+        "Idempotent",
+        "Identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Commutative</strong> for ∨ — the order of disjuncts does not matter. \"It is raining or it is cold\" is logically identical to \"It is cold or it is raining.\" Associative concerns regrouping, not reordering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.7524,
+      "question": "The property that (p ∨ q) ∨ r ≡ p ∨ (q ∨ r) is called:",
+      "options": [
+        "Commutative",
+        "Associative",
+        "Distributive",
+        "Idempotent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Associative</strong> for ∨ — the grouping of the disjuncts does not matter; only their order of appearance, which is unchanged. This is why we can write p ∨ q ∨ r without ambiguity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.7505,
+      "question": "The property that p ∨ F ≡ p is called:",
+      "options": [
+        "Domination",
+        "Identity",
+        "Idempotent",
+        "Commutative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Identity law</strong> for ∨ — F (false) is the identity element for disjunction, because ORing anything with F leaves it unchanged. Intuition: \"p OR false\" reduces to just p, since false never contributes truth. Compare with arithmetic: p + 0 = p, so 0 is the additive identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.1672,
+      "question": "The property that p ∨ T ≡ T is called:",
+      "options": [
+        "Identity",
+        "Domination",
+        "Idempotent",
+        "Associative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Domination law</strong> for ∨ — T (true) dominates disjunction, forcing the result to T regardless of p. Intuition: \"p OR true\" is always true because true is already present. The dual for ∧ is p ∧ F ≡ F. Together, {p ∧ F ≡ F, p ∨ T ≡ T} are the two domination laws.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.5317,
+      "question": "The property that p ∨ p ≡ p is called:",
+      "options": [
+        "Commutative",
+        "Associative",
+        "Idempotent",
+        "Identity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Idempotent</strong> for ∨ — repeating a disjunct changes nothing: p ∨ p ≡ p. Combined with the ∧ version (p ∧ p ≡ p), this shows both ∧ and ∨ are idempotent operations, unlike ordinary arithmetic where p + p ≠ p and p × p ≠ p (except at 0 and 1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.7712,
+      "question": "Which of the following is an example of a conjunction?",
+      "options": [
+        "\"The system is online or the database is accessible\"",
+        "\"The system is online and the database is accessible\"",
+        "\"The system is not online\"",
+        "\"If the system is online, then the database is accessible\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conjunction uses <strong>AND</strong>. The classic PDF example p ∧ q is \"The system is online and the database is accessible.\" Option A uses \"or\" (disjunction), option C uses \"not\" (negation), and option D uses \"if … then\" (implication). Only B joins two atomic propositions with the conjunctive connective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.7651,
+      "question": "Which of the following is an example of a disjunction?",
+      "options": [
+        "\"The lecturer is present and the lecture slides are uploaded\"",
+        "\"The lecturer is present or the lecture slides are uploaded\"",
+        "\"The lecturer is not present\"",
+        "\"If the lecturer is present, then the slides are uploaded\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disjunction uses <strong>OR</strong>. The PDF example p ∨ q is \"The lecturer is present or the lecture slides are uploaded.\" Option A is conjunction (AND), option C is negation (NOT), option D is implication (IF…THEN). Only B joins two propositions with ∨.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.0032,
+      "question": "In the disjunction example, if p is \"The lecturer is present\" and q is \"The lecture slides are uploaded\", when is p ∨ q false?",
+      "options": [
+        "When p is true and q is false",
+        "When p is false and q is true",
+        "When both p and q are false",
+        "When both p and q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An inclusive disjunction is false in exactly one row — when <strong>both</strong> disjuncts are false. If the lecturer is absent AND the slides were not uploaded, then \"the lecturer is present or the slides are uploaded\" is false. In every other combination at least one disjunct holds, so the disjunction is true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.4124,
+      "question": "In the conjunction example, if p is \"The system is online\" and q is \"The database is accessible\", when is p ∧ q true?",
+      "options": [
+        "When p is true and q is false",
+        "When p is false and q is true",
+        "When both p and q are true",
+        "When both p and q are false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Conjunction is true only when <strong>both</strong> conjuncts are true — here, the system is online <em>and</em> the database is accessible. In every other row at least one conjunct fails, and the conjunction collapses to false. Options A and B have exactly one true and one false conjunct; option D has both false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.9688,
+      "question": "De Morgan's law ¬(p ∨ q) ≡ ¬p ∧ ¬q shows how to:",
+      "options": [
+        "Distribute negation over conjunction",
+        "Distribute negation over disjunction",
+        "Distribute conjunction over disjunction",
+        "Distribute disjunction over conjunction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "De Morgan's laws show how to <strong>push negation inward</strong> across a connective. ¬(p ∨ q) ≡ ¬p ∧ ¬q pushes ¬ inside the ∨ and flips it to ∧. The dual, ¬(p ∧ q) ≡ ¬p ∨ ¬q, pushes ¬ inside ∧ and flips it to ∨. Options C and D describe distribution of ∧ over ∨ (or vice versa) without negation, which is a different law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.8252,
+      "question": "Which of the following is NOT a limitation of propositional logic?",
+      "options": [
+        "Lack of internal structure",
+        "Inability to express quantification",
+        "No representation of relationships",
+        "Inability to determine truth values"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Propositional logic <em>can</em> determine truth values — that is precisely what truth tables and truth-functional connectives do. The genuine limitations are: lack of internal structure (treats p as atomic), inability to express quantification (no ∀ or ∃), no representation of relationships (\"x > y\"), scalability problems (2ⁿ growth), and ambiguity in translating natural language. Option D is the odd one out because it names a <em>strength</em>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.0798,
+      "question": "As the number of propositions increases, the size of truth tables grows:",
+      "options": [
+        "Linearly",
+        "Quadratically",
+        "Exponentially",
+        "Logarithmically"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For n propositions, the number of rows is <strong>2ⁿ</strong>, which grows exponentially. Each additional proposition doubles the table. n = 3 gives 8 rows, n = 10 gives 1,024, and n = 20 gives over a million — which is why propositional logic becomes impractical for large systems. Quadratic (n²) and linear (n) growth would be far more manageable, but the actual formula is 2ⁿ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2466,
+      "question": "The statement \"All students passed the exam\" cannot be broken down into individual student statements in propositional logic. This is an example of:",
+      "options": [
+        "Inability to express quantification",
+        "Lack of internal structure",
+        "No representation of relationships",
+        "Ambiguity in natural language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic treats each proposition as an <strong>atomic unit</strong> — it has no internal structure to break down. \"All students passed\" becomes a single indecomposable proposition; you cannot refer to individual students, their names, or their marks inside it. Quantification (A) would be about the \"all\" part specifically; this question is about the inability to decompose the proposition into subject and predicate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.2385,
+      "question": "The statement \"A is greater than B\" cannot be expressed in propositional logic because:",
+      "options": [
+        "It lacks internal structure",
+        "It cannot express quantification",
+        "It cannot represent relationships",
+        "It is ambiguous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Propositional logic cannot express <strong>relations</strong> between objects. \"A is greater than B\" needs a two-place predicate like GreaterThan(A, B) — predicate logic handles this; propositional logic does not. It is not quantification (there is no \"all\" or \"some\" here), and it is not ambiguous (the statement is precise). The issue is purely relational.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.4832,
+      "question": "The statement \"You may submit the assignment today or tomorrow\" is ambiguous because:",
+      "options": [
+        "It uses conjunction and doesn't specify the conjunction type",
+        "It is unclear whether the OR is exclusive or inclusive",
+        "It uses disjunction but doesn't include negation",
+        "It is a tautology and contradiction at the same time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural-language \"or\" is ambiguous between <strong>exclusive</strong> (\"today XOR tomorrow\" — only one is allowed) and <strong>inclusive</strong> (\"today OR tomorrow, possibly both\"). Propositional logic forces you to commit to one interpretation, losing the original ambiguity. Option A is wrong because the sentence uses OR, not AND. Option C is irrelevant — negation has nothing to do with the ambiguity. Option D is nonsense: no statement is a tautology and contradiction simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.9155,
+      "question": "Which of the following is a compound proposition formed by joining two propositions using AND?",
+      "options": [
+        "Disjunction",
+        "Conjunction",
+        "Negation",
+        "Implication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>conjunction</strong> is the compound proposition formed by joining two propositions with the AND connective, symbolised by ∧. Disjunction uses OR (∨), negation is unary and applies to one proposition (¬), and implication uses IF…THEN (→). Conjunction is the only option that specifically means \"joined by AND.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.6086,
+      "question": "Which of the following is a compound proposition formed by joining two propositions using OR?",
+      "options": [
+        "Conjunction",
+        "Disjunction",
+        "Negation",
+        "Biconditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>disjunction</strong> is the compound proposition formed by joining two propositions with the OR connective, symbolised by ∨. Conjunction uses AND (∧), negation is unary (¬), and biconditional means \"if and only if\" (↔). The question's key word is \"OR\", which uniquely identifies disjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.1638,
+      "question": "The truth table for conjunction p ∧ q has how many rows?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two propositions p and q have <strong>2² = 4</strong> possible combinations: (T, T), (T, F), (F, T), (F, F). Option A and B would be too few, and option D (8) would be correct only for three propositions. The general formula is 2ⁿ rows for n propositions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.6396,
+      "question": "The truth table for disjunction p ∨ q is false in how many rows?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disjunction p ∨ q is false in exactly <strong>one</strong> row — the (F, F) case, where both disjuncts are false. All three other rows — (T, T), (T, F), (F, T) — have at least one true operand and are therefore true. Option A (0) describes a tautology, not ∨. Option C (2) and option D (3) overcount.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684029594.0852,
+      "question": "Which of the following is a correct De Morgan's law?",
+      "options": [
+        "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+        "¬(p ∨ q) ≡ ¬p ∧ ¬q",
+        "¬(p ∨ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ p ∨ q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>De Morgan's laws:</strong> ¬(p ∧ q) ≡ ¬p ∨ ¬q and ¬(p ∨ q) ≡ ¬p ∧ ¬q. Option B matches the second form exactly — negating a disjunction swaps ∨ for ∧ and negates each part. Option A keeps the ∧ on the right (wrong), option C keeps the ∨ (wrong), and option D drops both negations on the right (wrong). The mnemonic: <em>break the bar, change the sign</em>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
