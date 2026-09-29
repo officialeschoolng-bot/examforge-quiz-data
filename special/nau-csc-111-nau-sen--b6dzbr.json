@@ -3,16 +3,718 @@
   "title": "NAU-CSC 111/NAU-SEN: Proof Strategy, Types of Proof Strategy",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A practice CBT exam for NAU-CSC 111/NAU-SEN",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790686005680.3462,
+      "question": "In a proof by 'Contraposition,' to prove P → Q, we assume:",
+      "options": [
+        "P is true",
+        "Q is true",
+        "Q is false",
+        "P is false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a proof by <strong>contraposition</strong>, instead of proving P → Q directly, you prove the logically equivalent ¬Q → ¬P. So you begin by <strong>assuming ¬Q</strong> (i.e. Q is false), then derive ¬P (i.e. P is false). Option A (assume P true) is the direct-proof opening. Option B (assume Q true) is the converse Q → P, not the contrapositive. Option D (assume P false) is the inverse ¬P → ¬Q. The golden rule: <em>assume the negation of the conclusion, derive the negation of the premise</em>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.8137,
+      "question": "Which method is used to prove that √2 is irrational?",
+      "options": [
+        "Induction",
+        "Contradiction",
+        "Direct Proof",
+        "Construction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The classic proof that <strong>√2 is irrational</strong> proceeds by <strong>contradiction</strong>: assume √2 = p/q in lowest terms (i.e. p and q have no common factor), derive p² = 2q², which forces both p and q to be even — contradicting the assumption that they share no common factor. Option A (induction) is for statements indexed by naturals. Option C (direct proof) starts from √2's definition but cannot derive irrationality directly. Option D (construction) builds objects to prove existence — irrelevant here.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.6592,
+      "question": "The 'Base Case' in induction is required to prevent:",
+      "options": [
+        "Infinite Regress",
+        "Circular logic",
+        "Tautologies",
+        "Antisymmetry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without a <strong>base case</strong>, an induction argument is just a chain of implications (P(1)→P(2), P(2)→P(3), …) with nothing anchoring it — the chain never actually starts, leading to <strong>infinite regress</strong>. The base case verifies P(1) (or P(0)), giving the chain a starting point. Option B (circular logic) is a distinct fallacy: assuming what you want to prove. Option C (tautologies) and Option D (antisymmetry) are unrelated concepts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.887,
+      "question": "A 'Non-constructive' existence proof typically utilizes:",
+      "options": [
+        "Algorithms",
+        "The Law of Excluded Middle",
+        "Direct computation",
+        "Examples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>non-constructive existence proof</strong> shows that an object exists without producing it. It often uses the <strong>Law of Excluded Middle</strong> (every proposition is either true or false) to argue \"it must be one way or the other\" without committing to which. Options A (algorithms), C (direct computation), and D (examples) are all <em>constructive</em> — they exhibit or compute the object, which is exactly what non-constructive proofs avoid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.228,
+      "question": "Providing a single instance where a universal claim fails is a proof by:",
+      "options": [
+        "Cases",
+        "Exhaustion",
+        "Counterexample",
+        "Paradox"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>counterexample</strong> is a single specific instance that falsifies a universal statement. To disprove \"all P are Q,\" it suffices to exhibit one P that is not Q. Option A (cases) and Option B (exhaustion) are positive proof methods. Option D (paradox) is a self-contradictory statement, not a disproof technique. The magic of a counterexample: one example is enough to destroy a universal claim, whereas proving it requires an argument covering every case.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2622,
+      "question": "In a 'Proof by Contradiction,' if we wish to prove P → Q, we begin by assuming:",
+      "options": [
+        "P ∧ Q",
+        "P ∧ ¬Q",
+        "¬P → ¬Q",
+        "¬P ∨ Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To prove P → Q by <strong>contradiction</strong>, assume both <strong>P and ¬Q</strong> — the antecedent is true but the consequent is false, i.e. the negation of the whole implication ¬(P → Q) ≡ P ∧ ¬Q. Then derive a contradiction. Option A (P ∧ Q) is what you would be trying to <em>conclude</em>, not assume. Option C (¬P → ¬Q) is the inverse, not the negation. Option D (¬P ∨ Q) is equivalent to P → Q itself — assuming it would be circular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.0305,
+      "question": "The 'Contrapositive' of the statement 'If n² is even, then n is even' is:",
+      "options": [
+        "If n is even, then n² is even",
+        "If n is odd, then n² is odd",
+        "If n² is odd, then n is odd",
+        "n is even and n² is odd"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The original is P → Q with P = \"n² is even\" and Q = \"n is even\". Its <strong>contrapositive</strong> is ¬Q → ¬P = \"n is not even → n² is not even\" = <strong>\"n is odd → n² is odd\"</strong>. Option A (n even → n² even) is the <em>converse</em> (Q → P), which is not equivalent to the original. Option C (n² odd → n odd) is the <em>inverse</em> (¬P → ¬Q), also not equivalent. Option D is a conjunction, not an implication. Only the contrapositive is logically equivalent to the original — this is exactly why we can replace the original with it in a proof.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.6,
+      "question": "Which proof method is specifically designed to prove statements over the set of all Well-Ordered integers?",
+      "options": [
+        "Mathematical Induction",
+        "Exhaustive Proof",
+        "Constructive Existence",
+        "Direct Inference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Mathematical induction</strong> relies on the fact that the natural numbers (and any well-ordered set) have a least element and no infinite descending chains. That structural property is what makes the base case + inductive step sufficient. Option B (exhaustive proof) checks every case — impossible for infinite sets. Option C (constructive existence) proves one object exists, not a statement for all n. Option D (direct inference) is a general logical technique, not induction-specific.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.188,
+      "question": "In the 'Inductive Step' of a proof, we prove that:",
+      "options": [
+        "P(1) is true",
+        "P(k) is true",
+        "P(k) → P(k+1) is true",
+        "P(n) is true for all n"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>inductive step</strong> proves the implication <strong>P(k) → P(k+1)</strong> for an arbitrary integer k — \"if it holds at k, it holds at k+1.\" Option A (P(1)) is the base case. Option B (P(k)) is the <em>inductive hypothesis</em>, an assumption you make at the start of the inductive step, not what you prove. Option D (P(n) for all n) is the conclusion you draw after finishing both the base case and the inductive step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.7861,
+      "question": "A 'Non-Constructive Existence Proof' establishes that an object exists without:",
+      "options": [
+        "Using logical reasoning to prove it",
+        "Constructing an object instance",
+        "Being consistent in its statements",
+        "Providing an algorithm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>non-constructive existence proof</strong> shows <em>that</em> an object exists without producing it — for example, by contradiction (\"if it didn't exist, we'd get a contradiction\"). Option A is wrong because the proof is still a logical argument (just not a construction). Option C is wrong: the proof must still be consistent. Option D is subtly different — \"not providing an algorithm\" is a consequence, but the definitional point is that no explicit witness is constructed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.7676,
+      "question": "Which proof method relies on the fact that if (¬Q → Contradiction) is true, then Q is true?",
+      "options": [
+        "Direct Proof",
+        "Contrapositive",
+        "Contradiction",
+        "Induction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is <strong>proof by contradiction</strong> — assume ¬Q, derive a contradiction (something impossible), conclude Q. The logical form is ¬Q → (R ∧ ¬R) ⟹ Q. Option A (direct proof) goes from premises to conclusion without assuming the negation. Option B (contrapositive) proves ¬Q → ¬P rather than reaching a contradiction. Option D (induction) is a completely different structure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2363,
+      "question": "In Mathematical Induction, the 'Inductive Hypothesis' involves assuming the statement holds for:",
+      "options": [
+        "n = 1",
+        "n = k",
+        "n = k+1",
+        "All n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>inductive hypothesis</strong> assumes the statement P holds for <strong>some arbitrary integer k</strong> — this is the \"suppose\" in \"suppose it holds at k.\" Option A (n=1) is the base case. Option C (n=k+1) is what you prove in the inductive step. Option D (all n) is the conclusion — assuming it would be circular reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2126,
+      "question": "To disprove a 'For all x, P(x)' statement, one must provide a:",
+      "options": [
+        "Tautology",
+        "Direct proof",
+        "Counterexample",
+        "Base case"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To disprove ∀x P(x), it suffices to find a single x for which P(x) is <strong>false</strong> — a <strong>counterexample</strong>. This works because ¬∀x P(x) ≡ ∃x ¬P(x): the negation of \"all\" is \"at least one not.\" Option A (tautology) is a statement always true, not a disproof. Options B and D are positive proof methods, useless for disproof.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.9495,
+      "question": "A 'Constructive' proof of existence:",
+      "options": [
+        "Assumes the object exists",
+        "Finds or builds the object",
+        "Uses the contrapositive",
+        "Proves the object is unique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>constructive existence proof</strong> exhibits or builds the object whose existence is claimed — you actually produce a witness. Option A (assume it exists) is circular. Option C (contrapositive) is a technique that may or may not be constructive. Option D (uniqueness) is a different kind of claim — it shows <em>at most one</em> object satisfies the property, not that one exists.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.0671,
+      "question": "Which strategy proves P → Q by instead proving ¬Q → ¬P?",
+      "options": [
+        "Indirect Proof (Contrapositive)",
+        "Vacuous Proof",
+        "Proof by Cases",
+        "Trivial Proof"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proving ¬Q → ¬P instead of P → Q is proof by <strong>contrapositive</strong> — a form of indirect proof. (Caution: the phrase \"indirect proof\" is used in some textbooks to mean contradiction, not contrapositive. Here it is explicitly qualified with \"(Contrapositive).\") Option B (vacuous proof) proves P → Q by showing P is always false. Option C (cases) splits into subcases. Option D (trivial proof) proves P → Q by showing Q is always true regardless of P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.5288,
+      "question": "Which proof starts by assuming P is true to conclude Q?",
+      "options": [
+        "Indirect proof",
+        "Direct proof",
+        "Contradiction",
+        "Induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>direct proof</strong> of P → Q assumes P is true and derives Q through logical steps — \"hypothesis to conclusion.\" Option A (indirect) begins with ¬Q and derives ¬P. Option C (contradiction) assumes P ∧ ¬Q and derives any contradiction. Option D (induction) is for universally quantified statements over well-ordered sets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2607,
+      "question": "Proof by contrapositive proves P → Q by showing:",
+      "options": [
+        "Q → P",
+        "¬P → ¬Q",
+        "¬Q → ¬P",
+        "P ∧ ¬Q"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The contrapositive of P → Q is <strong>¬Q → ¬P</strong>, and the two are logically equivalent. Option A (Q → P) is the converse. Option B (¬P → ¬Q) is the inverse. Option D (P ∧ ¬Q) is the <em>negation</em> of P → Q — assuming it would be proof by contradiction's opening, not contrapositive. Only ¬Q → ¬P is the correct equivalent form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.1938,
+      "question": "In proof by contradiction, we assume the statement is:",
+      "options": [
+        "True",
+        "False",
+        "Conditional",
+        "Bi-conditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <strong>proof by contradiction</strong>, we assume the statement is <strong>false</strong> (i.e. its negation is true) and derive a contradiction — showing the negation cannot hold, so the original must be true. Option A (assume true) would be begging the question. Options C and D describe syntactic forms of statements, not what you assume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.7498,
+      "question": "Mathematical induction is primarily used to prove statements about:",
+      "options": [
+        "Real numbers",
+        "Natural numbers",
+        "Complex numbers",
+        "Empty sets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Mathematical induction</strong> is used for statements indexed by <strong>natural numbers</strong> (or any well-ordered set): P(1), P(2), P(3), … Option A (reals) is not well-ordered — there is no \"next real number\" after 0, so induction cannot step. Option C (complex numbers) has no natural ordering. Option D (empty sets) is a single trivial case, not a domain for induction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.3152,
+      "question": "The first step in mathematical induction is the:",
+      "options": [
+        "Inductive step",
+        "Recursive step",
+        "Base case",
+        "Conclusion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every induction argument begins with the <strong>base case</strong> — verify the statement for the smallest value (usually n = 0 or n = 1). Option A (inductive step) comes after the base case. Option B (recursive step) is computer-science terminology for a related idea but not the standard proof term. Option D (conclusion) is the final claim after both steps.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.307,
+      "question": "Which proof strategy assumes P is true and uses logical steps to derive Q?",
+      "options": [
+        "Indirect Proof",
+        "Direct Proof",
+        "Proof by Contradiction",
+        "Proof by Counterexample"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is <strong>direct proof</strong> — assume the antecedent P, apply definitions, axioms, and known theorems, and derive the consequent Q. Option A (indirect) begins with ¬Q. Option C (contradiction) begins with P ∧ ¬Q. Option D (counterexample) is a disproof technique, not a proof technique.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.4495,
+      "question": "Proof by Contrapositive is based on the logical equivalence:",
+      "options": [
+        "P → Q ≡ ¬P → ¬Q",
+        "P → Q ≡ Q → P",
+        "P → Q ≡ ¬Q → ¬P",
+        "P → Q ≡ P ∧ ¬Q"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The defining equivalence is <strong>P → Q ≡ ¬Q → ¬P</strong>. Option A (¬P → ¬Q) is the inverse — <em>not</em> logically equivalent. Option B (Q → P) is the converse — <em>not</em> logically equivalent. Option D (P ∧ ¬Q) is the negation of the implication, which is what proof by contradiction assumes. Only the contrapositive is a valid substitute for the original.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.8594,
+      "question": "Which method is used to disprove a universal statement by finding one instance where it fails?",
+      "options": [
+        "Proof by Induction",
+        "Proof by Cases",
+        "Proof by Counterexample",
+        "Uniqueness Proof"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Proof by counterexample</strong> disproves a universal claim by exhibiting a single instance where it fails. It exploits ¬∀x P(x) ≡ ∃x ¬P(x). Options A, B, and D are all positive proof methods — they establish truths, not refute them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.9758,
+      "question": "In Mathematical Induction, the first step is to prove the statement is true for an initial value. This is called the:",
+      "options": [
+        "Inductive Step",
+        "Base Case",
+        "Inductive Hypothesis",
+        "Conclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>base case</strong> verifies the statement for the starting value (often n = 1 or n = 0). Option A (inductive step) proves the implication P(k) → P(k+1). Option C (inductive hypothesis) is the assumption P(k) inside the inductive step. Option D (conclusion) is the final \"therefore P(n) is true for all n.\" Order matters: base case first, then inductive step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2947,
+      "question": "A proof that establishes the truth of a statement by assuming it is false and reaching an impossibility is:",
+      "options": [
+        "Proof by Contrapositive",
+        "Direct Proof",
+        "Proof by Contradiction",
+        "Existence Proof"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Proof by contradiction</strong> assumes the statement is false (its negation), derives an impossibility (a contradiction), and concludes the statement must be true. Option A (contrapositive) proves ¬Q → ¬P, not \"assume false and hit a contradiction.\" Option B (direct) works forward from premises. Option D (existence) proves something exists — sometimes via contradiction, but that is a specific use, not the general method.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.128,
+      "question": "What is a proof?",
+      "options": [
+        "A guess that a statement is true or false by intuition",
+        "A logical argument that establishes the truth",
+        "A test with examples to show that something is true",
+        "An opinion shared by mathematicians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>proof</strong> is a <strong>logical argument</strong> that establishes the truth of a statement beyond any reasonable doubt, using definitions, axioms, and previously proved results. Option A (intuition) is unreliable — intuition fails all the time in mathematics. Option C (testing examples) can never prove a universal statement; it can only suggest one or provide a counterexample. Option D (opinion) is not a proof at all — mathematics is not a matter of vote.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2163,
+      "question": "What is a proof strategy?",
+      "options": [
+        "A random attempt to prove something",
+        "An organized plan to prove something",
+        "A list of theorems that proves something",
+        "A computer program that checks proofs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>proof strategy</strong> is an <strong>organized plan</strong> or method for demonstrating that a mathematical statement is true (or false). It selects the appropriate technique — direct, contrapositive, contradiction, induction, cases — based on the shape of the statement. Option A (random) is the opposite of strategic. Option C (list of theorems) is not a plan. Option D (program) is a proof checker, a tool, not a strategy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.302,
+      "question": "Which of the following is NOT a basic component of a proof?",
+      "options": [
+        "Premises / Assumptions",
+        "Axioms / Postulates",
+        "Counterexample",
+        "Conclusion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The basic components of a proof are <strong>premises/assumptions, definitions, axioms/postulates, lemmas, theorem statements, and the conclusion</strong>. A <strong>counterexample</strong> is not a component — it is a <em>disproof</em> tool used to refute universal claims. Options A, B, and D are all legitimate components of a proof.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.2834,
+      "question": "What is an axiom?",
+      "options": [
+        "A statement that has been proven",
+        "An accepted truth without proof",
+        "An intermediate result used to prove larger results",
+        "The statement being established"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <strong>axiom</strong> (or postulate) is a statement accepted as true without proof — a starting point for reasoning. Examples: \"through any two distinct points there is exactly one line\" (Euclidean geometry); \"for every a, a = a\" (equality). Option A (proven statement) is a theorem. Option C (intermediate result) is a lemma. Option D is the theorem/claim being proved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.4045,
+      "question": "What is a lemma?",
+      "options": [
+        "A statement that has been proven",
+        "An accepted truth without proof",
+        "An intermediate result used to prove larger results",
+        "The statement being established"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>lemma</strong> is a small theorem proved along the way to help prove a bigger result — a \"helper theorem.\" Often its only purpose is to make the main proof cleaner. Option A (proven statement) is a theorem. Option B (accepted without proof) is an axiom. Option D is the target theorem. Example: \"Euclid's Lemma\" (if a prime p divides ab, then p divides a or p divides b) is used to prove the Fundamental Theorem of Arithmetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.4902,
+      "question": "In a direct proof of \"If P, then Q\", what do you assume first?",
+      "options": [
+        "Q is true",
+        "P is true",
+        "P is false",
+        "Q is false"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <strong>direct proof</strong> of P → Q, you assume <strong>P</strong> is true and use definitions, axioms, and known theorems to derive Q. Option A (assume Q) is circular — you cannot assume the conclusion. Option C (assume ¬P) is the inverse approach. Option D (assume ¬Q) is the start of contrapositive or contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.3945,
+      "question": "What is the logical basis for proof by contrapositive?",
+      "options": [
+        "P → Q ≡ Q → P",
+        "P → Q ≡ ¬Q → ¬P",
+        "P → Q ≡ ¬P → ¬Q",
+        "P → Q ≡ P ∧ ¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contrapositive relies on the equivalence <strong>P → Q ≡ ¬Q → ¬P</strong>. Option A (Q → P) is the converse — not equivalent. Option C (¬P → ¬Q) is the inverse — not equivalent. Option D (P ∧ ¬Q) is the negation of P → Q. Only the contrapositive is logically equivalent, which is why proving it proves the original.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.7974,
+      "question": "In a proof by contradiction, what do you assume?",
+      "options": [
+        "The statement is true",
+        "The statement is false",
+        "The statement is conditional",
+        "The statement is a tautology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <strong>proof by contradiction</strong>, you assume the statement is <strong>false</strong> — i.e. assume its negation — and derive a contradiction. Having shown the negation leads to impossibility, the original must be true. Option A is circular. Options C and D describe statement forms, not assumptions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005680.1143,
+      "question": "Proof by cases involves which of the following?",
+      "options": [
+        "Proving a statement by assuming it is false",
+        "Dividing a problem into several exhaustive cases",
+        "Proving a statement by finding one example",
+        "Proving a statement using mathematical induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Proof by cases</strong> splits the situation into <strong>exhaustive</strong> cases (covering every possibility) and proves the statement separately in each. Example: to prove something about integers, split into \"n is even\" and \"n is odd.\" Option A describes contradiction. Option C describes existence proof by example. Option D describes a different method entirely. The key word for cases is <em>exhaustive</em> — the cases must cover all possibilities, or the proof has a gap.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.1172,
+      "question": "What is the base case in mathematical induction?",
+      "options": [
+        "Assume the statement is true for n = k",
+        "Prove the statement is true for n = k+1",
+        "Prove the statement is true for the initial value",
+        "Assume the statement is false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>base case</strong> proves the statement for the initial value — usually n = 1 or n = 0, sometimes n = 2 or another starting point. Option A (assume at k) is the inductive hypothesis. Option B (prove at k+1) is the inductive step. Option D (assume false) belongs to proof by contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.147,
+      "question": "What is the inductive hypothesis in mathematical induction?",
+      "options": [
+        "Prove the statement is true for the initial value",
+        "Assume the statement is true for n = k",
+        "Prove the statement is true for n = k+1",
+        "Prove the statement is true for all n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>inductive hypothesis</strong> is the assumption that the statement holds for <strong>some arbitrary n = k</strong>. From this assumption you derive P(k+1) in the inductive step. Option A (initial value) is the base case. Option C (prove at k+1) is the inductive step. Option D (prove for all n) is the conclusion you earn after both steps.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.1323,
+      "question": "What is the inductive step in mathematical induction?",
+      "options": [
+        "Prove the statement is true for the initial value",
+        "Assume the statement is true for n = k",
+        "Prove the statement is true for n = k+1",
+        "Prove the statement is true for n = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>inductive step</strong> proves <strong>P(k) → P(k+1)</strong>: given the inductive hypothesis at k, derive the statement at k+1. Option A is the base case. Option B is the inductive hypothesis. Option D is a specific case of the base case (for n = 0). Together with the base case, the inductive step gives P(n) for all n.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.0386,
+      "question": "What is a constructive existence proof?",
+      "options": [
+        "Shows existence without construction",
+        "Explicitly constructs the object",
+        "Proves uniqueness",
+        "Disproves a universal statement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>constructive existence proof</strong> <strong>explicitly constructs or exhibits</strong> the object whose existence is claimed — you produce a witness. Option A describes non-constructive existence. Option C (uniqueness) shows at most one object satisfies the property — different claim. Option D (disproving a universal) is a counterexample, a disproof method.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.4216,
+      "question": "What is a non-constructive existence proof?",
+      "options": [
+        "Explicitly constructs the object",
+        "Shows existence without construction",
+        "Proves uniqueness",
+        "Disproves a universal statement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>non-constructive existence proof</strong> shows the object exists <strong>without constructing it</strong> — often by contradiction or by the Law of Excluded Middle. Classic example: \"there exist irrational a, b such that aᵇ is rational\" — proved without identifying which pair works. Option A (construct) describes a constructive proof. Options C and D are unrelated claims.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.022,
+      "question": "What is a uniqueness proof?",
+      "options": [
+        "Shows that a particular object exists",
+        "Shows that exactly one object satisfies a given property",
+        "Disproves a universal statement by giving a false scenario",
+        "Proves that at least one object exists that satisfies a property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>uniqueness proof</strong> shows that <strong>exactly one</strong> object satisfies the given property. The standard structure is: (i) prove existence (at least one), then (ii) suppose two objects x and y both satisfy the property and prove x = y. Option A proves only existence, not uniqueness. Option D proves only the \"at least one\" part. Option C is a counterexample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.4744,
+      "question": "What is a proof by counterexample?",
+      "options": [
+        "Proves a universal statement by showing that it cannot fail in any situation",
+        "Disproves a statement by finding a single example where it fails",
+        "Proves an existential statement by giving an example of such an object",
+        "Proves a statement by contradicting and hitting a dead end"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Proof by counterexample</strong> disproves a universal claim by producing a single specific instance where it fails. Option A describes how you would <em>prove</em> a universal claim (not disprove it). Option C describes a constructive existence proof — proving an existence claim by example, which is different. Option D describes contradiction, not counterexample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.9958,
+      "question": "What strategy is recommended for an implication (P → Q)?",
+      "options": [
+        "Direct or Induction",
+        "Direct or Contrapositive",
+        "Constructive proof",
+        "Counterexample"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an implication P → Q, the two most natural strategies are <strong>direct proof</strong> (assume P, derive Q) and <strong>contrapositive</strong> (assume ¬Q, derive ¬P). Option A includes induction, which is for universally quantified statements over naturals, not implications in general. Option C (constructive) is for existence claims. Option D (counterexample) disproves, it does not prove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.1528,
+      "question": "What strategy is recommended for a universal statement?",
+      "options": [
+        "Direct or Contrapositive",
+        "Direct or Induction",
+        "Constructive proof",
+        "Counterexample"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a statement of the form ∀n P(n), the recommended strategies are <strong>direct proof</strong> (if P(n) can be shown for arbitrary n) or <strong>mathematical induction</strong> (if P(n) has a recursive structure over naturals). Option A is for implications. Option C is for existence claims. Option D disproves universal claims.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.6213,
+      "question": "What strategy is recommended for an existence claim?",
+      "options": [
+        "Direct proof",
+        "Contrapositive",
+        "Constructive proof",
+        "Counterexample"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a statement of the form ∃x P(x), the recommended strategy is <strong>constructive proof</strong> — exhibit an x that satisfies P(x). Option A (direct proof) is for implications. Option B (contrapositive) is for implications. Option D (counterexample) disproves universal claims, the opposite of an existence claim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.2837,
+      "question": "What strategy is recommended for the negation of a universal claim?",
+      "options": [
+        "Direct proof",
+        "Contrapositive",
+        "Constructive proof",
+        "Counterexample"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The negation of ∀x P(x) is ∃x ¬P(x). To prove this existence claim, you produce a specific x for which P(x) fails — a <strong>counterexample</strong> to the original universal. The strategy is called \"counterexample\" because that is exactly what you are producing, even though strictly it is a constructive existence proof for the negation. Options A, B, and C are all positive proof methods that assume the claim to be proved — they do not naturally fit a negated universal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.0789,
+      "question": "What strategy is recommended for a complex condition?",
+      "options": [
+        "Direct proof",
+        "Contrapositive",
+        "Proof by cases",
+        "Induction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a statement with a <strong>complex condition</strong> — often a disjunction or a property that naturally splits into sub-types — the recommended strategy is <strong>proof by cases</strong>: break the condition into exhaustive sub-cases and prove each. Option A (direct) works only when the condition is simple enough to handle in one pass. Option B (contrapositive) suits implications. Option D (induction) suits naturals. Cases is the go-to when a single argument would be tangled, but each case is manageable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.9392,
+      "question": "Which of the following is a common mistake in proof writing?",
+      "options": [
+        "Using definitions",
+        "Assuming what is to be proven",
+        "Stating the conclusion clearly",
+        "Providing logical steps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Assuming what is to be proven</strong> — circular reasoning (<em>petitio principii</em>) — is one of the most common proof-writing errors: you use the conclusion as a premise somewhere along the way. Options A, C, and D are all <em>good</em> practices, not mistakes: use definitions precisely, state the conclusion clearly, and provide every logical step. Other common errors include skipping steps, using examples instead of a general argument, and confusing contradiction with contrapositive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.117,
+      "question": "Which of the following is NOT a common mistake in proof writing?",
+      "options": [
+        "Skipping logical steps",
+        "Using examples instead of general proof",
+        "Confusing contradiction with contrapositive",
+        "Clearly stating definitions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Clearly stating definitions</strong> is good practice — it grounds the proof and helps the reader follow the argument. Options A (skipping steps) makes the proof unverifiable. Option B (examples as proof) can never establish a universal claim. Option C (confusing contradiction and contrapositive) leads to incorrect logical structure. Only D is a virtue, not a vice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.2236,
+      "question": "Which of the following is an importance of proof strategies in computer science?",
+      "options": [
+        "Verifying algorithm correctness",
+        "Proving properties of data structures",
+        "Formal reasoning in artificial intelligence",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Proof strategies underpin multiple areas of computer science: <strong>verifying algorithm correctness</strong> (e.g. proving sorting routines terminate and produce sorted output), <strong>proving properties of data structures</strong> (e.g. that a balanced tree remains balanced after operations), and <strong>formal reasoning in AI</strong> (e.g. automated theorem provers, knowledge representation). They also appear in software and hardware verification (model checking, type systems). All three listed options are genuine applications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686005681.6736,
+      "question": "In the proof that if n is an even integer, then n² is even, what is the first step?",
+      "options": [
+        "Assume n is even, so n = 2k for some integer k",
+        "Assume n² is even",
+        "Assume n is odd",
+        "Assume n² is odd"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a <strong>direct proof</strong> of \"n even → n² even,\" so the first step is to <strong>assume the hypothesis</strong>: n is even, so n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²), which is even (twice an integer). Option B (assume n² even) is the conclusion — circular. Options C and D would be the opening of a contrapositive proof of the <em>opposite</em> statement (\"n² odd → n odd\"), not of this one.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
