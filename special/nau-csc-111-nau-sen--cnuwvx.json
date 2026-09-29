@@ -3,16 +3,718 @@
   "title": "NAU-CSC 111/NAU-SEN: Binary Relations, Mapping & Types of Mapping",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A practice CBT exam on NAU-CSC 111/NAU-SEN",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790684448571.9895,
+      "question": "A binary relation R from set A to set B is formally defined as:",
+      "options": [
+        "R ⊆ A ∪ B",
+        "R ⊆ A × B",
+        "R = A ∩ B",
+        "R = A + B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A binary relation is a <strong>subset of the Cartesian product</strong> A × B — that is, a set of ordered pairs (a, b) with a ∈ A and b ∈ B. Option A (union) is wrong because a relation is a set of pairs, not of individual elements; option C (intersection) is a set of elements common to A and B, not pairs; option D (\"A + B\") is not a standard set operation. When (a, b) ∈ R, we say \"a is related to b\" and write a R b.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9038,
+      "question": "A binary relation R on a set A is a subset of:",
+      "options": [
+        "A ∪ A",
+        "A ∩ A",
+        "A × A",
+        "A - A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A relation <strong>on</strong> a set A relates elements of A to elements of A, so R ⊆ A × A. Note A ∪ A = A and A ∩ A = A — these are just the set A itself, not a set of pairs. A − A = ∅. Only A × A is the correct universe of ordered pairs for a relation on A. A relation on A is a special case of a relation from A to B where B = A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9214,
+      "question": "If set A has n elements, the number of elements in the Identity Relation on A is:",
+      "options": [
+        "n²",
+        "2ⁿ",
+        "n",
+        "n!"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>identity relation</strong> I_A = {(a, a) | a ∈ A} contains exactly one pair per element — (a, a) for each of the n elements — so it has n pairs. Option A (n²) is the size of the <em>entire</em> Cartesian product A × A, which is the maximum possible size of any relation on A. Option B (2ⁿ) is the number of subsets of A. Option D (n!) is the number of permutations of A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.33,
+      "question": "A relation is reflexive if for every element a ∈ A:",
+      "options": [
+        "(a, b) ∈ R",
+        "(a, a) ∈ R",
+        "(b, a) ∈ R",
+        "(a, a) ∉ R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Reflexivity</strong> requires that every element is related to itself: (a, a) ∈ R for all a ∈ A. Option A has an unrelated second element b; option C reverses the order; option D says the opposite (irreflexive). In a matrix representation, reflexivity forces every entry on the main diagonal to be 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.051,
+      "question": "A relation R is symmetric if (a, b) ∈ R implies:",
+      "options": [
+        "(a, a) ∈ R",
+        "(b, c) ∈ R",
+        "(b, a) ∈ R",
+        "(a, b) ∉ R"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Symmetry</strong> means that whenever a is related to b, b is related back to a — the pair (b, a) also belongs to R. \"is a sibling of\" is symmetric; \"is a parent of\" is not. Option A is reflexivity, option B introduces an unrelated element c, and option D is the negation of the very pair we started with. The pairs come in mirror-image couples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.8794,
+      "question": "A relation R on set A is Antisymmetric if (a,b) ∈ R and (b,a) ∈ R implies:",
+      "options": [
+        "a ≠ b",
+        "a = b",
+        "(a,a) ∉ R",
+        "a + b = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Antisymmetry</strong> says mutual relatedness between two elements is only possible when those elements are actually the same. If both (a, b) and (b, a) are in R, then a = b. This is the exact opposite spirit of symmetry, where mutual relatedness is allowed between distinct elements. Option A contradicts the definition; option C is irreflexivity, a separate property; option D is arithmetic nonsense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.0515,
+      "question": "A relation R on set A is Antisymmetric if (a,b) ∈ R and a ≠ b implies:",
+      "options": [
+        "(b,a) ∉ R",
+        "(b,a) ∈ R",
+        "a = b",
+        "(a,a) ∉ R"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the <strong>contrapositive form</strong> of antisymmetry — logically equivalent to the previous version. If a and b are distinct and a is related to b, then b cannot be related back to a. In a partial order like ≤, this is exactly what we want: if a ≤ b and a ≠ b, then b ≤ a is impossible. Option B directly contradicts the property; options C and D are irrelevant to the conditional.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.6929,
+      "question": "If (a, b) ∈ R and (b, c) ∈ R implies (a, c) ∈ R, the relation is:",
+      "options": [
+        "Transitive",
+        "Reflexive",
+        "Symmetric",
+        "Injective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the definition of <strong>transitivity</strong> — the relation \"chains through\" a middle element b. The classic example is \"is an ancestor of\": if a is an ancestor of b and b is an ancestor of c, then a is an ancestor of c. Reflexivity (B) is about (a, a) ∈ R; symmetry (C) is about (b, a) ∈ R whenever (a, b) ∈ R; injective (D) is a property of <em>functions</em>, not relations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9895,
+      "question": "Which of the following defines the Transitive property of an equivalence relation?",
+      "options": [
+        "(a, b) ∈ R ⇒ (b, a) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (c, a) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, c) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, b, c) ∈ R"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Transitivity</strong>: if a is related to b and b is related to c, then a is related to c — the middle element b is \"absorbed.\" Option A is symmetry. Option B is a hybrid that does not hold in general (it would give (c, a), the reverse of the correct conclusion). Option D is nonsense — R is a set of <em>pairs</em>, so a triple (a, b, c) is not the right shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.0793,
+      "question": "For a relation R on set A to be 'Transitive,' which of the following must be true?",
+      "options": [
+        "R ∘ R ⊆ R",
+        "R = R⁻¹",
+        "R ∪ R⁻¹ = A×A",
+        "R ∩ R⁻¹ = ∅"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The composition R ∘ R is the set of pairs (a, c) such that (a, b) ∈ R and (b, c) ∈ R for some b. Transitivity says every such pair must already be in R — that is, <strong>R ∘ R ⊆ R</strong>. Option B describes a <em>symmetric</em> relation (R equals its inverse). Option C describes a <em>total</em> relation. Option D describes an <em>antisymmetric</em> relation (R and its inverse share only the diagonal-free pairs).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.6887,
+      "question": "A relation that is Reflexive, Symmetric, and Transitive is called a:",
+      "options": [
+        "Equivalence Relation",
+        "Partial Order",
+        "Total Function",
+        "Bijective Mapping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The triple <strong>reflexive + symmetric + transitive</strong> defines an <strong>equivalence relation</strong> — the prototype is equality (=), and the relation \"has the same remainder mod n\" is another. Option B (partial order) swaps symmetry for <em>antisymmetry</em>. Option C is a function-theoretic concept. Option D is a property of functions, not relations on a single set.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9526,
+      "question": "To be an equivalence relation, R must be reflexive, symmetric, and:",
+      "options": [
+        "Antisymmetric",
+        "Transitive",
+        "Irreflexive",
+        "Bijective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An equivalence relation needs <strong>transitive</strong> as the third property. Reflexive + Symmetric + Transitive — all three in the same relation. Option A (antisymmetric) would conflict with symmetry on distinct elements, and is the defining property of a <em>partial order</em>. Option C (irreflexive) is the exact opposite of the reflexivity we already required. Option D is a function property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.7627,
+      "question": "If a relation is reflexive, symmetric, and transitive, it is known as an:",
+      "options": [
+        "Inverse relation",
+        "Equivalence relation",
+        "Antisymmetric relation",
+        "Partial order relation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the canonical definition of an <strong>equivalence relation</strong>. Equivalence relations partition a set into disjoint equivalence classes — e.g. \"same age as\" partitions a group by age. Option A refers to R⁻¹ (the relation reversed), option C names a single property not a class of relations, and option D is a different classification that requires antisymmetry instead of symmetry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.908,
+      "question": "An Equivalence Relation is to Symmetry what a Partial Order is to:",
+      "options": [
+        "Reflexivity",
+        "Transitivity",
+        "Antisymmetry",
+        "Irreflexivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The parallel is by <em>defining property</em>. An equivalence relation's signature property is <strong>symmetry</strong>; a partial order's signature property is <strong>antisymmetry</strong>. Both share reflexivity and transitivity. This question is testing whether you can pair the two relation types with their distinguishing property: Equivalence ↔ Symmetry, Partial Order ↔ Antisymmetry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9326,
+      "question": "An Equivalence Relation differs from a Partial Order Relation solely by which property?",
+      "options": [
+        "Reflexivity",
+        "Transitivity",
+        "Symmetry",
+        "Irreflexivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both are reflexive and both are transitive, so A and B do not distinguish them. The difference is symmetry: an equivalence relation is <strong>symmetric</strong>, a partial order is <strong>antisymmetric</strong>. Actually this is best phrased as \"the third property differs\" — but strictly, symmetry vs antisymmetry is the pivot point. Option D (irreflexivity) applies to neither — both relations require reflexivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.2917,
+      "question": "The property that prevents a Partial Order from being an Equivalence Relation is:",
+      "options": [
+        "Reflexivity",
+        "Antisymmetry",
+        "Totality",
+        "Connectivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Antisymmetry</strong> forces a = b whenever (a, b) and (b, a) are both in R, so distinct related elements never come back to each other — the opposite of symmetry. An equivalence relation wants distinct elements to be mutually related (that's what makes them \"equivalent\"), so antisymmetry is the property that blocks the transition. Reflexivity is shared by both. Totality and connectivity are properties of <em>linear</em> orders, not required by either.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.5627,
+      "question": "An Equivalence Relation must be Reflexive, Symmetric, and Transitive. Which 'other' relation depends on being Reflexive, Antisymmetric, and Transitive?",
+      "options": [
+        "Inverse Relation",
+        "Partial Order",
+        "Identity Mapping",
+        "Constant Relation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Partial order</strong> = reflexive + antisymmetric + transitive. The prototype is ≤ on numbers. Option A (inverse relation) is a construction (R⁻¹), not a property-based class. Option C (identity mapping) is a function, not a relation class in this sense. Option D (constant relation) relates every element to a fixed one — not reflexive, not antisymmetric, not transitive in general.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.6477,
+      "question": "If a relation R is both Symmetric and Antisymmetric, then R must be:",
+      "options": [
+        "A set with a cardinality of 1",
+        "Reflexive",
+        "A subset of the Identity Relation",
+        "Transitive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Suppose (a, b) ∈ R. Symmetry gives (b, a) ∈ R. Antisymmetry then forces a = b. So every pair in R is of the form (a, a) — meaning R is a <strong>subset of the identity relation</strong>. Nothing forces R to contain <em>all</em> such pairs, so R need not be reflexive (B is wrong). Its cardinality is bounded by n but need not be exactly 1 (A is wrong). Transitivity is not forced (D is wrong).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.147,
+      "question": "If a relation R is defined as 'perpendicular to' on a set of lines, it fails to be an equivalence relation because it is NOT:",
+      "options": [
+        "Symmetric",
+        "Transitive",
+        "Irreflexive",
+        "Empty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perpendicular (⟂) is <strong>symmetric</strong> — if line a ⟂ line b then b ⟂ a. It is <strong>irreflexive</strong> — a line is not perpendicular to itself. But it is <strong>not transitive</strong>: if a ⟂ b and b ⟂ c, then a and c are <em>parallel</em> (both perpendicular to b), not perpendicular. So it fails the transitivity requirement, which is what prevents it from being an equivalence relation. Option A is wrong because ⟂ <em>is</em> symmetric.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.2942,
+      "question": "In a matrix representation of a Reflexive relation, the main diagonal must consist of:",
+      "options": [
+        "All zeros",
+        "All ones",
+        "Mixed values",
+        "Alternating values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A reflexive relation on A has (a, a) ∈ R for every a ∈ A. If we represent R as a 0/1 matrix M with M[i][j] = 1 iff (aᵢ, aⱼ) ∈ R, then every diagonal entry M[i][i] = 1. Hence \"all ones\" on the <strong>main diagonal</strong>. Option A would mean an irreflexive relation. Options C and D are invalid for a reflexive relation — every diagonal cell is forced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.3557,
+      "question": "If relation R is Reflexive, what is the minimum number of elements in R if the set A has n elements?",
+      "options": [
+        "1",
+        "n",
+        "n²",
+        "2n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflexivity requires one pair (a, a) for each of the n elements of A, so at least <strong>n</strong> pairs are in R. This is a lower bound — R could have more (up to n²). Options A and D undercount (D ignores that the n pairs must be distinct). Option C is the size of the whole Cartesian product A × A, which is the maximum, not the minimum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.4158,
+      "question": "The composition of two transitive relations R and S is always transitive if:",
+      "options": [
+        "R = S",
+        "RS = SR",
+        "R ⊆ S",
+        "A is finite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The composition of transitive relations is transitive <em>if they commute</em> — <strong>RS = SR</strong> (composing in either order gives the same result). Without commutativity, transitivity of the composition can fail, which is why this is a genuine condition. Option A (R = S) is a special case that doesn't by itself guarantee the composition's transitivity in the general theorem. Option C (subset) is unrelated. Option D (finiteness) is irrelevant — the property is about the relations, not the underlying set size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.546,
+      "question": "What is the difference between a relation and a mapping (function)?",
+      "options": [
+        "A mapping must cover the entire domain",
+        "A relation must provide exactly one output per input",
+        "Mappings can have many outputs for one input",
+        "There is no difference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <strong>function</strong> (mapping) is a special relation with two extra requirements: (i) every element of the domain is used, and (ii) each input produces <em>exactly one</em> output. Option A captures the first requirement. Option B is backwards — it is the <em>function</em>, not a general relation, that has one output per input. Option C is the opposite of the truth: functions cannot have many outputs for one input. Option D ignores the defining constraints.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.108,
+      "question": "A function f: A → B is called 'Surjective' if and only if:",
+      "options": [
+        "f(A) = B",
+        "f(A) ⊂ B",
+        "|A| < |B|",
+        "f is one-to-one"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Surjective</strong> (onto) means every element of the codomain B is hit by f — equivalently, the image f(A) equals B. Option B (proper subset) describes a <em>non-surjective</em> function. Option C (|A| < |B|) would actually prevent surjectivity since a function can hit at most |A| elements. Option D (one-to-one) is injectivity, an independent property — a function can be injective without being surjective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.919,
+      "question": "In an 'Onto' (Surjective) mapping:",
+      "options": [
+        "Range = Codomain",
+        "Range ⊂ Codomain",
+        "Range = Domain",
+        "Range is empty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Onto\" is another name for <strong>surjective</strong>, and its defining property is that the range covers the entire codomain. Option B describes a function that misses part of the codomain (into, but not onto). Option C confuses range with domain — they are generally different sets. Option D describes only the empty function (with empty domain or codomain).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.022,
+      "question": "A function f: A → B is surjective if its range is equal to the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Pre-image",
+        "Power set"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surjectivity is precisely the equality <strong>range = codomain</strong>. The range is the set of values f actually produces; the codomain is the set B of values f <em>could</em> in principle produce. Making them equal means f \"uses up\" the whole codomain. Option A confuses the two sides of the arrow; option C (pre-image) is a related notion but not the one defining surjectivity; option D is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9988,
+      "question": "In the function f: A → B, the set of all actual outputs is called the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Range",
+        "Relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>range</strong> (also called the image) is the set of values f actually takes: {f(a) | a ∈ A}. Option A (domain) is the input set A. Option B (codomain) is the target set B — possibly larger than the range if f is not onto. Option D (relation) is the general notion of which a function is a special case.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.9275,
+      "question": "For a function f: A → B, the set B is known as the:",
+      "options": [
+        "Domain",
+        "Range",
+        "Codomain",
+        "Pre-image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Codomain</strong> is the declared target set B — the set f is said to \"map into.\" The <em>range</em> is the set of outputs actually hit, which is a subset of the codomain. Option A (domain) is A, the input side. Option D (pre-image) refers to the set of inputs that map to a particular output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.0996,
+      "question": "The 'Range' of a function is a subset of the 'Codomain.' Under what condition are they identical?",
+      "options": [
+        "The function is one-to-one",
+        "The function is onto",
+        "The function is reflexive",
+        "The function is an inclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range ⊆ Codomain always; they are equal exactly when the function is <strong>onto (surjective)</strong> — every codomain element is hit by at least one input. Option A (one-to-one / injective) says different inputs give different outputs; this does not force the range to cover the codomain. Option C (reflexive) is a property of relations, not functions. Option D is a specific type of function, unrelated to surjectivity in general.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.457,
+      "question": "Which type of mapping ensures that no two distinct elements in the domain share the same image?",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Bijective",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Injective</strong> (one-to-one) means f(a) = f(b) ⟹ a = b, i.e. distinct inputs give distinct outputs. Option A (surjective) guarantees every codomain element is hit but says nothing about collisions in the domain. Option C (bijective) is stronger than needed — bijective is injective <em>and</em> surjective. Option D (constant) is the worst case — every input gives the same output, which is as far from injective as possible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.8843,
+      "question": "A function is injective (one-to-one) if:",
+      "options": [
+        "Every element in the codomain is mapped to",
+        "Different elements in the domain have different images",
+        "All elements map to the same image",
+        "The range is equal to the codomain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injectivity says distinct inputs produce distinct outputs: a ≠ b ⟹ f(a) ≠ f(b), equivalently f(a) = f(b) ⟹ a = b. Option A is surjectivity. Option C is the constant function. Option D is another way of stating surjectivity (range = codomain). The classic test: \"does any output value have two different pre-images?\" If yes, the function is not injective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.3718,
+      "question": "A function where every element in the domain has a unique image is:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Onto",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Every element in the domain has a unique image\" is <strong>injectivity</strong> — different domain elements map to different images. Note every function already assigns exactly one image to each domain element; what injectivity adds is that <em>distinct</em> domain elements get <em>distinct</em> images. Options A and C are the same concept (surjectivity/onto), about the codomain side. Option D violates uniqueness massively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.524,
+      "question": "A function is surjective (onto) if:",
+      "options": [
+        "Every element in the codomain has at least one pre-image",
+        "Every element in the domain maps to exactly one image",
+        "The function is one-to-one",
+        "The function has no inverse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Surjectivity</strong> means: for every y ∈ B, there exists at least one x ∈ A with f(x) = y — i.e., every codomain element is hit. Option B is actually a property of <em>all</em> functions (functional definition), not specific to surjective ones. Option C is injectivity. Option D is false — bijective functions (which are surjective) do have inverses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.4202,
+      "question": "A function that is both injective and surjective is called:",
+      "options": [
+        "Identity mapping",
+        "Bijective",
+        "Into mapping",
+        "Inverse mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Bijective</strong> = injective + surjective. This means the function is a perfect pairing: every domain element maps to a unique codomain element, and every codomain element is hit exactly once. Option A (identity) is bijective but only one specific example. Option C (\"into\") usually means <em>not</em> surjective. Option D refers to a function's inverse, not a classification of the function itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.8293,
+      "question": "A function f: A → B is Bijective if and only if:",
+      "options": [
+        "It is injective only",
+        "It is surjective only",
+        "It has a unique inverse",
+        "It is a constant mapping"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A function is <strong>bijective iff it has a (unique) inverse function</strong> f⁻¹: B → A. Both injectivity and surjectivity are required to define f⁻¹ at every point of B (surjectivity) unambiguously (injectivity). Options A and B are each necessary but not sufficient. Option D is the opposite — a constant function is generally neither injective nor surjective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.0503,
+      "question": "For an inverse function f⁻¹ to exist, the function f must be:",
+      "options": [
+        "Constant",
+        "Injective only",
+        "Surjective only",
+        "Bijective"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An inverse function f⁻¹: B → A must be defined for every element of B (needs surjectivity) and give a single answer (needs injectivity). Together these mean <strong>bijective</strong>. Option B fails for elements of B that are not in the range of f (no pre-image to invert). Option C fails for codomain elements with two distinct pre-images (which would make f⁻¹ non-functional). Option A is the opposite extreme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.7397,
+      "question": "Which is required for a function to have an inverse?",
+      "options": [
+        "It must be surjective only",
+        "It must be injective only",
+        "It must be bijective",
+        "It must be a relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The inverse f⁻¹ exists precisely when f is <strong>bijective</strong>. Surjective-only (A) leaves ambiguity: a codomain element with two pre-images gives two candidate inverses. Injective-only (B) leaves holes: a codomain element not in the range has no pre-image to invert. Option D is trivially true for all functions but does not distinguish those that have inverses from those that don't.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.52,
+      "question": "A function f: A → B is Bijective if and only if its composition with its inverse is:",
+      "options": [
+        "A constant function",
+        "An identity function",
+        "A null relation",
+        "A surjective-only map"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a bijection f, <strong>f ∘ f⁻¹ = id_B</strong> and <strong>f⁻¹ ∘ f = id_A</strong> — composing with the inverse gives back the identity. That is the operational meaning of \"inverse.\" Option A (constant) would collapse everything to one value, which is not what an inverse does. Option C (null) would mean the composition has no elements, impossible for a bijection. Option D is a definitional mismatch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448571.8271,
+      "question": "If f(x) = c for all x in the domain, it is a:",
+      "options": [
+        "Constant function",
+        "Identity function",
+        "Bijective function",
+        "Linear function"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A function that assigns the <strong>same value</strong> to every input is a <strong>constant function</strong>. Option B (identity) does the opposite — it assigns each input to itself. Option C (bijective) fails for constant functions unless the domain has exactly one element. Option D (linear) usually means f(x) = ax + b with a ≠ 0; a constant function is a degenerate linear function (a = 0) but the standard term here is constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.6848,
+      "question": "Which mapping is defined as f(x) = x for all x ∈ A?",
+      "options": [
+        "Inverse mapping",
+        "Identity mapping",
+        "Inclusion mapping",
+        "Constant mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f(x) = x is the <strong>identity mapping</strong> — it returns each input unchanged. Option A (inverse) is a different concept (the reverse direction of a bijection). Option C (inclusion) is subtly different — it maps a subset into a larger set, embedding it. Option D (constant) maps everything to a single value, which is the opposite of identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.6838,
+      "question": "An 'Identity Mapping' I_A: A → A is always:",
+      "options": [
+        "Bijective",
+        "Constant",
+        "Into",
+        "Antisymmetric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "I_A maps every element to itself. It is <strong>injective</strong> (distinct inputs give distinct outputs since x ≠ y ⟹ I_A(x) ≠ I_A(y)) and <strong>surjective</strong> (every element of A is I_A(a) for a = itself). Hence bijective. Option B (constant) is wrong unless A is a singleton. Option C (\"into\" = not onto) contradicts surjectivity. Option D (antisymmetric) is a property of relations, not of functions per se.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.7407,
+      "question": "If f: A → B is an injection and |A| = |B|, then f is necessarily:",
+      "options": [
+        "Constant",
+        "Surjective",
+        "Into",
+        "Identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For finite sets, an injection from A to B with equal cardinality is forced to be <strong>surjective</strong> as well — hence bijective. Reason: f maps |A| distinct inputs to |A| distinct outputs in a codomain of the same size, so it uses every codomain element. Option A contradicts injectivity (unless |A| = 1). Option C is the opposite of what we just argued. Option D is too strong — bijective does not mean identity unless f(x) = x for all x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.5737,
+      "question": "If the cardinality of set A is greater than set B, a function f: A → B cannot be:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Into",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If |A| > |B|, by the <strong>pigeonhole principle</strong>, two distinct elements of A must map to the same element of B — so f cannot be injective. Option A (surjective) is possible — surjectivity is only constrained when |A| < |B|. Option C (\"into\") is possible. Option D (constant) is possible. Only injectivity is ruled out by the size inequality in this direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.2178,
+      "question": "The composition (f ∘ g) is well-defined only if the range of g is a subset of the:",
+      "options": [
+        "Range of f",
+        "Domain of f",
+        "Codomain of f",
+        "Domain of g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For (f ∘ g)(x) = f(g(x)) to be defined, g(x) must lie in the <strong>domain of f</strong> — that is the input set f expects. So range(g) ⊆ domain(f). Option A is wrong because composing does not require the outputs to overlap. Option C (codomain of f) is the target of f, not the input. Option D is trivially satisfied by the definition of g itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.1987,
+      "question": "Given f: A → B and g: B → C, if (g ∘ f) is injective, then:",
+      "options": [
+        "g must be injective",
+        "f must be injective",
+        "Both f and g must be onto",
+        "f must be surjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Suppose f(a₁) = f(a₂). Then g(f(a₁)) = g(f(a₂)). Since g ∘ f is injective, a₁ = a₂. So <strong>f is injective</strong>. Interestingly, g need <em>not</em> be injective on all of B — it only needs to be injective on the image f(A). Options C and D are irrelevant: surjectivity is not forced by this hypothesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.68,
+      "question": "What is the composition (f ∘ g)(x) if f(x) = x² and g(x) = x+1?",
+      "options": [
+        "x² + 1",
+        "(x+1)²",
+        "x² + x + 1",
+        "2x + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(f ∘ g)(x) = f(g(x)) = f(x + 1) = (x + 1)². Option A (x² + 1) is wrong — that would require f applied to x first, then +1, which is not what ∘ says. Option C mixes in extra terms. Option D is linear and doesn't match squaring. Remember: <strong>f ∘ g means \"g first, then f\"</strong> — the rightmost function acts first.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.9844,
+      "question": "If f(x) = x + 1 and g(x) = 2x, what is the composition (g ∘ f)(x)?",
+      "options": [
+        "2x + 1",
+        "2(x + 1)",
+        "x + 2",
+        "2x² + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(g ∘ f)(x) = g(f(x)) = g(x + 1) = 2(x + 1). Option A (2x + 1) would be the result of applying +1 after doubling — a common slip. Option B is the correct order: <strong>f first (add 1), then g (double)</strong>. Option C adds 2 instead of doubling. Option D is nonlinear, which is impossible since both f and g are linear.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.2485,
+      "question": "If f(x) = 2x+3 is a function from ℝ → ℝ, its inverse f⁻¹(x) is:",
+      "options": [
+        "2x-3",
+        "(x-3)/2",
+        "1/(2x+3)",
+        "3x+2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To invert, set y = 2x + 3 and solve for x: y − 3 = 2x, so x = (y − 3)/2. Swap labels: f⁻¹(x) = (x − 3)/2. Option A (2x − 3) is wrong because it does not reverse the operations in the correct order. Option C (1/(2x+3)) is the <em>reciprocal</em>, not the inverse function — a classic confusion. Option D is unrelated. Verify: f(f⁻¹(x)) = 2·(x−3)/2 + 3 = (x − 3) + 3 = x. ✓",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.6729,
+      "question": "A binary relation R from set A to set B is any subset of:",
+      "options": [
+        "A ∪ B",
+        "A × B",
+        "A ∩ B",
+        "A - B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A relation R from A to B is by definition a subset of the <strong>Cartesian product</strong> A × B. This is a repeat of the foundational definition from earlier in the chapter, included for reinforcement. Option A (union) is the set of elements in either set — not pairs. Option C (intersection) is the set of common elements. Option D (difference) is A minus B. Only the Cartesian product has the right \"pair shape.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684448572.1545,
+      "question": "The Cartesian product of two sets A and B is the set of all:",
+      "options": [
+        "Ordered pairs (a, b) such that a ∈ A and b ∈ B",
+        "Unordered pairs {a, b} such that a ∈ A and b ∈ B",
+        "Elements common to both A and B",
+        "Elements in A but not in B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A × B = {(a, b) | a ∈ A, b ∈ B} — the set of <strong>ordered</strong> pairs where the first component comes from A and the second from B. Option B (unordered) is wrong: (a, b) and (b, a) are distinct in the Cartesian product even when a ≠ b. Option C is the intersection. Option D is the set difference. The \"ordered\" part matters because (1, 2) ≠ (2, 1) as elements of A × B.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
