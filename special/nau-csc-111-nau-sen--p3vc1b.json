@@ -3,16 +3,718 @@
   "title": "NAU-CSC 111/NAU-SEN: Functions",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A prctice CBT exam for NAU-CSC 111/NAU-SEN",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790684953246.5132,
+      "question": "If f: A → B is an injection and |A| = |B|, then f is necessarily:",
+      "options": [
+        "Constant",
+        "Surjective",
+        "Into",
+        "Identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For finite sets, an <strong>injection from A to B with equal cardinality is forced to be surjective</strong> — hence bijective. Reason: f maps |A| distinct inputs to |A| distinct outputs (injectivity) into a codomain of the same size |B| = |A|, so it uses every codomain element (surjectivity). Option A (constant) contradicts injectivity unless |A| = 1. Option C (\"into\") means not onto — the opposite of what we just argued. Option D (identity) is too strong: bijective does not imply f(x) = x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.3623,
+      "question": "A function f: A → B is called 'Surjective' if and only if:",
+      "options": [
+        "f(A) = B",
+        "f(A) ⊂ B",
+        "|A| < |B|",
+        "f is one-to-one"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Surjective</strong> (onto) means every element of the codomain B is hit by f — equivalently, the image f(A) equals B. Option B (proper subset) describes a <em>non-surjective</em> function. Option C (|A| < |B|) actually prevents surjectivity, since f can hit at most |A| distinct codomain values. Option D (one-to-one) is injectivity, an independent property — a function can be injective without being surjective (e.g. f: ℝ → ℝ, f(x) = eˣ).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.4924,
+      "question": "The composition (f ∘ g) is well-defined only if the range of g is a subset of the:",
+      "options": [
+        "Range of f",
+        "Domain of f",
+        "Codomain of f",
+        "Domain of g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For (f ∘ g)(x) = f(g(x)) to make sense, g(x) must be an element f can accept — i.e. g(x) ∈ <strong>domain(f)</strong>. This requires range(g) ⊆ domain(f). Option A is wrong: composing does not require the output ranges to overlap. Option C (codomain of f) is the <em>target</em> of f, not the input side. Option D is trivially satisfied by g's own definition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.7869,
+      "question": "An 'Identity Mapping' I_A: A → A is always:",
+      "options": [
+        "Bijective",
+        "Constant",
+        "Into",
+        "Antisymmetric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "I_A(x) = x is <strong>injective</strong> (x₁ ≠ x₂ ⟹ I_A(x₁) ≠ I_A(x₂)) and <strong>surjective</strong> (every a ∈ A is I_A(a) for a = itself), so it is bijective. Option B (constant) is wrong unless A is a singleton. Option C (\"into\" = not onto) contradicts surjectivity. Option D is a property of relations, not a classification of functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.9736,
+      "question": "If f(x) = 2x+3 is a function from ℝ → ℝ, its inverse f⁻¹(x) is:",
+      "options": [
+        "2x-3",
+        "(x-3)/2",
+        "1/(2x+3)",
+        "3x+2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Set y = 2x + 3 and solve for x: y − 3 = 2x, so x = (y − 3)/2. Swap labels to get <strong>f⁻¹(x) = (x − 3)/2</strong>. Verify by composition: f(f⁻¹(x)) = 2·(x−3)/2 + 3 = (x − 3) + 3 = x. ✓ Option A (2x − 3) does not reverse the operations correctly. Option C (1/(2x+3)) is the <em>reciprocal</em>, not the inverse function — a classic confusion. Option D is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.612,
+      "question": "A function f: A → B is Bijective if and only if its composition with its inverse is:",
+      "options": [
+        "A constant function",
+        "An identity function",
+        "A null relation",
+        "A surjective-only map"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a bijection f, <strong>f ∘ f⁻¹ = id_B</strong> and <strong>f⁻¹ ∘ f = id_A</strong> — composing with the inverse returns the identity. This is the operational meaning of \"inverse.\" Option A would collapse everything to one value, which no inverse does. Option C (null) means the composition has no elements, impossible for a bijection. Option D is a definitional mismatch — \"surjective-only\" is not a type of composition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.4521,
+      "question": "If the cardinality of set A is greater than set B, a function f: A → B cannot be:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Into",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If |A| > |B|, the <strong>pigeonhole principle</strong> forces at least two distinct elements of A to share the same image in B — meaning f <strong>cannot be injective</strong>. (Note: an earlier draft of this explanation had the pigeonhole principle backwards; the correct statement is that more pigeons than holes forces at least two pigeons into one hole.) Option A (surjective) is still possible — surjectivity is constrained by |A| < |B|, not |A| > |B|. Options C and D are both possible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.2107,
+      "question": "The 'Range' of a function is a subset of the 'Codomain.' Under what condition are they identical?",
+      "options": [
+        "The function is one-to-one",
+        "The function is onto",
+        "The function is reflexive",
+        "The function is an inclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range ⊆ Codomain always; they become equal exactly when the function is <strong>onto (surjective)</strong> — every codomain element is the image of at least one input. Option A (one-to-one / injective) says distinct inputs produce distinct outputs; this does not force the range to cover the codomain. Option C (reflexive) is a property of relations, not functions. Option D (inclusion) is a specific function type unrelated to surjectivity in general.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.8577,
+      "question": "Given f: A → B and g: B → C, if (g ∘ f) is injective, then:",
+      "options": [
+        "g must be injective",
+        "f must be injective",
+        "Both f and g must be onto",
+        "f must be surjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Suppose f(a₁) = f(a₂). Then g(f(a₁)) = g(f(a₂)), and since g ∘ f is injective, this forces a₁ = a₂. Therefore <strong>f is injective</strong>. Notably, g need <em>not</em> be injective on all of B — only on the image f(A). Options C and D are irrelevant: surjectivity is not forced by this hypothesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.3047,
+      "question": "Which mapping is defined as f(x) = x for all x ∈ A?",
+      "options": [
+        "Inverse mapping",
+        "Identity mapping",
+        "Inclusion mapping",
+        "Constant mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f(x) = x is the <strong>identity mapping</strong> — it returns each input unchanged. Option A (inverse) is a different concept, the reverse direction of a bijection. Option C (inclusion) is subtler: it maps a subset into a larger set, embedding it. Option D (constant) sends everything to a single value, the exact opposite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.675,
+      "question": "For a function f: A → B, the set B is known as the:",
+      "options": [
+        "Domain",
+        "Range",
+        "Codomain",
+        "Pre-image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Codomain</strong> is the declared target set B — the set f maps \"into.\" The <em>range</em> is the subset of B actually hit by f. Option A (domain) is the input side A. Option B (range) is the actual outputs, a subset of B. Option D (pre-image) is a related notion: the set of inputs mapping to a specific output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1672,
+      "question": "Which type of mapping ensures that no two distinct elements in the domain share the same image?",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Bijective",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Injective</strong> (one-to-one) means f(a) = f(b) ⟹ a = b — distinct inputs give distinct outputs. Option A (surjective) guarantees every codomain element is hit but says nothing about domain-side collisions. Option C (bijective) is stronger than needed — bijective = injective + surjective. Option D (constant) is the worst case: every input gives the same output, maximally non-injective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6633,
+      "question": "A function f: A → B is Bijective if and only if:",
+      "options": [
+        "It is injective only",
+        "It is surjective only",
+        "It has a unique inverse",
+        "It is a constant mapping"
+      ],
+      "correctAnswer": 2,
+      "explanation": "f is <strong>bijective if and only if it has a (unique) inverse</strong> f⁻¹: B → A. Surjectivity is needed for f⁻¹ to be defined at every point of B; injectivity is needed for f⁻¹ to give a single well-defined value. Options A and B are each necessary but not sufficient. Option D is the opposite: a constant function is generally neither injective nor surjective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.2883,
+      "question": "What is the composition (f ∘ g)(x) if f(x) = x² and g(x) = x+1?",
+      "options": [
+        "x² + 1",
+        "(x+1)²",
+        "x² + x + 1",
+        "2x + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(f ∘ g)(x) = f(g(x)) = f(x + 1) = <strong>(x + 1)²</strong>. Option A (x² + 1) applies f first then adds — that would be (g ∘ f)(x), not (f ∘ g)(x). Option C mixes in extra terms. Option D is linear and cannot arise from squaring. Remember: <strong>f ∘ g means \"apply g first, then f\"</strong> — the rightmost function acts first.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6228,
+      "question": "In an 'Onto' (Surjective) mapping:",
+      "options": [
+        "Range = Codomain",
+        "Range ⊂ Codomain",
+        "Range = Domain",
+        "Range is empty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Onto\" is another name for <strong>surjective</strong>, whose defining property is that the range covers the entire codomain. Option B describes a function that misses part of the codomain (into but not onto). Option C confuses range with domain — different sets in general. Option D only applies to the empty function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.9934,
+      "question": "A function where every element in the domain has a unique image is:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Onto",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Every element in the domain has a unique image\" is <strong>injectivity</strong>. Note every function already assigns exactly one image to each domain element; injectivity adds that <em>distinct</em> inputs get <em>distinct</em> images. Options A and C are the same concept (surjectivity/onto), about the codomain side. Option D is the extreme opposite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.7358,
+      "question": "A function f: A → B is surjective if its range is equal to the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Pre-image",
+        "Power set"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surjectivity is precisely <strong>range = codomain</strong>. The range is what f actually produces; the codomain is B, the set of values f could in principle produce. Making them equal means f \"uses up\" the whole codomain. Option A confuses the two sides of the arrow. Option C (pre-image) is a related notion but not what defines surjectivity. Option D is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1045,
+      "question": "A function that is both injective and surjective is called:",
+      "options": [
+        "Identity mapping",
+        "Bijective",
+        "Into mapping",
+        "Inverse mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Bijective</strong> = injective + surjective — a perfect pairing where every domain element maps to a unique codomain element, and every codomain element is hit exactly once. Option A (identity) is one specific bijection, not the general term. Option C (\"into\") usually means <em>not</em> surjective. Option D refers to a function's inverse, not a classification of the function itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.9363,
+      "question": "If f(x) = c for all x in the domain, it is a:",
+      "options": [
+        "Constant function",
+        "Identity function",
+        "Bijective function",
+        "Linear function"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A function that assigns the <strong>same value</strong> to every input is a <strong>constant function</strong>. Option B (identity) does the opposite — each input to itself. Option C (bijective) fails for constant functions unless the domain is a singleton. Option D (linear) usually means f(x) = ax + b with a ≠ 0; a constant is a degenerate case (a = 0), but the standard term for f(x) = c is \"constant.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6282,
+      "question": "Which is required for a function to have an inverse?",
+      "options": [
+        "It must be surjective only",
+        "It must be injective only",
+        "It must be bijective",
+        "It must be a relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The inverse f⁻¹ exists precisely when f is <strong>bijective</strong>. Surjective-only (A) leaves ambiguity: a codomain element with two pre-images gives two candidate inverses. Injective-only (B) leaves holes: a codomain element not in the range has no pre-image to invert. Option D is trivially true for all functions and does not distinguish invertible ones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.978,
+      "question": "In the function f: A → B, the set of all actual outputs is called the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Range",
+        "Relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>range</strong> (also called the image) is the set of values f actually takes: {f(a) | a ∈ A}. Option A (domain) is the input set A. Option B (codomain) is the target set B, possibly larger than the range if f is not onto. Option D (relation) is the general notion a function is a special case of.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1445,
+      "question": "A function is injective (one-to-one) if:",
+      "options": [
+        "Every element in the codomain is mapped to",
+        "Different elements have different images",
+        "All elements map to the same image",
+        "The range is equal to the codomain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injectivity says distinct inputs produce distinct outputs: a ≠ b ⟹ f(a) ≠ f(b), equivalently f(a) = f(b) ⟹ a = b. Option A is surjectivity. Option C is the constant function. Option D is another statement of surjectivity (range = codomain). The classic test: \"does any output value have two distinct pre-images?\" If yes, the function is not injective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.556,
+      "question": "A function is surjective (onto) if:",
+      "options": [
+        "Every element in the codomain has at least one pre-image",
+        "Every element in the domain maps to exactly one image",
+        "The function is one-to-one",
+        "The function has no inverse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Surjectivity</strong>: for every y ∈ B, there exists at least one x ∈ A with f(x) = y — every codomain element is hit. Option B is actually a property of <em>all</em> functions (the functional definition), not specific to surjective ones. Option C is injectivity. Option D is false — bijective functions (which are surjective) do have inverses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.8757,
+      "question": "For an inverse function f⁻¹ to exist, the function f must be:",
+      "options": [
+        "Constant",
+        "Injective only",
+        "Surjective only",
+        "Bijective"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An inverse f⁻¹: B → A must be defined for every element of B (needs surjectivity) and give a single answer (needs injectivity). Together these mean <strong>bijective</strong>. Option B fails for codomain elements not in the range (no pre-image to invert). Option C fails for codomain elements with two distinct pre-images (which would make f⁻¹ non-functional). Option A is the opposite extreme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1938,
+      "question": "If f(x) = x + 1 and g(x) = 2x, what is the composition (g ∘ f)(x)?",
+      "options": [
+        "2x + 1",
+        "2(x + 1)",
+        "x + 2",
+        "2x² + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(g ∘ f)(x) = g(f(x)) = g(x + 1) = <strong>2(x + 1)</strong>. Option A (2x + 1) applies +1 <em>after</em> doubling — that would be (f ∘ g)(x), not (g ∘ f)(x). Option C adds 2 instead of doubling. Option D is nonlinear, impossible since both f and g are linear. Remember: <strong>g ∘ f means apply f first, then g</strong>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1084,
+      "question": "What is a function from set A to set B?",
+      "options": [
+        "A rule that assigns exactly one element of B to each element of A",
+        "A rule that assigns at least one element of B to each element of A",
+        "A rule that assigns exactly one element of A to each element of B",
+        "A rule that assigns many elements of B to each element of A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <strong>function</strong> (mapping) from A to B is a rule that assigns <em>exactly one</em> element of B to <em>each</em> element of A. Two requirements: totality (every input gets used) and uniqueness (each input has exactly one output). Option B violates uniqueness (\"at least one\" allows many). Option C reverses the direction of assignment. Option D violates uniqueness for a single input.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.4695,
+      "question": "In the function notation f: A → B, what does A represent?",
+      "options": [
+        "Codomain",
+        "Range",
+        "Domain",
+        "Image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In f: A → B, <strong>A is the domain</strong> — the set of all possible inputs. Option B (range) is the set of actual outputs, a subset of B. Option A (codomain) is B, the target. Option D (image) is a synonym for range (or sometimes for a specific output f(a)).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1072,
+      "question": "In the function notation f: A → B, what does B represent?",
+      "options": [
+        "Domain",
+        "Range",
+        "Codomain",
+        "Pre-image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>B is the codomain</strong> — the declared set of possible outputs. Option A (domain) is A, the input set. Option B (range) is the actual outputs, which may be a proper subset of B. Option D (pre-image) is the set of inputs that map to a particular output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.0405,
+      "question": "What is the range of a function?",
+      "options": [
+        "The set of all possible inputs",
+        "The set of all possible outputs",
+        "The set of actual outputs",
+        "The set of all ordered pairs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>range</strong> is the set of <em>actual</em> outputs — the values f actually produces on its domain. Option A describes the domain. Option B describes the codomain. Option D describes the function itself when represented as a set of ordered pairs, not the range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1016,
+      "question": "Which of the following is NOT a condition for a binary relation to be a function?",
+      "options": [
+        "Every element in the domain must be related",
+        "Each domain element must map to only one codomain element",
+        "Every element in the codomain must be mapped to",
+        "No element in the domain maps to more than one element in the codomain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A function requires (i) every domain element to be mapped (option A) and (ii) each domain element to have exactly one image (options B and D restate this). It does <strong>not</strong> require every codomain element to be hit — that is <em>surjectivity</em>, a stronger property. A function can leave part of the codomain unused and still be a function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.176,
+      "question": "Can a one-to-many relation be a function?",
+      "options": [
+        "Yes, always",
+        "Yes, if the domain is finite",
+        "No, never",
+        "Yes, if the codomain is infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>No, never.</strong> A function must map each domain element to <em>exactly one</em> codomain element. A relation that sends a single input to multiple outputs violates the uniqueness requirement and is therefore not a function. Options A, B, and D all try to carve out exceptions that do not exist.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1772,
+      "question": "Can a many-to-one relation be a function?",
+      "options": [
+        "No, never",
+        "Yes, it can be a function",
+        "Only if it is injective",
+        "Only if it is surjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Yes, a many-to-one relation can be a function.</strong> A function only forbids one input having multiple outputs; it does not forbid multiple inputs sharing an output. Example: f(x) = x² maps both 2 and −2 to 4 — many-to-one, but a perfectly valid function. Option A confuses many-to-one with one-to-many. Options C and D confuse the question with injectivity/surjectivity, which are <em>additional</em> properties on top of being a function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.274,
+      "question": "Given A={1,2,3}, B={a,b,c}, and f={(1,a),(2,b),(3,c)}, is f a function?",
+      "options": [
+        "Yes, it is a valid function",
+        "No, because 1 maps to a",
+        "No, because not all elements of B are used",
+        "No, because it is not injective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Yes.</strong> Every element of A (1, 2, 3) appears exactly once as a first component, and each maps to exactly one element of B. This satisfies both requirements for a function. Option C confuses \"function\" with \"surjective function\" — a function does not need to use every codomain element. Option D confuses \"function\" with \"injective function\" — injectivity is not required. Option B is not a valid objection at all.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.7217,
+      "question": "Given R={(1,a),(1,b),(2,c)}, is R a function?",
+      "options": [
+        "Yes, it is a function",
+        "No, because 1 maps to two different elements",
+        "No, because 2 maps to c",
+        "No, because it is not surjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>No.</strong> The element 1 in the domain appears twice — once paired with a and once with b — so a single input has two different images. This violates the uniqueness requirement. Option C is not a valid objection: 2 mapping to c is fine. Option D confuses \"function\" with \"surjective function.\" Only the one-to-many violation on input 1 disqualifies R.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1365,
+      "question": "If f(x) = 2x + 1, what is f(3)?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Substitute x = 3: f(3) = 2(3) + 1 = 6 + 1 = <strong>7</strong>. Option A (5) would be 2·2 + 1, substituting x = 2. Option B (6) forgets to add 1. Option D (8) adds 2 instead of 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6594,
+      "question": "Which of the following is a representation of a function as a set of ordered pairs?",
+      "options": [
+        "f(x) = x² + 1",
+        "f = {(1,2), (2,4), (3,6)}",
+        "Arrow diagram with arrows from domain to codomain",
+        "Table with x and f(x) columns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A function can be represented as a <strong>set of ordered pairs</strong> (a, f(a)). Option B is exactly this: three pairs, each mapping an input to its output. Option A is algebraic-formula representation. Option C is arrow-diagram representation. Option D is tabular representation. All four are valid ways to represent a function; the question asks specifically for the ordered-pairs form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.3254,
+      "question": "What is an arrow diagram used for in functions?",
+      "options": [
+        "To list all ordered pairs",
+        "To show the function pictorially",
+        "To provide an algebraic formula",
+        "To create a table of values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <strong>arrow (mapping) diagram</strong> shows elements of the domain on one side, elements of the codomain on the other, with arrows from each input to its output. It is a <em>pictorial</em> representation — great for seeing injectivity, surjectivity, and collisions at a glance. Option A describes set-of-pairs form, Option C the algebraic form, Option D the tabular form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1458,
+      "question": "Which of the following is an algebraic formula representation of a function?",
+      "options": [
+        "f = {(1,2), (2,4), (3,6)}",
+        "Arrow diagram",
+        "f(x) = x² + 1",
+        "Table with x and f(x)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <strong>algebraic formula</strong> expresses the function as an equation relating input to output, e.g. f(x) = x² + 1. Option A is the ordered-pairs form. Option B is the arrow-diagram form. Option D is the tabular form. Each of the four representations is a legitimate way to describe the same function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.603,
+      "question": "In a table representation of a function, what is typically shown?",
+      "options": [
+        "Only the domain values",
+        "Only the range values",
+        "Pairs of x and f(x) values",
+        "The inverse function"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>table representation</strong> shows <em>pairs</em> — one column of inputs x and one column of corresponding outputs f(x). Option A and B list only one side of the pair. Option D is a different concept entirely: the inverse is a function, not a column in a table of f.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.5815,
+      "question": "What is the domain of a function?",
+      "options": [
+        "The set of all possible outputs",
+        "The set of all possible inputs",
+        "The set of actual outputs",
+        "The set of all ordered pairs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>domain</strong> is the set of all possible inputs — the values x for which f(x) is defined. Option A describes the codomain (possible outputs). Option C describes the range (actual outputs). Option D describes the function itself when written as a set of pairs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.1353,
+      "question": "What is the codomain of a function?",
+      "options": [
+        "The set of all possible inputs",
+        "The set of all possible outputs",
+        "The set of actual outputs",
+        "The set of all ordered pairs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>codomain</strong> is the declared target set — the set of <em>possible</em> outputs. Option A is the domain. Option C is the range (the <em>actual</em> outputs), which may be a proper subset of the codomain if the function is not onto. Option D is the function itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.448,
+      "question": "Which type of function maps two or more domain elements to the same codomain element?",
+      "options": [
+        "One-to-one",
+        "Many-to-one",
+        "Onto",
+        "Into"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>many-to-one</strong> function sends two or more inputs to the same output — e.g. f(x) = x² maps 2 and −2 both to 4. Option A (one-to-one / injective) forbids this by definition. Option C (onto / surjective) is about covering the codomain, not about domain-side collisions. Option D (into) is about not covering the codomain. Note many-to-one functions are perfectly valid functions; they are just not injective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6494,
+      "question": "Which type of function does not map to every element in the codomain?",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Into",
+        "Bijective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <strong>into</strong> function (also called \"not onto\") leaves at least one codomain element without a pre-image — its range is a proper subset of its codomain. Option A (surjective) is the opposite: it hits every codomain element. Option B (injective) says nothing about covering the codomain. Option D (bijective) is both injective and surjective, so it covers the codomain completely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.0457,
+      "question": "What is a constant function?",
+      "options": [
+        "A function where each element maps to itself in the codomain",
+        "A function where all elements map to the same image",
+        "A function that is both injective and surjective",
+        "A function or mapping that has no inverse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>constant function</strong> maps every element of the domain to the same single element of the codomain — e.g. f(x) = 5 for all x. Option A describes the identity function. Option C describes a bijection. Option D is unrelated to constancy (in fact some constant functions with singleton domains do have inverses).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.8652,
+      "question": "What is an identity function?",
+      "options": [
+        "A function where each element maps to itself",
+        "A function where all elements map to the same element",
+        "A function that is not injective",
+        "A function that is not surjective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An <strong>identity function</strong> maps each element to itself: f(x) = x for all x in the domain. Option B describes the constant function (opposite extreme). Options C and D are false: the identity function is in fact both injective and surjective (hence bijective).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.6008,
+      "question": "Which of the following is a property of a bijective function?",
+      "options": [
+        "It is only injective",
+        "It is only surjective",
+        "It has an inverse function",
+        "It is always constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A bijective function is both one-to-one (injective) and onto (surjective), so it has a well-defined <strong>inverse function</strong> f⁻¹. Options A and B describe only one half of bijectivity. Option D is the opposite — a constant function is generally neither injective nor surjective (unless the domain is a singleton).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.4758,
+      "question": "What is a one-to-one correspondence?",
+      "options": [
+        "A function that is injective but not surjective",
+        "A function that is surjective but not injective",
+        "A function that is both injective and surjective",
+        "A function that is constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>one-to-one correspondence</strong> is another name for a <strong>bijection</strong> — a function that is both injective and surjective, pairing every element of the domain with exactly one element of the codomain and vice versa. Options A and B describe half-bijections. Option D is the extreme opposite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.175,
+      "question": "When does a function f: A → B have an inverse?",
+      "options": [
+        "Always",
+        "If and only if f is injective",
+        "If and only if f is surjective",
+        "If and only if f is bijective"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A function has an inverse <strong>if and only if it is bijective</strong>. Injectivity is needed so f⁻¹ is well-defined (single value per output); surjectivity is needed so f⁻¹ is defined on the whole codomain. Option A is false — most functions have no inverse. Options B and C each capture only one of the two required conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.675,
+      "question": "If f: A → B and g: B → C, what is the composition g ∘ f?",
+      "options": [
+        "A function from A to C defined by (g ∘ f)(x) = g(f(x))",
+        "A function from B to B",
+        "A function from C to A",
+        "A function from A to B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>g ∘ f: A → C</strong>, defined by (g ∘ f)(x) = g(f(x)). Apply f first (A → B), then g (B → C), so the composite goes A → C. Option B (B → B) is wrong unless A = C = B, which is not required. Option C reverses the direction. Option D stops at B, but the composite goes all the way to C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790684953246.9075,
+      "question": "Which of the following is an importance of functions in computer science?",
+      "options": [
+        "Program input-output behavior",
+        "Mathematical modeling",
+        "Algorithms and recursion",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Functions are central to computer science because they model <strong>program input-output behavior</strong> (every subroutine is a function), underpin <strong>mathematical modeling</strong> (physics engines, graphics, simulations), are the backbone of <strong>algorithms and recursion</strong> (recursive functions define themselves in terms of smaller versions of themselves), and additionally support database mappings (query functions) and machine-learning/AI models (activation functions, loss functions). All three listed options are correct.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
