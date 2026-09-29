@@ -3,16 +3,368 @@
   "title": "CHM 101 ( UNIZIK ) : MATTER   50 Q - 20 MINS",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 25,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790692235603.3303,
+      "question": "Matter is any substance that",
+      "options": [
+        "Has mass and occupies space",
+        "Has shape and volume",
+        "Has energy and colour",
+        "Has density and solubility"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Matter</strong> is defined by two essential properties: it has <strong>mass</strong> (it can be weighed) and it <strong>occupies space</strong> (it has volume). Option B is wrong because shape is not universal — liquids and gases have no fixed shape. Option C confuses matter with energy (light and heat have energy but are not matter). Option D describes specific properties that only some matter has — gases have very low density, and many substances do not dissolve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.8083,
+      "question": "Plasma is best described as",
+      "options": [
+        "Gas cooled to liquid or solid",
+        "Solid with vibratory motion",
+        "Superheated gas with free ions",
+        "Liquids and gases with weak forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Plasma</strong> is the fourth state of matter — a <strong>superheated gas</strong> in which electrons have been stripped from atoms, producing a mixture of free electrons and positive ions. It is the most abundant state in the universe (stars, lightning, neon signs). Option A describes condensation, not plasma. Option B describes a solid. Option D describes the weak intermolecular forces in fluids, not plasma.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.6477,
+      "question": "Which state has definite volume but no definite shape?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Liquids</strong> have a <strong>definite volume</strong> (they cannot easily be compressed) but <strong>no definite shape</strong> (they take the shape of their container). Option A (solid) has both definite shape and definite volume. Option C (gas) has neither. Option D (plasma) has neither.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.9011,
+      "question": "Which is a physical property?",
+      "options": [
+        "Flammability",
+        "Toxicity",
+        "Acidity",
+        "Melting point"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <strong>physical property</strong> can be observed without changing the substance's chemical identity. Melting point is physical — ice melts to water and remains H<sub>2</sub>O. Options A, B, and C describe <em>chemical</em> properties: flammability (reacts with oxygen), toxicity (interferes with biological chemistry), and acidity (ability to donate H<sup>+</sup>) all describe how a substance reacts chemically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.6206,
+      "question": "Which is a chemical change?",
+      "options": [
+        "Melting ice",
+        "Cutting wood",
+        "Burning paper",
+        "Dissolving sugar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>chemical change</strong> produces a new substance with different chemical properties. Burning paper turns cellulose into CO<sub>2</sub>, H<sub>2</sub>O, and ash — new substances. Options A (melting), B (cutting), and D (dissolving) are <em>physical</em> changes: the substance changes state or shape but retains its chemical identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.4446,
+      "question": "A pure substance is made up of",
+      "options": [
+        "Two or more substances",
+        "Varying amounts",
+        "One kind of particle",
+        "Physical mixtures"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>pure substance</strong> contains only <strong>one kind of particle</strong> — either atoms of a single element (e.g. copper) or molecules of a single compound (e.g. H<sub>2</sub>O). It has a fixed, sharp melting and boiling point. Option A describes a mixture. Option B describes variable composition — pure substances have <em>fixed</em> composition. Option D is contradictory — a mixture is by definition not pure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.173,
+      "question": "Which is a homogeneous mixture?",
+      "options": [
+        "Sand and water",
+        "Oil and water",
+        "Dust particles dissolved in air",
+        "Sugar dissolved in water"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <strong>homogeneous mixture</strong> has uniform composition throughout — you cannot see the separate components. Sugar dissolved in water is uniform. Option A (sand + water) is heterogeneous — sand settles. Option B (oil + water) is heterogeneous — oil floats in a separate layer. Option C is wrong because dust suspended in air is <em>heterogeneous</em> — you can see the particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.1956,
+      "question": "Smallest particle of an element that can enter chemical combination?",
+      "options": [
+        "Molecule",
+        "Ion",
+        "Atom",
+        "Radical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>atom</strong> is the smallest particle of an element that can enter into chemical combination while retaining the element's identity. Option A (molecule) is a <em>group</em> of atoms, larger than a single atom. Option B (ion) is a charged particle — atoms can enter combination without being charged. Option D (radical) is a group of atoms acting as a unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.8591,
+      "question": "Atomicity of oxygen as O<sub>2</sub>?",
+      "options": [
+        "Monoatomic",
+        "Diatomic",
+        "Triatomic",
+        "Polyatomic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Atomicity</strong> is the number of atoms in a molecule. Oxygen gas is O<sub>2</sub> — two oxygen atoms bonded together, so it is <strong>diatomic</strong>. Option A (monoatomic) describes noble gases like He and Ne. Option C (triatomic) describes O<sub>3</sub> (ozone). Option D (polyatomic) describes molecules with many atoms, like P<sub>4</sub> or S<sub>8</sub>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.1982,
+      "question": "Cations are formed by",
+      "options": [
+        "Gain of electrons",
+        "Loss of electrons",
+        "Sharing electrons",
+        "Gain protons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>cation</strong> is a <strong>positively charged</strong> ion, formed when an atom <strong>loses electrons</strong> (e.g. Na → Na<sup>+</sup> + e<sup>−</sup>). Option A (gain of electrons) produces an anion (negatively charged). Option C (sharing) is covalent bonding, not ion formation. Option D is impossible — protons are locked inside the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.557,
+      "question": "Which is a radical?",
+      "options": [
+        "Cl",
+        "O<sub>2</sub>",
+        "CN<sup>−</sup>",
+        "Na"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <strong>radical</strong> (or polyatomic ion) is a group of atoms that behaves as a single unit in chemical reactions and carries a charge. <strong>CN<sup>−</sup></strong> (cyanide) is a classic example. Option A (Cl) is a single atom. Option B (O<sub>2</sub>) is a neutral molecule. Option D (Na) is a single metal atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.28,
+      "question": "Chemical symbol for sodium based on Latin name?",
+      "options": [
+        "So",
+        "Sd",
+        "Nu",
+        "Na"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The symbol for sodium is <strong>Na</strong>, from its Latin name <em>natrium</em>. This is why Na does not obviously match sodium in English. Options A, B, and C are not real element symbols. Other Latin-derived symbols to remember: K (potassium, <em>kalium</em>), Fe (iron, <em>ferrum</em>), Cu (copper, <em>cuprum</em>), Pb (lead, <em>plumbum</em>), Au (gold, <em>aurum</em>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.473,
+      "question": "In formula Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>, number of oxygen atoms?",
+      "options": [
+        "4",
+        "7",
+        "3",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>, the subscript 3 outside the bracket multiplies everything inside: SO<sub>4</sub> × 3 = S<sub>3</sub>O<sub>12</sub>. So there are <strong>12 oxygen atoms</strong>. Option A (4) counts only one SO<sub>4</sub> group. Option C (3) counts the number of sulfur atoms or the bracket multiplier. Option B (7) is incorrect arithmetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.2297,
+      "question": "When writing formula of metal and nonmetal, which symbol is written first?",
+      "options": [
+        "Nonmetal",
+        "Metal",
+        "Either",
+        "Radical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The convention is that the <strong>metal</strong> is written first, then the nonmetal. Examples: NaCl (not ClNa), MgO (not OMg), CaCO<sub>3</sub>. Option A reverses the convention. Option C ignores the rule. Option D is not applicable — radicals follow the same rule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.055,
+      "question": "Which of these shows the combining of an atom?",
+      "options": [
+        "Valency",
+        "Pressure",
+        "Temperature",
+        "Molar Mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Valency</strong> is the combining power (or capacity) of an atom — the number of electrons it can gain, lose, or share to form bonds. Sodium has valency 1; oxygen has valency 2. Note: the source marked Molar Mass as the answer, but this is incorrect — molar mass (the mass of one mole of a substance) has nothing to do with combining capacity. Pressure, temperature, and molar mass are unrelated to how atoms bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.4521,
+      "question": "Formula for calcium hydroxide?",
+      "options": [
+        "CaOH",
+        "Ca<sub>2</sub>OH",
+        "Ca(OH)<sub>2</sub>",
+        "CaH<sub>2</sub>O<sub>2</sub>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Calcium (Ca) has valency 2 and hydroxide (OH) has valency 1. Cross-multiplying gives Ca(OH)<sub>2</sub>. Option A has the wrong ratio (1:1). Option B has incorrect subscript on calcium. Option D is a made-up formula — CaH<sub>2</sub>O<sub>2</sub> is not calcium hydroxide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.0818,
+      "question": "Relative atomic mass is compared to",
+      "options": [
+        "Mass of hydrogen atom",
+        "1/12 mass of carbon-12 atom",
+        "1/16 mass of oxygen-16 atom",
+        "Mass of proton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Relative atomic mass (RAM)</strong> is defined as the average mass of an atom compared to <strong>1/12 the mass of one carbon-12 atom</strong>. This is the modern IUPAC standard. Option A was used historically but is obsolete. Option C was used in older textbooks but was replaced. Option D (mass of a proton) is not the standard — protons, neutrons, and electrons contribute differently to the mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.5415,
+      "question": "Relative molecular mass of Ca(OH)<sub>2</sub>?",
+      "options": [
+        "57",
+        "40",
+        "74",
+        "58"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ca = 40, O = 16, H = 1. Ca(OH)<sub>2</sub> = 40 + 2 × (16 + 1) = 40 + 2 × 17 = <strong>74</strong>. Option B (40) is just the calcium contribution. Option A (57) and D (58) are miscalculations. Always expand the bracket: the subscript 2 applies to both O and H.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.1055,
+      "question": "Avogadro's number is",
+      "options": [
+        "6.022 × 10<sup>23</sup>",
+        "6.022 × 10<sup>-23</sup>",
+        "3.14 × 10<sup>23</sup>",
+        "1.602 × 10<sup>19</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Avogadro's number</strong> is approximately <strong>6.022 × 10<sup>23</sup></strong> — the number of particles (atoms, molecules, ions) in one mole of a substance. Option B has a negative exponent — that's a tiny number, not Avogadro's. Option C is a made-up value. Option D (1.602 × 10<sup>19</sup>) is the charge on an electron in coulombs — an entirely different constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.1443,
+      "question": "Molar mass unit is",
+      "options": [
+        "g",
+        "mol",
+        "amu",
+        "g/mol"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Molar mass</strong> is the mass of one mole of a substance, expressed in <strong>g/mol</strong>. Example: water has molar mass 18 g/mol. Option A (g) is mass, not molar mass. Option B (mol) is the amount of substance. Option C (amu) is used for individual atoms — relative atomic mass has no unit because it is a ratio.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.331,
+      "question": "Mass of 2 moles H<sub>2</sub>O (H=1, O=16)?",
+      "options": [
+        "18 g",
+        "20 g",
+        "36 g",
+        "44 g"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Molar mass of H<sub>2</sub>O = 2(1) + 16 = 18 g/mol. Mass = moles × molar mass = 2 × 18 = <strong>36 g</strong>. Option A (18 g) is the mass of just <em>one</em> mole. Option B (20 g) is a miscalculation. Option D (44 g) is the molar mass of CO<sub>2</sub>, not water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.8262,
+      "question": "Number of moles in 500 g CuSO<sub>4</sub>·5H<sub>2</sub>O (Mm=249.5)?",
+      "options": [
+        "1.00",
+        "2.50",
+        "0.50",
+        "2.00"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Moles = mass ÷ molar mass = 500 ÷ 249.5 = 2.004 ≈ <strong>2.00 mol</strong>. Option A would require 249.5 g. Option C would require 124.75 g. Option B would require 623.75 g. Always divide the given mass by the molar mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.6406,
+      "question": "Percentage of oxygen in CaCO<sub>3</sub> (Ca=40, C=12, O=16)?",
+      "options": [
+        "16%",
+        "40%",
+        "12%",
+        "48%"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Molar mass of CaCO<sub>3</sub> = 40 + 12 + 3(16) = 100 g/mol. Mass of oxygen = 3 × 16 = 48 g. Percentage = (48 ÷ 100) × 100 = <strong>48%</strong>. Option A (16%) is a single O atom. Option B (40%) is the calcium contribution. Option C (12%) is the carbon contribution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.8918,
+      "question": "Empirical formula shows",
+      "options": [
+        "Actual number of atoms",
+        "Molecular mass",
+        "Simplest ratio of atoms",
+        "Ionic charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <strong>empirical formula</strong> gives the <strong>simplest whole-number ratio</strong> of atoms in a compound. Example: hydrogen peroxide's molecular formula is H<sub>2</sub>O<sub>2</sub>, but its empirical formula is HO. Option A describes the molecular formula. Option B is a mass, not a formula. Option D is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692235603.7798,
+      "question": "If empirical formula CH<sub>2</sub>O and molar mass 180, molecular formula?",
+      "options": [
+        "CH<sub>2</sub>O",
+        "C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>",
+        "C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>",
+        "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mass of empirical formula CH<sub>2</sub>O = 12 + 2(1) + 16 = 30. Divide molar mass by empirical mass: 180 ÷ 30 = 6. Multiply all subscripts by 6: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (glucose). Option A is the empirical formula itself. Options B and C are intermediate multiples (×3 and ×2).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
