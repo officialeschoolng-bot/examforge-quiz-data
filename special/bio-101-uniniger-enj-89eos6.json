@@ -3,16 +3,438 @@
   "title": "BIO 101 (UNINIGER) ENJOYMENT QUIZ: CELL STRUCTURE",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790696461941.9749,
+      "question": "Who was the first scientist to observe and name cells in 1665?",
+      "options": [
+        "Anton van Leeuwenhoek",
+        "Robert Hooke",
+        "Matthias Schleiden",
+        "Rudolf Virchow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Robert Hooke</strong> coined the term \"cell\" in 1665 after examining a thin slice of cork under his microscope. He saw tiny box-like compartments that reminded him of the small rooms (cells) in a monastery. Option A (Leeuwenhoek) came slightly later and observed living cells but did not name them. Options C (Schleiden) and D (Virchow) worked nearly two centuries later, developing cell theory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461941.1746,
+      "question": "Robert Hooke observed cells while studying a thin slice of _____.",
+      "options": [
+        "Leaf",
+        "Pond water",
+        "Cork tree",
+        "Animal tissue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hooke examined a thin slice of <strong>cork</strong> — the dead outer bark of the cork oak tree — in 1665. What he actually saw were the empty cell walls left behind by dead plant cells. Option B (pond water) was Leeuwenhoek's territory, where he observed living microorganisms. Option A (leaf) and D (animal tissue) would show cells, but they were not Hooke's specimen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461941.1965,
+      "question": "Anton van Leeuwenhoek was the first to observe _____.",
+      "options": [
+        "Plant cells",
+        "Living cells",
+        "Cell walls",
+        "Chloroplasts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Anton van Leeuwenhoek</strong> was the first to observe <strong>living cells</strong> — bacteria, protozoa, and sperm cells — using his hand-crafted single-lens microscopes in the 1670s. Hooke had seen only dead cork cells. Option A (plant cells) is not quite right — Hooke had already seen dead plant cell walls. Option C (cell walls) was also observed by Hooke. Option D (chloroplasts) came much later with better optics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.7021,
+      "question": "Matthias Schleiden proposed in 1838 that _____.",
+      "options": [
+        "All animals are made up of cells",
+        "All cells come from pre-existing cells",
+        "All plants are made up of cells",
+        "Cells are the basic unit of DNA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Matthias Schleiden</strong>, a German botanist, proposed in 1838 that <strong>all plants are made up of cells</strong>. He was the first to clearly argue that the cell is the basic structural unit of plant life. Option A was Schwann's contribution for animals. Option B was Virchow's 1855 addition. Option D is not part of cell theory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.465,
+      "question": "Theodor Schwann proposed that all _____ are made of cells.",
+      "options": [
+        "Plants",
+        "Animals",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Theodor Schwann</strong>, a German physiologist, extended Schleiden's botanical claim to the animal kingdom, proposing that <strong>all animals are made of cells</strong>. Together, Schleiden (1838) and Schwann (1839) laid the foundation of cell theory. Option A was Schleiden's claim. Options C (fungi) and D (bacteria) were not part of the original 1838–1839 formulation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.5938,
+      "question": "Which scientist stated that all cells come from pre-existing cells?",
+      "options": [
+        "Robert Hooke",
+        "Matthias Schleiden",
+        "Theodor Schwann",
+        "Rudolf Virchow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Rudolf Virchow</strong> added the third pillar of cell theory in 1855: <em>Omnis cellula e cellula</em> — \"every cell comes from a pre-existing cell.\" This ruled out spontaneous generation and completed the classical formulation of cell theory. Options A, B, and C each contributed to the earlier parts of the theory but not this specific principle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.5737,
+      "question": "Which of the following is NOT a principle of cell theory?",
+      "options": [
+        "All living things are made up of one or more cells",
+        "The cell is the basic unit of structure and function",
+        "All cells come from pre-existing cells",
+        "All cells contain chloroplasts"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The three classical principles of cell theory are: (1) all living things are made of one or more cells; (2) the cell is the basic unit of structure and function; (3) all cells come from pre-existing cells. Option D is <strong>not</strong> a principle — chloroplasts are found only in plant cells and some algae, not in animal, fungal, or bacterial cells. It is a specific organelle, not a universal property of cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.568,
+      "question": "The cell membrane is described as a _____ membrane.",
+      "options": [
+        "Completely permeable",
+        "Semi-permeable",
+        "Non-permeable",
+        "Rigid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane is <strong>semi-permeable</strong> (also called selectively permeable) — it allows some substances to pass through while blocking others. This selectivity is essential: it lets nutrients in and waste out while keeping the cell's internal chemistry stable. Option A (completely permeable) would let everything through, destroying the cell. Option C (non-permeable) would block all exchange, killing the cell. Option D (rigid) describes the cell wall, not the membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.307,
+      "question": "One major function of the cell membrane is to regulate _____.",
+      "options": [
+        "Cell division and meiosis",
+        "What enters and exits the cell",
+        "Photosynthetic nutrition",
+        "DNA and RNA replication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane's primary job is to <strong>regulate what enters and exits the cell</strong> — this is called selective permeability. It controls the passage of ions, nutrients, water, and waste. Option A is regulated by the nucleus and centrioles. Option C happens in chloroplasts. Option D happens in the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.5613,
+      "question": "The cell wall in plant cells is mainly composed of cellulose, hemicellulose and _____.",
+      "options": [
+        "Chitin",
+        "Proteins",
+        "Lipids",
+        "Glycogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The plant cell wall is composed primarily of <strong>cellulose</strong>, <strong>hemicellulose</strong>, and — strictly speaking — <strong>pectin</strong>. The question lists \"proteins,\" which are a real minor structural component (extensin and other cell wall proteins), but pectin is the more standard third answer. Chitin (A) is in fungal walls and insect exoskeletons. Lipids (C) and glycogen (D) are not structural cell wall components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.1853,
+      "question": "The cell wall of a fungal cell is composed of _____.",
+      "options": [
+        "Cellulose",
+        "Protein",
+        "Chitin",
+        "Glycolipid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fungal cell walls are composed primarily of <strong>chitin</strong> — the same tough polysaccharide found in insect exoskeletons. This is a key distinguishing feature: plant walls are cellulose, fungal walls are chitin, bacterial walls are peptidoglycan. Option A (cellulose) would make it a plant cell. Options B and D are not major structural components of any cell wall type.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.4785,
+      "question": "Which organelle contains chlorophyll necessary for trapping sunlight?",
+      "options": [
+        "Mitochondrion",
+        "Chloroplast",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Chloroplasts</strong> contain <strong>chlorophyll</strong>, the green pigment that absorbs light energy for photosynthesis. Option A (mitochondrion) produces energy from glucose — it consumes, rather than captures, energy. Option C (ribosome) synthesizes proteins. Option D (Golgi apparatus) packages and ships molecules. Only chloroplasts capture sunlight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.232,
+      "question": "The primary function of chloroplasts is associated with _____.",
+      "options": [
+        "Protein synthesis",
+        "Photosynthesis",
+        "Intracellular digestion",
+        "Lipid storage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Chloroplasts</strong> carry out <strong>photosynthesis</strong> — converting light energy, CO<sub>2</sub>, and water into glucose and oxygen. They contain the pigment chlorophyll and the machinery for the light and dark reactions. Option A (protein synthesis) is the ribosome's job. Option C (intracellular digestion) is the lysosome's job. Option D (lipid storage) is handled by lipid droplets and smooth ER.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.2776,
+      "question": "Cytoplasm refers to everything present inside the cell except the _____.",
+      "options": [
+        "Cell membrane",
+        "Cell wall",
+        "Nucleus",
+        "Ribosomes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Cytoplasm</strong> is everything inside the cell membrane <em>except the nucleus</em>. It includes the cytosol (the jelly-like fluid) plus all the organelles — ribosomes, mitochondria, ER, Golgi, and so on. Option A (cell membrane) is the boundary itself, not a component excluded from cytoplasm. Option B (cell wall) is outside the membrane. Option D (ribosomes) are <em>inside</em> the cytoplasm, so they are part of it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.1467,
+      "question": "Most vital cellular and enzymatic reactions, including cellular respiration and translation, occur in the _____.",
+      "options": [
+        "Cytoplasm",
+        "Cell wall",
+        "Nucleus",
+        "Chloroplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <strong>cytoplasm</strong> is the site of most cellular metabolism — including <strong>glycolysis</strong> (the first stage of cellular respiration) and <strong>translation</strong> (protein synthesis by ribosomes). Option B (cell wall) is a structural boundary with no metabolic role. Option C (nucleus) hosts transcription, not translation. Option D (chloroplast) is only in plant cells and only handles photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.8945,
+      "question": "Which type of endoplasmic reticulum has ribosomes attached to its cytosolic face?",
+      "options": [
+        "Smooth ER",
+        "Rough ER",
+        "Golgi ER",
+        "Nuclear ER"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Rough ER</strong> has <strong>ribosomes</strong> studded on its cytosolic surface, which give it a bumpy (\"rough\") appearance under the electron microscope. It is the site of synthesis of proteins destined for secretion or membrane insertion. Option A (smooth ER) lacks ribosomes and handles lipid synthesis and detoxification. Options C and D are not standard categories.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.996,
+      "question": "Smooth endoplasmic reticulum is particularly involved in _____.",
+      "options": [
+        "Lipid synthesis",
+        "Protein digestion",
+        "Photosynthesis",
+        "DNA storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Smooth ER</strong> is the site of <strong>lipid synthesis</strong> — including phospholipids for membranes and steroid hormones — plus detoxification of drugs and calcium storage in muscle cells. Option B (protein digestion) happens in lysosomes. Option C (photosynthesis) happens in chloroplasts. Option D (DNA storage) is in the nucleus. The absence of ribosomes is what frees the smooth ER for lipid work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.4216,
+      "question": "Rough endoplasmic reticulum is involved in protein synthesis and the _____.",
+      "options": [
+        "Modification of polypeptides",
+        "Breakdown of glucose",
+        "Storage of excess glycogen",
+        "Formation of cell membranes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Rough ER</strong> synthesizes proteins on its attached ribosomes, then <strong>modifies the resulting polypeptides</strong> — folding them, adding sugar chains (glycosylation), and forming disulfide bonds — before shipping them to the Golgi. Option B (glucose breakdown) happens in the cytoplasm and mitochondria. Option C (glycogen storage) happens in the cytoplasm and liver cells. Option D (membrane formation) is a shared job with smooth ER.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.437,
+      "question": "The Golgi apparatus is mainly responsible for packaging macromolecules into _____.",
+      "options": [
+        "Ribosomes",
+        "Vesicles",
+        "Chromosomes",
+        "Vacuoles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>Golgi apparatus</strong> modifies, sorts, and packages proteins and lipids into <strong>vesicles</strong> — small membrane-bound sacs that ferry the cargo to its destination (inside the cell, to the membrane, or for secretion outside). Option A (ribosomes) are made in the nucleolus and are not Golgi products. Option C (chromosomes) are DNA-protein structures in the nucleus. Option D (vacuoles) are larger storage organelles, not the Golgi's shipping units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.4312,
+      "question": "The Golgi complex directs proteins and lipids to their destinations and therefore acts as the ____ of the cell.",
+      "options": [
+        "Brain",
+        "Powerhouse",
+        "Traffic police",
+        "Digestive system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Golgi is often called the <strong>traffic police</strong> (or \"post office\") of the cell because it tags each molecule with a molecular address and routes it to the correct destination. Option A (brain) usually refers to the nucleus, which controls cell activity. Option B (powerhouse) is the mitochondrion. Option D (digestive system) is the lysosome. Only \"traffic police\" captures the Golgi's routing function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.3757,
+      "question": "Which organelle contains hydrolytic enzymes involved in the degradation of macromolecules?",
+      "options": [
+        "Lysosome",
+        "Ribosome",
+        "Chloroplast",
+        "Nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Lysosomes</strong> contain <strong>hydrolytic enzymes</strong> (lipases, proteases, nucleases, carbohydrases) that break down macromolecules into their monomers at acidic pH (~4.5–5). They act as the cell's recycling and waste-disposal center. Option B (ribosome) builds proteins. Option C (chloroplast) is a plant-cell organelle for photosynthesis. Option D (nucleus) stores DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.6611,
+      "question": "Intracellular digestion is primarily carried out by _____.",
+      "options": [
+        "Mitochondria",
+        "Lysosomes",
+        "Ribosomes",
+        "Vacuoles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Lysosomes</strong> carry out <strong>intracellular digestion</strong> — breaking down worn-out organelles, ingested food particles, and engulfed bacteria. Option A (mitochondria) produce ATP via respiration. Option C (ribosomes) synthesize proteins. Option D (vacuoles) store materials but do not perform the primary digestive function; in plant cells, the large central vacuole maintains turgor pressure instead.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.2778,
+      "question": "The primary purpose of mitochondria is the production of energy in the form of _____.",
+      "options": [
+        "DNA",
+        "RNA",
+        "ATP",
+        "Glucose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Mitochondria</strong> produce energy in the form of <strong>ATP</strong> (adenosine triphosphate) — the universal energy currency of the cell — through cellular respiration. Option A (DNA) is genetic material; mitochondria do contain a small amount of their own DNA, but producing it is not their main purpose. Option B (RNA) is made in the nucleus and used in protein synthesis. Option D (glucose) is a fuel <em>input</em> to mitochondria, not an output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.4575,
+      "question": "The nucleus is often referred to as the _____ of the cell.",
+      "options": [
+        "Powerhouse",
+        "Traffic police",
+        "Brain",
+        "Digestive system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>nucleus</strong> is called the <strong>brain</strong> (or control center) of the cell because it houses the DNA and directs all cellular activities — growth, metabolism, protein synthesis, and division. Option A (powerhouse) is the mitochondrion. Option B (traffic police) is the Golgi. Option D (digestive system) is the lysosome. Each organelle has its own nickname; learn them as a set.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.655,
+      "question": "In prokaryotic organisms, the genetic material is distributed in the _____.",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Golgi apparatus",
+        "Vacuole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prokaryotes (bacteria and archaea) have <strong>no membrane-bound nucleus</strong>. Their genetic material — a single circular chromosome plus small plasmids — floats freely in the <strong>cytoplasm</strong>, in a region called the nucleoid. Option A (nucleus) is what defines eukaryotes. Options C (Golgi) and D (vacuole) are membrane-bound organelles absent from prokaryotes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.4846,
+      "question": "Which organelle is the site of biological protein synthesis in all living organisms?",
+      "options": [
+        "Ribosome",
+        "Lysosome",
+        "Mitochondrion",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Ribosomes</strong> are the universal site of <strong>protein synthesis</strong> (translation) in every living cell — prokaryotic and eukaryotic alike. They read mRNA and assemble amino acids into polypeptides. Option B (lysosome) degrades proteins. Option C (mitochondrion) produces ATP. Option D (Golgi) modifies and packages proteins after they have been synthesized. The ribosome is the one organelle shared by all life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.752,
+      "question": "Vacuoles help protect cells from toxicity by storing _____.",
+      "options": [
+        "Only proteins",
+        "Waste materials",
+        "Only DNA and RNA",
+        "Hydrogen and oxygen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Vacuoles</strong> store <strong>waste materials</strong> and toxic byproducts, isolating them from the rest of the cell and preventing damage. In plant cells, a large central vacuole also stores water, ions, pigments, and nutrients. Option A (\"only proteins\") is wrong — vacuoles store many substances. Option C (\"only DNA and RNA\") is wrong — nucleic acids are kept in the nucleus. Option D (hydrogen and oxygen) is not a vacuole function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.825,
+      "question": "Which of the following is characteristic of a plant cell but absent in an animal cell according to the PDF?",
+      "options": [
+        "Ribosome",
+        "Mitochondrion",
+        "Plastid",
+        "Cytoplasm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Plastids</strong> — including chloroplasts, chromoplasts, and leucoplasts — are plant-specific organelles. They are used for photosynthesis, pigment storage, and starch storage respectively. Options A (ribosome), B (mitochondrion), and D (cytoplasm) are present in <em>both</em> plant and animal cells. Note: the plant cell wall and large central vacuole are two other plant-only features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.2537,
+      "question": "Which structure is present in animal cells but absent in plant cells according to the PDF?",
+      "options": [
+        "Cell wall",
+        "Plastid",
+        "Centrosome",
+        "Large vacuole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>centrosome</strong> (containing centrioles) is the animal-cell structure that organizes the spindle during cell division. It is generally considered absent from higher plant cells, which organize their spindle differently. Option A (cell wall) is plant-only. Option B (plastid) is plant-only. Option D (large vacuole) is plant-only. Only the centrosome is animal-specific.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790696461942.2422,
+      "question": "Which of the following is a similarity between plant and animal cells?",
+      "options": [
+        "Both have cell walls and chloroplasts",
+        "Both have plastids for starch storage",
+        "Both possess membrane-bound nuclei",
+        "Both have large central vacuoles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both plant and animal cells are <strong>eukaryotic</strong> — they have a true <strong>membrane-bound nucleus</strong> housing their DNA, plus membrane-bound organelles (mitochondria, ER, Golgi, ribosomes). Options A and B are wrong because cell walls and plastids are plant-only. Option D is wrong because large central vacuoles are plant-specific — animal cells have small, temporary vacuoles at most.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
