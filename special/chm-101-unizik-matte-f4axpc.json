@@ -3,8 +3,8 @@
   "title": "CHM 101 ( UNIZIK ) : MATTER   50 Q - 20 MINS",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 25,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
     "canPracticeMode": false,
@@ -13,7 +13,7 @@
     "passMark": 50,
     "shuffleQuestions": true,
     "shuffleOptions": true,
-    "defaultTimePerQuestion": 60
+    "defaultTimePerQuestion": 24
   },
   "questions": [
     {
@@ -363,6 +363,356 @@
       ],
       "correctAnswer": 3,
       "explanation": "Mass of empirical formula CH<sub>2</sub>O = 12 + 2(1) + 16 = 30. Divide molar mass by empirical mass: 180 ÷ 30 = 6. Multiply all subscripts by 6: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (glucose). Option A is the empirical formula itself. Options B and C are intermediate multiples (×3 and ×2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.306,
+      "question": "Law of conservation of matter states",
+      "options": [
+        "Matter can be created from energy",
+        "Matter can neither be created nor destroyed",
+        "Matter changes mass with changing volume",
+        "Matter is indestructible only in solids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>Law of Conservation of Mass</strong> states that matter <strong>can neither be created nor destroyed</strong> in a chemical reaction — the total mass of reactants equals the total mass of products. Option A is incorrect for ordinary chemical reactions (nuclear reactions can convert mass to energy, but that is not chemistry). Option C is unrelated. Option D is false — the law applies to all states.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.3154,
+      "question": "Law of definite proportion proposed by",
+      "options": [
+        "Dalton",
+        "Gay-Lussac",
+        "Avogadro",
+        "Proust"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <strong>Law of Definite Proportions</strong> was proposed by <strong>Joseph Proust</strong>: a chemical compound always contains its component elements in a fixed ratio by mass. Water is always 8:1 hydrogen to oxygen by mass, whether from a tap or a well. Option A (Dalton) proposed atomic theory. Option B (Gay-Lussac) worked on gas volumes. Option C (Avogadro) gave the mole concept.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.2432,
+      "question": "CO and CO<sub>2</sub> illustrate",
+      "options": [
+        "Law of conservation",
+        "Law of reciprocal proportions",
+        "Law of multiple proportions",
+        "Law of definite proportions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>Law of Multiple Proportions</strong> states that when two elements combine to form more than one compound, the masses of one element that combine with a fixed mass of the other are in simple whole-number ratios. In CO and CO<sub>2</sub>, the oxygen masses combining with 12 g of carbon are 16 g and 32 g — ratio 1:2. Option A is about mass conservation. Options B and D are different laws.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.561,
+      "question": "Law of reciprocal proportions involves",
+      "options": [
+        "Masses combining with fixed mass of another element",
+        "Volumes of gases combining at constant temperature and pressure",
+        "Partial pressures of different gases combining",
+        "Variation of temperature with pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <strong>Law of Reciprocal Proportions</strong> states that if two elements A and B combine separately with a fixed mass of a third element C, then the ratio in which A and B combine with each other is a simple whole-number ratio of the ratios in which they combined with C. Option B describes Gay-Lussac's law of gaseous volumes. Option C is Dalton's law of partial pressures. Option D is the combined gas law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.162,
+      "question": "In chemical equation, arrow means",
+      "options": [
+        "Equal to",
+        "Reversible",
+        "Produces",
+        "Heat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The arrow → in a chemical equation means <strong>produces</strong> or yields — it separates reactants (left) from products (right). Option A is wrong — the arrow does not mean equal to. Option B is wrong — a reversible reaction uses ⇌ (double arrow). Option D is wrong — heat is indicated by Δ above the arrow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.5735,
+      "question": "Which symbol shows that the substance is dissolved in water?",
+      "options": [
+        "(g)",
+        "(s)",
+        "(l)",
+        "(aq)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>(aq)</strong> stands for aqueous — the substance is dissolved in water. Option A (g) means gas. Option B (s) means solid. Option C (l) means pure liquid (not dissolved in water). The distinction matters — NaCl(s) is table salt, NaCl(aq) is salt water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.376,
+      "question": "Balanced equation has equal",
+      "options": [
+        "Moles",
+        "Atoms of each element",
+        "Molecules of each compound",
+        "Volumes of each gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>balanced equation</strong> has the same number of atoms of each element on both sides — this is required by the Law of Conservation of Mass. Option A is incorrect — the number of <em>moles</em> of reactants and products is not necessarily equal. Option C is incorrect — molecules rearrange. Option D is incorrect — gas volumes are governed by Avogadro's law, not by balancing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.2898,
+      "question": "Balance: H<sub>2</sub> + I<sub>2</sub> → HI. Correct coefficients?",
+      "options": [
+        "1,1,1",
+        "2,1,2",
+        "1,1,2",
+        "2,2,1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "H<sub>2</sub> + I<sub>2</sub> → 2HI. Left side: 2 H, 2 I. Right side: 2 H, 2 I. Balanced as <strong>1,1,2</strong>. Option A has only 1 H and 1 I on the right — unbalanced. Option B is a multiple of the simplest ratio (2:1:2 vs 1:1:2) — chemically valid but not the simplest form. Convention prefers the simplest whole-number coefficients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.3228,
+      "question": "In 2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub>, 2 moles H<sub>2</sub>O produce how many moles H<sub>2</sub>?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The balanced equation shows 2 moles H<sub>2</sub>O → 1 mole H<sub>2</sub>. The mole ratio H<sub>2</sub>O:H<sub>2</sub> is 2:1. So 2 moles of water give <strong>1 mole</strong> of hydrogen gas. Options A, B, and C ignore the stoichiometric ratio — always read the coefficients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.5532,
+      "question": "Stoichiometry is based on",
+      "options": [
+        "Colour",
+        "Density",
+        "Balanced equation",
+        "Solubility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Stoichiometry</strong> is the calculation of quantities of reactants and products in a chemical reaction, based on the <strong>balanced equation</strong>. The coefficients give the mole ratios. Options A, B, and D are physical properties unrelated to reaction quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.449,
+      "question": "Combination reaction general equation",
+      "options": [
+        "AX → A + X",
+        "A + X → AX",
+        "A + BX → AX + B",
+        "AX + BY → AY + BX"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>combination reaction</strong> joins two or more substances into one product: <strong>A + X → AX</strong>. Option A is decomposition (one → many). Option C is single-replacement. Option D is double-replacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.0244,
+      "question": "Decomposition of Mg(OH)<sub>2</sub> gives",
+      "options": [
+        "Mg + H<sub>2</sub>O",
+        "MgH<sub>2</sub> + O<sub>2</sub>",
+        "Mg + H<sub>2</sub> + O<sub>2</sub>",
+        "MgO + H<sub>2</sub>O"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Magnesium hydroxide decomposes on heating: Mg(OH)<sub>2</sub> → <strong>MgO + H<sub>2</sub>O</strong>. The elements do not separate into their raw atomic forms — the hydroxide group breaks down into oxide and water. Options A, B, and C all produce elemental forms, which is not what happens for this hydroxide decomposition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.6274,
+      "question": "Combustion reactions are usually",
+      "options": [
+        "Endothermic",
+        "Neutral",
+        "Exothermic",
+        "Reversible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Combustion</strong> (burning) releases heat and light — it is <strong>exothermic</strong>. Every combustion reaction has a negative enthalpy change. Option A is wrong — endothermic reactions absorb heat (e.g. photosynthesis). Option B is not applicable. Option D is wrong — combustion is essentially irreversible under normal conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.9216,
+      "question": "Cu + 2AgNO<sub>3</sub> → Cu(NO<sub>3</sub>)<sub>2</sub> + 2Ag is",
+      "options": [
+        "Combination",
+        "Decomposition",
+        "Double-replacement",
+        "Single-replacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In this reaction, copper replaces silver in silver nitrate. One element (Cu) displaces another (Ag) from its compound — that is a <strong>single-replacement</strong> reaction. Option A joins substances. Option B breaks substances apart. Option C exchanges partners between two compounds (which would involve two compounds swapping ions).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.1519,
+      "question": "Double-replacement reaction often produces",
+      "options": [
+        "Precipitate",
+        "Only gas",
+        "Only heat",
+        "Single element"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a <strong>double-replacement</strong> reaction, two compounds exchange partners. If one of the products is insoluble in water, it forms a solid <strong>precipitate</strong>. Example: AgNO<sub>3</sub>(aq) + NaCl(aq) → AgCl(s)↓ + NaNO<sub>3</sub>(aq) — AgCl is the precipitate. Option B is possible but not the most common outcome. Option C applies to exothermic reactions generally. Option D would indicate a single-replacement reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.6968,
+      "question": "NaCl(aq) + AgNO<sub>3</sub>(aq) → AgCl(s) + NaNO<sub>3</sub>(aq) is",
+      "options": [
+        "Single-replacement",
+        "Combustion reaction",
+        "Combination reaction",
+        "Double-replacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Na<sup>+</sup> and Ag<sup>+</sup> swap anions — Na pairs with NO<sub>3</sub><sup>−</sup> and Ag pairs with Cl<sup>−</sup>. Two compounds exchange partners, making this a <strong>double-replacement</strong> reaction. The AgCl(s) precipitate confirms it. Option A would be one element displacing another. Options B and C are wrong by definition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.5232,
+      "question": "Kinetic theory states particles of matter are",
+      "options": [
+        "Stationary and never in motion",
+        "Indivisible and without energy",
+        "In constant random motion",
+        "Always charged and in motion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>Kinetic Theory of Matter</strong> states that all particles of matter are in <strong>constant random motion</strong>. The higher the temperature, the faster the motion. Option A is the opposite of the theory. Option B confuses atoms with the theory — particles have kinetic energy. Option D is wrong because most particles are not charged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.0466,
+      "question": "Diffusion is fastest in",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Plasma",
+        "Gases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Diffusion</strong> is the movement of particles from high to low concentration. It is fastest in <strong>gases</strong> because gas particles have the most energy and the largest interparticle spaces, so they move freely. Option A (solids) is slowest — particles are locked in place. Option B (liquids) is intermediate. Option C (plasma) is not typically compared in this context.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.7263,
+      "question": "Brownian motion is caused by",
+      "options": [
+        "Visible collisions",
+        "Molecular collisions",
+        "Gravitational force",
+        "Magnetic fields"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Brownian motion</strong> is the random jiggling of tiny suspended particles due to <strong>collisions with invisible molecules</strong> of the surrounding fluid. Option A is wrong because the molecules hitting the particles are too small to see individually. Options C and D are not involved — Brownian motion is a collision phenomenon, not a force phenomenon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.207,
+      "question": "Boyle's law: at constant temperature, volume is",
+      "options": [
+        "Directly proportional to pressure",
+        "Equal to pressure",
+        "Independent of pressure",
+        "Inversely proportional to pressure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Boyle's Law</strong> states that at constant temperature, <strong>pressure × volume = constant</strong>, so volume and pressure are <strong>inversely proportional</strong> — as pressure rises, volume falls. Option A would be Charles's law for temperature. Option B is not a law. Option C is false — volume and pressure are related.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.3787,
+      "question": "Charles's law relates volume to",
+      "options": [
+        "Atmospheric pressure",
+        "Gaseous pressure",
+        "Absolute temperature",
+        "Relative density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Charles's Law</strong> states that at constant pressure, volume is directly proportional to <strong>absolute (Kelvin) temperature</strong>: V/T = constant. Options A and B refer to pressure, which is the variable held constant in Charles's law. Option D is unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.8167,
+      "question": "Gay-Lussac's law states pressure is directly proportional to",
+      "options": [
+        "Vapour pressure",
+        "Number of moles",
+        "Relative density",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Gay-Lussac's Law</strong> (also called the pressure-temperature law) states that at constant volume, <strong>pressure is directly proportional to absolute temperature</strong>: P/T = constant. Options A, B, and C are unrelated quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.51,
+      "question": "Ideal gas law equation",
+      "options": [
+        "P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>",
+        "V/T = k",
+        "PV = nRT",
+        "P/T = k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>Ideal Gas Law</strong> combines all the individual gas laws into one equation: <strong>PV = nRT</strong>, where P = pressure, V = volume, n = moles, R = gas constant, T = temperature. Option A is Boyle's law. Option B is Charles's law. Option D is Gay-Lussac's law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.2842,
+      "question": "Dalton's law of partial pressures: total pressure equals",
+      "options": [
+        "Product of partial pressures",
+        "Average of partial pressures",
+        "Difference of partial pressures",
+        "Sum of partial pressures"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Dalton's Law of Partial Pressures</strong> states that the total pressure of a gas mixture equals the <strong>sum</strong> of the partial pressures of each gas: P<sub>total</sub> = P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub> + ... Option A would produce a meaningless product. Option B mixes the concept with averages. Option C subtracts, which is wrong.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790692260998.6846,
+      "question": "Graham's law of diffusion: rate is inversely proportional to",
+      "options": [
+        "Molar mass",
+        "Square of pressure",
+        "Square root of temperature",
+        "Square root of molar mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Graham's Law</strong> states that the rate of diffusion of a gas is inversely proportional to the <strong>square root of its molar mass</strong>: Rate ∝ 1/√M. Lighter gases diffuse faster — this is why helium escapes from balloons much faster than CO<sub>2</sub>. Option A omits the square root. Options B and C are unrelated to Graham's law.",
       "difficulty": "easy",
       "points": 1
     }
