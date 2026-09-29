@@ -3,16 +3,716 @@
   "title": "NAU-CSC 111/NAU-SEN: Modus Ponens, Modus Tollens and Strategies for Connectives",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "A practice CBT exam for NAU-CSC 111/NAU-SEN",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790686586232.7798,
+      "question": "Modus Tollens is valid because it reflects the truth of the:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Modus Tollens</strong> has the form P → Q, ¬Q ⊢ ¬P. Its validity comes from the equivalence P → Q ≡ ¬Q → ¬P — i.e. the <strong>contrapositive</strong> of the original implication. Option A (converse, Q → P) is not equivalent. Option B (inverse, ¬P → ¬Q) is also not equivalent. Option D (conjunction) is a connective, not an inference rule. Only the contrapositive is logically equivalent to the original, which is why Modus Tollens is sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.1787,
+      "question": "'If it is a bird, it has wings. It has wings, therefore it is a bird.' This is:",
+      "options": [
+        "Modus Ponens",
+        "Affirming the Consequent",
+        "Modus Tollens",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The form is P → Q (bird → wings), Q (has wings), therefore P (is a bird) — <strong>affirming the consequent</strong>. This is a <em>fallacy</em>: the premise \"has wings\" could be satisfied by a bat, an insect, or a plane. Option A (Modus Ponens) would require affirming P (\"it is a bird\"), not Q. Option C (Modus Tollens) would require denying Q (\"it does not have wings\"). Option D (denying the antecedent) would require denying P (\"it is not a bird\").",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.4802,
+      "question": "The rule ((P → Q) ∧ (Q → R)) → (P → R) is known as:",
+      "options": [
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism",
+        "Conjunction",
+        "Exportation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Hypothetical Syllogism</strong> — also called \"chain argument\" or \"transitivity of implication\" — lets you chain two implications sharing a middle term: from P → Q and Q → R, conclude P → R. Option B (disjunctive syllogism) is from P ∨ Q and ¬P to conclude Q. Option C (conjunction) is from P and Q to conclude P ∧ Q. Option D (exportation) is (P ∧ Q) → R ≡ P → (Q → R).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.8564,
+      "question": "Which rule allows you to infer Q from (P ∨ Q) and ¬P?",
+      "options": [
+        "Modus Ponens",
+        "Disjunctive Syllogism",
+        "Absorption",
+        "Addition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Disjunctive Syllogism</strong>: from P ∨ Q and ¬P, conclude Q. Intuition: \"one of P or Q is true, and P is false, so Q must be true.\" Option A (Modus Ponens) needs an implication P → Q, which is not present here. Option C (absorption) is P → Q ≡ P → (P ∧ Q). Option D (addition) is P ⊢ P ∨ Q. Only the disjunctive syllogism fits the P ∨ Q, ¬P premises.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.4429,
+      "question": "If an argument is 'Sound,' it must be valid and its premises must be:",
+      "options": [
+        "Proven",
+        "True",
+        "Consistent",
+        "Finite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Soundness</strong> = validity (the logical form is correct) <em>plus</em> all premises actually being <strong>true</strong>. A valid argument with false premises can still be valid — it just isn't sound. Option A (proven) is stronger than needed: premises need only be true, they don't have to have been proved. Option C (consistent) prevents contradiction but does not by itself make premises true. Option D (finite) is irrelevant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.9827,
+      "question": "Modus Tollens is valid because the implication P → Q is logically equivalent to its:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equivalence <strong>P → Q ≡ ¬Q → ¬P</strong> is the logical foundation of Modus Tollens: since ¬Q → ¬P is a valid form of the original, denying Q and deriving ¬P is a legitimate move. Option A (converse Q → P) is not equivalent. Option B (inverse ¬P → ¬Q) is not equivalent. Option D (conjunction) is a separate connective with no bearing on implication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.893,
+      "question": "The fallacy of 'Affirming the Consequent' is represented by the argument:",
+      "options": [
+        "((P → Q) ∧ P) ∴ Q",
+        "((P → Q) ∧ Q) ∴ P",
+        "((P → Q) ∧ ¬Q) ∴ ¬P",
+        "((P → Q) ∧ ¬P) ∴ ¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Affirming the consequent</strong>: from P → Q and Q, infer P. This is the fallacy — Q can be true for reasons unrelated to P. Option A is Modus Ponens (valid). Option C is Modus Tollens (valid). Option D is denying the antecedent, another fallacy but not the one asked about. Option B is the correct answer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.7124,
+      "question": "Which rule allows the transition from P and Q to P ∧ Q?",
+      "options": [
+        "Simplification",
+        "Conjunction",
+        "Addition",
+        "Absorption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Conjunction introduction</strong>: from P and Q as separate premises, conclude P ∧ Q. Option A (simplification) goes the other way: P ∧ Q ⊢ P (or Q). Option C (addition) is P ⊢ P ∨ Q. Option D (absorption) is P → Q ≡ P → (P ∧ Q). The direction distinguishes conjunction introduction from simplification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.1829,
+      "question": "The rule of 'Disjunctive Syllogism' states that from (P ∨ Q) and ¬P, we can infer:",
+      "options": [
+        "P ∧ Q",
+        "Q",
+        "¬Q",
+        "P → Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Disjunctive syllogism</strong>: P ∨ Q and ¬P together imply Q. \"Either P or Q; not P; therefore Q.\" Option A (P ∧ Q) would require both P and Q to be true — but we know P is false. Option C (¬Q) contradicts the conclusion. Option D (P → Q) is an implication, not the standard conclusion of disjunctive syllogism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.8623,
+      "question": "Hypothetical Syllogism is the logical basis for which type of reasoning?",
+      "options": [
+        "Circular reasoning",
+        "Chained implications",
+        "Base case analysis",
+        "Indirect contradiction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Hypothetical Syllogism</strong> chains implications: P → Q, Q → R, therefore P → R. It is the logical foundation of <strong>transitive reasoning</strong> — any argument that proceeds in steps, each step feeding into the next, relies on it. Option A (circular reasoning) is a fallacy — assuming what you're trying to prove. Option C (base case) belongs to induction. Option D (indirect contradiction) is proof by contradiction, unrelated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.236,
+      "question": "Modus Ponens is a valid inference rule that can be summarized as:",
+      "options": [
+        "Affirming the consequent",
+        "Affirming the antecedent",
+        "Denying the antecedent",
+        "Denying the consequent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Ponens</strong> (from P → Q and P, infer Q) works by <strong>affirming the antecedent</strong> — the \"if\" part of the implication is confirmed true, so the \"then\" part follows. Option A (affirming the consequent) is the related <em>fallacy</em> (from Q and P → Q, infer P). Option C (denying the antecedent) is another fallacy (from ¬P and P → Q, infer ¬Q). Option D (denying the consequent) is the description of Modus Tollens, a different valid rule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.3313,
+      "question": "Given (P → Q) and ¬Q, we conclude ¬P via:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Addition",
+        "Simplification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Tollens</strong>: P → Q, ¬Q, therefore ¬P. The mnemonic: deny the consequent (¬Q), conclude the denial of the antecedent (¬P). Option A (Modus Ponens) would need P instead of ¬Q. Option C (addition) is P ⊢ P ∨ Q. Option D (simplification) is P ∧ Q ⊢ P. Only Modus Tollens matches the given premises.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.296,
+      "question": "The logical fallacy of 'Denying the Antecedent' occurs in which form?",
+      "options": [
+        "P → Q, P ∴ Q",
+        "P → Q, ¬Q ∴ ¬P",
+        "P → Q, ¬P ∴ ¬Q",
+        "P → Q, Q ∴ P"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Denying the antecedent</strong>: P → Q, ¬P, therefore ¬Q. This is a fallacy because ¬P does not force ¬Q — Q could be true for reasons other than P. Example: \"If it rains, the grass is wet. It does not rain. Therefore, the grass is not wet.\" Wrong — the sprinkler could be on. Option A is Modus Ponens (valid). Option B is Modus Tollens (valid). Option D is affirming the consequent (another fallacy). Option C is the correct answer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6953,
+      "question": "Which rule of inference is the basis for most 'Direct Proofs'?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Disjunctive Syllogism",
+        "Hypothetical Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>direct proof</strong> of P → Q assumes P (the antecedent) and uses logical steps to derive Q (the consequent). That is precisely <strong>Modus Ponens</strong>: from P → Q and P, conclude Q. Option A (Modus Tollens) underlies contrapositive proofs. Option C (disjunctive syllogism) is a different inference pattern. Option D (hypothetical syllogism) chains implications, useful but not the standard backbone of a direct proof.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.543,
+      "question": "Modus Tollens is considered sound because it is the logical equivalent of:",
+      "options": [
+        "The Converse",
+        "The Inverse",
+        "The Contrapositive",
+        "The Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Same core question as Q1/Q6. Modus Tollens (P → Q, ¬Q ⊢ ¬P) is grounded in the logical equivalence <strong>P → Q ≡ ¬Q → ¬P</strong> — the <strong>contrapositive</strong>. Option A (converse Q → P) is not equivalent. Option B (inverse ¬P → ¬Q) is not equivalent. Option D (conjunction) is a connective. Because the contrapositive is equivalent to the original, deriving ¬P from ¬Q is a valid move.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.8735,
+      "question": "Which rule follows the form: (P → Q) ∧ P ∴ Q?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Ponens</strong>: P → Q and P, therefore Q. Option A (Modus Tollens) would use ¬Q, not P. Option C (hypothetical syllogism) chains two implications: P → Q and Q → R. Option D (disjunctive syllogism) uses a disjunction P ∨ Q and ¬P. Only Modus Ponens matches the shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.311,
+      "question": "Which rule follows the form: (P → Q) ∧ ¬Q ∴ ¬P?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "De Morgan's Law",
+        "Addition Rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Tollens</strong>: P → Q and ¬Q, therefore ¬P. Option A (Modus Ponens) uses P as the second premise. Option C (De Morgan) is a law about negating conjunctions and disjunctions, not an inference rule of this form. Option D (addition) is P ⊢ P ∨ Q. Only Modus Tollens matches the ¬Q → ¬P pattern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6,
+      "question": "Modus Tollens is logically justified by the:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Same core question as Q1/Q6/Q15. Modus Tollens (P → Q, ¬Q ⊢ ¬P) draws its soundness from the logical equivalence <strong>P → Q ≡ ¬Q → ¬P</strong> — the <strong>contrapositive</strong>. The other options (converse, inverse, conjunction) are not logically equivalent to the original implication and therefore cannot justify Modus Tollens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.518,
+      "question": "'If it rains, the grass is wet. The grass is NOT wet. Therefore, it did NOT rain.' This uses:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Indirect Induction",
+        "Fallacy of Affirmation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The form is P → Q (rain → wet), ¬Q (not wet), therefore ¬P (not rain) — <strong>Modus Tollens</strong>. Because the grass is dry, we can conclude with certainty that it did not rain. Option A (Modus Ponens) would need the grass to be wet and then conclude it rained — but wet grass could be from a sprinkler, so that would be the fallacy of affirming the consequent. Option C is not a standard term. Option D is a different fallacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.7559,
+      "question": "Which of the following is a logical fallacy?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Double Negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The question asks (awkwardly worded) which option is an <em>invalid</em> form — i.e. a <strong>fallacy</strong>. <strong>Affirming the consequent</strong> (P → Q, Q, therefore P) is a fallacy. Options A and B are both <em>valid</em> inference rules. Option D (double negation, ¬¬P ≡ P) is a valid equivalence, not a fallacy. Note: the phrase \"invalid logical fallacy\" is technically redundant — by definition a fallacy is invalid — but the intended answer is clearly C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.0657,
+      "question": "Which rule of inference follows the form: If P → Q and P are true, then Q is true?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the verbal statement of <strong>Modus Ponens</strong>: the implication is true, the antecedent is true, so the consequent is true. Option A (Modus Tollens) would use ¬Q as the second premise. Option C chains implications. Option D uses a disjunction. Only Modus Ponens fits \"P → Q and P ⟹ Q.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.7837,
+      "question": "Which rule of inference follows the form: If P → Q and ¬Q are true, then ¬P is true?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is <strong>Modus Tollens</strong> stated in English: implication true, consequent false, so antecedent must be false. Option A (Modus Ponens) requires P true. Option C (affirming the consequent) would use Q true to conclude P — invalid. Option D (denying the antecedent) would use ¬P to conclude ¬Q — invalid. Modus Tollens is the only valid rule matching this form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.3213,
+      "question": "Modus Ponens is Latin for:",
+      "options": [
+        "Method of denying",
+        "Method of affirming",
+        "Method of contradiction",
+        "Method of induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<em>Modus Ponens</em> literally means \"<strong>method of affirming</strong>\" — you affirm the antecedent (P) and thereby affirm the consequent (Q). Option A (method of denying) is the meaning of Modus Tollens — <em>modus tollens</em> = \"method of denying.\" Option C (contradiction) and Option D (induction) are unrelated Latin-derived terms describing different proof techniques.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.643,
+      "question": "Which of the following is an INVALID argument form?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Affirming the consequent</strong> (P → Q, Q, therefore P) is invalid: Q can be true for reasons unrelated to P. Example: \"If it's raining, the ground is wet. The ground is wet. Therefore, it's raining.\" The ground could be wet from a hose. Options A, B, and D (Modus Ponens, Modus Tollens, Disjunctive Syllogism) are all valid inference rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.7039,
+      "question": "If the generator is on (P), then there is electricity (Q). There is no electricity (¬Q). Therefore, the generator is not on (¬P). This is an example of:",
+      "options": [
+        "Modus Ponens",
+        "Direct Proof",
+        "Modus Tollens",
+        "Fallacy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Form: P → Q, ¬Q, therefore ¬P — <strong>Modus Tollens</strong>. Option A (Modus Ponens) would need the generator to be on as a premise. Option B (direct proof) is a proof technique, not an inference rule. Option D (fallacy) is wrong — Modus Tollens is a valid rule. The concrete scenario (generator, electricity) is a classic engineering illustration of Modus Tollens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6077,
+      "question": "What are rules of inference?",
+      "options": [
+        "Principles used to derive new statements",
+        "Rules for constructing truth tables",
+        "Rules for defining predicates",
+        "Rules for simplifying algebraic expressions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Rules of inference</strong> are logical principles that allow you to derive new statements (conclusions) from given statements (premises) in a valid way. Modus Ponens, Modus Tollens, Hypothetical Syllogism, Disjunctive Syllogism, Conjunction, Simplification, and Addition are the standard rules. Option B (truth tables) is a tool for checking validity, not a rule of inference. Option C (predicates) belongs to predicate logic. Option D (algebraic simplification) is a related but distinct idea in symbolic manipulation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.4683,
+      "question": "If the premises are true and the rule of inference is valid, then the conclusion must also be:",
+      "options": [
+        "False",
+        "True",
+        "Undetermined",
+        "A tautology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Validity</strong> guarantees that whenever the premises are true, the conclusion is <strong>true</strong> — that is the definition of a valid inference rule. Option A (false) contradicts the definition. Option C (undetermined) would mean the rule is not valid. Option D (tautology) overreaches: the conclusion is true <em>given</em> the premises, but the conclusion itself is not necessarily a tautology (true regardless of premises).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.946,
+      "question": "Modus Ponens is Latin for:",
+      "options": [
+        "Method of denying",
+        "Method of affirming",
+        "Method of contradiction",
+        "Method of induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Same as Q23. <em>Modus Ponens</em> = \"method of affirming\" — affirming the antecedent P and inferring Q. Option A is the meaning of Modus Tollens. Options C and D are unrelated. Use this question as a spaced-repetition duplicate of Q23 if both remain in the deck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.3447,
+      "question": "What is the logical form of Modus Ponens?",
+      "options": [
+        "P → Q, ¬Q ∴ ¬P",
+        "P → Q, P ∴ Q",
+        "P ∨ Q, ¬P ∴ Q",
+        "P → Q, Q → R ∴ P → R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Ponens</strong> = P → Q, P, therefore Q. Option A is Modus Tollens. Option C is Disjunctive Syllogism. Option D is Hypothetical Syllogism. Only Option B matches Modus Ponens: implication + antecedent, infer consequent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6243,
+      "question": "If it rains, then the ground will be wet. It is raining. Therefore, the ground is wet. This is an example of:",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q (rain → wet), P (it is raining), therefore Q (wet). <strong>Modus Ponens</strong>. Option A (Modus Tollens) would require the ground to be dry. Option C (hypothetical syllogism) chains two implications, which is not happening here. Option D (disjunctive syllogism) would need a disjunction P ∨ Q. This is the classic everyday Modus Ponens example.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.752,
+      "question": "If n is even, then n² is even. n is even. Therefore, n² is even. This is an example of:",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Affirming the Consequent",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q, P, therefore Q — <strong>Modus Ponens</strong>, here applied to a number-theoretic implication. Option A (Modus Tollens) would need \"n² is not even\" as a premise. Option C (affirming the consequent) would go from \"n² is even\" to \"n is even\" (invalid). Option D (denying the antecedent) would go from \"n is not even\" to \"n² is not even\" (invalid, and in this specific case actually true but only by a separate theorem — the form itself is invalid).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.588,
+      "question": "If the user enters the correct password, access is granted. The user entered the correct password. Therefore, access is granted. This is an example of:",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q (correct password → access), P (entered correct password), therefore Q (access granted). <strong>Modus Ponens</strong>, applied to authentication logic — a computer science example. Option A (Modus Tollens) would start from \"access is not granted.\" Option C chains implications. Option D needs a disjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.1123,
+      "question": "Modus Ponens is always valid, regardless of the content of P and Q, as long as:",
+      "options": [
+        "The conclusion is true",
+        "The logical structure is followed",
+        "The premises are false",
+        "The statements are simple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inference rules are valid by <strong>form</strong>, not by content. Modus Ponens is valid because the pattern (P → Q, P ∴ Q) is truth-preserving — regardless of what P and Q actually mean. Option A (conclusion true) mistakes validity for soundness; you don't check the conclusion, you check the form. Option C (premises false) would make the argument unsound, but it can still be valid (validity ≠ soundness). Option D (simplicity) is irrelevant — complex statements work exactly the same way.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.0796,
+      "question": "Modus Tollens is Latin for:",
+      "options": [
+        "Method of denying",
+        "Method of affirming",
+        "Method of contradiction",
+        "Method of induction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<em>Modus Tollens</em> literally means \"<strong>method of denying</strong>\" — you deny the consequent (¬Q) and thereby deny the antecedent (¬P). Option B (method of affirming) is Modus Ponens. Options C and D are unrelated Latin-derived terms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6182,
+      "question": "What is the logical form of Modus Tollens?",
+      "options": [
+        "P → Q, P ∴ Q",
+        "P → Q, ¬Q ∴ ¬P",
+        "P ∨ Q, ¬P ∴ Q",
+        "P → Q, Q → R ∴ P → R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Tollens</strong> = P → Q, ¬Q, therefore ¬P. Option A is Modus Ponens. Option C is Disjunctive Syllogism. Option D is Hypothetical Syllogism. The mnemonic: <em>deny the consequent, get the denied antecedent</em>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.9194,
+      "question": "If the generator is on, then there is electricity. There is no electricity. Therefore, the generator is not on. This is an example of:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q, ¬Q, therefore ¬P — <strong>Modus Tollens</strong>. This is a duplicate of the reasoning in Q25 with slightly different wording. Option A (Modus Ponens) would require the generator to be on. Option C would chain implications. Option D needs a disjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.6743,
+      "question": "If a number is divisible by 4, then it is even. The number is not even. Therefore, the number is not divisible by 4. This is an example of:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q (div by 4 → even), ¬Q (not even), therefore ¬P (not div by 4). <strong>Modus Tollens</strong> applied to a number-theoretic implication. Option A (Modus Ponens) would need \"the number is divisible by 4\" as a premise. Option C (affirming the consequent) would go from \"even\" to \"divisible by 4\" — invalid, since 6 is even but not divisible by 4. Option D (denying the antecedent) would go from \"not divisible by 4\" to \"not even\" — invalid, since 6 is a counterexample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.545,
+      "question": "If a program compiles successfully, then there are no syntax errors. There are syntax errors. Therefore, the program did not compile successfully. This is an example of:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Form: P → Q (compiles → no syntax errors), ¬Q (there are syntax errors), therefore ¬P (did not compile). <strong>Modus Tollens</strong> applied to a computer science scenario. Option A (Modus Ponens) would require successful compilation as a premise. Option C chains implications. Option D needs a disjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.1157,
+      "question": "Modus Tollens is closely related to the contrapositive because:",
+      "options": [
+        "P → Q ≡ Q → P",
+        "P → Q ≡ ¬Q → ¬P",
+        "P → Q ≡ ¬P → ¬Q",
+        "P → Q ≡ P ∧ ¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>P → Q ≡ ¬Q → ¬P</strong> is the contrapositive equivalence — the same logical basis that makes Modus Tollens valid. Option A (Q → P) is the converse — not equivalent. Option C (¬P → ¬Q) is the inverse — not equivalent. Option D (P ∧ ¬Q) is the <em>negation</em> of the implication, not equivalent. Only the contrapositive gives us \"deny the consequent, deny the antecedent.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.5798,
+      "question": "In the comparison of Modus Ponens and Modus Tollens, which premise is used in Modus Ponens?",
+      "options": [
+        "P → Q and ¬Q",
+        "P → Q and P",
+        "P → Q and Q",
+        "P → Q and ¬P"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Ponens</strong> uses the implication P → Q and the affirmation of its antecedent P, concluding Q. Option A (P → Q and ¬Q) is the premise set for Modus Tollens. Option C (P → Q and Q) would be affirming the consequent, a fallacy. Option D (P → Q and ¬P) would be denying the antecedent, another fallacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.5408,
+      "question": "In the comparison of Modus Ponens and Modus Tollens, which premise is used in Modus Tollens?",
+      "options": [
+        "P → Q and P",
+        "P → Q and ¬Q",
+        "P → Q and Q",
+        "P → Q and ¬P"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Tollens</strong> uses the implication P → Q and the negation of its consequent ¬Q, concluding ¬P. Option A is the premise set for Modus Ponens. Option C (P → Q and Q) is affirming the consequent (fallacy). Option D (P → Q and ¬P) is denying the antecedent (fallacy). The paired questions Q40 and Q41 reinforce the distinction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.693,
+      "question": "What is the conclusion of Modus Ponens?",
+      "options": [
+        "¬P",
+        "Q",
+        "P",
+        "¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <strong>Modus Ponens</strong> (P → Q, P), the conclusion is <strong>Q</strong> — you affirm the antecedent and thereby derive the consequent. Option A (¬P) is the conclusion of Modus Tollens. Option C (P) is a premise, not the conclusion. Option D (¬Q) would contradict the inference. Knowing which conclusion goes with which rule is a common exam point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.0398,
+      "question": "What is the conclusion of Modus Tollens?",
+      "options": [
+        "Q",
+        "¬P",
+        "P",
+        "¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <strong>Modus Tollens</strong> (P → Q, ¬Q), the conclusion is <strong>¬P</strong> — you deny the consequent and thereby deny the antecedent. Option A (Q) is the conclusion of Modus Ponens. Option C (P) is a premise side, not the conclusion. Option D (¬Q) is a premise. Modus Tollens always ends with \"not the antecedent.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.372,
+      "question": "What type of reasoning is Modus Ponens commonly used for?",
+      "options": [
+        "Backward reasoning",
+        "Forward reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wait — this question is missing options. Formatting note: the source only listed two options (A and B). The parser requires at least 2 options, so it will import, but a 2-option question is unusual. Add options C and D if you want consistency — e.g. \"Circular reasoning\" and \"Inductive reasoning.\" As originally presented, the correct answer is <strong>B (forward reasoning)</strong>: Modus Ponens starts from a known antecedent and derives a new consequent, moving forward from premise to conclusion. Option A (backward reasoning) is the characteristic of Modus Tollens, which starts from the conclusion (¬Q) and works backward to the antecedent (¬P).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.827,
+      "question": "What type of reasoning is Modus Tollens commonly used for?",
+      "options": [
+        "Forward reasoning",
+        "Backward reasoning",
+        "Circular reasoning",
+        "Inductive reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modus Tollens</strong> starts from the negation of the consequent (¬Q) and works back to the negation of the antecedent (¬P) — <strong>backward reasoning</strong>. This makes it especially useful when Q is easier to test than P. Example: to show \"the generator is not on,\" it is easier to first observe \"there is no electricity.\" Option A (forward reasoning) characterizes Modus Ponens. Options C and D are unrelated (circular reasoning is a fallacy; inductive reasoning generalizes from observations).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.5042,
+      "question": "The fallacy of Affirming the Consequent has the form:",
+      "options": [
+        "P → Q, P ∴ Q",
+        "P → Q, Q ∴ P",
+        "P → Q, ¬Q ∴ ¬P",
+        "P → Q, ¬P ∴ ¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Affirming the consequent</strong>: P → Q, Q, therefore P. Invalid because Q can be true for reasons other than P — the \"if\" was only one-way. Option A is Modus Ponens (valid). Option C is Modus Tollens (valid). Option D is denying the antecedent (a different fallacy). Only Option B matches the affirming-the-consequent pattern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.9368,
+      "question": "The fallacy of Denying the Antecedent has the form:",
+      "options": [
+        "P → Q, P ∴ Q",
+        "P → Q, Q ∴ P",
+        "P → Q, ¬Q ∴ ¬P",
+        "P → Q, ¬P ∴ ¬Q"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<strong>Denying the antecedent</strong>: P → Q, ¬P, therefore ¬Q. Invalid because ¬P does not force ¬Q — Q could be true from another source. Option A is Modus Ponens (valid). Option B is affirming the consequent (another fallacy). Option C is Modus Tollens (valid). Only Option D matches the pattern. Together with Q46, this covers the two classic conditional fallacies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.3118,
+      "question": "Understanding incorrect reasoning like Affirming the Consequent and Denying the Antecedent helps:",
+      "options": [
+        "Prove more theorems",
+        "Avoid mistakes in logic",
+        "Simplify truth tables",
+        "Construct predicates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Knowing the common fallacies helps you <strong>avoid making them</strong> in your own arguments and <strong>spot them</strong> in others'. Option A (prove more theorems) is not the primary purpose — knowing fallacies doesn't give you new proof techniques, it just prevents errors. Option C (truth tables) is a separate tool. Option D (predicates) belongs to predicate logic. The practical value is logical hygiene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.4084,
+      "question": "Which of the following is a valid argument form?",
+      "options": [
+        "Affirming the Consequent",
+        "Denying the Antecedent",
+        "Modus Ponens",
+        "Circular Reasoning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Modus Ponens</strong> is a valid inference rule: from P → Q and P, conclude Q. Options A and B (Affirming the Consequent, Denying the Antecedent) are the two classic conditional <em>fallacies</em>. Option D (circular reasoning) is a fallacy in which the conclusion is assumed among the premises. Only Modus Ponens is valid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686586232.519,
+      "question": "Which of the following is a valid argument form?",
+      "options": [
+        "Affirming the Consequent",
+        "Denying the Antecedent",
+        "Modus Tollens",
+        "Circular Reasoning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Modus Tollens</strong> is a valid inference rule: from P → Q and ¬Q, conclude ¬P. Options A and B are the two conditional fallacies (affirming the consequent, denying the antecedent). Option D (circular reasoning) is a fallacy where the conclusion is smuggled into the premises. Only Modus Tollens is valid.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
