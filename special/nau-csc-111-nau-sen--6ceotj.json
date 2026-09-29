@@ -3,7 +3,7 @@
   "title": "NAU-CSC 111/NAU-SEN: PRACTICE QUESTIONS",
   "subject": "NAU-CSC111/NAU-SEN 111",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 150,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": true,
@@ -11,8 +11,2110 @@
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790686688441.991,
+      "question": "A logical system is 'Complete' if which of the following holds?",
+      "options": [
+        "No contradictions can be derived",
+        "All true statements are provable",
+        "Every proof is finite in length",
+        "All provable statements are true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Completeness: every semantically true formula is provable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.2908,
+      "question": "In first-order predicate logic, a 'Domain of Discourse' refers to:",
+      "options": [
+        "The set of all logical connectives",
+        "The set of values variables can take",
+        "The range of truth table rows",
+        "The sequence of inference rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The domain (universe) is the set of objects over which quantifiers range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.0256,
+      "question": "Which property ensures that a system's axioms do not lead to P ∧ ¬P?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consistency means no contradiction is derivable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.4045,
+      "question": "The statement (P ∧ (P → Q)) → Q is a known tautology called:",
+      "options": [
+        "Modus Tollens",
+        "Law of Syllogism",
+        "Modus Ponens",
+        "Addition Rule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Modus Ponens: from P and P→Q, infer Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.764,
+      "question": "A 'Contingency' is a compound proposition that is:",
+      "options": [
+        "Always true",
+        "Always false",
+        "Neither a tautology nor a contradiction",
+        "Logically equivalent to its negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A contingency is true in some interpretations and false in others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.9988,
+      "question": "Which of the following connectives is 'Functionally Complete' by itself?",
+      "options": [
+        "NOR",
+        "AND",
+        "OR",
+        "Implication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NOR (and NAND) alone can express all other logical connectives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.3743,
+      "question": "What is the negation of the statement: 'For all x, there exists y such that P(x,y)'?",
+      "options": [
+        "∀x, ∀y, ¬P(x,y)",
+        "∃x, ∀y, ¬P(x,y)",
+        "∃x, ∃y, ¬P(x,y)",
+        "∀x, ∃y, ¬P(x,y)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "¬∀x∃y P(x,y) ≡ ∃x∀y ¬P(x,y).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.103,
+      "question": "The limitation of Propositional Logic in expressing 'Every student is smart' is due to its lack of:",
+      "options": [
+        "Connectives",
+        "Truth values",
+        "Quantifiers",
+        "Parentheses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Quantifiers (∀, ∃) are needed for statements about all or some elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5723,
+      "question": "The compound proposition ¬P → (Q ∧ ¬Q) implies that:",
+      "options": [
+        "P is false",
+        "Q is true",
+        "P is true",
+        "Q is false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "¬P → contradiction forces ¬P to be false, hence P is true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.4976,
+      "question": "The contrapositive of 'If x is prime, then x is not even' is:",
+      "options": [
+        "If x is even, then x is not prime",
+        "If x is not prime, then x is even",
+        "If x is prime, then x is even",
+        "If x is not even, then x is prime"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Contrapositive: (P→Q) ≡ (¬Q→¬P). Here ¬(x is not even) = x is even, ¬(x is prime) = x is not prime.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.3892,
+      "question": "An Equivalence Relation is to Symmetry what a Partial Order is to:",
+      "options": [
+        "Reflexivity",
+        "Transitivity",
+        "Antisymmetry",
+        "Irreflexivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equivalence requires symmetry; partial order requires antisymmetry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.4482,
+      "question": "A relation R on set A is Antisymmetric if (a,b) ∈ R and a ≠ b implies:",
+      "options": [
+        "(b,a) ∉ R",
+        "(b,a) ∈ R",
+        "a = b",
+        "(a,a) ∉ R"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Antisymmetry forbids distinct elements from being mutually related.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5488,
+      "question": "If set A has n elements, the number of elements in the Identity Relation on A is:",
+      "options": [
+        "n²",
+        "2ⁿ",
+        "n",
+        "n!"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Identity relation contains exactly the pairs (a,a), one for each element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.2249,
+      "question": "A relation that is Reflexive, Symmetric, and Transitive is called a:",
+      "options": [
+        "Equivalence Relation",
+        "Partial Order",
+        "Total Function",
+        "Bijective Mapping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These three properties define equivalence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.874,
+      "question": "The composition of two transitive relations R and S is always transitive if:",
+      "options": [
+        "R = S",
+        "RS = SR",
+        "R ⊆ S",
+        "A is finite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If R and S commute, their composition preserves transitivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.7075,
+      "question": "If f: A → B is an injection and |A| = |B|, then f is necessarily:",
+      "options": [
+        "Constant",
+        "Surjective",
+        "Into",
+        "Identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For finite sets, an injection from A to B with equal cardinality is also surjective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.056,
+      "question": "A function f: A → B is called 'Surjective' if and only if:",
+      "options": [
+        "f(A) = B",
+        "f(A) ⊂ B",
+        "|A| < |B|",
+        "f is one-to-one"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surjective means the image equals the codomain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.0054,
+      "question": "The composition (f ∘ g) is well-defined only if the range of g is a subset of the:",
+      "options": [
+        "Range of f",
+        "Domain of f",
+        "Codomain of f",
+        "Domain of g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For f(g(x)) to be defined, g(x) must be in the domain of f.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.11,
+      "question": "An 'Identity Mapping' I_A: A → A is always:",
+      "options": [
+        "Bijective",
+        "Constant",
+        "Into",
+        "Antisymmetric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Identity is both injective and surjective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.1323,
+      "question": "If f(x) = 2x+3 is a function from ℝ → ℝ, its inverse f⁻¹(x) is:",
+      "options": [
+        "2x-3",
+        "(x-3)/2",
+        "1/(2x+3)",
+        "3x+2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solve y = 2x+3 for x: x = (y-3)/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.716,
+      "question": "In a proof by 'Contraposition,' to prove P → Q, we assume:",
+      "options": [
+        "P is true",
+        "Q is true",
+        "Q is false",
+        "P is false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Contrapositive: assume ¬Q and derive ¬P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.0654,
+      "question": "Which method is used to prove that √2 is irrational?",
+      "options": [
+        "Induction",
+        "Contradiction",
+        "Direct Proof",
+        "Construction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The classic proof assumes √2 = p/q in lowest terms and reaches a contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.8826,
+      "question": "The 'Base Case' in induction is required to prevent:",
+      "options": [
+        "Infinite Regress",
+        "Circular logic",
+        "Tautologies",
+        "Antisymmetry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without a base case, the inductive chain has no starting point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.8882,
+      "question": "A 'Non-constructive' existence proof typically utilizes:",
+      "options": [
+        "Algorithms",
+        "The Law of Excluded Middle",
+        "Direct computation",
+        "Examples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non‑constructive proofs often use logical principles without providing an explicit witness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5269,
+      "question": "Providing a single instance where a universal claim fails is a proof by:",
+      "options": [
+        "Cases",
+        "Exhaustion",
+        "Counterexample",
+        "Paradox"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A counterexample disproves a universal statement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5188,
+      "question": "Modus Tollens is valid because it reflects the truth of the:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Modus Tollens (P→Q, ¬Q ⊢ ¬P) corresponds to the contrapositive ¬Q→¬P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5715,
+      "question": "'If it is a bird, it has wings. It has wings, therefore it is a bird.' This is:",
+      "options": [
+        "Modus Ponens",
+        "Affirming the Consequent",
+        "Modus Tollens",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fallacy of affirming the consequent: from Q and P→Q, infer P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.9314,
+      "question": "The rule ((P → Q) ∧ (Q → R)) → (P → R) is known as:",
+      "options": [
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism",
+        "Conjunction",
+        "Exportation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hypothetical syllogism chains implications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.728,
+      "question": "Which rule allows you to infer Q from (P ∨ Q) and ¬P?",
+      "options": [
+        "Modus Ponens",
+        "Disjunctive Syllogism",
+        "Absorption",
+        "Addition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disjunctive syllogism: from P∨Q and ¬P, conclude Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686688441.5715,
+      "question": "If an argument is 'Sound,' it must be valid and its premises must be:",
+      "options": [
+        "Proven",
+        "True",
+        "Consistent",
+        "Finite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soundness = validity + all premises true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.7651,
+      "question": "In a formal logical system, if every sentence that is true under all interpretations is also a theorem of the system, the system is:",
+      "options": [
+        "Consistently Sound",
+        "Semantically Complete",
+        "Syntactically Sound",
+        "Logically Contingent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Semantic completeness means all logically valid formulas are provable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.2764,
+      "question": "Which of the following best describes the 'Soundness' of a deductive system?",
+      "options": [
+        "All true statements are provable",
+        "All provable statements are true",
+        "No statement is both true and false",
+        "Every predicate has a variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soundness: if a formula is provable, it is true (no false theorems).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.7144,
+      "question": "Predicate logic is considered a 'First-Order' logic because quantifiers can only range over:",
+      "options": [
+        "Relations",
+        "Functions",
+        "Individual objects",
+        "Other predicates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "First-order logic quantifies only over individuals, not predicates or functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.4907,
+      "question": "Which statement is logically equivalent to the negation of (P → Q)?",
+      "options": [
+        "¬P ∧ Q",
+        "P ∧ ¬Q",
+        "¬P ∨ Q",
+        "Q → P"
+      ],
+      "correctAnswer": 1,
+      "explanation": "¬(P→Q) ≡ P ∧ ¬Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.4302,
+      "question": "The logical expression ((P → Q) ∧ ¬Q) → ¬P is an example of a:",
+      "options": [
+        "Contradiction",
+        "Contingency",
+        "Tautology",
+        "Fallacy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is Modus Tollens, a tautology (always true).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.8115,
+      "question": "Using De Morgan's Law, the statement ¬(∀x (P(x) → Q(x))) is equivalent to:",
+      "options": [
+        "∀x (P(x) ∧ ¬Q(x))",
+        "∃x (P(x) ∧ ¬Q(x))",
+        "∃x (¬P(x) ∨ Q(x))",
+        "∀x (¬P(x) ∧ Q(x))"
+      ],
+      "correctAnswer": 1,
+      "explanation": "¬∀x (P→Q) ≡ ∃x ¬(P→Q) ≡ ∃x (P ∧ ¬Q).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.5679,
+      "question": "In the context of propositional logic limitations, which of these cannot be represented without predicates?",
+      "options": [
+        "Nested implications",
+        "Complex disjunctions",
+        "Relative properties between objects",
+        "Truth-functional negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Propositional logic cannot express relationships between objects (e.g., “x is greater than y”).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.1997,
+      "question": "Which connective is functionally complete on its own (meaning it can define all other connectives)?",
+      "options": [
+        "Conjunction (∧)",
+        "Material Implication (→)",
+        "NAND (↑)",
+        "Exclusive OR (⊕)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "NAND (and NOR) are functionally complete; all connectives can be expressed using only NAND.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.4749,
+      "question": "The 'Uniqueness Quantifier' (∃! x) is logically defined as the existence of x such that P(x) is true and:",
+      "options": [
+        "P(y) is false for all y",
+        "x is equal to every y for which P(y) is true",
+        "P(x) is a tautology and x is equal to P(y)",
+        "x is the only element in the domain of the function P(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "∃!x P(x) means ∃x [P(x) ∧ ∀y (P(y) → y=x)].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.0168,
+      "question": "A 'Vacuously True' implication P → Q occurs specifically when:",
+      "options": [
+        "P is true and Q is true",
+        "P is false",
+        "Q is false",
+        "P and Q are equivalent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An implication with a false antecedent is vacuously true, regardless of Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.3809,
+      "question": "An Equivalence Relation differs from a Partial Order Relation solely by which property?",
+      "options": [
+        "Reflexivity",
+        "Transitivity",
+        "Symmetry",
+        "Irreflexivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equivalence is symmetric; partial order is antisymmetric. Both are reflexive and transitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.8035,
+      "question": "If a relation R is both Symmetric and Antisymmetric, then R must be:",
+      "options": [
+        "A set with a cardinality of 1 (one element)",
+        "Reflexive",
+        "A subset of the Identity Relation",
+        "Transitive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If (a,b)∈R, symmetry gives (b,a)∈R, antisymmetry then forces a=b, so R ⊆ {(a,a)}.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.3506,
+      "question": "For a relation R on set A to be 'Transitive,' which of the following must be true?",
+      "options": [
+        "R ∘ R ⊆ R",
+        "R = R⁻¹",
+        "R ∪ R⁻¹ = A×A",
+        "R ∩ R⁻¹ = ∅"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transitivity means R∘R ⊆ R (composition of R with itself is contained in R).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.7803,
+      "question": "If relation R is Reflexive, what is the minimum number of elements in R if the set A has n elements?",
+      "options": [
+        "1",
+        "n",
+        "n²",
+        "2n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflexivity requires (a,a) for each a ∈ A, so at least n pairs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.0662,
+      "question": "The property that prevents a Partial Order from being an Equivalence Relation is:",
+      "options": [
+        "Reflexivity",
+        "Antisymmetry",
+        "Totality",
+        "Connectivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antisymmetry forces a=b when both (a,b) and (b,a) hold, whereas equivalence requires symmetry, allowing distinct related elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.8235,
+      "question": "A function f: A → B is Bijective if and only if its composition with its inverse is:",
+      "options": [
+        "A constant function",
+        "An identity function",
+        "A null relation",
+        "A surjective-only map"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f∘f⁻¹ = id_B and f⁻¹∘f = id_A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.531,
+      "question": "If the cardinality of set A is greater than set B, a function f: A → B cannot be:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Into",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If |A| > |B|, by the pigeonhole principle, f cannot be injective (no two inputs map to same output).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.654,
+      "question": "The 'Range' of a function is a subset of the 'Codomain.' Under what condition are they identical?",
+      "options": [
+        "The function is one-to-one",
+        "The function is onto",
+        "The function is reflexive",
+        "The function is an inclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Onto (surjective) means every element of the codomain is an image, so range = codomain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.0732,
+      "question": "Given f: A → B and g: B → C, if (g ∘ f) is injective, then:",
+      "options": [
+        "g must be injective",
+        "f must be injective",
+        "Both f and g must be onto",
+        "f must be surjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If g∘f is injective, then f is injective (otherwise two distinct a1,a2 would map to same f(a), making composition equal).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.518,
+      "question": "Which mapping is defined as f(x) = x for all x ∈ A?",
+      "options": [
+        "Inverse mapping",
+        "Identity mapping",
+        "Inclusion mapping",
+        "Constant mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The identity function maps every element to itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.6167,
+      "question": "In a 'Proof by Contradiction,' if we wish to prove P → Q, we begin by assuming:",
+      "options": [
+        "P ∧ Q",
+        "P ∧ ¬Q",
+        "¬P → ¬Q",
+        "¬P ∨ Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To prove P→Q by contradiction, assume P and ¬Q, then derive a contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.093,
+      "question": "The 'Contrapositive' of the statement 'If n² is even, then n is even' is:",
+      "options": [
+        "If n is even, then n² is even",
+        "If n is odd, then n² is odd",
+        "If n² is odd, then n is odd",
+        "n is even and n² is odd"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contrapositive of A→B is ¬B→¬A. Here, ¬(n is even) = n is odd, ¬(n² is even) = n² is odd.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.4333,
+      "question": "Which proof method is specifically designed to prove statements over the set of all Well-Ordered integers?",
+      "options": [
+        "Mathematical Induction",
+        "Exhaustive Proof",
+        "Constructive Existence",
+        "Direct Inference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mathematical induction is used for statements about well‑ordered sets like ℕ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.3857,
+      "question": "In the 'Inductive Step' of a proof, we prove that:",
+      "options": [
+        "P(1) is true",
+        "P(k) is true",
+        "P(k) → P(k+1) is true",
+        "P(n) is true for all n"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inductive step shows that if the statement holds for k, it holds for k+1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.0786,
+      "question": "A 'Non-Constructive Existence Proof' establishes that an object exists without:",
+      "options": [
+        "Using logical reasoning to prove it",
+        "Constructing an object instance",
+        "Being consistent in it's statements",
+        "Providing an algorithm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non‑constructive proofs show existence (e.g., by contradiction) without explicitly constructing the object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.0056,
+      "question": "Modus Tollens is valid because the implication P → Q is logically equivalent to its:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(P→Q) ≡ (¬Q→¬P), which is the basis for Modus Tollens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.9326,
+      "question": "The fallacy of 'Affirming the Consequent' is represented by the argument:",
+      "options": [
+        "((P → Q) ∧ P) ∴ Q",
+        "((P → Q) ∧ Q) ∴ P",
+        "((P → Q) ∧ ¬Q) ∴ ¬P",
+        "((P → Q) ∧ ¬P) ∴ ¬Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Affirming the consequent: from P→Q and Q, concluding P is invalid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.1953,
+      "question": "Which rule allows the transition from P and Q to P ∧ Q?",
+      "options": [
+        "Simplification",
+        "Conjunction",
+        "Addition",
+        "Absorption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conjunction introduction: P, Q ⊢ P∧Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.6133,
+      "question": "The rule of 'Disjunctive Syllogism' states that from (P ∨ Q) and ¬P, we can infer:",
+      "options": [
+        "P ∧ Q",
+        "Q",
+        "¬Q",
+        "P → Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disjunctive syllogism: P∨Q, ¬P ⇒ Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686727502.5566,
+      "question": "Hypothetical Syllogism is the logical basis for which type of reasoning?",
+      "options": [
+        "Circular reasoning",
+        "Chained implications",
+        "Base case analysis",
+        "Indirect contradiction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hypothetical syllogism: (P→Q) ∧ (Q→R) ⇒ (P→R), allowing chaining of implications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.6687,
+      "question": "Which property ensures that every statement that is true in all interpretations of a system can be proven using that system's rules?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Completeness: if a statement is true in all models, there exists a proof.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.1587,
+      "question": "In formal logic, a system is 'Sound' if:",
+      "options": [
+        "All provable statements are true",
+        "It can prove its own consistency",
+        "No contradictions exist",
+        "All true statements are provable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Soundness means that every provable formula is true (no false statements are provable).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.4587,
+      "question": "Which of the following describes 'Predicate Logic' but NOT 'Propositional Logic'?",
+      "options": [
+        "Uses logical connectives",
+        "Determines truth values",
+        "Employs variables and quantifiers",
+        "Follows rules of inference"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Predicate logic adds quantifiers (∀, ∃) and variables, which propositional logic lacks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.1987,
+      "question": "A statement whose truth value is always true, regardless of the truth values of its components, is a:",
+      "options": [
+        "Fallacy",
+        "Contingency",
+        "Tautology",
+        "Predicate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A tautology is a formula true under every interpretation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.039,
+      "question": "In the implication P → Q, which term describes Q?",
+      "options": [
+        "Antecedent",
+        "Consequent",
+        "Premise",
+        "Hypothesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Q is the consequent (the conclusion) of the implication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.3403,
+      "question": "Which logical law is represented by p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)?",
+      "options": [
+        "Associative Law",
+        "Distributive Law",
+        "Idempotent Law",
+        "De Morgan's Law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the distributive law of conjunction over disjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.6155,
+      "question": "What is the logical negation of the statement: ∃x, P(x) ∧ Q(x)?",
+      "options": [
+        "∀x, ¬P(x) ∧ ¬Q(x)",
+        "∃x, ¬P(x) ∨ ¬Q(x)",
+        "∀x, P(x) → ¬Q(x)",
+        "∀x, ¬P(x) ∨ Q(x)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "¬∃x (P∧Q) ≡ ∀x ¬(P∧Q) ≡ ∀x (¬P ∨ ¬Q) ≡ ∀x (P → ¬Q).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.0818,
+      "question": "The 'Exclusive OR' (⊕) differs from the 'Inclusive OR' (∨) because it is false when:",
+      "options": [
+        "Both inputs are false",
+        "Both inputs are true",
+        "The first input is true",
+        "The second input is true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exclusive OR is false when both inputs are true (or both false; but inclusive OR is true when both true, exclusive is false).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.3062,
+      "question": "Which of the following is a limitation of Propositional Logic?",
+      "options": [
+        "It uses truth tables",
+        "It cannot express 'some' or 'all'",
+        "It lacks symbolic notation",
+        "It cannot handle negation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic has no quantifiers, so it cannot express universal or existential statements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.2878,
+      "question": "The statement P → Q is logically equivalent to which of the following?",
+      "options": [
+        "¬P ∨ Q",
+        "P ∧ ¬Q",
+        "¬Q → P",
+        "Q → P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P → Q ≡ ¬P ∨ Q (material implication).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.254,
+      "question": "An Equivalence Relation must be Reflexive, Symmetric, and Transitive. Which 'other' relation depends on being Reflexive, Antisymmetric, and Transitive?",
+      "options": [
+        "Inverse Relation",
+        "Partial Order",
+        "Identity Mapping",
+        "Constant Relation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A partial order is reflexive, antisymmetric, and transitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.9248,
+      "question": "A relation R on set A is Antisymmetric if (a, b) ∈ R and (b, a) ∈ R implies:",
+      "options": [
+        "a ≠ b",
+        "a = b",
+        "(a, a) ∉ R",
+        "a + b = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antisymmetry: mutual relatedness forces equality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.701,
+      "question": "If a relation R is defined as 'perpendicular to' on a set of lines, it fails to be an equivalence relation because it is NOT:",
+      "options": [
+        "Symmetric",
+        "Transitive",
+        "Irreflexive",
+        "Empty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perpendicular is symmetric but not transitive (if a ⟂ b and b ⟂ c, a is parallel to c, not perpendicular).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.4097,
+      "question": "In a matrix representation of a Reflexive relation, the main diagonal must consist of:",
+      "options": [
+        "All zeros",
+        "All ones",
+        "Mixed values",
+        "Alternating values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflexivity requires every element to be related to itself, so diagonal entries are 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.468,
+      "question": "Which of the following defines the Transitive property of an equivalence relation?",
+      "options": [
+        "(a, b) ∈ R ⇒ (b, a) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (c, a) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, c) ∈ R",
+        "(a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, b, c) ∈ R"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transitivity: if a relates to b and b relates to c, then a relates to c.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.6365,
+      "question": "For a function f: A → B, the set B is known as the:",
+      "options": [
+        "Domain",
+        "Range",
+        "Codomain",
+        "Pre‑image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "B is the codomain; the set of actual outputs is the range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.361,
+      "question": "Which type of mapping ensures that no two distinct elements in the domain share the same image?",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Bijective",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injective (one‑to‑one) means f(a)=f(b) ⇒ a=b.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.4155,
+      "question": "A function f: A → B is Bijective if and only if:",
+      "options": [
+        "It is injective only",
+        "It is surjective only",
+        "It has a unique inverse",
+        "It is a constant mapping"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bijective functions are invertible; they have a unique inverse function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.5771,
+      "question": "What is the composition (f ∘ g)(x) if f(x) = x² and g(x) = x+1?",
+      "options": [
+        "x² + 1",
+        "(x+1)²",
+        "x² + x + 1",
+        "2x + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(f ∘ g)(x) = f(g(x)) = (x+1)².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.4878,
+      "question": "In an 'Onto' (Surjective) mapping:",
+      "options": [
+        "Range = Codomain",
+        "Range ⊂ Codomain",
+        "Range = Domain",
+        "Range is empty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surjectivity means the range equals the codomain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.6733,
+      "question": "Which proof method relies on the fact that if (¬Q → Contradiction) is true, then Q is true?",
+      "options": [
+        "Direct Proof",
+        "Contrapositive",
+        "Contradiction",
+        "Induction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proof by contradiction assumes ¬Q and derives a contradiction, thus Q must be true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.412,
+      "question": "In Mathematical Induction, the 'Inductive Hypothesis' involves assuming the statement holds for:",
+      "options": [
+        "n = 1",
+        "n = k",
+        "n = k+1",
+        "All n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inductive hypothesis: assume true for n = k (arbitrary integer).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.9478,
+      "question": "To disprove a 'For all x, P(x)' statement, one must provide a:",
+      "options": [
+        "Tautology",
+        "Direct proof",
+        "Counterexample",
+        "Base case"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A single counterexample falsifies a universal claim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.5732,
+      "question": "A 'Constructive' proof of existence:",
+      "options": [
+        "Assumes the object exists",
+        "Finds or builds the object",
+        "Uses the contrapositive",
+        "Proves the object is unique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Constructive proof explicitly exhibits or constructs a witness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.7754,
+      "question": "Which strategy proves P → Q by instead proving ¬Q → ¬P?",
+      "options": [
+        "Indirect Proof (Contrapositive)",
+        "Vacuous Proof",
+        "Proof by Cases",
+        "Trivial Proof"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proof by contrapositive shows the contrapositive ¬Q → ¬P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.1228,
+      "question": "Modus Ponens is a valid inference rule that can be summarized as:",
+      "options": [
+        "Affirming the consequent",
+        "Affirming the antecedent",
+        "Denying the antecedent",
+        "Denying the consequent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Ponens: if P→Q and P, conclude Q (affirming the antecedent).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.2285,
+      "question": "Given (P → Q) and ¬Q, we conclude ¬P via:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Addition",
+        "Simplification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Tollens: if P→Q and ¬Q, then ¬P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.1914,
+      "question": "The logical fallacy of 'Denying the Antecedent' occurs in which form?",
+      "options": [
+        "P → Q, P ∴ Q",
+        "P → Q, ¬Q ∴ ¬P",
+        "P → Q, ¬P ∴ ¬Q",
+        "P → Q, Q ∴ P"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Denying the antecedent: ¬P, therefore ¬Q, is invalid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.899,
+      "question": "Which rule of inference is the basis for most 'Direct Proofs'?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Disjunctive Syllogism",
+        "Hypothetical Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Direct proofs often assume the antecedent and use modus ponens to derive the consequent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686757727.2034,
+      "question": "Modus Tollens is considered sound because it is the logical equivalent of:",
+      "options": [
+        "The Converse",
+        "The Inverse",
+        "The Contrapositive",
+        "The Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Modus Tollens (P→Q, ¬Q ⊢ ¬P) corresponds to the contrapositive ¬Q→¬P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7146,
+      "question": "What is the primary focus of logic?",
+      "options": [
+        "Mathematical calculations",
+        "Systematic study of reasoning",
+        "Natural language processing",
+        "Hardware architecture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logic is the systematic study of the principles of correct reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.2158,
+      "question": "Which property ensures a logical system has no contradictions?",
+      "options": [
+        "Completeness",
+        "Soundness",
+        "Consistency",
+        "Validity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consistency means that no proposition and its negation can both be derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7222,
+      "question": "A declarative statement that is either true or false is a:",
+      "options": [
+        "Proposition",
+        "Predicate",
+        "Quantifier",
+        "Connective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A proposition is a statement that can be assigned a truth value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.796,
+      "question": "Which branch of logic uses variables and quantifiers (∀, ∃)?",
+      "options": [
+        "Sentential Logic",
+        "Propositional Logic",
+        "Predicate Logic",
+        "Boolean Logic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Predicate logic (first‑order logic) introduces quantifiers and variables.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.1008,
+      "question": "In an implication P → Q, P is referred to as the:",
+      "options": [
+        "Conclusion",
+        "Antecedent",
+        "Consequent",
+        "Derivative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In P → Q, P is the antecedent (hypothesis) and Q is the consequent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.5486,
+      "question": "The conjunction P ∧ Q is true ONLY when:",
+      "options": [
+        "P is true",
+        "Q is true",
+        "Both P and Q are true",
+        "Both P and Q are false"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A conjunction is true only when both conjuncts are true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.301,
+      "question": "The disjunction P ∨ Q is false ONLY when:",
+      "options": [
+        "P is false",
+        "Q is false",
+        "Both P and Q are false",
+        "Both P and Q are true"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An inclusive disjunction is false only when both disjuncts are false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.6829,
+      "question": "Which of the following is a limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express relationships between objects",
+        "It lacks logical connectives for combining statements",
+        "It cannot be used in computer science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic cannot express relationships like “all humans are mortal” without quantifiers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7903,
+      "question": "The negation of '∀x P(x)' is logically equivalent to:",
+      "options": [
+        "∀x ¬P(x)",
+        "∃x ¬P(x)",
+        "∃x P(x)",
+        "¬∃x P(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "¬∀x P(x) ≡ ∃x ¬P(x) by quantifier negation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.3552,
+      "question": "A truth table for three propositions (p, q, r) will have how many rows?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With n=3, there are 2³ = 8 possible combinations of truth values.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.1628,
+      "question": "A binary relation R on a set A is a subset of:",
+      "options": [
+        "A ∪ A",
+        "A ∩ A",
+        "A × A",
+        "A - A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A relation on A is a subset of the Cartesian product A × A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.6755,
+      "question": "A relation is reflexive if for every element a ∈ A:",
+      "options": [
+        "(a, b) ∈ R",
+        "(a, a) ∈ R",
+        "(b, a) ∈ R",
+        "(a, a) ∉ R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflexivity requires each element to be related to itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.677,
+      "question": "A relation R is symmetric if (a, b) ∈ R implies:",
+      "options": [
+        "(a, a) ∈ R",
+        "(b, c) ∈ R",
+        "(b, a) ∈ R",
+        "(a, b) ∉ R"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Symmetry: if a is related to b, then b is related to a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.744,
+      "question": "To be an equivalence relation, R must be reflexive, symmetric, and:",
+      "options": [
+        "Antisymmetric",
+        "Transitive",
+        "Irreflexive",
+        "Bijective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equivalence relations also require transitivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.9438,
+      "question": "If (a, b) ∈ R and (b, c) ∈ R implies (a, c) ∈ R, the relation is:",
+      "options": [
+        "Transitive",
+        "Reflexive",
+        "Symmetric",
+        "Injective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This defines transitivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.308,
+      "question": "A function where every element in the domain has a unique image is:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Onto",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injective (one‑to‑one) means distinct inputs map to distinct outputs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.617,
+      "question": "A function f: A → B is surjective if its range is equal to the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Pre‑image",
+        "Power set"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surjectivity (onto) means every element of the codomain is an image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7434,
+      "question": "A function that is both injective and surjective is called:",
+      "options": [
+        "Identity mapping",
+        "Bijective",
+        "Into mapping",
+        "Inverse mapping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A bijection is both one‑to‑one and onto.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.332,
+      "question": "If f(x) = c for all x in the domain, it is a:",
+      "options": [
+        "Constant function",
+        "Identity function",
+        "Bijective function",
+        "Linear function"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A constant function assigns the same value to every input.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.8733,
+      "question": "Which is required for a function to have an inverse?",
+      "options": [
+        "It must be surjective only",
+        "It must be injective only",
+        "It must be bijective",
+        "It must be a relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A function has an inverse iff it is bijective.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7688,
+      "question": "Which proof starts by assuming P is true to conclude Q?",
+      "options": [
+        "Indirect proof",
+        "Direct proof",
+        "Contradiction",
+        "Induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Direct proof assumes P and derives Q directly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.9856,
+      "question": "Proof by contrapositive proves P → Q by showing:",
+      "options": [
+        "Q → P",
+        "¬P → ¬Q",
+        "¬Q → ¬P",
+        "P ∧ ¬Q"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(P → Q) ≡ (¬Q → ¬P) is the contrapositive equivalence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.6987,
+      "question": "In proof by contradiction, we assume the statement is:",
+      "options": [
+        "True",
+        "False",
+        "Conditional",
+        "Bi‑conditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "We assume the negation of the statement and derive a contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.8936,
+      "question": "Mathematical induction is primarily used to prove statements about:",
+      "options": [
+        "Real numbers",
+        "Natural numbers",
+        "Complex numbers",
+        "Empty sets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Induction is used for statements indexed by natural numbers (or well‑ordered sets).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.754,
+      "question": "The first step in mathematical induction is the:",
+      "options": [
+        "Inductive step",
+        "Recursive step",
+        "Base case",
+        "Conclusion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The base case verifies the statement for the smallest value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.5276,
+      "question": "Which rule follows the form: (P → Q) ∧ P ∴ Q?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Ponens (affirming the antecedent).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.6348,
+      "question": "Which rule follows the form: (P → Q) ∧ ¬Q ∴ ¬P?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "De Morgan's Law",
+        "Addition Rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Tollens (denying the consequent).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.2644,
+      "question": "Modus Tollens is logically justified by the:",
+      "options": [
+        "Converse",
+        "Inverse",
+        "Contrapositive",
+        "Conjunction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Modus Tollens uses the contrapositive of the implication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.7668,
+      "question": "'If it rains, the grass is wet. The grass is NOT wet. Therefore, it did NOT rain.' This uses:",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Indirect Induction",
+        "Fallacy of Affirmation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a classic example of Modus Tollens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686783427.818,
+      "question": "Which of the following is an invalid logical fallacy?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Double Negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Affirming the consequent (Q, P→Q ∴ P) is a fallacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.3105,
+      "question": "What is the systematic study of reasoning called?",
+      "options": [
+        "Mathematics",
+        "Logic",
+        "Algorithms",
+        "Philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logic is the branch of philosophy concerned with the principles of correct reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.1099,
+      "question": "Which property of logic ensures that a system does not lead to a contradiction, such as proving both P and ¬P?",
+      "options": [
+        "Soundness",
+        "Completeness",
+        "Validity",
+        "Consistency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Consistency means no statement and its negation can both be derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.1733,
+      "question": "Which of the following is NOT a proposition?",
+      "options": [
+        "2 + 2 = 4",
+        "The sky is green",
+        "Close the door!",
+        "Logic is a branch of science"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A proposition must be a declarative sentence that is either true or false; commands are not propositions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.698,
+      "question": "In propositional logic, when is the implication (P → Q) considered false?",
+      "options": [
+        "When P is true and Q is false",
+        "When P is false and Q is true",
+        "When both P and Q are false",
+        "When both P and Q are true"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An implication is false only when the antecedent is true and the consequent is false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.1936,
+      "question": "Which logic system allows for the use of variables, predicates, and quantifiers?",
+      "options": [
+        "Propositional Logic",
+        "Sentential Logic",
+        "Predicate Logic",
+        "Boolean Logic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Predicate logic (first-order logic) extends propositional logic with quantifiers and predicates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.3337,
+      "question": "A conjunction (P ∧ Q) is true only when:",
+      "options": [
+        "At least one proposition is true",
+        "Both propositions are true",
+        "Both propositions are false",
+        "The first proposition is true and the second is false"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conjunction is true only when both conjuncts are true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.8254,
+      "question": "The disjunction symbol (∨) in propositional logic represents an:",
+      "options": [
+        "Exclusive OR",
+        "Inclusive OR",
+        "Implication",
+        "Atomic unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard ∨ is inclusive OR (true if at least one is true).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.329,
+      "question": "Which of De Morgan's Laws is correct?",
+      "options": [
+        "¬(p ∧ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+        "¬(p ∨ q) ≡ ¬p ∨ ¬q",
+        "¬(p ∧ q) ≡ p ∨ q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "De Morgan's laws: ¬(p∧q) ≡ ¬p ∨ ¬q and ¬(p∨q) ≡ ¬p ∧ ¬q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.4778,
+      "question": "What is a major limitation of propositional logic?",
+      "options": [
+        "It cannot handle truth values",
+        "It cannot express universal or existential quantification",
+        "It cannot be used in computer science",
+        "It cannot handle the construction of truth tables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propositional logic lacks quantifiers, so it cannot express statements like all\" or \"there exists\".\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.5535,
+      "question": "How many rows are required in a truth table for a statement involving n propositions?",
+      "options": [
+        "n²",
+        "2n",
+        "2ⁿ",
+        "n+1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each proposition has 2 truth values, so 2ⁿ combinations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.188,
+      "question": "A binary relation R from set A to set B is formally defined as:",
+      "options": [
+        "R ⊆ A × B",
+        "R = A + B",
+        "R ⊆ A ∪ B",
+        "R = A ∩ B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A relation is a subset of the Cartesian product A × B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.852,
+      "question": "A relation R on set A is called reflexive if:",
+      "options": [
+        "(a,b) ∈ R ⇒ (b,a) ∈ R",
+        "(a,a) ∈ R for all a ∈ A",
+        "(a,b) ∈ R and (b,c) ∈ R ⇒ (a,c) ∈ R",
+        "(a,b) ∈ R ⇒ a = b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reflexivity requires every element to be related to itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.901,
+      "question": "If a relation is reflexive, symmetric, and transitive, it is known as an:",
+      "options": [
+        "Inverse relation",
+        "Equivalence relation",
+        "Antisymmetric relation",
+        "Partial order relation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These three properties define an equivalence relation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.4187,
+      "question": "A relation is antisymmetric if (a,b) ∈ R and (b,a) ∈ R implies:",
+      "options": [
+        "a ≠ b",
+        "a = b",
+        "a < b",
+        "a divides b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antisymmetry: mutual relatedness forces equality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.7126,
+      "question": "What is the difference between a relation and a mapping (function)?",
+      "options": [
+        "A mapping must cover the entire domain and provide exactly one output per input",
+        "A relation must provide exactly one output per input",
+        "Mappings can have many outputs for one input",
+        "There is no difference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A function is a relation where each input has exactly one output and every domain element is used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.815,
+      "question": "In the function f: A → B, the set of all actual outputs is called the:",
+      "options": [
+        "Domain",
+        "Codomain",
+        "Range",
+        "Relation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The range (or image) is the set of values that f actually takes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.3472,
+      "question": "A function is injective (one-to-one) if:",
+      "options": [
+        "Every element in the codomain is mapped to",
+        "Different elements in the domain have different images",
+        "All elements map to the same image",
+        "The range is equal to the codomain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injectivity: f(a)=f(b) implies a=b.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.3787,
+      "question": "A function is surjective (onto) if:",
+      "options": [
+        "Every element in the codomain has at least one pre-image",
+        "Every element in the domain maps to exactly one image",
+        "The function is one-to-one",
+        "The function has no inverse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surjectivity: for every y in codomain, ∃x such that f(x)=y.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.077,
+      "question": "For an inverse function f⁻¹ to exist, the function f must be:",
+      "options": [
+        "Constant",
+        "Injective only",
+        "Surjective only",
+        "Bijective"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Only bijective functions have inverses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.0808,
+      "question": "If f(x) = x + 1 and g(x) = 2x, what is the composition (g ∘ f)(x)?",
+      "options": [
+        "2x + 1",
+        "2(x + 1)",
+        "x + 2",
+        "2x² + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(g∘f)(x) = g(f(x)) = 2(x+1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.128,
+      "question": "Which proof strategy assumes P is true and uses logical steps to derive Q?",
+      "options": [
+        "Indirect Proof",
+        "Direct Proof",
+        "Proof by Contradiction",
+        "Proof by Counterexample"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Direct proof shows P → Q by starting with P and deducing Q.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.276,
+      "question": "Proof by Contrapositive is based on the logical equivalence:",
+      "options": [
+        "P → Q ≡ ¬P → ¬Q",
+        "P → Q ≡ Q → P",
+        "P → Q ≡ ¬Q → ¬P",
+        "P → Q ≡ P ∧ ¬Q"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Contrapositive: (P → Q) ≡ (¬Q → ¬P).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.0332,
+      "question": "Which method is used to disprove a universal statement by finding one instance where it fails?",
+      "options": [
+        "Proof by Induction",
+        "Proof by Cases",
+        "Proof by Counterexample",
+        "Uniqueness Proof"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A single counterexample disproves a universal claim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.4978,
+      "question": "In Mathematical Induction, the first step is to prove the statement is true for an initial value. This is called the:",
+      "options": [
+        "Inductive Step",
+        "Base Case",
+        "Inductive Hypothesis",
+        "Conclusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base case establishes the statement for the smallest value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.4204,
+      "question": "A proof that establishes the truth of a statement by assuming it is false and reaching an impossibility is:",
+      "options": [
+        "Proof by Contrapositive",
+        "Direct Proof",
+        "Proof by Contradiction",
+        "Existence Proof"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proof by contradiction assumes the negation and derives a contradiction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.2424,
+      "question": "Which rule of inference follows the form: If P → Q and P are true, then Q is true?",
+      "options": [
+        "Modus Tollens",
+        "Modus Ponens",
+        "Hypothetical Syllogism",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Ponens (affirming the antecedent).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.0674,
+      "question": "Which rule of inference follows the form: If P → Q and ¬Q are true, then ¬P is true?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Denying the Antecedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Tollens (denying the consequent).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.167,
+      "question": "Modus Ponens is Latin for:",
+      "options": [
+        "Method of denying",
+        "Method of affirming",
+        "Method of contradiction",
+        "Method of induction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modus Ponens means method of affirming\".\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.1172,
+      "question": "Which of the following is an INVALID argument form?",
+      "options": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Affirming the Consequent",
+        "Disjunctive Syllogism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Affirming the consequent (Q, P→Q ⊢ P) is a fallacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790686805914.0679,
+      "question": "If the generator is on (P), then there is electricity (Q). There is no electricity (¬Q). Therefore, the generator is not on (¬P). This is an example of:",
+      "options": [
+        "Modus Ponens",
+        "Direct Proof",
+        "Modus Tollens",
+        "Fallacy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This matches the form of Modus Tollens.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
