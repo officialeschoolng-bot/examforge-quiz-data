@@ -3,16 +3,438 @@
   "title": "PHY 101: QUANTITIES AND DIMENSIONS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790797580106.615,
+      "question": "Physical quantities are broadly divided into which two categories?",
+      "options": [
+        "Base and derived",
+        "Scalars and vectors",
+        "Positive and negative",
+        "Fundamental and empirical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The broadest classification of physical quantities is <strong>scalars and vectors</strong>. A scalar has magnitude only (mass, time, temperature); a vector has magnitude and direction (displacement, velocity, force). Option A (base/derived) is a different classification — based on whether the quantity is fundamental or built from fundamentals. Option C is wrong — physical quantities are not classified by sign. Option D is not a standard classification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580106.6482,
+      "question": "A unit vector has a magnitude of?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <strong>unit vector</strong> has a magnitude of exactly <strong>one</strong> and points in a specific direction. Its purpose is to specify direction without scaling. For example, î, ĵ, k̂ are unit vectors along the x, y, and z axes. To find the unit vector in any direction, you divide a vector by its magnitude: Â = A / |A|. Options A, C, and D are incorrect magnitudes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580106.043,
+      "question": "Given A = 2i + 3j + 4k and B = i + 4j + 5k, A + B is?",
+      "options": [
+        "i − j − k",
+        "3i + 7j + 9k",
+        "3i + 7j − 9k",
+        "2i + 12j + 20k"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vector addition is done component-wise: <strong>A + B = (2+1)i + (3+4)j + (4+5)k = 3i + 7j + 9k</strong>. Option A is the result of subtraction, not addition. Option C has the wrong sign on the k-component. Option D is the component-wise product, not sum. Addition is the simplest operation on vectors — just add matching components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580106.6108,
+      "question": "The dot product of two vectors produces?",
+      "options": [
+        "A vector",
+        "A tensor",
+        "A matrix",
+        "A scalar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <strong>dot product</strong> (scalar product) of two vectors produces a <strong>scalar</strong> — a single number with no direction. Example: work W = F · d is a scalar. Option A (vector) is the result of the cross product, not the dot product. Options B and C are wrong — the dot product of two vectors is a single number, not a tensor or matrix. The name 'scalar product' is a reminder of this.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580106.7927,
+      "question": "The cross product of two vectors produces what?",
+      "options": [
+        "A scalar",
+        "A vector",
+        "A tensor",
+        "A matrix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <strong>cross product</strong> (vector product) of two vectors produces a <strong>vector</strong> — perpendicular to the plane containing both original vectors. Its direction is given by the right-hand rule. Option A (scalar) is the dot product. Options C and D are wrong — the cross product is a vector in 3D, not a tensor or matrix. The magnitude is |A||B| sin θ and the direction is perpendicular to both A and B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580107.4119,
+      "question": "The magnitude of A × B is?",
+      "options": [
+        "|A||B| cos θ",
+        "|A||B| sin θ",
+        "|A||B| tan θ",
+        "|A||B| cot θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnitude of the cross product is <strong>|A × B| = |A||B| sin θ</strong>, where θ is the angle between the vectors. Option A (with cos) is the magnitude of the dot product. Options C and D involve tan and cot, which do not describe the cross product. Note: this formula makes the cross product zero when the vectors are parallel (θ = 0 or 180°), and maximum when they are perpendicular (θ = 90°).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580107.605,
+      "question": "For v<sup>2</sup> − u<sup>2</sup> = 2aS, the dimension of L.H.S is?",
+      "options": [
+        "[LT<sup>−1</sup>]",
+        "[LT<sup>−2</sup>]",
+        "[L<sup>2</sup>T<sup>−1</sup>]",
+        "[L<sup>2</sup>T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 3,
+      "explanation": "v and u are velocities, each with dimension [LT<sup>−1</sup>]. Squaring gives [L<sup>2</sup>T<sup>−2</sup>]. So <strong>v<sup>2</sup> − u<sup>2</sup> has dimension [L<sup>2</sup>T<sup>−2</sup>]</strong>. This matches the R.H.S.: 2aS has dimension [LT<sup>−2</sup>] × [L] = [L<sup>2</sup>T<sup>−2</sup>], confirming dimensional homogeneity. Option A is velocity. Option B is acceleration. Option C is wrong — T should be squared, not just to the −1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580107.2495,
+      "question": "For F<sub>1</sub> = (4i − 3j + 2k) N and F<sub>2</sub> = (−2i + 5j + 4k) N, the net force is?",
+      "options": [
+        "2i − 2j + 6k N",
+        "2i + 2j + 6k N",
+        "6i + 2j + 6k N",
+        "2i + 2j − 6k N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vector addition is component-wise. <strong>F<sub>net</sub> = F<sub>1</sub> + F<sub>2</sub> = (4−2)i + (−3+5)j + (2+4)k = 2i + 2j + 6k N</strong>. Option A has the wrong sign on j. Option C has the wrong i-coefficient (4+2 = 6, not 4−2). Option D has the wrong sign on k. Always add matching components separately.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797580107.541,
+      "question": "For A = 2i + j − 3k and B = i − 2j + k, A × B is?",
+      "options": [
+        "5i + 5j + 5k",
+        "−5i + 5j − 5k",
+        "−5i − 5j − 5k",
+        "5i − 5j + 5k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the determinant form:<br><code>| i  j  k |<br>| 2  1 −3 |<br>| 1 −2  1 |</code><br>i-component: (1)(1) − (−3)(−2) = 1 − 6 = <strong>−5</strong>.<br>j-component: −[(2)(1) − (−3)(1)] = −(2 + 3) = <strong>−5</strong>.<br>k-component: (2)(−2) − (1)(1) = −4 − 1 = <strong>−5</strong>.<br>So A × B = <strong>−5i − 5j − 5k</strong>. Option A has all wrong signs. Option B has the j-component sign wrong. Option D has the j-component sign wrong. The cross product is antisymmetric: B × A would give the positive of this result.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.7651,
+      "question": "In mechanics, the primary fundamental quantities are?",
+      "options": [
+        "Length mass time",
+        "Force work power",
+        "Current temperature mole",
+        "Area volume density"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <strong>mechanics</strong>, the three primary fundamental quantities are <strong>Length (L), Mass (M), and Time (T)</strong>. Everything mechanical — velocity, acceleration, force, work, power — can be derived from these three. Option B lists derived quantities. Option C lists fundamental quantities of electromagnetism, thermodynamics, and chemistry, not mechanics. Option D lists derived quantities (area = L², volume = L³, density = ML⁻³).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.7576,
+      "question": "Which system uses centimeter gram and second?",
+      "options": [
+        "F.P.S",
+        "M.K.S",
+        "C.G.S",
+        "S.I."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>C.G.S. system</strong> uses <strong>centimetre, gram, second</strong> as its base units of length, mass, and time. Option A (F.P.S.) uses foot, pound, second. Option B (M.K.S.) uses metre, kilogram, second. Option D (S.I.) uses metre, kilogram, second plus four more (ampere, kelvin, mole, candela). C.G.S. is still used in some branches of physics for convenience, but S.I. is the international standard.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.2158,
+      "question": "The S.I. system consists of how many fundamental base units?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <strong>S.I. system</strong> has <strong>seven</strong> fundamental base units: metre (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), and candela (luminous intensity). This is the complete modern set. Options A, B, and D are all incorrect counts. Note: some older textbooks list six, excluding the mole or candela, but the current IUPAC/IUPAP standard is seven.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.868,
+      "question": "The S.I. unit of length is?",
+      "options": [
+        "Meter",
+        "Centimeter",
+        "Foot",
+        "Inch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. base unit of <strong>length</strong> is the <strong>metre (m)</strong> — the distance light travels in vacuum in 1/299,792,458 of a second. Option B (centimetre) is the C.G.S. base unit, a submultiple of the metre. Option C (foot) is the F.P.S. unit, used in the US and UK. Option D (inch) is a smaller imperial unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.1597,
+      "question": "The S.I. unit of mass is?",
+      "options": [
+        "Gram",
+        "Pound",
+        "Kilogram",
+        "Mole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of <strong>mass</strong> is the <strong>kilogram (kg)</strong> — historically the mass of a platinum-iridium prototype cylinder kept near Paris, now defined by the Planck constant. Option A (gram) is the C.G.S. base unit — one-thousandth of a kilogram. Option B (pound) is the F.P.S. unit. Option D (mole) is the S.I. unit of amount of substance, not mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.5278,
+      "question": "The dimension symbol for time is?",
+      "options": [
+        "[L]",
+        "[M]",
+        "[T]",
+        "[I]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dimension symbol for <strong>time</strong> is <strong>[T]</strong>. Option A [L] is length. Option B [M] is mass. Option D [I] is electric current. In dimensional analysis, each fundamental quantity is represented by a capital letter inside square brackets, and every derived quantity is expressed as a product of these base dimensions raised to integer or fractional powers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.1492,
+      "question": "The S.I. unit of electric current is?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Coulomb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. base unit of <strong>electric current</strong> is the <strong>ampere (A)</strong> — one coulomb of charge per second. Option A (volt) is a derived unit — the potential difference that drives one ampere through one ohm. Option C (ohm) is derived — V/A. Option D (coulomb) is derived — A·s. Current is fundamental; voltage, resistance, and charge are all derived from it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.622,
+      "question": "The S.I. unit of temperature is?",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Mole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of <strong>temperature</strong> is the <strong>kelvin (K)</strong> — defined by fixing the Boltzmann constant. 0 K is absolute zero; the triple point of water is 273.16 K. Options A (Celsius) and B (Fahrenheit) are scale conventions, not S.I. base units. Option D (mole) is the unit for amount of substance. Note: a difference of 1 °C equals a difference of 1 K, which is why Celsius is often used alongside kelvin in practice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.571,
+      "question": "The S.I. unit of luminous intensity is?",
+      "options": [
+        "Mole",
+        "Kelvin",
+        "Candela",
+        "Ampere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of <strong>luminous intensity</strong> is the <strong>candela (cd)</strong> — the luminous power emitted by a source in a particular direction per steradian. Option A (mole) is amount of substance. Option B (kelvin) is temperature. Option D (ampere) is electric current. The candela is the least intuitive of the seven S.I. base units because it depends on human eye sensitivity, not just physical power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.2632,
+      "question": "A dimensional formula shows how derived quantities depend on what?",
+      "options": [
+        "Base dimensions",
+        "Scalar magnitudes",
+        "Vector directions",
+        "Numerical constants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <strong>dimensional formula</strong> expresses a derived quantity as a product of <strong>base dimensions</strong> (M, L, T, I, Θ, N, J) raised to particular powers. For example, velocity has dimensional formula [LT<sup>−1</sup>] — length to the first power, time to the negative first power. Options B, C, and D describe quantities themselves, not what a dimensional formula shows. Dimensional formulas say nothing about magnitude, direction, or numerical constants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.4104,
+      "question": "The dimensional formula of velocity is?",
+      "options": [
+        "[LT<sup>−1</sup>]",
+        "[LT<sup>−2</sup>]",
+        "[L<sup>2</sup>T<sup>−2</sup>]",
+        "[MLT<sup>−2</sup>]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Velocity = displacement / time. Dimension of displacement is [L], of time is [T]. So <strong>[LT<sup>−1</sup>]</strong>. Option B is [LT<sup>−2</sup>] — acceleration (velocity per unit time). Option C is [L<sup>2</sup>T<sup>−2</sup>] — same as energy per unit mass (v²). Option D is [MLT<sup>−2</sup>] — force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.1863,
+      "question": "The dimensional formula of acceleration is?",
+      "options": [
+        "[LT<sup>−1</sup>]",
+        "[LT<sup>−2</sup>]",
+        "[MLT<sup>−2</sup>]",
+        "[L<sup>2</sup>T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration = change in velocity / time. Velocity has [LT<sup>−1</sup>], divided by time [T] gives <strong>[LT<sup>−2</sup>]</strong>. Option A is velocity itself. Option C is force (mass × acceleration). Option D is the same dimension as v² (energy per unit mass), commonly used in the equation v² = 2as.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.6277,
+      "question": "From Newton's second law, the dimension of force is?",
+      "options": [
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>−1</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−3</sup>]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton's second law: F = ma. Mass has [M], acceleration has [LT<sup>−2</sup>]. Multiplying gives <strong>[MLT<sup>−2</sup>]</strong>. This is the dimension of every force — weight, tension, friction, gravitational force, etc. Option B is work/energy. Option C is pressure/stress/modulus of elasticity. Option D is power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610816.6155,
+      "question": "The dimensional formula of pressure is?",
+      "options": [
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>−1</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−3</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure = force / area. Force has [MLT<sup>−2</sup>], area has [L<sup>2</sup>]. Dividing gives <strong>[ML<sup>−1</sup>T<sup>−2</sup>]</strong>. Option A is force itself. Option C is work/energy. Option D is power. Stress and modulus of elasticity share this same dimension as pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.2043,
+      "question": "The dimensional formula of work or energy is?",
+      "options": [
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−3</sup>]",
+        "[ML<sup>−1</sup>T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work = force × distance. Force has [MLT<sup>−2</sup>], distance has [L]. Multiplying gives <strong>[ML<sup>2</sup>T<sup>−2</sup>]</strong>. This dimension is shared by work, kinetic energy, potential energy, heat, torque (in some conventions), and any form of energy. Option A is force. Option C is power. Option D is pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.4841,
+      "question": "The dimensional formula of power is?",
+      "options": [
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−3</sup>]",
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>−1</sup>T<sup>−1</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power = work / time. Work has [ML<sup>2</sup>T<sup>−2</sup>], divided by time [T] gives <strong>[ML<sup>2</sup>T<sup>−3</sup>]</strong>. Option A is work/energy. Option C is force. Option D is the dimension of coefficient of viscosity. The watt (W) — one joule per second — is the S.I. unit of power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.9163,
+      "question": "Modulus of elasticity has the same dimension as what?",
+      "options": [
+        "Strain",
+        "Stress",
+        "Force",
+        "Work"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Modulus of elasticity</strong> (Young's modulus, bulk modulus, shear modulus) is defined as stress / strain. Strain is dimensionless (length / length). So the dimension of modulus of elasticity equals the dimension of <strong>stress</strong> — [ML<sup>−1</sup>T<sup>−2</sup>]. Option A (strain) is dimensionless. Option C (force) is [MLT<sup>−2</sup>]. Option D (work) is [ML<sup>2</sup>T<sup>−2</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.2593,
+      "question": "The dimensional formula of coefficient of viscosity is?",
+      "options": [
+        "[ML<sup>−1</sup>T<sup>−1</sup>]",
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>−1</sup>T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coefficient of viscosity η relates shear stress to velocity gradient: F = η A (dv/dx). Solving for η: η = F / (A · dv/dx). Force [MLT<sup>−2</sup>] ÷ (area [L<sup>2</sup>] × velocity gradient [T<sup>−1</sup>]) gives <strong>[ML<sup>−1</sup>T<sup>−1</sup>]</strong>. Option B is force. Option C is work. Option D is pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.7986,
+      "question": "Dimensional equations are used to check what?",
+      "options": [
+        "Temperature",
+        "Direction",
+        "Homogeneity",
+        "Magnitude"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary use of dimensional equations is to check <strong>homogeneity</strong> — whether the equation is dimensionally balanced. Every term on the left side of a physically valid equation must have the same dimension as every term on the right side. Options A, B, and D describe physical properties that dimensional analysis does not check — dimensional analysis is blind to temperature, direction, and magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.683,
+      "question": "In dimensional homogeneity, L.H.S dimensions must equal what?",
+      "options": [
+        "Numerical constants",
+        "Vector components",
+        "Unit prefixes",
+        "R.H.S dimensions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <strong>principle of dimensional homogeneity</strong> states that for any valid physical equation, the dimensions on the <strong>left-hand side (L.H.S) must equal the dimensions on the right-hand side (R.H.S)</strong>. This is the bedrock of dimensional analysis. Option A is wrong because numerical constants (like 2 or ½) are dimensionless. Options B and C are irrelevant — dimensions ignore direction and units prefixes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790797610817.6375,
+      "question": "The S.I. unit of coefficient of viscosity is?",
+      "options": [
+        "kg m s<sup>−2</sup>",
+        "kg m<sup>2</sup> s<sup>−2</sup>",
+        "kg m<sup>−1</sup> s<sup>−2</sup>",
+        "kg m<sup>−1</sup> s<sup>−1</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The dimension of coefficient of viscosity is [ML<sup>−1</sup>T<sup>−1</sup>], so the S.I. unit is <strong>kg m<sup>−1</sup> s<sup>−1</sup></strong> — also written as Pa·s (pascal-second) or N·s/m². Options A, B, and C have incorrect exponents. Option A is the dimension of force. Option B is work/energy. Option C is pressure. The correct unit is essential when solving problems involving viscosity of fluids.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
