@@ -3,16 +3,718 @@
   "title": "NAU GST 111: CHAPTER 1 (CONSONANTS)",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790887467768.3584,
+      "question": "How many sounds are there in English?",
+      "options": [
+        "24",
+        "26",
+        "44",
+        "46"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467768.0864,
+      "question": "How many letters are contained in the English alphabet?",
+      "options": [
+        "24",
+        "26",
+        "40",
+        "44"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.1492,
+      "question": "What are the smallest units of sound that can distinguish one word from another?",
+      "options": [
+        "Letters",
+        "Syllables",
+        "Phonemes",
+        "Morphemes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.215,
+      "question": "Which of the following is associated with spoken language?",
+      "options": [
+        "Orthography",
+        "Letters",
+        "Spelling",
+        "Sounds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.0398,
+      "question": "The sound system of English is classified into which two major features?",
+      "options": [
+        "Oral and nasal",
+        "Segmental and supra-segmental",
+        "Vowel and consonant",
+        "Written and spoken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.2542,
+      "question": "Which of the following is a supra-segmental feature?",
+      "options": [
+        "Stress",
+        "Vowel",
+        "Consonant",
+        "Plosive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.9414,
+      "question": "Which of the following is NOT a supra-segmental feature?",
+      "options": [
+        "Rhythm",
+        "Intonation",
+        "Consonant",
+        "Stress"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.159,
+      "question": "According to Ladefoged and Johnson (2011), consonants are produced by doing what to airflow?",
+      "options": [
+        "Increasing its pressure",
+        "Making it vibrate",
+        "Restricting it in some way",
+        "Eliminating it completely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.3875,
+      "question": "How many consonant sounds are there in English?",
+      "options": [
+        "24",
+        "20",
+        "21",
+        "26"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.1382,
+      "question": "How many consonant letters represent English consonant sounds?",
+      "options": [
+        "24",
+        "26",
+        "22",
+        "21"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.349,
+      "question": "A consonant is produced when airflow in the vocal tract is what?",
+      "options": [
+        "Completely unrestricted",
+        "Completely or partially obstructed",
+        "Always released nasally",
+        "Always accompanied by vibration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.5789,
+      "question": "According to Eyisi (2007), consonants involve interference of the vocal organs with the airstream from the what?",
+      "options": [
+        "Lungs",
+        "Mouth",
+        "Nose",
+        "Glottis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.8162,
+      "question": "How many parameters are used to classify consonants?",
+      "options": [
+        "Four",
+        "Six",
+        "Three",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.5676,
+      "question": "Which of the following is NOT a parameter for classifying consonants?",
+      "options": [
+        "Place of articulation",
+        "Manner of articulation",
+        "State of glottis",
+        "Length of syllable"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.309,
+      "question": "What does place of articulation indicate?",
+      "options": [
+        "The point where a sound is produced",
+        "The duration of a sound",
+        "The loudness of a sound",
+        "The vocal cord vibration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.31,
+      "question": "Which of the following is a place of articulation?",
+      "options": [
+        "Nasal",
+        "Plosive",
+        "Fricative",
+        "Bilabial"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.833,
+      "question": "Which of the following is NOT a place of articulation?",
+      "options": [
+        "Dental",
+        "Alveolar",
+        "Plosive",
+        "Velar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.8804,
+      "question": "How many major groups are consonants classified into according to manner of articulation?",
+      "options": [
+        "Five",
+        "Six",
+        "Four",
+        "Eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.2046,
+      "question": "Which of the following is a manner of articulation?",
+      "options": [
+        "Fricative",
+        "Bilabial",
+        "Velar",
+        "Glottal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.3315,
+      "question": "What does manner of articulation describe?",
+      "options": [
+        "The spelling of a sound",
+        "The position of the tongue",
+        "The vibration of the vocal cords",
+        "The degree of obstruction during articulation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.8867,
+      "question": "What does the state of the glottis indicate?",
+      "options": [
+        "Lip position",
+        "Vocal cord vibration",
+        "Tongue position",
+        "Nasal airflow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.4788,
+      "question": "A sound produced with vibrating vocal cords is described as what?",
+      "options": [
+        "Voiced",
+        "Voiceless",
+        "Nasal",
+        "Plosive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.3066,
+      "question": "According to the material, what is true of English vowels?",
+      "options": [
+        "Half are voiced",
+        "All are voiceless",
+        "All are voiced",
+        "Half are nasal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.095,
+      "question": "How is /p/ described?",
+      "options": [
+        "Voiced bilabial plosive",
+        "Voiceless velar plosive",
+        "Voiced alveolar plosive",
+        "Voiceless bilabial plosive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.0024,
+      "question": "Which word contains /p/ in the examples given?",
+      "options": [
+        "Van",
+        "Dog",
+        "Pat",
+        "Bat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.8667,
+      "question": "In which word is the written 'p' silent?",
+      "options": [
+        "Psychology",
+        "Pen",
+        "Rapid",
+        "Pills"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.1047,
+      "question": "What distinguishes /b/ from /p/?",
+      "options": [
+        "Spelling",
+        "Voicing",
+        "Place of articulation",
+        "Manner of articulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.6245,
+      "question": "How is /b/ described?",
+      "options": [
+        "Voiced bilabial plosive",
+        "Voiceless bilabial plosive",
+        "Voiced alveolar plosive",
+        "Voiceless velar plosive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.3257,
+      "question": "In which word is the written 'b' silent?",
+      "options": [
+        "Bride",
+        "Been",
+        "Beef",
+        "Climb"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.3494,
+      "question": "How is /t/ described?",
+      "options": [
+        "Voiceless alveolar plosive",
+        "Voiced alveolar plosive",
+        "Voiceless bilabial plosive",
+        "Voiced velar plosive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.2317,
+      "question": "Where is the blade of the tongue placed when producing /t/?",
+      "options": [
+        "Against the hard palate",
+        "Against the lips",
+        "Against the lower teeth",
+        "Against the alveolar ridge"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.629,
+      "question": "In which word is the written 't' not pronounced?",
+      "options": [
+        "Ten",
+        "Listen",
+        "Tap",
+        "Eat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.108,
+      "question": "How is /d/ different from /t/?",
+      "options": [
+        "/d/ is nasal",
+        "/d/ is bilabial",
+        "/d/ is voiced",
+        "/d/ is fricative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.2393,
+      "question": "Which word has a silent written 'd'?",
+      "options": [
+        "Handsome",
+        "Dog",
+        "Card",
+        "Ladder"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.8516,
+      "question": "The past tense marker '-ed' can be realized as which three sounds?",
+      "options": [
+        "/p/, /b/, /m/",
+        "/k/, /g/, /ŋ/",
+        "/s/, /z/, /ʃ/",
+        "/t/, /d/, /ɪd/"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.779,
+      "question": "How is /k/ described?",
+      "options": [
+        "Voiced velar plosive",
+        "Voiceless velar plosive",
+        "Voiced alveolar plosive",
+        "Voiceless dental fricative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.2578,
+      "question": "Which spelling symbol can represent /k/?",
+      "options": [
+        "'th'",
+        "'ph'",
+        "'ck'",
+        "'sh'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.488,
+      "question": "In which word is the written 'k' silent?",
+      "options": [
+        "Key",
+        "Kettle",
+        "Carry",
+        "Knight"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.536,
+      "question": "How is /g/ described?",
+      "options": [
+        "Voiced velar plosive",
+        "Voiceless velar plosive",
+        "Voiced alveolar plosive",
+        "Voiceless glottal fricative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.0337,
+      "question": "In which word is the written 'g' silent?",
+      "options": [
+        "Get",
+        "Gnaw",
+        "Gown",
+        "Aghast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467769.5679,
+      "question": "How is /f/ described?",
+      "options": [
+        "Voiced labiodental fricative",
+        "Voiceless dental fricative",
+        "Voiced alveolar fricative",
+        "Voiceless labiodental fricative"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.3062,
+      "question": "What articulatory action is involved in producing /f/?",
+      "options": [
+        "Tongue against alveolar ridge",
+        "Lips against each other",
+        "Lower lip against upper teeth",
+        "Tongue against hard palate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.3247,
+      "question": "Which spelling combination represents /f/ in \"physics\"?",
+      "options": [
+        "'ph'",
+        "'gh'",
+        "'ff'",
+        "'ieu'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.7402,
+      "question": "How is /v/ described?",
+      "options": [
+        "Voiceless labiodental fricative",
+        "Voiced labiodental fricative",
+        "Voiced dental fricative",
+        "Voiceless alveolar fricative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.946,
+      "question": "How is /θ/ described?",
+      "options": [
+        "Voiced dental fricative",
+        "Voiceless dental fricative",
+        "Voiced alveolar fricative",
+        "Voiceless velar fricative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.669,
+      "question": "Which spelling symbol represents /θ/ and /ð/?",
+      "options": [
+        "'sh'",
+        "'ph'",
+        "'ch'",
+        "'th'"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.3655,
+      "question": "Which of the following contains the voiceless dental fricative /θ/?",
+      "options": [
+        "Thin",
+        "This",
+        "Then",
+        "Those"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.9585,
+      "question": "What is the voiced counterpart of /θ/?",
+      "options": [
+        "/s/",
+        "/z/",
+        "/ð/",
+        "/ʃ/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.2996,
+      "question": "Which of the following is a voiceless alveolar fricative?",
+      "options": [
+        "/z/",
+        "/v/",
+        "/ð/",
+        "/s/"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790887467770.2075,
+      "question": "Which statement about /ŋ/ is correct?",
+      "options": [
+        "It is the only English lateral sound",
+        "It is the only English sound that cannot occur in initial position",
+        "It occurs freely in initial position",
+        "It is a voiceless velar nasal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
