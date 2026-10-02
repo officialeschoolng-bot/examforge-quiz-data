@@ -3,16 +3,718 @@
   "title": "NAU GST 113: CHAPTER 1",
   "subject": "GST 113",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1790965980144.8884,
+      "question": "What is society according to the material?",
+      "options": [
+        "A group of people living in the same area",
+        "A collection of individuals interacting for a common goal",
+        "A system of government and laws",
+        "A community bound by religious beliefs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Society</strong> in legal and sociological terms is a collection of individuals who interact together for common purposes. Option A describes a mere population or locality, which is not sufficient — a shared goal or interaction is what makes a society. Option C describes a government, which is one <em>institution within</em> society, not society itself. Option D narrows it to religion, which excludes secular and pluralistic societies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980146.3103,
+      "question": "What leads to chaos and anarchy in society?",
+      "options": [
+        "Lack of common goals",
+        "Unregulated conflicts of interest",
+        "Absence of a sovereign",
+        "Too many laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human beings have competing interests — over property, resources, status, and power. When these conflicts are <strong>unregulated</strong>, they escalate into chaos and anarchy. Law exists precisely to regulate these conflicts. Option A is a contributing factor but not the primary cause — a society can share goals and still fight over how to divide the benefits. Option C is a definitional consequence (absence of a sovereign often accompanies anarchy), not the cause. Option D is the opposite — too <em>few</em> enforceable laws leads to anarchy, not too many.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980149.8267,
+      "question": "Law is best described as which means of social control?",
+      "options": [
+        "Informal",
+        "Formal",
+        "Religious",
+        "Cultural"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social control operates through two channels — <strong>informal</strong> (customs, norms, family, religion) and <strong>formal</strong> (law, courts, police). Law is the <em>formal</em> means because it is written, backed by the state, and enforced through organised sanctions. Options A, C, and D all describe informal mechanisms — they influence behaviour, but they lack the state's enforcement machinery. Only law is formal social control.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.3506,
+      "question": "Which of the following is NOT a function of law?",
+      "options": [
+        "Defining individual rights",
+        "Creating obligations",
+        "Promoting chaos",
+        "Providing remedies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Law's core functions are to define rights, impose obligations, resolve disputes, and provide remedies for wrongs. <strong>Promoting chaos</strong> is the opposite of what law does — it is law's <em>absence</em> that produces chaos (see Q2). Options A, B, and D are all standard functions. This question tests whether you can spot the contradiction: no system of law is designed to create disorder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.8774,
+      "question": "Law serves as an instrument of what kind of engineering?",
+      "options": [
+        "Mechanical",
+        "Social",
+        "Electrical",
+        "Civil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is Roscoe Pound's famous phrase — law as <strong>social engineering</strong>. Law is the tool society uses to balance competing interests, allocate resources, and resolve conflicts in an orderly way, just as an engineer designs structures to bear loads safely. Options A, C, and D refer to the physical engineering disciplines, not the sociological function of law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.4912,
+      "question": "What does law establish to limit the powers of authorities?",
+      "options": [
+        "Social institutions",
+        "Religious orders",
+        "Cultural norms",
+        "Economic policies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Law establishes <strong>social institutions</strong> — courts, legislatures, regulatory bodies, and constitutional checks — that limit and channel the powers of authorities. Without these institutions, rulers would be absolute. Option B is a category of organisation, not a mechanism of legal limitation. Options C and D are subject areas that law <em>regulates</em>, not mechanisms through which law limits authority.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.0554,
+      "question": "A society without law is compared to what?",
+      "options": [
+        "A car without fuel",
+        "A human body without blood",
+        "A house without a roof",
+        "A tree without roots"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The classic metaphor is that law is to society what <strong>blood</strong> is to the human body — it circulates through every part, carrying the essential elements that keep the organism alive and functioning. Remove it and the body dies. Option A (fuel) is a consumable input, not a circulating life-force. Options C and D are static analogies that miss the <em>dynamic, circulatory</em> role of law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.1975,
+      "question": "Law is the lifeline of every what?",
+      "options": [
+        "Civilized society",
+        "Political party",
+        "Religious group",
+        "Economic system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Law is the lifeline of every <strong>civilized society</strong> — the phrase emphasises that \"civilisation\" in the legal sense means a society governed by rules rather than by force or caprice. Options B, C, and D are all <em>subgroups</em> within a society. Law is not unique to them, and they can exist (though badly) without law. Only a civilized society is defined by the rule of law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.0007,
+      "question": "In Hindu culture, law implies which term?",
+      "options": [
+        "Hokum",
+        "Dharma",
+        "Jus",
+        "Droit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Hindu tradition, <strong>Dharma</strong> is the concept that encompasses law, duty, righteousness, and cosmic order — it means much more than Western \"law,\" covering moral, religious, and social obligations. Option A (Hokum) is the Islamic term. Option C (Jus) is Roman/Latin. Option D (Droit) is French. Each culture has its own term, and the point of this question is to associate the right term with the right culture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.6165,
+      "question": "In Islamic culture, law means which term?",
+      "options": [
+        "Hokum",
+        "Dharma",
+        "Legam",
+        "Alqanoon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Islamic jurisprudence, <strong>Hokum</strong> (also transliterated <em>hukm</em>) means a ruling or judgment — the legal command that governs conduct. Option A is the source's marked answer. Option B (Dharma) is Hindu. Option D (Alqanoon) is also Arabic, but more specifically means codified statute law rather than the broader concept of legal ruling. Option C (Legam) is not a standard legal term.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.3955,
+      "question": "To the Romans, law means which term?",
+      "options": [
+        "Jus",
+        "Droit",
+        "Legam",
+        "Hokum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Roman term for law is <strong>Jus</strong> (or <em>ius</em>) — the root of English words like \"justice,\" \"jurisprudence,\" and \"judiciary.\" Option B (Droit) is French, but French law inherited Roman concepts. Option D (Hokum) is Islamic. Option C is not a standard term. This is why Roman law is foundational to most modern legal systems — the vocabulary survives even where the substance has changed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.1562,
+      "question": "To the legislature, law means all EXCEPT?",
+      "options": [
+        "Statutes",
+        "Acts",
+        "Prophecies",
+        "Regulations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From the legislature's perspective, law is what it <em>enacts</em> — <strong>statutes, acts, and regulations</strong>. All three are forms of deliberate, written, institutional law-making. <strong>Prophecies</strong> is not a legislative concept — it belongs to the <em>realist</em> school of jurisprudence (Holmes's definition of law as \"prophecies of what courts will do\"). This question tests whether you can distinguish legislative language from realist language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.4363,
+      "question": "According to realists, law is what?",
+      "options": [
+        "Command of the sovereign",
+        "What courts say it is",
+        "Body of principles",
+        "Ordinance of reason"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Legal <strong>realists</strong> (led by Oliver Wendell Holmes Jr.) argue that law is not what is written in statutes but <strong>what courts actually do</strong> — the predictions of how judges will decide real cases. Option A is Austin's positivist view. Option C is Salmond's definition. Option D is Aquinas's natural law definition. Each school gives a different answer to \"what is law?\", and realism is the most pragmatic of the four.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.9436,
+      "question": "According to positivists, law is what?",
+      "options": [
+        "Command of the sovereign",
+        "What courts say it is",
+        "Rule of human conduct",
+        "General rule of external action"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Legal positivists</strong>, following John Austin, define law as the <strong>command of the sovereign backed by sanctions</strong>. What matters is not morality but the fact that a recognised authority issued the command. Option B is the realist view. Options C and D are variations of the general definition shared by Salmond and Holland. The positivist slogan is: \"the existence of law is one thing, its merit or demerit is another.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.8445,
+      "question": "Who said the definition of law is the battleground of jurists?",
+      "options": [
+        "Salmond",
+        "John Austin",
+        "Roscoe Pound",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<strong>Roscoe Pound</strong> observed that \"the definition of law is a battleground of jurists\" — meaning there is no single agreed definition, because each school of jurisprudence approaches law from a different angle (positivism, natural law, sociology, realism, etc.). Options A, B, and D all proposed their own definitions; Pound was commenting on the impossibility of a universal one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.2583,
+      "question": "Salmond defined law as what?",
+      "options": [
+        "Command obliging conduct",
+        "Body of principles recognized and applied by the state",
+        "Rule of human conduct imposed",
+        "Prophecies of what courts will do"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Salmond</strong> defined law as \"the body of principles recognised and applied by the State in the administration of justice.\" Note two things: it is a <em>body of principles</em> (not just a single command), and it is <em>recognised and applied by the State</em> — emphasising the institutional dimension. Option A is Austin-flavoured. Option C is Nnabue's. Option D is Holmes's.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.2808,
+      "question": "John Austin defined law as what?",
+      "options": [
+        "Command set by superior and enforced by sanctions",
+        "General rule of external action",
+        "Ordinance of reason for common good",
+        "Rule of human conduct enforced among members"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Austin</strong> defined law as a \"command set by a superior to an inferior and enforced by sanctions\" — his famous <em>command theory of law</em>. Three elements: (1) a sovereign issuing the command, (2) a subject who must obey, (3) a sanction if they don't. Option B is Holland's. Option C is Aquinas's. Option D is Nnabue's.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.56,
+      "question": "Nnabue defined law as what?",
+      "options": [
+        "Rule of human conduct imposed and enforced",
+        "Command of the sovereign",
+        "Body of principles",
+        "Prophecies of courts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Nnabue</strong> — a Nigerian jurist — defined law as a \"rule of human conduct imposed and enforced by the state.\" This is a more concise version of Salmond and Holland, with an emphasis on <em>enforcement</em> as the defining feature. Option B is Austin's definition. Option C is Salmond's. Option D is Holmes's.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.2612,
+      "question": "Thomas Holland defined law as what?",
+      "options": [
+        "General rule of external human action enforced by political sovereign",
+        "Command obliging conduct",
+        "Ordinance of reason",
+        "Body of principles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Thomas Erskine Holland</strong> defined law as \"a general rule of external human action enforced by a sovereign political authority.\" Note the word <em>external</em> — Holland was drawing a line between the internal world of conscience (which law cannot govern) and the external conduct that law actually regulates. Option A is his definition. Option B is Austin-flavoured, Option C is Aquinas, Option D is Salmond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.0293,
+      "question": "Oliver Wendell Holmes defined law as what?",
+      "options": [
+        "Prophecies of what courts will do",
+        "Command of sovereign",
+        "Rule of human conduct",
+        "Ordinance of reason"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Holmes</strong> famously said: \"The prophecies of what the courts will do in fact, and nothing more pretentious, are what I mean by the law.\" This is the foundational statement of legal realism — law is not what statutes say, but what judges actually decide. Option B is Austin. Option C is the general pre-modern view. Option D is Aquinas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980151.286,
+      "question": "Thomas Aquinas defined law as what?",
+      "options": [
+        "Ordinance of reason for common good",
+        "Command of sovereign",
+        "Body of principles",
+        "Prophecies of courts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Thomas Aquinas</strong> defined law as \"an ordinance of reason for the common good, made by him who has care of the community, and promulgated.\" This is the foundational natural-law definition — law must be (1) reasonable, (2) aimed at the common good, (3) made by a legitimate authority, and (4) published. Option B is Austin. Option C is Salmond. Option D is Holmes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.0217,
+      "question": "According to Green, the nature of law is gleaned from what?",
+      "options": [
+        "Its definition",
+        "Its function",
+        "Its source",
+        "Its sanction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Green</strong> argued that you cannot understand what law <em>is</em> by looking at where it comes from or what its definition says — you understand it by what it <em>does</em>. Law's nature is gleaned from its <strong>function</strong>: it regulates conduct, resolves disputes, and maintains order. Option A is circular. Options C and D are the positivist approaches (source, sanction), which Green criticised as incomplete.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.9202,
+      "question": "Which characteristic of law means it prescribes what should be done?",
+      "options": [
+        "Normative",
+        "Coercive",
+        "Dynamic",
+        "Universal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Law is <strong>normative</strong> because it prescribes what <em>ought</em> to be done — it sets standards for behaviour, not just descriptions of what happens. The word comes from \"norm,\" meaning a standard or rule. Option B (coercive) refers to enforcement through sanctions. Option C (dynamic) refers to law's ability to change. Option D (universal) refers to law existing in every society. Each characteristic is distinct, and this question tests whether you can match the label to the meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.0527,
+      "question": "Law is made by a sovereign, meaning it emanates from what?",
+      "options": [
+        "The people directly",
+        "A higher authority",
+        "The courts",
+        "Customs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sovereign character of law means it emanates from a <strong>higher authority</strong> — a legislature, a monarch, or another sovereign body recognised as having the power to make binding rules. Option A is misleading — in a democracy the sovereign is <em>derived</em> from the people, but law-making is delegated to representatives, not exercised by the people directly (except in rare referenda). Option C (courts) interpret and apply law more than they make it. Option D (customs) predate the sovereign and are only law when recognised by the sovereign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.9631,
+      "question": "Which characteristic of law means states ensure compliance through sanctions?",
+      "options": [
+        "Normative",
+        "Coercive",
+        "Dynamic",
+        "Territorial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Law is <strong>coercive</strong> because the state backs it with sanctions — fines, imprisonment, damages, or other penalties. Without coercion, law would be mere advice. Option A (normative) is about prescribing behaviour, not enforcing it. Option C (dynamic) is about change. Option D (territorial) is about geographical scope. Only \"coercive\" describes the enforcement mechanism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.2366,
+      "question": "Which law is given as an example of a non-coercive law?",
+      "options": [
+        "Criminal Code",
+        "Wills Law",
+        "Constitution",
+        "Penal Code"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Wills Law</strong> is the source's example of a non-coercive law. Wills are voluntary instruments — the law <em>facilitates</em> them and provides rules for their validity, but does not force anyone to make a will. Options A (Criminal Code) and D (Penal Code) are quintessentially coercive — they define crimes and prescribe punishments. Option C (Constitution) is coercive on public authorities but also rights-granting on individuals. The Wills example is the cleanest case of a law that operates without coercion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.2815,
+      "question": "Law is the expression of the common will of the people because lawmakers exercise what?",
+      "options": [
+        "Their own power",
+        "The mandate of the electorate",
+        "Judicial authority",
+        "Traditional authority"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a democracy, lawmakers act as <strong>representatives of the electorate</strong> — they exercise the mandate granted to them through elections. Their law-making power is a delegated authority, not personal power. Option A is the opposite (autocracy or dictatorship). Option C is judicial, not legislative. Option D is pre-modern and not the basis for legislative authority in a modern state.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.053,
+      "question": "Law exists in a social context, meaning it does not exist in what?",
+      "options": [
+        "A vacuum",
+        "A state",
+        "A court",
+        "A legislature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Law does not exist in a <strong>vacuum</strong> — it is made by and for a particular society, shaped by that society's history, values, and problems. Change the society and the law changes with it. Options B, C, and D are all institutions that exist <em>within</em> a social context, not alternatives to it. The point of this characteristic is that law is always embedded in a social setting, never abstract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.549,
+      "question": "Law has territorial limitation, meaning it applies where?",
+      "options": [
+        "Everywhere",
+        "Within a state's territory",
+        "Only in courts",
+        "Only to citizens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Law applies <strong>within the territory of the state that made it</strong>. Nigerian law governs conduct on Nigerian soil, not in Ghana or the USA. Option A is false — no country's domestic law applies universally. Option C is wrong — law governs conduct outside the courtroom (on the street, in the home, in business), not just in proceedings. Option D is wrong — it also applies to non-citizens present in the territory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.3914,
+      "question": "Which example illustrates territorial limitation?",
+      "options": [
+        "Nigerian law applies in USA",
+        "Nigerian law does not apply in USA",
+        "Nigerian law applies globally",
+        "Nigerian law applies to aliens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The clearest illustration is that <strong>Nigerian law does not apply in the USA</strong> — a Nigerian statute has no legal force on American soil unless the USA chooses to give it effect (which it normally doesn't). Option A is false. Option C is false. Option D is actually true as a matter of law — Nigerian law <em>does</em> apply to aliens within Nigeria's borders — but it does not illustrate territorial limitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.23,
+      "question": "Law is dynamic because it changes according to what?",
+      "options": [
+        "The needs of society",
+        "The whims of judges",
+        "The wishes of the sovereign",
+        "The customs of other nations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Law is <strong>dynamic</strong> because it evolves to meet the <strong>changing needs of society</strong>. As technology, commerce, and social values shift, law adapts — think of cybercrime law, data protection, or same-sex marriage debates. Option B is the realist caricature — judges apply law, they don't change it on a whim. Option C is authoritarian — in a democratic state the sovereign's \"wishes\" are constrained by law. Option D is irrelevant — no state changes its laws just because another state does.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.2913,
+      "question": "Law is universal in the sense that every society has what?",
+      "options": [
+        "A constitution",
+        "Laws applicable to it",
+        "A sovereign",
+        "A court system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Law is <strong>universal</strong> in the sense that <em>every</em> human society has <strong>laws applicable to it</strong> — some system of binding rules that governs conduct. Option A is false — many societies function without a written constitution (e.g. the UK). Option C is arguable — the concept of \"sovereign\" varies across societies and some have none in the Austinian sense. Option D is false — some societies have informal dispute resolution without formal courts. Only the general idea that every society has law is truly universal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.7202,
+      "question": "Which is the oldest theory of law?",
+      "options": [
+        "Positivist",
+        "Natural law",
+        "Sociological",
+        "Functional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Natural law theory</strong> is the oldest — it goes back to ancient Greece (Plato, Aristotle, Sophocles), was developed by the Stoics, and matured in the Christian tradition through Aquinas. It holds that there is a higher moral order that human law must conform to. Option A (positivism) emerged in the 19th century with Austin. Options C (sociological) and D (functional) are 20th-century developments. Natural law predates all of them by more than two millennia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.602,
+      "question": "Who is a proponent of natural law theory?",
+      "options": [
+        "John Austin",
+        "Thomas Aquinas",
+        "Roscoe Pound",
+        "Oliver Wendell Holmes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>Thomas Aquinas</strong> (13th century) is the most famous proponent of natural law theory — his <em>Summa Theologica</em> laid out the four types of law (eternal, natural, human, divine) and argued that human law must conform to natural law to be valid. Option A (Austin) is positivist. Option C (Pound) is sociological. Option D (Holmes) is realist. The four schools are commonly associated with these four figures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.9924,
+      "question": "Natural law theory postulates principles from what source?",
+      "options": [
+        "A supernatural being",
+        "The sovereign",
+        "The courts",
+        "Customs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Natural law theory holds that its principles come from a <strong>supernatural being</strong> — God, or the divine order — or (in secular versions) from a universal moral order accessible to human reason. Either way, the source is <em>higher than human law-making</em>. Option B (sovereign) is the positivist source. Option C (courts) is the realist source. Option D (customs) is the historical source. Natural law is distinctive in locating the source of law outside any human institution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.1448,
+      "question": "According to natural law theory, an unjust law is what?",
+      "options": [
+        "Still law",
+        "Not law",
+        "Valid law",
+        "Customary law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The classical natural law maxim, attributed to Augustine and Aquinas, is: <em>lex injusta non est lex</em> — \"an unjust law is <strong>not law</strong>.\" If a human law contradicts natural law, it lacks the moral force that makes a law truly binding. Option A is the positivist response — Austin and Hart would say an unjust law is still law, just bad law. Option C is similarly positivist. Option D is unrelated. This question captures the sharpest disagreement between natural law and positivism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.2625,
+      "question": "What is a critique of natural law theory?",
+      "options": [
+        "It is too certain",
+        "It lacks codification",
+        "It is too empirical",
+        "It is too modern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard critique of natural law is that it is <strong>uncodified and vague</strong> — nobody can point to a definitive text or procedure that tells you what natural law requires in a given case. Different interpreters reach different conclusions. Option A is the opposite — natural law is often criticised for being <em>uncertain</em>, not overly certain. Option C is false — it is not empirical. Option D is false — it is ancient, not modern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.745,
+      "question": "Who are proponents of positivist law theory?",
+      "options": [
+        "Thomas Aquinas and Socrates",
+        "John Austin and H.L.A. Hart",
+        "Roscoe Pound and Savigny",
+        "Jeremy Bentham and Holmes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<strong>John Austin</strong> (19th century) and <strong>H.L.A. Hart</strong> (20th century) are the two great positivists — Austin with the command theory, Hart with the rule of recognition and the concept of law as a union of primary and secondary rules. Option A is natural law tradition. Option C mixes sociological (Pound) and historical (Savigny). Option D pairs Bentham (positivist, true) with Holmes (realist, not positivist). The correct answer requires two clean positivists.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.7378,
+      "question": "Positivist law theory holds that law is what?",
+      "options": [
+        "Command of the sovereign",
+        "What courts say",
+        "Reflection of custom",
+        "Ordinance of reason"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positivism's classic statement is <strong>Austin's command theory</strong> — law is the command of a sovereign backed by sanctions. Option B (courts) is the realist view. Option C (custom) is the historical view. Option D (ordinance of reason) is Aquinas's natural-law view. The positivist test is not the content of the law but the source: if it was issued by the sovereign, it is law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.001,
+      "question": "According to positivists, the validity of law depends on what?",
+      "options": [
+        "Its morality",
+        "Being made by a determinate person",
+        "Its conformity to natural law",
+        "Its social utility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For positivists, a law is valid because it was <strong>made by a determinate person or body</strong> with the authority to do so — not because it is moral, just, or useful. Options A, C, and D are all criteria used by other schools. Option A and C are natural law criteria. Option D is the utilitarian criterion. Only Option B captures the positivist insistence that validity is a matter of source, not content.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.931,
+      "question": "Why did positivists deny international law the status of law?",
+      "options": [
+        "It lacks a determinate sovereign",
+        "It is unjust",
+        "It is not written",
+        "It is too old"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Austin argued that <strong>international law lacks a determinate sovereign</strong> — there is no world government that commands states and enforces obedience through sanctions. Since there is no command backed by a sovereign, positivists of Austin's stripe denied international law the technical status of \"law\" (Austin called it \"positive morality\"). Option B is a natural-law criterion, not the positivist objection. Option C is false — much of international law is written in treaties. Option D is irrelevant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.5488,
+      "question": "Who is the major proponent of sociological theory?",
+      "options": [
+        "Roscoe Pound",
+        "John Austin",
+        "Thomas Aquinas",
+        "Savigny"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Roscoe Pound</strong> is the leading figure of the sociological school. His theory of \"law as social engineering\" argues that law's purpose is to balance competing social interests and satisfy the maximum of wants with the minimum of friction. Option B (Austin) is positivist. Option C (Aquinas) is natural law. Option D (Savigny) is historical. The sociological school emerged in the early 20th century as a reaction against formalism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.6394,
+      "question": "Sociological theory sees law as an instrument of what?",
+      "options": [
+        "Social engineering",
+        "Divine command",
+        "Judicial prophecy",
+        "Customary practice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sociological school's central metaphor is <strong>social engineering</strong> — law is a tool for designing and adjusting the social order, balancing interests, and resolving conflicts. Option B is natural law. Option C is realism. Option D is historical. The sociological view shifts the focus from what law <em>is</em> to what it <em>does for society</em>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.0603,
+      "question": "What is a critique of sociological theory?",
+      "options": [
+        "It ignores social problems",
+        "It is difficult to fix a value to each interest",
+        "It is too formal",
+        "It denies sanctions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard critique of the sociological school is that it is <strong>hard to assign a value to each competing interest</strong>. Pound tells us law should balance interests, but doesn't tell us how to weigh them — how do you compare the value of free speech against national security, or economic growth against environmental protection? Option A is false — the school is all about social problems. Option C is false — it is expressly anti-formalist. Option D is false — it does not deny sanctions; it just places less emphasis on them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.1453,
+      "question": "Who is the major proponent of functional theory?",
+      "options": [
+        "Oliver Wendell Holmes Jr.",
+        "Roscoe Pound",
+        "John Austin",
+        "Jeremy Bentham"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material identifies <strong>Oliver Wendell Holmes Jr.</strong> as the major proponent of functional theory. Note for accuracy: Holmes is more commonly classified as a <em>realist</em> (his \"prophecies\" definition), and functionalism is usually associated with the sociological tradition. If your course groups Holmes with the functionalists, follow your course. Option B (Pound) is the sociological school. Option C (Austin) is positivist. Option D (Bentham) is utilitarian.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.6401,
+      "question": "Functional theory defines law as what?",
+      "options": [
+        "Prophecies of what courts will do",
+        "Command of sovereign",
+        "Ordinance of reason",
+        "Custom of the people"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Following Holmes, the functional theory defines law as the <strong>prophecies of what courts will do</strong> — law is understood by looking at its practical operation and outcomes rather than its formal source or its moral content. Option B is Austin's positivism. Option C is Aquinas's natural law. Option D is Savigny's historical school. The functional approach is outcome-oriented.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.9702,
+      "question": "What is a weakness of functional theory?",
+      "options": [
+        "It ignores legislative authority",
+        "It focuses on natural law",
+        "It emphasizes custom",
+        "It rejects court decisions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The functional theory's focus on what courts <em>do</em> tends to <strong>ignore legislative authority</strong> — the role of statutes, regulations, and constitutional provisions enacted by non-judicial bodies. It also overstates the role of judges as law-makers. Option B is false — functional theory is not natural-law oriented. Option C is false — it does not emphasise custom; that is the historical school. Option D is false — it is entirely built on court decisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.0876,
+      "question": "Who is the major proponent of historical theory?",
+      "options": [
+        "Friedrich Carl Von Savigny",
+        "John Austin",
+        "Roscoe Pound",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<strong>Friedrich Carl von Savigny</strong> (1779–1861) founded the historical school of jurisprudence. He argued that law is not made deliberately but grows organically from the customs and spirit of a people. Option B (Austin) is positivist. Option C (Pound) is sociological. Option D (Aquinas) is natural law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.9387,
+      "question": "Historical theory says law proceeds from what?",
+      "options": [
+        "Custom (volkgeist)",
+        "Sovereign command",
+        "Court prophecies",
+        "Natural reason"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The historical school's central concept is the <strong>Volkgeist</strong> — the \"spirit of the people.\" Law is not imposed from above by a sovereign; it emerges organically from a community's customs, traditions, and shared identity, and is only later codified. Option B is positivism. Option C is realism. Option D is natural law. The Volkgeist idea is distinctly German and Romantic in origin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1790965980152.212,
+      "question": "According to utilitarian law, what is the most important utility?",
+      "options": [
+        "Equality",
+        "Liberty",
+        "Security",
+        "Abundance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilitarian jurisprudence — especially Bentham's — holds that the goal of law is to maximise the greatest happiness of the greatest number. Among the \"utilities\" that law serves, the source identifies <strong>security</strong> as the most important because without security of person and property, no other good (equality, liberty, abundance) can be reliably enjoyed. Option A (equality) and Option B (liberty) are important, but they presuppose the security that makes them usable. Option D (abundance) is a consequence of a secure society, not a primary legal aim.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
