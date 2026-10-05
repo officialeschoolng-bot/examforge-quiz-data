@@ -172,7 +172,7 @@
     },
     {
       "id": 1791225281842.6472,
-      "question": "Immunology is the study of what system?",
+      "question": "Immunology is the study of ________",
       "options": [
         "Digestive system",
         "Nervous system",
@@ -188,9 +188,9 @@
       "id": 1791225281842.9429,
       "question": "Microbiology is the study of which organisms?",
       "options": [
-        "Only plants",
-        "Only animals",
-        "Only fungi",
+        "Cellular organisms",
+        "Macroscopic organisms",
+        "Disease of Micro-Organisms",
         "Microscopic organisms"
       ],
       "correctAnswer": 3,
@@ -228,7 +228,7 @@
     },
     {
       "id": 1791225281842.7979,
-      "question": "Pharmacology is the study of interactions between what?",
+      "question": "Pharmacology is the study of interactions between ________",
       "options": [
         "Plants and animals",
         "Cells and molecules",
@@ -256,7 +256,7 @@
     },
     {
       "id": 1791225281842.5056,
-      "question": "Zoology is the study of animals, including classification, physiology, development, and what else?",
+      "question": "Zoology is the study of animals, including classification, physiology, development, and their ________",
       "options": [
         "Anatomy only",
         "Genetics only",
@@ -270,12 +270,12 @@
     },
     {
       "id": 1791225281842.5042,
-      "question": "The term living things refers to any organism that possesses what?",
+      "question": "The term living things refers to any organism that possesses _________",
       "options": [
         "A cell wall only",
         "A nucleus only",
         "Motility only",
-        "Characteristics of life"
+        "Life"
       ],
       "correctAnswer": 3,
       "explanation": "Living things possess the characteristics of life or being alive.",
@@ -326,7 +326,7 @@
     },
     {
       "id": 1791225281842.1458,
-      "question": "Animals are basically living organisms that are motile and what else?",
+      "question": "Which of these is a characteristics of animals?",
       "options": [
         "Photosynthetic",
         "Non-motile",
@@ -340,7 +340,7 @@
     },
     {
       "id": 1791225281842.8286,
-      "question": "Plants are non-motile, photosynthetic, and have what feature?",
+      "question": "Which if these is a feature of plants? ",
       "options": [
         "No nucleus",
         "No wall",
@@ -452,7 +452,7 @@
     },
     {
       "id": 1791225281842.0156,
-      "question": "Classes are further subdivided into what?",
+      "question": "What level are classes further subdivided into?",
       "options": [
         "Phyla",
         "Kingdoms",
@@ -480,7 +480,7 @@
     },
     {
       "id": 1791225281842.958,
-      "question": "Orders are divided into what?",
+      "question": "Orders are divided into what levels?",
       "options": [
         "Classes",
         "Families",
@@ -494,7 +494,7 @@
     },
     {
       "id": 1791225281842.1436,
-      "question": "Organisms within a family are said to be what because of familiarity?",
+      "question": "Organisms within a family are said to be ______________",
       "options": [
         "Unrelated to each other",
         "Identical to each other",
@@ -508,14 +508,14 @@
     },
     {
       "id": 1791225281842.109,
-      "question": "Genus is a way to characterize what for an organism?",
+      "question": "What is the second name in the binomial (two part) name of an organism",
       "options": [
         "The species name",
         "The family name",
         "The order name",
         "The generic name"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "explanation": "Genus is a way to characterize the generic name for an organism.",
       "difficulty": "easy",
       "points": 1
@@ -536,12 +536,12 @@
     },
     {
       "id": 1791225281842.1538,
-      "question": "Species is the lowest and most exacting level of what?",
+      "question": "What is the lowest and most exacting level of classification?",
       "options": [
-        "Organization",
-        "Classification",
-        "Interaction",
-        "Mutation"
+        "Family ",
+        "Species",
+        "Genus",
+        "Class"
       ],
       "correctAnswer": 1,
       "explanation": "Species is the lowest and most exacting level of classification of living things.",
@@ -620,7 +620,7 @@
     },
     {
       "id": 1791225281842.8538,
-      "question": "Organisms can be classified according to their source of energy and their source of what for the synthesis of cellular material?",
+      "question": "Organisms can be classified according to their source of energy and their source of ________  for the synthesis of cellular material?",
       "options": [
         "Nitrogen",
         "Oxygen",
@@ -634,7 +634,7 @@
     },
     {
       "id": 1791225281842.132,
-      "question": "Autotrophs are organisms that can produce their own energy-rich organic compounds using what?",
+      "question": "Autotrophs are organisms that can produce their own energy-rich organic compounds using ___________",
       "options": [
         "Organic sources only",
         "Other organisms only",
@@ -648,7 +648,7 @@
     },
     {
       "id": 1791225281842.4124,
-      "question": "Heterotrophs obtain energy by consuming what?",
+      "question": "Heterotrophs obtain energy by consuming _________",
       "options": [
         "Sunlight",
         "Inorganic compounds",
@@ -676,7 +676,7 @@
     },
     {
       "id": 1791225281842.4841,
-      "question": "Chemoautotrophs use energy obtained from what to produce organic molecules?",
+      "question": "Chemoautotrophs use energy obtained from ________ to produce organic molecules?",
       "options": [
         "Sunlight",
         "Chemical reactions",
@@ -690,7 +690,7 @@
     },
     {
       "id": 1791225281842.0688,
-      "question": "Photoheterotrophs obtain energy from sunlight but rely on what as a source of carbon?",
+      "question": "Photoheterotrophs obtain energy from sunlight but rely on ________ as a source of carbon?",
       "options": [
         "Inorganic compounds",
         "Carbon dioxide",
@@ -704,7 +704,7 @@
     },
     {
       "id": 1791225281842.5247,
-      "question": "Chemoheterotrophs obtain both energy and carbon from what?",
+      "question": "Chemoheterotrophs obtain both energy and carbon from _________",
       "options": [
         "Sunlight and carbon dioxide",
         "Inorganic compounds only",
