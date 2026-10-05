@@ -3,16 +3,718 @@
   "title": "CHM 108 ( UNN ) : REVISION QUIZ 1",
   "subject": "CHM 108",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791221549641.0488,
+      "question": "What shape is a typical beaker?",
+      "options": [
+        "Round with a long neck",
+        "Conical with a narrow neck",
+        "Cylindrical with a flat base",
+        "Spherical with a side arm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A beaker is a cylindrical container with a flat bottom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.2632,
+      "question": "Who created the Erlenmeyer flask?",
+      "options": [
+        "Emil Erlenmeyer",
+        "Robert Koch",
+        "Julius Petri",
+        "David Stark"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Emil Erlenmeyer, a German chemist, created it in 1860.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6475,
+      "question": "Florence flask is usually made of which material?",
+      "options": [
+        "Fused quartz",
+        "Borosilicate glass",
+        "Porcelain clay",
+        "Teflon plastic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Florence flask is frequently composed of borosilicate glass such as Pyrex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.3594,
+      "question": "What is the main purpose of a Volumetric flask? ",
+      "options": [
+        "Cell culture growth",
+        "Vacuum filtration",
+        "Accurate dilutions",
+        "Heating samples"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volumetric flasks are used for accurate dilutions and standard solution production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.0874,
+      "question": "Buchner flask is designed for what purpose?",
+      "options": [
+        "Vacuum filtration",
+        "Simple distillation",
+        "Titration analysis",
+        "Cell culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Buchner flask is intended for vacuum filtering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6462,
+      "question": "Centrifuge separates materials based on which principle?",
+      "options": [
+        "Distillation principle",
+        "Filtration principle",
+        "Sedimentation principle",
+        "Sublimation principle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Centrifuges operate on the sedimentation principle using centripetal acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.3984,
+      "question": "Water bath can be used up to what temperature?",
+      "options": [
+        "150 °C",
+        "99.9 °C",
+        "200 °C",
+        "300 °C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water bath can be used up to 99.9 °C for all water baths.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.099,
+      "question": "Rotary evaporator gently removes what from samples?",
+      "options": [
+        "Solids",
+        "Solvents",
+        "Precipitates",
+        "Cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rotary evaporator gently and effectively removes solvents from samples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.438,
+      "question": "Schlenk tube handles compounds sensitive to what?",
+      "options": [
+        "Light only",
+        "Moisture or air",
+        "Sound waves",
+        "Pressure only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schlenk tube is designed to handle compounds sensitive to moisture or air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.309,
+      "question": "Desiccator shields moisture-sensitive items from what?",
+      "options": [
+        "Light",
+        "Sound",
+        "Atmospheric humidity",
+        "Radiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Desiccator shields items from atmospheric humidity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.325,
+      "question": "Most simple organic compounds are colourless because they absorb light in which region?",
+      "options": [
+        "Visible region",
+        "Ultraviolet region",
+        "Infrared region",
+        "Microwave region"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simple organic compounds absorb light only in the ultraviolet region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.5308,
+      "question": "Which group is known to confer colour on molecules?",
+      "options": [
+        "Amino group",
+        "Hydroxyl group",
+        "Nitro group",
+        "Alkoxy group"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitro group is a chromophoric agent that confers colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.2373,
+      "question": "Odour is detected by which system?",
+      "options": [
+        "Olfactory system",
+        "Visual system",
+        "Auditory system",
+        "Tactile system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Odour is a fragrance picked up by the olfactory system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4324,
+      "question": "A clear blue flame in ignition test denotes what?",
+      "options": [
+        "Aromatic compound",
+        "Aliphatic compound",
+        "Metal compound",
+        "Unsaturated compound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A clear blue flame denotes aliphatic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.9348,
+      "question": "Capillary tube is sealed at which part of the flame?",
+      "options": [
+        "Blue part",
+        "Yellow part",
+        "Inner cone",
+        "Base"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Place the tube in the hottest part, the yellow part, never the blue part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.7646,
+      "question": "Boiling point is when vapour pressure equals what?",
+      "options": [
+        "Zero pressure",
+        "Atmospheric pressure",
+        "Critical pressure",
+        "Osmotic pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boiling point is when vapour pressure equals atmospheric pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1875,
+      "question": "For boiling point above water, what bath is used?",
+      "options": [
+        "Water bath",
+        "Oil bath",
+        "Ice bath",
+        "Sand bath"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An oil bath is needed if boiling point exceeds that of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1663,
+      "question": "Pure substances have melting points that are what?",
+      "options": [
+        "A wide range",
+        "Always very low",
+        "Single and distinctive",
+        "Always very high"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pure substances have a single, distinctive melting temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.695,
+      "question": "Impurities generally cause melting point to do what?",
+      "options": [
+        "Lower",
+        "Rise",
+        "Stay same",
+        "Disappear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding contaminants reduces the melting point and increases the range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.7576,
+      "question": "Decolourization without HBr evolution indicates what?",
+      "options": [
+        "Saturated compound",
+        "Unsaturated compound",
+        "Metal presence",
+        "Alcohol only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decolourization without HBr indicates an unsaturated compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6384,
+      "question": "Organic compounds are classified by solubility for what purpose?",
+      "options": [
+        "Distillation",
+        "Identification",
+        "Titration",
+        "Filtration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organic compounds are divided into classes for identification based on solubility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.9084,
+      "question": "For water test, what mass of solid sample is used?",
+      "options": [
+        "1.00 g",
+        "0.10 g",
+        "0.50 g",
+        "5.00 g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Treat about 0.10 g of the sample with successive portions of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1003,
+      "question": "Why must ether test not be performed near a flame?",
+      "options": [
+        "Ether is toxic",
+        "Ether is flammable",
+        "Ether is corrosive",
+        "Ether is volatile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ether is highly flammable and must not be near any flame.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4148,
+      "question": "In NaOH test, what should be noted besides solubility?",
+      "options": [
+        "Colour change",
+        "Gas evolution",
+        "Temperature rise",
+        "Melting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Note whether there is any rise in temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.799,
+      "question": "Immediate CO2 with NaHCO3 indicates which class?",
+      "options": [
+        "Carboxylic acids",
+        "Simple alcohols",
+        "Primary amines",
+        "Saturated alkanes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Immediate CO2 is given by carboxylic acids and sulphonic acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.8618,
+      "question": "If solution occurs in HCl test, the unknown is assigned to which group?",
+      "options": [
+        "Group 2",
+        "Group 3",
+        "Group 4",
+        "Group 5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If solution occurs at any time, the unknown is assigned group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4675,
+      "question": "Which observation is not mentioned for conc H2SO4 test?",
+      "options": [
+        "Charring",
+        "Colour change",
+        "Melting point",
+        "Gas evolution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Observations include colour change, charring, and gas evolution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1172,
+      "question": "H3PO4 85% test is applied only if compound is soluble in what?",
+      "options": [
+        "Water only",
+        "Ether only",
+        "NaOH solution",
+        "Conc H2SO4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This test should only be applied if soluble in concentrated sulphuric acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.297,
+      "question": "Group 1 compounds are water soluble because of what?",
+      "options": [
+        "High carbon content",
+        "High sulphur",
+        "Low carbon content",
+        "Low oxygen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 1 compounds are soluble in water due to their low carbon content.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.3567,
+      "question": "Group 7 compounds contain which elements?",
+      "options": [
+        "Only oxygen",
+        "Only carbon",
+        "Nitrogen or sulphur",
+        "Only hydrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 7 comprises compounds containing nitrogen or sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.7314,
+      "question": "What must covalently bonded elements be converted to for analysis?",
+      "options": [
+        "Solid form",
+        "Gaseous form",
+        "Ionic form",
+        "Liquid form"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Covalently bonded elements must be converted to their ionic form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6118,
+      "question": "Sodium fusion test is also called what?",
+      "options": [
+        "Liebig's test",
+        "Lassaigne's test",
+        "Dumas test",
+        "Kjeldahl test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sodium fusion test is also referred to as Lassaigne's test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.976,
+      "question": "In sodium fusion, nitrogen is converted to what?",
+      "options": [
+        "Sodium sulphide",
+        "Sodium cyanide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nitrogen is converted to inorganic cyanide as sodium cyanide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.9329,
+      "question": "Prussian blue colour indicates presence of what?",
+      "options": [
+        "Sulphur",
+        "Halogen",
+        "Nitrogen",
+        "Phosphorus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prussian blue colour indicates the presence of nitrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4294,
+      "question": "In sodium fusion, sulphur is converted to what?",
+      "options": [
+        "Sodium cyanide",
+        "Sodium sulphide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sulphur is converted to inorganic sulphide as sodium sulphide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.472,
+      "question": "Purple colour with sodium nitroprusside indicates what?",
+      "options": [
+        "Nitrogen",
+        "Halogen",
+        "Sulphur",
+        "Phosphorus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Purple or deep blue-violet colour indicates the presence of sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4246,
+      "question": "In sodium fusion, halogens are converted to what?",
+      "options": [
+        "Sodium cyanide",
+        "Sodium sulphide",
+        "Sodium halide",
+        "Sodium phosphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Halogens are converted to inorganic halide as sodium halide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6245,
+      "question": "White precipitate dissolving rapidly in ammonia indicates what?",
+      "options": [
+        "Bromine",
+        "Iodine",
+        "Chlorine",
+        "Fluorine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "White precipitate dissolving rapidly in ammonia indicates chlorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1897,
+      "question": "Why does silver nitrate test fail for fluoride?",
+      "options": [
+        "Silver fluoride is volatile",
+        "Silver fluoride is soluble",
+        "Silver fluoride is coloured",
+        "Silver fluoride is unstable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Silver fluoride is soluble in water preventing precipitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.6162,
+      "question": "Yellow precipitate of what shows presence of phosphorus?",
+      "options": [
+        "Magnesium ammonium phosphate",
+        "Silver phosphate",
+        "Ammonium phosphomolybdate",
+        "Calcium phosphate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Yellow precipitate of ammonium phosphomolybdate shows phosphorus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.3823,
+      "question": "Hydrocarbons contain which elements?",
+      "options": [
+        "Carbon and oxygen",
+        "Carbon and hydrogen",
+        "Hydrogen and oxygen",
+        "Carbon and nitrogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrocarbons contain only hydrogen and carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.4924,
+      "question": "Disappearance of orange-red colour of bromine indicates what?",
+      "options": [
+        "Absence of alkene",
+        "Presence of alkene or alkyne",
+        "Presence of aromatic",
+        "Presence of alkane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disappearance indicates alkene or alkyne presence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.2417,
+      "question": "A clear blue flame denotes what?",
+      "options": [
+        "Aromatic compounds",
+        "Unsaturated compounds",
+        "Aliphatic compounds",
+        "Cyclic compounds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A clear blue flame denotes aliphatic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.0532,
+      "question": "White precipitate with Tollen's reagent indicates what?",
+      "options": [
+        "Silver acetylide",
+        "Copper acetylide",
+        "Silver chloride",
+        "Silver bromide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "White precipitate of silver acetylide indicates terminal alkynes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.5305,
+      "question": "Tertiary alcohols react with Lucas reagent how?",
+      "options": [
+        "Slowly",
+        "Instantly",
+        "After heating",
+        "Not at all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tertiary alcohols react instantly producing a cloudy solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.1748,
+      "question": "Monohydric phenols give what colour with FeCl3?",
+      "options": [
+        "Green",
+        "Blue",
+        "Violet to pink",
+        "Yellow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Monohydric phenols give violet to pink colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.5042,
+      "question": "Brady's test gives what colour precipitate with aldehydes and ketones?",
+      "options": [
+        "Yellow-orange or red",
+        "Blue or green",
+        "White or grey",
+        "Purple or pink"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brady's test gives yellow-orange or red precipitate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.0427,
+      "question": "Schiff test gives what colour with aldehyde?",
+      "options": [
+        "Yellow",
+        "Pink, purple, or magenta",
+        "Blue",
+        "Green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schiff test gives pink, purple, or magenta colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.2139,
+      "question": "Carboxylic acids dissolve in Na2CO3 with evolution of what?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carboxylic acids evolve CO2 with Na2CO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791221549641.851,
+      "question": "Esters are generally what to litmus paper?",
+      "options": [
+        "Acidic",
+        "Basic",
+        "Neutral",
+        "Variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Esters are generally neutral to litmus paper.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
