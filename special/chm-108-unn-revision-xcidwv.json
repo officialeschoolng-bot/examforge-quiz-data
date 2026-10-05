@@ -3,16 +3,718 @@
   "title": "CHM 108 ( UNN ) : REVISION QUIZ 3",
   "subject": "CHM 108",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791223832418.7883,
+      "question": "Beakers range in size from 5 mL to what?",
+      "options": [
+        "One liter",
+        "Several liters",
+        "Ten liters",
+        "Half liter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beakers range from 5 mL to several liters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.8562,
+      "question": "Erlenmeyer flask was created in what year?",
+      "options": [
+        "1850",
+        "1860",
+        "1870",
+        "1880"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Emil Erlenmeyer created it in 1860.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7642,
+      "question": "Florence flask is ideal for what purpose?",
+      "options": [
+        "Vacuum filtration",
+        "Titration analysis",
+        "Even boiling",
+        "Cell culture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Florence flask is ideal for distilling, boiling, and even heating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7825,
+      "question": "Graduated cylinder is also called what?",
+      "options": [
+        "Mixing cylinder",
+        "Boiling flask",
+        "Culture tube",
+        "Retort flask"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Graduated cylinder is also called measuring or mixing cylinder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.0042,
+      "question": "Volumetric flask has what type of shape?",
+      "options": [
+        "Conical body",
+        "Cylindrical body",
+        "Pear-like shape",
+        "Spherical body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volumetric flasks have a pear-like shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2651,
+      "question": "Buchner flask is made of what material?",
+      "options": [
+        "Sturdy glass",
+        "Soft plastic",
+        "Thin porcelain",
+        "Light metal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Buchner flask is made of sturdy glass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.1338,
+      "question": "Vacutainers are sealed with what type of stopper?",
+      "options": [
+        "Glass stopper",
+        "Rubber stopper",
+        "Cork stopper",
+        "Metal stopper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vacutainers are sealed with a rubber stopper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.8838,
+      "question": "Micropipette transfers volumes in what range?",
+      "options": [
+        "Liter range",
+        "Milliliter range",
+        "Microliter range",
+        "Nanoliter range"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Micropipettes transfer volumes in the microliter range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.64,
+      "question": "Petri dish was created by whom?",
+      "options": [
+        "Robert Koch",
+        "Julius Petri",
+        "Emil Erlenmeyer",
+        "David Stark"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Julius Richard Petri, a German bacteriologist, created it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.862,
+      "question": "Which is a condenser type?",
+      "options": [
+        "Buchner",
+        "Schlenk",
+        "Allihn",
+        "Nessler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Allihn is one of the condenser types listed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.319,
+      "question": "Conjugation involves alternating what?",
+      "options": [
+        "Single and triple bonds",
+        "Double and single bonds",
+        "Double and triple bonds",
+        "Single bonds only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conjugation involves alternating double and single bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.1472,
+      "question": "As conjugated double bonds increase, energy gap does what?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays same",
+        "Doubles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy gap decreases causing absorption at longer wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2874,
+      "question": "E-noses analyze what type of fingerprint?",
+      "options": [
+        "Solid particles",
+        "Liquid droplets",
+        "Volatile molecules",
+        "Crystal structure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E-noses analyze the fingerprint of volatile molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7485,
+      "question": "Ethyl butyrate smells like what?",
+      "options": [
+        "Almonds",
+        "Cinnamon",
+        "Pineapple",
+        "Vinegar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethyl butyrate smells like pineapple, banana, or strawberry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2004,
+      "question": "Which compound has a musty odour?",
+      "options": [
+        "Acetone",
+        "Isopropyl alcohol",
+        "Benzaldehyde",
+        "Citral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Isopropyl alcohol has a musty odour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.5603,
+      "question": "Ignition test monitors all except?",
+      "options": [
+        "Residue",
+        "Odour",
+        "Colour",
+        "Flame type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ignition test monitors residue, odour, and flame type.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7976,
+      "question": "White precipitate with Na2CO3 on ash indicates what?",
+      "options": [
+        "Lithium present",
+        "Sodium present",
+        "Metals other than Li, Na, K",
+        "Ammonium present"
+      ],
+      "correctAnswer": 2,
+      "explanation": "White precipitate indicates metals other than Li, Na, K.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.0913,
+      "question": "Capillary tube is used in clinical labs as what?",
+      "options": [
+        "Burette",
+        "Condenser",
+        "Hematocrit tube",
+        "Desiccator"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Capillary tube is used as hematocrit tube in clinical labs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.5942,
+      "question": "Water boils at 93.4 °C at what altitude?",
+      "options": [
+        "1000 metres",
+        "1905 metres",
+        "2000 metres",
+        "3000 metres"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water boils at 93.4 °C at 1,905 metres altitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7996,
+      "question": "In boiling point test, what is attached to the test tube?",
+      "options": [
+        "Burette",
+        "Pipette",
+        "Thermometer",
+        "Condenser"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A thermometer is attached to the outside of the test tube.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2012,
+      "question": "In NaOH test, supernatant is removed using what?",
+      "options": [
+        "Pipette",
+        "Dropper",
+        "Burette",
+        "Spoon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Remove supernatant by means of a dropper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.0276,
+      "question": "NaHCO3 test is done only if compound is soluble in what?",
+      "options": [
+        "Water",
+        "Ether",
+        "NaOH",
+        "HCl"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If compound is soluble in NaOH, test its solubility in NaHCO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.0793,
+      "question": "If solution occurs in HCl test, unknown is assigned to which group?",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 4",
+        "Group 6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If solution occurs at any time, the unknown is assigned group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.211,
+      "question": "How many solvent columns are in the solubility table?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists seven solvent columns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.5925,
+      "question": "Group 1 compounds are classified based on litmus as what?",
+      "options": [
+        "Solid, liquid, gas",
+        "Basic, acidic, neutral",
+        "Soluble, insoluble",
+        "Volatile, nonvolatile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Group 1 compounds are classified into basic, acidic, and neutral.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.6702,
+      "question": "Which is a Group 1 basic compound?",
+      "options": [
+        "Acetic acid",
+        "Acetone",
+        "Benzylamine",
+        "Benzoquinone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benzylamine is listed as basic to litmus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7175,
+      "question": "Group 2 classes are soluble in dilute alkali and what?",
+      "options": [
+        "Acid",
+        "Water",
+        "Ether",
+        "H2SO4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group 2 classes are soluble in dilute alkali and acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.5962,
+      "question": "Group 4 examples include which of the following?",
+      "options": [
+        "Alkanes",
+        "Amines",
+        "Benzoquinones",
+        "Xylenes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amines are listed as examples of Group 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2551,
+      "question": "Group 5A includes cyclic ketones with less than how many carbons?",
+      "options": [
+        "Seven",
+        "Five",
+        "Nine",
+        "Twelve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cyclic ketones with less than nine carbons are in Group 5A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.0793,
+      "question": "Group 5B compounds are soluble in conc H2SO4 but insoluble in what?",
+      "options": [
+        "Water",
+        "Ether",
+        "H3PO4",
+        "NaOH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 5B is soluble in conc H2SO4 but insoluble in 85% H3PO4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.1582,
+      "question": "What is sandwiched between two pieces of sodium?",
+      "options": [
+        "The compound",
+        "The glass tube",
+        "The filter paper",
+        "The water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The compound is sandwiched between two pieces of sodium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.7036,
+      "question": "How much sample is placed in the fusion tube?",
+      "options": [
+        "0.5 g",
+        "0.05 mg",
+        "5.0 mg",
+        "0.5 mg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Place about 0.05 mg of sample in the fusion tube.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2258,
+      "question": "A black coloured filtrate indicates what?",
+      "options": [
+        "Complete combustion",
+        "Incomplete combustion",
+        "Excess sodium",
+        "Absence of halogens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Black filtrate indicates incomplete combustion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.2546,
+      "question": "What is added to filtrate to test for nitrogen?",
+      "options": [
+        "Sodium nitroprusside",
+        "Silver nitrate",
+        "Ferrous sulphate",
+        "Ammonium molybdate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Add ferrous sulphate crystals to test for nitrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832419.5784,
+      "question": "Purple colour with sodium nitroprusside indicates what?",
+      "options": [
+        "Nitrogen",
+        "Sulphur",
+        "Halogen",
+        "Phosphorus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Purple colour indicates the presence of sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.386,
+      "question": "After acidification, what is added to test for halogens?",
+      "options": [
+        "Ferrous sulphate",
+        "Excess silver nitrate",
+        "Sodium nitroprusside",
+        "Ammonium molybdate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add excess silver nitrate solution to test for halogens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.0703,
+      "question": "Pale yellow precipitate in ammonia indicates what?",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Iodine",
+        "Fluorine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pale yellow precipitate indicates bromine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.4365,
+      "question": "Change from red-violet to yellow indicates what?",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Fluorine",
+        "Iodine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red-violet to yellow colour change indicates fluorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.6736,
+      "question": "Phosphorus is converted to what soluble compound?",
+      "options": [
+        "Sodium phosphide",
+        "Sodium phosphate",
+        "Sodium phosphite",
+        "Sodium pyrophosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phosphorus is converted to soluble sodium phosphate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.1245,
+      "question": "Magnesia mixture contains MgCl2, NH4Cl, and what?",
+      "options": [
+        "NaOH",
+        "HCl",
+        "NH3",
+        "H2SO4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnesia mixture contains MgCl2, NH4Cl, and NH3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.4514,
+      "question": "Hydrocarbons are majorly what at room temperature?",
+      "options": [
+        "Solids",
+        "Liquids",
+        "Gases",
+        "Plasmas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrocarbons are majorly liquids at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.6238,
+      "question": "Retention of orange-red colour of bromine indicates what?",
+      "options": [
+        "Presence of alkene",
+        "Presence of alkyne",
+        "Absence of unsaturated non-aromatic molecules",
+        "Presence of terminal alkyne"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Retention indicates absence of unsaturated non-aromatic molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.697,
+      "question": "Aromatic hydrocarbons burn with what flame?",
+      "options": [
+        "Clear blue flame",
+        "Smoky flame",
+        "Colourless flame",
+        "Green flame"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aromatic hydrocarbons burn with a smoky flame.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.8352,
+      "question": "Ammoniacal cuprous chloride gives what colour precipitate?",
+      "options": [
+        "White",
+        "Yellow",
+        "Red",
+        "Blue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red precipitate of copper acetylide indicates terminal alkyne.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.3403,
+      "question": "Alcohols give hydrogen chloride when treated with what?",
+      "options": [
+        "PCl3",
+        "PCl5",
+        "SOCl2",
+        "HCl"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alcohols give HCl with phosphorus pentachloride.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.139,
+      "question": "Lucas test applies only to which alcohols?",
+      "options": [
+        "Aromatic alcohols",
+        "Aliphatic and cycloaliphatic",
+        "Phenolic compounds",
+        "Tertiary only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lucas test applies only to aliphatic and cycloaliphatic alcohols.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.0369,
+      "question": "Trihydric phenols give what colouration with FeCl3?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trihydric phenols give blue colouration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.4583,
+      "question": "Tollen's test produces what with aldehydes?",
+      "options": [
+        "Silver mirror",
+        "Copper mirror",
+        "Gold mirror",
+        "Lead mirror"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tollen's test gives a silver mirror with aldehydes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.1572,
+      "question": "Fehling's test is negative for which aldehydes?",
+      "options": [
+        "Aliphatic aldehydes",
+        "Aromatic aldehydes",
+        "Formaldehyde",
+        "Acetaldehyde"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fehling's test is negative for aromatic aldehydes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791223832420.4944,
+      "question": "Carbylamine reaction tests for what?",
+      "options": [
+        "Primary amine",
+        "Secondary amine",
+        "Tertiary amine",
+        "Quaternary amine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbylamine reaction indicates the presence of a primary amine.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
