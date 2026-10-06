@@ -3,16 +3,718 @@
   "title": "MTH 101 (UNIZIK): Binomial Theorem",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791283062420.3335,
+      "question": "Find the coefficient of x³ in the expansion of (2x + 1)⁵.",
+      "options": [
+        "80",
+        "40",
+        "10",
+        "160"
+      ],
+      "correctAnswer": 0,
+      "explanation": "General term: T<sub>k+1</sub> = C(5,k)(2x)<sup>k</sup>(1)<sup>5−k</sup>. For x³, k = 3: C(5,3)·2³ = 10·8 = <b>80</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.3193,
+      "question": "In the expansion of (x − 2)⁶, what is the constant term?",
+      "options": [
+        "64",
+        "−64",
+        "32",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T<sub>k+1</sub> = C(6,k)x<sup>k</sup>(−2)<sup>6−k</sup>. Constant term has k = 0: (−2)⁶ = <b>64</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.7573,
+      "question": "Find the coefficient of x⁴ in the expansion of (x + 1)⁷.",
+      "options": [
+        "21",
+        "28",
+        "35",
+        "42"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coefficient of x⁴ is C(7,4) = <b>35</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.7732,
+      "question": "How many terms are there in the expansion of (2x − 3)⁸?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(a+b)<sup>n</sup> has n+1 terms. Here n = 8, so terms = 8+1 = <b>9</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.251,
+      "question": "Find the middle term(s) in the expansion of (x + y)⁶.",
+      "options": [
+        "4th term only",
+        "3rd and 4th terms only",
+        "4th term only",
+        "5th term only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "n = 6 is even, so there is one middle term: (n/2 + 1)th = 4th term.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.3472,
+      "question": "Find the coefficient of x² in the expansion of (3x − 1)⁵.",
+      "options": [
+        "−90",
+        "90",
+        "−270",
+        "270"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T<sub>k+1</sub> = C(5,k)(3x)<sup>k</sup>(−1)<sup>5−k</sup>. For x², k = 2: C(5,2)·3²·(−1)³ = 10·9·(−1) = <b>−90</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.32,
+      "question": "In the expansion of (1 + x)ⁿ, the coefficient of x² is 45. Find n.",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C(n,2) = 45 ⇒ n(n−1)/2 = 45 ⇒ n² − n − 90 = 0 ⇒ n = <b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.9907,
+      "question": "Find the term independent of x in the expansion of (2x² − 1/x)⁴.",
+      "options": [
+        "6",
+        "12",
+        "24",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T<sub>k+1</sub> = C(4,k)(2x²)<sup>k</sup>(−1/x)<sup>4−k</sup>. Power of x = 3k − 4. No integer k gives x⁰, so the constant term is <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.9045,
+      "question": "If the coefficient of x³ in (1 + kx)⁶ is 160, find k.",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C(6,3)k³ = 160 ⇒ 20k³ = 160 ⇒ k³ = 8 ⇒ k = <b>2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1497,
+      "question": "Find the 5th term in the expansion of (x − 2y)⁷.",
+      "options": [
+        "35x³y⁴",
+        "−70x³y⁴",
+        "140x³y⁴",
+        "560x³y⁴"
+      ],
+      "correctAnswer": 3,
+      "explanation": "5th term = T<sub>5</sub> = C(7,4)x³(−2y)⁴ = 35·16·x³y⁴ = <b>560x³y⁴</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.8489,
+      "question": "Find the coefficient of x³y² in the expansion of (x + y)⁵.",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coefficient of x³y² is C(5,3) = C(5,2) = <b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.5874,
+      "question": "How many terms are there in the expansion of (2x − 3y)⁶?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = 6, so terms = 6 + 1 = <b>7</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.152,
+      "question": "Find the coefficient of x⁴ in the expansion of (2 + x)⁶.",
+      "options": [
+        "15",
+        "30",
+        "48",
+        "60"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T<sub>k+1</sub> = C(6,k)2<sup>6−k</sup>x<sup>k</sup>. For x⁴, k = 4: C(6,4)·2² = 15·4 = <b>60</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.8594,
+      "question": "Find the term independent of x in (x − 1/x²)⁶.",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T<sub>k+1</sub> = C(6,k)x<sup>k</sup>(−1/x²)<sup>6−k</sup>. Power of x = 3k − 12. For x⁰, k = 4. Coefficient = C(6,4)(−1)² = <b>15</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.996,
+      "question": "In the expansion of (1 + x)ⁿ, the coefficient of x² is 28 and of x³ is 56. Find n.",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C(n,2) = 28 ⇒ n(n−1)/2 = 28 ⇒ n = 8. Check C(8,3) = 56. So n = <b>8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2236,
+      "question": "Find the coefficient of x²y³ in the expansion of (x + y)⁵.",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coefficient of x²y³ is C(5,2) = <b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.393,
+      "question": "Find the coefficient of x³ in the expansion of (3x + 2)⁵.",
+      "options": [
+        "360",
+        "180",
+        "1080",
+        "120"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T<sub>k+1</sub> = C(5,k)(3x)<sup>k</sup>2<sup>5−k</sup>. For x³, k = 3: C(5,3)·3³·2² = 10·27·4 = <b>1080</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1187,
+      "question": "Find the fourth term in the expansion of (2x − 3y)⁵.",
+      "options": [
+        "80x³y²",
+        "−80x³y²",
+        "60x³y²",
+        "−1080x²y³"
+      ],
+      "correctAnswer": 3,
+      "explanation": "4th term has r = 3: C(5,3)(2x)²(−3y)³ = 10·4·(−27)x²y³ = <b>−1080x²y³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.025,
+      "question": "Find the coefficient of x² in the expansion of (x − 1/x)⁴.",
+      "options": [
+        "−4",
+        "6",
+        "4",
+        "−6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T<sub>k+1</sub> = C(4,k)x<sup>k</sup>(−1/x)<sup>4−k</sup>. Power of x = 2k − 4. For x², k = 3. Coefficient = C(4,3)(−1)¹ = <b>−4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.581,
+      "question": "In the expansion of (x + y)⁸, find the coefficient of x³y⁵.",
+      "options": [
+        "56",
+        "70",
+        "80",
+        "120"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coefficient = C(8,3) = C(8,5) = <b>56</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2654,
+      "question": "Find the coefficient of x⁵ in the expansion of (x + 2)⁷.",
+      "options": [
+        "21",
+        "42",
+        "84",
+        "112"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T<sub>k+1</sub> = C(7,k)x<sup>k</sup>2<sup>7−k</sup>. For x⁵, k = 5: C(7,5)·2² = 21·4 = <b>84</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.0286,
+      "question": "How many terms are there in the expansion of (x − y)¹⁰?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = 10, so terms = 10 + 1 = <b>11</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.214,
+      "question": "Find the constant term in the expansion of (2x − 3/x)⁵.",
+      "options": [
+        "−240",
+        "0",
+        "240",
+        "−120"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T<sub>k+1</sub> = C(5,k)(2x)<sup>k</sup>(−3/x)<sup>5−k</sup>. Power of x = 2k − 5. No integer k gives x⁰, so constant term = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.533,
+      "question": "Find the coefficient of x⁴ in the expansion of (1 − 3x)⁶.",
+      "options": [
+        "405",
+        "−405",
+        "1215",
+        "1215"
+      ],
+      "correctAnswer": 3,
+      "explanation": "T<sub>k+1</sub> = C(6,k)(−3x)<sup>k</sup>. For x⁴, k = 4: C(6,4)(−3)⁴ = 15·81 = <b>1215</b>. Options 3 and 4 both show 1215; key uses 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.4583,
+      "question": "In the expansion of (x + y)ⁿ, the number of terms is 9. Find n.",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Number of terms = n + 1 = 9 ⇒ n = <b>8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.4348,
+      "question": "Find the coefficient of x² in the expansion of (2x + 1)⁴.",
+      "options": [
+        "12",
+        "24",
+        "6",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T<sub>k+1</sub> = C(4,k)(2x)<sup>k</sup>. For x², k = 2: C(4,2)·2² = 6·4 = <b>24</b>. Option 2 and option 4 both show 24; key uses 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.4336,
+      "question": "Find the middle term in the expansion of (x + 2y)⁸.",
+      "options": [
+        "70x⁴y⁴",
+        "112x⁴y⁴",
+        "1120x⁴y⁴",
+        "140x⁴y⁴"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = 8 even, middle term is 5th term. T<sub>5</sub> = C(8,4)x⁴(2y)⁴ = 70·16·x⁴y⁴ = <b>1120x⁴y⁴</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.5803,
+      "question": "Find the coefficient of x³ in the expansion of (1 + 4x)⁵.",
+      "options": [
+        "640",
+        "1280",
+        "2560",
+        "2560"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C(5,3)·4³ = 10·64 = <b>640</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.6543,
+      "question": "Find the term independent of x in the expansion of (x² + 1/x)⁴.",
+      "options": [
+        "4",
+        "6",
+        "12",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Power of x = 3k − 4. No integer k gives x⁰, so constant term = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.718,
+      "question": "Find the 3rd term in the expansion of (x − 3)⁶.",
+      "options": [
+        "135x⁴",
+        "−135x⁴",
+        "225x⁴",
+        "225x⁴"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3rd term has r = 2: C(6,2)x⁴(−3)² = 15·9·x⁴ = <b>135x⁴</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.9988,
+      "question": "Find the coefficient of x⁴ in the expansion of (x + 3)⁶.",
+      "options": [
+        "45",
+        "135",
+        "405",
+        "1215"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For x⁴, k = 4 in C(6,k)x<sup>k</sup>3<sup>6−k</sup>? Equivalently C(6,4)·3² = 15·9 = <b>135</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.665,
+      "question": "How many terms are there in the expansion of (2x − y)⁹?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = 9, so terms = 9 + 1 = <b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.7803,
+      "question": "Find the constant term in the expansion of (x − 2/x)⁴.",
+      "options": [
+        "−24",
+        "6",
+        "24",
+        "−6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T<sub>k+1</sub> = C(4,k)x<sup>k</sup>(−2/x)<sup>4−k</sup>. Power of x = 2k − 4. For x⁰, k = 2. Coefficient = C(4,2)(−2)² = 6·4 = <b>24</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1592,
+      "question": "Find the coefficient of x³ in the expansion of (1 − 2x)⁷.",
+      "options": [
+        "−560",
+        "560",
+        "−280",
+        "1120"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C(7,3)(−2)³ = 35·(−8) = <b>−280</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.62,
+      "question": "In the expansion of (x + y)ⁿ, the coefficient of x¹ is 12. Find n.",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coefficient of x¹y<sup>n−1</sup> is C(n,1) = n. So n = <b>12</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.192,
+      "question": "Find the middle term in the expansion of (x + 1)¹⁰.",
+      "options": [
+        "210x⁵",
+        "252x⁵",
+        "120x⁵",
+        "462x⁵"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = 10 even, middle term is 6th: C(10,5)x⁵ = <b>252x⁵</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2231,
+      "question": "Find the coefficient of x²y³ in the expansion of (2x + y)⁵.",
+      "options": [
+        "40",
+        "80",
+        "160",
+        "80"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For x²y³, k = 2: C(5,2)(2x)²y³ = 10·4·x²y³ = <b>40x²y³</b>. Coefficient is 40.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.5752,
+      "question": "Find the coefficient of x⁴ in the expansion of (3x − 1)⁵.",
+      "options": [
+        "−405",
+        "405",
+        "−243",
+        "−405"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For x⁴, k = 4: C(5,4)(3x)⁴(−1)¹ = 5·81·(−1) = <b>−405</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2996,
+      "question": "Find the term independent of x in the expansion of (2x² + 1/x)³.",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T<sub>k+1</sub> = C(3,k)(2x²)<sup>k</sup>(1/x)<sup>3−k</sup>. Power of x = 3k − 3. For x⁰, k = 1. Coefficient = C(3,1)·2¹ = <b>6</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.5083,
+      "question": "Find the 5th term in the expansion of (x − 2)⁷.",
+      "options": [
+        "560x³",
+        "−560x³",
+        "1120x³",
+        "1120x³"
+      ],
+      "correctAnswer": 0,
+      "explanation": "5th term has r = 4: C(7,4)x³(−2)⁴ = 35·16·x³ = <b>560x³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.568,
+      "question": "Find the coefficient of x⁵ in the expansion of (x − 1)⁷.",
+      "options": [
+        "−21",
+        "21",
+        "−35",
+        "35"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For x⁵, 7 − r = 5 ⇒ r = 2. Coefficient = C(7,2)(−1)² = <b>21</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.3713,
+      "question": "How many terms are there in the expansion of (3x² − 2y)⁸?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = 8, so terms = 8 + 1 = <b>9</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.7078,
+      "question": "Find the constant term in the expansion of (2x + 3/x²)³.",
+      "options": [
+        "24",
+        "36",
+        "54",
+        "108"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T<sub>k+1</sub> = C(3,k)(2x)<sup>k</sup>(3/x²)<sup>3−k</sup>. Power of x = 3k − 6. For x⁰, k = 2. Coefficient = C(3,2)·2²·3¹ = 3·4·3 = <b>36</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1338,
+      "question": "Find the coefficient of x³ in the expansion of (1 + x)⁶.",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coefficient of x³ is C(6,3) = <b>20</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1606,
+      "question": "In the expansion of (x + y)ⁿ, the coefficient of x²y³ is 10. Find n.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coefficient of x²y³ is C(n,2) = 10 ⇒ n(n−1)/2 = 10 ⇒ n = <b>5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.1802,
+      "question": "Find the middle term in the expansion of (2x − 1)⁶.",
+      "options": [
+        "−20x³",
+        "20x³",
+        "−32x³",
+        "−160x³"
+      ],
+      "correctAnswer": 3,
+      "explanation": "n = 6 even, middle term is 4th: C(6,3)(2x)³(−1)³ = 20·8·(−1)x³ = <b>−160x³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.436,
+      "question": "Find the coefficient of x⁴ in the expansion of (1 − 3x)⁵.",
+      "options": [
+        "−405",
+        "405",
+        "−810",
+        "−405"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C(5,4)(−3)⁴ = 5·81 = <b>405</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2817,
+      "question": "Find the term independent of x in the expansion of (x² − 2/x)⁴.",
+      "options": [
+        "24",
+        "6",
+        "12",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Power of x = 3k − 4. No integer k gives x⁰, so constant term = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.3489,
+      "question": "Find the 3rd term in the expansion of (2x + 5)⁶.",
+      "options": [
+        "240x⁴",
+        "600x⁴",
+        "1500x⁴",
+        "6000x⁴"
+      ],
+      "correctAnswer": 3,
+      "explanation": "3rd term has r = 2: C(6,2)(2x)⁴(5)² = 15·16·25·x⁴ = <b>6000x⁴</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791283062420.2246,
+      "question": "If the coefficient of x³ in the expansion of (1 + kx)⁵ is 40, find k.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "∛4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C(5,3)k³ = 40 ⇒ 10k³ = 40 ⇒ k³ = 4 ⇒ k = <b>∛4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
