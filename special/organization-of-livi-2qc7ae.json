@@ -3,16 +3,438 @@
   "title": "Organization of living things",
   "subject": "Biology",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791317483141.9004,
+      "question": "Organization of life is the existence of life from a single-celled organism to what type of organism?",
+      "options": [
+        "A microscopic mass of protoplasm",
+        "A multicellular organism",
+        "A non-living colony of identical particles",
+        "A single-celled organism without specialization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Life is organized from the cell to multicellular organisms with complex structures. A multicellular organism is the correct endpoint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.4348,
+      "question": "How many levels of organization of life in organisms are mentioned?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The levels mentioned are cell, tissue, organ, and system; that is four levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.0068,
+      "question": "The smallest unit of living organisms is defined as the:",
+      "options": [
+        "Tissue",
+        "Cell",
+        "Organ",
+        "Organ system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell is the basic structural and functional unit of living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.8843,
+      "question": "Which of the following is an example of an organism at the cellular level?",
+      "options": [
+        "Sponges",
+        "Hydra",
+        "Amoeba",
+        "Volvox"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amoeba is a single-celled organism, so it exists at the cellular level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.4387,
+      "question": "Pandorina and Volvox are examples of single-celled organisms that live:",
+      "options": [
+        "As a filament",
+        "In a colony",
+        "As an organ",
+        "As a complex tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pandorina and Volvox are colonial organisms; many cells live together in a colony.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.4167,
+      "question": "Spirogyra exists as a:",
+      "options": [
+        "A simple filament",
+        "A motile colony",
+        "A complex tissue",
+        "A differentiated organ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spirogyra is a filamentous green alga, existing as a filament.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.3154,
+      "question": "A group of similar cells that perform a particular function is defined as a:",
+      "options": [
+        "System",
+        "Organ",
+        "Tissue",
+        "Organelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A tissue is a group of similar cells performing a particular function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.2517,
+      "question": "Which of the following organisms exists at the tissue level of organization?",
+      "options": [
+        "Trypanosoma",
+        "Fungi",
+        "Paramecium",
+        "Amoeba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fungi show tissue-level organization; the others are unicellular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.9465,
+      "question": "In man, which type of tissue lines and protects the body surface?",
+      "options": [
+        "Epithelium",
+        "Connective tissue",
+        "Nerve tissue",
+        "Muscle tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epithelial tissue, or epithelium, lines and protects body surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.7983,
+      "question": "The main function of blood tissue in man is to:",
+      "options": [
+        "Bind other tissues together",
+        "Transport substances",
+        "Support the body and aid movement",
+        "Coordinate nerve impulses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood is a connective tissue that transports food, oxygen, wastes, and hormones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.036,
+      "question": "Which tissue coordinates and transmits nerve impulses in man?",
+      "options": [
+        "Muscle tissue",
+        "Nerve tissue",
+        "Skeletal tissue",
+        "Epithelial tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nerve tissue coordinates and transmits nerve impulses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.5764,
+      "question": "In plants, the transport of manufactured food from leaves to other parts is carried out by the:",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Parenchyma",
+        "Collenchyma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phloem transports manufactured food from leaves to other parts of the plant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.214,
+      "question": "The process by which the phloem transports manufactured food in plants is called:",
+      "options": [
+        "Transpiration",
+        "Translocation",
+        "Photosynthesis",
+        "Respiration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Translocation is the transport of manufactured food through the phloem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.4722,
+      "question": "Collenchyma and parenchyma are examples of which type of plant tissue?",
+      "options": [
+        "Vascular tissues",
+        "Packing tissues",
+        "Strengthening tissues",
+        "Photosynthetic tissues"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collenchyma and parenchyma are ground tissues often grouped as strengthening or supporting tissues in this classification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.9355,
+      "question": "Which plant tissue provides a surface for new cells which are used for storage?",
+      "options": [
+        "Packing tissue",
+        "Epithelial tissue",
+        "Photosynthetic tissue",
+        "Vascular tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Packing tissue provides a surface for new cells and is used for storage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.1128,
+      "question": "A group of similar tissue forming a layer in an organism which performs a specific function is an:",
+      "options": [
+        "Organ",
+        "Organelle",
+        "System",
+        "Tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An organ is a group of similar tissues forming a layer or structure that performs a specific function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.647,
+      "question": "Which of the following is an example of an organ in a plant?",
+      "options": [
+        "Root system",
+        "Onion bulb",
+        "Xylem",
+        "Phloem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An onion bulb is an organ. Root system is a system, while xylem and phloem are tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.0156,
+      "question": "The kidney, ureters, urinary bladder, and urethra constitute which system of mammals?",
+      "options": [
+        "Excretory system",
+        "Circulatory system",
+        "Reproductive system",
+        "Digestive system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These organs form the excretory system, which removes waste products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.8496,
+      "question": "The root system and shoot system are examples of systems found in:",
+      "options": [
+        "Plants",
+        "Animals",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Root and shoot systems are plant organ systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.809,
+      "question": "In higher organisms, a group of similar cells are differentiated to form tissues as a result of:",
+      "options": [
+        "Small surface area",
+        "Complexity",
+        "Disintegration",
+        "Simple organization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As organisms become more complex, cells differentiate to form tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.5745,
+      "question": "Internal structural specialization in complex organisms occurs when a group of similar cells or tissues become specialized to:",
+      "options": [
+        "Exist completely on their own",
+        "Perform specific functions",
+        "Shrink in overall size and disappear",
+        "Lose all functional ability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Specialized cells and tissues are adapted to perform specific functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.3872,
+      "question": "In complex organisms, mutual interdependence between component cells results in:",
+      "options": [
+        "A division of labour",
+        "Complete loss of organ function",
+        "Slower waste expulsion",
+        "Independent cell survival"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Interdependence among cells leads to a division of labour among tissues and organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.6672,
+      "question": "Complexity leads to an increase in size in higher organisms because:",
+      "options": [
+        "Cells lose their independence completely",
+        "There is space between cells",
+        "Reproduction becomes difficult and rare",
+        "Cells become smaller and independent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spaces between cells allow growth and increase in overall size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.358,
+      "question": "In unicellular organisms, reproduction leads to the disintegration of the parent(s) because:",
+      "options": [
+        "Only specialized reproductive parts are involved",
+        "The entire parent is involved",
+        "They have a very long life span",
+        "They form complex tissues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In unicellular organisms, the whole parent cell is involved in reproduction, so it divides or disintegrates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.8196,
+      "question": "Due to the specialization and efficiency of tissues, organs, and systems, complex organisms generally have:",
+      "options": [
+        "A longer life span",
+        "A shorter life span than unicellular organisms",
+        "The exact same life span as unicellular organisms",
+        "No predictable life span"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Specialization and efficient systems generally give complex organisms a longer life span.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.1223,
+      "question": "A disadvantage of complexity is that individual cells lose their independence and become:",
+      "options": [
+        "Able to exist on their own easily",
+        "More dependent on one another",
+        "Highly regenerative by themselves",
+        "Completely independent of the system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complexity makes cells more dependent on one another for survival.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.0222,
+      "question": "Compared to unicellular organisms, multicellular organisms have a:",
+      "options": [
+        "Large surface area to volume ratio",
+        "Small surface area to volume ratio",
+        "Identical surface area to volume ratio",
+        "Variable surface area to volume ratio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multicellular organisms have a smaller surface area to volume ratio than unicellular organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.9272,
+      "question": "Because complex organisms have a small surface area to volume ratio that makes diffusion inefficient, they have developed:",
+      "options": [
+        "Transport systems",
+        "Larger independent cells",
+        "Complete immunity to the environment",
+        "Smaller surface areas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transport systems help move materials efficiently when diffusion alone is insufficient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.503,
+      "question": "Complexity leads to a slower rate of expulsion of waste products from cells due to their:",
+      "options": [
+        "Small surface-to-volume ratio",
+        "Increased biological efficiency",
+        "Large surface area to volume ratio",
+        "High metabolic rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A small surface-to-volume ratio makes diffusion of wastes out of cells slower.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791317483142.039,
+      "question": "Complexity in higher organisms leads to a decrease in their ability to:",
+      "options": [
+        "Form specialized tissues",
+        "Regenerate",
+        "Adapt to adverse conditions",
+        "Transport materials"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complex organisms generally have reduced regenerative ability compared with simpler organisms.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
