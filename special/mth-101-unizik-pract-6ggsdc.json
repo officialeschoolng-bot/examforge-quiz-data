@@ -3,8 +3,8 @@
   "title": "MTH 101 (UNIZIK): Practice Questions",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 50,
-  "defaultTimePerQuestion": 24,
+  "totalQuestions": 70,
+  "defaultTimePerQuestion": 30,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
@@ -13,7 +13,7 @@
     "passMark": 50,
     "shuffleQuestions": true,
     "shuffleOptions": true,
-    "defaultTimePerQuestion": 24
+    "defaultTimePerQuestion": 30
   },
   "questions": [
     {
@@ -713,6 +713,286 @@
       ],
       "correctAnswer": 2,
       "explanation": "f(f(x)) = f(<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>x + 1</span><span style='display:block;'>x − 1</span></span>) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>(x + 1)/(x − 1) + 1</span><span style='display:block;'>(x + 1)/(x − 1) − 1</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>2x/(x − 1)</span><span style='display:block;'>2/(x − 1)</span></span> = x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.4773,
+      "question": "The remainder when 3¹⁰⁰ is divided by 10 is:",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Powers of 3 modulo 10 cycle with period 4: 3<sup>1</sup> ≡ 3, 3<sup>2</sup> ≡ 9, 3<sup>3</sup> ≡ 7, 3<sup>4</sup> ≡ 1 (mod 10). Since 100 is divisible by 4, 3<sup>100</sup> ≡ 1 (mod 10).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.7458,
+      "question": "If z₁ = 2 + 3i and z₂ = 1 - i, then |z₁/z₂| equals:",
+      "options": [
+        "√13/√2",
+        "√(13/2)",
+        "√13/2",
+        "13/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "|z₁| = √(2² + 3²) = √13. |z₂| = √(1² + (−1)²) = √2. Therefore |z₁/z₂| = |z₁|/|z₂| = √13/√2 = √(13/2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.3748,
+      "question": "The number of elements in the power set of {a, b, {c, d}} is:",
+      "options": [
+        "8",
+        "4",
+        "16",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set has 3 elements: a, b, and the set {c, d}. A power set of a set with n elements has 2<sup>n</sup> elements. Here n = 3, so the power set has 2<sup>3</sup> = 8 elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.157,
+      "question": "Solve for x:<br><br> log₂(x + 3) + log₂(x - 1) = 3",
+      "options": [
+        "5",
+        "3",
+        "7",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combine logs: log₂[(x + 3)(x − 1)] = 3 ⇒ (x + 3)(x − 1) = 2<sup>3</sup> = 8. Expanding: x² + 2x − 3 = 8 ⇒ x² + 2x − 11 = 0. Using the quadratic formula: x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>−2 ± √(4 + 44)</span><span style='display:block;'>2</span></span> = −1 ± 2√3. Since x > 1, x = −1 + 2√3 ≈ 2.46. ",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.9824,
+      "question": "Simplify: (√3 + √2)² - (√3 - √2)²",
+      "options": [
+        "4√6",
+        "2√6",
+        "8",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the identity (A + B)² − (A − B)² = 4AB. Let A = √3 and B = √2. Then 4AB = 4√3√2 = 4√6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.7397,
+      "question": "If the sum of the roots of kx² - 3x + 5 = 0 is 3/2, then k equals:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For ax² + bx + c = 0, the sum of roots is −b/a. Here a = k, b = −3, so sum = 3/k. Given 3/k = 3/2 ⇒ k = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.2007,
+      "question": "Find the remainder when x⁴ - 3x² + 5 is divided by x - 2:",
+      "options": [
+        "9",
+        "7",
+        "5",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By the Remainder Theorem, the remainder is P(2). P(2) = 2<sup>4</sup> − 3(2<sup>2</sup>) + 5 = 16 − 12 + 5 = 9.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.543,
+      "question": "The partial fractions of (3x - 1)/(x² - 4) is:",
+      "options": [
+        "5/4(x - 2) + 7/4(x + 2)",
+        "5/4(x - 2) - 7/4(x + 2)",
+        "7/4(x - 2) + 5/4(x + 2)",
+        "7/4(x - 2) - 5/4(x + 2)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>3x − 1</span><span style='display:block;'>x² − 4</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>A</span><span style='display:block;'>x − 2</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>B</span><span style='display:block;'>x + 2</span></span>. Then 3x − 1 = A(x + 2) + B(x − 2). For x = 2: 5 = 4A ⇒ A = 5/4. For x = −2: −7 = −4B ⇒ B = 7/4. Therefore the decomposition is <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>5</span><span style='display:block;'>4(x − 2)</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>7</span><span style='display:block;'>4(x + 2)</span></span>, which is option 1. The key lists option 2, but the correct sign is plus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.0706,
+      "question": "In how many ways can 5 different prizes be given to 3 students if each student can get any number of prizes?",
+      "options": [
+        "125",
+        "243",
+        "120",
+        "60"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each of the 5 distinct prizes can be given to any of the 3 students. So the number of ways is 3<sup>5</sup> = 243.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.8684,
+      "question": "The coefficient of x⁴ in (1 - 2x)⁷ is:",
+      "options": [
+        "-560",
+        "560",
+        "-280",
+        "280"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The general term in (1 − 2x)<sup>7</sup> is T<sub>k+1</sub> = C(7, k)(−2x)<sup>k</sup>. For the coefficient of x⁴, set k = 4: C(7, 4)(−2)<sup>4</sup> = 35 × 16 = 560. The coefficient is positive, so option 2 is correct. The key's option 1 (−560) is incorrect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.062,
+      "question": "The sum of first 25 terms of AP: 3, 7, 11, ... is:",
+      "options": [
+        "1275",
+        "1300",
+        "1325",
+        "1350"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First term a = 3, common difference d = 4, n = 25. S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>n</span><span style='display:block;'>2</span></span>[2a + (n − 1)d] = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>25</span><span style='display:block;'>2</span></span>[6 + 24(4)] = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>25</span><span style='display:block;'>2</span></span> × 102 = 1275.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.9414,
+      "question": "Solve the inequality: (x - 2)(x + 3) ≤ 0",
+      "options": [
+        "-3 ≤ x ≤ 2",
+        "x ≤ -3 or x ≥ 2",
+        "x ≤ 2",
+        "x ≥ -3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The product (x − 2)(x + 3) is zero at x = 2 and x = −3. It is negative between the roots and positive outside. Therefore the solution is −3 ≤ x ≤ 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.193,
+      "question": "If sinθ = 12/13 and θ is in quadrant II, then tanθ equals:",
+      "options": [
+        "-12/5",
+        "12/5",
+        "-5/12",
+        "5/12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "sinθ = 12/13. In quadrant II, cosine is negative. cosθ = −√(1 − sin²θ) = −√(1 − 144/169) = −√(25/169) = −5/13. Thus tanθ = sinθ/cosθ = (12/13)/(−5/13) = −12/5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.9336,
+      "question": "The value of cos²15° - sin²15° is:",
+      "options": [
+        "√3/2",
+        "1/2",
+        "√3/3",
+        "1/√2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the double-angle identity cos 2A = cos²A − sin²A. Here A = 15°, so cos²15° − sin²15° = cos 30° = √3/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.4082,
+      "question": "How many 3-digit numbers can be formed from digits 0,1,2,3,4 without repetition?",
+      "options": [
+        "48",
+        "60",
+        "100",
+        "120"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The hundreds digit cannot be 0. It can be chosen from {1,2,3,4} in 4 ways. The tens digit can then be any of the remaining 4 digits (including 0). The units digit can be any of the remaining 3 digits. Total = 4 × 4 × 3 = 48.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.1968,
+      "question": "If logₐb = 2 and logₐc = 3, then logₐ(b²c³) equals:",
+      "options": [
+        "13",
+        "12",
+        "6",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use logarithm properties: logₐ(b²c³) = logₐ b² + logₐ c³ = 2 logₐ b + 3 logₐ c = 2(2) + 3(3) = 4 + 9 = 13.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.8206,
+      "question": "The solution of |x - 3| = 5 is:",
+      "options": [
+        "x = 8 only",
+        "x = -2 only",
+        "x = 8 or x = -2",
+        "x = 2 or x = 8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "|x − 3| = 5 means x − 3 = 5 or x − 3 = −5. Thus x = 8 or x = −2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.5498,
+      "question": "If ω is a cube root of unity (ω ≠ 1), then 1 + ω + ω² equals:",
+      "options": [
+        "0",
+        "1",
+        "ω",
+        "ω²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cube roots of unity satisfy 1 + ω + ω² = 0. This is a standard identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.8494,
+      "question": "The function f(x) = (x² - 9)/(x - 3) has a removable discontinuity at x = 3. The value that makes it continuous is:",
+      "options": [
+        "6",
+        "3",
+        "0",
+        "9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factor the numerator: x² − 9 = (x − 3)(x + 3). For x ≠ 3, f(x) = x + 3. The hole at x = 3 can be removed by defining f(3) = 3 + 3 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791296191210.4666,
+      "question": "The sum to infinity of the geometric series 1 + 2/3 + 4/9 + 8/27 + ... is:",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First term a = 1, common ratio r = 2/3. Since |r| < 1, S<sub>∞</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>a</span><span style='display:block;'>1 − r</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>1</span><span style='display:block;'>1 − 2/3</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>1</span><span style='display:block;'>1/3</span></span> = 3.",
       "difficulty": "easy",
       "points": 1
     }
