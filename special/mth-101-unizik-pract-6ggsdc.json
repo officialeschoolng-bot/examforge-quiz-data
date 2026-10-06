@@ -3,7 +3,7 @@
   "title": "MTH 101 (UNIZIK): Practice Questions",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 70,
+  "totalQuestions": 69,
   "defaultTimePerQuestion": 30,
   "settings": {
     "canChangeTime": true,
@@ -755,20 +755,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "The set has 3 elements: a, b, and the set {c, d}. A power set of a set with n elements has 2<sup>n</sup> elements. Here n = 3, so the power set has 2<sup>3</sup> = 8 elements.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1791296191210.157,
-      "question": "Solve for x:<br><br> log₂(x + 3) + log₂(x - 1) = 3",
-      "options": [
-        "5",
-        "3",
-        "7",
-        "4"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Combine logs: log₂[(x + 3)(x − 1)] = 3 ⇒ (x + 3)(x − 1) = 2<sup>3</sup> = 8. Expanding: x² + 2x − 3 = 8 ⇒ x² + 2x − 11 = 0. Using the quadratic formula: x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='border-bottom:1px solid var(--text-primary);display:block;'>−2 ± √(4 + 44)</span><span style='display:block;'>2</span></span> = −1 ± 2√3. Since x > 1, x = −1 + 2√3 ≈ 2.46. ",
       "difficulty": "easy",
       "points": 1
     },
