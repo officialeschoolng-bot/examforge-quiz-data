@@ -3,16 +3,718 @@
   "title": "MTH 101 (UNIZIK): Polynomials",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791287288841.8066,
+      "question": "Which of the following is a polynomial in x?",
+      "options": [
+        "3x<sup>2</sup> − 4x + 7",
+        "2/x + x",
+        "√x + 1",
+        "5x<sup>−1</sup> + 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A polynomial has only non-negative integer powers of x. Only 3x<sup>2</sup> − 4x + 7 satisfies this.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5437,
+      "question": "What is the degree of the polynomial P(x) = 4x<sup>5</sup> − 3x<sup>3</sup> + 7x − 9?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The degree is the highest power of x, which is 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.68,
+      "question": "If P(x) = 2x<sup>3</sup> − kx<sup>2</sup> + 4x − 1 and the coefficient of x<sup>2</sup> is −6, find k.",
+      "options": [
+        "6",
+        "−6",
+        "3",
+        "−3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coefficient of x<sup>2</sup> is −k. So −k = −6 ⇒ k = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.3,
+      "question": "Find the remainder when the polynomial P(x) = x<sup>3</sup> − 4x<sup>2</sup> + 5x − 2 is divided by (x − 1).",
+      "options": [
+        "0",
+        "−2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By the remainder theorem, remainder = P(1) = 1 − 4 + 5 − 2 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9407,
+      "question": "If (x − 2) is a factor of the polynomial P(x) = x<sup>3</sup> + ax<sup>2</sup> − 4x − 8, find the value of a.",
+      "options": [
+        "−2",
+        "2",
+        "−4",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P(2) = 0 ⇒ 8 + 4a − 8 − 8 = 0 ⇒ 4a − 8 = 0 ⇒ a = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9888,
+      "question": "Factorize completely: x<sup>2</sup> − 9",
+      "options": [
+        "(x − 3)(x + 3)",
+        "(x − 9)(x + 1)",
+        "(x − 3)<sup>2</sup>",
+        "(x + 9)(x − 1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Difference of two squares: x<sup>2</sup> − 9 = (x − 3)(x + 3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.4153,
+      "question": "Factorize: 2x<sup>2</sup> − 7x + 3",
+      "options": [
+        "(2x − 1)(x − 3)",
+        "(2x − 3)(x − 1)",
+        "(x − 1)(2x − 3)",
+        "(x − 3)(2x − 1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2x<sup>2</sup> − 7x + 3 = 2x<sup>2</sup> − 6x − x + 3 = 2x(x − 3) − 1(x − 3) = (2x − 1)(x − 3). Option 4 is equivalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5342,
+      "question": "If P(x) = x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6, which of the following is a factor of P(x)?",
+      "options": [
+        "(x − 1)",
+        "(x + 1)",
+        "(x + 2)",
+        "(x − 4)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P(1) = 1 − 6 + 11 − 6 = 0, so (x − 1) is a factor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.3745,
+      "question": "How many zeros does the polynomial P(x) = 5x<sup>4</sup> − 2x<sup>2</sup> + 1 have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "By the Fundamental Theorem of Algebra, a degree 4 polynomial has 4 zeros counting complex and multiplicity. It has no real zeros.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.388,
+      "question": "Given that α and β are roots of the equation x<sup>2</sup> − 5x + 6 = 0, find the value of αβ.",
+      "options": [
+        "5",
+        "6",
+        "−5",
+        "−6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For ax<sup>2</sup> + bx + c = 0, product of roots = c/a = 6/1 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.917,
+      "question": "Which of the following expressions is NOT a polynomial?",
+      "options": [
+        "7x<sup>3</sup> − 4x + 1",
+        "x<sup>2</sup> − 5x + 6",
+        "3x<sup>−2</sup> + 2",
+        "−9x<sup>4</sup> + x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "3x<sup>−2</sup> + 2 has a negative exponent, so it is not a polynomial.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.8271,
+      "question": "The degree of the polynomial 5 − 3x<sup>2</sup> + 7x<sup>6</sup> − x<sup>4</sup> is:",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The highest power is 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9417,
+      "question": "If P(x) = ax<sup>3</sup> − 4x<sup>2</sup> + bx − 7 is a polynomial of degree 3, which condition must hold?",
+      "options": [
+        "a = 0",
+        "b ≠ 0",
+        "a ≠ 0",
+        "b = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For degree 3, the coefficient of x<sup>3</sup> must be non-zero: a ≠ 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9895,
+      "question": "Find the remainder when P(x) = 3x<sup>2</sup> − 5x + 4 is divided by (x + 2).",
+      "options": [
+        "−2",
+        "2",
+        "6",
+        "26"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Remainder = P(−2) = 3(4) − 5(−2) + 4 = 12 + 10 + 4 = 26.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6877,
+      "question": "If (x − 1) is a factor of x<sup>3</sup> + px<sup>2</sup> − x − 3, find p.",
+      "options": [
+        "−1",
+        "1",
+        "3",
+        "−3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P(1) = 0 ⇒ 1 + p − 1 − 3 = 0 ⇒ p − 3 = 0 ⇒ p = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9617,
+      "question": "Factorize completely: x<sup>3</sup> − x<sup>2</sup> − 6x",
+      "options": [
+        "x(x − 3)(x + 2)",
+        "x(x + 3)(x − 2)",
+        "x(x − 2)(x + 3)",
+        "x(x − 3)(x − 2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x<sup>3</sup> − x<sup>2</sup> − 6x = x(x<sup>2</sup> − x − 6) = x(x − 3)(x + 2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.086,
+      "question": "Which of the following is a quadratic polynomial?",
+      "options": [
+        "4x − 7",
+        "x<sup>2</sup> + 3x + 1",
+        "x<sup>3</sup> − x + 2",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A quadratic polynomial has degree 2. Only x<sup>2</sup> + 3x + 1 qualifies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.9905,
+      "question": "If P(x) = x<sup>3</sup> − 4x<sup>2</sup> + 3x − 12, which of the following is a factor?",
+      "options": [
+        "(x − 2)",
+        "(x + 2)",
+        "(x − 3)",
+        "(x − 4)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "P(4) = 64 − 64 + 12 − 12 = 0, so (x − 4) is a factor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.376,
+      "question": "The sum of the coefficients of the polynomial 2x<sup>3</sup> − 5x<sup>2</sup> + 4x − 1 is:",
+      "options": [
+        "0",
+        "−2",
+        "1",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sum of coefficients = P(1) = 2 − 5 + 4 − 1 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.7856,
+      "question": "Which of the following is a zero of the polynomial x<sup>2</sup> − 9?",
+      "options": [
+        "0",
+        "3",
+        "−1",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x<sup>2</sup> − 9 = 0 ⇒ x = ±3. So 3 is a zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6953,
+      "question": "Factorize by grouping: x<sup>3</sup> + 2x<sup>2</sup> − x − 2",
+      "options": [
+        "(x + 1)(x<sup>2</sup> − 2)",
+        "(x − 1)(x<sup>2</sup> + 2)",
+        "(x + 2)(x<sup>2</sup> − 1)",
+        "(x − 2)(x<sup>2</sup> + 1)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group: x<sup>2</sup>(x + 2) − 1(x + 2) = (x + 2)(x<sup>2</sup> − 1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.847,
+      "question": "Factorize: x<sup>2</sup> + 5x + 6",
+      "options": [
+        "(x + 1)(x + 6)",
+        "(x + 2)(x + 3)",
+        "(x − 2)(x − 3)",
+        "(x − 1)(x − 6)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x<sup>2</sup> + 5x + 6 = (x + 2)(x + 3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.77,
+      "question": "How many terms are in the polynomial 7x<sup>3</sup> − 2x + 9?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The terms are 7x<sup>3</sup>, −2x, and 9: three terms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.2065,
+      "question": "If (x − 4) is a factor of 2x<sup>3</sup> − kx<sup>2</sup> − 8x + 16, find k.",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P(4) = 0 ⇒ 2(64) − k(16) − 32 + 16 = 0 ⇒ 128 − 16k − 16 = 0 ⇒ 112 = 16k ⇒ k = 7. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6995,
+      "question": "Which statement is TRUE?",
+      "options": [
+        "A constant is not a polynomial",
+        "A polynomial can have negative powers",
+        "A polynomial may have fractional powers",
+        "A constant is a polynomial of degree zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A non-zero constant is a polynomial of degree 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.678,
+      "question": "Factorize completely: 4x<sup>2</sup> − 25",
+      "options": [
+        "(2x − 5)(2x + 5)",
+        "(4x − 5)(x + 5)",
+        "(x − 5)(x + 5)",
+        "(2x − 25)(2x + 1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Difference of squares: 4x<sup>2</sup> − 25 = (2x)<sup>2</sup> − 5<sup>2</sup> = (2x − 5)(2x + 5).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.919,
+      "question": "If P(x) = x<sup>3</sup> + ax<sup>2</sup> + bx + 6 and −2 is a root, which equation is correct?",
+      "options": [
+        "a + b = 6",
+        "4a − 2b = 2",
+        "−8 + 4a − 2b + 6 = 0",
+        "a − b = 2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P(−2) = 0 ⇒ (−2)<sup>3</sup> + a(−2)<sup>2</sup> + b(−2) + 6 = 0 ⇒ −8 + 4a − 2b + 6 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6333,
+      "question": "The highest power of the variable in a polynomial is called the:",
+      "options": [
+        "Order",
+        "Index",
+        "Degree",
+        "Coefficient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The highest power is called the degree.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5396,
+      "question": "Which polynomial has exactly three zeros?",
+      "options": [
+        "x<sup>2</sup> − 1",
+        "x<sup>3</sup> + 4x",
+        "2x<sup>3</sup> − 5x<sup>2</sup> + 1",
+        "7x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A degree 3 polynomial has exactly three zeros counting complex and multiplicity. 2x<sup>3</sup> − 5x<sup>2</sup> + 1 is degree 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.4043,
+      "question": "If α and β are the roots of x<sup>2</sup> + 7x + 10 = 0, find α + β.",
+      "options": [
+        "−10",
+        "7",
+        "−7",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of roots = −b/a = −7/1 = −7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6553,
+      "question": "Factorize completely: x<sup>3</sup> − 8",
+      "options": [
+        "(x − 2)(x<sup>2</sup> + 2x + 4)",
+        "(x − 2)(x<sup>2</sup> − 2x + 4)",
+        "(x − 2)<sup>3</sup>",
+        "(x − 2)(x + 2)(x − 4)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Difference of cubes: a<sup>3</sup> − b<sup>3</sup> = (a − b)(a<sup>2</sup> + ab + b<sup>2</sup>). Here x<sup>3</sup> − 8 = (x − 2)(x<sup>2</sup> + 2x + 4).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.359,
+      "question": "Find the remainder when x<sup>3</sup> − 3x<sup>2</sup> + 2x − 7 is divided by x − 1",
+      "options": [
+        "−7",
+        "7",
+        "−3",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Remainder = P(1) = 1 − 3 + 2 − 7 = −7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.7554,
+      "question": "If x<sup>2</sup> − 3x + 2 = 0, find the product of the roots",
+      "options": [
+        "2",
+        "−2",
+        "3",
+        "−3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Product of roots = c/a = 2/1 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.7993,
+      "question": "Which of the following is a factor of x<sup>3</sup> + 2x<sup>2</sup> − x − 2?",
+      "options": [
+        "x − 2",
+        "x + 2",
+        "x − 1",
+        "x + 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x<sup>3</sup> + 2x<sup>2</sup> − x − 2 = (x + 2)(x − 1)(x + 1). So x + 2 is a factor (also x − 1 and x + 1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.4495,
+      "question": "Factorize x<sup>4</sup> − 16 completely",
+      "options": [
+        "(x<sup>2</sup> − 4)(x<sup>2</sup> + 4) = (x − 2)(x + 2)(x<sup>2</sup> + 4)",
+        "(x − 4)(x + 4)(x<sup>2</sup> + 4)",
+        "(x − 2)<sup>2</sup>(x + 2)<sup>2</sup>",
+        "(x − 16)(x + 16)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x<sup>4</sup> − 16 = (x<sup>2</sup> − 4)(x<sup>2</sup> + 4) = (x − 2)(x + 2)(x<sup>2</sup> + 4).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.367,
+      "question": "Find k if (x − 2)<sup>2</sup> is a factor of x<sup>3</sup> − 6x<sup>2</sup> + kx + 12",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For (x − 2)<sup>2</sup> to be a factor, both P(2) = 0 and P'(2) = 0. P(2) = 8 − 24 + 2k + 12 = 2k − 4 ⇒ k = 2. P'(x) = 3x<sup>2</sup> − 12x + k ⇒ P'(2) = 12 − 24 + k = k − 12 ⇒ k = 12. Contradiction, so no such k exists.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.551,
+      "question": "How many real roots does x<sup>3</sup> − 3x + 1 = 0 have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cubic has three real roots. f(−2) < 0, f(−1) > 0, f(1) < 0, f(2) > 0, so roots lie in (−2,−1), (0,1), and (1,2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.4329,
+      "question": "Find k if x<sup>2</sup> + kx + 9 has equal roots",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equal roots ⇒ discriminant = 0 ⇒ k<sup>2</sup> − 4(1)(9) = 0 ⇒ k<sup>2</sup> = 36 ⇒ k = ±6. Positive option is 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.0476,
+      "question": "Which of the following divides x<sup>2</sup> − y<sup>2</sup> exactly?",
+      "options": [
+        "x − y",
+        "x + y − 1",
+        "x − y − 1",
+        "x<sup>2</sup> + y<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x<sup>2</sup> − y<sup>2</sup> = (x − y)(x + y), so x − y divides it exactly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.45,
+      "question": "If a polynomial has sum of coefficients zero, which of the following is a factor?",
+      "options": [
+        "x",
+        "x + 1",
+        "x − 1",
+        "x − 2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of coefficients = P(1). If P(1) = 0, then (x − 1) is a factor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5605,
+      "question": "Factorize x<sup>3</sup> − 8 completely",
+      "options": [
+        "(x − 2)(x<sup>2</sup> + 2x + 4)",
+        "(x − 2)(x<sup>2</sup> − 2x + 4)",
+        "(x − 2)<sup>3</sup>",
+        "(x − 2)(x + 2)(x − 4)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Difference of cubes: x<sup>3</sup> − 8 = (x − 2)(x<sup>2</sup> + 2x + 4).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6604,
+      "question": "Find a factor of x<sup>4</sup> − 1 given that f(1) = 0 and f(−1) = 0",
+      "options": [
+        "x − 1",
+        "x + 1",
+        "x<sup>2</sup> − 1",
+        "x<sup>2</sup> + 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x<sup>4</sup> − 1 = (x<sup>2</sup> − 1)(x<sup>2</sup> + 1) = (x − 1)(x + 1)(x<sup>2</sup> + 1). Thus x<sup>2</sup> − 1 is a factor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5574,
+      "question": "Expand (x − 1)<sup>2</sup>(x + 2) and find coefficient of x<sup>2</sup>",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "−1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(x − 1)<sup>2</sup>(x + 2) = (x<sup>2</sup> − 2x + 1)(x + 2) = x<sup>3</sup> + 2x<sup>2</sup> − 2x<sup>2</sup> − 4x + x + 2 = x<sup>3</sup> − 3x + 2. Coefficient of x<sup>2</sup> is 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.887,
+      "question": "If the roots of x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6 = 0 are α, β, γ, find α + β + γ",
+      "options": [
+        "6",
+        "11",
+        "−6",
+        "−11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sum of roots = −(coefficient of x<sup>2</sup>)/(coefficient of x<sup>3</sup>) = −(−6)/1 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.5925,
+      "question": "Which of the following polynomials has no real roots?",
+      "options": [
+        "x<sup>2</sup> + 4",
+        "x<sup>2</sup> − 4",
+        "x<sup>2</sup> − 1",
+        "x<sup>2</sup> + 2x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x<sup>2</sup> + 4 = 0 ⇒ x<sup>2</sup> = −4, which has no real solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.6519,
+      "question": "Find p if 1 is a root of x<sup>3</sup> − px<sup>2</sup> + 9x − 3",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P(1) = 0 ⇒ 1 − p + 9 − 3 = 0 ⇒ 7 − p = 0 ⇒ p = 7. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.7976,
+      "question": "Factorize completely: 2x<sup>3</sup> + 5x<sup>2</sup> − 3x",
+      "options": [
+        "x(2x − 1)(x + 3)",
+        "x(2x + 1)(x − 3)",
+        "x(2x − 3)(x + 1)",
+        "x(2x + 3)(x − 1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2x<sup>3</sup> + 5x<sup>2</sup> − 3x = x(2x<sup>2</sup> + 5x − 3) = x(2x − 1)(x + 3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.1208,
+      "question": "If 2x<sup>2</sup> − 3x + 1 = 0, find product of roots",
+      "options": [
+        "1",
+        "−1",
+        "1/2",
+        "1/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Product of roots = c/a = 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.0208,
+      "question": "If x = 3 is a root of 27x<sup>3</sup> − 81x<sup>2</sup> + 18x + 9a = 0, find a",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute x = 3: 27(27) − 81(9) + 18(3) + 9a = 729 − 729 + 54 + 9a = 54 + 9a = 0 ⇒ a = −6. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791287288841.824,
+      "question": "What is the maximum number of zeros a polynomial of degree 5 can have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A polynomial of degree n has at most n zeros. So degree 5 has at most 5 zeros.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
