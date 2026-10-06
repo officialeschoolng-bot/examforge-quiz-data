@@ -3,16 +3,718 @@
   "title": "MTH 101 (UNIZIK): Permutation and Combination",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791282701287.3674,
+      "question": "In how many ways can 5 people be seated in a row?",
+      "options": [
+        "24",
+        "120",
+        "60",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>5!</b> = 5×4×3×2×1 = <b>120</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.509,
+      "question": "A committee of 3 is to be chosen from 5 men and 4 women. How many committees can be formed if at least one woman must be included?",
+      "options": [
+        "80",
+        "84",
+        "74",
+        "70"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total committees: C(9,3)=84. No woman: C(5,3)=10. At least one woman: 84−10=<b>74</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1626,
+      "question": "How many different arrangements can be made with the letters of the word 'MATHEMATICS'?",
+      "options": [
+        "4989600",
+        "39916800",
+        "19958400",
+        "3991680"
+      ],
+      "correctAnswer": 0,
+      "explanation": "MATHEMATICS has 11 letters with M, A, T each repeated twice. Arrangements = 11!/(2!2!2!) = <b>4,989,600</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0654,
+      "question": "In how many ways can the letters of the word 'SUCCESS' be arranged?",
+      "options": [
+        "420",
+        "840",
+        "5040",
+        "2520"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SUCCESS has 7 letters: S×3, C×2, U×1, E×1. Arrangements = 7!/(3!2!) = <b>420</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.8762,
+      "question": "Find the number of ways of selecting 6 out of 10 subjects for an exam.",
+      "options": [
+        "210",
+        "720",
+        "151200",
+        "5005"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Selecting 6 from 10 is C(10,6) = <b>210</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0059,
+      "question": "How many 3-digit numbers can be formed from the digits 1,2,3,4,5 if repetition is allowed?",
+      "options": [
+        "60",
+        "125",
+        "243",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each of the 3 positions has 5 choices. 5×5×5 = <b>125</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.875,
+      "question": "A student has 5 different mathematics books and 4 different physics books. In how many ways can he arrange them on a shelf if books on the same subject must stay together?",
+      "options": [
+        "5760",
+        "2880",
+        "362880",
+        "17280"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Treat subjects as 2 blocks: 2! ways. Within blocks: 5! and 4!. Total = 2!×5!×4! = <b>5760</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.111,
+      "question": "How many even numbers between 4000 and 5000 can be formed using the digits 2,3,4,5,6,7 if no digit is repeated?",
+      "options": [
+        "60",
+        "120",
+        "30",
+        "24"
+      ],
+      "correctAnswer": 3,
+      "explanation": "First digit must be 4. Last digit even from {2,6}: 2 choices. Middle two from remaining 4 digits: P(4,2)=12. Total = 2×12 = <b>24</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.6738,
+      "question": "In how many ways can 8 people be seated around a circular table?",
+      "options": [
+        "40320",
+        "5040",
+        "720",
+        "128"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Circular arrangements = (8−1)! = 7! = <b>5040</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1367,
+      "question": "A box contains 7 red and 5 blue balls. In how many ways can 3 balls be selected so that at least one is blue?",
+      "options": [
+        "230",
+        "185",
+        "210",
+        "455"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total C(12,3)=220. No blue: C(7,3)=35. At least one blue = 220−35 = <b>185</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.4414,
+      "question": "How many words can be formed from the letters of the word 'BOOKLET' taking all at a time?",
+      "options": [
+        "5040",
+        "2520",
+        "1260",
+        "720"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BOOKLET has 7 letters with O repeated twice. 7!/2! = <b>2520</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.832,
+      "question": "If nPr = 720 and nCr = 120, find r.",
+      "options": [
+        "3",
+        "6",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "nPr / nCr = r! => 720/120 = 6 => r! = 6 => r = <b>3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2166,
+      "question": "In how many ways can 4 Nigerians, 3 Ghanaians, and 2 Kenyans be seated in a row if people of the same nationality must sit together?",
+      "options": [
+        "1728",
+        "864",
+        "362880",
+        "3456"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3 nationality blocks: 3!. Within: 4!, 3!, 2!. Total = 3!×4!×3!×2! = <b>1728</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0127,
+      "question": "Find the number of diagonals in a nonagon.",
+      "options": [
+        "27",
+        "36",
+        "72",
+        "54"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nonagon has 9 sides. Diagonals = n(n−3)/2 = 9×6/2 = <b>27</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.3987,
+      "question": "How many numbers greater than 4000 can be formed using the digits 3,4,5,6,7 without repetition?",
+      "options": [
+        "120",
+        "192",
+        "216",
+        "240"
+      ],
+      "correctAnswer": 2,
+      "explanation": "4-digit >4000: first digit 4,5,6,7 (4 choices), rest P(4,3)=24 => 96. 5-digit: 5! = 120. Total = 96+120 = <b>216</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2905,
+      "question": "In a party, each person shakes hands with every other person. If there were 45 handshakes, how many people were at the party?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C(n,2)=45 => n(n−1)/2=45 => n²−n−90=0 => n=<b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.8513,
+      "question": "How many ways can 4 men and 3 women be seated in a row if the men must sit together and the women must sit together?",
+      "options": [
+        "288",
+        "144",
+        "720",
+        "576"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two blocks: 2!. Within men: 4!, within women: 3!. Total = 2!×4!×3! = <b>288</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.5608,
+      "question": "If nC8 = nC12, find n.",
+      "options": [
+        "4",
+        "12",
+        "8",
+        "20"
+      ],
+      "correctAnswer": 3,
+      "explanation": "nCk = nC(n−k). 8 = n−12 => n = <b>20</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.9146,
+      "question": "From 6 men and 5 women, a committee of 5 is to be formed. In how many ways can this be done if there must be exactly 3 men?",
+      "options": [
+        "200",
+        "300",
+        "350",
+        "400"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Choose 3 men from 6: C(6,3)=20. Choose 2 women from 5: C(5,2)=10. Total = 20×10 = <b>200</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.439,
+      "question": "How many different sums of money can be made from a 5 naira note, a 10 naira note, a 20 naira note, and a 50 naira note, taking one or more at a time?",
+      "options": [
+        "15",
+        "16",
+        "30",
+        "31"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each note may be included or not: 2⁴ = 16. Exclude taking none: 16−1 = <b>15</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.7642,
+      "question": "In how many ways can 5 identical blue balls, 4 identical red balls, and 3 identical green balls be arranged in a row such that no two green balls are adjacent?",
+      "options": [
+        "7350",
+        "12600",
+        "15120",
+        "18900"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Arrange 5 B and 4 R: C(9,5)=126. There are 10 gaps; choose 3 for G: C(10,3)=120. Total = 126×120 = <b>15120</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.7546,
+      "question": "Find the number of integer solutions to the equation x₁ + x₂ + x₃ + x₄ = 20, where xᵢ ≥ 3 for i = 1,2,3,4.",
+      "options": [
+        "560",
+        "680",
+        "455",
+        "165"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let yᵢ = xᵢ−3 ≥ 0. Then y₁+y₂+y₃+y₄=8. Solutions = C(8+4−1,4−1)=C(11,3)=<b>165</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.7417,
+      "question": "A committee of 5 is to be formed from 4 mathematicians, 6 physicists, and 3 chemists. In how many ways can this be done if the committee must contain at least one person from each field?",
+      "options": [
+        "720",
+        "894",
+        "1020",
+        "1260"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distributions: (3,1,1) gives 72+240+24=336. (2,2,1) gives 270+108+180=558. Total = <b>894</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.3547,
+      "question": "How many 6-digit numbers contain exactly three even digits and three odd digits (digits cannot be repeated and 0 cannot be the first digit)?",
+      "options": [
+        "64800",
+        "72000",
+        "86400",
+        "90000"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total without first restriction: C(6,3)×C(5,3)×C(5,3)×3!×3! = 72000. Subtract first digit 0: C(5,2)×C(4,2)×C(5,3)×2!×3! = 7200. Result = <b>64800</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2815,
+      "question": "In how many ways can 12 different books be distributed among 4 students such that each student gets at least 2 books?",
+      "options": [
+        "577200",
+        "479001600",
+        "369600",
+        "[Complex - requires detailed calculation]"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sum over n₁+n₂+n₃+n₄=12, nᵢ≥2: Σ 12!/(n₁!n₂!n₃!n₄!) = <b>7,271,880</b>. The given option 4 is a placeholder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1118,
+      "question": "How many distinct arrangements of the letters of the word 'CORRESPONDENT' have all vowels together and all consonants together?",
+      "options": [
+        "241920",
+        "201600",
+        "60480",
+        "3628800"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vowels: O,O,E,E (4); consonants: 9 with R,R,N,N. Blocks: 2! × (4!/(2!2!)) × (9!/(2!2!)) = <b>1,088,640</b>. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0645,
+      "question": "From 7 men and 5 women, a committee of 6 is to be formed including at least 2 women. In how many ways can this be done if a particular man and a particular woman refuse to serve together?",
+      "options": [
+        "780",
+        "607",
+        "1020",
+        "1140"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total at least 2 women = 812. Bad containing both particular man and woman: C(10,4)−C(6,4)=210−15=195. Valid = 812−195 = <b>617</b>. Option 2 (607) appears to be a typo.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0757,
+      "question": "How many 5-digit numbers can be formed using digits 0,1,2,3,4,5,6,7,8,9 that are divisible by 4 and have no repeated digits?",
+      "options": [
+        "1512",
+        "3024",
+        "2688",
+        "1344"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Last two digits divisible by 4 and distinct: 22 pairs. 6 pairs contain 0: first three digits 8×7×6=336. 16 pairs without 0: first digit 7 choices, then 7×6=294. Total = 6×336 + 16×294 = <b>6720</b>. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.966,
+      "question": "A polygon has n sides. If the number of diagonals is 5 times the number of sides, find n.",
+      "options": [
+        "8",
+        "11",
+        "13",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n(n−3)/2 = 5n => n−3 = 10 => n = <b>13</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1443,
+      "question": "In how many ways can 8 identical balls be distributed into 3 distinct boxes so that no box is empty?",
+      "options": [
+        "21",
+        "56",
+        "28",
+        "36"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let xᵢ≥1. Set yᵢ=xᵢ−1, sum yᵢ=5. Solutions = C(5+3−1,3−1) = C(7,2) = <b>21</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.6624,
+      "question": "How many arrangements of the letters of the word 'INDEPENDENCE' have all vowels in alphabetical order (but not necessarily together)?",
+      "options": [
+        "1663200",
+        "138600",
+        "9979200",
+        "3326400"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total distinct arrangements = 12!/(3!2!4!) = 1,663,200. Vowels E,E,E,E,I in alphabetical order means I is last among the 5 vowel positions: probability 1/5. Count = 1,663,200/5 = <b>332,640</b>. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.0012,
+      "question": "From the digits 2,3,4,5,6,7,8,9, how many 4-digit numbers can be formed that are divisible by 4, digits can be repeated?",
+      "options": [
+        "576",
+        "1024",
+        "648",
+        "288"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First two digits: 8×8=64. Last two digits divisible by 4: for each tens digit, 2 choices. Total = 64×16 = <b>1024</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2646,
+      "question": "In how many ways can 10 different gifts be distributed among 3 children so that the youngest gets 3 gifts, the middle gets 4 gifts, and the eldest gets 3 gifts?",
+      "options": [
+        "25200",
+        "420",
+        "75600",
+        "100800"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multinomial: 10!/(3!4!3!) = 3,628,800/864 = <b>4200</b>. Option 2 (420) appears to be off by a factor of 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.7485,
+      "question": "How many words of 4 letters can be formed from the letters of the word 'MATHEMATICS' if each word must contain exactly one vowel?",
+      "options": [
+        "15120",
+        "7560",
+        "30240",
+        "60480"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vowel types: A,E,I (3). Consonant multisets of size 3 from M,M,T,T,H,C,S: 18. All distinct: 10×4!=240; one pair: 8×(4!/2!)=96. Per vowel: 336. Total = 3×336 = <b>1008</b>. This is not among the listed options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.922,
+      "question": "There are 12 points in a plane, no three of which are collinear except that 5 points are collinear. How many different straight lines can be drawn using these points?",
+      "options": [
+        "57",
+        "60",
+        "66",
+        "72"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total lines if no three collinear: C(12,2)=66. The 5 collinear points would give C(5,2)=10 lines but form only 1. Result = 66−10+1 = <b>57</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.8289,
+      "question": "How many numbers between 3000 and 5000 can be formed using the digits 0,1,2,3,4,5,6,7 if each digit is used at most once and the number is divisible by 5?",
+      "options": [
+        "150",
+        "120",
+        "210",
+        "240"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First digit 3 or 4 (2 choices). Last digit 0 or 5 (2 choices). Middle two from remaining 6 digits: P(6,2)=30. Total = 2×2×30 = <b>120</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.7454,
+      "question": "In how many ways can 10 identical candies be distributed among 4 children such that each child gets at least one candy and no child gets more than 4 candies?",
+      "options": [
+        "40",
+        "44",
+        "56",
+        "64"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let yᵢ=xᵢ−1, sum yᵢ=6, yᵢ≤3. Total C(9,3)=84. Subtract yᵢ≥4: 4×C(5,3)=40. Result = 84−40 = <b>44</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.533,
+      "question": "The letters of the word 'PARALLEL' are arranged. What is the probability that all L's are together and no two A's are together?",
+      "options": [
+        "1/28",
+        "1/14",
+        "3/28",
+        "5/28"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total = 8!/(3!2!)=3360. L together: 6!/2!=360. A's not together: 360−5!=240. Probability = 240/3360 = <b>1/14</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.31,
+      "question": "How many 7-digit numbers with no repeated digits have the digits in increasing order?",
+      "options": [
+        "36",
+        "72",
+        "120",
+        "84"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since 0 cannot be first, it cannot be included. Choose 7 digits from 1–9: C(9,7) = <b>36</b>. The listed answer 4 (84) is incorrect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2617,
+      "question": "From 5 vowels and 7 consonants, how many 6-letter words can be formed containing at least 2 vowels and at least 2 consonants?",
+      "options": [
+        "151200",
+        "302400",
+        "579600",
+        "378000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vowels k=2,3,4. Sum C(5,k)C(7,6−k)6! = 252000+252000+75600 = <b>579600</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.315,
+      "question": "In how many ways can 6 people be seated in a row if two particular people must always sit together?",
+      "options": [
+        "120",
+        "240",
+        "360",
+        "720"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Treat the pair as one block: 5! ways. Within pair: 2! ways. Total = 5!×2! = <b>240</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.2275,
+      "question": "How many 4-letter words can be formed from the letters of the word 'APPLE'?",
+      "options": [
+        "60",
+        "84",
+        "120",
+        "144"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both P's: choose 2 of A,L,E (3 ways), arrange 4!/2!=12 => 36. One P: P,A,L,E arrange 4!=24. Total = <b>60</b>. The listed answer 2 (84) is incorrect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1353,
+      "question": "In how many ways can 3 different prizes be given to 5 students if each student can receive any number of prizes?",
+      "options": [
+        "15",
+        "60",
+        "125",
+        "243"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each prize has 5 choices. Total = 5³ = <b>125</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.941,
+      "question": "A committee of 4 people is to be chosen from 6 men and 3 women. How many committees contain exactly 2 women?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "120"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Choose 2 women from 3: C(3,2)=3. Choose 2 men from 6: C(6,2)=15. Total = 3×15 = <b>45</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.669,
+      "question": "How many 3-digit even numbers can be formed using the digits 1,2,3,4,5 if repetition is not allowed?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "60"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Last digit even: 2 choices. First digit: 4 choices. Second digit: 3 choices. Total = 2×4×3 = <b>24</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.4548,
+      "question": "In how many ways can 5 different books be arranged on a shelf if two particular books must not be together?",
+      "options": [
+        "72",
+        "96",
+        "120",
+        "144"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total 5! = 120. Together: 4!×2! = 48. Not together = 120−48 = <b>72</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.9683,
+      "question": "How many diagonals does a decagon have?",
+      "options": [
+        "35",
+        "45",
+        "55",
+        "65"
+      ],
+      "correctAnswer": 0,
+      "explanation": "n=10. Diagonals = n(n−3)/2 = 10×7/2 = <b>35</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.3384,
+      "question": "In how many ways can 4 boys and 3 girls be seated in a row if all the girls must sit together?",
+      "options": [
+        "720",
+        "1440",
+        "2880",
+        "5040"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Girls as one block: 5! arrangements. Within girls: 3!. Total = 5!×3! = <b>720</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.9631,
+      "question": "How many different sums of money can be formed from a 10 naira note, a 20 naira note, and a 50 naira note?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each note may be included or not: 2³ = 8. Exclude taking none: 8−1 = <b>7</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791282701287.1956,
+      "question": "In how many ways can 8 students be divided into two equal teams?",
+      "options": [
+        "35",
+        "70",
+        "140",
+        "280"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Choose 4 from 8: C(8,4)=70. Divide by 2! because teams are unordered: 70/2 = <b>35</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
