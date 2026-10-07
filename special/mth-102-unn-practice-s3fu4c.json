@@ -4,15 +4,16 @@
   "subject": "MTH 102",
   "description": "",
   "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
   "questions": []
 }
