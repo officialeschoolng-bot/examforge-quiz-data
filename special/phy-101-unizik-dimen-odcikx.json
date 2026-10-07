@@ -3,7 +3,7 @@
   "title": "PHY 101 (UNIZIK): DIMENSION ANALYSIS AND VECTORS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 50,
+  "totalQuestions": 47,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -106,7 +106,7 @@
       "options": [
         "Numerical coefficients",
         "Units of constants only",
-        "Powers of fundamental dimensions",
+        "Fundamental dimensions",
         "Trigonometric terms"
       ],
       "correctAnswer": 2,
@@ -331,7 +331,7 @@
         "Fundamental dimensions",
         "Physical quantities",
         "Units of variables",
-        "Dimensionless constants or numerical multipliers"
+        "Dimensionless constants"
       ],
       "correctAnswer": 3,
       "explanation": "Dimensional analysis cannot determine dimensionless constants or numerical multipliers such as 2&pi; or 1/2.",
@@ -342,7 +342,7 @@
       "id": 1791402330167.547,
       "question": "Which can dimensional analysis not determine?",
       "options": [
-        "Whether quantities are added or subtracted",
+        "Added or subtraction",
         "Dimensions of force",
         "Units of viscosity",
         "Homogeneity of equation"
@@ -385,26 +385,12 @@
       "question": "Dimensional analysis cannot be directly applied to equations containing?",
       "options": [
         "Length and time",
-        "Exponential or logarithmic functions",
+        "Logarithmic functions",
         "Mass and tension",
         "Numerical multipliers"
       ],
       "correctAnswer": 1,
       "explanation": "Exponential and logarithmic functions cannot be directly handled by dimensional analysis.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1791402330167.0627,
-      "question": "Dimensional analysis may not give a complete relationship when?",
-      "options": [
-        "One variable is involved",
-        "Constants are absent",
-        "Several independent variables are involved",
-        "Dimensions are equal"
-      ],
-      "correctAnswer": 2,
-      "explanation": "When several independent variables are involved, dimensional analysis may not yield a complete relationship.",
       "difficulty": "easy",
       "points": 1
     },
@@ -479,20 +465,6 @@
       "points": 1
     },
     {
-      "id": 1791402330167.6438,
-      "question": "A limitation concerning constants is that dimensional analysis?",
-      "options": [
-        "Provides no information about them",
-        "Finds exact constants",
-        "Converts them to units",
-        "Makes them dimensional"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Dimensional analysis provides no information about dimensionless constants.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1791402330167.3516,
       "question": "Physical quantities are broadly divided into which two categories?",
       "options": [
@@ -522,7 +494,7 @@
     },
     {
       "id": 1791402330167.2996,
-      "question": "A vector possesses both?",
+      "question": "A vector possesses?",
       "options": [
         "Magnitude only",
         "Direction only",
@@ -609,9 +581,9 @@
       "question": "Which group contains only vector quantities?",
       "options": [
         "Mass, time, temperature",
-        "Displacement, velocity, acceleration",
+        "Force, velocity, acceleration",
         "Speed, distance, energy",
-        "Work, power, volume"
+        "Pressure, Temperature, volume"
       ],
       "correctAnswer": 1,
       "explanation": "Displacement, velocity, and acceleration are all vectors.",
@@ -643,20 +615,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Force has both magnitude and direction.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1791402330167.7366,
-      "question": "A two-dimensional vector A in the xy-plane can be resolved into?",
-      "options": [
-        "Three equal components",
-        "One scalar component",
-        "No components",
-        "Two perpendicular components"
-      ],
-      "correctAnswer": 3,
-      "explanation": "A 2D vector can be resolved into two perpendicular components along the x and y axes.",
       "difficulty": "easy",
       "points": 1
     },
