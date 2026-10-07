@@ -3,7 +3,7 @@
   "title": "MTH 102 (UNN): Practice Questions",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 30,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -15,5 +15,426 @@
     "shuffleOptions": true,
     "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791387436779.0867,
+      "question": "Let f(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>2x + 1</span><span style='display:block;'>3x</span></span>. The domain of f is",
+      "options": [
+        "R \\ {<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3</span></span>}",
+        "R",
+        "R \\ {0}",
+        "[0, &infin;)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Denominator 3x must not be zero, so x &ne; 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.2327,
+      "question": "If f(x) = x<sup>2</sup> and g(x) = 2x + 1, then (f ∘ g)(x) is",
+      "options": [
+        "4x<sup>2</sup> + 4x + 1",
+        "x<sup>2</sup> + 2x + 1",
+        "2x<sup>2</sup> + 1",
+        "4x<sup>2</sup> + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(f∘g)(x) = f(2x+1) = (2x+1)<sup>2</sup> = 4x<sup>2</sup>+4x+1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.9985,
+      "question": "If f(x) = 4x + 7, then f<sup>-1</sup>(x) is",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x - 7</span><span style='display:block;'>4</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x + 7</span><span style='display:block;'>4</span></span>",
+        "7 - 4x",
+        "4x - 7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solve x = 4y + 7 for y: y = (x-7)/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.9731,
+      "question": "Evaluate: <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;'>x &rarr; 1</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x<sup>2</sup> - 1</span><span style='display:block;'>x - 1</span></span>",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Does not exist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Factor numerator: (x-1)(x+1)/(x-1) = x+1; limit = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.6555,
+      "question": "Evaluate: <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;'>x &rarr; 0</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>&radic;(x<sup>2</sup> + 4) - 2</span><span style='display:block;'>x<sup>2</sup></span></span>",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>4</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>8</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>4</span></span>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rationalize: multiply numerator and denominator by the conjugate &radic;(x<sup>2</sup>+4)+2. Numerator becomes (x<sup>2</sup>+4)-4 = x<sup>2</sup>. So the expression becomes x<sup>2</sup>/[x<sup>2</sup>(&radic;(x<sup>2</sup>+4)+2)] = 1/(&radic;(x<sup>2</sup>+4)+2). As x &rarr; 0, this is 1/(2+2) = 1/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.2083,
+      "question": "Consider the function f(x) = 1 for x &gt; 0 and f(x) = -1 for x &lt; 0. The value of <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;'>x &rarr; 0</span></span> f(x) is",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "Does not exist"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Left-hand limit = -1, right-hand limit = 1; they differ, so limit does not exist.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.3584,
+      "question": "Using the definition of derivative, if f(x) = x<sup>2</sup> + 1, find f'(3).",
+      "options": [
+        "9",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f'(x) = 2x; f'(3) = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.8784,
+      "question": "If y = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x</span><span style='display:block;'>x + 1</span></span>, then dy/dx is",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x</span><span style='display:block;'>(x + 1)<sup>2</sup></span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>x + 1</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>-1</span><span style='display:block;'>(x + 1)<sup>2</sup></span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>(x + 1)<sup>2</sup></span></span>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Quotient rule: ((x+1) - x)/(x+1)<sup>2</sup> = 1/(x+1)<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.0999,
+      "question": "If y = &radic;(x<sup>3</sup> + 1), then dy/dx is",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3x<sup>2</sup></span><span style='display:block;'>&radic;(x<sup>3</sup> + 1)</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3x</span><span style='display:block;'>&radic;(x<sup>3</sup> + 1)</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x<sup>2</sup></span><span style='display:block;'>2&radic;(x<sup>3</sup> + 1)</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3x<sup>2</sup></span><span style='display:block;'>2&radic;(x<sup>3</sup> + 1)</span></span>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chain rule: (1/2)(x³+1)^(-1/2) × 3x² = 3x²/(2√(x³+1)).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.8083,
+      "question": "Differentiate y = sin(3x + 1) with respect to x.",
+      "options": [
+        "cos(3x + 1)",
+        "-3cos(3x + 1)",
+        "3sin(3x + 1)",
+        "3cos(3x + 1)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chain rule: cos(3x+1) × 3 = 3cos(3x+1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.025,
+      "question": "If x<sup>3</sup> + y<sup>3</sup> = 3xy, then dy/dx is",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x<sup>2</sup> + y</span><span style='display:block;'>y<sup>2</sup> + x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>y - x<sup>2</sup></span><span style='display:block;'>y<sup>2</sup> - x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x<sup>2</sup> - y</span><span style='display:block;'>x - y<sup>2</sup></span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>y<sup>2</sup> - x</span><span style='display:block;'>y - x<sup>2</sup></span></span>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Implicit diff: 3x²+3y² dy/dx = 3y+3x dy/dx; solve dy/dx = (y-x²)/(y²-x).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.1384,
+      "question": "If y = log<sub>a</sub>(x), where a &gt; 0 and a &ne; 1, then dy/dx is",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>a</span><span style='display:block;'>x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>x ln a</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>ln a</span><span style='display:block;'>x</span></span>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Derivative of log_a x is 1/(x ln a).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.305,
+      "question": "Differentiate y = e<sup>2x + 1</sup>.",
+      "options": [
+        "2e<sup>2x + 1</sup>",
+        "2x e<sup>2x + 1</sup>",
+        "(2x + 1)e<sup>2x</sup>",
+        "e<sup>2x + 1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chain rule: e^(2x+1) × 2 = 2e^(2x+1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.6262,
+      "question": "If y = sin<sup>2</sup>x, then d<sup>2</sup>y/dx<sup>2</sup> is",
+      "options": [
+        "2sin x cos x",
+        "2cos<sup>2</sup>x",
+        "2cos 2x",
+        "-2sin 2x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "y' = 2sin x cos x = sin 2x; y'' = 2cos 2x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.5723,
+      "question": "Evaluate using L'Hospital's Rule: <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;'>x &rarr; &pi;</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>sin(2x)</span><span style='display:block;'>x - &pi;</span></span>",
+      "options": [
+        "2",
+        "-1",
+        "1",
+        "-2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derivative top/bottom: 2cos(2x)/1; at x=&pi; = 2cos(2&pi;) = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.744,
+      "question": "Find the equation of the tangent to the curve y = x<sup>2</sup> + 1 at the point where x = 1.",
+      "options": [
+        "y - 2 = x - 1",
+        "y - 1 = 2(x - 1)",
+        "y - 2 = 2(x - 1)",
+        "y + 2 = 2(x + 1)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Point (1,2); slope f'(1)=2; equation y-2=2(x-1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.0051,
+      "question": "Find the equation of the normal to the curve y = 2x<sup>3</sup> - 5x + 1 at the point where x = 2.",
+      "options": [
+        "y + 7 = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>19</span></span>(x + 2)",
+        "y - 7 = -<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>19</span></span>(x - 2)",
+        "y - 2 = -19(x - 7)",
+        "y - 7 = 19(x - 2)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Point (2,7); slope dy/dx=6x²-5 = 19; normal slope = -1/19.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.2742,
+      "question": "The stationary points of y = 4x<sup>3</sup> + 15x<sup>2</sup> - 18x + 7 occur at",
+      "options": [
+        "x = 3 and x = -1/2",
+        "x = 1 and x = -2",
+        "x = 1/2 and x = -3",
+        "x = 2 and x = -3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "y' = 12x²+30x-18 = 0 => 6(2x²+5x-3)=0 => x=1/2, -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.6743,
+      "question": "For the function y = 3x<sup>4</sup> - 8x<sup>3</sup> + 6x<sup>2</sup> + 5, the stationary point at x = 0 is a",
+      "options": [
+        "minimum point",
+        "saddle point",
+        "maximum point",
+        "point of inflexion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "y''=36x²-48x+12; at x=0, y''=12>0, so minimum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.5745,
+      "question": "Evaluate: &int;(3x<sup>2</sup> - 6x - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>2</span><span style='display:block;'>x<sup>3</sup></span></span>) dx",
+      "options": [
+        "x<sup>3</sup> - 6x<sup>2</sup> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>2</span><span style='display:block;'>x<sup>2</sup></span></span> + C",
+        "x<sup>3</sup> - 3x<sup>2</sup> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>x<sup>2</sup></span></span> + C",
+        "x<sup>3</sup> - 3x<sup>2</sup> - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>x<sup>2</sup></span></span> + C",
+        "3x<sup>3</sup> - 6x<sup>2</sup> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>x<sup>2</sup></span></span> + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrate: x³ - 3x² + 1/x² + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.2817,
+      "question": "Evaluate: &int;<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>dx</span><span style='display:block;'>x</span></span>",
+      "options": [
+        "ln|x| + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>x<sup>2</sup></span></span> + C",
+        "ln(x) + C",
+        "x ln x + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integral of 1/x is ln|x| + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.1274,
+      "question": "Evaluate: &int; 3x<sup>2</sup> &radic;(1 + x<sup>3</sup>) dx",
+      "options": [
+        "2(1 + x<sup>3</sup>)<sup>1/2</sup> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>2</span><span style='display:block;'>3</span></span>(1 + x<sup>3</sup>)<sup>3/2</sup> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3</span></span>(1 + x<sup>3</sup>)<sup>3/2</sup> + C",
+        "(1 + x<sup>3</sup>)<sup>3/2</sup> + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitution u=1+x³ gives (2/3)u^(3/2)+C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436779.5786,
+      "question": "Evaluate: &int; sin<sup>2</sup>x dx",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x</span><span style='display:block;'>2</span></span> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>sin(2x)</span><span style='display:block;'>4</span></span> + C",
+        "x - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>sin(2x)</span><span style='display:block;'>2</span></span> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x</span><span style='display:block;'>2</span></span> - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>sin(2x)</span><span style='display:block;'>4</span></span> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>sin<sup>2</sup>x</span><span style='display:block;'>2</span></span> + C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use sin²x = (1-cos2x)/2; integral = x/2 - sin2x/4 + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.4636,
+      "question": "Evaluate: &int; sin(3x) cos(2x) dx",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>sin(5x) - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>sin x + C",
+        "-<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>10</span></span>cos(5x) - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>cos x + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>10</span></span>cos(5x) + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>cos x + C",
+        "-<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>5</span></span>cos(5x) + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>cos x + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Product-to-sum: sin3x cos2x = 1/2[sin5x+sinx]; integrate = -cos5x/10 - cosx/2 + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.1333,
+      "question": "Evaluate: &int; e<sup>x</sup> sin x dx",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>e<sup>x</sup></span><span style='display:block;'>2</span></span>(sin x + cos x) + C",
+        "e<sup>x</sup>(sin x + cos x) + C",
+        "e<sup>x</sup>(sin x - cos x) + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>e<sup>x</sup></span><span style='display:block;'>2</span></span>(sin x - cos x) + C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Integration by parts twice yields e^x/2(sin x - cos x)+C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.5361,
+      "question": "Using integration by parts, evaluate: &int; x ln x dx",
+      "options": [
+        "x ln x - x + C",
+        "x<sup>2</sup>ln x - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x<sup>2</sup></span><span style='display:block;'>2</span></span> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x<sup>2</sup></span><span style='display:block;'>2</span></span>ln x - <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x<sup>2</sup></span><span style='display:block;'>4</span></span> + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x<sup>2</sup></span><span style='display:block;'>2</span></span>ln x + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x<sup>2</sup></span><span style='display:block;'>4</span></span> + C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let u=ln x, dv=x dx; result = x²/2 ln x - x²/4 + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.2732,
+      "question": "Evaluate: &int; <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>2x</span><span style='display:block;'>(x + 1)(x + 2)</span></span> dx",
+      "options": [
+        "4ln|x + 2| - 2ln|x + 1| + C",
+        "2ln|x + 1| + 4ln|x + 2| + C",
+        "4ln|x + 1| - 2ln|x + 2| + C",
+        "ln|x + 2| - ln|x + 1| + C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Partial fractions: A/(x+1)+B/(x+2); A=-2, B=4; integral = -2ln|x+1|+4ln|x+2|+C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.854,
+      "question": "Evaluate the definite integral: &int;<sub>1</sub><sup>3</sup> (x<sup>2</sup> + 3) dx",
+      "options": [
+        "16",
+        "10",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>44</span><span style='display:block;'>3</span></span>",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antiderivative x³/3+3x; F(3)=18, F(1)=10/3; difference = 44/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.3618,
+      "question": "Find the area enclosed between the curves y = x<sup>2</sup> + 2 and y = 4x - 1.",
+      "options": [
+        "2 square units",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>4</span><span style='display:block;'>3</span></span> square units",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3</span></span> square unit",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>3</span><span style='display:block;'>2</span></span> square units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intersections x=1,3; integrate (4x-1)-(x²+2) from 1 to3 = 4/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387436780.2708,
+      "question": "The curve y = x + 1 is rotated completely about the x-axis from x = 1 to x = 2. Find the volume of the solid generated.",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>18&pi;</span><span style='display:block;'>3</span></span> cubic units",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>17&pi;</span><span style='display:block;'>3</span></span> cubic units",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>20&pi;</span><span style='display:block;'>3</span></span> cubic units",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>19&pi;</span><span style='display:block;'>3</span></span> cubic units"
+      ],
+      "correctAnswer": 3,
+      "explanation": "V = &pi;&int;<sub>1</sub><sup>2</sup> (x+1)² dx = &pi;[(x+1)³/3]&#8331;&#178; = &pi;(27-8)/3 = 19&pi;/3.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
