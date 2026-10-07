@@ -3,16 +3,718 @@
   "title": "PHY 101 (UNIZIK): DIMENSION ANALYSIS AND VECTORS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791402330167.482,
+      "question": "According to the principle of dimensional homogeneity, a physical equation is correct when?",
+      "options": [
+        "Both sides have equal numerical values",
+        "Constants are dimensionless",
+        "Dimensions on L.H.S equal dimensions on R.H.S",
+        "Units are always S.I. units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The principle of dimensional homogeneity states that for a physical equation to be correct, the dimensions of all terms on the left-hand side must be equal to the dimensions of all terms on the right-hand side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.6035,
+      "question": "In T = 2&pi;&radic;(l/g), what is the dimension of l/g?",
+      "options": [
+        "[T<sup>2</sup>]",
+        "[L]",
+        "[LT<sup>-2</sup>]",
+        "[T<sup>-1</sup>]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Length l has dimension [L]. Acceleration due to gravity g has dimension [LT<sup>-2</sup>]. Therefore, l/g has dimension [L]/[LT<sup>-2</sup>] = [T<sup>2</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.9536,
+      "question": "In the equation T = 2&pi;&radic;(l/g), the constant 2&pi; is?",
+      "options": [
+        "Has dimension [T]",
+        "Has dimension [L]",
+        "Has dimension [LT<sup>-1</sup>]",
+        "Dimensionless"
+      ],
+      "correctAnswer": 3,
+      "explanation": "2&pi; is a pure number arising from the geometry of a circle. It has no physical dimensions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.106,
+      "question": "The dimension of acceleration due to gravity g is?",
+      "options": [
+        "[L]",
+        "[LT<sup>-2</sup>]",
+        "[T<sup>-2</sup>]",
+        "[LT<sup>-1</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration is the rate of change of velocity. Its dimension is [LT<sup>-2</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.0532,
+      "question": "Taking the square root of [T<sup>2</sup>] gives?",
+      "options": [
+        "[T]",
+        "[T<sup>-2</sup>]",
+        "[T<sup>2</sup>]",
+        "[L]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The square root of [T<sup>2</sup>] is [T].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4478,
+      "question": "Since L.H.S = R.H.S = [T], the equation T = 2&pi;&radic;(l/g) is?",
+      "options": [
+        "Numerically invalid",
+        "Dimensionally inconsistent",
+        "Dimensionally indeterminate",
+        "Dimensionally homogeneous"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both sides have the same dimension [T], so the equation is dimensionally homogeneous.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.868,
+      "question": "Dimensional analysis derives relationships by matching what?",
+      "options": [
+        "Numerical coefficients",
+        "Units of constants only",
+        "Powers of fundamental dimensions",
+        "Trigonometric terms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dimensional analysis equates the powers of the fundamental dimensions (M, L, T) on both sides of the equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.701,
+      "question": "Frequency f of a stretched string is assumed to depend on length l, tension T, and?",
+      "options": [
+        "Volume per unit length",
+        "Mass per unit length &mu;",
+        "Density only",
+        "Elastic modulus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the standard derivation, frequency of a stretched string depends on length l, tension T, and mass per unit length &mu;.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4697,
+      "question": "In f = k l<sup>a</sup> T<sup>b</sup> &mu;<sup>c</sup>, k is?",
+      "options": [
+        "A dimensional constant",
+        "The frequency unit",
+        "The tension unit",
+        "A dimensionless constant"
+      ],
+      "correctAnswer": 3,
+      "explanation": "k is a proportionality constant that has no dimensions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4119,
+      "question": "The dimension of frequency f is?",
+      "options": [
+        "[T<sup>-1</sup>]",
+        "[T]",
+        "[LT<sup>-1</sup>]",
+        "[MLT<sup>-2</sup>]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frequency is the reciprocal of time, so its dimension is [T<sup>-1</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.211,
+      "question": "The dimension of tension T is?",
+      "options": [
+        "[ML<sup>-1</sup>]",
+        "[LT<sup>-2</sup>]",
+        "[MLT<sup>-2</sup>]",
+        "[T<sup>-1</sup>]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tension is a force. Force = mass × acceleration, so [M][LT<sup>-2</sup>] = [MLT<sup>-2</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4417,
+      "question": "The dimension of mass per unit length &mu; is?",
+      "options": [
+        "[MLT<sup>-2</sup>]",
+        "[ML<sup>-1</sup>]",
+        "[L<sup>-1</sup>]",
+        "[ML<sup>-2</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "&mu; = mass / length. Dimension = [M]/[L] = [ML<sup>-1</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.1235,
+      "question": "Comparing powers of M in [T<sup>-1</sup>] = [M<sup>b+c</sup> L<sup>a+b-c</sup> T<sup>-2b</sup>] gives?",
+      "options": [
+        "b - c = 0",
+        "b + c = 1",
+        "b c = 0",
+        "b + c = 0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The left side has no M, so the exponent of M on the right must be zero: b + c = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.5283,
+      "question": "From -2b = -1, the value of b is?",
+      "options": [
+        "1/2",
+        "-1/2",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solving -2b = -1 gives b = 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4648,
+      "question": "Since c = -b and b = 1/2, c equals?",
+      "options": [
+        "1/2",
+        "2",
+        "-1/2",
+        "-2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "c = -b = -1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.8398,
+      "question": "For L, a + b - c = 0. With b = 1/2 and c = -1/2, a equals?",
+      "options": [
+        "1",
+        "0",
+        "1/2",
+        "-1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "a + 1/2 - (-1/2) = 0 &rArr; a + 1 = 0 &rArr; a = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.6838,
+      "question": "The derived frequency relation is?",
+      "options": [
+        "f = k&radic;(T/&mu;)/l",
+        "f = k l&radic;(T/&mu;)",
+        "f = k T/(&mu; l)",
+        "f = k l T &mu;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substituting a = -1, b = 1/2, c = -1/2 into f = k l<sup>a</sup> T<sup>b</sup> &mu;<sup>c</sup> gives f = k l<sup>-1</sup> T<sup>1/2</sup> &mu;<sup>-1/2</sup> = k&radic;(T/&mu;)/l.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.706,
+      "question": "By finding dimensional formula, one can determine directly the?",
+      "options": [
+        "Numerical constant",
+        "Direction",
+        "S.I. unit",
+        "Trigonometric value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dimensional formula of a quantity directly gives its S.I. unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.457,
+      "question": "The dimensional formula of coefficient of viscosity &eta; is?",
+      "options": [
+        "[MLT<sup>-2</sup>]",
+        "[ML<sup>-1</sup>T<sup>-2</sup>]",
+        "[M<sup>-1</sup>LT<sup>-1</sup>]",
+        "[ML<sup>-1</sup>T<sup>-1</sup>]"
+      ],
+      "correctAnswer": 3,
+      "explanation": "&eta; = F/(A dv/dx). Dimensions: [MLT<sup>-2</sup>]/([L<sup>2</sup>][T<sup>-1</sup>]) = [ML<sup>-1</sup>T<sup>-1</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.3157,
+      "question": "In SI, M, L and T are represented by?",
+      "options": [
+        "g, cm, s",
+        "kg, m, s",
+        "N, m, s",
+        "Pa, m, s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI base units are kilogram (kg), metre (m), and second (s).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.1697,
+      "question": "The S.I. unit of coefficient of viscosity is?",
+      "options": [
+        "kg m s<sup>-2</sup>",
+        "kg m<sup>-2</sup> s<sup>-1</sup>",
+        "kg m<sup>-1</sup> s<sup>-1</sup>",
+        "kg m<sup>-1</sup> s<sup>-2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From [ML<sup>-1</sup>T<sup>-1</sup>], the SI unit is kg m<sup>-1</sup> s<sup>-1</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.5383,
+      "question": "The S.I. unit kg m<sup>-1</sup> s<sup>-1</sup> can also be written as?",
+      "options": [
+        "N s",
+        "Pa s",
+        "J s",
+        "Pa m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1 Pa = 1 N/m<sup>2</sup> = 1 kg m<sup>-1</sup> s<sup>-2</sup>. Therefore, Pa s = kg m<sup>-1</sup> s<sup>-1</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.6243,
+      "question": "One limitation is that dimensional analysis provides no information about?",
+      "options": [
+        "Fundamental dimensions",
+        "Physical quantities",
+        "Units of variables",
+        "Dimensionless constants or numerical multipliers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dimensional analysis cannot determine dimensionless constants or numerical multipliers such as 2&pi; or 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.547,
+      "question": "Which can dimensional analysis not determine?",
+      "options": [
+        "Whether quantities are added or subtracted",
+        "Dimensions of force",
+        "Units of viscosity",
+        "Homogeneity of equation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensional analysis cannot determine whether quantities are added or subtracted in an equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.7996,
+      "question": "Dimensional analysis cannot distinguish between different physical quantities that have?",
+      "options": [
+        "Same units only",
+        "Different dimensions",
+        "Same dimensions",
+        "Zero dimensions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different physical quantities can have the same dimensions (e.g., work and torque both have [ML<sup>2</sup>T<sup>-2</sup>]).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.9521,
+      "question": "Dimensional analysis cannot be directly applied to equations containing?",
+      "options": [
+        "Algebraic variables",
+        "Fundamental dimensions",
+        "Powers",
+        "Trigonometric functions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Trigonometric functions such as sin, cos, and tan cannot be directly analyzed dimensionally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.0261,
+      "question": "Dimensional analysis cannot be directly applied to equations containing?",
+      "options": [
+        "Length and time",
+        "Exponential or logarithmic functions",
+        "Mass and tension",
+        "Numerical multipliers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exponential and logarithmic functions cannot be directly handled by dimensional analysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.0627,
+      "question": "Dimensional analysis may not give a complete relationship when?",
+      "options": [
+        "One variable is involved",
+        "Constants are absent",
+        "Several independent variables are involved",
+        "Dimensions are equal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When several independent variables are involved, dimensional analysis may not yield a complete relationship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.8298,
+      "question": "Dimensional analysis gives no information about numerical multipliers such as?",
+      "options": [
+        "L, M, T",
+        "kg, m, s",
+        "sin, cos, tan",
+        "2&pi;, 1/2, 3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Numerical multipliers like 2&pi;, 1/2, and 3 are dimensionless and cannot be determined by dimensional analysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.136,
+      "question": "Which is NOT a limitation of dimensional analysis?",
+      "options": [
+        "It cannot check dimensional homogeneity",
+        "It cannot find dimensionless constants",
+        "It cannot determine addition or subtraction",
+        "It cannot handle trigonometric functions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Checking dimensional homogeneity is a strength of dimensional analysis, not a limitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.9817,
+      "question": "Dimensional analysis cannot directly handle equations containing?",
+      "options": [
+        "mass and length",
+        "force and momentum",
+        "sin, cos and tan",
+        "work and power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trigonometric functions such as sin, cos, and tan cannot be directly handled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.7222,
+      "question": "Dimensional analysis cannot directly handle equations containing?",
+      "options": [
+        "distance and speed",
+        "log and exponential functions",
+        "scalar and vector quantities",
+        "tension and frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logarithmic and exponential functions cannot be directly handled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.6807,
+      "question": "Dimensional analysis may fail to give a complete relationship because of?",
+      "options": [
+        "Equal dimensions on both sides",
+        "Dimensionless constants",
+        "SI units",
+        "Several independent variables"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When several independent variables are present, the relationship derived may be incomplete.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.6438,
+      "question": "A limitation concerning constants is that dimensional analysis?",
+      "options": [
+        "Provides no information about them",
+        "Finds exact constants",
+        "Converts them to units",
+        "Makes them dimensional"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensional analysis provides no information about dimensionless constants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.3516,
+      "question": "Physical quantities are broadly divided into which two categories?",
+      "options": [
+        "Mass and time",
+        "Distance and speed",
+        "Scalars and vectors",
+        "Energy and power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physical quantities are classified as scalars and vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.1697,
+      "question": "Which quantity obeys the laws of vector addition?",
+      "options": [
+        "Vector",
+        "Scalar",
+        "Temperature",
+        "Volume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vectors obey the laws of vector addition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.2996,
+      "question": "A vector possesses both?",
+      "options": [
+        "Magnitude only",
+        "Direction only",
+        "Time and mass",
+        "Magnitude and direction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A vector has both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.3457,
+      "question": "A scalar is a physical quantity that has?",
+      "options": [
+        "Direction only",
+        "Magnitude only",
+        "Magnitude and direction",
+        "Neither magnitude nor direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A scalar has magnitude only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.9426,
+      "question": "Which is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Force",
+        "Mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mass is a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.2356,
+      "question": "Which group contains only scalar quantities?",
+      "options": [
+        "Force, momentum, velocity",
+        "Displacement, acceleration, force",
+        "Mass, time, temperature",
+        "Speed, velocity, displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mass, time, and temperature are all scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.8352,
+      "question": "Which is an example of a scalar quantity?",
+      "options": [
+        "Work",
+        "Momentum",
+        "Acceleration",
+        "Force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work is a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.2722,
+      "question": "Which is a vector quantity?",
+      "options": [
+        "Time",
+        "Temperature",
+        "Volume",
+        "Displacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Displacement is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.5898,
+      "question": "Which group contains only vector quantities?",
+      "options": [
+        "Mass, time, temperature",
+        "Displacement, velocity, acceleration",
+        "Speed, distance, energy",
+        "Work, power, volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Displacement, velocity, and acceleration are all vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.925,
+      "question": "Which is NOT a vector quantity?",
+      "options": [
+        "Force",
+        "Momentum",
+        "Speed",
+        "Velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed is a scalar quantity, not a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.1191,
+      "question": "Which quantity has both magnitude and direction?",
+      "options": [
+        "Force",
+        "Energy",
+        "Power",
+        "Distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Force has both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.7366,
+      "question": "A two-dimensional vector A in the xy-plane can be resolved into?",
+      "options": [
+        "Three equal components",
+        "One scalar component",
+        "No components",
+        "Two perpendicular components"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A 2D vector can be resolved into two perpendicular components along the x and y axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.8406,
+      "question": "The unit vector i points along the?",
+      "options": [
+        "Positive x-axis",
+        "Positive y-axis",
+        "Negative x-axis",
+        "Negative y-axis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The unit vector i points along the positive x-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.2764,
+      "question": "A unit vector has a magnitude of?",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "Infinity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A unit vector has a magnitude of 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.4895,
+      "question": "For a vector A making angle &theta; with positive x-axis, A<sub>x</sub> equals?",
+      "options": [
+        "A sin &theta;",
+        "A tan &theta;",
+        "A/&theta;",
+        "A cos &theta;"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The x-component of A is A cos &theta;.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791402330167.3848,
+      "question": "For a vector A making angle &theta; with positive x-axis, A<sub>y</sub> equals?",
+      "options": [
+        "A sin &theta;",
+        "A cos &theta;",
+        "A tan &theta;",
+        "A &theta;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The y-component of A is A sin &theta;.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
