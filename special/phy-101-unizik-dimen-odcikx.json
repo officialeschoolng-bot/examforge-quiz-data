@@ -3,7 +3,7 @@
   "title": "PHY 101 (UNIZIK): DIMENSION ANALYSIS AND VECTORS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 47,
+  "totalQuestions": 45,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -16,20 +16,6 @@
     "defaultTimePerQuestion": 24
   },
   "questions": [
-    {
-      "id": 1791402330167.482,
-      "question": "According to the principle of dimensional homogeneity, a physical equation is correct when?",
-      "options": [
-        "Both sides have equal numerical values",
-        "Constants are dimensionless",
-        "Dimensions on L.H.S equal dimensions on R.H.S",
-        "Units are always S.I. units"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The principle of dimensional homogeneity states that for a physical equation to be correct, the dimensions of all terms on the left-hand side must be equal to the dimensions of all terms on the right-hand side.",
-      "difficulty": "easy",
-      "points": 1
-    },
     {
       "id": 1791402330167.6035,
       "question": "In T = 2&pi;&radic;(l/g), what is the dimension of l/g?",
@@ -335,20 +321,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "Dimensional analysis cannot determine dimensionless constants or numerical multipliers such as 2&pi; or 1/2.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1791402330167.547,
-      "question": "Which can dimensional analysis not determine?",
-      "options": [
-        "Added or subtraction",
-        "Dimensions of force",
-        "Units of viscosity",
-        "Homogeneity of equation"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Dimensional analysis cannot determine whether quantities are added or subtracted in an equation.",
       "difficulty": "easy",
       "points": 1
     },
