@@ -3,7 +3,7 @@
   "title": "MTH 102 (UNN): Practice Questions",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 60,
+  "totalQuestions": 90,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -853,6 +853,426 @@
       ],
       "correctAnswer": 3,
       "explanation": "Use the chain rule: d/dx[(2x + 1)<sup>5</sup>] = 5(2x + 1)<sup>4</sup> · d(2x + 1)/dx = 5(2x + 1)<sup>4</sup> · 2 = 10(2x + 1)<sup>4</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.8064,
+      "question": "Find the domain of the function f(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x + 2</span><span style='display:block;'>x<sup>2</sup> – 4</span></span>.",
+      "options": [
+        "ℝ \\ {2}",
+        "[–2, 2]",
+        "ℝ \\ {2, –2}",
+        "ℝ \\ {–2}"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The denominator is x<sup>2</sup> – 4 = (x – 2)(x + 2). A rational function is undefined where its denominator equals zero. Set each factor to zero: x – 2 = 0 gives x = 2; x + 2 = 0 gives x = –2. Therefore, the domain is all real numbers except x = 2 and x = –2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4097,
+      "question": "If f(x) = 3x – <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>3</span><span style='display:block;'>2</span></span>, find the inverse function f<sup>–1</sup>(x).",
+      "options": [
+        "f<sup>–1</sup>(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x</span><span style='display:block;'>3</span></span> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>",
+        "f<sup>–1</sup>(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x</span><span style='display:block;'>3</span></span> + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>3</span><span style='display:block;'>2</span></span>",
+        "f<sup>–1</sup>(x) = 3x + <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>",
+        "f<sup>–1</sup>(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>x</span><span style='display:block;'>3</span></span> – <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let y = 3x – 3/2. Swap x and y: x = 3y – 3/2. Solve for y: x + 3/2 = 3y ⇒ y = (x + 3/2)/3 = x/3 + 1/2. Therefore f<sup>–1</sup>(x) = x/3 + 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.719,
+      "question": "Determine the domain of the function f(x) = √(4 – x²).",
+      "options": [
+        "(–2, 2)",
+        "[–2, 2]",
+        "(–∞, –2] ∪ [2, ∞)",
+        "[0, 2]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the square root to be real, the expression inside must be non-negative: 4 – x² ≥ 0 ⇒ x² ≤ 4 ⇒ –2 ≤ x ≤ 2. Thus the domain is [–2, 2].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.2832,
+      "question": "If f(x) = 2x² and g(x) = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3x</span></span>, find the composite function (g ∘ f)(x).",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>6x³</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>2</span><span style='display:block;'>3x²</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1</span><span style='display:block;'>6x²</span></span>",
+        "6x²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(g ∘ f)(x) = g(f(x)) = g(2x²) = 1/(3·2x²) = 1/(6x²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4639,
+      "question": "Evaluate the piecewise function at x = 1:<br><span style='display:inline-flex;align-items:center;'><span style='font-size:2.5em;font-weight:lighter;line-height:1;margin-right:6px;'>{</span><span style='display:inline-block;text-align:left;'>–x² – 2, &nbsp;&nbsp; x < –2<br>2x – 3, &nbsp;&nbsp; –2 ≤ x < 0<br>x² + 2, &nbsp;&nbsp; x ≥ 0</span></span>",
+      "options": [
+        "3",
+        "–3",
+        "–1",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since 1 ≥ 0, use the third branch: f(1) = 1² + 2 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.8745,
+      "question": "Evaluate <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;font-size:0.8em;'>x → 0</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>√(x² + 4) – 2</span><span style='display:block;'>x²</span></span>.",
+      "options": [
+        "0",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>4</span></span>",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rationalise the numerator: multiply by (√(x²+4)+2)/(√(x²+4)+2). The numerator becomes (x²+4)–4 = x². The expression simplifies to 1/(√(x²+4)+2). As x→0, this is 1/(2+2) = 1/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.7488,
+      "question": "Evaluate <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;font-size:0.8em;'>x → ∞</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3</span><span style='display:block;'>x³ + 1</span></span>.",
+      "options": [
+        "∞",
+        "0",
+        "1",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As x → ∞, the denominator x³ + 1 grows without bound, so the fraction 3/(x³+1) approaches 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.2244,
+      "question": "Determine whether the function h(x) = x³ – 2x is even, odd, or neither.",
+      "options": [
+        "Both even and odd",
+        "Odd",
+        "Neither",
+        "Even"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Compute h(–x) = (–x)³ – 2(–x) = –x³ + 2x = –(x³ – 2x) = –h(x). Since h(–x) = –h(x), the function is odd.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.2842,
+      "question": "Find the limit: <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;font-size:0.8em;'>x → 0</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>e<sup>3x</sup> – 1</span><span style='display:block;'>x</span></span>.",
+      "options": [
+        "3",
+        "e³",
+        "0",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the standard limit lim<sub>u→0</sub>(e<sup>u</sup>–1)/u = 1. Here u = 3x, so (e<sup>3x</sup>–1)/x = 3·(e<sup>3x</sup>–1)/(3x) → 3·1 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4214,
+      "question": "Evaluate <span style='display:inline-block;vertical-align:middle;text-align:center;'>lim<span style='display:block;font-size:0.8em;'>x → 0</span></span> <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>e<sup>2x</sup> – 2x – 1</span><span style='display:block;'>x²</span></span>.",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the Taylor expansion e<sup>2x</sup> = 1 + 2x + (2x)²/2 + … = 1 + 2x + 2x² + …. Then e<sup>2x</sup> – 2x – 1 ≈ 2x². Divide by x² gives 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.444,
+      "question": "Find the values of x for which f(x) = g(x) given f(x) = √(3x) + 1 and g(x) = x + 1.",
+      "options": [
+        "x = 0, x = 9",
+        "x = –3, x = 0",
+        "x = 1, x = 3",
+        "x = 0, x = 3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Set √(3x) + 1 = x + 1 ⇒ √(3x) = x. Square both sides: 3x = x² ⇒ x² – 3x = 0 ⇒ x(x – 3) = 0 ⇒ x = 0 or x = 3. Check: both work in the original equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.0405,
+      "question": "If f(x) = x², find f'(x) from first principles.",
+      "options": [
+        "x",
+        "x²",
+        "2",
+        "2x"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f'(x) = lim<sub>h→0</sub> [(x+h)² – x²]/h = lim<sub>h→0</sub> (2xh + h²)/h = lim<sub>h→0</sub> (2x + h) = 2x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.214,
+      "question": "Complete the following statement: Derivative of sum is __ of derivatives and derivative of difference is __ of derivatives.",
+      "options": [
+        "sum, difference",
+        "difference, sum",
+        "product, quotient",
+        "sum, product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiation is linear: d/dx[f(x) ± g(x)] = f'(x) ± g'(x). So the derivative of a sum is the sum of the derivatives, and the derivative of a difference is the difference of the derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.8887,
+      "question": "If y = xⁿ, then find dy/dx.",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>xⁿ⁻¹</span><span style='display:block;'>n</span></span>",
+        "(n+1) xⁿ⁺¹",
+        "n xⁿ",
+        "n xⁿ⁻¹"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Power rule: dy/dx = n x<sup>n–1</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.0417,
+      "question": "If e<sup>–2x+y</sup> = 3xy, find dy/dx.",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>2y + 3x</span><span style='display:block;'>e<sup>–2x+y</sup></span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3y – 2e<sup>–2x+y</sup></span><span style='display:block;'>e<sup>–2x+y</sup> + 3x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3y + 2</span><span style='display:block;'>1 – 3x</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>3y + 2e<sup>–2x+y</sup></span><span style='display:block;'>e<sup>–2x+y</sup> – 3x</span></span>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let E = e<sup>–2x+y</sup>. Differentiate implicitly: E·(–2 + dy/dx) = 3y + 3x·dy/dx. Expand: –2E + E·dy/dx = 3y + 3x·dy/dx. Rearrange: (E – 3x)dy/dx = 3y + 2E ⇒ dy/dx = (3y + 2E)/(E – 3x).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.272,
+      "question": "If y = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>ln x</span><span style='display:block;'>x + 3</span></span>, find dy/dx.",
+      "options": [
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x + 3 – x ln x</span><span style='display:block;'>x(x + 3)²</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x + 3 – ln x</span><span style='display:block;'>x²</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>x + 3 + x ln x</span><span style='display:block;'>x(x + 3)²</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>1 – ln x</span><span style='display:block;'>(x + 3)²</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the quotient rule: y = u/v with u = ln x, v = x + 3. Then u' = 1/x, v' = 1. dy/dx = [(1/x)(x+3) – ln x·1]/(x+3)² = [(x+3)/x – ln x]/(x+3)² = (x+3 – x ln x)/[x(x+3)²].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.1062,
+      "question": "If y = x⁴ cos(3x), find dy/dx.",
+      "options": [
+        "3x⁴ sin(3x) + 4x³ cos(3x)",
+        "4x³ cos(3x) – x⁴ sin(3x)",
+        "–12x³ sin(3x)",
+        "–3x⁴ sin(3x) + 4x³ cos(3x)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Product rule: y = u·v with u = x⁴, v = cos(3x). u' = 4x³, v' = –3 sin(3x). dy/dx = 4x³ cos(3x) – 3x⁴ sin(3x).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.392,
+      "question": "Complete the statement: Integral of sum is __ of integrals and integral of difference is __ of integrals.",
+      "options": [
+        "quotient, sum",
+        "sum, difference",
+        "product, quotient",
+        "constant, variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integration is linear: ∫[f(x) ± g(x)]dx = ∫f(x)dx ± ∫g(x)dx. So the integral of a sum is the sum of the integrals, and the integral of a difference is the difference of the integrals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.5615,
+      "question": "Evaluate ∫ <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>5</span><span style='display:block;'>x²</span></span> + 6x dx.",
+      "options": [
+        "–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>x</span></span> + 6x² + C",
+        "–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>x</span></span> + 3x² + C",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>x</span></span> + 3x² + C",
+        "5 ln(x²) + 3x² + C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "∫(5x<sup>–2</sup> + 6x)dx = 5·(x<sup>–1</sup>/(–1)) + 6·(x²/2) + C = –5/x + 3x² + C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4297,
+      "question": "If y = cos(3x – 7), find d²y/dx².",
+      "options": [
+        "–9 sin(3x – 7)",
+        "–3 sin(3x – 7)",
+        "–9 cos(3x – 7)",
+        "9 cos(3x – 7)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "First derivative: y' = –3 sin(3x – 7). Second derivative: y'' = –3·cos(3x – 7)·3 = –9 cos(3x – 7).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.2214,
+      "question": "Find the stationary points of the curve y = x³ – x² – x.",
+      "options": [
+        "(–1, 1) and (3, 5)",
+        "(1, –1) and (–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3</span></span>, <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>27</span></span>)",
+        "(1, 1) and (<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>3</span></span>, <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>27</span></span>)",
+        "(0, 0) and (1, –1)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "y' = 3x² – 2x – 1 = (3x + 1)(x – 1). Set y' = 0 ⇒ x = 1 or x = –1/3. At x = 1, y = 1 – 1 – 1 = –1. At x = –1/3, y = (–1/27) – (1/9) + (1/3) = (–1 – 3 + 9)/27 = 5/27. The stationary points are (1, –1) and (–1/3, 5/27).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.734,
+      "question": "The velocity of a particle is given by V = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>πu</span><span style='display:block;'>t + 1</span></span>. Find the acceleration of the particle.",
+      "options": [
+        "0",
+        "–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>πu</span><span style='display:block;'>t + 1</span></span>",
+        "–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>πu</span><span style='display:block;'>(t + 1)²</span></span>",
+        "<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 4px;'>πu</span><span style='display:block;'>(t + 1)²</span></span>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acceleration a = dV/dt. V = πu/(t + 1) = πu·(t + 1)<sup>–1</sup>. Differentiate: a = πu·(–1)(t + 1)<sup>–2</sup> = –πu/(t + 1)².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.3252,
+      "question": "Find x if |4x – 6| = 1.",
+      "options": [
+        "x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>3</span><span style='display:block;'>2</span></span> or x = 1",
+        "x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>7</span><span style='display:block;'>4</span></span> or x = –<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>4</span></span>",
+        "x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>7</span><span style='display:block;'>4</span></span> or x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>4</span></span>",
+        "x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>5</span><span style='display:block;'>4</span></span> or x = <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>4</span></span>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "|4x – 6| = 1 ⇒ 4x – 6 = 1 or 4x – 6 = –1. First: 4x = 7 ⇒ x = 7/4. Second: 4x = 5 ⇒ x = 5/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.3254,
+      "question": "Solve the inequality |3x – 4| < 8.",
+      "options": [
+        "–8 < x < 8",
+        "–<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>4</span><span style='display:block;'>3</span></span> < x < 4",
+        "–4 < x < <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>4</span><span style='display:block;'>3</span></span>",
+        "x < –<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>4</span><span style='display:block;'>3</span></span> or x > 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "|3x – 4| < 8 ⇒ –8 < 3x – 4 < 8. Add 4: –4 < 3x < 12. Divide by 3: –4/3 < x < 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.3237,
+      "question": "The distance between the points (1, 2) and (16, p) is 17. Find the values of p.",
+      "options": [
+        "p = 10 or p = –6",
+        "p = 10 or p = 6",
+        "p = 8 or p = –8",
+        "p = 12 or p = –2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distance formula: √[(16–1)² + (p–2)²] = 17 ⇒ √[225 + (p–2)²] = 17. Square: 225 + (p–2)² = 289 ⇒ (p–2)² = 64 ⇒ p – 2 = ±8 ⇒ p = 10 or p = –6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.2168,
+      "question": "Find the coordinates of the point that divides the line segment joining (3, 5) and (–5, –7) externally in the ratio 3 : 1.",
+      "options": [
+        "(–6, –10)",
+        "(9, 13)",
+        "(–9, –13)",
+        "(–1, –1)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "External division formula: P = ((m x₂ – n x₁)/(m – n), (m y₂ – n y₁)/(m – n)) with m:n = 3:1. x = (3(–5) – 1(3))/(3–1) = (–15–3)/2 = –9. y = (3(–7) – 1(5))/2 = (–21–5)/2 = –13. So P = (–9, –13).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.0881,
+      "question": "Find the midpoint of the line segment joining the points (–6, –1) and (–4, 0).",
+      "options": [
+        "(–5, –<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>)",
+        "(–10, –1)",
+        "(–5, <span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>)",
+        "(1, –<span style='display:inline-block;vertical-align:middle;text-align:center;'><span style='display:block;border-bottom:1px solid var(--text-primary);padding:0 2px;'>1</span><span style='display:block;'>2</span></span>)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Midpoint = ((–6 + (–4))/2, (–1 + 0)/2) = (–10/2, –1/2) = (–5, –1/2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4836,
+      "question": "Find the equation of the line passing through (1, –1) and perpendicular to 2x + 5y + 8 = 0.",
+      "options": [
+        "2x – 5y – 7 = 0",
+        "2x + 5y + 3 = 0",
+        "5x + 2y – 3 = 0",
+        "5x – 2y – 7 = 0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The given line 2x + 5y + 8 = 0 has slope –2/5. A perpendicular line has slope 5/2. Using point-slope form through (1, –1): y + 1 = (5/2)(x – 1) ⇒ 2y + 2 = 5x – 5 ⇒ 5x – 2y – 7 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.1323,
+      "question": "Find the equation of the line passing through (1, 2) and parallel to 2x + 3y + 4 = 0.",
+      "options": [
+        "3x – 2y + 1 = 0",
+        "2x + 3y + 8 = 0",
+        "2x – 3y + 4 = 0",
+        "2x + 3y – 8 = 0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A parallel line has the same coefficients for x and y: 2x + 3y = k. Substitute (1, 2): 2(1) + 3(2) = 8 ⇒ k = 8. So the equation is 2x + 3y – 8 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791387781735.4678,
+      "question": "Find the slope of the normal line to the curve y = 2x³ – 5x + 1 at the point where x = 1.",
+      "options": [
+        "1",
+        "–1",
+        "0",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First find the slope of the tangent: y' = 6x² – 5. At x = 1, y' = 6 – 5 = 1. The normal is perpendicular, so its slope is –1/1 = –1.",
       "difficulty": "easy",
       "points": 1
     }
