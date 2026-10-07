@@ -3,16 +3,718 @@
   "title": "MTH 102 (UNN): Functions",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791386287565.2498,
+      "question": "Which of the following defines a function from set X to set Y?",
+      "options": [
+        "Every element in Y maps to an element in X.",
+        "Some elements in X map to multiple elements in Y.",
+        "Every element in X maps to exactly one element in Y.",
+        "The number of elements in X equals the number of elements in Y."
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, a function is a relation that assigns exactly one element in the target set (Y) to each element in the domain (X).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0588,
+      "question": "If f(x) = 3x<sup>2</sup> - 2x + 5, find f(-2).",
+      "options": [
+        "13",
+        "21",
+        "1",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute -2 for x: 3(-2)<sup>2</sup> - 2(-2) + 5 = 3(4) + 4 + 5 = 12 + 4 + 5 = 21.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1072,
+      "question": "Let f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x+3</span><span>x-2</span></span>. What is the domain of f(x)?",
+      "options": [
+        "All real numbers except x = -3",
+        "All real numbers except x = 2",
+        "All real numbers except x = 0",
+        "All real numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The function is undefined when the denominator is zero. Setting x - 2 = 0 yields x = 2, so 2 must be excluded from the domain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9114,
+      "question": "Which of the following represents the range of f(x) = x<sup>2</sup>?",
+      "options": [
+        "All positive real numbers and zero",
+        "All real numbers except zero",
+        "All negative real numbers and zero",
+        "All integers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Squaring any real number yields a non-negative result. Therefore, the output (range) is all real numbers greater than or equal to zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0562,
+      "question": "Given f(x) = 4x - 1, find the inverse f<sup>-1</sup>(x).",
+      "options": [
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x - 1</span><span>4</span></span>",
+        "4x + 1",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 1</span><span>4</span></span>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>4x - 1</span></span>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find the inverse, set y = 4x - 1, swap x and y to get x = 4y - 1, and solve for y: x + 1 = 4y, so y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 1</span><span>4</span></span>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.4749,
+      "question": "Let f(x) = 2x and g(x) = x + 5. Find f(g(x)).",
+      "options": [
+        "2x + 10",
+        "2x + 5",
+        "x<sup>2</sup> + 5x",
+        "3x + 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute g(x) into f(x): f(x + 5) = 2(x + 5) = 2x + 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0305,
+      "question": "Let f(x) = 2x and g(x) = x + 5. Find g(f(x)).",
+      "options": [
+        "2x + 5",
+        "2x + 10",
+        "x<sup>2</sup> + 5x",
+        "3x + 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute f(x) into g(x): g(2x) = (2x) + 5 = 2x + 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.23,
+      "question": "What is the domain of f(x) = &radic;(x - 4)?",
+      "options": [
+        "x < 4",
+        "x > 0",
+        "x &ge; 4",
+        "All real numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For the square root to produce a real number, the expression inside must be non-negative. Setting x - 4 &ge; 0 gives x &ge; 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.6921,
+      "question": "A function is said to be \"one-to-one\" (injective) if:",
+      "options": [
+        "f(a) = f(b) implies a = b.",
+        "Its domain equals its range.",
+        "It passes the vertical line test.",
+        "Every element in the codomain has a preimage."
+      ],
+      "correctAnswer": 0,
+      "explanation": "An injective function maps distinct inputs to distinct outputs. Thus, if the outputs are equal (f(a) = f(b)), the inputs must also be equal (a = b).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9082,
+      "question": "A function is said to be \"onto\" (surjective) if:",
+      "options": [
+        "It passes the horizontal line test.",
+        "Its range is equal to its codomain.",
+        "f(x) = f(-x).",
+        "It is invertible."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A surjective function covers its entire codomain, meaning every possible output is actually produced by at least one input.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0427,
+      "question": "If f(x) = x<sup>3</sup>, what type of function is this based on symmetry?",
+      "options": [
+        "Even function",
+        "Odd function",
+        "Neither even nor odd",
+        "Constant function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Testing for parity: f(-x) = (-x)<sup>3</sup> = -x<sup>3</sup> = -f(x). Since f(-x) = -f(x), it is an odd function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.207,
+      "question": "If f(-x) = f(x) for all x in the domain, the function is:",
+      "options": [
+        "Odd",
+        "Even",
+        "Surjective",
+        "Injective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the algebraic definition of an even function, which exhibits symmetry across the y-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1018,
+      "question": "Evaluate f(3) if f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 9</span><span>x + 3</span></span>.",
+      "options": [
+        "0",
+        "6",
+        "3",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute x = 3 into the function: <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>3<sup>2</sup> - 9</span><span>3 + 3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>9 - 9</span><span>6</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>0</span><span>6</span></span> = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.103,
+      "question": "If f(x) = 5 for all x, find f(10).",
+      "options": [
+        "10",
+        "50",
+        "5",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a constant function. The output is always 5, regardless of the input value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0618,
+      "question": "The composition of a function f with its inverse f<sup>-1</sup>(x) yields:",
+      "options": [
+        "1",
+        "x",
+        "0",
+        "f(x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A function and its inverse cancel each other out, returning the original input value, x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9712,
+      "question": "Find the domain of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x<sup>2</sup> - 16</span></span>.",
+      "options": [
+        "All real numbers except 4 and -4",
+        "All real numbers except 4",
+        "All real numbers except -4",
+        "All real numbers except 16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The denominator cannot be zero. Setting x<sup>2</sup> - 16 = 0 gives x<sup>2</sup> = 16, which means x = 4 or x = -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9858,
+      "question": "If f(x) = &radic;x and g(x) = x<sup>2</sup>, find f(g(3)).",
+      "options": [
+        "9",
+        "3",
+        "81",
+        "&radic;3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First find g(3) = 3<sup>2</sup> = 9. Then evaluate f(9) = &radic;9 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.7183,
+      "question": "What is the y-intercept of the function f(x) = 3x<sup>2</sup> - 4x + 7?",
+      "options": [
+        "(0, 3)",
+        "(0, -4)",
+        "(0, 7)",
+        "(7, 0)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The y-intercept occurs where x = 0. Substituting 0 gives f(0) = 3(0) - 4(0) + 7 = 7. Thus, the point is (0, 7).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.8096,
+      "question": "Which of these represents a constant function?",
+      "options": [
+        "f(x) = x",
+        "f(x) = 2x",
+        "f(x) = -8",
+        "f(x) = x<sup>2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A constant function has the form f(x) = c, where c is a real number and there are no variables affecting the output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1648,
+      "question": "Determine the domain of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>2x</span><span>x<sup>2</sup> + 1</span></span>.",
+      "options": [
+        "All real numbers except -1",
+        "All real numbers",
+        "All real numbers except 1",
+        "All real numbers except 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The denominator x<sup>2</sup> + 1 is always positive for any real number x, so it can never be zero. Thus, the domain is all real numbers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.5012,
+      "question": "If f(x) = 1 - x<sup>2</sup>, find f(-2).",
+      "options": [
+        "5",
+        "-3",
+        "3",
+        "-5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute -2 into the function: 1 - (-2)<sup>2</sup> = 1 - 4 = -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9707,
+      "question": "Find the inverse of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>2</span></span> - 3.",
+      "options": [
+        "2x + 6",
+        "2x + 3",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>2</span></span> + 3",
+        "2x - 6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Set y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>2</span></span> - 3, swap variables to x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>y</span><span>2</span></span> - 3, add 3 to get x + 3 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>y</span><span>2</span></span>, and multiply by 2 to get y = 2(x + 3) = 2x + 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9963,
+      "question": "A relation where each x-value corresponds to exactly one y-value is called a:",
+      "options": [
+        "Domain",
+        "Range",
+        "Function",
+        "Codomain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is the fundamental definition of a mathematical function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.5425,
+      "question": "Find f(a+1) if f(x) = 2x - 5.",
+      "options": [
+        "2a - 4",
+        "2a - 3",
+        "2a - 5",
+        "2a + 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute (a+1) for x: 2(a + 1) - 5 = 2a + 2 - 5 = 2a - 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.0054,
+      "question": "The function f(x) = x<sup>2</sup> + 1 is:",
+      "options": [
+        "One-to-one",
+        "Odd",
+        "Even",
+        "Onto (where codomain is all real numbers)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Check parity: f(-x) = (-x)<sup>2</sup> + 1 = x<sup>2</sup> + 1 = f(x). Since f(-x) = f(x), it is an even function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.7786,
+      "question": "What is the domain of f(x) = &radic;(2x - 6)?",
+      "options": [
+        "x &ge; 3",
+        "x &ge; -3",
+        "x &le; 3",
+        "x > 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The expression under the root must be non-negative. 2x - 6 &ge; 0 leads to 2x &ge; 6, so x &ge; 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.9475,
+      "question": "If f(x) = x<sup>2</sup> and g(x) = x - 1, find g(f(2)).",
+      "options": [
+        "1",
+        "9",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "First, find f(2) = 2<sup>2</sup> = 4. Next, plug that result into g: g(4) = 4 - 1 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.077,
+      "question": "Which test is used to determine if a graph represents a function?",
+      "options": [
+        "Horizontal line test",
+        "Vertical line test",
+        "Diagonal line test",
+        "Symmetry test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertical line test ensures that no single x-value maps to more than one y-value on the graph.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.301,
+      "question": "Which test is used to determine if a function has an inverse (is one-to-one)?",
+      "options": [
+        "Vertical line test",
+        "Horizontal line test",
+        "First derivative test",
+        "Root test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal line test checks if any y-value is produced by more than one x-value, which would disqualify it from being one-to-one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.495,
+      "question": "The set of all possible input values for a function is called the:",
+      "options": [
+        "Range",
+        "Codomain",
+        "Domain",
+        "Inverse"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The domain is strictly defined as the complete set of valid inputs (x-values) for a given function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1162,
+      "question": "The set of actual output values produced by a function is called the:",
+      "options": [
+        "Range",
+        "Domain",
+        "Pre-image",
+        "Codomain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The range is the specific subset of the codomain consisting only of the actual values produced by the function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.4631,
+      "question": "If f(x) = 3x and g(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>3</span></span>, what is f(g(x))?",
+      "options": [
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>9</span></span>",
+        "9x",
+        "x",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Substitute g(x) into f(x): f(<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>3</span></span>) = 3(<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x</span><span>3</span></span>) = x. These functions are inverses of each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1763,
+      "question": "What is the inverse of the identity function f(x) = x?",
+      "options": [
+        "f<sup>-1</sup>(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x</span></span>",
+        "f<sup>-1</sup>(x) = -x",
+        "f<sup>-1</sup>(x) = x",
+        "f<sup>-1</sup>(x) = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The identity function maps every value to itself. Reversing the mapping simply leaves you with the same identity function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.6904,
+      "question": "Find the domain of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x+2</span><span>x<sup>2</sup> - 4x + 3</span></span>.",
+      "options": [
+        "All real numbers except -1, -3",
+        "All real numbers except 1, 3",
+        "All real numbers except -2",
+        "All real numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Factor the denominator: x<sup>2</sup> - 4x + 3 = (x - 1)(x - 3). The denominator is zero when x = 1 or x = 3, so these must be excluded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.4602,
+      "question": "Evaluate f(0) for f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>5x<sup>3</sup> - 2x<sup>2</sup> + x - 8</span><span>x<sup>2</sup> + 2</span></span>.",
+      "options": [
+        "-8",
+        "0",
+        "4",
+        "-4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Substitute x = 0: <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>0 - 0 + 0 - 8</span><span>0 + 2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>-8</span><span>2</span></span> = -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.6323,
+      "question": "Let f(x) = x<sup>2</sup> - 4. Find the roots of the function (where f(x) = 0).",
+      "options": [
+        "x = 2",
+        "x = 4, -4",
+        "x = 2, -2",
+        "x = -2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Set x<sup>2</sup> - 4 = 0, which factors to (x - 2)(x + 2) = 0. Therefore, the roots are x = 2 and x = -2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1934,
+      "question": "A function that maps distinct elements of its domain to distinct elements of its codomain is:",
+      "options": [
+        "Surjective",
+        "Injective",
+        "Constant",
+        "Quadratic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the formal definition of an injective (one-to-one) function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.3704,
+      "question": "If f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>2x+1</span><span>x-1</span></span>, find f(2).",
+      "options": [
+        "5",
+        "3",
+        "-5",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute x = 2 into the function: <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>2(2) + 1</span><span>2 - 1</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>4 + 1</span><span>1</span></span> = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.8474,
+      "question": "Find the inverse of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 5</span><span>2</span></span>.",
+      "options": [
+        "2x - 5",
+        "2x + 5",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x - 5</span><span>2</span></span>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>2</span><span>x</span></span> + 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Set y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 5</span><span>2</span></span>, swap to x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>y + 5</span><span>2</span></span>, multiply by 2 to get 2x = y + 5, and subtract 5 to get y = 2x - 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1868,
+      "question": "Which of the following is not a function?",
+      "options": [
+        "y = x<sup>2</sup>",
+        "y = &radic;x",
+        "x = y<sup>2</sup>",
+        "y = x<sup>3</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equation x = y<sup>2</sup> represents a sideways parabola. For any positive x (like x=4), there are two y-values (y=2, y=-2), failing the vertical line test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.8984,
+      "question": "Determine the domain of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>5</span><span>x+7</span></span>.",
+      "options": [
+        "All real numbers except 5",
+        "All real numbers except 0",
+        "All real numbers except 7",
+        "All real numbers except -7"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The function is undefined when the denominator is zero. x + 7 = 0 means x = -7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.5256,
+      "question": "If f(x) = x<sup>2</sup> + x + 1, find f(-1).",
+      "options": [
+        "-1",
+        "3",
+        "1",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Substitute -1 for x: (-1)<sup>2</sup> + (-1) + 1 = 1 - 1 + 1 = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1526,
+      "question": "Given f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x</span></span>, what is f(f(x))?",
+      "options": [
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x<sup>2</sup></span></span>",
+        "x",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>2</span><span>x</span></span>",
+        "x<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute the function into itself: f(<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x</span></span>) = 1 &divide; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x</span></span> = x. It is its own inverse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.904,
+      "question": "What is the range of f(x) = -x<sup>2</sup>?",
+      "options": [
+        "All real numbers",
+        "All positive real numbers",
+        "All real numbers less than or equal to zero",
+        "All real numbers greater than or equal to zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since x<sup>2</sup> is always &ge; 0, multiplying it by -1 ensures the result is always &le; 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.3752,
+      "question": "For what value of x is the function f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>3x - 2</span><span>2x - 8</span></span> undefined?",
+      "options": [
+        "x = 8",
+        "x = 2",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The function is undefined where the denominator is zero: 2x - 8 = 0, so 2x = 8, which gives x = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.992,
+      "question": "If g(x) = x<sup>3</sup>, find g(2) - g(-2).",
+      "options": [
+        "0",
+        "16",
+        "8",
+        "-16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Evaluate g(2) = 8 and g(-2) = -8. Then subtract: 8 - (-8) = 8 + 8 = 16.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.3882,
+      "question": "If f(x) = x + 4 and g(x) = x - 4, find the product (f &middot; g)(x).",
+      "options": [
+        "x<sup>2</sup> - 16",
+        "x<sup>2</sup> + 16",
+        "x<sup>2</sup> - 8x - 16",
+        "2x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply the functions: (x + 4)(x - 4). This is a difference of squares, which expands to x<sup>2</sup> - 16.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.6484,
+      "question": "Let f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 9</span><span>x - 3</span></span>. For what value is the function formally undefined?",
+      "options": [
+        "x = -3",
+        "x = 0",
+        "x = 9",
+        "x = 3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Even though the function simplifies, it is formally undefined at the point that makes its original denominator zero: x - 3 = 0, so x = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.414,
+      "question": "Evaluate the limit: <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.8em;'>x&rarr;2</span></span> (3x<sup>2</sup> - 4x + 1).",
+      "options": [
+        "1",
+        "5",
+        "0",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since it's a continuous polynomial, substitute x = 2 directly: 3(4) - 4(2) + 1 = 12 - 8 + 1 = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386287565.1843,
+      "question": "Evaluate the limit: <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.8em;'>x&rarr;3</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 9</span><span>x - 3</span></span>.",
+      "options": [
+        "6",
+        "0",
+        "3",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factor the numerator to (x-3)(x+3). Cancel the (x-3) terms to get x + 3. Then substitute x = 3 to get 3 + 3 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
