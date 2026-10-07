@@ -3,16 +3,718 @@
   "title": "MTH 102 (UNN): Limits of Functions",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791386501355.5012,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;2</span></span> (3x + 4)",
+      "options": [
+        "6",
+        "10",
+        "2",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute 2 for x: 3(2) + 4 = 6 + 4 = 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.8174,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> (x<sup>2</sup> - 5x + 2)",
+      "options": [
+        "0",
+        "-5",
+        "2",
+        "Undefined"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Substitute 0 for x: 0<sup>2</sup> - 5(0) + 2 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.4514,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-1</span></span> (4x<sup>3</sup>)",
+      "options": [
+        "-4",
+        "4",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute -1 for x: 4(-1)<sup>3</sup> = 4(-1) = -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;3</span></span> 5",
+      "options": [
+        "3",
+        "0",
+        "5",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The limit of a constant is the constant itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.6138,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 1</span><span>x - 1</span></span>",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Undefined"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor the numerator: (x-1)(x+1)/(x-1) = x+1. Substitute x=1: 1+1 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.4255,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;2</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 4</span><span>x - 2</span></span>",
+      "options": [
+        "2",
+        "4",
+        "0",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Factor the numerator: (x-2)(x+2)/(x-2) = x+2. Substitute x=2: 2+2 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.2603,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-3</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 9</span><span>x + 3</span></span>",
+      "options": [
+        "-6",
+        "6",
+        "0",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factor the numerator: (x-3)(x+3)/(x+3) = x-3. Substitute x=-3: -3-3 = -6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.0845,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;4</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 2x - 8</span><span>x - 4</span></span>",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor numerator: (x-4)(x+2)/(x-4) = x+2. Substitute x=4: 4+2 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.015,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;5</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 25</span><span>x - 5</span></span>",
+      "options": [
+        "5",
+        "10",
+        "0",
+        "25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Factor numerator: (x-5)(x+5)/(x-5) = x+5. Substitute x=5: 5+5 = 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.3987,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>3</sup> + 2x</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor out x: x(x<sup>2</sup>+2)/x = x<sup>2</sup>+2. Substitute x=0: 0+2 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.9612,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> + 2x - 3</span><span>x - 1</span></span>",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Factor numerator: (x+3)(x-1)/(x-1) = x+3. Substitute x=1: 1+3 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.5784,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-2</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> + 5x + 6</span><span>x + 2</span></span>",
+      "options": [
+        "1",
+        "2",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factor numerator: (x+3)(x+2)/(x+2) = x+3. Substitute x=-2: -2+3 = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.3218,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>sin(x)</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "&pi;",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a fundamental trigonometric limit rule: the limit of sin(x)/x as x approaches 0 is exactly 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.8643,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1 - cos(x)</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a fundamental trigonometric limit. As x approaches 0, (1 - cos x)/x approaches 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.5771,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>tan(x)</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since tan(x) = sin(x)/cos(x), the limit becomes (sin(x)/x) * (1/cos(x)). As x approaches 0, 1 * 1/1 = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.8228,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x</span></span>",
+      "options": [
+        "1",
+        "&infin;",
+        "0",
+        "-1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As the denominator x becomes infinitely large, the overall fraction approaches 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.536,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>3x + 2</span><span>5x - 1</span></span>",
+      "options": [
+        "3/5",
+        "2/5",
+        "-2",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For limits at infinity with equal highest degrees (x<sup>1</sup>), the limit is the ratio of their leading coefficients: 3/5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.2505,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>4x<sup>2</sup> - x</span><span>2x<sup>2</sup> + 3</span></span>",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since the degrees are equal (x<sup>2</sup>), take the ratio of leading coefficients: 4/2 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.0469,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>3</sup> + 1</span><span>x<sup>2</sup> - 2</span></span>",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "1/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Because the degree of the numerator (3) is strictly greater than the degree of the denominator (2), the limit grows infinitely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.2437,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>7x</span><span>x<sup>2</sup> + 5</span></span>",
+      "options": [
+        "7",
+        "0",
+        "&infin;",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because the degree of the denominator (2) is greater than the degree of the numerator (1), the fraction shrinks to 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7603,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;9</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>&radic;x - 3</span><span>x - 9</span></span>",
+      "options": [
+        "1/6",
+        "1/3",
+        "0",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply by conjugate (&radic;x+3). The limit becomes 1/(&radic;x+3). Substitute x=9: 1/(&radic;9+3) = 1/6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.4023,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;4</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>&radic;x - 2</span><span>x - 4</span></span>",
+      "options": [
+        "1/2",
+        "1/4",
+        "0",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply by conjugate (&radic;x+2). The limit becomes 1/(&radic;x+2). Substitute x=4: 1/(2+2) = 1/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.566,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>&radic;(x+1) - 1</span><span>x</span></span>",
+      "options": [
+        "1",
+        "1/2",
+        "0",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply by the conjugate (&radic;(x+1)+1). This simplifies to 1/(&radic;(x+1)+1). Substitute x=0 to get 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.529,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;25</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>&radic;x - 5</span><span>x - 25</span></span>",
+      "options": [
+        "1/5",
+        "1/10",
+        "0",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply by conjugate (&radic;x+5). This simplifies to 1/(&radic;x+5). Substitute x=25 to get 1/10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.8967,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;16</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>&radic;x - 4</span><span>x - 16</span></span>",
+      "options": [
+        "1/4",
+        "1/8",
+        "0",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply by conjugate (&radic;x+4). This simplifies to 1/(&radic;x+4). Substitute x=16 to get 1/8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.3674,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;2</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>3</sup> - 8</span><span>x - 2</span></span>",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor the difference of cubes: (x-2)(x<sup>2</sup>+2x+4)/(x-2). Substitute x=2: 4+4+4 = 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7458,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>3</sup> - 1</span><span>x - 1</span></span>",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor the difference of cubes: (x-1)(x<sup>2</sup>+x+1)/(x-1). Substitute x=1: 1+1+1 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.683,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>3</sup> + 1</span><span>x + 1</span></span>",
+      "options": [
+        "-3",
+        "-1",
+        "1",
+        "3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Factor the sum of cubes: (x+1)(x<sup>2</sup>-x+1)/(x+1). Substitute x=-1: 1 - (-1) + 1 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7856,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>[1/(x+2)] - (1/2)</span><span>x</span></span>",
+      "options": [
+        "-1/4",
+        "1/4",
+        "-1/2",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Find a common denominator: (2 - (x+2)) / (2(x+2)x) = -x / (2x(x+2)) = -1 / (2(x+2)). Substitute x=0: -1/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.958,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>[1/(x+3)] - (1/3)</span><span>x</span></span>",
+      "options": [
+        "1/9",
+        "-1/9",
+        "1/3",
+        "-1/3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Find a common denominator: (3 - (x+3)) / (3x(x+3)) = -x / (3x(x+3)) = -1 / (3(x+3)). Substitute x=0: -1/9.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.9456,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1<sup>+</sup></span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 2</span><span>x - 1</span></span>",
+      "options": [
+        "0",
+        "3",
+        "&infin;",
+        "-&infin;"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As x approaches 1 from the right (e.g., 1.01), the numerator is ~3 and denominator is small positive. 3/(+0) = &infin;.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.0393,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1<sup>-</sup></span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x + 2</span><span>x - 1</span></span>",
+      "options": [
+        "0",
+        "3",
+        "&infin;",
+        "-&infin;"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As x approaches 1 from the left (e.g., 0.99), the numerator is ~3 and denominator is small negative. 3/(-0) = -&infin;.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.1616,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>e<sup>x</sup> - 1</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a standard limit (or use L'Hopital's rule). The derivative of e^x is e^x. Substitute x=0: e^0 = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.769,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>sin(3x)</span><span>x</span></span>",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "1/3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiply top and bottom by 3: 3 * [sin(3x)/(3x)]. Since lim u&rarr;0 sin(u)/u = 1, the result is 3(1) = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.681,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>sin(5x)</span><span>sin(2x)</span></span>",
+      "options": [
+        "5/2",
+        "2/5",
+        "1",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Divide numerator and denominator by x. [sin(5x)/x] / [sin(2x)/x] evaluates to 5/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7632,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;2</span></span> &radic;(x<sup>2</sup> + 5)",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute x=2 directly: &radic;(2<sup>2</sup> + 5) = &radic;(4+5) = &radic;9 = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7278,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-2</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - x - 6</span><span>x + 2</span></span>",
+      "options": [
+        "-5",
+        "-1",
+        "0",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factor the numerator: (x-3)(x+2)/(x+2) = x-3. Substitute x=-2: -2-3 = -5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.1738,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>6x<sup>2</sup> + 2x - 1</span><span>3x<sup>2</sup> - 4x + 5</span></span>",
+      "options": [
+        "0",
+        "1/2",
+        "2",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The highest degree terms are 6x<sup>2</sup> and 3x<sup>2</sup>. Take the ratio of coefficients: 6/3 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.2896,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1 - 2x</span><span>x + 5</span></span>",
+      "options": [
+        "-2",
+        "2",
+        "0",
+        "&infin;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The highest degree terms are -2x and 1x. Take the ratio of coefficients: -2/1 = -2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.3423,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;3</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup> - 9</span><span>x<sup>2</sup> - 5x + 6</span></span>",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "Undefined"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factor: (x-3)(x+3) / ((x-3)(x-2)). Cancel (x-3) to get (x+3)/(x-2). Substitute x=3: 6/1 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.0955,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> cos(x)",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "&pi;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cosine is continuous. Substitute x=0 directly: cos(0) = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.839,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&pi;/2</span></span> sin(x)",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sine is continuous. Substitute x=&pi;/2 directly: sin(&pi;/2) = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.9065,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0<sup>+</sup></span></span> ln(x)",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "-&infin;"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As x approaches 0 from the positive side, the natural logarithm function drops infinitely toward negative infinity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.5786,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;e</span></span> ln(x)",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "&infin;"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute x=e directly into the continuous function: ln(e) = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.6619,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>4</sup> - 1</span><span>x - 1</span></span>",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Factor as (x<sup>2</sup>-1)(x<sup>2</sup>+1) then (x-1)(x+1)(x<sup>2</sup>+1). Cancel (x-1) and substitute x=1: (2)(2) = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.018,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-1</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>5</sup> + 1</span><span>x + 1</span></span>",
+      "options": [
+        "4",
+        "5",
+        "-5",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using L'Hôpital's rule: derivative is 5x<sup>4</sup> / 1. Substitute x=-1: 5(-1)<sup>4</sup> = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.1218,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;0</span></span> x<sup>2</sup> * cos(1/x)",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By the Squeeze Theorem, since -1 &le; cos(1/x) &le; 1, we have -x<sup>2</sup> &le; x<sup>2</sup> cos(1/x) &le; x<sup>2</sup>. As x&rarr;0, both bounds go to 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.7524,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;2</span></span> (1/x)",
+      "options": [
+        "0",
+        "1",
+        "1/2",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Substitute x=2 directly: 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.758,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;-&infin;</span></span> e<sup>x</sup>",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "-&infin;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As the exponent becomes infinitely negative, e raised to that power approaches 0 (horizontal asymptote).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386501355.993,
+      "question": "Evaluate <span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>x&rarr;&infin;</span></span> e<sup>-x</sup>",
+      "options": [
+        "0",
+        "1",
+        "&infin;",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is equivalent to 1/e<sup>x</sup>. As x grows infinitely large, 1/&infin; approaches 0.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
