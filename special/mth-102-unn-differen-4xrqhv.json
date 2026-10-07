@@ -3,16 +3,718 @@
   "title": "MTH 102 (UNN): Differential Calculus",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791386802975.5925,
+      "question": "The derivative of a function f(x) at a point represents the:",
+      "options": [
+        "Sum of the function’s values",
+        "Average of the function over an interval",
+        "Instantaneous rate of change",
+        "Total area under the curve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The derivative gives the rate of change at a specific moment (instantaneous), unlike the average rate which uses two points.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.886,
+      "question": "Which of the following is the correct limit definition for the derivative of f(x)?",
+      "options": [
+        "<span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>h&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>f(x+h) + f(x)</span><span>h</span></span>",
+        "<span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>h&rarr;0</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>f(x+h) - f(x)</span><span>h</span></span>",
+        "<span style='display:inline-block; text-align:center; vertical-align:middle; line-height:1;'><span style='display:block;'>lim</span><span style='display:block; font-size:0.7em;'>h&rarr;&infin;</span></span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>f(x+h) - f(x)</span><span>h</span></span>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>f(x+h) - f(x)</span><span>h</span></span>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The derivative is formally defined as the limit of the difference quotient as h (the change in x) approaches zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.7627,
+      "question": "If f(x) = k, where k is a constant, what is f'(x)?",
+      "options": [
+        "k",
+        "1",
+        "0",
+        "x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Constants do not change, so their rate of change (derivative) is always zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.3474,
+      "question": "Finding the derivative of a function using the limit definition is called:",
+      "options": [
+        "Implicit differentiation",
+        "First principles",
+        "The Power Rule shortcut",
+        "Integration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differentiating from first principles involves using the formal limit definition rather than shortcut rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.0645,
+      "question": "In the expression <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dy</span><span>dx</span></span>, the term dx represents:",
+      "options": [
+        "A large change in x",
+        "The derivative of x",
+        "An infinitesimal change in x",
+        "A constant multiplier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'd' notation signifies an infinitely small or infinitesimal increment in the variable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.678,
+      "question": "What is the derivative of x<sup>n</sup> with respect to x?",
+      "options": [
+        "nx<sup>n</sup>",
+        "(n-1)x<sup>n</sup>",
+        "nx<sup>n-1</sup>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>n+1</sup></span><span>n</span></span>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Power Rule states that you multiply by the exponent and then subtract one from the exponent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.208,
+      "question": "If f(x) = 12x, then f'(x) is:",
+      "options": [
+        "12",
+        "0",
+        "12x<sup>2</sup>",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a linear term ax, the derivative is simply the constant a. Here, the derivative of 12x is 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.775,
+      "question": "For the function f(x) = x<sup>2</sup>, the term f(x+h) in the first principles formula is:",
+      "options": [
+        "x<sup>2</sup> + h<sup>2</sup>",
+        "(x+h)<sup>2</sup>",
+        "x<sup>2</sup> + h",
+        "2x + 2h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find f(x+h), we substitute (x+h) into the function wherever x appears, resulting in (x+h)<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.5322,
+      "question": "What is the derivative of 4x<sup>3</sup>?",
+      "options": [
+        "12x<sup>3</sup>",
+        "4x<sup>2</sup>",
+        "12x<sup>2</sup>",
+        "7x<sup>2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the power rule: 3 &middot; 4x<sup>3-1</sup> = 12x<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.331,
+      "question": "The derivative of a sum of functions <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>d</span><span>dx</span></span>[u + v] is equal to:",
+      "options": [
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>du</span><span>dx</span></span> &middot; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dv</span><span>dx</span></span>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>du</span><span>dx</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dv</span><span>dx</span></span>",
+        "u <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dv</span><span>dx</span></span> + v <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>du</span><span>dx</span></span>",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Linearity Rule (Sum Rule) states that the derivative of a sum is the sum of the derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802975.8403,
+      "question": "If y = x, the slope of the tangent at any point is:",
+      "options": [
+        "0",
+        "x",
+        "1",
+        "2x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "y = x is a line with a gradient of 1. The derivative of x<sup>1</sup> is 1x<sup>0</sup> = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1538,
+      "question": "The derivative of ax<sup>2</sup> + bx + c (where a, b, c are constants) is:",
+      "options": [
+        "2ax + b",
+        "ax + b",
+        "2a + b",
+        "2ax<sup>2</sup> + b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiate each term: d/dx(ax<sup>2</sup>) = 2ax, d/dx(bx) = b, and d/dx(c) = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.259,
+      "question": "What is the value of the derivative of f(x) = x<sup>2</sup> at x = 4?",
+      "options": [
+        "16",
+        "4",
+        "8",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The derivative is 2x. Substituting x = 4 gives 2(4) = 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.986,
+      "question": "A horizontal line has a derivative of:",
+      "options": [
+        "1",
+        "Infinity",
+        "0",
+        "-1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Horizontal lines have no change in y as x changes; therefore, their slope (derivative) is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1294,
+      "question": "If the derivative of a function is negative, the function is:",
+      "options": [
+        "Increasing",
+        "Constant",
+        "Decreasing",
+        "Discontinuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A negative derivative means the output value is falling as the input increases, indicating a decreasing function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.7603,
+      "question": "The notation f'(x) was introduced by:",
+      "options": [
+        "Leibniz",
+        "Newton",
+        "Lagrange",
+        "Euler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While Leibniz used dy/dx and Newton used dot notation, the prime notation (f') was developed by Joseph-Louis Lagrange.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.3694,
+      "question": "Differentiate f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>3</span></span>x<sup>3</sup>:",
+      "options": [
+        "3x<sup>2</sup>",
+        "x<sup>2</sup>",
+        "x<sup>3</sup>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>3</span></span>x<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the power rule: 3 &middot; (1/3)x<sup>3-1</sup> = 1x<sup>2</sup> = x<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.8613,
+      "question": "What is the derivative of -5x<sup>2</sup>?",
+      "options": [
+        "-10x",
+        "10x",
+        "-5x",
+        "-10x<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply the exponent by the coefficient: 2 &middot; (-5)x<sup>2-1</sup> = -10x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1724,
+      "question": "In the first principles expansion of (x+h)<sup>3</sup>, the coefficient of the x<sup>2</sup>h term is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Expanding (x+h)<sup>3</sup> using binomial expansion gives x<sup>3</sup> + 3x<sup>2</sup>h + 3xh<sup>2</sup> + h<sup>3</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.7114,
+      "question": "The derivative of x<sup>5</sup> - x<sup>3</sup> is:",
+      "options": [
+        "5x<sup>4</sup> - 3x<sup>2</sup>",
+        "5x<sup>4</sup> + 3x<sup>2</sup>",
+        "2x<sup>2</sup>",
+        "15x<sup>7</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiate each term independently: 5x<sup>4</sup> and -3x<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.508,
+      "question": "If y = 7x - 3, what is <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dy</span><span>dx</span></span>?",
+      "options": [
+        "7x",
+        "7",
+        "-3",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The derivative of the linear term 7x is 7, and the derivative of the constant -3 is 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4158,
+      "question": "A point where the derivative of a curve is zero is known as a:",
+      "options": [
+        "Point of inflection",
+        "Stationary point",
+        "Origin",
+        "Asymptote"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stationary points (maxima, minima, or inflections) occur where the tangent is horizontal (derivative = 0).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4558,
+      "question": "What is the second derivative of x<sup>3</sup>?",
+      "options": [
+        "3x<sup>2</sup>",
+        "6x",
+        "6",
+        "3x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first derivative is 3x<sup>2</sup>. Differentiating again gives 2 &middot; 3x = 6x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.0662,
+      "question": "Differentiate f(x) = 2x<sup>4</sup> + x:",
+      "options": [
+        "8x<sup>3</sup> + 1",
+        "8x<sup>3</sup>",
+        "4x<sup>3</sup> + 1",
+        "8x<sup>4</sup> + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiate term by term: 4 &middot; 2x<sup>3</sup> and d/dx(x) = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.0298,
+      "question": "The gradient of the curve y = x<sup>2</sup> + 2x at x = 1 is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The derivative is 2x + 2. At x = 1, gradient = 2(1) + 2 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4312,
+      "question": "If f(x) = &pi;<sup>2</sup>, what is f'(x)?",
+      "options": [
+        "2&pi;",
+        "&pi;",
+        "0",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since &pi; is a constant, &pi;<sup>2</sup> is also a constant. The derivative of any constant is 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.3887,
+      "question": "The derivative of x<sup>100</sup> is:",
+      "options": [
+        "100x<sup>99</sup>",
+        "99x<sup>100</sup>",
+        "100x<sup>101</sup>",
+        "1x<sup>99</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power rule: 100 &middot; x<sup>100-1</sup> = 100x<sup>99</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.3354,
+      "question": "When using first principles for f(x) = 3x<sup>2</sup>, the simplified numerator f(x+h) - f(x) is:",
+      "options": [
+        "6xh + 3h<sup>2</sup>",
+        "3h<sup>2</sup>",
+        "6xh",
+        "x<sup>2</sup> + h<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3(x+h)<sup>2</sup> - 3x<sup>2</sup> = 3(x<sup>2</sup> + 2xh + h<sup>2</sup>) - 3x<sup>2</sup> = 6xh + 3h<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.442,
+      "question": "Differentiate y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>4</sup></span><span>4</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>x<sup>2</sup></span><span>2</span></span>:",
+      "options": [
+        "x<sup>3</sup> - x",
+        "4x<sup>3</sup> - 2x",
+        "x<sup>4</sup> - x<sup>2</sup>",
+        "x<sup>3</sup> + x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(4/4)x<sup>3</sup> - (2/2)x = x<sup>3</sup> - x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1594,
+      "question": "The derivative of velocity with respect to time is:",
+      "options": [
+        "Displacement",
+        "Momentum",
+        "Acceleration",
+        "Speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acceleration is defined as the rate of change of velocity over time (a = dv/dt).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.0078,
+      "question": "If f(x) = (x+1)<sup>2</sup>, expanding it first to differentiate gives:",
+      "options": [
+        "2x + 1",
+        "2x + 2",
+        "x<sup>2</sup> + 1",
+        "2x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expanding gives x<sup>2</sup> + 2x + 1. Differentiating that results in 2x + 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.8774,
+      "question": "Find the derivative of f(x) = 10x<sup>5</sup> - 2x<sup>2</sup>:",
+      "options": [
+        "50x<sup>4</sup> - 4x",
+        "50x<sup>4</sup> - 2x",
+        "10x<sup>4</sup> - 4x",
+        "50x<sup>5</sup> - 4x<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power rule on both terms: 5 &middot; 10x<sup>4</sup> and -2 &middot; 2x<sup>1</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.8735,
+      "question": "What is the derivative of x<sup>2</sup> - x?",
+      "options": [
+        "2x - 1",
+        "2x",
+        "x - 1",
+        "2x + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "d/dx(x<sup>2</sup>) = 2x and d/dx(-x) = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4202,
+      "question": "Leibniz notation for the derivative is written as:",
+      "options": [
+        "y'",
+        "<span style='text-decoration: overline;'>y</span>",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>dy</span><span>dx</span></span>",
+        "Df(x)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gottfried Wilhelm Leibniz introduced the differential notation dy/dx.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.5317,
+      "question": "The derivative of f(x) = 0.5x<sup>2</sup> is:",
+      "options": [
+        "x",
+        "0.5x",
+        "1",
+        "2x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2 &middot; 0.5x<sup>2-1</sup> = 1.0x = x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.2664,
+      "question": "Find f'(x) for f(x) = 6:",
+      "options": [
+        "6",
+        "1",
+        "0",
+        "6x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The function is a constant (horizontal line), so its gradient is always zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.892,
+      "question": "If f(x) = x<sup>3</sup> + 5, then f'(x) =:",
+      "options": [
+        "3x<sup>2</sup> + 5",
+        "3x<sup>2</sup>",
+        "x<sup>2</sup>",
+        "3x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The derivative of x<sup>3</sup> is 3x<sup>2</sup>, and the derivative of the constant 5 is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4902,
+      "question": "The slope of the line y = -4x + 10 is:",
+      "options": [
+        "10",
+        "4",
+        "-4",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the linear form y = mx + c, m is the slope. Differentiating -4x + 10 also gives -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.7217,
+      "question": "Differentiate f(x) = ax + b:",
+      "options": [
+        "a",
+        "x",
+        "b",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For constant coefficients a and b, d/dx(ax) = a and d/dx(b) = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.5376,
+      "question": "What is the derivative of x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup>?",
+      "options": [
+        "4x<sup>3</sup> + 3x<sup>2</sup> + 2x",
+        "x<sup>3</sup> + x<sup>2</sup> + x",
+        "4x<sup>4</sup> + 3x<sup>3</sup> + 2x<sup>2</sup>",
+        "12x<sup>2</sup> + 6x + 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apply the power rule to each term in the polynomial sum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.2734,
+      "question": "In the first principles formula, the variable h represents:",
+      "options": [
+        "The slope",
+        "The y-intercept",
+        "An increment in x",
+        "The final answer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "h represents a small change or increment added to x to determine the rate of change between two points.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.077,
+      "question": "The derivative of x<sup>-1</sup> using the power rule is:",
+      "options": [
+        "-x<sup>-2</sup>",
+        "x<sup>0</sup>",
+        "-1",
+        "<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>x<sup>2</sup></span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplying by the exponent (-1) and subtracting 1 from it: -1 &middot; x<sup>-1-1</sup> = -x<sup>-2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.4333,
+      "question": "Differentiate y = 8x<sup>2</sup>:",
+      "options": [
+        "16x",
+        "8x",
+        "16",
+        "64x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2 &middot; 8x<sup>2-1</sup> = 16x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.687,
+      "question": "Find the derivative of f(x) = x<sup>2</sup> + x + 1:",
+      "options": [
+        "2x + 1",
+        "2x",
+        "x + 1",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiating term by term: 2x, 1, and 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1733,
+      "question": "If y = 3x<sup>4</sup>, then <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>d<sup>2</sup>y</span><span>dx<sup>2</sup></span></span> =:",
+      "options": [
+        "12x<sup>3</sup>",
+        "36x<sup>2</sup>",
+        "12x<sup>2</sup>",
+        "36x<sup>3</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First derivative is 12x<sup>3</sup>. Second derivative is 3 &middot; 12x<sup>2</sup> = 36x<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.559,
+      "question": "The derivative of a constant multiple of a function c &middot; f(x) is:",
+      "options": [
+        "c &middot; f'(x)",
+        "0",
+        "f'(x)",
+        "c + f'(x)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Constant Multiple Rule allows you to factor out the constant before differentiating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.2441,
+      "question": "What is the derivative of f(x) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid; display:block;'>1</span><span>2</span></span>x<sup>4</sup>?",
+      "options": [
+        "2x<sup>3</sup>",
+        "4x<sup>3</sup>",
+        "2x<sup>4</sup>",
+        "x<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "4 &middot; (1/2)x<sup>3</sup> = 2x<sup>3</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.2334,
+      "question": "Find f'(x) if f(x) = -x<sup>3</sup>:",
+      "options": [
+        "-3x<sup>2</sup>",
+        "3x<sup>2</sup>",
+        "-x<sup>2</sup>",
+        "-3x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coefficient is -1. 3 &middot; (-1)x<sup>3-1</sup> = -3x<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.7085,
+      "question": "Differentiation is the inverse process of:",
+      "options": [
+        "Multiplication",
+        "Integration",
+        "Division",
+        "Logarithms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integration (antidifferentiation) is the reverse process of finding a derivative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791386802976.1907,
+      "question": "The derivative of x<sup>1</sup> is:",
+      "options": [
+        "0",
+        "x",
+        "1",
+        "1x<sup>0</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x<sup>1</sup> becomes 1x<sup>0</sup>, which simplifies strictly to 1.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
