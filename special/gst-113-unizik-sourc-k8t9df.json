@@ -3,16 +3,718 @@
   "title": "GST 113 ( UNIZIK ) : SOURCES OF LAW",
   "subject": "GST 113",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791485273221.0562,
+      "question": "What are the legal rules and principles Nigeria inherited from Britain through colonization?",
+      "options": [
+        "Nigerian Legislations",
+        "Received English Law",
+        "Customary Law",
+        "Sharia Law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Received English Law comprises Common Law, Doctrines of Equity, and Statutes of General Application.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5676,
+      "question": "Which of the following is NOT a component of Received English Law?",
+      "options": [
+        "Common Law",
+        "Doctrines of Equity",
+        "Statutes of General Application",
+        "Nigerian Legislations"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nigerian Legislations are enacted in Nigeria, not inherited from Britain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.566,
+      "question": "The Common Law was applied by which court?",
+      "options": [
+        "Chancery Court",
+        "Supreme Court",
+        "King's Bench",
+        "Sharia Court"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Common Law was applied by the King's Bench, Common Pleas, and Exchequer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3557,
+      "question": "What led to the development of the doctrines of equity?",
+      "options": [
+        "Influence of Sharia law",
+        "Enactment of Nigerian legislations",
+        "Growth of customary law",
+        "Rigidity of Common Law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Common Law became too rigid and formalistic, causing hardship, which led to equity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.652,
+      "question": "The doctrines of equity were developed by which court?",
+      "options": [
+        "Chancery Court",
+        "King's Bench",
+        "Common Pleas",
+        "Exchequer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Chancery court under the Lord Chancellor developed the doctrines of equity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.9822,
+      "question": "In which case were the principles of equity first applied?",
+      "options": [
+        "Donoghue v Stevenson",
+        "Carlill v Carbolic Smoke Ball",
+        "Earl of Oxford's case",
+        "Rylands v Fletcher"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The principles of equity were first applied in the Earl of Oxford's case.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.7627,
+      "question": "Which Act merged the principles of Common Law and equity?",
+      "options": [
+        "Interpretation Act",
+        "Criminal Code Act",
+        "Penal Code Act",
+        "Judicature Act"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Judicature Act of 1875 merged the principles of Common Law and equity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3767,
+      "question": "Statutes of General Application are laws in force in England on which date?",
+      "options": [
+        "1st January 1800",
+        "1st January 1900",
+        "1st January 1960",
+        "1st January 1066"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statutes of General Application are laws in force in England on 1st January 1900.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.7622,
+      "question": "Which of the following is an example of a Statute of General Application in Nigeria?",
+      "options": [
+        "Criminal Code Act",
+        "Penal Code Act",
+        "Interpretation Act",
+        "Constitution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Interpretation Act is an example of the Statute of General Application in Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.043,
+      "question": "Laws enacted by the National Assembly at the federal level are known as what?",
+      "options": [
+        "Act",
+        "Law",
+        "Decree",
+        "Edict"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the federal level, laws enacted by the National Assembly are known as an Act.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.709,
+      "question": "Laws enacted by the State House of Assembly at the state level are known as what?",
+      "options": [
+        "Act",
+        "Decree",
+        "Ordinance",
+        "Law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At the state level, laws enacted by the State House of Assembly are known as a Law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.6367,
+      "question": "The doctrine of judicial precedents draws from which doctrine?",
+      "options": [
+        "Ultra vires",
+        "Stare decisis",
+        "Ratio decidendi",
+        "Obiter dictum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Judicial precedents draw from the doctrine of stare decisis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.8428,
+      "question": "In Nigeria, decisions of which court bind lower courts?",
+      "options": [
+        "Magistrate Court",
+        "Customary Court",
+        "Higher court",
+        "Sharia Court"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Nigeria, the decisions of a higher court bind lower courts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.1516,
+      "question": "Customary law is also known as what?",
+      "options": [
+        "Moslem law",
+        "English law",
+        "Statutory law",
+        "Ethnic law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Customary law is also known as non-Moslem or ethnic law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3809,
+      "question": "Which of the following defines customary law?",
+      "options": [
+        "Laws enacted by the National Assembly",
+        "Customs accepted by a community",
+        "Laws inherited from Britain",
+        "Laws based on the Holy Quran"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Customary law is defined as a body of customs accepted by members of a community as binding upon them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.311,
+      "question": "Who defined customary law as customs, rules, and traditions governing relationships of community members?",
+      "options": [
+        "Roscoe Pound",
+        "John Austin",
+        "Niki Tobi JSC",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Niki Tobi JSC defined customary law as the customs, rules, and traditions which govern the relationship of the members of a community.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.8486,
+      "question": "Which of the following is a characteristic of customary law?",
+      "options": [
+        "Rigid and codified",
+        "Written and formal",
+        "Based on judicial precedents",
+        "Flexible and unwritten"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Customary law is characteristically flexible and largely unwritten.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.0881,
+      "question": "How many validity tests must a custom pass to be enforceable?",
+      "options": [
+        "Three",
+        "One",
+        "Two",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A custom must pass three validity tests: repugnancy, incompatibility, and public policy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.9966,
+      "question": "Which of the following is NOT a validity test for customary law?",
+      "options": [
+        "Repugnancy test for customs",
+        "Constitutional test",
+        "Incompatibility test for customs",
+        "Public policy test for customs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three tests are repugnancy, incompatibility, and public policy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3914,
+      "question": "Where a custom fails any one of the validity tests, what happens?",
+      "options": [
+        "It is automatically valid",
+        "It becomes a statute",
+        "It cannot be enforced by courts",
+        "It is sent to the National Assembly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a custom fails any one of the tests, it cannot be enforced by the courts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.0515,
+      "question": "Sharia law derives its force and validity from how many basic sources?",
+      "options": [
+        "Two",
+        "Three",
+        "Five",
+        "Four"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sharia law derives from four basic sources: The Holy Quran, the Sunan, the Ijima, and the Quiyas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.004,
+      "question": "Sharia law and courts exist only in which part of Nigeria?",
+      "options": [
+        "Northern part",
+        "Southern part",
+        "Eastern part",
+        "Western part"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sharia law and courts exist only in the northern part of Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.1921,
+      "question": "Which of the following is a source of Sharia law?",
+      "options": [
+        "The Constitution",
+        "The Criminal Code",
+        "The Holy Quran",
+        "The Interpretation Act"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Holy Quran is one of the four basic sources of Sharia law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5645,
+      "question": "International law governs the conduct of which subjects?",
+      "options": [
+        "Individuals",
+        "Companies",
+        "Families",
+        "States"
+      ],
+      "correctAnswer": 3,
+      "explanation": "International law governs the conduct of sovereign states and other subjects like international organizations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.7415,
+      "question": "Which of the following is a major source of international law?",
+      "options": [
+        "Customary law",
+        "Treaties",
+        "Judicial precedents",
+        "Sharia law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Treaties, Conventions, international customs, and general principles are major sources of international law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.4204,
+      "question": "Positivists argued that international law is what?",
+      "options": [
+        "Law improperly so called",
+        "Law properly so called",
+        "Municipal law",
+        "Customary law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positivists argued international law is law improperly so called because it lacks a determinate sovereign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5654,
+      "question": "Municipal law is also known as what?",
+      "options": [
+        "International law",
+        "Public law",
+        "Domestic law",
+        "Private law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Municipal law is otherwise known as national or domestic law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.4968,
+      "question": "Public law regulates the relationship between the state and whom?",
+      "options": [
+        "International organizations",
+        "Foreign states",
+        "Private companies",
+        "Citizens"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Public law regulates the relationship between the state and persons making up the state.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.69,
+      "question": "Which of the following is an example of public law?",
+      "options": [
+        "Contract law",
+        "Criminal law",
+        "Family law",
+        "Law of tort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Criminal law, Constitutional law, and Administrative law are examples of public law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5771,
+      "question": "Private law regulates the relationship between whom?",
+      "options": [
+        "States",
+        "International organizations",
+        "Persons",
+        "Government and citizens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Private law regulates the relationship between persons, whether natural or juridical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.2861,
+      "question": "Which of the following is an example of private law?",
+      "options": [
+        "Criminal law",
+        "Constitutional law",
+        "Administrative law",
+        "Contract law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Contract law, family law, and law of tort are examples of private law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.132,
+      "question": "Criminal law is a branch of which type of law?",
+      "options": [
+        "Private law",
+        "Public law",
+        "International law",
+        "Customary law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Criminal law is a branch of public law which regulates crimes in society.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.4229,
+      "question": "In Nigeria, crime is regulated by which two bodies of law?",
+      "options": [
+        "Constitution and Interpretation Act",
+        "Customary and Sharia law",
+        "Criminal Code and Penal Code",
+        "Common law and Equity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Nigeria, crime is regulated by the Criminal Code Act applicable to southern Nigeria and the Penal Code Act applicable to northern Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.2263,
+      "question": "Which of the following is a felony?",
+      "options": [
+        "Forcible entry",
+        "Unlawful assembly",
+        "Cruelty to animals",
+        "Murder"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Felonies are punishable by death or imprisonment of 3 years and above, e.g., murder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.9553,
+      "question": "Misdemeanours are punishable by imprisonment of not less than how many months?",
+      "options": [
+        "6 months",
+        "3 months",
+        "9 months",
+        "12 months"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Misdemeanours are punishable by imprisonment not less than 6 months but not up to 3 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.7563,
+      "question": "Which of the following is a simple offence?",
+      "options": [
+        "Murder",
+        "Forcible entry",
+        "Cruelty",
+        "Armed robbery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Simple offences are all other offences other than felonies and misdemeanours, e.g., cruelty to animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.6262,
+      "question": "Indictable offences are punishable by imprisonment beyond how many years?",
+      "options": [
+        "1 year",
+        "3 years",
+        "5 years",
+        "2 years"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Indictable offences are punishable by a term of imprisonment beyond 2 years or by summary conviction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5176,
+      "question": "Civil law comprises both private and public law except which law?",
+      "options": [
+        "Contract law",
+        "Criminal law",
+        "Family law",
+        "Law of tort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Civil law comprises both private and public law except criminal law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.0056,
+      "question": "Which legal system is also known as Anglo-American law?",
+      "options": [
+        "Civil Law legal system",
+        "Sharia legal system",
+        "Customary legal system",
+        "Common Law legal system"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Common Law legal system is also known as Anglo-American law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3088,
+      "question": "The Common Law legal system uses which system of justice?",
+      "options": [
+        "Inquisitorial system",
+        "Customary system",
+        "Adversarial system",
+        "Sharia system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Common Law legal system uses the adversarial system of justice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.5022,
+      "question": "In the Common Law legal system, the burden of proof lies on whom?",
+      "options": [
+        "The Defendant",
+        "The Prosecutor",
+        "The Judge",
+        "The Jury"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the Common Law legal system, the burden of proof lies on the Prosecutor who must prove the defendant's crime beyond reasonable doubt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.8633,
+      "question": "The Civil Law legal system is rooted in which law?",
+      "options": [
+        "English Common Law",
+        "Sharia law",
+        "Customary law",
+        "Justinian law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Civil Law legal system is rooted in Justinian law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.6226,
+      "question": "The Civil Law legal system uses which system of justice?",
+      "options": [
+        "Adversarial",
+        "Inquisitorial",
+        "Customary",
+        "Sharia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Civil Law legal system applies the inquisitorial system of justice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.2642,
+      "question": "In the Civil Law legal system, codes are the major source of law and judicial precedents are what?",
+      "options": [
+        "Not binding",
+        "Binding",
+        "Persuasive",
+        "Supreme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under the Civil Law legal system, codes are the major source of law, and judicial precedents are not binding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.9236,
+      "question": "Which of the following countries operates the Civil Law legal system?",
+      "options": [
+        "Nigeria",
+        "United Kingdom",
+        "Germany",
+        "United States"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Germany and France are examples of Civil Law countries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.3547,
+      "question": "The principle of equity is expressed as what?",
+      "options": [
+        "Equity prevails over law",
+        "Equity is the law",
+        "Equity is above law",
+        "Equity follows the law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The principle of equity is equity follows the law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.2927,
+      "question": "Written law is also known as what?",
+      "options": [
+        "Customary law",
+        "Statute",
+        "Common law",
+        "Equity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A written law is also known as Statute or Legislation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.4167,
+      "question": "Which of the following is an example of unwritten law in Nigeria?",
+      "options": [
+        "Constitution",
+        "Criminal Code Act",
+        "Customary law",
+        "Interpretation Act"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Nigeria, customary law is an example of an unwritten law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.369,
+      "question": "Substantive law defines what?",
+      "options": [
+        "Procedures for enforcement",
+        "Court processes",
+        "Rules of evidence",
+        "Rights and duties"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Substantive law defines rights and duties as provided and prescribed in the books.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791485273221.6853,
+      "question": "Procedural law is also known as what?",
+      "options": [
+        "Substantive law",
+        "Remedial law",
+        "Customary law",
+        "International law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Procedural law is also known as adjectival or remedial law.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
