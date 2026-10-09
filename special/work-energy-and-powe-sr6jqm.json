@@ -3,16 +3,718 @@
   "title": "Work, Energy and Power",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791561975052.1501,
+      "question": "The work done by a force is defined as the product of the force and the displacement in the direction of the force. What is the unit of work?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work is defined as force × displacement in the direction of the force. Its SI unit is the <b>joule (J)</b>, where 1 J = 1 N·m (one newton-metre).<br><br><b>Why the others are wrong:</b><br>• Newton (N) is the unit of force.<br>• Watt (W) is the unit of power.<br>• Pascal (Pa) is the unit of pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.9407,
+      "question": "A force of 10N moves a body through a distance of 5m in the direction of the force. Calculate the work done.",
+      "options": [
+        "2J",
+        "15J",
+        "50J",
+        "0.5J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using W = F × d × cos θ, with θ = 0° (force in the direction of motion), so cos 0° = 1.<br><br>W = 10 N × 5 m × 1 = <b>50 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.8062,
+      "question": "A body of mass 2kg is lifted through a height of 5m. Calculate the potential energy gained. [g = 10ms⁻²]",
+      "options": [
+        "10J",
+        "20J",
+        "50J",
+        "100J"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gravitational potential energy is P.E. = mgh.<br><br>m = 2 kg, g = 10 m/s², h = 5 m<br>P.E. = 2 × 10 × 5 = <b>100 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.511,
+      "question": "The kinetic energy of a body of mass 4kg moving with a velocity of 3ms⁻¹ is",
+      "options": [
+        "6J",
+        "12J",
+        "18J",
+        "36J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kinetic energy K.E. = ½mv².<br><br>m = 4 kg, v = 3 m/s<br>K.E. = ½ × 4 × 3² = ½ × 4 × 9 = <b>18 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.8877,
+      "question": "Power is defined as the rate of doing work. Its S.I. unit is",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Power = work ÷ time. Its SI unit is the <b>watt (W)</b>, where 1 W = 1 J/s.<br><br><b>Why the others are wrong:</b><br>• Joule = unit of energy/work.<br>• Newton = unit of force.<br>• Pascal = unit of pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.036,
+      "question": "A machine does 500J of work in 10s. Calculate its power.",
+      "options": [
+        "5W",
+        "50W",
+        "500W",
+        "5000W"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power P = W ÷ t.<br><br>P = 500 J ÷ 10 s = <b>50 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1147,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Force",
+        "Work",
+        "Velocity",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work is a <b>scalar</b> quantity — it has magnitude but no direction. It is the dot product of two vectors (force and displacement), which produces a scalar.<br><br><b>Why the others are wrong:</b><br>• Force, velocity, and acceleration are all vectors (they have both magnitude and direction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.0774,
+      "question": "The energy possessed by a body by virtue of its position is called",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Potential energy</b> is the energy a body possesses due to its position or state. For example, a raised object has gravitational potential energy (mgh), and a stretched spring has elastic potential energy.<br><br>Kinetic energy is due to motion. Thermal and chemical energies are internal forms of energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.0974,
+      "question": "A body of mass 5kg is moving with a velocity of 4ms⁻¹. Calculate its kinetic energy.",
+      "options": [
+        "20J",
+        "40J",
+        "80J",
+        "100J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "K.E. = ½mv².<br><br>m = 5 kg, v = 4 m/s<br>K.E. = ½ × 5 × 4² = ½ × 5 × 16 = <b>40 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.79,
+      "question": "The work done in lifting a body of mass 10kg through a height of 2m is [g = 10ms⁻²]",
+      "options": [
+        "20J",
+        "50J",
+        "100J",
+        "200J"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Work done against gravity equals the gain in potential energy: W = mgh.<br><br>m = 10 kg, g = 10 m/s², h = 2 m<br>W = 10 × 10 × 2 = <b>200 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.4216,
+      "question": "A force of 20N acts on a body and moves it through a distance of 3m at an angle of 60° to the direction of the force. Calculate the work done.",
+      "options": [
+        "30J",
+        "60J",
+        "52J",
+        "30√3J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "W = F × d × cos θ, where θ is the angle between force and displacement.<br><br>W = 20 N × 3 m × cos 60° = 60 × 0.5 = <b>30 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.0095,
+      "question": "The principle of conservation of energy states that energy can neither be created nor destroyed but can be",
+      "options": [
+        "increased",
+        "decreased",
+        "transformed",
+        "eliminated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The law of conservation of energy states that the total energy of an isolated system remains constant — energy can only be <b>transformed</b> from one form to another (e.g., potential → kinetic → heat).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.7778,
+      "question": "A ball of mass 0.5kg is dropped from a height of 10m. Calculate its kinetic energy just before hitting the ground. [g = 10ms⁻²]",
+      "options": [
+        "5J",
+        "25J",
+        "50J",
+        "100J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By conservation of energy, all the initial potential energy is converted to kinetic energy just before impact.<br><br>P.E. = mgh = 0.5 × 10 × 10 = <b>50 J</b> = K.E. just before hitting the ground.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.6792,
+      "question": "The efficiency of a machine is 80%. If the work input is 500J, calculate the work output.",
+      "options": [
+        "400J",
+        "420J",
+        "480J",
+        "580J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Efficiency = (work output ÷ work input) × 100%<br><br>80 = (work output ÷ 500) × 100<br>work output = (80 × 500) ÷ 100 = <b>400 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.878,
+      "question": "A pump raises 200kg of water through a height of 10m in 20s. Calculate the power developed. [g = 10ms⁻²]",
+      "options": [
+        "100W",
+        "200W",
+        "1000W",
+        "2000W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Work done = mgh = 200 × 10 × 10 = 20,000 J.<br>Power = work ÷ time = 20,000 ÷ 20 = <b>1000 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.3254,
+      "question": "Which of the following is NOT a unit of energy?",
+      "options": [
+        "Joule",
+        "Kilowatt-hour",
+        "Electronvolt",
+        "Watt"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>watt (W)</b> is the SI unit of <i>power</i>, not energy. Power is the rate of energy transfer (1 W = 1 J/s).<br><br>The joule (J), kilowatt-hour (kWh), and electronvolt (eV) are all units of energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.3867,
+      "question": "A body of mass 2kg moves with a velocity of 5ms⁻¹. What is its momentum?",
+      "options": [
+        "10kgms⁻¹",
+        "2.5kgms⁻¹",
+        "20kgms⁻¹",
+        "50kgms⁻¹"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum p = mv.<br><br>m = 2 kg, v = 5 m/s<br>p = 2 × 5 = <b>10 kg·m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.0078,
+      "question": "The work done by a force of 100N in moving a body through a distance of 2m is",
+      "options": [
+        "50J",
+        "200J",
+        "100J",
+        "400J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "W = F × d (since force and displacement are in the same direction).<br><br>W = 100 N × 2 m = <b>200 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.2854,
+      "question": "A machine has a velocity ratio of 5 and an efficiency of 60%. Calculate its mechanical advantage.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Efficiency = (M.A. ÷ V.R.) × 100%<br><br>60 = (M.A. ÷ 5) × 100<br>M.A. = (60 × 5) ÷ 100 = <b>3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.3838,
+      "question": "A body of mass 10kg is raised to a height of 5m. Calculate the work done against gravity. [g = 9.8ms⁻²]",
+      "options": [
+        "49J",
+        "98J",
+        "490J",
+        "980J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "W = mgh (work done against gravity).<br><br>m = 10 kg, g = 9.8 m/s², h = 5 m<br>W = 10 × 9.8 × 5 = <b>490 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.6677,
+      "question": "The energy stored in a stretched spring is",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy",
+        "Electrical energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A stretched or compressed spring stores <b>elastic potential energy</b>. This energy is released when the spring returns to its natural length. The formula is P.E. = ½kx², where k is the spring constant and x is the extension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.0713,
+      "question": "A car of mass 1000kg accelerates from rest to 20ms⁻¹ in 10s. Calculate the average power developed.",
+      "options": [
+        "10kW",
+        "20kW",
+        "40kW",
+        "200kW"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work done = change in K.E. = ½mv² − 0 = ½ × 1000 × 20² = 200,000 J.<br>Average power = work ÷ time = 200,000 ÷ 10 = 20,000 W = <b>20 kW</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.8435,
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Work",
+        "Energy",
+        "Power",
+        "Force"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Force</b> is a vector — it has both magnitude and direction.<br><br>Work, energy, and power are all scalars. Work and energy have magnitude only; power is a rate (scalar).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1094,
+      "question": "A 50W electric bulb is used for 10 hours. Calculate the energy consumed in kWh.",
+      "options": [
+        "0.5kWh",
+        "5kWh",
+        "50kWh",
+        "500kWh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy (kWh) = power (kW) × time (h)<br><br>Power = 50 W = 0.05 kW<br>Time = 10 h<br>Energy = 0.05 × 10 = <b>0.5 kWh</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.5193,
+      "question": "The kinetic energy of a body is 100J and its mass is 2kg. Calculate its velocity.",
+      "options": [
+        "5ms⁻¹",
+        "10ms⁻¹",
+        "20ms⁻¹",
+        "50ms⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "K.E. = ½mv²<br><br>100 = ½ × 2 × v²<br>100 = v²<br>v = <b>10 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.9119,
+      "question": "A force of 5N moves a body through a distance of 10m. If the work done is 25J, calculate the angle between the force and the displacement.",
+      "options": [
+        "0°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "W = F × d × cos θ<br><br>25 = 5 × 10 × cos θ<br>25 = 50 cos θ<br>cos θ = 0.5<br>θ = <b>60°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.9917,
+      "question": "Which of the following statements is correct about the work done by a force?",
+      "options": [
+        "It is always positive",
+        "It can be negative",
+        "It is always zero",
+        "It is always maximum when the angle is 90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work can be <b>negative</b> when the force opposes the displacement (θ > 90°). For example, friction does negative work. Also, W = Fd cos θ, so if θ = 180°, W = −Fd (negative).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.848,
+      "question": "A body of mass 4kg falls freely from a height of 20m. Calculate its velocity just before hitting the ground. [g = 10ms⁻²]",
+      "options": [
+        "10ms⁻¹",
+        "20ms⁻¹",
+        "40ms⁻¹",
+        "200ms⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By conservation of energy: mgh = ½mv²<br><br>gh = ½v²<br>10 × 20 = ½v²<br>200 = ½v²<br>v² = 400<br>v = <b>20 m/s</b>.<br><br>Alternatively, use v² = u² + 2gh with u = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.63,
+      "question": "The power of a machine is 2kW. How much work can it do in 30 minutes?",
+      "options": [
+        "3.6 × 10⁶J",
+        "3.6 × 10⁵J",
+        "6.0 × 10⁴J",
+        "1.0 × 10³J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power = 2 kW = 2000 W; time = 30 min = 1800 s.<br><br>Work = power × time = 2000 × 1800 = 3,600,000 J = <b>3.6 × 10⁶ J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.2017,
+      "question": "A machine with an efficiency of 75% is used to lift a load of 300N through a height of 5m. Calculate the work input.",
+      "options": [
+        "1125J",
+        "1500J",
+        "2000J",
+        "2250J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Useful work output = load × height = 300 × 5 = 1500 J.<br><br>Efficiency = (work output ÷ work input) × 100%<br>75 = (1500 ÷ work input) × 100<br>work input = (1500 × 100) ÷ 75 = <b>2000 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.268,
+      "question": "The energy possessed by a moving body is called",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Chemical energy",
+        "Nuclear energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Kinetic energy</b> is the energy a body possesses by virtue of its motion. It is given by K.E. = ½mv².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.3792,
+      "question": "A block of mass 2kg slides down a frictionless incline from a height of 1m. Calculate its speed at the bottom. [g = 10ms⁻²]",
+      "options": [
+        "√10 ms⁻¹",
+        "√20 ms⁻¹",
+        "10 ms⁻¹",
+        "20 ms⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By conservation of energy: mgh = ½mv²<br><br>gh = ½v²<br>10 × 1 = ½v²<br>v² = 20<br>v = <b>√20 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.6309,
+      "question": "A force of 200N is applied to move a body through a distance of 5m. If the work done is 500J, calculate the angle between the force and the displacement.",
+      "options": [
+        "0°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "W = F × d × cos θ<br><br>500 = 200 × 5 × cos θ<br>500 = 1000 cos θ<br>cos θ = 0.5<br>θ = <b>60°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.9688,
+      "question": "The work done in stretching a spring by 0.1m is 2J. Calculate the spring constant.",
+      "options": [
+        "100Nm⁻¹",
+        "200Nm⁻¹",
+        "400Nm⁻¹",
+        "800Nm⁻¹"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Work done in stretching a spring = ½kx²<br><br>2 = ½ × k × (0.1)²<br>2 = ½ × k × 0.01<br>2 = 0.005k<br>k = <b>400 N/m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1692,
+      "question": "Which of the following is a non-renewable source of energy?",
+      "options": [
+        "Solar",
+        "Wind",
+        "Coal",
+        "Hydro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Coal</b> is a fossil fuel and is non-renewable — it takes millions of years to form and cannot be replenished on a human timescale.<br><br>Solar, wind, and hydro are renewable — they are naturally replenished.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1357,
+      "question": "A body of mass 5kg is moving with a velocity of 2ms⁻¹. Calculate its kinetic energy.",
+      "options": [
+        "5J",
+        "10J",
+        "20J",
+        "40J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "K.E. = ½mv²<br><br>K.E. = ½ × 5 × 2² = ½ × 5 × 4 = <b>10 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.2358,
+      "question": "The efficiency of a machine is defined as",
+      "options": [
+        "Work output / Work input × 100%",
+        "Work input / Work output × 100%",
+        "Mechanical advantage / Velocity ratio × 100%",
+        "Velocity ratio / Mechanical advantage × 100%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Efficiency = (useful work output ÷ total work input) × 100%.<br><br>Since work output is always less than work input (due to friction), efficiency is always less than 100%. Also equivalent to M.A./V.R. × 100%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1404,
+      "question": "A pump lifts 1000kg of water through a height of 20m in 50s. Calculate the power of the pump. [g = 10ms⁻²]",
+      "options": [
+        "200W",
+        "400W",
+        "2000W",
+        "4000W"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Work = mgh = 1000 × 10 × 20 = 200,000 J.<br><br>Power = work ÷ time = 200,000 ÷ 50 = <b>4000 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1177,
+      "question": "A body of mass 2kg is thrown vertically upwards with a velocity of 10ms⁻¹. Calculate the maximum height reached. [g = 10ms⁻²]",
+      "options": [
+        "5m",
+        "10m",
+        "20m",
+        "50m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At maximum height, all K.E. is converted to P.E.: ½mv² = mgh<br><br>½ × 2 × 10² = 2 × 10 × h<br>100 = 20h<br>h = <b>5 m</b>.<br><br>Alternatively, using v² = u² − 2gh at v = 0: h = u²/(2g) = 100/20 = 5 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.102,
+      "question": "Which of the following is the correct expression for power?",
+      "options": [
+        "Power = Force × Distance",
+        "Power = Work × Time",
+        "Power = Work / Time",
+        "Power = Force / Time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Power is the rate of doing work, so <b>Power = Work ÷ Time</b>. Its SI unit is the watt (W), where 1 W = 1 J/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.2056,
+      "question": "A machine has a mechanical advantage of 4 and a velocity ratio of 5. Calculate its efficiency.",
+      "options": [
+        "20%",
+        "80%",
+        "125%",
+        "400%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Efficiency = (M.A. ÷ V.R.) × 100%<br><br>Efficiency = (4 ÷ 5) × 100% = <b>80%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.9316,
+      "question": "The energy transformation in a hydroelectric power station is",
+      "options": [
+        "Chemical → Electrical",
+        "Potential → Kinetic → Electrical",
+        "Electrical → Mechanical",
+        "Nuclear → Electrical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a hydroelectric station, water stored at a height has <b>gravitational potential energy</b>, which converts to <b>kinetic energy</b> as it falls, which then drives turbines to produce <b>electrical energy</b>.<br><br>So: Potential → Kinetic → Electrical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.8699,
+      "question": "A body of mass 1kg falls from a height of 5m. Calculate its kinetic energy when it has fallen 2m. [g = 10ms⁻²]",
+      "options": [
+        "20J",
+        "30J",
+        "50J",
+        "70J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The loss in potential energy equals the gain in kinetic energy.<br><br>Fall height = 2 m<br>K.E. gained = mgh = 1 × 10 × 2 = <b>20 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.346,
+      "question": "The work done by a force of 10N in moving a body through a distance of 2m at an angle of 180° to the direction of the force is",
+      "options": [
+        "20J",
+        "−20J",
+        "0J",
+        "10J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "W = F × d × cos θ, with θ = 180°.<br><br>cos 180° = −1<br>W = 10 × 2 × (−1) = <b>−20 J</b>.<br><br>Negative work means the force is opposing the motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.993,
+      "question": "A 100W electric bulb is used for 5 hours. Calculate the energy consumed in joules.",
+      "options": [
+        "1.8 × 10⁶J",
+        "1.8 × 10⁵J",
+        "5.0 × 10⁵J",
+        "5.0 × 10⁶J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy = power × time<br><br>Power = 100 W; time = 5 h = 5 × 3600 s = 18,000 s<br>Energy = 100 × 18,000 = 1,800,000 J = <b>1.8 × 10⁶ J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.3965,
+      "question": "A body of mass 3kg is moving with a velocity of 4ms⁻¹. Calculate its momentum.",
+      "options": [
+        "12kgms⁻¹",
+        "0.75kgms⁻¹",
+        "24kgms⁻¹",
+        "48kgms⁻¹"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum p = mv<br><br>p = 3 × 4 = <b>12 kg·m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.2441,
+      "question": "The work-energy theorem states that the work done on a body is equal to the",
+      "options": [
+        "Change in kinetic energy",
+        "Change in potential energy",
+        "Total energy",
+        "Power developed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>work–energy theorem</b> states: the net work done on a body equals its change in kinetic energy, i.e. W<sub>net</sub> = ΔK.E. = ½mv² − ½mu².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.7307,
+      "question": "A machine is 60% efficient. If it is used to raise a load of 120N through a height of 2m, calculate the work input.",
+      "options": [
+        "240J",
+        "400J",
+        "600J",
+        "800J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Useful work output = load × height = 120 × 2 = 240 J.<br><br>Efficiency = (work output ÷ work input) × 100%<br>60 = (240 ÷ work input) × 100<br>work input = (240 × 100) ÷ 60 = <b>400 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.5833,
+      "question": "A body of mass 2kg is lifted through a height of 10m. Calculate the potential energy gained. [g = 9.8ms⁻²]",
+      "options": [
+        "19.6J",
+        "98J",
+        "196J",
+        "392J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P.E. = mgh<br><br>P.E. = 2 × 9.8 × 10 = <b>196 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561975052.1404,
+      "question": "Which of the following is an example of a renewable energy source?",
+      "options": [
+        "Natural gas",
+        "Coal",
+        "Solar",
+        "Petroleum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Solar energy</b> is renewable — it is continuously supplied by the sun and will not run out on a human timescale.<br><br>Natural gas, coal, and petroleum are fossil fuels and are non-renewable.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
