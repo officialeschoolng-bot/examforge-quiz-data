@@ -3,16 +3,783 @@
   "title": "GST 111 (COOU) | Chapter Three: The Use of the Dictionary",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 51,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791541938445.1423,
+      "question": "A dictionary is a reference book containing the words of a language usually arranged:",
+      "options": [
+        "By subject",
+        "Alphabetically",
+        "By difficulty",
+        "By author",
+        "By date"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dictionary is a reference book containing the words of a language usually alphabetically arranged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.5295,
+      "question": "According to Oxford Advanced Learner's Dictionary, a dictionary is a book that gives a list of the words of a language in:",
+      "options": [
+        "Order of importance",
+        "Order of frequency",
+        "Alphabetical order",
+        "Order of length",
+        "Order of difficulty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dictionary gives a list of words of a language in alphabetical order and explains what they mean.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.6167,
+      "question": "Besides explaining meanings, the Oxford Advanced Learner's Dictionary states that a dictionary can give a word for them in a:",
+      "options": [
+        "Different dialect",
+        "Foreign language",
+        "Local slang",
+        "Technical code",
+        "Secret register"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dictionary can give a word for them in a foreign language, e.g. a Spanish-English dictionary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.9304,
+      "question": "A dictionary of mathematics is given as an example of a dictionary that explains words that are in a:",
+      "options": [
+        "Foreign language",
+        "Regional dialect",
+        "Particular subject",
+        "Literary text",
+        "Spoken corpus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A dictionary of mathematics explains the words that are in a particular subject.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.854,
+      "question": "A dictionary can also be a list of words in electronic form, for example stored in a computer's:",
+      "options": [
+        "Hard drive folder",
+        "Word processor file",
+        "Email archive",
+        "Spellchecker",
+        "Backup disk"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Oxford Advanced Learner's Dictionary cites a list of words in electronic form stored in a computer's spellchecker.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.2556,
+      "question": "The Oxford English Dictionary defines a dictionary as a book dealing with the individual words of a language so as to set forth their orthography, pronunciation, signification and:",
+      "options": [
+        "Font style",
+        "Paper quality",
+        "Use",
+        "Binding",
+        "Cover design"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The OED definition includes orthography, pronunciation, signification and use, among others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.4905,
+      "question": "The word list of a dictionary may be general or restricted, covering regional and social dialects, jargons, slangs and:",
+      "options": [
+        "Neologisms only",
+        "Archaisms",
+        "Loan words only",
+        "Acronyms only",
+        "Toponyms only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Criterion one concerns density of entries: whether the word list is general or restricted and whether it covers dialects, jargons, slangs and archaisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.5022,
+      "question": "Which criterion classifies dictionaries as monolingual, bilingual or multilingual?",
+      "options": [
+        "Axis of time",
+        "Purpose",
+        "Arrangement of entries",
+        "Number of languages involved",
+        "Prospective user"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The number of languages involved determines whether a dictionary is monolingual, bilingual or multilingual.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.9294,
+      "question": "The axis of time criterion classifies dictionaries as diachronic or:",
+      "options": [
+        "Synchronic",
+        "Semantic",
+        "Causal",
+        "Normative",
+        "Referential"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under axis of time, dictionaries are either diachronic (dynamic) or synchronic (static).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.148,
+      "question": "Dictionaries may be classified according to the arrangement of entries as alphabetical, semantic or:",
+      "options": [
+        "Causal",
+        "Regional",
+        "Normative",
+        "Referential",
+        "Special"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arrangement of entries may be alphabetical or semantic or causal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.613,
+      "question": "When classifying by purpose, dictionaries are described as normative or:",
+      "options": [
+        "Causal",
+        "Referential",
+        "Diachronic",
+        "Semantic",
+        "Regional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Under purpose, dictionaries are described as normative or referential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0728,
+      "question": "The criterion that considers whether a dictionary is meant for the general reader or for special users is the:",
+      "options": [
+        "Axis of time",
+        "Prospective user",
+        "Arrangement of entries",
+        "Density of entries",
+        "Number of languages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prospective user criterion asks whether the dictionary is meant for the general reader or for special users.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.5547,
+      "question": "On the basis of the criteria of classification, the dictionary is broadly divided into linguistic dictionaries and:",
+      "options": [
+        "Bilingual dictionaries",
+        "Encyclopaedia dictionaries",
+        "Synchronic dictionaries",
+        "Restricted dictionaries",
+        "Normative dictionaries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dictionary is broadly divided into linguistic dictionaries and encyclopaedia dictionaries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0203,
+      "question": "Linguistic dictionaries deal with only the lexical stock, that is, words as:",
+      "options": [
+        "Historical artefacts",
+        "Speech material",
+        "Cultural symbols",
+        "Visual images",
+        "Written records"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The linguistic dictionary deals with only the lexical stock, that is, words as speech material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.9897,
+      "question": "Linguistic dictionaries may also be called a:",
+      "options": [
+        "Word book",
+        "Reference guide",
+        "Sound book",
+        "Picture book",
+        "Grammar text"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linguistic dictionaries may be called a 'word book'.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.6602,
+      "question": "When linguistic dictionaries are divided by the scope of their word list, they are classified as general and:",
+      "options": [
+        "Special",
+        "Restricted",
+        "Normative",
+        "Descriptive",
+        "Bilingual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to the scope of their word list, linguistic dictionaries are divided into general and restricted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.9736,
+      "question": "The terms general and restricted in dictionary classification do not refer to the:",
+      "options": [
+        "Type of words listed",
+        "Source of the words",
+        "Size of the dictionary",
+        "Nature of the entries",
+        "Scope of the coverage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The terms general and restricted do not refer to the size of the dictionary or to the number of items listed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.141,
+      "question": "General dictionaries represent the vocabulary as a whole with a degree of completeness depending upon the scope and the:",
+      "options": [
+        "Type of paper used",
+        "Publisher's reputation",
+        "Bulk of the book",
+        "Author's background",
+        "Date of publication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "General dictionaries represent the vocabulary as a whole with completeness depending upon the scope and the bulk of the book.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.4004,
+      "question": "Frequency dictionaries inform the user as to the frequency of occurrence of lexical units in:",
+      "options": [
+        "Written examinations",
+        "Speech",
+        "Printed dictionaries",
+        "Library catalogues",
+        "Literary criticism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dictionaries of word frequency inform the user as to the frequency of occurrence of lexical units in speech.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7976,
+      "question": "The academic dictionary gives the lexical stock of the standard language with the aim to present the language as it is expected to be and:",
+      "options": [
+        "Expand it rapidly",
+        "Change it completely",
+        "Stop it from decay",
+        "Simplify it always",
+        "Hide it from learners"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The academic dictionary aims to present the language as it is expected to be and stop it from decay.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.678,
+      "question": "The referential or descriptive dictionary does not have any:",
+      "options": [
+        "Word list",
+        "Normative aim",
+        "Alphabetical order",
+        "Definition of words",
+        "User audience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The referential or descriptive dictionary does not have any normative aim.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.837,
+      "question": "The corpus of a referential dictionary includes not only literary texts but also:",
+      "options": [
+        "Scientific reports",
+        "Oral literature",
+        "Government gazettes",
+        "Religious tracts",
+        "Legal documents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The corpus includes not only literary texts but also oral literature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.1965,
+      "question": "Restricted dictionaries cover only a certain specific part of the:",
+      "options": [
+        "Alphabet",
+        "Grammar",
+        "Vocabulary",
+        "Pronunciation",
+        "Spelling"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Restricted dictionaries cover only a certain specific part of the vocabulary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.879,
+      "question": "The first subgroup of restricted dictionaries registers and explains technical terms for various branches of:",
+      "options": [
+        "Literature",
+        "Knowledge",
+        "Culture",
+        "History",
+        "Philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first subgroup registers and explains technical terms for various branches of knowledge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.478,
+      "question": "Dictionaries recording the complete vocabulary of some author are called:",
+      "options": [
+        "Glossaries",
+        "Thesauruses",
+        "Concordances",
+        "Lexicons",
+        "Gazetteers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dictionaries recording the complete vocabulary of some author are called concordances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.911,
+      "question": "Dictionaries that deal only with difficult words are distinguished from concordances and are called:",
+      "options": [
+        "Glossaries",
+        "Indexes",
+        "Abstracts",
+        "Manuals",
+        "Directories"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Those that deal only with difficult words are called glossaries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.1135,
+      "question": "According to the information they provide, all linguistic dictionaries fall into two groups: explanatory and:",
+      "options": [
+        "Historical",
+        "Specialized",
+        "Synchronic",
+        "Bilingual",
+        "Normative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All linguistic dictionaries fall into explanatory and specialized groups according to the information they provide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.128,
+      "question": "Explanatory dictionaries present a wide range of data, especially with regard to the semantic aspect of the:",
+      "options": [
+        "Grammar items",
+        "Vocabulary items",
+        "Sound patterns",
+        "Sentence structures",
+        "Discourse features"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Explanatory dictionaries present data especially with regard to the semantic aspect of the vocabulary items entered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.701,
+      "question": "Specialized dictionaries deal with lexical units only in relation to some of their characteristics such as etymology, frequency, pronunciation and:",
+      "options": [
+        "Colour",
+        "Usage",
+        "Font",
+        "Paper",
+        "Binding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Specialized dictionaries deal with lexical units in relation to etymology, frequency, pronunciation and usage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.725,
+      "question": "The world famous English Pronouncing Dictionary was compiled by:",
+      "options": [
+        "Samuel Johnson",
+        "Noah Webster",
+        "Daniel Jones",
+        "Melvil Dewey",
+        "Peter Roget"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The English Pronouncing Dictionary by Daniel Jones provides the most expert guidance on English and American English pronunciation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.2742,
+      "question": "Dictionaries of synonyms, antonyms and ideographical dictionaries are classified on the basis of their semantic aspect and their:",
+      "options": [
+        "Alphabetical order",
+        "Relational value",
+        "Publication date",
+        "Cover design",
+        "Printing quality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These dictionaries are classified on the basis of their semantic aspect and their relational value in the lexical stock.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.1033,
+      "question": "According to the language of explanations, all dictionaries are divided into:",
+      "options": [
+        "Monolingual and bilingual",
+        "General and restricted",
+        "Normative and referential",
+        "Diachronic and synchronic",
+        "Explanatory and specialized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to the language of explanations, dictionaries are divided into monolingual and bilingual.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.98,
+      "question": "In monolingual dictionaries, the words and the information about them are given in:",
+      "options": [
+        "Two languages",
+        "Many languages",
+        "The same language",
+        "A foreign language",
+        "A sign language"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In monolingual dictionaries, the words and information about them are given in the same language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.3586,
+      "question": "Bilingual dictionaries explain words by giving their equivalents in:",
+      "options": [
+        "Pictures",
+        "Another language",
+        "Symbols",
+        "Diagrams",
+        "Signs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bilingual dictionaries explain words by giving their equivalents in another language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.5103,
+      "question": "The two principal purposes of bilingual dictionaries are reference for translation and:",
+      "options": [
+        "Guidance for expression",
+        "Practice for spelling",
+        "Training in phonetics",
+        "Aid in punctuation",
+        "Help in handwriting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bilingual dictionaries have two principal purposes: reference for translation and guidance for expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.2844,
+      "question": "Diachronic (historical) dictionaries record the history of form and meaning for every word:",
+      "options": [
+        "Used in speech",
+        "Registered",
+        "Borrowed recently",
+        "Coined by authors",
+        "Found in dialects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diachronic dictionaries record the history of form and meaning for every word registered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7642,
+      "question": "The main example of a diachronic dictionary is:",
+      "options": [
+        "Webster's Dictionary",
+        "Oxford English Dictionary",
+        "Chamber's Dictionary",
+        "Collins Dictionary",
+        "Longman Dictionary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Oxford English Dictionary is the main example of a diachronic dictionary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7224,
+      "question": "Synchronic or descriptive dictionaries are concerned with the present-day meaning and:",
+      "options": [
+        "Etymology",
+        "History",
+        "Usage",
+        "Origin",
+        "Source"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Synchronic dictionaries are concerned with the present-day meaning and usage of words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0967,
+      "question": "In the ideographic dictionaries, the main body is arranged according to a logical classification of:",
+      "options": [
+        "Sounds",
+        "Letters",
+        "Notions",
+        "Authors",
+        "Publishers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In ideographic dictionaries the main body is arranged according to a logical classification of notions expressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0442,
+      "question": "The Latin word thesaurus means:",
+      "options": [
+        "Dictionary",
+        "Treasury",
+        "Word list",
+        "Grammar",
+        "Glossary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Latin word thesaurus means 'treasury'.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0022,
+      "question": "P. Roget's book gave the word thesaurus the new figurative meaning of a store of:",
+      "options": [
+        "Wealth",
+        "Knowledge",
+        "Books",
+        "Paper",
+        "Words"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P. Roget's book gave the word thesaurus the new figurative meaning of 'a store of knowledge'.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.1726,
+      "question": "The ideographic type of dictionary supplies the word or words by which a given idea may be:",
+      "options": [
+        "Hidden",
+        "Expressed",
+        "Confused",
+        "Delayed",
+        "Altered"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The thesaurus supplies the word or words by which a given idea may be expressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7192,
+      "question": "Cultural literacy is a term coined by:",
+      "options": [
+        "Daniel Jones",
+        "Melvil Dewey",
+        "E. D. Hirsch",
+        "Peter Roget",
+        "Herbert Putnam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cultural literacy is a term coined by E. D. Hirsch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.283,
+      "question": "A culturally literate person knows a given culture's signs and:",
+      "options": [
+        "Sounds",
+        "Colours",
+        "Symbols",
+        "Numbers",
+        "Letters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A culturally literate person knows a given culture's signs and symbols, including its language and idioms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7153,
+      "question": "Encyclopaedic information has the features of including names of persons, places and literary works, covering all branches of human knowledge and giving:",
+      "options": [
+        "Brief mention of facts",
+        "Extensive treatment of facts",
+        "Indirect treatment of facts",
+        "Selective treatment of facts",
+        "Superficial treatment of facts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The encyclopaedic information features extensive treatment of facts, among others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.792,
+      "question": "Most proper names will not occur in a dictionary but of course occur in an:",
+      "options": [
+        "Index",
+        "Encyclopaedia",
+        "Almanac",
+        "Atlas",
+        "Abstract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Most proper names will not occur in a dictionary but of course occur in an encyclopaedia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.411,
+      "question": "The English spelling system is problematic for foreign learners because initials of certain words are not pronounced, as in:",
+      "options": [
+        "Stationery",
+        "Complement",
+        "Pneumonia",
+        "Compliment",
+        "Travelling"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Initials of certain words are not pronounced, as in pneumonia, mnemonic, honest and psychology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.7083,
+      "question": "Which pair of words is pronounced alike?",
+      "options": [
+        "Piece and peace",
+        "Colour and colour",
+        "Metre and meter",
+        "Traveling and travelling",
+        "Draft and draught"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pairs such as piece and peace, stationery and stationary are pronounced alike.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.1602,
+      "question": "Which of these is a difference between British and American English spelling?",
+      "options": [
+        "Colour and color",
+        "Stationery and stationary",
+        "Complement and compliment",
+        "Piece and peace",
+        "Honest and honest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "British English 'colour' corresponds to American English 'color'.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0188,
+      "question": "When you find a new word while reading, you should first finish the sentence or the:",
+      "options": [
+        "Chapter",
+        "Paragraph",
+        "Whole book",
+        "Title page",
+        "Table of contents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When you find a new word while reading, finish the sentence or the paragraph before looking it up.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791541938445.0215,
+      "question": "When you hear a new word in class, you should wait and continue:",
+      "options": [
+        "Writing your notes",
+        "Looking it up immediately",
+        "Listening",
+        "Asking your neighbour",
+        "Leaving the class"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When you hear a new word in class, wait and continue listening as what the teacher says next may help you.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
