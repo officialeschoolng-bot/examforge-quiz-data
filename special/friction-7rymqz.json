@@ -3,16 +3,718 @@
   "title": "Friction",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791570253361.9612,
+      "question": "Friction is a force that opposes:",
+      "options": [
+        "Motion between two surfaces in contact",
+        "Weight of a body",
+        "Acceleration due to gravity",
+        "Magnetic force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Friction</b> is the force that opposes <b>relative motion between two surfaces in contact</b>. It acts along the surfaces and opposes sliding or rolling.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2747,
+      "question": "Friction acts in a direction:",
+      "options": [
+        "Same as motion",
+        "Opposite to relative motion",
+        "Perpendicular to motion",
+        "Independent of motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction always acts <b>opposite to the direction of relative motion</b> (or attempted motion) between the surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.748,
+      "question": "The force that opposes the start of motion between two surfaces is:",
+      "options": [
+        "Kinetic friction",
+        "Static friction",
+        "Rolling friction",
+        "Viscous friction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Static friction</b> is the force that must be overcome to start motion between two surfaces at rest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.329,
+      "question": "The force that opposes motion when one surface slides over another is:",
+      "options": [
+        "Static friction",
+        "Kinetic friction",
+        "Rolling friction",
+        "Magnetic force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Kinetic friction</b> (sliding friction) opposes motion when one surface slides over another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.6108,
+      "question": "Rolling friction is generally:",
+      "options": [
+        "Greater than sliding friction",
+        "Less than sliding friction",
+        "Equal to sliding friction",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Rolling friction</b> is generally much <b>less</b> than sliding friction, which is why wheels and ball bearings reduce friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.7026,
+      "question": "Which of the following is a way to reduce friction?",
+      "options": [
+        "Increasing roughness",
+        "Lubrication",
+        "Increasing normal reaction",
+        "Increasing load"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Lubrication</b> (e.g., oil or grease) reduces friction by separating surfaces. Increasing roughness, normal reaction, or load increases friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0046,
+      "question": "Which of the following is a way to increase friction?",
+      "options": [
+        "Polishing surfaces",
+        "Lubricating surfaces",
+        "Making surfaces rough",
+        "Using ball bearings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Making surfaces <b>rough</b> increases friction. Polishing, lubricating, and using ball bearings reduce friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1685,
+      "question": "The coefficient of friction is defined as the ratio of:",
+      "options": [
+        "Normal reaction to frictional force",
+        "Frictional force to normal reaction",
+        "Weight to mass",
+        "Force to area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coefficient of friction (μ) is defined as <b>μ = F/N</b>, where F is the frictional force and N is the normal reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.964,
+      "question": "The coefficient of friction has:",
+      "options": [
+        "Unit N",
+        "Unit N/m",
+        "No unit",
+        "Unit m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since μ is a ratio of two forces, it has <b>no unit</b> (dimensionless).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.594,
+      "question": "Static friction is:",
+      "options": [
+        "Always equal to kinetic friction",
+        "Usually greater than kinetic friction",
+        "Usually less than kinetic friction",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For most surfaces, <b>static friction is greater than kinetic friction</b>. This is why it is harder to start motion than to keep it going.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.7817,
+      "question": "The limiting frictional force is:",
+      "options": [
+        "Maximum static friction",
+        "Minimum static friction",
+        "Kinetic friction",
+        "Rolling friction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>limiting frictional force</b> is the <b>maximum value of static friction</b> just before motion begins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.8826,
+      "question": "The frictional force between two surfaces depends on:",
+      "options": [
+        "Area of contact",
+        "Normal reaction",
+        "Volume of bodies",
+        "Shape of bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction depends on the <b>normal reaction</b> and the nature of the surfaces, not on the area of contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2148,
+      "question": "For a given pair of surfaces, kinetic friction is:",
+      "options": [
+        "Independent of speed",
+        "Directly proportional to speed",
+        "Inversely proportional to speed",
+        "Zero at high speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kinetic friction is approximately <b>independent of speed</b> for moderate speeds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0884,
+      "question": "The normal reaction on a body of mass m resting on a horizontal surface is:",
+      "options": [
+        "mg",
+        "m/g",
+        "g/m",
+        "m + g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "On a horizontal surface, the normal reaction balances the weight: <b>N = mg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.3916,
+      "question": "If the normal reaction is 50 N and frictional force is 10 N, the coefficient of friction is:",
+      "options": [
+        "0.2",
+        "0.5",
+        "2.0",
+        "5.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "μ = F/N = 10/50 = <b>0.2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.7764,
+      "question": "A block of mass 10 kg rests on a horizontal surface. If coefficient of static friction is 0.4, the limiting friction is [g = 10 m/s²]:",
+      "options": [
+        "4 N",
+        "10 N",
+        "40 N",
+        "100 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "N = mg = 10 × 10 = 100 N. Limiting friction = μN = 0.4 × 100 = <b>40 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2974,
+      "question": "The angle of friction is the angle whose tangent is:",
+      "options": [
+        "Coefficient of friction",
+        "Normal reaction",
+        "Weight",
+        "Area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The angle of friction θ satisfies <b>tan θ = μ</b>, where μ is the coefficient of friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.299,
+      "question": "If coefficient of friction is 1, the angle of friction is:",
+      "options": [
+        "0°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "tan θ = μ = 1, so θ = <b>45°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.4065,
+      "question": "A body just begins to slide on an inclined plane at 30°. The coefficient of static friction is:",
+      "options": [
+        "0.5",
+        "0.58",
+        "0.87",
+        "1.0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the angle of repose, μ = tan θ. θ = 30°, so μ = tan 30° = 1/√3 ≈ <b>0.58</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0935,
+      "question": "A body just begins to slide on an inclined plane at 45°. The coefficient of friction is:",
+      "options": [
+        "0.5",
+        "1",
+        "√3",
+        "1/√3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "μ = tan 45° = <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1763,
+      "question": "Friction can be reduced by using:",
+      "options": [
+        "Sand",
+        "Ball bearings",
+        "Rough surfaces",
+        "Heavy load"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ball bearings</b> convert sliding friction into rolling friction, which is much smaller, thus reducing friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.6863,
+      "question": "The type of friction experienced by a wheel rolling on a surface is:",
+      "options": [
+        "Static friction",
+        "Sliding friction",
+        "Rolling friction",
+        "Fluid friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A wheel rolling on a surface experiences <b>rolling friction</b>, which is less than sliding friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1692,
+      "question": "Viscous friction occurs:",
+      "options": [
+        "Between solid surfaces",
+        "In fluids",
+        "In vacuum",
+        "Only in gases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Viscous friction</b> occurs in <b>fluids</b> (liquids and gases) due to internal friction between layers moving relative to each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2473,
+      "question": "Which of the following is an advantage of friction?",
+      "options": [
+        "It causes wear and tear",
+        "It enables walking",
+        "It reduces efficiency",
+        "It produces unwanted heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction <b>enables walking</b> by providing grip between shoes and the ground. Wear, reduced efficiency, and unwanted heat are disadvantages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.441,
+      "question": "Which of the following is a disadvantage of friction?",
+      "options": [
+        "It enables braking",
+        "It causes wear of machine parts",
+        "It helps in holding objects",
+        "It enables writing with a pen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A major disadvantage of friction is that it <b>causes wear of machine parts</b> and wastes energy as heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.8315,
+      "question": "The force required to just move a body along a horizontal surface is equal to:",
+      "options": [
+        "Limiting static friction",
+        "Kinetic friction only",
+        "Weight of body",
+        "Normal reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The minimum force to start motion equals the <b>limiting static friction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.4204,
+      "question": "If a body is moving with constant velocity on a rough horizontal surface, the applied force is:",
+      "options": [
+        "Greater than kinetic friction",
+        "Equal to kinetic friction",
+        "Less than kinetic friction",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For constant velocity, net force = 0, so applied force = <b>kinetic friction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1719,
+      "question": "The frictional force on a body moving on a rough horizontal surface is 12 N. If the normal reaction is 60 N, the coefficient of kinetic friction is:",
+      "options": [
+        "0.2",
+        "0.5",
+        "2.0",
+        "5.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "μ = F/N = 12/60 = <b>0.2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0547,
+      "question": "When the normal reaction is doubled, the frictional force:",
+      "options": [
+        "Halves",
+        "Doubles",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since F = μN, if N doubles, F <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.9685,
+      "question": "Which surface will produce the greatest friction with a moving block?",
+      "options": [
+        "Smooth ice",
+        "Polished glass",
+        "Rough concrete",
+        "Oiled metal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Rough concrete</b> has the highest coefficient of friction among the options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0032,
+      "question": "The efficiency of a machine is reduced by:",
+      "options": [
+        "Friction",
+        "Lubrication",
+        "Smooth surfaces",
+        "Ball bearings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Friction converts useful mechanical energy into heat, thus <b>reducing efficiency</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1714,
+      "question": "The purpose of lubrication in machines is to:",
+      "options": [
+        "Increase friction",
+        "Reduce friction",
+        "Increase wear",
+        "Increase heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lubrication <b>reduces friction</b> by separating moving surfaces with a fluid layer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1917,
+      "question": "Friction between two surfaces can be reduced by:",
+      "options": [
+        "Increasing the load",
+        "Making surfaces rough",
+        "Applying oil",
+        "Increasing area of contact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Applying oil</b> (lubrication) reduces friction. The other options increase friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.4697,
+      "question": "The frictional force that opposes the motion of a body through air is called:",
+      "options": [
+        "Static friction",
+        "Rolling friction",
+        "Air resistance",
+        "Limiting friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Air resistance</b> (drag) is the frictional force opposing motion through air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2222,
+      "question": "A car tyre has treads to:",
+      "options": [
+        "Reduce friction",
+        "Increase friction",
+        "Reduce weight",
+        "Increase speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Treads <b>increase friction</b> between the tyre and the road, improving grip and safety.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.0205,
+      "question": "Brakes in a vehicle work by:",
+      "options": [
+        "Reducing friction",
+        "Increasing friction",
+        "Eliminating friction",
+        "Reversing friction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Brakes work by <b>increasing friction</b> between brake pads and the wheel/disc, converting kinetic energy to heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.491,
+      "question": "A block of mass 5 kg is pulled along a horizontal surface with a force of 15 N. If coefficient of kinetic friction is 0.2, the acceleration is [g = 10 m/s²]:",
+      "options": [
+        "0.5 m/s²",
+        "1.0 m/s²",
+        "2.0 m/s²",
+        "3.0 m/s²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "N = mg = 50 N. Friction f = μN = 0.2×50 = 10 N. Net force = 15 − 10 = 5 N. a = F_net/m = 5/5 = <b>1.0 m/s²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.9531,
+      "question": "In question 37, frictional force is:",
+      "options": [
+        "5 N",
+        "10 N",
+        "15 N",
+        "20 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frictional force = μN = 0.2 × 50 = <b>10 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.073,
+      "question": "The maximum value of static friction is called:",
+      "options": [
+        "Limiting friction",
+        "Kinetic friction",
+        "Rolling friction",
+        "Viscous friction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The maximum static friction is called <b>limiting friction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.2197,
+      "question": "A body of weight 100 N rests on a horizontal surface. If coefficient of static friction is 0.3, the minimum force to start motion is:",
+      "options": [
+        "3 N",
+        "30 N",
+        "100 N",
+        "300 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "N = 100 N. Minimum force = μN = 0.3 × 100 = <b>30 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.4614,
+      "question": "The friction between two surfaces in contact is independent of:",
+      "options": [
+        "Normal reaction",
+        "Nature of surfaces",
+        "Area of contact",
+        "Coefficient of friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Friction is <b>independent of the area of contact</b> (for a given normal reaction and surface pair).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1665,
+      "question": "When a body slides on a rough surface, the frictional force is:",
+      "options": [
+        "In the direction of motion",
+        "Opposite to motion",
+        "Perpendicular to motion",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction always acts <b>opposite to the direction of motion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.1548,
+      "question": "A body moving on a rough surface comes to rest eventually because:",
+      "options": [
+        "Friction converts kinetic energy to heat",
+        "Gravity stops it",
+        "Mass decreases",
+        "Normal reaction increases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Friction does negative work, <b>converting kinetic energy into heat</b>, so the body slows down and stops.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.536,
+      "question": "The coefficient of friction between two surfaces is 0.25. If the normal reaction is 80 N, the frictional force is:",
+      "options": [
+        "5 N",
+        "20 N",
+        "25 N",
+        "80 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "F = μN = 0.25 × 80 = <b>20 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.5066,
+      "question": "Which of the following pairs has the highest coefficient of friction?",
+      "options": [
+        "Rubber on concrete",
+        "Ice on ice",
+        "Steel on steel",
+        "Glass on glass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Rubber on concrete</b> has a very high coefficient of friction (often > 1), making it ideal for tyres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.9612,
+      "question": "The force that opposes the relative motion between layers of a fluid is:",
+      "options": [
+        "Static friction",
+        "Kinetic friction",
+        "Viscosity",
+        "Rolling friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Viscosity</b> is the internal friction that opposes relative motion between layers of a fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.3735,
+      "question": "The coefficient of static friction is generally:",
+      "options": [
+        "Less than kinetic friction",
+        "Greater than kinetic friction",
+        "Equal to kinetic friction",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For most surfaces, <b>static friction is greater than kinetic friction</b>, so μ_s > μ_k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.9678,
+      "question": "A block just slides when the applied force is 20 N. If the normal reaction is 100 N, the coefficient of static friction is:",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.5",
+        "2.0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "μ = F/N = 20/100 = <b>0.2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.8223,
+      "question": "A body is placed on an inclined plane. As the angle of inclination increases, the component of weight parallel to the plane:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The component of weight parallel to the plane is mg sin θ. As θ increases, sin θ increases, so the component <b>increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570253361.4133,
+      "question": "The main reason for using ball bearings in machines is to:",
+      "options": [
+        "Increase friction",
+        "Convert sliding friction to rolling friction",
+        "Increase weight",
+        "Increase heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ball bearings <b>convert sliding friction into rolling friction</b>, which is much smaller, reducing energy losses.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
