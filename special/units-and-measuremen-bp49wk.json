@@ -3,16 +3,718 @@
   "title": "Units and Measurements",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791569947771.6982,
+      "question": "The S.I. base unit of length is the:",
+      "options": [
+        "Metre",
+        "Kilogram",
+        "Second",
+        "Ampere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. base unit of length is the <b>metre (m)</b>. Kilogram is mass, second is time, and ampere is electric current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5715,
+      "question": "The S.I. base unit of mass is the:",
+      "options": [
+        "Gram",
+        "Kilogram",
+        "Newton",
+        "Pound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. base unit of mass is the <b>kilogram (kg)</b>. Gram and pound are non-SI, newton is force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.266,
+      "question": "The S.I. base unit of time is the:",
+      "options": [
+        "Minute",
+        "Hour",
+        "Second",
+        "Day"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of time is the <b>second (s)</b>. Minute, hour, and day are non-SI units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.6753,
+      "question": "The S.I. base unit of electric current is the:",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Coulomb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. base unit of electric current is the <b>ampere (A)</b>. Volt is potential difference, ohm is resistance, coulomb is charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.0693,
+      "question": "The S.I. base unit of thermodynamic temperature is the:",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Rankine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of thermodynamic temperature is the <b>kelvin (K)</b>. Celsius and Fahrenheit are non-SI scales.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.622,
+      "question": "The S.I. base unit of amount of substance is the:",
+      "options": [
+        "Mole",
+        "Candela",
+        "Kelvin",
+        "Kilogram"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. base unit of amount of substance is the <b>mole (mol)</b>. Candela is luminous intensity, kelvin is temperature, kilogram is mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.3125,
+      "question": "The S.I. base unit of luminous intensity is the:",
+      "options": [
+        "Lumen",
+        "Lux",
+        "Candela",
+        "Watt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. base unit of luminous intensity is the <b>candela (cd)</b>. Lumen and lux are derived photometric units, watt is power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.754,
+      "question": "Which of the following is NOT an S.I. base unit?",
+      "options": [
+        "Metre",
+        "Kilogram",
+        "Newton",
+        "Second"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>newton (N)</b> is a derived S.I. unit (force), not a base unit. Metre, kilogram, and second are base units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5007,
+      "question": "The S.I. unit of force is the:",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Force is measured in <b>newtons (N)</b>. Joule is energy, watt is power, pascal is pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.1016,
+      "question": "The S.I. unit of pressure is the:",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure is measured in <b>pascals (Pa)</b>. Newton is force, joule is energy, watt is power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.3887,
+      "question": "The S.I. unit of energy is the:",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy is measured in <b>joules (J)</b>. Watt is power, newton is force, pascal is pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.2922,
+      "question": "The S.I. unit of power is the:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Hertz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power is measured in <b>watts (W)</b>. Joule is energy, newton is force, hertz is frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.1194,
+      "question": "The S.I. unit of frequency is the:",
+      "options": [
+        "Second",
+        "Hertz",
+        "Metre",
+        "Radian"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frequency is measured in <b>hertz (Hz)</b>, which is one cycle per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.4167,
+      "question": "The S.I. unit of electric charge is the:",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Coulomb",
+        "Ohm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electric charge is measured in <b>coulombs (C)</b>. Ampere is current, volt is potential difference, ohm is resistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.8564,
+      "question": "The prefix kilo means:",
+      "options": [
+        "10<sup>-3</sup>",
+        "10<sup>3</sup>",
+        "10<sup>6</sup>",
+        "10<sup>-6</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix <b>kilo</b> means <b>10<sup>3</sup></b> (one thousand).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.2185,
+      "question": "The prefix milli means:",
+      "options": [
+        "10<sup>-3</sup>",
+        "10<sup>3</sup>",
+        "10<sup>-6</sup>",
+        "10<sup>6</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prefix <b>milli</b> means <b>10<sup>-3</sup></b> (one thousandth).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.4097,
+      "question": "The prefix micro means:",
+      "options": [
+        "10<sup>-3</sup>",
+        "10<sup>-6</sup>",
+        "10<sup>3</sup>",
+        "10<sup>6</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix <b>micro</b> means <b>10<sup>-6</sup></b> (one millionth).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.4133,
+      "question": "The prefix mega means:",
+      "options": [
+        "10<sup>3</sup>",
+        "10<sup>6</sup>",
+        "10<sup>9</sup>",
+        "10<sup>-6</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix <b>mega</b> means <b>10<sup>6</sup></b> (one million).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.671,
+      "question": "The prefix giga means:",
+      "options": [
+        "10<sup>6</sup>",
+        "10<sup>9</sup>",
+        "10<sup>12</sup>",
+        "10<sup>-9</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix <b>giga</b> means <b>10<sup>9</sup></b> (one billion).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.599,
+      "question": "The prefix nano means:",
+      "options": [
+        "10<sup>-6</sup>",
+        "10<sup>-9</sup>",
+        "10<sup>-12</sup>",
+        "10<sup>9</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix <b>nano</b> means <b>10<sup>-9</sup></b> (one billionth).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.4373,
+      "question": "1 kilometre is equal to:",
+      "options": [
+        "100 m",
+        "1000 m",
+        "10 m",
+        "10000 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1 kilometre = <b>1000 metres</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5205,
+      "question": "1 centimetre is equal to:",
+      "options": [
+        "0.01 m",
+        "0.1 m",
+        "0.001 m",
+        "1 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 centimetre = <b>0.01 metres</b> (10<sup>-2</sup> m).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9517,
+      "question": "1 millimetre is equal to:",
+      "options": [
+        "0.001 m",
+        "0.01 m",
+        "0.1 m",
+        "0.0001 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 millimetre = <b>0.001 metres</b> (10<sup>-3</sup> m).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5706,
+      "question": "1 micrometre is equal to:",
+      "options": [
+        "10<sup>-6</sup> m",
+        "10<sup>-3</sup> m",
+        "10<sup>-9</sup> m",
+        "10<sup>6</sup> m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 micrometre = <b>10<sup>-6</sup> metres</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9407,
+      "question": "1 nanometre is equal to:",
+      "options": [
+        "10<sup>-9</sup> m",
+        "10<sup>-6</sup> m",
+        "10<sup>-3</sup> m",
+        "10<sup>9</sup> m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 nanometre = <b>10<sup>-9</sup> metres</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.8513,
+      "question": "The dimensional formula of velocity is:",
+      "options": [
+        "LT<sup>-1</sup>",
+        "LT<sup>-2</sup>",
+        "L<sup>2</sup>T<sup>-1</sup>",
+        "L<sup>-1</sup>T"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Velocity = displacement / time, so its dimension is <b>LT<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.0327,
+      "question": "The dimensional formula of acceleration is:",
+      "options": [
+        "LT<sup>-1</sup>",
+        "LT<sup>-2</sup>",
+        "L<sup>2</sup>T<sup>-2</sup>",
+        "LT<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration = velocity / time, so its dimension is <b>LT<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9001,
+      "question": "The dimensional formula of force is:",
+      "options": [
+        "MLT<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-2</sup>",
+        "ML<sup>-1</sup>T<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Force = mass × acceleration, so its dimension is <b>MLT<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.4143,
+      "question": "The dimensional formula of work is:",
+      "options": [
+        "MLT<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-3</sup>",
+        "ML<sup>-1</sup>T<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work = force × distance, so its dimension is <b>ML<sup>2</sup>T<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.735,
+      "question": "The dimensional formula of power is:",
+      "options": [
+        "ML<sup>2</sup>T<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-3</sup>",
+        "MLT<sup>-2</sup>",
+        "ML<sup>-1</sup>T<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power = work / time, so its dimension is <b>ML<sup>2</sup>T<sup>-3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.0022,
+      "question": "The dimensional formula of pressure is:",
+      "options": [
+        "ML<sup>-1</sup>T<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-2</sup>",
+        "MLT<sup>-2</sup>",
+        "ML<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressure = force / area, so its dimension is <b>ML<sup>-1</sup>T<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9995,
+      "question": "The dimensional formula of density is:",
+      "options": [
+        "ML<sup>-3</sup>",
+        "ML<sup>3</sup>",
+        "ML<sup>-2</sup>",
+        "M<sup>-1</sup>L<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Density = mass / volume, so its dimension is <b>ML<sup>-3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.149,
+      "question": "The dimensional formula of area is:",
+      "options": [
+        "L",
+        "L<sup>2</sup>",
+        "L<sup>3</sup>",
+        "L<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Area = length × length, so its dimension is <b>L<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.6636,
+      "question": "The dimensional formula of volume is:",
+      "options": [
+        "L",
+        "L<sup>2</sup>",
+        "L<sup>3</sup>",
+        "L<sup>-3</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume = length × length × length, so its dimension is <b>L<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.8337,
+      "question": "Which instrument is most suitable for measuring the diameter of a thin wire?",
+      "options": [
+        "Metre rule",
+        "Vernier caliper",
+        "Micrometer screw gauge",
+        "Measuring tape"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>micrometer screw gauge</b> has a very small least count (0.01 mm) and is best for measuring the diameter of a thin wire.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.6582,
+      "question": "The least count of a vernier caliper is usually:",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.001 cm",
+        "1 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A vernier caliper typically has a least count of <b>0.01 cm</b> (0.1 mm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.7576,
+      "question": "The least count of a micrometer screw gauge is usually:",
+      "options": [
+        "0.1 mm",
+        "0.01 mm",
+        "0.001 mm",
+        "1 mm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A micrometer screw gauge typically has a least count of <b>0.01 mm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.0024,
+      "question": "The least count of a metre rule is usually:",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.001 cm",
+        "1 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A metre rule typically has a least count of <b>0.1 cm</b> (1 mm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.0818,
+      "question": "Zero error in a vernier caliper occurs when:",
+      "options": [
+        "The jaws are closed and the zero marks do not coincide",
+        "The jaws are open",
+        "The instrument is new",
+        "The vernier scale is missing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zero error occurs when the jaws are closed but the zero mark of the vernier does not coincide with the zero mark of the main scale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.1409,
+      "question": "To correct for a positive zero error, the zero error is:",
+      "options": [
+        "Added to the reading",
+        "Subtracted from the reading",
+        "Multiplied by the reading",
+        "Ignored"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a <b>positive zero error</b>, the error is <b>subtracted</b> from the observed reading to get the correct value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.1287,
+      "question": "The number 0.00340 has how many significant figures?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leading zeros are not significant. The digits 3, 4, and the trailing zero after the decimal are significant, so there are <b>3</b> significant figures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5327,
+      "question": "The number 0.00580 has how many significant figures?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leading zeros are not significant. The digits 5, 8, and the trailing zero after the decimal are significant, so there are <b>3</b> significant figures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.196,
+      "question": "Rounding 4.567 to two decimal places gives:",
+      "options": [
+        "4.56",
+        "4.57",
+        "4.58",
+        "4.60"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The third decimal digit is 7, so we round up the second decimal digit from 6 to 7, giving <b>4.57</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9565,
+      "question": "The number 0.00045 expressed in scientific notation is:",
+      "options": [
+        "4.5 × 10<sup>-4</sup>",
+        "4.5 × 10<sup>4</sup>",
+        "45 × 10<sup>-5</sup>",
+        "0.45 × 10<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Move the decimal point 4 places to the right to get 4.5, so 0.00045 = <b>4.5 × 10<sup>-4</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5881,
+      "question": "The number 3.0 × 10<sup>4</sup> has how many significant figures?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In scientific notation, all digits in the coefficient are significant. The coefficient 3.0 has <b>2</b> significant figures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.6973,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Velocity",
+        "Force",
+        "Mass",
+        "Displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Mass</b> is a scalar quantity because it has magnitude only. Velocity, force, and displacement are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.1028,
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Speed",
+        "Distance",
+        "Velocity",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Velocity</b> is a vector quantity because it has both magnitude and direction. Speed, distance, and mass are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.5352,
+      "question": "The dimensional formula of the gravitational constant G is:",
+      "options": [
+        "M<sup>-1</sup>L<sup>3</sup>T<sup>-2</sup>",
+        "ML<sup>3</sup>T<sup>-2</sup>",
+        "M<sup>-1</sup>L<sup>2</sup>T<sup>-2</sup>",
+        "ML<sup>2</sup>T<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From F = G m<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>, G = Fr<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>). Its dimension is <b>M<sup>-1</sup>L<sup>3</sup>T<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.59,
+      "question": "The dimensional formula of Planck's constant h is:",
+      "options": [
+        "ML<sup>2</sup>T<sup>-1</sup>",
+        "ML<sup>2</sup>T<sup>-2</sup>",
+        "MLT<sup>-1</sup>",
+        "ML<sup>2</sup>T<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From E = hf, h = E/f. Energy has dimension ML<sup>2</sup>T<sup>-2</sup> and frequency has T<sup>-1</sup>, so h has dimension <b>ML<sup>2</sup>T<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569947771.9648,
+      "question": "The S.I. unit of magnetic flux density is the:",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic flux density is measured in <b>tesla (T)</b>. Weber is magnetic flux, henry is inductance, farad is capacitance.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
