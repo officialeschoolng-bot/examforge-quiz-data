@@ -3,16 +3,718 @@
   "title": "Equilibrium of Forces",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791570470857.2507,
+      "question": "1. A body is in equilibrium when:",
+      "options": [
+        "It is at rest only",
+        "It moves with uniform velocity only",
+        "The net force and net moment on it are zero",
+        "Its acceleration is maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A body is in <b>equilibrium</b> when both the net force and the net moment acting on it are zero. This ensures translational equilibrium (ΣF = 0) and rotational equilibrium (ΣM = 0). Being at rest or moving with uniform velocity are special cases (static and dynamic equilibrium) but do not fully define equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9316,
+      "question": "2. The condition for translational equilibrium is:",
+      "options": [
+        "ΣF = 0",
+        "ΣM = 0",
+        "ΣF = ma",
+        "ΣM = maximum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For <b>translational equilibrium</b>, the vector sum of all forces acting on the body must be zero: <b>ΣF = 0</b>. This means the body has no linear acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.3418,
+      "question": "3. The condition for rotational equilibrium is:",
+      "options": [
+        "ΣF = 0",
+        "ΣM = 0",
+        "ΣF = ma",
+        "ΣM = maximum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For <b>rotational equilibrium</b>, the sum of all moments (torques) about any point must be zero: <b>ΣM = 0</b>. This means the body has no angular acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.2363,
+      "question": "4. For a body in complete equilibrium:",
+      "options": [
+        "Only ΣF = 0",
+        "Only ΣM = 0",
+        "Both ΣF = 0 and ΣM = 0",
+        "Neither ΣF nor ΣM is zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For <b>complete equilibrium</b>, both conditions must be satisfied: <b>ΣF = 0</b> (translational) and <b>ΣM = 0</b> (rotational). Otherwise, the body may accelerate linearly or rotationally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9194,
+      "question": "5. Two forces of 6 N and 8 N act at right angles on a body. The magnitude of their equilibrant is:",
+      "options": [
+        "2 N",
+        "10 N",
+        "14 N",
+        "48 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equilibrant has the same magnitude as the resultant but opposite direction. For perpendicular forces, resultant = √(6² + 8²) = √(36+64) = √100 = <b>10 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.7559,
+      "question": "6. The equilibrant of a system of forces is:",
+      "options": [
+        "Equal to the resultant in magnitude and direction",
+        "Equal to the resultant in magnitude but opposite in direction",
+        "Always zero",
+        "Always greater than the resultant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>equilibrant</b> is a single force that balances the resultant. It is equal in magnitude to the resultant but acts in the <b>opposite direction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.5881,
+      "question": "7. Three coplanar non-parallel forces in equilibrium must:",
+      "options": [
+        "Be parallel",
+        "Meet at a point",
+        "Be equal in magnitude",
+        "Act in the same direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For three coplanar non-parallel forces to be in equilibrium, their lines of action must be <b>concurrent</b> (meet at a single point). This is a necessary condition for equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.2566,
+      "question": "8. Lami's theorem applies to:",
+      "options": [
+        "Four coplanar forces",
+        "Three coplanar concurrent forces in equilibrium",
+        "Parallel forces only",
+        "Couples only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Lami's theorem</b> applies specifically to <b>three coplanar concurrent forces in equilibrium</b>. It relates the magnitudes of the forces to the sines of the angles between them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.7148,
+      "question": "9. Lami's theorem states that:",
+      "options": [
+        "P/sin α = Q/sin β = R/sin γ",
+        "P sin α = Q sin β = R sin γ",
+        "P + Q + R = 0",
+        "P cos α = Q cos β"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lami's theorem: <b>P / sin α = Q / sin β = R / sin γ</b>, where α, β, γ are the angles opposite to forces P, Q, R respectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9558,
+      "question": "10. For three forces in equilibrium, each force is proportional to:",
+      "options": [
+        "The sine of the angle between the other two forces",
+        "The cosine of the angle between the other two forces",
+        "The tangent of the angle",
+        "The sum of the other two forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to Lami's theorem, each force is proportional to the <b>sine of the angle between the other two forces</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.1199,
+      "question": "11. A body of weight W is suspended by two strings making angles 30° and 60° with the horizontal. The tensions are T1 and T2. Which is correct?",
+      "options": [
+        "T1 = T2",
+        "T1 sin 30° + T2 sin 60° = W",
+        "T1 cos 30° = T2 cos 60°",
+        "T1 + T2 = W"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For vertical equilibrium, the sum of vertical components of the tensions must equal the weight: <b>T1 sin 30° + T2 sin 60° = W</b>. (Angles are with the horizontal, so vertical components use sine.)",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.158,
+      "question": "12. In question 11, the horizontal equilibrium condition is:",
+      "options": [
+        "T1 sin 30° = T2 sin 60°",
+        "T1 cos 30° = T2 cos 60°",
+        "T1 + T2 = W",
+        "T1 = T2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For horizontal equilibrium, the horizontal components of the tensions must balance: <b>T1 cos 30° = T2 cos 60°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.627,
+      "question": "13. The moment of a force about a point is defined as:",
+      "options": [
+        "Force × perpendicular distance from point to line of action",
+        "Force × parallel distance",
+        "Force / distance",
+        "Force + distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>moment of a force</b> about a point is the product of the force and the <b>perpendicular distance</b> from the point to the line of action of the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.5435,
+      "question": "14. The S.I. unit of moment of a force is:",
+      "options": [
+        "N",
+        "Nm",
+        "N/m",
+        "Nm²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moment = force × distance, so the S.I. unit is newton-metre (<b>N m</b>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.1006,
+      "question": "15. The principle of moments states that for a body in equilibrium:",
+      "options": [
+        "Sum of clockwise moments = sum of anticlockwise moments",
+        "Sum of forces = 0",
+        "Sum of moments = maximum",
+        "Clockwise moments > anticlockwise moments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>principle of moments</b> states that for a body in rotational equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments about the same point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.5667,
+      "question": "16. A uniform metre rule is pivoted at 50 cm. A 10 N weight hangs at 20 cm. To balance it, a 20 N weight must hang at:",
+      "options": [
+        "15 cm",
+        "30 cm",
+        "35 cm",
+        "65 cm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Take moments about the pivot at 50 cm. The 10 N weight is 30 cm from the pivot (50−20). Its moment = 10 × 30 = 300 N cm. For the 20 N weight, distance d from pivot must satisfy 20 × d = 300 ⇒ d = 15 cm. Since it must be on the opposite side, its position is 50 + 15 = <b>65 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9836,
+      "question": "17. A couple consists of:",
+      "options": [
+        "Two equal and opposite parallel forces not in same line",
+        "Two equal forces in same direction",
+        "Two unequal opposite forces",
+        "A single force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>couple</b> consists of <b>two equal and opposite parallel forces</b> whose lines of action are not the same.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.8264,
+      "question": "18. The moment of a couple is:",
+      "options": [
+        "Force × perpendicular distance between the forces",
+        "Force × distance from pivot",
+        "Force / distance",
+        "Sum of forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The moment of a couple is the product of one of the forces and the <b>perpendicular distance between the two forces</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.3345,
+      "question": "19. A couple produces:",
+      "options": [
+        "Only translational motion",
+        "Only rotational motion",
+        "Both translational and rotational motion",
+        "No motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A couple produces <b>only rotational motion</b> because the net force is zero, so there is no translation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.3105,
+      "question": "20. The resultant force of a couple is:",
+      "options": [
+        "Zero",
+        "Maximum",
+        "Infinite",
+        "Equal to one force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since the two forces are equal and opposite, their vector sum is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9268,
+      "question": "21. A body is in stable equilibrium when:",
+      "options": [
+        "Its centre of gravity is raised on slight displacement",
+        "Its centre of gravity is lowered on slight displacement",
+        "Its centre of gravity remains at same height",
+        "It has no centre of gravity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <b>stable equilibrium</b>, a slight displacement raises the centre of gravity, so the body tends to return to its original position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.6743,
+      "question": "22. A body is in unstable equilibrium when:",
+      "options": [
+        "Its centre of gravity is raised on slight displacement",
+        "Its centre of gravity is lowered on slight displacement",
+        "Its centre of gravity remains at same height",
+        "It has no centre of gravity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>unstable equilibrium</b>, a slight displacement lowers the centre of gravity, so the body moves further away from its original position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.0378,
+      "question": "23. A body is in neutral equilibrium when:",
+      "options": [
+        "Its centre of gravity is raised on slight displacement",
+        "Its centre of gravity is lowered on slight displacement",
+        "Its centre of gravity remains at same height",
+        "It has no centre of gravity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In <b>neutral equilibrium</b>, a slight displacement keeps the centre of gravity at the same height, so the body remains in its new position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9795,
+      "question": "24. A cone resting on its base is in:",
+      "options": [
+        "Stable equilibrium",
+        "Unstable equilibrium",
+        "Neutral equilibrium",
+        "Dynamic equilibrium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cone resting on its base is in <b>stable equilibrium</b> because its centre of gravity is low and any tilt raises it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9578,
+      "question": "25. A cone balanced on its apex is in:",
+      "options": [
+        "Stable equilibrium",
+        "Unstable equilibrium",
+        "Neutral equilibrium",
+        "Dynamic equilibrium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cone balanced on its apex is in <b>unstable equilibrium</b> because any slight displacement lowers its centre of gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.584,
+      "question": "26. A ball rolling on a smooth horizontal surface is in:",
+      "options": [
+        "Stable equilibrium",
+        "Unstable equilibrium",
+        "Neutral equilibrium",
+        "Dynamic equilibrium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A ball on a smooth horizontal surface is in <b>neutral equilibrium</b> because its centre of gravity remains at the same height when displaced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.472,
+      "question": "27. The centre of gravity of a uniform metre rule is at:",
+      "options": [
+        "0 cm",
+        "25 cm",
+        "50 cm",
+        "100 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a uniform metre rule, the centre of gravity is at its geometrical centre, i.e., <b>50 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.18,
+      "question": "28. The centre of gravity of a uniform triangular lamina is at:",
+      "options": [
+        "Centroid",
+        "Orthocentre",
+        "Circumcentre",
+        "Incentre"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The centre of gravity of a uniform triangular lamina is at its <b>centroid</b>, the point where the medians intersect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.7188,
+      "question": "29. For a body to be in equilibrium under parallel forces:",
+      "options": [
+        "Sum of forces in one direction = sum of forces in opposite direction",
+        "Sum of clockwise moments = sum of anticlockwise moments",
+        "Both A and B",
+        "Neither A nor B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For equilibrium under parallel forces, both conditions must hold: <b>sum of forces in one direction equals sum in opposite direction</b>, and <b>sum of clockwise moments equals sum of anticlockwise moments</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.8882,
+      "question": "30. Three forces of 3 N, 4 N and 5 N act at a point. If they are in equilibrium, the angle between 3 N and 4 N is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For three forces to be in equilibrium, they must form a closed triangle. Since 3² + 4² = 5², the triangle is right-angled, so the angle between the 3 N and 4 N forces is <b>90°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.3948,
+      "question": "31. The resultant of two forces P and Q acting at an angle θ is:",
+      "options": [
+        "√(P² + Q² + 2PQ cos θ)",
+        "√(P² + Q² − 2PQ cos θ)",
+        "P + Q",
+        "P − Q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnitude of the resultant of two forces P and Q at angle θ is <b>√(P² + Q² + 2PQ cos θ)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.6597,
+      "question": "32. If two forces act at 180° to each other, their resultant is:",
+      "options": [
+        "P + Q",
+        "P − Q",
+        "√(P² + Q²)",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When forces act in opposite directions (180° apart), the resultant is the difference of their magnitudes: <b>P − Q</b> (assuming P > Q).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.6777,
+      "question": "33. If two equal forces F act at 120° to each other, their resultant is:",
+      "options": [
+        "F",
+        "2F",
+        "√3 F",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using R = √(F² + F² + 2F² cos 120°) = √(2F² + 2F²(−1/2)) = √(2F² − F²) = √(F²) = <b>F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.4697,
+      "question": "34. If two equal forces F act at 90°, their resultant is:",
+      "options": [
+        "F",
+        "√2 F",
+        "2F",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "R = √(F² + F²) = √(2F²) = <b>√2 F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9092,
+      "question": "35. If two equal forces F act in same direction, resultant is:",
+      "options": [
+        "F",
+        "√2 F",
+        "2F",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When forces act in the same direction, their magnitudes add: <b>2F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.4563,
+      "question": "36. If two equal forces F act in opposite directions, resultant is:",
+      "options": [
+        "F",
+        "√2 F",
+        "2F",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When equal forces act in opposite directions, they cancel: resultant = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.5735,
+      "question": "37. The angle between two forces for maximum resultant is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The resultant is maximum when the forces act in the same direction, i.e., angle <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9348,
+      "question": "38. The angle between two forces for minimum resultant is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The resultant is minimum when the forces act in opposite directions, i.e., angle <b>180°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.2441,
+      "question": "39. A 10 kg mass is suspended by a single vertical string. The tension is [g = 10 m/s²]:",
+      "options": [
+        "10 N",
+        "100 N",
+        "1000 N",
+        "0 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For equilibrium, tension = weight = mg = 10 × 10 = <b>100 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9307,
+      "question": "40. A mass of 5 kg is suspended by two vertical strings equally sharing the load. Tension in each is [g = 10 m/s²]:",
+      "options": [
+        "50 N",
+        "25 N",
+        "5 N",
+        "100 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weight = 5 × 10 = 50 N. Each string carries half the load: 50/2 = <b>25 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.6677,
+      "question": "41. A uniform beam of weight 200 N is supported at both ends. The reaction at each support is:",
+      "options": [
+        "50 N",
+        "100 N",
+        "200 N",
+        "400 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a uniform beam, the weight acts at the centre, so each support carries half the weight: 200/2 = <b>100 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.241,
+      "question": "42. A uniform rod of length 2 m is pivoted at its centre. A 10 N force acts at one end. To balance the rod, a 20 N force must act at a distance from the pivot of:",
+      "options": [
+        "0.5 m",
+        "1.0 m",
+        "2.0 m",
+        "0.25 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 10 N force acts at 1 m from the pivot, giving moment = 10 × 1 = 10 N m. For the 20 N force, 20 × d = 10 ⇒ d = <b>0.5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.0083,
+      "question": "43. The centre of gravity of a body is the point where:",
+      "options": [
+        "The whole weight appears to act",
+        "Mass is zero",
+        "Density is maximum",
+        "Force is zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>centre of gravity</b> is the point through which the entire weight of the body appears to act.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.1765,
+      "question": "44. A body in equilibrium under three forces has forces represented in magnitude and direction by:",
+      "options": [
+        "Three sides of a triangle taken in order",
+        "Two sides of a triangle",
+        "A circle",
+        "A square"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If three forces acting at a point are in equilibrium, they can be represented in magnitude and direction by the <b>three sides of a triangle taken in order</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.5266,
+      "question": "45. The triangle law of forces states that if three forces acting at a point are in equilibrium, they can be represented by:",
+      "options": [
+        "The sides of a triangle taken in order",
+        "The diagonals of a square",
+        "Two parallel lines",
+        "A single line"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>triangle law of forces</b> states that if three forces acting at a point are in equilibrium, they can be represented by the sides of a triangle taken in order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.2883,
+      "question": "46. The polygon law of forces is an extension of:",
+      "options": [
+        "Triangle law",
+        "Parallelogram law",
+        "Lami's theorem",
+        "Hooke's law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>polygon law of forces</b> is an extension of the <b>triangle law</b> to any number of forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.3083,
+      "question": "47. A force of 10 N acts at a point. Its equilibrant is:",
+      "options": [
+        "10 N in same direction",
+        "10 N in opposite direction",
+        "5 N in opposite direction",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equilibrant of a single force is a force of <b>equal magnitude but opposite direction</b>, i.e., 10 N in the opposite direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.796,
+      "question": "48. A body is in static equilibrium when:",
+      "options": [
+        "At rest",
+        "Moving with uniform velocity",
+        "Accelerating",
+        "Rotating"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Static equilibrium</b> means the body is at rest (velocity zero) and remains at rest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.7175,
+      "question": "49. A body is in dynamic equilibrium when:",
+      "options": [
+        "At rest",
+        "Moving with uniform velocity",
+        "Accelerating",
+        "Rotating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Dynamic equilibrium</b> means the body is moving with constant velocity (zero acceleration).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570470857.9949,
+      "question": "50. The sum of anticlockwise moments about a point for a body in equilibrium is:",
+      "options": [
+        "Greater than clockwise moments",
+        "Less than clockwise moments",
+        "Equal to clockwise moments",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a body in rotational equilibrium, the sum of anticlockwise moments equals the sum of clockwise moments about any point: <b>ΣM<sub>anticlockwise</sub> = ΣM<sub>clockwise</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
