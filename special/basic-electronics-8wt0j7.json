@@ -3,16 +3,718 @@
   "title": "Basic Electronics",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791569214093.7915,
+      "question": "In a pure semiconductor at room temperature, the number of holes is:",
+      "options": [
+        "Greater than the number of electrons",
+        "Less than the number of electrons",
+        "Equal to the number of electrons",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In an intrinsic (pure) semiconductor, thermal energy generates electron-hole pairs. Therefore, the number of holes is <b>equal to the number of electrons</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.282,
+      "question": "The energy gap of a semiconductor is typically:",
+      "options": [
+        "Less than 0.1 eV",
+        "About 1 eV",
+        "Greater than 5 eV",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Semiconductors have a small band gap, typically around <b>1 eV</b> (e.g., silicon ≈ 1.1 eV, germanium ≈ 0.67 eV).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.7937,
+      "question": "Which of the following is a trivalent impurity?",
+      "options": [
+        "Phosphorus",
+        "Arsenic",
+        "Boron",
+        "Antimony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trivalent impurities (e.g., boron, aluminium, gallium) have three valence electrons and act as acceptors. <b>Boron</b> is trivalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.9912,
+      "question": "Which of the following is a pentavalent impurity?",
+      "options": [
+        "Boron",
+        "Aluminium",
+        "Gallium",
+        "Phosphorus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pentavalent impurities (e.g., phosphorus, arsenic, antimony) have five valence electrons and act as donors. <b>Phosphorus</b> is pentavalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.473,
+      "question": "When a pentavalent impurity is added to silicon, the resulting semiconductor is:",
+      "options": [
+        "p-type",
+        "n-type",
+        "intrinsic",
+        "insulator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pentavalent impurity donates an extra electron, making electrons the majority carriers. This gives an <b>n-type</b> semiconductor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.271,
+      "question": "When a trivalent impurity is added to silicon, the majority carriers are:",
+      "options": [
+        "Electrons",
+        "Holes",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A trivalent impurity creates a hole, making holes the majority carriers in a <b>p-type</b> semiconductor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.862,
+      "question": "In an n-type semiconductor, the majority carriers are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an n-type semiconductor, the majority carriers are <b>electrons</b> donated by pentavalent impurities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.999,
+      "question": "In a p-type semiconductor, the minority carriers are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a p-type semiconductor, holes are majority and <b>electrons</b> are minority carriers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.118,
+      "question": "The depletion layer in a p-n junction is formed by:",
+      "options": [
+        "Diffusion of majority carriers",
+        "Drift of minority carriers",
+        "Recombination of electrons and holes",
+        "Both A and C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The depletion layer forms when majority carriers diffuse across the junction and recombine, leaving behind immobile ions. So both <b>diffusion of majority carriers</b> and <b>recombination</b> are involved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.7888,
+      "question": "The barrier potential of a silicon diode is approximately:",
+      "options": [
+        "0.3 V",
+        "0.7 V",
+        "1.0 V",
+        "1.5 V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a silicon diode, the barrier potential is approximately <b>0.7 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.266,
+      "question": "The barrier potential of a germanium diode is approximately:",
+      "options": [
+        "0.3 V",
+        "0.7 V",
+        "1.0 V",
+        "1.5 V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a germanium diode, the barrier potential is approximately <b>0.3 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.1428,
+      "question": "When a p-n junction is forward biased:",
+      "options": [
+        "The depletion layer widens",
+        "The depletion layer narrows",
+        "The barrier potential increases",
+        "No current flows"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forward bias reduces the barrier potential, so the depletion layer <b>narrows</b> and current flows.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.9768,
+      "question": "When a p-n junction is reverse biased:",
+      "options": [
+        "The depletion layer widens",
+        "The depletion layer narrows",
+        "The barrier potential decreases",
+        "Large current flows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reverse bias increases the barrier potential, so the depletion layer <b>widens</b> and only a small leakage current flows.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.6409,
+      "question": "In forward bias, the current through a diode is due to:",
+      "options": [
+        "Minority carriers",
+        "Majority carriers",
+        "Both majority and minority carriers",
+        "No carriers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In forward bias, the current is mainly due to <b>majority carriers</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.0967,
+      "question": "In reverse bias, the current through a diode is due to:",
+      "options": [
+        "Minority carriers",
+        "Majority carriers",
+        "Both majority and minority carriers",
+        "No carriers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In reverse bias, the small current is due to <b>minority carriers</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.8677,
+      "question": "The reverse saturation current in a diode is due to:",
+      "options": [
+        "Majority carriers",
+        "Minority carriers",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reverse saturation current is caused by the drift of <b>minority carriers</b> across the junction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.5073,
+      "question": "A diode is used as a:",
+      "options": [
+        "Amplifier",
+        "Rectifier",
+        "Oscillator",
+        "Transformer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A diode is commonly used as a <b>rectifier</b> to convert AC to DC.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.4402,
+      "question": "In a half-wave rectifier, the output frequency is:",
+      "options": [
+        "Equal to the input frequency",
+        "Twice the input frequency",
+        "Half the input frequency",
+        "Zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A half-wave rectifier conducts for only half the input cycle, so the output frequency is <b>equal to the input frequency</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.3381,
+      "question": "In a full-wave rectifier, the output frequency is:",
+      "options": [
+        "Equal to the input frequency",
+        "Twice the input frequency",
+        "Half the input frequency",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A full-wave rectifier conducts during both half-cycles, so the output frequency is <b>twice the input frequency</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.539,
+      "question": "The efficiency of a half-wave rectifier is approximately:",
+      "options": [
+        "40.6%",
+        "81.2%",
+        "100%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The maximum theoretical efficiency of a half-wave rectifier is about <b>40.6%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.986,
+      "question": "The efficiency of a full-wave rectifier is approximately:",
+      "options": [
+        "40.6%",
+        "81.2%",
+        "100%",
+        "50%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The maximum theoretical efficiency of a full-wave rectifier is about <b>81.2%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.3896,
+      "question": "A Zener diode is normally used in:",
+      "options": [
+        "Forward bias",
+        "Reverse bias",
+        "No bias",
+        "Both forward and reverse bias equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Zener diode is designed to operate in <b>reverse bias</b> in the breakdown region for voltage regulation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.0366,
+      "question": "A Zener diode is used for:",
+      "options": [
+        "Rectification",
+        "Amplification",
+        "Voltage regulation",
+        "Oscillation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A Zener diode is used for <b>voltage regulation</b> by maintaining a constant voltage across it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.4243,
+      "question": "A light emitting diode (LED) emits light when:",
+      "options": [
+        "Reverse biased",
+        "Forward biased",
+        "No bias",
+        "Heated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An LED emits light when it is <b>forward biased</b>, causing recombination of electrons and holes and release of photons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.5703,
+      "question": "A photodiode is normally:",
+      "options": [
+        "Forward biased",
+        "Reverse biased",
+        "No bias",
+        "Heated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A photodiode is operated in <b>reverse bias</b> so that light generates electron-hole pairs and increases the reverse current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.2966,
+      "question": "The transistor has how many terminals?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A transistor has <b>three</b> terminals: emitter, base, and collector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.3584,
+      "question": "The three terminals of a transistor are:",
+      "options": [
+        "Anode, cathode, gate",
+        "Emitter, base, collector",
+        "Source, drain, gate",
+        "Base, emitter, source"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three terminals of a transistor are <b>emitter, base, and collector</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.4753,
+      "question": "In an npn transistor, the majority carriers in the emitter are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an npn transistor, the emitter is n-type, so the majority carriers are <b>electrons</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.2861,
+      "question": "In a pnp transistor, the majority carriers in the emitter are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a pnp transistor, the emitter is p-type, so the majority carriers are <b>holes</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.293,
+      "question": "The base of a transistor is:",
+      "options": [
+        "Heavily doped and wide",
+        "Lightly doped and thin",
+        "Heavily doped and thin",
+        "Lightly doped and wide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base is <b>lightly doped and very thin</b> to allow most carriers to reach the collector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.2302,
+      "question": "The current gain β of a transistor is the ratio of:",
+      "options": [
+        "Collector current to base current",
+        "Collector current to emitter current",
+        "Base current to collector current",
+        "Emitter current to base current"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The current gain β (beta) is defined as the ratio of <b>collector current (I<sub>C</sub>) to base current (I<sub>B</sub>)</b>: β = I<sub>C</sub>/I<sub>B</sub>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.5422,
+      "question": "The relation between α and β is:",
+      "options": [
+        "β = α / (1 − α)",
+        "β = α / (1 + α)",
+        "β = (1 − α) / α",
+        "β = 1 + α"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The relation is <b>β = α / (1 − α)</b>, where α = I<sub>C</sub>/I<sub>E</sub>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.1492,
+      "question": "If α = 0.98, then β is approximately:",
+      "options": [
+        "49",
+        "98",
+        "50",
+        "100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "β = α/(1 − α) = 0.98/(1 − 0.98) = 0.98/0.02 = <b>49</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.629,
+      "question": "A transistor can be used as:",
+      "options": [
+        "Amplifier",
+        "Switch",
+        "Oscillator",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A transistor can be used as an <b>amplifier, switch, and oscillator</b>. So all of the above.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.527,
+      "question": "In a common-emitter amplifier, the output is:",
+      "options": [
+        "In phase with the input",
+        "180° out of phase with the input",
+        "90° out of phase with the input",
+        "0° phase shift"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a common-emitter amplifier, the output voltage is <b>180° out of phase</b> with the input.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.77,
+      "question": "The logic gate that gives output 1 only when all inputs are 1 is:",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "NOR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>AND</b> gate outputs 1 only when all inputs are 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.0112,
+      "question": "The logic gate that gives output 1 when at least one input is 1 is:",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>OR</b> gate outputs 1 when at least one input is 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.626,
+      "question": "The NOT gate is also called:",
+      "options": [
+        "Buffer",
+        "Inverter",
+        "Amplifier",
+        "Rectifier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The NOT gate is also called an <b>inverter</b> because it inverts the input.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.015,
+      "question": "The output of a NAND gate is 0 when:",
+      "options": [
+        "All inputs are 0",
+        "All inputs are 1",
+        "Any input is 0",
+        "Any input is 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A NAND gate is an AND gate followed by NOT, so its output is 0 only when <b>all inputs are 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.429,
+      "question": "The output of a NOR gate is 1 when:",
+      "options": [
+        "All inputs are 0",
+        "All inputs are 1",
+        "Any input is 0",
+        "Any input is 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A NOR gate is an OR gate followed by NOT, so its output is 1 only when <b>all inputs are 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.1921,
+      "question": "The XOR gate gives output 1 when:",
+      "options": [
+        "Inputs are equal",
+        "Inputs are different",
+        "Both inputs are 0",
+        "Both inputs are 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The XOR (exclusive OR) gate outputs 1 when the <b>inputs are different</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.5916,
+      "question": "De Morgan's first theorem states that:",
+      "options": [
+        "(A + B)' = A' · B'",
+        "(A · B)' = A' + B'",
+        "A + B = A · B",
+        "A · B = A + B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "De Morgan's first theorem: <b>(A + B)' = A' · B'</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.893,
+      "question": "De Morgan's second theorem states that:",
+      "options": [
+        "(A + B)' = A' · B'",
+        "(A · B)' = A' + B'",
+        "A + B = A · B",
+        "A · B = A + B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "De Morgan's second theorem: <b>(A · B)' = A' + B'</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.7217,
+      "question": "The binary equivalent of decimal 10 is:",
+      "options": [
+        "1010",
+        "1100",
+        "1001",
+        "1110"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Decimal 10 = 8 + 2 = 2<sup>3</sup> + 2<sup>1</sup> = <b>1010</b> in binary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214093.1863,
+      "question": "The decimal equivalent of binary 1101 is:",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Binary 1101 = 1×2<sup>3</sup> + 1×2<sup>2</sup> + 0×2<sup>1</sup> + 1×2<sup>0</sup> = 8 + 4 + 0 + 1 = <b>13</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214094.6707,
+      "question": "An integrated circuit (IC) is:",
+      "options": [
+        "A single transistor",
+        "A complete circuit on a small chip",
+        "A large circuit on a board",
+        "A type of diode"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An integrated circuit is a <b>complete circuit on a small chip</b> made of semiconductor material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214094.146,
+      "question": "The number of pins in a standard 7400 series IC is typically:",
+      "options": [
+        "8",
+        "14",
+        "16",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard 7400 series IC typically has <b>14 pins</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214094.0017,
+      "question": "A semiconductor device that amplifies signals is the:",
+      "options": [
+        "Diode",
+        "Transistor",
+        "Resistor",
+        "Capacitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>transistor</b> is a semiconductor device used for amplification and switching.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214094.9202,
+      "question": "The most commonly used semiconductor material is:",
+      "options": [
+        "Germanium",
+        "Silicon",
+        "Carbon",
+        "Copper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Silicon</b> is the most commonly used semiconductor material due to its abundance and suitable properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569214094.0896,
+      "question": "The process of adding impurities to a pure semiconductor is called:",
+      "options": [
+        "Diffusion",
+        "Doping",
+        "Deposition",
+        "Etching"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Doping</b> is the process of adding controlled impurities to a pure semiconductor to modify its electrical properties.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
