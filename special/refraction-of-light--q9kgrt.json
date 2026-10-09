@@ -3,16 +3,718 @@
   "title": "Refraction of Light Waves",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563212616.0952,
+      "question": "The bending of light as it passes from one medium to another is called",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Dispersion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refraction is the change in direction of light as it passes from one medium to another due to a change in its speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4565,
+      "question": "The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant. This is known as",
+      "options": [
+        "Newton's law",
+        "Snell's law",
+        "Huygens' principle",
+        "Fermat's principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Snell's law states that for a given pair of media, sin i / sin r = constant = n, where n is the refractive index.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.79,
+      "question": "The incident ray, the refracted ray and the normal at the point of incidence all lie in the",
+      "options": [
+        "Same straight line",
+        "Same plane",
+        "Same curved surface",
+        "Different planes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The incident ray, refracted ray, and normal at the point of incidence all lie in the same plane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.6616,
+      "question": "When light travels from a less dense medium to a denser medium, it bends",
+      "options": [
+        "Away from the normal",
+        "Towards the normal",
+        "Along the normal",
+        "Parallel to the surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When light enters a denser medium, its speed decreases and it bends towards the normal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.6033,
+      "question": "When light travels from a denser medium to a less dense medium, it bends",
+      "options": [
+        "Away from the normal",
+        "Towards the normal",
+        "Along the normal",
+        "Parallel to the surface"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When light enters a less dense medium, its speed increases and it bends away from the normal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4336,
+      "question": "The refractive index of a medium is defined as the ratio of the speed of light in",
+      "options": [
+        "The medium to the speed of light in vacuum",
+        "Vacuum to the speed of light in the medium",
+        "The medium to the speed of sound in the medium",
+        "Vacuum to the speed of sound in vacuum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refractive index n = speed of light in vacuum / speed of light in the medium = c / v.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.368,
+      "question": "The refractive index of a medium with respect to air is given by",
+      "options": [
+        "n = sin r / sin i",
+        "n = sin i / sin r",
+        "n = sin i × sin r",
+        "n = cos i / cos r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Snell's law, n = sin i / sin r, where i is the angle of incidence in air and r is the angle of refraction in the medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.7598,
+      "question": "If the speed of light in air is 3.0 × 10<sup>8</sup>ms<sup>-1</sup> and in glass is 2.0 × 10<sup>8</sup>ms<sup>-1</sup>, the refractive index of glass is",
+      "options": [
+        "0.67",
+        "1.50",
+        "2.00",
+        "6.00"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = c / v = (3.0 × 10<sup>8</sup>) / (2.0 × 10<sup>8</sup>) = 1.50.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.6873,
+      "question": "A ray of light is incident from air to water at an angle of 30°. If the refractive index of water is 4/3, the angle of refraction is approximately",
+      "options": [
+        "15°",
+        "22°",
+        "30°",
+        "45°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = sin i / sin r ⇒ sin r = sin 30° / (4/3) = (0.5) × (3/4) = 0.375. Therefore r ≈ 22°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.8171,
+      "question": "A ray of light travels from water to glass. If the refractive index of water is 4/3 and that of glass is 3/2, the refractive index of glass with respect to water is",
+      "options": [
+        "1/2",
+        "8/9",
+        "9/8",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n<sub>glass/water</sub> = n<sub>glass</sub> / n<sub>water</sub> = (3/2) / (4/3) = (3/2) × (3/4) = 9/8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.9758,
+      "question": "The refractive index of a medium is 1.5. If the speed of light in air is 3.0 × 10<sup>8</sup>ms<sup>-1</sup>, the speed of light in the medium is",
+      "options": [
+        "1.5 × 10<sup>8</sup>ms<sup>-1</sup>",
+        "2.0 × 10<sup>8</sup>ms<sup>-1</sup>",
+        "3.0 × 10<sup>8</sup>ms<sup>-1</sup>",
+        "4.5 × 10<sup>8</sup>ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = c / v ⇒ v = c / n = (3.0 × 10<sup>8</sup>) / 1.5 = 2.0 × 10<sup>8</sup> m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4106,
+      "question": "When light passes from air to glass, which of the following remains constant?",
+      "options": [
+        "Speed",
+        "Wavelength",
+        "Frequency",
+        "Direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When light crosses a boundary, its frequency remains constant. Speed and wavelength change, and direction may change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.0886,
+      "question": "When light travels from air to glass, its wavelength",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since v = fλ and frequency is constant, a decrease in speed when entering glass causes the wavelength to decrease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.45,
+      "question": "The refractive index of a medium can be expressed in terms of wavelength as",
+      "options": [
+        "n = λ<sub>medium</sub> / λ<sub>air</sub>",
+        "n = λ<sub>air</sub> / λ<sub>medium</sub>",
+        "n = λ<sub>air</sub> × λ<sub>medium</sub>",
+        "n = λ<sub>air</sub> + λ<sub>medium</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = c / v = (fλ<sub>air</sub>) / (fλ<sub>medium</sub>) = λ<sub>air</sub> / λ<sub>medium</sub>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.0579,
+      "question": "The refractive index of a medium is never",
+      "options": [
+        "Equal to 1",
+        "Greater than 1",
+        "Less than 1",
+        "Equal to 1.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a material medium, light travels slower than in vacuum, so n = c/v > 1. It can equal 1 only for vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.1438,
+      "question": "A ray of light passes from air into a medium of refractive index 1.5. If the angle of incidence is 45°, calculate the angle of refraction.",
+      "options": [
+        "20.7°",
+        "28.1°",
+        "30.0°",
+        "45.0°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin r = sin i / n = sin 45° / 1.5 = 0.7071 / 1.5 = 0.4714. Therefore r ≈ 28.1°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.0725,
+      "question": "When a ray of light passes from air into water, the angle of refraction is 30°. If the refractive index of water is 4/3, the angle of incidence is",
+      "options": [
+        "22.6°",
+        "30.0°",
+        "41.8°",
+        "60.0°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin i = n sin r = (4/3) × sin 30° = (4/3) × 0.5 = 0.6667. Therefore i ≈ 41.8°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.1,
+      "question": "The angle of refraction in a medium is 30° when the angle of incidence in air is 60°. Calculate the refractive index of the medium.",
+      "options": [
+        "0.50",
+        "1.00",
+        "1.73",
+        "2.00"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = sin i / sin r = sin 60° / sin 30° = 0.8660 / 0.5 = 1.73.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3777,
+      "question": "A ray of light is incident on a glass surface at an angle of 60°. If the refractive index of glass is 1.5, the sine of the angle of refraction is",
+      "options": [
+        "0.33",
+        "0.58",
+        "0.67",
+        "0.87"
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin r = sin i / n = sin 60° / 1.5 = 0.8660 / 1.5 = 0.577 ≈ 0.58.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3096,
+      "question": "The velocities of light in air and glass are 3.0 × 10<sup>8</sup>ms<sup>-1</sup> and 2.0 × 10<sup>8</sup>ms<sup>-1</sup> respectively. If the angle of refraction is 30°, the sine of the angle of incidence is",
+      "options": [
+        "0.33",
+        "0.50",
+        "0.67",
+        "0.75"
+      ],
+      "correctAnswer": 3,
+      "explanation": "n = c / v = (3.0 × 10<sup>8</sup>) / (2.0 × 10<sup>8</sup>) = 1.5. sin i = n sin r = 1.5 × sin 30° = 1.5 × 0.5 = 0.75.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.898,
+      "question": "The apparent depth of an object in a liquid is 4cm when the real depth is 6cm. Calculate the refractive index of the liquid.",
+      "options": [
+        "0.67",
+        "1.00",
+        "1.50",
+        "2.00"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = real depth / apparent depth = 6 / 4 = 1.50.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.6802,
+      "question": "A pool of water appears to be 1.0m deep when viewed vertically from above. If the refractive index of water is 1.33, the real depth of the pool is",
+      "options": [
+        "0.75m",
+        "1.01m",
+        "1.33m",
+        "13.30m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n = real depth / apparent depth ⇒ real depth = n × apparent depth = 1.33 × 1.0 = 1.33 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.463,
+      "question": "A glass block of thickness 10cm is placed on an object. If the refractive index of glass is 1.5, the apparent displacement of the object is",
+      "options": [
+        "3.33cm",
+        "5.00cm",
+        "6.67cm",
+        "8.50cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Displacement d = t(1 − 1/n) = 10(1 − 1/1.5) = 10(1 − 0.6667) = 10(0.3333) = 3.33 cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.851,
+      "question": "A transparent rectangular block 5.0cm thick is placed on a black dot. The dot when viewed from above appears 3.0cm from the top of the block. Calculate the refractive index of the block.",
+      "options": [
+        "2/5",
+        "3/5",
+        "3/2",
+        "5/3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "n = real thickness / apparent thickness = 5.0 / 3.0 = 5/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.5415,
+      "question": "An object is placed below a glass block of thickness 3.0cm. If the refractive index of the glass is 1.5, the lateral displacement of the object is",
+      "options": [
+        "0.5cm",
+        "1.0cm",
+        "1.5cm",
+        "2.0cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Displacement d = t(1 − 1/n) = 3(1 − 1/1.5) = 3(1 − 0.6667) = 3(0.3333) = 1.0 cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.752,
+      "question": "A coin is placed at the bottom of a trough 12.0cm deep filled with water of refractive index 4/3. By how much does the coin appear to be displaced when viewed vertically from above?",
+      "options": [
+        "3.0cm",
+        "6.0cm",
+        "9.0cm",
+        "16.0cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Apparent depth = real depth / n = 12 / (4/3) = 9 cm. Displacement = real − apparent = 12 − 9 = 3.0 cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.8943,
+      "question": "The displacement of an object placed under a glass block is given by the expression",
+      "options": [
+        "d = t(1 + 1/n)",
+        "d = t(1 − 1/n)",
+        "d = t(n − 1)",
+        "d = tn"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apparent displacement of an object viewed through a block of thickness t and refractive index n is d = t(1 − 1/n).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.2654,
+      "question": "A fish in a pond appears to be at a depth of 1.5m when viewed vertically from above. If the refractive index of water is 1.3, the apparent displacement of the fish is",
+      "options": [
+        "0.35m",
+        "0.45m",
+        "0.75m",
+        "1.95m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Real depth = n × apparent depth = 1.3 × 1.5 = 1.95 m. Displacement = real − apparent = 1.95 − 1.5 = 0.45 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.7217,
+      "question": "When viewed straight down, a fish in a pond appears",
+      "options": [
+        "Deeper than it really is",
+        "Nearer than it really is",
+        "At exactly its real depth",
+        "Beside its image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due to refraction, the apparent depth is less than the real depth, so the fish appears nearer than it really is.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.1082,
+      "question": "A ray of light passes from glass into air. If the refractive index of glass is 1.5, the critical angle is",
+      "options": [
+        "30.0°",
+        "41.8°",
+        "48.6°",
+        "60.0°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin C = 1/n = 1/1.5 = 0.6667. Therefore C ≈ 41.8°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.068,
+      "question": "The critical angle for a medium of refractive index 2.0 is",
+      "options": [
+        "30°",
+        "42°",
+        "45°",
+        "60°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "sin C = 1/n = 1/2 = 0.5. Therefore C = 30°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.6807,
+      "question": "The critical angle for a water-air boundary, given that the refractive index of water is 1.33, is",
+      "options": [
+        "36.9°",
+        "41.3°",
+        "48.8°",
+        "51.4°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin C = 1/1.33 = 0.7519. Therefore C ≈ 48.8°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.5906,
+      "question": "The critical angle for a medium of refractive index n is given by",
+      "options": [
+        "sin C = n",
+        "sin C = 1/n",
+        "sin C = n<sup>2</sup>",
+        "sin C = 1/n<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the critical angle, the angle of refraction is 90°. Using Snell's law, n sin C = 1 sin 90° ⇒ sin C = 1/n.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3455,
+      "question": "Total internal reflection occurs when light travels from",
+      "options": [
+        "A less dense to a denser medium",
+        "A denser to a less dense medium",
+        "Air to water",
+        "Water to glass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total internal reflection can only occur when light travels from an optically denser medium to a less dense medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3723,
+      "question": "For total internal reflection to occur, the angle of incidence in the denser medium must be",
+      "options": [
+        "Less than the critical angle",
+        "Equal to the critical angle",
+        "Greater than the critical angle",
+        "Equal to 90°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the angle of incidence exceeds the critical angle, the light is totally internally reflected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.705,
+      "question": "The refractive index of a material is 1.4. The minimum internal angle for total internal reflection to take place in the medium is approximately",
+      "options": [
+        "30°",
+        "36°",
+        "46°",
+        "54°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin C = 1/1.4 = 0.7143. Therefore C ≈ 45.6° ≈ 46°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.894,
+      "question": "Total internal reflection is applied in the working of",
+      "options": [
+        "A plane mirror",
+        "An optical fibre",
+        "A concave mirror",
+        "A convex lens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Optical fibres use total internal reflection to guide light along the fibre with minimal loss.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.8074,
+      "question": "The brilliance of a diamond is due to",
+      "options": [
+        "High refractive index and total internal reflection",
+        "Low refractive index",
+        "Diffraction of light",
+        "Polarization of light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diamond has a high refractive index and a small critical angle, causing multiple total internal reflections that make it sparkle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.7869,
+      "question": "Which of the following conditions is necessary for total internal reflection?",
+      "options": [
+        "Light must travel from an optically less dense to a denser medium",
+        "The angle of incidence must be equal to the critical angle",
+        "The angle of incidence must be greater than the critical angle",
+        "The angle of refraction must be 90°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For total internal reflection, light must travel from denser to less dense medium and the angle of incidence must exceed the critical angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.521,
+      "question": "A 45° triangular glass prism can be used as a reflector of light because",
+      "options": [
+        "Refraction never takes place in such a prism",
+        "The angle of reflection equals the angle of incidence",
+        "The refractive index of glass is less than 1",
+        "The critical angle for glass is less than 45°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For glass, the critical angle is about 42°, which is less than 45°. Therefore, light incident at 45° undergoes total internal reflection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4216,
+      "question": "When a ray of light passes through a parallel-sided glass block, the emergent ray is",
+      "options": [
+        "Parallel to the incident ray",
+        "Perpendicular to the incident ray",
+        "At 45° to the incident ray",
+        "Reflected back"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a parallel-sided block, the ray undergoes refraction twice but emerges parallel to the incident ray, though laterally displaced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.5051,
+      "question": "The lateral displacement of a ray passing through a glass block depends on all of the following EXCEPT",
+      "options": [
+        "The thickness of the block",
+        "The refractive index of the block",
+        "The angle of incidence",
+        "The colour of the block"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lateral displacement depends on thickness, refractive index, and angle of incidence. The colour of the block does not directly affect it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4773,
+      "question": "A ray of light is incident at an angle of 30° on one top surface of a parallel-sided glass block of refractive index 1.5. The ray finally emerges from the lower surface. The angular deviation of the emergent ray is",
+      "options": [
+        "0°",
+        "28°",
+        "39°",
+        "60°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since the block is parallel-sided, the emergent ray is parallel to the incident ray, so the angular deviation is 0°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3042,
+      "question": "When a ray of light is incident normally on an air-glass interface, its angle of refraction is",
+      "options": [
+        "0°",
+        "42°",
+        "45°",
+        "90°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At normal incidence, the angle of incidence is 0°. By Snell's law, sin r = 0, so r = 0°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.08,
+      "question": "A ray of light which strikes a glass slab from air at normal incidence passes through the slab",
+      "options": [
+        "Undeviated and undisplaced at a lower speed",
+        "Deviated and undisplaced at a lower speed",
+        "Deviated and displaced at a lower speed",
+        "Undeviated and displaced at a faster speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At normal incidence, the ray passes straight through without deviation or lateral displacement, but its speed is lower in the glass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.444,
+      "question": "The refractive index of the medium M in the diagram is given as",
+      "options": [
+        "1/√3",
+        "2√3",
+        "√3",
+        "2/√3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From the ray diagram, applying Snell's law to the given angles gives n = sin i / sin r = √3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.4373,
+      "question": "A converging lens has a focal length of 5cm. Determine its power.",
+      "options": [
+        "+20.0",
+        "+0.2",
+        "−20.0",
+        "−0.2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power P = 1/f (in metres). f = 5 cm = 0.05 m. P = 1/0.05 = +20.0 D.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.3171,
+      "question": "When light travels from a medium of higher refractive index to one of lower refractive index, its speed",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When light enters a less dense medium (lower n), its speed increases because v = c/n.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.9585,
+      "question": "The refractive index of a medium is 1.8. The critical angle for the medium is",
+      "options": [
+        "18°",
+        "34°",
+        "45°",
+        "68°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin C = 1/n = 1/1.8 = 0.5556. Therefore C ≈ 33.7° ≈ 34°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563212616.38,
+      "question": "A ray of light is incident on a liquid surface at an angle of 45° and the angle of refraction is 30°. Calculate the refractive index of the liquid.",
+      "options": [
+        "1.20",
+        "1.41",
+        "1.50",
+        "1.73"
+      ],
+      "correctAnswer": 1,
+      "explanation": "n = sin i / sin r = sin 45° / sin 30° = 0.7071 / 0.5 = 1.414 ≈ 1.41.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
