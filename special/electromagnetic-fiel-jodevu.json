@@ -3,16 +3,718 @@
   "title": "Electromagnetic Field and A.C. Circuits",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791565261281.3157,
+      "question": "Electromagnetic induction is the process by which an e.m.f. is induced in a conductor when there is a change in the",
+      "options": [
+        "Current in the conductor",
+        "Magnetic flux linked with the conductor",
+        "Resistance of the conductor",
+        "Temperature of the conductor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Electromagnetic induction</b> is the process by which an electromotive force (e.m.f.) is induced in a conductor whenever there is a <b>change in the magnetic flux linked with the conductor</b>. This is the principle behind generators and transformers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2139,
+      "question": "Faraday's law of electromagnetic induction states that the magnitude of the induced e.m.f. is directly proportional to the",
+      "options": [
+        "Magnetic flux",
+        "Rate of change of magnetic flux",
+        "Square of the magnetic flux",
+        "Inverse of the magnetic flux"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Faraday's law</b>: the induced e.m.f. is directly proportional to the <b>rate of change of magnetic flux</b>. Mathematically, E = −N(dΦ/dt).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.9167,
+      "question": "Lenz's law states that the direction of the induced current is such as to",
+      "options": [
+        "Increase the change producing it",
+        "Oppose the change producing it",
+        "Have no effect on the change producing it",
+        "Reverse the change producing it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Lenz's law</b>: the induced current flows in such a direction as to <b>oppose the change</b> producing it. This explains the negative sign in Faraday's law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.8137,
+      "question": "Lenz's law is a consequence of the law of conservation of",
+      "options": [
+        "Charge",
+        "Momentum",
+        "Energy",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lenz's law is a direct consequence of the <b>law of conservation of energy</b>. If the induced current aided the change, energy would be created from nothing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7292,
+      "question": "The induced e.m.f. in a coil of N turns is given by",
+      "options": [
+        "E = N(dΦ/dt)",
+        "E = N(Φ/t)",
+        "E = (dΦ/dt)/N",
+        "E = NΦt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Faraday's law for a coil of N turns: <b>E = N(dΦ/dt)</b>, where dΦ/dt is the rate of change of magnetic flux.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.903,
+      "question": "The S.I. unit of magnetic flux is the",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Ampere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic flux is measured in the <b>weber (Wb)</b>. One weber is the flux that produces an e.m.f. of 1 V when it changes uniformly in 1 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1394,
+      "question": "The S.I. unit of inductance is the",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Farad"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inductance is measured in the <b>henry (H)</b>. One henry is the inductance when a current changing at 1 A/s induces an e.m.f. of 1 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.4712,
+      "question": "The self-inductance of a coil is defined as the ratio of the",
+      "options": [
+        "Magnetic flux linked to the current producing it",
+        "Current to the magnetic flux",
+        "Induced e.m.f. to the rate of change of current",
+        "Current to the induced e.m.f."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Self-inductance L is defined as the ratio of the <b>magnetic flux linkage (NΦ) to the current I producing it</b>: L = NΦ/I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.173,
+      "question": "The e.m.f. induced in a coil of self-inductance L when the current changes at a rate dI/dt is",
+      "options": [
+        "E = L(dI/dt)",
+        "E = L/(dI/dt)",
+        "E = (dI/dt)/L",
+        "E = L<sup>2</sup>(dI/dt)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The self-induced e.m.f. is <b>E = L(dI/dt)</b>, where L is the self-inductance and dI/dt is the rate of change of current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1777,
+      "question": "The energy stored in an inductor of inductance L carrying current I is",
+      "options": [
+        "LI",
+        "LI<sup>2</sup>",
+        "&frac12;LI",
+        "&frac12;LI<sup>2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The magnetic energy stored in an inductor is <b>E = &frac12;LI<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1372,
+      "question": "The energy stored in a 5mH inductor carrying a current of 4A is",
+      "options": [
+        "0.04J",
+        "0.40J",
+        "0.02J",
+        "0.20J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = &frac12;LI<sup>2</sup> = &frac12; × (5 × 10<sup>-3</sup>) × (4)<sup>2</sup> = &frac12; × 5 × 10<sup>-3</sup> × 16 = <b>0.04 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.081,
+      "question": "Mutual inductance is the property of two coils by which an e.m.f. is induced in one coil when there is a change in the",
+      "options": [
+        "Resistance of the other coil",
+        "Current in the other coil",
+        "Temperature of the other coil",
+        "Voltage of the other coil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Mutual inductance</b> is the property by which a change in the <b>current in one coil</b> induces an e.m.f. in an adjacent coil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.436,
+      "question": "The mutual inductance of two coils depends on",
+      "options": [
+        "The distance between them only",
+        "The number of turns in each coil, their relative position and the medium",
+        "Only the current in the primary coil",
+        "Only the resistance of the coils"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mutual inductance depends on the <b>number of turns in each coil, their relative position, and the permeability of the medium</b> between them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.6677,
+      "question": "A transformer works on the principle of",
+      "options": [
+        "Self-induction",
+        "Mutual induction",
+        "Electrostatic induction",
+        "Thermionic emission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A transformer works on the principle of <b>mutual induction</b> — a changing current in the primary coil induces an e.m.f. in the secondary coil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7722,
+      "question": "The ratio of the secondary voltage to the primary voltage in a transformer is equal to the ratio of the",
+      "options": [
+        "Secondary current to primary current",
+        "Primary turns to secondary turns",
+        "Secondary turns to primary turns",
+        "Primary power to secondary power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an ideal transformer: <b>V<sub>s</sub>/V<sub>p</sub> = N<sub>s</sub>/N<sub>p</sub></b>, where N is the number of turns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.4604,
+      "question": "A transformer has 4000 turns in its primary and 200 turns in its secondary. If the primary voltage is 240V, the secondary voltage is",
+      "options": [
+        "6V",
+        "12V",
+        "24V",
+        "48V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V<sub>s</sub>/V<sub>p</sub> = N<sub>s</sub>/N<sub>p</sub> ⇒ V<sub>s</sub> = 240 × (200/4000) = 240 × 0.05 = <b>12 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7454,
+      "question": "A step-up transformer has",
+      "options": [
+        "More turns in the primary than the secondary",
+        "More turns in the secondary than the primary",
+        "Equal turns in both coils",
+        "No secondary coil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>step-up</b> transformer increases voltage, so it has <b>more turns in the secondary</b> than the primary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.9355,
+      "question": "A step-down transformer has",
+      "options": [
+        "More turns in the primary than the secondary",
+        "More turns in the secondary than the primary",
+        "Equal turns in both coils",
+        "No primary coil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>step-down</b> transformer decreases voltage, so it has <b>more turns in the primary</b> than the secondary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.744,
+      "question": "Energy losses in a transformer can be reduced by",
+      "options": [
+        "Using thick copper wires for the windings",
+        "Using laminated soft iron core",
+        "Using soft iron core",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Energy losses are reduced by: (1) thick copper wires — reduces I<sup>2</sup>R losses; (2) laminated soft iron core — reduces eddy currents; (3) soft iron core — improves flux linkage. So <b>all of the above</b> are correct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.6716,
+      "question": "Eddy currents in a transformer core are reduced by",
+      "options": [
+        "Using thick solid core",
+        "Laminating the core",
+        "Using a plastic core",
+        "Increasing the current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Laminating the core</b> breaks up eddy current paths, reducing energy losses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.387,
+      "question": "In a transformer, the efficiency is given by",
+      "options": [
+        "Power output/Power input × 100%",
+        "Power input/Power output × 100%",
+        "Voltage output/Voltage input × 100%",
+        "Current output/Current input × 100%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Efficiency = (useful <b>power output / power input</b>) × 100%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.8303,
+      "question": "A transformer has a primary voltage of 240V and a secondary voltage of 12V. If the secondary current is 5A and the transformer is 100% efficient, the primary current is",
+      "options": [
+        "0.25A",
+        "2.5A",
+        "0.50A",
+        "5.0A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For 100% efficiency: V<sub>p</sub>I<sub>p</sub> = V<sub>s</sub>I<sub>s</sub> ⇒ 240 × I<sub>p</sub> = 12 × 5 = 60 ⇒ I<sub>p</sub> = 60/240 = <b>0.25 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.545,
+      "question": "The device that converts mechanical energy into electrical energy using electromagnetic induction is the",
+      "options": [
+        "Motor",
+        "Generator",
+        "Transformer",
+        "Capacitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>generator</b> converts mechanical energy into electrical energy via electromagnetic induction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.739,
+      "question": "In an a.c. generator, the e.m.f. is maximum when the plane of the coil is",
+      "options": [
+        "Parallel to the magnetic field",
+        "Perpendicular to the magnetic field",
+        "At 45° to the magnetic field",
+        "At 60° to the magnetic field"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The e.m.f. is maximum when the coil plane is <b>parallel to the field</b>, because the rate of change of flux is maximum (flux is zero).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7676,
+      "question": "In an a.c. generator, the e.m.f. is zero when the plane of the coil is",
+      "options": [
+        "Parallel to the magnetic field",
+        "Perpendicular to the magnetic field",
+        "At 45° to the magnetic field",
+        "At 60° to the magnetic field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The e.m.f. is zero when the coil plane is <b>perpendicular to the field</b>, because the flux is maximum but not changing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.6646,
+      "question": "The peak value of an alternating current is I<sub>0</sub>. The root-mean-square (r.m.s.) value is",
+      "options": [
+        "I<sub>0</sub>",
+        "I<sub>0</sub>/2",
+        "I<sub>0</sub>/√2",
+        "I<sub>0</sub>√2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The r.m.s. value of an alternating quantity is the peak value divided by √2: <b>I<sub>rms</sub> = I<sub>0</sub>/√2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2466,
+      "question": "The r.m.s. value of an alternating current is also known as the",
+      "options": [
+        "Peak value",
+        "Effective value",
+        "Average value",
+        "Maximum value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The r.m.s. value is also called the <b>effective value</b> because it produces the same heating effect as a direct current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.3474,
+      "question": "An alternating current has a peak value of 10A. Its r.m.s. value is approximately",
+      "options": [
+        "5.0A",
+        "7.07A",
+        "10.0A",
+        "14.14A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "I<sub>rms</sub> = I<sub>0</sub>/√2 = 10/1.414 = <b>7.07 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.073,
+      "question": "The r.m.s. value of an a.c. voltage of peak value 311V is approximately",
+      "options": [
+        "155V",
+        "220V",
+        "311V",
+        "440V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V<sub>rms</sub> = V<sub>0</sub>/√2 = 311/1.414 = <b>220 V</b> (the standard mains voltage).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7163,
+      "question": "In a purely resistive a.c. circuit, the current and voltage are",
+      "options": [
+        "In phase",
+        "90° out of phase",
+        "180° out of phase",
+        "45° out of phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a purely resistive circuit, current and voltage are <b>in phase</b> (phase difference = 0°).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1797,
+      "question": "In a purely inductive a.c. circuit, the current",
+      "options": [
+        "Leads the voltage by 90°",
+        "Lags the voltage by 90°",
+        "Is in phase with the voltage",
+        "Leads the voltage by 180°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a purely inductive circuit, current <b>lags</b> the voltage by 90°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2065,
+      "question": "In a purely capacitive a.c. circuit, the current",
+      "options": [
+        "Leads the voltage by 90°",
+        "Lags the voltage by 90°",
+        "Is in phase with the voltage",
+        "Lags the voltage by 180°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a purely capacitive circuit, current <b>leads</b> the voltage by 90°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.4617,
+      "question": "The inductive reactance of a coil is given by",
+      "options": [
+        "X<sub>L</sub> = 2πfL",
+        "X<sub>L</sub> = 1/(2πfL)",
+        "X<sub>L</sub> = 2πL/f",
+        "X<sub>L</sub> = fL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inductive reactance is <b>X<sub>L</sub> = 2πfL</b>, where f is frequency and L is inductance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2954,
+      "question": "The capacitive reactance of a capacitor is given by",
+      "options": [
+        "X<sub>C</sub> = 2πfC",
+        "X<sub>C</sub> = 1/(2πfC)",
+        "X<sub>C</sub> = 2πC/f",
+        "X<sub>C</sub> = fC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Capacitive reactance is <b>X<sub>C</sub> = 1/(2πfC)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.6873,
+      "question": "The S.I. unit of reactance is the",
+      "options": [
+        "Farad",
+        "Henry",
+        "Ohm",
+        "Volt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactance, like resistance, is measured in <b>ohms (Ω)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.936,
+      "question": "A coil of inductance 0.5H is connected to a 50Hz supply. Calculate its inductive reactance. [π = 3.14]",
+      "options": [
+        "157Ω",
+        "78.5Ω",
+        "31.4Ω",
+        "314Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "X<sub>L</sub> = 2πfL = 2 × 3.14 × 50 × 0.5 = <b>157 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.5625,
+      "question": "A capacitor of capacitance 10μF is connected to a 50Hz supply. Calculate its capacitive reactance. [π = 3.14]",
+      "options": [
+        "159Ω",
+        "318Ω",
+        "79.5Ω",
+        "31.8Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "X<sub>C</sub> = 1/(2πfC) = 1/(2 × 3.14 × 50 × 10 × 10<sup>-6</sup>) = 1/0.00314 = <b>318 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7537,
+      "question": "The impedance of a series R-L-C circuit is given by",
+      "options": [
+        "Z = R + X<sub>L</sub> + X<sub>C</sub>",
+        "Z = R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>",
+        "Z = √(R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>)",
+        "Z = R − X<sub>L</sub> − X<sub>C</sub>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Impedance of a series RLC circuit is <b>Z = √(R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.8032,
+      "question": "A series circuit has a resistance of 4Ω and an inductive reactance of 3Ω. Calculate the impedance.",
+      "options": [
+        "1Ω",
+        "5Ω",
+        "7Ω",
+        "25Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Z = √(R<sup>2</sup> + X<sub>L</sub><sup>2</sup>) = √(4<sup>2</sup> + 3<sup>2</sup>) = √(16 + 9) = √25 = <b>5 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2998,
+      "question": "Resonance occurs in a series R-L-C circuit when",
+      "options": [
+        "X<sub>L</sub> = 0",
+        "X<sub>C</sub> = 0",
+        "X<sub>L</sub> = X<sub>C</sub>",
+        "R = X<sub>L</sub>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Resonance</b> occurs when inductive reactance equals capacitive reactance: <b>X<sub>L</sub> = X<sub>C</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.096,
+      "question": "At resonance in a series R-L-C circuit, the impedance is",
+      "options": [
+        "Maximum",
+        "Minimum and equal to R",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At resonance, X<sub>L</sub> − X<sub>C</sub> = 0, so Z = R. Impedance is <b>minimum and equal to R</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.7126,
+      "question": "At resonance in a series R-L-C circuit, the current is",
+      "options": [
+        "Zero",
+        "Minimum",
+        "Maximum",
+        "Infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since impedance is minimum (= R) at resonance, the current is <b>maximum</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1482,
+      "question": "The resonant frequency of a series R-L-C circuit is given by",
+      "options": [
+        "f = 2π√(LC)",
+        "f = 1/(2π√(LC))",
+        "f = 1/(2πLC)",
+        "f = 2πLC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resonant frequency: <b>f<sub>r</sub> = 1/(2π√(LC))</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.9937,
+      "question": "At resonance in an a.c. circuit, the phase angle between current and voltage is",
+      "options": [
+        "90°",
+        "60°",
+        "0°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At resonance, the circuit behaves as purely resistive, so the phase angle is <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.1326,
+      "question": "The power factor of an a.c. circuit is given by",
+      "options": [
+        "sinφ",
+        "tanφ",
+        "cosφ",
+        "cotφ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The power factor is <b>cosφ</b>, where φ is the phase angle between current and voltage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.5176,
+      "question": "In a purely inductive or purely capacitive a.c. circuit, the power factor is",
+      "options": [
+        "1",
+        "0",
+        "0.5",
+        "0.707"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In purely inductive or capacitive circuits, φ = 90°, so cosφ = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.6353,
+      "question": "The average power consumed in a purely resistive a.c. circuit is given by",
+      "options": [
+        "I<sub>rms</sub>V<sub>rms</sub>",
+        "I<sub>rms</sub><sup>2</sup>R",
+        "Both A and B",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Average power in a resistive circuit: P = I<sub>rms</sub>V<sub>rms</sub> = I<sub>rms</sub><sup>2</sup>R. So <b>both A and B</b> are correct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.2195,
+      "question": "An a.c. circuit has a resistance of 8Ω, an inductive reactance of 16Ω and a capacitive reactance of 10Ω. The impedance is",
+      "options": [
+        "10Ω",
+        "14Ω",
+        "8Ω",
+        "34Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Z = √(R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>) = √(8<sup>2</sup> + (16 − 10)<sup>2</sup>) = √(64 + 36) = √100 = <b>10 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.366,
+      "question": "In a series R-L-C circuit at resonance, the voltage across the inductor and the capacitor are",
+      "options": [
+        "Equal in magnitude and opposite in phase",
+        "Equal in magnitude and in phase",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At resonance, V<sub>L</sub> and V<sub>C</sub> are <b>equal in magnitude and opposite in phase</b>, so they cancel each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565261281.5088,
+      "question": "A coil of inductance 4H and a capacitor of capacitance 2μF are connected in series. Calculate the resonant frequency. [π = 3.14]",
+      "options": [
+        "56.2Hz",
+        "112.5Hz",
+        "225.0Hz",
+        "31.8Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f<sub>r</sub> = 1/(2π√(LC)) = 1/(2 × 3.14 × √(4 × 2 × 10<sup>-6</sup>)) = 1/(6.28 × 2.83 × 10<sup>-3</sup>) = 1/0.01778 ≈ <b>56.2 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
