@@ -3,16 +3,718 @@
   "title": "GST 202 ( UNN ) : CHAPTER SIX",
   "subject": "GST 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791570544841.0579,
+      "question": "According to Khadka et al, health seeking refers to what?",
+      "options": [
+        "Actions for remedies",
+        "Building hospitals",
+        "Training doctors",
+        "Making health laws"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Health seeking refers to any action taken by individuals to seek remedies for their health-related problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.1257,
+      "question": "The relationship between health and conflict is described as what?",
+      "options": [
+        "One-way",
+        "Bidirectional",
+        "Linear",
+        "Static"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship between health and conflict is bidirectional.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.3103,
+      "question": "In what year did WHO define health as complete physical, mental, and social well-being?",
+      "options": [
+        "1940",
+        "1946",
+        "1950",
+        "1956"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 1946, the WHO defined health as a state of complete physical, mental, and social well-being.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.932,
+      "question": "The word health was derived from which old English word?",
+      "options": [
+        "Hoelth",
+        "Helth",
+        "Hal",
+        "Heal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dolfman explained that health was derived from the old English word hoelth, which meant a state of being sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.7178,
+      "question": "According to Parsons, health is the state of optimum capacity for what?",
+      "options": [
+        "Economic production",
+        "Political participation",
+        "Effective performance",
+        "Social dominance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parsons defined health as the state of optimum capacity of an individual for the effective performance of roles and tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.3215,
+      "question": "According to Bircher, health is characterized by physical and what type of potential?",
+      "options": [
+        "Social",
+        "Economic",
+        "Mental",
+        "Political"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bircher defines health as a dynamic state of well-being characterized by a physical and mental potential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.331,
+      "question": "According to Huber et al, health is the ability to adapt and what else?",
+      "options": [
+        "Self-manage",
+        "Self-destruct",
+        "Self-isolate",
+        "Self-promote"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Huber et al. define health as the ability to adapt and self-manage in the face of social, physical, and emotional challenges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.718,
+      "question": "Which model defines health as the absence of disease or disability?",
+      "options": [
+        "Wellness model",
+        "Environmental model",
+        "WHO model",
+        "Medical model"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The medical model defines health as the absence of disease or disability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.4607,
+      "question": "Which model defines health with regards to health promotion and higher functioning?",
+      "options": [
+        "Wellness model",
+        "Medical model",
+        "Environmental model",
+        "WHO model"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The wellness model defines health with regards to health promotion and progress toward higher functioning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544841.6008,
+      "question": "According to Boorse, disease is a type of internal state that does what?",
+      "options": [
+        "Improves health",
+        "Impairs health",
+        "Maintains health",
+        "Protects health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boorse defined disease as a type of internal state which impairs health by reducing one or more functional abilities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.0127,
+      "question": "According to Boorse, disease accounts for human suffering by inflicting what?",
+      "options": [
+        "Joy and comfort",
+        "Pain and discomfort",
+        "Peace and harmony",
+        "Wealth and health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Disease accounts for human suffering by inflicting pain and discomfort which are sometimes unbearable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.7195,
+      "question": "Which of the following is NOT termed a disease according to Boorse?",
+      "options": [
+        "Teething",
+        "Poliomyelitis",
+        "Hypertension",
+        "Diabetes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some pains and discomforts which cannot be termed as disease include teething, menstruation, and childbirth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.7405,
+      "question": "According to Parsons, illness is when an individual consciously feels what?",
+      "options": [
+        "Healthy",
+        "Unhealthy",
+        "Powerful",
+        "Wealthy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Illness is a situation when an individual consciously feels that they are unhealthy as a result of pain and discomfort.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.4534,
+      "question": "According to Amzat and Razum, illness is a manifestation of what?",
+      "options": [
+        "A diseased condition",
+        "A healthy state",
+        "A political problem",
+        "An economic issue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amzat and Razum describe illness as a manifestation of a diseased condition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.0815,
+      "question": "Public goods have two main characteristics which are non-excludable and what?",
+      "options": [
+        "Non-rivalrous",
+        "Non-essential",
+        "Non-accessible",
+        "Non-beneficial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Public goods are non-excludable and non-rivalrous.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.5771,
+      "question": "Non-excludability implies that no single individual can be what?",
+      "options": [
+        "Included in consumption",
+        "Excluded from consuming",
+        "Charged for consumption",
+        "Benefited from consumption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non-excludability implies that no single individual can be excluded from consuming the goods after they have been provided.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.1936,
+      "question": "Siting a healthcare facility generates conflicts when there are contestations over what?",
+      "options": [
+        "Staffing levels",
+        "Equipment types",
+        "Location",
+        "Operating hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Siting a healthcare facility generates conflicts when there are contestations over where such facility should be located.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.8909,
+      "question": "According to studies, what is a major determinant of health facilities utilization?",
+      "options": [
+        "Staff attitude",
+        "Building design",
+        "Distance travelled",
+        "Operating hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Studies have shown that distance travelled is a major determinant of health facilities utilization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.94,
+      "question": "The four principles of ethics in healthcare provision include patient autonomy, beneficence, nonmaleficence, and what?",
+      "options": [
+        "Social justice",
+        "Economic profit",
+        "Political power",
+        "Cultural dominance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The four principles of ethics are patient autonomy, beneficence, nonmaleficence, and social justice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.0325,
+      "question": "In what year did Nigeria experience a polio vaccination boycott?",
+      "options": [
+        "2000",
+        "2003",
+        "2005",
+        "2007"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The polio vaccination initiative suffered a setback in Nigeria in 2003 when members of the Hausa-Fulani ethnic group staged a boycott.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.3423,
+      "question": "Which religious group is known for aversion to blood transfusion?",
+      "options": [
+        "Jehovah's Witnesses",
+        "Catholics",
+        "Protestants",
+        "Muslims"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Members of the Jehovah's Witnesses religious group are renowned for their aversion to blood transfusion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.5142,
+      "question": "According to Baker and Moore, healthcare delivery conflicts involve disagreements within what?",
+      "options": [
+        "Political systems",
+        "Healthcare systems",
+        "Economic systems",
+        "Educational systems"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Healthcare delivery conflicts refer to disagreements that occur within the healthcare systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.888,
+      "question": "Inter-professional conflict arises between different healthcare professionals due to differences in what?",
+      "options": [
+        "Roles and training",
+        "Salaries and benefits",
+        "Religion and culture",
+        "Age and gender"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inter-professional conflict can arise due to differences in roles, responsibilities, professional training, and communication styles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.4915,
+      "question": "Patient-provider conflict occurs between patients and healthcare providers often due to what?",
+      "options": [
+        "Treatment costs",
+        "Communication issues",
+        "Hospital location",
+        "Staffing levels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Patient-provider conflict occurs often due to misunderstandings, communication issues or differences in expectations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.9111,
+      "question": "Institutional conflicts arise within or between healthcare institutions often related to what?",
+      "options": [
+        "Patient preferences",
+        "Resource allocation",
+        "Cultural practices",
+        "Religious beliefs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Institutional conflicts arise within or between healthcare institutions often related to policies, resource allocation, organizational priorities or staffing issues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.3567,
+      "question": "Systemic conflicts occur at the level of what?",
+      "options": [
+        "Individual patients",
+        "Healthcare systems",
+        "Hospital departments",
+        "Medical teams"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Systemic conflicts are larger-scale conflicts that occur at the level of healthcare systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.0942,
+      "question": "Power dynamics emanating from what structures in healthcare organizations create power imbalances?",
+      "options": [
+        "Hierarchical structures",
+        "Flat structures",
+        "Democratic structures",
+        "Informal structures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power dynamics emanating from hierarchical structures in healthcare organizations can create power imbalances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.5623,
+      "question": "Conflicts can lead to fragmented care, delayed interventions, and what else?",
+      "options": [
+        "Inconsistent treatment",
+        "Improved outcomes",
+        "Better communication",
+        "Enhanced teamwork"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conflicts can lead to fragmented care, delayed interventions, and inconsistent treatment plans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.105,
+      "question": "Direct impacts of conflict on health include physical injuries such as gunshot wounds, shrapnel injuries, and what else?",
+      "options": [
+        "Burns",
+        "Diabetes",
+        "Hypertension",
+        "Asthma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Direct impacts include physical injuries such as gunshot wounds, shrapnel injuries, and burns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.3289,
+      "question": "Waterborne illnesses common in refugee camps include cholera and what else?",
+      "options": [
+        "Malaria",
+        "Dysentery",
+        "Tuberculosis",
+        "Measles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Waterborne illnesses such as cholera and dysentery are common due to unsafe drinking water and inadequate waste disposal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.3066,
+      "question": "Survivors of conflict often experience what mental health condition?",
+      "options": [
+        "Post-traumatic stress disorder",
+        "Enhanced well-being",
+        "Improved resilience",
+        "Greater happiness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Survivors of conflict often experience post-traumatic stress disorder, anxiety, and depression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.9578,
+      "question": "Food insecurity caused by disrupted supply chains leads to what?",
+      "options": [
+        "Malnutrition",
+        "Obesity",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Food insecurity leads to malnutrition, particularly among children and pregnant women.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.257,
+      "question": "Conflict-induced migration forces millions of people to flee their homes in search of what?",
+      "options": [
+        "Wealth",
+        "Safety",
+        "Education",
+        "Employment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conflict-induced migration forces millions of people to flee their homes in search of safety.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.1123,
+      "question": "What is a critical first step in addressing health in conflict zones?",
+      "options": [
+        "Emergency medical care",
+        "Political negotiation",
+        "Economic development",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Emergency medical care is a critical first step, focusing on treating trauma, managing infections, and stabilizing patients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.199,
+      "question": "Which organization specializes in emergency medical care?",
+      "options": [
+        "UNICEF",
+        "WHO",
+        "MSF",
+        "UNFPA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Médecins Sans Frontières specializes in emergency medical care.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.1384,
+      "question": "Which organization delivers healthcare in war zones and advocates for protection of medical personnel?",
+      "options": [
+        "ICRC",
+        "UNICEF",
+        "UNFPA",
+        "UNDP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The International Committee of the Red Cross delivers healthcare in war zones and advocates for the protection of medical personnel.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.1064,
+      "question": "One of the most significant barriers to healthcare delivery during war is what?",
+      "options": [
+        "Destruction of hospitals",
+        "Too many doctors",
+        "Excess supplies",
+        "Strong infrastructure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One of the most significant barriers is the destruction of hospitals and clinics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.4211,
+      "question": "Stigma surrounding mental health or sexual violence may prevent individuals from doing what?",
+      "options": [
+        "Seeking help",
+        "Helping others",
+        "Working hard",
+        "Paying taxes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stigma surrounding mental health or sexual violence may prevent individuals from seeking help.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.8796,
+      "question": "Emergency medical care in war situations includes surgery, treatment of burns, and what else?",
+      "options": [
+        "Rehabilitation services",
+        "Political advocacy",
+        "Economic planning",
+        "Cultural programs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Emergency care includes surgery for severe injuries, treatment of burns, and rehabilitation services for amputees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.074,
+      "question": "Which programs help prevent the spread of waterborne diseases in conflict settings?",
+      "options": [
+        "WASH programs",
+        "Educational programs",
+        "Political programs",
+        "Economic programs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water, sanitation, and hygiene programs help prevent the spread of waterborne diseases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.2131,
+      "question": "What reduces the risk of malaria in conflict settings?",
+      "options": [
+        "Insecticide-treated bed nets",
+        "Vaccination campaigns",
+        "Nutritional programs",
+        "Mental health services"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector control measures such as insecticide-treated bed nets reduce the risk of malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.1394,
+      "question": "What programs promote breastfeeding and complementary feeding practices?",
+      "options": [
+        "IYCF programs",
+        "WASH programs",
+        "Emergency programs",
+        "Political programs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Infant and young child feeding programs promote breastfeeding and complementary feeding practices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.56,
+      "question": "Reproductive health services in camps include access to contraceptives, emergency obstetric care, and what else?",
+      "options": [
+        "Post-rape treatment",
+        "Political education",
+        "Economic support",
+        "Cultural activities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reproductive health services include access to contraceptives, emergency obstetric care, and post-rape treatment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.9714,
+      "question": "What type of support is increasingly recognized as vital in war zones?",
+      "options": [
+        "Mental health support",
+        "Political support",
+        "Economic support",
+        "Cultural support"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mental health services are increasingly recognized as vital in war zones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.479,
+      "question": "Severely malnourished children are treated with what?",
+      "options": [
+        "RUTF",
+        "WASH",
+        "IYCF",
+        "MSF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Severely malnourished children are treated with ready-to-use therapeutic foods.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.9592,
+      "question": "Training camp residents as community health workers helps do what?",
+      "options": [
+        "Extend healthcare reach",
+        "Increase conflict",
+        "Reduce funding",
+        "Limit services"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Training camp residents as community health workers helps extend the reach of healthcare services.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.4575,
+      "question": "Which organization coordinates public health efforts during conflicts?",
+      "options": [
+        "WHO",
+        "MSF",
+        "ICRC",
+        "UNFPA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The World Health Organization coordinates public health efforts, provides medical supplies, and advises on rebuilding health systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.9539,
+      "question": "Which approach addresses both acute and chronic malnutrition?",
+      "options": [
+        "Nutritional programs",
+        "Political programs",
+        "Economic programs",
+        "Cultural programs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nutritional programs address both acute and chronic malnutrition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.601,
+      "question": "Continuity of care for chronic conditions such as diabetes and hypertension is often what in emergencies?",
+      "options": [
+        "Overlooked",
+        "Prioritized",
+        "Enhanced",
+        "Improved"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Continuity of care for chronic conditions is often overlooked in emergencies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570544842.4832,
+      "question": "Collaboration between international organizations, local governments, and NGOs ensures what?",
+      "options": [
+        "Effective healthcare delivery",
+        "Political stability",
+        "Economic growth",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collaboration between international organizations, local governments, and NGOs ensures effective healthcare delivery.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
