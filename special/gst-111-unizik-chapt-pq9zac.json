@@ -3,16 +3,718 @@
   "title": "GST 111 (UNIZIK): CHAPTER 1 — Vowels and Consonants (Fricatives and Palatoalveolars)",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791567456935.0422,
+      "question": "How many vowel sounds are there in English?",
+      "options": [
+        "5",
+        "12",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "English has 20 vowel sounds, made up of 12 pure vowels and 8 diphthongs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456935.45,
+      "question": "How many pure vowels (monophthongs) are there in English?",
+      "options": [
+        "5",
+        "8",
+        "12",
+        "20"
+      ],
+      "correctAnswer": 2,
+      "explanation": "English has 12 pure vowels, also called monophthongs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.4712,
+      "question": "How many diphthongs are there in English?",
+      "options": [
+        "5",
+        "8",
+        "12",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "English has 8 diphthongs, which involve a glide from one vowel to another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.522,
+      "question": "All vowel sounds in English are:",
+      "options": [
+        "Voiceless",
+        "Voiced",
+        "Partially voiced",
+        "None of the above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All English vowel sounds are voiced because the vocal cords vibrate during their production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.7703,
+      "question": "Pure vowels are subdivided into:",
+      "options": [
+        "Short and long vowels",
+        "Diphthongs and triphthongs",
+        "Voiced and voiceless",
+        "Open and closed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pure vowels are divided into short vowels and long vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.5615,
+      "question": "How many short vowels are there in English?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "English has 7 short vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.559,
+      "question": "How many long vowels are there in English?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "English has 5 long vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1873,
+      "question": "Which of the following is a long vowel?",
+      "options": [
+        "/i/",
+        "/e/",
+        "/i:/",
+        "/æ/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/i:/ is a long vowel, while the others are short vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.0435,
+      "question": "Which of the following is a short vowel?",
+      "options": [
+        "/i:/",
+        "/u:/",
+        "/ʊ/",
+        "/ɔ:/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/ʊ/ is a short vowel, while the others are long vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.3853,
+      "question": "Which vowel is found in \"sit\", \"women\", \"city\", \"pity\"?",
+      "options": [
+        "/i:/",
+        "/i/",
+        "/e/",
+        "/æ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words sit, women, city, and pity contain the short vowel /i/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.2642,
+      "question": "Which vowel is found in \"peak\", \"feel\", \"seat\", \"team\"?",
+      "options": [
+        "/i/",
+        "/i:/",
+        "/e/",
+        "/æ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words peak, feel, seat, and team contain the long vowel /i:/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1028,
+      "question": "The vowel /e/ is found in all EXCEPT:",
+      "options": [
+        "bed",
+        "bread",
+        "sit",
+        "head"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sit contains /i/, not /e/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.129,
+      "question": "Which vowel is found in \"man\", \"fat\", \"black\", \"cap\"?",
+      "options": [
+        "/e/",
+        "/æ/",
+        "/a:/",
+        "/ʌ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words man, fat, black, and cap contain the vowel /æ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.9854,
+      "question": "Which vowel is found in \"far\", \"arm\", \"fast\", \"heart\"?",
+      "options": [
+        "/æ/",
+        "/a:/",
+        "/ɒ/",
+        "/ɔ:/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words far, arm, fast, and heart contain the long vowel /a:/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.5127,
+      "question": "Which vowel is found in \"pot\", \"want\", \"hop\", \"hot\"?",
+      "options": [
+        "/ɒ/",
+        "/ɔ:/",
+        "/ʌ/",
+        "/a:/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The words pot, want, hop, and hot contain the short vowel /ɒ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.2327,
+      "question": "Which vowel is found in \"lord\", \"cork\", \"port\", \"sword\"?",
+      "options": [
+        "/ɒ/",
+        "/ɔ:/",
+        "/ʌ/",
+        "/ə/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words lord, cork, port, and sword contain the long vowel /ɔ:/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.09,
+      "question": "Which vowel is found in \"foot\", \"good\", \"bull\", \"look\"?",
+      "options": [
+        "/u:/",
+        "/ʊ/",
+        "/ʌ/",
+        "/ɔ:/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words foot, good, bull, and look contain the short vowel /ʊ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.5454,
+      "question": "Which vowel is found in \"fool\", \"pool\", \"shoe\", \"soup\"?",
+      "options": [
+        "/ʊ/",
+        "/u:/",
+        "/ʌ/",
+        "/ə/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words fool, pool, shoe, and soup contain the long vowel /u:/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1162,
+      "question": "Which vowel is found in \"come\", \"oven\", \"money\", \"cup\"?",
+      "options": [
+        "/ɒ/",
+        "/ʌ/",
+        "/ɔ:/",
+        "/ə/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words come, oven, money, and cup contain the vowel /ʌ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.8118,
+      "question": "Which vowel is found in \"mercy\", \"her\", \"serve\", \"girl\"?",
+      "options": [
+        "/ə/",
+        "/ɜ:/",
+        "/e/",
+        "/ʌ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words mercy, her, serve, and girl contain the long vowel /ɜ:/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.3557,
+      "question": "The schwa sound /ə/ is found in all EXCEPT:",
+      "options": [
+        "again",
+        "about",
+        "teacher",
+        "bed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bed contains /e/, not the schwa sound /ə/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1506,
+      "question": "Which diphthong is found in \"day\", \"face\", \"way\", \"rain\"?",
+      "options": [
+        "/ai/",
+        "/ei/",
+        "/ɔi/",
+        "/au/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words day, face, way, and rain contain the diphthong /ei/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.295,
+      "question": "Which diphthong is found in \"go\", \"low\", \"soul\", \"home\"?",
+      "options": [
+        "/au/",
+        "/əu/",
+        "/ei/",
+        "/ɔi/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words go, low, soul, and home contain the diphthong /əu/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.6514,
+      "question": "Which diphthong is found in \"eye\", \"island\", \"kite\", \"time\"?",
+      "options": [
+        "/ei/",
+        "/ai/",
+        "/ɔi/",
+        "/au/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words eye, island, kite, and time contain the diphthong /ai/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.0256,
+      "question": "Which diphthong is found in \"cow\", \"how\", \"loud\", \"house\"?",
+      "options": [
+        "/ai/",
+        "/au/",
+        "/əu/",
+        "/ɔi/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words cow, how, loud, and house contain the diphthong /au/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.9336,
+      "question": "Which diphthong is found in \"boy\", \"toy\", \"oil\", \"choice\"?",
+      "options": [
+        "/ai/",
+        "/au/",
+        "/ɔi/",
+        "/iə/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The words boy, toy, oil, and choice contain the diphthong /ɔi/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.0715,
+      "question": "Which diphthong is found in \"hear\", \"beer\", \"fear\", \"cheer\"?",
+      "options": [
+        "/eə/",
+        "/iə/",
+        "/uə/",
+        "/ɔi/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words hear, beer, fear, and cheer contain the diphthong /iə/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1213,
+      "question": "Which diphthong is found in \"heir\", \"care\", \"share\", \"chair\"?",
+      "options": [
+        "/iə/",
+        "/eə/",
+        "/uə/",
+        "/au/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The words heir, care, share, and chair contain the diphthong /eə/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.226,
+      "question": "Which diphthong is found in \"poor\", \"tour\", \"pure\", \"cure\"?",
+      "options": [
+        "/iə/",
+        "/eə/",
+        "/uə/",
+        "/əu/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The words poor, tour, pure, and cure contain the diphthong /uə/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1626,
+      "question": "A triphthong has a sequence of how many vowels?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A triphthong is a sequence of three vowel sounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.4106,
+      "question": "Which of the following is an example of a triphthong?",
+      "options": [
+        "/ai/",
+        "/au/",
+        "/aia/",
+        "/ei/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/aia/ is a triphthong because it consists of three vowel sounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.0908,
+      "question": "The word \"tyre\" contains which triphthong?",
+      "options": [
+        "/aua/",
+        "/aia/",
+        "/eia/",
+        "/ɔia/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tyre contains the triphthong /aia/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.976,
+      "question": "The word \"power\" contains which triphthong?",
+      "options": [
+        "/aia/",
+        "/aua/",
+        "/eia/",
+        "/uai/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power contains the triphthong /aua/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.3271,
+      "question": "Which of the following words contains the vowel /æ/?",
+      "options": [
+        "cart",
+        "man",
+        "caught",
+        "cut"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Man contains the vowel /æ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.716,
+      "question": "Which of the following words contains the vowel /ʌ/?",
+      "options": [
+        "cot",
+        "cup",
+        "cart",
+        "caught"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cup contains the vowel /ʌ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.857,
+      "question": "Which of the following is NOT a fricative?",
+      "options": [
+        "/f/",
+        "/s/",
+        "/t/",
+        "/ʃ/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/t/ is a plosive, not a fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.9226,
+      "question": "Which of the following is a voiceless labiodental fricative?",
+      "options": [
+        "/v/",
+        "/f/",
+        "/θ/",
+        "/ð/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/f/ is a voiceless labiodental fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.069,
+      "question": "Which of the following is a voiced labiodental fricative?",
+      "options": [
+        "/f/",
+        "/v/",
+        "/s/",
+        "/z/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/v/ is a voiced labiodental fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.063,
+      "question": "The sound /θ/ is found in all EXCEPT:",
+      "options": [
+        "tooth",
+        "thin",
+        "thought",
+        "this"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This contains /ð/, not /θ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.299,
+      "question": "The sound /ð/ is found in all EXCEPT:",
+      "options": [
+        "rather",
+        "this",
+        "thank",
+        "that"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thank contains /θ/, not /ð/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.8706,
+      "question": "Which of the following is a voiceless alveolar fricative?",
+      "options": [
+        "/z/",
+        "/s/",
+        "/ʃ/",
+        "/ʒ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/s/ is a voiceless alveolar fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.6455,
+      "question": "Which of the following is a voiced alveolar fricative?",
+      "options": [
+        "/s/",
+        "/z/",
+        "/f/",
+        "/v/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/z/ is a voiced alveolar fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.5068,
+      "question": "The sound /ʃ/ is found in all EXCEPT:",
+      "options": [
+        "sheep",
+        "fish",
+        "vision",
+        "wash"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vision contains /ʒ/, not /ʃ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.5085,
+      "question": "The sound /ʒ/ is found in all EXCEPT:",
+      "options": [
+        "leisure",
+        "measure",
+        "vision",
+        "sheep"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sheep contains /ʃ/, not /ʒ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.7249,
+      "question": "Which of the following is a voiceless palate-alveolar affricate?",
+      "options": [
+        "/dʒ/",
+        "/tʃ/",
+        "/ʃ/",
+        "/ʒ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/tʃ/ is a voiceless palate-alveolar affricate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.6328,
+      "question": "Which of the following is a voiced palate-alveolar affricate?",
+      "options": [
+        "/tʃ/",
+        "/dʒ/",
+        "/θ/",
+        "/ð/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/dʒ/ is a voiced palate-alveolar affricate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.7195,
+      "question": "The sound /tʃ/ is found in all EXCEPT:",
+      "options": [
+        "church",
+        "match",
+        "judge",
+        "catch"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Judge contains /dʒ/, not /tʃ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.2434,
+      "question": "The sound /dʒ/ is found in all EXCEPT:",
+      "options": [
+        "joy",
+        "judge",
+        "cheese",
+        "age"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cheese contains /tʃ/, not /dʒ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.1345,
+      "question": "The sound /h/ is silent in all EXCEPT:",
+      "options": [
+        "honour",
+        "hour",
+        "house",
+        "honest"
+      ],
+      "correctAnswer": 2,
+      "explanation": "House has a pronounced /h/, while honour, hour, and honest have a silent h.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791567456936.592,
+      "question": "Which of the following words contains a palato-alveolar fricative?",
+      "options": [
+        "think",
+        "ship",
+        "van",
+        "zoo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ship contains the palato-alveolar fricative /ʃ/.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
