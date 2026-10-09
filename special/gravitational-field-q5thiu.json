@@ -3,16 +3,718 @@
   "title": "Gravitational Field",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791565593750.3484,
+      "question": "Newton's law of universal gravitation states that the force of attraction between two point masses is directly proportional to the product of their masses and inversely proportional to the",
+      "options": [
+        "Distance between them",
+        "Square of the distance between them",
+        "Cube of the distance between them",
+        "Sum of their masses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's law: <b>F ∝ m<sub>1</sub>m<sub>2</sub> / r<sup>2</sup></b>. The force is inversely proportional to the <b>square of the distance</b> between the masses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3508,
+      "question": "The gravitational force between two masses of 2kg and 8kg separated by a distance of 2m is [G = 6.67 × 10<sup>-11</sup>Nm<sup>2</sup>kg<sup>-2</sup>]",
+      "options": [
+        "2.67 × 10<sup>-10</sup>N",
+        "5.34 × 10<sup>-10</sup>N",
+        "2.67 × 10<sup>-9</sup>N",
+        "1.33 × 10<sup>-10</sup>N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = G m<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> = (6.67 × 10<sup>-11</sup> × 2 × 8) / 2<sup>2</sup> = (6.67 × 10<sup>-11</sup> × 16) / 4 = 6.67 × 10<sup>-11</sup> × 4 = <b>2.67 × 10<sup>-10</sup> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3682,
+      "question": "The S.I. unit of the gravitational constant G is",
+      "options": [
+        "Nm<sup>2</sup>kg<sup>-2</sup>",
+        "Nmkg<sup>-2</sup>",
+        "Nm<sup>2</sup>kg<sup>-1</sup>",
+        "Nmkg<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From F = G m<sub>1</sub>m<sub>2</sub> / r<sup>2</sup>, we get G = F r<sup>2</sup> / (m<sub>1</sub>m<sub>2</sub>). Units: N m<sup>2</sup> kg<sup>-2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.088,
+      "question": "If the distance between two masses is doubled, the gravitational force between them becomes",
+      "options": [
+        "Twice",
+        "Half",
+        "One-quarter",
+        "Four times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F ∝ 1/r<sup>2</sup>. If r → 2r, then F' = F / (2)<sup>2</sup> = F/4, i.e., <b>one-quarter</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3767,
+      "question": "If the distance between two masses is halved, the gravitational force between them becomes",
+      "options": [
+        "Twice",
+        "Half",
+        "One-quarter",
+        "Four times"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F ∝ 1/r<sup>2</sup>. If r → r/2, then F' = F / (1/2)<sup>2</sup> = 4F, i.e., <b>four times</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.7812,
+      "question": "Gravitational field intensity at a point is defined as the gravitational force per unit",
+      "options": [
+        "Mass",
+        "Charge",
+        "Distance",
+        "Volume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gravitational field intensity g = F/m, which is the force per unit <b>mass</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.227,
+      "question": "The S.I. unit of gravitational field intensity is",
+      "options": [
+        "N",
+        "Nkg<sup>-1</sup>",
+        "Nkg",
+        "Nm<sup>2</sup>kg<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "g = F/m, so unit = N/kg = <b>N kg<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.038,
+      "question": "The gravitational field intensity at a distance r from a mass M is given by",
+      "options": [
+        "GM/r",
+        "GM/r<sup>2</sup>",
+        "GM<sup>2</sup>/r<sup>2</sup>",
+        "G/r<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The gravitational field intensity due to a point mass M is <b>g = GM/r<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.9956,
+      "question": "The gravitational field intensity at the surface of the earth is equal to",
+      "options": [
+        "The mass of the earth",
+        "The acceleration due to gravity g",
+        "The escape velocity",
+        "The gravitational constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the earth's surface, the gravitational field intensity is exactly the <b>acceleration due to gravity g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3042,
+      "question": "The acceleration due to gravity g at the surface of the earth is given by",
+      "options": [
+        "g = GM/R",
+        "g = GM/R<sup>2</sup>",
+        "g = GM<sup>2</sup>/R<sup>2</sup>",
+        "g = G/R<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "g = GM/R<sup>2</sup>, where M is the mass of the earth and R is its radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5925,
+      "question": "The value of acceleration due to gravity g at the surface of the earth is approximately",
+      "options": [
+        "9.8ms<sup>-2</sup>",
+        "10ms<sup>-2</sup> only",
+        "6.7ms<sup>-2</sup>",
+        "3.0ms<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The standard value of g at the earth's surface is approximately <b>9.8 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.1653,
+      "question": "As the altitude above the earth's surface increases, the value of g",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "g is inversely proportional to the square of the distance from the centre. As altitude increases, distance increases, so g <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.9297,
+      "question": "The value of g at a height h above the earth's surface is given by",
+      "options": [
+        "g<sub>h</sub> = g(R/(R+h))",
+        "g<sub>h</sub> = g(R/(R+h))<sup>2</sup>",
+        "g<sub>h</sub> = g(R+h)/R",
+        "g<sub>h</sub> = g(R+h)<sup>2</sup>/R<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At height h, g<sub>h</sub> = GM/(R+h)<sup>2</sup> = g (R/(R+h))<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5437,
+      "question": "The value of g at a depth d below the earth's surface is given by",
+      "options": [
+        "g<sub>d</sub> = g(1 + d/R)",
+        "g<sub>d</sub> = g(1 - d/R)",
+        "g<sub>d</sub> = gd/R",
+        "g<sub>d</sub> = gR/d"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At depth d, g<sub>d</sub> = g(1 - d/R), where R is the earth's radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3228,
+      "question": "At the centre of the earth, the value of g is",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Equal to g at the surface",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the centre of the earth, the mass enclosed is zero, so <b>g = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.2754,
+      "question": "The value of g at the equator is slightly less than that at the poles because of",
+      "options": [
+        "The shape of the earth and its rotation",
+        "The temperature difference",
+        "The mass difference",
+        "The magnetic field of the earth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The earth is oblate (flattened at poles) and rotates. The centripetal effect reduces g at the <b>equator</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4775,
+      "question": "The weight of a body is",
+      "options": [
+        "Constant everywhere",
+        "The force of gravity on the body",
+        "The same as its mass",
+        "Independent of location"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weight is the <b>force of gravity</b> acting on a body: W = mg.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5906,
+      "question": "A body of mass 10kg has a weight on the earth's surface of approximately",
+      "options": [
+        "10N",
+        "98N",
+        "1N",
+        "0.1N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "W = mg = 10 × 9.8 = <b>98 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.9478,
+      "question": "The mass of a body is",
+      "options": [
+        "The same everywhere",
+        "Different at the poles",
+        "Different at the equator",
+        "Different on the moon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mass is a scalar quantity and is <b>constant everywhere</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.6577,
+      "question": "The weight of a body on the moon compared to that on earth is",
+      "options": [
+        "The same",
+        "Less",
+        "More",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The moon's gravitational field is weaker (g ≈ 1.6 m/s<sup>2</sup>), so weight is <b>less</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.7415,
+      "question": "The gravitational potential at a distance r from a point mass M is given by",
+      "options": [
+        "GM/r",
+        "-GM/r",
+        "GM/r<sup>2</sup>",
+        "-GM/r<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravitational potential is <b>V = -GM/r</b>. The negative sign indicates it is attractive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4417,
+      "question": "The S.I. unit of gravitational potential is",
+      "options": [
+        "Jkg<sup>-1</sup>",
+        "Jkg",
+        "Nkg<sup>-1</sup>",
+        "J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Potential = work done per unit mass, so unit = J/kg = <b>J kg<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5898,
+      "question": "The gravitational potential at infinity is taken as",
+      "options": [
+        "Infinite",
+        "Zero",
+        "GM/R",
+        "Negative infinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By convention, gravitational potential at infinity is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.2,
+      "question": "Gravitational potential energy of a mass m at a distance r from a mass M is given by",
+      "options": [
+        "GMm/r",
+        "-GMm/r",
+        "GMm/r<sup>2</sup>",
+        "-GMm/r<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravitational potential energy is <b>U = -GMm/r</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.1882,
+      "question": "The escape velocity from the earth's surface is given by",
+      "options": [
+        "v = √(GM/R)",
+        "v = √(2GM/R)",
+        "v = √(GM/R<sup>2</sup>)",
+        "v = 2GM/R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Escape velocity is <b>v<sub>esc</sub> = √(2GM/R)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.6484,
+      "question": "The escape velocity from the earth's surface is approximately",
+      "options": [
+        "11.2kms<sup>-1</sup>",
+        "1.12kms<sup>-1</sup>",
+        "112kms<sup>-1</sup>",
+        "0.112kms<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The escape velocity from Earth is approximately <b>11.2 km/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3755,
+      "question": "The escape velocity of a body from the earth's surface depends on the",
+      "options": [
+        "Mass of the body",
+        "Mass of the earth and radius of the earth",
+        "Shape of the body",
+        "Colour of the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "v<sub>esc</sub> = √(2GM/R), so it depends on the <b>mass and radius of the earth</b>, not on the mass of the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5823,
+      "question": "The escape velocity of a body from the earth's surface is independent of the",
+      "options": [
+        "Mass of the earth",
+        "Radius of the earth",
+        "Mass of the body",
+        "Gravitational constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "v<sub>esc</sub> = √(2GM/R), so it is independent of the <b>mass of the body</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4856,
+      "question": "A satellite is in a circular orbit around the earth. The gravitational force provides the",
+      "options": [
+        "Tangential force",
+        "Centripetal force",
+        "Centrifugal force",
+        "Frictional force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The gravitational force acts as the <b>centripetal force</b> that keeps the satellite in orbit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5974,
+      "question": "The orbital speed of a satellite in a circular orbit of radius r around the earth is given by",
+      "options": [
+        "v = √(GM/r)",
+        "v = √(2GM/r)",
+        "v = GM/r",
+        "v = √(GM/r<sup>2</sup>)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Orbital speed is <b>v = √(GM/r)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.698,
+      "question": "The period of a satellite in a circular orbit of radius r around the earth is given by",
+      "options": [
+        "T = 2π√(r<sup>3</sup>/GM)",
+        "T = 2π√(GM/r<sup>3</sup>)",
+        "T = 2π√(r/GM)",
+        "T = 2π√(GM/r)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Period of a satellite is <b>T = 2π√(r<sup>3</sup>/GM)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4138,
+      "question": "Kepler's third law states that the square of the period of revolution of a planet is directly proportional to the",
+      "options": [
+        "Radius of its orbit",
+        "Cube of the radius of its orbit",
+        "Square of the radius of its orbit",
+        "Inverse of the radius of its orbit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kepler's third law: <b>T<sup>2</sup> ∝ r<sup>3</sup></b>, i.e., directly proportional to the cube of the radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.031,
+      "question": "Kepler's first law states that the orbit of a planet around the sun is",
+      "options": [
+        "A perfect circle",
+        "An ellipse with the sun at one focus",
+        "A parabola",
+        "A straight line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kepler's first law: the orbit is an <b>ellipse with the sun at one focus</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.2551,
+      "question": "Kepler's second law (law of areas) states that the line joining the planet to the sun sweeps out equal areas in equal",
+      "options": [
+        "Distances",
+        "Times",
+        "Volumes",
+        "Masses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kepler's second law: equal areas are swept out in equal <b>times</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.9868,
+      "question": "A satellite in a parking orbit has a period",
+      "options": [
+        "Less than the earth's period of rotation",
+        "More than the earth's period of rotation",
+        "Equal to the earth's period of rotation",
+        "Independent of the earth's rotation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A parking orbit is a geostationary orbit, so its period is <b>equal to the earth's period of rotation</b> (24 hours).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.5798,
+      "question": "A geostationary satellite has a period of approximately",
+      "options": [
+        "1 hour",
+        "12 hours",
+        "24 hours",
+        "365 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A geostationary satellite has a period of <b>24 hours</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4807,
+      "question": "A geostationary satellite must be located",
+      "options": [
+        "Above the equator",
+        "Above the poles",
+        "At any latitude",
+        "Very close to the earth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A geostationary satellite must be located <b>above the equator</b> to remain stationary relative to the earth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.7263,
+      "question": "The weight of a body at the centre of the earth is",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Same as at the surface",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the centre, g = 0, so weight = mg = <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.8965,
+      "question": "The gravitational field intensity inside a hollow spherical shell is",
+      "options": [
+        "Zero",
+        "Maximum",
+        "Same as at the surface",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inside a hollow spherical shell, the gravitational field intensity is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.9214,
+      "question": "The gravitational potential inside a hollow spherical shell is",
+      "options": [
+        "Zero",
+        "Constant and equal to that on the surface",
+        "Maximum at the centre",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The gravitational potential inside a hollow shell is <b>constant and equal to its value on the surface</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.3647,
+      "question": "The gravitational force between two bodies is called a",
+      "options": [
+        "Contact force",
+        "Field force (action at a distance)",
+        "Frictional force",
+        "Magnetic force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravitational force is a <b>field force</b> (action at a distance).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4478,
+      "question": "The gravitational constant G has a value of approximately",
+      "options": [
+        "6.67 × 10<sup>-11</sup>Nm<sup>2</sup>kg<sup>-2</sup>",
+        "6.67 × 10<sup>11</sup>Nm<sup>2</sup>kg<sup>-2</sup>",
+        "9.8 × 10<sup>-11</sup>Nm<sup>2</sup>kg<sup>-2</sup>",
+        "9.0 × 10<sup>9</sup>Nm<sup>2</sup>kg<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The gravitational constant G ≈ <b>6.67 × 10<sup>-11</sup> N m<sup>2</sup> kg<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.8955,
+      "question": "The gravitational force between two bodies is the weakest when",
+      "options": [
+        "The masses are large",
+        "The distance between them is small",
+        "The distance between them is large",
+        "The bodies are in contact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F ∝ 1/r<sup>2</sup>, so the force is weakest when the <b>distance is large</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4036,
+      "question": "Two bodies of masses m<sub>1</sub> and m<sub>2</sub> are separated by a distance r. If the mass of one body is doubled and the distance is also doubled, the new gravitational force is",
+      "options": [
+        "Four times the original",
+        "Twice the original",
+        "Half the original",
+        "One-quarter of the original"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F = G m<sub>1</sub>m<sub>2</sub> / r<sup>2</sup>. New: m<sub>1</sub>' = 2m<sub>1</sub>, r' = 2r. F' = G(2m<sub>1</sub>)m<sub>2</sub>/(2r)<sup>2</sup> = 2Gm<sub>1</sub>m<sub>2</sub>/(4r<sup>2</sup>) = F/2. So <b>half</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.7168,
+      "question": "The gravitational potential energy of a body at the earth's surface is",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "U = -GMm/R, which is <b>negative</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.4976,
+      "question": "The total mechanical energy of a satellite in a stable circular orbit is",
+      "options": [
+        "Positive",
+        "Zero",
+        "Negative",
+        "Infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total energy E = -GMm/(2r), which is <b>negative</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.1187,
+      "question": "The period of a simple pendulum on the moon compared to that on the earth is",
+      "options": [
+        "Shorter",
+        "Longer",
+        "The same",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T = 2π√(L/g). Since g is smaller on the moon, T is <b>longer</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.0017,
+      "question": "The value of g on the moon is approximately",
+      "options": [
+        "1.6ms<sup>-2</sup>",
+        "9.8ms<sup>-2</sup>",
+        "3.7ms<sup>-2</sup>",
+        "6.7ms<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The acceleration due to gravity on the moon is about <b>1.6 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.577,
+      "question": "If the radius of the earth is R and the acceleration due to gravity at its surface is g, the escape velocity is given by",
+      "options": [
+        "√(gR)",
+        "√(2gR)",
+        "2gR",
+        "gR<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Escape velocity v<sub>esc</sub> = √(2GM/R) = √(2gR), since g = GM/R<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565593750.6123,
+      "question": "A satellite moves in a circular orbit of radius 4R around the earth, where R is the radius of the earth. If g is the acceleration due to gravity at the earth's surface, the acceleration of the satellite is",
+      "options": [
+        "g/16",
+        "g/4",
+        "4g",
+        "16g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "a = GM/(4R)<sup>2</sup> = GM/(16R<sup>2</sup>) = g/16.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
