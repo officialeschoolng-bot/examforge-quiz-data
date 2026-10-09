@@ -3,16 +3,718 @@
   "title": "Models of the Atom",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791568329587.6187,
+      "question": "Dalton's atomic model described atoms as:",
+      "options": [
+        "Indivisible solid spheres",
+        "Mostly empty space",
+        "Electron clouds",
+        "Nuclei with orbiting electrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Dalton's atomic model</b> (1803) proposed that atoms are <b>indivisible solid spheres</b> — tiny, hard, indivisible particles that cannot be broken down further. This was the first modern atomic theory, but it was later disproved by the discovery of subatomic particles (electrons, protons, neutrons).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.1858,
+      "question": "The plum pudding model was proposed by:",
+      "options": [
+        "Rutherford",
+        "Thomson",
+        "Bohr",
+        "Dalton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>plum pudding model</b> was proposed by <b>J. J. Thomson</b> in 1904. He suggested that atoms consist of a sphere of positive charge with negatively charged electrons embedded in it, like plums in a pudding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.9194,
+      "question": "In Thomson's model, electrons are embedded in:",
+      "options": [
+        "A positively charged sphere",
+        "A negatively charged sphere",
+        "A neutral nucleus",
+        "Empty space"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Thomson's plum pudding model, the <b>electrons are embedded in a positively charged sphere</b>. The positive and negative charges balance, making the atom electrically neutral overall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.9263,
+      "question": "Rutherford's gold foil experiment involved bombarding gold foil with:",
+      "options": [
+        "Electrons",
+        "Protons",
+        "Alpha particles",
+        "Neutrons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Rutherford's gold foil experiment</b> (1909) involved bombarding a thin gold foil with <b>alpha particles</b> (helium nuclei). Most passed straight through, some deflected at small angles, and a few bounced back.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2727,
+      "question": "The Rutherford scattering experiment showed that most of an atom is:",
+      "options": [
+        "Solid",
+        "Empty space",
+        "Negatively charged",
+        "Made of electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since most alpha particles passed straight through the gold foil without deflection, Rutherford concluded that most of an atom is <b>empty space</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.1526,
+      "question": "Rutherford concluded that the positive charge of an atom is concentrated in:",
+      "options": [
+        "Electron cloud",
+        "Nucleus",
+        "Orbits",
+        "Valence shell"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The few alpha particles that were strongly deflected or bounced back led Rutherford to conclude that the positive charge and most of the mass are concentrated in a tiny central region called the <b>nucleus</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.8953,
+      "question": "The nuclear model of the atom was proposed by:",
+      "options": [
+        "Bohr",
+        "Rutherford",
+        "Thomson",
+        "Dalton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>nuclear model</b> of the atom was proposed by <b>Ernest Rutherford</b> in 1911. It describes a small, dense, positively charged nucleus surrounded by electrons in mostly empty space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.779,
+      "question": "In Bohr's model, electrons revolve around the nucleus in:",
+      "options": [
+        "Random paths",
+        "Fixed circular orbits",
+        "Elliptical orbits only",
+        "A uniform cloud"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>Bohr's model</b> (1913), electrons revolve around the nucleus in <b>fixed circular orbits</b> (also called shells or energy levels) without radiating energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.1978,
+      "question": "According to Bohr, electrons emit energy when they:",
+      "options": [
+        "Move in an orbit",
+        "Jump from a higher to lower energy level",
+        "Jump from a lower to higher energy level",
+        "Remain stationary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an electron <b>jumps from a higher to a lower energy level</b>, it emits energy in the form of a photon. The energy of the photon equals the difference between the two levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.1665,
+      "question": "According to Bohr, electrons absorb energy when they:",
+      "options": [
+        "Move in an orbit",
+        "Jump from a higher to lower energy level",
+        "Jump from a lower to higher energy level",
+        "Remain stationary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When an electron <b>jumps from a lower to a higher energy level</b>, it absorbs energy equal to the difference between the levels. This is how absorption spectra arise.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.4268,
+      "question": "Bohr's model was most successful in explaining the spectrum of:",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Uranium",
+        "Sodium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Bohr's model</b> was most successful in explaining the line spectrum of <b>hydrogen</b> (the simplest atom with one electron). It failed for multi-electron atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.576,
+      "question": "The energy levels in Bohr's model are:",
+      "options": [
+        "Continuous",
+        "Quantized",
+        "Random",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bohr proposed that electrons can only occupy certain <b>quantized</b> energy levels — not any arbitrary value. This quantization explains the discrete lines in atomic spectra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2324,
+      "question": "The ground state of an atom is:",
+      "options": [
+        "The lowest energy state",
+        "The highest energy state",
+        "An ionized state",
+        "An excited state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>ground state</b> is the <b>lowest energy state</b> of an atom, where electrons occupy the lowest available energy levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.9673,
+      "question": "An excited state of an atom is:",
+      "options": [
+        "Lower than ground state",
+        "Higher than ground state",
+        "Equal to ground state",
+        "The nucleus state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>excited state</b> is any energy state <b>higher than the ground state</b>, where electrons have absorbed energy and moved to higher orbitals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.6255,
+      "question": "The quantum mechanical model of the atom was developed by:",
+      "options": [
+        "Dalton",
+        "Thomson",
+        "Schrodinger",
+        "Rutherford"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>quantum mechanical model</b> was developed by <b>Erwin Schrodinger</b> in 1926. It describes electrons in terms of wave functions rather than definite orbits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.052,
+      "question": "In the quantum mechanical model, electrons are described by:",
+      "options": [
+        "Fixed orbits",
+        "Wave functions and probability clouds",
+        "Solid spheres",
+        "Plum pudding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the quantum mechanical model, electrons are described by <b>wave functions</b> (solutions to the Schrodinger equation), and their positions are represented as <b>probability clouds</b> (orbitals).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.5334,
+      "question": "The Heisenberg uncertainty principle states that it is impossible to know both the position and:",
+      "options": [
+        "Charge of an electron exactly",
+        "Momentum of an electron exactly",
+        "Mass of an electron exactly",
+        "Spin of an electron exactly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Heisenberg's uncertainty principle</b>: it is impossible to simultaneously know both the exact position and exact <b>momentum</b> of an electron. The more precisely one is known, the less precisely the other can be determined.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.3928,
+      "question": "The concept of electron spin was proposed by:",
+      "options": [
+        "Bohr and Rutherford",
+        "Uhlenbeck and Goudsmit",
+        "Dalton and Thomson",
+        "Schrodinger and Heisenberg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concept of <b>electron spin</b> was proposed by <b>Uhlenbeck and Goudsmit</b> in 1925 to explain the fine structure of atomic spectra and the Stern-Gerlach experiment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2095,
+      "question": "The atomic number of an element is the number of:",
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Electrons and neutrons",
+        "Nucleons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>atomic number (Z)</b> is the number of <b>protons</b> in the nucleus. It uniquely identifies an element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.606,
+      "question": "The mass number of an atom is the total number of:",
+      "options": [
+        "Protons only",
+        "Neutrons only",
+        "Protons and neutrons",
+        "Electrons and protons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>mass number (A)</b> is the total number of <b>protons and neutrons</b> (collectively called nucleons) in the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.108,
+      "question": "Isotopes of an element have the same:",
+      "options": [
+        "Mass number",
+        "Number of neutrons",
+        "Atomic number",
+        "Nucleon number"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Isotopes</b> are atoms of the same element with the same <b>atomic number</b> (same number of protons) but different numbers of neutrons (different mass numbers).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.739,
+      "question": "Isotopes differ in the number of:",
+      "options": [
+        "Protons",
+        "Electrons",
+        "Neutrons",
+        "Charges"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Isotopes of an element have the same number of protons but differ in the number of <b>neutrons</b>. This gives them different mass numbers but identical chemical properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.4531,
+      "question": "The nucleus of an atom contains:",
+      "options": [
+        "Electrons and protons",
+        "Protons and neutrons",
+        "Electrons and neutrons",
+        "Only electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleus contains <b>protons and neutrons</b> (collectively called nucleons). Electrons orbit outside the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2544,
+      "question": "The particle discovered by James Chadwick is the:",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Alpha particle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>James Chadwick</b> discovered the <b>neutron</b> in 1932. It is a neutral particle found in the nucleus with a mass approximately equal to that of a proton.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.3357,
+      "question": "The proton was discovered by:",
+      "options": [
+        "Rutherford",
+        "Thomson",
+        "Chadwick",
+        "Bohr"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Ernest Rutherford</b> discovered the proton in 1919 through his experiments on the bombardment of nitrogen with alpha particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2466,
+      "question": "The electron was discovered by:",
+      "options": [
+        "Thomson",
+        "Rutherford",
+        "Bohr",
+        "Dalton"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>J. J. Thomson</b> discovered the electron in 1897 through his cathode ray tube experiments, measuring its charge-to-mass ratio.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.9314,
+      "question": "In the Bohr model, angular momentum of an electron is quantized in units of:",
+      "options": [
+        "h",
+        "h/2π",
+        "2πh",
+        "h<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bohr proposed that the angular momentum of an electron is quantized in integer multiples of <b>h/2π</b> (where h is Planck's constant): L = n(h/2π).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.73,
+      "question": "The radius of the first Bohr orbit of hydrogen is called:",
+      "options": [
+        "Bohr radius",
+        "Rutherford radius",
+        "Thomson radius",
+        "Planck radius"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius of the first Bohr orbit (n = 1) of hydrogen is called the <b>Bohr radius</b>, approximately 0.53 Å (5.3 × 10<sup>-11</sup> m).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2666,
+      "question": "The energy of an electron in the nth Bohr orbit of hydrogen is proportional to:",
+      "options": [
+        "n",
+        "n<sup>2</sup>",
+        "1/n",
+        "1/n<sup>2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The energy of an electron in the nth Bohr orbit is E<sub>n</sub> = -13.6/n<sup>2</sup> eV, so it is proportional to <b>1/n<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.5671,
+      "question": "The Balmer series of hydrogen corresponds to transitions ending at:",
+      "options": [
+        "n = 1",
+        "n = 2",
+        "n = 3",
+        "n = 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Balmer series</b> corresponds to electron transitions ending at <b>n = 2</b>. These transitions produce visible light lines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.9875,
+      "question": "The Lyman series of hydrogen corresponds to transitions ending at:",
+      "options": [
+        "n = 1",
+        "n = 2",
+        "n = 3",
+        "n = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>Lyman series</b> corresponds to transitions ending at <b>n = 1</b>. These are in the ultraviolet region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2744,
+      "question": "The Paschen series of hydrogen corresponds to transitions ending at:",
+      "options": [
+        "n = 1",
+        "n = 2",
+        "n = 3",
+        "n = 4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>Paschen series</b> corresponds to transitions ending at <b>n = 3</b>. These are in the infrared region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.6875,
+      "question": "The Bohr model could not explain the spectra of:",
+      "options": [
+        "Hydrogen",
+        "Multi-electron atoms",
+        "Single-electron ions",
+        "Simple atoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bohr's model worked well for hydrogen and single-electron ions (like He<sup>+</sup>) but failed to explain the spectra of <b>multi-electron atoms</b> due to electron-electron interactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.38,
+      "question": "The wave-particle duality of electrons was proposed by:",
+      "options": [
+        "Bohr",
+        "de Broglie",
+        "Rutherford",
+        "Dalton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Louis de Broglie</b> proposed in 1924 that particles like electrons exhibit <b>wave-particle duality</b> — they have both particle and wave properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.791,
+      "question": "The de Broglie wavelength of a particle is given by:",
+      "options": [
+        "λ = h/p",
+        "λ = p/h",
+        "λ = hp",
+        "λ = h/p<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>de Broglie wavelength</b> is given by <b>λ = h/p</b>, where h is Planck's constant and p = mv is the momentum of the particle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.7915,
+      "question": "The Schrodinger equation describes:",
+      "options": [
+        "The orbit of planets",
+        "The wave nature of electrons",
+        "The nucleus only",
+        "The plum pudding model"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Schrodinger equation</b> is a fundamental equation in quantum mechanics that describes the <b>wave nature of electrons</b> and how their wave functions evolve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.1624,
+      "question": "In the quantum mechanical model, an orbital is:",
+      "options": [
+        "A fixed circular path",
+        "A region of high probability of finding an electron",
+        "A solid sphere",
+        "The nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the quantum mechanical model, an <b>orbital</b> is a <b>region of high probability</b> where an electron is most likely to be found. It is not a fixed path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2378,
+      "question": "The shape of an s orbital is:",
+      "options": [
+        "Spherical",
+        "Dumbbell",
+        "Cloverleaf",
+        "Linear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An <b>s orbital</b> is <b>spherical</b> in shape and is centred on the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.4656,
+      "question": "The shape of a p orbital is:",
+      "options": [
+        "Spherical",
+        "Dumbbell",
+        "Cloverleaf",
+        "Linear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>p orbital</b> has a <b>dumbbell</b> shape with two lobes on opposite sides of the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.6477,
+      "question": "The maximum number of electrons in a principal energy level is given by:",
+      "options": [
+        "n",
+        "2n",
+        "2n<sup>2</sup>",
+        "n<sup>2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The maximum number of electrons in a principal energy level (shell) is <b>2n<sup>2</sup></b>, where n is the principal quantum number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.0955,
+      "question": "The Pauli exclusion principle states that no two electrons in an atom can have the same:",
+      "options": [
+        "Energy",
+        "Set of four quantum numbers",
+        "Spin",
+        "Orbital"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Pauli exclusion principle</b> states that no two electrons in an atom can have the same <b>set of four quantum numbers</b> (n, l, m<sub>l</sub>, m<sub>s</sub>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.6792,
+      "question": "The quantum number that describes the orientation of an orbital is:",
+      "options": [
+        "Principal",
+        "Azimuthal",
+        "Magnetic",
+        "Spin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>magnetic quantum number (m<sub>l</sub>)</b> describes the <b>orientation</b> of an orbital in space relative to an external magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.4956,
+      "question": "The quantum number that describes the shape of an orbital is:",
+      "options": [
+        "Principal",
+        "Azimuthal",
+        "Magnetic",
+        "Spin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>azimuthal quantum number (l)</b> describes the <b>shape</b> of an orbital (s, p, d, f) and the orbital angular momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.5725,
+      "question": "The principal quantum number describes:",
+      "options": [
+        "Shape",
+        "Orientation",
+        "Energy level and size",
+        "Spin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>principal quantum number (n)</b> describes the <b>energy level and size</b> of the orbital. Larger n means higher energy and larger size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.7783,
+      "question": "The spin quantum number can have values:",
+      "options": [
+        "+1/2 and -1/2",
+        "0 and 1",
+        "1, 2, 3",
+        "-1, 0, +1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>spin quantum number (m<sub>s</sub>)</b> can have only two values: <b>+1/2 or -1/2</b>, representing the two possible spin orientations of an electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.438,
+      "question": "The Rutherford model failed to explain:",
+      "options": [
+        "The nucleus",
+        "The stability of the atom",
+        "The positive charge",
+        "The mass concentration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Rutherford's model</b> failed to explain the <b>stability of the atom</b>. According to classical physics, the orbiting electron should continuously radiate energy, spiralling into the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.2412,
+      "question": "The Bohr model introduced the idea that electrons:",
+      "options": [
+        "Can have any energy",
+        "Have quantized energy levels",
+        "Are stationary",
+        "Are in the nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Bohr's model</b> introduced the revolutionary idea that electrons occupy <b>quantized energy levels</b> — they can only have certain discrete energies, not any arbitrary value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.4011,
+      "question": "The emission spectrum of an atom consists of:",
+      "options": [
+        "Continuous colors",
+        "Bright lines at specific wavelengths",
+        "Dark lines only",
+        "A single color"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>emission spectrum</b> consists of <b>bright lines at specific wavelengths</b>. Each line corresponds to an electron transitioning from a higher to a lower energy level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.3718,
+      "question": "The absorption spectrum of an atom consists of:",
+      "options": [
+        "Continuous colors",
+        "Bright lines",
+        "Dark lines at specific wavelengths",
+        "A single color"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>absorption spectrum</b> consists of <b>dark lines at specific wavelengths</b>. These lines correspond to wavelengths absorbed by electrons jumping to higher energy levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568329587.8472,
+      "question": "The model of the atom currently accepted is the:",
+      "options": [
+        "Dalton model",
+        "Thomson model",
+        "Bohr model",
+        "Quantum mechanical model"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>quantum mechanical model</b> is the currently accepted model of the atom. It describes electrons in terms of wave functions and probability distributions (orbitals) rather than fixed orbits.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
