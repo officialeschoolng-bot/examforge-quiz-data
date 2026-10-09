@@ -3,16 +3,718 @@
   "title": "Heat Energy",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791562228149.7397,
+      "question": "The S.I. unit of heat capacity is",
+      "options": [
+        "J",
+        "Jkg<sup>-1</sup>",
+        "JK<sup>-1</sup>",
+        "Jkg<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat capacity is the amount of heat required to raise the temperature of a body by 1 K. It is given by <b>C = Q/ΔT</b>. Its SI unit is joule per kelvin (<b>J K<sup>-1</sup></b>).<br><br><b>Why the others are wrong:</b><br>• J is the unit of heat/energy.<br>• Jkg<sup>-1</sup> is the unit of specific latent heat.<br>• Jkg<sup>-1</sup>K<sup>-1</sup> is the unit of specific heat capacity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.0525,
+      "question": "The quantity of heat required to raise the temperature of a unit mass of a substance by 1K is called",
+      "options": [
+        "Heat capacity",
+        "Specific heat capacity",
+        "Latent heat",
+        "Specific latent heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Specific heat capacity</b> is defined as the heat required to raise the temperature of <b>1 kg</b> of a substance by <b>1 K</b> (or 1 °C). It is given by <b>c = Q/(mΔT)</b>.<br><br><b>Why the others are wrong:</b><br>• Heat capacity is for the whole body, not unit mass.<br>• Latent heat is the heat required for a change of state, not temperature change.<br>• Specific latent heat is latent heat per unit mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.009,
+      "question": "Calculate the heat required to raise the temperature of 2kg of water by 10°C. [c = 4200Jkg<sup>-1</sup>K<sup>-1</sup>]",
+      "options": [
+        "8400J",
+        "42000J",
+        "84000J",
+        "840000J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the formula <b>Q = mcΔT</b>:<br>m = 2 kg<br>c = 4200 J kg<sup>-1</sup> K<sup>-1</sup><br>ΔT = 10 °C = 10 K (since a change of 1 °C equals a change of 1 K)<br>Q = 2 × 4200 × 10 = <b>84000 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.5754,
+      "question": "The heat required to change a solid to liquid at constant temperature is called",
+      "options": [
+        "Specific heat capacity",
+        "Latent heat of fusion",
+        "Latent heat of vaporization",
+        "Heat capacity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Latent heat of fusion</b> is the heat required to change a substance from solid to liquid at its melting point without a change in temperature. For water, it is 3.34 × 10<sup>5</sup> J kg<sup>-1</sup>.<br><br><b>Why the others are wrong:</b><br>• Specific heat capacity involves temperature change.<br>• Latent heat of vaporization is for liquid to gas.<br>• Heat capacity is for temperature change of a body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.673,
+      "question": "The S.I. unit of specific latent heat is",
+      "options": [
+        "J",
+        "JK<sup>-1</sup>",
+        "Jkg<sup>-1</sup>",
+        "Jkg<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Specific latent heat (<b>L</b>) is the heat required to change the state of <b>1 kg</b> of a substance without a temperature change. It is given by <b>L = Q/m</b>. Its SI unit is joule per kilogram (<b>J kg<sup>-1</sup></b>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.0017,
+      "question": "200g of water at 80°C is mixed with 300g of water at 20°C. Calculate the final temperature of the mixture.",
+      "options": [
+        "40°C",
+        "44°C",
+        "50°C",
+        "60°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let the final temperature be θ. Heat lost by hot water = Heat gained by cold water.<br><br>m<sub>1</sub>c(80 − θ) = m<sub>2</sub>c(θ − 20)<br>200(80 − θ) = 300(θ − 20)<br>16000 − 200θ = 300θ − 6000<br>22000 = 500θ<br>θ = 44°C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.8164,
+      "question": "A metal rod of length 2m is heated through 50°C. If its linear expansivity is 1.2 × 10<sup>-5</sup>K<sup>-1</sup>, calculate the increase in length.",
+      "options": [
+        "1.2 × 10<sup>-3</sup>m",
+        "1.2 × 10<sup>-4</sup>m",
+        "1.2 × 10<sup>-2</sup>m",
+        "1.2 × 10<sup>-1</sup>m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linear expansion: ΔL = L<sub>0</sub>αΔT<br><br>L<sub>0</sub> = 2 m<br>α = 1.2 × 10<sup>-5</sup> K<sup>-1</sup><br>ΔT = 50 °C = 50 K<br>ΔL = 2 × 1.2 × 10<sup>-5</sup> × 50 = <b>1.2 × 10<sup>-3</sup> m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228149.2158,
+      "question": "The apparent expansion of a liquid is the expansion of the liquid relative to its",
+      "options": [
+        "container",
+        "own volume",
+        "mass",
+        "surface area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a liquid is heated in a container, both the liquid and the container expand. The <b>apparent expansion</b> is the expansion observed relative to the container. The true (real) expansion is the sum of the apparent expansion and the expansion of the container.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.717,
+      "question": "Heat transfer in solids takes place mainly by",
+      "options": [
+        "Convection",
+        "Radiation",
+        "Conduction",
+        "Evaporation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In solids, heat is transferred mainly by <b>conduction</b> — the transfer of thermal energy through a material without the movement of the material itself. This occurs via vibrations of atoms and movement of free electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.0833,
+      "question": "Heat transfer in liquids and gases by the actual movement of the heated particles is called",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Sublimation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Convection</b> is the transfer of heat by the actual movement of heated fluid (liquid or gas). Hot fluid rises and cold fluid sinks, creating convection currents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9026,
+      "question": "The mode of heat transfer that does not require a material medium is",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Diffusion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Radiation</b> is the transfer of heat by electromagnetic waves. It does not require a material medium — it can travel through a vacuum (e.g., heat from the Sun reaching Earth).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4382,
+      "question": "Which of the following is the best absorber of radiant heat?",
+      "options": [
+        "Polished silver surface",
+        "White surface",
+        "Black dull surface",
+        "Red shiny surface"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>black, dull surface</b> is the best absorber and emitter of radiant heat. Polished or shiny surfaces reflect most radiation, while white surfaces reflect more than black ones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.2937,
+      "question": "Convert 27°C to the Kelvin scale.",
+      "options": [
+        "246K",
+        "273K",
+        "300K",
+        "327K"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To convert from Celsius to Kelvin: <b>T(K) = T(°C) + 273</b>.<br>T = 27 + 273 = <b>300 K</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.5586,
+      "question": "Boyle's law states that the volume of a fixed mass of gas is inversely proportional to its pressure at constant",
+      "options": [
+        "volume",
+        "temperature",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Boyle's law</b>: For a fixed mass of gas at constant <b>temperature</b>, the volume is inversely proportional to pressure: <b>P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.3586,
+      "question": "Charles' law states that the volume of a fixed mass of gas is directly proportional to its absolute temperature at constant",
+      "options": [
+        "volume",
+        "pressure",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Charles' law</b>: For a fixed mass of gas at constant <b>pressure</b>, the volume is directly proportional to absolute temperature: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9624,
+      "question": "The pressure law states that the pressure of a fixed mass of gas is directly proportional to its absolute temperature at constant",
+      "options": [
+        "volume",
+        "pressure",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Pressure law</b> (Gay-Lussac's law): For a fixed mass of gas at constant <b>volume</b>, the pressure is directly proportional to absolute temperature: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.1274,
+      "question": "The ideal gas equation is given by",
+      "options": [
+        "PV = nRT",
+        "PV = RT/n",
+        "P/V = nRT",
+        "PVT = nR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ideal gas equation is <b>PV = nRT</b>, where P = pressure, V = volume, n = number of moles, R = molar gas constant (8.314 J mol<sup>-1</sup> K<sup>-1</sup>), and T = absolute temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.2676,
+      "question": "Water has its maximum density at",
+      "options": [
+        "0°C",
+        "4°C",
+        "10°C",
+        "100°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water exhibits anomalous expansion. It contracts when heated from 0°C to 4°C, and expands above 4°C. Therefore, it has its <b>maximum density at 4°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9785,
+      "question": "The process by which a liquid changes to vapour at any temperature is called",
+      "options": [
+        "Boiling",
+        "Evaporation",
+        "Sublimation",
+        "Condensation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Evaporation</b> is the change of a liquid to vapour at any temperature, occurring only at the surface of the liquid. Boiling occurs at a specific temperature (boiling point) and throughout the liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.6204,
+      "question": "A liquid boils when its saturated vapour pressure is equal to the",
+      "options": [
+        "atmospheric pressure",
+        "critical pressure",
+        "osmotic pressure",
+        "partial pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A liquid boils when its saturated vapour pressure equals the external pressure, which is usually the <b>atmospheric pressure</b>. At this point, bubbles of vapour can form and rise to the surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.662,
+      "question": "Calculate the heat required to melt 0.5kg of ice at 0°C. [Specific latent heat of fusion of ice = 3.34 × 10<sup>5</sup>Jkg<sup>-1</sup>]",
+      "options": [
+        "1.67 × 10<sup>4</sup>J",
+        "1.67 × 10<sup>5</sup>J",
+        "1.67 × 10<sup>6</sup>J",
+        "6.68 × 10<sup>5</sup>J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heat required to melt ice: Q = mL<sub>f</sub><br><br>m = 0.5 kg<br>L<sub>f</sub> = 3.34 × 10<sup>5</sup> J kg<sup>-1</sup><br>Q = 0.5 × 3.34 × 10<sup>5</sup> = 1.67 × 10<sup>5</sup> J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.2412,
+      "question": "The vacuum in a thermos flask reduces heat loss by",
+      "options": [
+        "radiation only",
+        "conduction and convection",
+        "convection only",
+        "conduction only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A vacuum prevents heat transfer by <b>conduction and convection</b> because these require a material medium. The silvered surfaces reduce heat loss by radiation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.5366,
+      "question": "Heat from the sun reaches the earth by",
+      "options": [
+        "conduction",
+        "convection",
+        "radiation",
+        "reflection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat from the Sun travels through the vacuum of space by <b>radiation</b> — electromagnetic waves. Conduction and convection require a medium, which is absent in space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9407,
+      "question": "The energy radiated per second by a black body is proportional to the fourth power of its",
+      "options": [
+        "mass",
+        "volume",
+        "absolute temperature",
+        "density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Stefan-Boltzmann law</b>: The power radiated per unit area of a black body is proportional to the fourth power of its absolute temperature: <b>P = σAT<sup>4</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.5723,
+      "question": "The thermal conductivity of a material is measured in",
+      "options": [
+        "Wm<sup>-1</sup>K<sup>-1</sup>",
+        "WmK<sup>-1</sup>",
+        "Wm<sup>-2</sup>K<sup>-1</sup>",
+        "WmK"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thermal conductivity (k) is defined by <b>Q/t = kA(ΔT)/L</b>. Rearranging, k = (Q/t) · L/(AΔT). Unit: W m<sup>-1</sup> K<sup>-1</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.77,
+      "question": "Newton's law of cooling states that the rate of loss of heat of a body is proportional to the",
+      "options": [
+        "temperature of the body",
+        "temperature of the surroundings",
+        "temperature difference between the body and its surroundings",
+        "mass of the body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Newton's law of cooling</b>: The rate of heat loss of a body is directly proportional to the temperature difference between the body and its surroundings, provided the difference is small.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.156,
+      "question": "The temperature gradient in a rod of length 0.5m with ends at 100°C and 20°C is",
+      "options": [
+        "40°Cm<sup>-1</sup>",
+        "80°Cm<sup>-1</sup>",
+        "160°Cm<sup>-1</sup>",
+        "200°Cm<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temperature gradient = (T<sub>1</sub> − T<sub>2</sub>)/L = (100 − 20)/0.5 = 80/0.5 = <b>160 °C m<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9106,
+      "question": "The temperature at which the water vapour in the air just saturates it is called the",
+      "options": [
+        "dew point",
+        "boiling point",
+        "freezing point",
+        "critical point"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>dew point</b> is the temperature at which the air becomes saturated with water vapour and condensation begins (dew forms).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4,
+      "question": "Relative humidity is measured with a",
+      "options": [
+        "barometer",
+        "hygrometer",
+        "hydrometer",
+        "manometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Relative humidity</b> is measured using a <b>hygrometer</b> (often a wet-and-dry bulb hygrometer). A barometer measures pressure, a hydrometer measures density, and a manometer measures pressure differences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9841,
+      "question": "The specific latent heat of vaporization of water is 2.26 × 10<sup>6</sup>Jkg<sup>-1</sup>. Calculate the heat required to vaporize 0.2kg of water at 100°C.",
+      "options": [
+        "4.52 × 10<sup>5</sup>J",
+        "4.52 × 10<sup>6</sup>J",
+        "4.52 × 10<sup>4</sup>J",
+        "4.52 × 10<sup>3</sup>J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q = mL<sub>v</sub><br><br>m = 0.2 kg<br>L<sub>v</sub> = 2.26 × 10<sup>6</sup> J kg<sup>-1</sup><br>Q = 0.2 × 2.26 × 10<sup>6</sup> = 4.52 × 10<sup>5</sup> J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.8257,
+      "question": "Heat is transferred through a vacuum by",
+      "options": [
+        "conduction",
+        "convection",
+        "radiation",
+        "evaporation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As stated earlier, <b>radiation</b> is the only mode of heat transfer that can occur through a vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.5178,
+      "question": "A bimetallic strip bends when heated because the two metals have different",
+      "options": [
+        "densities",
+        "masses",
+        "linear expansivities",
+        "specific heat capacities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A bimetallic strip consists of two different metals bonded together. When heated, they expand by different amounts because they have different <b>linear expansivities</b>. This causes the strip to bend.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.5989,
+      "question": "The best surface for reflecting radiant heat is",
+      "options": [
+        "dull black",
+        "rough white",
+        "polished silver",
+        "red painted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>polished silver</b> surface is the best reflector of radiant heat. Dull black surfaces are good absorbers, not reflectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.07,
+      "question": "Calculate the heat required to melt 0.1kg of ice at 0°C. [L = 336000Jkg<sup>-1</sup>]",
+      "options": [
+        "3360J",
+        "33600J",
+        "336000J",
+        "336J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Q = mL<sub>f</sub><br><br>m = 0.1 kg<br>L<sub>f</sub> = 336000 J kg<sup>-1</sup><br>Q = 0.1 × 336000 = <b>33600 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.888,
+      "question": "Steam causes more severe burns than boiling water at the same temperature because steam",
+      "options": [
+        "has higher temperature",
+        "releases latent heat of vaporization on condensing",
+        "is lighter",
+        "has higher specific heat capacity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Steam at 100°C contains additional <b>latent heat of vaporization</b>. When it condenses on the skin, it releases this latent heat (2.26 × 10<sup>6</sup> J kg<sup>-1</sup>), causing more severe burns than boiling water at the same temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.602,
+      "question": "The amount of heat required to raise the temperature of a body by 1K is its",
+      "options": [
+        "specific heat capacity",
+        "heat capacity",
+        "latent heat",
+        "thermal conductivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Heat capacity</b> is the heat required to raise the temperature of the entire body by 1 K. Specific heat capacity is per unit mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4077,
+      "question": "Which of the following is used as a thermometric liquid for measuring very low temperatures?",
+      "options": [
+        "Water",
+        "Mercury",
+        "Alcohol",
+        "Glycerine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Alcohol</b> has a very low freezing point (−115°C), making it suitable for measuring very low temperatures. Mercury freezes at −39°C, so it cannot be used for very low temperatures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.1284,
+      "question": "The clinical thermometer has a constriction just above the bulb in order to",
+      "options": [
+        "increase its sensitivity",
+        "prevent the mercury from returning to the bulb",
+        "increase its range",
+        "make it easier to read"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>constriction</b> in a clinical thermometer prevents mercury from returning to the bulb after the thermometer is removed from the patient. This allows the temperature reading to be taken.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.3071,
+      "question": "The heat capacity of a calorimeter of mass 0.2kg and specific heat capacity 400Jkg<sup>-1</sup>K<sup>-1</sup> is",
+      "options": [
+        "80JK<sup>-1</sup>",
+        "800JK<sup>-1</sup>",
+        "2000JK<sup>-1</sup>",
+        "8JK<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heat capacity C = mc<br><br>m = 0.2 kg<br>c = 400 J kg<sup>-1</sup> K<sup>-1</sup><br>C = 0.2 × 400 = <b>80 J K<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4944,
+      "question": "A gas at constant temperature has a volume of 200cm<sup>3</sup> at a pressure of 750mmHg. Calculate its volume at 500mmHg.",
+      "options": [
+        "300cm<sup>3</sup>",
+        "150cm<sup>3</sup>",
+        "250cm<sup>3</sup>",
+        "133cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Boyle's law: P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub><br><br>P<sub>1</sub> = 750 mmHg, V<sub>1</sub> = 200 cm<sup>3</sup><br>P<sub>2</sub> = 500 mmHg<br>V<sub>2</sub> = (P<sub>1</sub>V<sub>1</sub>)/P<sub>2</sub> = (750 × 200)/500 = <b>300 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.8315,
+      "question": "The absolute zero of temperature is",
+      "options": [
+        "0°C",
+        "100K",
+        "-273°C",
+        "-373°C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Absolute zero</b> is the lowest possible temperature, at which molecular motion ceases. It is 0 K or <b>−273°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4822,
+      "question": "When a gas is heated at constant volume, its pressure increases because the",
+      "options": [
+        "molecules expand",
+        "molecules move faster and hit the walls more frequently",
+        "number of molecules increases",
+        "molecules become heavier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At constant volume, heating increases the average kinetic energy of the gas molecules. They move faster and collide with the walls more frequently and with greater force, increasing the pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.4905,
+      "question": "Which of the following statements about the anomalous expansion of water is correct?",
+      "options": [
+        "Water contracts from 0°C to 4°C",
+        "Water expands from 0°C to 4°C",
+        "Water has minimum density at 4°C",
+        "Water has maximum volume at 4°C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water exhibits anomalous expansion: it <b>contracts</b> when heated from 0°C to 4°C (its volume decreases, so density increases). Above 4°C, it expands normally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.2478,
+      "question": "The quantity of heat required to convert 0.02kg of steam at 100°C to water at 100°C is [L = 2.26 × 10<sup>6</sup>Jkg<sup>-1</sup>]",
+      "options": [
+        "4.52 × 10<sup>4</sup>J",
+        "4.52 × 10<sup>5</sup>J",
+        "4.52 × 10<sup>3</sup>J",
+        "4.52 × 10<sup>6</sup>J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q = mL<sub>v</sub><br><br>m = 0.02 kg<br>L<sub>v</sub> = 2.26 × 10<sup>6</sup> J kg<sup>-1</sup><br>Q = 0.02 × 2.26 × 10<sup>6</sup> = 4.52 × 10<sup>4</sup> J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.7737,
+      "question": "The general gas equation is",
+      "options": [
+        "P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>",
+        "V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub>",
+        "P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub>",
+        "P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>general gas equation</b> combines Boyle's, Charles', and the pressure laws: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.0251,
+      "question": "The pressure of a fixed mass of gas at constant volume is 200Nm<sup>-2</sup> at 27°C. Calculate the pressure at 127°C.",
+      "options": [
+        "267Nm<sup>-2</sup>",
+        "400Nm<sup>-2</sup>",
+        "133Nm<sup>-2</sup>",
+        "333Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub><br><br>Convert temperatures to Kelvin:<br>T<sub>1</sub> = 27 + 273 = 300 K<br>T<sub>2</sub> = 127 + 273 = 400 K<br>P<sub>1</sub> = 200 N m<sup>-2</sup><br>P<sub>2</sub> = P<sub>1</sub> × (T<sub>2</sub>/T<sub>1</sub>) = 200 × (400/300) = <b>266.7 ≈ 267 N m<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.626,
+      "question": "Which of the following is NOT a mode of heat transfer?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Reflection"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The three modes of heat transfer are <b>conduction, convection, and radiation</b>. Reflection is not a mode of heat transfer; it is a property of surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.9136,
+      "question": "A body of mass 0.5kg at 100°C is dropped into 0.2kg of water at 20°C in a calorimeter of negligible heat capacity. If the final temperature is 40°C, calculate the specific heat capacity of the body. [c of water = 4200Jkg<sup>-1</sup>K<sup>-1</sup>]",
+      "options": [
+        "280Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "420Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "560Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "840Jkg<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat lost by body = Heat gained by water<br><br>m<sub>b</sub>c<sub>b</sub>(100 − 40) = m<sub>w</sub>c<sub>w</sub>(40 − 20)<br>0.5 × c<sub>b</sub> × 60 = 0.2 × 4200 × 20<br>30c<sub>b</sub> = 16800<br>c<sub>b</sub> = 16800/30 = <b>560 J kg<sup>-1</sup> K<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.1433,
+      "question": "The unit of thermal conductivity can also be written as",
+      "options": [
+        "Jm<sup>-1</sup>s<sup>-1</sup>K<sup>-1</sup>",
+        "Jm<sup>-2</sup>s<sup>-1</sup>K<sup>-1</sup>",
+        "Jms<sup>-1</sup>K<sup>-1</sup>",
+        "Jm<sup>2</sup>s<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thermal conductivity k = (Q/t) · L/(AΔT). Unit: W m<sup>-1</sup> K<sup>-1</sup>. Since 1 W = 1 J s<sup>-1</sup>, this is equivalent to <b>J m<sup>-1</sup> s<sup>-1</sup> K<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562228150.0107,
+      "question": "A hole is drilled in a metal plate. When the plate is heated, the diameter of the hole",
+      "options": [
+        "decreases",
+        "increases",
+        "remains the same",
+        "first increases then decreases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a metal plate with a hole is heated, the metal expands uniformly. The hole also expands as if it were made of the same metal. Therefore, the <b>diameter of the hole increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
