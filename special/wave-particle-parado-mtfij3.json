@@ -3,16 +3,718 @@
   "title": "Wave-Particle Paradox",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791569054271.9937,
+      "question": "The wave-particle paradox refers to the fact that radiation and matter can exhibit:",
+      "options": [
+        "Only wave properties",
+        "Only particle properties",
+        "Both wave and particle properties",
+        "Neither wave nor particle properties"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>wave-particle paradox</b> (or duality) is the concept that both radiation (light) and matter (e.g., electrons) can exhibit <b>both wave and particle properties</b> depending on the experiment. This is a fundamental aspect of quantum mechanics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.849,
+      "question": "The wave nature of light is demonstrated by:",
+      "options": [
+        "Photoelectric effect",
+        "Compton effect",
+        "Interference and diffraction",
+        "Blackbody radiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Interference and diffraction</b> are classic wave phenomena. They can only be explained if light behaves as a wave. The photoelectric effect and Compton effect demonstrate particle nature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.7642,
+      "question": "The particle nature of light is demonstrated by:",
+      "options": [
+        "Interference",
+        "Diffraction",
+        "Polarization",
+        "Photoelectric effect"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>photoelectric effect</b> shows that light energy is quantized in photons, thus demonstrating particle nature. Interference, diffraction, and polarization are wave phenomena.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.0015,
+      "question": "The de Broglie wavelength of a particle is given by:",
+      "options": [
+        "λ = h/p",
+        "λ = p/h",
+        "λ = hp",
+        "λ = h/p<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>de Broglie wavelength</b> is given by <b>λ = h/p</b>, where h is Planck's constant and p is the momentum of the particle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1921,
+      "question": "In the de Broglie relation, p represents the:",
+      "options": [
+        "Potential energy",
+        "Momentum",
+        "Power",
+        "Pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In λ = h/p, <b>p</b> is the <b>momentum</b> of the particle, defined as p = mv for a particle of mass m and velocity v.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.3142,
+      "question": "If the momentum of a particle is doubled, its de Broglie wavelength:",
+      "options": [
+        "Doubles",
+        "Halves",
+        "Quadruples",
+        "Remains the same"
+      ],
+      "correctAnswer": 1,
+      "explanation": "λ = h/p. If p is doubled, λ becomes h/(2p) = λ/2, so the wavelength <b>halves</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.461,
+      "question": "If the speed of a particle is doubled, its de Broglie wavelength:",
+      "options": [
+        "Doubles",
+        "Halves",
+        "Quadruples",
+        "Remains the same"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since p = mv, doubling v doubles p. Then λ = h/p becomes λ/2, so the wavelength <b>halves</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.995,
+      "question": "The de Broglie hypothesis states that:",
+      "options": [
+        "Only light has wave properties",
+        "Only electrons have particle properties",
+        "All matter has wave properties",
+        "Matter has no wave properties"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>de Broglie hypothesis</b> states that <b>all matter</b> (not just light) has wave properties, with wavelength λ = h/p.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.3838,
+      "question": "The wave nature of electrons was experimentally confirmed by:",
+      "options": [
+        "Thomson’s cathode ray experiment",
+        "Davisson-Germer experiment",
+        "Rutherford’s gold foil experiment",
+        "Millikan’s oil drop experiment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Davisson-Germer experiment</b> (1927) demonstrated electron diffraction from a nickel crystal, confirming the wave nature of electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.523,
+      "question": "The Davisson-Germer experiment demonstrated:",
+      "options": [
+        "Electron diffraction",
+        "Photoelectric effect",
+        "Nuclear fission",
+        "X-ray production"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Davisson-Germer experiment showed that electrons produce a diffraction pattern, confirming <b>electron diffraction</b> and the wave nature of matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.0867,
+      "question": "The particle nature of electrons is demonstrated by:",
+      "options": [
+        "Electron diffraction",
+        "Deflection in electric and magnetic fields",
+        "Interference",
+        "Polarization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>deflection of electrons in electric and magnetic fields</b> shows they have charge and mass, i.e., particle properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.0483,
+      "question": "The photoelectric effect demonstrates that light behaves as:",
+      "options": [
+        "A wave",
+        "A particle",
+        "A longitudinal wave",
+        "A mechanical wave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The photoelectric effect can only be explained if light consists of discrete packets of energy called photons, so light behaves as a <b>particle</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.7773,
+      "question": "The Compton effect demonstrates that X-rays behave as:",
+      "options": [
+        "Waves",
+        "Particles",
+        "Sound waves",
+        "Stationary waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Compton effect involves the scattering of X-rays by electrons, with a shift in wavelength. This is explained by treating X-rays as <b>particles</b> (photons) colliding with electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.29,
+      "question": "The energy of a photon is given by:",
+      "options": [
+        "E = hf",
+        "E = h/f",
+        "E = f/h",
+        "E = hf<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy of a photon is <b>E = hf</b>, where h is Planck's constant and f is the frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.119,
+      "question": "The momentum of a photon is given by:",
+      "options": [
+        "p = hλ",
+        "p = h/λ",
+        "p = λ/h",
+        "p = hf"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The momentum of a photon is <b>p = h/λ</b>, where λ is the wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.184,
+      "question": "A photon has:",
+      "options": [
+        "Positive charge",
+        "Negative charge",
+        "Zero rest mass",
+        "Infinite rest mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A photon has <b>zero rest mass</b> and no charge. It always moves at the speed of light in vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.09,
+      "question": "The wave associated with a moving particle is called a:",
+      "options": [
+        "Matter wave",
+        "Sound wave",
+        "Radio wave",
+        "Stationary wave"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The wave associated with a moving particle is called a <b>matter wave</b> or de Broglie wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.2207,
+      "question": "The de Broglie wavelength of a particle is inversely proportional to its:",
+      "options": [
+        "Mass only",
+        "Velocity only",
+        "Momentum",
+        "Charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "λ = h/p, so the de Broglie wavelength is inversely proportional to <b>momentum</b> (which depends on both mass and velocity).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.2917,
+      "question": "For a macroscopic object, the de Broglie wavelength is:",
+      "options": [
+        "Very large",
+        "Very small",
+        "Infinite",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a macroscopic object, momentum is large, so λ = h/p is <b>very small</b> (often negligible).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.5642,
+      "question": "The wavefunction of a particle is represented by the symbol:",
+      "options": [
+        "λ",
+        "ψ",
+        "Δ",
+        "ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wavefunction of a particle is represented by the Greek letter <b>ψ (psi)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1565,
+      "question": "According to Born’s interpretation, the square of the wavefunction |ψ|<sup>2</sup> represents:",
+      "options": [
+        "Energy density",
+        "Probability density",
+        "Charge density",
+        "Mass density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Born's interpretation</b> states that |ψ|<sup>2</sup> gives the <b>probability density</b> of finding the particle at a given point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.056,
+      "question": "The Heisenberg uncertainty principle states that:",
+      "options": [
+        "ΔxΔp ≥ h/4π",
+        "ΔxΔp = 0",
+        "ΔxΔp < h",
+        "ΔxΔp = ∞"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>Heisenberg uncertainty principle</b> states that ΔxΔp ≥ h/4π (or sometimes h/2π depending on definition). It means position and momentum cannot both be known exactly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1367,
+      "question": "The uncertainty principle is a consequence of:",
+      "options": [
+        "Wave-particle duality",
+        "Newton’s laws",
+        "Classical mechanics",
+        "Ohm’s law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The uncertainty principle arises from the <b>wave-particle duality</b> of matter. It is a fundamental result of quantum mechanics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.0735,
+      "question": "The principle of complementarity states that:",
+      "options": [
+        "Wave and particle aspects are contradictory",
+        "Wave and particle aspects are complementary",
+        "Only wave aspects exist",
+        "Only particle aspects exist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Bohr's principle of complementarity</b> states that wave and particle aspects are <b>complementary</b>: they are both necessary to fully describe quantum objects, but cannot be observed simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.7766,
+      "question": "In the double-slit experiment with electrons, an interference pattern is observed when:",
+      "options": [
+        "Which-path information is known",
+        "Which-path information is not known",
+        "Electrons are replaced by bullets",
+        "Only one slit is open"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interference pattern appears only when <b>which-path information is not known</b>. If one knows which slit the electron passed through, the interference pattern disappears.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1929,
+      "question": "If which-path information is obtained in a double-slit experiment, the interference pattern:",
+      "options": [
+        "Becomes sharper",
+        "Disappears",
+        "Doubles",
+        "Remains unchanged"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If which-path information is obtained, the wavefunction collapses and the <b>interference pattern disappears</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.538,
+      "question": "A single electron passing through a double slit can:",
+      "options": [
+        "Pass through both slits as a wave",
+        "Never produce interference",
+        "Only pass through one slit as a particle",
+        "Be stopped by the slits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A single electron can pass through both slits as a wave, interfering with itself. This is a key demonstration of wave-particle duality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.5007,
+      "question": "When many electrons pass through a double slit one at a time, the result is:",
+      "options": [
+        "No pattern",
+        "A single bright spot",
+        "An interference pattern",
+        "A shadow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Even when electrons pass one at a time, an <b>interference pattern</b> builds up over time, showing each electron interferes with itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1914,
+      "question": "Matter waves are:",
+      "options": [
+        "Electromagnetic waves",
+        "Probability waves",
+        "Sound waves",
+        "Mechanical waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Matter waves are <b>probability waves</b>; their square gives the probability density of finding the particle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1692,
+      "question": "The group velocity of a matter wave is equal to:",
+      "options": [
+        "The particle velocity",
+        "The speed of light",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>group velocity</b> of a matter wave equals the <b>particle velocity</b>, while the phase velocity is not directly measurable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.4746,
+      "question": "The phase velocity of a matter wave is:",
+      "options": [
+        "Directly measurable",
+        "Not directly measurable",
+        "Equal to c",
+        "Always zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>phase velocity</b> of a matter wave is <b>not directly measurable</b> and can exceed c without violating relativity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.1965,
+      "question": "The electron microscope uses the wave nature of electrons because electrons have:",
+      "options": [
+        "Long wavelengths",
+        "Short wavelengths",
+        "No charge",
+        "High mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electrons have very <b>short wavelengths</b> at typical accelerating voltages, allowing much higher resolution than optical microscopes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054271.8364,
+      "question": "The resolving power of an electron microscope is better than that of an optical microscope because:",
+      "options": [
+        "Electrons have shorter wavelengths",
+        "Electrons have longer wavelengths",
+        "Electrons are heavier",
+        "Electrons are neutral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolution is limited by wavelength. Since electrons have <b>shorter wavelengths</b> than visible light, the electron microscope has better resolving power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.466,
+      "question": "Neutron diffraction is used to study:",
+      "options": [
+        "Crystal structures",
+        "Sound waves",
+        "Radio signals",
+        "Electric circuits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Neutron diffraction</b> is used to study <b>crystal structures</b>, especially for light atoms and magnetic materials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.1335,
+      "question": "The Schrödinger equation is a:",
+      "options": [
+        "Wave equation for matter",
+        "Gas law",
+        "Circuit law",
+        "Magnetic law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>Schrödinger equation</b> is a fundamental <b>wave equation for matter</b> that describes how the wavefunction of a quantum system evolves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.1572,
+      "question": "The particle in a box model shows that:",
+      "options": [
+        "Energy is continuous",
+        "Energy is quantized",
+        "Energy is infinite",
+        "Energy is zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The particle in a box model shows that confined particles can only have certain discrete energy levels, i.e., <b>energy is quantized</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.819,
+      "question": "Wave-particle duality applies to:",
+      "options": [
+        "Only light",
+        "Only electrons",
+        "All matter and radiation",
+        "Only sound"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Wave-particle duality</b> applies to <b>all matter and radiation</b>. Everything exhibits both wave and particle properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.7183,
+      "question": "The wavelength of a 1 kg object moving at 1 m/s is approximately:",
+      "options": [
+        "6.63 × 10<sup>-34</sup> m",
+        "6.63 × 10<sup>-31</sup> m",
+        "3.0 × 10<sup>8</sup> m",
+        "1.0 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "λ = h/p = h/(mv) = (6.63 × 10<sup>-34</sup>)/(1 × 1) = <b>6.63 × 10<sup>-34</sup> m</b>, extremely small.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.3306,
+      "question": "The de Broglie wavelength of an electron accelerated through a potential V is proportional to:",
+      "options": [
+        "1/√V",
+        "√V",
+        "V",
+        "1/V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an electron accelerated through V, λ = h/√(2meV). Thus λ ∝ <b>1/√V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.517,
+      "question": "The concept of the photon was proposed by:",
+      "options": [
+        "Newton",
+        "Einstein",
+        "Bohr",
+        "Rutherford"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Einstein</b> proposed the concept of the photon in 1905 to explain the photoelectric effect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.3384,
+      "question": "The de Broglie hypothesis was proposed by:",
+      "options": [
+        "de Broglie",
+        "Thomson",
+        "Dalton",
+        "Faraday"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Louis de Broglie</b> proposed the hypothesis that all matter has wave properties in 1924.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.2021,
+      "question": "The wave-particle paradox is resolved by:",
+      "options": [
+        "Classical mechanics",
+        "Quantum mechanics",
+        "Thermodynamics",
+        "Electromagnetism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wave-particle paradox is resolved by <b>quantum mechanics</b>, which describes objects using wavefunctions and probabilities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.5667,
+      "question": "In quantum mechanics, an electron is described by:",
+      "options": [
+        "A definite trajectory",
+        "A wavefunction",
+        "A solid sphere",
+        "A point charge only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In quantum mechanics, an electron is described by a <b>wavefunction</b> ψ, which contains all information about the particle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.8752,
+      "question": "The probability of finding a particle in a region is obtained from:",
+      "options": [
+        "ψ",
+        "|ψ|<sup>2</sup>",
+        "h",
+        "p"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The probability density is given by <b>|ψ|<sup>2</sup></b>. Integrating this over a region gives the probability of finding the particle there.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.9507,
+      "question": "The wavelength associated with a moving cricket ball is:",
+      "options": [
+        "Extremely small",
+        "Extremely large",
+        "Infinite",
+        "Equal to that of light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a cricket ball, mass and velocity are large, so λ = h/p is <b>extremely small</b>, far below any measurable scale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.3862,
+      "question": "The energy of a photon of wavelength λ is:",
+      "options": [
+        "E = hc/λ",
+        "E = hλ/c",
+        "E = hcλ",
+        "E = h/cλ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using E = hf and c = fλ, we get f = c/λ, so <b>E = hc/λ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.1309,
+      "question": "If the frequency of a photon is doubled, its energy:",
+      "options": [
+        "Halves",
+        "Doubles",
+        "Remains the same",
+        "Quadruples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = hf. If f is doubled, E <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.8293,
+      "question": "If the wavelength of a photon is doubled, its momentum:",
+      "options": [
+        "Doubles",
+        "Halves",
+        "Remains the same",
+        "Quadruples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "p = h/λ. If λ is doubled, p <b>halves</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.6091,
+      "question": "The wave nature of matter is significant for:",
+      "options": [
+        "Large masses",
+        "Microscopic particles",
+        "Only neutral particles",
+        "Only charged particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wave nature of matter is significant for <b>microscopic particles</b> like electrons, where λ = h/p can be comparable to atomic dimensions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569054272.5347,
+      "question": "The wave-particle duality of electrons is demonstrated by:",
+      "options": [
+        "Electron diffraction and deflection in fields",
+        "Only electron diffraction",
+        "Only deflection in fields",
+        "Neither diffraction nor deflection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Electron diffraction</b> shows wave nature, while <b>deflection in electric and magnetic fields</b> shows particle nature. Together they demonstrate wave-particle duality.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
