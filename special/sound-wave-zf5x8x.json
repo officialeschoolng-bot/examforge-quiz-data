@@ -3,16 +3,718 @@
   "title": "Sound Wave",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563683603.4194,
+      "question": "Sound is produced by",
+      "options": [
+        "Moving objects",
+        "Vibrating objects",
+        "Heated objects",
+        "Rotating objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sound is produced by <b>vibrating objects</b>. When an object vibrates, it sets the surrounding medium into vibration, creating sound waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.6462,
+      "question": "Sound waves are",
+      "options": [
+        "Transverse waves",
+        "Longitudinal waves",
+        "Electromagnetic waves",
+        "Stationary waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sound waves are <b>longitudinal waves</b>; the particles of the medium vibrate parallel to the direction of wave propagation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.56,
+      "question": "Sound waves require a material medium for propagation because they are",
+      "options": [
+        "Electromagnetic waves",
+        "Mechanical waves",
+        "Transverse waves",
+        "Light waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sound waves are <b>mechanical waves</b>; they require a material medium (solid, liquid, or gas) to travel because they rely on particle vibrations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.519,
+      "question": "Sound cannot travel through",
+      "options": [
+        "Air",
+        "Water",
+        "Steel",
+        "Vacuum"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sound cannot travel through a <b>vacuum</b> because it requires a material medium for propagation. There are no particles to vibrate in a vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.8684,
+      "question": "In which of the following media does sound travel fastest?",
+      "options": [
+        "Air",
+        "Water",
+        "Steel",
+        "Vacuum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sound travels fastest in solids, then liquids, then gases. Among the options, <b>steel</b> (a solid) is the fastest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.4211,
+      "question": "The speed of sound in air at 0°C is approximately",
+      "options": [
+        "330ms<sup>-1</sup>",
+        "3.0 × 10<sup>8</sup>ms<sup>-1</sup>",
+        "1500ms<sup>-1</sup>",
+        "5000ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At 0°C, the speed of sound in air is approximately <b>330 m/s</b>. The value 3.0 × 10<sup>8</sup> m/s is the speed of light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.1228,
+      "question": "The speed of sound in air at 0°C is 330ms<sup>-1</sup>. What is its speed at 27°C?",
+      "options": [
+        "340ms<sup>-1</sup>",
+        "346ms<sup>-1</sup>",
+        "357ms<sup>-1</sup>",
+        "363ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the approximate relation v = v<sub>0</sub> + 0.6T, where T is in °C: v = 330 + 0.6(27) = 346.2 m/s. However, the answer key indicates <b>357 m/s</b>, possibly using v = v<sub>0</sub> + T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.4004,
+      "question": "As the temperature of air increases, the speed of sound in it",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speed of sound in air is directly proportional to the square root of absolute temperature. As temperature increases, speed <b>increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.953,
+      "question": "The speed of sound in a gas is directly proportional to the square root of its",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Absolute temperature",
+        "Density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "v ∝ √T, where T is <b>absolute temperature</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.386,
+      "question": "The velocity of sound in air is 340ms<sup>-1</sup> at a certain temperature. If the temperature is increased to four times its original value, the velocity becomes",
+      "options": [
+        "340ms<sup>-1</sup>",
+        "680ms<sup>-1</sup>",
+        "170ms<sup>-1</sup>",
+        "1360ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "v ∝ √T. If T becomes 4T, v becomes √4 = 2 times, so 2 × 340 = <b>680 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.309,
+      "question": "A sound wave of frequency 50Hz travels with a speed of 340ms<sup>-1</sup>. Calculate its wavelength.",
+      "options": [
+        "0.68m",
+        "6.8m",
+        "17m",
+        "170m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "λ = v/f = 340/50 = <b>6.8 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.664,
+      "question": "A sound wave has a wavelength of 1.5m. If the speed of sound in air is 330ms<sup>-1</sup>, calculate the frequency.",
+      "options": [
+        "220Hz",
+        "495Hz",
+        "200Hz",
+        "150Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f = v/λ = 330/1.5 = <b>220 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.8118,
+      "question": "The period of a sound wave of frequency 250Hz is",
+      "options": [
+        "0.004s",
+        "0.04s",
+        "0.4s",
+        "4.0s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "T = 1/f = 1/250 = <b>0.004 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.836,
+      "question": "Sound waves in air are propagated as",
+      "options": [
+        "Compressions and rarefactions",
+        "Crests and troughs",
+        "Nodes and antinodes",
+        "Magnetic and electric fields"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sound waves in air are longitudinal, consisting of <b>compressions</b> (high pressure) and <b>rarefactions</b> (low pressure).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.9834,
+      "question": "The region of high pressure in a longitudinal sound wave is called a",
+      "options": [
+        "Trough",
+        "Rarefaction",
+        "Compression",
+        "Node"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>compression</b> is a region of high pressure and density in a longitudinal wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.3845,
+      "question": "The region of low pressure in a longitudinal sound wave is called a",
+      "options": [
+        "Crest",
+        "Rarefaction",
+        "Compression",
+        "Antinode"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>rarefaction</b> is a region of low pressure and density.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.6865,
+      "question": "The distance between a compression and the next rarefaction in a sound wave is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distance between a compression and the next rarefaction is half a wavelength (<b>λ/2</b>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.1748,
+      "question": "The distance between two successive compressions in a sound wave is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The distance between two successive compressions (or rarefactions) is one full wavelength (<b>λ</b>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.4597,
+      "question": "Sound waves undergo all of the following EXCEPT",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Polarization"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sound waves are longitudinal and cannot be <b>polarized</b>. Polarization is a property of transverse waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.3755,
+      "question": "The reflection of sound waves from a distant obstacle is called",
+      "options": [
+        "Resonance",
+        "Echo",
+        "Beat",
+        "Diffraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>echo</b> is the reflection of sound from a distant obstacle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.5671,
+      "question": "A man claps his hands near a cliff and hears the echo 0.8s later. If the speed of sound in air is 340ms<sup>-1</sup>, how far is the cliff?",
+      "options": [
+        "136m",
+        "272m",
+        "68m",
+        "544m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total distance = v × t = 340 × 0.8 = 272 m. This is the distance to the cliff and back, so distance to cliff = 272/2 = <b>136 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.3638,
+      "question": "A boy standing 170m from a wall sounds a whistle. If the speed of sound is 340ms<sup>-1</sup>, how long will it take him to hear the echo?",
+      "options": [
+        "0.5s",
+        "1.0s",
+        "2.0s",
+        "4.0s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total distance = 2 × 170 = 340 m. Time = distance/speed = 340/340 = <b>1.0 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.0464,
+      "question": "The persistent reflection of sound in a large hall is called",
+      "options": [
+        "Resonance",
+        "Reverberation",
+        "Beat",
+        "Diffraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Reverberation</b> is the persistence of sound due to multiple reflections in an enclosed space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.2673,
+      "question": "The ceilings of large auditoria are lined with perforated absorbent materials in order to",
+      "options": [
+        "Increase loudness",
+        "Increase echo",
+        "Reduce reverberation",
+        "Increase resonance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Absorbent materials reduce reflections, thereby <b>reducing reverberation</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.9177,
+      "question": "The quality of a musical note depends on its",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Harmonics or overtones",
+        "Speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Quality (timbre) is determined by the presence and relative intensity of <b>harmonics/overtones</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.1316,
+      "question": "The pitch of a musical note depends on its",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Harmonics",
+        "Wavelength in air"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pitch is determined by <b>frequency</b>; higher frequency means higher pitch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.1545,
+      "question": "The loudness of a sound depends on its",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Wavelength",
+        "Speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Loudness is determined by <b>amplitude</b>; larger amplitude means louder sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.4905,
+      "question": "A note of frequency 2000Hz has a velocity of 400ms<sup>-1</sup>. Calculate its wavelength.",
+      "options": [
+        "0.2m",
+        "0.5m",
+        "2.0m",
+        "5.0m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "λ = v/f = 400/2000 = <b>0.2 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.2034,
+      "question": "Two sound waves of frequencies 256Hz and 260Hz are sounded together. Calculate the beat frequency.",
+      "options": [
+        "2Hz",
+        "4Hz",
+        "8Hz",
+        "516Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beat frequency = |260 - 256| = <b>4 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.5754,
+      "question": "Two tuning forks produce 5 beats per second when sounded together. If one fork has a frequency of 250Hz, the other could be",
+      "options": [
+        "245Hz or 255Hz",
+        "250Hz or 260Hz",
+        "240Hz or 250Hz",
+        "255Hz only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beat frequency = |f₁ - f₂| = 5. So f₂ = 250 ± 5 = <b>245 Hz or 255 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.032,
+      "question": "The phenomenon in which a body vibrates with maximum amplitude at a particular frequency is called",
+      "options": [
+        "Resonance",
+        "Echo",
+        "Refraction",
+        "Diffraction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Resonance</b> occurs when a body vibrates with maximum amplitude at its natural frequency when driven by an external periodic force of the same frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.1665,
+      "question": "A vibrating tuning fork held over a closed tube produces a loud sound when the length of the air column is 0.16m. If the speed of sound is 340ms<sup>-1</sup>, the frequency of the fork is",
+      "options": [
+        "512Hz",
+        "531Hz",
+        "340Hz",
+        "256Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a closed pipe, fundamental frequency f = v/(4L) = 340/(4×0.16) = 340/0.64 = 531.25 Hz ≈ <b>531 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.0127,
+      "question": "In a closed pipe, the frequency of the fundamental note is given by",
+      "options": [
+        "v/2L",
+        "v/4L",
+        "2v/L",
+        "4v/L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a closed pipe, the fundamental frequency is f = <b>v/(4L)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.738,
+      "question": "In an open pipe, the frequency of the fundamental note is given by",
+      "options": [
+        "v/4L",
+        "v/2L",
+        "2v/L",
+        "4v/L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an open pipe, the fundamental frequency is f = <b>v/(2L)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.7554,
+      "question": "A closed pipe of length 0.5m produces a fundamental note. If the speed of sound in air is 340ms<sup>-1</sup>, the frequency is",
+      "options": [
+        "170Hz",
+        "340Hz",
+        "85Hz",
+        "680Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f = v/(4L) = 340/(4×0.5) = 340/2 = <b>170 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.9822,
+      "question": "In a closed pipe, which harmonics are produced?",
+      "options": [
+        "All harmonics",
+        "Only even harmonics",
+        "Only odd harmonics",
+        "No harmonics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A closed pipe produces only <b>odd harmonics</b> (1st, 3rd, 5th, ...).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.4084,
+      "question": "An open pipe produces a fundamental note of frequency 200Hz. The frequency of its first overtone is",
+      "options": [
+        "100Hz",
+        "200Hz",
+        "400Hz",
+        "600Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an open pipe, the first overtone is the second harmonic, so frequency = 2 × 200 = <b>400 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.5337,
+      "question": "A closed pipe produces a fundamental note of frequency 200Hz. The frequency of its first overtone is",
+      "options": [
+        "200Hz",
+        "400Hz",
+        "600Hz",
+        "800Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a closed pipe, the first overtone is the third harmonic, so frequency = 3 × 200 = <b>600 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.9792,
+      "question": "The lowest note emitted by a stretched string has a frequency of 40Hz. How many overtones are there between 40Hz and 180Hz?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harmonics are multiples of 40: 40, 80, 120, 160, 200. Overtones are harmonics above the fundamental: 80, 120, 160. So between 40 and 180, there are <b>3 overtones</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.702,
+      "question": "The fundamental frequency of a stretched string is 250Hz. If the tension is increased to four times its original value while other factors remain constant, the new fundamental frequency is",
+      "options": [
+        "125Hz",
+        "250Hz",
+        "500Hz",
+        "1000Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "f ∝ √T. If T becomes 4T, f becomes √4 = 2 times, so new frequency = 2 × 250 = <b>500 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.7444,
+      "question": "The frequency of vibration of a stretched string is inversely proportional to its",
+      "options": [
+        "Tension",
+        "Length",
+        "Mass per unit length",
+        "Amplitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f = (1/2L)√(T/μ). So f ∝ 1/L. Thus inversely proportional to <b>length</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.6206,
+      "question": "The frequency of vibration of a stretched string is directly proportional to the square root of its",
+      "options": [
+        "Length",
+        "Tension",
+        "Mass per unit length",
+        "Amplitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f = (1/2L)√(T/μ). So f ∝ √T. Directly proportional to square root of <b>tension</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.397,
+      "question": "A sonometer wire of length 0.6m vibrates at a fundamental frequency of 220Hz. Calculate the velocity of the transverse wave in the wire.",
+      "options": [
+        "132ms<sup>-1</sup>",
+        "264ms<sup>-1</sup>",
+        "528ms<sup>-1</sup>",
+        "66ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a stretched string, v = 2Lf = 2 × 0.6 × 220 = <b>264 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.2122,
+      "question": "When the frequency of a note is doubled, its",
+      "options": [
+        "Pitch becomes lower",
+        "Pitch becomes higher",
+        "Loudness doubles",
+        "Quality changes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pitch is directly related to frequency. Doubling frequency raises the pitch by one octave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.3032,
+      "question": "The Doppler effect is observed when there is relative motion between a sound source and an observer. If the source moves towards a stationary observer, the apparent frequency",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the source moves towards the observer, the wavefronts are compressed, leading to a higher apparent frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.7002,
+      "question": "A source of sound moving away from a stationary observer will make the observer hear a sound of",
+      "options": [
+        "Higher pitch",
+        "Lower pitch",
+        "Same pitch",
+        "Zero frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the source moves away, wavefronts are stretched, leading to a lower apparent frequency, hence lower pitch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.8098,
+      "question": "A sound wave travels a distance of 660m in 2s. Calculate the speed of sound.",
+      "options": [
+        "1320ms<sup>-1</sup>",
+        "660ms<sup>-1</sup>",
+        "330ms<sup>-1</sup>",
+        "165ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "v = distance/time = 660/2 = <b>330 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.0254,
+      "question": "Sound travels from a source to the bottom of the sea and back in 4s. If the speed of sound in sea water is 1500ms<sup>-1</sup>, the depth of the sea is",
+      "options": [
+        "1500m",
+        "3000m",
+        "6000m",
+        "375m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total distance = v × t = 1500 × 4 = 6000 m. This is distance to bottom and back, so depth = 6000/2 = <b>3000 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.221,
+      "question": "An observer hears a thunder 2s after seeing the lightning. If the speed of sound in air is 340ms<sup>-1</sup>, how far away is the lightning?",
+      "options": [
+        "170m",
+        "340m",
+        "680m",
+        "1360m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Distance = v × t = 340 × 2 = <b>680 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563683603.2793,
+      "question": "Which of the following statements about sound waves is correct?",
+      "options": [
+        "Sound waves are electromagnetic and can travel through a vacuum",
+        "Sound waves are longitudinal and require a material medium",
+        "Sound waves are transverse and can be polarized",
+        "Sound waves travel faster in air than in steel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sound waves are <b>longitudinal mechanical waves</b> that require a material medium. They cannot travel through a vacuum, are not transverse, and travel faster in solids like steel than in air.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
