@@ -3,16 +3,718 @@
   "title": "Scalars and Vectors",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791561532708.2502,
+      "question": "A quantity which requires magnitude and direction to be specified is",
+      "options": [
+        "Temperature",
+        "Distance",
+        "Displacement",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A vector quantity requires both magnitude and direction. Displacement is a vector, while temperature, distance, and mass are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.7888,
+      "question": "I. Electrical potential, II. Torque, III. Kinetic Energy, IV. Momentum. Which of the quantities listed are vectors?",
+      "options": [
+        "II and IV",
+        "I and II",
+        "I and III",
+        "II and III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Torque and momentum are vectors. Electrical potential and kinetic energy are scalars. Therefore, II and IV are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.3167,
+      "question": "Which of the following is NOT a vector quantity?",
+      "options": [
+        "Altitude",
+        "Acceleration",
+        "Displacement",
+        "Weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Altitude is a scalar (height above a reference level). Acceleration, displacement, and weight are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.823,
+      "question": "The pair of physical quantities that are scalar only are",
+      "options": [
+        "Volume and area",
+        "Moment and momentum",
+        "Length and displacement",
+        "Impulse and time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume and area are both scalars. Moment and momentum are vectors. Displacement and impulse are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.6826,
+      "question": "Which of the following is a set of vectors?",
+      "options": [
+        "Force, mass and moment",
+        "Acceleration, velocity and moment",
+        "Mass, weight and density",
+        "Mass, volume and density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration, velocity, and moment (torque) are all vectors. Mass, density, volume are scalars; weight is a vector but mixed with scalars in other options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.825,
+      "question": "Which of the following quantities are scalars? i. Electrical potential ii. Torque iii. Momentum iv. Kinetic energy",
+      "options": [
+        "ii and iii only",
+        "i and ii only",
+        "iii and iv only",
+        "i and iv only"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electrical potential and kinetic energy are scalars. Torque and momentum are vectors. So i and iv only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.5461,
+      "question": "Each of the following physical quantities is classified as a vector or a scalar quantity. Which of the classifications is correct?",
+      "options": [
+        "Electric potential (Vector)",
+        "Momentum (Scalar)",
+        "Gravitational field intensity (Scalar)",
+        "Magnetic flux density (Vector)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Magnetic flux density is a vector. Electric potential is scalar, momentum is vector, gravitational field intensity is vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.298,
+      "question": "Which of the following physical quantities is NOT a vector?",
+      "options": [
+        "Velocity",
+        "Work",
+        "Force",
+        "Electric field intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work is a scalar quantity. Velocity, force, and electric field intensity are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.0908,
+      "question": "An example of a scalar quantity is",
+      "options": [
+        "Velocity",
+        "Weight",
+        "Electric charge",
+        "Acceleration due to gravity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electric charge is a scalar. Velocity, weight, and acceleration due to gravity are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.5217,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Tension",
+        "Weight",
+        "Impulse",
+        "Distance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Distance is a scalar. Tension, weight, and impulse are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.9849,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Momentum",
+        "Acceleration",
+        "Displacement",
+        "Distance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Distance is scalar. Momentum, acceleration, and displacement are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.8164,
+      "question": "Which of the following is NOT a vector quantity?",
+      "options": [
+        "Force",
+        "Altitude",
+        "Weight",
+        "Displacement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Altitude is a scalar. Force, weight, and displacement are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.2769,
+      "question": "The pair of physical quantities consisting of vectors only are",
+      "options": [
+        "Momentum and power",
+        "Velocity and distance",
+        "Displacement and torque",
+        "Acceleration and speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Displacement and torque are both vectors. Momentum is vector but power scalar; velocity vector, distance scalar; acceleration vector, speed scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532708.6443,
+      "question": "Which one of the following is a vector quantity?",
+      "options": [
+        "Temperature gradient",
+        "Mass",
+        "Work",
+        "Time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Temperature gradient is a vector (it has direction of maximum increase of temperature). Mass, work, and time are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.4346,
+      "question": "I. A scalar quantity has only magnitude. II. A scalar quantity has both magnitude and direction. III. A vector quantity has both magnitude and direction. IV. A vector quantity has only magnitude. Which of the above statements is/are correct?",
+      "options": [
+        "I only",
+        "I and II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Statements I and III are correct. A scalar has only magnitude; a vector has both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.749,
+      "question": "Which of the following is a vector?",
+      "options": [
+        "Electric charge",
+        "Electric field",
+        "Electrical potential difference",
+        "Electrical capacitance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric field is a vector. Electric charge, potential difference, and capacitance are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.643,
+      "question": "Which of the following pairs of physical quantities comprises vectors?",
+      "options": [
+        "Capacitance and inductance",
+        "Force ratio and velocity ratio",
+        "Friction and momentum",
+        "Energy and power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Friction (a force) and momentum are vectors. Capacitance, inductance, ratios, energy, and power are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.4414,
+      "question": "Which of the following pairs of physical quantities is made up of vectors?",
+      "options": [
+        "Speed and displacement",
+        "Mass and force",
+        "Displacement and acceleration",
+        "Momentum and length"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Displacement and acceleration are both vectors. Speed, mass, length are scalars; force and momentum are vectors but mixed with scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.8225,
+      "question": "A vector quantity can only be completely described when ______ and ______ are mentioned.",
+      "options": [
+        "Magnitude and motion",
+        "Magnitude and direction",
+        "Distance and specified displacement",
+        "Moment and momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A vector is completely specified by its magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.533,
+      "question": "Two forces whose resultant is 100N are at right angles to each other. If one of them makes an angle of 30° with the resultant, determine its magnitude.",
+      "options": [
+        "8.66N",
+        "50.0N",
+        "57.7N",
+        "86.6N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For two perpendicular forces, the angle α between one force F₁ and the resultant R satisfies cos α = F₁/R. Thus F₁ = R cos 30° = 100 × 0.866 = 86.6 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.6035,
+      "question": "The magnitude of the resultant of two mutually perpendicular forces, F₁ and F₂ is 13N. If the magnitude of F₁ is 5N, what is the magnitude of F₂?",
+      "options": [
+        "2.6N",
+        "6.0N",
+        "12.0N",
+        "18.0N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Pythagoras: R² = F₁² + F₂². 13² = 5² + F₂² ⇒ 169 = 25 + F₂² ⇒ F₂² = 144 ⇒ F₂ = 12 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.378,
+      "question": "Two forces of magnitudes 7N and 3N act at right angles to each other. The angle θ between the resultant and the 7N force is given by",
+      "options": [
+        "cosθ = 3/7",
+        "sinθ = 3/7",
+        "tanθ = 3/7",
+        "cotθ = 3/7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For perpendicular forces, tan θ = (opposite force)/(adjacent force) = 3/7, where θ is the angle between the resultant and the 7 N force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.9258,
+      "question": "The resultant of two forces is 50N. If the forces are perpendicular to each other and one of them makes an angle of 30° with the resultant, find its magnitude.",
+      "options": [
+        "100.0N",
+        "57.7N",
+        "43.3N",
+        "25.0N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As in a similar case, F = R cos 30° = 50 × 0.866 = 43.3 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.5798,
+      "question": "Two forces 3N and 4N act on a body in directions due north and due east respectively. Calculate their equilibrant.",
+      "options": [
+        "5N 53° east of North",
+        "5N 53° west of the south",
+        "5N 37° north of east",
+        "7N 37° west of North"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resultant = √(3² + 4²) = 5 N. The angle with east is tan⁻¹(3/4) = 37°, so the resultant is 5 N at 37° north of east. The equilibrant is opposite, but the option matching the resultant direction is C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.634,
+      "question": "The resultant of two forces 12N and 5N is 13N. What is the angle between the two forces?",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "R² = F₁² + F₂² + 2F₁F₂ cos θ. 13² = 12² + 5² + 2(12)(5) cos θ ⇒ 169 = 144 + 25 + 120 cos θ ⇒ 0 = 120 cos θ ⇒ cos θ = 0 ⇒ θ = 90°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.1223,
+      "question": "Two forces each of 10N act on a body, one towards the north and the other towards the east. The magnitude and the direction of the resultant force are",
+      "options": [
+        "20N, 45°E",
+        "20N, 45°W",
+        "10√2N, 45°W",
+        "10√2N, 45°E"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Perpendicular forces: R = √(10² + 10²) = 10√2 N. The resultant points north-east, i.e., 45° east of north.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.463,
+      "question": "Two forces, whose resultant is 100N, are perpendicular to each other. If one of them makes an angle of 60° with the resultant, calculate the magnitude.",
+      "options": [
+        "200.0N",
+        "173.2N",
+        "115.5N",
+        "50.0N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F = R cos 60° = 100 × 0.5 = 50.0 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.4182,
+      "question": "A boat travels due east at a speed of 40ms⁻¹ across a river flowing due south at 30ms⁻¹. What is the resultant speed of the boat?",
+      "options": [
+        "1.3ms⁻¹",
+        "10.0ms⁻¹",
+        "50.0ms⁻¹",
+        "70.0ms⁻¹"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Perpendicular velocities: R = √(40² + 30²) = √(1600 + 900) = √2500 = 50.0 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.5432,
+      "question": "A man walks 8km north and then 5km in a direction 60° east of north. Find the distance from his starting point.",
+      "options": [
+        "11.36km",
+        "12.36km",
+        "13.00km",
+        "14.36km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First displacement: (0,8). Second: 5 km at 60° east of north gives east = 5 sin60 = 4.33, north = 5 cos60 = 2.5. Total north = 10.5, east = 4.33. Distance = √(10.5² + 4.33²) = √(110.25 + 18.75) = √129 ≈ 11.36 km.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.8823,
+      "question": "A man walks 1km due east and then 1km due north. His displacement is",
+      "options": [
+        "1km N15°E",
+        "1km N30°E",
+        "√2km N45°E",
+        "√2km N60°E"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Displacement = √(1² + 1²) = √2 km. The direction is 45° east of north (north-east).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.9717,
+      "question": "A lorry travels 10km northwards, 4km eastwards, 6km southwards, 4km westwards to arrive at a point T. What is the total displacement?",
+      "options": [
+        "6km south",
+        "4km north",
+        "6km north",
+        "4km east"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Net north-south = 10 − 6 = 4 km north. Net east-west = 4 − 4 = 0. So displacement is 4 km north.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.612,
+      "question": "An aircraft attempts to fly due north at 100kmh⁻¹. If the wind blows against it from east to west at 60kmh⁻¹, its resultant velocity is",
+      "options": [
+        "117kmh⁻¹, N31°E",
+        "127kmh⁻¹, N31°E",
+        "117kmh⁻¹, N31°W",
+        "127kmh⁻¹, N31°W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity = north 100 + west 60. Magnitude = √(100² + 60²) = √13600 ≈ 116.6 ≈ 117 km/h. Angle west of north = tan⁻¹(60/100) ≈ 31°. So N31°W.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.5908,
+      "question": "An aircraft travelled from Calabar to Kano as follows: it flew first to Ilorin covering a distance of 300km, 30° west of North, and then flew 400km, 60° East of North to Kano. What is the resultant displacement?",
+      "options": [
+        "567km",
+        "410km",
+        "594km",
+        "500km"
+      ],
+      "correctAnswer": 3,
+      "explanation": "First leg: north = 300 cos30 = 259.8, west = 300 sin30 = 150. Second leg: north = 400 cos60 = 200, east = 400 sin60 = 346.4. Net north = 459.8, net east = 196.4. Resultant = √(459.8² + 196.4²) ≈ 500 km.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.1719,
+      "question": "A motorcyclist, passing a road junction, moves due west for 8s at a uniform speed of 5ms⁻¹. He then moves due north for another 6s with the same speed. At the end of the 6s his displacement from the road junction is 50m in the direction of",
+      "options": [
+        "N53°E",
+        "N37°E",
+        "N53°W",
+        "N37°W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "West displacement = 5×8 = 40 m. North displacement = 5×6 = 30 m. Resultant = √(40² + 30²) = 50 m. Angle west of north = tan⁻¹(40/30) = 53.13° ≈ 53°W. So N53°W.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.3916,
+      "question": "A ball is moving at 18ms⁻¹ in a direction inclined at 60° to the horizontal. The horizontal component of its velocity is",
+      "options": [
+        "9√3ms⁻¹",
+        "6√3ms⁻¹",
+        "8√3ms⁻¹",
+        "9ms⁻¹"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Horizontal component = v cos θ = 18 cos 60° = 18 × 0.5 = 9 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.1577,
+      "question": "A body of weight W N rests on a smooth plane inclined at an angle θ° to the horizontal. What is the resolved part of the weight in Newtons along the plane?",
+      "options": [
+        "W sinθ",
+        "W cosθ",
+        "W secθ",
+        "W tanθ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The component of weight along the inclined plane is W sin θ. The perpendicular component is W cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.2344,
+      "question": "One of the conditions necessary for an object to be in equilibrium when acted upon by a number of parallel forces is that the vector sum of the forces is",
+      "options": [
+        "Average",
+        "Zero",
+        "Negative",
+        "Positive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For equilibrium under parallel forces, the algebraic sum of the forces (vector sum) must be zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.8843,
+      "question": "What happens when three coplanar non-parallel forces are in equilibrium?",
+      "options": [
+        "Their lines of action are parallel.",
+        "They are represented in magnitude only.",
+        "They are represented in direction only.",
+        "Their lines of action meet at a point."
+      ],
+      "correctAnswer": 3,
+      "explanation": "For three coplanar non-parallel forces to be in equilibrium, their lines of action must be concurrent (meet at a point).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.691,
+      "question": "Which of the following statements are correct about an object in equilibrium under parallel forces? i. The total clockwise moments of the forces about any point equals the total anti-clockwise moments about the same point. ii. The total forces in one direction equals the total forces in the opposite direction. iii. The resolved components along the x-axis equals the resolved components along the y-axis.",
+      "options": [
+        "i and ii only",
+        "i and iii only",
+        "ii and iii",
+        "i, ii and iii only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For equilibrium: sum of forces in one direction equals sum in opposite (ii), and sum of clockwise moments equals sum of anticlockwise moments (i). Statement iii is incorrect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.1638,
+      "question": "A particle of mass M which is at rest splits up into two. If the mass and velocity of one of the particles are m and v respectively, calculate the velocity of the second particle.",
+      "options": [
+        "mv/M",
+        "Mv/(M−m)",
+        "mv/(M+m)",
+        "mv/(M−m)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Momentum conservation: 0 = m v + (M−m) v₂ ⇒ v₂ = − m v / (M−m). Magnitude = mv/(M−m).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.461,
+      "question": "A ball of mass 0.15kg is kicked against a rigid vertical wall with a horizontal velocity of 50ms⁻¹. If it rebounds with a horizontal velocity of 30ms⁻¹, calculate the impulse of the ball on the ball.",
+      "options": [
+        "3.0Ns",
+        "4.5Ns",
+        "7.5Ns",
+        "12.0Ns"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Impulse = change in momentum = m(v_f − v_i) = 0.15(−30 − 50) = 0.15(−80) = −12 Ns. Magnitude = 12.0 Ns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.2253,
+      "question": "A body of mass 100g moving with a velocity of 10.0ms⁻¹ collides with a wall. If after collision, it moves with a velocity of 2.0ms⁻¹ in the opposite direction, calculate the change in momentum.",
+      "options": [
+        "0.8Ns",
+        "1.2Ns",
+        "12.0Ns",
+        "80.0Ns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mass = 0.1 kg. Change = m(v_f − v_i) = 0.1(−2 − 10) = 0.1(−12) = −1.2 Ns. Magnitude = 1.2 Ns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.4277,
+      "question": "A stone, Q is thrown with velocity U at an angle of 75° to the horizontal. Another stone R is thrown with the same velocity U but with an angle of 15° to the horizontal. The ranges covered by the stones will be",
+      "options": [
+        "Greater for Q",
+        "Greater for R",
+        "The same for Q and R",
+        "Greater for the heavier of the two stones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For projectile motion, range depends on sin 2θ. Since 2(75°) = 150° and 2(15°) = 30°, and sin 150° = sin 30°, the ranges are equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.1973,
+      "question": "An object is projected with a velocity of 80ms⁻¹ at an angle of 30° to the horizontal. The maximum height reached is",
+      "options": [
+        "20m",
+        "80m",
+        "160m",
+        "320m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum height H = (u² sin² θ)/(2g) = (80² × sin²30°)/(2×10) = (6400 × 0.25)/20 = 1600/20 = 80 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.6921,
+      "question": "A 5kg block is released from rest on a smooth plane inclined at an angle of 30° to the horizontal. What is the acceleration down the plane? [g = 10ms⁻²]",
+      "options": [
+        "5.0ms⁻²",
+        "5.8ms⁻²",
+        "8.7ms⁻²",
+        "25.0ms⁻²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "On a smooth incline, a = g sin θ = 10 × sin 30° = 10 × 0.5 = 5.0 m/s².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.427,
+      "question": "The force of attraction between two point masses is 10⁻⁴N when the distance between them is 0.18m. If the distance is reduced to 0.06m, calculate the force.",
+      "options": [
+        "1.1 × 10⁻⁵N",
+        "3.3 × 10⁻⁵N",
+        "3.0 × 10⁻⁴N",
+        "9.0 × 10⁻⁴N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Force ∝ 1/r². Distance reduced by factor 3 (0.18/0.06 = 3). So force increases by 3² = 9. New force = 9 × 10⁻⁴ N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.2039,
+      "question": "A rocket burns fuel at the rate of 10kgs⁻¹ and ejects it with a velocity of 5 × 10³ms⁻¹. The thrust exerted by the gas on the rocket is",
+      "options": [
+        "2.5 × 10⁷N",
+        "5.0 × 10⁴N",
+        "5.0 × 10²N",
+        "2.0 × 10⁻³N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thrust = velocity × rate of mass ejection = (5 × 10³) × 10 = 5 × 10⁴ N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.2522,
+      "question": "The force with which an object is attracted to the earth is called its",
+      "options": [
+        "Acceleration",
+        "Mass",
+        "Gravity",
+        "Weight"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Weight is the gravitational force of attraction on an object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.839,
+      "question": "A vector of magnitude 10 units makes an angle of 60° with the positive x-axis. What is its y-component?",
+      "options": [
+        "5.00",
+        "8.66",
+        "10.00",
+        "0.00"
+      ],
+      "correctAnswer": 1,
+      "explanation": "y-component = magnitude × sin θ = 10 × sin 60° = 10 × 0.866 = 8.66.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791561532709.5034,
+      "question": "A particle starts from rest and moves with a constant acceleration of 0.5ms⁻². The distance covered by the particle in 10s is",
+      "options": [
+        "2.5m",
+        "5.0m",
+        "25.0m",
+        "50.0m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Distance s = ut + ½at². u = 0, a = 0.5, t = 10. s = ½ × 0.5 × 100 = 25.0 m.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
