@@ -3,16 +3,718 @@
   "title": "Gas Laws",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791562551702.919,
+      "question": "Boyle's law states that the volume of a fixed mass of gas is inversely proportional to its pressure at constant",
+      "options": [
+        "volume",
+        "temperature",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Boyle's law</b>: for a fixed mass of gas at constant <b>temperature</b>, volume is inversely proportional to pressure: <b>P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></b>.<br><br>So the correct condition is constant temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.0266,
+      "question": "Charles' law states that the volume of a fixed mass of gas is directly proportional to its absolute temperature at constant",
+      "options": [
+        "volume",
+        "pressure",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Charles' law</b>: for a fixed mass of gas at constant <b>pressure</b>, volume is directly proportional to absolute temperature: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.8782,
+      "question": "The pressure law states that the pressure of a fixed mass of gas is directly proportional to its absolute temperature at constant",
+      "options": [
+        "volume",
+        "pressure",
+        "mass",
+        "density"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Pressure law</b> (Gay-Lussac's law): for a fixed mass of gas at constant <b>volume</b>, pressure is directly proportional to absolute temperature: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.5806,
+      "question": "The combined gas law is expressed as",
+      "options": [
+        "P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>",
+        "V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub>",
+        "P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub>",
+        "P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>combined gas law</b> combines Boyle's, Charles', and the pressure laws: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.492,
+      "question": "The ideal gas equation is",
+      "options": [
+        "PV = nRT",
+        "PV = RT/n",
+        "P/V = nRT",
+        "PVT = nR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>ideal gas equation</b> is <b>PV = nRT</b>, where P = pressure, V = volume, n = number of moles, R = molar gas constant, and T = absolute temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3591,
+      "question": "A gas occupies a volume of 200cm<sup>3</sup> at a pressure of 750mmHg. Calculate its volume at 500mmHg if the temperature remains constant.",
+      "options": [
+        "300cm<sup>3</sup>",
+        "150cm<sup>3</sup>",
+        "250cm<sup>3</sup>",
+        "133cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Boyle's law: <b>P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></b>.<br><br>P<sub>1</sub> = 750 mmHg, V<sub>1</sub> = 200 cm<sup>3</sup>, P<sub>2</sub> = 500 mmHg.<br>V<sub>2</sub> = (P<sub>1</sub>V<sub>1</sub>)/P<sub>2</sub> = (750 × 200)/500 = <b>300 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.2512,
+      "question": "A fixed mass of gas has a volume of 300cm<sup>3</sup> at 27°C. What is its volume at 127°C if the pressure is constant?",
+      "options": [
+        "400cm<sup>3</sup>",
+        "200cm<sup>3</sup>",
+        "600cm<sup>3</sup>",
+        "150cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>Convert temperatures to Kelvin: T<sub>1</sub> = 27 + 273 = 300 K, T<sub>2</sub> = 127 + 273 = 400 K.<br>V<sub>2</sub> = V<sub>1</sub> × (T<sub>2</sub>/T<sub>1</sub>) = 300 × (400/300) = <b>400 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.5405,
+      "question": "The pressure of a fixed mass of gas at constant volume is 200Nm<sup>-2</sup> at 27°C. Calculate the pressure at 127°C.",
+      "options": [
+        "267Nm<sup>-2</sup>",
+        "400Nm<sup>-2</sup>",
+        "133Nm<sup>-2</sup>",
+        "333Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 27 + 273 = 300 K, T<sub>2</sub> = 127 + 273 = 400 K.<br>P<sub>2</sub> = P<sub>1</sub> × (T<sub>2</sub>/T<sub>1</sub>) = 200 × (400/300) = 266.7 ≈ <b>267 Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3967,
+      "question": "A gas has a volume of 500cm<sup>3</sup> at 27°C and 760mmHg. Calculate its volume at 0°C and 760mmHg.",
+      "options": [
+        "455cm<sup>3</sup>",
+        "550cm<sup>3</sup>",
+        "500cm<sup>3</sup>",
+        "600cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressure is constant, so use Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 0 + 273 = 273 K.<br>V<sub>2</sub> = V<sub>1</sub> × (T<sub>2</sub>/T<sub>1</sub>) = 500 × (273/300) = <b>455 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.198,
+      "question": "Which of the following is NOT an assumption of the kinetic theory of gases?",
+      "options": [
+        "Gas molecules are in constant random motion",
+        "Collisions between gas molecules are perfectly elastic",
+        "Gas molecules attract each other strongly",
+        "The volume of gas molecules is negligible compared to the container volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The kinetic theory assumes <b>negligible intermolecular forces</b> between gas molecules. Strong attraction between molecules is <b>not</b> an assumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.5146,
+      "question": "The average kinetic energy of gas molecules is directly proportional to its",
+      "options": [
+        "pressure",
+        "volume",
+        "absolute temperature",
+        "density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The average kinetic energy of gas molecules is directly proportional to the <b>absolute temperature</b>: <b>KE<sub>avg</sub> = (3/2)kT</b>, where k is Boltzmann's constant and T is in Kelvin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.496,
+      "question": "One mole of an ideal gas occupies what volume at s.t.p.?",
+      "options": [
+        "22.4dm<sup>3</sup>",
+        "24.0dm<sup>3</sup>",
+        "11.2dm<sup>3</sup>",
+        "44.8dm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At standard temperature and pressure (s.t.p.), 1 mole of an ideal gas occupies <b>22.4 dm<sup>3</sup></b> (or 22.4 litres).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.9197,
+      "question": "The value of the molar gas constant R is",
+      "options": [
+        "8.31Jmol<sup>-1</sup>K<sup>-1</sup>",
+        "0.082Jmol<sup>-1</sup>K<sup>-1</sup>",
+        "8.31Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "0.831Jmol<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The molar gas constant <b>R = 8.31 J mol<sup>-1</sup> K<sup>-1</sup></b> (or 8.314 J mol<sup>-1</sup> K<sup>-1</sup>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.636,
+      "question": "Calculate the volume occupied by 2 moles of an ideal gas at 27°C and 1.0 × 10<sup>5</sup>Nm<sup>-2</sup>. [R = 8.31Jmol<sup>-1</sup>K<sup>-1</sup>]",
+      "options": [
+        "0.050m<sup>3</sup>",
+        "0.500m<sup>3</sup>",
+        "0.025m<sup>3</sup>",
+        "0.250m<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using ideal gas equation: <b>PV = nRT</b>.<br><br>T = 27 + 273 = 300 K.<br>V = nRT/P = (2 × 8.31 × 300)/(1.0 × 10<sup>5</sup>) = 4986/100000 = <b>0.050 m<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.8777,
+      "question": "A gas at 27°C has a volume of 100cm<sup>3</sup>. At what temperature will its volume be 150cm<sup>3</sup> if pressure is constant?",
+      "options": [
+        "177°C",
+        "450°C",
+        "300°C",
+        "27°C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K.<br>T<sub>2</sub> = T<sub>1</sub> × (V<sub>2</sub>/V<sub>1</sub>) = 300 × (150/100) = 450 K.<br>In Celsius: 450 − 273 = <b>177°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.0503,
+      "question": "The absolute zero of temperature is",
+      "options": [
+        "0°C",
+        "100K",
+        "-273°C",
+        "-373°C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Absolute zero</b> is the lowest possible temperature, at which molecular motion ceases. It is 0 K or <b>−273°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.0322,
+      "question": "When a gas is heated at constant volume, its pressure increases because the",
+      "options": [
+        "molecules expand",
+        "molecules move faster and hit the walls more frequently",
+        "number of molecules increases",
+        "molecules become heavier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At constant volume, heating increases the average kinetic energy of the gas molecules. They move faster and collide with the walls more frequently and with greater force, increasing the pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3516,
+      "question": "A gas at constant temperature has a volume of 200cm<sup>3</sup> at a pressure of 750mmHg. Calculate its volume at 500mmHg.",
+      "options": [
+        "300cm<sup>3</sup>",
+        "150cm<sup>3</sup>",
+        "250cm<sup>3</sup>",
+        "133cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Boyle's law: <b>P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></b>.<br><br>V<sub>2</sub> = (750 × 200)/500 = <b>300 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.0608,
+      "question": "Which of the following graphs represents Boyle's law?",
+      "options": [
+        "A straight line through the origin when V is plotted against T",
+        "A hyperbola when P is plotted against V",
+        "A straight line when P is plotted against T",
+        "A parabola when V is plotted against T"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boyle's law gives <b>PV = constant</b>. A graph of P against V is a <b>hyperbola</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.9746,
+      "question": "The volume of a given mass of gas at 27°C and 800mmHg is 76cm<sup>3</sup>. Calculate its volume at s.t.p.",
+      "options": [
+        "72.8cm<sup>3</sup>",
+        "80.0cm<sup>3</sup>",
+        "70.0cm<sup>3</sup>",
+        "75.0cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>P<sub>1</sub> = 800 mmHg, V<sub>1</sub> = 76 cm<sup>3</sup>, T<sub>1</sub> = 300 K.<br>At s.t.p., P<sub>2</sub> = 760 mmHg, T<sub>2</sub> = 273 K.<br>V<sub>2</sub> = (P<sub>1</sub>V<sub>1</sub>T<sub>2</sub>)/(P<sub>2</sub>T<sub>1</sub>) = (800 × 76 × 273)/(760 × 300) = <b>72.8 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.784,
+      "question": "In the equation PV = nRT, the quantity n represents the",
+      "options": [
+        "number of molecules",
+        "number of moles",
+        "mass of gas",
+        "density of gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>PV = nRT</b>, <b>n</b> is the <b>number of moles</b> of the gas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.1016,
+      "question": "A gas has a volume of 2.0dm<sup>3</sup> at 27°C and 1.0atm. What will be its volume at 127°C and 2.0atm?",
+      "options": [
+        "1.33dm<sup>3</sup>",
+        "1.50dm<sup>3</sup>",
+        "2.67dm<sup>3</sup>",
+        "0.75dm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 400 K.<br>V<sub>2</sub> = (P<sub>1</sub>V<sub>1</sub>T<sub>2</sub>)/(P<sub>2</sub>T<sub>1</sub>) = (1 × 2 × 400)/(2 × 300) = <b>1.33 dm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.607,
+      "question": "The pressure of a gas is 75cmHg at 27°C. At what temperature will the pressure be 100cmHg if the volume is constant?",
+      "options": [
+        "127°C",
+        "400°C",
+        "300°C",
+        "273°C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K.<br>T<sub>2</sub> = T<sub>1</sub> × (P<sub>2</sub>/P<sub>1</sub>) = 300 × (100/75) = 400 K.<br>In Celsius: 400 − 273 = <b>127°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.4502,
+      "question": "Which of the following statements is true for an ideal gas?",
+      "options": [
+        "It obeys PV = nRT exactly at all pressures and temperatures",
+        "It has strong intermolecular forces",
+        "Its molecules have finite volume",
+        "It condenses easily at high pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An <b>ideal gas</b> obeys the ideal gas equation <b>PV = nRT</b> exactly under all conditions. It assumes negligible intermolecular forces and negligible molecular volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.4326,
+      "question": "A gas at 27°C is cooled to -73°C at constant pressure. If its initial volume is 400cm<sup>3</sup>, find its final volume.",
+      "options": [
+        "200cm<sup>3</sup>",
+        "300cm<sup>3</sup>",
+        "400cm<sup>3</sup>",
+        "600cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = -73 + 273 = 200 K.<br>V<sub>2</sub> = V<sub>1</sub> × (T<sub>2</sub>/T<sub>1</sub>) = 400 × (200/300) = 266.7 cm<sup>3</sup>.<br><br>The listed key marks 200 cm<sup>3</sup>, but the calculation gives approximately <b>267 cm<sup>3</sup></b>. The key appears to contain a typo.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.7827,
+      "question": "The kinetic theory of gases explains gas pressure as due to",
+      "options": [
+        "the weight of gas molecules",
+        "collisions of gas molecules with the walls of the container",
+        "attraction between gas molecules",
+        "the volume of gas molecules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gas pressure is explained by the <b>collisions of gas molecules with the walls</b> of the container. Each collision exerts a tiny force; the total force per unit area is the pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3672,
+      "question": "The temperature at which the volume of a gas theoretically becomes zero is",
+      "options": [
+        "0K",
+        "273K",
+        "100K",
+        "373K"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The volume of a gas theoretically becomes zero at <b>0 K</b> (absolute zero), which is −273°C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.735,
+      "question": "A gas occupies 500cm<sup>3</sup> at 27°C. What volume will it occupy at 127°C if pressure is constant?",
+      "options": [
+        "667cm<sup>3</sup>",
+        "333cm<sup>3</sup>",
+        "500cm<sup>3</sup>",
+        "750cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 400 K.<br>V<sub>2</sub> = 500 × (400/300) = 666.7 ≈ <b>667 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.326,
+      "question": "Which of the following is a correct statement of Dalton's law of partial pressures?",
+      "options": [
+        "The total pressure of a mixture of gases is the sum of the partial pressures of the individual gases",
+        "The total pressure is the product of partial pressures",
+        "The total pressure is the average of partial pressures",
+        "The total pressure is independent of partial pressures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Dalton's law of partial pressures</b>: the total pressure of a mixture of non-reacting gases is the <b>sum of the partial pressures</b> of the individual gases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.539,
+      "question": "A container holds 2 moles of oxygen and 3 moles of nitrogen at a total pressure of 5atm. What is the partial pressure of oxygen?",
+      "options": [
+        "2atm",
+        "3atm",
+        "1atm",
+        "4atm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Partial pressure = mole fraction × total pressure.<br><br>Mole fraction of O<sub>2</sub> = 2/(2+3) = 2/5.<br>P<sub>O2</sub> = (2/5) × 5 = <b>2 atm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.6538,
+      "question": "A fixed mass of gas has a pressure of 1.0 × 10<sup>5</sup>Nm<sup>-2</sup> at 27°C. If the temperature is raised to 127°C at constant volume, the new pressure is",
+      "options": [
+        "1.33 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "2.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "0.75 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "1.0 × 10<sup>5</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 400 K.<br>P<sub>2</sub> = 1.0 × 10<sup>5</sup> × (400/300) = <b>1.33 × 10<sup>5</sup> Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.9631,
+      "question": "A gas at 27°C and 1atm has a volume of 2dm<sup>3</sup>. Calculate its volume at 127°C and 2atm.",
+      "options": [
+        "1.33dm<sup>3</sup>",
+        "1.50dm<sup>3</sup>",
+        "2.67dm<sup>3</sup>",
+        "0.75dm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (1 × 2 × 400)/(2 × 300) = <b>1.33 dm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.5562,
+      "question": "The volume of a gas at 27°C is 200cm<sup>3</sup>. What is its volume at 27K if pressure is constant?",
+      "options": [
+        "18cm<sup>3</sup>",
+        "200cm<sup>3</sup>",
+        "1800cm<sup>3</sup>",
+        "20cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 27 K.<br>V<sub>2</sub> = 200 × (27/300) = <b>18 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.5085,
+      "question": "Which of the following is NOT a gas law?",
+      "options": [
+        "Boyle's law",
+        "Charles' law",
+        "Ohm's law",
+        "Pressure law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Ohm's law</b> relates voltage, current, and resistance in electricity. It is not a gas law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.7014,
+      "question": "A gas occupies 100cm<sup>3</sup> at 27°C and 700mmHg. Calculate its volume at 0°C and 760mmHg.",
+      "options": [
+        "84.0cm<sup>3</sup>",
+        "90.0cm<sup>3</sup>",
+        "100cm<sup>3</sup>",
+        "110cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (700 × 100 × 273)/(760 × 300) = <b>84.0 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.9614,
+      "question": "The pressure of a gas is 2.0 × 10<sup>5</sup>Nm<sup>-2</sup> at 27°C. If the volume is halved and temperature doubled, the new pressure is",
+      "options": [
+        "4.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "8.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "1.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "2.0 × 10<sup>5</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using combined gas law: <b>P<sub>2</sub> = P<sub>1</sub> × (V<sub>1</sub>/V<sub>2</sub>) × (T<sub>2</sub>/T<sub>1</sub>)</b>.<br><br>V<sub>1</sub>/V<sub>2</sub> = 2, T<sub>2</sub>/T<sub>1</sub> = 2.<br>P<sub>2</sub> = 2.0 × 10<sup>5</sup> × 2 × 2 = <b>8.0 × 10<sup>5</sup> Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3787,
+      "question": "In the kinetic theory of gases, the pressure exerted by a gas is given by P = (1/3) ρ c<sup>2</sup>, where c is the",
+      "options": [
+        "average speed",
+        "root-mean-square speed",
+        "most probable speed",
+        "maximum speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the kinetic theory equation <b>P = (1/3)ρc<sup>2</sup></b>, <b>c</b> is the <b>root-mean-square (rms) speed</b> of the gas molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.7793,
+      "question": "A gas at 27°C has a volume of 300cm<sup>3</sup>. If the temperature is increased to 54°C at constant pressure, the new volume is",
+      "options": [
+        "327cm<sup>3</sup>",
+        "273cm<sup>3</sup>",
+        "300cm<sup>3</sup>",
+        "600cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K, T<sub>2</sub> = 54 + 273 = 327 K.<br>V<sub>2</sub> = 300 × (327/300) = <b>327 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.8765,
+      "question": "The pressure of a fixed mass of gas at constant volume is 200Nm<sup>-2</sup> at 27°C. Calculate the pressure at 127°C.",
+      "options": [
+        "267Nm<sup>-2</sup>",
+        "400Nm<sup>-2</sup>",
+        "133Nm<sup>-2</sup>",
+        "333Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.<br><br>P<sub>2</sub> = 200 × (400/300) = 266.7 ≈ <b>267 Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.0862,
+      "question": "Which of the following statements about an ideal gas is correct?",
+      "options": [
+        "It obeys the gas laws exactly under all conditions",
+        "It has strong intermolecular forces",
+        "Its molecules have significant volume",
+        "It liquefies easily"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An <b>ideal gas</b> obeys the gas laws exactly under all conditions. It assumes no intermolecular forces and negligible molecular volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.1353,
+      "question": "A gas occupies a volume of 100cm<sup>3</sup> at 27°C and 800mmHg. Calculate its volume at s.t.p.",
+      "options": [
+        "96.0cm<sup>3</sup>",
+        "90.0cm<sup>3</sup>",
+        "100cm<sup>3</sup>",
+        "110cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (800 × 100 × 273)/(760 × 300) = <b>96.0 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.879,
+      "question": "The absolute temperature of a gas is increased from 300K to 600K. The average kinetic energy of the gas molecules",
+      "options": [
+        "doubles",
+        "halves",
+        "remains the same",
+        "quadruples"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Average kinetic energy is directly proportional to absolute temperature: <b>KE<sub>avg</sub> ∝ T</b>. If T doubles, KE doubles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3423,
+      "question": "A gas has a volume of 2.0dm<sup>3</sup> at 27°C. What volume will it occupy at 127°C and 2atm if initially it was at 1atm?",
+      "options": [
+        "1.33dm<sup>3</sup>",
+        "1.50dm<sup>3</sup>",
+        "2.67dm<sup>3</sup>",
+        "0.75dm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (1 × 2 × 400)/(2 × 300) = <b>1.33 dm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.499,
+      "question": "The pressure of a gas is 1.0 × 10<sup>5</sup>Nm<sup>-2</sup> at 27°C. If the temperature is raised to 127°C at constant volume, the new pressure is",
+      "options": [
+        "1.33 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "2.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "0.75 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "1.0 × 10<sup>5</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using pressure law: <b>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></b>.<br><br>P<sub>2</sub> = 1.0 × 10<sup>5</sup> × (400/300) = <b>1.33 × 10<sup>5</sup> Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.3303,
+      "question": "Which of the following is a correct form of the general gas equation?",
+      "options": [
+        "P<sub>1</sub>V<sub>1</sub>T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>T<sub>2</sub>",
+        "P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>",
+        "P<sub>1</sub>V<sub>1</sub>/T<sub>2</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>1</sub>",
+        "P<sub>1</sub>V<sub>2</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>1</sub>/T<sub>2</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>general gas equation</b> is <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.4124,
+      "question": "A gas at 27°C has a volume of 200cm<sup>3</sup>. At what temperature will its volume be 100cm<sup>3</sup> if pressure is constant?",
+      "options": [
+        "-123°C",
+        "0°C",
+        "27°C",
+        "-273°C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Charles' law: <b>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></b>.<br><br>T<sub>1</sub> = 300 K.<br>T<sub>2</sub> = T<sub>1</sub> × (V<sub>2</sub>/V<sub>1</sub>) = 300 × (100/200) = 150 K.<br>In Celsius: 150 − 273 = <b>−123°C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.2234,
+      "question": "The pressure of a gas is 2.0 × 10<sup>5</sup>Nm<sup>-2</sup> at 27°C. If the volume is halved and temperature doubled, the new pressure is",
+      "options": [
+        "4.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "8.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "1.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "2.0 × 10<sup>5</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using combined gas law: <b>P<sub>2</sub> = P<sub>1</sub> × (V<sub>1</sub>/V<sub>2</sub>) × (T<sub>2</sub>/T<sub>1</sub>)</b>.<br><br>V<sub>1</sub>/V<sub>2</sub> = 2, T<sub>2</sub>/T<sub>1</sub> = 2.<br>P<sub>2</sub> = 2.0 × 10<sup>5</sup> × 2 × 2 = <b>8.0 × 10<sup>5</sup> Nm<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.9453,
+      "question": "A gas occupies a volume of 100cm<sup>3</sup> at 27°C and 800mmHg. Calculate its volume at s.t.p.",
+      "options": [
+        "96.0cm<sup>3</sup>",
+        "90.0cm<sup>3</sup>",
+        "100cm<sup>3</sup>",
+        "110cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (800 × 100 × 273)/(760 × 300) = <b>96.0 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.8787,
+      "question": "The volume of a given mass of gas at 27°C and 800mmHg is 76cm<sup>3</sup>. Calculate its volume at s.t.p.",
+      "options": [
+        "72.8cm<sup>3</sup>",
+        "80.0cm<sup>3</sup>",
+        "70.0cm<sup>3</sup>",
+        "75.0cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (800 × 76 × 273)/(760 × 300) = <b>72.8 cm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562551702.1482,
+      "question": "A gas has a volume of 2.0dm<sup>3</sup> at 27°C and 1.0atm. What will be its volume at 127°C and 2.0atm?",
+      "options": [
+        "1.33dm<sup>3</sup>",
+        "1.50dm<sup>3</sup>",
+        "2.67dm<sup>3</sup>",
+        "0.75dm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using combined gas law: <b>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></b>.<br><br>V<sub>2</sub> = (1 × 2 × 400)/(2 × 300) = <b>1.33 dm<sup>3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
