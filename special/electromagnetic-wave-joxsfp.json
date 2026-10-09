@@ -3,16 +3,718 @@
   "title": "Electromagnetic Waves",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791565947658.8835,
+      "question": "Electromagnetic waves are transverse waves because their electric and magnetic fields vibrate:",
+      "options": [
+        "Parallel to each other and to the direction of propagation",
+        "Perpendicular to each other and to the direction of propagation",
+        "In the same plane as the direction of propagation",
+        "Only in the direction of propagation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an electromagnetic wave, the electric field vector <b>E</b> and the magnetic field vector <b>B</b> are perpendicular to each other, and both are perpendicular to the direction of propagation. This mutually perpendicular arrangement makes the wave transverse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3223,
+      "question": "The speed of all electromagnetic waves in vacuum is approximately:",
+      "options": [
+        "3.0 × 10<sup>6</sup> m/s",
+        "3.0 × 10<sup>8</sup> m/s",
+        "3.0 × 10<sup>10</sup> m/s",
+        "3.0 × 10<sup>5</sup> m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speed of light in vacuum is <b>c = 3.0 × 10<sup>8</sup> m/s</b>. All electromagnetic waves travel at this speed in vacuum, regardless of their frequency or wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.7197,
+      "question": "Which of the following is NOT an electromagnetic wave?",
+      "options": [
+        "Radio wave",
+        "X-ray",
+        "Sound wave",
+        "Gamma ray"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sound waves are <b>mechanical waves</b> that require a material medium for propagation. They are not electromagnetic waves. Radio waves, X-rays, and gamma rays are all part of the electromagnetic spectrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3,
+      "question": "The relationship between speed c, frequency f, and wavelength λ of an electromagnetic wave is:",
+      "options": [
+        "c = f/λ",
+        "c = λ/f",
+        "c = fλ",
+        "c = f + λ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The wave equation for any wave is <b>c = fλ</b>, where c is the speed, f is the frequency, and λ is the wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.4463,
+      "question": "An electromagnetic wave has frequency 5.0 × 10<sup>14</sup> Hz. Its wavelength in vacuum is:",
+      "options": [
+        "6.0 × 10<sup>-7</sup> m",
+        "1.5 × 10<sup>6</sup> m",
+        "6.0 × 10<sup>-6</sup> m",
+        "1.5 × 10<sup>-7</sup> m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using λ = c/f, with c = 3.0 × 10<sup>8</sup> m/s and f = 5.0 × 10<sup>14</sup> Hz:<br>λ = (3.0 × 10<sup>8</sup>) / (5.0 × 10<sup>14</sup>) = 6.0 × 10<sup>-7</sup> m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.8691,
+      "question": "As the wavelength of an electromagnetic wave increases, its frequency:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From c = fλ, with c constant, frequency and wavelength are inversely proportional. Therefore, as wavelength increases, frequency <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.006,
+      "question": "The energy of a photon is directly proportional to its:",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Speed",
+        "Amplitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The energy of a photon is given by <b>E = hf</b>, where h is Planck's constant and f is the frequency. Thus, energy is directly proportional to frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.2458,
+      "question": "Which electromagnetic wave has the longest wavelength?",
+      "options": [
+        "Gamma rays",
+        "X-rays",
+        "Radio waves",
+        "Ultraviolet rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the electromagnetic spectrum, <b>radio waves</b> have the longest wavelengths (from millimetres to kilometres). Gamma rays have the shortest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.713,
+      "question": "Which electromagnetic wave has the shortest wavelength?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "Infrared",
+        "Gamma rays"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Gamma rays</b> have the shortest wavelengths in the electromagnetic spectrum, typically less than 10<sup>-11</sup> m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.418,
+      "question": "The correct order of electromagnetic waves from longest to shortest wavelength is:",
+      "options": [
+        "Radio, microwave, infrared, visible, ultraviolet, X-ray, gamma",
+        "Gamma, X-ray, ultraviolet, visible, infrared, microwave, radio",
+        "Visible, infrared, ultraviolet, radio, microwave, X-ray, gamma",
+        "Radio, infrared, microwave, visible, ultraviolet, X-ray, gamma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electromagnetic spectrum from longest to shortest wavelength is: <b>Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.257,
+      "question": "Visible light lies between which two regions of the electromagnetic spectrum?",
+      "options": [
+        "Radio and microwave",
+        "Infrared and ultraviolet",
+        "X-ray and gamma",
+        "Microwave and infrared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visible light occupies a narrow band between <b>infrared</b> (longer wavelength) and <b>ultraviolet</b> (shorter wavelength).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.0295,
+      "question": "Which electromagnetic radiation is used in remote controls for televisions?",
+      "options": [
+        "Gamma rays",
+        "Infrared",
+        "Ultraviolet",
+        "X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Television remote controls use <b>infrared</b> radiation to transmit signals to the TV.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.8662,
+      "question": "Which electromagnetic radiation is used in medical imaging to view bones?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "X-rays",
+        "Infrared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>X-rays</b> are used in medical imaging because they penetrate soft tissue but are absorbed by denser materials like bone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.4336,
+      "question": "Which electromagnetic radiation is used for cooking in microwave ovens?",
+      "options": [
+        "Infrared",
+        "Microwaves",
+        "Ultraviolet",
+        "Gamma rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microwave ovens use <b>microwaves</b> to heat food by causing water molecules to vibrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.735,
+      "question": "The ozone layer protects living organisms from excessive:",
+      "options": [
+        "Infrared radiation",
+        "Ultraviolet radiation",
+        "Radio waves",
+        "Microwaves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer absorbs most of the Sun's <b>ultraviolet</b> radiation, protecting living organisms from harmful effects like skin cancer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.9294,
+      "question": "Which electromagnetic wave is used in radar systems?",
+      "options": [
+        "Gamma rays",
+        "Microwaves",
+        "Ultraviolet",
+        "X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radar systems use <b>microwaves</b> because they can penetrate fog, clouds, and rain, and can be reflected by objects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.047,
+      "question": "Which electromagnetic wave is produced by the radioactive decay of nuclei?",
+      "options": [
+        "X-rays",
+        "Gamma rays",
+        "Ultraviolet",
+        "Infrared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Gamma rays</b> are high-energy electromagnetic radiation produced during nuclear decay and radioactive processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.0786,
+      "question": "X-rays are produced when:",
+      "options": [
+        "High-speed electrons strike a metal target",
+        "Radioactive nuclei decay",
+        "Molecules vibrate",
+        "Electrons jump in atoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "X-rays are produced when <b>high-speed electrons strike a metal target</b>, causing deceleration and emission of X-ray photons (bremsstrahlung) or inner-shell electron transitions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3801,
+      "question": "The electromagnetic wave with frequency just below visible light is:",
+      "options": [
+        "Ultraviolet",
+        "Infrared",
+        "Microwave",
+        "X-ray"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Infrared</b> radiation has frequencies just below those of visible light (red end of the spectrum).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.0283,
+      "question": "The electromagnetic wave with frequency just above visible light is:",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Microwave",
+        "Radio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ultraviolet</b> radiation has frequencies just above those of visible light (violet end of the spectrum).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.952,
+      "question": "Which property distinguishes electromagnetic waves from sound waves?",
+      "options": [
+        "They require a medium",
+        "They can travel through vacuum",
+        "They are longitudinal",
+        "They have low speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electromagnetic waves <b>can travel through vacuum</b> because they do not require a material medium. Sound waves are mechanical and require a medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.24,
+      "question": "Electromagnetic waves can be polarized because they are:",
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Mechanical",
+        "Stationary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only <b>transverse</b> waves can be polarized. Electromagnetic waves are transverse, so they can be polarized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.854,
+      "question": "The electric field vector E, magnetic field vector B, and propagation direction k of an electromagnetic wave are:",
+      "options": [
+        "All parallel",
+        "Mutually perpendicular",
+        "E parallel to B, k perpendicular",
+        "B parallel to k, E perpendicular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an electromagnetic wave, <b>E, B, and the propagation direction k are mutually perpendicular</b>. This is a key characteristic of transverse EM waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.736,
+      "question": "The energy of a photon of frequency f is given by:",
+      "options": [
+        "E = hf",
+        "E = h/f",
+        "E = f/h",
+        "E = hf<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy of a photon is given by Planck's equation: <b>E = hf</b>, where h is Planck's constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.439,
+      "question": "If the frequency of an electromagnetic wave is doubled, the energy of its photon:",
+      "options": [
+        "Halves",
+        "Doubles",
+        "Remains same",
+        "Quadruples"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since E = hf, energy is directly proportional to frequency. If frequency is doubled, the photon energy <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.2498,
+      "question": "Which of the following has the highest frequency?",
+      "options": [
+        "Infrared",
+        "Visible light",
+        "Ultraviolet",
+        "Radio waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Ultraviolet</b> has a higher frequency than infrared, visible light, and radio waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.2231,
+      "question": "Which of the following has the lowest frequency?",
+      "options": [
+        "X-rays",
+        "Gamma rays",
+        "Radio waves",
+        "Infrared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Radio waves</b> have the lowest frequencies in the electromagnetic spectrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.9143,
+      "question": "The wavelength of a radio wave of frequency 3 × 10<sup>8</sup> Hz is:",
+      "options": [
+        "1 m",
+        "3 m",
+        "9 m",
+        "0.1 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using λ = c/f: λ = (3 × 10<sup>8</sup>) / (3 × 10<sup>8</sup>) = <b>1 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.8088,
+      "question": "The wavelength of an X-ray of frequency 3 × 10<sup>18</sup> Hz is:",
+      "options": [
+        "10<sup>-10</sup> m",
+        "10<sup>-8</sup> m",
+        "10<sup>-12</sup> m",
+        "10<sup>-6</sup> m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "λ = c/f = (3 × 10<sup>8</sup>) / (3 × 10<sup>18</sup>) = <b>10<sup>-10</sup> m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.4194,
+      "question": "The speed of an electromagnetic wave in a medium with refractive index n is:",
+      "options": [
+        "c n",
+        "c/n",
+        "n/c",
+        "c + n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speed of light in a medium is <b>v = c/n</b>, where c is the speed in vacuum and n is the refractive index.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.5242,
+      "question": "When an electromagnetic wave enters a denser medium, its:",
+      "options": [
+        "Frequency increases",
+        "Speed decreases",
+        "Wavelength increases",
+        "Frequency decreases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When light enters a denser medium (higher refractive index), its <b>speed decreases</b> (v = c/n). The frequency remains constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.1768,
+      "question": "When an electromagnetic wave enters a denser medium, its frequency:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The frequency of an electromagnetic wave <b>remains constant</b> when it crosses a boundary between media. Only speed and wavelength change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.7432,
+      "question": "The refractive index of a medium is the ratio of the speed of light in vacuum to the:",
+      "options": [
+        "Speed of light in the medium",
+        "Frequency in the medium",
+        "Wavelength in the medium",
+        "Energy in the medium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Refractive index n = <b>c / v</b>, where c is the speed of light in vacuum and v is the speed in the medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.5862,
+      "question": "Which electromagnetic radiation causes sunburn?",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Radio waves",
+        "Microwaves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ultraviolet</b> radiation from the Sun causes sunburn and can damage skin cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.2551,
+      "question": "Which electromagnetic radiation is used in television remote control?",
+      "options": [
+        "X-rays",
+        "Infrared",
+        "Ultraviolet",
+        "Gamma rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Television remote controls use <b>infrared</b> radiation to send signals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.342,
+      "question": "Which electromagnetic radiation is used in sterilization of medical equipment?",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Radio waves",
+        "Microwaves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ultraviolet</b> radiation is used to sterilize medical equipment because it kills bacteria and viruses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3237,
+      "question": "The phenomenon that shows electromagnetic waves are transverse is:",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Polarization",
+        "Diffraction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Polarization</b> is a phenomenon that can only occur with transverse waves, confirming that electromagnetic waves are transverse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.5898,
+      "question": "Which of the following electromagnetic waves is ionizing?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "Gamma rays",
+        "Infrared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gamma rays</b> are ionizing radiation because they carry enough energy to remove electrons from atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.1309,
+      "question": "The main difference between X-rays and gamma rays is their:",
+      "options": [
+        "Speed",
+        "Charge",
+        "Origin",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main difference is their <b>origin</b>: X-rays are produced by electron transitions or deceleration, while gamma rays are produced by nuclear decay.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.8604,
+      "question": "The electromagnetic spectrum is arranged according to:",
+      "options": [
+        "Speed",
+        "Wavelength or frequency",
+        "Charge",
+        "Mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electromagnetic spectrum is arranged according to <b>wavelength or frequency</b>, from radio waves (longest wavelength/lowest frequency) to gamma rays (shortest wavelength/highest frequency).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.6167,
+      "question": "Which electromagnetic wave is used in night vision devices?",
+      "options": [
+        "Ultraviolet",
+        "Infrared",
+        "X-rays",
+        "Gamma rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Night vision devices detect <b>infrared</b> radiation emitted by warm objects, allowing vision in the dark.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.5305,
+      "question": "Which electromagnetic wave is used in satellite communication?",
+      "options": [
+        "Gamma rays",
+        "Microwaves",
+        "Ultraviolet",
+        "X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Microwaves</b> are used for satellite communication because they can penetrate the atmosphere and are not significantly absorbed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.0635,
+      "question": "The momentum p of a photon of wavelength λ is:",
+      "options": [
+        "p = hλ",
+        "p = h/λ",
+        "p = λ/h",
+        "p = hf"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The momentum of a photon is given by <b>p = h/λ</b>, where h is Planck's constant and λ is the wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.944,
+      "question": "The energy of a photon of wavelength 6.6 × 10<sup>-7</sup> m is [h = 6.6 × 10<sup>-34</sup> Js, c = 3 × 10<sup>8</sup> m/s]:",
+      "options": [
+        "3.0 × 10<sup>-19</sup> J",
+        "6.6 × 10<sup>-19</sup> J",
+        "3.0 × 10<sup>-20</sup> J",
+        "6.6 × 10<sup>-20</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using E = hc/λ:<br>E = (6.6 × 10<sup>-34</sup> × 3 × 10<sup>8</sup>) / (6.6 × 10<sup>-7</sup>) = (19.8 × 10<sup>-26</sup>) / (6.6 × 10<sup>-7</sup>) = <b>3.0 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.7688,
+      "question": "The frequency of an electromagnetic wave of wavelength 0.03 m is:",
+      "options": [
+        "1 × 10<sup>10</sup> Hz",
+        "3 × 10<sup>10</sup> Hz",
+        "9 × 10<sup>9</sup> Hz",
+        "1 × 10<sup>9</sup> Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f = c/λ = (3 × 10<sup>8</sup>) / 0.03 = <b>1 × 10<sup>10</sup> Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3472,
+      "question": "Which electromagnetic wave has the greatest penetrating power?",
+      "options": [
+        "Infrared",
+        "Ultraviolet",
+        "Gamma rays",
+        "X-rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gamma rays</b> have the greatest penetrating power due to their very short wavelength and high energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.9922,
+      "question": "Which electromagnetic wave is used in a solar cooker?",
+      "options": [
+        "Gamma rays",
+        "Infrared",
+        "X-rays",
+        "Ultraviolet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solar cookers use <b>infrared</b> radiation from the Sun to heat food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.3672,
+      "question": "The electromagnetic wave that is visible to the human eye is:",
+      "options": [
+        "Infrared",
+        "Visible light",
+        "Ultraviolet",
+        "Microwave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Visible light</b> is the only part of the electromagnetic spectrum that can be detected by the human eye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.4734,
+      "question": "The color of visible light with the longest wavelength is:",
+      "options": [
+        "Violet",
+        "Blue",
+        "Red",
+        "Green"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the visible spectrum, <b>red</b> light has the longest wavelength (about 700 nm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791565947658.1025,
+      "question": "The color of visible light with the shortest wavelength is:",
+      "options": [
+        "Red",
+        "Orange",
+        "Yellow",
+        "Violet"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the visible spectrum, <b>violet</b> light has the shortest wavelength (about 400 nm).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
