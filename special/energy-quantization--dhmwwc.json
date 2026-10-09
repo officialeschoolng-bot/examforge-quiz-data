@@ -3,16 +3,718 @@
   "title": "Energy Quantization and Photoelectric Effect",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791568683020.782,
+      "question": "The energy of a photon is given by:",
+      "options": [
+        "E = hf",
+        "E = h/f",
+        "E = f/h",
+        "E = hf<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy of a photon is given by Planck's equation <b>E = hf</b>, where h is Planck's constant and f is the frequency of the radiation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.2236,
+      "question": "The unit of Planck's constant is:",
+      "options": [
+        "Js",
+        "J/s",
+        "J",
+        "s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From E = hf, h = E/f. The unit is J/Hz = J s, so Planck's constant is measured in <b>joule-seconds (J s)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.6243,
+      "question": "The value of Planck's constant is approximately:",
+      "options": [
+        "6.63 × 10<sup>-34</sup> Js",
+        "6.63 × 10<sup>-34</sup> J/s",
+        "3.0 × 10<sup>8</sup> Js",
+        "1.6 × 10<sup>-19</sup> Js"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Planck's constant has the value <b>h = 6.63 × 10<sup>-34</sup> J s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.4705,
+      "question": "The energy of a photon of frequency 5 × 10<sup>14</sup> Hz is:",
+      "options": [
+        "3.3 × 10<sup>-19</sup> J",
+        "3.3 × 10<sup>-20</sup> J",
+        "5.0 × 10<sup>-19</sup> J",
+        "1.5 × 10<sup>-19</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = hf = (6.63 × 10<sup>-34</sup>) × (5 × 10<sup>14</sup>) = 3.315 × 10<sup>-19</sup> J ≈ <b>3.3 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9678,
+      "question": "The photoelectric effect is the emission of electrons from a metal surface when illuminated by:",
+      "options": [
+        "Heat",
+        "Light of suitable frequency",
+        "Sound waves",
+        "Magnetic field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The photoelectric effect occurs when light of <b>suitable frequency</b> (above the threshold frequency) strikes a metal surface and ejects electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.216,
+      "question": "The minimum frequency of light required to eject electrons from a metal surface is called:",
+      "options": [
+        "Threshold frequency",
+        "Critical frequency",
+        "Resonant frequency",
+        "Natural frequency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>threshold frequency</b> is the minimum frequency of incident light that can eject electrons from a given metal surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.112,
+      "question": "The work function of a metal is:",
+      "options": [
+        "The minimum energy required to eject an electron",
+        "The maximum energy of emitted electrons",
+        "The energy of incident photons",
+        "The kinetic energy of electrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>work function</b> is the minimum energy required to remove an electron from the surface of a metal. It is denoted by W or φ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.8088,
+      "question": "The work function of a metal is 3 eV. Its value in joules is:",
+      "options": [
+        "4.8 × 10<sup>-19</sup> J",
+        "3.0 × 10<sup>-19</sup> J",
+        "1.6 × 10<sup>-19</sup> J",
+        "6.6 × 10<sup>-19</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1 eV = 1.6 × 10<sup>-19</sup> J, so 3 eV = 3 × 1.6 × 10<sup>-19</sup> = <b>4.8 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.0066,
+      "question": "Einstein's photoelectric equation is:",
+      "options": [
+        "hf = W + K<sub>max</sub>",
+        "hf = W − K<sub>max</sub>",
+        "W = hf + K<sub>max</sub>",
+        "K<sub>max</sub> = hf + W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Einstein's photoelectric equation is <b>hf = W + K<sub>max</sub></b>, where hf is the photon energy, W is the work function, and K<sub>max</sub> is the maximum kinetic energy of the emitted electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.2734,
+      "question": "In the photoelectric effect, the maximum kinetic energy of emitted electrons depends on:",
+      "options": [
+        "Intensity of light",
+        "Frequency of light",
+        "Speed of light",
+        "Polarization of light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "K<sub>max</sub> = hf − W, so it depends on the <b>frequency of the incident light</b> and the work function of the metal, not on intensity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.459,
+      "question": "In the photoelectric effect, the number of emitted electrons depends on:",
+      "options": [
+        "Intensity of light",
+        "Frequency of light",
+        "Work function",
+        "Stopping potential"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The number of photoelectrons emitted per second is proportional to the <b>intensity of the incident light</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.774,
+      "question": "The stopping potential is the potential required to:",
+      "options": [
+        "Accelerate the electrons",
+        "Stop the fastest emitted electrons",
+        "Increase the photocurrent",
+        "Decrease the work function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>stopping potential</b> is the reverse potential that just stops the <b>fastest emitted photoelectrons</b>, making the photocurrent zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.6816,
+      "question": "The maximum kinetic energy of a photoelectron is given by:",
+      "options": [
+        "eV<sub>s</sub>",
+        "e/V<sub>s</sub>",
+        "V<sub>s</sub>/e",
+        "eV<sub>s</sub><sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The maximum kinetic energy is equal to the work done by the stopping potential: <b>K<sub>max</sub> = eV<sub>s</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.866,
+      "question": "If the stopping potential is 2 V, the maximum kinetic energy of the photoelectron is:",
+      "options": [
+        "2 eV",
+        "1 eV",
+        "4 eV",
+        "0.5 eV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "K<sub>max</sub> = eV<sub>s</sub> = e × 2 V = <b>2 eV</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.814,
+      "question": "The threshold wavelength λ<sub>0</sub> is related to work function W by:",
+      "options": [
+        "W = hc/λ<sub>0</sub>",
+        "W = hλ<sub>0</sub>/c",
+        "W = hcλ<sub>0</sub>",
+        "W = h/cλ<sub>0</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At threshold, the photon energy equals the work function: <b>W = hc/λ<sub>0</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9253,
+      "question": "If the work function of a metal is 2 eV, its threshold frequency is:",
+      "options": [
+        "4.8 × 10<sup>14</sup> Hz",
+        "3.0 × 10<sup>14</sup> Hz",
+        "2.0 × 10<sup>14</sup> Hz",
+        "6.6 × 10<sup>14</sup> Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "W = 2 eV = 3.2 × 10<sup>-19</sup> J. f<sub>0</sub> = W/h = (3.2 × 10<sup>-19</sup>)/(6.63 × 10<sup>-34</sup>) ≈ <b>4.8 × 10<sup>14</sup> Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9646,
+      "question": "When the frequency of incident light is increased, the maximum kinetic energy of photoelectrons:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "K<sub>max</sub> = hf − W, so increasing the frequency <b>increases</b> the maximum kinetic energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.1028,
+      "question": "When the intensity of incident light is increased, the photocurrent:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Higher intensity means more photons per second, so more electrons are emitted per second, <b>increasing the photocurrent</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.445,
+      "question": "The photoelectric effect demonstrates the:",
+      "options": [
+        "Wave nature of light",
+        "Particle nature of light",
+        "Both wave and particle nature",
+        "Neither wave nor particle nature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The photoelectric effect can only be explained if light behaves as <b>particles (photons)</b>, demonstrating the particle nature of light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.4092,
+      "question": "The concept that light consists of discrete packets of energy was proposed by:",
+      "options": [
+        "Newton",
+        "Einstein",
+        "Planck",
+        "Bohr"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Einstein proposed that light consists of discrete packets of energy called <b>photons</b> in his explanation of the photoelectric effect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.046,
+      "question": "The quantum of light is called a:",
+      "options": [
+        "Photon",
+        "Electron",
+        "Proton",
+        "Neutron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The quantum (smallest packet) of light energy is called a <b>photon</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.0579,
+      "question": "The energy of a photon of wavelength 500 nm is approximately:",
+      "options": [
+        "4.0 × 10<sup>-19</sup> J",
+        "2.0 × 10<sup>-19</sup> J",
+        "6.0 × 10<sup>-19</sup> J",
+        "1.0 × 10<sup>-19</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = hc/λ = (6.63 × 10<sup>-34</sup> × 3 × 10<sup>8</sup>)/(500 × 10<sup>-9</sup>) ≈ <b>4.0 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.0366,
+      "question": "The momentum of a photon of wavelength λ is:",
+      "options": [
+        "h/λ",
+        "hλ",
+        "λ/h",
+        "hf"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The momentum of a photon is given by <b>p = h/λ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.3965,
+      "question": "The de Broglie wavelength of a particle of mass m and velocity v is:",
+      "options": [
+        "λ = h/mv",
+        "λ = mv/h",
+        "λ = hmv",
+        "λ = h/m<sup>2</sup>v"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The de Broglie wavelength is <b>λ = h/(mv)</b>, where mv is the momentum of the particle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.138,
+      "question": "The photoelectric effect was first explained by:",
+      "options": [
+        "Planck",
+        "Einstein",
+        "Bohr",
+        "Rutherford"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Einstein</b> explained the photoelectric effect in 1905 using the concept of light quanta (photons).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.2004,
+      "question": "In a photoelectric experiment, the graph of stopping potential versus frequency has a slope equal to:",
+      "options": [
+        "h/e",
+        "e/h",
+        "h",
+        "e"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From eV<sub>s</sub> = hf − W, V<sub>s</sub> = (h/e)f − W/e. The slope of V<sub>s</sub> against f is <b>h/e</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.443,
+      "question": "The intercept on the frequency axis of the stopping potential versus frequency graph gives:",
+      "options": [
+        "Threshold frequency",
+        "Work function",
+        "Planck's constant",
+        "Charge of electron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intercept on the frequency axis (where V<sub>s</sub> = 0) gives the <b>threshold frequency f<sub>0</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.3174,
+      "question": "The photoelectric effect cannot occur if the frequency of incident light is:",
+      "options": [
+        "Greater than threshold frequency",
+        "Equal to threshold frequency",
+        "Less than threshold frequency",
+        "Any frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If frequency is <b>less than the threshold frequency</b>, the photon energy is less than the work function, so no electrons are emitted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.0881,
+      "question": "The work function of a metal is 1.5 eV. If light of energy 3.0 eV is incident, the maximum kinetic energy is:",
+      "options": [
+        "1.5 eV",
+        "3.0 eV",
+        "4.5 eV",
+        "0.5 eV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "K<sub>max</sub> = hf − W = 3.0 eV − 1.5 eV = <b>1.5 eV</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.106,
+      "question": "The threshold frequency for a metal is 4 × 10<sup>14</sup> Hz. Its work function is:",
+      "options": [
+        "2.65 × 10<sup>-19</sup> J",
+        "1.60 × 10<sup>-19</sup> J",
+        "6.63 × 10<sup>-19</sup> J",
+        "3.00 × 10<sup>-19</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "W = hf<sub>0</sub> = (6.63 × 10<sup>-34</sup>) × (4 × 10<sup>14</sup>) = <b>2.65 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.8108,
+      "question": "Which of the following is NOT a characteristic of the photoelectric effect?",
+      "options": [
+        "Instantaneous emission",
+        "Dependence on frequency",
+        "Dependence on intensity for kinetic energy",
+        "Existence of threshold frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The kinetic energy of photoelectrons depends on <b>frequency</b>, not on intensity. Intensity affects the number of electrons emitted, not their kinetic energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.6414,
+      "question": "The photoelectric current is proportional to:",
+      "options": [
+        "Frequency of light",
+        "Intensity of light",
+        "Wavelength of light",
+        "Work function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The photocurrent is proportional to the <b>intensity of light</b> because intensity determines the number of photons arriving per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9316,
+      "question": "The stopping potential for a metal is 3 V. The maximum velocity of the photoelectron is:",
+      "options": [
+        "1.03 × 10<sup>6</sup> m/s",
+        "2.06 × 10<sup>6</sup> m/s",
+        "3.00 × 10<sup>6</sup> m/s",
+        "5.00 × 10<sup>6</sup> m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "K<sub>max</sub> = 3 eV = 4.8 × 10<sup>-19</sup> J. v = √(2K/m) = √((2 × 4.8 × 10<sup>-19</sup>)/(9.11 × 10<sup>-31</sup>)) ≈ <b>1.03 × 10<sup>6</sup> m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.3735,
+      "question": "The energy of a photon in eV of wavelength 620 nm is approximately:",
+      "options": [
+        "2.0 eV",
+        "3.0 eV",
+        "4.0 eV",
+        "5.0 eV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using E(eV) ≈ 1240/λ(nm): E ≈ 1240/620 = <b>2.0 eV</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9312,
+      "question": "The work function of a metal is 2.5 eV. The threshold wavelength is:",
+      "options": [
+        "496 nm",
+        "620 nm",
+        "248 nm",
+        "1240 nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "λ<sub>0</sub> = 1240/W(eV) = 1240/2.5 = <b>496 nm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.934,
+      "question": "In the photoelectric effect, the kinetic energy of emitted electrons is independent of:",
+      "options": [
+        "Frequency of light",
+        "Work function",
+        "Intensity of light",
+        "Planck's constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "K<sub>max</sub> depends on frequency and work function, but is <b>independent of intensity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.867,
+      "question": "The dual nature of light is demonstrated by:",
+      "options": [
+        "Reflection and refraction",
+        "Interference and photoelectric effect",
+        "Diffraction and polarization",
+        "Dispersion and scattering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interference shows the wave nature, while the photoelectric effect shows the particle nature. Together they demonstrate the <b>dual nature of light</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.4373,
+      "question": "The particle nature of light is supported by:",
+      "options": [
+        "Interference",
+        "Diffraction",
+        "Photoelectric effect",
+        "Polarization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>photoelectric effect</b> supports the particle nature of light because it requires photons with quantized energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.8955,
+      "question": "The wave nature of light is supported by:",
+      "options": [
+        "Photoelectric effect",
+        "Compton effect",
+        "Interference",
+        "Blackbody radiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Interference</b> is a wave phenomenon and supports the wave nature of light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.9172,
+      "question": "The energy of a photon is directly proportional to:",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Speed",
+        "Intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = hf, so photon energy is directly proportional to <b>frequency</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.6577,
+      "question": "The photoelectric effect experiment confirms that light energy is:",
+      "options": [
+        "Continuous",
+        "Quantized",
+        "Infinite",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The photoelectric effect confirms that light energy is <b>quantized</b> in packets called photons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.3467,
+      "question": "The minimum energy required to remove an electron from a metal surface is called:",
+      "options": [
+        "Ionization energy",
+        "Work function",
+        "Kinetic energy",
+        "Potential energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The minimum energy required to remove an electron from a metal surface is the <b>work function</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.4648,
+      "question": "The maximum kinetic energy of photoelectrons increases linearly with:",
+      "options": [
+        "Intensity",
+        "Frequency",
+        "Wavelength",
+        "Time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "K<sub>max</sub> = hf − W, so K<sub>max</sub> increases linearly with <b>frequency</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.631,
+      "question": "The number of photoelectrons emitted per second is proportional to:",
+      "options": [
+        "Frequency",
+        "Intensity",
+        "Wavelength",
+        "Work function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number of photoelectrons emitted per second is proportional to the <b>intensity</b> of the incident light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.2075,
+      "question": "The photoelectric effect takes place when the energy of a photon is:",
+      "options": [
+        "Less than work function",
+        "Equal to or greater than work function",
+        "Always less than work function",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Photoelectric emission occurs when the photon energy is <b>equal to or greater than the work function</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.1145,
+      "question": "The stopping potential depends on:",
+      "options": [
+        "Intensity of light",
+        "Frequency of light",
+        "Both intensity and frequency",
+        "Neither intensity nor frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The stopping potential depends on the maximum kinetic energy, which depends on <b>frequency</b>, not intensity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.5703,
+      "question": "The threshold frequency for a metal is 6 × 10<sup>14</sup> Hz. The work function is:",
+      "options": [
+        "3.98 × 10<sup>-19</sup> J",
+        "1.60 × 10<sup>-19</sup> J",
+        "6.63 × 10<sup>-19</sup> J",
+        "2.00 × 10<sup>-19</sup> J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "W = hf<sub>0</sub> = (6.63 × 10<sup>-34</sup>) × (6 × 10<sup>14</sup>) = <b>3.98 × 10<sup>-19</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.002,
+      "question": "The maximum kinetic energy of photoelectrons is zero when the frequency of incident light is:",
+      "options": [
+        "Greater than threshold frequency",
+        "Equal to threshold frequency",
+        "Less than threshold frequency",
+        "Any frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At threshold frequency, the photon energy just equals the work function, so K<sub>max</sub> = <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.8674,
+      "question": "The photoelectric effect is used in:",
+      "options": [
+        "Solar cells",
+        "Light meters",
+        "Television cameras",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The photoelectric effect is applied in <b>solar cells, light meters, and television cameras</b>. So all of the above.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568683020.5679,
+      "question": "The de Broglie wavelength of an electron accelerated through a potential V is proportional to:",
+      "options": [
+        "1/√V",
+        "√V",
+        "V",
+        "1/V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an electron accelerated through V, λ = h/√(2meV). Thus λ ∝ <b>1/√V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
