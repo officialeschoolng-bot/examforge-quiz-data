@@ -3,16 +3,718 @@
   "title": "Motion",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791570097335.8523,
+      "question": "Motion is defined as change in:",
+      "options": [
+        "Position",
+        "Mass",
+        "Temperature",
+        "Density"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Motion</b> is defined as the change in <b>position</b> of an object with respect to time and a reference point. Mass, temperature, and density do not define motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5117,
+      "question": "The S.I. unit of distance is:",
+      "options": [
+        "Metre",
+        "Second",
+        "Kilogram",
+        "Newton"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. unit of distance and length is the <b>metre (m)</b>. Second is time, kilogram is mass, newton is force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.0674,
+      "question": "The S.I. unit of speed is:",
+      "options": [
+        "m/s",
+        "m/s<sup>2</sup>",
+        "m",
+        "s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed is distance per unit time, so its S.I. unit is <b>m/s</b> (metres per second). m/s<sup>2</sup> is acceleration, m is length, s is time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.949,
+      "question": "Which is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Speed",
+        "Acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Speed</b> is a scalar because it has magnitude only. Displacement, velocity, and acceleration are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.1167,
+      "question": "Which is a vector quantity?",
+      "options": [
+        "Distance",
+        "Speed",
+        "Time",
+        "Displacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Displacement</b> is a vector because it has both magnitude and direction. Distance, speed, and time are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.0256,
+      "question": "The rate of change of distance with time is:",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Velocity",
+        "Momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Speed</b> is the rate of change of distance with time. Acceleration is rate of change of velocity; velocity is rate of change of displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.537,
+      "question": "The rate of change of displacement with time is:",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Velocity</b> is the rate of change of displacement with time. It is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.1257,
+      "question": "The rate of change of velocity with time is:",
+      "options": [
+        "Speed",
+        "Distance",
+        "Acceleration",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Acceleration</b> is the rate of change of velocity with time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.4963,
+      "question": "If a body moves with uniform velocity, its acceleration is:",
+      "options": [
+        "Zero",
+        "Constant non-zero",
+        "Increasing",
+        "Decreasing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uniform velocity means velocity is constant, so the rate of change of velocity is <b>zero</b>. Hence acceleration is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.648,
+      "question": "A body starts from rest and accelerates uniformly at 2 m/s<sup>2</sup> for 5 s. Its final velocity is:",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v = u + at, with u = 0, a = 2 m/s<sup>2</sup>, t = 5 s: v = 0 + 2 × 5 = <b>10 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.6968,
+      "question": "A car moving at 20 m/s decelerates uniformly at 4 m/s<sup>2</sup>. The time to stop is:",
+      "options": [
+        "4 s",
+        "5 s",
+        "8 s",
+        "10 s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v = u + at, with v = 0, u = 20 m/s, a = -4 m/s<sup>2</sup>: 0 = 20 - 4t, so 4t = 20, t = <b>5 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.4897,
+      "question": "The equation v = u + at relates:",
+      "options": [
+        "Distance and time",
+        "Velocity, initial velocity, acceleration and time",
+        "Force and mass",
+        "Work and energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equation <b>v = u + at</b> relates final velocity v, initial velocity u, acceleration a, and time t.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.367,
+      "question": "The equation s = ut + ½at<sup>2</sup> is used when:",
+      "options": [
+        "Velocity is constant",
+        "Acceleration is uniform",
+        "Force is zero",
+        "Mass is variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equation <b>s = ut + ½at<sup>2</sup></b> applies when acceleration is <b>uniform</b> (constant).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.9482,
+      "question": "The equation v<sup>2</sup> = u<sup>2</sup> + 2as relates:",
+      "options": [
+        "Velocity, initial velocity, acceleration and displacement",
+        "Velocity, time and distance",
+        "Force, mass and acceleration",
+        "Work, power and time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The equation <b>v<sup>2</sup> = u<sup>2</sup> + 2as</b> relates final velocity, initial velocity, acceleration, and displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.843,
+      "question": "A body moving with initial velocity 5 m/s accelerates at 3 m/s<sup>2</sup> for 4 s. The distance covered is:",
+      "options": [
+        "20 m",
+        "32 m",
+        "44 m",
+        "56 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using s = ut + ½at<sup>2</sup>: s = 5×4 + ½×3×4<sup>2</sup> = 20 + 24 = <b>44 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.688,
+      "question": "The slope of a distance-time graph gives:",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Displacement",
+        "Force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slope of a distance-time graph gives <b>speed</b>. Slope = change in distance / change in time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.374,
+      "question": "The slope of a velocity-time graph gives:",
+      "options": [
+        "Speed",
+        "Distance",
+        "Acceleration",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The slope of a velocity-time graph gives <b>acceleration</b>. Slope = change in velocity / change in time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.7957,
+      "question": "The area under a velocity-time graph gives:",
+      "options": [
+        "Acceleration",
+        "Distance",
+        "Force",
+        "Power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area under a velocity-time graph gives the <b>distance</b> (or displacement) covered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.9478,
+      "question": "In a distance-time graph, a horizontal line indicates:",
+      "options": [
+        "Constant speed",
+        "Body at rest",
+        "Uniform acceleration",
+        "Increasing velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A horizontal line on a distance-time graph means distance is not changing with time, so the body is <b>at rest</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.8223,
+      "question": "In a velocity-time graph, a horizontal line indicates:",
+      "options": [
+        "Constant velocity",
+        "Constant acceleration",
+        "Body at rest",
+        "Increasing acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A horizontal line on a velocity-time graph means velocity is constant, so the body moves with <b>constant velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.4211,
+      "question": "Acceleration due to gravity on earth is approximately:",
+      "options": [
+        "9.8 m/s<sup>2</sup>",
+        "10.8 m/s<sup>2</sup>",
+        "8.9 m/s<sup>2</sup>",
+        "11.2 m/s<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The acceleration due to gravity on Earth is approximately <b>9.8 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.2617,
+      "question": "A stone is dropped from rest. Its velocity after 3 s is [g = 10 m/s<sup>2</sup>]:",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "30 m/s",
+        "40 m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using v = u + gt, with u = 0, g = 10 m/s<sup>2</sup>, t = 3 s: v = 0 + 10×3 = <b>30 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.3945,
+      "question": "A body falls freely from rest for 4 s. The distance fallen is [g = 10 m/s<sup>2</sup>]:",
+      "options": [
+        "40 m",
+        "80 m",
+        "120 m",
+        "160 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using s = ut + ½gt<sup>2</sup>, with u = 0: s = ½×10×4<sup>2</sup> = 5×16 = <b>80 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.851,
+      "question": "The time of flight of a projectile projected at angle θ with initial velocity u is:",
+      "options": [
+        "u sin θ / g",
+        "2u sin θ / g",
+        "u cos θ / g",
+        "2u cos θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The time of flight for a projectile is <b>T = 2u sin θ / g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.6785,
+      "question": "The maximum height of a projectile is:",
+      "options": [
+        "u<sup>2</sup> sin<sup>2</sup> θ / g",
+        "u<sup>2</sup> sin<sup>2</sup> θ / 2g",
+        "u<sup>2</sup> cos<sup>2</sup> θ / 2g",
+        "u<sup>2</sup> sin 2θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The maximum height of a projectile is <b>H = u<sup>2</sup> sin<sup>2</sup> θ / (2g)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.26,
+      "question": "The horizontal range of a projectile is maximum when the angle of projection is:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal range is maximum when the angle of projection is <b>45°</b>, giving R = u<sup>2</sup>/g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.3835,
+      "question": "A projectile has maximum range when projected at:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "60°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum range occurs at <b>45°</b> for a projectile on level ground.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5044,
+      "question": "The centripetal acceleration of a body moving in a circle of radius r with speed v is:",
+      "options": [
+        "v/r",
+        "v<sup>2</sup>/r",
+        "vr",
+        "v<sup>2</sup>r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Centripetal acceleration is <b>a = v<sup>2</sup>/r</b>, directed towards the centre of the circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.0737,
+      "question": "The angular velocity of a body in circular motion is given by:",
+      "options": [
+        "v/r",
+        "r/v",
+        "vr",
+        "v<sup>2</sup>/r"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angular velocity <b>ω = v/r</b>, where v is linear speed and r is radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.088,
+      "question": "The period of a body in circular motion of radius r and speed v is:",
+      "options": [
+        "2πr/v",
+        "2πv/r",
+        "v/2πr",
+        "2πrv"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Period T = circumference / speed = <b>2πr/v</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.027,
+      "question": "Relative velocity of two bodies moving in opposite directions with speeds v<sub>1</sub> and v<sub>2</sub> is:",
+      "options": [
+        "v<sub>1</sub> + v<sub>2</sub>",
+        "v<sub>1</sub> − v<sub>2</sub>",
+        "v<sub>2</sub> − v<sub>1</sub>",
+        "v<sub>1</sub> v<sub>2</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For opposite directions, relative velocity is the sum of speeds: <b>v<sub>1</sub> + v<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.913,
+      "question": "Relative velocity of two bodies moving in same direction with speeds v<sub>1</sub> and v<sub>2</sub> (v<sub>1</sub> > v<sub>2</sub>) is:",
+      "options": [
+        "v<sub>1</sub> + v<sub>2</sub>",
+        "v<sub>1</sub> − v<sub>2</sub>",
+        "v<sub>2</sub> − v<sub>1</sub>",
+        "v<sub>1</sub> v<sub>2</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For same direction, relative velocity is the difference of speeds: <b>v<sub>1</sub> − v<sub>2</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.7046,
+      "question": "Newton's first law of motion is also called the law of:",
+      "options": [
+        "Inertia",
+        "Acceleration",
+        "Action and reaction",
+        "Gravitation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton's first law is also called the law of <b>inertia</b>, because it describes the tendency of a body to resist changes in its state of motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.174,
+      "question": "Newton's second law of motion states that force is equal to:",
+      "options": [
+        "Mass × velocity",
+        "Mass × acceleration",
+        "Mass / acceleration",
+        "Acceleration / mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's second law: <b>F = ma</b>, force equals mass times acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.9897,
+      "question": "Newton's third law of motion states that action and reaction are:",
+      "options": [
+        "Equal and in the same direction",
+        "Equal and opposite",
+        "Unequal and opposite",
+        "Unequal and same direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's third law: for every action, there is an equal and opposite reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.6155,
+      "question": "The momentum of a body of mass m moving with velocity v is:",
+      "options": [
+        "mv",
+        "m/v",
+        "v/m",
+        "m + v"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum p = <b>mv</b>, the product of mass and velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.0781,
+      "question": "Impulse is equal to:",
+      "options": [
+        "Force × time",
+        "Force / time",
+        "Mass × time",
+        "Velocity × time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Impulse = <b>force × time</b> = change in momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.1406,
+      "question": "A body of mass 2 kg moving at 5 m/s has momentum:",
+      "options": [
+        "2.5 kg m/s",
+        "5 kg m/s",
+        "10 kg m/s",
+        "20 kg m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Momentum p = mv = 2 × 5 = <b>10 kg m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.62,
+      "question": "A force of 10 N acts on a mass of 2 kg. The acceleration is:",
+      "options": [
+        "2 m/s<sup>2</sup>",
+        "5 m/s<sup>2</sup>",
+        "10 m/s<sup>2</sup>",
+        "20 m/s<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using F = ma, a = F/m = 10/2 = <b>5 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.0188,
+      "question": "A body moving with uniform acceleration covers 100 m in 5 s. If initial velocity is zero, acceleration is:",
+      "options": [
+        "2 m/s<sup>2</sup>",
+        "4 m/s<sup>2</sup>",
+        "8 m/s<sup>2</sup>",
+        "10 m/s<sup>2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using s = ut + ½at<sup>2</sup>, with u = 0: 100 = ½ × a × 5<sup>2</sup> = 12.5a, so a = 100/12.5 = <b>8 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.312,
+      "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 s. Its acceleration is:",
+      "options": [
+        "2 m/s<sup>2</sup>",
+        "4 m/s<sup>2</sup>",
+        "5 m/s<sup>2</sup>",
+        "8 m/s<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using a = (v - u)/t = (30 - 10)/5 = 20/5 = <b>4 m/s<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5393,
+      "question": "The distance covered by a body moving at constant speed 15 m/s for 8 s is:",
+      "options": [
+        "100 m",
+        "120 m",
+        "150 m",
+        "180 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distance = speed × time = 15 × 8 = <b>120 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5562,
+      "question": "Which of the following is NOT a vector quantity?",
+      "options": [
+        "Acceleration",
+        "Displacement",
+        "Speed",
+        "Force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Speed</b> is a scalar quantity. Acceleration, displacement, and force are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.7139,
+      "question": "A body moving in a circle at constant speed has:",
+      "options": [
+        "Constant velocity",
+        "Changing velocity",
+        "Zero acceleration",
+        "Constant acceleration in direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Although speed is constant, the direction of motion changes continuously, so <b>velocity is changing</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.2385,
+      "question": "The acceleration of a body in circular motion is directed:",
+      "options": [
+        "Tangential to the circle",
+        "Away from the centre",
+        "Towards the centre",
+        "Along the velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The centripetal acceleration is directed <b>towards the centre</b> of the circular path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5996,
+      "question": "A particle moves 3 m east then 4 m north. Its displacement is:",
+      "options": [
+        "1 m",
+        "5 m",
+        "7 m",
+        "12 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Displacement is the straight-line distance from start to finish: &radic;(3<sup>2</sup> + 4<sup>2</sup>) = &radic;25 = <b>5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.3818,
+      "question": "A particle moves 3 m east then 4 m north. The total distance covered is:",
+      "options": [
+        "1 m",
+        "5 m",
+        "7 m",
+        "12 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total distance is the sum of path lengths: 3 + 4 = <b>7 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.2617,
+      "question": "The area under an acceleration-time graph gives:",
+      "options": [
+        "Velocity",
+        "Displacement",
+        "Change in velocity",
+        "Force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The area under an acceleration-time graph gives the <b>change in velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.5237,
+      "question": "A body thrown vertically upwards with velocity u reaches maximum height h. The time to reach maximum height is:",
+      "options": [
+        "u/g",
+        "2u/g",
+        "u/2g",
+        "2g/u"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At maximum height, v = 0. Using v = u - gt: 0 = u - gt, so t = <b>u/g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570097335.4465,
+      "question": "A body is projected vertically upwards with 20 m/s. The maximum height reached is [g = 10 m/s<sup>2</sup>]:",
+      "options": [
+        "10 m",
+        "20 m",
+        "30 m",
+        "40 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v<sup>2</sup> = u<sup>2</sup> - 2gh, with v = 0: 0 = 20<sup>2</sup> - 2×10×h, so 400 = 20h, h = <b>20 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
