@@ -3,16 +3,718 @@
   "title": "Nucleus, Radioactivity and Nuclear Reactions",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791568541244.9797,
+      "question": "The nucleus of an atom consists of:",
+      "options": [
+        "Protons and electrons",
+        "Protons and neutrons",
+        "Neutrons and electrons",
+        "Only protons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleus contains <b>protons and neutrons</b> (collectively called nucleons). Electrons orbit outside the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.8953,
+      "question": "The number of protons in a nucleus is called the:",
+      "options": [
+        "Mass number",
+        "Atomic number",
+        "Nucleon number",
+        "Neutron number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>atomic number (Z)</b> is the number of protons in the nucleus. It uniquely identifies an element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.776,
+      "question": "The total number of protons and neutrons in a nucleus is called the:",
+      "options": [
+        "Atomic number",
+        "Mass number",
+        "Electron number",
+        "Charge number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>mass number (A)</b> is the total number of protons and neutrons (nucleons) in the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.9517,
+      "question": "Isotopes of an element have the same:",
+      "options": [
+        "Mass number",
+        "Number of neutrons",
+        "Atomic number",
+        "Nucleon number"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Isotopes are atoms of the same element with the same <b>atomic number</b> (same number of protons) but different numbers of neutrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1182,
+      "question": "Isotopes differ in the number of:",
+      "options": [
+        "Protons",
+        "Electrons",
+        "Neutrons",
+        "Charges"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Isotopes of an element have the same number of protons but differ in the number of <b>neutrons</b>, giving different mass numbers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.8574,
+      "question": "The strong nuclear force acts between:",
+      "options": [
+        "Electrons and protons",
+        "Protons and neutrons",
+        "Electrons and neutrons",
+        "Only protons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>strong nuclear force</b> acts between nucleons — both <b>protons and neutrons</b> — holding the nucleus together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.353,
+      "question": "Radioactivity is the spontaneous emission of:",
+      "options": [
+        "Electrons from the nucleus",
+        "Radiation from unstable nuclei",
+        "Protons from the nucleus",
+        "Neutrons from the nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Radioactivity</b> is the spontaneous emission of <b>radiation from unstable nuclei</b> as they decay to become more stable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.2268,
+      "question": "Which of the following is NOT a type of radioactive emission?",
+      "options": [
+        "Alpha particle",
+        "Beta particle",
+        "Gamma ray",
+        "Neutron particle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The three main types of radioactive emission are <b>alpha particles, beta particles, and gamma rays</b>. A neutron particle is not a standard radioactive emission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1875,
+      "question": "An alpha particle is identical to a:",
+      "options": [
+        "Hydrogen nucleus",
+        "Helium nucleus",
+        "Electron",
+        "Neutron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>alpha particle</b> is identical to a <b>helium nucleus</b> (<sup>4</sup><sub>2</sub>He), consisting of 2 protons and 2 neutrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.8882,
+      "question": "The charge of an alpha particle is:",
+      "options": [
+        "+1",
+        "+2",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An alpha particle contains 2 protons, so its charge is <b>+2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.5894,
+      "question": "A beta particle is identical to:",
+      "options": [
+        "A helium nucleus",
+        "An electron",
+        "A proton",
+        "A neutron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>beta particle</b> is identical to an <b>electron</b> (e<sup>-</sup>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.4976,
+      "question": "The charge of a beta particle is:",
+      "options": [
+        "+1",
+        "-1",
+        "+2",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A beta particle is an electron, so its charge is <b>-1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.4753,
+      "question": "Gamma rays are:",
+      "options": [
+        "Charged particles",
+        "Electromagnetic radiation",
+        "Helium nuclei",
+        "Electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Gamma rays</b> are high-energy <b>electromagnetic radiation</b> (photons) with no charge and no mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.3628,
+      "question": "Which radiation has the greatest penetrating power?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "All have equal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gamma rays</b> have the greatest penetrating power due to their high energy and no charge. They can pass through several centimetres of lead.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.721,
+      "question": "Which radiation has the least penetrating power?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "X-ray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Alpha particles</b> have the least penetrating power. They can be stopped by a sheet of paper or a few centimetres of air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.3127,
+      "question": "Which radiation is most ionizing?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "X-ray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Alpha particles</b> are the most ionizing due to their high charge (+2) and relatively large mass. They ionize atoms strongly but lose energy quickly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.906,
+      "question": "Alpha decay results in the emission of:",
+      "options": [
+        "An electron",
+        "A helium nucleus",
+        "A photon",
+        "A neutron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>alpha decay</b>, the nucleus emits an <b>alpha particle</b>, which is a helium nucleus (<sup>4</sup><sub>2</sub>He).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1519,
+      "question": "Beta decay results in the emission of:",
+      "options": [
+        "A helium nucleus",
+        "An electron",
+        "A photon",
+        "A proton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>beta decay</b>, the nucleus emits a <b>beta particle</b>, which is an electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.573,
+      "question": "Gamma emission results in the emission of:",
+      "options": [
+        "A helium nucleus",
+        "An electron",
+        "A photon",
+        "A neutron"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In <b>gamma emission</b>, the nucleus emits a <b>photon</b> (gamma ray) with no change in mass or atomic number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.0999,
+      "question": "When a nucleus emits an alpha particle, its mass number:",
+      "options": [
+        "Increases by 4",
+        "Decreases by 4",
+        "Remains the same",
+        "Decreases by 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha emission reduces the mass number by <b>4</b> (2 protons + 2 neutrons).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1067,
+      "question": "When a nucleus emits an alpha particle, its atomic number:",
+      "options": [
+        "Increases by 2",
+        "Decreases by 2",
+        "Remains the same",
+        "Decreases by 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alpha emission reduces the atomic number by <b>2</b> (loss of 2 protons).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.2463,
+      "question": "When a nucleus emits a beta particle, its atomic number:",
+      "options": [
+        "Increases by 1",
+        "Decreases by 1",
+        "Remains the same",
+        "Increases by 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In beta-minus decay, a neutron converts to a proton and an electron, so the atomic number <b>increases by 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.9683,
+      "question": "When a nucleus emits a beta particle, its mass number:",
+      "options": [
+        "Increases by 1",
+        "Decreases by 1",
+        "Remains the same",
+        "Decreases by 4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beta emission does not change the mass number because a neutron is replaced by a proton (same nucleon count).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.6829,
+      "question": "Gamma emission does not change:",
+      "options": [
+        "The energy of the nucleus",
+        "The mass number or atomic number",
+        "The charge of the nucleus",
+        "The number of protons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gamma emission only releases energy; it does <b>not change the mass number or atomic number</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.9138,
+      "question": "The half-life of a radioactive substance is:",
+      "options": [
+        "The time for all atoms to decay",
+        "The time for half the atoms to decay",
+        "The time for one atom to decay",
+        "The time for the mass to double"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Half-life</b> is the time required for <b>half the atoms</b> in a radioactive sample to decay.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.081,
+      "question": "After 3 half-lives, the fraction of radioactive atoms remaining is:",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After n half-lives, fraction remaining = (1/2)<sup>n</sup>. For n = 3: (1/2)<sup>3</sup> = <b>1/8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.823,
+      "question": "After 4 half-lives, the fraction of radioactive atoms remaining is:",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "correctAnswer": 3,
+      "explanation": "After n half-lives, fraction remaining = (1/2)<sup>n</sup>. For n = 4: (1/2)<sup>4</sup> = <b>1/16</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.9343,
+      "question": "If a radioactive substance has a half-life of 5 days, after 15 days the fraction remaining is:",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Number of half-lives = 15/5 = 3. Fraction remaining = (1/2)<sup>3</sup> = <b>1/8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.5662,
+      "question": "The decay constant λ is related to half-life T<sub>1/2</sub> by:",
+      "options": [
+        "λ = T<sub>1/2</sub>",
+        "λ = 0.693 / T<sub>1/2</sub>",
+        "λ = T<sub>1/2</sub> / 0.693",
+        "λ = 2T<sub>1/2</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The decay constant is related to half-life by <b>λ = 0.693 / T<sub>1/2</sub></b> (since ln 2 ≈ 0.693).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.0696,
+      "question": "The activity of a radioactive source is measured in:",
+      "options": [
+        "Joules",
+        "Becquerels",
+        "Newtons",
+        "Volts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radioactive activity is measured in <b>becquerels (Bq)</b>, where 1 Bq = 1 decay per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.963,
+      "question": "The rate of radioactive decay is proportional to:",
+      "options": [
+        "The number of undecayed nuclei",
+        "The square of the number of nuclei",
+        "The temperature",
+        "The pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rate of decay is proportional to the <b>number of undecayed nuclei</b>: dN/dt = -λN.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.0222,
+      "question": "Nuclear fission involves:",
+      "options": [
+        "Combining light nuclei",
+        "Splitting a heavy nucleus",
+        "Emitting gamma rays only",
+        "Electron capture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Nuclear fission</b> is the <b>splitting of a heavy nucleus</b> into lighter nuclei, releasing energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.772,
+      "question": "Nuclear fusion involves:",
+      "options": [
+        "Splitting a heavy nucleus",
+        "Combining light nuclei",
+        "Emitting alpha particles",
+        "Beta decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Nuclear fusion</b> is the <b>combining of light nuclei</b> to form a heavier nucleus, releasing energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.8064,
+      "question": "In a nuclear reactor, the moderator is used to:",
+      "options": [
+        "Absorb neutrons",
+        "Slow down neutrons",
+        "Speed up neutrons",
+        "Reflect neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>moderator</b> (e.g., graphite or heavy water) is used to <b>slow down neutrons</b> so they can efficiently cause fission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.862,
+      "question": "In a nuclear reactor, control rods are used to:",
+      "options": [
+        "Slow down neutrons",
+        "Absorb neutrons",
+        "Increase fission",
+        "Cool the reactor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Control rods</b> (e.g., boron or cadmium) are used to <b>absorb neutrons</b> and control the rate of the fission reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1008,
+      "question": "The function of a coolant in a nuclear reactor is to:",
+      "options": [
+        "Absorb neutrons",
+        "Remove heat from the core",
+        "Slow down neutrons",
+        "Start the reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>coolant</b> (e.g., water or liquid sodium) is used to <b>remove heat from the core</b> and transfer it to a steam generator.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.4282,
+      "question": "The fuel commonly used in nuclear reactors is:",
+      "options": [
+        "Uranium-235",
+        "Carbon-12",
+        "Hydrogen-2",
+        "Helium-4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Uranium-235</b> is the common fuel in nuclear reactors because it undergoes fission easily with slow neutrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.3057,
+      "question": "The energy released in a nuclear reaction is given by:",
+      "options": [
+        "E = mc<sup>2</sup>",
+        "E = mgh",
+        "E = ½mv<sup>2</sup>",
+        "E = qV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy released in a nuclear reaction comes from the conversion of mass defect into energy according to Einstein's equation <b>E = mc<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1062,
+      "question": "The mass defect in a nucleus is converted into:",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Binding energy",
+        "Electrons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The mass defect (difference between the sum of masses of nucleons and the actual nuclear mass) is converted into <b>binding energy</b> that holds the nucleus together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.745,
+      "question": "The binding energy of a nucleus is the energy required to:",
+      "options": [
+        "Split the nucleus into protons and neutrons",
+        "Add an electron",
+        "Remove a proton",
+        "Excite the nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>binding energy</b> is the energy required to <b>split the nucleus into its individual protons and neutrons</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.5015,
+      "question": "The binding energy per nucleon is highest for:",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Iron",
+        "Uranium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The binding energy per nucleon is highest for <b>iron</b> (around 8.8 MeV per nucleon), making it the most stable nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.2834,
+      "question": "The process of nuclear fusion powers:",
+      "options": [
+        "Nuclear reactors",
+        "The sun and stars",
+        "Atomic bombs",
+        "X-ray tubes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Nuclear fusion</b> powers the <b>sun and stars</b>, where hydrogen nuclei fuse to form helium, releasing vast amounts of energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.9597,
+      "question": "Which particle is emitted in beta-minus decay?",
+      "options": [
+        "Positron",
+        "Electron",
+        "Proton",
+        "Neutron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>beta-minus decay</b>, a neutron converts into a proton, and an <b>electron</b> (beta particle) is emitted along with an antineutrino.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.6135,
+      "question": "Which particle is emitted in beta-plus decay?",
+      "options": [
+        "Electron",
+        "Positron",
+        "Proton",
+        "Neutron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In <b>beta-plus decay</b>, a proton converts into a neutron, and a <b>positron</b> (positive electron) is emitted along with a neutrino.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.4744,
+      "question": "The neutrino is emitted in:",
+      "options": [
+        "Alpha decay",
+        "Beta decay",
+        "Gamma decay",
+        "Fission only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>neutrino</b> (or antineutrino) is emitted in <b>beta decay</b> to conserve energy, momentum, and lepton number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.1016,
+      "question": "The penetrating power of radiation is used in:",
+      "options": [
+        "Smoke detectors",
+        "Sterilization",
+        "Radiotherapy",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Radiation's penetrating power is used in <b>smoke detectors</b> (alpha), <b>sterilization</b> (gamma), and <b>radiotherapy</b> (gamma/X-rays). So <b>all of the above</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.6975,
+      "question": "Which radiation is used in smoke detectors?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "X-ray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Alpha particles</b> are used in smoke detectors. They ionize air, and smoke particles disrupt the current, triggering the alarm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.056,
+      "question": "Which radiation is used to sterilize medical equipment?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Infrared"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gamma rays</b> are used to sterilize medical equipment because they kill bacteria and viruses without leaving harmful residues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.277,
+      "question": "The main safety precaution when handling radioactive materials is:",
+      "options": [
+        "Keep them close to the body",
+        "Use lead shielding and minimize exposure time",
+        "Heat them before use",
+        "Store them in open containers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main safety precautions are to <b>use lead shielding</b>, <b>minimize exposure time</b>, and maintain distance from the source.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791568541244.5168,
+      "question": "The nuclear reaction <sup>2</sup><sub>1</sub>H + <sup>3</sup><sub>1</sub>H → <sup>4</sup><sub>2</sub>He + <sup>1</sup><sub>0</sub>n is an example of:",
+      "options": [
+        "Fission",
+        "Fusion",
+        "Alpha decay",
+        "Beta decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This reaction combines two light nuclei (deuterium and tritium) to form a heavier nucleus (helium) and a neutron. This is <b>nuclear fusion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
