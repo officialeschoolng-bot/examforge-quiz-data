@@ -3,16 +3,718 @@
   "title": "Application of Light Waves",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563357574.052,
+      "question": "The human eye forms an image on the retina that is",
+      "options": [
+        "Virtual and erect",
+        "Real and inverted",
+        "Virtual and inverted",
+        "Real and erect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The eye lens is a converging lens. It forms a <b>real, inverted</b> image on the retina. The brain interprets this inverted image as upright.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.61,
+      "question": "The part of the eye that controls the amount of light entering it is the",
+      "options": [
+        "Cornea",
+        "Iris",
+        "Retina",
+        "Optic nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>iris</b> controls the size of the pupil, thereby regulating the amount of light entering the eye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.3047,
+      "question": "The light-sensitive screen at the back of the eye is the",
+      "options": [
+        "Cornea",
+        "Pupil",
+        "Retina",
+        "Iris"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>retina</b> is the light-sensitive layer at the back of the eye where the image is formed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.6511,
+      "question": "The ability of the eye to focus objects at different distances is called",
+      "options": [
+        "Accommodation",
+        "Persistence of vision",
+        "Adaptation",
+        "Resolution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Accommodation</b> is the ability of the eye to change the focal length of its lens to focus on objects at different distances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.7983,
+      "question": "The eye defect in which a person cannot see distant objects clearly is called",
+      "options": [
+        "Long sight",
+        "Short sight",
+        "Astigmatism",
+        "Presbyopia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Short sight</b> (myopia) is the defect where distant objects appear blurred because the image forms in front of the retina.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.0583,
+      "question": "Short sightedness is corrected using a",
+      "options": [
+        "Convex lens",
+        "Concave lens",
+        "Cylindrical lens",
+        "Plane mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Short sightedness is corrected using a <b>concave (diverging) lens</b>, which diverges light before it enters the eye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.563,
+      "question": "Long sightedness is corrected using a",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Cylindrical lens",
+        "Plane mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Long sightedness (hypermetropia) is corrected using a <b>convex (converging) lens</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.3699,
+      "question": "Astigmatism is corrected using a",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Cylindrical lens",
+        "Bifocal lens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Astigmatism is caused by uneven curvature of the cornea or lens. It is corrected using a <b>cylindrical lens</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.2593,
+      "question": "Presbyopia, the loss of accommodation in old age, is corrected using",
+      "options": [
+        "Concave lens only",
+        "Convex lens only",
+        "Bifocal lens",
+        "Cylindrical lens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Presbyopia involves difficulty in seeing both near and distant objects. It is corrected using <b>bifocal lenses</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.3225,
+      "question": "The least distance of distinct vision for a normal human eye is about",
+      "options": [
+        "25cm",
+        "50cm",
+        "1m",
+        "Infinity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>least distance of distinct vision</b> for a normal eye is about <b>25 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.0928,
+      "question": "The range of accommodation of a normal human eye is",
+      "options": [
+        "0m to 0.1m",
+        "0.10m to 0.25m",
+        "0.10m to infinity",
+        "0.25m to infinity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A normal eye can focus from the near point (about 25 cm) to infinity. Therefore the range is <b>0.25 m to infinity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.733,
+      "question": "The camera part that corresponds to the retina of the eye is the",
+      "options": [
+        "Lens",
+        "Diaphragm",
+        "Film",
+        "Shutter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>film</b> in a camera is the light-sensitive surface where the image is formed, corresponding to the retina.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.0781,
+      "question": "The camera part that corresponds to the iris of the eye is the",
+      "options": [
+        "Lens",
+        "Diaphragm",
+        "Film",
+        "Shutter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>diaphragm</b> controls the amount of light entering the camera, corresponding to the iris.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.076,
+      "question": "The part of the camera whose function is similar to that of the eyelid is the",
+      "options": [
+        "Lens",
+        "Diaphragm",
+        "Film",
+        "Shutter"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>shutter</b> controls the time for which light enters the camera, similar to the eyelid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.2056,
+      "question": "The distance between the lens and the film in a camera is adjusted in order to",
+      "options": [
+        "Change the aperture",
+        "Focus the image on the film",
+        "Change the shutter speed",
+        "Reduce light intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moving the lens changes the image distance so that a sharp image is focused on the film.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.0417,
+      "question": "A simple microscope consists of",
+      "options": [
+        "One convex lens",
+        "Two convex lenses",
+        "One concave lens",
+        "One convex and one concave lens"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>simple microscope</b> is just a single convex lens used as a magnifying glass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.7083,
+      "question": "In normal use, a simple microscope produces an image that is",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and magnified",
+        "Real, erect and diminished",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an object is placed within the focal length of a convex lens, the image is <b>virtual, erect, and magnified</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.9731,
+      "question": "A compound microscope consists of",
+      "options": [
+        "One convex lens",
+        "Two convex lenses",
+        "One convex and one concave lens",
+        "Two concave lenses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>compound microscope</b> uses two convex lenses: the objective and the eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.7698,
+      "question": "In a compound microscope, the objective lens has",
+      "options": [
+        "A longer focal length than the eyepiece",
+        "A shorter focal length than the eyepiece",
+        "The same focal length as the eyepiece",
+        "Infinite focal length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The objective lens has a <b>short focal length</b> to produce high magnification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.155,
+      "question": "The image formed by the objective lens of a compound microscope is",
+      "options": [
+        "Virtual, erect and magnified",
+        "Real, inverted and magnified",
+        "Real, erect and diminished",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The objective lens forms a <b>real, inverted, magnified</b> image that acts as the object for the eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.0142,
+      "question": "The final image in a compound microscope is",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and magnified",
+        "Real, erect and diminished",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The eyepiece acts as a magnifying glass on the intermediate image, producing a <b>virtual, erect, magnified</b> final image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.9395,
+      "question": "An astronomical telescope consists of an objective lens of",
+      "options": [
+        "Short focal length and an eyepiece of short focal length",
+        "Long focal length and an eyepiece of short focal length",
+        "Short focal length and an eyepiece of long focal length",
+        "Long focal length and an eyepiece of long focal length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An astronomical telescope uses an objective of <b>long focal length</b> and an eyepiece of <b>short focal length</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.9067,
+      "question": "The angular magnification of an astronomical telescope in normal adjustment is given by",
+      "options": [
+        "f<sub>e</sub> / f<sub>o</sub>",
+        "f<sub>o</sub> / f<sub>e</sub>",
+        "f<sub>o</sub> × f<sub>e</sub>",
+        "f<sub>o</sub> + f<sub>e</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In normal adjustment, angular magnification M = <b>f<sub>o</sub> / f<sub>e</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357574.6477,
+      "question": "An astronomical telescope is said to be in normal adjustment when the final image is at",
+      "options": [
+        "The near point",
+        "The focus",
+        "Infinity",
+        "The centre of curvature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In <b>normal adjustment</b>, the final image is formed at <b>infinity</b>, so the eye is relaxed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.2817,
+      "question": "In normal adjustment, the separation between the objective and eyepiece of an astronomical telescope is",
+      "options": [
+        "f<sub>o</sub> − f<sub>e</sub>",
+        "f<sub>o</sub> + f<sub>e</sub>",
+        "f<sub>o</sub> × f<sub>e</sub>",
+        "f<sub>o</sub> / f<sub>e</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The separation between the lenses in normal adjustment is <b>f<sub>o</sub> + f<sub>e</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.5408,
+      "question": "An astronomical telescope of objective focal length 100cm and eyepiece focal length 10cm is in normal adjustment. The separation of the lenses is",
+      "options": [
+        "10cm",
+        "90cm",
+        "110cm",
+        "1000cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Separation = f<sub>o</sub> + f<sub>e</sub> = 100 + 10 = <b>110 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.809,
+      "question": "The final image of an astronomical telescope in normal adjustment is",
+      "options": [
+        "Real and inverted",
+        "Virtual and inverted",
+        "Virtual and erect",
+        "Real and erect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The final image is <b>virtual and inverted</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.1582,
+      "question": "A terrestrial telescope differs from an astronomical telescope because it has",
+      "options": [
+        "An extra converging lens to erect the image",
+        "An extra diverging lens to erect the image",
+        "A longer objective lens",
+        "A shorter eyepiece"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A terrestrial telescope uses an <b>extra converging lens</b> (erecting lens) to make the final image erect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.241,
+      "question": "A Galilean telescope uses as its eyepiece a",
+      "options": [
+        "Convex lens",
+        "Concave lens",
+        "Plane mirror",
+        "Cylindrical lens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Galilean telescope uses a <b>concave lens</b> as its eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.3862,
+      "question": "A Galilean telescope produces a final image that is",
+      "options": [
+        "Virtual and erect",
+        "Real and inverted",
+        "Virtual and inverted",
+        "Real and erect"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Galilean telescope produces a <b>virtual, erect</b> image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.984,
+      "question": "A periscope uses",
+      "options": [
+        "Two convex lenses",
+        "Two concave lenses",
+        "Two plane mirrors or totally reflecting prisms",
+        "Two cylindrical lenses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A periscope uses <b>two plane mirrors or totally reflecting prisms</b> to bend light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.1055,
+      "question": "Totally reflecting prisms are preferred to mirrors in periscopes because",
+      "options": [
+        "They are cheaper",
+        "They do not give multiple images and reflect more light",
+        "They are lighter",
+        "They require no alignment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Totally reflecting prisms reflect more light and avoid multiple images.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.6274,
+      "question": "The instrument used to obtain different colour patterns by multiple reflection is the",
+      "options": [
+        "Periscope",
+        "Kaleidoscope",
+        "Sextant",
+        "Episcope"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>kaleidoscope</b> uses multiple reflections to produce colourful patterns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.155,
+      "question": "A film projector is used to project an image on a screen. The image formed is",
+      "options": [
+        "Virtual, erect and magnified",
+        "Real, inverted and magnified",
+        "Real, erect and diminished",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A projector forms a <b>real, inverted, magnified</b> image on the screen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.5737,
+      "question": "For a projector to produce a magnified real image, the slide must be placed",
+      "options": [
+        "At the principal focus of the lens",
+        "Between the principal focus and twice the focal length",
+        "Beyond twice the focal length",
+        "At twice the focal length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To get a magnified real image, the object must be between F and 2F.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.7568,
+      "question": "The image on a projector screen appears",
+      "options": [
+        "Magnified and inverted relative to the slide",
+        "Magnified and erect relative to the slide",
+        "Diminished and inverted relative to the slide",
+        "Same size as the slide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The screen image is <b>magnified and inverted</b> relative to the slide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.167,
+      "question": "A pinhole camera forms an image that is",
+      "options": [
+        "Virtual and erect",
+        "Real and inverted",
+        "Virtual and inverted",
+        "Real and erect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pinhole camera forms a <b>real, inverted</b> image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.9846,
+      "question": "Increasing the size of the hole of a pinhole camera makes the image",
+      "options": [
+        "Sharper and brighter",
+        "Blurred and larger",
+        "Sharper and smaller",
+        "Blurred and smaller"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A larger hole admits more light but makes the image <b>blurred</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.7554,
+      "question": "An optical fibre transmits light by repeated",
+      "options": [
+        "Refraction",
+        "Reflection",
+        "Total internal reflection",
+        "Diffraction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Optical fibres transmit light by <b>total internal reflection</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.4392,
+      "question": "Optical fibres are used in",
+      "options": [
+        "Radios",
+        "Communication and endoscopy",
+        "Generators",
+        "Transformers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Optical fibres are used in <b>communication and endoscopy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.025,
+      "question": "The principle that makes optical fibre work is",
+      "options": [
+        "Diffraction of light",
+        "Interference of light",
+        "Refraction of light",
+        "Total internal reflection"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Optical fibres work on the principle of <b>total internal reflection</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.3918,
+      "question": "A magnifying glass uses a",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Plane mirror",
+        "Cylindrical lens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A magnifying glass is a <b>convex lens</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.174,
+      "question": "To use a convex lens as a magnifying glass, the object must be placed",
+      "options": [
+        "At the principal focus",
+        "Beyond twice the focal length",
+        "Within the focal length",
+        "At twice the focal length"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The object must be within the focal length to produce a virtual, magnified image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.9807,
+      "question": "The image formed by a magnifying glass is",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and magnified",
+        "Real, erect and diminished",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The image is <b>virtual, erect, and magnified</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.9656,
+      "question": "A rectangular glass prism can be used to deviate a ray of light through",
+      "options": [
+        "30°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A rectangular prism can deviate light through <b>90°</b> by total internal reflection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.2517,
+      "question": "The type of mirror used in a car headlamp to produce a parallel beam is a",
+      "options": [
+        "Plane mirror",
+        "Convex mirror",
+        "Concave mirror with the bulb at its focus",
+        "Parabolic mirror with the bulb at its focus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>parabolic mirror</b> with the bulb at its focus produces a parallel beam.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.767,
+      "question": "Which of the following is used in a simple slide projector to ensure that the slide is uniformly illuminated?",
+      "options": [
+        "Condenser lens",
+        "Plane mirror only",
+        "Concave lens",
+        "Eyepiece"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>condenser lens</b> spreads light uniformly over the slide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.4753,
+      "question": "Which of the following optical instruments produces a virtual, erect and magnified image of a nearby object?",
+      "options": [
+        "Pinhole camera",
+        "Compound microscope",
+        "Film projector",
+        "Simple microscope"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>simple microscope</b> (magnifying glass) produces a virtual, erect, magnified image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.7542,
+      "question": "The combination of a convex objective of long focal length and a convex eyepiece of short focal length is used in the construction of a",
+      "options": [
+        "Simple microscope",
+        "Compound microscope",
+        "Astronomical telescope",
+        "Projector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>astronomical telescope</b> uses a long-focus objective and a short-focus eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563357575.4614,
+      "question": "Which of the following is NOT an application of total internal reflection?",
+      "options": [
+        "Optical fibre",
+        "Periscope prisms",
+        "Mirage",
+        "Magnifying glass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>magnifying glass</b> uses refraction, not total internal reflection.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
