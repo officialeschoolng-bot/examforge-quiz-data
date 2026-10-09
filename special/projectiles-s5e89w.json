@@ -3,16 +3,718 @@
   "title": "Projectiles",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791570358768.772,
+      "question": "A projectile is a body moving under the influence of:",
+      "options": [
+        "Air resistance only",
+        "Gravity only after initial projection",
+        "Magnetic force",
+        "Friction only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>projectile</b> is any body that is given an initial velocity and then moves under the influence of <b>gravity alone</b> (neglecting air resistance). The only force acting on it after projection is its weight, which gives it a downward acceleration of g. Air resistance, magnetic force, and friction are not the defining influences for ideal projectile motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.325,
+      "question": "Neglecting air resistance, the path of a projectile is:",
+      "options": [
+        "Circle",
+        "Straight line",
+        "Parabola",
+        "Ellipse"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the absence of air resistance, the horizontal motion is uniform (constant velocity) and the vertical motion is uniformly accelerated (due to gravity). Combining these gives a <b>parabolic</b> trajectory. The equation of the path is y = x tan θ − gx²/(2u² cos²θ), which is a parabola.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.1333,
+      "question": "The horizontal component of a projectile's velocity is:",
+      "options": [
+        "u sin θ",
+        "u cos θ",
+        "u tan θ",
+        "u / cos θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If a projectile is launched with initial speed u at an angle θ to the horizontal, its initial velocity can be resolved into two components. The <b>horizontal component</b> is <b>u cos θ</b>, which remains constant throughout the motion (since there is no horizontal acceleration).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.101,
+      "question": "The vertical component of a projectile's velocity is:",
+      "options": [
+        "u cos θ",
+        "u sin θ",
+        "u tan θ",
+        "u / sin θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>vertical component</b> of the initial velocity is <b>u sin θ</b>. This component changes with time due to the downward acceleration of gravity: v<sub>y</sub> = u sin θ − gt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.853,
+      "question": "At the maximum height, the vertical component of velocity is:",
+      "options": [
+        "Maximum",
+        "Zero",
+        "u",
+        "u sin θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the highest point of its trajectory, the projectile momentarily stops moving upward, so its <b>vertical velocity becomes zero</b>. The horizontal velocity, however, remains u cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6409,
+      "question": "At the maximum height, the acceleration of a projectile is:",
+      "options": [
+        "Zero",
+        "g downward",
+        "g upward",
+        "u cos θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The acceleration of a projectile is always <b>g downward</b> (towards the centre of the Earth) throughout its flight, including at the maximum height. The horizontal acceleration is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.5293,
+      "question": "The time to reach maximum height is:",
+      "options": [
+        "u sin θ / g",
+        "2u sin θ / g",
+        "u cos θ / g",
+        "2u cos θ / g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At maximum height, the vertical velocity is zero. Using v<sub>y</sub> = u sin θ − gt, set v<sub>y</sub> = 0: 0 = u sin θ − gt ⇒ <b>t = u sin θ / g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.194,
+      "question": "The total time of flight on level ground is:",
+      "options": [
+        "u sin θ / g",
+        "2u sin θ / g",
+        "u cos θ / g",
+        "2u cos θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a projectile launched and landing at the same height, the time of flight is twice the time to reach maximum height: <b>T = 2u sin θ / g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6272,
+      "question": "The maximum height reached is:",
+      "options": [
+        "u² sin² θ / g",
+        "u² sin² θ / 2g",
+        "u² cos² θ / 2g",
+        "u² sin 2θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using v<sub>y</sub>² = (u sin θ)² − 2gH, with v<sub>y</sub> = 0 at maximum height: 0 = u² sin² θ − 2gH ⇒ <b>H = u² sin² θ / (2g)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.0886,
+      "question": "The horizontal range on level ground is:",
+      "options": [
+        "u² sin² θ / g",
+        "u² sin 2θ / g",
+        "u² cos 2θ / g",
+        "u² tan θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range R = horizontal velocity × time of flight = (u cos θ) × (2u sin θ / g) = u² (2 sin θ cos θ) / g = <b>u² sin 2θ / g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.1536,
+      "question": "The range of a projectile is maximum when the angle of projection is:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range R = u² sin 2θ / g. This is maximum when sin 2θ = 1, i.e., 2θ = 90° ⇒ <b>θ = 45°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.2793,
+      "question": "Two angles of projection give the same range if they are:",
+      "options": [
+        "Equal",
+        "Complementary",
+        "Supplementary",
+        "Opposite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since R = u² sin 2θ / g, the range is the same for angles θ and (90° − θ), because sin 2(90° − θ) = sin(180° − 2θ) = sin 2θ. Such angles are <b>complementary</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.8525,
+      "question": "Which pair of angles gives the same range for the same initial speed?",
+      "options": [
+        "20° and 70°",
+        "30° and 90°",
+        "40° and 80°",
+        "10° and 30°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complementary angles give the same range. 20° and 70° add up to 90°, so they are complementary. Hence they give the <b>same range</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.5251,
+      "question": "A projectile launched horizontally from a height h has initial vertical velocity:",
+      "options": [
+        "u",
+        "u sin θ",
+        "Zero",
+        "u cos θ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When a projectile is launched horizontally, its initial velocity is entirely horizontal, so the <b>initial vertical velocity is zero</b>. It then accelerates downward under gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.5762,
+      "question": "A body projected horizontally from a height h reaches the ground in time:",
+      "options": [
+        "√(h/g)",
+        "√(2h/g)",
+        "2h/g",
+        "h/u"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For vertical motion, initial vertical velocity is zero. Using h = ½gt²: t = <b>√(2h/g)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.1104,
+      "question": "A stone is thrown horizontally at 15 m/s from a height of 20 m. Time to reach the ground is [g = 10 m/s²]:",
+      "options": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using t = √(2h/g) = √(2×20/10) = √4 = <b>2 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.7375,
+      "question": "In question 16, the horizontal distance covered is:",
+      "options": [
+        "15 m",
+        "20 m",
+        "30 m",
+        "40 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Horizontal distance = horizontal velocity × time = 15 m/s × 2 s = <b>30 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.9583,
+      "question": "A projectile is launched with speed u at angle θ. Its horizontal velocity at any time t is:",
+      "options": [
+        "u sin θ − gt",
+        "u cos θ",
+        "u sin θ",
+        "u cos θ − gt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal component of velocity remains constant throughout the flight (no horizontal acceleration), so it is always <b>u cos θ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.2468,
+      "question": "Its vertical velocity at any time t is:",
+      "options": [
+        "u cos θ",
+        "u sin θ − gt",
+        "u sin θ + gt",
+        "u cos θ − gt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertical velocity changes due to gravity: <b>v<sub>y</sub> = u sin θ − gt</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.457,
+      "question": "The speed of a projectile at its maximum height is:",
+      "options": [
+        "u",
+        "u sin θ",
+        "u cos θ",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At maximum height, the vertical velocity is zero, so the speed is solely the horizontal component: <b>u cos θ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.2834,
+      "question": "A projectile is fired at 20 m/s at 30° to the horizontal. Its initial vertical component is:",
+      "options": [
+        "10 m/s",
+        "17.3 m/s",
+        "20 m/s",
+        "5 m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vertical component = u sin θ = 20 × sin 30° = 20 × 0.5 = <b>10 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6846,
+      "question": "In question 21, its initial horizontal component is:",
+      "options": [
+        "10 m/s",
+        "17.3 m/s",
+        "20 m/s",
+        "5 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Horizontal component = u cos θ = 20 × cos 30° = 20 × (√3/2) ≈ <b>17.3 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.2168,
+      "question": "In question 21, the time of flight is [g = 10 m/s²]:",
+      "options": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Time of flight T = 2u sin θ / g = (2 × 20 × 0.5)/10 = 20/10 = <b>2 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.0698,
+      "question": "In question 21, the maximum height is:",
+      "options": [
+        "2.5 m",
+        "5 m",
+        "10 m",
+        "20 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum height H = u² sin² θ / (2g) = (20² × 0.5²)/(2×10) = (400 × 0.25)/20 = 100/20 = <b>5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6533,
+      "question": "In question 21, the range is approximately:",
+      "options": [
+        "34.6 m",
+        "40.0 m",
+        "20.0 m",
+        "17.3 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Range R = u² sin 2θ / g = (20² × sin 60°)/10 = (400 × 0.866)/10 ≈ <b>34.6 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.634,
+      "question": "A projectile is launched at 45° with speed 20 m/s. Its range is [g = 10 m/s²]:",
+      "options": [
+        "20 m",
+        "40 m",
+        "80 m",
+        "10 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range R = u² sin 2θ / g = (20² × sin 90°)/10 = 400/10 = <b>40 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.078,
+      "question": "In question 26, its maximum height is:",
+      "options": [
+        "5 m",
+        "10 m",
+        "20 m",
+        "40 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum height H = u² sin² θ / (2g) = (20² × (√2/2)²)/(2×10) = (400 × 0.5)/20 = 200/20 = <b>10 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.5928,
+      "question": "The horizontal acceleration of a projectile, neglecting air resistance, is:",
+      "options": [
+        "g",
+        "Zero",
+        "u cos θ",
+        "u sin θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is no horizontal force acting on the projectile (neglecting air resistance), so the horizontal acceleration is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.469,
+      "question": "The vertical acceleration of a projectile is:",
+      "options": [
+        "Zero",
+        "g downward",
+        "g upward",
+        "Constant velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The only force is gravity, which acts downward, so the vertical acceleration is <b>g downward</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.7146,
+      "question": "At the highest point of its path, the velocity and acceleration of a projectile are:",
+      "options": [
+        "Parallel",
+        "Anti-parallel",
+        "Perpendicular",
+        "In same direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At maximum height, velocity is horizontal (u cos θ) and acceleration is vertical downward (g). Therefore they are <b>perpendicular</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.87,
+      "question": "A projectile has maximum range when sin 2θ equals:",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "√3/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Range R = u² sin 2θ / g. For maximum range, sin 2θ must be maximum, i.e., <b>sin 2θ = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.513,
+      "question": "For a given initial speed, the maximum height is greatest when the angle of projection is:",
+      "options": [
+        "0°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Maximum height H = u² sin² θ / (2g). This is maximum when sin θ is maximum, i.e., θ = <b>90°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.4219,
+      "question": "For a given initial speed, the time of flight is greatest when the angle of projection is:",
+      "options": [
+        "0°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Time of flight T = 2u sin θ / g. This is maximum when sin θ is maximum, i.e., θ = <b>90°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.7014,
+      "question": "A projectile's horizontal range is zero when projected at:",
+      "options": [
+        "0° from level ground",
+        "45°",
+        "60°",
+        "30°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Range R = u² sin 2θ / g. If θ = 0°, sin 0° = 0, so range is <b>zero</b> (projectile moves horizontally along the ground).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6006,
+      "question": "A projectile's horizontal range is zero when projected at:",
+      "options": [
+        "90° from level ground",
+        "45°",
+        "60°",
+        "30°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If θ = 90°, sin 180° = 0, so range is <b>zero</b> (projectile goes straight up and comes back down).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.3213,
+      "question": "The trajectory of a projectile is represented by:",
+      "options": [
+        "y = ux + ½gx²",
+        "y = x tan θ − gx²/(2u² cos² θ)",
+        "y = u² sin 2θ / g",
+        "y = u cos θ t"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eliminating t from x = u cos θ t and y = u sin θ t − ½gt² gives the trajectory equation: <b>y = x tan θ − gx²/(2u² cos² θ)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.1458,
+      "question": "A ball is thrown vertically upwards. Its motion is:",
+      "options": [
+        "Projectile motion",
+        "Simple harmonic motion",
+        "Circular motion",
+        "Random motion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ball thrown vertically upwards is a special case of <b>projectile motion</b> with θ = 90°. It moves under gravity alone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.968,
+      "question": "A projectile is fired at 60° with speed 30 m/s. Its time to maximum height is [g = 10 m/s²]:",
+      "options": [
+        "2.6 s",
+        "3.0 s",
+        "5.2 s",
+        "1.5 s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Time to max height t = u sin θ / g = (30 × sin 60°)/10 = (30 × 0.866)/10 ≈ <b>2.6 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.006,
+      "question": "In question 38, the maximum height is approximately:",
+      "options": [
+        "33.8 m",
+        "45.0 m",
+        "22.5 m",
+        "67.5 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "H = u² sin² θ / (2g) = (30² × (sin 60°)²)/(2×10) = (900 × 0.75)/20 = 675/20 = <b>33.8 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.3918,
+      "question": "In question 38, the range is approximately:",
+      "options": [
+        "77.9 m",
+        "90.0 m",
+        "45.0 m",
+        "60.0 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "R = u² sin 2θ / g = (30² × sin 120°)/10 = (900 × 0.866)/10 ≈ <b>77.9 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.8254,
+      "question": "The component of velocity that remains constant throughout projectile motion is:",
+      "options": [
+        "Vertical",
+        "Horizontal",
+        "Resultant",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>horizontal component</b> of velocity remains constant because there is no horizontal acceleration (neglecting air resistance).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.8875,
+      "question": "A projectile is launched at an angle θ. Its kinetic energy at maximum height is:",
+      "options": [
+        "½mu²",
+        "½m(u cos θ)²",
+        "½m(u sin θ)²",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At maximum height, the speed is u cos θ. So kinetic energy = ½m(u cos θ)² = <b>½m u² cos² θ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.5774,
+      "question": "Its potential energy at maximum height is:",
+      "options": [
+        "½mu²",
+        "mgh",
+        "½m(u cos θ)²",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Potential energy at maximum height = mgh, where h is the maximum height. So <b>mgh</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.884,
+      "question": "The relation between range R and maximum height H for a projectile is:",
+      "options": [
+        "R = 4H tan θ",
+        "H = R tan θ / 4",
+        "R = H tan θ",
+        "H = R / tan θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From R = u² sin 2θ / g and H = u² sin² θ / (2g), eliminating u² gives <b>H = R tan θ / 4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.6958,
+      "question": "For a projectile launched at 45°, the maximum height H and range R are related by:",
+      "options": [
+        "R = H",
+        "R = 2H",
+        "R = 4H",
+        "R = H/4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At θ = 45°, tan θ = 1. Using H = R tan θ / 4 gives H = R/4, so <b>R = 4H</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.526,
+      "question": "A projectile has the same range for angles 30° and:",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complementary angles give same range. 30° and <b>60°</b> are complementary (30° + 60° = 90°).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.944,
+      "question": "A projectile is thrown at 10 m/s horizontally from a 45 m high cliff. Time to hit ground is [g = 10 m/s²]:",
+      "options": [
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vertical motion: h = ½gt² ⇒ 45 = ½ × 10 × t² ⇒ t² = 9 ⇒ t = <b>3 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.0417,
+      "question": "In question 47, horizontal distance from cliff base is:",
+      "options": [
+        "10 m",
+        "20 m",
+        "30 m",
+        "40 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Horizontal distance = horizontal speed × time = 10 m/s × 3 s = <b>30 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.236,
+      "question": "At maximum height, the vertical component of velocity is zero, but the horizontal component is:",
+      "options": [
+        "Zero",
+        "u sin θ",
+        "u cos θ",
+        "g"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At maximum height, only the vertical velocity is zero. The horizontal velocity remains <b>u cos θ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791570358768.1448,
+      "question": "The acceleration of a projectile at the highest point is:",
+      "options": [
+        "Zero",
+        "g downward",
+        "g upward",
+        "u cos θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The acceleration due to gravity is always <b>g downward</b>, regardless of the position of the projectile.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
