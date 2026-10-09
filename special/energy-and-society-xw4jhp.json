@@ -3,16 +3,718 @@
   "title": "Energy and Society",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791569362559.432,
+      "question": "Which of the following is a renewable energy source?",
+      "options": [
+        "Coal",
+        "Natural gas",
+        "Solar",
+        "Petroleum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Renewable energy comes from sources that are naturally replenished. <b>Solar</b> energy is renewable because sunlight is abundant and continuously available. Coal, natural gas, and petroleum are fossil fuels formed over millions of years and are non-renewable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.594,
+      "question": "Which is a non-renewable energy source?",
+      "options": [
+        "Wind",
+        "Coal",
+        "Solar",
+        "Biomass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non-renewable energy sources are finite and cannot be replenished on a human timescale. <b>Coal</b> is a fossil fuel and is non-renewable. Wind, solar, and biomass are renewable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.936,
+      "question": "Fossil fuels are formed from:",
+      "options": [
+        "Remains of ancient organisms",
+        "Volcanic rocks",
+        "Ocean water",
+        "Atmospheric gases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fossil fuels are formed from the <b>remains of ancient organisms</b> (plants and animals) that were buried and subjected to heat and pressure over millions of years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.4907,
+      "question": "The main greenhouse gas emitted by burning fossil fuels is:",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Helium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Burning fossil fuels releases <b>carbon dioxide (CO<sub>2</sub>)</b>, a major greenhouse gas. Oxygen, nitrogen, and helium are not greenhouse gases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.8289,
+      "question": "The greenhouse effect is important because it:",
+      "options": [
+        "Cools the earth",
+        "Traps heat in the atmosphere",
+        "Depletes ozone",
+        "Causes acid rain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The greenhouse effect <b>traps heat in the atmosphere</b>, keeping Earth warm enough to support life. It does not cool the earth, deplete ozone, or directly cause acid rain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7979,
+      "question": "Which energy source has the least environmental impact?",
+      "options": [
+        "Coal",
+        "Wind",
+        "Oil",
+        "Natural gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Wind</b> energy produces no emissions during operation, uses minimal land, and is renewable. Coal, oil, and natural gas cause pollution and greenhouse gas emissions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.5037,
+      "question": "Solar panels convert:",
+      "options": [
+        "Sunlight to electrical energy",
+        "Heat to chemical energy",
+        "Wind to electrical energy",
+        "Water to electrical energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solar panels (photovoltaic cells) convert <b>sunlight directly into electrical energy</b>. They do not convert heat to chemical energy, wind, or water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6428,
+      "question": "Photovoltaic cells use the:",
+      "options": [
+        "Nuclear fusion process",
+        "Photoelectric effect",
+        "Thermionic emission process",
+        "Electromagnetic induction process"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Photovoltaic cells use the <b>photoelectric effect</b>: photons from sunlight knock electrons loose, creating an electric current. Nuclear fusion, thermionic emission, and electromagnetic induction are different processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.865,
+      "question": "Hydropower uses:",
+      "options": [
+        "Falling water",
+        "Burning wood",
+        "Nuclear fission",
+        "Wind"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydropower uses the kinetic energy of <b>falling or flowing water</b> to spin turbines and generate electricity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.5923,
+      "question": "A major disadvantage of hydropower is:",
+      "options": [
+        "No water use",
+        "Displacement of communities",
+        "Zero emissions",
+        "Low cost"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A major disadvantage of hydropower is the <b>displacement of communities</b> when large dams are built. Zero emissions and low cost are advantages; no water use is false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.152,
+      "question": "Wind energy is harnessed using:",
+      "options": [
+        "Turbines",
+        "Generators only",
+        "Solar cells",
+        "Batteries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wind energy is harnessed using <b>turbines</b>: wind turns the blades, which drive a generator. Generators alone don't capture wind; solar cells are for sunlight; batteries store energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.5396,
+      "question": "Geothermal energy comes from:",
+      "options": [
+        "Earth's internal heat",
+        "Sunlight",
+        "Wind",
+        "Tides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Geothermal energy comes from <b>Earth's internal heat</b>, which can be used to generate electricity or heat buildings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.0657,
+      "question": "Biomass energy is derived from:",
+      "options": [
+        "Organic matter",
+        "Uranium",
+        "Fossil fuels",
+        "Minerals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biomass energy is derived from <b>organic matter</b> such as plants, wood, and agricultural waste.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6023,
+      "question": "Tidal energy is generated from:",
+      "options": [
+        "Ocean tides",
+        "River flow",
+        "Wind",
+        "Solar heat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tidal energy is generated from the rise and fall of <b>ocean tides</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.3867,
+      "question": "Nuclear energy is produced by:",
+      "options": [
+        "Combustion",
+        "Fission or fusion",
+        "Photosynthesis",
+        "Electrolysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nuclear energy is produced by <b>fission</b> (splitting heavy nuclei) or <b>fusion</b> (combining light nuclei). Combustion is chemical, photosynthesis is biological, electrolysis is chemical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.4858,
+      "question": "The main concern with nuclear power is:",
+      "options": [
+        "Radioactive waste",
+        "Low energy output",
+        "No fuel",
+        "Greenhouse gases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main concern with nuclear power is <b>radioactive waste</b>, which remains hazardous for thousands of years. Nuclear power has high energy output, uses fuel, and emits no greenhouse gases directly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.9355,
+      "question": "Energy efficiency means:",
+      "options": [
+        "Using more energy",
+        "Using less energy for the same output",
+        "Wasting energy",
+        "Producing more heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy efficiency means <b>using less energy to achieve the same output</b>. It does not mean using more, wasting, or producing more heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7412,
+      "question": "The S.I. unit of energy is the:",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Ampere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. unit of energy is the <b>joule (J)</b>. Watt is power, Newton is force, Ampere is electric current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.234,
+      "question": "The S.I. unit of power is the:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Coulomb",
+        "Volt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. unit of power is the <b>watt (W)</b>, which is one joule per second. Joule is energy, Coulomb is charge, Volt is potential difference.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7222,
+      "question": "One kilowatt-hour is equal to:",
+      "options": [
+        "3.6 × 10<sup>6</sup> J",
+        "1000 J",
+        "3600 J",
+        "1 J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One kilowatt-hour (kWh) = 1000 W × 3600 s = <b>3.6 × 10<sup>6</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.2354,
+      "question": "Which sector consumes most energy globally?",
+      "options": [
+        "Industry",
+        "Transportation",
+        "Buildings",
+        "Agriculture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>industry</b> sector consumes the largest share of global energy, followed by buildings and transportation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.0947,
+      "question": "Energy conservation can be achieved by:",
+      "options": [
+        "Leaving lights on",
+        "Using efficient appliances",
+        "Increasing waste",
+        "Burning more fuel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy conservation is achieved by <b>using efficient appliances</b> and reducing waste. Leaving lights on, increasing waste, and burning more fuel increase consumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.8005,
+      "question": "A major cause of global warming is:",
+      "options": [
+        "Reforestation",
+        "Burning fossil fuels",
+        "Solar panels",
+        "Wind turbines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A major cause of global warming is <b>burning fossil fuels</b>, which releases CO<sub>2</sub> and other greenhouse gases. Reforestation, solar panels, and wind turbines help mitigate global warming.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.939,
+      "question": "Acid rain is mainly caused by:",
+      "options": [
+        "CO<sub>2</sub>",
+        "SO<sub>2</sub> and NO<sub>x</sub>",
+        "O<sub>2</sub>",
+        "CH<sub>4</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acid rain is mainly caused by <b>sulfur dioxide (SO<sub>2</sub>) and nitrogen oxides (NO<sub>x</sub>)</b>, which react with water vapor to form acids. CO<sub>2</sub> contributes to global warming but is not the main cause of acid rain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.2888,
+      "question": "The ozone layer is depleted by:",
+      "options": [
+        "CO<sub>2</sub>",
+        "CFCs",
+        "O<sub>2</sub>",
+        "N<sub>2</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer is depleted by <b>chlorofluorocarbons (CFCs)</b>, which release chlorine atoms that destroy ozone molecules. CO<sub>2</sub> is a greenhouse gas, not an ozone depleter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6355,
+      "question": "Sustainable energy means:",
+      "options": [
+        "Energy that cannot be replenished",
+        "Energy that meets present needs without compromising future generations",
+        "Energy from coal",
+        "Energy from oil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sustainable energy <b>meets present needs without compromising the ability of future generations to meet their own needs</b>. It is not limited to fossil fuels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7534,
+      "question": "Which of the following is a fossil fuel?",
+      "options": [
+        "Wood",
+        "Natural gas",
+        "Biogas",
+        "Hydrogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Natural gas</b> is a fossil fuel formed from ancient organic matter. Wood and biogas are biomass; hydrogen is not a fossil fuel.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.3225,
+      "question": "The energy source of the sun is:",
+      "options": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Chemical combustion",
+        "Geothermal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sun's energy comes from <b>nuclear fusion</b>, where hydrogen nuclei combine to form helium, releasing vast energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.8313,
+      "question": "Which of the following is not a renewable energy source?",
+      "options": [
+        "Solar",
+        "Wind",
+        "Natural gas",
+        "Hydro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Natural gas</b> is a fossil fuel and is non-renewable. Solar, wind, and hydro are renewable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.5127,
+      "question": "The main advantage of renewable energy is:",
+      "options": [
+        "Finite supply",
+        "Low greenhouse gas emissions",
+        "High pollution",
+        "High fuel cost"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main advantage of renewable energy is <b>low greenhouse gas emissions</b>. Renewable sources are not finite, pollute less, and have low fuel costs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.179,
+      "question": "Energy from waste is called:",
+      "options": [
+        "Biogas",
+        "Waste-to-energy",
+        "Geothermal",
+        "Tidal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy from waste is generally called <b>waste-to-energy</b>. Biogas is a specific type of biofuel produced from organic waste, but the broader term is waste-to-energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.49,
+      "question": "The best way to reduce energy consumption in homes is:",
+      "options": [
+        "Insulation",
+        "Opening windows in winter",
+        "Using incandescent bulbs",
+        "Leaving appliances on"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Insulation</b> reduces heat loss, lowering the need for heating and cooling. Opening windows in winter, using incandescent bulbs, and leaving appliances on increase energy consumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.289,
+      "question": "LED bulbs are more efficient than incandescent bulbs because they:",
+      "options": [
+        "Produce more heat",
+        "Convert more electricity to light",
+        "Use more power",
+        "Are cheaper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LED bulbs <b>convert more electricity to light</b> rather than heat, making them more efficient than incandescent bulbs, which waste most energy as heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.244,
+      "question": "The energy payback time of a solar panel is the:",
+      "options": [
+        "Time to generate energy equal to manufacturing energy",
+        "Time to install",
+        "Time to break",
+        "Time to cool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy payback time is the <b>time a solar panel takes to generate the same amount of energy used to manufacture it</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.2275,
+      "question": "Which energy source is considered clean?",
+      "options": [
+        "Coal",
+        "Oil",
+        "Wind",
+        "Diesel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Wind</b> energy is considered clean because it produces no emissions during operation. Coal, oil, and diesel are fossil fuels that emit pollutants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.5032,
+      "question": "Carbon footprint is:",
+      "options": [
+        "Total greenhouse gases emitted by an individual or activity",
+        "Amount of carbon in a product",
+        "Size of a footprint",
+        "Carbon in soil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon footprint is the <b>total greenhouse gases emitted by an individual, organization, or activity</b>, usually expressed as CO<sub>2</sub> equivalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6072,
+      "question": "Which of the following is a primary energy source?",
+      "options": [
+        "Electricity",
+        "Coal",
+        "Heat",
+        "Light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Coal</b> is a primary energy source found in nature. Electricity is a secondary energy source because it is generated from primary sources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7375,
+      "question": "Electricity is a:",
+      "options": [
+        "Primary energy source",
+        "Secondary energy source",
+        "Renewable source",
+        "Fossil fuel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electricity is a <b>secondary energy source</b> because it is produced from primary sources such as coal, natural gas, wind, or solar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.888,
+      "question": "The main fuel for nuclear power is:",
+      "options": [
+        "Uranium",
+        "Coal",
+        "Hydrogen",
+        "Methane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Uranium</b> is the main fuel for nuclear power, specifically uranium-235, which undergoes fission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.7864,
+      "question": "Which has the highest energy density?",
+      "options": [
+        "Coal",
+        "Uranium",
+        "Wood",
+        "Natural gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Uranium</b> has the highest energy density among the options. A small amount of uranium releases enormous energy compared to fossil fuels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.0044,
+      "question": "A major problem with wind energy is:",
+      "options": [
+        "Intermittency",
+        "High emissions",
+        "Radioactive waste",
+        "Acid rain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A major problem with wind energy is <b>intermittency</b>: wind does not blow consistently. It has no emissions, radioactive waste, or acid rain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.316,
+      "question": "Solar thermal power plants use:",
+      "options": [
+        "Mirrors to concentrate sunlight",
+        "Photovoltaic cells only",
+        "Wind",
+        "Water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solar thermal power plants use <b>mirrors to concentrate sunlight</b> to heat a fluid, producing steam to drive turbines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6,
+      "question": "The greenhouse gas with the highest concentration from human activities is:",
+      "options": [
+        "CO<sub>2</sub>",
+        "CH<sub>4</sub>",
+        "N<sub>2</sub>O",
+        "O<sub>3</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Carbon dioxide (CO<sub>2</sub>)</b> has the highest concentration among long-lived greenhouse gases emitted by human activities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.9011,
+      "question": "Energy demand per capita is highest in:",
+      "options": [
+        "Developed countries",
+        "Developing countries",
+        "Antarctica",
+        "Oceans"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy demand per capita is highest in <b>developed countries</b> due to higher industrial activity and consumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.2295,
+      "question": "Which of the following is an example of energy storage?",
+      "options": [
+        "Battery",
+        "Generator",
+        "Turbine",
+        "Transformer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>battery</b> stores chemical energy that can be converted to electrical energy. Generators, turbines, and transformers do not store energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.8584,
+      "question": "Pumped hydro storage stores energy as:",
+      "options": [
+        "Chemical energy",
+        "Potential energy of water",
+        "Nuclear energy",
+        "Solar energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pumped hydro storage stores energy as <b>potential energy of water</b> by pumping water to a higher reservoir.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.6223,
+      "question": "The efficiency of a typical coal power plant is about:",
+      "options": [
+        "30–40%",
+        "70–80%",
+        "90–95%",
+        "10–20%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The efficiency of a typical coal power plant is about <b>30–40%</b> due to thermodynamic limitations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.292,
+      "question": "The main reason for the energy transition is to:",
+      "options": [
+        "Reduce environmental impacts",
+        "Increase pollution",
+        "Deplete resources faster",
+        "Increase cost"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main reason for the energy transition is to <b>reduce environmental impacts</b> such as climate change and pollution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.717,
+      "question": "Which of the following is a direct consequence of increased CO<sub>2</sub>?",
+      "options": [
+        "Global warming",
+        "Ozone depletion",
+        "Acid rain",
+        "Radioactivity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increased CO<sub>2</sub> enhances the greenhouse effect, leading to <b>global warming</b>. Ozone depletion is caused by CFCs; acid rain by SO<sub>2</sub> and NO<sub>x</sub>; radioactivity by nuclear reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791569362559.3555,
+      "question": "Energy sustainability involves:",
+      "options": [
+        "Using fossil fuels only",
+        "Balancing economic, social, and environmental needs",
+        "Ignoring future generations",
+        "Increasing waste"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy sustainability involves <b>balancing economic, social, and environmental needs</b> to meet present needs without compromising future generations.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
