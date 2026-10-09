@@ -3,16 +3,718 @@
   "title": "Magnetic Field",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791564948245.825,
+      "question": "A magnetic field is a region in which a magnetic force is experienced by a",
+      "options": [
+        "Stationary charge",
+        "Moving charge",
+        "Neutral atom",
+        "Stationary mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A magnetic field exerts a force only on a <b>moving charge</b>. A stationary charge does not experience a magnetic force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.5593,
+      "question": "The S.I. unit of magnetic flux density is the",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Gauss"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic flux density (B) is measured in <b>tesla (T)</b>. One tesla is one weber per square metre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.3086,
+      "question": "The S.I. unit of magnetic flux is the",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Ampere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic flux (Φ) is measured in <b>weber (Wb)</b>. One weber is one tesla square metre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.4978,
+      "question": "One tesla is equivalent to",
+      "options": [
+        "1Wbm<sup>2</sup>",
+        "1Wbm<sup>-2</sup>",
+        "1Wbm",
+        "1Wbm<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B = Φ/A, so 1 T = 1 Wb m<sup>-2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.8584,
+      "question": "Magnetic field lines outside a magnet run from the",
+      "options": [
+        "South pole to the north pole",
+        "North pole to the south pole",
+        "Both poles to the centre",
+        "Centre to both poles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Outside a magnet, field lines run from the <b>north pole to the south pole</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9065,
+      "question": "The magnetic field lines inside a magnet run from the",
+      "options": [
+        "North pole to the south pole",
+        "South pole to the north pole",
+        "Both poles to the centre",
+        "Centre to both poles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inside a magnet, field lines run from the <b>south pole to the north pole</b>, completing the loop.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.018,
+      "question": "Magnetic field lines",
+      "options": [
+        "Intersect one another",
+        "Do not intersect one another",
+        "Are always straight",
+        "Always start from the south pole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic field lines <b>never intersect</b> because at any point the field has a unique direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9941,
+      "question": "The direction of the magnetic field at a point is the direction in which the north pole of a",
+      "options": [
+        "Stationary compass needle points",
+        "Free compass needle would point",
+        "Bar magnet is repelled",
+        "Iron filing is attracted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The direction of B is the direction a <b>free compass needle</b> would point (north pole).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9229,
+      "question": "The magnetic field due to a long straight current-carrying conductor at a distance r from it is",
+      "options": [
+        "Directly proportional to r",
+        "Inversely proportional to r",
+        "Inversely proportional to r<sup>2</sup>",
+        "Independent of r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B = μ<sub>0</sub>I/(2πr), so B is <b>inversely proportional to r</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.137,
+      "question": "The magnetic field due to a long straight current-carrying conductor is directly proportional to the",
+      "options": [
+        "Square of the current",
+        "Current",
+        "Cube of the current",
+        "Inverse of the current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B = μ<sub>0</sub>I/(2πr), so B is <b>directly proportional to current I</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.7307,
+      "question": "The magnetic field due to a long straight current-carrying conductor forms",
+      "options": [
+        "Radial lines",
+        "Concentric circles around the conductor",
+        "Parallel straight lines",
+        "Elliptical paths"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The field lines form <b>concentric circles</b> around the conductor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.7417,
+      "question": "The direction of the magnetic field around a current-carrying conductor is given by",
+      "options": [
+        "Fleming's left-hand rule",
+        "Fleming's right-hand rule",
+        "Maxwell's screw rule (right-hand grip rule)",
+        "Lenz's law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>right-hand grip rule</b> (Maxwell's screw rule) gives the direction of B around a current-carrying conductor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.6328,
+      "question": "The magnitude of the force on a charge q moving with velocity v in a magnetic field B at an angle θ is",
+      "options": [
+        "qvB",
+        "qvB sinθ",
+        "qvB cosθ",
+        "qvB tanθ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "F = qvB sinθ, where θ is the angle between v and B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.171,
+      "question": "The magnetic force on a charged particle is zero when the particle moves",
+      "options": [
+        "Perpendicular to the field",
+        "At 45° to the field",
+        "Parallel to the field",
+        "At 60° to the field"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the particle moves <b>parallel</b> to the field, θ = 0° or 180°, so sinθ = 0 and F = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.1206,
+      "question": "The magnetic force on a charged particle is maximum when the particle moves",
+      "options": [
+        "Parallel to the field",
+        "Perpendicular to the field",
+        "At 45° to the field",
+        "At 30° to the field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "F = qvB sinθ is maximum when θ = 90°, i.e., <b>perpendicular</b> to the field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.8916,
+      "question": "A proton of charge 1.6 × 10<sup>-19</sup>C moves with a velocity of 1.0 × 10<sup>6</sup>ms<sup>-1</sup> through a magnetic field of 1.0T at an angle of 30°. The force on the proton is",
+      "options": [
+        "8.0 × 10<sup>-14</sup>N",
+        "1.6 × 10<sup>-13</sup>N",
+        "1.6 × 10<sup>-14</sup>N",
+        "4.0 × 10<sup>-14</sup>N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = qvB sinθ = (1.6 × 10<sup>-19</sup>)(1.0 × 10<sup>6</sup>)(1.0) sin30° = 1.6 × 10<sup>-13</sup> × 0.5 = <b>8.0 × 10<sup>-14</sup> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.6982,
+      "question": "The force on a charged particle moving in a magnetic field is always",
+      "options": [
+        "Parallel to the velocity",
+        "Parallel to the field",
+        "Perpendicular to both the velocity and the field",
+        "Perpendicular to the velocity but parallel to the field"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The magnetic force <b>F = q(v × B)</b> is perpendicular to both v and B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.5042,
+      "question": "The path of a charged particle moving perpendicular to a uniform magnetic field is",
+      "options": [
+        "A straight line",
+        "A parabola",
+        "A circle",
+        "An ellipse"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When v is perpendicular to B, the force is perpendicular to v, causing <b>circular motion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.808,
+      "question": "The radius of the circular path of a charged particle moving perpendicular to a uniform magnetic field is given by",
+      "options": [
+        "r = mv/(qB)",
+        "r = qB/(mv)",
+        "r = mvB/q",
+        "r = mvq/B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating magnetic force to centripetal force: qvB = mv<sup>2</sup>/r ⇒ r = <b>mv/(qB)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.867,
+      "question": "An electron moving perpendicular to a magnetic field of flux density 0.5T has a speed of 2.0 × 10<sup>6</sup>ms<sup>-1</sup>. If the mass of the electron is 9.1 × 10<sup>-31</sup>kg and its charge is 1.6 × 10<sup>-19</sup>C, the radius of its path is approximately",
+      "options": [
+        "2.28 × 10<sup>-5</sup>m",
+        "2.28 × 10<sup>-6</sup>m",
+        "1.14 × 10<sup>-5</sup>m",
+        "4.56 × 10<sup>-6</sup>m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "r = mv/(qB) = (9.1 × 10<sup>-31</sup> × 2.0 × 10<sup>6</sup>)/(1.6 × 10<sup>-19</sup> × 0.5) = (1.82 × 10<sup>-24</sup>)/(8.0 × 10<sup>-20</sup>) ≈ <b>2.28 × 10<sup>-5</sup> m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.7996,
+      "question": "A charged particle is projected into a magnetic field. If the particle moves parallel to the field, its path will be",
+      "options": [
+        "Circular",
+        "A straight line",
+        "A parabola",
+        "A helix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If v is parallel to B, the magnetic force is zero, so the particle moves in a <b>straight line</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9607,
+      "question": "The force on a current-carrying conductor in a magnetic field is given by",
+      "options": [
+        "F = BIL sinθ",
+        "F = BIL cosθ",
+        "F = BIL tanθ",
+        "F = BIL<sup>2</sup> sinθ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = BIL sinθ, where θ is the angle between the conductor and the magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.3105,
+      "question": "The force on a current-carrying conductor in a magnetic field is maximum when the conductor is",
+      "options": [
+        "Parallel to the field",
+        "Perpendicular to the field",
+        "At 45° to the field",
+        "At 60° to the field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "F = BIL sinθ is maximum when θ = 90°, i.e., <b>perpendicular</b> to the field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.0505,
+      "question": "A conductor of length 0.5m carrying a current of 2A is placed perpendicular to a magnetic field of flux density 0.4T. The force on the conductor is",
+      "options": [
+        "0.4N",
+        "0.8N",
+        "1.6N",
+        "4.0N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = BIL sinθ. Here θ = 90°, sin90° = 1. F = 0.4 × 2 × 0.5 = <b>0.4 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.582,
+      "question": "The direction of the force on a current-carrying conductor in a magnetic field is given by",
+      "options": [
+        "Fleming's left-hand rule",
+        "Fleming's right-hand rule",
+        "Maxwell's screw rule",
+        "Lenz's law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Fleming's left-hand rule</b> gives the direction of force on a current-carrying conductor in a magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.0225,
+      "question": "In Fleming's left-hand rule, the thumb, the forefinger and the middle finger held mutually at right angles represent respectively",
+      "options": [
+        "Motion, field and current",
+        "Field, current and motion",
+        "Current, motion and field",
+        "Motion, current and field"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Fleming's left-hand rule: thumb = <b>motion</b>, forefinger = <b>field</b>, middle finger = <b>current</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.6917,
+      "question": "The device that converts electrical energy into mechanical energy using the force on a current-carrying conductor in a magnetic field is the",
+      "options": [
+        "Generator",
+        "Electric motor",
+        "Transformer",
+        "Capacitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>electric motor</b> converts electrical energy into mechanical energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.3254,
+      "question": "The magnetic field inside a solenoid carrying current is",
+      "options": [
+        "Zero",
+        "Uniform",
+        "Non-uniform",
+        "Radial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inside a long solenoid, the magnetic field is <b>uniform</b> (constant in magnitude and direction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.8794,
+      "question": "The magnetic field inside a long solenoid is directly proportional to the",
+      "options": [
+        "Length of the solenoid",
+        "Current and number of turns per unit length",
+        "Square of the current",
+        "Radius of the solenoid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B = μ<sub>0</sub>nI, so B is proportional to <b>current I and turns per unit length n</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.5757,
+      "question": "The magnetic field inside a solenoid is given by",
+      "options": [
+        "B = μ<sub>0</sub>nI",
+        "B = μ<sub>0</sub>n/I",
+        "B = μ<sub>0</sub>I/n",
+        "B = μ<sub>0</sub>nI<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic field inside a long solenoid is <b>B = μ<sub>0</sub>nI</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.138,
+      "question": "The relative permeability of a ferromagnetic material is",
+      "options": [
+        "Less than 1",
+        "Equal to 1",
+        "Much greater than 1",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ferromagnetic materials have relative permeability <b>much greater than 1</b> (e.g., iron ≈ 1000).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.03,
+      "question": "The relative permeability of a diamagnetic material is",
+      "options": [
+        "Slightly less than 1",
+        "Slightly greater than 1",
+        "Very much greater than 1",
+        "Zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diamagnetic materials have relative permeability <b>slightly less than 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.8474,
+      "question": "A material that is strongly attracted by a magnet is said to be",
+      "options": [
+        "Diamagnetic",
+        "Paramagnetic",
+        "Ferromagnetic",
+        "Non-magnetic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Ferromagnetic</b> materials are strongly attracted by magnets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.458,
+      "question": "Which of the following is a ferromagnetic material?",
+      "options": [
+        "Copper",
+        "Aluminium",
+        "Iron",
+        "Bismuth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Iron</b> is a ferromagnetic material. Copper and bismuth are diamagnetic; aluminium is paramagnetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.4731,
+      "question": "Which of the following is a diamagnetic material?",
+      "options": [
+        "Iron",
+        "Nickel",
+        "Cobalt",
+        "Bismuth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Bismuth</b> is diamagnetic. Iron, nickel, and cobalt are ferromagnetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9705,
+      "question": "The angle of dip at the magnetic equator is",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the magnetic equator, the earth's field is horizontal, so the angle of dip is <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.731,
+      "question": "The angle of dip at the magnetic poles is",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At the magnetic poles, the earth's field is vertical, so the angle of dip is <b>90°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.5562,
+      "question": "The angle between the magnetic meridian and the geographic meridian at a place is called the angle of",
+      "options": [
+        "Dip",
+        "Declination",
+        "Elevation",
+        "Depression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle between magnetic and geographic meridians is the angle of <b>declination</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.6284,
+      "question": "The angle between the direction of the earth's magnetic field and the horizontal at a place is called the angle of",
+      "options": [
+        "Declination",
+        "Dip (inclination)",
+        "Elevation",
+        "Depression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle between the earth's field and the horizontal is the angle of <b>dip</b> (inclination).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.1594,
+      "question": "The horizontal component of the earth's magnetic field is given by",
+      "options": [
+        "B cosδ",
+        "B sinδ",
+        "B tanδ",
+        "B/δ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If δ is the angle of dip, horizontal component B<sub>H</sub> = <b>B cosδ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.5562,
+      "question": "The vertical component of the earth's magnetic field is given by",
+      "options": [
+        "B cosδ",
+        "B sinδ",
+        "B tanδ",
+        "B/δ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vertical component B<sub>V</sub> = <b>B sinδ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.8481,
+      "question": "The neutral point in a magnetic field is a point where the resultant magnetic field is",
+      "options": [
+        "Maximum",
+        "Minimum",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At a neutral point, the resultant magnetic field is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.7915,
+      "question": "The instrument used to detect the presence of a magnetic field and its direction is the",
+      "options": [
+        "Ammeter",
+        "Voltmeter",
+        "Compass needle",
+        "Electrometer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>compass needle</b> detects the presence and direction of a magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.4624,
+      "question": "A short bar magnet placed in the earth's magnetic field with its north pole pointing north will have",
+      "options": [
+        "No neutral point",
+        "Two neutral points on the east and west sides",
+        "Two neutral points on the north and south sides",
+        "One neutral point only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With the north pole pointing north, neutral points lie on the <b>east and west</b> sides (equatorial line).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.1792,
+      "question": "Magnetic flux is measured in",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Gauss"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic flux is measured in <b>weber (Wb)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.7937,
+      "question": "Magnetic flux density is defined as the magnetic flux per unit",
+      "options": [
+        "Length",
+        "Volume",
+        "Area perpendicular to the field",
+        "Charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnetic flux density B = Φ/A, where A is the area <b>perpendicular to the field</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.276,
+      "question": "A soft iron rod placed inside a solenoid increases the magnetic field because soft iron has",
+      "options": [
+        "Low permeability",
+        "High permeability",
+        "High resistance",
+        "Low conductivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soft iron has <b>high permeability</b>, which concentrates the magnetic field lines and increases B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.9714,
+      "question": "The core of an electromagnet is usually made of soft iron because soft iron",
+      "options": [
+        "Retains magnetism for a long time",
+        "Becomes magnetized easily and loses its magnetism easily",
+        "Has a very high resistance",
+        "Is a good conductor of heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soft iron is easily magnetized and demagnetized, making it ideal for electromagnets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.537,
+      "question": "Steel is preferred to soft iron in making permanent magnets because steel",
+      "options": [
+        "Becomes magnetized easily",
+        "Retains its magnetism for a long time",
+        "Has high resistance",
+        "Is a good conductor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Steel has high retentivity, so it <b>retains magnetism for a long time</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564948245.177,
+      "question": "The magnetic force between two parallel current-carrying conductors carrying currents in the same direction is",
+      "options": [
+        "Attractive",
+        "Repulsive",
+        "Zero",
+        "Perpendicular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Currents in the same direction attract each other; currents in opposite directions repel.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
