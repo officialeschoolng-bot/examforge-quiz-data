@@ -3,16 +3,718 @@
   "title": "GST 202 ( UNN ) : CHAPTER FOUR",
   "subject": "GST 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791552423968.5095,
+      "question": "WannaCry ransomware attack infected over how many computers?",
+      "options": [
+        "100,000",
+        "150,000",
+        "200,000",
+        "250,000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "WannaCry infected over 200,000 computers in more than 150 countries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1003,
+      "question": "WannaCry affected computers in more than how many countries?",
+      "options": [
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The attack infected computers in more than 150 countries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.7788,
+      "question": "WannaCry was particularly severe in which country?",
+      "options": [
+        "UK",
+        "United States",
+        "Russia",
+        "China"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The attack was particularly severe in the United Kingdom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.8242,
+      "question": "COVID-19 revealed how vulnerable societies are to what?",
+      "options": [
+        "Bio risks",
+        "Cyber risks",
+        "Digital risks",
+        "Political risks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pandemic revealed how vulnerable modern societies are to biological risks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.353,
+      "question": "Artificial Intelligence is a field of what?",
+      "options": [
+        "Computer science",
+        "Social science",
+        "Political science",
+        "Biological science"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AI is a field of computer science dedicated to creating systems capable of complex tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.3003,
+      "question": "Internet of Things refers to a network of what?",
+      "options": [
+        "Human users",
+        "Physical devices",
+        "Digital files",
+        "Government agencies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IoT refers to a network of physical devices connected to the internet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.9592,
+      "question": "Biotechnology uses biological systems to develop what?",
+      "options": [
+        "Useful goods",
+        "Laws and policies",
+        "Wars and conflicts",
+        "Arts and culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotechnology uses biological systems to develop products and technologies that improve human life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0664,
+      "question": "Cyber-biosecurity protects biological data, systems, and what?",
+      "options": [
+        "Systems",
+        "Economies",
+        "Elections",
+        "Cultures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyber-biosecurity encompasses protection of biological data, systems, and infrastructure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.474,
+      "question": "Cybersecurity protects computer systems from what?",
+      "options": [
+        "Hacking and malware",
+        "Trade and commerce",
+        "Education and health",
+        "Culture and religion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cybersecurity protects computer systems and networks from attacks like hacking, malware, and ransomware.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.2888,
+      "question": "Which principle ensures information is accessible when needed?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authority"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Availability ensures that information is accessible when needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1414,
+      "question": "DDoS attack floods a server with what?",
+      "options": [
+        "Data floods",
+        "Useful data",
+        "Secure codes",
+        "Legal requests"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DDoS floods a server, website, or network with excessive traffic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.9268,
+      "question": "Human security focuses on safety from violence, disease, and what?",
+      "options": [
+        "Want",
+        "Wealth",
+        "Power",
+        "Fame"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Human security focuses on individuals' safety from violence, disease, and poverty.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.8367,
+      "question": "Technology is often described as what?",
+      "options": [
+        "A mixed tool",
+        "A neutral tool",
+        "A simple solution",
+        "A natural force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Technology is described as a double-edged sword because it can promote welfare and generate risks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.807,
+      "question": "Technology can enhance peace by improving what?",
+      "options": [
+        "Dialogue",
+        "Inequality",
+        "Surveillance",
+        "Propaganda"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Technology enhances peace by improving communication and coordination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.3875,
+      "question": "Misused technology can enable what?",
+      "options": [
+        "Cyberattacks",
+        "Economic growth",
+        "Social harmony",
+        "Political stability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Misused technology can enable cyberattacks and cyber warfare.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.2964,
+      "question": "Galtung distinguished direct, structural, and what violence?",
+      "options": [
+        "Cultural",
+        "Economic",
+        "Political",
+        "Religious"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Galtung distinguished direct, structural, and cultural violence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.3003,
+      "question": "Cyber warfare contributes to what type of violence?",
+      "options": [
+        "Direct",
+        "Structural",
+        "Cultural",
+        "Economic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyber warfare contributes to direct violence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0317,
+      "question": "Digital inequality contributes to what type of violence?",
+      "options": [
+        "Direct",
+        "Cultural",
+        "Systemic",
+        "Personal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Digital inequality contributes to structural violence, also called systemic violence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1836,
+      "question": "Which is a positive use of technology for peace?",
+      "options": [
+        "Warning systems",
+        "Ransomware attacks",
+        "Deepfake videos",
+        "Mass surveillance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digital early warning systems are a positive use of technology for peacebuilding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.6326,
+      "question": "Social media has enabled grassroots peace campaigns and what?",
+      "options": [
+        "Talks",
+        "Ethnic violence",
+        "Electoral fraud",
+        "Mass surveillance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Social media has enabled grassroots peace campaigns and intergroup dialogue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.9595,
+      "question": "AI systems include machine learning, deep learning, natural language processing, and what?",
+      "options": [
+        "Vision",
+        "Human emotion",
+        "Physical force",
+        "Natural weather"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AI systems include machine learning, deep learning, natural language processing, and computer vision.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.346,
+      "question": "AI can enhance security by detecting threats faster than whom?",
+      "options": [
+        "Humans",
+        "Machines",
+        "Governments",
+        "Animals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AI can enhance security by detecting threats faster than humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1067,
+      "question": "LAWS refers to weapons that are what?",
+      "options": [
+        "Legal",
+        "Local",
+        "Lethal",
+        "Limited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "LAWS stands for Lethal Autonomous Weapons Systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.3162,
+      "question": "AI-powered LAWS can identify and attack targets without what?",
+      "options": [
+        "People",
+        "Sensors",
+        "Algorithms",
+        "Data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "LAWS can independently identify and attack targets with little or no human oversight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1829,
+      "question": "AI-powered ransomware can learn from defenses to do what?",
+      "options": [
+        "Evade checks",
+        "Improve health",
+        "Reduce crime",
+        "Build peace"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AI-driven malware can learn from defenses to bypass security measures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.4243,
+      "question": "AI deepfake scams can convince employees to share what?",
+      "options": [
+        "Codes",
+        "Salaries",
+        "Holidays",
+        "Offices"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deepfake audio can convince employees to share credentials or authorize transactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.859,
+      "question": "AI can spread disinformation and amplify what?",
+      "options": [
+        "Lies",
+        "Peace",
+        "Justice",
+        "Equality"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AI can spread disinformation and amplify propaganda.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.2898,
+      "question": "Misinformation is false information spread how?",
+      "options": [
+        "By mistake",
+        "Deliberately",
+        "Officially",
+        "Legally"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Misinformation is unintentionally false information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0427,
+      "question": "Disinformation is false information spread how?",
+      "options": [
+        "On purpose",
+        "Accidentally",
+        "Naturally",
+        "Randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Disinformation is deliberately deceptive information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.715,
+      "question": "Turkish-made drone in Libya conflict was called what?",
+      "options": [
+        "Kargu-2",
+        "Bayraktar",
+        "Reaper",
+        "Predator"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A UN report found that a Turkish-made Kargu-2 drone may have autonomously targeted fighters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.498,
+      "question": "AI-enabled military systems were reported in which conflict?",
+      "options": [
+        "Israel",
+        "Canada",
+        "Brazil",
+        "Australia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reports indicate the use of AI systems to identify and prioritize targets in Israel conflicts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0981,
+      "question": "Bangladesh Bank Cyber Heist attempted to steal nearly how much?",
+      "options": [
+        "$1 billion",
+        "$1 million",
+        "$10 million",
+        "$100 million"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hackers attempted to steal nearly $1 billion via the SWIFT payment system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.3015,
+      "question": "Yahoo Yahoo scams in Nigeria involve fake identities and what?",
+      "options": [
+        "Romance scams",
+        "Bank loans",
+        "Legal contracts",
+        "Tax refunds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Yahoo Yahoo scams involve fake identities, romance scams, and advance-fee fraud.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.7795,
+      "question": "2016 US election interference involved what?",
+      "options": [
+        "Fake news",
+        "Peace treaties",
+        "Trade deals",
+        "Health reforms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coordinated disinformation campaigns were used to influence public opinion in the 2016 US election.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1226,
+      "question": "JAMB CBT malfunction in 2025 affected which region?",
+      "options": [
+        "South-East",
+        "North-West",
+        "South-West",
+        "North-East"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Technical failures were reportedly concentrated in the South-East region of Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.5874,
+      "question": "CRISPR is a powerful tool that allows scientists to alter what?",
+      "options": [
+        "DNA",
+        "Water",
+        "Soil",
+        "Air"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CRISPR allows scientists to precisely alter DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.9346,
+      "question": "Bioweapon is a harmful biological agent used to cause what?",
+      "options": [
+        "Harm",
+        "Wealth",
+        "Peace",
+        "Trade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A bioweapon is a harmful biological agent deliberately used to cause disease or death.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.4866,
+      "question": "Biotechnology risk is enhanced by lower barriers to what?",
+      "options": [
+        "Harmful uses",
+        "Peaceful dialogue",
+        "Economic growth",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Advances have lowered barriers to harmful biological innovation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.8435,
+      "question": "Bio-cyber convergence links biotechnology with what?",
+      "options": [
+        "Digital systems",
+        "Religious systems",
+        "Legal systems",
+        "Political systems"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bio-cyber convergence links biotechnology with digital systems like genetic databases and AI.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0908,
+      "question": "IoT was first articulated by whom in the 1990s?",
+      "options": [
+        "Mark Weiser",
+        "Kevin Ashton",
+        "Johan Galtung",
+        "Edward Snowden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mark Weiser envisioned a world where technology becomes seamlessly integrated into daily life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.4905,
+      "question": "The term Internet of Things was coined by whom?",
+      "options": [
+        "Kevin Ashton",
+        "Mark Weiser",
+        "Tim Berners-Lee",
+        "Bill Gates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kevin Ashton coined the term Internet of Things in 1999.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.0403,
+      "question": "RFID played a key role in enabling objects to be identified and what?",
+      "options": [
+        "Tracked",
+        "Destroyed",
+        "Hidden",
+        "Sold"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RFID enabled objects to be uniquely identified and tracked.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1702,
+      "question": "Smart thermostats can automatically adjust what?",
+      "options": [
+        "Temperature",
+        "Lighting",
+        "Security",
+        "Entertainment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Smart thermostats can automatically adjust temperature settings based on user behavior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.5664,
+      "question": "Telemedicine uses digital tools to provide what?",
+      "options": [
+        "Remote care",
+        "Remote schools",
+        "Remote banking",
+        "Remote shopping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Telemedicine uses digital communication tools to provide healthcare services remotely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.499,
+      "question": "Smart farming uses sensors to monitor soil moisture, weather, and what?",
+      "options": [
+        "Crop health",
+        "Market prices",
+        "Political polls",
+        "Traffic flow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Smart farming monitors soil moisture, weather conditions, and crop health.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.1982,
+      "question": "IoT benefit includes increased what?",
+      "options": [
+        "Efficiency",
+        "Inequality",
+        "Corruption",
+        "Conflict"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A significant advantage of IoT is increased efficiency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.5774,
+      "question": "IoT threat includes increased what?",
+      "options": [
+        "More risk",
+        "More peace",
+        "More privacy",
+        "More stability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IoT expands the attack surface for cyber threats.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.7249,
+      "question": "Cyber norms and global governance should regulate what?",
+      "options": [
+        "Cyber warfare",
+        "Trade unions",
+        "Sports events",
+        "Cultural festivals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "International institutions must establish norms regulating cyber warfare, AI weapons, and digital interference.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.2493,
+      "question": "Digital literacy for peace includes education on what?",
+      "options": [
+        "Fact checks",
+        "Military tactics",
+        "Farming methods",
+        "Factory output"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Citizens need education on misinformation detection, online dialogue ethics, and cyber resilience.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791552423968.4165,
+      "question": "Technology holds transformative potential for what?",
+      "options": [
+        "Peacebuilding",
+        "War only",
+        "Surveillance only",
+        "Isolation only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Technology holds transformative potential for peacebuilding, dialogue, and conflict prevention.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
