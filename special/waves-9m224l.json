@@ -3,16 +3,718 @@
   "title": "Waves",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791562880597.1587,
+      "question": "A wave is a disturbance that transfers",
+      "options": [
+        "Matter",
+        "Energy",
+        "Mass",
+        "Charge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A wave is a disturbance that transfers <b>energy</b> from one point to another without transferring matter. The particles of the medium simply vibrate about their equilibrium positions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880597.9385,
+      "question": "Which of the following is a mechanical wave?",
+      "options": [
+        "Light wave",
+        "Radio wave",
+        "Sound wave",
+        "X-ray"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>mechanical wave</b> requires a material medium for its propagation. Sound is a mechanical wave. Light, radio, and X-rays are electromagnetic waves that can travel through a vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880597.9668,
+      "question": "Which of the following is an electromagnetic wave?",
+      "options": [
+        "Sound wave",
+        "Water wave",
+        "Light wave",
+        "Seismic wave"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Light</b> is an electromagnetic wave. Sound, water, and seismic waves are mechanical waves that require a medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880597.806,
+      "question": "In a transverse wave, the particles of the medium vibrate",
+      "options": [
+        "Parallel to the direction of wave propagation",
+        "Perpendicular to the direction of wave propagation",
+        "At an angle of 45° to the direction of propagation",
+        "In a circular path"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <b>transverse wave</b>, particles vibrate <b>perpendicular</b> to the direction of wave propagation. Examples include light waves and waves on a string.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880597.362,
+      "question": "In a longitudinal wave, the particles of the medium vibrate",
+      "options": [
+        "Parallel to the direction of wave propagation",
+        "Perpendicular to the direction of wave propagation",
+        "At an angle of 60° to the direction of propagation",
+        "In a random manner"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a <b>longitudinal wave</b>, particles vibrate <b>parallel</b> to the direction of wave propagation. Sound waves in air are longitudinal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.2234,
+      "question": "The distance between two successive crests of a wave is called the",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Period"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>wavelength (λ)</b> is the distance between two successive crests or two successive troughs, or any two consecutive points in phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.6907,
+      "question": "The maximum displacement of a particle from its equilibrium position in a wave is called the",
+      "options": [
+        "Wavelength",
+        "Amplitude",
+        "Frequency",
+        "Period"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>amplitude (A)</b> is the maximum displacement of a particle from its equilibrium position. It determines the energy of the wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.6511,
+      "question": "The number of complete oscillations made by a wave in one second is called its",
+      "options": [
+        "Wavelength",
+        "Amplitude",
+        "Frequency",
+        "Period"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Frequency (f)</b> is the number of complete oscillations per second. Its SI unit is the hertz (Hz).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.337,
+      "question": "The time taken for one complete oscillation of a wave is called its",
+      "options": [
+        "Wavelength",
+        "Amplitude",
+        "Frequency",
+        "Period"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Period (T)</b> is the time taken for one complete oscillation. It is the reciprocal of frequency: T = 1/f.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.667,
+      "question": "The relationship between wave speed v, frequency f, and wavelength λ is",
+      "options": [
+        "v = f/λ",
+        "v = λ/f",
+        "v = fλ",
+        "v = f²λ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The wave equation is <b>v = fλ</b>, where v is wave speed, f is frequency, and λ is wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0073,
+      "question": "A wave has a frequency of 50Hz and a wavelength of 2m. Calculate its speed.",
+      "options": [
+        "25m/s",
+        "50m/s",
+        "100m/s",
+        "200m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using v = fλ, v = 50 Hz × 2 m = <b>100 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.9802,
+      "question": "A wave travels at 300m/s with a frequency of 60Hz. Calculate its wavelength.",
+      "options": [
+        "5m",
+        "10m",
+        "15m",
+        "20m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using v = fλ, λ = v/f = 300/60 = <b>5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.3857,
+      "question": "The period of a wave is 0.02s. Calculate its frequency.",
+      "options": [
+        "20Hz",
+        "50Hz",
+        "100Hz",
+        "200Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frequency f = 1/T = 1/0.02 = <b>50 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.7363,
+      "question": "A wave has a wavelength of 0.5m and a period of 0.1s. Calculate its speed.",
+      "options": [
+        "5m/s",
+        "0.05m/s",
+        "0.5m/s",
+        "50m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First find frequency: f = 1/T = 1/0.1 = 10 Hz. Then v = fλ = 10 × 0.5 = <b>5 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.7988,
+      "question": "The phase difference between two points on a wave separated by a distance of λ/4 is",
+      "options": [
+        "π/4",
+        "π/2",
+        "π",
+        "2π"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A distance of λ corresponds to a phase difference of 2π. Therefore, λ/4 corresponds to (2π)(1/4) = <b>π/2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.5032,
+      "question": "Two points on a wave are said to be in phase if they",
+      "options": [
+        "Have the same displacement and are moving in the same direction",
+        "Have the same displacement but are moving in opposite directions",
+        "Are separated by a distance of λ/2",
+        "Have a phase difference of π"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two points are <b>in phase</b> if they have the same displacement and are moving in the same direction at the same time. Their phase difference is 0 or a multiple of 2π.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.9717,
+      "question": "The principle of superposition states that when two waves meet, the resultant displacement is",
+      "options": [
+        "The difference of the individual displacements",
+        "The product of the individual displacements",
+        "The sum of the individual displacements",
+        "The average of the individual displacements"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>principle of superposition</b> states that the resultant displacement at any point is the <b>vector sum</b> of the individual displacements produced by each wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.4912,
+      "question": "Constructive interference occurs when two waves meet with a phase difference of",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Constructive interference</b> occurs when waves meet in phase (phase difference 0° or a multiple of 360°), resulting in a larger amplitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.5317,
+      "question": "Destructive interference occurs when two waves meet with a phase difference of",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Destructive interference</b> occurs when waves meet completely out of phase (phase difference 180° or an odd multiple of 180°), resulting in a reduced or zero amplitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.4797,
+      "question": "For two waves to produce a stationary wave, they must have",
+      "options": [
+        "The same frequency and amplitude, and travel in opposite directions",
+        "Different frequencies and travel in the same direction",
+        "The same frequency and travel in the same direction",
+        "Different amplitudes and travel in opposite directions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>stationary wave</b> is formed when two waves of the <b>same frequency and amplitude</b> travel in <b>opposite directions</b> and superpose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.033,
+      "question": "In a stationary wave, the points of zero displacement are called",
+      "options": [
+        "Antinodes",
+        "Nodes",
+        "Crests",
+        "Troughs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Nodes</b> are points in a stationary wave where the displacement is always zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.9675,
+      "question": "In a stationary wave, the points of maximum displacement are called",
+      "options": [
+        "Antinodes",
+        "Nodes",
+        "Crests",
+        "Troughs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Antinodes</b> are points in a stationary wave where the displacement is maximum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.201,
+      "question": "The distance between two consecutive nodes in a stationary wave is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a stationary wave, the distance between two consecutive nodes is <b>λ/2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.969,
+      "question": "The distance between a node and the next antinode in a stationary wave is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The distance between a node and the adjacent antinode is <b>λ/4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.5154,
+      "question": "Beats are produced when two waves of slightly different frequencies",
+      "options": [
+        "Travel in opposite directions",
+        "Travel in the same direction and superpose",
+        "Are polarized",
+        "Are diffracted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Beats</b> are produced when two waves of slightly different frequencies travel in the same direction and superpose, causing a periodic variation in amplitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.7715,
+      "question": "The beat frequency is given by",
+      "options": [
+        "f₁ + f₂",
+        "f₁ - f₂",
+        "f₁ × f₂",
+        "f₁ / f₂"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The beat frequency is the difference between the two frequencies: <b>f<sub>beat</sub> = |f₁ - f₂|</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.633,
+      "question": "Two tuning forks of frequencies 256Hz and 260Hz are sounded together. Calculate the beat frequency.",
+      "options": [
+        "2Hz",
+        "4Hz",
+        "8Hz",
+        "516Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beat frequency = |260 - 256| = <b>4 Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.5813,
+      "question": "Diffraction is the",
+      "options": [
+        "Bending of waves around obstacles or through openings",
+        "Bouncing of waves off surfaces",
+        "Change of direction of waves when entering a new medium",
+        "Splitting of white light into colors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Diffraction</b> is the bending or spreading of waves as they pass around obstacles or through openings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.5789,
+      "question": "Diffraction is most noticeable when the size of the obstacle or opening is",
+      "options": [
+        "Much larger than the wavelength",
+        "Comparable to the wavelength",
+        "Much smaller than the wavelength",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diffraction is most pronounced when the size of the obstacle or opening is <b>comparable to the wavelength</b> of the wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.799,
+      "question": "Which of the following waves can be polarized?",
+      "options": [
+        "Sound waves",
+        "Longitudinal waves",
+        "Transverse waves",
+        "All mechanical waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only <b>transverse waves</b> can be polarized. Polarization involves restricting the vibrations to a single plane, which is a property of transverse waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.4368,
+      "question": "Polarization of light is evidence that light is a",
+      "options": [
+        "Longitudinal wave",
+        "Transverse wave",
+        "Mechanical wave",
+        "Stationary wave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fact that light can be polarized proves that light is a <b>transverse wave</b>. Longitudinal waves cannot be polarized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.8113,
+      "question": "The intensity of a wave is proportional to the square of its",
+      "options": [
+        "Frequency",
+        "Wavelength",
+        "Amplitude",
+        "Period"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The intensity of a wave is directly proportional to the <b>square of its amplitude</b>: I ∝ A².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.2153,
+      "question": "As a wave spreads out from a point source, its intensity",
+      "options": [
+        "Increases with distance",
+        "Decreases inversely with distance",
+        "Decreases inversely with the square of the distance",
+        "Remains constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a point source, intensity follows the inverse square law: <b>I ∝ 1/r²</b>, where r is the distance from the source.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.6782,
+      "question": "The Doppler effect is the apparent change in the",
+      "options": [
+        "Amplitude of a wave due to relative motion",
+        "Frequency of a wave due to relative motion between source and observer",
+        "Wavelength of a wave due to a change in medium",
+        "Speed of a wave due to a change in medium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Doppler effect</b> is the apparent change in <b>frequency</b> (and wavelength) of a wave due to relative motion between the source and the observer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0408,
+      "question": "When a source of waves moves towards a stationary observer, the observed frequency",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the source moves towards a stationary observer, the observed frequency <b>increases</b> because the wavefronts are compressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.976,
+      "question": "A wavefront is a surface on which all points have the same",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Phase",
+        "Wavelength"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>wavefront</b> is a surface of constant <b>phase</b>. All points on a wavefront vibrate in phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.97,
+      "question": "The direction of propagation of a wave is",
+      "options": [
+        "Parallel to the wavefront",
+        "Perpendicular to the wavefront",
+        "At 45° to the wavefront",
+        "Along the wavefront"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The direction of wave propagation is always <b>perpendicular</b> to the wavefront.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0413,
+      "question": "Huygens' principle states that every point on a wavefront can be considered as a",
+      "options": [
+        "Source of secondary wavelets",
+        "Node",
+        "Antinode",
+        "Reflector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Huygens' principle</b> states that every point on a wavefront acts as a <b>source of secondary wavelets</b>, which spread out in all directions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0562,
+      "question": "A progressive wave transfers",
+      "options": [
+        "Matter only",
+        "Energy only",
+        "Both matter and energy",
+        "Neither matter nor energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>progressive wave</b> transfers <b>energy only</b>, not matter. The particles of the medium vibrate but do not move along with the wave.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.9695,
+      "question": "In a progressive wave, the distance between two consecutive points in phase is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a progressive wave, points that are in phase are separated by a distance of one wavelength <b>λ</b> (or a multiple of λ).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.7861,
+      "question": "The equation of a progressive wave is y = A sin(ωt - kx). The term k represents the",
+      "options": [
+        "Angular frequency",
+        "Wave number",
+        "Amplitude",
+        "Phase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the wave equation y = A sin(ωt - kx), <b>k</b> is the <b>wave number</b>, defined as k = 2π/λ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0496,
+      "question": "In the wave equation y = A sin(ωt - kx), the quantity ω is the",
+      "options": [
+        "Wave number",
+        "Angular frequency",
+        "Wavelength",
+        "Speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the wave equation, <b>ω</b> is the <b>angular frequency</b>, defined as ω = 2πf.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.3916,
+      "question": "The wave number k is related to wavelength λ by",
+      "options": [
+        "k = λ/2π",
+        "k = 2π/λ",
+        "k = 2πλ",
+        "k = λ/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wave number is defined as <b>k = 2π/λ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.7944,
+      "question": "The speed of a wave is given by",
+      "options": [
+        "v = ω/k",
+        "v = k/ω",
+        "v = ωk",
+        "v = ω²/k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using v = fλ, ω = 2πf, and k = 2π/λ, we get <b>v = ω/k</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0042,
+      "question": "A wave has an amplitude of 0.1m and a frequency of 20Hz. What is its period?",
+      "options": [
+        "0.05s",
+        "0.5s",
+        "5s",
+        "20s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Period T = 1/f = 1/20 = <b>0.05 s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0798,
+      "question": "The energy of a wave is proportional to",
+      "options": [
+        "Its frequency",
+        "The square of its amplitude",
+        "Its wavelength",
+        "Its speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The energy of a wave is directly proportional to the <b>square of its amplitude</b>: E ∝ A².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.2434,
+      "question": "Which of the following is NOT a characteristic of a wave?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Polarization",
+        "Mass transfer"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Waves transfer <b>energy</b>, not matter. Therefore, <b>mass transfer</b> is not a characteristic of a wave. Reflection, refraction, and polarization are wave phenomena.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.9973,
+      "question": "When two waves of the same frequency and amplitude travel in opposite directions, they produce",
+      "options": [
+        "A progressive wave",
+        "A stationary wave",
+        "A shock wave",
+        "A solitary wave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two identical waves traveling in opposite directions produce a <b>stationary wave</b> (standing wave) due to superposition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.0247,
+      "question": "The distance between two successive antinodes in a stationary wave is",
+      "options": [
+        "λ/4",
+        "λ/2",
+        "λ",
+        "2λ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a stationary wave, the distance between two consecutive antinodes is <b>λ/2</b>, same as between two consecutive nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791562880598.3875,
+      "question": "A wave travels a distance of 20m in 4s. If its frequency is 5Hz, what is its wavelength?",
+      "options": [
+        "1m",
+        "2m",
+        "4m",
+        "5m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First find wave speed: v = distance/time = 20/4 = 5 m/s. Then using v = fλ, λ = v/f = 5/5 = <b>1 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
