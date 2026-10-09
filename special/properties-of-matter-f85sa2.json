@@ -3,16 +3,718 @@
   "title": "Properties of Matter",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563860998.5256,
+      "question": "The maximum force a material can withstand and still return to its original shape when the force is removed is called the",
+      "options": [
+        "Breaking stress",
+        "Elastic limit",
+        "Yield point",
+        "Plastic limit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>elastic limit</b> is the maximum stress a material can withstand and still return to its original shape when the force is removed. Beyond this point, permanent (plastic) deformation occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.6143,
+      "question": "Hooke's law states that the extension of an elastic material is directly proportional to the",
+      "options": [
+        "Length of the material",
+        "Applied force, provided the elastic limit is not exceeded",
+        "Cross-sectional area",
+        "Temperature of the material"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Hooke's law</b> states that the extension (e) of an elastic material is directly proportional to the applied force (F), provided the <b>elastic limit is not exceeded</b>: F = ke.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.9475,
+      "question": "Young's modulus of elasticity is defined as the ratio of",
+      "options": [
+        "Stress to strain",
+        "Strain to stress",
+        "Force to extension",
+        "Extension to original length"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Young's modulus (E)</b> = stress / strain = (F/A) / (e/L) = FL/Ae. It is the ratio of <b>stress to strain</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.296,
+      "question": "The S.I. unit of stress is",
+      "options": [
+        "N",
+        "Nm<sup>-1</sup>",
+        "Nm<sup>-2</sup>",
+        "Nm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stress = Force / Area = N/m² = <b>N m<sup>-2</sup></b> (also called pascal, Pa).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.033,
+      "question": "Strain is the ratio of the extension of a wire to its",
+      "options": [
+        "Cross-sectional area",
+        "Original length",
+        "New length",
+        "Volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Strain = extension / <b>original length</b> = e/L. It is a dimensionless quantity (no unit).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.0728,
+      "question": "A wire of original length 2m is stretched to a length of 2.01m. Calculate the strain.",
+      "options": [
+        "0.005",
+        "0.05",
+        "0.5",
+        "5.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extension e = 2.01 − 2 = 0.01 m. Strain = e/L = 0.01/2 = <b>0.005</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.1653,
+      "question": "A force of 100N is applied to a wire of cross-sectional area 2.0 × 10<sup>-6</sup>m<sup>2</sup>. Calculate the stress.",
+      "options": [
+        "5.0 × 10<sup>4</sup>Nm<sup>-2</sup>",
+        "5.0 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "5.0 × 10<sup>6</sup>Nm<sup>-2</sup>",
+        "5.0 × 10<sup>7</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Stress = F/A = 100 / (2.0 × 10<sup>-6</sup>) = 50 × 10<sup>6</sup> = <b>5.0 × 10<sup>7</sup> N m<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.6045,
+      "question": "A wire is stretched by a force of 200N through an extension of 0.02m. Calculate the energy stored in the wire.",
+      "options": [
+        "1J",
+        "2J",
+        "4J",
+        "8J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy stored = ½Fe = ½ × 200 × 0.02 = <b>2 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.3604,
+      "question": "The energy stored in a stretched wire is given by",
+      "options": [
+        "Fe",
+        "2Fe",
+        "½Fe",
+        "F<sup>2</sup>e"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The elastic potential energy stored in a stretched wire is given by <b>½Fe</b> (half the product of force and extension).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.7175,
+      "question": "The stress beyond which a material breaks is called the",
+      "options": [
+        "Elastic limit",
+        "Yield stress",
+        "Breaking stress",
+        "Plastic stress"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Breaking stress</b> is the maximum stress a material can withstand before it fractures or breaks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.0415,
+      "question": "A material that can be drawn into thin wires without breaking is said to be",
+      "options": [
+        "Brittle",
+        "Ductile",
+        "Malleable",
+        "Elastic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ductility</b> is the ability of a material to be drawn into thin wires without breaking. Example: copper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.8713,
+      "question": "A material that breaks with little or no deformation is said to be",
+      "options": [
+        "Ductile",
+        "Malleable",
+        "Brittle",
+        "Plastic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>brittle</b> material breaks with little or no plastic deformation. Example: glass, cast iron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.0002,
+      "question": "The point on a stress-strain graph beyond which the material deforms permanently is the",
+      "options": [
+        "Elastic limit",
+        "Proportional limit",
+        "Zero point",
+        "Origin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>elastic limit</b> is the point beyond which permanent (plastic) deformation occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.0317,
+      "question": "A spring extends by 0.1m when a force of 50N is applied. Calculate its force constant.",
+      "options": [
+        "5 Nm<sup>-1</sup>",
+        "50 Nm<sup>-1</sup>",
+        "500 Nm<sup>-1</sup>",
+        "5000 Nm<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Force constant k = F/e = 50/0.1 = <b>500 N m<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.3198,
+      "question": "The S.I. unit of the force constant of a spring is",
+      "options": [
+        "N",
+        "Nm",
+        "Nm<sup>-1</sup>",
+        "Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From F = ke, k = F/e = N/m = <b>N m<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.8904,
+      "question": "Surface tension is defined as the force acting",
+      "options": [
+        "Parallel to the liquid surface per unit area",
+        "Perpendicular to the liquid surface per unit length",
+        "Parallel to the liquid surface per unit length",
+        "Perpendicular to the liquid surface per unit area"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Surface tension</b> is the force per unit length acting <b>parallel to the liquid surface</b>, perpendicular to any line drawn on the surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.8884,
+      "question": "The S.I. unit of surface tension is",
+      "options": [
+        "Nm<sup>-1</sup>",
+        "Nm<sup>-2</sup>",
+        "N",
+        "Nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surface tension = Force/Length = N/m = <b>N m<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.0632,
+      "question": "When the temperature of a liquid is increased, its surface tension",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the temperature of a liquid increases, molecular kinetic energy increases, weakening intermolecular forces. Hence surface tension <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860998.1333,
+      "question": "The rise of a liquid in a capillary tube is given by",
+      "options": [
+        "h = 2T cosθ / (rρg)",
+        "h = T cosθ / (rρg)",
+        "h = 2T r / (ρg)",
+        "h = T sinθ / (rρg)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Capillary rise is given by <b>h = 2T cosθ / (rρg)</b>, where T is surface tension, θ is contact angle, r is tube radius, ρ is density, and g is acceleration due to gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.406,
+      "question": "Water rises in a clean glass capillary tube because",
+      "options": [
+        "The cohesive force between water molecules is greater than the adhesive force",
+        "The adhesive force between water and glass is greater than the cohesive force between water molecules",
+        "Water is denser than glass",
+        "The tube is narrow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the <b>adhesive force</b> (water-glass) is greater than the <b>cohesive force</b> (water-water), water wets the glass and rises in the tube.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.3616,
+      "question": "Mercury is depressed in a glass capillary tube because",
+      "options": [
+        "Mercury is denser than glass",
+        "Mercury is opaque",
+        "The cohesive force between mercury molecules is greater than the adhesive force between mercury and glass",
+        "Mercury has a high boiling point"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In mercury, the <b>cohesive force</b> (Hg-Hg) is greater than the <b>adhesive force</b> (Hg-glass), so mercury does not wet the glass and is depressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.0803,
+      "question": "The addition of detergent to water reduces its",
+      "options": [
+        "Density",
+        "Boiling point",
+        "Surface tension",
+        "Viscosity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Detergents are surfactants that reduce the <b>surface tension</b> of water, allowing it to wet surfaces more effectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.029,
+      "question": "Viscosity is defined as the internal friction which",
+      "options": [
+        "Exists between a solid and a liquid",
+        "Exists between two layers of a fluid in relative motion",
+        "Exists between gas molecules only",
+        "Occurs between a solid and a gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Viscosity</b> is the internal friction that exists between two adjacent layers of a fluid moving relative to each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.1333,
+      "question": "The S.I. unit of viscosity is",
+      "options": [
+        "Nsm<sup>-2</sup>",
+        "Nsm<sup>-1</sup>",
+        "Ns<sup>-1</sup>m<sup>-2</sup>",
+        "Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From F = ηA(dv/dx), η = F/(A·dv/dx). Unit = N/(m²·s<sup>-1</sup>) = <b>N s m<sup>-2</sup></b> (also Pa·s).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.0962,
+      "question": "A small ball falling through a viscous liquid attains terminal velocity when the",
+      "options": [
+        "Viscous force equals the weight of the ball",
+        "Upthrust equals the viscous force",
+        "Net force on the ball is zero",
+        "Acceleration of the ball is maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At terminal velocity, the ball moves with constant velocity. This means the <b>net force on the ball is zero</b> (weight = upthrust + viscous force).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.5295,
+      "question": "Density of a substance is defined as its",
+      "options": [
+        "Weight per unit volume",
+        "Mass per unit volume",
+        "Volume per unit mass",
+        "Mass per unit area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Density (ρ)</b> = mass / volume = <b>mass per unit volume</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.248,
+      "question": "Relative density of a substance is the ratio of the density of the substance to the density of",
+      "options": [
+        "Mercury",
+        "Air",
+        "Water",
+        "Alcohol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Relative density</b> = density of substance / density of <b>water</b>. It has no unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.9604,
+      "question": "A body of mass 500g occupies a volume of 200cm<sup>3</sup>. Calculate its density.",
+      "options": [
+        "0.4 gcm<sup>-3</sup>",
+        "2.5 gcm<sup>-3</sup>",
+        "4.0 gcm<sup>-3</sup>",
+        "100 gcm<sup>-3</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Density = mass/volume = 500/200 = <b>2.5 g cm<sup>-3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.3445,
+      "question": "The pressure at a depth h in a liquid of density ρ is given by",
+      "options": [
+        "ρgh",
+        "ρg/h",
+        "ρh/g",
+        "g/(ρh)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pressure due to a liquid column at depth h is <b>P = ρgh</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.8726,
+      "question": "Calculate the pressure at a depth of 5m in water of density 1000kgm<sup>-3</sup>. [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "5.0 × 10<sup>2</sup>Pa",
+        "5.0 × 10<sup>3</sup>Pa",
+        "5.0 × 10<sup>4</sup>Pa",
+        "5.0 × 10<sup>5</sup>Pa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P = ρgh = 1000 × 10 × 5 = <b>5.0 × 10<sup>4</sup> Pa</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.6228,
+      "question": "Pascal's principle states that pressure applied to an enclosed fluid is transmitted",
+      "options": [
+        "Only to the bottom of the container",
+        "Equally in all directions throughout the fluid",
+        "Only to the sides of the container",
+        "Only upward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Pascal's principle</b>: pressure applied to an enclosed fluid is transmitted <b>equally in all directions</b> throughout the fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.746,
+      "question": "Archimedes' principle states that the upthrust on a body immersed in a fluid is equal to the",
+      "options": [
+        "Weight of the body",
+        "Volume of the body",
+        "Weight of the fluid displaced",
+        "Mass of the body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Archimedes' principle</b>: the upthrust on a body immersed in a fluid equals the <b>weight of the fluid displaced</b> by the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.5217,
+      "question": "A body displaces 0.5kg of water when fully immersed. Calculate the upthrust on the body. [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "0.5N",
+        "5.0N",
+        "50N",
+        "500N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Upthrust = weight of water displaced = mg = 0.5 × 10 = <b>5.0 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.3281,
+      "question": "A solid floats in a liquid when its",
+      "options": [
+        "Weight is greater than the upthrust",
+        "Weight is equal to the upthrust",
+        "Density is greater than that of the liquid",
+        "Volume is greater than that of the liquid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A body floats in equilibrium when its <b>weight equals the upthrust</b> acting on it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.737,
+      "question": "A body weighs 60N in air and 40N when fully immersed in water. Calculate its relative density.",
+      "options": [
+        "2",
+        "3",
+        "1.5",
+        "0.67"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Upthrust = 60 − 40 = 20 N. Relative density = weight in air / upthrust = 60/20 = <b>3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.1184,
+      "question": "In a hydraulic press, a force of 20N is applied to a piston of area 0.02m<sup>2</sup>. Calculate the force on a larger piston of area 0.4m<sup>2</sup>.",
+      "options": [
+        "40N",
+        "100N",
+        "200N",
+        "400N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "By Pascal's principle: F₁/A₁ = F₂/A₂ ⇒ 20/0.02 = F₂/0.4 ⇒ F₂ = (20 × 0.4)/0.02 = <b>400 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.4631,
+      "question": "The atmospheric pressure at sea level is approximately",
+      "options": [
+        "1.0 × 10<sup>3</sup>Pa",
+        "1.0 × 10<sup>4</sup>Pa",
+        "1.0 × 10<sup>5</sup>Pa",
+        "1.0 × 10<sup>6</sup>Pa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Standard atmospheric pressure at sea level is approximately <b>1.0 × 10<sup>5</sup> Pa</b> (about 760 mmHg).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.993,
+      "question": "The instrument used to measure atmospheric pressure is the",
+      "options": [
+        "Hygrometer",
+        "Hydrometer",
+        "Barometer",
+        "Manometer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>barometer</b> is used to measure atmospheric pressure. A manometer measures pressure differences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.6177,
+      "question": "The random motion of smoke particles in air is called",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Brownian motion",
+        "Convection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Brownian motion</b> is the random, zig-zag motion of small particles (like smoke) suspended in a fluid, caused by unequal bombardment of molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.3845,
+      "question": "The spreading of the smell of a gas from one part of a room to another is due to",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Convection",
+        "Radiation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Diffusion</b> is the movement of particles from a region of higher concentration to a region of lower concentration due to random molecular motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.1392,
+      "question": "Which of the following is NOT an assumption of the kinetic theory of matter?",
+      "options": [
+        "Molecules are in constant random motion",
+        "Molecules attract one another with strong forces at all distances",
+        "Collisions between molecules are perfectly elastic",
+        "The volume of molecules is negligible compared to the volume of the container"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The kinetic theory assumes <b>negligible intermolecular forces</b> between molecules. Strong attraction at all distances is <b>not</b> an assumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.5723,
+      "question": "The molecules of a gas are",
+      "options": [
+        "Closely packed and vibrate about fixed positions",
+        "Far apart and move randomly at high speeds",
+        "Closely packed but free to move about",
+        "Arranged in a regular pattern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a gas, molecules are <b>far apart</b> and move randomly at <b>high speeds</b>, with negligible intermolecular forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.2683,
+      "question": "In a solid, the molecules",
+      "options": [
+        "Move freely in all directions",
+        "Are far apart",
+        "Vibrate about fixed mean positions",
+        "Have no motion at all"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a solid, molecules are closely packed and <b>vibrate about fixed mean positions</b>. They cannot move freely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.047,
+      "question": "Water has its maximum density at",
+      "options": [
+        "0°C",
+        "4°C",
+        "10°C",
+        "100°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water exhibits anomalous expansion. It has its <b>maximum density at 4°C</b> — it contracts from 0°C to 4°C and expands above 4°C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.3352,
+      "question": "A crystalline solid is one in which the atoms are",
+      "options": [
+        "Arranged randomly",
+        "Arranged in a regular repeating pattern",
+        "Free to move about",
+        "Not bound to one another"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <b>crystalline solid</b>, atoms are arranged in a <b>regular, repeating pattern</b> (lattice). Examples: diamond, sodium chloride.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.6575,
+      "question": "Which of the following is an amorphous solid?",
+      "options": [
+        "Sodium chloride",
+        "Diamond",
+        "Glass",
+        "Copper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Glass</b> is an amorphous solid — its atoms are not arranged in a regular lattice. Sodium chloride, diamond, and copper are crystalline.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.4478,
+      "question": "The temperature at which a solid changes to liquid at constant temperature is called its",
+      "options": [
+        "Boiling point",
+        "Melting point",
+        "Dew point",
+        "Critical point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>melting point</b> is the temperature at which a solid changes to a liquid at constant temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.2383,
+      "question": "When the external pressure on a liquid is increased, its boiling point",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Higher external pressure requires a higher vapour pressure for boiling, so the boiling point <b>increases</b> with pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.9888,
+      "question": "The average kinetic energy of the molecules of a gas is directly proportional to its",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Absolute temperature",
+        "Density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Average kinetic energy of gas molecules is directly proportional to <b>absolute temperature</b>: KE<sub>avg</sub> = (3/2)kT.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563860999.5427,
+      "question": "The movement of water molecules through a semi-permeable membrane from a region of higher concentration to a region of lower concentration is called",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Capillarity",
+        "Brownian motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Osmosis</b> is the movement of water (or solvent) molecules through a semi-permeable membrane from a region of higher water concentration to a region of lower water concentration.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
