@@ -3,16 +3,718 @@
   "title": "Current Electricity",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791564370130.071,
+      "question": "Electric current is defined as the rate of flow of",
+      "options": [
+        "charge",
+        "energy",
+        "power",
+        "potential difference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electric current is the rate of flow of electric charge. It is given by <b>I = Q/t</b>, where Q is charge in coulombs and t is time in seconds. The S.I. unit is the ampere (A).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.7559,
+      "question": "The S.I. unit of electric current is the",
+      "options": [
+        "volt",
+        "coulomb",
+        "ampere",
+        "ohm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. unit of electric current is the <b>ampere (A)</b>. One ampere is the current when one coulomb of charge flows in one second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9072,
+      "question": "A current of 2A flows through a conductor for 5s. Calculate the quantity of charge that flows.",
+      "options": [
+        "0.4C",
+        "2.5C",
+        "10C",
+        "7C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Q = It: Q = 2 A × 5 s = <b>10 C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.2341,
+      "question": "If 60C of charge flows through a conductor in 30s, the current is",
+      "options": [
+        "0.5A",
+        "2.0A",
+        "30A",
+        "1800A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Current I = Q/t = 60 C ÷ 30 s = <b>2.0 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.4426,
+      "question": "Ohm's law states that the current flowing through a conductor is directly proportional to the",
+      "options": [
+        "resistance",
+        "potential difference across its ends",
+        "square of the potential difference",
+        "inverse of the potential difference"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ohm's law: <b>V = IR</b>, so current I is directly proportional to the potential difference V across the conductor, provided temperature remains constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.7075,
+      "question": "The S.I. unit of resistance is the",
+      "options": [
+        "volt",
+        "ampere",
+        "ohm",
+        "watt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The S.I. unit of resistance is the <b>ohm (Ω)</b>. One ohm is the resistance when a potential difference of one volt drives a current of one ampere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.3696,
+      "question": "A resistor of resistance 5Ω has a potential difference of 10V across it. Calculate the current through it.",
+      "options": [
+        "0.5A",
+        "2.0A",
+        "5.0A",
+        "50A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Ohm's law: I = V/R = 10 V ÷ 5 Ω = <b>2.0 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9746,
+      "question": "A current of 3A flows through a resistor of resistance 4Ω. Calculate the potential difference across it.",
+      "options": [
+        "0.75V",
+        "1.33V",
+        "7.0V",
+        "12.0V"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using V = IR: V = 3 A × 4 Ω = <b>12.0 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.739,
+      "question": "The resistance of a wire depends on all of the following EXCEPT",
+      "options": [
+        "its length",
+        "its cross-sectional area",
+        "the material of the wire",
+        "the current flowing through it"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Resistance depends on length, cross-sectional area, material, and temperature. It does <b>not</b> depend on the current flowing through it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.5293,
+      "question": "The resistance of a wire of length L and cross-sectional area A is given by",
+      "options": [
+        "R = ρL/A",
+        "R = ρA/L",
+        "R = ρLA",
+        "R = L/(ρA)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The resistance of a uniform wire is given by <b>R = ρL/A</b>, where ρ is the resistivity of the material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.7168,
+      "question": "If the length of a wire is doubled while its cross-sectional area remains constant, its resistance",
+      "options": [
+        "is halved",
+        "doubles",
+        "remains the same",
+        "becomes four times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "R ∝ L. If length is doubled, resistance <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.3528,
+      "question": "If the cross-sectional area of a wire is halved while its length remains constant, its resistance",
+      "options": [
+        "is halved",
+        "doubles",
+        "remains the same",
+        "becomes four times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "R ∝ 1/A. If area is halved, resistance <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.7786,
+      "question": "The resistivity of a wire depends on its",
+      "options": [
+        "length",
+        "cross-sectional area",
+        "material",
+        "shape"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resistivity is a property of the <b>material</b> of the wire and depends on temperature. It does not depend on length or area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9768,
+      "question": "The S.I. unit of resistivity is",
+      "options": [
+        "Ω",
+        "Ωm",
+        "Ωm<sup>-1</sup>",
+        "Ωm<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From R = ρL/A, ρ = RA/L. Unit = Ω·m²/m = <b>Ω m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.852,
+      "question": "A wire of length 2m and cross-sectional area 4 × 10<sup>-6</sup>m<sup>2</sup> has a resistance of 0.1Ω. Calculate the resistivity of the material.",
+      "options": [
+        "2.0 × 10<sup>-7</sup>Ωm",
+        "2.0 × 10<sup>-6</sup>Ωm",
+        "5.0 × 10<sup>-7</sup>Ωm",
+        "8.0 × 10<sup>-8</sup>Ωm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ρ = RA/L = (0.1 × 4 × 10<sup>-6</sup>)/2 = <b>2.0 × 10<sup>-7</sup> Ω m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.0576,
+      "question": "The resistance of a metallic wire increases with",
+      "options": [
+        "increase in temperature",
+        "decrease in temperature",
+        "increase in length only",
+        "decrease in cross-sectional area only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For metallic conductors, resistance <b>increases</b> with increase in temperature due to increased lattice vibrations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.727,
+      "question": "When two resistors of 3Ω and 6Ω are connected in series, the effective resistance is",
+      "options": [
+        "2Ω",
+        "3Ω",
+        "9Ω",
+        "18Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For series: R = R₁ + R₂ = 3 + 6 = <b>9 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.352,
+      "question": "When two resistors of 3Ω and 6Ω are connected in parallel, the effective resistance is",
+      "options": [
+        "2Ω",
+        "3Ω",
+        "9Ω",
+        "18Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For parallel: 1/R = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2, so R = <b>2 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.3025,
+      "question": "The reciprocal of resistance is called",
+      "options": [
+        "resistivity",
+        "conductance",
+        "reactance",
+        "impedance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reciprocal of resistance is <b>conductance</b>, measured in siemens (S).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.5796,
+      "question": "In a series circuit, the current flowing through each resistor is",
+      "options": [
+        "different",
+        "the same",
+        "zero",
+        "infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a series circuit, the <b>current is the same</b> through all components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9219,
+      "question": "In a parallel circuit, the potential difference across each resistor is",
+      "options": [
+        "different",
+        "the same",
+        "zero",
+        "infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a parallel circuit, the <b>potential difference is the same</b> across all branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.5774,
+      "question": "Three resistors of 2Ω, 3Ω and 6Ω are connected in parallel. The effective resistance is",
+      "options": [
+        "11Ω",
+        "1Ω",
+        "6Ω",
+        "0.5Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1/R = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1, so R = <b>1 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9578,
+      "question": "Two resistors of 4Ω and 4Ω are connected in parallel and then in series with a 2Ω resistor. The total resistance is",
+      "options": [
+        "10Ω",
+        "6Ω",
+        "4Ω",
+        "2Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parallel combination: 4×4/(4+4) = 2 Ω. In series with 2 Ω: total = 2 + 2 = <b>4 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9197,
+      "question": "Kirchhoff's first law (junction rule) is a statement of conservation of",
+      "options": [
+        "energy",
+        "charge",
+        "momentum",
+        "power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kirchhoff's first law states that the sum of currents entering a junction equals the sum leaving. It is based on conservation of <b>charge</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.1204,
+      "question": "Kirchhoff's second law (loop rule) is a statement of conservation of",
+      "options": [
+        "charge",
+        "momentum",
+        "energy",
+        "mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kirchhoff's second law states that the algebraic sum of potential differences around a closed loop is zero. It is based on conservation of <b>energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.6523,
+      "question": "The electromotive force (e.m.f.) of a cell is defined as the",
+      "options": [
+        "potential difference across its terminals when no current flows",
+        "potential difference across its terminals when current flows",
+        "power delivered by the cell",
+        "charge stored in the cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The e.m.f. of a cell is the potential difference across its terminals when <b>no current flows</b> (open circuit).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.087,
+      "question": "The terminal voltage of a cell is given by",
+      "options": [
+        "E + Ir",
+        "E - Ir",
+        "E + r/I",
+        "E - r/I"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal voltage V = <b>E - Ir</b>, where E is e.m.f., I is current, and r is internal resistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.8428,
+      "question": "A cell of e.m.f. 2V and internal resistance 0.5Ω is connected to a 1.5Ω resistor. Calculate the current.",
+      "options": [
+        "0.5A",
+        "1.0A",
+        "1.33A",
+        "4.0A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "I = E/(R + r) = 2/(1.5 + 0.5) = 2/2 = <b>1.0 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.6472,
+      "question": "A cell of e.m.f. 1.5V and internal resistance 1Ω is connected to a 2Ω resistor. Calculate the terminal voltage.",
+      "options": [
+        "0.5V",
+        "1.0V",
+        "1.5V",
+        "2.0V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "I = E/(R+r) = 1.5/(2+1) = 0.5 A. Terminal voltage V = IR = 0.5 × 2 = <b>1.0 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.06,
+      "question": "Four cells of e.m.f. 1.5V each are connected in series. The total e.m.f. is",
+      "options": [
+        "0.375V",
+        "1.5V",
+        "6.0V",
+        "9.0V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For cells in series, total e.m.f. = 4 × 1.5 = <b>6.0 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.4385,
+      "question": "Three cells of e.m.f. 2V each and internal resistance 3Ω each are connected in parallel. The effective internal resistance is",
+      "options": [
+        "1Ω",
+        "3Ω",
+        "6Ω",
+        "9Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For n identical cells in parallel, effective internal resistance = r/n = 3/3 = <b>1 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.6475,
+      "question": "The power dissipated in a resistor of resistance R carrying current I is given by",
+      "options": [
+        "IR",
+        "I<sup>2</sup>R",
+        "IR<sup>2</sup>",
+        "I/R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power P = VI = (IR)I = <b>I<sup>2</sup>R</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.1426,
+      "question": "The power dissipated in a 4Ω resistor carrying a current of 3A is",
+      "options": [
+        "12W",
+        "24W",
+        "36W",
+        "48W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P = I²R = (3)² × 4 = 9 × 4 = <b>36 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.7668,
+      "question": "The heat generated in a conductor of resistance R carrying current I for time t is given by",
+      "options": [
+        "IRt",
+        "I<sup>2</sup>Rt",
+        "IR<sup>2</sup>t",
+        "I<sup>2</sup>R/t"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heat generated H = I²Rt (Joule's law).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9592,
+      "question": "An electric bulb rated 100W, 220V. Calculate the current through it when it operates normally.",
+      "options": [
+        "0.45A",
+        "2.2A",
+        "4.5A",
+        "22A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "I = P/V = 100/220 = 0.4545 ≈ <b>0.45 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.1118,
+      "question": "An electric bulb rated 60W, 240V. Calculate its resistance.",
+      "options": [
+        "4Ω",
+        "60Ω",
+        "240Ω",
+        "960Ω"
+      ],
+      "correctAnswer": 3,
+      "explanation": "R = V²/P = (240)²/60 = 57600/60 = <b>960 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.8984,
+      "question": "Electrical energy is measured in",
+      "options": [
+        "watt",
+        "kilowatt-hour",
+        "ampere",
+        "volt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electrical energy is measured in <b>kilowatt-hour (kWh)</b>. The watt is a unit of power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9744,
+      "question": "A 100W bulb is used for 10 hours. Calculate the energy consumed in kWh.",
+      "options": [
+        "0.1kWh",
+        "1.0kWh",
+        "10kWh",
+        "100kWh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy = power × time = 0.1 kW × 10 h = <b>1.0 kWh</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.4446,
+      "question": "The cost of running five 60W bulbs for 5 hours at N10 per kWh is",
+      "options": [
+        "N1.50",
+        "N15.00",
+        "N150.00",
+        "N1.50"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total power = 5 × 60 = 300 W = 0.3 kW. Energy = 0.3 × 5 = 1.5 kWh. Cost = 1.5 × N10 = <b>N15.00</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.3792,
+      "question": "A fuse is connected in a circuit to",
+      "options": [
+        "increase the current",
+        "decrease the current",
+        "protect the circuit from excessive current",
+        "store charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A fuse is a safety device that <b>protects the circuit from excessive current</b> by melting and breaking the circuit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.8127,
+      "question": "A 2000W electric iron is connected to a 250V mains. Calculate the fuse rating required.",
+      "options": [
+        "5A",
+        "8A",
+        "10A",
+        "15A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "I = P/V = 2000/250 = 8 A. A fuse slightly higher than 8 A is required, so <b>10 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.097,
+      "question": "A galvanometer can be converted into an ammeter by connecting a",
+      "options": [
+        "high resistance in series",
+        "low resistance in series",
+        "high resistance in parallel",
+        "low resistance in parallel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "To convert a galvanometer to an ammeter, connect a <b>low resistance (shunt) in parallel</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.8977,
+      "question": "A galvanometer can be converted into a voltmeter by connecting a",
+      "options": [
+        "high resistance in series",
+        "low resistance in series",
+        "high resistance in parallel",
+        "low resistance in parallel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert a galvanometer to a voltmeter, connect a <b>high resistance in series</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.9275,
+      "question": "The shunt resistance required to convert a galvanometer of resistance G and full-scale current I<sub>g</sub> into an ammeter of range I is given by",
+      "options": [
+        "S = I<sub>g</sub>G/(I - I<sub>g</sub>)",
+        "S = IG/(I - I<sub>g</sub>)",
+        "S = I<sub>g</sub>G/(I + I<sub>g</sub>)",
+        "S = I<sub>g</sub>/(IG)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shunt resistance is given by <b>S = I<sub>g</sub>G/(I - I<sub>g</sub>)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.823,
+      "question": "The multiplier resistance required to convert a galvanometer of resistance G and full-scale current I<sub>g</sub> into a voltmeter of range V is given by",
+      "options": [
+        "R = V/I<sub>g</sub> - G",
+        "R = V/I<sub>g</sub> + G",
+        "R = VG/I<sub>g</sub>",
+        "R = V I<sub>g</sub> - G"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multiplier resistance is <b>R = V/I<sub>g</sub> - G</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.5925,
+      "question": "A potentiometer is used to",
+      "options": [
+        "measure current",
+        "measure resistance",
+        "compare e.m.f.s of cells",
+        "measure power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A potentiometer is used to <b>compare e.m.f.s of cells</b> and measure potential differences accurately.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.6118,
+      "question": "The metre bridge works on the principle of",
+      "options": [
+        "Kirchhoff's laws",
+        "Wheatstone bridge",
+        "Faraday's law",
+        "Lenz's law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The metre bridge works on the principle of the <b>Wheatstone bridge</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.0366,
+      "question": "In a metre bridge experiment, the balance point is obtained at 40cm from the left end. If the resistance in the left gap is 2Ω, the resistance in the right gap is",
+      "options": [
+        "1Ω",
+        "2Ω",
+        "3Ω",
+        "4Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At balance, P/Q = l/(100-l). Here 2/Q = 40/60 = 2/3, so Q = <b>3 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.5906,
+      "question": "The condition for a Wheatstone bridge to be balanced is",
+      "options": [
+        "P/Q = R/S",
+        "P × Q = R × S",
+        "P + Q = R + S",
+        "P - Q = R - S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The balance condition is <b>P/Q = R/S</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564370130.3997,
+      "question": "A battery of e.m.f. 12V and internal resistance 1Ω is connected to two resistors of 3Ω and 6Ω in parallel. Calculate the current drawn from the battery.",
+      "options": [
+        "2A",
+        "4A",
+        "6A",
+        "12A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "External parallel resistance = (3×6)/(3+6) = 2 Ω. Total resistance = 2 + 1 = 3 Ω. Current I = E/R = 12/3 = <b>4 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
