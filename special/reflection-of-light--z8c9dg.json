@@ -3,16 +3,718 @@
   "title": "Reflection of Light Waves",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563018067.6453,
+      "question": "The angle of incidence is always equal to the angle of reflection. This is known as the",
+      "options": [
+        "First law of reflection",
+        "Second law of reflection",
+        "Law of refraction",
+        "Law of dispersion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>second law of reflection</b> states that the angle of incidence is equal to the angle of reflection, and the incident ray, reflected ray, and normal all lie in the same plane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.1653,
+      "question": "The incident ray, the reflected ray and the normal at the point of incidence all lie in the",
+      "options": [
+        "Same straight line",
+        "Same plane",
+        "Same curved surface",
+        "Different planes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>first law of reflection</b> states that the incident ray, the reflected ray, and the normal at the point of incidence all lie in the <b>same plane</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.9358,
+      "question": "The angle of reflection is measured between the reflected ray and the",
+      "options": [
+        "Mirror surface",
+        "Incident ray",
+        "Normal",
+        "Refracted ray"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By convention, the angle of reflection is measured between the reflected ray and the <b>normal</b> at the point of incidence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.555,
+      "question": "A ray of light strikes a plane mirror at an angle of incidence of 30°. What is the angle of reflection?",
+      "options": [
+        "15°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to the second law of reflection, the angle of reflection equals the angle of incidence. Therefore, the angle of reflection is <b>30°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.671,
+      "question": "A ray of light is incident normally on a plane mirror. The angle of reflection is",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a ray is incident normally, it strikes the mirror along the normal. The angle of incidence is 0°, so the angle of reflection is also <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.2888,
+      "question": "The image formed by a plane mirror is always",
+      "options": [
+        "Real and inverted",
+        "Virtual and erect",
+        "Real and magnified",
+        "Virtual and inverted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A plane mirror always forms a <b>virtual, erect</b> image of the same size as the object. The image is laterally inverted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.5435,
+      "question": "The image formed by a plane mirror is as far behind the mirror as the object is",
+      "options": [
+        "Behind the mirror",
+        "In front of the mirror",
+        "Above the mirror",
+        "Below the mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a plane mirror, the image distance behind the mirror equals the object distance in front of the mirror. So the image is as far <b>in front of the mirror</b> as the object is in front.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.1028,
+      "question": "The magnification produced by a plane mirror is",
+      "options": [
+        "0",
+        "Less than 1",
+        "1",
+        "Greater than 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A plane mirror produces an image of the same size as the object. Therefore, the linear magnification is <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.1306,
+      "question": "A boy stands 3m in front of a plane mirror. What is the distance between the boy and his image?",
+      "options": [
+        "3m",
+        "6m",
+        "1.5m",
+        "9m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The image is 3 m behind the mirror. The distance between the boy (3 m in front) and his image (3 m behind) is 3 + 3 = <b>6 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018067.5037,
+      "question": "The characteristic of a plane mirror image in which left appears as right is called",
+      "options": [
+        "Magnification",
+        "Lateral inversion",
+        "Diffraction",
+        "Dispersion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a plane mirror, the left side of the object appears as the right side of the image. This phenomenon is called <b>lateral inversion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4065,
+      "question": "Two plane mirrors are inclined at 60° to each other. Calculate the number of images formed.",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For two mirrors inclined at angle θ, the number of images is given by <b>n = 360/θ − 1</b>. Here θ = 60°, so n = 360/60 − 1 = 6 − 1 = <b>5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.6272,
+      "question": "Two plane mirrors are inclined at 90° to each other. The number of images formed is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using n = 360/θ − 1, with θ = 90°, n = 360/90 − 1 = 4 − 1 = <b>3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.0964,
+      "question": "If two plane mirrors are placed parallel and facing each other, the number of images formed is",
+      "options": [
+        "2",
+        "4",
+        "10",
+        "Infinite"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When two plane mirrors are parallel and facing each other, multiple reflections occur, producing an <b>infinite</b> number of images.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.1575,
+      "question": "When a plane mirror is rotated through an angle θ, the reflected ray is rotated through",
+      "options": [
+        "θ",
+        "2θ",
+        "θ/2",
+        "4θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a plane mirror is rotated through an angle θ, the reflected ray rotates through <b>2θ</b>. This is a standard result of reflection geometry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.3655,
+      "question": "A ray of light strikes a plane mirror at a glancing angle of 40°. Calculate the angle between the incident ray and the reflected ray.",
+      "options": [
+        "40°",
+        "50°",
+        "80°",
+        "100°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The angle of incidence is 40°. The angle between the incident ray and the reflected ray is given by <b>180° − 2i</b> = 180° − 80° = <b>100°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.6406,
+      "question": "A concave mirror is also known as a",
+      "options": [
+        "Diverging mirror",
+        "Converging mirror",
+        "Plane mirror",
+        "Parabolic mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A concave mirror converges parallel rays of light to a focus. Therefore, it is also called a <b>converging mirror</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4465,
+      "question": "A convex mirror is also known as a",
+      "options": [
+        "Diverging mirror",
+        "Converging mirror",
+        "Plane mirror",
+        "Spherical mirror"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A convex mirror diverges parallel rays of light as if they came from a focus behind the mirror. Therefore, it is called a <b>diverging mirror</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.5283,
+      "question": "The focal length of a spherical mirror is",
+      "options": [
+        "Equal to the radius of curvature",
+        "Twice the radius of curvature",
+        "Half the radius of curvature",
+        "One-quarter of the radius of curvature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a spherical mirror, the focal length f is related to the radius of curvature R by <b>f = R/2</b>. So f is <b>half</b> the radius of curvature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.153,
+      "question": "A concave mirror has a radius of curvature of 20cm. Calculate its focal length.",
+      "options": [
+        "5cm",
+        "10cm",
+        "20cm",
+        "40cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using f = R/2, with R = 20 cm, f = 20/2 = <b>10 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.262,
+      "question": "The mirror formula is given by",
+      "options": [
+        "1/f = 1/u + 1/v",
+        "1/f = 1/u − 1/v",
+        "f = u + v",
+        "f = uv"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mirror formula is <b>1/f = 1/u + 1/v</b>, where f is focal length, u is object distance, and v is image distance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4429,
+      "question": "The linear magnification of a mirror is given by",
+      "options": [
+        "m = u/v",
+        "m = v/u",
+        "m = uv",
+        "m = u + v"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The linear magnification produced by a mirror is <b>m = v/u</b>, where v is image distance and u is object distance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.0771,
+      "question": "An object is placed at the centre of curvature of a concave mirror. The image formed is",
+      "options": [
+        "Virtual, erect and magnified",
+        "Real, inverted and same size",
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the object is at the centre of curvature C of a concave mirror, the image is formed at C. It is <b>real, inverted, and of the same size</b> as the object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.2185,
+      "question": "An object is placed at the principal focus of a concave mirror. The image formed is at",
+      "options": [
+        "The pole",
+        "The centre of curvature",
+        "Infinity",
+        "The focus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When an object is placed at the principal focus F of a concave mirror, the reflected rays are parallel, so the image is formed at <b>infinity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9177,
+      "question": "An object is placed between the principal focus and the pole of a concave mirror. The image formed is",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and magnified",
+        "Real, inverted and diminished",
+        "Virtual, erect and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the object is between F and the pole of a concave mirror, the image is <b>virtual, erect, and magnified</b>. This is the principle of a shaving mirror.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9058,
+      "question": "An object is placed beyond the centre of curvature of a concave mirror. The image formed is",
+      "options": [
+        "Real, inverted and diminished",
+        "Virtual, erect and magnified",
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the object is beyond C of a concave mirror, the image is formed between F and C. It is <b>real, inverted, and diminished</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9219,
+      "question": "An object is placed between the centre of curvature and the principal focus of a concave mirror. The image formed is",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished",
+        "Real, inverted and diminished",
+        "Virtual, erect and magnified"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the object is between C and F of a concave mirror, the image is formed beyond C. It is <b>real, inverted, and magnified</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.05,
+      "question": "The image formed by a convex mirror is always",
+      "options": [
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished",
+        "Real, erect and magnified",
+        "Virtual, inverted and diminished"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A convex mirror always forms a <b>virtual, erect, and diminished</b> image, regardless of the object position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4316,
+      "question": "A concave mirror is used as a shaving mirror because it produces",
+      "options": [
+        "A diminished image",
+        "A magnified, erect virtual image when the face is close",
+        "An inverted real image",
+        "A laterally inverted image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the face is placed between the focus and the pole of a concave mirror, it produces a <b>magnified, erect virtual image</b>, making it ideal for shaving.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.7715,
+      "question": "A convex mirror is used as a driving mirror because it",
+      "options": [
+        "Produces a magnified image",
+        "Produces a real image",
+        "Gives a wide field of view",
+        "Inverts the image"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A convex mirror gives a <b>wide field of view</b> and always forms an erect, diminished virtual image, making it useful as a driving mirror.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.1577,
+      "question": "A concave mirror is used in a searchlight to produce",
+      "options": [
+        "A converging beam",
+        "A parallel beam of light",
+        "A diverging beam",
+        "A scattered beam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a source is placed at the principal focus of a concave mirror, the reflected rays emerge as a <b>parallel beam of light</b>, which is useful in searchlights.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.548,
+      "question": "The image formed on a screen is always",
+      "options": [
+        "Virtual",
+        "Real",
+        "Erect",
+        "Magnified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>real image</b> can be formed on a screen because the light rays actually converge at the image point. Virtual images cannot be formed on a screen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.3525,
+      "question": "An object is placed 20cm in front of a concave mirror of focal length 10cm. Calculate the image distance.",
+      "options": [
+        "10cm",
+        "20cm",
+        "30cm",
+        "40cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using 1/f = 1/u + 1/v, with f = 10 cm and u = 20 cm:<br>1/10 = 1/20 + 1/v<br>1/v = 1/10 − 1/20 = 1/20<br>v = <b>20 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9648,
+      "question": "An object is placed 15cm from a concave mirror of focal length 10cm. Calculate the image distance.",
+      "options": [
+        "20cm",
+        "25cm",
+        "30cm",
+        "35cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using 1/f = 1/u + 1/v, with f = 10 cm and u = 15 cm:<br>1/10 = 1/15 + 1/v<br>1/v = 1/10 − 1/15 = 1/30<br>v = <b>30 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.8313,
+      "question": "An object is placed 10cm in front of a convex mirror of focal length 10cm. The image distance is",
+      "options": [
+        "5cm",
+        "10cm",
+        "20cm",
+        "−5cm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For a convex mirror, f is negative. f = −10 cm, u = 10 cm.<br>1/f = 1/u + 1/v ⇒ 1/(−10) = 1/10 + 1/v<br>1/v = −1/10 − 1/10 = −2/10 = −1/5<br>v = <b>−5 cm</b> (image is 5 cm behind the mirror).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.193,
+      "question": "The image of an object placed 5cm from a concave mirror of focal length 10cm is formed at",
+      "options": [
+        "10cm behind the mirror",
+        "10cm in front of the mirror",
+        "5cm behind the mirror",
+        "Infinity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using 1/f = 1/u + 1/v, with f = 10 cm and u = 5 cm:<br>1/10 = 1/5 + 1/v<br>1/v = 1/10 − 1/5 = −1/10<br>v = <b>−10 cm</b>, so the image is 10 cm <b>behind</b> the mirror (virtual).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4001,
+      "question": "A concave mirror of focal length 15cm forms a real image three times the size of the object. Calculate the object distance.",
+      "options": [
+        "10cm",
+        "20cm",
+        "30cm",
+        "45cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a real image, magnification m = −3 (inverted). Using m = −v/u, we get v = 3u.<br>Mirror formula: 1/15 = 1/u + 1/(3u) = 4/(3u)<br>3u = 60 ⇒ u = <b>20 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.7122,
+      "question": "The linear magnification produced by a concave mirror that forms a real image twice the size of the object is",
+      "options": [
+        "0.5",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnification is the ratio of image size to object size. A real image twice the size has a magnification magnitude of <b>2</b> (negative sign indicates inversion).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.796,
+      "question": "The radius of curvature of a concave mirror is 30cm. What is its focal length?",
+      "options": [
+        "10cm",
+        "15cm",
+        "30cm",
+        "60cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using f = R/2, with R = 30 cm, f = 30/2 = <b>15 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.8054,
+      "question": "A concave mirror can form a virtual image when the object is placed",
+      "options": [
+        "Beyond the centre of curvature",
+        "At the centre of curvature",
+        "Between the principal focus and the pole",
+        "At the principal focus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A concave mirror forms a virtual, erect, magnified image when the object is placed <b>between the principal focus and the pole</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9617,
+      "question": "A ray of light passing through the centre of curvature of a concave mirror is reflected",
+      "options": [
+        "Through the focus",
+        "Along the same path",
+        "Parallel to the principal axis",
+        "At 45° to the principal axis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A ray passing through the centre of curvature C is incident normally on the mirror, so it reflects back <b>along the same path</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.4553,
+      "question": "A ray of light parallel to the principal axis of a concave mirror after reflection passes through the",
+      "options": [
+        "Pole",
+        "Centre of curvature",
+        "Principal focus",
+        "Infinity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, a ray parallel to the principal axis of a concave mirror reflects and passes through the <b>principal focus F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.1233,
+      "question": "A ray of light passing through the principal focus of a concave mirror after reflection",
+      "options": [
+        "Passes through the centre of curvature",
+        "Becomes parallel to the principal axis",
+        "Returns along the same path",
+        "Passes through the pole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A ray passing through the principal focus F of a concave mirror reflects and becomes <b>parallel to the principal axis</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.9443,
+      "question": "The focal length of a convex mirror is taken as",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By sign convention, the focal length of a convex mirror is <b>negative</b> because its focus is behind the mirror.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.5288,
+      "question": "In the mirror formula, the image distance v is positive for",
+      "options": [
+        "Virtual images",
+        "Real images",
+        "Both real and virtual images",
+        "Only inverted images"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By sign convention, <b>real images</b> are formed in front of the mirror, so v is positive. Virtual images have negative v.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.7112,
+      "question": "An object 4cm high is placed 15cm from a concave mirror of focal length 5cm. Calculate the size of the image.",
+      "options": [
+        "2cm",
+        "3cm",
+        "4cm",
+        "5cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using 1/f = 1/u + 1/v: 1/5 = 1/15 + 1/v ⇒ 1/v = 1/5 − 1/15 = 2/15 ⇒ v = 7.5 cm.<br>Magnification m = −v/u = −7.5/15 = −0.5.<br>Image size = |m| × object size = 0.5 × 4 = <b>2 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.3977,
+      "question": "A converging mirror has a focal length of 20cm. If an object is placed 40cm from it, the image is",
+      "options": [
+        "Real, inverted and same size",
+        "Virtual, erect and magnified",
+        "Real, inverted and magnified",
+        "Virtual, erect and diminished"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using 1/20 = 1/40 + 1/v ⇒ 1/v = 1/20 − 1/40 = 1/40 ⇒ v = 40 cm.<br>Magnification m = −v/u = −40/40 = −1. The image is <b>real, inverted, and of the same size</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.497,
+      "question": "A convex mirror of focal length 12cm produces an image 6cm behind the mirror. Calculate the object distance.",
+      "options": [
+        "4cm",
+        "6cm",
+        "12cm",
+        "18cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a convex mirror, f = −12 cm and image distance v = −6 cm (behind mirror).<br>1/f = 1/u + 1/v ⇒ −1/12 = 1/u − 1/6<br>1/u = −1/12 + 1/6 = 1/12 ⇒ u = <b>12 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.2383,
+      "question": "The image of an object formed by a convex mirror is always located",
+      "options": [
+        "In front of the mirror",
+        "Behind the mirror",
+        "At the focus",
+        "At the centre of curvature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A convex mirror always forms a virtual image <b>behind the mirror</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.285,
+      "question": "Which type of mirror is used as a dentist's mirror?",
+      "options": [
+        "Convex mirror",
+        "Concave mirror",
+        "Plane mirror",
+        "Parabolic mirror"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dentist uses a <b>concave mirror</b> to obtain a magnified, erect virtual image of the teeth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563018068.5942,
+      "question": "A plane mirror is moved 1m towards a man standing 4m in front of it. The distance between the man and his new image is",
+      "options": [
+        "3m",
+        "5m",
+        "6m",
+        "10m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Initially, the man is 4 m from the mirror. After moving the mirror 1 m towards him, the distance becomes 3 m. The image is 3 m behind the mirror, so the distance between the man and his image is 3 + 3 = <b>6 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
