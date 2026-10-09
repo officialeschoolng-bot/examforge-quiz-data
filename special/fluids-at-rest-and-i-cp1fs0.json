@@ -3,16 +3,718 @@
   "title": "Fluids at Rest and in Motion",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791563996093.9084,
+      "question": "The pressure at a point in a fluid at rest depends on",
+      "options": [
+        "The shape of the container",
+        "The depth below the surface and the density of the fluid",
+        "The volume of the fluid",
+        "The surface area of the fluid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pressure at a point in a fluid at rest is given by <b>P = ρgh</b>, where ρ is the fluid density, g is acceleration due to gravity, and h is the depth below the surface. It depends on depth and density, not on the shape, volume, or surface area of the container.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.0781,
+      "question": "Pressure at a point in a fluid acts",
+      "options": [
+        "Only downwards",
+        "Only upwards",
+        "Equally in all directions",
+        "Only sideways"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Pascal's principle, pressure at a point in a fluid at rest is transmitted <b>equally in all directions</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.431,
+      "question": "At the same horizontal level in a continuous body of the same liquid at rest, the pressure is",
+      "options": [
+        "Zero",
+        "Different at different points",
+        "The same at all points",
+        "Greatest at the centre"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a continuous body of the same liquid at rest, all points at the same horizontal level experience the <b>same pressure</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.0427,
+      "question": "The S.I. unit of pressure is",
+      "options": [
+        "N",
+        "Nm<sup>-1</sup>",
+        "Nm<sup>-2</sup>",
+        "Nm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure = Force / Area = N / m² = <b>N m<sup>-2</sup></b> (pascal, Pa).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.0146,
+      "question": "The pressure at a depth h in a liquid of density ρ is given by",
+      "options": [
+        "h/ρg",
+        "ρg/h",
+        "hρg",
+        "hg/ρ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pressure due to a liquid column at depth h is <b>P = hρg</b> (or ρgh).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.885,
+      "question": "Calculate the pressure at a depth of 10m in water of density 1000kgm<sup>-3</sup>. [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "1.0 × 10<sup>3</sup>Pa",
+        "1.0 × 10<sup>4</sup>Pa",
+        "1.0 × 10<sup>5</sup>Pa",
+        "1.0 × 10<sup>6</sup>Pa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P = ρgh = 1000 × 10 × 10 = <b>1.0 × 10<sup>5</sup> Pa</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.3162,
+      "question": "The atmospheric pressure at sea level is approximately",
+      "options": [
+        "1.0 × 10<sup>3</sup>Pa",
+        "1.0 × 10<sup>4</sup>Pa",
+        "1.0 × 10<sup>5</sup>Pa",
+        "1.0 × 10<sup>6</sup>Pa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Standard atmospheric pressure at sea level is about <b>1.0 × 10<sup>5</sup> Pa</b> (760 mmHg).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.5686,
+      "question": "The instrument used to measure atmospheric pressure is the",
+      "options": [
+        "Hygrometer",
+        "Hydrometer",
+        "Barometer",
+        "Manometer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>barometer</b> measures atmospheric pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.6287,
+      "question": "The instrument used to measure the pressure of a gas in a laboratory is the",
+      "options": [
+        "Barometer",
+        "Manometer",
+        "Hydrometer",
+        "Hygrometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>manometer</b> measures the pressure of a gas in a laboratory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.752,
+      "question": "A barometer reads 760mmHg at sea level. If the atmospheric pressure is 1.0 × 10<sup>5</sup>Pa, the density of mercury is approximately",
+      "options": [
+        "1.3 × 10<sup>4</sup>kgm<sup>-3</sup>",
+        "1.0 × 10<sup>3</sup>kgm<sup>-3</sup>",
+        "1.3 × 10<sup>3</sup>kgm<sup>-3</sup>",
+        "1.0 × 10<sup>4</sup>kgm<sup>-3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P = hρg ⇒ ρ = P/(hg) = (1.0 × 10<sup>5</sup>) / (0.76 × 10) ≈ <b>1.3 × 10<sup>4</sup> kg m<sup>-3</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.45,
+      "question": "The pressure of a gas is 75cmHg. Express this in Nm<sup>-2</sup>. [density of mercury = 1.36 × 10<sup>4</sup>kgm<sup>-3</sup>, g = 10ms<sup>-2</sup>]",
+      "options": [
+        "1.02 × 10<sup>5</sup>Nm<sup>-2</sup>",
+        "1.02 × 10<sup>4</sup>Nm<sup>-2</sup>",
+        "1.02 × 10<sup>6</sup>Nm<sup>-2</sup>",
+        "1.02 × 10<sup>3</sup>Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P = hρg = 0.75 × 1.36 × 10<sup>4</sup> × 10 = <b>1.02 × 10<sup>5</sup> N m<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.7012,
+      "question": "Pascal's principle states that pressure applied to an enclosed fluid is transmitted",
+      "options": [
+        "Only downwards",
+        "Equally in all directions throughout the fluid",
+        "Only to the walls of the container",
+        "Only upwards"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pascal's principle: pressure applied to an enclosed fluid is transmitted <b>equally in all directions</b> throughout the fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.5503,
+      "question": "A hydraulic press has a small piston of area 0.01m<sup>2</sup> and a large piston of area 0.5m<sup>2</sup>. If a force of 20N is applied to the small piston, the force on the large piston is",
+      "options": [
+        "100N",
+        "200N",
+        "500N",
+        "1000N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "By Pascal's principle: F₁/A₁ = F₂/A₂ ⇒ 20/0.01 = F₂/0.5 ⇒ F₂ = (20 × 0.5)/0.01 = <b>1000 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.7854,
+      "question": "In a hydraulic press, the force multiplication is achieved because",
+      "options": [
+        "Pressure is greater on the larger piston",
+        "Pressure is the same on both pistons",
+        "The larger piston has less area",
+        "The small piston moves a greater distance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a hydraulic press, the <b>pressure is the same</b> on both pistons. Since F = P × A, a larger area gives a larger force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.715,
+      "question": "Archimedes' principle states that the upthrust on a body immersed in a fluid is equal to the",
+      "options": [
+        "Weight of the body",
+        "Volume of the body",
+        "Weight of the fluid displaced",
+        "Mass of the body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Archimedes' principle: upthrust = <b>weight of the fluid displaced</b> by the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.5342,
+      "question": "A body displaces 0.2kg of water when fully immersed. The upthrust on the body is [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "0.2N",
+        "2.0N",
+        "20N",
+        "200N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Upthrust = weight of water displaced = mg = 0.2 × 10 = <b>2.0 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.7715,
+      "question": "A body weighs 50N in air and 30N when fully immersed in water. The upthrust on the body is",
+      "options": [
+        "20N",
+        "30N",
+        "50N",
+        "80N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Upthrust = weight in air − weight in water = 50 − 30 = <b>20 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.132,
+      "question": "A body weighs 60N in air and 40N when fully immersed in water. The relative density of the body is",
+      "options": [
+        "2",
+        "3",
+        "1.5",
+        "0.67"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Upthrust = 60 − 40 = 20 N. Relative density = weight in air / upthrust = 60/20 = <b>3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.801,
+      "question": "A solid floats in a liquid when its",
+      "options": [
+        "Weight is greater than the upthrust",
+        "Weight is equal to the upthrust",
+        "Density is greater than that of the liquid",
+        "Volume is greater than that of the liquid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A floating body is in equilibrium when its <b>weight equals the upthrust</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.6926,
+      "question": "A body of density ρ<sub>s</sub> floats in a liquid of density ρ<sub>l</sub>. The fraction of the body submerged is",
+      "options": [
+        "ρ<sub>l</sub>/ρ<sub>s</sub>",
+        "ρ<sub>s</sub>/ρ<sub>l</sub>",
+        "ρ<sub>s</sub> × ρ<sub>l</sub>",
+        "ρ<sub>s</sub> + ρ<sub>l</sub>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a floating body, fraction submerged = density of body / density of liquid = <b>ρ<sub>s</sub>/ρ<sub>l</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.8618,
+      "question": "A wooden block of density 0.6gcm<sup>-3</sup> floats in water. The fraction of its volume submerged is",
+      "options": [
+        "0.4",
+        "0.6",
+        "1.0",
+        "1.6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fraction submerged = density of wood / density of water = 0.6/1.0 = <b>0.6</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.262,
+      "question": "When a ship sails from fresh water to sea water, it",
+      "options": [
+        "Sinks deeper",
+        "Rises slightly",
+        "Remains at the same level",
+        "Sinks completely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sea water is denser than fresh water, so the ship displaces less water for the same weight and therefore <b>rises slightly</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.494,
+      "question": "A hydrometer is used to measure the",
+      "options": [
+        "Pressure of a liquid",
+        "Relative density of a liquid",
+        "Viscosity of a liquid",
+        "Surface tension of a liquid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>hydrometer</b> measures the relative density of a liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.884,
+      "question": "The pressure at a depth of 5m in a liquid of density 800kgm<sup>-3</sup> is [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "4.0 × 10<sup>3</sup>Pa",
+        "4.0 × 10<sup>4</sup>Pa",
+        "4.0 × 10<sup>5</sup>Pa",
+        "4.0 × 10<sup>2</sup>Pa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "P = ρgh = 800 × 10 × 5 = <b>4.0 × 10<sup>4</sup> Pa</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.449,
+      "question": "The pressure in a liquid at a given depth is independent of the",
+      "options": [
+        "Density of the liquid",
+        "Acceleration due to gravity",
+        "Shape of the container",
+        "Depth below the surface"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure at a given depth depends on density, g, and depth, but not on the <b>shape of the container</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.4001,
+      "question": "A U-tube contains water and oil. If the height of the water column is 10cm and that of the oil column is 12.5cm, the relative density of the oil is",
+      "options": [
+        "0.8",
+        "1.25",
+        "0.5",
+        "2.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the same level, pressures are equal: ρ<sub>water</sub>gh<sub>w</sub> = ρ<sub>oil</sub>gh<sub>o</sub> ⇒ ρ<sub>oil</sub>/ρ<sub>water</sub> = h<sub>w</sub>/h<sub>o</sub> = 10/12.5 = <b>0.8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.1353,
+      "question": "The equation of continuity for an incompressible fluid flowing through a pipe of varying cross-section is",
+      "options": [
+        "A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>",
+        "A<sub>1</sub>/v<sub>1</sub> = A<sub>2</sub>/v<sub>2</sub>",
+        "A<sub>1</sub>v<sub>1</sub><sup>2</sup> = A<sub>2</sub>v<sub>2</sub><sup>2</sup>",
+        "A<sub>1</sub> + v<sub>1</sub> = A<sub>2</sub> + v<sub>2</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equation of continuity: <b>A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub></b> (volume flow rate is constant).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.9268,
+      "question": "Water flows through a pipe of cross-sectional area 0.02m<sup>2</sup> at a speed of 2ms<sup>-1</sup>. The volume flow rate is",
+      "options": [
+        "0.04m<sup>3</sup>s<sup>-1</sup>",
+        "0.4m<sup>3</sup>s<sup>-1</sup>",
+        "4.0m<sup>3</sup>s<sup>-1</sup>",
+        "0.004m<sup>3</sup>s<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume flow rate = A × v = 0.02 × 2 = <b>0.04 m<sup>3</sup> s<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.4622,
+      "question": "If the cross-sectional area of a pipe is halved, the speed of the fluid flowing through it",
+      "options": [
+        "Is halved",
+        "Doubles",
+        "Remains the same",
+        "Becomes four times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By continuity, A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>. If A<sub>2</sub> = A<sub>1</sub>/2, then v<sub>2</sub> = 2v<sub>1</sub>. Speed <b>doubles</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.5217,
+      "question": "Bernoulli's principle states that as the speed of a fluid increases, its",
+      "options": [
+        "Pressure increases",
+        "Pressure decreases",
+        "Pressure remains constant",
+        "Temperature increases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bernoulli's principle: as fluid speed increases, its <b>pressure decreases</b> (for horizontal flow).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.7693,
+      "question": "The Bernoulli's equation for fluid flow is given by",
+      "options": [
+        "P + ½ρv<sup>2</sup> + ρgh = constant",
+        "P − ½ρv<sup>2</sup> + ρgh = constant",
+        "P + ½ρv<sup>2</sup> − ρgh = constant",
+        "P + ρv<sup>2</sup> + ρgh = constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bernoulli's equation: <b>P + ½ρv<sup>2</sup> + ρgh = constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.885,
+      "question": "Torricelli's theorem gives the speed of efflux from a small hole at depth h as",
+      "options": [
+        "v = √(2gh)",
+        "v = √(gh)",
+        "v = 2gh",
+        "v = √(h/g)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Torricelli's theorem: v = <b>√(2gh)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.4465,
+      "question": "Water flows out of a small hole at the bottom of a tank filled to a height of 5m. The speed of efflux is [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "5ms<sup>-1</sup>",
+        "10ms<sup>-1</sup>",
+        "50ms<sup>-1</sup>",
+        "100ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "v = √(2gh) = √(2 × 10 × 5) = √100 = <b>10 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.702,
+      "question": "The Venturi meter is used to measure the",
+      "options": [
+        "Pressure of a fluid",
+        "Rate of flow of a fluid",
+        "Viscosity of a fluid",
+        "Surface tension of a fluid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>Venturi meter</b> measures the rate of flow of a fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.3516,
+      "question": "An airplane wing is designed so that air flows faster over the top surface than the bottom. This creates",
+      "options": [
+        "Greater pressure on top",
+        "Greater pressure on the bottom",
+        "Equal pressure on both",
+        "Zero pressure on top"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Faster flow on top means lower pressure on top, so there is <b>greater pressure on the bottom</b>, providing lift.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.5457,
+      "question": "Viscosity is the internal friction between",
+      "options": [
+        "A solid and a liquid",
+        "Two layers of a fluid in relative motion",
+        "Two solids",
+        "A gas and a solid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Viscosity is the internal friction between <b>two layers of a fluid in relative motion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.2827,
+      "question": "As the temperature of a liquid increases, its viscosity",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As temperature increases, molecular kinetic energy increases, so viscosity <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.9565,
+      "question": "Stokes' law gives the viscous drag F on a small sphere of radius r moving with velocity v in a fluid of viscosity η as",
+      "options": [
+        "F = 6πηrv",
+        "F = 6πηr<sup>2</sup>v",
+        "F = 6πηrv<sup>2</sup>",
+        "F = 6πηr/v"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stokes' law: <b>F = 6πηrv</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.0886,
+      "question": "A small ball falling through a viscous liquid attains terminal velocity when the",
+      "options": [
+        "Viscous force equals the weight",
+        "Upthrust equals the viscous force",
+        "Net force on the ball is zero",
+        "Acceleration is maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At terminal velocity, the ball moves with constant velocity, so the <b>net force is zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.2493,
+      "question": "The terminal velocity of a small sphere falling through a viscous liquid is directly proportional to",
+      "options": [
+        "The square of the radius",
+        "The radius",
+        "The viscosity of the liquid",
+        "The density of the liquid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Terminal velocity v<sub>t</sub> ∝ r<sup>2</sup>. So it is directly proportional to the <b>square of the radius</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.146,
+      "question": "Streamline flow is also known as",
+      "options": [
+        "Turbulent flow",
+        "Laminar flow",
+        "Chaotic flow",
+        "Random flow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Streamline flow is also called <b>laminar flow</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.126,
+      "question": "The Reynolds number is used to determine whether fluid flow is",
+      "options": [
+        "Hot or cold",
+        "Laminar or turbulent",
+        "Fast or slow",
+        "Dense or light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Reynolds number determines whether flow is <b>laminar or turbulent</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.1396,
+      "question": "The equation P + ½ρv<sup>2</sup> + ρgh = constant is valid for",
+      "options": [
+        "Viscous fluid flow",
+        "Turbulent flow",
+        "Ideal (non-viscous, incompressible) fluid flow",
+        "Compressible fluid flow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bernoulli's equation is valid for <b>ideal (non-viscous, incompressible) fluid flow</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.0996,
+      "question": "A fluid flows through a horizontal pipe. At a point where the pipe narrows, the speed of the fluid increases and the pressure",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Bernoulli's principle, as speed increases, <b>pressure decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.6558,
+      "question": "The force on a dam due to water depends on",
+      "options": [
+        "The volume of water only",
+        "The depth of water and the area of the dam",
+        "The shape of the dam only",
+        "The temperature of water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The force on a dam depends on the <b>depth of water and the area of the dam</b> (pressure varies with depth).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.6226,
+      "question": "The pressure at the bottom of a container of liquid is independent of the",
+      "options": [
+        "Depth of the liquid",
+        "Density of the liquid",
+        "Shape of the container",
+        "Acceleration due to gravity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure at the bottom depends on depth, density, and g, but not on the <b>shape of the container</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.9524,
+      "question": "A balloon filled with helium rises in air because",
+      "options": [
+        "Helium is lighter than air",
+        "The upthrust of air is greater than the weight of the balloon",
+        "Both A and B",
+        "Helium is heavier than air"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Helium is lighter than air, so the upthrust (weight of air displaced) is greater than the weight of the balloon, causing it to rise. Both A and B are correct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.1226,
+      "question": "The atmospheric pressure decreases with altitude because",
+      "options": [
+        "The density of air increases with altitude",
+        "The weight of the air column above decreases",
+        "The temperature increases with altitude",
+        "The wind speed increases with altitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As altitude increases, the <b>weight of the air column above decreases</b>, so atmospheric pressure decreases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.876,
+      "question": "The pressure of a gas in a closed container is due to",
+      "options": [
+        "The weight of the gas molecules",
+        "Collisions of gas molecules with the walls of the container",
+        "Attraction between gas molecules",
+        "The volume of the gas molecules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gas pressure is due to <b>collisions of gas molecules with the walls</b> of the container.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791563996093.6177,
+      "question": "A fluid is flowing through a pipe of non-uniform cross-section. If the speed at a point where the area is 0.1m<sup>2</sup> is 4ms<sup>-1</sup>, what is the speed where the area is 0.2m<sup>2</sup>?",
+      "options": [
+        "1ms<sup>-1</sup>",
+        "2ms<sup>-1</sup>",
+        "4ms<sup>-1</sup>",
+        "8ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By continuity: A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub> ⇒ 0.1 × 4 = 0.2 × v<sub>2</sub> ⇒ v<sub>2</sub> = 0.4/0.2 = <b>2 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
