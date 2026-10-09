@@ -3,16 +3,718 @@
   "title": "Conduction through Liquids and Gases",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791564834655.6248,
+      "question": "Substances which conduct electricity in solution or molten state are called",
+      "options": [
+        "Insulators",
+        "Electrolytes",
+        "Dielectrics",
+        "Semiconductors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substances that conduct electricity in solution or molten state are called <b>electrolytes</b>. They contain free ions that carry charge. Insulators, dielectrics, and semiconductors do not fit this definition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.4722,
+      "question": "Conduction of electricity through liquids is by the movement of",
+      "options": [
+        "Electrons only",
+        "Ions",
+        "Neutrons",
+        "Protons only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In liquids, electricity is conducted by the movement of <b>ions</b> (cations and anions) towards the oppositely charged electrodes. Electrons are responsible for conduction in metals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.4785,
+      "question": "Which of the following is NOT an electrolyte?",
+      "options": [
+        "Dilute sulphuric acid",
+        "Copper sulphate solution",
+        "Sugar solution",
+        "Sodium chloride solution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sugar solution is <b>not an electrolyte</b> because sugar does not dissociate into ions in water. It is a non-electrolyte. The others ionize in solution and conduct electricity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7627,
+      "question": "The process by which a chemical compound in solution or molten state is decomposed by the passage of electric current is called",
+      "options": [
+        "Sublimation",
+        "Electrolysis",
+        "Distillation",
+        "Hydrolysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Electrolysis</b> is the decomposition of a chemical compound in solution or molten state by the passage of electric current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.5466,
+      "question": "The electrode connected to the positive terminal of a battery during electrolysis is called the",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Electrolyte",
+        "Electrolytic cell"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electrode connected to the positive terminal is the <b>anode</b>. Oxidation occurs at the anode.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7253,
+      "question": "The electrode connected to the negative terminal of a battery during electrolysis is called the",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Electrolyte",
+        "Voltameter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electrode connected to the negative terminal is the <b>cathode</b>. Reduction occurs at the cathode.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.4775,
+      "question": "Positively charged ions are called",
+      "options": [
+        "Anions",
+        "Cations",
+        "Electrons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positively charged ions are called <b>cations</b>. They migrate towards the cathode during electrolysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.0566,
+      "question": "Negatively charged ions are called",
+      "options": [
+        "Cations",
+        "Anions",
+        "Protons",
+        "Neutrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negatively charged ions are called <b>anions</b>. They migrate towards the anode during electrolysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.878,
+      "question": "During electrolysis, cations migrate towards the",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Both electrodes",
+        "Neither electrode"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cations are positively charged, so they migrate towards the negatively charged electrode, the <b>cathode</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.9514,
+      "question": "During electrolysis, anions migrate towards the",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Both electrodes",
+        "Neither electrode"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anions are negatively charged, so they migrate towards the positively charged electrode, the <b>anode</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7092,
+      "question": "Which of the following is liberated at the cathode during the electrolysis of dilute copper(II) sulphate solution using copper electrodes?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Copper",
+        "Sulphur"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With copper electrodes, copper ions are discharged at the cathode and deposited as <b>copper</b> metal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.0103,
+      "question": "In the electrolysis of acidified water, the gas liberated at the cathode is",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Chlorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In acidified water, hydrogen ions (H<sup>+</sup>) are attracted to the cathode and discharged as <b>hydrogen gas</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.3162,
+      "question": "In the electrolysis of acidified water, the gas liberated at the anode is",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Chlorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydroxide ions (OH<sup>−</sup>) are attracted to the anode and discharge as <b>oxygen gas</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7754,
+      "question": "Faraday's first law of electrolysis states that the mass of a substance deposited at an electrode is directly proportional to the",
+      "options": [
+        "Current only",
+        "Time only",
+        "Quantity of charge passed",
+        "Voltage applied"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Faraday's first law: mass deposited <b>m ∝ Q</b>, where Q = It is the quantity of charge passed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.0142,
+      "question": "Faraday's second law of electrolysis states that when the same quantity of charge is passed through different electrolytes, the masses of the substances deposited are proportional to their",
+      "options": [
+        "Atomic numbers",
+        "Chemical equivalents",
+        "Densities",
+        "Volumes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Faraday's second law: masses deposited are proportional to their <b>chemical equivalents</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.0684,
+      "question": "The quantity of charge required to deposit one mole of a monovalent metal is",
+      "options": [
+        "96500C",
+        "9650C",
+        "965C",
+        "96.5C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One mole of a monovalent metal requires one mole of electrons, which is <b>96500 C</b> (Faraday constant).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.8816,
+      "question": "The Faraday constant has a value of approximately",
+      "options": [
+        "9.65 × 10<sup>4</sup>Cmol<sup>-1</sup>",
+        "9.65 × 10<sup>3</sup>Cmol<sup>-1</sup>",
+        "9.65 × 10<sup>5</sup>Cmol<sup>-1</sup>",
+        "6.02 × 10<sup>23</sup>Cmol<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Faraday constant is approximately <b>9.65 × 10<sup>4</sup> C mol<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.767,
+      "question": "The electrochemical equivalent of a substance is defined as the mass deposited by",
+      "options": [
+        "1C of charge",
+        "1A of current",
+        "1V of potential difference",
+        "1s of time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electrochemical equivalent (z) is the mass deposited by <b>1 coulomb</b> of charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.3125,
+      "question": "The S.I. unit of electrochemical equivalent is",
+      "options": [
+        "Ckg<sup>-1</sup>",
+        "kgC<sup>-1</sup>",
+        "kgC",
+        "Ckg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "z = m/Q, so unit = kg/C = <b>kg C<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.015,
+      "question": "A current of 2A flows through a copper voltameter for 30 minutes. Calculate the quantity of charge that flows.",
+      "options": [
+        "60C",
+        "360C",
+        "3600C",
+        "600C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Q = It = 2 A × (30 × 60 s) = 2 × 1800 = <b>3600 C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.9807,
+      "question": "The mass of a substance deposited during electrolysis is given by",
+      "options": [
+        "m = Izt",
+        "m = Iz/t",
+        "m = zt/I",
+        "m = I/z t"
+      ],
+      "correctAnswer": 0,
+      "explanation": "m = zQ = zIt = <b>Izt</b>, where z is electrochemical equivalent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.1262,
+      "question": "During electrolysis, 2.0g of a metal is deposited using a current of 0.5A in 3 hours. The electrochemical equivalent of the metal is approximately",
+      "options": [
+        "3.7 × 10<sup>-4</sup>kgC<sup>-1</sup>",
+        "3.7 × 10<sup>-7</sup>kgC<sup>-1</sup>",
+        "3.7 × 10<sup>-3</sup>kgC<sup>-1</sup>",
+        "3.7 × 10<sup>-5</sup>kgC<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "m = 2.0 g = 2.0 × 10<sup>-3</sup> kg. Q = It = 0.5 × (3×3600) = 5400 C. z = m/Q = (2.0×10<sup>-3</sup>)/5400 ≈ <b>3.7 × 10<sup>-7</sup> kg C<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.1694,
+      "question": "The electrochemical equivalent of silver is 1.12 × 10<sup>-6</sup>kgC<sup>-1</sup>. Calculate the mass deposited by a current of 2A in 100s.",
+      "options": [
+        "2.24 × 10<sup>-4</sup>kg",
+        "2.24 × 10<sup>-5</sup>kg",
+        "1.12 × 10<sup>-4</sup>kg",
+        "4.48 × 10<sup>-4</sup>kg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "m = zIt = (1.12×10<sup>-6</sup>) × 2 × 100 = <b>2.24 × 10<sup>-4</sup> kg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7603,
+      "question": "The voltameter is an apparatus used for",
+      "options": [
+        "Measuring voltage",
+        "Electrolysis",
+        "Measuring resistance",
+        "Measuring current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A voltameter is an apparatus used for <b>electrolysis</b>, not for measuring voltage (that is a voltmeter).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.1008,
+      "question": "In a copper voltameter, the electrolyte used is",
+      "options": [
+        "Copper(II) tetraoxosulphate(VI) solution",
+        "Dilute sulphuric acid",
+        "Sodium chloride solution",
+        "Copper(II) oxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A copper voltameter uses <b>copper(II) tetraoxosulphate(VI) solution</b> (CuSO<sub>4</sub>) as the electrolyte.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.6177,
+      "question": "A simple voltaic cell consists of",
+      "options": [
+        "Two similar metals in an electrolyte",
+        "Two dissimilar metals in an electrolyte",
+        "Two dissimilar metals in a vacuum",
+        "Two similar metals in a vacuum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A simple voltaic cell consists of <b>two dissimilar metals</b> immersed in an electrolyte.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.421,
+      "question": "The purpose of the depolarizer in a cell is to",
+      "options": [
+        "Increase the e.m.f.",
+        "Prevent the formation of hydrogen bubbles on the positive electrode",
+        "Increase the internal resistance",
+        "Reduce the current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A depolarizer prevents the buildup of hydrogen bubbles on the positive electrode, which would otherwise polarize the cell and increase resistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.8708,
+      "question": "Local action in a simple voltaic cell is caused by",
+      "options": [
+        "Impurities in the zinc electrode",
+        "The presence of the depolarizer",
+        "High temperature",
+        "Low voltage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Local action is caused by <b>impurities in the zinc electrode</b>, which form small short-circuited cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7378,
+      "question": "Local action in a simple cell is prevented by",
+      "options": [
+        "Adding more acid",
+        "Amalgamating the zinc electrode",
+        "Increasing the current",
+        "Adding water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amalgamating the zinc electrode with mercury prevents local action by covering impurities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.2104,
+      "question": "The e.m.f. of a Leclanché cell is approximately",
+      "options": [
+        "1.0V",
+        "1.5V",
+        "2.0V",
+        "6.0V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Leclanché cell has an e.m.f. of about <b>1.5 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.648,
+      "question": "The electrolyte in a Leclanché cell is",
+      "options": [
+        "Dilute sulphuric acid",
+        "Ammonium chloride solution",
+        "Copper sulphate solution",
+        "Potassium hydroxide solution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electrolyte in a Leclanché cell is <b>ammonium chloride solution</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.4805,
+      "question": "The depolarizer in a Leclanché cell is",
+      "options": [
+        "Carbon",
+        "Zinc",
+        "Manganese(IV) oxide",
+        "Ammonium chloride"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The depolarizer is <b>manganese(IV) oxide</b> (MnO<sub>2</sub>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.621,
+      "question": "Gases conduct electricity when",
+      "options": [
+        "At low pressure and high voltage",
+        "At high pressure and low voltage",
+        "At low pressure and low voltage",
+        "At high pressure and high voltage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gases conduct electricity when at <b>low pressure and high voltage</b>, which ionizes the gas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.193,
+      "question": "The process of producing ions in a gas by the application of a high potential difference is called",
+      "options": [
+        "Sublimation",
+        "Ionization",
+        "Condensation",
+        "Distillation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The process is <b>ionization</b> — gas molecules are split into electrons and positive ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.2612,
+      "question": "The glow discharge in a discharge tube is due to",
+      "options": [
+        "Emission of electrons from the cathode",
+        "Ionization and recombination of gas molecules",
+        "Emission of light from the anode",
+        "Radioactive decay of the gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Glow discharge is due to <b>ionization and recombination</b> of gas molecules, emitting light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.6191,
+      "question": "Cathode rays are streams of",
+      "options": [
+        "Protons",
+        "Electrons",
+        "Neutrons",
+        "Positive ions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cathode rays are streams of <b>electrons</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.6921,
+      "question": "Cathode rays travel in",
+      "options": [
+        "Curved lines",
+        "Straight lines",
+        "Circular paths",
+        "Random directions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cathode rays travel in <b>straight lines</b> in the absence of electric and magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.997,
+      "question": "Cathode rays are deflected by",
+      "options": [
+        "Magnetic fields only",
+        "Electric fields only",
+        "Both electric and magnetic fields",
+        "Neither electric nor magnetic fields"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cathode rays (electrons) are deflected by <b>both electric and magnetic fields</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.5237,
+      "question": "The production of cathode rays in a discharge tube is due to",
+      "options": [
+        "Thermionic emission",
+        "Secondary emission",
+        "Photoelectric emission",
+        "Field emission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cathode rays are produced by <b>secondary emission</b> when positive ions bombard the cathode.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.1968,
+      "question": "The emission of electrons from a hot metal surface is called",
+      "options": [
+        "Photoelectric emission",
+        "Thermionic emission",
+        "Field emission",
+        "Secondary emission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Emission of electrons from a hot metal surface is <b>thermionic emission</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.2805,
+      "question": "The device that uses thermionic emission is the",
+      "options": [
+        "Transistor",
+        "Diode valve",
+        "Capacitor",
+        "Resistor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>diode valve</b> uses thermionic emission from a heated cathode.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.0479,
+      "question": "Canal rays are",
+      "options": [
+        "Streams of electrons",
+        "Streams of positive ions",
+        "Streams of neutrons",
+        "Electromagnetic waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Canal rays are <b>streams of positive ions</b> passing through holes in the cathode.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.6538,
+      "question": "The charge-to-mass ratio (e/m) of cathode rays was first determined by",
+      "options": [
+        "J. J. Thomson",
+        "Rutherford",
+        "Faraday",
+        "Millikan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>J. J. Thomson</b> determined the charge-to-mass ratio of cathode rays.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.3896,
+      "question": "The nature of cathode rays is independent of",
+      "options": [
+        "The gas in the discharge tube",
+        "The material of the cathode",
+        "The pressure of the gas",
+        "The voltage applied"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cathode rays are electrons; their nature is independent of the <b>material of the cathode</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.841,
+      "question": "A discharge tube contains gas at very low pressure. When a high voltage is applied, the gas conducts because",
+      "options": [
+        "The gas molecules become neutral",
+        "The gas molecules are ionized into electrons and positive ions",
+        "The gas becomes a liquid",
+        "The gas becomes a solid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At low pressure and high voltage, gas molecules are <b>ionized into electrons and positive ions</b>, allowing conduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.7488,
+      "question": "Which of the following is NOT a conducting medium?",
+      "options": [
+        "Distilled water",
+        "Salt solution",
+        "Molten sodium chloride",
+        "Dilute hydrochloric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Distilled water</b> is a poor conductor because it contains very few ions. The others are electrolytes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.908,
+      "question": "The conductivity of an electrolyte increases with",
+      "options": [
+        "Increase in temperature",
+        "Decrease in temperature",
+        "Increase in pressure",
+        "Decrease in concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conductivity of an electrolyte increases with <b>increase in temperature</b> due to increased ionization and ion mobility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.5718,
+      "question": "The migration of ions in an electrolyte is responsible for",
+      "options": [
+        "The production of heat",
+        "The transfer of charge through the electrolyte",
+        "The formation of crystals",
+        "The change in colour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ion migration is responsible for the <b>transfer of charge</b> through the electrolyte.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.6028,
+      "question": "During electrolysis, oxidation takes place at the",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Electrolyte",
+        "Both electrodes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxidation (loss of electrons) occurs at the <b>anode</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564834655.614,
+      "question": "During electrolysis, reduction takes place at the",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Electrolyte",
+        "Both electrodes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reduction (gain of electrons) occurs at the <b>cathode</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
