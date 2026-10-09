@@ -3,16 +3,718 @@
   "title": "Electric Charges",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791564237208.7627,
+      "question": "The S.I. unit of electric charge is the",
+      "options": [
+        "ampere",
+        "coulomb",
+        "volt",
+        "ohm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. unit of electric charge is the <b>coulomb (C)</b>. One coulomb is the charge transported by a steady current of one ampere in one second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.1003,
+      "question": "A charge of 1.6 &times; 10<sup>-19</sup>C is equivalent to the charge on",
+      "options": [
+        "one electron",
+        "one proton",
+        "one neutron",
+        "one atom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The elementary charge has magnitude <b>e = 1.6 &times; 10<sup>-19</sup> C</b>. An electron carries charge &minus;e, while a proton carries +e. The magnitude matches the charge on one electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.514,
+      "question": "The charge on an electron is",
+      "options": [
+        "+1.6 &times; 10<sup>-19</sup>C",
+        "&minus;1.6 &times; 10<sup>-19</sup>C",
+        "+1.6 &times; 10<sup>19</sup>C",
+        "&minus;1.6 &times; 10<sup>19</sup>C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An electron has a negative charge of <b>&minus;1.6 &times; 10<sup>-19</sup> C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.3567,
+      "question": "The quantization of charge means that charge exists in",
+      "options": [
+        "continuous amounts",
+        "integral multiples of e",
+        "any fractional value of e",
+        "arbitrary amounts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Quantization of charge</b> means charge exists only in discrete amounts given by <b>Q = ne</b>, where n is an integer and e = 1.6 &times; 10<sup>-19</sup> C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.7515,
+      "question": "Which of the following is NOT a method of charging a body?",
+      "options": [
+        "Friction",
+        "Induction",
+        "Conduction",
+        "Radiation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The three methods of charging a body are <b>friction</b>, <b>induction</b>, and <b>conduction</b>. Radiation is not a charging method.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.5667,
+      "question": "When a glass rod is rubbed with silk, the rod becomes",
+      "options": [
+        "negatively charged",
+        "positively charged",
+        "neutral",
+        "grounded"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When glass is rubbed with silk, glass loses electrons to silk. Loss of electrons leaves the glass rod <b>positively charged</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.727,
+      "question": "When an ebonite rod is rubbed with fur, the rod becomes",
+      "options": [
+        "positively charged",
+        "negatively charged",
+        "neutral",
+        "grounded"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When ebonite is rubbed with fur, ebonite gains electrons from fur. Gain of electrons leaves the ebonite rod <b>negatively charged</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.771,
+      "question": "The law of conservation of charge states that charge can neither be",
+      "options": [
+        "created nor destroyed",
+        "created but destroyed",
+        "destroyed but created",
+        "transferred"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>law of conservation of charge</b> states that electric charge can neither be created nor destroyed; it can only be transferred from one body to another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.9546,
+      "question": "Two point charges of +2&mu;C and +8&mu;C are separated by a distance of 0.3m. The force between them is",
+      "options": [
+        "attractive",
+        "repulsive",
+        "zero",
+        "cannot be determined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both charges are positive (like charges). Like charges <b>repel</b> each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.5732,
+      "question": "Coulomb's law states that the force between two point charges is directly proportional to the product of the charges and inversely proportional to the",
+      "options": [
+        "distance between them",
+        "square of the distance between them",
+        "cube of the distance between them",
+        "sum of the charges"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Coulomb's law</b>: F &prop; q<sub>1</sub>q<sub>2</sub> and F &prop; 1/r<sup>2</sup>, so F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237208.1582,
+      "question": "The force between two charges of 1C each separated by 1m in vacuum is",
+      "options": [
+        "9 &times; 10<sup>9</sup>N",
+        "9 &times; 10<sup>-9</sup>N",
+        "1N",
+        "9 &times; 10<sup>19</sup>N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup> = (9 &times; 10<sup>9</sup> &times; 1 &times; 1)/1<sup>2</sup> = <b>9 &times; 10<sup>9</sup> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.3284,
+      "question": "The permittivity of free space &epsilon;<sub>0</sub> has the value",
+      "options": [
+        "8.85 &times; 10<sup>-12</sup>C<sup>2</sup>N<sup>-1</sup>m<sup>-2</sup>",
+        "8.85 &times; 10<sup>12</sup>C<sup>2</sup>N<sup>-1</sup>m<sup>-2</sup>",
+        "9 &times; 10<sup>9</sup>C<sup>2</sup>N<sup>-1</sup>m<sup>-2</sup>",
+        "1.6 &times; 10<sup>-19</sup>C<sup>2</sup>N<sup>-1</sup>m<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The permittivity of free space is <b>&epsilon;<sub>0</sub> = 8.85 &times; 10<sup>-12</sup> C<sup>2</sup> N<sup>-1</sup> m<sup>-2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6885,
+      "question": "If the distance between two point charges is doubled, the force between them becomes",
+      "options": [
+        "twice",
+        "half",
+        "one-quarter",
+        "four times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F &prop; 1/r<sup>2</sup>. If r is doubled, force becomes 1/(2)<sup>2</sup> = <b>1/4</b> of its original value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.5906,
+      "question": "If the distance between two point charges is halved, the force between them becomes",
+      "options": [
+        "twice",
+        "half",
+        "one-quarter",
+        "four times"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F &prop; 1/r<sup>2</sup>. If r is halved, force becomes 1/(1/2)<sup>2</sup> = <b>4 times</b> its original value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.1787,
+      "question": "Two charges of +3&mu;C and &minus;3&mu;C are separated by 0.2m. The force between them is",
+      "options": [
+        "attractive",
+        "repulsive",
+        "zero",
+        "cannot be determined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unlike charges (positive and negative) <b>attract</b> each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.8,
+      "question": "The electric field intensity at a point is defined as the force per unit",
+      "options": [
+        "charge",
+        "mass",
+        "distance",
+        "area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Electric field intensity (E)</b> is defined as the force per unit positive charge: <b>E = F/q</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.7742,
+      "question": "The S.I. unit of electric field intensity is",
+      "options": [
+        "N",
+        "C",
+        "NC<sup>-1</sup>",
+        "Nm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E = F/q, so unit = N/C = <b>N C<sup>-1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.223,
+      "question": "The electric field intensity at a distance r from a point charge Q is given by",
+      "options": [
+        "kQ/r",
+        "kQ/r<sup>2</sup>",
+        "kQ<sup>2</sup>/r",
+        "kQ<sup>2</sup>/r<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electric field due to a point charge is <b>E = kQ/r<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.1687,
+      "question": "A charge of 2&mu;C is placed in an electric field of intensity 5 &times; 10<sup>4</sup>NC<sup>-1</sup>. The force on the charge is",
+      "options": [
+        "0.1N",
+        "1.0N",
+        "10N",
+        "0.01N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = qE = (2 &times; 10<sup>-6</sup>) &times; (5 &times; 10<sup>4</sup>) = <b>0.1 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.7678,
+      "question": "The electric field lines due to an isolated positive point charge",
+      "options": [
+        "point radially inward",
+        "point radially outward",
+        "form closed loops",
+        "are parallel straight lines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric field lines due to a positive charge point <b>radially outward</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.8755,
+      "question": "Electric field lines due to an isolated negative point charge",
+      "options": [
+        "point radially inward",
+        "point radially outward",
+        "form closed loops",
+        "are parallel straight lines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electric field lines due to a negative charge point <b>radially inward</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.783,
+      "question": "Electric field lines are always",
+      "options": [
+        "parallel to the conductor surface",
+        "perpendicular to the conductor surface",
+        "at 45&deg; to the conductor surface",
+        "zero at the conductor surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric field lines are always <b>perpendicular</b> to the surface of a conductor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.2327,
+      "question": "Electric field lines never",
+      "options": [
+        "intersect each other",
+        "start from positive charges",
+        "end on negative charges",
+        "exist in vacuum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electric field lines <b>never intersect</b> each other because at any point the field has only one direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.323,
+      "question": "The electric potential at a distance r from a point charge Q is given by",
+      "options": [
+        "kQ/r",
+        "kQ/r<sup>2</sup>",
+        "kQ<sup>2</sup>/r",
+        "kQ<sup>2</sup>/r<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electric potential due to a point charge is <b>V = kQ/r</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6711,
+      "question": "The S.I. unit of electric potential is",
+      "options": [
+        "volt",
+        "coulomb",
+        "newton",
+        "ampere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. unit of electric potential is the <b>volt (V)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.1353,
+      "question": "The work done in moving a charge of 2C through a potential difference of 10V is",
+      "options": [
+        "5J",
+        "20J",
+        "0.2J",
+        "12J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "W = qV = 2 &times; 10 = <b>20 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.593,
+      "question": "The electric potential energy between two point charges q<sub>1</sub> and q<sub>2</sub> separated by distance r is",
+      "options": [
+        "kq<sub>1</sub>q<sub>2</sub>/r",
+        "kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>",
+        "kq<sub>1</sub>q<sub>2</sub><sup>2</sup>/r",
+        "kq<sub>1</sub><sup>2</sup>q<sub>2</sub>/r"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electric potential energy is <b>U = kq<sub>1</sub>q<sub>2</sub>/r</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.936,
+      "question": "An equipotential surface is a surface on which",
+      "options": [
+        "the electric field is constant",
+        "the potential is constant",
+        "the charge is constant",
+        "the force is constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>equipotential surface</b> is a surface on which the electric <b>potential is constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6677,
+      "question": "The electric potential at a point due to a positive charge is",
+      "options": [
+        "positive",
+        "negative",
+        "zero",
+        "infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The potential due to a positive charge is <b>positive</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6892,
+      "question": "The electric potential at a point due to a negative charge is",
+      "options": [
+        "positive",
+        "negative",
+        "zero",
+        "infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The potential due to a negative charge is <b>negative</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6711,
+      "question": "A capacitor of capacitance 10&mu;F is charged to a potential difference of 100V. The charge stored is",
+      "options": [
+        "1 &times; 10<sup>-3</sup>C",
+        "1 &times; 10<sup>-4</sup>C",
+        "1 &times; 10<sup>-2</sup>C",
+        "1 &times; 10<sup>3</sup>C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q = CV = (10 &times; 10<sup>-6</sup>) &times; 100 = <b>1 &times; 10<sup>-3</sup> C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.511,
+      "question": "The capacitance of a parallel plate capacitor is directly proportional to the",
+      "options": [
+        "distance between the plates",
+        "area of the plates",
+        "charge on the plates",
+        "potential difference across the plates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C = &epsilon;<sub>0</sub>A/d, so C is directly proportional to the <b>area of the plates</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.1116,
+      "question": "The capacitance of a parallel plate capacitor is inversely proportional to the",
+      "options": [
+        "area of the plates",
+        "distance between the plates",
+        "permittivity of the medium",
+        "charge on the plates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C = &epsilon;<sub>0</sub>A/d, so C is inversely proportional to the <b>distance between the plates</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6836,
+      "question": "Three capacitors of 2&mu;F each are connected in series. The effective capacitance is",
+      "options": [
+        "6&mu;F",
+        "2/3&mu;F",
+        "3/2&mu;F",
+        "1/6&mu;F"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For series: 1/C = 1/2 + 1/2 + 1/2 = 3/2, so C = <b>2/3 &mu;F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.0273,
+      "question": "Three capacitors of 2&mu;F each are connected in parallel. The effective capacitance is",
+      "options": [
+        "2/3&mu;F",
+        "6&mu;F",
+        "3/2&mu;F",
+        "1/6&mu;F"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For parallel: C = 2 + 2 + 2 = <b>6 &mu;F</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.4368,
+      "question": "The energy stored in a capacitor of capacitance C charged to potential difference V is",
+      "options": [
+        "CV",
+        "CV<sup>2</sup>",
+        "&frac12;CV",
+        "&frac12;CV<sup>2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The energy stored is <b>E = &frac12;CV<sup>2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.4153,
+      "question": "The energy stored in a 5&mu;F capacitor charged to 200V is",
+      "options": [
+        "0.1J",
+        "0.2J",
+        "1.0J",
+        "2.0J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = &frac12;CV<sup>2</sup> = &frac12; &times; (5 &times; 10<sup>-6</sup>) &times; (200)<sup>2</sup> = <b>0.1 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.6267,
+      "question": "The electric flux through a closed surface is proportional to the",
+      "options": [
+        "charge enclosed",
+        "potential enclosed",
+        "electric field enclosed",
+        "area of the surface"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By Gauss's law, electric flux through a closed surface is proportional to the <b>charge enclosed</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.177,
+      "question": "Gauss's law states that the total electric flux through a closed surface is equal to the",
+      "options": [
+        "charge enclosed divided by &epsilon;<sub>0</sub>",
+        "charge enclosed multiplied by &epsilon;<sub>0</sub>",
+        "electric field times area",
+        "potential times distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gauss's law: <b>&Phi; = Q/&epsilon;<sub>0</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.9084,
+      "question": "A charge of +2&mu;C is placed at the centre of a cube. The electric flux through one face of the cube is",
+      "options": [
+        "2 &times; 10<sup>-6</sup>/&epsilon;<sub>0</sub>",
+        "2 &times; 10<sup>-6</sup>/(6&epsilon;<sub>0</sub>)",
+        "2 &times; 10<sup>-6</sup>/(3&epsilon;<sub>0</sub>)",
+        "zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total flux = Q/&epsilon;<sub>0</sub>. For a cube, flux through one face = <b>Q/(6&epsilon;<sub>0</sub>)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.2175,
+      "question": "A charged conductor has all its charge on the",
+      "options": [
+        "interior surface",
+        "exterior surface",
+        "centre",
+        "edges"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a charged conductor, all charge resides on the <b>exterior surface</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.2222,
+      "question": "The electric field inside a hollow charged conductor is",
+      "options": [
+        "zero",
+        "maximum",
+        "minimum",
+        "uniform"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electric field inside a hollow charged conductor is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.5144,
+      "question": "The electric potential inside a hollow charged conductor is",
+      "options": [
+        "zero",
+        "equal to the potential on the surface",
+        "greater than the potential on the surface",
+        "less than the potential on the surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electric potential inside a hollow charged conductor is <b>equal to the potential on the surface</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.8325,
+      "question": "An electroscope is used to",
+      "options": [
+        "measure electric current",
+        "detect electric charge",
+        "measure potential difference",
+        "store electric charge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>electroscope</b> is used to <b>detect electric charge</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.883,
+      "question": "When a negatively charged rod is brought near the cap of an uncharged electroscope, the leaves",
+      "options": [
+        "collapse",
+        "diverge",
+        "remain the same",
+        "fall off"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A negatively charged rod induces a positive charge on the cap and negative charge on the leaves. Like charges on leaves cause them to <b>diverge</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.8225,
+      "question": "When a positively charged rod is brought near the cap of a positively charged electroscope, the leaves",
+      "options": [
+        "collapse",
+        "diverge more",
+        "remain the same",
+        "fall off"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The positively charged rod repels positive charge onto the leaves, increasing their divergence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.8374,
+      "question": "The process of charging a body without physical contact is called",
+      "options": [
+        "conduction",
+        "induction",
+        "friction",
+        "convection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Induction</b> is the process of charging a body without physical contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.0486,
+      "question": "Lightning is caused by",
+      "options": [
+        "friction between clouds and air",
+        "accumulation of charges in clouds",
+        "both A and B",
+        "magnetic fields"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lightning is caused by <b>both</b> friction between clouds and air and the accumulation of charges in clouds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.9307,
+      "question": "The electric field intensity due to a point charge is directly proportional to the",
+      "options": [
+        "charge",
+        "distance",
+        "square of the distance",
+        "cube of the distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = kQ/r<sup>2</sup>, so E is directly proportional to the <b>charge Q</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791564237209.0967,
+      "question": "Two point charges of +4&mu;C and +9&mu;C are separated by a distance of 0.6m. The force between them is",
+      "options": [
+        "0.9N",
+        "9.0N",
+        "0.09N",
+        "90N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup> = (9 &times; 10<sup>9</sup> &times; 4 &times; 10<sup>-6</sup> &times; 9 &times; 10<sup>-6</sup>)/(0.6)<sup>2</sup> = <b>0.9 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
