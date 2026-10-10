@@ -3,16 +3,718 @@
   "title": "GST 115 ( UNIZIK ) : CRITICAL THINKING 2",
   "subject": "GST 115",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791660608901.319,
+      "question": "What type of implementation does low level thinking require?",
+      "options": [
+        "Routine and mechanical implementation",
+        "Complex and creative implementation",
+        "Abstract and philosophical implementation",
+        "Dialectical and analytical implementation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low level thinking involves routine and mechanical application of information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.8376,
+      "question": "Which activity serves as an example of low level thinking?",
+      "options": [
+        "Evaluating conflicting theoretical claims",
+        "Completing a formula with numbers",
+        "Restructuring an unsolved problem",
+        "Developing standards for evaluation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Completing a formula with numbers is a routine and mechanical task.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.5762,
+      "question": "What does high level thinking require students to do when facing a problem?",
+      "options": [
+        "Repeat memorized facts verbatim",
+        "Manipulate information through analysis",
+        "Ignore the complexity of the question",
+        "Rely entirely on instinct"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High level thinking requires manipulating information through interpretation and analysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.4492,
+      "question": "According to Mirioğlu (2002), high level thinking is activated when a problem is what?",
+      "options": [
+        "Easy to solve by routine methods",
+        "Difficult to solve by routine implementation",
+        "Solvable by simple memorization",
+        "Answerable with a single formula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mirioğlu states high level thinking is invoked when problems are difficult to solve by routine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.683,
+      "question": "High level thinking involves taking control of situations by doing what?",
+      "options": [
+        "Applying acquired knowledge",
+        "Guessing the answer quickly",
+        "Discarding all prior learning",
+        "Following mechanical steps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "High level thinking involves taking control by applying acquired knowledge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.094,
+      "question": "What is the specific purpose of Critical Thinking?",
+      "options": [
+        "To produce new artistic products",
+        "To evaluate opposite states or clarity of ideas",
+        "To make final financial choices",
+        "To execute mechanical algorithms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critical thinking aims to evaluate opposite states or the clarity of ideas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.9082,
+      "question": "Which thinking skills are associated with Critical Thinking?",
+      "options": [
+        "Defining states or ideas and analyzing opposite views",
+        "Determining new creative ideas and products",
+        "Defining alternatives and making a strong choice",
+        "Choosing and implementing a strategy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical thinking involves defining states or ideas and analyzing opposing views.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.3083,
+      "question": "What role does Critical Thinking play across all thinking skills?",
+      "options": [
+        "It is needed for all thinking skills",
+        "It is only used for creative projects",
+        "It replaces problem solving entirely",
+        "It applies only to mathematical tasks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical thinking is needed for all thinking skills according to the text.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.0515,
+      "question": "What is the primary purpose of Creative Thinking?",
+      "options": [
+        "To evaluate opposing arguments",
+        "To produce new ideas and products",
+        "To follow strict logical rules sequentially",
+        "To select between fixed options"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Creative thinking primarily aims to produce new ideas and products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.127,
+      "question": "Which thinking skills are associated with Creative Thinking?",
+      "options": [
+        "Defining states and analyzing views",
+        "Determining ideas and restructuring the problem",
+        "Choosing and implementing a strategy",
+        "Evaluating the credibility of sources"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Creative thinking involves determining ideas and restructuring problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608901.2795,
+      "question": "How is a newly created product from creative thinking evaluated?",
+      "options": [
+        "By means of critical thinking",
+        "Through routine memorization exercises",
+        "By random trial and error",
+        "Through mechanical data calculation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Products of creative thinking are evaluated by means of critical thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.9387,
+      "question": "What is the primary purpose of Decision Making?",
+      "options": [
+        "To find multiple solutions to a problem",
+        "To make informed decisions",
+        "To produce brand new art products",
+        "To analyze historical documents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decision making aims to make informed decisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.3528,
+      "question": "Which thinking skills are involved in Decision Making?",
+      "options": [
+        "Thinking the information through and defining alternatives",
+        "Focusing solely on emotional impressions",
+        "Recalling random facts from memory",
+        "Differentiating real implementations from ideals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Decision making involves thinking information through and defining alternatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.9773,
+      "question": "How does Critical Thinking relate to Decision Making?",
+      "options": [
+        "It replaces decision making entirely",
+        "It is one of the basic processes necessary for making a decision",
+        "It has no connection to choices",
+        "It only occurs after a choice is finalized"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critical thinking is one of the basic processes necessary for making a decision.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.05,
+      "question": "What is the main purpose of Problem Solving?",
+      "options": [
+        "To find one or more solutions to a problem",
+        "To evaluate abstract artistic creations",
+        "To memorize conceptual formulas",
+        "To design independent thinking strategies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Problem solving aims to find one or more solutions to a problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.964,
+      "question": "Which skills are listed under Problem Solving?",
+      "options": [
+        "Defining, explaining, choosing, implementing, and evaluating a strategy",
+        "Asking basic questions and listening critically",
+        "Comparing similar states and transferring insights",
+        "Identifying premises and recognizing contradictions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Problem solving includes defining, explaining, choosing, implementing, and evaluating a strategy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.3015,
+      "question": "How does Problem Solving relate to Critical Thinking according to Mehmet Kaan Demir?",
+      "options": [
+        "They are identical processes",
+        "Problem solving starts with a problem, while critical thinking encompasses evaluation of all information, ideas, and events",
+        "Problem solving replaces the need for critical thinking",
+        "Critical thinking is only used before a problem appears"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Demir distinguishes problem solving as starting with a problem, while critical thinking evaluates all information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.1194,
+      "question": "How do Bittner and Tobin characterize the process of critical thinking?",
+      "options": [
+        "As a single rigid formula",
+        "As multi-dimensional under an umbrella of different types of thinking",
+        "As a simple mechanical reflex",
+        "As an entirely instinctive behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bittner and Tobin view critical thinking as multi-dimensional, covering different thinking types.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.2114,
+      "question": "According to Skinner (1976), what is true about terms like scientific thinking and critical thinking?",
+      "options": [
+        "They have completely opposite definitions",
+        "They have the same meaning despite tiny differences",
+        "They apply only to physical laboratory work",
+        "They have no relation to human thought"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skinner stated these terms have essentially the same meaning with tiny differences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.2354,
+      "question": "Critical thinking cannot be equated with what other mental activity?",
+      "options": [
+        "Just decision-making",
+        "Logical reasoning",
+        "Mental processing",
+        "Cognitive evaluation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical thinking cannot be equated solely with decision-making.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.896,
+      "question": "According to Kazancı (1989), what do all types of thinking generally necessitate to some extent?",
+      "options": [
+        "Criticism",
+        "Mathematical calculation",
+        "Artistic creativity",
+        "Formal debate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kazancı argued that almost all types of thinking necessitate criticism to some extent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.1997,
+      "question": "What role do mental activities used during criticism play across types of thinking according to Kazancı?",
+      "options": [
+        "Almost none of the types of thinking can do without them",
+        "They are completely unnecessary for learning",
+        "They only apply to scientific research",
+        "They hinder logical conclusions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kazancı noted almost no type of thinking can do without these mental activities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.5886,
+      "question": "Teaching critical thinking can be achieved easily without needing much equipment in terms of what?",
+      "options": [
+        "Technology and physical conditions",
+        "Student participation",
+        "Goal-oriented lesson plans",
+        "Teacher preparation time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical thinking teaching does not require much equipment in technology or physical conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.1353,
+      "question": "Who can implement critical thinking teaching according to the second quality?",
+      "options": [
+        "Only specialized university professors",
+        "All of the teachers having the principles and methods to it",
+        "Only trained psychologists",
+        "External guest lecturers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All teachers who have the principles and methods can implement critical thinking teaching.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.5205,
+      "question": "Why do teaching activities for critical thinking take much time?",
+      "options": [
+        "Because it requires all the students to participate",
+        "Because equipment takes hours to setup",
+        "Because teachers must lecture silently",
+        "Because textbooks are very long"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical thinking activities take time because they require all students to participate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.0571,
+      "question": "What must be addressed first before teaching critical thinking to students?",
+      "options": [
+        "Their mathematical aptitude scores",
+        "Their attitudes and tendencies to gain positive attitudes",
+        "Their physical fitness levels",
+        "Their ability to memorize definitions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Teachers must first address students attitudes and tendencies to gain positive attitudes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.681,
+      "question": "What must students definitely be regarding learning in critical thinking?",
+      "options": [
+        "Active",
+        "Silent",
+        "Passive",
+        "Independent of teachers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Students must definitely be active in learning critical thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.1423,
+      "question": "How should teaching critical thinking be carried out?",
+      "options": [
+        "Through random unguided discussions",
+        "Through intentional, goal-oriented, and well-designed activities",
+        "Through strict memorization of facts",
+        "Through silent reading exercises"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Teaching critical thinking should be intentional, goal-oriented, and well-designed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.384,
+      "question": "At what ages and levels can critical thinking be taught?",
+      "options": [
+        "Only at university levels",
+        "At all ages and levels",
+        "Only in secondary schools",
+        "Only during early childhood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critical thinking can be taught at all ages and levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.1357,
+      "question": "What should a teacher be careful about when teaching critical thinking across levels?",
+      "options": [
+        "Which critical thinking strategies and skills should be taught at which level and age",
+        "How many textbook pages are covered daily",
+        "The exact cost of classroom materials",
+        "The seating arrangement of the students"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Teachers must be careful about which strategies and skills to teach at which level and age.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.383,
+      "question": "What is true regarding subjects suitable for teaching critical thinking?",
+      "options": [
+        "Only science subjects are suitable",
+        "All subjects are suitable",
+        "Only language arts are suitable",
+        "No academic subjects are suitable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All subjects are suitable for teaching critical thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.4658,
+      "question": "What should be chosen carefully for each subject when teaching critical thinking?",
+      "options": [
+        "The classroom lighting",
+        "Suitable critical thinking strategies and skills",
+        "The duration of the school term",
+        "The font size of printed notes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Suitable critical thinking strategies and skills should be chosen for each subject.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.325,
+      "question": "Besides lesson contents, what else can be used in teaching critical thinking?",
+      "options": [
+        "Out-of-school contents",
+        "Standardized test questions only",
+        "Fictional storybooks exclusively",
+        "Digital video games only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Out-of-school contents can also be used in teaching critical thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.8582,
+      "question": "Which teaching methods can be used in teaching critical thinking?",
+      "options": [
+        "Research, study, collaborative learning, group discussion, and problem-solving",
+        "Silent copying, dictation, and rote memorization",
+        "Lecture-only presentation without interaction",
+        "Individual testing without instruction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methods include research, study, collaborative learning, group discussion, and problem-solving.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.18,
+      "question": "The qualities of critical thinking get clearer by means of how many critical thinking strategies?",
+      "options": [
+        "Ten",
+        "Twenty",
+        "Thirty-five",
+        "Fifty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The qualities become clearer by means of thirty-five critical thinking strategies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.2605,
+      "question": "Who divided the critical thinking strategies into three main groups in 1990?",
+      "options": [
+        "Paul, Binker, Jensen, and Kreklau",
+        "Swartz and Park",
+        "Demir and Kazancı",
+        "Facione and Ennis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paul, Binker, Jensen, and Kreklau divided the strategies into three main groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.7732,
+      "question": "Which strategy group includes independent thinking as S-1?",
+      "options": [
+        "Affective Strategies – Mental Habits",
+        "Cognitive Strategies – Macro Skills",
+        "Cognitive Strategies – Micro Skills",
+        "Evaluation Strategies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Independent thinking S-1 falls under Affective Strategies – Mental Habits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.913,
+      "question": "Strategy S-3 under affective strategies focuses on what?",
+      "options": [
+        "Independent thinking",
+        "Realizing objective thinking",
+        "Developing mental bravery",
+        "Developing trust in thinking skill"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Strategy S-3 focuses on realizing objective thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.671,
+      "question": "Strategy S-5 involves developing mental modesty and what else?",
+      "options": [
+        "Delaying judgment",
+        "Speed reading",
+        "Memorizing facts",
+        "Abstract reasoning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-5 involves mental modesty and delaying judgment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.2969,
+      "question": "Strategy S-9 focuses on developing what?",
+      "options": [
+        "Trust in thinking skill",
+        "Physical endurance",
+        "Mathematical calculation",
+        "Socratic dialogue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-9 focuses on developing trust in thinking skill.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.97,
+      "question": "Clearing up generalizations and avoiding disturbing their meaning belongs to which strategy group?",
+      "options": [
+        "Affective Strategies",
+        "Cognitive Strategies – Macro Skills",
+        "Cognitive Strategies – Micro Skills",
+        "Basic Literacy Skills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clearing up generalizations falls under Cognitive Strategies – Macro Skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.7134,
+      "question": "Strategy S-16 under macro skills involves evaluating what?",
+      "options": [
+        "The credibility of information sources",
+        "The length of written texts",
+        "The physical setup of classrooms",
+        "The spelling of vocabulary words"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-16 involves evaluating the credibility of information sources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.599,
+      "question": "Strategy S-24 involves implementing which type of discussion?",
+      "options": [
+        "Socratic discussion",
+        "Open debate without rules",
+        "Silent individual review",
+        "Didactic lecturing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-24 involves Socratic discussion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.634,
+      "question": "Strategy S-26 involves which type of reasoning?",
+      "options": [
+        "Dialectical reasoning",
+        "Inductive guessing",
+        "Mechanical calculation",
+        "Instinctive reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-26 involves dialectical reasoning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.2607,
+      "question": "Strategy S-27 under micro skills involves comparing and differentiating real implementations and what?",
+      "options": [
+        "Ideals",
+        "Textbooks",
+        "Theories",
+        "Questions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-27 involves comparing real implementations and ideals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.4766,
+      "question": "Strategy S-28 focuses on thinking perfect about thinking by using what?",
+      "options": [
+        "Critical vocabulary",
+        "Complex equations",
+        "Foreign languages",
+        "Numerical data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-28 uses critical vocabulary to think about thinking.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.873,
+      "question": "Strategy S-30 involves probing and evaluating what?",
+      "options": [
+        "Premises",
+        "Answers",
+        "Speeches",
+        "Textbooks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-30 involves probing and evaluating premises.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.4077,
+      "question": "Strategy S-34 focuses on noticing what in arguments or texts?",
+      "options": [
+        "Contradictions",
+        "Spelling errors",
+        "Formatting flaws",
+        "Printing mistakes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strategy S-34 focuses on noticing contradictions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.938,
+      "question": "Besides strategies, what else should be taught in critical thinking according to Swartz and Park (1994)?",
+      "options": [
+        "Specific thinking skills",
+        "Advanced mathematics",
+        "Physical education",
+        "Foreign grammar rules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Swartz and Park state specific thinking skills should also be taught.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791660608902.006,
+      "question": "Which of the following is listed among the skills by Swartz and Park (1994)?",
+      "options": [
+        "Reliability of Sources",
+        "Silent Memorization",
+        "Mechanical Computation",
+        "Passive Listening"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reliability of Sources is listed as a critical thinking skill by Swartz and Park.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
