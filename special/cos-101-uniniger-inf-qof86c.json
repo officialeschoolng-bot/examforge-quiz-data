@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNINIGER ) : INFORMATION PROCESSING",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791644127105.5632,
+      "question": "What does information processing primarily involve?",
+      "options": [
+        "Deleting all old data",
+        "Printing many office files",
+        "Acquiring and retrieving",
+        "Storing hardware parts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information processing involves the acquisition, recording, organization, and retrieval of information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.9858,
+      "question": "A computer information processor processes information to produce what?",
+      "options": [
+        "Understandable results",
+        "Random output",
+        "Raw unprocessed data",
+        "Hardware parts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A computer information processor processes information to produce understandable results.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.9731,
+      "question": "Information processing may include which activities?",
+      "options": [
+        "Selling and buying goods",
+        "Typing and editing text",
+        "Designing and building",
+        "Assembly and dissemination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Processing may include acquisition, recording, assembly, retrieval, or dissemination of information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.9888,
+      "question": "In printing a text file, the information processor works to do what?",
+      "options": [
+        "Delete the entire file",
+        "Translate and format",
+        "Compress the stored data",
+        "Encrypt the whole content"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The processor translates and formats digital information for printed form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.9326,
+      "question": "The term information processing is applied to which operations?",
+      "options": [
+        "Computer-based operations",
+        "Manual office operations",
+        "Mechanical workshop operations",
+        "Electrical power operations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term information processing is applied to computer-based operations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.2766,
+      "question": "Information processing refers to a process where digitalized information is manipulated by which machine?",
+      "options": [
+        "A manual typewriter",
+        "A small calculator",
+        "A digital machine",
+        "A large printing press"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Digitalized information is manipulated by a digital electronic machine such as a computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.0276,
+      "question": "Which of the following is part of the information processing system?",
+      "options": [
+        "Farming hand tools",
+        "Business software",
+        "Simple hand tools",
+        "Building materials"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The information processing system includes business software, computers, operating systems, mainframes, and networks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.67,
+      "question": "Which characteristic ensures information has a direct impact on decision-making?",
+      "options": [
+        "Timely delivery",
+        "Complete data",
+        "Comprehensive detail",
+        "Accuracy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Accurate information has a direct impact on the decision-making process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.4978,
+      "question": "Why is timeliness important in information processing?",
+      "options": [
+        "It reduces total cost",
+        "It increases data volume",
+        "Delay ruins information",
+        "It simplifies data storage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A delay in obtaining information can make it useless.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.194,
+      "question": "What can incomplete data and information lead to?",
+      "options": [
+        "Incorrect results",
+        "Faster final results",
+        "Better business decisions",
+        "Reduced system errors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Incomplete data and information can lead to incorrect results.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.661,
+      "question": "Which characteristic states that information has no meaning until it is finished?",
+      "options": [
+        "Accurate data",
+        "Completeness",
+        "Timely delivery",
+        "Comprehensive detail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Completeness means information has no meaning until it is finished.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.6062,
+      "question": "Information that is not comprehensive is considered what?",
+      "options": [
+        "Very useful",
+        "Quite timely",
+        "Highly accurate",
+        "Useless"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Only comprehensive information is useful; otherwise it is considered useless.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.306,
+      "question": "How many types of information processing are identified in the material?",
+      "options": [
+        "Two",
+        "Three types",
+        "Four types",
+        "Five types"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are two types of information processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.195,
+      "question": "Which of the following is a type of information processing?",
+      "options": [
+        "Diagonal data processing",
+        "Circular data processing",
+        "Vertical processing",
+        "Spiral data processing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vertical and horizontal information processing are the two types.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.4172,
+      "question": "The types of information processing can be either centralized or what?",
+      "options": [
+        "Locally based",
+        "Decentralized",
+        "Specially designed",
+        "Generally applied"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Information processing can be either decentralized or centralized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.041,
+      "question": "The information processing concept is based on how many assumptions?",
+      "options": [
+        "Two only",
+        "One only",
+        "None at all",
+        "Several"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The information processing concept is based on several assumptions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.0784,
+      "question": "Which processing units are mentioned as processing available information?",
+      "options": [
+        "Long-term memory and logic",
+        "Emotion and blind instinct",
+        "Short-term memory and perception",
+        "Habit and simple reflex action"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Available information is processed by short-term memory, perception, and attention.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.1057,
+      "question": "What is the function of the processing system regarding collected information?",
+      "options": [
+        "Alter and transfer",
+        "Delete it all right now",
+        "Hide it far away",
+        "Ignore it completely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The processing system alters or transfers collected information systematically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.86,
+      "question": "Information processing aims to offer details about what?",
+      "options": [
+        "Cost and profit margins",
+        "Hardware and software tools",
+        "Politics and culture",
+        "Structure and processes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It aims to offer details about the structure and processes that motivate performance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.8445,
+      "question": "Information processing in human beings resembles that of what?",
+      "options": [
+        "Wild animals",
+        "Computers",
+        "Simple machines",
+        "Green plants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Information processing in human beings greatly resembles that of computers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.4456,
+      "question": "Which of the following is a step in information processing?",
+      "options": [
+        "Input processing",
+        "Manual data processing",
+        "Verbal data processing",
+        "Visual data processing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The steps include input processing, data processing, output processing, and storage processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.1045,
+      "question": "Which step involves data processing?",
+      "options": [
+        "Input data processing",
+        "Output data processing",
+        "Data processing",
+        "Storage data processing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Data processing is one of the four steps in information processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.2246,
+      "question": "Which processing step comes after data processing?",
+      "options": [
+        "Input data processing",
+        "Storage data processing",
+        "Manual data processing",
+        "Output processing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Output processing follows data processing in the sequence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.643,
+      "question": "Storage processing is which step in information processing?",
+      "options": [
+        "The first step",
+        "Fourth",
+        "The third step",
+        "The second step"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Storage processing is listed as the fourth step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.4534,
+      "question": "Which tool retrieves required data from databases?",
+      "options": [
+        "Search engine",
+        "Network server",
+        "Database system",
+        "Enterprise system tool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A search engine is an information processing tool that retrieves required data from databases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.784,
+      "question": "Which tool provides statistical reports and financial accounts?",
+      "options": [
+        "Database system",
+        "Search engine",
+        "Server",
+        "Geographic information system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The server provides statistical reports and financial accounts to help decision-making.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.831,
+      "question": "Geographic information systems include software and hardware that do what?",
+      "options": [
+        "Print office documents",
+        "Analyze geographic data",
+        "Send electronic emails",
+        "Design modern web pages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GIS includes software and hardware that retrieve, analyze, manage, and store geographic information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.5955,
+      "question": "Enterprise systems use what to integrate stored data?",
+      "options": [
+        "Secret passwords",
+        "Special codes",
+        "Access keys",
+        "Identifiers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Enterprise systems use identifiers to integrate stored data from one system to another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.6343,
+      "question": "Which of the following is a tool used in information processing?",
+      "options": [
+        "Database",
+        "Laser printer",
+        "Document scanner",
+        "Computer keyboard"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Database is listed among the tools used in information processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.2026,
+      "question": "When a computer must react within a guaranteed time to an input, which system is used?",
+      "options": [
+        "Batch processing mode",
+        "Multi-programming",
+        "Real-time system",
+        "Interactive processing mode"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A real-time operating system is used when the computer must react within a guaranteed time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.6604,
+      "question": "Which mode allows several programs to appear to be running at once?",
+      "options": [
+        "Batch processing",
+        "Multi-programming",
+        "Real-time processing",
+        "Multi-access system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multi-programming is a method where several programs appear to be running at once.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.9087,
+      "question": "In which mode are programs or data collected together and processed in one go?",
+      "options": [
+        "Interactive processing mode",
+        "Multi-tasking",
+        "Real-time processing mode",
+        "Batch processing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Batch processing collects programs or data in a batch and processes them in one go.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.868,
+      "question": "Which mode requires continual exchange of information between user and computer?",
+      "options": [
+        "Interactive processing",
+        "Batch processing mode",
+        "Multi-programming",
+        "Multi-access"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Interactive processing requires continual exchange of information between user and computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.1924,
+      "question": "What does multi-tasking allow multiple tasks to do?",
+      "options": [
+        "Run sequentially now",
+        "Run offline later",
+        "Run concurrently",
+        "Run manually today"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multi-tasking allows multiple tasks to run concurrently, taking turns using resources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.1238,
+      "question": "A multi-access system allows several users to use the same system via what?",
+      "options": [
+        "A laser printer",
+        "A network modem",
+        "A document scanner",
+        "A LAN"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A multi-access system allows several users to use the same system together via a LAN.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.907,
+      "question": "The engine management system within a car uses which operating system?",
+      "options": [
+        "Batch system",
+        "Real-time",
+        "Interactive system",
+        "Multi-user system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The engine management system uses a real-time operating system to react to sensor feedback.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.61,
+      "question": "Informational Processing talks about how many types of processing?",
+      "options": [
+        "Three",
+        "Two types",
+        "Four types",
+        "Five types"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Informational Processing talks about three different types of processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.8574,
+      "question": "Which of the following is a type of informational processing?",
+      "options": [
+        "Digital form",
+        "Manual form",
+        "Visual",
+        "Analog form"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The three types are visual, acoustic, and semantic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127105.834,
+      "question": "With visual processing, you process things such as what?",
+      "options": [
+        "Loud sounds",
+        "Pictures",
+        "Written words",
+        "Number values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visual processing involves processing things such as pictures or visual memories.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.9817,
+      "question": "Which type of informational processing deals with sounds?",
+      "options": [
+        "Visual type",
+        "Semantic type",
+        "Digital type",
+        "Acoustic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acoustic processing deals with sounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.8284,
+      "question": "Semantic processing relates to what?",
+      "options": [
+        "Meaning",
+        "Visual pictures",
+        "Acoustic sounds",
+        "Physical motion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Semantic processing relates to meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.2942,
+      "question": "Information processing has become very important in which world?",
+      "options": [
+        "Global sports world",
+        "Creative art world",
+        "Business world",
+        "Popular music world"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information processing has become very important in the business world.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.5042,
+      "question": "Information processing has helped organizations improve what?",
+      "options": [
+        "Weather and climate patterns",
+        "Productivity and output",
+        "Politics and religion",
+        "Culture and tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It has helped improve productivity and output.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.7705,
+      "question": "Which of the following is a way information processing helps society?",
+      "options": [
+        "Public transportation",
+        "Building construction",
+        "Modern agriculture",
+        "Communication"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Information processing helps through communication, inventory management, MIS, and CRM.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.8428,
+      "question": "Customer Relationship Management is an example of what?",
+      "options": [
+        "A processing role",
+        "A type of hardware",
+        "A programming language",
+        "A network cable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CRM is listed as a way information processing helps society.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.1953,
+      "question": "Management Information Systems help organizations do what?",
+      "options": [
+        "Cook tasty food",
+        "Build large houses",
+        "Manage efficiently",
+        "Drive fast cars"
+      ],
+      "correctAnswer": 2,
+      "explanation": "MIS helps organizations in more efficient management.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.253,
+      "question": "Information technology provides what benefits to the business world?",
+      "options": [
+        "Much slower work",
+        "Maximum productivity",
+        "Reduced total output",
+        "Higher business costs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IT allows organizations to work more efficiently and maximize productivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.6792,
+      "question": "Which of the following is an advantage of information technology in business?",
+      "options": [
+        "Increasing manual office work",
+        "Reducing team communication",
+        "Slowing business processes",
+        "Storing data safely"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Storing and protecting information is listed as an advantage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.4287,
+      "question": "Working away from the office is an advantage known as what?",
+      "options": [
+        "Automated office processes",
+        "Communication",
+        "Working away",
+        "Storage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Working away, such as working from home, is listed as an advantage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791644127106.4165,
+      "question": "Automated processes are an advantage of information technology in what area?",
+      "options": [
+        "Business",
+        "Farming sector",
+        "Fishing sector",
+        "Mining sector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Automated processes are listed among the advantages of IT in business.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
