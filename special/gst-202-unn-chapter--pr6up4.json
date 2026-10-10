@@ -3,16 +3,724 @@
   "title": "GST 202 ( UNN ) : CHAPTER NINE",
   "subject": "GST 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791636617315.5505,
+      "question": "Conflict handling style can be defined as what?",
+      "options": [
+        "Natural reactions",
+        "Random behaviours",
+        "Responses to situations",
+        "Fixed patterns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Conflict handling style refers to how people respond to disagreement and conflict in interpersonal or organisational contexts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617315.424,
+      "question": "Who proposed one of the most significant frameworks for analyzing conflict handling styles?",
+      "options": [
+        "Fisher and Ury",
+        "Thomas and Kilmann",
+        "Galtung and Weber",
+        "Moore and Bush"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kenneth W. Thomas and Ralph H. Kilmann proposed the framework characterizing conflict behaviour along assertiveness and cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.1777,
+      "question": "Conflict behaviour may be characterized along which two dimensions?",
+      "options": [
+        "Power and control",
+        "Trust and respect",
+        "Assertiveness and cooperation",
+        "Communication and negotiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thomas and Kilmann claimed that conflict behaviour may be characterized along the dimensions of assertiveness and cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5784,
+      "question": "No single approach to conflict is intrinsically what?",
+      "options": [
+        "Good or bad",
+        "Effective or ineffective",
+        "Useful or useless",
+        "Right or wrong"
+      ],
+      "correctAnswer": 0,
+      "explanation": "No single approach is intrinsically good or bad; effectiveness depends on the context.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.6914,
+      "question": "The competing style is defined by what?",
+      "options": [
+        "Low assertiveness and low cooperation",
+        "High assertiveness and high cooperation",
+        "High assertiveness and low cooperation",
+        "Low assertiveness and high cooperation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The competing style is defined by high assertiveness and low cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.691,
+      "question": "Competing frequently results in what type of outcome?",
+      "options": [
+        "Win-win",
+        "Win-lose",
+        "Lose-lose",
+        "No outcome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Competing frequently results in a win-lose outcome where the more assertive party wins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.3406,
+      "question": "When is competing appropriate?",
+      "options": [
+        "When time is unlimited",
+        "When relationships matter most",
+        "When quick decisions are needed",
+        "When collaboration is possible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Competing is often appropriate where quick",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.2031,
+      "question": "Collaborating reflects what combination?",
+      "options": [
+        "Low assertiveness and low cooperation",
+        "High assertiveness and high cooperation",
+        "High assertiveness and low cooperation",
+        "Low assertiveness and high cooperation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Collaborating reflects high assertiveness and high cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5977,
+      "question": "Collaborating aims for what type of outcome?",
+      "options": [
+        "Win-lose",
+        "Lose-lose",
+        "Win-win",
+        "No outcome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collaborating is a true win-win scenario where both parties' interests are fully addressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.0642,
+      "question": "What is a downside of collaboration?",
+      "options": [
+        "It is too quick",
+        "It is time-intensive",
+        "It requires no trust",
+        "It ignores emotions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The downside is that collaboration can be time-intensive and requires trust",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5588,
+      "question": "Compromising occupies what position?",
+      "options": [
+        "High assertiveness and high cooperation",
+        "Low assertiveness and low cooperation",
+        "Moderate assertiveness and cooperation",
+        "High assertiveness and low cooperation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compromising occupies the middle ground with moderate assertiveness and moderate cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.2852,
+      "question": "In compromising",
+      "options": [
+        "parties make what?",
+        "No concessions",
+        "Mutual concessions",
+        "Total surrender",
+        "Complete demands"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.7046,
+      "question": "Compromising may not address what?",
+      "options": [
+        "Surface issues",
+        "Deeper concerns",
+        "Immediate needs",
+        "Practical solutions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Compromising may not address deeper underlying concerns or lead to durable solutions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5708,
+      "question": "The avoiding style features what?",
+      "options": [
+        "High assertiveness and high cooperation",
+        "Low assertiveness and low cooperation",
+        "Moderate assertiveness and cooperation",
+        "High assertiveness and low cooperation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The avoiding style features low assertiveness and low cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.1477,
+      "question": "In avoidance",
+      "options": [
+        "parties do what with the conflict issue?",
+        "Confront it directly",
+        "Deny its significance",
+        "Resolve it fully",
+        "Escalate it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.231,
+      "question": "When can avoidance be strategically effective?",
+      "options": [
+        "When the issue is critical",
+        "When emotions are calm",
+        "When the issue is trivial",
+        "When parties are ready"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Avoidance can be strategically effective when the issue is trivial or when emotions run high.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.4214,
+      "question": "Long-term avoidance may signal what?",
+      "options": [
+        "Strong leadership",
+        "Commitment to peace",
+        "Disinterest or avoidance",
+        "Effective communication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Long-term avoidance may signal disinterest or avoidance of responsibility",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.7573,
+      "question": "Accommodating is characterized by what?",
+      "options": [
+        "High assertiveness and low cooperation",
+        "High assertiveness and high cooperation",
+        "Low assertiveness and high cooperation",
+        "Low assertiveness and low cooperation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accommodating is characterized by low assertiveness and high cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.763,
+      "question": "In accommodating",
+      "options": [
+        "one person does what?",
+        "Pushes their own position",
+        "Puts other's needs ahead",
+        "Ignores the other party",
+        "Competes for resources"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.4382,
+      "question": "Those who accommodate essentially prioritize what?",
+      "options": [
+        "Winning the conflict",
+        "Harmony over assertiveness",
+        "Personal gain",
+        "Power dominance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Those who accommodate essentially prioritize harmony over assertiveness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5908,
+      "question": "Confrontation involves what type of attack?",
+      "options": [
+        "Verbal only",
+        "Physical only",
+        "Physical and emotional",
+        "Economic only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Confrontation involves the physical and emotional attack on each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.6912,
+      "question": "Confrontation happens when parties refuse to do what?",
+      "options": [
+        "Communicate",
+        "Compromise",
+        "Negotiate",
+        "Mediate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Confrontation happens when one or both parties refuse to compromise or let go of certain interests.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.562,
+      "question": "Confrontation leads to what type of situation?",
+      "options": [
+        "Win-win",
+        "Lose-lose or win-lose",
+        "No outcome",
+        "Mutual gain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Confrontation leads to a lose-lose or lose-win situation where both parties lose since violence produces violence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.9607,
+      "question": "Problem-solving is a process where parties demonstrate willingness to do what?",
+      "options": [
+        "Avoid conflict",
+        "Compete for power",
+        "Deal with issues",
+        "Surrender completely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Problem-solving is a process where parties in conflict demonstrate willingness to constructively deal with issues causing the conflict.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.314,
+      "question": "Problem-solving leads to what type of situation?",
+      "options": [
+        "Win-lose",
+        "Lose-lose",
+        "Win-win",
+        "No outcome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Problem-solving leads to a win-win situation and heightened relationship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.1394,
+      "question": "Problem-solving usually leads to what?",
+      "options": [
+        "Temporary truce",
+        "Lasting peace",
+        "Continued conflict",
+        "Permanent hostility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Problem-solving usually leads to a lasting peace where parties are satisfied with the outcome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.898,
+      "question": "Emotional intelligence is known as what?",
+      "options": [
+        "Cognitive ability",
+        "Physical ability",
+        "Emotional quotient",
+        "Social quotient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Emotional intelligence is known as the ability to recognize",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.6382,
+      "question": "Who introduced the concept of emotional intelligence?",
+      "options": [
+        "Thomas and Kilmann",
+        "Goleman",
+        "Fisher and Ury",
+        "Moore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concept was introduced by Salovey and Mayer in 1990 and popularized by Goleman in 1995.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.999,
+      "question": "Emotional intelligence includes the ability to do what?",
+      "options": [
+        "Suppress emotions",
+        "Recognize emotions",
+        "Ignore feelings",
+        "Control others"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Emotional intelligence includes the ability to recognize",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.5627,
+      "question": "According to Goleman",
+      "options": [
+        "emotional intelligence matters how much more than IQ?",
+        "Once",
+        "Twice",
+        "Three times",
+        "Four times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.9482,
+      "question": "Collaborating style requires what type of emotional intelligence?",
+      "options": [
+        "Low",
+        "Moderate",
+        "High",
+        "No"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The collaborative style necessitates the integration of all aspects of emotional intelligence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.8164,
+      "question": "Accommodating style is characterized by what?",
+      "options": [
+        "High assertiveness",
+        "Low assertiveness and cooperation",
+        "High assertiveness and low cooperation",
+        "Moderate assertiveness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The accommodating approach is characterized by low assertiveness and high cooperativeness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.8486,
+      "question": "Avoiding style entails doing what?",
+      "options": [
+        "Confronting issues",
+        "Withdrawing from involvement",
+        "Competing for power",
+        "Collaborating fully"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The avoiding style entails withdrawing from or delaying involvement in conflict.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.7007,
+      "question": "Compromising style necessitates what?",
+      "options": [
+        "No emotional control",
+        "Adequate emotional control",
+        "High aggression",
+        "Total surrender"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The compromising approach necessitates adequate emotional control to participate in reciprocal exchanges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.3606,
+      "question": "Negotiation is a structured dialogue aimed at doing what?",
+      "options": [
+        "Creating conflict",
+        "Resolving differences",
+        "Avoiding issues",
+        "Winning at all costs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negotiation is a structured dialogue aimed at resolving differences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.2488,
+      "question": "Negotiation is a direct procedure when parties do what?",
+      "options": [
+        "Involve mediators",
+        "Face each other",
+        "Use arbitrators",
+        "Avoid contact"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negotiation is a direct procedure when parties in conflict speak with one another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.1807,
+      "question": "According to Lewicki et al",
+      "options": [
+        "negotiation is a process to get to what type of solution?",
+        "Temporary",
+        "Mutually agreeable",
+        "Forced",
+        "One-sided"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.0308,
+      "question": "What are the two basic categories of approaches to negotiation?",
+      "options": [
+        "Formal and informal",
+        "Distributive and integrative",
+        "Direct and indirect",
+        "Simple and complex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Approaches to negotiation were divided into two basic categories: distributive and integrative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.7515,
+      "question": "Distributive bargaining creates what type of situation?",
+      "options": [
+        "Win-win",
+        "Win-lose",
+        "Lose-lose",
+        "No outcome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distributive bargaining creates a win-lose situation where one party's gain is the other's loss.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.642,
+      "question": "Integrative bargaining aims to do what?",
+      "options": [
+        "Divide resources",
+        "Increase resources",
+        "Limit options",
+        "Create conflict"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrative bargaining aims to increase the resources at hand or come up with innovative solutions that satisfy all parties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.9717,
+      "question": "Positions represent what parties say they want",
+      "options": [
+        "while interests represent what?",
+        "Their demands",
+        "Their underlying needs",
+        "Their positions",
+        "Their strategies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.823,
+      "question": "Getting to Yes was authored by whom?",
+      "options": [
+        "Thomas and Kilmann",
+        "Fisher and Ury",
+        "Moore and Bush",
+        "Goleman and Salovey"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Getting to Yes by Fisher and Ury outlined a principled negotiation approach.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.721,
+      "question": "Principled negotiation suggests how many core tactics?",
+      "options": [
+        "Two",
+        "Three",
+        "Five",
+        "Four"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The methodology suggests four core tactics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.6138,
+      "question": "What is the first step in principled negotiation?",
+      "options": [
+        "Focusing on positions",
+        "Separating people from problem",
+        "Creating options",
+        "Using objective criteria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step is separating people from the problem to address relational dynamics independently.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.745,
+      "question": "Principled negotiation demands that what be used to establish fair standards?",
+      "options": [
+        "Power",
+        "Objective criteria",
+        "Threats",
+        "Emotions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Principled negotiation demands that objective criteria be used to establish fair standards of agreement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.2786,
+      "question": "Mediation involves what type of party?",
+      "options": [
+        "Primary party",
+        "Neutral third party",
+        "Shadow party",
+        "Secondary party"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A neutral third party intervenes during mediation to help disputing parties communicate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.4827,
+      "question": "Mediation is described as what?",
+      "options": [
+        "Binding and forced",
+        "Voluntary and nonbinding",
+        "Mandatory and legal",
+        "Permanent and fixed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mediation is voluntary and nonbinding where parties maintain final decision-making authority.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.3333,
+      "question": "What is the mediator's role?",
+      "options": [
+        "Decision maker",
+        "Communication facilitator",
+        "Judge",
+        "Arbitrator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mediator acts as a communication facilitator",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.88,
+      "question": "Facilitative mediation focuses on what?",
+      "options": [
+        "Making judgments",
+        "Guiding conversation",
+        "Imposing solutions",
+        "Providing advice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The focus of facilitative mediation is on the mediator's function in guiding parties' conversation and assisting them in coming up with their own answers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791636617316.8152,
+      "question": "Transformative mediation focuses on what?",
+      "options": [
+        "Quick settlement",
+        "Empowering parties",
+        "Legal outcomes",
+        "Punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transformative mediation focuses on empowering parties and promoting mutual acknowledgement.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
