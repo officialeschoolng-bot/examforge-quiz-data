@@ -3,16 +3,718 @@
   "title": "GST 202 ( UNN ) : CHAPTER ELEVEN",
   "subject": "GST 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791640645215.8103,
+      "question": "According to the text, what has left a long-term legacy on Nigeria's current social justice landscape?",
+      "options": [
+        "Pre-colonial rule",
+        "British administration",
+        "French influence",
+        "Portuguese trade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria's colonial past under British administration has left a long-term legacy on its current social justice landscape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.183,
+      "question": "How many ethnic groups and religious systems does Nigeria have according to the text?",
+      "options": [
+        "Over 100",
+        "Over 150",
+        "Over 200",
+        "Over 250"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nigeria's broad complexities include more than 250 ethnic groups and various religions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.7222,
+      "question": "Which constitution provides statutory human rights in Nigeria?",
+      "options": [
+        "1963 Constitution",
+        "1979 Constitution",
+        "1999 Constitution",
+        "1989 Constitution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria has an effective legal framework that protects human rights including the 1999 Constitution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.981,
+      "question": "What type of legal framework provides guidelines for enforcing laws that promote order and justice?",
+      "options": [
+        "Cultural",
+        "Legal",
+        "Religious",
+        "Traditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Legal frameworks provide guidelines for enforcing laws and policies that promote order, justice and fairness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.5537,
+      "question": "In ancient Indian culture, justice was associated with what?",
+      "options": [
+        "Dharma",
+        "Karma",
+        "Moksha",
+        "Nirvana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In ancient Indian culture, justice was associated with dharma.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.9321,
+      "question": "According to Confucius, monarchs should uphold justice by doing what?",
+      "options": [
+        "Collecting taxes",
+        "Punishing wrongdoers",
+        "Building temples",
+        "Expanding territory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Confucius argued that monarchs should uphold justice by punishing wrongdoers and rewarding the virtuous.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.4324,
+      "question": "Plato's book The Republic was written in which century?",
+      "options": [
+        "Third century B.C.",
+        "Fourth century B.C.",
+        "Fifth century B.C.",
+        "Second century B.C."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's Book The Republic was written in the fourth century B.C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.5593,
+      "question": "Each of the four principles of social justice presents what?",
+      "options": [
+        "Simple solutions",
+        "Problems",
+        "Easy answers",
+        "Clear guidelines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each of the four principles of social justice presents problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.2988,
+      "question": "Definitions for fundamental notions such as fairness and equality can frequently cause what?",
+      "options": [
+        "Harmony",
+        "Division",
+        "Cooperation",
+        "Peace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Definitions for fundamental notions such as fairness and equality can frequently cause community divisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.068,
+      "question": "What poses a significant obstacle to social justice and human rights in Nigeria?",
+      "options": [
+        "Education",
+        "Corruption",
+        "Technology",
+        "Agriculture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corruption pervades many aspects of Nigerian society and poses a significant obstacle to social justice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.2178,
+      "question": "Economic disparity remains a major concern in Nigeria despite having what status?",
+      "options": [
+        "Africa's largest economy",
+        "Africa's smallest economy",
+        "Africa's most stable economy",
+        "Africa's most equal economy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Economic disparity remains a major concern despite Nigeria having Africa's largest economy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.696,
+      "question": "Conflicts between different ethnic groups and religious groups frequently result in what?",
+      "options": [
+        "Economic growth",
+        "Violence",
+        "Political stability",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethnic and religious divisions frequently result in violence, displacement and prejudice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.303,
+      "question": "Gender inequality is widespread in Nigeria hurting women and girls in what ways?",
+      "options": [
+        "Only education",
+        "Only employment",
+        "Various ways",
+        "Only healthcare"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gender inequality is widespread in Nigeria hurting women and girls in a variety of ways.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.6172,
+      "question": "What type of education serves as an excellent example of unequal access?",
+      "options": [
+        "Primary education",
+        "Secondary education",
+        "Tertiary education",
+        "Vocational education"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tertiary education is an excellent example of unequal access where only a specific class can afford decent schools.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.9568,
+      "question": "Equity and equality are what according to the text?",
+      "options": [
+        "The same thing",
+        "Not the same thing",
+        "Identical concepts",
+        "Interchangeable terms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equity and equality are not the same thing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.2017,
+      "question": "Equitable healthcare takes into account what?",
+      "options": [
+        "Equal treatment",
+        "Disparities",
+        "Uniform services",
+        "Same resources"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equitable healthcare takes into account disparities between people making adjustments to benefit the person who requires the most assistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.0513,
+      "question": "The fourth principle of social justice is what?",
+      "options": [
+        "Access",
+        "Equity",
+        "Participation",
+        "Rights"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fourth principle of social justice is participation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.8748,
+      "question": "Social injustice occurs when only a small group of people do what?",
+      "options": [
+        "Participate",
+        "Make decisions",
+        "Vote",
+        "Pay taxes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social injustice occurs when only a small group of people make decisions while others are silenced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.6975,
+      "question": "Human rights and social justice cannot exist how?",
+      "options": [
+        "Together",
+        "Separately",
+        "Equally",
+        "Simultaneously"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human rights and social justice are not mutually exclusive and cannot exist separate from one another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.6487,
+      "question": "Human rights are the most potent principle for social justice because they are what?",
+      "options": [
+        "Legally binding",
+        "Recognized internationally",
+        "Culturally specific",
+        "Politically motivated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human rights may be the most potent principle for social justice because they are recognized internationally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.5503,
+      "question": "What remains a critical issue in maintaining accountability in Nigerian society?",
+      "options": [
+        "Economic growth",
+        "Press freedom",
+        "Political stability",
+        "Cultural heritage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Press freedom remains a critical issue in maintaining accountability and openness in Nigerian society.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.1985,
+      "question": "What have been documented in Nigeria regarding security personnel?",
+      "options": [
+        "Economic reforms",
+        "Human rights violations",
+        "Political achievements",
+        "Cultural programs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human rights violations by security personnel including extrajudicial murders, arbitrary arrests and torture have been documented in Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.4753,
+      "question": "What do IDPs frequently lack access to?",
+      "options": [
+        "Proper shelter",
+        "Political rights",
+        "Economic opportunities",
+        "Cultural activities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IDPs frequently lack access to proper shelter, food and healthcare.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.3857,
+      "question": "What role do civil society organizations play in pushing for social justice?",
+      "options": [
+        "Passive role",
+        "Important role",
+        "Minimal role",
+        "No role"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Civil society organizations play an important role in pushing for social justice and human rights in Nigeria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.2354,
+      "question": "According to Hay, legal systems are what that interact within a legal order?",
+      "options": [
+        "Cultural rules",
+        "Community rules",
+        "Religious rules",
+        "Economic rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hay defines a legal system as a community's rules, procedures, and institutions for interpreting and enforcing laws.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.076,
+      "question": "What was the grundnorm of Colonial Nigeria?",
+      "options": [
+        "The Constitution",
+        "The Queen of England",
+        "The Parliament",
+        "The Governor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Colonial Nigeria's grundnorm was the Queen of England.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645215.0505,
+      "question": "How many states does Nigeria have according to the text?",
+      "options": [
+        "30",
+        "34",
+        "36",
+        "38"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria has 36 states and a federal capital territory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.1287,
+      "question": "How many local governments does Nigeria have?",
+      "options": [
+        "700",
+        "750",
+        "774",
+        "800"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria has 774 local governments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.4424,
+      "question": "Which legal system is based on English law?",
+      "options": [
+        "Islamic law",
+        "Customary law",
+        "Received English Law",
+        "Nigerian legislation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Received English Law is one of the sources of Nigerian legal system based on English law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5544,
+      "question": "Nigeria's legal system reflects Africa's what?",
+      "options": [
+        "Economic diversity",
+        "Plurality",
+        "Political unity",
+        "Cultural uniformity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria's legal system reflects Africa's plurality due to its ethnic, religious and cultural variety.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.6226,
+      "question": "What type of law is made by the main lawmaking authority?",
+      "options": [
+        "Case law",
+        "Customary law",
+        "Primary legislation",
+        "Islamic law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Primary legislation is made by the main lawmaking authority such as the National Assembly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5288,
+      "question": "What type of law is based on court rulings?",
+      "options": [
+        "Case law",
+        "Statutory law",
+        "Customary law",
+        "Islamic law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Case law refers to court rulings on specific legal issues over time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.3096,
+      "question": "Islamic law relies on the Qur'an and what else?",
+      "options": [
+        "Hadith",
+        "Sunnah",
+        "Ijma",
+        "Qiyas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Islamic law relies on the Qur'an and sunnah, ijma and qiyas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.8364,
+      "question": "According to Onokah, custom is a rule in a particular district that has obtained what?",
+      "options": [
+        "Religious approval",
+        "Force of law",
+        "Political support",
+        "Economic value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Onokah defines custom as a rule in a particular district that has obtained the force of law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5732,
+      "question": "According to Folari, human rights must be observed in every society to maintain what?",
+      "options": [
+        "Economic growth",
+        "Justice",
+        "Political stability",
+        "Cultural heritage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Folari contends that human rights must be observed in every society to maintain justice, promote respect and tolerance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5798,
+      "question": "The US Institute of Diplomacy and Human Rights claims human rights began in what year?",
+      "options": [
+        "500 BC",
+        "539 BC",
+        "600 BC",
+        "400 BC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The US Institute of Diplomacy and Human Rights claims human rights began in 539 BC when Cyrus the Great conquered Babylon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.2427,
+      "question": "Cyrus the Great declared that everyone had the right to choose what?",
+      "options": [
+        "Their occupation",
+        "Their religion",
+        "Their leaders",
+        "Their laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cyrus declared that everyone had the right to choose their religion and racial equality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.626,
+      "question": "The English Bill of Rights was signed in what year?",
+      "options": [
+        "1688",
+        "1689",
+        "1690",
+        "1691"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The English Bill of Rights was signed in 1689.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5063,
+      "question": "The French Declaration of the Rights of Man was adopted in what year?",
+      "options": [
+        "1776",
+        "1789",
+        "1791",
+        "1800"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Declaration of the Rights of Man was adopted by France's National Assembly in 1789.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.486,
+      "question": "In the 19th century, attempts to ban slavery resulted in what?",
+      "options": [
+        "Economic growth",
+        "Three Geneva Conventions",
+        "Political stability",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Attempts to ban slavery and restrict war resulted in the first three Geneva Conventions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.9885,
+      "question": "What is recognized as the foundation of the rule of law and human rights?",
+      "options": [
+        "Economic growth",
+        "Freedom to live in dignity",
+        "Political stability",
+        "Cultural heritage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The freedom to live in dignity is the foundation of the rule of law and human rights.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.0056,
+      "question": "What has the UN identified and enshrined in the UDHR?",
+      "options": [
+        "Economic rights only",
+        "Political rights only",
+        "Human rights",
+        "Cultural rights only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The UN has identified and enshrined human rights in the Universal Declaration of Human Rights.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.436,
+      "question": "How many articles does the UDHR contain?",
+      "options": [
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The UDHR contains 30 articles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.784,
+      "question": "What is the result of abuse and violations of human, social and economic rights of the people by Nigerian state?",
+      "options": [
+        "Economic growth",
+        "Conflicts",
+        "Political stability",
+        "Cultural exchange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The abuse and violations of human rights have resulted in conflicts like the Niger Delta and South-South.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.8423,
+      "question": "According to Weber, peace has become a linchpin of what?",
+      "options": [
+        "Economic growth",
+        "Social harmony",
+        "Political stability",
+        "Cultural heritage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weber stated that peace has become a linchpin of social harmony, economic equity and political justice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.2878,
+      "question": "According to Miller, conflict resolution methods provide what?",
+      "options": [
+        "Simple solutions",
+        "Variety of approaches",
+        "Single answers",
+        "Quick fixes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Miller stated that conflict resolution methods provide a variety of approaches aimed at terminating conflicts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.549,
+      "question": "Litigation is described as what type of method?",
+      "options": [
+        "Violent",
+        "Non-violent",
+        "Coercive",
+        "Aggressive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Litigation is a non-violent method of conflict resolution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.5269,
+      "question": "Litigation is sometimes described as a win-lose approach because it involves what?",
+      "options": [
+        "Cooperation",
+        "Competition",
+        "Collaboration",
+        "Compromise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Litigation is sometimes described as a win-lose approach because it involves competition between disputants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.84,
+      "question": "According to Obaasi and Nnamani, litigation may involve a lot of cost in what terms?",
+      "options": [
+        "Only monetary",
+        "Only time",
+        "Monetary and time",
+        "Only emotional"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Litigation may involve a lot of cost in monetary terms and in most cases takes a long period of time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791640645216.0544,
+      "question": "According to the conclusion, what does achieving social justice require?",
+      "options": [
+        "Single approach",
+        "Multi-faceted approach",
+        "Economic approach",
+        "Political approach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Achieving social justice and preserving human rights in Nigeria necessitates a multi-faceted approach including law reform and government action.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
