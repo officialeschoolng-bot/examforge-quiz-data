@@ -3,16 +3,468 @@
   "title": "30 UTME Biology Questions",
   "subject": "Biology",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 30,
   "settings": {
-    "canChangeTime": true,
+    "canChangeTime": false,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 30
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791803222852.916,
+      "question": "A plant which grows on another plant without apparent harm to the host plant is called",
+      "options": [
+        "a parasite",
+        "an epiphyte",
+        "a saprophyte",
+        "a predator",
+        "a hermaphrodite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>epiphyte</b> is a plant that grows on another plant for physical support, such as on tree branches, without drawing nutrients from the host. It does not harm the host, unlike a parasite. Examples include orchids and ferns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.8777,
+      "question": "Given the equation: 6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> (Under sunlight & Chlorophyll) The process represented by the above equation is?",
+      "options": [
+        "protein synthesis",
+        "respiration",
+        "photosynthesis",
+        "transpiration",
+        "translocation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equation shown is the overall reaction for <b>photosynthesis</b>. In this process, green plants use light energy (trapped by chlorophyll) to convert carbon dioxide and water into glucose (food) and oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.8462,
+      "question": "Given the equation: 6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> (Under sunlight & Chlorophyll) The oxygen given off during the above process is derived from",
+      "options": [
+        "sunlight",
+        "chlorophyll",
+        "carbon dioxide",
+        "atmosphere",
+        "water"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The oxygen released during photosynthesis comes from the <b>photolysis of water</b> (splitting of water molecules by light energy) in the light-dependent stage. Water is split into hydrogen ions, electrons, and oxygen gas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.3132,
+      "question": "One of the function of xylem is",
+      "options": [
+        "strengthening the stem",
+        "manufacturing food",
+        "reducing loss of water",
+        "conducting manufactured food",
+        "storing unused sugar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The xylem transports water and dissolved minerals from the roots upward, but it also provides <b>mechanical support</b> to the plant. The walls of xylem vessels and tracheids are thickened with lignin, which strengthens the stem and helps the plant stay upright.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.0564,
+      "question": "People suffering from myopia",
+      "options": [
+        "can see near object clearly",
+        "can see far away object clearly",
+        "cannot see any object clearly",
+        "are colour blind",
+        "are able to see clearly in the dark"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Myopia (short-sightedness)</b> is an eye defect where the image of a distant object is formed in front of the retina. As a result, the person can see <b>near objects clearly</b> but distant objects appear blurred. It is corrected using a concave lens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.2834,
+      "question": "The cilia in paramecium are use for",
+      "options": [
+        "respirating",
+        "locomotion",
+        "protection",
+        "regulating food intake",
+        "excretion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Paramecium is covered with thousands of tiny hair-like structures called <b>cilia</b>. They beat in a coordinated rhythm to move the organism through water, so their primary function is <b>locomotion</b>. They also help in sweeping food particles into the oral groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.9165,
+      "question": "Euglena may be classified as a plant because it",
+      "options": [
+        "has chloroplast",
+        "has a gullet",
+        "lives in a pond",
+        "possesses a flagellum",
+        "has pellicle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Euglena</b> possesses <b>chloroplasts</b>, which contain chlorophyll and allow it to carry out photosynthesis like a plant. This is why it is often classified as a plant-like protist, although it also has animal-like features such as a flagellum for movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.972,
+      "question": "A trawler on a fishing trip caught a type of animal with hairs on its body. This animal could have been",
+      "options": [
+        "An amphibian",
+        "a reptile",
+        "a shark",
+        "a mammal",
+        "a seagull"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The presence of <b>hair</b> is a defining characteristic of <b>mammals</b>. Even aquatic mammals like whales and dolphins have hair at some stage of their life cycle. Amphibians, reptiles, sharks, and birds do not have hair.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.1926,
+      "question": "which of these type of skeleton is most appropriate for a cockroach?",
+      "options": [
+        "Hydrostatic skeleton",
+        "Exoskeleton",
+        "Endoskeleton",
+        "Cartilaginous skeleton",
+        "Bony skeleton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cockroaches are insects and possess an <b>exoskeleton</b> made of chitin. This hard outer covering protects the body, prevents water loss, and provides attachment for muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.9395,
+      "question": "when protein are broken down they provide",
+      "options": [
+        "oxygen",
+        "carbohydrate",
+        "energy",
+        "amino-acid",
+        "carbon dioxide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Proteins are polymers of <b>amino acids</b>. When they are broken down by digestion, the end products are <b>amino acids</b>, which are then absorbed and used by the body to build new proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.8486,
+      "question": "the function of lenticels is",
+      "options": [
+        "to remove excess water in plant",
+        "to absorb water from the atmosphere",
+        "for gaseous exchange",
+        "to absorb light",
+        "to store food"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Lenticels</b> are small, raised pores on the surface of woody stems and roots. They allow <b>gaseous exchange</b> between the internal tissues and the atmosphere, enabling oxygen to enter and carbon dioxide to escape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.6313,
+      "question": "The following events take place during conjugation in spirogyra 1. The protoplasm of each of the conjugating cell separate from the cell wall to form a Gamete; the gamete of one filament passes through the conjugation tube to meet the gamete of the other filament 2. The zygote soon become surrounded by thick brown wall to become zygospore which burst after a short rest and germinate to produce a new filament 3. The nuclei of the gametes fuse to form a zygote 4. The protuberance meet and where they touch the cell-wall disappear so that a conjugation tube joining the two cell is formed 5. protuberance appear on the wall of the cell of two filament of spirogyra lying side by side opposite one another. Now what is the correct sequence in which the above sequence occur?",
+      "options": [
+        "1,2,3,4,5",
+        "1,2,4,5,3",
+        "3,4,5,2,1",
+        "5,4,1,3,2",
+        "5,4,3,1,2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct sequence of conjugation in Spirogyra is: <b>5</b> (protuberances appear on opposite cells), <b>4</b> (protuberances meet and form a conjugation tube), <b>1</b> (protoplasm separates and one gamete passes through the tube), <b>3</b> (nuclei fuse to form a zygote), <b>2</b> (zygote develops a thick wall to become a zygospore). So the order is 5, 4, 1, 3, 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.5095,
+      "question": "Which of the following is a characteristic of animal cell?",
+      "options": [
+        "Presence of chloroplast",
+        "possession of cellulose cell-wall",
+        "absence of large vacuoles",
+        "presence of large vacuoles",
+        "presence of chromosome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Animal cells typically have <b>small, scattered vacuoles</b>, unlike plant cells which usually have one large central vacuole. Chloroplasts and cellulose cell walls are present in plant cells, not animal cells. Chromosomes are present in both.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.3513,
+      "question": "Nitrifying bacteria keep the soil fertile by",
+      "options": [
+        "converting nitrate to nitrogen",
+        "converting ammonium salt to nitrate",
+        "converting atmospheric nitrogen to plant nitrogen",
+        "converting nitrate to nitrous oxide",
+        "converting atmospheric nitrogen to nitrates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Nitrifying bacteria</b> (e.g., Nitrosomonas and Nitrobacter) convert ammonium compounds in the soil first to nitrites and then to <b>nitrates</b>. Nitrates are the form of nitrogen that plants can absorb and use.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.7166,
+      "question": "In the life history of schistosoma (Bilharzia), one of the following is intermediate host",
+      "options": [
+        "man",
+        "snail",
+        "mosquito larva",
+        "crayfish",
+        "fish"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The life cycle of <b>Schistosoma</b> (the blood fluke causing bilharzia) requires a <b>snail</b> as an intermediate host. The parasite undergoes asexual reproduction in the snail before infecting humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.0044,
+      "question": "In which of the following groups of organisms do all the members have asexual method of reproduction?",
+      "options": [
+        "A green filament algae, a flowering plant and a bird",
+        "A toad (or frog), amoeba and mucor (penicillium)",
+        "A flowering plant, tape worm (or ascaris) and a green filamentous algae",
+        "Mucor (or penicillium), a bird and a toad (or frog)",
+        "Amoeba, mucor (or penicillium) and a green filamentous algae"
+      ],
+      "correctAnswer": 4,
+      "explanation": "<b>Amoeba</b> reproduces by binary fission, <b>Mucor/Penicillium</b> by spores, and <b>green filamentous algae</b> by fragmentation. All these are asexual methods. The other groups include organisms that primarily reproduce sexually.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222852.3,
+      "question": "The hormone which tones up the muscles of a person in time of danger is from the",
+      "options": [
+        "thyroid gland",
+        "pancreas",
+        "adrenal gland",
+        "liver",
+        "spleen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Adrenaline</b> (epinephrine) is secreted by the <b>adrenal glands</b> in response to stress or danger. It increases heart rate, blood pressure, and muscle tone, preparing the body for 'fight or flight'.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.2458,
+      "question": "The study of organism and the environment of an abandoned farmland is the ecology of?",
+      "options": [
+        "a community",
+        "a population",
+        "a specie",
+        "a habitat",
+        "an ecosystem"
+      ],
+      "correctAnswer": 4,
+      "explanation": "An <b>ecosystem</b> includes all the living organisms (biotic community) in a given area together with the non-living physical environment (abiotic factors) with which they interact. An abandoned farmland is a good example of an ecosystem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.3042,
+      "question": "A potometer with a leafy shoot weighed 18.9g initially and weighed 17.9g after one hour. From this it follow that",
+      "options": [
+        "the shoot absorbed 1g of water per hour",
+        "1g of water per hour evaporates from the potometer",
+        "the shoot lost 1g of water per hour",
+        "the potometer water receded at the rate of 1g per hour",
+        "the shoot was respiring and lost weight at rate of 1g per hour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The decrease in weight (18.9g − 17.9g = 1g) is due to water loss from the shoot, mainly through <b>transpiration</b>. So the shoot lost 1g of water per hour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.1067,
+      "question": "At fertilization",
+      "options": [
+        "one chromosome from the male joins another from the female",
+        "one gene from the male combines with another from the female",
+        "the male nucleus fuses with the female nucleus",
+        "one set of chromosome combines with another set from the female",
+        "one cell from the male fuses with another from the female"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Fertilization</b> is the fusion of the male gamete nucleus (sperm) with the female gamete nucleus (egg) to form a diploid zygote. The correct description is that the male nucleus fuses with the female nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.971,
+      "question": "The neck region of the tape worm, (taenia) is responsible for the",
+      "options": [
+        "production of egg",
+        "storage of egg",
+        "formation of new segment",
+        "development of the suckers",
+        "fragmentaion of the body segment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>neck</b> of a tapeworm is the germinal region behind the scolex. It continuously produces new <b>proglottids (segments)</b> by budding, so it is responsible for the formation of new segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.1147,
+      "question": "Which of these is not true of the insect? The possession of",
+      "options": [
+        "two pairs of antennae",
+        "jointed appendages",
+        "exoskeleton",
+        "three pairs of legs",
+        "segmented body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insects possess only <b>one pair of antennae</b>, not two pairs. Two pairs of antennae are found in crustaceans. The other options (jointed appendages, exoskeleton, three pairs of legs, segmented body) are true of insects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.2812,
+      "question": "Rhizopus (or mucor)obtain its food from dead organic matter extracellularly. It is said to be",
+      "options": [
+        "a facultative parasite",
+        "saprophyte",
+        "an obligate parasite",
+        "a commensal",
+        "an autotroph"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Rhizopus</b> (bread mould) is a <b>saprophyte</b> because it feeds on dead and decaying organic matter. It secretes digestive enzymes onto the substrate, breaking down complex molecules extracellularly, and then absorbs the soluble nutrients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.0283,
+      "question": "The feature that distinguish the toad or frog from the fish is the absence of",
+      "options": [
+        "scales",
+        "lungs",
+        "paired appendages",
+        "a tail",
+        "skin glands"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fish have <b>scales</b> covering their bodies, while toads and frogs (amphibians) lack scales. They have moist, glandular skin instead. The other features (lungs, paired appendages, tail, skin glands) are not reliable distinguishing features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.0115,
+      "question": "Which of these is not associated with tadpole stages of toad or frog",
+      "options": [
+        "V-shaped gland",
+        "operculum",
+        "external gills",
+        "jelly",
+        "shell"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Tadpoles of frogs/toads have a V-shaped gland (thyroid), an operculum covering the gills, external gills at early stages, and are surrounded by jelly. They do <b>not</b> have a <b>shell</b>; shells are characteristic of eggs of birds and reptiles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.5818,
+      "question": "Which of these is not associated with the movement of the toad, reptile or bird?",
+      "options": [
+        "Hopping",
+        "Bopping",
+        "Flapping",
+        "Gliding",
+        "Pecking"
+      ],
+      "correctAnswer": 4,
+      "explanation": "<b>Pecking</b> is a feeding behaviour in birds, not a method of movement. Movement methods include hopping (toads), bopping (some reptiles), flapping and gliding (birds).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.9602,
+      "question": "Which of these is not a part of the feather of a bird?",
+      "options": [
+        "Wing",
+        "aftershaft",
+        "Inferior umbilicus",
+        "Vane",
+        "Barbule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>wing</b> is not a part of a feather; it is a limb. A feather consists of parts such as the aftershaft, inferior umbilicus, vane, and barbules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.082,
+      "question": "Which of these is not a function of the mammalian skin",
+      "options": [
+        "Protection against bacteria infection",
+        "Excretion of waste and water",
+        "Production of vitamin d when exposed to sun light",
+        "production of pigments to reduce temperature",
+        "Regulation of body temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The skin produces <b>melanin</b> pigment to protect against UV radiation, not to reduce temperature. Temperature regulation is achieved through sweating, vasodilation, and vasoconstriction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.8564,
+      "question": "which of these elements in plants is required in small quantities only",
+      "options": [
+        "Boron",
+        "Nitrogen",
+        "Phosphorus",
+        "Magnesium",
+        "Potassium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Boron</b> is a micronutrient, required by plants in very small amounts (trace amounts). Nitrogen, phosphorus, magnesium, and potassium are macronutrients needed in larger quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803222853.1196,
+      "question": "A potometer was used to compare the rate of loss of the same volume of water from a plant under different environmental conditions as under a fan, at the sea shore, under the sun, in the airy laboratory and in cupboard. What time was likely to have been obtained in a cupboard?",
+      "options": [
+        "15 secs",
+        "30secs",
+        "25secs",
+        "20secs",
+        "28secs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cupboard has still air, low light, and high humidity, which are conditions that <b>reduce transpiration</b> to a minimum. Therefore, the plant would take the longest time to lose the same volume of water. Among the options, <b>30 seconds</b> is the longest time.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
