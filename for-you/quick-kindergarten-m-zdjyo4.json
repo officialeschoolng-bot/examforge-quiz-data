@@ -3,16 +3,298 @@
   "title": "Quick Kindergarten Math",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 20,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791803806752.3682,
+      "question": "Solve for x: 3x + 7 = 22",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "3x = 22 - 7 = 15, so x = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.5093,
+      "question": "What is the name of the line from the centre of a circle to any point on its circumference?",
+      "options": [
+        "Diameter",
+        "Chord",
+        "Radius",
+        "Tangent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radius runs from the centre to any point on the circumference.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.909,
+      "question": "Solve for x: 2x - 5 = 11",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "2x = 11 + 5 = 16, so x = 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.8516,
+      "question": "A shirt costs ₦4,500 and is discounted by 20%. What is the new price?",
+      "options": [
+        "₦3,200",
+        "₦3,400",
+        "₦3,600",
+        "₦3,800"
+      ],
+      "correctAnswer": 2,
+      "explanation": "20% of ₦4,500 = ₦900. ₦4,500 - ₦900 = ₦3,600.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.2937,
+      "question": "What is 15²?",
+      "options": [
+        "200",
+        "215",
+        "225",
+        "250"
+      ],
+      "correctAnswer": 2,
+      "explanation": "15 × 15 = 225.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.0908,
+      "question": "Solve for x: x ÷ 4 = 12",
+      "options": [
+        "3",
+        "36",
+        "48",
+        "60"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x = 12 × 4 = 48.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.2168,
+      "question": "A triangle with all three sides equal is called:",
+      "options": [
+        "Isosceles",
+        "Scalene",
+        "Right-angled",
+        "Equilateral"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An equilateral triangle has all three sides (and angles) equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.8318,
+      "question": "What is 25% of 480?",
+      "options": [
+        "96",
+        "110",
+        "120",
+        "144"
+      ],
+      "correctAnswer": 2,
+      "explanation": "480 ÷ 4 = 120.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.8894,
+      "question": "Solve for x: 5x + 3 = 2x + 18",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "5x - 2x = 18 - 3, so 3x = 15, x = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.837,
+      "question": "What is the sum of the interior angles of a triangle?",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three interior angles of any triangle add up to 180°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.3047,
+      "question": "If 3 books cost ₦2,700, how much do 7 books cost?",
+      "options": [
+        "₦5,400",
+        "₦6,000",
+        "₦6,300",
+        "₦6,700"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One book = ₦2,700 ÷ 3 = ₦900. Seven books = ₦900 × 7 = ₦6,300.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.5037,
+      "question": "Solve for x: 4(x - 2) = 20",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x - 2 = 5, so x = 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.283,
+      "question": "What is √144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "explanation": "12 × 12 = 144.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.1072,
+      "question": "A car travels 240 km in 3 hours. What is its average speed?",
+      "options": [
+        "60 km/h",
+        "70 km/h",
+        "80 km/h",
+        "90 km/h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed = distance ÷ time = 240 ÷ 3 = 80 km/h.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.3552,
+      "question": "What number comes next: 3, 9, 27, 81, ?",
+      "options": [
+        "108",
+        "162",
+        "243",
+        "324"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each number is multiplied by 3. 81 × 3 = 243.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.922,
+      "question": "Solve for x: x² = 64",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "8 × 8 = 64, so x = 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.5488,
+      "question": "An angle greater than 90° but less than 180° is called:",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Reflex"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acute < 90°, right = 90°, obtuse is between 90° and 180°, reflex > 180°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.7344,
+      "question": "If a = 4 and b = 3, what is a² + b²?",
+      "options": [
+        "14",
+        "24",
+        "25",
+        "49"
+      ],
+      "correctAnswer": 2,
+      "explanation": "4² + 3² = 16 + 9 = 25.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.7546,
+      "question": "Given 2x + 3y = 12 and x = 3, find y.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "2(3) + 3y = 12 → 6 + 3y = 12 → 3y = 6 → y = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803806752.9832,
+      "question": "Express 0.75 as a fraction in its simplest form.",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "0.75 = 75/100. Divide top and bottom by 25 to get 3/4.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
