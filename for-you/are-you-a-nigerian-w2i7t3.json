@@ -4,15 +4,16 @@
   "subject": "General",
   "description": "Try to get 100%",
   "totalQuestions": 50,
-  "defaultTimePerQuestion": 60,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
     "shuffleQuestions": true,
-    "shuffleOptions": true
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
   "questions": [
     {
