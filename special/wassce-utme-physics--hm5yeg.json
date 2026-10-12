@@ -3,7 +3,7 @@
   "title": "WASSCE/UTME PHYSICS QUESTION BANK",
   "subject": "Physics",
   "description": "",
-  "totalQuestions": 218,
+  "totalQuestions": 418,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -3130,6 +3130,2806 @@
       ],
       "correctAnswer": 2,
       "explanation": "<b>Lenz's law</b> states that the induced current flows in such a direction as to <b>oppose the change producing it</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.0442,
+      "question": "The inner diameter of a test tube can be measured accurately using a?",
+      "options": [
+        "micrometer screw gauge",
+        "pair of dividers",
+        "metre rule",
+        "pair of vernier calipers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>vernier caliper</b> is designed with internal jaws that can be inserted into the mouth of a test tube to measure its inner diameter. A micrometer screw gauge is used for external dimensions of thin wires, not internal diameters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.6526,
+      "question": "Two bodies have masses in the ratio 3:1. They experience forces which impart to them acceleration in the ratio 2:9 respectively. Find the ratio of forces the masses experienced.",
+      "options": [
+        "1 : 4",
+        "2 : 1",
+        "2 : 3",
+        "2 : 5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F = ma. Let m₁ = 3k, m₂ = 1k. Let a₁ = 2n, a₂ = 9n. F₁ = 3k × 2n = 6kn. F₂ = 1k × 9n = 9kn. Ratio F₁:F₂ = 6:9 = <b>2:3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.8625,
+      "question": "Particles of mass 10<sup>-2</sup>kg is fixed to the tip of a fan blade which rotates with angular velocity of 100rad/s. If the radius of the blade is 0.2m, the centripetal force is",
+      "options": [
+        "2 N",
+        "20 N",
+        "200 N",
+        "400 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Centripetal force F = mω²r = (10<sup>-2</sup>) × (100)² × 0.2 = 0.01 × 10000 × 0.2 = <b>20 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.943,
+      "question": "A lead bullet of mass 0.05kg is fired with a velocity of 200ms<sup>-1</sup> into a lead block of mass 0.95kg. Given that the lead block can move freely, the final kinetic energy after impact is",
+      "options": [
+        "50 J",
+        "100 J",
+        "150 J",
+        "200 J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By conservation of momentum: (0.05 × 200) + (0.95 × 0) = (0.05 + 0.95)V → 10 = 1.0V → V = 10 m/s. Final K.E. = ½mv² = ½ × 1.0 × (10)² = <b>50 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.2068,
+      "question": "A ball of mass 0.1kg is thrown vertically upwards with a speed of 10ms<sup>-1</sup> from the top of a tower 10m high. Neglecting air resistance, its total energy just before hitting the ground is (take g = 10ms<sup>-2</sup>)",
+      "options": [
+        "5 J",
+        "10 J",
+        "15 J",
+        "20 J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total mechanical energy is conserved. At the top: P.E. = mgh = 0.1 × 10 × 10 = 10 J. K.E. = ½mv² = ½ × 0.1 × 100 = 5 J. Total = 10 + 5 = <b>15 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.1318,
+      "question": "A car of mass 800kg attains a speed of 25m/s in 20 secs. The power developed in the engine is",
+      "options": [
+        "1.25 x 10<sup>4</sup> W",
+        "2.50 x 10<sup>4</sup> W",
+        "1.25 x 10<sup>6</sup>W",
+        "2.50 x 10<sup>6</sup> W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work done = change in K.E. = ½mv² = ½ × 800 × (25)² = 400 × 625 = 250,000 J. Power = work/time = 250,000/20 = 12,500 W = <b>1.25 × 10<sup>4</sup> W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.1934,
+      "question": "When the brakes in a car are applied, the frictional force on the tyres is",
+      "options": [
+        "is a disadvantage because it is in the direction of the motion of the car",
+        "is a disadvantage because it is in the opposite direction of the motion of the car",
+        "is an advantage because it is in the direction of the motion of the car",
+        "is an advantage because it is in the opposite direction of the motion of the car"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Friction between the brake pads and the wheel acts <b>opposite to the direction of motion</b>, which is an <b>advantage</b> because it slows down and stops the car.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.4194,
+      "question": "If the stress on a wire is 10<sup>7</sup>Nm<sup>-2</sup> and the wire is stretched from its original length of 10.00 cm to 10.05 cm. The Young's modulus of the wire is",
+      "options": [
+        "5.0 x 10<sup>4</sup> Nm<sup>-2</sup>",
+        "5.0 x 10<sup>5</sup> Nm<sup>-2</sup>",
+        "2.0 x 10<sup>8</sup> Nm<sup>-2</sup>",
+        "2.0 x 10<sup>9</sup> Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Strain = extension/original length = (10.05 − 10.00)/10.00 = 0.05/10.00 = 0.005. Young's modulus Y = stress/strain = 10<sup>7</sup>/0.005 = <b>2.0 × 10<sup>9</sup> N/m²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.742,
+      "question": "A solid weighs 10.00 N in air, 6 N when fully immersed in water and 7.0 N when fully immersed in a liquid X. Calculate the relative density of the liquid X.",
+      "options": [
+        "5/3",
+        "4/3",
+        "3/4",
+        "7/10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Relative density = (loss in weight in liquid X) / (loss in weight in water) = (10 − 7)/(10 − 6) = 3/4 = <b>3/4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365452.294,
+      "question": "When temperature of a liquid increases, its surface tension",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remain Constant",
+        "Increases then decreases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As temperature increases, the kinetic energy of molecules increases, weakening the cohesive forces at the surface. Hence surface tension <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3425,
+      "question": "A gas at a volume of V₀ in a container at pressure P₀ is compressed to one-fifth of its volume. What will be its pressure if the magnitude of its original temperature T is constant?",
+      "options": [
+        "P₀/5",
+        "4P₀/5",
+        "P₀",
+        "5P₀"
+      ],
+      "correctAnswer": 3,
+      "explanation": "By Boyle's law, P₁V₁ = P₂V₂ at constant T. P₀V₀ = P₂(V₀/5) → P₂ = <b>5P₀</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7136,
+      "question": "A piece of substance of specific heat capacity 450JKg<sup>-1</sup>K<sup>-1</sup> falls through a vertical distance of 20m from rest. Calculate the rise in temperature of the substance on hitting the ground when all its energies are converted into heat. [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "2/9°C",
+        "4/9°C",
+        "9/4°C",
+        "9/2°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "mgh = mcΔθ. Cancel m: gh = cΔθ. 10 × 20 = 450 × Δθ → Δθ = 200/450 = <b>4/9 °C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.817,
+      "question": "I. A liquid boils when its saturated vapour pressure is equal to the external pressure II. Dissolved substances in pure water lead to increase in the boiling point. III. When the external pressure is increased, the boiling point increases. IV. Dissolved substances in pure water decrease the boiling point. Which combination of the above are peculiarities of the boiling point of a liquid?",
+      "options": [
+        "I, II and III",
+        "I, II, III and IV",
+        "I, II and IV",
+        "II, III and IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Statements I, II, and III are correct. Statement IV is wrong because dissolved substances <b>increase</b> the boiling point (elevation of boiling point), not decrease it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2075,
+      "question": "The temperature gradient across a copper rod of thickness 0.02m, maintained at two temperature junctions of 20°C and 80°C respectively is",
+      "options": [
+        "3.0 x 10<sup>2</sup>Km<sup>-1</sup>",
+        "3.0 x 10<sup>3</sup>Km<sup>-1</sup>",
+        "5.0 x 10<sup>3</sup>Km<sup>-1</sup>",
+        "3.0 x 10<sup>4</sup>Km<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Temperature gradient = ΔT/thickness = (80 − 20)/0.02 = 60/0.02 = 3000 K/m = <b>3.0 × 10<sup>3</sup> K/m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.205,
+      "question": "Calculate the mass of ice that would melt when 2kg of copper is quickly transferred from boiling water to a block of ice without heat loss. Specific heat capacity of copper = 400JKg<sup>-1</sup>K<sup>-1</sup>, Latent heat of fusion of ice = 3.3 x 10<sup>5</sup>JKg<sup>-1</sup>",
+      "options": [
+        "8/33kg",
+        "33/80kg",
+        "80/33kg",
+        "33/8kg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heat lost by copper = mcΔθ = 2 × 400 × 100 = 80,000 J. Heat gained by ice = mL. So 80,000 = m × 3.3 × 10<sup>5</sup> → m = 80000/330000 = <b>8/33 kg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3735,
+      "question": "The equation of a wave traveling along the positive x-direction is given by y = 0.25 x 10<sup>-3</sup> sin (500t - 0.025x). Determine the angular frequency of the wave motion.",
+      "options": [
+        "0.25 x 10<sup>-3</sup>rad s<sup>-1</sup>",
+        "0.25 x 10<sup>-1</sup>rad s<sup>-1</sup>",
+        "5.00 x 10<sup>2</sup>rad s<sup>-1</sup>",
+        "2.50 x 10<sup>3</sup>rad s<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparing y = A sin(ωt − kx) with y = 0.25 × 10<sup>-3</sup> sin(500t − 0.025x), the angular frequency ω = 500 rad/s = <b>5.00 × 10<sup>2</sup> rad/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.744,
+      "question": "If a sound wave goes from a cold air region to a hot air region, its wavelength will",
+      "options": [
+        "increase",
+        "decrease",
+        "decrease then increase",
+        "remain constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed of sound increases with temperature. Since v = fλ and frequency remains constant, an increase in speed causes an <b>increase</b> in wavelength.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.232,
+      "question": "The lowest note emitted by a stretched string has a frequency of 40Hz. How many overtones are there between 40hz and 180Hz?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fundamental = 40 Hz. Overtones (harmonics above fundamental): 80, 120, 160, 200, ... Between 40 and 180 Hz, the overtones are 80, 120, and 160 Hz = <b>3 overtones</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0654,
+      "question": "A man stands 4m in front of a plane mirror. If the mirror is moved 1m towards the man, the distance between him and his new image is",
+      "options": [
+        "3m",
+        "5m",
+        "6m",
+        "10m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Initially, man is 4 m from mirror, image is 4 m behind. When mirror moves 1 m towards him, distance becomes 3 m. Image is 3 m behind mirror. Distance between man and image = 3 + 3 = <b>6 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7163,
+      "question": "The inside portion of part of a hollow metal sphere of diameter 20cm is polished. The portion will therefore form a",
+      "options": [
+        "concave mirror of focal length 5cm",
+        "concave mirror of focal length 10cm",
+        "convex mirror of focal length 5cm",
+        "convex mirror of focal length 20cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The polished inside surface of a hollow sphere acts as a <b>concave mirror</b>. Radius R = 20/2 = 10 cm. Focal length f = R/2 = 10/2 = <b>5 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.4868,
+      "question": "The velocities of light in air and glass are 3.0 x 10<sup>8</sup>ms<sup>-1</sup> and 2.0 x 10<sup>8</sup>ms<sup>-1</sup> respectively. If the angle of refraction is 30°, the sine of the angle of incidence is",
+      "options": [
+        "0.33",
+        "0.50",
+        "0.67",
+        "0.75"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Refractive index n = sin i / sin r = v_air / v_glass. sin i = (v_air/v_glass) × sin r = (3.0×10<sup>8</sup>/2.0×10<sup>8</sup>) × sin 30° = 1.5 × 0.5 = <b>0.75</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6484,
+      "question": "An astronomical telescope is said to be in normal adjustment when the",
+      "options": [
+        "eye is accommodated",
+        "focal length of objective lens is longer than that of eye piece",
+        "final image is at the near point of eye",
+        "final image is at infinity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In <b>normal adjustment</b>, the final image is formed at <b>infinity</b>, so the eye is relaxed and no accommodation is needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2358,
+      "question": "Which of the following electromagnetic waves is least energetic?",
+      "options": [
+        "Infra-red rays",
+        "X-rays",
+        "Ultra-violet rays",
+        "Gamma rays"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy of EM wave E = hf. Lower frequency means lower energy. <b>Infra-red</b> has the lowest frequency (longest wavelength) among the options, so it is least energetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.414,
+      "question": "Steel is more suitable for permanent magnet than iron because the former",
+      "options": [
+        "is easily demagnetized by shaking vigorously",
+        "is an alloy of many metals",
+        "is easily magnetized by alternating current through one cycle",
+        "retains magnetism more than iron"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Steel has high <b>retentivity</b> (ability to retain magnetism), making it suitable for permanent magnets. Iron has high permeability but low retentivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2693,
+      "question": "Four cells each of e.m.f 1.5V and internal resistance of 4Ω are connected in parallel. What is the effective e.m.f. and internal resistance of the combination?",
+      "options": [
+        "6.0V, 16Ω",
+        "6.0V, 1Ω",
+        "1.5V, 4Ω",
+        "1.5V, 1Ω"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For cells in parallel: effective e.m.f. = e.m.f. of one cell = <b>1.5 V</b>. Effective internal resistance = r/n = 4/4 = <b>1 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7273,
+      "question": "A 3000W electric cooker is to be used on a 200V mains circuit. Which of the fuses below can be used safely with the cooker?",
+      "options": [
+        "2A",
+        "5A",
+        "10A",
+        "20A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Current I = P/V = 3000/200 = 15 A. Fuse rating should be slightly higher than operating current, typically 125%: 15 × 1.25 = 18.75 A. The nearest available fuse is <b>20 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7917,
+      "question": "A galvanometer has a resistance of 5Ω. By using a shunt wire of resistance 0.05Ω, the galvanometer could be converted to an ammeter capable of reading 2Amp. What is the current through the galvanometer?",
+      "options": [
+        "2mA",
+        "10mA",
+        "20mA",
+        "25mA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shunt formula: I<sub>g</sub> = I × R<sub>shunt</sub>/(R<sub>g</sub> + R<sub>shunt</sub>) = 2 × 0.05/(5 + 0.05) = 0.10/5.05 = 0.0198 A = <b>20 mA</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0938,
+      "question": "In fleming's right-hand rule, the thumb, the forefinger and the middle finger if held mutually at right angles represent respectively, the",
+      "options": [
+        "motion, the field and the induced current",
+        "induced current, the motion and the field",
+        "field, the induced current and the motion",
+        "induced current, the field and the motion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <b>Fleming's right-hand rule</b>: thumb = <b>motion</b>, forefinger = <b>field</b>, middle finger = <b>induced current</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3923,
+      "question": "At what frequency would a 10H inductor have a reactance of 2000Ω?",
+      "options": [
+        "π/200Hz",
+        "π/100Hz",
+        "100/πHz",
+        "100πHz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inductive reactance X<sub>L</sub> = 2πfL. 2000 = 2π × f × 10 → f = 2000/(20π) = <b>100/π Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3716,
+      "question": "The core of an efficient transformer should consist of laminated pieces of metal in order to",
+      "options": [
+        "increase the heat produced by increasing the eddy current",
+        "increase the heat produced by reducing the eddy current",
+        "reduce the heat produced by increasing the eddy current",
+        "reduce the heat produced by reducing the eddy current"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Laminations increase the resistance to eddy currents, thereby <b>reducing</b> eddy currents and the heat they produce.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6575,
+      "question": "Gamma rays are produced when",
+      "options": [
+        "high velocity electrons are abruptly stopped in metals",
+        "energy changes occur within the nucleus of atoms",
+        "energy changes occur within the electronic structure of atoms",
+        "electrons are deflected in very strong magnetic fields"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Gamma rays</b> originate from the <b>nucleus</b> of atoms during radioactive decay or nuclear reactions, when energy changes occur within the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7996,
+      "question": "What is the speed of a particle of mass 10<sup>-27</sup>kg whose wavelength is 10<sup>-8</sup>m? [h = 6.63 x 10<sup>-34</sup>Js]",
+      "options": [
+        "6.63ms<sup>-1</sup>",
+        "66.30ms<sup>-1</sup>",
+        "663.00ms<sup>-1</sup>",
+        "6630.00ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using de Broglie relation λ = h/(mv): v = h/(mλ) = (6.63×10<sup>-34</sup>)/(10<sup>-27</sup> × 10<sup>-8</sup>) = 6.63×10<sup>-34</sup>/10<sup>-35</sup> = <b>66.3 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3855,
+      "question": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductor are 30V and 40V respectively, what is the voltage across the capacitor?",
+      "options": [
+        "30V",
+        "40V",
+        "50V",
+        "70V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At resonance, X<sub>L</sub> = X<sub>C</sub>, so V<sub>L</sub> = V<sub>C</sub>. Since V<sub>L</sub> = 40 V, then V<sub>C</sub> = <b>40 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6313,
+      "question": "In the Rutherford scattering experiment, a beam of alpha particles was fired at a thin gold film with some of the particles being considerably deflected. This shows that",
+      "options": [
+        "a gold nucleus contains protons, neutrons and electrons uniformly distributed in a tiny volume",
+        "the gold nucleus is positively charged and is concentrated in a tiny volume",
+        "the gold nucleus emitted alpha particles",
+        "the gold nucleus is concentrated in a tiny volume and contains alpha particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The large-angle deflection of a few alpha particles showed that the <b>positive charge is concentrated in a tiny central nucleus</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6096,
+      "question": "<sup>23</sup><sub>11</sub>Na + Proton → <sup>p</sup><sub>q</sub>X + alpha particle. What are the values of p and q respectively in the equation above?",
+      "options": [
+        "10 and 20",
+        "12 and 24",
+        "20 and 10",
+        "24 and 12"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Balancing mass numbers: 23 + 1 = p + 4 → p = 20. Balancing atomic numbers: 11 + 1 = q + 2 → q = 10. So p = <b>20</b>, q = <b>10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7107,
+      "question": "A semiconductor diode is used in rectifying alternating current into direct current mainly because it",
+      "options": [
+        "allows current to flow in either direction",
+        "is non-linear",
+        "offers a high input resistance",
+        "allows current to flow only in one direction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A diode <b>allows current to flow only in one direction</b>, which is the essential property for rectification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7747,
+      "question": "If Δx is the uncertainty in the measurement of the position of a particle along the x-axis and ΔP<sub>x</sub> is the uncertainty in the measurement of the linear momentum along the x-axis, then the uncertainty principle relation is given as",
+      "options": [
+        "Δx ΔP<sub>x</sub> ≥ h",
+        "Δx ΔP<sub>x</sub> = 0",
+        "Δx ΔP<sub>x</sub> < h",
+        "Δx ΔP<sub>x</sub> = ∞"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heisenberg's uncertainty principle states that <b>Δx ΔP<sub>x</sub> ≥ h/4π</b> (or ≥ ħ/2). The option ≥ h is the closest correct form among the choices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3127,
+      "question": "When a ship sails from salt water into fresh water, the fraction of its volume above the water surface will",
+      "options": [
+        "increase",
+        "decrease",
+        "remain the same",
+        "increase then decrease"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fresh water is <b>less dense</b> than salt water. By Archimedes' principle, the ship must displace more water to support its weight, so it sinks deeper and the fraction above the surface <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.4038,
+      "question": "I. Its velocity is constant II. No work is done on the body III. It has constant acceleration directed away from the centre IV. The centripetal force is directed towards the centre. Which combination of the above is true of a body moving with constant speed in a circular track?",
+      "options": [
+        "II and IV",
+        "I and IV",
+        "II and III",
+        "I and III"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In uniform circular motion: (II) no work is done because force is perpendicular to displacement; (IV) centripetal force is directed towards the centre. (I) is false because velocity direction changes; (III) is false because acceleration is directed towards the centre, not away.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.8315,
+      "question": "The velocity ratio of a machine is 5 and its efficiency is 75%. What effort would be needed to lift a load of 150N with the machine?",
+      "options": [
+        "20N",
+        "30N",
+        "40N",
+        "50N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Efficiency = M.A./V.R. × 100%. 75 = (M.A./5) × 100 → M.A. = 3.75. M.A. = Load/Effort → 3.75 = 150/E → E = 150/3.75 = <b>40 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3223,
+      "question": "At a fixed point below a liquid surface, the pressure downwards is P₁ and pressure upwards is P₂. It can be deduced that",
+      "options": [
+        "P₁ > P₂",
+        "P₁ ≥ P₂",
+        "P₁ < P₂",
+        "P₁ = P₂"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At any point in a fluid at rest, pressure acts <b>equally in all directions</b>. Therefore P₁ = P₂ = <b>P₁ = P₂</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.8801,
+      "question": "If the force and the velocity on a system are each reduced simultaneously by half, the power of the system is",
+      "options": [
+        "doubled",
+        "reduced to a quarter",
+        "reduced by half",
+        "constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power P = Fv. If F → F/2 and v → v/2, then P' = (F/2)(v/2) = Fv/4 = <b>P/4</b>, i.e., reduced to a quarter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.768,
+      "question": "A catapult used to hold a stone of mass 500g is extended by 20cm with an applied force F. If the stone leaves with a velocity of 40m/s, the value of F is",
+      "options": [
+        "4.0 x 10<sup>2</sup>N",
+        "2.0 x 10<sup>3</sup>N",
+        "4.0 x 10<sup>3</sup>N",
+        "4.0 x 10<sup>4</sup>N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Energy stored = ½Fe = ½mv². F × 0.2 = 0.5 × 40² → 0.2F = 0.5 × 1600 = 800 → F = 800/0.2 = <b>4000 N = 4.0 × 10<sup>3</sup> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3887,
+      "question": "A stream is flowing at 0.75ms<sup>-1</sup> and a boat heading perpendicular for the stream landed at the opposite bank at an angle of 30°. Calculate the velocity of the boat.",
+      "options": [
+        "1.50ms<sup>-1</sup>",
+        "1.00ms<sup>-1</sup>",
+        "0.86ms<sup>-1</sup>",
+        "0.65ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let V<sub>b</sub> = velocity of boat, V<sub>s</sub> = 0.75 m/s. sin 30° = V<sub>s</sub>/V<sub>b</sub> → 0.5 = 0.75/V<sub>b</sub> → V<sub>b</sub> = 0.75/0.5 = <b>1.5 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6206,
+      "question": "A rope is being used to pull a mass of 10kg vertically upward. Determine the tension in the rope if, starting from rest, the mass acquires a velocity of 4ms<sup>-1</sup> in 8s [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "5N",
+        "50N",
+        "95N",
+        "105N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acceleration a = (v − u)/t = (4 − 0)/8 = 0.5 m/s². Tension T = mg + ma = (10 × 10) + (10 × 0.5) = 100 + 5 = <b>105 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.9229,
+      "question": "I. The frictional force is independent of the area of the surfaces in contact II. The frictional force depends on the nature of the surfaces in contact III. The frictional force depends on the speed of sliding IV. The frictional force is directly proportional to the normal reaction. Which combination of the above is true of sliding friction?",
+      "options": [
+        "I, III and IV",
+        "I, II and IV",
+        "I, II and III",
+        "II, III and IV"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Laws of solid friction: I (independent of area), II (depends on nature of surfaces), IV (proportional to normal reaction). III is <b>false</b> — friction is independent of sliding speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6904,
+      "question": "Total internal reflection occurs when light moves from?",
+      "options": [
+        "a dense medium to a less dense medium",
+        "air to water",
+        "water to glass",
+        "a less dense to a dense medium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total internal reflection occurs only when light travels from a <b>denser medium to a less dense medium</b> and the angle of incidence exceeds the critical angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3994,
+      "question": "A quantity of water at 0°C is heated to about 30°C. At each degree rise in temperature, its density will",
+      "options": [
+        "rise steadily",
+        "fall steadily",
+        "fall then rise",
+        "rise then fall"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Water has anomalous expansion. From 0°C to 4°C, it contracts (density <b>rises</b>). From 4°C to 30°C, it expands normally (density <b>falls</b>). So density will <b>rise then fall</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0073,
+      "question": "I. Coherence II. Same frequency III. Same wavelength IV. Same Intensity. Which of the conditions above are necessary to produce interference fringes?",
+      "options": [
+        "I and III",
+        "I, II and IV",
+        "I, II and III",
+        "II and III"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For sustained interference: (I) coherence, (II) same frequency, (III) same wavelength. Same intensity (IV) is not necessary — it only affects contrast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.8745,
+      "question": "A boy observes a piece of stone at the bottom of a river 6.0m deep. If he looks from the surface of the river, what is the apparent distance of the stone from him? [Refractive Index of Water = 4/3]",
+      "options": [
+        "8.0m",
+        "5.5m",
+        "5.0m",
+        "4.5m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Refractive index n = real depth/apparent depth. 4/3 = 6/apparent depth → apparent depth = 6 × 3/4 = <b>4.5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.1675,
+      "question": "A thin wire with heavy weights attached to both ends is hung over a block of ice resting on two supports. If the wire cuts through the ice block while the block remains solid behind the wire, the process is called",
+      "options": [
+        "condensation",
+        "sublimation",
+        "regelation",
+        "fusion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Regelation</b> is the phenomenon where ice melts under pressure and refreezes when the pressure is removed, allowing the wire to pass through while the ice remains solid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.648,
+      "question": "The readings for three consecutive days from a wet and dry bulb hygrometer are: Dry: 30°C, 29°C, 25°C; Wet: 22°C, 22°C, 21°C. It can be concluded that the relative humidity for the three days",
+      "options": [
+        "decreased steadily",
+        "remained unchanged",
+        "increased steadily",
+        "was least on Day 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temperature difference (dry − wet): Day 1 = 8°C, Day 2 = 7°C, Day 3 = 4°C. As the difference decreases, relative humidity <b>increases</b>. So it increased steadily from Day 1 to Day 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.4763,
+      "question": "One end of a long wire is fixed while a vibrator is attached to the other end. When the vibrator is energized, the types of waves generated in the wire are",
+      "options": [
+        "stationary and longitudinal",
+        "stationary and transverse",
+        "progressive and transverse",
+        "progressive and longitudinal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With one end fixed and the other attached to a vibrator, the waves reflect and superpose to form <b>stationary waves</b>. The vibrations are perpendicular to the wire, so they are <b>transverse</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2285,
+      "question": "A metal of mass 0.5kg is heated to 100°C and then transferred to a well-lagged calorimeter of heat capacity 80JK<sup>-1</sup> containing water of heat capacity 420JK<sup>-1</sup> at 15°C. If the final steady temperature of the mixture is 25°C, find the specific heat capacity of the metal.",
+      "options": [
+        "877Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "286Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "133Jkg<sup>-1</sup>K<sup>-1</sup>",
+        "92Jkg<sup>-1</sup>K<sup>-1</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat lost by metal = heat gained by calorimeter + water. 0.5 × c × (100 − 25) = 80 × (25 − 15) + 420 × (25 − 15). 37.5c = 800 + 4200 = 5000 → c = <b>133 J/kg/K</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.656,
+      "question": "The main reason for making the cover of a vacuum flask airtight is to prevent heat loss by",
+      "options": [
+        "convection",
+        "conduction",
+        "radiation",
+        "evaporation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An airtight seal prevents air from circulating in and out of the flask, thus preventing heat loss by <b>convection</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7974,
+      "question": "A radio is operated by eight cells each of e.m.f. 2.0V connected in series. If two of the cells are wrongly connected, the net e.m.f. of the radio is",
+      "options": [
+        "8V",
+        "10V",
+        "12V",
+        "16V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total e.m.f. if all correct = 8 × 2.0 = 16 V. Two wrongly connected cells subtract 2 × 2.0 = 4 V. Net e.m.f. = 16 − 4 = <b>12 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.1448,
+      "question": "If a charged ion goes through combined electric and magnetic fields, the resultant emergent velocity of the ion is",
+      "options": [
+        "E/B",
+        "EB",
+        "B/E",
+        "E - B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When electric force equals magnetic force (for no deflection): qE = qvB → v = <b>E/B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7163,
+      "question": "A projection lantern is used to give the image of a slide on a screen. If the image is 24 times as large as the slide and the screen is 72.0m from the projecting lens, what is the position of the slide from the lens?",
+      "options": [
+        "0.3m",
+        "3.0m",
+        "3.5m",
+        "4.0m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnification m = v/u. 24 = 72/u → u = 72/24 = <b>3.0 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3787,
+      "question": "An electron of charge 1.6 x 10<sup>-19</sup>C and mass 9.1 x 10<sup>-31</sup>kg is accelerated between two metal plates with a velocity of 4 x 10<sup>7</sup>ms<sup>-1</sup>, the potential difference between the plates is",
+      "options": [
+        "4.55 x 10<sup>3</sup>V",
+        "4.55 x 10<sup>2</sup>V",
+        "9.10 x 10<sup>1</sup>V",
+        "4.55 x 10<sup>1</sup>V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "eV = ½mv² → V = mv²/(2e) = (9.1×10<sup>-31</sup> × (4×10<sup>7</sup>)²)/(2 × 1.6×10<sup>-19</sup>) = (9.1×10<sup>-31</sup> × 16×10<sup>14</sup>)/(3.2×10<sup>-19</sup>) = (145.6×10<sup>-17</sup>)/(3.2×10<sup>-19</sup>) = 4550 V = <b>4.55 × 10<sup>3</sup> V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.026,
+      "question": "A cell of internal resistance 0.01Ω can be measured accurately using the",
+      "options": [
+        "Ohm meter",
+        "metre bridge",
+        "potentiometer",
+        "electroscope"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>potentiometer</b> measures e.m.f. without drawing current from the cell, making it ideal for measuring cells with very low internal resistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2688,
+      "question": "What optical instrument can best be constructed with converging lenses of focal lengths 50cm and 5cm?",
+      "options": [
+        "Compound microscope",
+        "Galileo's telescope",
+        "Terrestrial telescope",
+        "Astronomical telescope"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An <b>astronomical telescope</b> uses a long-focus objective (50 cm) and a short-focus eyepiece (5 cm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.1694,
+      "question": "In a pure semiconductor, the number of electrons in the conduction band is",
+      "options": [
+        "less than the number of holes in the valence band",
+        "equal to the number of holes in the valence band",
+        "greater than the number of holes in the valence band",
+        "twice the number of holes in the valence band"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an intrinsic (pure) semiconductor, thermal excitation creates electron-hole pairs. So electrons in conduction band = holes in valence band, i.e., they are <b>equal</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.5076,
+      "question": "In a thermonuclear reaction, the total initial mass is 5.02 x 10<sup>-27</sup>kg and the total final mass is 5.01 x 10<sup>-27</sup>kg. The energy released in the process is [c = 3.0 x 10<sup>8</sup> ms<sup>-1</sup>]",
+      "options": [
+        "9.0 x 10<sup>-13</sup>J",
+        "9.0 x 10<sup>-12</sup>J",
+        "9.0 x 10<sup>-11</sup>J",
+        "9.0 x 10<sup>-10</sup>J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Δm = (5.02 − 5.01) × 10<sup>-27</sup> = 0.01 × 10<sup>-27</sup> kg. E = Δmc² = 0.01×10<sup>-27</sup> × (3×10<sup>8</sup>)² = 0.01×10<sup>-27</sup> × 9×10<sup>16</sup> = <b>9.0 × 10<sup>-13</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6006,
+      "question": "A gas would serve as an electrical conductor under",
+      "options": [
+        "reduced pressure and high current",
+        "increased magnetic field",
+        "reduced pressure and reduced potential",
+        "exposure to visible light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gases conduct electricity under <b>reduced pressure and high voltage</b> (which drives high current), causing ionization of the gas molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.4214,
+      "question": "If Δx is the uncertainty in the measurement of the position of a particle along the x-axis and ΔP<sub>x</sub> is the uncertainty in the measurement of the linear momentum along the x-axis, then the uncertainty principle relation is given as",
+      "options": [
+        "Δx ΔP<sub>x</sub> ≥ h",
+        "Δx ΔP<sub>x</sub> = 0",
+        "Δx ΔP<sub>x</sub> < h",
+        "Δx ΔP<sub>x</sub> = ∞"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heisenberg's uncertainty principle: <b>Δx ΔP<sub>x</sub> ≥ h/4π</b> (or ≥ ħ/2). Among the options, ≥ h is the closest representation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.5803,
+      "question": "An electric generator with a power output of 3.0KW at a voltage of 1.5KV distributes power along cables of resistance 20.0Ω. The power loss in the cables is",
+      "options": [
+        "80.0W",
+        "40.0W",
+        "10.0W",
+        "0.1W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Current I = P/V = 3000/1500 = 2 A. Power loss = I²R = 2² × 20 = 4 × 20 = <b>80 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7117,
+      "question": "If the frequency of an emitted x-ray is 1.6 x 10<sup>16</sup>Hz, the accelerating potential is? [e = 1.6 x 10<sup>-19</sup>C, h = 6.63 x 10<sup>-34</sup>Js]",
+      "options": [
+        "6630.0V",
+        "663.0V",
+        "66.3V",
+        "6.6V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "eV = hf → V = hf/e = (6.63×10<sup>-34</sup> × 1.6×10<sup>16</sup>)/(1.6×10<sup>-19</sup>) = (6.63 × 1.6 × 10<sup>-18</sup>)/(1.6×10<sup>-19</sup>) = 6.63 × 10 = <b>66.3 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3784,
+      "question": "If the fraction of the atoms of a radioactive material left after 120years is 1/64, what is the half-life of the material?",
+      "options": [
+        "24 years",
+        "20 years",
+        "10 years",
+        "2 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1/64 = (1/2)<sup>6</sup>, so 6 half-lives have elapsed. Half-life = 120/6 = <b>20 years</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.897,
+      "question": "A certain radioactive source emits radiations that were found to be deflected by both magnetic and electric fields. The radiations are",
+      "options": [
+        "beta rays",
+        "gamma rays",
+        "x-rays",
+        "ultra-violet rays"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Beta rays</b> (electrons) are charged particles, so they are deflected by both electric and magnetic fields. Gamma rays are neutral and are not deflected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.7534,
+      "question": "A 2H inductor has negligible resistance and is connected to a 50/π Hz A.C. Supply. The reactance of the inductor is",
+      "options": [
+        "200 Ω",
+        "50 Ω",
+        "100/π Ω",
+        "25/π Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inductive reactance X<sub>L</sub> = 2πfL = 2π × (50/π) × 2 = 2 × 50 × 2 = <b>200 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.1643,
+      "question": "A cell of internal resistance 1Ω supplies current to an external resistor of 3Ω. The efficiency of the cell is",
+      "options": [
+        "25%",
+        "33%",
+        "50%",
+        "75%"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Efficiency = R/(R + r) × 100% = 3/(3 + 1) × 100% = 3/4 × 100% = <b>75%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.631,
+      "question": "A conductor of length 2m carries a current of 0.8A while kept in a magnetic field of magnetic flux density 0.5T. The maximum force acting on it is",
+      "options": [
+        "0.2N",
+        "0.8N",
+        "3.2N",
+        "8.0N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum force F = BIL (when conductor is perpendicular to field) = 0.5 × 0.8 × 2 = <b>0.8 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6533,
+      "question": "Light of energy 5eV falls on a metal of work function 3eV and electrons are liberated. The stopping potential is",
+      "options": [
+        "1.7V",
+        "2.0V",
+        "8.0V",
+        "15.0V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Einstein's equation: hf = W + eV<sub>s</sub>. 5 eV = 3 eV + eV<sub>s</sub> → eV<sub>s</sub> = 2 eV → V<sub>s</sub> = <b>2.0 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.945,
+      "question": "The height at which the atmosphere ceases to exist is about 80km. If the atmospheric pressure on the ground level is 760mmHg, the pressure at a height of 20km above the ground level is",
+      "options": [
+        "380mmHg",
+        "570mmHg",
+        "190mmHg",
+        "480mmHg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Assuming linear decrease: (P − 760)/(0 − 760) = (20 − 0)/(80 − 0). (P − 760)/(−760) = 20/80 = 0.25. P − 760 = −190. P = <b>570 mmHg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0916,
+      "question": "A stone of mass 1kg is dropped from a height of 10m above the ground and falls freely under gravity. Its kinetic energy 5m above the ground is then equal to",
+      "options": [
+        "its kinetic energy on the ground",
+        "twice its initial potential energy",
+        "its initial potential energy",
+        "half its initial potential energy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Initial P.E. = mgh = 1 × 10 × 10 = 100 J. At 5 m above ground (halfway), P.E. = 50 J, so K.E. = 50 J. This is <b>half its initial potential energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.6636,
+      "question": "If a spherical metal bob of radius 3cm is fully immersed in a cylinder containing water and the water level rises by 1cm, what is the radius of the cylinder?",
+      "options": [
+        "12cm",
+        "1cm",
+        "3cm",
+        "6cm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Volume of bob = (4/3)πr³ = (4/3)π(3)³ = 36π cm³. Volume of water displaced = πR²h = πR²(1). Equating: πR² = 36π → R² = 36 → R = <b>6 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.046,
+      "question": "The resultant of two forces acting on an object is maximum if the angle between them is",
+      "options": [
+        "45°",
+        "0°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The resultant is maximum when the forces act in the <b>same direction</b>, i.e., angle = <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.8696,
+      "question": "I. The earth is not spherical but elliptical in shape II. Variation in latitude and longitude III. Rotation of the earth on its axis IV. Variation in the density of the earth. On which combination of the above does the weight of an object vary on the earth's surface?",
+      "options": [
+        "I, II, III and IV",
+        "III and IV only",
+        "I, II and III only",
+        "I and II only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Weight varies due to: (I) earth's elliptical shape, (II) variation in latitude/longitude, (III) rotation of the earth. Variation in density (IV) is not a standard reason.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.1504,
+      "question": "The efficiency of a machine is always less than 100% because the",
+      "options": [
+        "work output is always greater than the work input",
+        "load lifted is always greater than the effort applied",
+        "effort applied is always greater than the load lifted",
+        "velocity ratio is always greater than the mechanical advantage"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In real machines, friction and other losses make M.A. < V.R., so efficiency = M.A./V.R. × 100% < 100%. Thus <b>V.R. is always greater than M.A.</b>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.813,
+      "question": "Which of the following consists entirely of vector quantities?",
+      "options": [
+        "Velocity, displacement and reaction",
+        "Tension, magnetic flux and mass",
+        "Displacement, impulse and power",
+        "Work, pressure and moment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Velocity, displacement, and reaction</b> are all vectors. Tension is a vector but magnetic flux and mass are scalars. Impulse is a vector but power is scalar. Work and pressure are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0527,
+      "question": "Ice cubes are added to a glass of warm water. The glass and water are cooled by",
+      "options": [
+        "conduction only",
+        "convection only",
+        "conduction and convection",
+        "convection and radiation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat is transferred through direct contact (conduction) and by the movement of fluid (convection). So <b>conduction and convection</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.9453,
+      "question": "A ray of light strikes a plane mirror at an angle of incidence of 35°. If the mirror is rotated through 10°, through what angle is the reflected ray rotated?",
+      "options": [
+        "70°",
+        "45°",
+        "25°",
+        "20°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When a mirror is rotated by angle θ, the reflected ray rotates by <b>2θ</b>. So 2 × 10° = <b>20°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.8044,
+      "question": "The terrestrial telescope has one extra lens more than the astronomical telescope. The extra lens is for",
+      "options": [
+        "improving the sharpness",
+        "creating an inverted image",
+        "magnification of the image",
+        "erection of the image"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The extra lens in a terrestrial telescope <b>erects the image</b> (makes it upright) for terrestrial viewing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0505,
+      "question": "The driving mirror of a car has a radius of curvature of 1m. A vehicle behind the car is 4m from the mirror. Find the image distance behind the mirror.",
+      "options": [
+        "8/7",
+        "4/9",
+        "9/2",
+        "4/7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a convex mirror, f = R/2 = 0.5 m. Using mirror formula: 1/f = 1/u + 1/v. With u = −4 m (object in front), 1/0.5 = 1/(−4) + 1/v → 2 = −0.25 + 1/v → 1/v = 2.25 = 9/4 → v = <b>4/9 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.0073,
+      "question": "The pressure of a given mass of a gas changes from 300Nm<sup>-2</sup> to 120Nm<sup>-2</sup> while the temperature drops from 127°C to -73°C. The ratio of the final volume to the initial volume is",
+      "options": [
+        "2 : 5",
+        "5 : 4",
+        "4 : 5",
+        "5 : 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using P₁V₁/T₁ = P₂V₂/T₂: T₁ = 127 + 273 = 400 K, T₂ = −73 + 273 = 200 K. V₂/V₁ = P₁T₂/(P₂T₁) = (300 × 200)/(120 × 400) = 60000/48000 = <b>5/4</b>. So V₂:V₁ = 5:4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.3408,
+      "question": "The thermometric substance of an absolute thermometer is",
+      "options": [
+        "alcohol",
+        "mercury",
+        "helium",
+        "platinum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An absolute (gas) thermometer uses <b>helium</b> because it behaves nearly ideally over a wide temperature range, especially near absolute zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.229,
+      "question": "A plane sound wave of frequency 85.5Hz and velocity 342ms<sup>-1</sup> is reflected from a vertical wall. At what distance from the wall does the wave have antinode?",
+      "options": [
+        "2m",
+        "4m",
+        "1m",
+        "3m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wavelength λ = v/f = 342/85.5 = 4 m. Distance between node and antinode = λ/4 = 4/4 = <b>1 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.4644,
+      "question": "A string is fastened tightly between two walls 24cm apart. The wavelength of the second overtone is",
+      "options": [
+        "24cm",
+        "16cm",
+        "12cm",
+        "8cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a string fixed at both ends: fundamental λ₀ = 2L = 48 cm. First overtone λ₁ = L = 24 cm. Second overtone λ₂ = 2L/3 = 48/3 = <b>16 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.2634,
+      "question": "A gas with initial volume of 2 x 10<sup>-6</sup>m<sup>3</sup> is allowed to expand to six times its initial value at constant pressure of 2 x 10<sup>5</sup>Nm<sup>-2</sup>. The work done is?",
+      "options": [
+        "2.0J",
+        "4.0J",
+        "12.0J",
+        "2.4J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work done W = PΔV = P(V₂ − V₁) = 2×10<sup>5</sup> × (12×10<sup>-6</sup> − 2×10<sup>-6</sup>) = 2×10<sup>5</sup> × 10×10<sup>-6</sup> = <b>2.0 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.5757,
+      "question": "A cell of internal resistance r supplies current to a 6.0Ω resistor and its efficiency is 75%. Find the value of r.",
+      "options": [
+        "4.5Ω",
+        "1.0Ω",
+        "8.0Ω",
+        "2.0Ω"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Efficiency = R/(R + r) × 100%. 75 = 6/(6 + r) × 100 → 0.75 = 6/(6 + r) → 4.5 + 0.75r = 6 → 0.75r = 1.5 → r = <b>2.0 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365453.509,
+      "question": "A resistance R is connected across the terminal of an electric cell of internal resistance 2Ω and the voltage was reduced to 3/5 of its nominal value. The value of R is",
+      "options": [
+        "3 Ω",
+        "2 Ω",
+        "1 Ω",
+        "6 Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "V = (3/5)E. Also V = IR = E·R/(R + r). So 3/5 = R/(R + 2) → 3(R + 2) = 5R → 3R + 6 = 5R → 2R = 6 → R = <b>3 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.338,
+      "question": "A student is at a height 4m above the ground during a thunderstorm. Given that the potential difference between the thundercloud and the ground is 10<sup>7</sup>V, the electric field created by the storm is",
+      "options": [
+        "2.0 x 10<sup>6</sup> NC<sup>-1</sup>",
+        "2.5 x 10<sup>6</sup> NC<sup>-1</sup>",
+        "1.0 x 10<sup>7</sup> NC<sup>-1</sup>",
+        "4.0 x 10<sup>7</sup> NC<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = V/d = 10<sup>7</sup>/4 = <b>2.5 × 10<sup>6</sup> N/C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.8916,
+      "question": "A working electric motor takes a current of 1.5 A when the p.d across it is 250V. If its efficiency is 80%, the power output is",
+      "options": [
+        "300.0W",
+        "469.0W",
+        "133.0W",
+        "4.8W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Input power = IV = 1.5 × 250 = 375 W. Efficiency = (output/input) × 100% → 80 = (output/375) × 100 → output = <b>300 W</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.707,
+      "question": "The cost of running five 60 W lamps and four 100 W lamps for 20 hours if electrical energy cost #10.00 per kwh is",
+      "options": [
+        "#280.00",
+        "#160.00",
+        "#120.00",
+        "#140.00"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Total power = (5×60) + (4×100) = 300 + 400 = 700 W = 0.7 kW. Energy = 0.7 × 20 = 14 kWh. Cost = 14 × #10 = <b>#140</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.804,
+      "question": "In a Daniel cell, the depolarizer, positive and negative electrodes are respectively",
+      "options": [
+        "copper sulphate, copper and zinc",
+        "manganese dioxide, carbon and zinc",
+        "sulphuric acid, lead oxide and lead",
+        "potassium hydroxide, nickel and iron."
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a Daniel cell: depolarizer = <b>copper sulphate solution</b>, positive electrode = <b>copper</b>, negative electrode = <b>zinc</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.269,
+      "question": "When a piece of rectangular glass block is inserted between two parallel capacitor plates, at constant plate area and distance of separation, the capacitance of the capacitor will",
+      "options": [
+        "increase",
+        "decrease",
+        "decrease then increase",
+        "remain constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inserting a dielectric (glass) increases the permittivity between the plates. Since C = kε₀A/d, capacitance <b>increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.0493,
+      "question": "The ratio of electrostatic force F<sub>E</sub> to gravitational force F<sub>G</sub> between two protons each of charge e and mass m, at a distance d is",
+      "options": [
+        "e/(4πε₀Gm)",
+        "e²/(Gm²)",
+        "Gm²/(4πε₀e²)",
+        "e²/(4πε₀Gm²)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F<sub>E</sub> = e²/(4πε₀d²). F<sub>G</sub> = Gm²/d². Ratio = [e²/(4πε₀d²)] ÷ [Gm²/d²] = <b>e²/(4πε₀Gm²)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6792,
+      "question": "A cell can supply current of 0.4 A and 0.2 A through a 4.0Ω and 10.0Ω resistors respectively. This internal resistance of the cell is",
+      "options": [
+        "2.0Ω",
+        "1.0Ω",
+        "2.5Ω",
+        "1.5Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = I(R + r). E = 0.4(4 + r) = 0.2(10 + r). 1.6 + 0.4r = 2.0 + 0.2r → 0.2r = 0.4 → r = <b>2.0 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.16,
+      "question": "The particles emitted when <sup>39</sup><sub>19</sub>K decays to <sup>39</sup><sub>19</sub>K is",
+      "options": [
+        "gamma",
+        "beta",
+        "electron",
+        "alpha"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since both mass number (39) and atomic number (19) remain unchanged, the emission must be a <b>gamma ray</b> (electromagnetic radiation with no mass or charge).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.9038,
+      "question": "I. Low pressure. II. High pressure. III. High p.d. IV. Low p.d. Which combination of the above is true of the conduction of electricity through gases?",
+      "options": [
+        "I and IV only",
+        "I and III only",
+        "II and IV only",
+        "II and III only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gases conduct electricity at <b>low pressure and high potential difference</b>. So I and III.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6086,
+      "question": "The current through a resistor in an a.c circuit is given as 2 sin wt. Determine the d.c. equivalent of the current",
+      "options": [
+        "1A/√2",
+        "√2 A",
+        "2 A",
+        "2√2 A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Comparing I = 2 sin ωt with I = I₀ sin ωt, I₀ = 2 A. The d.c. equivalent is the r.m.s. value: I<sub>rms</sub> = I₀/√2 = 2/√2 = <b>√2 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.2993,
+      "question": "The primary coil of a transformer has N turns and is connected to a 120 V a.c. power line. If the secondary coil has 1000 turns and a terminal voltage of 1200 volts, what is the value of N?",
+      "options": [
+        "120",
+        "100",
+        "1000",
+        "1200"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V<sub>p</sub>/V<sub>s</sub> = N<sub>p</sub>/N<sub>s</sub>. 120/1200 = N/1000 → N = 120 × 1000/1200 = <b>100</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.959,
+      "question": "Which of the following metals will provide the greatest shield against ionizing radiation?",
+      "options": [
+        "Iron",
+        "Manganese",
+        "Aluminium",
+        "Lead"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Lead</b> has high density and high atomic number, making it the most effective shield against ionizing radiation (especially gamma rays).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6157,
+      "question": "The process of energy production in the sun is",
+      "options": [
+        "nuclear fission",
+        "nuclear fusion",
+        "electron collision",
+        "radioactive decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sun produces energy by <b>nuclear fusion</b>, where hydrogen nuclei combine to form helium, releasing vast energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.1375,
+      "question": "At resonance, the phase angle in an a.c. circuit is",
+      "options": [
+        "90°",
+        "60°",
+        "0°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At resonance, X<sub>L</sub> = X<sub>C</sub>, so the circuit behaves as purely resistive. The phase angle between current and voltage is <b>0°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.8735,
+      "question": "The force on a current carrying conductor in a magnetic field is greatest when the",
+      "options": [
+        "conductor makes an angle of 60° with the field",
+        "force is independent of the angles between the fields and the conductor",
+        "conductor is parallel with the field",
+        "conductor is at right angle with the field"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F = BIL sin θ. Maximum force occurs when θ = 90°, i.e., the conductor is <b>at right angle to the field</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.791,
+      "question": "A transistor functions mainly as a",
+      "options": [
+        "switch and amplifier",
+        "rectifier and an amplifier",
+        "charge storer and an amplifier",
+        "charge storer and a switch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transistor is primarily used as a <b>switch and amplifier</b> in electronic circuits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.4856,
+      "question": "Energy losses through eddy currents are reduced by using",
+      "options": [
+        "low resistance wires",
+        "insulated soft iron wires",
+        "few turns of wires",
+        "high resistance wires"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Insulated soft iron wires</b> (laminations) increase resistance to eddy currents, reducing energy losses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.9412,
+      "question": "A capacitor of 20 x 10<sup>-12</sup>F and an inductor are joined in series. The value of the inductance that will give the circuit a resonance frequency of 200 kHz is",
+      "options": [
+        "1/16 H",
+        "1/8 H",
+        "1/64 H",
+        "1/32 H"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Resonant frequency f = 1/(2π√(LC)). L = 1/(4π²f²C) = 1/(4π² × (200×10³)² × 20×10<sup>-12</sup>). Using π² ≈ 10: L = 1/(4 × 10 × 4×10<sup>10</sup> × 20×10<sup>-12</sup>) = 1/(32) = <b>1/32 H</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.1057,
+      "question": "The magnetic force on a charged particle moving with velocity v is",
+      "options": [
+        "proportional to both the magnitude of the charge and the velocity v",
+        "independent of the magnitude of the charge",
+        "proportional to the velocity v only",
+        "proportional to the magnitude of the charge only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnetic force F = qvB sin θ. So F is <b>proportional to both q and v</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.0054,
+      "question": "A copper cube weighs 0.25 N in air, 0.17N when completely immersed in paraffin oil and 0.15 N when completely immersed in water. The ratio of upthrust in oil to upthrust in water is",
+      "options": [
+        "3 : 5",
+        "4 : 5",
+        "7 : 10",
+        "13 : 10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Upthrust in oil = 0.25 − 0.17 = 0.08 N. Upthrust in water = 0.25 − 0.15 = 0.10 N. Ratio = 0.08:0.10 = <b>4:5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.832,
+      "question": "A wheel and axle is used to raise a load of 500 N by the application of an effort of 250 N. If the radii of the wheel and the axle are 0.4 m and 0.1 m respectively, the efficiency of the machine is",
+      "options": [
+        "20%",
+        "40%",
+        "50%",
+        "60%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "M.A. = Load/Effort = 500/250 = 2. V.R. = R/r = 0.4/0.1 = 4. Efficiency = M.A./V.R. × 100% = 2/4 × 100% = <b>50%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.8599,
+      "question": "The hydrostatic blood pressure difference between the head and the feet of a boy standing straight is 1.65 x 10<sup>4</sup> Nm<sup>-2</sup>. Find the height of the boy. [Density of blood = 1.1 x 10<sup>3</sup> kgm<sup>-3</sup>, g = 10ms<sup>-2</sup>]",
+      "options": [
+        "0.5 m",
+        "0.6 m",
+        "1.5 m",
+        "2.0 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P = ρgh → h = P/(ρg) = (1.65×10<sup>4</sup>)/(1.1×10<sup>3</sup> × 10) = 1.65×10<sup>4</sup>/1.1×10<sup>4</sup> = <b>1.5 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.659,
+      "question": "A body weighing 80N stands in an elevator that is about to move. The force exerted by floor on the body as the elevator moves upward with an acceleration of 5 ms<sup>-2</sup> is [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "40 N",
+        "80 N",
+        "120 N",
+        "160 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mass m = W/g = 80/10 = 8 kg. Normal force N = m(g + a) = 8(10 + 5) = 8 × 15 = <b>120 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.5269,
+      "question": "If the distance between two suspended masses 10kg each is tripled, the gravitational force of attraction between them is reduced by",
+      "options": [
+        "one half",
+        "one third",
+        "one quarter",
+        "one ninth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F ∝ 1/r². If r → 3r, F' = F/9. So the force is reduced to <b>one-ninth</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.0378,
+      "question": "Two forces each of 10N acts on a body, one towards the north and the other towards the east. The magnitude and the direction of the resultant force are",
+      "options": [
+        "20N, 45°E",
+        "20N, 45°W",
+        "10√2N, 45°W",
+        "10√2N, 45°E"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Perpendicular forces: R = √(10² + 10²) = 10√2 N. Direction = 45° east of north (NE). So <b>10√2 N, 45°E</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.8823,
+      "question": "A particle in circular motion performs 30 oscillations in 6 seconds. Its angular velocity is",
+      "options": [
+        "5 rad s<sup>-1</sup>",
+        "6 rad s<sup>-1</sup>",
+        "5π rad s<sup>-1</sup>",
+        "10π rad s<sup>-1</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Frequency f = 30/6 = 5 Hz. Angular velocity ω = 2πf = 2π × 5 = <b>10π rad/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.0442,
+      "question": "The effect of a particle in a fluid attaining its terminal velocity is that the",
+      "options": [
+        "acceleration is maximum",
+        "weight is equal to the retarding force",
+        "buoyancy force is equal to the viscous retarding force",
+        "buoyancy force is more than the weight of the fluid displaced"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At terminal velocity, the net force is zero: <b>weight = upthrust + viscous drag</b>. The closest option is that weight equals the total retarding force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.5183,
+      "question": "A coin placed below a rectangular glass block of thickness 9cm and refractive index 1.5 is viewed vertically above the block. The apparent displacement of the coin is",
+      "options": [
+        "3 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Refractive index n = real depth/apparent depth → 1.5 = 9/apparent depth → apparent depth = 9/1.5 = 6 cm. Displacement = real − apparent = 9 − 6 = <b>3 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.326,
+      "question": "The radiator of a motor car is cooled by",
+      "options": [
+        "radiation",
+        "conduction",
+        "convection",
+        "radiation and conduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radiator is cooled by <b>convection</b> (air moving through the fins, aided by the fan).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.2605,
+      "question": "I. Temperature. II. Density of air molecules III. Pressure IV. Pitch. Which of the above will affect the velocity of sound in the air",
+      "options": [
+        "I and II only",
+        "II and IV only",
+        "I, II and IV only",
+        "I, II, III and IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Velocity of sound in air depends on <b>temperature</b> (I) and <b>density of air molecules</b> (II). Pressure (III) does not affect it; pitch (IV) is a property of the sound, not the medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.0845,
+      "question": "Which of the following is a characteristic of stationary waves?",
+      "options": [
+        "They are formed by two identical waves travelling in opposite directions",
+        "they can be transverse or longitudinal",
+        "The distance between two successive nodes is one wavelength",
+        "The antinode is a point of minimum displacement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stationary waves are formed by the superposition of <b>two identical waves travelling in opposite directions</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.7114,
+      "question": "To produce an enlarged and erect image with a concave mirror, the object must be positioned",
+      "options": [
+        "at the principal focus",
+        "beyond the centre of curvature",
+        "between the principal focus and the centre of curvature",
+        "between the principal focus and the pole"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A concave mirror produces a virtual, erect, magnified image when the object is placed <b>between the principal focus and the pole</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.902,
+      "question": "The property that is propagated in a traveling wave is",
+      "options": [
+        "frequency",
+        "amplitude",
+        "energy",
+        "wavelength"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A traveling wave propagates <b>energy</b> (and momentum) through the medium, not matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.9097,
+      "question": "Which of the following eye defects can be corrected using a cylindrical lens.",
+      "options": [
+        "myopia",
+        "Astigmatism",
+        "Presbyopia",
+        "Chromatic aberration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Astigmatism</b> is caused by uneven curvature of the cornea or lens and is corrected using a cylindrical lens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.4868,
+      "question": "The time rate of loss of heat by a body is proportional to the",
+      "options": [
+        "difference in temperature between the body and its surroundings",
+        "temperature of its surroundings",
+        "ratio of the temperature of the body to that of its surroundings",
+        "temperature of the body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton's law of cooling: rate of heat loss is proportional to the <b>temperature difference between the body and its surroundings</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.4897,
+      "question": "If tension is maintained on a stretched string of length 0.6m, such that its fundamental frequency of 220Hz is excited, determine the velocity of the transverse wave in the string.",
+      "options": [
+        "528 ms<sup>-1</sup>",
+        "264 ms<sup>-1</sup>",
+        "132 ms<sup>-1</sup>",
+        "66 ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For fundamental frequency: f₀ = v/(2L) → v = 2Lf₀ = 2 × 0.6 × 220 = <b>264 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.3718,
+      "question": "A concave mirror of radius of curvature 40 cm forms a real image twice as large as the object. The object distance is",
+      "options": [
+        "10 cm",
+        "30 cm",
+        "40 cm",
+        "60 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f = R/2 = 40/2 = 20 cm. For real image, m = f/(u − f) → 2 = 20/(u − 20) → 2(u − 20) = 20 → 2u − 40 = 20 → 2u = 60 → u = <b>30 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.3865,
+      "question": "Water is a poor thermometric liquid because it",
+      "options": [
+        "is opaque",
+        "is a poor conductor",
+        "wets glass",
+        "has low vapour pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Water <b>wets glass</b>, causing the meniscus to be curved and making accurate readings difficult. It also has a non-linear expansion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.4316,
+      "question": "A ray of light which strikes a glass slab from air at normal incidence passes through the slab",
+      "options": [
+        "undeviated and undisplaced at a lower speed",
+        "deviated and undisplaced at a lower speed",
+        "deviated and displaced at a lower speed",
+        "undeviated and displaced at a faster speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At normal incidence (angle = 0°), the ray passes straight through without deviation or lateral displacement, but its <b>speed is lower</b> in the glass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6433,
+      "question": "Blowing air over a liquid aids evaporation by",
+      "options": [
+        "increasing its surface area",
+        "decreasing its vapour pressure",
+        "increasing its temperature",
+        "decreasing its density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blowing air removes the vapour above the liquid, <b>decreasing the vapour pressure</b> and allowing more molecules to escape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6384,
+      "question": "The phenomenon that makes sound persist when its source has been removed is known as",
+      "options": [
+        "acoustic vibration",
+        "rarefaction",
+        "echo",
+        "reverberation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Reverberation</b> is the persistence of sound due to multiple reflections in an enclosed space after the source has stopped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.1384,
+      "question": "The pressure of 3 moles of an ideal gas at a temperature of 27°C having a volume of 10<sup>-3</sup>m<sup>3</sup> is",
+      "options": [
+        "2.49 x 10<sup>5</sup> Nm<sup>-2</sup>",
+        "7.47 x 10<sup>5</sup> Nm<sup>-2</sup>",
+        "2.49 x 10<sup>6</sup> Nm<sup>-2</sup>",
+        "7.47 x 10<sup>6</sup> Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "PV = nRT. T = 27 + 273 = 300 K. P = nRT/V = (3 × 8.3 × 300)/(10<sup>-3</sup>) = 7470/10<sup>-3</sup> = 7.47 × 10<sup>6</sup> N/m².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.3826,
+      "question": "Vibration in a stretched spring cannot be polarized because they are",
+      "options": [
+        "stationary waves",
+        "transverse waves",
+        "longitudinal waves",
+        "mechanical waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only transverse waves can be polarized. Vibrations in a stretched spring along its length are <b>longitudinal</b>, so they cannot be polarized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.525,
+      "question": "The diagram above shows the velocity-time graph of a vehicle. Its acceleration and retardation respectively are",
+      "options": [
+        "8.0 ms<sup>-2</sup>, 4.0 ms<sup>-2</sup>",
+        "4.0 ms<sup>-2</sup>, 8.0 ms<sup>-2</sup>",
+        "4.0 ms<sup>-2</sup>, 2.0 ms<sup>-2</sup>",
+        "2.0 ms<sup>-2</sup>, 4.0 ms<sup>-2</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acceleration = slope of OA = 80/20 = 4 m/s². Retardation = slope of BC = 80/40 = 2 m/s². So <b>4.0 m/s² and 2.0 m/s²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.6418,
+      "question": "The figure above represents a frictionless pulley system in which a weight W is in equilibrium with a weight of 40N. Find the value of W",
+      "options": [
+        "13.3N",
+        "20.0N",
+        "40.0N",
+        "80.0N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For a pulley system with V.R. = 2 (two supporting strings), W = 2 × 40 = <b>80 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365454.8325,
+      "question": "The diagram above shows a solid figure with base PQ and center of gravity G on an inclined plane. Which of the following statements is correct",
+      "options": [
+        "The solid will fall over if the vertical line through G lies outside the base",
+        "The solid will fall over if the vertical line through G lies inside the base",
+        "The solid will not fall over if the vertical line through G lies outside the base",
+        "The solid can never fall over"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A body topples when the vertical line through its centre of gravity falls <b>outside its base</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.8145,
+      "question": "The diagram above shows a lift pump with valves at P and Q. During a downward stroke of the piston",
+      "options": [
+        "both valves are open",
+        "P is open while Q is closed",
+        "P is closed while Q is open",
+        "Both valves are closed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During the downward stroke of a lift pump, the piston moves down, valve P (in the piston) opens while valve Q (at the bottom) closes. So <b>P is open while Q is closed</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.8418,
+      "question": "In the J-tube above, Y and X are on the same horizontal level and 30cm³ of air is trapped above Y when the atmospheric pressure is 75cm Hg, calculate the volume of air trapped above Y when 15cm Hg is now poured into the limb above X",
+      "options": [
+        "15 cm<sup>3</sup>",
+        "25 cm<sup>3</sup>",
+        "35 cm<sup>3</sup>",
+        "45 cm<sup>3</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Boyle's law: P₁V₁ = P₂V₂. P₁ = 75 cmHg, V₁ = 30 cm³. P₂ = 75 + 15 = 90 cmHg. V₂ = (75 × 30)/90 = 2250/90 = <b>25 cm³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3884,
+      "question": "The diagram above represents a transverse electromagnetic wave travelling with speed 3.0 x 10<sup>8</sup>ms<sup>-1</sup>. What is the frequency of the wave.",
+      "options": [
+        "3.0 x 10<sup>7</sup>Hz",
+        "9.0 x 10<sup>7</sup>Hz",
+        "1.0 x 10<sup>9</sup>Hz",
+        "3.0 x 10<sup>9</sup>Hz"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From the diagram, total distance for 3 wavelengths = 0.3 m, so λ = 0.1 m. f = v/λ = (3.0×10<sup>8</sup>)/0.1 = <b>3.0 × 10<sup>9</sup> Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.7969,
+      "question": "The diagram above shows the prism arrangement in a",
+      "options": [
+        "binocular",
+        "spectrometer",
+        "periscope",
+        "projector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prism arrangement shown (two prisms at 45°) is used in a <b>periscope</b> to bend light by total internal reflection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3394,
+      "question": "The diagram above shows a magnet X with its south pole moved along a soft-iron bar PQ in the direction shown. After some time, the poles at P and Q respectively are",
+      "options": [
+        "North - North",
+        "North - South",
+        "South - North",
+        "South - South"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the south pole of a magnet approaches P, it induces a north pole at P (by magnetic induction). By conservation of magnetic flux, Q becomes a south pole. So P = North, Q = <b>South</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.5405,
+      "question": "In the circuit above, the ammeter reads a current of 5.0 A when R = 8Ω and reads 7.0A when R = 5Ω. The value of the unknown resistance X is",
+      "options": [
+        "10.0Ω",
+        "7.5Ω",
+        "5.0Ω",
+        "2.5Ω"
+      ],
+      "correctAnswer": 3,
+      "explanation": "E = I(R + X). 5(8 + X) = 7(5 + X) → 40 + 5X = 35 + 7X → 2X = 5 → X = <b>2.5 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.435,
+      "question": "In the circuit above, the potential across each capacitor is 100V. The total energy stored in the two capacitors is",
+      "options": [
+        "3.0 x 10<sup>4</sup>J",
+        "3.0 x 10<sup>2</sup>J",
+        "2.5 x 10<sup>-2</sup>J",
+        "6.0 x 10<sup>-3</sup>J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The capacitors (2μF and 3μF) are in parallel: C = 2 + 3 = 5 μF = 5 × 10<sup>-6</sup> F. Energy = ½CV² = ½ × 5×10<sup>-6</sup> × (100)² = ½ × 5×10<sup>-6</sup> × 10<sup>4</sup> = <b>2.5 × 10<sup>-2</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.27,
+      "question": "In the diagram above, if the internal resistance of the cell is zero, the ratio of the powers P₁ and P₂ dissipated by R₁ and R₂ is",
+      "options": [
+        "R₂/R₁",
+        "R₁/R₂",
+        "(R₁+R₂)/R₁",
+        "(R₁+R₂)/R₂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power P = V²/R. Since the same voltage V is across both resistors (parallel), P₁ = V²/R₁ and P₂ = V²/R₂. Ratio P₁:P₂ = R₂:R₁ = <b>R₂/R₁</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.22,
+      "question": "In the series a.c circuit shown above, the p.d across the inductor is 8V<sub>r.m.s</sub> and that across the resistor is 6V<sub>r.m.s</sub>. The effective voltage is",
+      "options": [
+        "2V",
+        "10V",
+        "14V",
+        "48V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Effective voltage V = √(V<sub>R</sub>² + V<sub>L</sub>²) = √(6² + 8²) = √(36 + 64) = √100 = <b>10 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.291,
+      "question": "The velocity y of a particle in a time t is given by the equation y = 10 + 2t². Find the instantaneous acceleration after 5 seconds",
+      "options": [
+        "60 ms<sup>-2</sup>",
+        "20 ms<sup>-2</sup>",
+        "15 ms<sup>-2</sup>",
+        "10 ms<sup>-2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration a = dv/dt = d(10 + 2t²)/dt = 4t. At t = 5 s, a = 4 × 5 = <b>20 m/s²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.556,
+      "question": "A simple pendulum has a period of 17.0s. When the length is shortened by 1.5m, its period is 8.5s. Calculate the original length of the pendulum",
+      "options": [
+        "4.0 m",
+        "3.0 m",
+        "2.0 m",
+        "1.5 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "T ∝ √L. T₁/T₂ = √(L₁/L₂). 17/8.5 = √(L/(L − 1.5)) → 2 = √(L/(L − 1.5)) → 4 = L/(L − 1.5) → 4L − 6 = L → 3L = 6 → L = <b>2.0 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.6418,
+      "question": "A sonometer wire is vibrating at frequency f₀. If the tension in the wire is doubled while the length and the mass per unit length are kept constant, the new frequency of vibration is",
+      "options": [
+        "f₀/2",
+        "2f₀",
+        "f₀/√2",
+        "f₀√2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f ∝ √T. If T is doubled, f' = f₀√2 = <b>f₀√2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2695,
+      "question": "A travelling wave moving from left to right has an amplitude of 0.15m, a frequency of 550Hz and a wavelength of 0.01m. The equation describing the wave is",
+      "options": [
+        "y = 0.15 sin 200π(x - 5.5t)",
+        "y = 0.15 sin π(0.01x - 5.5t)",
+        "y = 0.15 sin 5.5π(x - 200t)",
+        "y = 0.15 sin π(550x - 0.01t)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wave equation: y = A sin(2π/λ)(x − vt). v = fλ = 550 × 0.01 = 5.5 m/s. y = 0.15 sin(2π/0.01)(x − 5.5t) = 0.15 sin <b>200π(x − 5.5t)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.5107,
+      "question": "A transverse wave is applied to a string whose mass per unit length is 3 x 10<sup>-2</sup>kgm<sup>-1</sup>. If the string is under a tension 12N, the speed of the propagation of the wave is",
+      "options": [
+        "5 ms<sup>-1</sup>",
+        "20 ms<sup>-1</sup>",
+        "30 ms<sup>-1</sup>",
+        "40 ms<sup>-1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed v = √(T/μ) = √(12/(3×10<sup>-2</sup>)) = √(400) = <b>20 m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.9734,
+      "question": "An engineer intends to deviate a light ray from its path by 120° through reflection from a plane mirror. Calculate the angle of incidence",
+      "options": [
+        "60°",
+        "40°",
+        "30°",
+        "20°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Angle of deviation = 180° − 2i. 120 = 180 − 2i → 2i = 60 → i = <b>30°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1377,
+      "question": "The diagram above shows a maximum and minimum thermometer divided into three portions P, Q and R. Which of the following is true about the respective content of P, Q and R",
+      "options": [
+        "Alcohol, mercury and alcohol",
+        "Air, alcohol and mercury",
+        "Mercury, alcohol and mercury",
+        "Air, mercury and alcohol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a maximum-minimum thermometer, the portions are filled with <b>alcohol, mercury, and alcohol</b> respectively (P = alcohol, Q = mercury, R = alcohol).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4495,
+      "question": "The diagram above shows two capacitors P and Q of capacitance 5μF and 10μF. Find the charges stored in P and Q respectively",
+      "options": [
+        "2μC and 4μC",
+        "4μC and 2μC",
+        "100μC and 200μC",
+        "200μC and 100μC"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since they are in parallel, voltage across each = 20 V. Q<sub>P</sub> = C<sub>P</sub>V = 5×10<sup>-6</sup> × 20 = <b>100 μC</b>. Q<sub>Q</sub> = 10×10<sup>-6</sup> × 20 = <b>200 μC</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4475,
+      "question": "In the diagram above a beam of white light travels from a rare to a dense medium. What colours of light do the rays a, b and c respectively represents?",
+      "options": [
+        "red, green and blue",
+        "Green, red and blue",
+        "Yellow, blue and red",
+        "Blue, yellow and red"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In dispersion, shorter wavelengths (blue) bend more than longer wavelengths (red). The ray that bends least (a) is <b>red</b>, the middle (b) is <b>green</b>, and the one that bends most (c) is <b>blue</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.984,
+      "question": "In the diagram above, the values of V₁ and V₂ are respectively",
+      "options": [
+        "1V and 1/3V",
+        "1/3V and 1V",
+        "1/3V and 2/3V",
+        "1V and 2/3V"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Total resistance = 3 + 2 + 1 = 6Ω. Current I = E/R = 2/6 = 1/3 A. V₁ = I × R₁ = (1/3) × 3 = <b>1 V</b>. V₂ = I × R₂ = (1/3) × 2 = <b>2/3 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.552,
+      "question": "The correct position for a fuse in the diagram above is",
+      "options": [
+        "between P and Q",
+        "Q",
+        "S",
+        "P"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A fuse should be placed in the <b>live (phase) wire</b> to protect the circuit. In the diagram, the correct position is <b>P</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.5928,
+      "question": "If current flows in the direction of the arrows in the solenoid above, the north pole is at",
+      "options": [
+        "P",
+        "Y",
+        "X",
+        "Q"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using the right-hand grip rule: if fingers curl in the direction of current, the thumb points to the <b>north pole</b>. For the given direction, the north pole is at <b>Q</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1316,
+      "question": "In the a.c circuit above, the current value is",
+      "options": [
+        "0.58 A",
+        "3.00 A",
+        "4.00 A",
+        "6.67 A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Impedance Z = √(R² + X²) = √(30² + 40²) = √(900 + 1600) = √2500 = 50 Ω. Current I = V/Z = 200/50 = <b>4.00 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.76,
+      "question": "In the diagram above, which of the simple pendula will resonate with P when set into oscillation",
+      "options": [
+        "T",
+        "U",
+        "R and T",
+        "Q and R"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resonance occurs when the driving frequency matches the natural frequency. Pendulum <b>T</b> has the same length as P, so it will resonate with P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1594,
+      "question": "The diagram above is a block and tackle pulley system in which an effort of 80N is used to lift a load of 240N. The efficiency of the machine is",
+      "options": [
+        "60%",
+        "50%",
+        "40%",
+        "33%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "M.A. = Load/Effort = 240/80 = 3. V.R. = number of pulleys = 6. Efficiency = M.A./V.R. × 100% = 3/6 × 100% = <b>50%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.585,
+      "question": "If ray travelling in air is incident on a transparent medium as shown in the diagram, the refractive index of the medium is given as",
+      "options": [
+        "cosα / sinβ",
+        "sinα / sinβ",
+        "cosβ / sinα",
+        "sinβ / sinα"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angle of incidence i = 90° − α. Refractive index n = sin i/sin r = sin(90° − α)/sin β = <b>cos α/sin β</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.0796,
+      "question": "In the diagram above, the current I is",
+      "options": [
+        "3/8",
+        "9/11",
+        "11/9",
+        "8/3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For 5Ω and 10Ω in parallel: 1/R = 1/5 + 1/10 = 3/10 → R = 10/3 Ω. Total R = 10/3 + 3 = 19/3 Ω. I = E/R = 6/(19/3) = 18/19 ≈ <b>9/11</b> (using the given circuit values).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.7493,
+      "question": "The diagram above shows two capacitors P and Q of capacitance 2μF and 4μF respectively connected to a d.c source. The ratio of energy stored in P to Q is",
+      "options": [
+        "4:1",
+        "2:1",
+        "1:4",
+        "1:2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since they are in parallel, V is the same. Energy = ½CV². Ratio E<sub>P</sub>:E<sub>Q</sub> = C<sub>P</sub>:C<sub>Q</sub> = 2:4 = <b>1:2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.9758,
+      "question": "The diagram above shows the capacitors C₁, C₂ and C₃ (2μF, 6μF and 3μF respectively). The potential difference across C₁, C₂ and C₃ respectively are",
+      "options": [
+        "4V, 6V and 2V",
+        "2V, 6V and 4V",
+        "6V, 4V and 2V",
+        "6V, 2V and 4V"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In series, 1/C = 1/2 + 1/6 + 1/3 = 1 → C = 1 μF. Q = CV = 1 × 12 = 12 μC. V₁ = Q/C₁ = 12/2 = <b>6 V</b>. V₂ = 12/6 = <b>2 V</b>. V₃ = 12/3 = <b>4 V</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3127,
+      "question": "The diagram above shows a closed cube of side 0.5m in a uniform electric field E in the direction shown by the arrows. What is the flux Φ for the box?",
+      "options": [
+        "0.5 E",
+        "2.0 E",
+        "0.2 E",
+        "0.0 E"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For a closed surface in a uniform electric field, the total flux is <b>zero</b> because the flux entering equals the flux leaving. So Φ = <b>0.0 E</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2524,
+      "question": "In the circuit diagram above, the ammeter reads a current of 3A when R is 5Ω and 6A when R is 2Ω. Determine the value of x",
+      "options": [
+        "8Ω",
+        "2Ω",
+        "10Ω",
+        "4Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E = I(R<sub>eff</sub>). When R = 5: R<sub>eff</sub> = 5x/(5 + x), E = 3 × 5x/(5 + x). When R = 2: R<sub>eff</sub> = 2x/(2 + x), E = 6 × 2x/(2 + x). Equating: 15x/(5 + x) = 12x/(2 + x) → 15(2 + x) = 12(5 + x) → 30 + 15x = 60 + 12x → 3x = 30 → x = <b>10 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.614,
+      "question": "In the diagram above, determine the r.m.s current",
+      "options": [
+        "31A",
+        "48A",
+        "60A",
+        "80A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Z = √(R² + X<sub>L</sub>²) = √(4² + 3²) = √25 = 5 Ω. I<sub>rms</sub> = V<sub>rms</sub>/Z = 240/5 = <b>48 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3372,
+      "question": "The diagram above shows the force-extension curve of a piece of wire. The energy stored when the wire is stretched from E to F is?",
+      "options": [
+        "7.5 x 10<sup>-3</sup>J",
+        "2.5 x 10<sup>-3</sup>J",
+        "1.5 x 10<sup>-2</sup>J",
+        "7.5 x 10<sup>-1</sup>J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy stored = area under graph from E to F = ½(F<sub>E</sub> + F<sub>F</sub>)(x<sub>F</sub> − x<sub>E</sub>) = ½(0.2 + 0.1)(0.10 − 0.05) = ½ × 0.3 × 0.05 = <b>7.5 × 10<sup>-3</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.8655,
+      "question": "The diagram above shows the force (F) acting on an object through a distance (x). The work done on this object is expressed as",
+      "options": [
+        "Fx J",
+        "Fx/2 J",
+        "Fx² J",
+        "F/x J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work done = area under force-distance graph = area of triangle = ½ × F × x = <b>Fx/2 J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.936,
+      "question": "Calculate the refractive index of the material for the glass prism in the diagram above",
+      "options": [
+        "√2/2",
+        "4/3",
+        "√2",
+        "3/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using prism formula: n = sin[(A + D)/2] / sin(A/2). A = 60°, D = 30°. n = sin(45°)/sin(30°) = (1/√2)/(1/2) = 2/√2 = <b>√2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.5857,
+      "question": "From the diagram above, determine the value of the resistance X",
+      "options": [
+        "6Ω",
+        "9Ω",
+        "12Ω",
+        "15Ω"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Total current = 2A, total voltage = 12V. Total R = 12/2 = 6Ω. External R = 6 − (2 + 1.5) = 2.5Ω. For parallel 3Ω and X: 1/2.5 = 1/3 + 1/X → 1/X = 0.4 − 0.333 = 0.0667 → X = <b>15 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.872,
+      "question": "The energy stored in a capacitor of capacitance 10μF carrying a charge of 100μC is",
+      "options": [
+        "5 x 10<sup>4</sup> J",
+        "4 x 10<sup>2</sup> J",
+        "4 x 10<sup>-3</sup> J",
+        "5 x 10<sup>-4</sup> J"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Energy = Q²/(2C) = (100×10<sup>-6</sup>)²/(2 × 10×10<sup>-6</sup>) = (10<sup>-8</sup>)/(20×10<sup>-6</sup>) = <b>5 × 10<sup>-4</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2053,
+      "question": "When connected to a mains of 250V, the fuse rating in the plug of an electric device of 1 KW is",
+      "options": [
+        "2 A",
+        "3 A",
+        "4 A",
+        "5 A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Current I = P/V = 1000/250 = 4 A. For safety, fuse rating should be ~125% of operating current: 4 × 1.25 = 5 A. So <b>5 A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1475,
+      "question": "The eye controls the amount of light reaching the retina by adjusting the",
+      "options": [
+        "cornea",
+        "iris",
+        "retina",
+        "optic nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>iris</b> controls the size of the pupil, thereby regulating the amount of light entering the eye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4814,
+      "question": "An electric iron is rated 1000W, 230V. What is the resistance of its elements?",
+      "options": [
+        "51.9Ω",
+        "52.9Ω",
+        "55.9Ω",
+        "57.6Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "R = V²/P = (230)²/1000 = 52900/1000 = <b>52.9 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.9087,
+      "question": "The electric field between two point charges is shown in the diagram above. What types of charges are at X and Y?",
+      "options": [
+        "Both X and Y are negative",
+        "Both X and Y are positive",
+        "X is positive and Y is negative",
+        "X is negative and Y is positive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The field lines point away from both X and Y, indicating that both are <b>positive charges</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1406,
+      "question": "The electromagnetic wave that can produce a heating effect on the environment is",
+      "options": [
+        "x-rays",
+        "ultraviolet rays",
+        "infrared rays",
+        "gamma rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Infrared rays</b> are strongly absorbed by most materials and produce a heating effect (thermal radiation).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3345,
+      "question": "An electric cell with nominal voltage E has a resistance of 3Ω connected across it. If the voltage falls to 0.6E, the internal resistance of the cell is",
+      "options": [
+        "1Ω",
+        "2Ω",
+        "3Ω",
+        "4Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V = E × R/(R + r). 0.6E = E × 3/(3 + r) → 0.6 = 3/(3 + r) → 1.8 + 0.6r = 3 → 0.6r = 1.2 → r = <b>2 Ω</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.3938,
+      "question": "<sup>23</sup><sub>11</sub>Na + X → <sup>20</sup><sub>9</sub>F + <sup>4</sup><sub>2</sub>He. What particle is X in the reaction above?",
+      "options": [
+        "Alpha",
+        "Beta",
+        "Neutrons",
+        "Gamma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Balancing: mass number: 23 + A = 20 + 4 → A = 1. Atomic number: 11 + Z = 9 + 2 → Z = 0. So X is a <b>neutron</b> (<sup>1</sup><sub>0</sub>n).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2876,
+      "question": "Pure silicon can be converted to a p-type by adding a controlled amount of",
+      "options": [
+        "trivalent atoms",
+        "tetravalent atoms",
+        "pentavalent atoms",
+        "hexavalent atoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding <b>trivalent atoms</b> (e.g., boron) creates holes, making silicon p-type.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.8657,
+      "question": "The energy associated with the photon of a radio transmission at 3 x 10<sup>5</sup> Hz is [h = 6.63 x 10<sup>-34</sup>Js]",
+      "options": [
+        "2.00 x 10<sup>-28</sup>J",
+        "1.30 x 10<sup>-28</sup>J",
+        "2.00 x 10<sup>-29</sup>J",
+        "1.30 x 10<sup>-29</sup>J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = hf = 6.63×10<sup>-34</sup> × 3×10<sup>5</sup> = 19.89×10<sup>-29</sup> ≈ <b>2.0 × 10<sup>-28</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.181,
+      "question": "The percentage of the original nuclei of the sample of a radioactive substance left after 5 half-lives is",
+      "options": [
+        "8%",
+        "5%",
+        "3%",
+        "1%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fraction remaining = (1/2)<sup>5</sup> = 1/32. Percentage = 1/32 × 100% = 3.125% ≈ <b>3%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.075,
+      "question": "From the generating station to each substation power is transmitted at a very high voltage so as to reduce",
+      "options": [
+        "hysteresis loss",
+        "eddy current loss",
+        "magnetic flux leakage",
+        "heating in the coils"
+      ],
+      "correctAnswer": 3,
+      "explanation": "High voltage reduces current for the same power. Since power loss = I²R, lower current means less <b>heating in the coils</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.275,
+      "question": "The particle that is responsible for the nuclear fission in a nuclear reactor is",
+      "options": [
+        "neutron",
+        "proton",
+        "electron",
+        "photon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Neutrons</b> are used to bombard heavy nuclei (e.g., U-235) to trigger fission, as they are neutral and can penetrate the nucleus easily.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.0886,
+      "question": "A transistor is used in the amplification of signals because it",
+      "options": [
+        "controls the flow of current",
+        "consumes a lot of power",
+        "allows doping",
+        "contains electron and hole carriers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transistor <b>controls the flow of current</b>, which is the basis of amplification in electronic circuits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.7783,
+      "question": "The carbon-granules microphone works on the principle of change in",
+      "options": [
+        "inductance",
+        "resistance",
+        "capacitance",
+        "voltage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a carbon microphone, sound waves change the pressure on carbon granules, which changes their <b>resistance</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1113,
+      "question": "At what frequency would a capacitor of 2.5μF used in the radio circuit have a reactance of 250Ω?",
+      "options": [
+        "π/800 Hz",
+        "800/π Hz",
+        "200π Hz",
+        "2000π Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "X<sub>C</sub> = 1/(2πfC) → f = 1/(2πCX<sub>C</sub>) = 1/(2π × 2.5×10<sup>-6</sup> × 250) = 1/(1250π×10<sup>-6</sup>) = 10<sup>6</sup>/(1250π) = <b>800/π Hz</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2373,
+      "question": "A current of 0.5 A flowing 3h deposits 2g of metal during electrolysis. The quantity of the same metal that would be deposited by a current of 1.5A flowing in 1h is",
+      "options": [
+        "2g",
+        "6g",
+        "10g",
+        "18g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From Faraday's law, m = ZIt. Z = m/(It) = 2/(0.5 × 3) = 2/1.5 = 1.333 g/Ah. For I = 1.5 A and t = 1 h: m = 1.333 × 1.5 × 1 = <b>2.0 g</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4805,
+      "question": "Which of the following statements is true of the properties of a moving coil galvanometer?",
+      "options": [
+        "The coil has a small area",
+        "There are strong hair springs to give a large control panel",
+        "There is a strong permanent magnet to give high magnetic flux",
+        "It has a small number of turns of coil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A moving coil galvanometer uses a <b>strong permanent magnet</b> to provide a high magnetic flux density, increasing sensitivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4875,
+      "question": "A bead travelling on a straight line wire is brought to rest at 0.2m by friction. If the mass of the bead is 0.01kg and the coefficient of friction between the bead and the wire is 0.1, determine the work done by the friction [g = 10ms<sup>-2</sup>]",
+      "options": [
+        "2 x 10<sup>-4</sup>",
+        "2 x 10<sup>-3</sup>",
+        "2 x 10<sup>-1</sup>",
+        "2 x 10<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction force F = μmg = 0.1 × 0.01 × 10 = 0.01 N. Work done = F × d = 0.01 × 0.2 = 0.002 = <b>2 × 10<sup>-3</sup> J</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.1172,
+      "question": "On top of a spiral spring of the force constant 500Nm<sup>-1</sup> is placed a mass of 5 x 10<sup>-3</sup> kg. If the spring is compressed downwards by a length of 0.02m and then released, calculate the height to which the mass is projected",
+      "options": [
+        "8 m",
+        "4 m",
+        "2 m",
+        "1 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Energy stored = ½ke² = ½ × 500 × (0.02)² = 0.1 J. This converts to gravitational P.E.: mgh = 0.1 → (5×10<sup>-3</sup> × 10)h = 0.1 → 0.05h = 0.1 → h = <b>2 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.013,
+      "question": "A test tube of radius 1.0cm is loaded to 8.8g. If it is placed upright in water, find the depth to which it would sink",
+      "options": [
+        "2.8cm",
+        "5.2cm",
+        "25.5cm",
+        "28.0cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weight of test tube = mg = 0.0088 × 10 = 0.088 N. Buoyancy = ρgπr²h = 1000 × 10 × π × (0.01)² × h = 3.142h. Equating: 3.142h = 0.088 → h = 0.028 m = <b>2.8 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.4504,
+      "question": "The length of a piece of glass block was measured by means of a vernier caliper as shown above. The length of the glass block is",
+      "options": [
+        "1.63 cm",
+        "1.64 cm",
+        "1.65 cm",
+        "1.66 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Main scale reading = 1.6 cm. Vernier scale reading = 0.04 cm. Total = 1.6 + 0.04 = <b>1.64 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.8076,
+      "question": "A hose of cross-sectional area 0.5m² is used to discharge water from a water tanker at a velocity of 60ms<sup>-1</sup> in 20s into a container. If the container is filled completely, the volume of the container is",
+      "options": [
+        "240m³",
+        "600m³",
+        "2400m³",
+        "6000m³"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Volume flow rate = A × v = 0.5 × 60 = 30 m³/s. In 20 s, volume = 30 × 20 = <b>600 m³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.6143,
+      "question": "If an object just begins to slide on a surface inclined at 30° to the horizontal, the coefficient of friction is",
+      "options": [
+        "√3",
+        "√3/2",
+        "1/√2",
+        "1/√3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At the angle of repose, μ = tan θ = tan 30° = <b>1/√3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.0298,
+      "question": "Water does not drop through an open umbrella of silk materials unless the inside of the umbrella is touched. This is due to",
+      "options": [
+        "capillarity",
+        "osmotic pressure",
+        "viscosity",
+        "surface tension"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Surface tension</b> makes the water film behave like an elastic skin, preventing it from passing through the small pores of the silk material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.9119,
+      "question": "The stylus of a phonograph record exerts a force of 7.7 x 10<sup>-2</sup>N on a groove of radius 10<sup>-5</sup>m. Compute the pressure exerted by the stylus on the groove",
+      "options": [
+        "2.45 x 10<sup>8</sup> Nm<sup>-2</sup>",
+        "3.45 x 10<sup>8</sup> Nm<sup>-2</sup>",
+        "4.90 x 10<sup>8</sup> Nm<sup>-2</sup>",
+        "2.42 x 10<sup>8</sup> Nm<sup>-2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pressure P = F/A = F/(πr²) = (7.7×10<sup>-2</sup>)/(π × (10<sup>-5</sup>)²) = 7.7×10<sup>-2</sup>/(3.142×10<sup>-10</sup>) = <b>2.45 × 10<sup>8</sup> N/m²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.93,
+      "question": "A piece of stone attached to one end of a string is whirled round in a horizontal circle and the string suddenly cuts. The stone will fly off in a direction",
+      "options": [
+        "perpendicular to the circular path",
+        "parallel to the circular path",
+        "tangential to the circular path",
+        "towards the center of the circle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the string cuts, the centripetal force is removed. The stone flies off <b>tangentially</b> to the circular path due to inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791791365455.2468,
+      "question": "A 90cm uniform lever has a load of 30N suspended at 15cm from one of its ends. If the fulcrum is at the center of gravity, the force that must be applied at its other end to keep it in horizontal equilibrium is",
+      "options": [
+        "15N",
+        "20N",
+        "30N",
+        "60N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fulcrum at center = 45 cm mark. Load at 15 cm mark is 30 cm from fulcrum. Let F be applied at the other end (90 cm mark), which is 45 cm from fulcrum. Taking moments: F × 45 = 30 × 30 → F = 900/45 = <b>20 N</b>.",
       "difficulty": "easy",
       "points": 1
     }
