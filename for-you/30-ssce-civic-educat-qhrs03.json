@@ -3,16 +3,438 @@
   "title": "30 SSCE Civic Education Questions",
   "subject": "Civic Education",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
+    "canChangeTime": false,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791803416572.064,
+      "question": "Members of a society are expected to adhere to societal values for the following reasons except?",
+      "options": [
+        "enhancement of development",
+        "Improvement of self dignity",
+        "reduction of social vices",
+        "relegation of morality"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Societal values promote development, improve self-dignity, and reduce social vices. They do not relegate morality; rather, they uphold it. So the exception is relegation of morality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.0662,
+      "question": "An attribute of honesty is",
+      "options": [
+        "tolerance",
+        "justice",
+        "compromise",
+        "liberty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Honesty is closely linked with justice because it involves truthfulness, fairness, and integrity. Tolerance, compromise, and liberty are not direct attributes of honesty.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.1997,
+      "question": "Discipline is describe as the",
+      "options": [
+        "ability to show hospitality",
+        "state or quality of being brave",
+        "tendency to fight",
+        "ability to behave in a controlled manner"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Discipline means training that produces self-control and orderly conduct. It is the ability to behave in a controlled manner according to rules or standards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.2014,
+      "question": "The saying ''ask for what you can do for your own country and not what your country can do for you'' denotes that",
+      "options": [
+        "The country owes you no obligation as a citizen",
+        "citizens have both constitutional rights and obligation",
+        "fundamental rights are to be safeguarded by the citizens",
+        "service and reward does not go together"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The saying emphasizes civic responsibility: citizens should contribute to national development rather than only demanding benefits. It reflects that citizens have both rights and obligations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.9023,
+      "question": "In the contemporary society, youths can display nationalistic role by showing the following attitudes except",
+      "options": [
+        "discouraging corrupt practices",
+        "exploiting the environment for the betterment of the people",
+        "contributing to the development of the society",
+        "showing indifference to national issues"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nationalistic attitudes include fighting corruption, contributing to development, and responsible use of resources. Showing indifference to national issues is negative and unpatriotic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.7239,
+      "question": "The defence of the territorial integrity of a country by her people is part of?",
+      "options": [
+        "political participation",
+        "political culture",
+        "self determination",
+        "duties and obligation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Defending the nation is a civic duty and obligation of citizens. It is not merely political participation or culture; it is a required responsibility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.5227,
+      "question": "An agency established by the federal government of Nigeria to protect rights of citizens is",
+      "options": [
+        "center for human rights and development",
+        "human rights watch",
+        "legal aid council",
+        "human rights monitor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Center for Human Rights and Development is a Nigerian agency established to promote and protect human rights. Human Rights Watch and others are international or non-governmental.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.6675,
+      "question": "The universal declaration of human rights (UDHR) was adopted by?",
+      "options": [
+        "Economic Communities of West African states (ECOWAS)",
+        "United Nations Organisation (UNO)",
+        "African Union (AU)",
+        "European Union (EU)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Universal Declaration of Human Rights was adopted by the United Nations General Assembly in 1948. It is not an ECOWAS, AU, or EU document.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.234,
+      "question": "The best means through which individual rights can be safeguarded is",
+      "options": [
+        "knowledge acquisition",
+        "judicial independence",
+        "press censorship",
+        "improved standard of living"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An independent judiciary ensures that laws are applied fairly and rights are protected from abuse by the executive or legislature. Knowledge, living standards, and censorship do not guarantee rights.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.7546,
+      "question": "The effect of queuing up in public places is?",
+      "options": [
+        "orderliness",
+        "transparency",
+        "honesty",
+        "humility"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Queuing in public places promotes orderliness by ensuring fair and organized access to services. It does not directly cause transparency, honesty, or humility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.4043,
+      "question": "A father that effectively discharge his duty towards children could be described as?",
+      "options": [
+        "philanthropist",
+        "celebrity",
+        "responsible parent",
+        "permissive father"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A father who fulfills his duties toward his children is a responsible parent. A philanthropist helps others, a celebrity is famous, and a permissive father is overly lenient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.066,
+      "question": "A program established to foster common ties among Nigerians is",
+      "options": [
+        "Subsidy Re-investment Program (SURE-P)",
+        "Universal Basic Education (UBE)",
+        "Education Trust Fund (ETF)",
+        "National Youth Service Corps (NYSC)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The National Youth Service Corps (NYSC) was established to promote national unity and common ties among Nigerians. SURE-P, UBE, and ETF have different objectives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.464,
+      "question": "Uche's action based on the dialogue, can help in?",
+      "options": [
+        "reducing road accident",
+        "increasing air pollution",
+        "encourage public transportation",
+        "ensuring vehicle's functionality"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By fixing his faulty vehicle before driving, Uche reduces the risk of road accidents. His action is about safety, not pollution or public transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.5305,
+      "question": "An implication of Uche's action from the dialogue is that he is?",
+      "options": [
+        "afraid of federal road safety corps",
+        "considerate of other road users",
+        "afraid of civil defence corps",
+        "environmentally friendly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uche's decision to repair his vehicle shows consideration for the safety of other road users. It is not driven by fear of FRSC or civil defence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.13,
+      "question": "From the dialogue, it could be implied that uche is mindful of?",
+      "options": [
+        "driving school code",
+        "when to use public transport",
+        "traffic regulations",
+        "his obligations as a citizen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uche's action of not driving a faulty vehicle shows that he respects traffic regulations and road safety rules. It is not merely about driving school code or public transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.6294,
+      "question": "Which of the following is not a skill for settling inter-communal conflict?",
+      "options": [
+        "war",
+        "dialogue",
+        "mediation",
+        "arbitration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "War is not a peaceful method of settling inter-communal conflict; it destroys lives and property. Dialogue, mediation, and arbitration are peaceful conflict resolution skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.4424,
+      "question": "One of the advantages of inter-communal relationship is that it ensures the?",
+      "options": [
+        "existence of totalitarianism",
+        "domination of the minority by the majority",
+        "domination of the majority by the minority",
+        "enhancement of security"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Good inter-communal relationships promote peace, cooperation, and security. They do not encourage domination or totalitarianism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.4773,
+      "question": "Which of the following skills negates the promotion of interpersonal relationship?",
+      "options": [
+        "tolerance",
+        "selfishness",
+        "caring",
+        "kindness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Selfishness hinders interpersonal relationships because it shows lack of consideration for others. Tolerance, caring, and kindness promote good relationships.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.2288,
+      "question": "Which of the following is not a common way by which people abuse drugs?",
+      "options": [
+        "ingestion",
+        "intrusion",
+        "inhalation",
+        "injection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drugs are commonly abused by ingestion, inhalation, or injection. Intrusion means forcing entry into a place and is not a drug abuse method.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.4856,
+      "question": "The establishment of the National Drug Law Enforcement Agency (NDLEA) by the government was a measure to?",
+      "options": [
+        "make drugs available to the masses",
+        "prevent drug abuse",
+        "encourage the use of drugs by the masses",
+        "support importation of drugs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The NDLEA was established in 1989 to control and prevent drug abuse and trafficking in Nigeria. It does not promote drug availability or use.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.146,
+      "question": "A common repercussion for drug abuse is?",
+      "options": [
+        "medication",
+        "rehabilitation",
+        "brain drain",
+        "memory loss"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Drug abuse damages the brain and can cause memory loss, among other health problems. Medication and rehabilitation are responses, not repercussions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.3916,
+      "question": "Which of the following is a way of preventing drug trafficking?",
+      "options": [
+        "foreign scholarship",
+        "employment",
+        "motivation",
+        "indulging offenders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Providing employment opportunities reduces the financial temptation that leads people into drug trafficking. Indulging offenders would worsen the problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.5618,
+      "question": "A major consequence of human trafficking is?",
+      "options": [
+        "promotion of rural-urban drift",
+        "decline in literacy rate",
+        "increase rate of youth employment",
+        "increased exploitation of the ignorant"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Human trafficking leads to exploitation of vulnerable and ignorant individuals for forced labour, prostitution, or organ harvesting. It does not promote employment or literacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.515,
+      "question": "Human trafficking results into all of the following except?",
+      "options": [
+        "prostitution",
+        "migration",
+        "criminality",
+        "welfarism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Human trafficking leads to prostitution, irregular migration, and criminality. It does not lead to welfarism; rather, it causes suffering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.842,
+      "question": "The group of individuals in the society that are most prone to human trafficking are?",
+      "options": [
+        "women and children",
+        "youths women and men",
+        "men and vulnerable children",
+        "old and weak individuals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Women and children are the most vulnerable and most frequently trafficked groups. Men, youths, and the elderly are also at risk but less so.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.4065,
+      "question": "An enlightenment and awareness campaign on HIV/AIDS could?",
+      "options": [
+        "lead to descrimination",
+        "create job opportunities",
+        "cause conflict",
+        "provide people with genuine information"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Awareness campaigns provide accurate information about HIV/AIDS, helping to prevent infection and reduce stigma. They do not cause discrimination or conflict.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.3098,
+      "question": "Which of the following is not a form of stigmatization",
+      "options": [
+        "refusal to interact with family of an HIV patient",
+        "physical and verbal abuse of an HIV patient",
+        "ostracizing HIV patients",
+        "enlightening people living with HIV/AIDS"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Stigmatization includes refusal to interact, abuse, and ostracizing. Enlightening people about HIV/AIDS is a positive action that reduces stigma.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.8613,
+      "question": "Testing of blood before tranfusion will really help to?",
+      "options": [
+        "spread HIV",
+        "control HIV",
+        "eradicate HIV",
+        "prevent HIV"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Screening blood before transfusion prevents the transmission of HIV from an infected donor to a recipient. It does not spread or eradicate HIV.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.8052,
+      "question": "From the above report, which of the following is the major consequence of the intervention programme",
+      "options": [
+        "increase in self reliance skills",
+        "promotion of inter-communal relationship",
+        "provision of infrastructural facilities",
+        "acceleration of national development"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intervention programme equipped youths with skills that made them self-reliant, reducing idleness and social problems. The other options are broader or not the main consequence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791803416572.6804,
+      "question": "One of the functions of local govrernment is?",
+      "options": [
+        "settlement of intra party crisis",
+        "making of bye laws",
+        "formulation of monetary policies",
+        "delimitation of constituencies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Local governments make bye-laws to govern their local areas. Monetary policies and constituency delimitation are federal functions.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
