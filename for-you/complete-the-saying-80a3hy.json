@@ -3,16 +3,438 @@
   "title": "Complete the Saying",
   "subject": "English Language",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
+    "canChangeTime": false,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791804069580.9382,
+      "question": "Complete the saying: \"A stitch in time saves _____\"",
+      "options": [
+        "Nine",
+        "Ten",
+        "Two",
+        "One"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The full proverb is \"A stitch in time saves nine\" — fixing a small problem early prevents nine more.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.7021,
+      "question": "Complete the saying: \"The early bird catches the _____\"",
+      "options": [
+        "Fish",
+        "Worm",
+        "Sun",
+        "Wind"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rising early gives you the first opportunity — the bird that is up first gets the worm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.3704,
+      "question": "Complete the saying: \"Don't count your chickens before they _____\"",
+      "options": [
+        "Run",
+        "Hatch",
+        "Eat",
+        "Sleep"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Don't assume success before it actually happens — an egg is not yet a chicken.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.2686,
+      "question": "Complete the saying: \"Actions speak louder than _____\"",
+      "options": [
+        "Words",
+        "Sounds",
+        "Voices",
+        "Shouts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "What you do matters more than what you say you will do.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.6858,
+      "question": "Complete the saying: \"Better late than _____\"",
+      "options": [
+        "Soon",
+        "Never",
+        "Early",
+        "Always"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Doing something late is still better than not doing it at all.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.4487,
+      "question": "Complete the saying: \"Birds of a feather _____\"",
+      "options": [
+        "Fly away",
+        "Sing together",
+        "Flock together",
+        "Fly south"
+      ],
+      "correctAnswer": 2,
+      "explanation": "People with similar interests, character, or background tend to group together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.4368,
+      "question": "Complete the saying: \"Every cloud has a silver _____\"",
+      "options": [
+        "Rain",
+        "Lining",
+        "Shadow",
+        "Edge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Even bad situations have something hopeful in them — the silver lining behind the cloud.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.2815,
+      "question": "Complete the saying: \"Honesty is the best _____\"",
+      "options": [
+        "Choice",
+        "Habit",
+        "Policy",
+        "Virtue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The full proverb is \"Honesty is the best policy\" — telling the truth is always wisest in the long run.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.9998,
+      "question": "Complete the saying: \"Look before you _____\"",
+      "options": [
+        "Run",
+        "Leap",
+        "Jump",
+        "Walk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Think carefully before you act on something important.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.8674,
+      "question": "Complete the saying: \"Practice makes _____\"",
+      "options": [
+        "Better",
+        "Wise",
+        "Perfect",
+        "Strong"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Repeatedly doing something makes you better at it — the practice eventually produces mastery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.8535,
+      "question": "Complete the saying: \"The pen is mightier than the _____\"",
+      "options": [
+        "Sword",
+        "Spear",
+        "Gun",
+        "Shield"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Writing and ideas can change the world more powerfully than violence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.16,
+      "question": "Complete the saying: \"Two heads are better than _____\"",
+      "options": [
+        "Three",
+        "None",
+        "One",
+        "Two"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two people thinking together solve problems better than one person alone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.4097,
+      "question": "Complete the saying: \"When in Rome, do as the _____ do\"",
+      "options": [
+        "Romans",
+        "Locals",
+        "Italians",
+        "Romans"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adapt to the customs and behaviour of the place you are in.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.6455,
+      "question": "Complete the saying: \"You can't judge a book by its _____\"",
+      "options": [
+        "Pages",
+        "Title",
+        "Cover",
+        "Author"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Don't form an opinion of someone or something based only on outward appearance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.3262,
+      "question": "Complete the saying: \"All that glitters is not _____\"",
+      "options": [
+        "Silver",
+        "Gold",
+        "Diamond",
+        "Money"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Something that looks attractive or valuable is not always what it appears to be.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.698,
+      "question": "Complete the saying: \"Rome wasn't built in a _____\"",
+      "options": [
+        "Year",
+        "Month",
+        "Day",
+        "Week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Great things take time to accomplish; don't rush important work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.569,
+      "question": "Complete the saying: \"Necessity is the mother of _____\"",
+      "options": [
+        "Wisdom",
+        "Wealth",
+        "Invention",
+        "Success"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When you really need something, you find a way to make it — need drives creativity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.0415,
+      "question": "Complete the saying: \"Where there's a will, there's a _____\"",
+      "options": [
+        "Hope",
+        "Way",
+        "Road",
+        "Dream"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If you are determined enough, you will find a way to achieve your goal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.2341,
+      "question": "Complete the saying: \"Strike while the iron is _____\"",
+      "options": [
+        "Soft",
+        "Hard",
+        "Hot",
+        "Cold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Act while the opportunity is still available — like a blacksmith working hot iron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.831,
+      "question": "Complete the saying: \"The grass is always greener on the other _____\"",
+      "options": [
+        "Field",
+        "Side",
+        "Farm",
+        "Yard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "People always think others have it better than they do — an illusion of greener grass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.1702,
+      "question": "Complete the saying: \"Absence makes the heart grow _____\"",
+      "options": [
+        "Weaker",
+        "Wiser",
+        "Fonder",
+        "Stronger"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Being away from someone you love makes you appreciate and miss them more.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.7124,
+      "question": "Complete the saying: \"Too many cooks spoil the _____\"",
+      "options": [
+        "Soup",
+        "Broth",
+        "Food",
+        "Stew"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Too many people trying to manage the same task usually ruin the result.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.6292,
+      "question": "Complete the saying: \"A rolling stone gathers no _____\"",
+      "options": [
+        "Sand",
+        "Dirt",
+        "Moss",
+        "Dust"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Someone who keeps moving or changing does not accumulate lasting connections or wealth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.5945,
+      "question": "Complete the saying: \"Charity begins at _____\"",
+      "options": [
+        "Church",
+        "School",
+        "Home",
+        "Work"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Take care of your own family and community before trying to help others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.273,
+      "question": "Complete the saying: \"Prevention is better than _____\"",
+      "options": [
+        "Cure",
+        "Medicine",
+        "Remedy",
+        "Treatment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It's easier to stop something from happening than to fix it after it has happened.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.429,
+      "question": "Complete the saying: \"Once bitten, twice _____\"",
+      "options": [
+        "Wounded",
+        "Shy",
+        "Wise",
+        "Hurt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After being hurt or cheated once, a person becomes cautious the second time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.7275,
+      "question": "Complete the saying: \"The pot calling the kettle _____\"",
+      "options": [
+        "Silver",
+        "Ugly",
+        "Black",
+        "Old"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accusing someone of a fault you have yourself — both pot and kettle are blackened by fire.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.4934,
+      "question": "Complete the saying: \"Blood is thicker than _____\"",
+      "options": [
+        "Oil",
+        "Water",
+        "Milk",
+        "Sand"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Family bonds are stronger than other relationships.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.868,
+      "question": "Complete the Nigerian saying: \"When the moon is shining, the cripple becomes hungry for a _____\"",
+      "options": [
+        "Meal",
+        "Fight",
+        "Walk",
+        "Rest"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From Chinua Achebe's \"Things Fall Apart\" — a favourable situation can motivate even the least likely person.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791804069580.1777,
+      "question": "Complete the saying: \"It takes a village to raise a _____\"",
+      "options": [
+        "Leader",
+        "Family",
+        "Child",
+        "Community"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An African proverb — raising a child well requires the effort of the whole community.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
