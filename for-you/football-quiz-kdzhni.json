@@ -3,16 +3,438 @@
   "title": "Football Quiz",
   "subject": "Quizzes For You",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791802572884.3442,
+      "question": "Which country has won the most FIFA World Cup titles?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Brazil",
+        "Argentina"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brazil has won the World Cup 5 times — 1958, 1962, 1970, 1994, and 2002.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572884.7976,
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "options": [
+        "Russia",
+        "Qatar",
+        "Brazil",
+        "South Africa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Qatar hosted the 2022 World Cup, the first tournament held in the Middle East.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572884.5483,
+      "question": "Who won the 2022 FIFA World Cup?",
+      "options": [
+        "France",
+        "Brazil",
+        "Argentina",
+        "Croatia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Argentina beat France on penalties after a 3-3 draw in the final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572884.5781,
+      "question": "Which country won the first-ever FIFA World Cup in 1930?",
+      "options": [
+        "Brazil",
+        "Uruguay",
+        "Italy",
+        "Argentina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uruguay hosted and won the 1930 World Cup, beating Argentina 4-2 in the final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572884.6238,
+      "question": "Who scored the famous \"Hand of God\" goal?",
+      "options": [
+        "Pelé",
+        "Diego Maradona",
+        "Ronaldo",
+        "Zinedine Zidane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maradona scored it against England in the 1986 World Cup quarter-final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.8584,
+      "question": "Who is the all-time top scorer in FIFA World Cup history?",
+      "options": [
+        "Pelé",
+        "Ronaldo",
+        "Miroslav Klose",
+        "Gerd Müller"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Miroslav Klose scored 16 World Cup goals, surpassing Ronaldo's 15 in 2014.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.8342,
+      "question": "Which country has appeared in every FIFA World Cup?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Argentina",
+        "Brazil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Brazil is the only nation to have played in every World Cup tournament.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.575,
+      "question": "How many times has Brazil won the World Cup?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brazil has 5 World Cup titles — 1958, 1962, 1970, 1994, and 2002.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.7002,
+      "question": "Who won the Golden Boot at the 2022 World Cup?",
+      "options": [
+        "Lionel Messi",
+        "Kylian Mbappé",
+        "Olivier Giroud",
+        "Julián Álvarez"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mbappé scored 8 goals, the most in the tournament, including a hat-trick in the final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.4294,
+      "question": "Which African country was the first to reach the World Cup quarter-finals?",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Cameroon",
+        "Senegal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cameroon reached the quarter-finals in 1990, losing to England in extra time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.9202,
+      "question": "Who has won the most Ballon d'Or awards?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Michel Platini",
+        "Johan Cruyff"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lionel Messi has won 8 Ballon d'Or awards, more than any other player in history.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.515,
+      "question": "Which player has scored the most international goals?",
+      "options": [
+        "Pelé",
+        "Ali Daei",
+        "Cristiano Ronaldo",
+        "Lionel Messi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cristiano Ronaldo broke Ali Daei's record of 109 international goals in 2021.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.3318,
+      "question": "Who is Nigeria's all-time top scorer?",
+      "options": [
+        "Nwankwo Kanu",
+        "Rashidi Yekini",
+        "Jay-Jay Okocha",
+        "Victor Osimhen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rashidi Yekini scored 37 goals for Nigeria, still the national record.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.217,
+      "question": "Who is the youngest player to score in a World Cup final?",
+      "options": [
+        "Kylian Mbappé",
+        "Pelé",
+        "Michael Owen",
+        "Ronaldo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pelé was 17 years old when he scored in the 1958 World Cup final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.136,
+      "question": "Which club has won the most UEFA Champions League titles?",
+      "options": [
+        "AC Milan",
+        "Bayern Munich",
+        "Liverpool",
+        "Real Madrid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Real Madrid has won the European Cup / Champions League more than any other club.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.7317,
+      "question": "Which English club has won the most Premier League titles?",
+      "options": [
+        "Chelsea",
+        "Manchester City",
+        "Manchester United",
+        "Liverpool"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Manchester United has 13 Premier League titles, more than any other club.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.3374,
+      "question": "Which club is known as \"The Red Devils\"?",
+      "options": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "Chelsea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Manchester United's nickname is \"The Red Devils\".",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.8704,
+      "question": "How many players are on the field per team in a standard football match?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each team fields 11 players, including the goalkeeper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.2266,
+      "question": "How long is a standard football match?",
+      "options": [
+        "60 minutes",
+        "80 minutes",
+        "90 minutes",
+        "120 minutes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A standard match is two 45-minute halves, totalling 90 minutes plus stoppage time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.4873,
+      "question": "What is it called when a player scores three goals in one match?",
+      "options": [
+        "Brace",
+        "Hat-trick",
+        "Triple",
+        "Treble"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three goals in one game is called a hat-trick.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.9785,
+      "question": "What colour card means a player is sent off?",
+      "options": [
+        "Yellow",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A red card means immediate dismissal. Two yellow cards in one match also result in a red.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.0776,
+      "question": "Which country has won the most Africa Cup of Nations titles?",
+      "options": [
+        "Cameroon",
+        "Ghana",
+        "Egypt",
+        "Nigeria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Egypt has won the AFCON 7 times, more than any other nation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.1467,
+      "question": "Which country won the 2023 Africa Cup of Nations?",
+      "options": [
+        "Nigeria",
+        "South Africa",
+        "Ivory Coast",
+        "Senegal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ivory Coast won AFCON 2023 as hosts, beating Nigeria 2-1 in the final.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.5208,
+      "question": "What is the nickname of the Nigerian national football team?",
+      "options": [
+        "Black Stars",
+        "Super Eagles",
+        "Indomitable Lions",
+        "Elephants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nigeria's national team is known as the Super Eagles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.3682,
+      "question": "Which stadium is the largest in Africa by capacity?",
+      "options": [
+        "Cairo International Stadium",
+        "FNB Stadium, Johannesburg",
+        "Stade Mohammed V, Casablanca",
+        "Abuja National Stadium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FNB Stadium (Soccer City) in Johannesburg seats about 94,000 people.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.0676,
+      "question": "Which country won the 2018 FIFA World Cup?",
+      "options": [
+        "Germany",
+        "Brazil",
+        "France",
+        "Croatia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "France beat Croatia 4-2 in the 2018 final in Russia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.6204,
+      "question": "Who scored a hat-trick in the 2022 World Cup final?",
+      "options": [
+        "Lionel Messi",
+        "Kylian Mbappé",
+        "Ángel Di María",
+        "Antoine Griezmann"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mbappé scored three goals in the final; Argentina still won on penalties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.77,
+      "question": "What is the maximum number of substitutions allowed per team in most modern competitions?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 2020, most competitions allow up to 5 substitutions per team per match.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.8723,
+      "question": "Which player has scored the most goals in a single Premier League season?",
+      "options": [
+        "Mohamed Salah",
+        "Erling Haaland",
+        "Alan Shearer",
+        "Harry Kane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Erling Haaland scored 36 goals in the 2022-23 Premier League season.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791802572885.953,
+      "question": "Which club plays its home matches at Camp Nou?",
+      "options": [
+        "Real Madrid",
+        "Atlético Madrid",
+        "Barcelona",
+        "Sevilla"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Camp Nou is the home stadium of FC Barcelona.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
