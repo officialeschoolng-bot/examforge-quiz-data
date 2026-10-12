@@ -3,16 +3,438 @@
   "title": "Thirty IQ Testing Questions",
   "subject": "IQ Test",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791801541929.948,
+      "question": "What number comes next: 2, 4, 8, 16, ?",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "36"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each number doubles the previous one (2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541934.832,
+      "question": "What number comes next: 1, 4, 9, 16, 25, ?",
+      "options": [
+        "30",
+        "36",
+        "42",
+        "49"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, so 6²=36.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.8901,
+      "question": "What number comes next: 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fibonacci sequence — each term is the sum of the two before it (5 + 8 = 13).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.4058,
+      "question": "What number comes next: 1, 8, 27, 64, ?",
+      "options": [
+        "100",
+        "121",
+        "125",
+        "144"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These are perfect cubes: 1³=1, 2³=8, 3³=27, 4³=64, so 5³=125.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.3142,
+      "question": "What number comes next: 81, 27, 9, 3, ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each term is divided by 3 (81÷3=27, 27÷3=9, 9÷3=3, 3÷3=1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.45,
+      "question": "What number comes next: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add 4, 6, 8, 10, 12 — the gap grows by 2 each time. 30 + 12 = 42.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.9644,
+      "question": "What number comes next: 3, 6, 11, 18, 27, ?",
+      "options": [
+        "36",
+        "37",
+        "38",
+        "40"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Add 3, 5, 7, 9, 11 — odd numbers in order. 27 + 11 = 38.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.4321,
+      "question": "Which letter comes next: A, C, E, G, ?",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skip one letter each time: A (skip B) C (skip D) E (skip F) G (skip H) I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.3389,
+      "question": "Which letter comes next: Z, X, V, T, ?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "U"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Going backwards by 2 each step: Z → X → V → T → R.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.4282,
+      "question": "Which letter comes next: J, F, M, A, M, J, ?",
+      "options": [
+        "A",
+        "J",
+        "M",
+        "S"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First letters of the months — January, February, March, April, May, June, July.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.4998,
+      "question": "Which one does not belong?",
+      "options": [
+        "Apple",
+        "Banana",
+        "Carrot",
+        "Orange"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carrot is a vegetable; the others are fruits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.8645,
+      "question": "Which one does not belong?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Lion",
+        "Chair"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chair is a piece of furniture; the others are animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.96,
+      "question": "Which one does not belong?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 3,
+      "explanation": "9 is the only even-divisible number here — 3, 5, and 7 are prime, but 9 is composite (3 × 3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.7651,
+      "question": "Book is to Reading as Fork is to:",
+      "options": [
+        "Cooking",
+        "Eating",
+        "Cutting",
+        "Kitchen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A book is the tool used for reading; a fork is the tool used for eating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.1982,
+      "question": "Doctor is to Hospital as Teacher is to:",
+      "options": [
+        "Book",
+        "Student",
+        "School",
+        "Lesson"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A doctor works in a hospital; a teacher works in a school.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.3486,
+      "question": "Bird is to Fly as Fish is to:",
+      "options": [
+        "Water",
+        "Swim",
+        "Scale",
+        "River"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship is the action the animal performs — a bird flies, a fish swims.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.1091,
+      "question": "Finger is to Hand as Leaf is to:",
+      "options": [
+        "Green",
+        "Tree",
+        "Branch",
+        "Forest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A finger is part of a hand; a leaf is part of a tree.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.8967,
+      "question": "Hot is to Cold as Day is to:",
+      "options": [
+        "Sun",
+        "Light",
+        "Night",
+        "Morning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hot and cold are opposites; day and night are opposites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.182,
+      "question": "If 3 cats catch 3 mice in 3 minutes, how long would it take 100 cats to catch 100 mice?",
+      "options": [
+        "3 minutes",
+        "33 minutes",
+        "100 minutes",
+        "1 minute"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each cat catches one mouse in 3 minutes. So 100 cats catch 100 mice in the same 3 minutes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.633,
+      "question": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+      "options": [
+        "$0.10",
+        "$0.05",
+        "$0.15",
+        "$0.01"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the ball is $0.05, the bat is $1.05 ($1.00 more). Total = $1.10. The tempting answer $0.10 makes the bat $1.10, totalling $1.20.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.4697,
+      "question": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+      "options": [
+        "5 minutes",
+        "20 minutes",
+        "100 minutes",
+        "1 minute"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each machine takes 5 minutes to make one widget. 100 machines working in parallel still finish in 5 minutes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541938.5537,
+      "question": "All men are mortal. Socrates is a man. Therefore:",
+      "options": [
+        "Socrates is mortal",
+        "Socrates is a god",
+        "All mortals are men",
+        "Socrates is immortal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a classic syllogism. If the two premises are true, the conclusion must be that Socrates is mortal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.0886,
+      "question": "Mary is twice as old as Ann. Ann is 5 years old. How old is Mary?",
+      "options": [
+        "7",
+        "10",
+        "15",
+        "25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Twice as old means multiply by 2. 5 × 2 = 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.0647,
+      "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
+      "options": [
+        "8",
+        "9",
+        "17",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"All but 9 die\" means 9 survive. The answer is 9, not 17 − 9.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.8582,
+      "question": "Which shape has the most sides?",
+      "options": [
+        "Triangle",
+        "Square",
+        "Pentagon",
+        "Hexagon"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Triangle has 3, square has 4, pentagon has 5, hexagon has 6. The hexagon has the most.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.6118,
+      "question": "Which word has the most letters?",
+      "options": [
+        "Cat",
+        "Dog",
+        "Elephant",
+        "Bird"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cat = 3, Dog = 3, Elephant = 8, Bird = 4. Elephant has the most.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.378,
+      "question": "What number comes next: 1, 4, 7, 10, ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add 3 each time (arithmetic sequence). 10 + 3 = 13.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.35,
+      "question": "What is 15% of 200?",
+      "options": [
+        "15",
+        "25",
+        "30",
+        "45"
+      ],
+      "correctAnswer": 2,
+      "explanation": "15% of 200 = 0.15 × 200 = 30.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.0818,
+      "question": "Which letter is 5th from the end of the alphabet?",
+      "options": [
+        "V",
+        "W",
+        "X",
+        "U"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Counting backwards from Z: Z (1st), Y (2nd), X (3rd), W (4th), V (5th).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791801541939.3801,
+      "question": "If 7 × ? = 56, what is the missing number?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "56 ÷ 7 = 8, so the missing number is 8.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
