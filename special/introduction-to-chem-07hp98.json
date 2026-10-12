@@ -3,16 +3,708 @@
   "title": "Introduction to Chemistry",
   "subject": "Chemistry",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 49,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791795239784.2563,
+      "question": "Which of the following is an example of a mixture?",
+      "options": [
+        "Common salt",
+        "Blood",
+        "Sand",
+        "Washing soda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood is a mixture because it consists of different substances (plasma, red blood cells, white blood cells, platelets) that are not chemically combined and can be separated by physical means. Common salt (NaCl), sand (SiO2), and washing soda (Na2CO3·10H2O) are compounds with fixed compositions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.007,
+      "question": "Which of the following substances is a mixture?",
+      "options": [
+        "Sulphur powder",
+        "Bronze",
+        "Distilled water",
+        "Ethanol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bronze is an alloy (a mixture) of copper and tin, with variable composition. Sulphur powder is an element, distilled water is a compound (H2O), and ethanol is a compound (C2H5OH).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.621,
+      "question": "A balanced chemical equation obeys the law of",
+      "options": [
+        "conservation of mass",
+        "definite proportions",
+        "multiple proportions",
+        "conservation of energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A balanced chemical equation has the same number of atoms of each element on both sides, which directly reflects the law of conservation of mass: matter is neither created nor destroyed in a chemical reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.9548,
+      "question": "Which of the following is a physical change?",
+      "options": [
+        "Freezing ice cream",
+        "dissolving calcium in water",
+        "burning kerosene",
+        "Exposing white phosphorus to air"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freezing ice cream is a physical change because it involves a change of state (liquid to solid) without altering the chemical composition. Dissolving calcium, burning kerosene, and exposing white phosphorus to air all involve chemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.6548,
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        "Dissolution of salt in water",
+        "Rusting of iron",
+        "Melting of ice",
+        "Separating a mixture by distillation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rusting of iron is a chemical change because iron reacts with oxygen and water to form hydrated iron(III) oxide, a new substance. The other options are physical changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.5554,
+      "question": "A difference between chemical and physical change is that in a chemical change",
+      "options": [
+        "oxygen is consumed",
+        "heat is supplied",
+        "a reversible process occurs",
+        "a new substance is formed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The key difference is that a chemical change always produces one or more new substances with different properties, while a physical change does not alter the chemical identity of the substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.823,
+      "question": "Which of the following properties is NOT peculiar to matter?",
+      "options": [
+        "kinetic energy of particles increase from solid to gas",
+        "Random motion of particles increases from liquid to gas",
+        "Orderliness of particles increases from gas to liquid",
+        "Random motion of particles increases from gas to solid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Random motion of particles actually decreases from gas to solid, not increases. As a substance changes from gas to solid, the particles become more ordered and their random motion decreases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.384,
+      "question": "The fundamental difference between the three states of matter is the",
+      "options": [
+        "shape of their particles",
+        "number of particles in each state",
+        "shape of the container they occupy",
+        "degree of movement of their particles"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The states of matter (solid, liquid, gas) differ primarily in the freedom of movement of their particles and the strength of intermolecular forces. Solids have vibrating particles, liquids have loosely moving particles, and gases have fast, random motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.9514,
+      "question": "A liquid begins to boil when",
+      "options": [
+        "its vapour pressure is equal to the vapour pressure of its solid at the given temperature",
+        "molecules start escaping from its surface",
+        "its vapour pressure equals the atmosphere pressure",
+        "its volume is slightly increased"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boiling occurs when the saturated vapour pressure of the liquid becomes equal to the external atmospheric pressure, allowing bubbles of vapour to form throughout the liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.3933,
+      "question": "The shape of s-orbitals is",
+      "options": [
+        "spherical",
+        "elliptical",
+        "spiral",
+        "circular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An s-orbital is spherically symmetric around the nucleus. Its shape is a sphere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.1362,
+      "question": "Which of the following apparatus can be used to measure accurately a specific volume of a liquid?",
+      "options": [
+        "Beaker",
+        "Conical flask",
+        "Measuring cylinder",
+        "Pipette"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A pipette is designed to deliver a single, accurate, fixed volume of liquid. Beakers and conical flasks are not for accurate measurement; a measuring cylinder is less accurate than a pipette.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.1216,
+      "question": "The filter in the cigarette reduces the nicotine content by",
+      "options": [
+        "Burning",
+        "Adsorption",
+        "Evaporation",
+        "Absorption"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The filter contains adsorbent materials (like activated charcoal) that adsorb nicotine and other harmful substances onto their surface, reducing the amount inhaled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.548,
+      "question": "A substance that is used as a ripening agent for fruits is",
+      "options": [
+        "ethene",
+        "propene",
+        "methane",
+        "butane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethene (ethylene) is a plant hormone that naturally triggers fruit ripening. It is used commercially to ripen fruits like bananas and tomatoes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.014,
+      "question": "Which of the following is used to hasten the ripening of fruit?",
+      "options": [
+        "Ethene",
+        "Ethanol",
+        "Ethyne",
+        "Ethane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethene gas is widely used to hasten the ripening of fruits in storage and transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.6094,
+      "question": "The gas that is most useful in protecting humans against solar radiation is",
+      "options": [
+        "chlorine",
+        "ozone",
+        "carbon (IV) oxide",
+        "hydrogen sulphide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ozone (O3) in the stratosphere absorbs most of the Sun's harmful ultraviolet radiation, protecting living organisms from skin cancer and other damage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.2712,
+      "question": "Which of the following is used in fire extinguishers?",
+      "options": [
+        "Carbon (II) oxide",
+        "Carbon (IV) oxide",
+        "Sulphur (IV) oxide",
+        "Ammonia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbon dioxide (CO2) is used in fire extinguishers because it is non-flammable, denser than air, and smothers fires by displacing oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.3716,
+      "question": "Which of the following is used as an anaesthetic?",
+      "options": [
+        "CHI3",
+        "CHCl3",
+        "CH3OH",
+        "C2H5OH",
+        "CHBr3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chloroform (CHCl3) was historically used as an anaesthetic. It is a volatile, sweet-smelling liquid that induces unconsciousness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.1033,
+      "question": "Which of the following is used in the manufacture of bleaching powder?",
+      "options": [
+        "Sulphur dioxide",
+        "Chlorine",
+        "Hydrogen tetraoxosulphate (VI)",
+        "Hydrogen sulphide",
+        "Nitrogen dioxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bleaching powder (calcium oxychloride, CaOCl2) is manufactured by passing chlorine gas over dry slaked lime, Ca(OH)2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.0034,
+      "question": "Which of the following is used as an anti-knock in automobile engines?",
+      "options": [
+        "Tetramethyl silane",
+        "Lead tetra-ethyl",
+        "Glycerol",
+        "n-heptane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tetraethyl lead (Pb(C2H5)4) was widely used as an anti-knock agent in petrol to improve engine performance, though it has been phased out due to toxicity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.5815,
+      "question": "The major source of oxides of nitrogen is from the burning of",
+      "options": [
+        "coal",
+        "wood",
+        "fuel",
+        "chlorofluorocarbons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Oxides of nitrogen (NOx) are primarily produced during the high-temperature combustion of fuels in vehicle engines and industrial furnaces, where nitrogen and oxygen in the air combine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.6426,
+      "question": "The gas that is the most dangerous pollutant to human is",
+      "options": [
+        "sulphur (IV) oxide",
+        "carbon (IV) oxide",
+        "nitrogen (II) oxide",
+        "hydrogen sulphide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hydrogen sulphide (H2S) is extremely toxic; it inhibits the respiratory system and can cause death even at low concentrations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.171,
+      "question": "Which of the following pollutants is associated with brain damage?",
+      "options": [
+        "Carbon (II) oxide",
+        "Radioactive fallout",
+        "Biodegradable waste",
+        "Sulphur (IV) oxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon monoxide (CO) binds to haemoglobin more strongly than oxygen, forming carboxyhaemoglobin and reducing oxygen delivery to the brain and other organs, leading to brain damage or death.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.784,
+      "question": "A consequence of global warming is",
+      "options": [
+        "air pollution",
+        "water pollution",
+        "increased humidity",
+        "flooding"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Global warming leads to rising sea levels and more extreme weather events, including increased flooding in coastal and low-lying areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.9165,
+      "question": "The greenhouse effect is a climatic condition associated with the presence of excess",
+      "options": [
+        "carbon (IV) oxide",
+        "hydrogen sulphide",
+        "nitrogen (II) oxide",
+        "ammonia gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Excess carbon dioxide (CO2) and other greenhouse gases trap heat in the atmosphere, enhancing the greenhouse effect and causing global warming.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.251,
+      "question": "Which of the following is not a heavy chemical?",
+      "options": [
+        "AgNO3",
+        "CaO",
+        "CaOCl2",
+        "H2SO4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heavy chemicals are produced in large quantities for industrial use, e.g., CaO, CaOCl2, H2SO4. Silver nitrate (AgNO3) is a fine chemical, produced in smaller quantities for laboratory and specialized uses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.5173,
+      "question": "Which of the following substances is a heavy chemical?",
+      "options": [
+        "Ammonia",
+        "Barium hydroxide",
+        "Hydrochloric acid",
+        "Tetraoxosulphate(VI) acid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tetraoxosulphate(VI) acid (sulphuric acid, H2SO4) is a heavy chemical produced in huge quantities for industrial processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.9824,
+      "question": "Which of the following statements about fine chemical is correct? It",
+      "options": [
+        "is injurious to health",
+        "has low degree of purity",
+        "is produced in relatively small amount",
+        "can be stored for a long time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fine chemicals are produced in small quantities, often in batch processes, and are typically high-purity substances used in pharmaceuticals, research, etc.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.7422,
+      "question": "The major raw material in a plastic industry is",
+      "options": [
+        "ethanol",
+        "sulphur",
+        "methylethanoate",
+        "ethene",
+        "ethane"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ethene (ethylene) is the primary raw material for the production of polyethylene and many other plastics through polymerization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239784.7559,
+      "question": "Which of the following raw materials is used in the plastic industry?",
+      "options": [
+        "Ethene",
+        "Methane",
+        "Sulphur",
+        "Hydrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethene is polymerized to form polyethylene, a common plastic. It is the key raw material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.4993,
+      "question": "The industrial preparation of hydrogen gas from water gas is referred to as",
+      "options": [
+        "Bosch process",
+        "Contact process",
+        "Haber process",
+        "Bayer process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Bosch process involves the reaction of steam with carbon monoxide (from water gas) to produce hydrogen and carbon dioxide. It is used for industrial hydrogen production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.6074,
+      "question": "The main function of limestone in the blast furnace is to",
+      "options": [
+        "act as reducing agent",
+        "act as catalyst",
+        "remove impurities",
+        "supply carbon (IV) oxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Limestone (CaCO3) decomposes to calcium oxide (CaO), which reacts with silica impurities (SiO2) to form slag (calcium silicate), thus removing impurities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.0562,
+      "question": "The active reducing agent in the blast furnace for the extraction of iron is",
+      "options": [
+        "carbon",
+        "limestone",
+        "carbon(II) oxide",
+        "calcium oxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carbon monoxide (CO) is the actual reducing agent that reduces iron ore (Fe2O3) to molten iron in the blast furnace.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.0276,
+      "question": "Which of the following processes does not involve the use of limestone?",
+      "options": [
+        "Extraction of iron in the blast furnace",
+        "Manufacture of tetraoxosulphate (VI) acid by Contact process",
+        "Production of washing soda by Solvay process",
+        "Production of cement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Contact process for sulphuric acid manufacture uses sulphur, air, and a catalyst (V2O5); it does not require limestone. Limestone is used in the other three processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.0378,
+      "question": "The raw material used for the smelting of iron ore in a furnace is",
+      "options": [
+        "CaSO4",
+        "CaCO3",
+        "CuSO4",
+        "Zn(NO3)2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcium carbonate (CaCO3), known as limestone, is added to the blast furnace to remove impurities as slag.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.6594,
+      "question": "Which of the following is NOT used as a raw material in the Solvay process?",
+      "options": [
+        "Ammonia",
+        "Sodium chloride",
+        "Calcium trioxocarbonate (IV)",
+        "Sodium trioxocarbonate (IV)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Solvay process uses ammonia, sodium chloride (brine), and calcium carbonate (limestone). Sodium carbonate is the product, not a raw material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.6592,
+      "question": "The main impurity in iron ore during the extraction of iron is",
+      "options": [
+        "Silicon (IV) oxide",
+        "Carbon (IV) oxide",
+        "Calcium trioxosilicate",
+        "Sulphur (II) oxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Silicon(IV) oxide (silica, SiO2) is the main acidic impurity in iron ore, which is removed by reaction with limestone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.1118,
+      "question": "The process of converting linear alkanes to branched chain and cyclic hydrocarbons by heating in the presence of a catalyst to improve the quality of petrol is referred to as",
+      "options": [
+        "refining",
+        "cracking",
+        "reforming",
+        "blending"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reforming is the process of converting straight-chain alkanes into branched-chain or cyclic hydrocarbons (aromatics) to increase the octane rating of petrol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.2544,
+      "question": "The petroleum fraction that is used in heating furnaces in industries is",
+      "options": [
+        "diesel oil",
+        "gasoline",
+        "kerosene",
+        "lubricating oil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diesel oil (gas oil) is a heavier fraction than gasoline and kerosene, and is used in industrial heating furnaces and diesel engines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.5562,
+      "question": "Which of the following fractions is used as raw material for the cracking process?",
+      "options": [
+        "kerosine",
+        "lubricating oil",
+        "bitumen",
+        "diesel oils"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diesel oils (gas oil) are heavier fractions that are cracked to produce lighter, more valuable fractions like petrol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.9026,
+      "question": "A common characteristic of copper and silver in their usage as coinage metals is that they",
+      "options": [
+        "have high metallic lustre",
+        "are not easily oxidized",
+        "are easily oxidized",
+        "are not easily reduced"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copper and silver are used in coins because they are relatively unreactive (not easily oxidized) and resist corrosion, maintaining their appearance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.0286,
+      "question": "The property used in the industrial preparation of nitrogen and oxygen from air is",
+      "options": [
+        "rate of diffusion",
+        "density",
+        "boiling point",
+        "solubility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fractional distillation of liquid air separates nitrogen and oxygen based on their different boiling points (N2 boils at -196°C, O2 at -183°C).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.9966,
+      "question": "Which of the following is used as fuel in miners' lamp?",
+      "options": [
+        "Ethanal",
+        "Ethyne",
+        "Ethene",
+        "Ethane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethyne (acetylene) is used in miners' lamps (carbide lamps) because it burns with a bright, luminous flame.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.2786,
+      "question": "Which of the following is used as fuel in place of petrol?",
+      "options": [
+        "Butane",
+        "Ethanol",
+        "Ethene",
+        "Propanol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethanol is used as a fuel additive or substitute for petrol (gasohol) because it burns cleanly and is renewable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.851,
+      "question": "Which of the following is used in the manufacture of matches?",
+      "options": [
+        "nitrogen",
+        "aluminium",
+        "copper",
+        "sulphur"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sulphur is a key component in match heads and striking surfaces, as it easily ignites and sustains combustion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.3179,
+      "question": "Which of the following is used in rocket fuels?",
+      "options": [
+        "HNO3",
+        "CH3COOH",
+        "H2SO4",
+        "HCl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitric acid (HNO3) is used as an oxidizer in rocket propellants (e.g., in combination with hydrazine).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.4646,
+      "question": "The acid that is used to remove rust is",
+      "options": [
+        "boric",
+        "hydrochloric",
+        "trioxonitrate (V)",
+        "tetraoxosulphate (VI)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrochloric acid (HCl) is commonly used to remove rust (iron oxide) from metal surfaces because it dissolves the oxide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.1196,
+      "question": "Which of the following is a deliquescent compound?",
+      "options": [
+        "NaNO3",
+        "CaCl2",
+        "CuO",
+        "Na2CO3.10H2O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calcium chloride (CaCl2) is deliquescent; it absorbs moisture from the air and dissolves in it, forming a solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.9407,
+      "question": "Which of the following is used as water softener?",
+      "options": [
+        "Na2CO3.10H2O",
+        "CuSO4.5H2O",
+        "MgSO4.7H2O",
+        "CaCl2.2H2O",
+        "Na2SO4.10H2O"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Washing soda (Na2CO3·10H2O) is used as a water softener because it precipitates calcium and magnesium ions as insoluble carbonates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795239785.275,
+      "question": "The chemical used for coagulation in water purification is",
+      "options": [
+        "Aluminium tetraoxosulphate (VI)",
+        "Copper tetraoxosulphate (VI)",
+        "Sodium tetraoxosulphate (VI)",
+        "Calcium tetraoxosulphate (VI)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aluminium sulphate (alum) is used as a coagulant in water treatment; it forms a gel that traps suspended particles, which then settle out.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
