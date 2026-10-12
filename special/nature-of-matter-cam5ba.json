@@ -3,16 +3,682 @@
   "title": "Nature of Matter",
   "subject": "Chemistry",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 47,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791795893135.5476,
+      "question": "Which of the following is an example of a mixture?",
+      "options": [
+        "Common salt",
+        "Blood",
+        "Sand",
+        "Washing soda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood is a mixture because it consists of different substances (plasma, red blood cells, white blood cells, platelets) that are not chemically combined and can be separated by physical means. Common salt (NaCl), sand (SiO<sub>2</sub>), and washing soda (Na<sub>2</sub>CO<sub>3</sub>·10H<sub>2</sub>O) are compounds with fixed compositions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.5806,
+      "question": "Which of the following substances is a mixture?",
+      "options": [
+        "Sulphur powder",
+        "Bronze",
+        "Distilled water",
+        "Ethanol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bronze is an alloy (a mixture) of copper and tin, with variable composition. Sulphur powder is an element, distilled water is a compound (H<sub>2</sub>O), and ethanol is a compound (C<sub>2</sub>H<sub>5</sub>OH).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.9312,
+      "question": "A heterogenous mixture can be defined as any mixture",
+      "options": [
+        "of a solute and a solvent",
+        "whose composition is uniform",
+        "whose composition is not uniform",
+        "formed by solids and liquids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A heterogeneous mixture has non-uniform composition — different parts have different properties. Examples: sand and water, oil and water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.9082,
+      "question": "Which of the following is a physical change?",
+      "options": [
+        "Freezing ice cream",
+        "dissolving calcium in water",
+        "burning kerosene",
+        "Exposing white phosphorus to air"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freezing ice cream is a physical change because it involves a change of state (liquid to solid) without altering the chemical composition. Dissolving calcium, burning kerosene, and exposing white phosphorus to air all involve chemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.6323,
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        "Dissolution of salt in water",
+        "Rusting of iron",
+        "Melting of ice",
+        "Separating a mixture by distillation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rusting of iron is a chemical change because iron reacts with oxygen and water to form hydrated iron(III) oxide, a new substance. The other options are physical changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.034,
+      "question": "A difference between chemical and physical change is that in a chemical change",
+      "options": [
+        "oxygen is consumed",
+        "heat is supplied",
+        "a reversible process occurs",
+        "a new substance is formed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The key difference is that a chemical change always produces one or more new substances with different properties, while a physical change does not alter the chemical identity of the substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.2722,
+      "question": "The presence of an impurity in a substance will cause the melting point to",
+      "options": [
+        "be zero",
+        "reduce",
+        "increase",
+        "be stable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impurities lower the melting point of a substance (melting point depression). This is a colligative property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.8313,
+      "question": "Which of the following properties is NOT peculiar to matter?",
+      "options": [
+        "kinetic energy of particles increase from solid to gas",
+        "Random motion of particles increases from liquid to gas",
+        "Orderliness of particles increases from gas to liquid",
+        "Random motion of particles increases from gas to solid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Random motion of particles actually decreases from gas to solid, not increases. As a substance changes from gas to solid, the particles become more ordered and their random motion decreases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.2083,
+      "question": "The fundamental difference between the three states of matter is the",
+      "options": [
+        "shape of their particles",
+        "number of particles in each state",
+        "shape of the container they occupy",
+        "degree of movement of their particles"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The states of matter (solid, liquid, gas) differ primarily in the freedom of movement of their particles and the strength of intermolecular forces. Solids have vibrating particles, liquids have loosely moving particles, and gases have fast, random motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.414,
+      "question": "The shape of s-orbitals is",
+      "options": [
+        "spherical",
+        "elliptical",
+        "spiral",
+        "circular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An s-orbital is spherically symmetric around the nucleus. Its shape is a sphere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.3098,
+      "question": "Which of the following apparatus can be used to measure accurately a specific volume of a liquid?",
+      "options": [
+        "Beaker",
+        "Conical flask",
+        "Measuring cylinder",
+        "Pipette"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A pipette is designed to deliver a single, accurate, fixed volume of liquid. Beakers and conical flasks are not for accurate measurement; a measuring cylinder is less accurate than a pipette.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.4673,
+      "question": "A mixture of sugar and sulphur can be separated by?",
+      "options": [
+        "dissolution in water, evaporation and filtration",
+        "filtration, evaporation and dissolution in water",
+        "dissolution in water, filtration and evaporation",
+        "evaporation, dissolution in water and filtration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sugar is soluble in water, sulphur is not. So add water to dissolve sugar, filter to remove sulphur, then evaporate the filtrate to recover sugar. So the order is dissolution, filtration, evaporation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.4673,
+      "question": "The most suitable method to use when separating an insoluble solid from a liquid is",
+      "options": [
+        "evaporation",
+        "filtration",
+        "magnetization",
+        "sublimation",
+        "distillation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Filtration is used to separate an insoluble solid from a liquid. The solid is trapped by the filter paper while the liquid passes through.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.7456,
+      "question": "Which of the following separation techniques can be employed in obtaining solvent from its solution?",
+      "options": [
+        "Evaporation",
+        "Distillation",
+        "Filtration",
+        "Precipitation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distillation is used to obtain the solvent from a solution. Evaporation would leave the solute and lose the solvent as vapour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.2341,
+      "question": "A mixture of petrol and water can be separated through",
+      "options": [
+        "centrifugation",
+        "distillation",
+        "the use of separating funnel",
+        "the use of filter paper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Petrol and water are immiscible liquids with different densities. A separating funnel is used to separate immiscible liquids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893137.4958,
+      "question": "Which of the following methods can be used to separate a mixture of two miscible liquids with different boiling points?",
+      "options": [
+        "Decantation",
+        "Distillation",
+        "Evaporation",
+        "Filtration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distillation separates miscible liquids with different boiling points by heating and condensing the vapours.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.5784,
+      "question": "Which of the following separation techniques would show that black ink is a mixture of chemical compounds?",
+      "options": [
+        "Crystallization",
+        "Chromatography",
+        "Filtration",
+        "Sublimation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromatography separates the components of a mixture based on their different affinities for the stationary and mobile phases. It can show that black ink is a mixture of different coloured compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.2217,
+      "question": "Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one coloured component by the technique of",
+      "options": [
+        "crystallization",
+        "hydrolysis",
+        "chromatography",
+        "sublimation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chromatography is used to separate and identify the different pigments in chlorophyll.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.6926,
+      "question": "The separation of a mixture of calcium trioxocarbonate (IV) and sodium trioxocarbonate (IV) is most easily carried out by using the differences in their",
+      "options": [
+        "physical states",
+        "melting points",
+        "Rf values",
+        "solubility",
+        "boiling points"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Calcium carbonate is insoluble in water, while sodium carbonate is soluble. So they can be separated by dissolving in water and filtering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.2483,
+      "question": "A spot of oil paint on a shirt can best be removed using?",
+      "options": [
+        "brine",
+        "detergent",
+        "kerosine",
+        "warm water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Oil paint is non-polar and can be dissolved by a non-polar solvent like kerosene. Detergent and water are not as effective for oil-based paint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.2915,
+      "question": "The droplets of water observed around a bottle of milk taken out of the refrigerator is due to the fact that the?",
+      "options": [
+        "water vapour in the air around the bottle gains some energy from the bottle",
+        "temperature of the milk drops as it loses heat into the surroundings",
+        "saturated vapour pressure of the milk is equal to the atmospheric pressure",
+        "water vapour in the air around the bottle loses some of its energy to the bottle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cold bottle cools the surrounding air. Water vapour in the air loses energy to the cold bottle and condenses into liquid droplets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.681,
+      "question": "The mode of motion exhibited by the particles of a solid is",
+      "options": [
+        "Vibrational and random motion",
+        "Vibrational and translational motion",
+        "Translational and random motion",
+        "Vibrational motion only",
+        "Translational motion only"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Particles in a solid are closely packed and can only vibrate about fixed positions. They cannot translate or move randomly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.0974,
+      "question": "Which of the following statements about solids is correct?",
+      "options": [
+        "Solid particles are less orderly than those of a liquid",
+        "Solid have lower densities than liquids",
+        "Solid particles have greater kinetic energies than those of liquids",
+        "Solid particles cannot be easily compressed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Solids have closely packed particles with strong intermolecular forces, so they cannot be easily compressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.7583,
+      "question": "A substance is said to be hygroscopic if it absorbs",
+      "options": [
+        "water from the atmosphere to form a solution",
+        "heat from the surrounding",
+        "carbon (IV) oxide from the atmosphere",
+        "moisture from the atmosphere without dissolving"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A hygroscopic substance absorbs moisture from the atmosphere without dissolving in it (e.g., concentrated H<sub>2</sub>SO<sub>4</sub>). Deliquescent substances absorb moisture and dissolve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.7703,
+      "question": "Which of the following salt solutions will have a pH greater than 7?",
+      "options": [
+        "NaCl(aq)",
+        "Na<sub>2</sub>CO<sub>3</sub>(aq)",
+        "Na<sub>2</sub>SO<sub>4</sub>(aq)",
+        "NaHSO<sub>4</sub>(aq)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Na<sub>2</sub>CO<sub>3</sub> is a salt of a strong base (NaOH) and a weak acid (H<sub>2</sub>CO<sub>3</sub>). It hydrolyzes in water to give an alkaline solution (pH > 7).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.1733,
+      "question": "The colour of litmus in an alkaline medium is",
+      "options": [
+        "Red",
+        "Yellow",
+        "Pink",
+        "Blue"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Litmus turns blue in alkaline solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.437,
+      "question": "The colour of litmus in a neutral medium is",
+      "options": [
+        "purple",
+        "pink",
+        "yellow",
+        "orange"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Litmus is purple in neutral solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.664,
+      "question": "Which of the following substances is a non-electrolyte?",
+      "options": [
+        "H<sub>2</sub>SO<sub>4</sub>",
+        "CH<sub>3</sub>COOH",
+        "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+        "NH<sub>4</sub>Cl"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) does not dissociate into ions in water, so it is a non-electrolyte.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.821,
+      "question": "An example of a strong electrolyte is",
+      "options": [
+        "ethyl acetate",
+        "ethanol",
+        "glucose",
+        "sodium formate",
+        "formic acid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sodium formate (HCOONa) is a salt that dissociates completely into ions in water, making it a strong electrolyte.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.907,
+      "question": "Which of the following ions require the largest quantity of electricity for discharge at an electrode?",
+      "options": [
+        "2.0 mole of Q<sup>3+</sup>",
+        "2.5 mole of R<sup>2+</sup>",
+        "4.0 mole of Y<sup>−</sup>",
+        "3.0 mole of T<sup>−</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The quantity of electricity required is proportional to the number of moles of electrons needed. For Q<sup>3+</sup>: 2.0 × 3 = 6.0 F. For R<sup>2+</sup>: 2.5 × 2 = 5.0 F. For Y<sup>−</sup>: 4.0 × 1 = 4.0 F. For T<sup>−</sup>: 3.0 × 1 = 3.0 F. So Q<sup>3+</sup> requires the largest (6.0 F).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.5344,
+      "question": "Equal volumes of CO<sub>2</sub> and CO at s.t.p have the same",
+      "options": [
+        "mass",
+        "density",
+        "rate of diffusion",
+        "number of molecules"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to Avogadro's law, equal volumes of all gases at the same temperature and pressure contain the same number of molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.3462,
+      "question": "Gas molecules are said to be perfectly elastic because",
+      "options": [
+        "they collide without loss of energy",
+        "they move about in straight lines",
+        "the distances between them are negligible",
+        "the volume occupied by them is negligible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Perfectly elastic collisions mean that gas molecules collide without any loss of kinetic energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.8008,
+      "question": "A gas exerts pressure on its container because",
+      "options": [
+        "the molecules of a gas collide with the walls of the container",
+        "some of the molecules are moving faster than others",
+        "of the collisions of the molecules with each other",
+        "of the mass of the molecules of the gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gas pressure is caused by the collisions of gas molecules with the walls of the container.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.0864,
+      "question": "The pressure of 100cm<sup>3</sup> of oxygen at 35°C is 750mmHg. What will be the volume of gas if the pressure is reduced to 100mmHg without changing the temperature?",
+      "options": [
+        "650 cm<sup>3</sup>",
+        "850 cm<sup>3</sup>",
+        "580 cm<sup>3</sup>",
+        "750 cm<sup>3</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Boyle's law: P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>. 750 × 100 = 100 × V<sub>2</sub>. V<sub>2</sub> = 750 cm<sup>3</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.4114,
+      "question": "If the volume of a given mass of gas at 298 K and pressure of 205.2 x 10<sup>3</sup> Nm<sup>−2</sup> is 2.12dm<sup>3</sup>, what is the volume of the gas at s.t.p? (Standard pressure = 101.3 x 10<sup>3</sup> Nm<sup>−2</sup>, Standard temperature = 273K)",
+      "options": [
+        "39.3dm<sup>3</sup>",
+        "22.4dm<sup>3</sup>",
+        "4.93dm<sup>3</sup>",
+        "3.93dm<sup>3</sup>",
+        "0.393dm<sup>3</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Combined gas law: (P<sub>1</sub>V<sub>1</sub>)/T<sub>1</sub> = (P<sub>2</sub>V<sub>2</sub>)/T<sub>2</sub>. So V<sub>2</sub> = (P<sub>1</sub>V<sub>1</sub>T<sub>2</sub>)/(P<sub>2</sub>T<sub>1</sub>) = (205.2×10<sup>3</sup> × 2.12 × 273) / (101.3×10<sup>3</sup> × 298). Calculate: numerator = 205.2e3 * 2.12 * 273 ≈ 1.187e8; denominator = 101.3e3 * 298 ≈ 3.019e7; ratio ≈ 3.93 dm<sup>3</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.1328,
+      "question": "A given mass of gas occupies 2 dm<sup>3</sup> at 300k. At what temperature will its volume be doubled keeping the pressure constant?",
+      "options": [
+        "400k",
+        "480k",
+        "550k",
+        "600k"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Charles's law: V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub>. V<sub>2</sub> = 2 × V<sub>1</sub>, so T<sub>2</sub> = T<sub>1</sub> × (V<sub>2</sub>/V<sub>1</sub>) = 300 × 2 = 600 K.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.7712,
+      "question": "According to Charles' law, the volume of a gas becomes zero at",
+      "options": [
+        "-100°C",
+        "-273°C",
+        "-373°C",
+        "0°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charles's law states that volume is directly proportional to absolute temperature. The volume theoretically becomes zero at absolute zero, which is -273°C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.3428,
+      "question": "According to the kinetic theory, an increase in temperature causes the kinetic energy of particles to",
+      "options": [
+        "decrease",
+        "increase",
+        "remain constant",
+        "be zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic energy is directly proportional to absolute temperature. An increase in temperature increases the kinetic energy of particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.484,
+      "question": "A basic postulate of the kinetic theory of gases is that the molecules of a gas move in straight lines between collisions. This implies that",
+      "options": [
+        "collisions are perfectly elastic",
+        "forces of repulsion exist",
+        "forces of repulsion and attraction are in equilibrium",
+        "collisions are inelastic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fact that molecules move in straight lines between collisions implies that there are no forces acting on them except during collisions, and collisions are perfectly elastic (no loss of kinetic energy).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.5737,
+      "question": "Which of the following statements is not a postulate of the kinetic theory of gases?",
+      "options": [
+        "Molecules move with the same speed",
+        "intermolecular forces are negligible",
+        "Molecules are in a state of constant random motion",
+        "collision between molecules is elastic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The kinetic theory states that molecules move with a range of speeds (Maxwell-Boltzmann distribution), not all with the same speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.2502,
+      "question": "Which of the following is a measure of the average kinetic energy of the molecules of a substance?",
+      "options": [
+        "Volume",
+        "Mass",
+        "pressure from age grades",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Temperature is a measure of the average kinetic energy of the molecules of a substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.445,
+      "question": "Which of the following variables is a measure of the average kinetic energy of the molecules of a gas?",
+      "options": [
+        "Density",
+        "Pressure",
+        "Temperature",
+        "Volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temperature is directly proportional to the average kinetic energy of gas molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.5103,
+      "question": "If d represents the density of a gas and K is a constant, the rate of gaseous diffusion r is related to d by the equation",
+      "options": [
+        "r = k/√d",
+        "r = kd",
+        "r = k/d",
+        "r = k √d"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Graham's law of diffusion: rate of diffusion is inversely proportional to the square root of density. So r = k/√d.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.967,
+      "question": "Equal volumes of all gases at the same temperature and pressure contain the same number of molecules. This is a statement of",
+      "options": [
+        "Charles' Law",
+        "Boyle's Law",
+        "Avogadro's Law",
+        "Graham's Law",
+        "Gay Lussac's Law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain the same number of molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.1147,
+      "question": "The process by which atoms are rearranged into different molecular structure in the petroleum refining process is referred to as",
+      "options": [
+        "catalytic cracking",
+        "hydrocracking",
+        "polymerization",
+        "reforming"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reforming rearranges the molecular structure of hydrocarbons (e.g., converting straight-chain to branched) to improve petrol quality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.3682,
+      "question": "A solid begins to melt when?",
+      "options": [
+        "constituent particles acquires a greater kinetic energy",
+        "energy of vibration of particles of the solid is less than the intermolecular forces",
+        "constituent particles acquires energy above the average kinetic energy",
+        "energy of vibration of particles of the solid equals the intermolecular forces"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Melting occurs when the energy of vibration of the particles equals the intermolecular forces holding them in the solid lattice, allowing them to break free.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791795893138.647,
+      "question": "When a solid substance disappears completely as a gas on heating, the substance is said to have undergone",
+      "options": [
+        "evaporation",
+        "distillation",
+        "crystallization",
+        "sublimation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sublimation is the direct transition from solid to gas without passing through the liquid state.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
