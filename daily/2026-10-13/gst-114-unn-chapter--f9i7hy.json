@@ -3,16 +3,718 @@
   "title": "GST 114 ( UNN ) : CHAPTER ONE ( GRAMMER )",
   "subject": "GST 114",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791886885139.4258,
+      "question": "Which term refers to a set of rules that regulates the composition of words and phrases?",
+      "options": [
+        "Phonology",
+        "Morphology",
+        "Semantics",
+        "Grammar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Grammar is the set of rules that regulates the composition of words and phrases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885139.0374,
+      "question": "Which language origin is the term grammar generally attributed to?",
+      "options": [
+        "Greek",
+        "Latin",
+        "French",
+        "German"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term grammar is generally attributed to the Greek language (Okeyj & Abah).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1868,
+      "question": "Which sense of grammar refers to a book written about a language?",
+      "options": [
+        "Grammar as a set of rules",
+        "Grammar as a book",
+        "Grammar as a branch of linguistics",
+        "Grammar as a pedagogical tool"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grammar as a book is a written description of the rules and principles of a language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.874,
+      "question": "Which level of language study is concerned with the form and structure of words?",
+      "options": [
+        "Syntax",
+        "Phonology",
+        "Morphology",
+        "Semantics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Morphology is the branch of linguistics that studies the internal structure of words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0562,
+      "question": "Which scholar published the first English grammar in 1586?",
+      "options": [
+        "Lowth",
+        "Murray",
+        "Chomsky",
+        "Bullokar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "William Bullokar published the first English grammar in 1586 (Okeyj & Abah).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.72,
+      "question": "Early English grammars were heavily modeled on which language?",
+      "options": [
+        "Latin",
+        "Greek",
+        "French",
+        "German"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Early English grammars were modeled on Latin, which was the language of scholarship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.171,
+      "question": "The study of grammar helps primarily in which of the following?",
+      "options": [
+        "Memorizing vocabulary",
+        "Disambiguating structure",
+        "Learning new languages",
+        "Translating ancient texts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Knowledge of grammar is essential for disambiguating the structure of the English language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0447,
+      "question": "Which type of grammar is prescriptive in nature?",
+      "options": [
+        "Structural Grammar",
+        "Transformational Grammar",
+        "Traditional Grammar",
+        "Descriptive Grammar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traditional grammar is prescriptive as it sets rules for how language should be used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0393,
+      "question": "Traditional grammar is based on which principles?",
+      "options": [
+        "German and French",
+        "English and American",
+        "Sanskrit and Pali",
+        "Latin and Greek"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traditional grammar is largely based on the principles of Latin and Greek (Okeyj & Abah).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.7686,
+      "question": "Traditional grammar focuses mainly on which language form?",
+      "options": [
+        "Written",
+        "Spoken",
+        "Signed",
+        "Digital"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Traditional grammar prefers the written to the spoken form of language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1743,
+      "question": "Which characteristic belongs to traditional grammar?",
+      "options": [
+        "Inductive learning",
+        "Deductive teaching",
+        "Scientific analysis",
+        "Structural analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Traditional grammar is taught deductively through the presentation of explicit rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.6362,
+      "question": "How many parts of speech does traditional grammar recognize?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traditional grammar organizes words based on eight parts of speech.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.5518,
+      "question": "Which characteristic defines traditional grammar?",
+      "options": [
+        "Descriptive analysis",
+        "Generative grammar",
+        "Structural patterns",
+        "Prescriptive rules"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traditional grammar is prescriptive, viewing language as a system of rules that dictates right or wrong usage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.962,
+      "question": "Which is a major weakness of traditional grammar?",
+      "options": [
+        "Inadequate for non-European tongues",
+        "Focus on spoken language",
+        "Lack of rules for writing",
+        "Overemphasis on scientific methods"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Traditional grammar is criticized for being inadequate in describing non-European languages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0942,
+      "question": "Why is traditional grammar criticized for being prescriptive?",
+      "options": [
+        "It describes actual usage",
+        "It sets rules for speakers",
+        "It ignores written language",
+        "It focuses on phonology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is criticized because it sets down rules for speakers of a language rather than describing actual usage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.7412,
+      "question": "Who is regarded as the father of structural grammar?",
+      "options": [
+        "Chomsky",
+        "Bloomfield",
+        "Saussure",
+        "Sapir"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ferdinand de Saussure is regarded as the father of structural grammar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.4785,
+      "question": "Structural grammar distinguishes between langue and which term?",
+      "options": [
+        "Competence",
+        "Performance",
+        "Syntax",
+        "Parole"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Structural grammar draws a distinction between langue and parole (Saussure).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.4878,
+      "question": "Structural grammar focuses primarily on which aspect of language?",
+      "options": [
+        "Form",
+        "Meaning",
+        "History",
+        "Psychology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Structural grammar focuses on the form and structure of language rather than meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.3118,
+      "question": "Structural grammar employs which type of approach?",
+      "options": [
+        "Philosophical",
+        "Scientific",
+        "Historical",
+        "Literary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Structural grammar uses a scientific, objective approach to the study of language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.2852,
+      "question": "Immediate constituent analysis is a feature of which grammar?",
+      "options": [
+        "Traditional Grammar",
+        "Transformational Grammar",
+        "Structural Grammar",
+        "Functional Grammar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Immediate constituent analysis is a hallmark of structural grammar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1548,
+      "question": "Which feature is central to structural grammar?",
+      "options": [
+        "Prescriptive rules",
+        "Mental grammar",
+        "Deep structure",
+        "Objective description"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Structural grammar emphasizes objective description based on observable features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1345,
+      "question": "Which is a limitation of structural grammar?",
+      "options": [
+        "Neglect of semantics",
+        "Overemphasis on meaning",
+        "Focus on prescriptive rules",
+        "Lack of scientific method"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Structural grammar neglected meaning, focusing instead on form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.2246,
+      "question": "Who developed Transformational Generative Grammar?",
+      "options": [
+        "Saussure",
+        "Chomsky",
+        "Bloomfield",
+        "Sapir"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Noam Chomsky developed Transformational Generative Grammar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.3447,
+      "question": "TGG assumes there are how many kinds of sentences?",
+      "options": [
+        "Three",
+        "Four",
+        "Two",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TGG assumes there are two kinds of sentences: kernel and transformed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.6494,
+      "question": "What is the basis of TGG?",
+      "options": [
+        "Deep structures",
+        "Surface structures",
+        "Phrase structures",
+        "Kernel sentences"
+      ],
+      "correctAnswer": 3,
+      "explanation": "TGG is based on the concept of kernel sentences from which others are derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.381,
+      "question": "Deep structure in TGG determines which aspect?",
+      "options": [
+        "Semantic interpretation",
+        "Phonetic form",
+        "Syntactic structure",
+        "Morphological form"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deep structure determines the semantic interpretation of a sentence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0032,
+      "question": "Surface structure in TGG determines which aspect?",
+      "options": [
+        "Semantic meaning",
+        "Phonetic form",
+        "Deep meaning",
+        "Logical form"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Surface structure determines the phonetic form of a sentence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.8142,
+      "question": "Which approach focuses on how language should be used?",
+      "options": [
+        "Descriptive",
+        "Structural",
+        "Prescriptive",
+        "Generative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prescriptive grammar focuses on how language should be used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.769,
+      "question": "Which approach focuses on how language is actually used?",
+      "options": [
+        "Prescriptive",
+        "Traditional",
+        "Structural",
+        "Descriptive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Descriptive grammar focuses on how language is actually used by native speakers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.5022,
+      "question": "Which approach is more tolerant of language variations?",
+      "options": [
+        "Descriptive",
+        "Prescriptive",
+        "Traditional",
+        "Structural"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Descriptive grammar examines actual usage and is more tolerant of variations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.2864,
+      "question": "Which level of language analysis studies speech sounds?",
+      "options": [
+        "Morphology",
+        "Phonology",
+        "Syntax",
+        "Semantics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phonology is the study of the speech sounds used in a particular language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.4717,
+      "question": "What is a phoneme?",
+      "options": [
+        "Smallest meaning unit",
+        "Largest sound unit",
+        "Smallest sound unit",
+        "Largest meaning unit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A phoneme is the smallest unit in the sound system of a language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.6592,
+      "question": "What is an allophone?",
+      "options": [
+        "Distinct phoneme",
+        "Meaningful sound",
+        "Written symbol",
+        "Variant pronunciation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An allophone refers to variant pronunciations of a phoneme in certain contexts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.44,
+      "question": "Which level of language analysis studies word formation?",
+      "options": [
+        "Morphology",
+        "Phonology",
+        "Syntax",
+        "Semantics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Morphology is the study of word formation and internal structure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.648,
+      "question": "What is a morpheme?",
+      "options": [
+        "Smallest sound unit",
+        "Smallest meaning unit",
+        "Largest sound unit",
+        "Largest meaning unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A morpheme is the smallest meaningful unit of a language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.5532,
+      "question": "Which morpheme can stand alone?",
+      "options": [
+        "Bound",
+        "Derivational",
+        "Free",
+        "Inflectional"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Free morphemes can stand alone and make sense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.083,
+      "question": "Which morpheme creates new words?",
+      "options": [
+        "Inflectional",
+        "Free",
+        "Bound",
+        "Derivational"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Derivational morphemes create new words by changing the part of speech or meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.5146,
+      "question": "Which morpheme adds grammatical elements?",
+      "options": [
+        "Inflectional",
+        "Derivational",
+        "Free",
+        "Bound"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inflectional morphemes add a grammatical element to a word without changing its meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.3696,
+      "question": "Which word type contains two free forms?",
+      "options": [
+        "Simple word",
+        "Compound word",
+        "Complex word",
+        "Derived word"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A compound word is composed of two free forms used as a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0056,
+      "question": "Which level of language analysis studies word combinations?",
+      "options": [
+        "Morphology",
+        "Phonology",
+        "Syntax",
+        "Semantics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Syntax is concerned with the combination of words to form phrases and sentences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.8057,
+      "question": "Syntax studies the rules for forming what?",
+      "options": [
+        "Words",
+        "Sounds",
+        "Meanings",
+        "Sentences"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Syntax studies the rules for forming grammatical sentences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.0657,
+      "question": "Which level of language analysis studies meaning?",
+      "options": [
+        "Semantics",
+        "Syntax",
+        "Morphology",
+        "Phonology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Semantics is the study of meaning in language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.4404,
+      "question": "Semantics focuses on which relationships?",
+      "options": [
+        "Sounds to letters",
+        "Words to objects",
+        "Words to grammar",
+        "Sounds to meaning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Semantics focuses on the relations of words to the objects denoted by them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.5486,
+      "question": "Which field studies vocabulary?",
+      "options": [
+        "Morphology",
+        "Lexicology",
+        "Syntax",
+        "Semantics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lexicology is the branch of linguistics concerned with the study of vocabulary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1846,
+      "question": "What is a lexeme?",
+      "options": [
+        "Concrete sound unit",
+        "Grammatical unit",
+        "Phonetic unit",
+        "Abstract lexical unit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A lexeme is an abstract unit of lexical meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.4653,
+      "question": "Which field is concerned with dictionary compilation?",
+      "options": [
+        "Lexicography",
+        "Lexicology",
+        "Morphology",
+        "Syntax"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lexicography deals with the theoretical principles of dictionary compilation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.2312,
+      "question": "Which level of language analysis studies language in context?",
+      "options": [
+        "Semantics",
+        "Pragmatics",
+        "Syntax",
+        "Morphology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pragmatics is concerned with the use of language in specific situations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.065,
+      "question": "Which principle is central to pragmatics?",
+      "options": [
+        "Literal meaning",
+        "Sound structure",
+        "Speaker meaning",
+        "Word formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pragmatics relies heavily on the notion of speaker meaning and intent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.1216,
+      "question": "How does pragmatics differ from semantics?",
+      "options": [
+        "Words vs. sounds",
+        "Grammar vs. meaning",
+        "Structure vs. form",
+        "Context vs. literal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pragmatics focuses on inferred meaning in context, while semantics focuses on literal meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791886885140.2952,
+      "question": "Which grammar was developed as a reaction to traditional grammar?",
+      "options": [
+        "Structural",
+        "Descriptive",
+        "Prescriptive",
+        "Generative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Structural grammar emerged as an attempt to deviate from and improve upon traditional grammar.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
