@@ -45,20 +45,6 @@
       "points": 1
     },
     {
-      "id": 1791917647936.2952,
-      "question": "Fundamental quantities are defined independently of:",
-      "options": [
-        "other quantities",
-        "base quantities",
-        "derived quantities",
-        "physical quantities"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Fundamental quantities are not defined in terms of any other physical quantity.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1791917647936.6409,
       "question": "In many local markets, grains are commonly measured using:",
       "options": [
@@ -395,20 +381,6 @@
       "points": 1
     },
     {
-      "id": 1791917647937.7263,
-      "question": "Dimensions express a physical quantity in terms of:",
-      "options": [
-        "derived units",
-        "fundamental quantities",
-        "vector quantities",
-        "scalar quantities"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Dimensions show how a quantity is composed from fundamental quantities such as length, mass, and time.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1791917647937.669,
       "question": "The three fundamental dimensions used in mechanics are length, mass, and:",
       "options": [
@@ -433,6 +405,34 @@
       ],
       "correctAnswer": 0,
       "explanation": "Power = work/time = M L² T⁻² ÷ T = M L² T⁻³.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917950289.8635,
+      "question": "Which of the following sets contains only fundamental quantities?",
+      "options": [
+        "Area, volume, density",
+        "Force, energy, power",
+        "Length, mass, time",
+        "Velocity, acceleration, momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Length, mass, and time are fundamental quantities; area, volume, density, force, energy, power, velocity, acceleration, and momentum are derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917950289.7012,
+      "question": "The dimension of force is:",
+      "options": [
+        "M L² T⁻²",
+        "M L T⁻¹",
+        "M L T⁻²",
+        "M L² T⁻³"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Force = mass × acceleration, so its dimension is M × L T⁻² = M L T⁻².",
       "difficulty": "easy",
       "points": 1
     }
