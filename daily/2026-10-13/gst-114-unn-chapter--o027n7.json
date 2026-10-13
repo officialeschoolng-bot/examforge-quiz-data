@@ -3,16 +3,718 @@
   "title": "GST 114 ( UNN ) : CHAPTER SIX ( CONCORD IN SENTENCE )",
   "subject": "GST 114",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791893850186.851,
+      "question": "Concord in sentence construction is primarily concerned with which of the following?",
+      "options": [
+        "Sentence agreement",
+        "Sentence punctuation",
+        "Word formation rules",
+        "Complex structures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Okoye defines concord as the agreement between words in a sentence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.834,
+      "question": "Which type of concord is based on grammatical rules rather than meaning?",
+      "options": [
+        "Grammatical rule",
+        "Notional concord",
+        "Proximity concord",
+        "Semantic concord"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Grammatical concord follows strict rules of grammar rather than intended meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2588,
+      "question": "The concept of concord refers to which of the following?",
+      "options": [
+        "Sentence punctuation",
+        "Word agreement",
+        "Phrase structure",
+        "Clause combination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concept of concord refers to sentence agreement as discussed by Okoye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.691,
+      "question": "Which type of concord emphasizes the meaning of the subject over its grammatical form?",
+      "options": [
+        "Notional concord",
+        "Grammatical concord",
+        "Proximity concord",
+        "Strict concord"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Notional concord prioritizes the intended meaning over strict grammar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2754,
+      "question": "Which type of concord is also referred to as attraction concord?",
+      "options": [
+        "Grammatical concord",
+        "Notional concord",
+        "Proximity concord",
+        "Semantic concord"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proximity concord is also known as attraction concord.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2744,
+      "question": "A singular subject takes a singular verb under which rule?",
+      "options": [
+        "Rule 1",
+        "Rule 3",
+        "Rule 5",
+        "Rule 7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rule 1 states that a singular subject takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2126,
+      "question": "A compound subject joined by 'and' takes which type of verb?",
+      "options": [
+        "Singular verb",
+        "Plural verb",
+        "Neutral verb",
+        "Auxiliary verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A compound subject joined by 'and' takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6948,
+      "question": "In the sentence \"The committee has decided\", the verb is singular because the committee acts as which entity?",
+      "options": [
+        "A plural unit",
+        "A single unit",
+        "A compound unit",
+        "A dual unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The committee acts as a single unit, hence the singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6787,
+      "question": "\"Ten thousand naira is a lot of money\" follows which rule of concord?",
+      "options": [
+        "Rule 2",
+        "Rule 4",
+        "Rule 6",
+        "Rule 8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nouns of amount take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.5906,
+      "question": "The title of a book, even if plural in form, takes which type of verb?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Compound verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Titles of books take singular verbs regardless of their form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.8372,
+      "question": "Which rule governs the sentence \"The committee arrive tomorrow\"?",
+      "options": [
+        "Rule 4",
+        "Rule 5",
+        "Rule 6",
+        "Rule 8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collective nouns can take plural verbs when members act individually.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6665,
+      "question": "\"The governor, accompanied by his wife, is here\" follows which rule?",
+      "options": [
+        "Rule 6",
+        "Rule 7",
+        "Rule 8",
+        "Rule 9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb agrees with the main subject, not the intervening phrase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.5215,
+      "question": "Subjects connected by \"either... or\" take a verb according to which element?",
+      "options": [
+        "The first subject",
+        "The nearest subject",
+        "The farthest subject",
+        "The plural subject"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With correlative conjunctions, the verb agrees with the nearer subject.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.8967,
+      "question": "Indefinite pronouns like \"everyone\" or \"each\" typically take which type of verb?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Auxiliary verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Indefinite pronouns like everyone take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.699,
+      "question": "Which rule applies when a relative pronoun is the subject?",
+      "options": [
+        "Rule 9",
+        "Rule 10",
+        "Rule 11",
+        "Rule 12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb agrees with the antecedent of the relative pronoun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.0745,
+      "question": "\"In the jungle roar the lions\" is an example of which rule?",
+      "options": [
+        "Rule 9",
+        "Rule 10",
+        "Rule 11",
+        "Rule 12"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rule 11 covers inverted subject-verb order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.3376,
+      "question": "Subjects modified by \"each\" or \"every\" take which type of verb?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Compound verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distributive adjectives take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.245,
+      "question": "\"Many a student has failed\" follows which rule?",
+      "options": [
+        "Rule 12",
+        "Rule 13",
+        "Rule 14",
+        "Rule 15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Many a\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.088,
+      "question": "Which phrase takes a plural verb?",
+      "options": [
+        "The number of",
+        "A number of",
+        "Many a",
+        "Each of"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"A number of\" takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.0193,
+      "question": "\"The number of students is increasing\" follows which pattern?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Compound verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"The number of\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.0159,
+      "question": "Nouns like \"news\" and \"physics\" take which type of verb?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Auxiliary verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjects plural in form but singular in sense take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.8994,
+      "question": "Adjectives used as nouns like \"the rich\" take which verb?",
+      "options": [
+        "Plural verb",
+        "Singular verb",
+        "Dual verb",
+        "Auxiliary verb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adjectives used as nouns referring to a class take plural verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6755,
+      "question": "\"The teacher, together with the students, is here\" follows which rule?",
+      "options": [
+        "Rule 15",
+        "Rule 16",
+        "Rule 17",
+        "Rule 18"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intervening expressions do not affect the verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.7878,
+      "question": "\"Two hundred naira is the price\" follows which rule?",
+      "options": [
+        "Rule 16",
+        "Rule 17",
+        "Rule 18",
+        "Rule 19"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plural nouns expressing a single amount take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.4055,
+      "question": "Subjects joined by \"or\" or \"nor\" take a verb according to which principle?",
+      "options": [
+        "The first subject",
+        "The nearest subject",
+        "The plural subject",
+        "The farthest subject"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With \"or\" and \"nor\", the verb agrees with the nearer subject.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.555,
+      "question": "A shift in tense occurs when a writer does which of the following?",
+      "options": [
+        "Unnecessary tense shift",
+        "Uses only past tense",
+        "Mixes active and passive",
+        "Uses only present tense"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shifting tense without reason creates inconsistency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.751,
+      "question": "A shift in voice occurs when a writer does which of the following?",
+      "options": [
+        "Shifts voice wrongly",
+        "Uses only active voice",
+        "Uses only passive voice",
+        "Changes verb tense"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shifting from active to passive voice unnecessarily is a voice shift.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6052,
+      "question": "Which sentence demonstrates a shift in tense?",
+      "options": [
+        "He walked and talks",
+        "He walked and talked",
+        "He walks and talks",
+        "He is walking and talking"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mixing past and present tense creates a shift.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.1287,
+      "question": "Which sentence demonstrates a shift in voice?",
+      "options": [
+        "He ate and food was eaten",
+        "The boy ate the food",
+        "The food was eaten by the boy",
+        "The boy is eating the food"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mixing active and passive voice creates a shift.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.591,
+      "question": "The sentence \"The committee have decided\" is corrected by changing \"have\" to which word?",
+      "options": [
+        "Has",
+        "Is",
+        "Are",
+        "Were"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The committee acts as a single unit, so it takes the singular verb \"is\".",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.694,
+      "question": "\"Neither of the boys are coming\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Neither\" is singular and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.7607,
+      "question": "\"Ten thousand naira are a lot of money\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nouns of amount take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.3108,
+      "question": "\"The number of students are increasing\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"The number of\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.5422,
+      "question": "\"A number of students is absent\" is corrected by changing \"is\" to which word?",
+      "options": [
+        "Are",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"A number of\" takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.1692,
+      "question": "\"Each of the boys have a book\" is corrected by changing \"have\" to which word?",
+      "options": [
+        "Has",
+        "Is",
+        "Are",
+        "Were"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Each\" is singular and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.1177,
+      "question": "\"Many a student have passed\" is corrected by changing \"have\" to which word?",
+      "options": [
+        "Has",
+        "Is",
+        "Are",
+        "Were"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Many a\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6147,
+      "question": "\"The news are bad\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"News\" is singular in sense and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2683,
+      "question": "\"The rich is not always happy\" is corrected by changing \"is\" to which word?",
+      "options": [
+        "Are",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"The rich\" takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6045,
+      "question": "\"Either of the girls are coming\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Either\" is singular and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.4385,
+      "question": "\"The teacher with the students are here\" is corrected by changing \"are\" to which word?",
+      "options": [
+        "Is",
+        "Was",
+        "Were",
+        "Be"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb agrees with the main subject \"teacher\".",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.5156,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "The committee have decided",
+        "The committee has decided",
+        "The committee are decided",
+        "The committee were decided"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When acting as a single unit, the committee takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.611,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Ten thousand naira are a lot",
+        "Ten thousand naira is a lot",
+        "Ten thousand naira were a lot",
+        "Ten thousand naira be a lot"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nouns of amount take singular verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.6018,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "The number of students are increasing",
+        "The number of students is increasing",
+        "The number of students were increasing",
+        "The number of students be increasing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"The number of\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.507,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "A number of students is absent",
+        "A number of students are absent",
+        "A number of students was absent",
+        "A number of students be absent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"A number of\" takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.1648,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Each of the boys have a book",
+        "Each of the boys has a book",
+        "Each of the boys are having a book",
+        "Each of the boys were having a book"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Each\" is singular and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.561,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Many a student have passed",
+        "Many a student has passed",
+        "Many a student are passing",
+        "Many a student were passing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Many a\" takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.4639,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "The news are bad",
+        "The news is bad",
+        "The news were bad",
+        "The news be bad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"News\" is singular in sense and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.7114,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "The rich is not always happy",
+        "The rich are not always happy",
+        "The rich was not always happy",
+        "The rich be not always happy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"The rich\" takes a plural verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.4468,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Neither of the boys are coming",
+        "Neither of the boys is coming",
+        "Neither of the boys were coming",
+        "Neither of the boys be coming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Neither\" is singular and takes a singular verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791893850186.2712,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "The teacher with the students are here",
+        "The teacher with the students is here",
+        "The teacher with the students were here",
+        "The teacher with the students be here"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb agrees with the main subject \"teacher\".",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
