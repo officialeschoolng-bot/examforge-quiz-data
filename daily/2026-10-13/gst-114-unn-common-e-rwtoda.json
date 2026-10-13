@@ -3,16 +3,718 @@
   "title": "GST 114 ( UNN ) : COMMON ERRORS IN SPEECH AND WRITING",
   "subject": "GST 114",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791895784298.4902,
+      "question": "Errors in second language learning often arise from which cause?",
+      "options": [
+        "Inability to internalize rules",
+        "Lack of exposure to media",
+        "Poor memory retention",
+        "Insufficient vocabulary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Common errors occur due to the inability of learners to internalize grammar rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.66,
+      "question": "Under which headings are common errors grouped?",
+      "options": [
+        "Phonetic and lexical",
+        "Syntactic and semantic",
+        "Pragmatic and discourse",
+        "Morphological and syntactic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Errors are grouped under headings such as syntactic, concord, semantic, and others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.9956,
+      "question": "Which term refers to errors from misuse of parts of speech?",
+      "options": [
+        "Semantic errors",
+        "Concord errors",
+        "Syntactic errors",
+        "Morphological errors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Syntactic errors arise from the misuse of the parts of speech in sentences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.0767,
+      "question": "The list of errors presented in the chapter is described as which of the following?",
+      "options": [
+        "Exhaustive",
+        "Representative",
+        "Comprehensive",
+        "Definitive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The list of errors is not exhaustive but representative of common mistakes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.115,
+      "question": "Errors arising from the misuse of word forms are classified as which type?",
+      "options": [
+        "Syntactic",
+        "Semantic",
+        "Morphological",
+        "Concord"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Morphological errors refer to errors arising from the misuse of word forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.797,
+      "question": "Which sentence contains a syntactic error?",
+      "options": [
+        "I will discuss it during the next lecture",
+        "I will discuss about it during the next lecture",
+        "I will talk about it during the next lecture",
+        "I will mention it during the next lecture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb discuss does not require the preposition about.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.5576,
+      "question": "What is the correct version of \"I will discuss about it during the next lecture\"?",
+      "options": [
+        "I will discuss it during the next lecture",
+        "I will discuss on it during the next lecture",
+        "I will discuss for it during the next lecture",
+        "I will discuss at it during the next lecture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb discuss takes a direct object without a preposition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.223,
+      "question": "Which sentence is syntactically correct?",
+      "options": [
+        "The meeting has been fixed for next tomorrow",
+        "The meeting has been fixed for the day after tomorrow",
+        "The meeting has been fixed for tomorrow next",
+        "The meeting has been fixed for next tomorrow day"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct expression is the day after tomorrow, not next tomorrow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.4404,
+      "question": "What is the correct version of \"That boy plays truancy in the school\"?",
+      "options": [
+        "That boy plays truant in the school",
+        "That boy plays truancy at the school",
+        "That boy plays truant at the school",
+        "That boy plays truancy in school"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct idiom is to play truant, not to play truancy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3145,
+      "question": "What is the correct version of \"You can pay me install mentally\"?",
+      "options": [
+        "You can pay me in installments",
+        "You can pay me install mentally",
+        "You can pay me with installments",
+        "You can pay me by installments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is in installments, not install mentally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.014,
+      "question": "What is the correct version of \"This laptop does not worth the price\"?",
+      "options": [
+        "This laptop is not worth the price",
+        "This laptop does not worthy the price",
+        "This laptop is not worthy the price",
+        "This laptop does not worth it the price"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective worth is used with the verb is, not does.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.8557,
+      "question": "What is the correct version of \"You are all welcomed\"?",
+      "options": [
+        "You are all welcome",
+        "You are all welcoming",
+        "You are all welcomed here",
+        "You are all welcomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct adjective is welcome, not welcomed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.4138,
+      "question": "What is the correct version of \"He is a coward man\"?",
+      "options": [
+        "He is a cowardly man",
+        "He is a coward man",
+        "He is a cowardice man",
+        "He is a cowards man"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective form is cowardly, not coward.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.6353,
+      "question": "Which sentence contains a syntactic error?",
+      "options": [
+        "She does not take anything seriously",
+        "He is a matured man",
+        "They are close friends",
+        "The news is good"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct adjective is mature, not matured.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.6372,
+      "question": "What is the correct version of \"The girl is not taking her academic seriously\"?",
+      "options": [
+        "The girl is not taking her academics seriously",
+        "The girl is not taking her academic serious",
+        "The girl is not taking her academicals seriously",
+        "The girl is not taking her academic seriously"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural noun academics is used to refer to studies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.55,
+      "question": "Morphological errors refer to errors arising from which of the following?",
+      "options": [
+        "Misuse of word forms",
+        "Misuse of sentence structures",
+        "Misuse of meanings",
+        "Misuse of punctuation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Morphological errors arise from the misuse of word forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.1333,
+      "question": "Which word is not yet an English word?",
+      "options": [
+        "Plump",
+        "Plumpy",
+        "Plumpness",
+        "Plumply"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plumpy is not a standard English word; the correct word is plump.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3953,
+      "question": "What is the correct version of \"He is matured enough\"?",
+      "options": [
+        "He is mature enough",
+        "He is matured enough",
+        "He is maturing enough",
+        "He is maturity enough"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective mature is used, not matured.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.145,
+      "question": "What is the correct version of \"You are adding much weight\"?",
+      "options": [
+        "You are putting on much weight",
+        "You are adding much weight",
+        "You are putting much weight",
+        "You are gaining much weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is putting on weight, not adding weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.7449,
+      "question": "What is the correct version of \"The driver came back with a piece of good news\"?",
+      "options": [
+        "The driver came back with a piece of good news",
+        "The driver came back with a good news",
+        "The driver came back with good news",
+        "The driver came back with a piece of good news"
+      ],
+      "correctAnswer": 0,
+      "explanation": "News is an uncountable noun, so a piece of news is correct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3687,
+      "question": "What is the correct version of \"Going through the file, the error was discovered\"?",
+      "options": [
+        "Going through the file, I discovered the error",
+        "Going through the file, the error was discovered",
+        "Going through the file, the error discovered",
+        "Going through the file, the error was discovering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sentence has a dangling modifier; the subject must be the one performing the action.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.0957,
+      "question": "What is the correct version of \"There are four alphabets in the word 'Alphabet'\"?",
+      "options": [
+        "There are four letters in the word 'Alphabet'",
+        "There are four alphabets in the word 'Alphabet'",
+        "There are four alphabet in the word 'Alphabet'",
+        "There are four alphabetic in the word 'Alphabet'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word alphabet refers to the whole set; individual units are letters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.235,
+      "question": "What is the correct version of \"Hard work always results to success\"?",
+      "options": [
+        "Hard work always results in success",
+        "Hard work always results to success",
+        "Hard work always results for success",
+        "Hard work always results with success"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct preposition after result is in.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.9988,
+      "question": "What is the correct version of \"The man is a staff of this University\"?",
+      "options": [
+        "The man is a member of staff of this University",
+        "The man is a staff of this University",
+        "The man is a staff in this University",
+        "The man is a staff at this University"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is a member of staff, not a staff.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.7776,
+      "question": "What is the correct version of \"The lecture is not going to hold\"?",
+      "options": [
+        "The lecture is not going to take place",
+        "The lecture is not going to hold",
+        "The lecture is not going to holds",
+        "The lecture is not going to holding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct expression is take place, not hold.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3787,
+      "question": "Semantic errors result when wrong meanings are assigned to which of the following?",
+      "options": [
+        "Words and structures",
+        "Sounds and letters",
+        "Punctuation marks",
+        "Sentence types"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Semantic errors result when wrong meanings are assigned to words and other syntactic structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.0098,
+      "question": "What is the correct version of \"The two of us are close friends\"?",
+      "options": [
+        "Two of us are close friends",
+        "The two of us are close friends",
+        "The two of us is close friends",
+        "Two of us is close friends"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is two of us, not the two of us.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3684,
+      "question": "What is the correct version of \"Test and see that the Lord is good\"?",
+      "options": [
+        "Taste and see that the Lord is good",
+        "Test and see that the Lord is good",
+        "Taste and see that the Lord is good",
+        "Test and see that the Lord is good"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct idiom is taste and see, not test and see.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.9043,
+      "question": "What is the correct version of \"There is no harm in trying\"?",
+      "options": [
+        "There is no harm in trying",
+        "There is no harm to try",
+        "There is no harm for trying",
+        "There is no harm to trying"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct expression is no harm in trying.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3774,
+      "question": "What is the correct version of \"Our tape recorder is damaged\"?",
+      "options": [
+        "Our tape recorder is spoilt",
+        "Our tape recorder is damaged",
+        "Our tape recorder is spoilt",
+        "Our tape recorder is damage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct word for a machine that no longer works is spoilt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.9368,
+      "question": "What is the correct version of \"The man hears jargon\"?",
+      "options": [
+        "The man understands jargon",
+        "The man hears jargon",
+        "The man listens jargon",
+        "The man understands jargon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb for understanding specialized language is understands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.7031,
+      "question": "What is the correct version of \"Uche arranged the hall orderly\"?",
+      "options": [
+        "Uche arranged the hall in an orderly manner",
+        "Uche arranged the hall orderly",
+        "Uche arranged the hall in orderly manner",
+        "Uche arranged the hall with orderly manner"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adverb phrase is in an orderly manner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.2217,
+      "question": "What is the correct version of \"He bought a coloured television\"?",
+      "options": [
+        "He bought a colour television",
+        "He bought a coloured television",
+        "He bought a colouring television",
+        "He bought a colours television"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct adjective is colour, not coloured.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.7239,
+      "question": "What is the correct version of \"He is matured enough to be responsible\"?",
+      "options": [
+        "He is mature enough to be responsible",
+        "He is matured enough to be responsible",
+        "He is maturing enough to be responsible",
+        "He is maturity enough to be responsible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective mature is used, not matured.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.204,
+      "question": "What is the correct version of \"You are adding much weight\"?",
+      "options": [
+        "You are putting on much weight",
+        "You are adding much weight",
+        "You are putting much weight",
+        "You are gaining much weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is putting on weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.767,
+      "question": "Concord errors arise from lack of agreement in which area?",
+      "options": [
+        "Number between subject and verb",
+        "Tense between clauses",
+        "Gender between pronouns",
+        "Case between nouns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Concord errors arise from lack of agreement in number between subject and verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.266,
+      "question": "What is the correct version of \"The dupes has to be punished\"?",
+      "options": [
+        "The dupe has to be punished",
+        "The dupes has to be punished",
+        "The dupe have to be punished",
+        "The dupes have to be punished"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The singular form dupe is used with the singular verb has.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.131,
+      "question": "What is the correct version of \"He wants to credit Mathematics by all means\"?",
+      "options": [
+        "He wants to get credit in Mathematics by all means",
+        "He wants to credit Mathematics by all means",
+        "He wants to credit in Mathematics by all means",
+        "He wants to get credit for Mathematics by all means"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is get credit in a subject.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.5972,
+      "question": "What is the correct version of \"My wife delivered her baby this morning\"?",
+      "options": [
+        "My wife gave birth to her baby this morning",
+        "My wife delivered her baby this morning",
+        "My wife delivered of her baby this morning",
+        "My wife gave birth her baby this morning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct expression is gave birth to, not delivered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.203,
+      "question": "What is the correct version of \"I will borrow you my book\"?",
+      "options": [
+        "I will lend you my book",
+        "I will borrow you my book",
+        "I will borrow you my book",
+        "I will lend you my book"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb is lend when giving something to someone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.2869,
+      "question": "What is the correct version of \"The film is titled Living in Bondage\"?",
+      "options": [
+        "The film is entitled Living in Bondage",
+        "The film is titled Living in Bondage",
+        "The film is title Living in Bondage",
+        "The film is entitled to Living in Bondage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct word for a work's name is entitled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.8213,
+      "question": "What is the correct version of \"That bus will carry you to the town\"?",
+      "options": [
+        "That bus will take you to the town",
+        "That bus will carry you to the town",
+        "That bus will carry you to town",
+        "That bus will take you to town"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb for transporting people is take.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.625,
+      "question": "What is the correct version of \"The soup is sweet\"?",
+      "options": [
+        "The soup is tasty",
+        "The soup is sweet",
+        "The soup is sweeting",
+        "The soup is sweetened"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct word for pleasant taste is tasty or delicious.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.5757,
+      "question": "What is the correct version of \"She doesn't know how to make soup\"?",
+      "options": [
+        "She doesn't know how to cook soup",
+        "She doesn't know how to make soup",
+        "She doesn't know how to prepare soup",
+        "She doesn't know how to making soup"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb for preparing soup is cook.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.8364,
+      "question": "What is the correct version of \"You must leave your bad habits\"?",
+      "options": [
+        "You must give up your bad habits",
+        "You must leave your bad habits",
+        "You must give off your bad habits",
+        "You must leave off your bad habits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrasal verb is give up.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.6042,
+      "question": "What is the correct version of \"Please remind me of the story\"?",
+      "options": [
+        "Please remind me about the story",
+        "Please remind me of the story",
+        "Please remind me for the story",
+        "Please remind me on the story"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct preposition after remind is about.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3657,
+      "question": "What is the correct version of \"Our team defeated them by two goals to nothing\"?",
+      "options": [
+        "Our team defeated them by two goals to nil",
+        "Our team defeated them by two goals to nothing",
+        "Our team defeated them by two goals to zero",
+        "Our team defeated them by two goals to none"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct word for zero in sports is nil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.3806,
+      "question": "What is the correct version of \"If these shoes size you, buy them\"?",
+      "options": [
+        "If these shoes fit you, buy them",
+        "If these shoes size you, buy them",
+        "If these shoes suit you, buy them",
+        "If these shoes match you, buy them"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb for correct shoe size is fit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.9656,
+      "question": "What is the correct version of \"In spite of the new batteries, the radio refused to function\"?",
+      "options": [
+        "In spite of the new batteries, the radio refused to work",
+        "In spite of the new batteries, the radio refused to function",
+        "In spite of the new batteries, the radio refused to working",
+        "In spite of the new batteries, the radio refused to works"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct verb for a machine operating is work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791895784298.0625,
+      "question": "What is the correct version of \"NEPA has taken the light\"?",
+      "options": [
+        "NEPA has taken the power",
+        "NEPA has taken the light",
+        "NEPA has taken the electricity",
+        "NEPA has taken the current"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct term for electricity supply is power.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
