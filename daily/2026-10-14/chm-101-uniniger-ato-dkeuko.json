@@ -3,16 +3,718 @@
   "title": "CHM 101 ( UNINIGER ) : ATOMIC MODELS",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791994987127.8284,
+      "question": "The existence of atoms was confirmed by matter, electricity, and which other phenomenon?",
+      "options": [
+        "Radiation",
+        "Gravity",
+        "Magnetism",
+        "Sound"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The material states matter, electricity, and radiation are atomic in character.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.6235,
+      "question": "Theories proposed to study the physical state of an atom from spectrum characteristics are called which of the following?",
+      "options": [
+        "Atomic models",
+        "Chemical laws",
+        "Physical constants",
+        "Nuclear forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These theories are called atomic models.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.076,
+      "question": "Which of the following is listed as an important atomic model?",
+      "options": [
+        "Dalton's model",
+        "Thomson's model",
+        "Einstein's model",
+        "Newton's model"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thomson's atomic model is one of the important models listed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.031,
+      "question": "The first scientific explanation of atomic structure was proposed by which scientist?",
+      "options": [
+        "Rutherford",
+        "Thomson",
+        "Bohr",
+        "Dalton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "J. J. Thomson proposed the first scientific explanation in 1899.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.611,
+      "question": "Bohr improved on the atomic model of which scientist?",
+      "options": [
+        "Thomson",
+        "Rutherford",
+        "Dalton",
+        "Sommerfeld"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bohr improved on the model by Rutherford.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.3367,
+      "question": "Which model is considered close to the modern atomic model?",
+      "options": [
+        "Thomson's model",
+        "Rutherford's model",
+        "Bohr's model",
+        "Dalton's model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The modern atomic model is close to Bohr's atomic model.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.671,
+      "question": "Which theory was applied by Bohr to revolving electrons?",
+      "options": [
+        "Quantum theory",
+        "Wave theory",
+        "Kinetic theory",
+        "Relativity theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bohr applied Planck's Quantum Theory to revolving electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.947,
+      "question": "The modern atomic model is closest to which scientist's model?",
+      "options": [
+        "Thomson",
+        "Rutherford",
+        "Bohr",
+        "Dalton"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The modern atomic model is close to Bohr's atomic model.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.318,
+      "question": "In which year was Thomson's atomic model proposed?",
+      "options": [
+        "1899",
+        "1911",
+        "1913",
+        "1900"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thomson proposed his atomic model in 1899.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.2095,
+      "question": "Thomson's atomic model described the atom as a sphere filled with which substance?",
+      "options": [
+        "Neutral matter",
+        "Positive matter",
+        "Negative matter",
+        "Gaseous matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The atom was a sphere filled with positively charged matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.976,
+      "question": "In Thomson's model, electrons serve to balance which charge?",
+      "options": [
+        "Positive charge",
+        "Negative charge",
+        "Neutral charge",
+        "Atomic mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electrons are embedded to balance the positive charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.9773,
+      "question": "In Thomson's model, the number of electrons is proportional to which property?",
+      "options": [
+        "Atomic number",
+        "Atomic weight",
+        "Valency",
+        "Density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number of electrons was proportional to the atomic weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.419,
+      "question": "Thomson postulated that electrons are held together by which force?",
+      "options": [
+        "Magnetic force",
+        "Gravitational force",
+        "Electrostatic force",
+        "Nuclear force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electrons are held by electrostatic forces of attraction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.5974,
+      "question": "Which arrangement could Thomson's model not show completely?",
+      "options": [
+        "Electrons and protons",
+        "Neutrons and protons",
+        "Electrons and neutrons",
+        "Only electrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The model could not show the complete arrangement of electrons and protons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.1055,
+      "question": "Thomson's model was rejected because it could not explain which spectrum?",
+      "options": [
+        "Hydrogen spectrum",
+        "Oxygen spectrum",
+        "Nitrogen spectrum",
+        "Helium spectrum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It could not explain the hydrogen spectrum completely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.5989,
+      "question": "Thomson's model gave no explanation for which experimental observation?",
+      "options": [
+        "Small scattering of alpha particles",
+        "Large scattering of alpha particles",
+        "Emission of light",
+        "Stability of atoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "No explanation was given for large scattering of alpha particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.5686,
+      "question": "Thomson's theory today is important mainly because it did which of the following?",
+      "options": [
+        "It was a pioneer",
+        "It found neutrons",
+        "It explained spectra",
+        "It measured charge"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It pioneered the way of modern research in this sphere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.2283,
+      "question": "Thomson's model assumed the atom as a whole was what?",
+      "options": [
+        "Unstable",
+        "Stable",
+        "Radioactive",
+        "Hollow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From the observation that the atom as a whole was stable, he postulated electron arrangement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.0947,
+      "question": "In which year was Rutherford's atomic model proposed?",
+      "options": [
+        "1899",
+        "1911",
+        "1913",
+        "1900"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rutherford proposed his atomic model in 1911.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.828,
+      "question": "Rutherford's model was based on scattering of alpha particles by which material?",
+      "options": [
+        "Foil",
+        "Paper",
+        "Glass",
+        "Water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The experiment involved scattering of alpha particles by thin metal foil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.39,
+      "question": "Which two associates conducted the alpha particle scattering experiment with Rutherford?",
+      "options": [
+        "Bohr and Sommerfeld",
+        "Geiger and Marsden",
+        "Thomson and Dalton",
+        "Planck and Einstein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Geiger and Marsden conducted the experiment with Rutherford.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.6655,
+      "question": "In Rutherford's model, the nucleus is surrounded by particles with which charge?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Mixed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The atom is made up of a small positive nucleus with electrons around it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.0952,
+      "question": "In Rutherford's model, the total negative charge equals which charge?",
+      "options": [
+        "Nuclear charge",
+        "Atomic mass",
+        "Neutron charge",
+        "Energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The total negative charge equals the concentrated positive charge in the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.206,
+      "question": "In Rutherford's model, most of the atom's volume is described as which?",
+      "options": [
+        "Empty",
+        "Dense",
+        "Positive",
+        "Negative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Such a picture leaves most of the volume unoccupied.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.8384,
+      "question": "Rutherford assumed that electrons revolve around the nucleus like which system?",
+      "options": [
+        "Solar system",
+        "Lunar system",
+        "Atomic system",
+        "Molecular system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electrons revolve around the nucleus like planets around the sun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.1626,
+      "question": "In Rutherford's model, which force balances the electrostatic force of attraction?",
+      "options": [
+        "Gravitational force",
+        "Centrifugal force",
+        "Magnetic force",
+        "Nuclear force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centrifugal force due to rotation balances the electrostatic force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987128.911,
+      "question": "What did Rutherford assume about the state of electrons in his model?",
+      "options": [
+        "At rest",
+        "Not at rest",
+        "In pairs",
+        "In fixed orbits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rutherford assumed electrons were not at rest but revolved around the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.3096,
+      "question": "According to electromagnetic theory, an accelerating charge must do which of the following?",
+      "options": [
+        "Emit energy",
+        "Gain mass",
+        "Lose charge",
+        "Stay stable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An accelerating charge must radiate energy as electromagnetic radiation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.5059,
+      "question": "In Rutherford's model, an electron must move along which path?",
+      "options": [
+        "Circular path",
+        "Spiral path",
+        "Straight line",
+        "Elliptical path"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electron must move along a spiral path of decreasing radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.139,
+      "question": "According to Rutherford's model, the atom would last for which duration?",
+      "options": [
+        "Short period",
+        "Long period",
+        "Infinite time",
+        "One second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The planetary system would last for an extremely short period.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.7053,
+      "question": "In practice, spectral lines of which type are always observed?",
+      "options": [
+        "Fixed wavelength",
+        "Variable wavelength",
+        "Increasing wavelength",
+        "Decreasing wavelength"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spectral lines of fixed wavelength are always observed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.6409,
+      "question": "Which difficulty arises from a positively charged nucleus surrounded by electrons?",
+      "options": [
+        "Electrons collapse",
+        "Nucleus explodes",
+        "Electrons lose charge",
+        "Atom becomes neutral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The protons should make electrons fall into the nucleus due to electrostatic attraction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.6074,
+      "question": "How did Rutherford solve the difficulty of electrons falling into the nucleus?",
+      "options": [
+        "They revolve",
+        "They are at rest",
+        "They have no charge",
+        "Nucleus is neutral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He assumed electrons revolve around the nucleus in various orbits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.5654,
+      "question": "What brings up another difficulty in Rutherford's model?",
+      "options": [
+        "Electron accelerates",
+        "Electron is stationary",
+        "Nucleus is unstable",
+        "Atom has no mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A revolving electron is continuously accelerated due to change of direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.7483,
+      "question": "What is the consequence of energy loss by orbiting electrons?",
+      "options": [
+        "It spirals in",
+        "It escapes",
+        "Nucleus expands",
+        "Atom stabilizes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electron must move along a spiral path of decreasing radius till it falls into the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.9548,
+      "question": "What is in sharp contrast to the prediction that atoms would collapse?",
+      "options": [
+        "Atoms are stable",
+        "Atoms are unstable",
+        "Atoms emit light",
+        "Atoms are radioactive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "But this is in sharp contrast to the fact that atoms show no tendency to collapse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.964,
+      "question": "In which year was Bohr's atomic model proposed?",
+      "options": [
+        "1911",
+        "1913",
+        "1899",
+        "1920"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neils Bohr proposed his atomic model in 1913.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.3552,
+      "question": "Bohr retained which part of Rutherford's model?",
+      "options": [
+        "Nucleus",
+        "Spiral path",
+        "Energy loss",
+        "No nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bohr retained the small positively charged nucleus in the centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.2244,
+      "question": "Bohr applied which theory to revolving electrons?",
+      "options": [
+        "Quantum theory",
+        "Relativity theory",
+        "Wave theory",
+        "Kinetic theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bohr applied Planck's Quantum Theory to the revolving electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.6963,
+      "question": "According to Bohr, an electron in the same orbit does which of the following?",
+      "options": [
+        "Is constant",
+        "Loses energy",
+        "Gains energy",
+        "Radiates light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy of an electron remains constant so long as it stays in the same orbit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.332,
+      "question": "In Bohr's model, orbits are also known as which term?",
+      "options": [
+        "Energy levels",
+        "Mass levels",
+        "Charge levels",
+        "Spin levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Orbits are also known as energy levels or energy shells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.098,
+      "question": "In Bohr's model, which orbit has the least energy?",
+      "options": [
+        "Farthest orbit",
+        "Smallest orbit",
+        "Middle orbit",
+        "Any orbit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The smallest orbit, first from the nucleus, has the least energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.6096,
+      "question": "In Bohr's model, which orbit has the maximum energy?",
+      "options": [
+        "Smallest orbit",
+        "Farthest orbit",
+        "First orbit",
+        "Second orbit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The farthest orbit has the maximum energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.8738,
+      "question": "Energy is emitted when an electron moves from which level?",
+      "options": [
+        "Lower to higher",
+        "Higher to lower",
+        "Same level",
+        "Any level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy is emitted when an electron moves from a higher energy level to a lower energy level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.65,
+      "question": "Energy is absorbed when an electron moves from which level?",
+      "options": [
+        "Higher to lower",
+        "Lower to higher",
+        "Same level",
+        "Any level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy is absorbed when an electron moves from a lower energy level to a higher energy level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.5203,
+      "question": "Bohr postulated that angular momentum can have only which type of values?",
+      "options": [
+        "Discrete values",
+        "Continuous values",
+        "Random values",
+        "Zero values"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bohr postulated that angular momentum can have only definite or discrete values.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.346,
+      "question": "In Bohr's postulate, what does n represent?",
+      "options": [
+        "An integer",
+        "A fraction",
+        "A constant",
+        "A variable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "n is an integer representing the orbit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.2007,
+      "question": "The charge of an electron is which value?",
+      "options": [
+        "1.6 x 10^-19 C",
+        "1.6 x 10^-31 C",
+        "9.1 x 10^-19 C",
+        "6.626 x 10^-34 C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The charge of an electron is 1.6 times 10 to the power minus 19 coulomb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.8044,
+      "question": "The mass of an electron is which value?",
+      "options": [
+        "9.1 x 10^-31 kg",
+        "1.6 x 10^-19 kg",
+        "6.626 x 10^-34 kg",
+        "8.854 x 10^-12 kg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mass of an electron is 9.1 times 10 to the power minus 31 kilogram.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791994987129.746,
+      "question": "Bohr's atomic model cannot be applied to which type of atoms?",
+      "options": [
+        "Complex atoms",
+        "Hydrogen atoms",
+        "Single-electron atoms",
+        "Simple atoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It cannot be applied to complex atoms having two or more planetary electrons.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
