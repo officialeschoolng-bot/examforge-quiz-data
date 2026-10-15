@@ -3,16 +3,718 @@
   "title": "GST 111 ( UNIZIK ) : INTRODUCTION OF VOCABULARY",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792088709026.829,
+      "question": "The word 'vocabulary' means:",
+      "options": [
+        "All the letters of a language",
+        "All the sounds of a language",
+        "All the words of a language",
+        "All the sentences of a language"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vocabulary refers to the total stock of words available in a language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.2556,
+      "question": "A user's vocabulary can be seen as the number of words he or she:",
+      "options": [
+        "Writes and speaks them",
+        "Knows meanings and usage",
+        "Hears and repeats them",
+        "Reads and forgets them"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vocabulary refers to words whose meanings and usage a person knows.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.7397,
+      "question": "Inadequate vocabulary affects:",
+      "options": [
+        "Handwriting skills",
+        "Listening speed",
+        "Speaking volume",
+        "Reading comprehension"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A limited vocabulary negatively affects reading comprehension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9,
+      "question": "To be proficient in the use of English, a second language learner should have:",
+      "options": [
+        "A large word stock",
+        "A small word stock",
+        "Only a technical vocabulary",
+        "Only an informal vocabulary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Proficiency in English requires a wide vocabulary from diverse areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.0752,
+      "question": "Having a wide stock of vocabularies enhances:",
+      "options": [
+        "Only spoken communication skills",
+        "Only written communication skills",
+        "Neither spoken nor written",
+        "Both spoken and written"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A broad vocabulary improves both oral and written communication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.38,
+      "question": "Developing one's vocabulary does not just happen; it requires:",
+      "options": [
+        "Luck and chance",
+        "A conscious effort",
+        "Natural talent alone",
+        "Family inheritance only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vocabulary development requires deliberate and continuous effort.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9421,
+      "question": "Intensive reading means:",
+      "options": [
+        "Detailed and careful reading",
+        "Reading for leisure only",
+        "Reading only daily newspapers",
+        "Reading without any concentration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intensive reading involves careful and detailed study of a text.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.344,
+      "question": "The purpose of intensive reading could be:",
+      "options": [
+        "Entertainment only",
+        "Passing time",
+        "Exam preparation",
+        "Avoiding boredom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intensive reading is often done to prepare for examinations, quizzes, or interviews.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.204,
+      "question": "In intensive reading, the reader reads with:",
+      "options": [
+        "Low concentration",
+        "No concentration",
+        "Partial concentration",
+        "High concentration"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensive reading demands a high level of concentration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9353,
+      "question": "From the stock of new words the reader comes across in intensive reading, the:",
+      "options": [
+        "Vocabulary is destroyed",
+        "Vocabulary is developed",
+        "Grammar is ignored",
+        "Pronunciation is ignored"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Encountering new words during intensive reading helps develop vocabulary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.885,
+      "question": "Intensive reading helps to obtain:",
+      "options": [
+        "General knowledge only",
+        "Entertainment only",
+        "Social connections only",
+        "Specific information only"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensive reading is used to obtain specific information within a particular field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.0063,
+      "question": "Extensive reading entails:",
+      "options": [
+        "Reading only one textbook",
+        "Wide and varied reading",
+        "Reading only for examinations",
+        "Reading only at night"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Extensive reading involves reading widely from many different areas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.8486,
+      "question": "Extensive reading is usually done for:",
+      "options": [
+        "Examination preparation",
+        "Job interviews",
+        "Leisure",
+        "Academic quizzes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extensive reading is generally done for pleasure or leisure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.943,
+      "question": "Which of the following is NOT a material for extensive reading?",
+      "options": [
+        "Laboratory manual",
+        "Daily newspapers",
+        "Weekly magazines",
+        "Romantic novels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A laboratory manual is a specialized text, not a leisure reading material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6104,
+      "question": "Extensive reading helps to extend the:",
+      "options": [
+        "Duration of sleep",
+        "Number of enemies",
+        "Cost of living",
+        "Frontiers of knowledge"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Extensive reading broadens knowledge across many subjects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.7178,
+      "question": "The adage that readers are leaders cannot be truer. This is associated with:",
+      "options": [
+        "Extensive reading",
+        "Intensive reading",
+        "Fast skimming",
+        "Quick scanning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The saying that readers are leaders is linked to wide and regular extensive reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.0588,
+      "question": "Students are advised to be selective about the materials they read. This advice is given under:",
+      "options": [
+        "Intensive reading",
+        "Dictionary use",
+        "Extensive reading",
+        "Word collocation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Being selective about reading materials is advice given for extensive reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6096,
+      "question": "The beauty of extensive and regular reading is that vocabulary development takes place:",
+      "options": [
+        "Only in a conscious way",
+        "Both consciously and unconsciously",
+        "Only in an unconscious way",
+        "Neither consciously nor unconsciously"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Extensive reading develops vocabulary both consciously and unconsciously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.4553,
+      "question": "The use of a good dictionary is a sine qua non for any student intent on developing his or her vocabulary. Sine qua non means:",
+      "options": [
+        "An indispensable thing",
+        "An optional thing",
+        "A useless thing",
+        "A dangerous thing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sine qua non means something absolutely indispensable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.1846,
+      "question": "The basic function of a dictionary is to:",
+      "options": [
+        "Supply information about people",
+        "Supply information about places",
+        "Supply information about events",
+        "Supply information about words"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A dictionary primarily provides information about words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.221,
+      "question": "In buying a dictionary, care should be taken to purchase the:",
+      "options": [
+        "Oldest edition",
+        "Cheapest edition",
+        "Latest edition",
+        "Most colourful edition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The latest edition of a dictionary contains the most current information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6616,
+      "question": "Which of the following is NOT information provided by a good dictionary?",
+      "options": [
+        "Word spelling",
+        "Handwriting style",
+        "Word pronunciation",
+        "Word etymology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dictionary provides spelling, pronunciation, and etymology, but not handwriting style.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9143,
+      "question": "A thesaurus is a book in which words are put into groups with other words that have:",
+      "options": [
+        "Opposite meanings",
+        "Hidden meanings",
+        "Foreign meanings",
+        "Similar meanings"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A thesaurus groups words with similar meanings together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.2644,
+      "question": "The thesaurus helps us with synonymous words thereby saving us from:",
+      "options": [
+        "Correct use of words",
+        "Creative use of words",
+        "Monotonous use of words",
+        "Formal use of words"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A thesaurus helps avoid monotonous repetition by supplying synonyms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.243,
+      "question": "Which of the following is an example of a thesaurus?",
+      "options": [
+        "Merriam Webster's Thesaurus",
+        "Oxford Learner's Dictionary",
+        "Collins English Dictionary",
+        "Longman Contemporary Dictionary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Merriam Webster's Collegiate Thesaurus is an example of a thesaurus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6821,
+      "question": "Words that are opposite in meaning are called:",
+      "options": [
+        "Synonyms",
+        "Homonyms",
+        "Antonyms",
+        "Homophones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antonyms are words with opposite meanings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.156,
+      "question": "Antonyms are also referred to as:",
+      "options": [
+        "Words and meanings",
+        "Words and sounds",
+        "Words and spellings",
+        "Words and opposites"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Antonyms are commonly described as words and opposites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.0955,
+      "question": "Which of the following is the opposite of 'Interior'?",
+      "options": [
+        "Exterior",
+        "Internal",
+        "Inferior",
+        "Superior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exterior is the opposite of interior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.0928,
+      "question": "Which of the following is the opposite of 'Genuine'?",
+      "options": [
+        "Real",
+        "Counterfeit",
+        "Authentic",
+        "Natural"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Counterfeit is the opposite of genuine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.412,
+      "question": "Words are said to be used in collocation when such words are:",
+      "options": [
+        "Rarely used together",
+        "Always opposite in meaning",
+        "Often used together naturally",
+        "Always difficult to spell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collocation refers to words that habitually occur together naturally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.7485,
+      "question": "Using words in collocation means the:",
+      "options": [
+        "Habitual linking of certain words",
+        "Accidental linking of words",
+        "Random arrangement of words",
+        "Forced combination of words"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collocation involves the habitual linking of certain words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6118,
+      "question": "Which of the following is an example of words used in collocation?",
+      "options": [
+        "Commit a book",
+        "Commit a song",
+        "Commit a dance",
+        "Commit a crime"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Commit a crime is a natural collocation in English.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6296,
+      "question": "Which of the following is an example of words used in collocation?",
+      "options": [
+        "Free and expensive",
+        "Free and fair",
+        "Free and tall",
+        "Free and short"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Free and fair is a common and natural collocation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.2612,
+      "question": "The ordinary or dictionary meaning of a word is referred to as the:",
+      "options": [
+        "Connotative meaning",
+        "Figurative meaning",
+        "Denotative meaning",
+        "Implied meaning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Denotative meaning is the literal or dictionary meaning of a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.3252,
+      "question": "The implied, related or associated meaning attached to a word is called:",
+      "options": [
+        "Denotative meaning",
+        "Literal meaning",
+        "Direct meaning",
+        "Connotative meaning"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Connotative meaning is the implied or associated meaning of a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9932,
+      "question": "The connotation of a word often reveals the:",
+      "options": [
+        "Word spelling",
+        "Speaker's attitude",
+        "Word pronunciation",
+        "Word origin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Connotation often reveals the speaker's or writer's attitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.6296,
+      "question": "The context in which a word is used determines its:",
+      "options": [
+        "Spelling",
+        "Length",
+        "Meaning",
+        "Origin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The context of use determines the meaning of a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.844,
+      "question": "The root of a word means:",
+      "options": [
+        "The word ending",
+        "The word middle",
+        "The word sound",
+        "The word source"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The root is the source or origin from which a word is derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.4773,
+      "question": "Which of the following is a Latin root meaning 'year'?",
+      "options": [
+        "Annum",
+        "Corpus",
+        "Ego",
+        "Hum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Annum is a Latin root meaning year.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.1248,
+      "question": "Which of the following is a Greek root meaning 'time'?",
+      "options": [
+        "Ge",
+        "Chron",
+        "Eikon",
+        "Anthropo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chron is a Greek root meaning time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.1821,
+      "question": "Affixes that come before a word are called:",
+      "options": [
+        "Suffixes",
+        "Roots",
+        "Prefixes",
+        "Stems"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prefixes are affixes added before a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.3955,
+      "question": "Affixes that come at the end of a word are called:",
+      "options": [
+        "Prefixes",
+        "Roots",
+        "Stems",
+        "Suffixes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Suffixes are affixes added at the end of a word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.3398,
+      "question": "The prefix 'ante' means:",
+      "options": [
+        "Before",
+        "After",
+        "Against",
+        "Together"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prefix ante means before.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9343,
+      "question": "The suffix '-cide' means:",
+      "options": [
+        "Study",
+        "Killer",
+        "Measure",
+        "Make"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -cide means killer or killing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.09,
+      "question": "When two or more different written words have the same pronunciation, they are said to be:",
+      "options": [
+        "Homonyms",
+        "Antonyms",
+        "Homophones",
+        "Synonyms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Homophones are different words that sound the same.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.1147,
+      "question": "Which of the following is an example of homophones?",
+      "options": [
+        "Meet - Met",
+        "Meet - Meeting",
+        "Meet - Meets",
+        "Meet - Meat"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Meet and meat are pronounced the same but have different meanings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.9873,
+      "question": "A word form that has two or more meanings that are not related is called:",
+      "options": [
+        "Homonym",
+        "Homophone",
+        "Antonym",
+        "Synonym"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A homonym is a word form with two or more unrelated meanings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.1184,
+      "question": "Which of the following is an example of homonyms?",
+      "options": [
+        "Bank as river / Bank as finance",
+        "Meet as encounter / Meat as food",
+        "Flour as powder / Flower as plant",
+        "Pail as bucket / Pale as light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bank as a river side and bank as a financial institution are homonyms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.316,
+      "question": "An idiom is a string of words, phrase or sentence whose meaning is:",
+      "options": [
+        "Understood from individual words",
+        "Always completely literal",
+        "Not from individual words",
+        "Always very simple"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An idiom's meaning cannot be deduced from the individual words alone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792088709026.226,
+      "question": "The word 'theatre' in medical terms refers to:",
+      "options": [
+        "A performance stage",
+        "A movie cinema",
+        "A lecture classroom",
+        "An operation room"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In medical register, theatre refers to an operating room.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
