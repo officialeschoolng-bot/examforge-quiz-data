@@ -3,16 +3,718 @@
   "title": "BIO 101 ( UNINIGER ) : CELL STRUCTURE AND FUNCTION",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792080418680.7727,
+      "question": "The cell theory includes the idea that all living things are made of which units?",
+      "options": [
+        "One or more cells",
+        "Tissues and organs",
+        "Atoms and molecules",
+        "Fluids and fibers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first statement of cell theory says all living things are made up of one or more cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.032,
+      "question": "Which statement describes the cell as the basic unit of structure and function?",
+      "options": [
+        "Cells are formed from nonliving matter.",
+        "The cell is the basic unit of life.",
+        "Tissues are the basic unit of life.",
+        "Organs are the basic unit of life."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell is the basic unit of structure and function in living things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.5945,
+      "question": "All cells arise from which source?",
+      "options": [
+        "Spontaneous generation",
+        "Pre-existing cells",
+        "Inorganic chemicals",
+        "Decaying matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The third principle of cell theory states that all cells come from pre-existing cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.7861,
+      "question": "Cell organelles are best described as which of the following?",
+      "options": [
+        "Random collections of molecules",
+        "Specialized functional units",
+        "Nonliving layers outside cells",
+        "Gels without any organization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organelles are specialized entities that perform specific functions inside a cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.8794,
+      "question": "The plasma membrane provides which kind of support for the cell?",
+      "options": [
+        "Mechanical support",
+        "Thermal insulation",
+        "Electrical grounding",
+        "Chemical catalysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell membrane provides mechanical support that helps maintain the shape of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4797,
+      "question": "The cell membrane regulates entry and exit because it is which type of membrane?",
+      "options": [
+        "Fully permeable",
+        "Semi-permeable",
+        "Impermeable",
+        "Rigid and solid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane acts as a semi-permeable membrane that controls what enters and exits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.379,
+      "question": "The cell membrane allows interaction between cells during which processes?",
+      "options": [
+        "Photosynthesis and respiration",
+        "Tissue formation and fusion",
+        "Digestion and excretion",
+        "Transcription and translation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane allows interaction between cells during tissue formation and cell fusion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.155,
+      "question": "The cell wall is found outside the cell membrane in which cells?",
+      "options": [
+        "Some cells",
+        "All animal cells",
+        "All prokaryotic cells",
+        "All viral particles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell wall is an additional nonliving layer present outside the cell membrane in some cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.428,
+      "question": "A plant cell wall is mainly composed of which materials?",
+      "options": [
+        "Chitin and other lipid molecules",
+        "Cellulose and proteins",
+        "Peptidoglycan and RNA",
+        "Keratin and stored starch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A plant cell wall is made up of cellulose, hemicellulose, and proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.6929,
+      "question": "A fungal cell wall is composed of which substance?",
+      "options": [
+        "Cellulose",
+        "Chitin",
+        "Lignin",
+        "Starch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a fungal cell, the cell wall is composed of chitin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.9165,
+      "question": "Chloroplasts are involved in which process?",
+      "options": [
+        "Cellular respiration process",
+        "Photosynthesis",
+        "Intracellular digestion",
+        "Waste excretion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chloroplasts are involved in photosynthesis in plants and algae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.8445,
+      "question": "Chlorophyll in chloroplasts traps sunlight to produce which molecule?",
+      "options": [
+        "Glucose",
+        "Oxygen",
+        "Carbon dioxide",
+        "Water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlorophyll is necessary to trap sunlight for the production of glucose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.7878,
+      "question": "Cytoplasm refers to everything inside the cell except which structure?",
+      "options": [
+        "Nucleus",
+        "Membrane",
+        "Ribosome",
+        "Vacuole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytoplasm refers to everything present inside the cell except the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.3037,
+      "question": "The cytoplasm is made up of which gel-like substance?",
+      "options": [
+        "Cytosol",
+        "Matrix",
+        "Stroma",
+        "Nucleoplasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cytoplasm consists of a cytosol, which is a gel-like substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.894,
+      "question": "Cytoplasmic streaming helps distribute which materials?",
+      "options": [
+        "Nutrients",
+        "Hormones",
+        "Enzymes",
+        "Antibodies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytoplasmic streaming helps in the distribution of various nutrients within the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.8755,
+      "question": "The endoplasmic reticulum is connected to which structure?",
+      "options": [
+        "Golgi apparatus",
+        "Nucleus",
+        "Plasma membrane",
+        "Mitochondria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The endoplasmic reticulum is connected to the nuclear membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.5317,
+      "question": "Rough endoplasmic reticulum has which structures attached?",
+      "options": [
+        "Ribosomes",
+        "Lysosomes",
+        "Vacuoles",
+        "Centrosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rough ER has ribosomes attached on its cytosolic face.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.2908,
+      "question": "Smooth endoplasmic reticulum lacks ribosomes and functions in which synthesis?",
+      "options": [
+        "Lipid synthesis",
+        "Protein synthesis",
+        "DNA synthesis",
+        "RNA synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Smooth ER lacks ribosomes and functions during lipid synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.1296,
+      "question": "Rough endoplasmic reticulum helps modify which molecules?",
+      "options": [
+        "Polypeptides",
+        "Nucleotides",
+        "Monosaccharides",
+        "Fatty acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rough ER allows modification of polypeptides emerging from ribosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.54,
+      "question": "The Golgi apparatus packages macromolecules into which structures?",
+      "options": [
+        "Vesicles",
+        "Ribosomes",
+        "Nuclei",
+        "Mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Golgi apparatus packages macromolecules into vesicles for transport.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.2944,
+      "question": "The Golgi complex is often called which of the following?",
+      "options": [
+        "Powerhouse of the cell",
+        "Traffic police",
+        "Brain of the cell",
+        "Protein factory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Golgi complex directs proteins and lipids and acts as the traffic police of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.04,
+      "question": "The Golgi apparatus is involved in exocytosis of which product?",
+      "options": [
+        "Mucus",
+        "Glucose",
+        "Oxygen",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Golgi apparatus is involved in exocytosis of products such as mucus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.86,
+      "question": "Lysozymes contain which type of enzymes?",
+      "options": [
+        "Hydrolytic enzymes",
+        "Oxidative enzymes",
+        "Photosynthetic enzymes",
+        "Digestive hormones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysozymes contain hydrolytic enzymes required for degradation of macromolecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4187,
+      "question": "Primary lysozymes contain which of the following enzymes?",
+      "options": [
+        "Catalase and oxidase",
+        "Lipases, proteases",
+        "Pepsin and renin",
+        "Amylase and maltase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primary lysozymes contain hydrolytic enzymes like lipases and proteases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.9038,
+      "question": "Secondary lysozymes form by fusion with which materials?",
+      "options": [
+        "Engulfed molecules",
+        "Ribosomal subunits",
+        "Golgi vesicles",
+        "Nuclear pores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secondary lysozymes form by fusion of primary lysozymes with engulfed molecules or organelles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.6702,
+      "question": "Lysozymes perform autolysis of which targets?",
+      "options": [
+        "Healthy nuclei",
+        "Worn organelles",
+        "Plasma membranes",
+        "Ribosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lysozymes perform autolysis of unwanted organelles within the cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.348,
+      "question": "Mitochondria are responsible for supplying which form of energy?",
+      "options": [
+        "ATP",
+        "NADH",
+        "FADH2",
+        "GTP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondria supply and store energy in the form of ATP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.28,
+      "question": "Mitochondria are bound by how many membranes?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria are double membrane-bound cell organelles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4565,
+      "question": "Mitochondria help balance which ion within the cell?",
+      "options": [
+        "Calcium",
+        "Sodium",
+        "Potassium",
+        "Chloride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondria help balance the amount of calcium ions within the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.0312,
+      "question": "The nucleus occupies what percentage of total cell space?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleus occupies 10% of the total space in the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4646,
+      "question": "The nucleus is often called which part of the cell?",
+      "options": [
+        "Brain",
+        "Heart",
+        "Lung",
+        "Liver"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleus is often termed the brain of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.3635,
+      "question": "The nucleus stores genetic material in which forms?",
+      "options": [
+        "DNA and RNA",
+        "ATP and ADP",
+        "Lipids and sugars",
+        "Proteins and salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleus is responsible for storage and transfer of genetic materials in the form of DNA or RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.387,
+      "question": "The nucleus aids transcription by synthesizing which molecule?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleus aids transcription by the synthesis of mRNA molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.2483,
+      "question": "Plastids are present in which organisms?",
+      "options": [
+        "Animals only",
+        "Plants",
+        "Bacteria only",
+        "Viruses only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plastids are present in plants and other eukaryotes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.7202,
+      "question": "Plastids are involved in storage of which food?",
+      "options": [
+        "Starch",
+        "Protein",
+        "Fat",
+        "Sugar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plastids are involved in the storage of food, primarily starch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.1045,
+      "question": "Ribosomes are composed of equal parts of which molecules?",
+      "options": [
+        "RNA and proteins",
+        "DNA and lipids",
+        "Carbohydrates and salts",
+        "ATP and water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribosomes are ribonucleoproteins containing equal parts RNA and proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.1921,
+      "question": "Ribosomes are the site of which process?",
+      "options": [
+        "Lipid synthesis",
+        "Translation",
+        "DNA replication",
+        "Photosynthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribosomes are the site of biological protein synthesis, also called translation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.38,
+      "question": "Vacuoles act as storage for which materials?",
+      "options": [
+        "DNA and RNA",
+        "Waste materials",
+        "Enzymes and hormones",
+        "Pigments and oils"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vacuoles act as storage for nutrients as well as waste materials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.946,
+      "question": "Vacuoles help maintain homeostasis by balancing which ion?",
+      "options": [
+        "H+",
+        "Na+",
+        "K+",
+        "Ca2+"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vacuoles balance the pH of the cell by influx and outflow of H+ ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.0498,
+      "question": "Vacuoles contain enzymes involved in which processes?",
+      "options": [
+        "Metabolic processes",
+        "Photosynthetic processes",
+        "Replication processes",
+        "Transport processes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vacuoles contain enzymes that play an important role in different metabolic processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.9036,
+      "question": "A plant cell is surrounded by which structure?",
+      "options": [
+        "Rigid cell wall",
+        "Flexible membrane",
+        "Protein capsid",
+        "Lipid envelope"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A plant cell is surrounded by a rigid cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4763,
+      "question": "Which cell type has a large central vacuole?",
+      "options": [
+        "Plant cell",
+        "Animal cell",
+        "Bacterial cell",
+        "Fungal cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A large vacuole is seen in plant cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.4792,
+      "question": "Which cell type lacks plastids?",
+      "options": [
+        "Plant cell",
+        "Animal",
+        "Algal cell",
+        "Moss cell"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animal cells do not have plastids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418681.6414,
+      "question": "Centrosomes are present in which cell type?",
+      "options": [
+        "Plant cell",
+        "Animal cell",
+        "Fungal cell",
+        "Bacterial cell"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animal cells have centrosomes, while plant cells do not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.214,
+      "question": "Lysosomes are very rare in which cell type?",
+      "options": [
+        "Plant cell",
+        "Animal cell",
+        "Liver cell",
+        "Nerve cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysosomes are very rare in plant cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.356,
+      "question": "Both plant and animal cells are which type of cell?",
+      "options": [
+        "Eukaryotic",
+        "Prokaryotic",
+        "Viral",
+        "Bacterial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both plant and animal cells are eukaryotic because their genetic material is enclosed in a nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.2043,
+      "question": "Both plant and animal cells contain which membrane-bound organelle?",
+      "options": [
+        "Nucleus",
+        "Chloroplast",
+        "Cell wall",
+        "Centrosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both plant and animal cells have a membrane-bound nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.6956,
+      "question": "Both plant and animal cells contain which non-membrane organelle?",
+      "options": [
+        "Ribosomes",
+        "Lysosomes",
+        "Golgi bodies",
+        "Mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribosomes are a same cell organelle in both plant and animal cells and lack membranes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.1843,
+      "question": "The cytoplasm of plant and animal cells is best described as which of the following?",
+      "options": [
+        "A rigid solid",
+        "Gel",
+        "A gaseous vapor",
+        "A waxy layer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cytoplasm is the gel-like liquid present in both plant and animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792080418682.2578,
+      "question": "The cell membrane of plant and animal cells is composed of which molecules?",
+      "options": [
+        "Cellulose and chitin",
+        "Phospholipids",
+        "Peptidoglycan and acids",
+        "Keratin and collagen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane of both plant and animal cells is composed of phospholipids, sterols, and glycolipids.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
