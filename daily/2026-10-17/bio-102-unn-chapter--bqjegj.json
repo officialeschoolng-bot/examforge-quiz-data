@@ -3,16 +3,718 @@
   "title": "BIO 102 ( UNN ) : CHAPTER EIGHT ( WATER RELATIONS AND TRANSPORT IN PLANTS )",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleOptions": false,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792261723717.6577,
+      "question": "Water plays a crucial role in the life of which organism?",
+      "options": [
+        "Plants",
+        "Animals",
+        "Bacteria",
+        "Fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water plays a crucial role in the life of the plant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.823,
+      "question": "For every gram of organic matter made by a plant, approximately how much water is absorbed by the roots?",
+      "options": [
+        "100g",
+        "200g",
+        "300g",
+        "500g"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For every gram of organic matter made, approximately 500g of water is absorbed by the roots.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.2346,
+      "question": "Even slight imbalances in the flow of water can cause water deficits and which issue?",
+      "options": [
+        "Increased growth",
+        "Severe malfunctioning",
+        "Enhanced photosynthesis",
+        "Rapid reproduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Even slight imbalances in water flow can cause water deficits and severe malfunctioning of many cellular processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.601,
+      "question": "Every plant must delicately balance its uptake and loss of which substance?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Water",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every plant must delicately balance its uptake and loss of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.1106,
+      "question": "Balancing water uptake and loss is a serious challenge for which type of plants?",
+      "options": [
+        "Aquatic plants",
+        "Epiphytic plants",
+        "Parasitic plants",
+        "Land plants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This balancing is a serious challenge for land plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.695,
+      "question": "Cytoplasm makes up what percentage of the cell volume in mature plant cells?",
+      "options": [
+        "5 to 10%",
+        "20 to 30%",
+        "15 to 25%",
+        "30 to 40%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In such cells the cytoplasm makes up only 5 to 10% of the cell volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.1191,
+      "question": "Water typically constitutes what percentage of the mass of growing plant tissues?",
+      "options": [
+        "50 to 65%",
+        "60 to 75%",
+        "80 to 95%",
+        "40 to 55%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Water typically constitutes 80 to 95% of the mass of growing plant tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.5032,
+      "question": "Which plant part contains water at 35 to 75% and functions in transport in the xylem?",
+      "options": [
+        "Heartwood",
+        "Sapwood",
+        "Seeds",
+        "Wood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sapwood functions in transport in the xylem and contains 35 to 75% water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.2104,
+      "question": "Seeds with a water content of 5 to 15% are among which type of plant tissues?",
+      "options": [
+        "The wettest",
+        "The largest",
+        "The smallest",
+        "The driest"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Seeds with a water content of 5 to 15% are among the driest of plant tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.9788,
+      "question": "Which structures can remain alive for long periods without water?",
+      "options": [
+        "Leaves",
+        "Stems",
+        "Roots",
+        "Spores"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Some structures like spores, seeds, cysts, and eggs can remain alive for long periods without water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4792,
+      "question": "Permenation refers to the ability of an organism to survive from one germination season to which point?",
+      "options": [
+        "The next season",
+        "The previous season",
+        "The middle season",
+        "The final season"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Permenation is the ability to survive from one germination season to the next.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.0967,
+      "question": "Desiccation refers to the state or process of being which condition?",
+      "options": [
+        "Frozen",
+        "Flooded",
+        "Boiled",
+        "Dried"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Desiccation is the state or process of being desiccated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.2678,
+      "question": "The cell wall of a plant is described as which characteristic?",
+      "options": [
+        "Flexible",
+        "Rigid",
+        "Liquid",
+        "Gaseous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell wall of a plant is rigid and composed of several layers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.49,
+      "question": "The membrane that separates the cytoplasm from the cell wall is known as which structure?",
+      "options": [
+        "Tonoplast",
+        "Plasmalemma",
+        "Middle lamella",
+        "Plasmodesmata"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The plasma membrane separates the cytoplasm from the cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.8835,
+      "question": "The membrane found towards the vacuole is known by which term?",
+      "options": [
+        "Plasmalemma",
+        "Cell wall",
+        "Tonoplast",
+        "Nucleolus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vacuole membrane is known as tonoplast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.3062,
+      "question": "Both the plasmalemma and tonoplast are lipoproteins with which structural arrangement?",
+      "options": [
+        "A single lipid layer",
+        "A protein core",
+        "A bilayer center",
+        "A carbohydrate shell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both membranes are lipoproteins with a bimolecular lipid center sandwiched between monolayers of protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.7563,
+      "question": "The cell wall of parenchymatous cells is composed of cellulose and which other substance?",
+      "options": [
+        "Chitin",
+        "Lignin",
+        "Silica",
+        "Peptide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cell wall of parenchymatous cells is composed of cellulose and peptide substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.593,
+      "question": "Which process describes the passage of water through the cytoplasmic membrane?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Imbibition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water passes through the cytoplasmic membrane by osmosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.6125,
+      "question": "Osmosis involves the movement of solvent molecules from an area of high concentration to an area of which concentration?",
+      "options": [
+        "High concentration",
+        "Equal concentration",
+        "Low concentration",
+        "Zero concentration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Osmosis is the movement of solvent molecules from a region of high concentration to a region of low concentration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.5032,
+      "question": "A device that uses osmosis to power a flow of water out of a chamber is called which instrument?",
+      "options": [
+        "Pump",
+        "Potometer",
+        "Hygrometer",
+        "Barometer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A device that uses osmosis to power a flow of water out of a chamber is called an osmotic pump.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.8384,
+      "question": "Which of the following is used as a differentially permeable membrane to demonstrate osmosis?",
+      "options": [
+        "Glass",
+        "Metal",
+        "Wood",
+        "Toad bladder"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Osmosis can be demonstrated using differentially permeable membranes such as a toad's bladder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.064,
+      "question": "In living tissues, osmosis can be demonstrated using which plant part?",
+      "options": [
+        "Pealed yam",
+        "Mature leaf",
+        "Dry seed",
+        "Woody stem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In living tissues, osmosis can be demonstrated using pealed yam or potato.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4604,
+      "question": "Osmotic pressure is defined as the force that must be applied to stop which process?",
+      "options": [
+        "Solute diffusion",
+        "Active transport",
+        "Water movement",
+        "Plasmolysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Osmotic pressure is the force that must be applied to stop the osmotic movement of water across a membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.6506,
+      "question": "An unsupported cell suspended in water due to high hydrostatic pressure undergoes which outcome?",
+      "options": [
+        "It shrinks",
+        "It bursts",
+        "It becomes rigid",
+        "It remains stable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An unsupported cell suspended in water will burst like an over inflated balloon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.7056,
+      "question": "Mesophyll cells have higher osmotic pressure values than epidermal cells because they have higher amounts of which substance?",
+      "options": [
+        "Starch",
+        "Protein",
+        "Sugar",
+        "Lipids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mesophyll cells have higher values because they have higher sugar content.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4067,
+      "question": "Which physiological process is controlled by osmosis?",
+      "options": [
+        "Photosynthesis",
+        "Water absorption",
+        "Respiration",
+        "Protein synthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Absorption of water by root hairs from the soil is controlled by osmosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.279,
+      "question": "The sieve theory of osmosis assumes that semi-permeable membranes have which feature?",
+      "options": [
+        "Pores",
+        "Channels",
+        "Carriers",
+        "Receptors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sieve theory assumed that the semi-permeable membranes have pores.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.3574,
+      "question": "Which theory suggests that substances are soluble in the membrane itself?",
+      "options": [
+        "Sieve theory",
+        "Solution theory",
+        "Electrical theory",
+        "Cohesion theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The solution theory is based on the assumption that substances are soluble in the membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.8289,
+      "question": "The electrical theory of osmosis involves which type of gradient?",
+      "options": [
+        "Chemical gradient",
+        "Electric gradient",
+        "Thermal gradient",
+        "Pressure gradient"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electrical theory suggests that an electrical potential gradient is developed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.341,
+      "question": "The presence of which structure allows plant cells to build up large internal hydrostatic pressures?",
+      "options": [
+        "Chloroplast",
+        "Cell wall",
+        "Nucleus",
+        "Mitochondria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existence of the cell wall allows plant cells to build up large internal hydrostatic pressures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.2148,
+      "question": "When a living plant cell is immersed in a strong hypertonic solution, the protoplast undergoes which change?",
+      "options": [
+        "Swells",
+        "Shrinks",
+        "Bursts",
+        "Expands"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The protoplast withdraws from the cell wall when placed in a hypertonic solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.755,
+      "question": "Turgor pressure is demonstrated using strips of which plant part?",
+      "options": [
+        "Yam petiole",
+        "Onion bulb",
+        "Carrot root",
+        "Tomato fruit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Turgor in plant tissue can be demonstrated by using strips of potato petiole.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.7568,
+      "question": "Solutions that cause cells to swell or burst are said to be which type?",
+      "options": [
+        "Isotonic",
+        "Hypertonic",
+        "Hypotonic",
+        "Colloidal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Solutions that cause cells to swell, or even to burst, are said to be hypotonic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.0989,
+      "question": "The continuous water column that extends through the plant is pulled from which part?",
+      "options": [
+        "The root",
+        "The top",
+        "The stem",
+        "The leaves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The continuous water column that extends through the plant is pulled from the top.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4248,
+      "question": "When transpiration from leaves is very low or absent, which phenomenon replaces passive absorption?",
+      "options": [
+        "Active uptake",
+        "Osmosis",
+        "Diffusion",
+        "Imbibition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When transpiration is very low, active absorption of water replaces passive absorption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4653,
+      "question": "The phenomenon caused by the continued active accumulation of ions by roots is known as which pressure?",
+      "options": [
+        "Turgor pressure",
+        "Root pressure",
+        "Osmotic pressure",
+        "Suction pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phenomenon is called root pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.2117,
+      "question": "Under certain circumstances, root pressure forces water to ooze out of a cut plant stem in a process known by which term?",
+      "options": [
+        "Transpiration",
+        "Guttation",
+        "Exudation",
+        "Bleeding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This takes place through a process known as guttation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.18,
+      "question": "The water that reaches the root xylem has to be directed upwards through which structure?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Cortex",
+        "Epidermis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water has to be directed upwards through the xylem vessels of the stem, branches, and leaves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.385,
+      "question": "Bleeding from cut stems is due to the osmotic potential which operates in which part of the root?",
+      "options": [
+        "Endodermis",
+        "Root cortex",
+        "The xylem",
+        "Epidermis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bleeding is due to the osmotic potential which operates in the root cortex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.0105,
+      "question": "The pressure generated by root pressure can raise water to a maximum height of approximately how many meters?",
+      "options": [
+        "5m",
+        "10m",
+        "20m",
+        "50m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The maximum height this pressure can raise water is about 10m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4683,
+      "question": "The cohesion-tension theory was put forward by Dixon and Joly in which year?",
+      "options": [
+        "1895",
+        "1905",
+        "1885",
+        "1915"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In 1895, Dixon and Joly put forward their cohesion theory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.9543,
+      "question": "The loss of water vapour by living plants through aerial parts is called which process?",
+      "options": [
+        "Condensation",
+        "Transpiration",
+        "Evaporation",
+        "Precipitation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This type of water loss is called transpiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.0603,
+      "question": "Stomatal transpiration accounts for what percentage of total transpiration in plants?",
+      "options": [
+        "10 to 20%",
+        "50 to 60%",
+        "80 to 90%",
+        "30 to 40%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stomatal transpiration accounts for 80-90% of the total transpiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.924,
+      "question": "Which chemical is used on paper to demonstrate transpiration?",
+      "options": [
+        "Copper sulphate",
+        "Cobalt chloride",
+        "Sodium chloride",
+        "Potassium permanganate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The simplest experiment uses dry cobalt chloride paper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4543,
+      "question": "Which cells are described as the primary sensing organs of the stomata?",
+      "options": [
+        "Epidermal cells",
+        "Guard cells",
+        "Mesophyll cells",
+        "Xylem cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The primary sensing organs of the stomata are the guard cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4175,
+      "question": "In the measurement of loss of water, which substance is poured on the water surface to prevent evaporation?",
+      "options": [
+        "Palm oil",
+        "Vegetable oil",
+        "Paraffin wax",
+        "Glycerin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A little quantity of palm oil is poured on the water surface to prevent evaporation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.128,
+      "question": "Which instrument is used to measure the rate of absorption by a cut shoot?",
+      "options": [
+        "Hygrometer",
+        "Potometer",
+        "Barometer",
+        "Thermometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The potometer is used to measure the rate of absorption by a cut shoot.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.838,
+      "question": "Transpiration brings about cooling in plants as a result of the loss of which form of energy?",
+      "options": [
+        "Latent heat",
+        "Sensible heat",
+        "Kinetic energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It brings about cooling in plants as a result of the loss of the latent heat of vaporisation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.4126,
+      "question": "Which of the following is an anatomical feature that helps reduce transpiration?",
+      "options": [
+        "Large leaf area",
+        "Sunken stomata",
+        "Thin cuticle",
+        "Numerous stomata"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anatomical features include sunken stomata.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261723717.214,
+      "question": "Which environmental factor is considered the most important affecting transpiration?",
+      "options": [
+        "Wind",
+        "Humidity",
+        "Light",
+        "Soil water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Light is the most important factor.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
