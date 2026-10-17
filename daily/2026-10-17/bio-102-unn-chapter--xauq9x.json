@@ -3,16 +3,718 @@
   "title": "BIO 102 ( UNN ) : CHAPTER NINE ( CONTROL AND COORDINATION IN PLANTS )",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792262221477.0762,
+      "question": "Plants possess the capacity to coordinate internal and external activities as a result of which substances?",
+      "options": [
+        "Enzymes",
+        "Hormones",
+        "Vitamins",
+        "Minerals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plants coordinate activities as a result of hormones or chemical substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.7878,
+      "question": "The movement of higher plants is chiefly in the form of bending, twisting, and which other action?",
+      "options": [
+        "Contraction",
+        "Fragmentation",
+        "Elongation",
+        "Fission"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Higher plant movements are chiefly in the form of bending, twisting, and elongation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.9954,
+      "question": "Plants show two types of movement which include the automatic movement and which other type?",
+      "options": [
+        "Passive movement",
+        "Random movement",
+        "Tropic movement",
+        "Paratonic movement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Plants show automatic movement and paratonic movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.9045,
+      "question": "Automatic movements occur due to factors inherent in which location?",
+      "options": [
+        "Outside the plant",
+        "The soil",
+        "Inside the plant",
+        "The atmosphere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Automatic movements occur due to factors inherent inside the plant body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.0266,
+      "question": "Streaming movement of protoplasm is an example of which type of movement?",
+      "options": [
+        "Growth movement",
+        "Tropic movement",
+        "Nastic movement",
+        "Locomotive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Locomotive movements include streaming movement of protoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.977,
+      "question": "Growth movements involve changes in the form and shape of a plant organ due to what type of growth?",
+      "options": [
+        "Equal growth",
+        "Rapid growth",
+        "Unequal growth",
+        "Slow growth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Growth movement is due to unequal growth on two sides of the plant organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.1045,
+      "question": "Epinasty is a type of growth movement where the upper surface of the organ shows more growth compared to which part?",
+      "options": [
+        "The side surface",
+        "The inner surface",
+        "The outer surface",
+        "The lower surface"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In epinasty, the upper surface shows more growth compared to the lower surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.1252,
+      "question": "Hyponasty occurs when the lower surface of the leaf in bud condition is more active than which part?",
+      "options": [
+        "The stem",
+        "The upper surface",
+        "The root",
+        "The petiole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hyponasty occurs when the lower surface is more active than the upper surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.3208,
+      "question": "Circumutation occurs when an apex makes which type of growth around the axis?",
+      "options": [
+        "Vertical",
+        "Rotational",
+        "Horizontal",
+        "Random"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Circumutation occurs when an apex makes a rotational growth around the axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.6108,
+      "question": "Paratonic movements are classified into tactic movement, nastic movement, and which other type?",
+      "options": [
+        "Locomotive movement",
+        "Growth movement",
+        "Tropic movement",
+        "Nutation movement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are three types of paratonic movements including tactic, nastic, and tropic movements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.0247,
+      "question": "Phototactic movement is a response to which stimulus?",
+      "options": [
+        "Chemicals",
+        "Gravity",
+        "Water",
+        "Light"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phototactic movement is a movement made in response to light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.9365,
+      "question": "Chemotactic movement is a response to which stimulus?",
+      "options": [
+        "Light",
+        "Touch",
+        "Chemicals",
+        "Gravity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chemotactic movement is a movement made in response to chemicals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.603,
+      "question": "Nastic movement is made in response to which type of stimulus?",
+      "options": [
+        "Directional",
+        "Unidirectional",
+        "Bipolar",
+        "Non-directional"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nastic movement is a movement made in response to non-directional source of stimulus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.611,
+      "question": "Photonasty is a type of nyctinasty that is due to which factor?",
+      "options": [
+        "Temperature",
+        "Humidity",
+        "Photoperiod",
+        "Wind"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Photonasty is due to photoperiod.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.8774,
+      "question": "Thermonasty is a type of nyctinasty that is due to which factor?",
+      "options": [
+        "Light",
+        "Touch",
+        "Chemicals",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Thermonasty is due to temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.423,
+      "question": "Haptonasty is a movement in response to which stimulus?",
+      "options": [
+        "Light",
+        "Contact",
+        "Gravity",
+        "Water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haptonasty is a movement in response to contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.7415,
+      "question": "Seismonastic movement is due to loss or gain of what substance?",
+      "options": [
+        "Sugars",
+        "Water",
+        "Salts",
+        "Proteins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Seismonastic movement is due to loss or gains of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.3655,
+      "question": "When growth curvature occurs in line with the source of stimulus, it is known as which type of movement?",
+      "options": [
+        "Plagiotropic",
+        "Nastic",
+        "Orthotropic",
+        "Tactic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If it occurs in line with the source of stimulus it is known as orthotropic movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.6895,
+      "question": "Geotropism is a response to which factor?",
+      "options": [
+        "Water",
+        "Chemicals",
+        "Light",
+        "Gravity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Geotropism or gravitropism is a response to gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.339,
+      "question": "Hydrotropism is a response to which stimulus?",
+      "options": [
+        "Touch",
+        "Water",
+        "Chemicals",
+        "Oxygen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrotropism is a response to water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.8462,
+      "question": "Traumatropism is a response to which condition?",
+      "options": [
+        "Sound",
+        "Heat",
+        "Wound",
+        "Electric field"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traumatropism is a response to wound or injury.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.5107,
+      "question": "Rheotropism is a response to which stimulus?",
+      "options": [
+        "Water current",
+        "Sound",
+        "Electric current",
+        "Touch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rheotropism is a response to water current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.8193,
+      "question": "Electrotropism is a response to which stimulus?",
+      "options": [
+        "Sound",
+        "Light",
+        "Gravity",
+        "Electric field"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electrotropism is a response to electric field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.232,
+      "question": "Plant growth substances occur in very low concentrations of approximately which range?",
+      "options": [
+        "10-1 to 10-2 mol/L",
+        "10-6 to 10-5 mol/L",
+        "10-3 to 10-4 mol/L",
+        "10-9 to 10-8 mol/L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They occur in very low concentrations of 10-6 to 10-5 mol/L.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.3342,
+      "question": "Hormones are transported within the plant through cytoplasmic streaming, slow diffusion, phloem, and which other tissue?",
+      "options": [
+        "Epidermis",
+        "Cortex",
+        "Xylem",
+        "Cambium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hormones are transported through xylem that moves water and mineral solutes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.4917,
+      "question": "Abscisic acid acts as which type of hormone?",
+      "options": [
+        "Growth promoter",
+        "Ripening hormone",
+        "Stress hormone",
+        "Division hormone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abscisic acid is a stress hormone that acts as an inhibitory chemical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221477.055,
+      "question": "Auxins positively influence cell enlargement, bud formation, and which other process?",
+      "options": [
+        "Leaf senescence",
+        "Root initiation",
+        "Fruit ripening",
+        "Stomatal closure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Auxins positively influence cell enlargement, bud formation, and root initiation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.493,
+      "question": "Auxins act to inhibit the growth of buds lower down the stems promoting which phenomenon?",
+      "options": [
+        "Apical dominance",
+        "Lateral branching",
+        "Root elongation",
+        "Leaf abscission"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Auxins promote apical dominance by inhibiting the growth of buds lower down.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.1042,
+      "question": "Synthetic auxin herbicides like 2,4-D are most toxic to which plant group?",
+      "options": [
+        "Monocots",
+        "Gymnosperms",
+        "Bryophytes",
+        "Dicots"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Auxins in large concentrations are most toxic to dicots and less so to monocots.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.8342,
+      "question": "Cytokinins influence cell division and which other formation process?",
+      "options": [
+        "Shoot formation",
+        "Root formation",
+        "Flower formation",
+        "Seed formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytokinins influence cell division and shoot formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.638,
+      "question": "Cytokinins counter the apical dominance induced by which group of hormones?",
+      "options": [
+        "Gibberellins",
+        "Auxins",
+        "Ethylene",
+        "ABA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cytokinins counter the apical dominance induced by auxins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.0386,
+      "question": "Ethylene is a gas that forms through the breakdown of which amino acid?",
+      "options": [
+        "Tryptophan",
+        "Lysine",
+        "Methionine",
+        "Proline"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ethylene is a gas that forms through the breakdown of methionine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.0896,
+      "question": "Ethylene affects which process in fruits?",
+      "options": [
+        "Ripening",
+        "Elongation",
+        "Dormancy",
+        "Photosynthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethylene affects fruit-ripening.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.1355,
+      "question": "Gibberellins are important in seed germination by affecting the production of which substance?",
+      "options": [
+        "Hormones",
+        "Enzymes",
+        "Pigments",
+        "Lipids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gibberellins affect enzyme production that mobilizes food production used for growth of new cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.0457,
+      "question": "Gibberellins are used to induce organogenesis such as which type of root formation?",
+      "options": [
+        "Tap",
+        "Lateral",
+        "Adventitious",
+        "Fibrous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gibberellins are used to induce organogenesis e.g. adventitious root formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.588,
+      "question": "Brassinosteroids are a class of polyhydroxysteroids that stimulate cell elongation and which other process?",
+      "options": [
+        "Cell division",
+        "Stomatal closure",
+        "Leaf abscission",
+        "Seed dormancy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brassinosteroids stimulate cell elongation and division.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.65,
+      "question": "Salicylic acid activates genes that produce chemicals to aid in defense against which entity?",
+      "options": [
+        "Herbivores",
+        "Pathogenic invaders",
+        "Drought",
+        "Cold"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Salicylic acid aids in the defense against pathogenic invaders.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.1316,
+      "question": "Jasmonates are believed to have a role in seed germination and affect the storage of which substance in seeds?",
+      "options": [
+        "Starch",
+        "Lipid",
+        "Sugar",
+        "Protein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Jasmonates affect the storage of protein in seeds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.5405,
+      "question": "Polyamines are essential for plant growth and affect which cellular processes?",
+      "options": [
+        "Mitosis and meiosis",
+        "Osmosis and diffusion",
+        "Transpiration and respiration",
+        "Photosynthesis and digestion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polyamines affect the process of mitosis and meiosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.6873,
+      "question": "Nitric oxide serves as a signal in hormonal and defense responses including which plant process?",
+      "options": [
+        "Stem elongation",
+        "Leaf abscission",
+        "Fruit ripening",
+        "Stomatal closure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nitric oxide serves as a signal in defense responses such as stomatal closure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.8474,
+      "question": "Strigolactones are implicated in the inhibition of which plant process?",
+      "options": [
+        "Shoot branching",
+        "Root growth",
+        "Leaf expansion",
+        "Seed germination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strigolactones are implicated in the inhibition of shoot branching.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.2263,
+      "question": "Sodium salicylate has been found to suppress the proliferation of which type of human cancer cells?",
+      "options": [
+        "Lung carcinoma",
+        "Leukemia cells",
+        "Colon adenocarcinoma",
+        "Bone sarcoma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sodium salicylate suppresses proliferation of lymphoblastic leukemia cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.9343,
+      "question": "Jasmonic acid and methyl jasmonate have been found to induce what in a number of cancer cell lines?",
+      "options": [
+        "Cell growth",
+        "Cell division",
+        "Cell death",
+        "Cell mutation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Jasmonic acid and methyl jasmonate induce cell death in a number of cancer cell lines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.8452,
+      "question": "Synthetic plant growth regulators are artificial plant hormones commonly used in which technique?",
+      "options": [
+        "Plant propagation",
+        "Soil irrigation",
+        "Seed harvesting",
+        "Plant tissue culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Synthetic PGRs are used in plant propagation from cuttings, grafting, and tissue culture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.722,
+      "question": "Synthetic auxin herbicides include 2,4-D and which other compound?",
+      "options": [
+        "Naphthaleneacetic acid",
+        "Indolebutyric acid",
+        "Chlrocholine chloride",
+        "2,4,5-T"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Synthetic auxin herbicides produced include 2,4-D and 2,4,5-T used for weed control.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.6055,
+      "question": "Chlrocholine chloride (CCC) is applied to inhibit which plant process?",
+      "options": [
+        "Root development",
+        "Stem elongation",
+        "Leaf abscission",
+        "Seed germination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chlrocholine chloride is applied to inhibit stem elongation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.4202,
+      "question": "Quaternary ammonium salt AMO 1618 is applied to cause which type of growth in treated plants?",
+      "options": [
+        "Bushy shape",
+        "Tall shape",
+        "Thin shape",
+        "Long shape"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AMO 1618 is applied to cause bushy shape and stocking growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.5642,
+      "question": "Morphactins inhibit seed germination or growth of seedling and increase which condition?",
+      "options": [
+        "Stem elongation",
+        "Leaf expansion",
+        "Bud dormancy",
+        "Root development"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Morphactins inhibit seed germination or growth of seedling, increase bud dormancy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.4539,
+      "question": "Nutation involves growth in the apex taking place in which manner?",
+      "options": [
+        "Straight",
+        "Circular",
+        "Spiral",
+        "Zigzag"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nutation involves growth in the apex taking place in a zigzag manner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792262221478.8416,
+      "question": "The rapid movement of leaflets in Mimosa pudica is caused by differential loss of turgor in which structure?",
+      "options": [
+        "Stomata",
+        "Pulvinus",
+        "The xylem",
+        "The phloem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differential loss of turgor on the two sides of the pulvinus causes leaflets to close rapidly.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
