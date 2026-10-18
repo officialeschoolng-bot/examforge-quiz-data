@@ -3,16 +3,718 @@
   "title": "BIO 102 ( UNN ) : CHAPTER 13",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792349902737.0425,
+      "question": "The transmission of genetic programs requires a copying step and which other step?",
+      "options": [
+        "Deletion step",
+        "Mutation step",
+        "Translation step",
+        "Distribution step"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The transmission of genetic programs requires a copying step and a distribution step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5361,
+      "question": "The sequence of events by which a cell duplicates its genome and eventually divides into two daughter cells is termed what?",
+      "options": [
+        "Cell cycle",
+        "Mitosis",
+        "Meiosis",
+        "Cytokinesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This sequence of events is termed the cell cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.2532,
+      "question": "The cell cycle occurs between the completion of one mitotic division and the completion of what?",
+      "options": [
+        "The previous division",
+        "The next division",
+        "The S phase",
+        "The G1 phase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It occurs between the completion of one mitotic division and the completion of the next division.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.2817,
+      "question": "Cellular checkpoints mechanisms are strictly put under control to avoid undue growth that may result in what?",
+      "options": [
+        "Cancer",
+        "Apoptosis",
+        "Necrosis",
+        "Senescence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Undue growth and multiplications of cells may result in cancer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.2822,
+      "question": "In the nucleus of a eukaryotic cell, the distribution process of parental genetic materials occurs in mitosis and which other process?",
+      "options": [
+        "Cytokinesis",
+        "Meiosis",
+        "Interphase",
+        "Replication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distribution process occurs in two ways: mitosis and meiosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.962,
+      "question": "Cells divide for three major reasons critical to survival: growth, repair, and what else?",
+      "options": [
+        "Reproduction",
+        "Respiration rate",
+        "Excretion system",
+        "Digestion process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells divide for growth, repair, and reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.6235,
+      "question": "The increase in the number of cells in an organism due to mitosis results in what?",
+      "options": [
+        "Growth",
+        "Repair",
+        "Reproduction",
+        "Death"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Growth is a result of mitosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.1165,
+      "question": "Humans start off as one single cell, and by the time they are adults, they have over how many trillion cells?",
+      "options": [
+        "10",
+        "5",
+        "20",
+        "50"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adults have over 10 trillion cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.0017,
+      "question": "If tissue is damaged, which process becomes extremely important for replacing old cells?",
+      "options": [
+        "Reproduction",
+        "Repair",
+        "Growth",
+        "Mutation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Repair is extremely important if tissue is damaged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.7249,
+      "question": "Asexual reproduction occurs when there is only one parent and results from which type of division?",
+      "options": [
+        "Meiosis",
+        "Mitosis",
+        "Cytokinesis",
+        "Fertilization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Asexual reproduction results from normal cell division, mitosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.1553,
+      "question": "Sexual reproduction requires offspring to have a combination of both parents' genetic material and occurs only by which process?",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Binary fission",
+        "Budding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sexual reproduction can only occur by meiosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.7776,
+      "question": "Cells can divide mitotically to create more surface area for which function?",
+      "options": [
+        "Waste disposal",
+        "Nutrient storage",
+        "Gas exchange",
+        "Protein synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells divide to create more surface area for waste disposal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.0781,
+      "question": "Interphase constitutes the main phase of the cell cycle in which the cell spends the majority of its time and performs what percentage of its purposes?",
+      "options": [
+        "50%",
+        "75%",
+        "95%",
+        "100%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The interphase lasts more than 95% of the duration of the cell cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5266,
+      "question": "The G1 phase is the interval between mitosis and initiation of what process?",
+      "options": [
+        "DNA replication",
+        "Protein synthesis",
+        "Cell division",
+        "Cytokinesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G1 phase is the interval between mitosis and initiation of DNA replication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.6497,
+      "question": "During the S phase, the amount of DNA per cell doubles from 2C to what?",
+      "options": [
+        "1C",
+        "3C",
+        "4C",
+        "8C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the initial amount of DNA is denoted as 2C then it increases to 4C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9702,
+      "question": "The G2 phase is also called pre-mitotic or what other phase?",
+      "options": [
+        "Post-synthetic",
+        "Pre-synthetic",
+        "Synthetic phase",
+        "Resting phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "G2 phase is also called pre-mitotic or post-synthetic phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.0935,
+      "question": "Cells that do not divide further exit G1 phase to enter an inactive stage called what?",
+      "options": [
+        "Quiescent stage",
+        "Apoptotic stage",
+        "Senescent stage",
+        "Synthetic stage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells that do not divide further exit G1 to enter the quiescent stage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.2441,
+      "question": "Mitosis is an asexual form of cell division where a parent cell produces two daughter cells with the same what?",
+      "options": [
+        "Genetic component",
+        "Cytoplasmic volume",
+        "Organelle number",
+        "Cell membrane size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitosis produces two daughter cells with the same genetic component.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.4763,
+      "question": "Mitosis is divided into four stages of nuclear division which include prophase, metaphase, anaphase, and what?",
+      "options": [
+        "Telophase",
+        "Interphase",
+        "Cytokinesis",
+        "S phase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The four stages are prophase, metaphase, anaphase, and telophase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.3447,
+      "question": "The phrase \"People Meet And Talk\" is used to remember the sequence of which stages?",
+      "options": [
+        "Mitotic stages",
+        "Meiotic stages",
+        "Interphase stages",
+        "Cellular growth stages"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase helps remember the sequence of the mitotic stages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.2551,
+      "question": "Which stage of mitosis begins with the appearance of chromatin fibers as long slender threads?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prophase begins with the appearance of chromatin fibers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9294,
+      "question": "In metaphase, the chromosomes migrate to which plane in the midline of the cell?",
+      "options": [
+        "Equator",
+        "Polar plane",
+        "Spindle plane",
+        "Nuclear plane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chromosomes migrate to the equatorial plane in the midline of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.3247,
+      "question": "The spindle fibers bind to a small disc-shaped structure at the surface of the centromeres called what?",
+      "options": [
+        "Kinetochore",
+        "Centriole complex",
+        "Chromomere disc",
+        "Aster structure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spindle fibers bind to a small disc-shaped structure called kinetochore.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.96,
+      "question": "Anaphase is described as which stage of mitosis?",
+      "options": [
+        "Longest",
+        "Shortest",
+        "Initial",
+        "Final"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anaphase is the shortest stage of mitosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.8274,
+      "question": "In telophase, the cytoplasm begins to constrict and the cell starts to pinch-in at the centre forming what structure in animal cells?",
+      "options": [
+        "A furrow",
+        "A cell plate",
+        "A vesicle",
+        "A vacuole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell starts to pinch-in forming a furrow in animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.3896,
+      "question": "Cytokinesis is the division of a cell into daughter cells and follows which phase?",
+      "options": [
+        "Telophase",
+        "Anaphase",
+        "Metaphase",
+        "Prophase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytokinesis follows telophase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.7522,
+      "question": "In plant cells, what structure forms from materials supplied by Golgi vesicles during cytokinesis?",
+      "options": [
+        "Cell plate",
+        "Cleavage furrow",
+        "Spindle fiber",
+        "Nuclear envelope"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cell plate forms from materials supplied by Golgi vesicles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.825,
+      "question": "Mitosis is responsible for replacement of dead or worn out cells and is the major component in asexual and what other type of reproduction?",
+      "options": [
+        "Artificial",
+        "Sexual process",
+        "Meiotic process",
+        "Gametic process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is the major component in asexual and artificial reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.019,
+      "question": "Examples of organisms that use mitosis for artificial reproduction include budding in yeast and what other process?",
+      "options": [
+        "Binary fission",
+        "Fertilization",
+        "Gametogenesis",
+        "Spore formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Binary fission in bacteria is an example of mitosis in reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9546,
+      "question": "Meiosis is a reduction division involving one diploid parent cell dividing to produce how many haploid daughter cells?",
+      "options": [
+        "Four",
+        "Two",
+        "Eight",
+        "One"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Meiosis produces four haploid daughter cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.4749,
+      "question": "Meiosis consists of how many cell divisions?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Meiosis consists of two cell divisions: meiosis I and meiosis II.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5073,
+      "question": "As with mitosis, interphase occurs prior to meiosis and DNA replication occurs how many times?",
+      "options": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Four times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA replication occurs only once prior to the two divisions in meiosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.8909,
+      "question": "Meiosis I is referred to as the reduction division because the chromosome number is reduced from 46 to what in humans?",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chromosome number is reduced from 46 to 23 in humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.3933,
+      "question": "The first meiotic division consists of four stages: prophase I, metaphase I, anaphase I, and what?",
+      "options": [
+        "Telophase I",
+        "Prophase II",
+        "Metaphase II",
+        "Telophase II"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Meiosis I consists of telophase I as its final stage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5796,
+      "question": "Prophase I has been further subdivided into five phases based on what?",
+      "options": [
+        "Chromosome action",
+        "Nuclear size",
+        "Cell volume",
+        "Spindle formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prophase I is subdivided based on chromosomal behaviour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.7974,
+      "question": "During which stage of prophase I do homologous chromosomes become closely associated to form pairs?",
+      "options": [
+        "Zygotene",
+        "Leptotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Homologous chromosomes become closely associated during zygotene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.6423,
+      "question": "The pairing of homologous chromosomes during zygotene is referred to as what?",
+      "options": [
+        "Synapsis",
+        "Chiasma",
+        "Crossing over",
+        "Disjunction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pairing of homologous chromosomes is referred to as synapsis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.749,
+      "question": "During which stage of prophase I does crossing over between non-sister chromatids occur?",
+      "options": [
+        "Pachytene",
+        "Leptotene",
+        "Zygotene",
+        "Diakinesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pachytene is characterized by crossing over between non-sister chromatids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9758,
+      "question": "The enzyme involved in the process of crossing over is called what?",
+      "options": [
+        "Recombinase",
+        "Ligase enzyme",
+        "Polymerase",
+        "Helicase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The enzyme involved in crossing over is called recombinase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9429,
+      "question": "The X-shaped structures formed during crossing over are called what?",
+      "options": [
+        "Chiasmata",
+        "Centromeres",
+        "Kinetochores",
+        "Chromatids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Crossing over forms X-shaped chiasmata.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.6533,
+      "question": "In metaphase I, the bivalent chromosomes align on which structure?",
+      "options": [
+        "Equator",
+        "Spindle pole",
+        "Nuclear membrane",
+        "Cell wall"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bivalent chromosomes align on the equatorial plate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5142,
+      "question": "The chiasmata hold which structures together during metaphase I?",
+      "options": [
+        "Sister chromatids",
+        "Homologous chromosomes",
+        "Spindle fibers",
+        "Centrioles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chiasmata hold sister chromatids together during metaphase I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.411,
+      "question": "During anaphase I, the homologous chromosomes in each bivalent are separated and move to where?",
+      "options": [
+        "Opposite poles",
+        "Same pole",
+        "Equatorial plate",
+        "Cell membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Homologous chromosomes move to opposite poles of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9143,
+      "question": "In anaphase I, microtubules pull the homologous chromosomes apart, but which structures are held together?",
+      "options": [
+        "Chromatids",
+        "Centromeres",
+        "Chiasmata",
+        "Telomeres"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sister chromatids are held together during anaphase I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.6802,
+      "question": "During telophase I, the nuclear membrane and nucleolus reappear, and which process begins?",
+      "options": [
+        "Cytokinesis",
+        "Synapsis",
+        "Crossing over",
+        "DNA replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cytokinesis begins during telophase I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.3867,
+      "question": "Meiosis II is initiated immediately after cytokinesis and is similar to which process?",
+      "options": [
+        "Mitosis",
+        "Prophase I",
+        "Fertilization",
+        "Replication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The process of meiosis II is the same as the process of mitosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.9167,
+      "question": "In which stage of meiosis II is there a splitting of centromere and separation of sister chromatids?",
+      "options": [
+        "Meiosis II",
+        "Meiosis I",
+        "Interphase",
+        "Prophase I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is in meiosis II that there is a splitting of centromere and separation of sister chromatids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.4443,
+      "question": "During prophase II, chromosomes begin to condense, nuclear membrane dissolves, and what other structures are formed?",
+      "options": [
+        "Spindle",
+        "Cell plates",
+        "Chiasmata",
+        "Nucleoli"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spindle fibers are formed during prophase II.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.139,
+      "question": "In metaphase II, chromosomes line up in which part of the cell?",
+      "options": [
+        "Center",
+        "Pole",
+        "Periphery",
+        "Nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chromosomes line up in the center of the cell during metaphase II.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792349902737.5535,
+      "question": "Meiosis increases genetic variation in the population and makes which type of reproduction possible?",
+      "options": [
+        "Sexual",
+        "Asexual reproduction",
+        "Vegetative reproduction",
+        "Clonal reproduction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Meiosis makes sexual reproduction possible.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
