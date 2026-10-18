@@ -3,16 +3,718 @@
   "title": "BIO 102 ( UNN ) : CHAPTER 11",
   "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792348898665.3396,
+      "question": "The scientific study of the relationship of living things and their environment is known by which term?",
+      "options": [
+        "Genetics",
+        "Ecology",
+        "Botany",
+        "Zoology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ecology is the scientific study of the relationship of living things and their environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898665.5535,
+      "question": "The word ecology emanated from which Greek term?",
+      "options": [
+        "Bios",
+        "Logos",
+        "Oikos",
+        "Physis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word ecology emanated from the Greek word Oikos meaning house or home.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898665.2288,
+      "question": "The biosphere is seen as a gigantic household consisting of all which units?",
+      "options": [
+        "Populations",
+        "Communities",
+        "Ecosystems",
+        "Biomes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biosphere is seen as a gigantic household otherwise known as ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898665.908,
+      "question": "An ecosystem is an integrated unit consisting of interacting plants and which other organism group?",
+      "options": [
+        "Bacteria",
+        "Fungi",
+        "Protozoa",
+        "Animals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An ecosystem consists of interacting plants and animals whose survival depends on abiotic and biotic structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898665.7542,
+      "question": "The basic and most important concept of an ecosystem is that everything is related to which of the following?",
+      "options": [
+        "The sun",
+        "Everything",
+        "The soil",
+        "The water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The basic concept is that everything is related to everything else.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.3677,
+      "question": "Environmental factors that affect the life and development of an organism are regarded as which factor type?",
+      "options": [
+        "Biological",
+        "Chemical",
+        "Physical",
+        "Genetic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physical factors are all external conditions and influences affecting the life and development of an organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.891,
+      "question": "If any environmental factor is less than ideal, it will become which factor in plant growth?",
+      "options": [
+        "A growth promoter",
+        "A nutrient source",
+        "A limiting factor",
+        "A toxic agent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If any environmental factor is less than ideal it will become a limiting factor in plant growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.209,
+      "question": "Most plant problems are caused by which stress type?",
+      "options": [
+        "Genetic",
+        "Environmental",
+        "Pathogenic",
+        "Nutritional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Most plant problems are caused by environmental stress, either directly or indirectly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.958,
+      "question": "On average, approximately what percentage of solar energy is used in primary productivity?",
+      "options": [
+        "1-2%",
+        "5-10%",
+        "2-3%",
+        "10-20%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "On average approximately only 2-3 per cent of solar energy is used in primary productivity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.0886,
+      "question": "The intensity or concentration of sunlight is referred to by which term?",
+      "options": [
+        "Quality",
+        "Duration",
+        "Quantity",
+        "Intensity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Light quantity refers to the intensity or concentration of sunlight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2896,
+      "question": "Light quality refers to the color or which property reaching the plant surface?",
+      "options": [
+        "Wavelength",
+        "Intensity",
+        "Duration",
+        "Color tone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Light quality refers to the color or wavelength reaching the plant surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.7815,
+      "question": "Which light colors have the greatest effect on plant growth?",
+      "options": [
+        "Green and yellow",
+        "Orange and violet",
+        "Red and blue",
+        "Indigo and green"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red and blue light have the greatest effect on plant growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.227,
+      "question": "Which light color is least effective for plants as most plants reflect it?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Violet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Green light is least effective to plants as most plants reflect green light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.7551,
+      "question": "Blue light is primarily responsible for which plant process?",
+      "options": [
+        "Flowering",
+        "Vegetative",
+        "Seed setting",
+        "Fruiting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blue light is primarily responsible for vegetative growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.9172,
+      "question": "Red light when combined with blue light encourages which process in plants?",
+      "options": [
+        "Rooting",
+        "Senescence",
+        "Flowering",
+        "Dormancy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Red light when combined with blue light encourages flowering in plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.692,
+      "question": "Fluorescent or cool-white light is high in which range of light quality?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Orange"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fluorescent or cool-white light is high in the blue range of light quality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.9531,
+      "question": "Incandescent light is high in which range of light quality?",
+      "options": [
+        "Blue",
+        "Green",
+        "Violet",
+        "Red band"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Incandescent light is high in the red or orange range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.5608,
+      "question": "The intensity of light at which plants no longer carry on photosynthesis or when photosynthesis balances respiration is known by which term?",
+      "options": [
+        "Saturation point",
+        "Optimum intensity",
+        "Compensation point",
+        "Limiting intensity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The intensity of light at which plants no longer carry on photosynthesis or when photosynthesis balances respiration is called compensation intensity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.436,
+      "question": "The temperature at which physiological processes are at their maximum efficiency is known by which term?",
+      "options": [
+        "Cardinal temperature",
+        "Minimum temperature",
+        "Maximum temperature",
+        "Optimum temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The temperature at which physiological processes are at their maximum efficiency is called optimum temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.7476,
+      "question": "The minimum, optimum and maximum temperatures are known by which term?",
+      "options": [
+        "Critical temperatures",
+        "Cardinal temps",
+        "Lethal temperatures",
+        "Ambient temperatures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The minimum, optimum and maximum temperatures are called cardinal temperatures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2622,
+      "question": "In extremely low temperature, the protoplasm may be frozen into which state?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Ice",
+        "Vapor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In extremely low temperature, the protoplasm may be frozen to ice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.801,
+      "question": "In extremely high temperature, the protein may undergo which change?",
+      "options": [
+        "Denature",
+        "Dissolve",
+        "Crystallize",
+        "Coagulate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In extremely high temperature, the protein may coagulate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.6,
+      "question": "The rate of transpiration increases with an increase in which factor?",
+      "options": [
+        "Humidity",
+        "Wind speed",
+        "High temperature",
+        "Soil moisture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The rate of transpiration increases with increase in atmospheric temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.1025,
+      "question": "The misuse of water leads to soil degradation and which other process?",
+      "options": [
+        "Salinization",
+        "Desertification",
+        "Erosion",
+        "Pollution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The misuse of water leads to soil degradation and erosion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2405,
+      "question": "All physiological processes take place in which medium?",
+      "options": [
+        "Air",
+        "Soil",
+        "Heat",
+        "Water"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All the physiological processes take place in the medium of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.9934,
+      "question": "Plants living in water require large quantities of water and are known by which term?",
+      "options": [
+        "Xerophytes",
+        "Mesophytes",
+        "Water plants",
+        "Halophytes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydrophytes are plants living in water that require large quantities of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.1692,
+      "question": "Terrestrial plants which cannot tolerate extremely dry conditions are known by which term?",
+      "options": [
+        "Hydrophytes",
+        "Mesophytes",
+        "Halophytes",
+        "Xerophytes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Xerophytes are terrestrial plants which cannot tolerate extremely dry conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.114,
+      "question": "Terrestrial plants that require moderate quantities of water are known by which term?",
+      "options": [
+        "Hydrophytes",
+        "Mesophytes",
+        "Xerophytes",
+        "Halophytes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mesophytes are terrestrial plants requiring moderate quantity of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.5898,
+      "question": "The main source of soil water is which source?",
+      "options": [
+        "Groundwater",
+        "Irrigation",
+        "Rainfall",
+        "Condensation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main source of soil water is precipitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.189,
+      "question": "The interchange of water between earth's surface and the atmosphere is known as which cycle?",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Water cycle",
+        "Oxygen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rainfall occurs due to interchange of water between earth's surface and the atmosphere, known as the hydrologic cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.893,
+      "question": "Evergreen forests in tropical regions are found due to which condition?",
+      "options": [
+        "Low rainfall",
+        "High temperature",
+        "Strong winds",
+        "Abundant rainfall"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Evergreen forests in tropical regions are found due to heavy rainfall throughout the year.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.3057,
+      "question": "The quantity of water that a soil holds or that infiltrates into the soil depends upon the properties of soil and which other factor?",
+      "options": [
+        "Wind speed",
+        "Plant cover",
+        "Temperature",
+        "Humidity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The quantity of water depends upon the properties of soil and type and density of vegetation covering it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.7896,
+      "question": "Atmospheric moisture in the form of invisible vapour is known by which term?",
+      "options": [
+        "Precipitation",
+        "Condensation",
+        "Transpiration",
+        "Humidity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Atmospheric moisture in the form of invisible vapour is known as humidity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.0789,
+      "question": "Low temperature causes higher relative humidity by decreasing the capacity of air for which substance?",
+      "options": [
+        "Heat",
+        "Moisture",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low temperature causes higher relative humidity by decreasing the capacity of air for moisture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.8645,
+      "question": "Air in motion is known by which term?",
+      "options": [
+        "Breeze",
+        "Storm",
+        "Wind",
+        "Gust"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Air in motion is called wind.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2053,
+      "question": "Wind accelerates transpiration, removes solid moisture and at high velocities causes which effect?",
+      "options": [
+        "Soil deposition",
+        "Plant growth",
+        "Seed dispersal",
+        "Soil erosion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Wind at high velocities causes soil erosion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.4443,
+      "question": "Excessive transpiration leads to desiccation and death of which plant part?",
+      "options": [
+        "Lateral roots",
+        "Shoot tips",
+        "Vascular tissue",
+        "Leaf mesophyll"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excessive transpiration leads to desiccation and death of apical meristems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.4563,
+      "question": "Plants on exposed mountain tops frequently are in danger of being uprooted and blown away by which force?",
+      "options": [
+        "Heavy rains",
+        "Landslides",
+        "High winds",
+        "Avalanches"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plants on exposed mountain tops are frequently in danger of being uprooted and blown away by strong winds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.0845,
+      "question": "Vegetation on exposed mountain tops is largely composed of species with which growth type?",
+      "options": [
+        "Erect habit",
+        "Climbing habit",
+        "Prostrate form",
+        "Epiphytic habit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In these situations, vegetation is largely composed of species with a prostrate habit of growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.3855,
+      "question": "The factors concerned with the physical geography of the earth are known by which term?",
+      "options": [
+        "Climatic factors",
+        "Edaphic factors",
+        "Biotic factors",
+        "Topographic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The factors concerned with physical geography of the earth are known as topographic factors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.645,
+      "question": "As altitude above sea level increases, there happens a decrease in temperature and which other factor?",
+      "options": [
+        "Humidity",
+        "Pressure",
+        "Wind velocity",
+        "Rainfall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As altitude increases, there happens a decrease of temperature and pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2402,
+      "question": "In the northern hemisphere, which slope receives more solar radiation than the north facing slope?",
+      "options": [
+        "East facing",
+        "West facing",
+        "South slope",
+        "North facing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the northern hemisphere, south facing slopes receives more solar radiation than the north facing slope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.6326,
+      "question": "The steepness of a slope accelerates the downward movement of which substance?",
+      "options": [
+        "Soil particles",
+        "Plant nutrients",
+        "Surface water",
+        "Organic matter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The steepness of slope accelerates the downward movement of surface water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.2585,
+      "question": "The direction of mountain chains considerably influences which factor in an area?",
+      "options": [
+        "Temperature",
+        "Rainfall",
+        "Wind speed",
+        "Humidity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The direction of mountain chains considerably influences the rainfall in an area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.6252,
+      "question": "If mountain chains lie in the path of wind full of water vapour, then there is heavy rainfall on which side?",
+      "options": [
+        "Leeward side",
+        "Top side",
+        "Bottom side",
+        "Windward side"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If mountain chains lie in the path of wind full of water vapour, then there is heavy rainfall on the wind striking side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.5657,
+      "question": "Edaphic factors deal with different aspects of which component?",
+      "options": [
+        "Water",
+        "Air",
+        "Soil",
+        "Light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Edaphic factors deal with different aspects of soil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.4417,
+      "question": "Soil is usually defined as any part of earth's crust supporting which growth?",
+      "options": [
+        "Animals",
+        "Microbes",
+        "Fungi",
+        "Plants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Soil is defined as any part of earth's crust in which plants root.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.9666,
+      "question": "Soil is constituted as a result of long-term process of complex interaction leading to the production of which matrix type?",
+      "options": [
+        "Organic",
+        "Biological",
+        "Mineral",
+        "Chemical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Soil is constituted as a result of complex interaction leading to the production of a mineral matrix.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.87,
+      "question": "Which of the following is a main component of soil?",
+      "options": [
+        "Water vapor",
+        "Mineral matter",
+        "Atmospheric gases",
+        "Plant roots"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soil mainly has mineral matter as a component.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792348898666.0718,
+      "question": "All life on the earth is maintained by the flow of energy radiated by which source?",
+      "options": [
+        "The moon",
+        "The stars",
+        "The earth",
+        "The sun"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All life on the earth is maintained by the flow of energy radiated by the sun.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
