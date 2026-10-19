@@ -3,16 +3,1138 @@
   "title": "MTH 101 (UNINIGER): ELEMENTARY SET THEORY 1",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 80,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792438499550.2925,
+      "question": "A set is best defined as:",
+      "options": [
+        "any well-defined list, collection or class of objects",
+        "a list of numbers only",
+        "a group of letters only",
+        "any collection of random things"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A set is any <b>well-defined</b> list, collection or class of objects. “Well-defined” means we can decide clearly whether an object belongs to it or not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.838,
+      "question": "Which of these is NOT a well-defined set?",
+      "options": [
+        "The vowels of the English alphabet",
+        "The days of the week",
+        "The beautiful girls in Lagos",
+        "The even numbers less than 10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Beautiful” is a matter of opinion, so membership cannot be decided clearly. The other three have clear membership rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.9355,
+      "question": "Sets are usually denoted by:",
+      "options": [
+        "lower case letters",
+        "Greek numerals",
+        "capital letters",
+        "brackets only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By convention, sets are written with <b>capital letters</b> (A, B, X, Y, …) and their elements with lower-case letters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.0525,
+      "question": "Write A = { x | x<sup>2</sup> = 4 } in tabular form.",
+      "options": [
+        "{2}",
+        "{−2}",
+        "{4}",
+        "{2, −2}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "x<sup>2</sup> = 4 gives x = 2 or x = −2. Hence A = <b>{2, −2}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.3335,
+      "question": "Write B = { x | x − 2 = 5 } in tabular form.",
+      "options": [
+        "{3}",
+        "{7}",
+        "{−7}",
+        "{5}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x − 2 = 5 gives x = 5 + 2 = 7. Hence B = <b>{7}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.3242,
+      "question": "The set C = { x | x is positive and x is negative } is:",
+      "options": [
+        "{0}",
+        "{1, −1}",
+        "∅",
+        "{x}"
+      ],
+      "correctAnswer": 2,
+      "explanation": "No number is both positive and negative, so C has no elements: C = <b>∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.9363,
+      "question": "Write D = { x | x is a letter in the word “correct” } in tabular form.",
+      "options": [
+        "{c, o, r, e, t}",
+        "{c, o, r, r, e, c, t}",
+        "{c, o, r, e}",
+        "{o, r, e, t}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The letters of “correct” are c, o, r, r, e, c, t. A set does not repeat elements, so D = <b>{c, o, r, e, t}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.383,
+      "question": "The set-builder form of {2, 4, 6, 8, …} is:",
+      "options": [
+        "{ x | x is odd }",
+        "{ x | x is even and positive }",
+        "{ x | x is prime }",
+        "{ x | x &lt; 8 }"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The elements are the positive even numbers, so the set is <b>{ x | x is even and x &gt; 0 }</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.5825,
+      "question": "The symbol ∈ is read as:",
+      "options": [
+        "is a subset of",
+        "is not equal to",
+        "belongs to",
+        "contains"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x ∈ A means “x <b>belongs to</b> A” (x is an element of A).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.135,
+      "question": "If A = {a, e, i, o, u}, which statement is true?",
+      "options": [
+        "a ∉ A",
+        "b ∈ A",
+        "e ∈ A",
+        "u ∉ A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "e is one of the elements of A, so <b>e ∈ A</b>. a and u are in A; b is not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.2346,
+      "question": "If B = { x | x is an even number }, which statement is true?",
+      "options": [
+        "3 ∈ B",
+        "6 ∉ B",
+        "11 ∈ B",
+        "14 ∈ B"
+      ],
+      "correctAnswer": 3,
+      "explanation": "14 is even, so <b>14 ∈ B</b>. 3 and 11 are odd, and 6 is even so 6 ∈ B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.655,
+      "question": "Which of the following sets is finite?",
+      "options": [
+        "{ x | x is an even number }",
+        "{1, 2, 3, …}",
+        "The months of the year",
+        "{ x | x is a positive integer }"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The months of the year number 12; counting ends. The other sets never stop.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.2048,
+      "question": "Which of the following sets is infinite?",
+      "options": [
+        "{1, 2, 3, …, 100}",
+        "The days of the week",
+        "The people living on earth",
+        "{2, 4, 6, …}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The even numbers continue without end, so the counting never finishes. The other sets are finite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.5632,
+      "question": "The set of all rivers on the earth is:",
+      "options": [
+        "infinite",
+        "finite",
+        "null",
+        "universal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Although hard to count in practice, the number of rivers is a definite number, so the set is <b>finite</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.1165,
+      "question": "If A = {1, 2, 3, 4} and B = {3, 1, 4, 2}, then:",
+      "options": [
+        "A ≠ B",
+        "A ⊂ B only",
+        "A = B",
+        "A and B are disjoint"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They have exactly the same elements; order does not matter. So <b>A = B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.8193,
+      "question": "Which pair of sets is equal?",
+      "options": [
+        "{1, 2} and {1, 2, 3}",
+        "{a, b} and {a, c}",
+        "{1} and {{1}}",
+        "{r, t, s} and {s, t, r, s}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Repeating an element does not change a set. Both sets contain exactly r, s and t.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.612,
+      "question": "If E = { x | x<sup>2</sup> − 3x = −2 }, then E equals:",
+      "options": [
+        "{1, 2}",
+        "{−1, −2}",
+        "{2, 3}",
+        "{0, 2}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x<sup>2</sup> − 3x + 2 = 0 → (x − 1)(x − 2) = 0 → x = 1 or x = 2. So E = <b>{1, 2}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.4814,
+      "question": "The symbol for the null (empty) set is:",
+      "options": [
+        "U",
+        "∅",
+        "∈",
+        "⊂"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The empty set, with no elements, is written <b>∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.4165,
+      "question": "Which of the following is the empty set?",
+      "options": [
+        "{0}",
+        "{∅}",
+        "{ x | x<sup>2</sup> = 4 and x is odd }",
+        "{ x | x = 0 }"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x<sup>2</sup> = 4 gives x = ±2, neither of which is odd, so the set has no elements. {0} and {∅} each have one element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.8696,
+      "question": "Which word has a different meaning from the others: empty, void, zero, null?",
+      "options": [
+        "empty",
+        "void",
+        "null",
+        "zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Empty, void and null all describe a set with no elements. <b>Zero</b> is a number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499551.7817,
+      "question": "A ⊂ B means:",
+      "options": [
+        "every element of B is in A",
+        "every element of A is in B",
+        "A and B are disjoint",
+        "A and B have no elements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A is a subset of B when <b>every element of A is also an element of B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.698,
+      "question": "If C = {1, 3, 5} and D = {5, 4, 3, 2, 1}, then:",
+      "options": [
+        "D ⊂ C",
+        "C ⊄ D",
+        "C ⊂ D",
+        "C = D"
+      ],
+      "correctAnswer": 2,
+      "explanation": "1, 3 and 5 all belong to D, so <b>C ⊂ D</b>. D has elements (2, 4) not in C, so D ⊄ C and C ≠ D.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.9712,
+      "question": "The null set is:",
+      "options": [
+        "not a subset of any set",
+        "a subset of every set",
+        "a subset of non-empty sets only",
+        "equal to every set"
+      ],
+      "correctAnswer": 1,
+      "explanation": "∅ has no element that could fail to be in another set, so ∅ ⊂ A for <b>every set A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1055,
+      "question": "Every set is a subset of:",
+      "options": [
+        "the null set",
+        "itself",
+        "its power set only",
+        "no other set"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every element of A is in A, so <b>A ⊂ A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.0732,
+      "question": "Two sets A and B are equal if and only if:",
+      "options": [
+        "A ⊂ B only",
+        "B ⊂ A only",
+        "A and B are disjoint",
+        "A ⊂ B and B ⊂ A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Equality means the sets contain exactly the same elements, i.e. <b>each is a subset of the other</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7114,
+      "question": "B ⊃ A is read as:",
+      "options": [
+        "B is a superset of A",
+        "B is not a subset of A",
+        "A is a member of B",
+        "B is disjoint from A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B ⊃ A means B contains A, i.e. B is a <b>superset</b> of A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8604,
+      "question": "If A ⊄ B, then:",
+      "options": [
+        "A = B",
+        "A is empty",
+        "at least one element of A is not in B",
+        "B ⊂ A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A ⊂ B fails exactly when <b>some element of A is missing from B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.607,
+      "question": "B is a proper subset of A if:",
+      "options": [
+        "B ⊂ A and B = A",
+        "B ⊂ A and B ≠ A",
+        "A ⊂ B only",
+        "B is empty only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A proper subset is a subset that is <b>not equal to the whole set</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.756,
+      "question": "How many subsets does a set with 4 elements have?",
+      "options": [
+        "8",
+        "4",
+        "16",
+        "32"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A set with n elements has 2<sup>n</sup> subsets: 2<sup>4</sup> = <b>16</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.3438,
+      "question": "The power set of M = {a, b} is:",
+      "options": [
+        "{{a, b}, {a}, {b}}",
+        "{a, b}",
+        "{{a}, {b}, ∅}",
+        "{{a, b}, {a}, {b}, ∅}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The power set is the set of all subsets: {a, b}, {a}, {b} and ∅. So <b>{{a, b}, {a}, {b}, ∅}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.161,
+      "question": "If S has 5 elements, the number of elements in its power set is:",
+      "options": [
+        "10",
+        "25",
+        "32",
+        "64"
+      ],
+      "correctAnswer": 2,
+      "explanation": "2<sup>5</sup> = <b>32</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.2786,
+      "question": "Which of the following is a member of the power set of T = {4, 7, 8}?",
+      "options": [
+        "4",
+        "{4, 8}",
+        "{4, {8}}",
+        "{{4, 7}}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Members of the power set are subsets of T. {4, 8} ⊂ T, so it is a member. 4 is an element, not a subset.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.6064,
+      "question": "Two sets A and B are comparable if:",
+      "options": [
+        "A ⊂ B or B ⊂ A",
+        "A ∩ B = ∅",
+        "A ⊄ B and B ⊄ A",
+        "A ≠ B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparable means <b>one of the sets is a subset of the other</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8477,
+      "question": "Which pair of sets is NOT comparable?",
+      "options": [
+        "{a, b} and {a, b, c}",
+        "{a, b} and {b, c, d}",
+        "{1, 2} and {1, 2}",
+        "∅ and {1}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "a is in {a, b} but not in {b, c, d}, and c is in {b, c, d} but not in {a, b}. <b>Neither is a subset of the other</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8652,
+      "question": "If A ⊂ B and B ⊂ C, then:",
+      "options": [
+        "C ⊂ A",
+        "A = C",
+        "A ⊂ C",
+        "A ∩ C = ∅"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let x ∈ A. Then x ∈ B (as A ⊂ B), and then x ∈ C (as B ⊂ C). So every element of A is in C, i.e. <b>A ⊂ C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.2424,
+      "question": "Which of the following is a family (class) of sets?",
+      "options": [
+        "{{2, 3}, {2}, {5, 6}}",
+        "{2, {1, 3}, 4, {2, 5}}",
+        "{1, 2, 3}",
+        "{a, {b}, c}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Every member of {{2,3},{2},{5,6}} is itself a set. In the others, some members are not sets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.2942,
+      "question": "The universal set (universe of discourse) is usually denoted by:",
+      "options": [
+        "∅",
+        "S",
+        "U",
+        "2<sup>S</sup>"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The universal set is denoted by <b>U</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.805,
+      "question": "Which pair of sets is disjoint?",
+      "options": [
+        "{1, 3, 7, 8} and {2, 4, 7, 9}",
+        "{1, 2, 3} and {3, 4, 5}",
+        "{a, b} and {b, c}",
+        "{x, y, z} and {r, s, t}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Disjoint sets have no common element. The other pairs share 7, 3 and b respectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7854,
+      "question": "If A ⊂ B and A ≠ B, a Venn diagram can show this as:",
+      "options": [
+        "two separate circles",
+        "circle A drawn inside circle B",
+        "two overlapping circles",
+        "circle B drawn inside circle A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since A is a subset of B, <b>circle A is drawn inside circle B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.392,
+      "question": "In the axiomatic development of set theory, the undefined terms are:",
+      "options": [
+        "union and intersection",
+        "subset and superset",
+        "element and set",
+        "null set and universal set"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Element” and “set” are undefined terms; “an element belongs to a set” is the undefined relation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1667,
+      "question": "The union of two sets A and B is the set of elements that belong to:",
+      "options": [
+        "both A and B only",
+        "A only",
+        "B only",
+        "A or B or both"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A ∪ B = { x | x ∈ A <b>or</b> x ∈ B }.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.9463,
+      "question": "If A = {1, 2, 3, 4} and B = {2, 4, 6, 8}, then A ∪ B =",
+      "options": [
+        "{1, 2, 3, 4, 6, 8}",
+        "{2, 4}",
+        "{1, 3, 6, 8}",
+        "{1, 2, 3, 4, 2, 4, 6, 8, 5}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Put all elements together, listing each once: <b>{1, 2, 3, 4, 6, 8}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.121,
+      "question": "If A = {1, 2, 3, 4} and C = {3, 4, 5, 6}, then A ∪ C =",
+      "options": [
+        "{3, 4}",
+        "{1, 2, 3, 4, 5, 6}",
+        "{1, 2, 5, 6}",
+        "{1, 2, 3, 4, 6, 8}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combine and list each element once: <b>{1, 2, 3, 4, 5, 6}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.3748,
+      "question": "If B = {2, 4, 6, 8} and C = {3, 4, 5, 6}, then B ∪ C =",
+      "options": [
+        "{4, 6}",
+        "{2, 8, 3, 5}",
+        "{2, 3, 4, 5, 6, 8}",
+        "{1, 2, 3, 4, 5, 6, 8}"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combine: 2, 4, 6, 8 together with 3, 5 gives <b>{2, 3, 4, 5, 6, 8}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1821,
+      "question": "If B = {2, 4, 6, 8}, then B ∪ B =",
+      "options": [
+        "∅",
+        "B",
+        "{2, 4, 6, 8, 2, 4, 6, 8}",
+        "{4, 8}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The union of a set with itself adds nothing: <b>B ∪ B = B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.851,
+      "question": "If A = {1, 2, 3, 4}, B = {2, 4, 6, 8} and C = {3, 4, 5, 6}, then (A ∪ B) ∪ C =",
+      "options": [
+        "{1, 2, 3, 4, 5, 6, 8}",
+        "{1, 2, 3, 4, 6, 8}",
+        "{3, 4}",
+        "{1, 2, 3, 4, 5, 6, 7, 8, 9}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ∪ B = {1, 2, 3, 4, 6, 8}. Adding C brings in 5: <b>{1, 2, 3, 4, 5, 6, 8}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.4695,
+      "question": "The property (A ∪ B) ∪ C = A ∪ (B ∪ C), true for any three sets, is called the:",
+      "options": [
+        "commutative law",
+        "distributive law",
+        "associative law",
+        "idempotent law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Regrouping without changing order is the <b>associative law</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.6597,
+      "question": "If S = {a, b, c, d} and T = {f, b, d, g}, then S ∪ T =",
+      "options": [
+        "{b, d}",
+        "{a, c, f, g}",
+        "{a, b, c, d, f, b, d, g}",
+        "{a, b, c, d, f, g}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Combine and list b and d once: <b>{a, b, c, d, f, g}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7783,
+      "question": "If S = {a, b, c, d} and T = {f, b, d, g}, then S ∩ T =",
+      "options": [
+        "{a, c}",
+        "{b, d}",
+        "{f, g}",
+        "∅"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The common elements are <b>b and d</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.2559,
+      "question": "If V = {2, 4, 6, …} (multiples of 2) and W = {3, 6, 9, …} (multiples of 3), then V ∩ W =",
+      "options": [
+        "{6, 12, 18, …}",
+        "{5, 10, 15, …}",
+        "{2, 3, 6, …}",
+        "{1, 6, 12, …}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Numbers that are multiples of both 2 and 3 are multiples of 6: <b>{6, 12, 18, …}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8225,
+      "question": "If A = {1, 2, 3, 4} and B = {2, 4, 6, 8}, then A ∩ B =",
+      "options": [
+        "{1, 2, 3, 4, 6, 8}",
+        "{2, 4}",
+        "{1, 3}",
+        "{6, 8}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Common elements: <b>2 and 4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.3972,
+      "question": "If A = {1, 2, 3, 4} and C = {3, 4, 5, 6}, then A ∩ C =",
+      "options": [
+        "{3, 4}",
+        "{1, 2}",
+        "{4}",
+        "{5, 6}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Common elements: <b>3 and 4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8403,
+      "question": "If A and B are disjoint sets, then A ∩ B =",
+      "options": [
+        "A",
+        "B",
+        "U",
+        "∅"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Disjoint sets have no common element, so their intersection is empty: <b>∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.0415,
+      "question": "For any sets A and B, which of these is always true?",
+      "options": [
+        "A ∪ B ⊂ A",
+        "A ⊂ (A ∪ B)",
+        "(A ∩ B) ⊃ A",
+        "A ∪ B = A ∩ B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every element of A is in A ∪ B, so <b>A ⊂ (A ∪ B)</b>. The others fail in general (e.g. A = {1}, B = {2}).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.0786,
+      "question": "The difference A − B is the set of elements that:",
+      "options": [
+        "belong to B but not to A",
+        "belong to both A and B",
+        "belong to A but not to B",
+        "belong to neither A nor B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A − B = { x | x ∈ A and x ∉ B }: elements that <b>belong to A but not to B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.333,
+      "question": "If A = {1, 2, 3, 4} and B = {2, 4, 6, 8}, then A − B =",
+      "options": [
+        "{6, 8}",
+        "{2, 4}",
+        "{1, 2, 3, 4}",
+        "{1, 3}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Remove from A the elements that are in B (2 and 4): <b>{1, 3}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1753,
+      "question": "If B = {2, 4, 6, 8} and C = {3, 4, 5, 6}, then B − C =",
+      "options": [
+        "{6}",
+        "{2, 8}",
+        "{3, 5}",
+        "{2, 4, 8}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Remove from B the elements in C (4 and 6): <b>{2, 8}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.393,
+      "question": "If R is the set of real numbers and Q the set of rational numbers, then R − Q consists of:",
+      "options": [
+        "integers",
+        "natural numbers",
+        "irrational numbers",
+        "complex numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Real numbers that are not rational are the <b>irrational numbers</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.6755,
+      "question": "A − B can also be written as:",
+      "options": [
+        "A ∪ B′",
+        "A′ ∩ B",
+        "A′ − B′",
+        "A ∩ B′"
+      ],
+      "correctAnswer": 3,
+      "explanation": "x ∈ A and x ∉ B means x ∈ A and x ∈ B′, so <b>A − B = A ∩ B′</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.4287,
+      "question": "If U = {1, 2, 3, …, 9} and A = {1, 2, 3, 4}, then A′ =",
+      "options": [
+        "{1, 2, 3, 4}",
+        "{5, 6, 7, 8, 9}",
+        "{6, 7, 8, 9}",
+        "{5, 6, 7, 8}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A′ is everything in U not in A: <b>{5, 6, 7, 8, 9}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.9602,
+      "question": "If U = {1, 2, 3, …, 9} and B = {2, 4, 6, 8}, then B′ =",
+      "options": [
+        "{1, 3, 5, 7, 9}",
+        "{1, 3, 5, 7}",
+        "{2, 4, 6, 8}",
+        "{1, 3, 5, 9}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Remove 2, 4, 6, 8 from U: <b>{1, 3, 5, 7, 9}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7444,
+      "question": "If U = {1, 2, 3, …, 9}, A = {1, 2, 3, 4} and C = {3, 4, 5, 6}, then (A ∩ C)′ =",
+      "options": [
+        "{3, 4}",
+        "{1, 2, 5, 6, 7, 8, 9}",
+        "{1, 2, 3, 4, 5, 6}",
+        "{5, 6, 7, 8, 9}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A ∩ C = {3, 4}. Its complement in U is <b>{1, 2, 5, 6, 7, 8, 9}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7688,
+      "question": "If U = {1, 2, 3, …, 9}, A = {1, 2, 3, 4} and B = {2, 4, 6, 8}, then (A ∪ B)′ =",
+      "options": [
+        "{5, 7, 9}",
+        "{5, 6, 7, 8, 9}",
+        "{1, 3, 5, 7, 9}",
+        "{7, 9}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ∪ B = {1, 2, 3, 4, 6, 8}. Its complement in U is <b>{5, 7, 9}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7568,
+      "question": "For any set A, the complement of the complement of A, written (A′)′, is:",
+      "options": [
+        "A′",
+        "U",
+        "A",
+        "∅"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking the complement twice returns the original set: <b>(A′)′ = A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.7434,
+      "question": "If U = {1, 2, 3, …, 9}, B = {2, 4, 6, 8} and C = {3, 4, 5, 6}, then (B − C)′ =",
+      "options": [
+        "{2, 8}",
+        "{1, 3, 4, 5, 6, 7, 9}",
+        "{1, 3, 5, 7, 9}",
+        "{3, 4, 5, 6}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B − C = {2, 8}. Its complement in U is <b>{1, 3, 4, 5, 6, 7, 9}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.444,
+      "question": "For any set A (with universal set U), A ∪ A′ =",
+      "options": [
+        "∅",
+        "A",
+        "A′",
+        "U"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Every element of U is either in A or in A′, so <b>A ∪ A′ = U</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1904,
+      "question": "The complement of the universal set, U′, is:",
+      "options": [
+        "U",
+        "∅",
+        "{∅}",
+        "the power set of U"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nothing lies outside U, so <b>U′ = ∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.697,
+      "question": "If A is a subset of B, then A ∩ B =",
+      "options": [
+        "B",
+        "∅",
+        "A",
+        "A′"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every element of A is already in B, so the common part is <b>A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1458,
+      "question": "If A is a subset of B, then A ∪ B =",
+      "options": [
+        "A",
+        "B",
+        "∅",
+        "U"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Everything in A is already in B, so the union is <b>B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.6624,
+      "question": "If A is a subset of B, then which of these is true?",
+      "options": [
+        "A′ ⊂ B′",
+        "A′ = B′",
+        "B′ ⊂ A′",
+        "A′ ∩ B′ = U"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If x ∉ B then x ∉ A (since A ⊂ B). So every element of B′ is in A′, i.e. <b>B′ ⊂ A′</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1394,
+      "question": "If A is a subset of B, then A ∪ (B − A) =",
+      "options": [
+        "A",
+        "B",
+        "∅",
+        "A − B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B − A is the part of B outside A. Adding A back gives all of <b>B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8716,
+      "question": "For any set A, A ∩ ∅ =",
+      "options": [
+        "A",
+        "U",
+        "{∅}",
+        "∅"
+      ],
+      "correctAnswer": 3,
+      "explanation": "∅ has no elements, so nothing can be common to A and ∅: <b>A ∩ ∅ = ∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.558,
+      "question": "The sets (A − B), (A ∩ B) and (B − A) are:",
+      "options": [
+        "equal",
+        "mutually disjoint",
+        "all subsets of A′",
+        "all equal to U"
+      ],
+      "correctAnswer": 1,
+      "explanation": "No element can be in two of these regions at once, so the intersection of any two is empty: they are <b>mutually disjoint</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.654,
+      "question": "If n(A) = 20, n(B) = 15 and n(A ∩ B) = 5, then n(A ∪ B) =",
+      "options": [
+        "40",
+        "35",
+        "30",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 20 + 15 − 5 = <b>30</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.499,
+      "question": "In a class of 40 students, 25 offer Mathematics, 20 offer Physics and 10 offer both. How many students offer neither subject?",
+      "options": [
+        "0",
+        "5",
+        "10",
+        "15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Students offering at least one = 25 + 20 − 10 = 35. Neither = 40 − 35 = <b>5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8093,
+      "question": "On a Venn diagram, A ∪ B is represented by:",
+      "options": [
+        "only the overlapping region",
+        "the part of A outside B",
+        "the area outside both circles",
+        "the whole area covered by both circles"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A ∪ B consists of everything in A, in B, or in both: <b>both circles together</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.1287,
+      "question": "On a Venn diagram, A ∩ B is represented by:",
+      "options": [
+        "the area common to both circles",
+        "the whole of A",
+        "the area outside A",
+        "the part of B outside A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ∩ B is the <b>overlapping region</b> of the two circles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.3083,
+      "question": "On a Venn diagram with the universal set U drawn as a rectangle, the complement A′ is the area:",
+      "options": [
+        "inside circle A",
+        "outside circle A but inside the rectangle",
+        "inside both A and B",
+        "outside the rectangle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A′ = U − A: everything in U that is <b>outside circle A but inside the rectangle</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.858,
+      "question": "The correct relationship between the sets of natural numbers (N), integers (Z), rational numbers (Q) and real numbers (R) is:",
+      "options": [
+        "Z ⊂ N ⊂ Q ⊂ R",
+        "N ⊂ Z ⊂ Q ⊂ R",
+        "Q ⊂ N ⊂ Z ⊂ R",
+        "N ⊂ Q ⊂ Z ⊂ R"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every natural number is an integer, every integer is rational (n = n/1), and every rational number is real: <b>N ⊂ Z ⊂ Q ⊂ R</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792438499552.8972,
+      "question": "The set of integers is closed under:",
+      "options": [
+        "addition, subtraction and multiplication only",
+        "division only",
+        "addition and division only",
+        "all four operations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sum, difference and product of integers are integers, but a quotient such as 3 ÷ 7 is not an integer. So the integers are closed under <b>addition, subtraction and multiplication only</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
