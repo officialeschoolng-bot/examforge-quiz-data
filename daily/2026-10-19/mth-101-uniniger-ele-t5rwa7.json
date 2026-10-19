@@ -3,7 +3,7 @@
   "title": "MTH 101 (UNINIGER): ELEMENTARY SET THEORY 1",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 41,
+  "totalQuestions": 40,
   "defaultTimePerQuestion": 30,
   "settings": {
     "canChangeTime": false,
@@ -559,20 +559,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 20 + 15 − 5 = <b>30</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792438499552.499,
-      "question": "In a class of 40 students, 25 offer Mathematics, 20 offer Physics and 10 offer both. How many students offer neither subject?",
-      "options": [
-        "0",
-        "5",
-        "10",
-        "15"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Students offering at least one = 25 + 20 − 10 = 35. Neither = 40 − 35 = <b>5</b>.",
       "difficulty": "easy",
       "points": 1
     },
