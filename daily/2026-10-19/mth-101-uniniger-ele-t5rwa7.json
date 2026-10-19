@@ -3,7 +3,7 @@
   "title": "MTH 101 (UNINIGER): ELEMENTARY SET THEORY 1",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 42,
+  "totalQuestions": 41,
   "defaultTimePerQuestion": 40,
   "settings": {
     "canChangeTime": false,
@@ -531,20 +531,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Everything in A is already in B, so the union is <b>B</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792438499552.6624,
-      "question": "If A is a subset of B, then which of these is true?",
-      "options": [
-        "A′ ⊂ B′",
-        "A′ = B′",
-        "B′ ⊂ A′",
-        "A′ ∩ B′ = U"
-      ],
-      "correctAnswer": 2,
-      "explanation": "If x ∉ B then x ∉ A (since A ⊂ B). So every element of B′ is in A′, i.e. <b>B′ ⊂ A′</b>.",
       "difficulty": "easy",
       "points": 1
     },
