@@ -3,8 +3,8 @@
   "title": "ANA 201 (UNINIGER): Basic Anatomy",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 31,
+  "defaultTimePerQuestion": 20,
   "settings": {
     "canChangeTime": false,
     "canPracticeMode": false,
@@ -13,7 +13,442 @@
     "passMark": 50,
     "shuffleQuestions": true,
     "shuffleOptions": true,
-    "defaultTimePerQuestion": 60
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792524691026.3489,
+      "question": "The study of the structure of the body is called:",
+      "options": [
+        "Physiology",
+        "Anatomy",
+        "Histology",
+        "Pathology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Anatomy</b> is the branch of science that deals with the <b>structure</b> of the body and the relationships between its parts. It comes from the Greek words <i>ana</i> (up) and <i>tomia</i> (cutting), reflecting its origins in dissection.<br><br>• <b>Physiology</b> studies how body parts <i>function</i>.<br>• <b>Histology</b> studies <i>tissues</i> at the microscopic level.<br>• <b>Pathology</b> studies <i>disease</i> and its effects on structure and function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.8972,
+      "question": "Which branch of study deals with tissues at the microscopic level?",
+      "options": [
+        "Gross anatomy",
+        "Physiology",
+        "Histology",
+        "Surface anatomy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Histology</b> (microscopic anatomy) is the study of the <b>microscopic structure of tissues</b>. It involves preparing thin slices of tissue, staining them, and examining them under a microscope.<br><br>• <b>Gross anatomy</b> deals with structures visible to the naked eye.<br>• <b>Physiology</b> studies function.<br>• <b>Surface anatomy</b> studies external body features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.9504,
+      "question": "Physiology is best defined as the study of:",
+      "options": [
+        "The size, shape and position of organs",
+        "Tissues seen under a microscope",
+        "The naming of body regions",
+        "How body parts work"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Physiology</b> is the study of the <b>functions</b> of the body and its parts — how organs, tissues, and cells carry out their activities and work together to maintain life.<br><br>• Size, shape, and position belong to anatomy.<br>• Tissues under a microscope belong to histology.<br>• Naming body regions belongs to anatomical terminology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.281,
+      "question": "Gross anatomy deals with structures that are:",
+      "options": [
+        "Seen only with an electron microscope",
+        "Found only inside cells",
+        "Visible without a microscope",
+        "Involving chemical reactions only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gross (macroscopic) anatomy</b> studies structures that are <b>large enough to be seen with the naked eye</b>, such as organs, bones, and muscles. It contrasts with microscopic anatomy (histology), which requires a microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.819,
+      "question": "The term \\anterior\\ means:",
+      "options": [
+        "Towards the head",
+        "Towards the feet",
+        "Towards the back of the body",
+        "Towards the front"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In anatomical terminology, <b>anterior</b> means <b>towards the front</b> of the body. For example, the sternum (breastbone) is anterior to the vertebral column.<br><br>• Towards the head = superior (cranial).<br>• Towards the feet = inferior (caudal).<br>• Towards the back = posterior (dorsal).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.9453,
+      "question": "Which term is the opposite of \\superior\\?",
+      "options": [
+        "Inferior",
+        "Posterior",
+        "Anterior",
+        "Medial and lateral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Superior</b> means towards the head (upper), while <b>inferior</b> means towards the feet (lower). They are opposite directional terms.<br><br>• Posterior is opposite anterior.<br>• Medial is opposite lateral.<br>• Anterior is opposite posterior, not superior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.8325,
+      "question": "Which system receives information and coordinates the body's responses?",
+      "options": [
+        "Integumentary system",
+        "Reproductive system",
+        "Nervous system",
+        "Cardiovascular system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>nervous system</b> is the body's primary control and communication system. It receives sensory information, processes it, and coordinates rapid responses through electrical impulses and chemical signals.<br><br>• Integumentary system protects the body.<br>• Reproductive system produces gametes.<br>• Cardiovascular system transports substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.1174,
+      "question": "Which plane divides the body into left and right portions?",
+      "options": [
+        "Coronal",
+        "Sagittal",
+        "Transverse",
+        "Horizontal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>sagittal plane</b> is a vertical plane that divides the body into <b>left and right portions</b>. If it passes exactly through the midline, it is a midsagittal plane.<br><br>• Coronal (frontal) plane divides front and back.<br>• Transverse (horizontal) plane divides upper and lower.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.5876,
+      "question": "The coronal (frontal) plane divides the body into:",
+      "options": [
+        "Left and right halves",
+        "Upper and lower portions",
+        "Equal halves along the midline only",
+        "Front and back portions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>coronal (frontal) plane</b> is a vertical plane that divides the body into <b>anterior (front) and posterior (back) portions</b>.<br><br>• Sagittal divides left and right.<br>• Transverse divides upper and lower.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.494,
+      "question": "The transverse (horizontal) plane divides the body into:",
+      "options": [
+        "Front and back portions",
+        "Equal right and left halves through the midline",
+        "Left and right portions",
+        "Upper and lower portions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>transverse (horizontal) plane</b> divides the body into <b>upper (superior) and lower (inferior) portions</b>.<br><br>• Coronal divides front and back.<br>• Sagittal divides left and right.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.5708,
+      "question": "A midsagittal plane divides the body into:",
+      "options": [
+        "Upper and lower portions",
+        "Equal left and right halves",
+        "Unequal left and right portions",
+        "Front and back portions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>midsagittal plane</b> is a sagittal plane that passes exactly through the midline of the body, dividing it into <b>equal left and right halves</b>.<br><br>• A parasagittal plane would divide it into unequal portions.<br>• Coronal and transverse planes divide differently.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.3608,
+      "question": "A parasagittal plane divides the body into:",
+      "options": [
+        "Unequal left and right portions",
+        "Equal left and right halves",
+        "Front and back portions",
+        "Upper and lower portions of the body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>parasagittal plane</b> is any sagittal plane that does not pass through the midline, so it divides the body into <b>unequal left and right portions</b>.<br><br>• Midsagittal gives equal halves.<br>• Coronal gives front/back.<br>• Transverse gives upper/lower.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.5051,
+      "question": "The smallest unit of an element is the:",
+      "options": [
+        "Organelle",
+        "Molecule",
+        "Atom",
+        "Tissue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>atom</b> is the smallest unit of an element that retains the properties of that element. Atoms combine to form molecules.<br><br>• Organelles are structures inside cells.<br>• Molecules are groups of atoms bonded together.<br>• Tissues are groups of similar cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.13,
+      "question": "Which level of organization lies immediately between tissue and organ system?",
+      "options": [
+        "Organ",
+        "Organelle",
+        "Cell",
+        "Organism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The levels of structural organization from simplest to most complex are: atom → molecule → organelle → cell → tissue → <b>organ</b> → organ system → organism.<br><br>Therefore, between tissue and organ system lies the <b>organ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.004,
+      "question": "The basic structural and functional unit of the living body is the:",
+      "options": [
+        "Tissue",
+        "Cell",
+        "Organ",
+        "Molecule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>cell</b> is the basic structural and functional unit of all living organisms. It is the smallest unit that can carry out all life processes.<br><br>• Tissues are groups of cells.<br>• Organs are made of tissues.<br>• Molecules are chemical structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.9365,
+      "question": "A specialized structure found inside a cell is called a(n):",
+      "options": [
+        "Tissue",
+        "Molecule",
+        "Organelle",
+        "Organ system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>organelle</b> is a specialized structure within a cell that performs a specific function (e.g., mitochondrion, nucleus, ribosome).<br><br>• Tissues are groups of cells.<br>• Molecules are chemical compounds.<br>• Organ systems are groups of organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.3223,
+      "question": "A group of similar cells working together is called a:",
+      "options": [
+        "Organelle",
+        "Tissue",
+        "Organ",
+        "Organ system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>tissue</b> is a group of similar cells that work together to perform a specific function. The four main tissue types are epithelial, connective, muscle, and nervous tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.8945,
+      "question": "An organ is made up of:",
+      "options": [
+        "A single cell type",
+        "Two or more tissue types",
+        "Several different organisms",
+        "Only epithelial and connective tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>organ</b> is composed of <b>two or more different tissue types</b> that work together to perform a specific function. For example, the stomach contains epithelial, connective, muscle, and nervous tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.6294,
+      "question": "Which of the following is an example of an organ system?",
+      "options": [
+        "Cardiac muscle cell",
+        "Mitochondrion",
+        "Urinary system",
+        "Connective tissue of the skin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>organ system</b> is a group of organs that work together to perform major functions. The <b>urinary system</b> (kidneys, ureters, bladder, urethra) is an organ system.<br><br>• Cardiac muscle cell is a cell.<br>• Mitochondrion is an organelle.<br>• Connective tissue is a tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.736,
+      "question": "All the organ systems working together make up a(n):",
+      "options": [
+        "Organ",
+        "Organism",
+        "Tissue",
+        "Organ system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The highest level of structural organization is the <b>organism</b>, which consists of all the organ systems working together to maintain life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.9043,
+      "question": "The four major tissue types of the body are:",
+      "options": [
+        "Epithelial, skeletal, cardiac, adipose, nervous",
+        "Connective, bone, muscle, blood",
+        "Epithelial, connective, muscle, nervous",
+        "Squamous, cuboidal, columnar, nervous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The four primary tissue types are <b>epithelial, connective, muscle, and nervous</b> tissue. Skeletal, cardiac, and adipose are subtypes or examples within these categories, not major types.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.4172,
+      "question": "The ability of the body to detect and respond to changes is called:",
+      "options": [
+        "Differentiation",
+        "Responsiveness",
+        "Growth",
+        "Movement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Responsiveness</b> (irritability) is the ability to detect changes in the internal or external environment and respond appropriately. It is a key characteristic of living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.709,
+      "question": "The process by which cells become specialized for particular functions is:",
+      "options": [
+        "Metabolism",
+        "Excretion",
+        "Reproduction",
+        "Differentiation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Differentiation</b> is the process by which unspecialized cells (stem cells) develop into specialized cells with specific structures and functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.9805,
+      "question": "The production of new cells or offspring is called:",
+      "options": [
+        "Reproduction",
+        "Growth",
+        "Responsiveness",
+        "Movement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Reproduction</b> is the process by which organisms produce new cells or offspring. At the cellular level, it involves cell division; at the organism level, it ensures continuation of the species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.7456,
+      "question": "The removal of waste products from the body is known as:",
+      "options": [
+        "Movement",
+        "Growth",
+        "Differentiation",
+        "Excretion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Excretion</b> is the process of removing metabolic wastes (e.g., carbon dioxide, urea) from the body. It is essential for maintaining homeostasis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.1,
+      "question": "Which structures belong to the integumentary system?",
+      "options": [
+        "Heart, arteries, capillaries and veins",
+        "Skin, hair, nails and glands",
+        "Bones and joints",
+        "Kidneys and bladder"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>integumentary system</b> consists of the <b>skin, hair, nails, and various glands</b> (sweat, sebaceous). It protects the body, regulates temperature, and provides sensation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.74,
+      "question": "Which system is made up of glands and hormones, and controls growth, metabolism and reproduction?",
+      "options": [
+        "Nerve cells and the spinal cord",
+        "Kidneys, ureters and bladder",
+        "The endocrine system",
+        "Lymph nodes and lymphatic ducts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>endocrine system</b> consists of glands that secrete hormones, which regulate growth, metabolism, reproduction, and many other body functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.1504,
+      "question": "Which system transports oxygen, nutrients and waste through the body?",
+      "options": [
+        "Cardiovascular system",
+        "Organs of special senses",
+        "Lymphatic system",
+        "Urinary system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>cardiovascular system</b> (heart, blood vessels, blood) transports oxygen, nutrients, hormones, and waste products throughout the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.4895,
+      "question": "Which function belongs to the urinary system?",
+      "options": [
+        "Absorption of nutrients from digested food",
+        "Transport of oxygen in blood",
+        "Removing wastes and balancing fluid",
+        "Vision, hearing and balance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>urinary system</b> removes metabolic wastes (e.g., urea) and regulates fluid, electrolyte, and acid-base balance by producing urine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691026.373,
+      "question": "The production of gametes and the continuation of the species is the function of the:",
+      "options": [
+        "Reproductive system",
+        "Urinary system",
+        "Endocrine system",
+        "Lymphatic system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>reproductive system</b> produces gametes (sperm and ova) and is responsible for the continuation of the species through sexual reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792524691027.2292,
+      "question": "Which of the following are organs of special senses?",
+      "options": [
+        "Kidneys, ureters, bladder and urethra",
+        "Heart, arteries and veins",
+        "Lymph nodes and ducts",
+        "Eyes, ears, nose and tongue"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>organs of special senses</b> include the <b>eyes (vision), ears (hearing and balance), nose (smell), and tongue (taste)</b>. They contain specialized receptors for these senses.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
