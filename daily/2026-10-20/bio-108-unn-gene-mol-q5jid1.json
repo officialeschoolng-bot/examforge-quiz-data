@@ -3,16 +3,718 @@
   "title": "BIO 108 ( UNN ) : GENE/ MOLECULAR/DNA CLONING",
   "subject": "BIO 108",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792520119977.3806,
+      "question": "Primary structure of protein can be predicted by which technique?",
+      "options": [
+        "Gene splicing",
+        "Gene therapy",
+        "Sequencing",
+        "DNA ligase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DNA sequencing allows the prediction of the primary structure of a protein product from a cloned gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.7302,
+      "question": "The production of recombinant protein yields human insulin for treating which condition?",
+      "options": [
+        "Diabetes",
+        "Hepatitis B",
+        "Growth defects",
+        "Gene mutation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recombinant human insulin is produced using suitable expression systems for the treatment of diabetes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.3154,
+      "question": "Which substance is used to cleave the DNA to be inserted during gene splicing?",
+      "options": [
+        "Ligase",
+        "Polymerase",
+        "Transferase",
+        "Endonuclease"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Restriction endonucleases are used to cleave the DNA into fragments with complementary single-stranded ends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.874,
+      "question": "Which enzyme covalently joins DNA molecules during gene splicing?",
+      "options": [
+        "Endonuclease",
+        "DNA ligase",
+        "Transferase",
+        "Polymerase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA ligase acts to covalently join the complementary ends of the two DNA molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.1775,
+      "question": "Which enzyme adds nucleotides to the 3' terminal OH group of a DNA chain?",
+      "options": [
+        "Transferase",
+        "DNA ligase",
+        "Endonuclease",
+        "Polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Terminal deoxynucleotidyl transferase adds nucleotides to the 3' terminal OH group when there are no common restriction sites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.6187,
+      "question": "The isolation of a bacterial cell of a fragment of heterologous DNA in covalent linkage with a replicon is called?",
+      "options": [
+        "Gene therapy",
+        "Gene splicing",
+        "DNA sequencing",
+        "Gene cloning"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gene cloning involves isolating a bacterial cell containing a fragment of heterologous DNA linked to a replicon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.8503,
+      "question": "Plasmids are reintroduced into host cells by which process?",
+      "options": [
+        "Conjugation",
+        "Bacteriophage infection",
+        "Transformation",
+        "Transduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In cloning using plasmid vectors, plasmids are reintroduced into host cells by transformation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.9885,
+      "question": "Markers on cloning vectors allow the selection of what?",
+      "options": [
+        "Restriction enzymes",
+        "Plasmids",
+        "Host bacteria",
+        "Foreign DNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Markers on the cloning vectors allow for the selection of plasmid-containing cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.5002,
+      "question": "Algae are primarily characterized as which type of organisms?",
+      "options": [
+        "Heterotrophic",
+        "Parasitic",
+        "Saprophytic",
+        "Autotrophic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Algae are primarily aquatic, photosynthetic thallophytes that synthesize their own food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.0237,
+      "question": "Which group of algae is commonly referred to as blue-green algae?",
+      "options": [
+        "Cyanobacteria",
+        "Chlorophyta",
+        "Rhodophyta",
+        "Phaeophyceae"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanobacteria are commonly known as blue-green algae due to their characteristic pigments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.43,
+      "question": "Which algal group contains the pigment phycoerythrin?",
+      "options": [
+        "Chlorophyta",
+        "Phaeophyta",
+        "Rhodophyta",
+        "Cyanobacteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rhodophyta, or red algae, contain the red pigment phycoerythrin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.58,
+      "question": "Which genus is used as an organic nitrogen fertilizer in paddy fields?",
+      "options": [
+        "Euglena",
+        "Nostoc",
+        "Diatoms",
+        "Spirogyra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blue-green algae like Nostoc are capable of fixing atmospheric nitrogen and are used as organic fertilizer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.7678,
+      "question": "Which alga is commercially sold as a food supplement in the Lake Chad region?",
+      "options": [
+        "Chlamydomonas",
+        "Batrachospermum",
+        "Scytonema",
+        "Spirulina"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Spirulina is eaten in the Lake Chad region of Africa and commercially sold as a food supplement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.9072,
+      "question": "Which instrument is used to collect planktonic forms of algae?",
+      "options": [
+        "Plankton net",
+        "Scalpel",
+        "Dropper",
+        "Forceps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Planktonic forms can be collected with specialized water samplers or plankton nets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.714,
+      "question": "Macroalgae can reach a maximum length of about how many meters?",
+      "options": [
+        "20 meters",
+        "40 meters",
+        "80 meters",
+        "60 meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Although most algae are microscopic, some macroscopic forms like red algae can reach 80 meters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.211,
+      "question": "Dense growths of algae are often collected using which item?",
+      "options": [
+        "Slides",
+        "Jars",
+        "Petri dishes",
+        "Nets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dense growths can be collected by picking them into collection jars with water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.1665,
+      "question": "Which preservative causes the destruction of dinoflagellate chloroplasts?",
+      "options": [
+        "Acetic acid",
+        "Lugol's iodine",
+        "Formalin",
+        "Ethanol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Formalin-acetic acid-alcohol (FAA) contains acetic acid which destroys chloroplasts and causes wall plates to dissociate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.346,
+      "question": "Acidified Lugol's iodine is prepared by dissolving iodine and which other substance?",
+      "options": [
+        "Sodium chloride",
+        "Calcium carbonate",
+        "Potassium iodide",
+        "Magnesium sulfate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acidified Lugol's iodine is prepared by dissolving potassium iodide and iodine in distilled water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.8374,
+      "question": "The central colourless region of a cyanobacterial cell is known as the?",
+      "options": [
+        "Nucleus",
+        "Centrosome",
+        "Centriole",
+        "Nucleoid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cyanobacteria have a central non-pigmented region called the nucleoid that contains chromatin material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.472,
+      "question": "Which pigment masks the green color in blue-green algae?",
+      "options": [
+        "Phycocyanin",
+        "Chlorophyll a",
+        "Carotene",
+        "Xanthophyll"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The blue pigment phycocyanin masks the green color of chlorophyll a in blue-green algae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.873,
+      "question": "The primary reserve food material in cyanobacteria is?",
+      "options": [
+        "Starch",
+        "Paramylon",
+        "Glycogen",
+        "Oil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cyanobacteria store their reserve food material in the form of glycogen and cyanophycean granules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119982.668,
+      "question": "The mucilaginous sheath of cyanobacteria helps to prevent what?",
+      "options": [
+        "Photosynthesis",
+        "Desiccation",
+        "Reproduction",
+        "Movement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mucilaginous sheath retains moisture on the plant and prevents desiccation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.3557,
+      "question": "Which characteristic movement is exhibited by the filament of Oscillatoria?",
+      "options": [
+        "Gliding",
+        "Swimming",
+        "Creeping",
+        "Oscillatory"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Oscillatoria exhibits characteristic oscillatory movement, which gives the genus its name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.475,
+      "question": "Dead cells that cause filaments to break up during fragmentation in Oscillatoria are called?",
+      "options": [
+        "Necridia",
+        "Heterocysts",
+        "Akinetes",
+        "Hormogonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Separation discs or necridia are dead cells that cause the filament to break up into fragments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.471,
+      "question": "The cell wall of Oscillatoria lacks which structure?",
+      "options": [
+        "Peptidoglycan",
+        "Sheath",
+        "Cellulose",
+        "Plasma membrane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oscillatoria has a cell wall without a mucilaginous sheath, making the plant a trichome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.8425,
+      "question": "Oscillatoria is found as a greenish slimy substance in which environment?",
+      "options": [
+        "Ocean",
+        "Desert",
+        "Ponds",
+        "Snow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Oscillatoria is found in stagnant water around water taps, drains, damp soils, and ponds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.9263,
+      "question": "The shape of vegetative cells in Anabaena is best described as?",
+      "options": [
+        "Spherical",
+        "Rectangular",
+        "Spiral",
+        "Bead-like"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Anabaena features bead-like or barrel-shaped vegetative cells joined end to end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.3198,
+      "question": "In Anabaena, where are heterocysts typically located?",
+      "options": [
+        "Intercalary",
+        "Terminal only",
+        "Basal only",
+        "Apical only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anabaena has barrel-shaped heterocysts that are intercalary, meaning they are between vegetative cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.4348,
+      "question": "Which structure in Anabaena is responsible for nitrogen fixation?",
+      "options": [
+        "Akinetes",
+        "Heterocysts",
+        "Hormogonia",
+        "Necridia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heterocysts are the specialized cells responsible for nitrogen fixation in Anabaena.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.9827,
+      "question": "Anabaena azollae lives in symbiotic association with which plant?",
+      "options": [
+        "Cycas",
+        "Anthoceros",
+        "Azolla",
+        "Funaria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anabaena azollae lives in symbiosis with the water fern Azolla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6611,
+      "question": "The filaments of Nostoc are grouped together to form what type of structure?",
+      "options": [
+        "Single filament",
+        "Branching tree",
+        "Star shape",
+        "Entangled mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nostoc is colonial, with filaments grouped together to form an entangled mass embedded in a gelatinous matrix.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6897,
+      "question": "Which feature distinguishes Nostoc akinetes from those of Anabaena?",
+      "options": [
+        "They are globose",
+        "They are elongate",
+        "They are terminal",
+        "They are absent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The akinetes of Nostoc are globose, unlike those of Anabaena which are elongate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.2356,
+      "question": "Nostoc is found in symbiotic association with the roots of which gymnosperm?",
+      "options": [
+        "Pinus",
+        "Cycas",
+        "Gnetum",
+        "Ephedra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some species of Nostoc live in the coralloid roots of Cycas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6091,
+      "question": "What type of branching is observed in Scytonema?",
+      "options": [
+        "True",
+        "Dichotomous",
+        "False",
+        "Lateral"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Scytonema filaments exhibit false branching, also known as pseudobranching.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.132,
+      "question": "Scytonema is commonly found as a grey or black colony on which substrate?",
+      "options": [
+        "Wet rocks",
+        "Dry sand",
+        "Tree leaves",
+        "Ocean surface"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scytonema is found as grey or black colonies covering wet rocks, grounds, and tree barks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6833,
+      "question": "Which feature helps Microcystis maintain buoyancy in water?",
+      "options": [
+        "Flagella",
+        "Air spaces",
+        "Pseudovacuoles",
+        "Mucilage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microcystis colonies have air spaces within the colony for efficient buoyancy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.4324,
+      "question": "Green algae store their reserve food material as what?",
+      "options": [
+        "Glycogen",
+        "Oil",
+        "Starch",
+        "Paramylon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Green algae have a true nucleus and store their reserve food material as starch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.1926,
+      "question": "The chloroplast in Chlamydomonas is described as having which shape?",
+      "options": [
+        "Spiral",
+        "Cup-shaped",
+        "Discoid",
+        "Ribbon-like"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chlamydomonas has a single cup-shaped chloroplast that encloses the cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6353,
+      "question": "How many flagella does Chlamydomonas possess?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chlamydomonas has two flagella of equal length used for swimming.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6672,
+      "question": "The eyespot in Chlamydomonas helps the organism to respond to what?",
+      "options": [
+        "Light",
+        "Water",
+        "Gravity",
+        "Chemicals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The stigma or eyespot helps the plant respond to favorable light intensities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.038,
+      "question": "Which characteristic shape describes the chloroplast of Spirogyra?",
+      "options": [
+        "Cup",
+        "Discoid",
+        "Spiral",
+        "Star"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spirogyra is characterized by its spiral chloroplasts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.1003,
+      "question": "The pyrenoids in Spirogyra are positioned at intervals along which structure?",
+      "options": [
+        "Cell wall",
+        "Chloroplast",
+        "Nucleus",
+        "Vacuole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spiral chloroplasts of Spirogyra have starch grains concentrated on pyrenoids positioned at intervals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.8325,
+      "question": "The cell wall of Euglena is replaced by a flexible structure called a?",
+      "options": [
+        "Capsule",
+        "Frustule",
+        "Sheath",
+        "Pellicle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Euglena has an outer covering of a flexible pellicle instead of a rigid cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.643,
+      "question": "The reserve food material in Euglena is known as?",
+      "options": [
+        "Paramylon",
+        "Starch",
+        "Glycogen",
+        "Oil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reserve food material in Euglena is stored as paramylon granules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.0405,
+      "question": "The function of the contractile vacuole in Euglena is primarily for what?",
+      "options": [
+        "Photosynthesis",
+        "Movement",
+        "Osmoregulation",
+        "Reproduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The contractile vacuole regulates the temperature of the cell and maintains osmotic balance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.6064,
+      "question": "Which organelle in Euglena is photoreceptive in function?",
+      "options": [
+        "Nucleus",
+        "Stigma",
+        "Pellicle",
+        "Paramylon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Euglena has a prominent eyespot or stigma that is photoreceptive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.205,
+      "question": "The cell wall of diatoms is made of which material?",
+      "options": [
+        "Cellulose",
+        "Chitin",
+        "Peptidoglycan",
+        "Silica"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cell wall of diatoms, called a frustule, is silicified with deposits of silica.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.4336,
+      "question": "The two overlapping halves of a diatom frustule are called the?",
+      "options": [
+        "Epitheca and hypotheca",
+        "Top and bottom frustule shells",
+        "Raphe and polar nodules",
+        "Girdle and cingulum bands"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The frustule is divided into two parts called the epitheca and hypotheca that fit together like Petri dishes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.5667,
+      "question": "Which structure is present in pennate diatoms for movement?",
+      "options": [
+        "Flagella",
+        "Cilia",
+        "Raphe",
+        "Pseudopodia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A raphe is present in pennate diatoms and is used for movement by jerking or gliding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792520119983.9644,
+      "question": "Batrachospermum belongs to which group of algae?",
+      "options": [
+        "Green algae",
+        "Red algae",
+        "Brown algae",
+        "Blue-green algae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Batrachospermum is a macroscopic filamentous red alga belonging to Rhodophyta.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
