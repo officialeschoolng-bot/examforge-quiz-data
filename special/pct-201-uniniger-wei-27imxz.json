@@ -3,7 +3,7 @@
   "title": "PCT 201 (UNINIGER): Weighing and Measurements",
   "subject": "PCT 201",
   "description": "",
-  "totalQuestions": 40,
+  "totalQuestions": 38,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -59,20 +59,6 @@
       "points": 1
     },
     {
-      "id": 1792610569937.8674,
-      "question": "A triple-beam balance is best classified as:",
-      "options": [
-        "a mechanical balance requiring no electricity",
-        "a digital electronic balance",
-        "an electromagnetic force-restoration balance",
-        "a load-cell based digital balance"
-      ],
-      "correctAnswer": 0,
-      "explanation": "A <b>triple-beam balance</b> is a purely <b>mechanical</b> device that requires no electricity. It operates by comparing the torque produced by the unknown mass with the torque produced by sliding masses on three beams.<br><br>The other options describe electronic balances.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792610569937.748,
       "question": "A beam balance compares masses using a beam and a:",
       "options": [
@@ -83,20 +69,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "A beam balance works on the principle of moments. The beam rests on a <b>fulcrum</b> (pivot). When the torques on both sides are equal, the beam is horizontal, and the unknown mass can be read from the positions of known masses.<br><br>• Load cells and thermistors are electronic components.<br>• A draft shield is an enclosure to protect from air currents, not the pivot.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.6936,
-      "question": "Spring balances measure weight by:",
-      "options": [
-        "comparing the unknown mass with a fixed mass on a beam",
-        "the force required to stretch or compress a spring",
-        "detecting changes in resistance of a strain gauge",
-        "electromagnetic compensation of the weighing pan"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A <b>spring balance</b> measures weight by the <b>extension or compression of a spring</b> according to Hooke's law (F = kx). The force exerted by the object stretches the spring, and the scale is calibrated to read the weight directly.<br><br>The other options describe beam balances, strain-gauge balances, and electromagnetic force-restoration balances.",
       "difficulty": "easy",
       "points": 1
     },
