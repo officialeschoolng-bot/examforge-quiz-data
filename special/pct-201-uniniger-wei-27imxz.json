@@ -3,16 +3,578 @@
   "title": "PCT 201 (UNINIGER): Weighing and Measurements",
   "subject": "PCT 201",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 40,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792610569937.624,
+      "question": "Weighing is best defined as the unit operation concerned with determining the:",
+      "options": [
+        "volume of a liquid using graduated glass measures",
+        "heaviness of a substance using scales or balances",
+        "temperature changes of a substance during storage and transport",
+        "density of a substance using a pycnometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Weighing</b> is the unit operation of determining the <b>mass</b> (or, loosely, the heaviness) of a substance using a balance or scale. It is distinct from volume measurement, temperature measurement, and density determination.<br><br>• Volume measurement uses graduated cylinders, pipettes, burettes, etc.<br>• Temperature measurement uses thermometers or thermocouples.<br>• Density determination uses a pycnometer or hydrometer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.765,
+      "question": "Errors in weighing in GMP settings can compromise all of the following EXCEPT:",
+      "options": [
+        "product quality and safety",
+        "potency of the finished product",
+        "regulatory compliance of the facility",
+        "colour of the balance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In GMP (Good Manufacturing Practice) settings, weighing errors can directly affect <b>product quality and safety</b>, the <b>potency</b> of the finished product (if the active ingredient is mis-weighed), and <b>regulatory compliance</b> (since inaccurate weighing violates GMP requirements).<br><br>The <b>colour of the balance</b> is a cosmetic attribute and has no bearing on the accuracy or compliance of the weighing operation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.4526,
+      "question": "Which of the following is a mechanical weighing device?",
+      "options": [
+        "Analytical balance",
+        "Precision top-loading balance",
+        "Triple-beam balance",
+        "Ultra-microbalance with a draft shield"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>triple-beam balance</b> is a classic <b>mechanical</b> balance. It uses three sliding masses (riders) on graduated beams and a fulcrum to compare the unknown mass with known masses. It requires no electricity.<br><br>• Analytical and precision top-loading balances are electronic.<br>• Ultra-microbalances are electronic and use electromagnetic force restoration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.8674,
+      "question": "A triple-beam balance is best classified as:",
+      "options": [
+        "a mechanical balance requiring no electricity",
+        "a digital electronic balance",
+        "an electromagnetic force-restoration balance",
+        "a load-cell based digital balance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>triple-beam balance</b> is a purely <b>mechanical</b> device that requires no electricity. It operates by comparing the torque produced by the unknown mass with the torque produced by sliding masses on three beams.<br><br>The other options describe electronic balances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.748,
+      "question": "A beam balance compares masses using a beam and a:",
+      "options": [
+        "load cell",
+        "draft shield",
+        "thermistor",
+        "fulcrum"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A beam balance works on the principle of moments. The beam rests on a <b>fulcrum</b> (pivot). When the torques on both sides are equal, the beam is horizontal, and the unknown mass can be read from the positions of known masses.<br><br>• Load cells and thermistors are electronic components.<br>• A draft shield is an enclosure to protect from air currents, not the pivot.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.6936,
+      "question": "Spring balances measure weight by:",
+      "options": [
+        "comparing the unknown mass with a fixed mass on a beam",
+        "the force required to stretch or compress a spring",
+        "detecting changes in resistance of a strain gauge",
+        "electromagnetic compensation of the weighing pan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>spring balance</b> measures weight by the <b>extension or compression of a spring</b> according to Hooke's law (F = kx). The force exerted by the object stretches the spring, and the scale is calibrated to read the weight directly.<br><br>The other options describe beam balances, strain-gauge balances, and electromagnetic force-restoration balances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.352,
+      "question": "The readability of an analytical balance is often up to:",
+      "options": [
+        "0.1 g",
+        "0.01 g",
+        "0.0001 g",
+        "0.000001 g"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>analytical balance</b> typically has a readability of <b>0.0001 g</b> (0.1 mg). Some high-end models can read to 0.00001 g (0.01 mg), but 0.0001 g is the standard.<br><br>• 0.1 g and 0.01 g are typical of precision balances.<br>• 0.000001 g (1 µg) is the range of ultra-microbalances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.018,
+      "question": "The main purpose of the draft shield on an analytical balance is to:",
+      "options": [
+        "protect the sample from air currents and moisture",
+        "increase the maximum capacity of the balance pan",
+        "convert the displayed mass to weight in newtons",
+        "tare the container automatically before every weighing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>draft shield</b> is a glass enclosure around the weighing pan of an analytical balance. Its primary purpose is to <b>protect the sample and pan from air currents, drafts, and moisture</b>, which could otherwise cause fluctuations in the reading and reduce accuracy.<br><br>It does not increase capacity, convert units, or tare automatically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.7925,
+      "question": "A precision balance is also known as a:",
+      "options": [
+        "analytical balance",
+        "unequal-arm beam balance",
+        "crane scale",
+        "top-loading balance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>precision balance</b> is also called a <b>top-loading balance</b> because the sample is placed on a pan on top of the balance. It typically has a readability of 0.001 g to 0.01 g and is used for general laboratory weighing.<br><br>• Analytical balances are more sensitive and usually enclosed.<br>• Unequal-arm beam balances and crane scales are different types of weighing devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.8496,
+      "question": "A precision balance typically has a readability of:",
+      "options": [
+        "0.0001 g",
+        "0.001 g",
+        "0.1 g",
+        "0.0000001 g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>precision balance</b> (top-loading balance) typically has a readability of <b>0.001 g</b> (1 mg). Some models offer 0.01 g or 0.0001 g, but 0.001 g is a common specification.<br><br>• 0.0001 g is typical of analytical balances.<br>• 0.1 g is typical of less precise bench scales.<br>• 0.0000001 g is ultra-microbalance territory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.9253,
+      "question": "Which of these is considered the highest precision of all lab balances?",
+      "options": [
+        "Microbalance",
+        "Analytical balance",
+        "Precision balance",
+        "Industrial platform scale"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>microbalance</b> (or ultra-microbalance) is the highest-precision laboratory balance. It can measure masses as small as 0.1 µg (10<sup>-7</sup> g) or even less.<br><br>• Analytical balances read to 0.1 mg.<br>• Precision balances read to about 1 mg.<br>• Industrial platform scales are for large masses with much lower precision.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.0671,
+      "question": "Ultra-microbalances can accurately weigh samples as small as:",
+      "options": [
+        "1 mg",
+        "10 micrograms",
+        "0.1 µg",
+        "0.1 mg"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Ultra-microbalances</b> are capable of weighing samples down to <b>0.1 µg</b> (0.0000001 g). They are used for very small samples in advanced research.<br><br>• 1 mg = 0.001 g<br>• 10 µg = 0.00001 g<br>• 0.1 mg = 0.0001 g",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.015,
+      "question": "Which industrial scale is commonly used at loading docks to weigh pallets?",
+      "options": [
+        "Analytical balance",
+        "Platform scale",
+        "Spring balance",
+        "Microbalance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>platform scale</b> is a large, flat scale used to weigh heavy objects such as pallets, drums, and crates. It is commonly found at loading docks and warehouses.<br><br>• Analytical and microbalances are for very small samples in the lab.<br>• Spring balances are for small to medium loads and are not typical for pallets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.8628,
+      "question": "Crane scales are:",
+      "options": [
+        "placed on a bench to weigh food or small chemicals",
+        "used for measuring body weight at home",
+        "fixed flat on the floor at loading docks",
+        "hung from a crane during lifting"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Crane scales</b> are designed to be <b>suspended from a crane or hoist</b>. They weigh heavy loads while the load is being lifted. They are common in industrial settings for weighing large items.<br><br>Bench scales, bathroom scales, and platform scales are not suspended.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.2197,
+      "question": "Bench scales are typically used for:",
+      "options": [
+        "weighing smaller parts, food or chemicals",
+        "weighing loaded trucks at highway weigh stations",
+        "weighing microgram quantities inside a vacuum chamber",
+        "weighing large items while being lifted by a crane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Bench scales</b> are small, portable scales that sit on a bench or counter. They are used for weighing <b>smaller parts, food portions, or chemicals</b> in laboratories, kitchens, and light industrial settings.<br><br>Truck scales, microbalances, and crane scales serve different purposes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.6567,
+      "question": "Hygroscopic samples cause weighing errors because they:",
+      "options": [
+        "become magnetised and disturb the load cell",
+        "increase the maximum capacity of the balance pan",
+        "absorb moisture from the air, changing their mass",
+        "always generate vibration in the weighing chamber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Hygroscopic</b> substances absorb moisture from the air. As they absorb water, their mass increases, so the reading on the balance changes over time. This leads to inaccurate weighing unless the sample is protected (e.g., by weighing quickly, using a closed vessel, or working in a controlled-humidity environment).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.3982,
+      "question": "Low humidity in the weighing room increases:",
+      "options": [
+        "moisture absorption by the pan",
+        "static electricity",
+        "corrosion of the load cell",
+        "thermal expansion of the draft shield"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low humidity (dry air) promotes the build-up of <b>static electricity</b> on glass, plastic, and other surfaces. This can cause samples to cling to containers, affect the balance reading, and create erratic results. Anti-static devices or humidifiers are sometimes used to mitigate this.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.787,
+      "question": "Eccentric loading refers to:",
+      "options": [
+        "placing the sample off-centre on the pan",
+        "overloading the balance beyond its maximum capacity",
+        "weighing a sample immediately after removing it from a hot oven",
+        "failing to zero the balance before placing a container"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Eccentric loading</b> means placing the sample <b>off-centre</b> on the weighing pan. This can cause a torque that affects the reading, especially on balances that are not perfectly level or calibrated for corner load. Best practice is to place the sample in the centre of the pan.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.9285,
+      "question": "The tare function of a balance is used to:",
+      "options": [
+        "calibrate the balance using certified test weights",
+        "switch the display between grams and ounces",
+        "level the balance using the built-in indicator",
+        "subtract the weight of the container"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>tare</b> function sets the display to zero with an empty container on the pan. When the sample is added, the balance displays only the <b>net weight of the sample</b>, automatically subtracting the container's weight. This is also called zeroing or taring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.0752,
+      "question": "The correct way to handle test weights and sample containers is to:",
+      "options": [
+        "hold them with bare hands for a firm grip",
+        "blow on them to remove dust before use",
+        "use gloves or forceps",
+        "wipe them with a damp cloth between readings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Test weights and sample containers should be handled with <b>gloves or forceps</b> to avoid transferring oils, dirt, or moisture from the skin, which can change their mass and affect accuracy. Blowing on them introduces moisture; wiping with a damp cloth may leave residue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.8562,
+      "question": "The three stages of the weighing procedure are:",
+      "options": [
+        "calibration, titration and documentation",
+        "preparation, weighing and post-weighing",
+        "zeroing, taring and reporting of results",
+        "sampling, mixing and packaging"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A systematic weighing procedure typically consists of <b>preparation</b> (e.g., checking the balance, levelling, taring), <b>weighing</b> (placing the sample and reading the value), and <b>post-weighing</b> (recording, cleaning, and shutting down).<br><br>Calibration, titration, and documentation are separate activities; zeroing and taring are sub-steps within the procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.664,
+      "question": "Minimum weighable quantity (MWQ) = (SR × 100) ÷ % error. If SR is 2 mg and the maximum acceptable error is 5%, the MWQ is:",
+      "options": [
+        "10 mg",
+        "400 mg",
+        "100 mg",
+        "40 mg"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using the formula: <b>MWQ = (SR × 100) ÷ % error</b>.<br>SR = 2 mg, % error = 5.<br>MWQ = (2 × 100) ÷ 5 = 200 ÷ 5 = <b>40 mg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.844,
+      "question": "A balance has an SR of 6 mg. For a maximum error of 2%, the minimum weighable amount is:",
+      "options": [
+        "300 mg",
+        "12 mg",
+        "3000 mg",
+        "120 mg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>MWQ = (SR × 100) ÷ % error</b> = (6 × 100) ÷ 2 = 600 ÷ 2 = <b>300 mg</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.105,
+      "question": "When a required dose is below the minimum weighable amount, the pharmacist uses the:",
+      "options": [
+        "levigation of the powder with a mortar and pestle",
+        "aliquot method",
+        "rounding of the dose up to the minimum weighable amount",
+        "direct weighing on the most sensitive balance available"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the required amount is below the MWQ, direct weighing would be too inaccurate. The <b>aliquot method</b> is used: a larger quantity is weighed, diluted with an inert diluent, mixed thoroughly, and a portion (aliquot) containing the required dose is taken. This improves accuracy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.5803,
+      "question": "Which glass measure is the most accurate for measuring liquids?",
+      "options": [
+        "Conical measure",
+        "Beaker",
+        "Cylindrical measure",
+        "Conical beaker measure with a wide base"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>cylindrical measure</b> (graduated cylinder) is more accurate than a conical measure because its uniform diameter allows a more precise reading of the meniscus and it has a smaller average diameter, so a given volume change produces a larger height change.<br><br>Beakers and conical measures are less accurate due to their tapered shapes and wider mouths.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.268,
+      "question": "Cylindrical measures are more accurate because they have:",
+      "options": [
+        "thicker glass that resists temperature changes",
+        "a wider mouth that allows quick pouring of viscous liquids",
+        "a taper towards the base that concentrates the liquid level",
+        "a uniform and smaller average diameter"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cylindrical measures have a <b>uniform and smaller average diameter</b>, which means that a small change in volume causes a relatively large change in the height of the liquid. This makes the scale easier to read precisely. Tapered measures (conical) have a varying diameter, reducing accuracy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.6887,
+      "question": "The best measure for 5 mL of a liquid is a:",
+      "options": [
+        "10 mL measure",
+        "20 mL measure",
+        "50 mL measure",
+        "100 mL measure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To measure 5 mL accurately, choose a measure whose capacity is <b>closest to the volume</b> being measured without being too large. A 10 mL measure is the best choice among the options; a 20, 50, or 100 mL measure would give a less precise reading because 5 mL would be a small fraction of the total scale.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.2524,
+      "question": "When measuring a liquid, the level is read at the:",
+      "options": [
+        "top of the meniscus at the edge of the glass",
+        "any point of the meniscus provided the measure is tilted",
+        "average of the top and sides of the meniscus",
+        "bottom of the meniscus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For most liquids (e.g., water), the meniscus is concave, and the correct reading is taken at the <b>bottom of the meniscus</b>, with the eye level with the mark. This avoids parallax error. For mercury, the meniscus is convex and the top is read, but that is an exception.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.884,
+      "question": "A liquid too viscous to drain properly from a measure should be measured:",
+      "options": [
+        "by difference",
+        "using two smaller measures in succession",
+        "after warming it until it becomes water-thin",
+        "by estimating with a household teaspoon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For viscous liquids that cling to the measure, the <b>by difference</b> method is used: weigh the container with the liquid, then weigh the empty container after dispensing, and calculate the difference. This avoids the error caused by incomplete drainage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.7898,
+      "question": "In measurement, error is defined as the:",
+      "options": [
+        "ratio of the measured value to the number of readings taken",
+        "difference between the measured value and the actual value",
+        "smallest division on the scale of an instrument",
+        "average of an infinite number of measured values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Error</b> is the <b>difference between the measured value and the true (actual) value</b>. It can be expressed as absolute error, relative error, or percent error.<br><br>• The smallest division is the readability or resolution.<br>• The average of infinite measurements is the true value (theoretical).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.1477,
+      "question": "The true value of a measurement is defined as:",
+      "options": [
+        "a single measurement made with the most accurate instrument available",
+        "the reading displayed immediately after calibration of the instrument",
+        "the average of an infinite number of measured values",
+        "the value obtained by the most experienced operator in the laboratory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>true value</b> is a theoretical concept: it is the <b>average of an infinite number of measurements</b> made under identical conditions. In practice, it is estimated by taking the mean of many careful measurements and minimizing error.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.6282,
+      "question": "The three types of measurement errors are:",
+      "options": [
+        "absolute, percent and relative",
+        "environmental, observational and instrumental",
+        "systematic, gross and random",
+        "parallax, hysteresis and friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Measurement errors are classified into three broad types:<br>• <b>Systematic errors</b>: consistent, reproducible biases (e.g., faulty calibration).<br>• <b>Gross errors</b>: human mistakes such as misreading or misrecording.<br>• <b>Random errors</b>: unpredictable fluctuations (e.g., electronic noise, environmental variations).<br><br>The other options mix error types with specific causes or expressions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.7,
+      "question": "Parallax error is caused by:",
+      "options": [
+        "random fluctuation in the power supply voltage",
+        "faulty calibration of the instrument",
+        "misrecording 23 as 28",
+        "viewing the scale at an angle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Parallax error</b> occurs when the observer's eye is not directly in line with the scale and the meniscus or pointer. Viewing at an angle causes the apparent reading to be higher or lower than the true value. It is avoided by reading at eye level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.3672,
+      "question": "Reading 23 as 28 from a meter is an example of:",
+      "options": [
+        "instrumental error",
+        "environmental error",
+        "random error",
+        "gross error"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Misreading a value (e.g., reading 23 as 28) is a <b>gross error</b> — a clear human mistake. It is not due to instrument malfunction, environmental changes, or random fluctuations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.0461,
+      "question": "One cup is equivalent to how many millilitres?",
+      "options": [
+        "15 mL",
+        "30 mL",
+        "240 mL",
+        "3840 mL"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In household measures, <b>1 cup = 240 mL</b> (approximately 8 fluid ounces).<br><br>• 1 tablespoon = 15 mL<br>• 1 teaspoon = 5 mL<br>• 3840 mL would be 16 cups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.1453,
+      "question": "Instrumental errors arise from:",
+      "options": [
+        "unpredictable changes in laboratory temperature and humidity",
+        "personal bias of the observer in reading the scale",
+        "misrecording of data by a careless operator",
+        "faulty construction, calibration or misuse of instruments"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Instrumental errors</b> are caused by the instrument itself: <b>faulty construction, improper calibration, or misuse</b> (e.g., using a balance beyond its capacity, not leveling it, or using a worn-out balance).<br><br>Environmental errors come from temperature/humidity changes; personal bias and misrecording are human errors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.395,
+      "question": "Absolute error is given by:",
+      "options": [
+        "(VA − VE) ÷ VA × 100",
+        "|VA − VE|",
+        "(VA − VE) ÷ VA",
+        "VE ÷ VA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Absolute error</b> is the magnitude of the difference between the measured value (VA) and the true/expected value (VE), without regard to sign: <b>|VA − VE|</b>.<br><br>• (VA − VE)/VA × 100 is percent error.<br>• (VA − VE)/VA is relative error.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.3928,
+      "question": "The actual volume is 50 mL and the measured volume is 48 mL. The percent error is:",
+      "options": [
+        "2%",
+        "96%",
+        "4%",
+        "0.04%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Percent error = (|measured − actual| ÷ actual) × 100%.<br>|48 − 50| = 2 mL.<br>(2 ÷ 50) × 100% = 0.04 × 100% = <b>4%</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.7202,
+      "question": "The actual value is 200 mg and the measured value is 190 mg. The relative error is:",
+      "options": [
+        "0.50",
+        "5.00",
+        "0.005",
+        "0.05"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Relative error = |measured − actual| ÷ actual = |190 − 200| ÷ 200 = 10 ÷ 200 = <b>0.05</b>.<br><br>Relative error is a fraction (or decimal); multiply by 100 for percent error (which would be 5%).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792610569937.2705,
+      "question": "One tablespoonful is equivalent to:",
+      "options": [
+        "5 mL",
+        "240 mL",
+        "30 mL",
+        "15 mL"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In household measures, <b>1 tablespoon = 15 mL</b>.<br><br>• 1 teaspoon = 5 mL<br>• 1 cup = 240 mL<br>• 30 mL = 2 tablespoons",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
