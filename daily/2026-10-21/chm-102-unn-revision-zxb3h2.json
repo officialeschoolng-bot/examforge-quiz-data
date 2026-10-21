@@ -3,16 +3,718 @@
   "title": "CHM 102 ( UNN ) : REVISION QUIZ 4",
   "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792590891886.0347,
+      "question": "Aliphatic compounds are also called which type of compounds?",
+      "options": [
+        "closed chain",
+        "open chain",
+        "ring compounds",
+        "aromatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aliphatic compounds are also called open chain or acyclic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.3777,
+      "question": "The carbon-carbon bond in alkanes is called which bond?",
+      "options": [
+        "pi",
+        "double",
+        "triple",
+        "sigma"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Alkanes are formed by single covalent bonds called sigma bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.523,
+      "question": "Which catalyst is used in the Haber process for ammonia synthesis?",
+      "options": [
+        "iron",
+        "nickel",
+        "platinum",
+        "copper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iron catalyzes the Haber process for ammonia synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.109,
+      "question": "Which method produces an alkane with an even number of carbon atoms?",
+      "options": [
+        "Wurtz reaction",
+        "Grignard reaction",
+        "Kolbe method",
+        "Decarboxylation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kolbe electrolysis of carboxylate salts gives alkanes with an even number of carbon atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.4124,
+      "question": "Normal alkanes from C1 to C4 exist in which physical state at room temperature?",
+      "options": [
+        "solid",
+        "liquid",
+        "gas",
+        "plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal alkanes with one to four carbons are colourless gases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.0076,
+      "question": "Alkenes have which hybridization at the double bond carbons?",
+      "options": [
+        "sp",
+        "sp3",
+        "sp3d",
+        "sp2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The two carbons of a C=C bond are sp2 hybridized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.5215,
+      "question": "The halogen in alkyl halides is bonded to which carbon type?",
+      "options": [
+        "sp",
+        "sp2",
+        "sp3",
+        "sp3d"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkyl halides have a halogen covalently bonded to an sp3 hybridized carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.2139,
+      "question": "A compound with three halogen atoms is called which halide?",
+      "options": [
+        "monohalide",
+        "dihalide",
+        "trihalide",
+        "polyhalide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trihalides contain three halogen atoms in the molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.4165,
+      "question": "Lucas test gives immediate turbidity with which alcohol class?",
+      "options": [
+        "primary",
+        "secondary",
+        "methyl",
+        "tertiary"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tertiary alcohols react fastest with Lucas reagent and give immediate turbidity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.849,
+      "question": "Good leaving groups are conjugate bases of which acids?",
+      "options": [
+        "strong",
+        "weak",
+        "organic",
+        "mineral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conjugate bases of strong acids are weak bases and good leaving groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.931,
+      "question": "SN1 reactions are favored by which solvent type?",
+      "options": [
+        "polar aprotic",
+        "nonpolar",
+        "acidic",
+        "polar protic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polar protic solvents stabilize the carbocation and ionic transition state in SN1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.8923,
+      "question": "SN1 reaction rate depends on which concentration?",
+      "options": [
+        "nucleophile",
+        "substrate",
+        "base",
+        "leaving group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SN1 is unimolecular and its rate depends only on substrate concentration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.289,
+      "question": "Lonsdaleite is which crystalline form of diamond?",
+      "options": [
+        "cubic",
+        "hexagonal",
+        "amorphous",
+        "tetragonal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lonsdaleite is the rare hexagonal form of diamond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.6094,
+      "question": "In diamond each carbon atom is tetrahedrally surrounded by how many neighbours?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each carbon atom in diamond is tetrahedrally surrounded by four equidistant neighbours.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.7637,
+      "question": "C60 contains how many pentagonal rings?",
+      "options": [
+        "20",
+        "10",
+        "12",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C60 contains 12 pentagons and 20 fused hexagons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.77,
+      "question": "Which technique determines internal structure and morphology of nanomaterials?",
+      "options": [
+        "SEM",
+        "DLS",
+        "Zeta analyser",
+        "TEM"
+      ],
+      "correctAnswer": 3,
+      "explanation": "TEM is used for the determination of internal structure and morphology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.9329,
+      "question": "Silicon is isolated by reducing quartzite with which material?",
+      "options": [
+        "limestone",
+        "coke",
+        "alumina",
+        "salt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pure silicon is made by reduction of quartzite or sand with high-purity coke.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.0247,
+      "question": "Silica gel is used as which material?",
+      "options": [
+        "lubricant",
+        "catalyst",
+        "desiccant",
+        "pigment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Silica gel is used as a desiccant and selective absorbent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.585,
+      "question": "In IUPAC naming of carboxylic acids, the carboxyl carbon is always which number?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "last"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The carboxyl carbon is always carbon number one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.6448,
+      "question": "Benzoic acid has the COOH group attached directly to which ring?",
+      "options": [
+        "cyclohexane",
+        "benzene",
+        "pyridine",
+        "naphthalene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzoic acid has a COOH group attached directly to a benzene ring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.4856,
+      "question": "Which mild reagent oxidizes aldehydes to carboxylic acids?",
+      "options": [
+        "sodium metal",
+        "hydrogen gas",
+        "zinc dust",
+        "silver ion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Silver ion is a mild oxidizing agent that converts aldehydes to carboxylic acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.142,
+      "question": "The negative charge of a carboxylate ion is delocalized over how many oxygen atoms?",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resonance delocalizes the negative charge over both oxygen atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.3022,
+      "question": "Ester names change the acid -ic ending to which suffix?",
+      "options": [
+        "-ol",
+        "-al",
+        "-ate",
+        "-amine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The R part of the OR group is named first, followed by the acid name with -ic changed to -ate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.913,
+      "question": "Hydrolysis of a nitrile under acidic conditions produces which nitrogen species?",
+      "options": [
+        "NH3",
+        "NO3-",
+        "NO2-",
+        "NH4+"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Under acidic hydrolysis, the nitrogen of a cyanide is converted to an ammonium ion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.1045,
+      "question": "Lithium gets its name from the Greek word for which material?",
+      "options": [
+        "water",
+        "fire",
+        "stone",
+        "earth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The name lithium comes from the Greek lithos for stone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.678,
+      "question": "Which metal is extracted from the mineral spodumene?",
+      "options": [
+        "sodium",
+        "potassium",
+        "rubidium",
+        "lithium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Spodumene is the most abundant mineral from which lithium is extracted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.59,
+      "question": "Rubidium gets its name from the Latin word meaning which colour?",
+      "options": [
+        "sky blue",
+        "deep red",
+        "golden yellow",
+        "pale green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rubidium comes from the Latin rubidus, meaning deep red.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.3867,
+      "question": "Lithium carbonate treats which condition?",
+      "options": [
+        "bipolar",
+        "asthma",
+        "arthritis",
+        "diabetes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lithium carbonate is used to treat bipolar conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.8765,
+      "question": "Which metal is used as a window material in X-ray tubes?",
+      "options": [
+        "magnesium",
+        "beryllium",
+        "calcium",
+        "barium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beryllium transmits X-rays 17 times better than Al and is used as window material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.1438,
+      "question": "Chlorophyll contains which alkaline earth metal?",
+      "options": [
+        "calcium",
+        "strontium",
+        "barium",
+        "magnesium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Magnesium is a major component of chlorophyll.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.8662,
+      "question": "Organic chemistry deals with compounds containing which element?",
+      "options": [
+        "oxygen",
+        "carbon",
+        "nitrogen",
+        "sulfur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organic chemistry deals with compounds containing carbon and hydrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.5288,
+      "question": "Scheele discovered tartaric and which other acid?",
+      "options": [
+        "citric",
+        "acetic",
+        "lactic",
+        "formic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scheele discovered tartaric and citric acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.5396,
+      "question": "Lavoisier established the conservation of which quantity?",
+      "options": [
+        "charge",
+        "volume",
+        "energy",
+        "mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lavoisier established the concept of the conservation of mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.681,
+      "question": "Wohler synthesized urea from ammonium sulphate and which compound?",
+      "options": [
+        "sodium chloride",
+        "potassium cyanate",
+        "ammonium nitrate",
+        "potassium chloride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ammonium sulphate reacts with potassium cyanate to give ammonium cyanate, which rearranges to urea.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.127,
+      "question": "Kolbe synthesized acetic acid from which starting material?",
+      "options": [
+        "urea",
+        "methane",
+        "elements",
+        "carbohydrates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kolbe synthesized acetic acid from the elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.1592,
+      "question": "The series of steps by which a chemical reaction occurs is called which?",
+      "options": [
+        "mechanism",
+        "pathway",
+        "order",
+        "molecularity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reaction mechanism is the series of steps by which a chemical reaction occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.1865,
+      "question": "Molecularity refers to the number of what in a step?",
+      "options": [
+        "products",
+        "bonds",
+        "species",
+        "steps"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Molecularity is the number of species that must collide to produce the reaction indicated by that step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.7446,
+      "question": "A unimolecular reaction involves how many reactant molecules?",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A unimolecular reaction involves only one reactant molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.8752,
+      "question": "The rate-determining step is which step in a mechanism?",
+      "options": [
+        "fastest",
+        "first",
+        "slowest",
+        "last"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In multiple-step reactions, the slowest step determines the rate of reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.3499,
+      "question": "Collision theory requires molecules to do which action to react?",
+      "options": [
+        "expand",
+        "dissolve",
+        "melt",
+        "collide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Collision theory assumes that for a reaction to occur, reactant molecules must collide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.7578,
+      "question": "The f-block elements are referred to as which transition elements?",
+      "options": [
+        "inner",
+        "outer",
+        "rare earth",
+        "noble"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The f-block elements are referred to as Inner Transition Elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.2896,
+      "question": "Thortveitite contains scandium, yttrium and which element?",
+      "options": [
+        "oxygen",
+        "silicon",
+        "iron",
+        "calcium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thortveitite is an ore of scandium, yttrium, and silicon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.5337,
+      "question": "Ilmenite has which formula?",
+      "options": [
+        "CaTiO3",
+        "TiO2",
+        "FeTiO3",
+        "FeCr2O4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ilmenite is an ore of iron and titanium with formula FeTiO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.632,
+      "question": "Pyrolusite has which formula?",
+      "options": [
+        "MnO",
+        "MnO2",
+        "Mn2O3",
+        "Mn3O4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pyrolusite is MnO2, the main ore of manganese.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.9382,
+      "question": "Cobaltite has which formula?",
+      "options": [
+        "CoS2",
+        "Co3O4",
+        "CoCl2",
+        "CoAsS"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cobaltite is CoAsS, an ore of cobalt, arsenic and sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.4937,
+      "question": "According to IUPAC, a transition metal has an incomplete d sub-shell in its atom or which state?",
+      "options": [
+        "ground",
+        "excited",
+        "ion",
+        "plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A transition metal has an incomplete d sub-shell in its atom or common ion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.8682,
+      "question": "Copper's anomalous configuration is due to the stability of which d sub-shell?",
+      "options": [
+        "half-filled",
+        "filled",
+        "empty",
+        "partial"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copper adopts a filled d10 configuration for extra stability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.5815,
+      "question": "Coordination number 2 gives which geometry?",
+      "options": [
+        "tetrahedral",
+        "linear",
+        "octahedral",
+        "square planar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coordination number 2 gives linear complexes such as [Ag(NH3)2]+.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.0786,
+      "question": "In an octahedral field, dz2 and dx2-y2 form which set?",
+      "options": [
+        "t2g",
+        "dsp",
+        "eg",
+        "sp3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dz2 and dx2-y2 orbitals form the higher energy eg set in an octahedral field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590891886.9246,
+      "question": "Stainless steel gains its corrosion resistance from which added metal?",
+      "options": [
+        "copper",
+        "zinc",
+        "manganese",
+        "chromium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chromium provides corrosion resistance to stainless steel.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
