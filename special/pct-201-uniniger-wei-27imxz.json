@@ -3,7 +3,7 @@
   "title": "PCT 201 (UNINIGER): Weighing and Measurements",
   "subject": "PCT 201",
   "description": "",
-  "totalQuestions": 38,
+  "totalQuestions": 30,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -171,20 +171,6 @@
       "points": 1
     },
     {
-      "id": 1792610569937.8628,
-      "question": "Crane scales are:",
-      "options": [
-        "placed on a bench to weigh food or small chemicals",
-        "used for measuring body weight at home",
-        "fixed flat on the floor at loading docks",
-        "hung from a crane during lifting"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>Crane scales</b> are designed to be <b>suspended from a crane or hoist</b>. They weigh heavy loads while the load is being lifted. They are common in industrial settings for weighing large items.<br><br>Bench scales, bathroom scales, and platform scales are not suspended.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792610569937.2197,
       "question": "Bench scales are typically used for:",
       "options": [
@@ -255,20 +241,6 @@
       "points": 1
     },
     {
-      "id": 1792610569937.0752,
-      "question": "The correct way to handle test weights and sample containers is to:",
-      "options": [
-        "hold them with bare hands for a firm grip",
-        "blow on them to remove dust before use",
-        "use gloves or forceps",
-        "wipe them with a damp cloth between readings"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Test weights and sample containers should be handled with <b>gloves or forceps</b> to avoid transferring oils, dirt, or moisture from the skin, which can change their mass and affect accuracy. Blowing on them introduces moisture; wiping with a damp cloth may leave residue.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792610569937.8562,
       "question": "The three stages of the weighing procedure are:",
       "options": [
@@ -311,20 +283,6 @@
       "points": 1
     },
     {
-      "id": 1792610569937.105,
-      "question": "When a required dose is below the minimum weighable amount, the pharmacist uses the:",
-      "options": [
-        "levigation of the powder with a mortar and pestle",
-        "aliquot method",
-        "rounding of the dose up to the minimum weighable amount",
-        "direct weighing on the most sensitive balance available"
-      ],
-      "correctAnswer": 1,
-      "explanation": "When the required amount is below the MWQ, direct weighing would be too inaccurate. The <b>aliquot method</b> is used: a larger quantity is weighed, diluted with an inert diluent, mixed thoroughly, and a portion (aliquot) containing the required dose is taken. This improves accuracy.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792610569937.5803,
       "question": "Which glass measure is the most accurate for measuring liquids?",
       "options": [
@@ -335,20 +293,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "A <b>cylindrical measure</b> (graduated cylinder) is more accurate than a conical measure because its uniform diameter allows a more precise reading of the meniscus and it has a smaller average diameter, so a given volume change produces a larger height change.<br><br>Beakers and conical measures are less accurate due to their tapered shapes and wider mouths.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.268,
-      "question": "Cylindrical measures are more accurate because they have:",
-      "options": [
-        "thicker glass that resists temperature changes",
-        "a wider mouth that allows quick pouring of viscous liquids",
-        "a taper towards the base that concentrates the liquid level",
-        "a uniform and smaller average diameter"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Cylindrical measures have a <b>uniform and smaller average diameter</b>, which means that a small change in volume causes a relatively large change in the height of the liquid. This makes the scale easier to read precisely. Tapered measures (conical) have a varying diameter, reducing accuracy.",
       "difficulty": "easy",
       "points": 1
     },
@@ -370,55 +314,13 @@
       "id": 1792610569937.2524,
       "question": "When measuring a liquid, the level is read at the:",
       "options": [
-        "top of the meniscus at the edge of the glass",
+        "top of the meniscus",
         "any point of the meniscus provided the measure is tilted",
         "average of the top and sides of the meniscus",
         "bottom of the meniscus"
       ],
       "correctAnswer": 3,
       "explanation": "For most liquids (e.g., water), the meniscus is concave, and the correct reading is taken at the <b>bottom of the meniscus</b>, with the eye level with the mark. This avoids parallax error. For mercury, the meniscus is convex and the top is read, but that is an exception.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.884,
-      "question": "A liquid too viscous to drain properly from a measure should be measured:",
-      "options": [
-        "by difference",
-        "using two smaller measures in succession",
-        "after warming it until it becomes water-thin",
-        "by estimating with a household teaspoon"
-      ],
-      "correctAnswer": 0,
-      "explanation": "For viscous liquids that cling to the measure, the <b>by difference</b> method is used: weigh the container with the liquid, then weigh the empty container after dispensing, and calculate the difference. This avoids the error caused by incomplete drainage.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.7898,
-      "question": "In measurement, error is defined as the:",
-      "options": [
-        "ratio of the measured value to the number of readings taken",
-        "difference between the measured value and the actual value",
-        "smallest division on the scale of an instrument",
-        "average of an infinite number of measured values"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Error</b> is the <b>difference between the measured value and the true (actual) value</b>. It can be expressed as absolute error, relative error, or percent error.<br><br>• The smallest division is the readability or resolution.<br>• The average of infinite measurements is the true value (theoretical).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.1477,
-      "question": "The true value of a measurement is defined as:",
-      "options": [
-        "a single measurement made with the most accurate instrument available",
-        "the reading displayed immediately after calibration of the instrument",
-        "the average of an infinite number of measured values",
-        "the value obtained by the most experienced operator in the laboratory"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The <b>true value</b> is a theoretical concept: it is the <b>average of an infinite number of measurements</b> made under identical conditions. In practice, it is estimated by taking the mean of many careful measurements and minimizing error.",
       "difficulty": "easy",
       "points": 1
     },
@@ -475,20 +377,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "In household measures, <b>1 cup = 240 mL</b> (approximately 8 fluid ounces).<br><br>• 1 tablespoon = 15 mL<br>• 1 teaspoon = 5 mL<br>• 3840 mL would be 16 cups.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792610569937.1453,
-      "question": "Instrumental errors arise from:",
-      "options": [
-        "unpredictable changes in laboratory temperature and humidity",
-        "personal bias of the observer in reading the scale",
-        "misrecording of data by a careless operator",
-        "faulty construction, calibration or misuse of instruments"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>Instrumental errors</b> are caused by the instrument itself: <b>faulty construction, improper calibration, or misuse</b> (e.g., using a balance beyond its capacity, not leveling it, or using a worn-out balance).<br><br>Environmental errors come from temperature/humidity changes; personal bias and misrecording are human errors.",
       "difficulty": "easy",
       "points": 1
     },
