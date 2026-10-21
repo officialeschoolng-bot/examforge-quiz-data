@@ -3,16 +3,718 @@
   "title": "CHM 102 ( UNN ) : REVISION QUIZ 5",
   "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792590970705.5054,
+      "question": "Halogenation of alkanes proceeds through which three stages?",
+      "options": [
+        "Initiation, propagation, termination",
+        "Adsorption, reaction, desorption",
+        "Oxidation, reduction, hydrolysis",
+        "Melting, boiling, sublimation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radical substitution mechanism has initiation, propagation, and termination stages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.668,
+      "question": "Nitration of alkanes with nitric acid is carried out at which temperature range?",
+      "options": [
+        "20-30 C",
+        "110-120 C",
+        "250-300 C",
+        "400-500 C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nitration of alkanes occurs at 110-120 C under pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.4744,
+      "question": "The C-H stretching vibration of alkenes appears in which infrared region?",
+      "options": [
+        "1620-1680 cm-1",
+        "1700-1750 cm-1",
+        "3000-3100 cm-1",
+        "2200-2250 cm-1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The C-H stretch of alkenes appears around 3000 to 3100 cm-1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.8948,
+      "question": "Hydroboration-oxidation of alkenes uses diborane in THF followed by which reagent?",
+      "options": [
+        "H2O2 and OH-",
+        "NaBH4 in water",
+        "KMnO4 in acid",
+        "O3 in CH2Cl2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydroboration is followed by oxidation with hydrogen peroxide in base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9248,
+      "question": "Hydration of an alkyne first produces an enol which rearranges by which process?",
+      "options": [
+        "Tautomerism",
+        "Isomerism",
+        "Polymerization",
+        "Hydrolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The enol immediately rearranges to the more stable keto tautomer by tautomerization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.947,
+      "question": "Dimerization of ethyne followed by HCl addition gives which industrial compound?",
+      "options": [
+        "Benzene",
+        "Chloroprene",
+        "Toluene",
+        "Phenol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethyne dimer gives but-1-en-3-yne, which with HCl forms chloroprene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.361,
+      "question": "Classification of alkyl halides based on the number of halogen atoms includes which term?",
+      "options": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Polyhalide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polyhalides contain three or more halogen atoms in the molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.8042,
+      "question": "The reactivity order of hydrogen halides with alcohols is which?",
+      "options": [
+        "HCl > HBr > HI",
+        "HBr > HI > HCl",
+        "HI > HBr > HCl",
+        "HI > HCl > HBr"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydrogen iodide is the most reactive and hydrogen chloride the least.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.1428,
+      "question": "Polar aprotic solvents used in substitution reactions include which solvent?",
+      "options": [
+        "Water",
+        "Ethanol",
+        "DMSO",
+        "Acetic acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DMSO, DMF, and acetonitrile are polar aprotic solvents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.39,
+      "question": "In SN1 reactions, a hydride shift converts which species?",
+      "options": [
+        "A primary carbocation to a secondary one",
+        "A secondary carbocation to a primary one",
+        "An alkene to an alkyne",
+        "An alcohol to an ether"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydride shifts convert less stable carbocations to more stable ones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.759,
+      "question": "Bulky bases such as potassium tert-butoxide favor which E2 product?",
+      "options": [
+        "Zaitsev product",
+        "Hofmann product",
+        "cis product",
+        "Markovnikov product"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bulky bases favor the less substituted Hofmann product due to steric hindrance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.0088,
+      "question": "Which sulfur reagent converts an alcohol into an alkyl chloride?",
+      "options": [
+        "Na2SO4",
+        "H2S",
+        "SOCl2",
+        "SO2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thionyl chloride is one of the best reagents for converting alcohols to alkyl chlorides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.2734,
+      "question": "The carbon-carbon distance within a graphite layer is which value?",
+      "options": [
+        "141.5 pm",
+        "154.45 pm",
+        "335.4 pm",
+        "356.68 pm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The C-C distance in the graphite layer is 141.5 pm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.861,
+      "question": "The carbon-carbon distance in diamond is which value?",
+      "options": [
+        "141.5 pm",
+        "154.45 pm",
+        "335.4 pm",
+        "356.68 pm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each carbon atom in diamond has four neighbours at 154.45 pm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.621,
+      "question": "C60 has carbon-carbon double bonds of which length?",
+      "options": [
+        "0.120 nm",
+        "0.140 nm",
+        "0.160 nm",
+        "0.180 nm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C60 has double bonds of 0.140 nm and single bonds of 0.146 nm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.2861,
+      "question": "The classic preparation of C60 uses which method?",
+      "options": [
+        "Arc-discharge",
+        "Sol-gel",
+        "Electrolysis",
+        "Hydrothermal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Evaporation and recondensation of graphite by arc-discharge yields C60.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.16,
+      "question": "Shungite is a metamorphosed meta-anthracite found in which country?",
+      "options": [
+        "Brazil",
+        "Russia",
+        "China",
+        "Australia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shungite from Shunga, Karelia, Russia contains C60 and C70.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.5332,
+      "question": "Direct fluorination of C60 with F2 gas under UV at 250 C yields which product?",
+      "options": [
+        "C60F2",
+        "C60F48",
+        "C60F18",
+        "C60F6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluorination with F2 gas and UV irradiation at 250 C gives C60F48.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.2754,
+      "question": "Acetic acid occurs naturally in which substance?",
+      "options": [
+        "Sour milk",
+        "Vinegar",
+        "Citrus fruits",
+        "Butter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acetic acid is the main acid present in vinegar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.7246,
+      "question": "Lactic acid occurs naturally in which substance?",
+      "options": [
+        "Vinegar",
+        "Citrus fruits",
+        "Sour milk",
+        "Butter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lactic acid is found in sour milk.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.7517,
+      "question": "Propionic acid occurs naturally in which source?",
+      "options": [
+        "Ants",
+        "Milk products",
+        "Butter",
+        "Citrus fruits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Propionic acid is found in milk products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.5024,
+      "question": "Ethanedioic acid is commonly known by which name?",
+      "options": [
+        "Oxalic acid",
+        "Succinic acid",
+        "Acetic acid",
+        "Formic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethanedioic acid is commonly called oxalic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.2454,
+      "question": "4-Methylbenzoic acid is commonly known by which name?",
+      "options": [
+        "Benzoic acid",
+        "p-Toluic acid",
+        "Salicylic acid",
+        "Phthalic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "4-Methylbenzoic acid is commonly called p-toluic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.924,
+      "question": "Ethanoic acid has a boiling point of 118 C while ethanol boils at which temperature?",
+      "options": [
+        "78 C",
+        "100 C",
+        "118 C",
+        "140 C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethanol boils at 78 C, much lower than ethanoic acid due to weaker hydrogen bonding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9993,
+      "question": "The word alkali comes from an Arabic word meaning which material?",
+      "options": [
+        "Ashes of plants",
+        "Salts from seawater",
+        "Rocks from mountains",
+        "Gases from air"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alquili means ashes of plants from which sodium and potassium compounds were first isolated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9685,
+      "question": "Spodumene is heated to which temperature to convert it to the beta form?",
+      "options": [
+        "250 C",
+        "600 C",
+        "1100 C",
+        "1500 C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spodumene is heated to about 1100 C to convert the alpha form to the beta form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.4363,
+      "question": "Down's cell uses a eutectic mixture of 40 percent NaCl and 60 percent of which compound?",
+      "options": [
+        "KCl",
+        "CaCl2",
+        "MgCl2",
+        "LiCl"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The eutectic mixture is 40 percent NaCl and 60 percent CaCl2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9543,
+      "question": "Carnallite has which formula?",
+      "options": [
+        "KClMgCl2.6H2O",
+        "K2CO3",
+        "K2SO4",
+        "KNO3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carnallite is KClMgCl2.6H2O, a natural source of potassium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.8372,
+      "question": "The caesium clock is used for the international standard measurement of which quantity?",
+      "options": [
+        "Mass",
+        "Length",
+        "Time",
+        "Charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The caesium atomic clock defines the second and the metre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.2769,
+      "question": "Li3N stores up to what percentage by mass of hydrogen?",
+      "options": [
+        "2.5",
+        "5.0",
+        "7.5",
+        "11.5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Li3N stores up to 11.5 percent by mass of hydrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.4167,
+      "question": "Which alkaline earth metal is extracted from the mineral beryl?",
+      "options": [
+        "Magnesium",
+        "Calcium",
+        "Strontium",
+        "Beryllium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Beryllium occurs naturally as the semiprecious mineral beryl.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.6567,
+      "question": "Magnesium is the third most abundant element dissolved in which medium?",
+      "options": [
+        "Seawater",
+        "Soil",
+        "Air",
+        "Rock"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnesium is the third most abundant element dissolved in seawater after Na and Cl.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.7383,
+      "question": "Silicothermal reduction of dolomite uses which alloy?",
+      "options": [
+        "Ferrosilicon",
+        "Ferromanganese",
+        "Ferrochromium",
+        "Ferronickel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dolomite is heated with ferrosilicon alloy under reduced pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.0354,
+      "question": "Beryllium transmits X-rays how many times better than aluminium?",
+      "options": [
+        "5",
+        "10",
+        "17",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beryllium transmits X-rays 17 times better than Al and is used as window material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.6104,
+      "question": "Lemery in 1675 divided compounds into vegetables, mineral, and which other source?",
+      "options": [
+        "Animal",
+        "Synthetic",
+        "Gaseous",
+        "Liquid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lemery divided compounds into three sources: vegetables, mineral, and animal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.8735,
+      "question": "Berzelius thought organic compounds were products of which force?",
+      "options": [
+        "Chemical",
+        "Vital",
+        "Physical",
+        "Nuclear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Berzelius proposed the vital force theory regarding carbon compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.6448,
+      "question": "Wohler synthesized urea from ammonium sulphate and which compound?",
+      "options": [
+        "Potassium cyanate",
+        "Potassium chloride",
+        "Sodium cyanate",
+        "Ammonium cyanate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ammonium sulphate reacts with potassium cyanate to give ammonium cyanate, which rearranges to urea.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.0151,
+      "question": "Kolbe synthesized acetic acid from which starting material?",
+      "options": [
+        "Urea",
+        "Methane",
+        "The elements",
+        "Carbohydrates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kolbe synthesized acetic acid from the elements, showing organic compounds could be made chemically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9792,
+      "question": "Berthelot is credited with synthesizing which compound?",
+      "options": [
+        "Urea",
+        "Methane",
+        "Acetic acid",
+        "Carbohydrates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Berthelot synthesized methane from its elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.0762,
+      "question": "Kekulé proposed the concept of what in organic chemistry?",
+      "options": [
+        "Isotopes",
+        "Resonance",
+        "Hybridization",
+        "Valence"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kekulé proposed the theory of tetravalent carbon and the concept of valence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.077,
+      "question": "The series of steps by which a chemical reaction occurs is called which?",
+      "options": [
+        "Mechanism",
+        "Pathway",
+        "Order",
+        "Molecularity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reaction mechanism is the series of steps by which a chemical reaction occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.1096,
+      "question": "A species formed in one step and used up in a subsequent step is called which?",
+      "options": [
+        "Reactant",
+        "Product",
+        "Intermediate",
+        "Catalyst"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An intermediate is formed in one step and used up in a subsequent step, so it is never seen as a product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.633,
+      "question": "For the elementary step A + B + C -> products, the rate law is which?",
+      "options": [
+        "k[A][B]",
+        "k[A][B][C]",
+        "k[A]2[B]",
+        "k[A]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a termolecular elementary step, the rate is dependent on all three participants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.1438,
+      "question": "The reaction 2NO2 + F2 -> 2NO2F has which experimental rate law?",
+      "options": [
+        "k[NO2]2[F2]",
+        "k[NO2][F2]",
+        "k[NO2][F2]2",
+        "k[NO2]2[F2]2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Experiments show the rate law is k[NO2][F2], so the reaction is not elementary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.9058,
+      "question": "In the Arrhenius equation, R represents which quantity?",
+      "options": [
+        "Rate constant",
+        "Frequency factor",
+        "Activation energy",
+        "Gas constant"
+      ],
+      "correctAnswer": 3,
+      "explanation": "R is the gas constant in the Arrhenius equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970705.583,
+      "question": "A plot of ln k versus 1/T gives a straight line with slope equal to which quantity?",
+      "options": [
+        "-Ea/R",
+        "Ea/R",
+        "-R/Ea",
+        "R/Ea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope of ln k versus 1/T equals -Ea/R.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970706.3787,
+      "question": "The oxidized sulfur dioxide using nitric oxide as catalyst is an example of which catalysis?",
+      "options": [
+        "Heterogeneous",
+        "Enzymatic",
+        "Homogeneous",
+        "Surface"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The oxidation of sulfur dioxide using nitric oxide is an example where all species are in the gas phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970706.0938,
+      "question": "The substance whose reaction an enzyme catalyzes is called which?",
+      "options": [
+        "Product",
+        "Substrate",
+        "Catalyst",
+        "Inhibitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The substance whose reaction the enzyme catalyzes is called the substrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970706.4016,
+      "question": "Scandium occurs as which rare mineral?",
+      "options": [
+        "FeTiO3",
+        "(Sc,Y)2Si2O7",
+        "CaTiO3",
+        "K2(UO2)2(VO4)2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thortveitite is the rare mineral of Scandium with formula (Sc,Y)2Si2O7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590970706.3354,
+      "question": "The main ore of Titanium is which mineral?",
+      "options": [
+        "Ilmenite",
+        "Rutile",
+        "Perovskite",
+        "Anatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ilmenite is the main ore of Titanium.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
