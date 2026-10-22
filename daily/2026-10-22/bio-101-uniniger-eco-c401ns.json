@@ -3,16 +3,718 @@
   "title": "BIO 101 ( UNINIGER ) : ECOLOGY AND TYPES OF HABITAT",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792676460416.7756,
+      "question": "Ecology is derived from Greek words meaning which of the following?",
+      "options": [
+        "Home and study",
+        "Earth and life",
+        "Nature and science",
+        "Organism and environment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oikos means home and logos means study.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.2563,
+      "question": "Ecology primarily focuses on which of the following?",
+      "options": [
+        "Human impacts and management",
+        "Biological interactions",
+        "Economic systems",
+        "Political processes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ecology is concerned with biological interactions and natural processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.4224,
+      "question": "A single living individual capable of independent existence is which level?",
+      "options": [
+        "Organism",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organism is the simplest level of ecological organization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.2498,
+      "question": "Individuals of the same species living in a specific area form which level?",
+      "options": [
+        "A single organism",
+        "A population",
+        "A community",
+        "A biome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population refers to individuals of the same species in a specific area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.0117,
+      "question": "Different populations coexisting in a common environment define which level?",
+      "options": [
+        "Organism",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Community consists of different populations interacting in a shared environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.1062,
+      "question": "The community plus the abiotic environment interacting as a unit is called which level?",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "Biosphere",
+        "Population"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ecosystem includes both living organisms and non-living factors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.86,
+      "question": "A large ecological region defined by climate and vegetation is which level?",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "Community",
+        "Biosphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biome is a large region with characteristic climate and vegetation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.856,
+      "question": "The totality of life on Earth and the regions that support it is called which level?",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "A biological community",
+        "Biosphere"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Biosphere encompasses all life on Earth and supporting regions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.8767,
+      "question": "Biotic components of the environment include which of the following?",
+      "options": [
+        "Temperature and light",
+        "Living entities",
+        "Soil and water",
+        "Air and minerals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biotic components are all living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.2673,
+      "question": "Producers are also known as which of the following?",
+      "options": [
+        "Heterotrophs",
+        "Autotrophs",
+        "Saprotrophs",
+        "Consumers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Producers are autotrophs that convert solar energy to chemical energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.6484,
+      "question": "Herbivores, carnivores, and omnivores belong to which biotic group?",
+      "options": [
+        "Producers",
+        "Consumers",
+        "Decomposers",
+        "Autotrophs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Consumers are heterotrophs that depend on others for food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.9023,
+      "question": "Bacteria and fungi that break down dead matter are called which group?",
+      "options": [
+        "Producers",
+        "Primary consumers",
+        "Decomposers",
+        "Herbivores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bacteria and fungi are decomposers that break down dead matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.9036,
+      "question": "Which abiotic factor is the primary energy source for photosynthesis?",
+      "options": [
+        "Temperature",
+        "Sunlight",
+        "Water",
+        "Soil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solar radiation or sunlight is the primary energy source.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.3857,
+      "question": "Which abiotic factor directly affects enzyme activity and metabolic rate?",
+      "options": [
+        "Soil texture",
+        "Water availability",
+        "Temperature",
+        "Light intensity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temperature influences enzyme activity and species distribution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.678,
+      "question": "Which abiotic factor is essential for all physiological activities and defines aquatic ecosystems?",
+      "options": [
+        "Soil",
+        "Water",
+        "Atmosphere",
+        "Topography"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water is essential for life and defines terrestrial and aquatic ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.9985,
+      "question": "Which abiotic factor supplies minerals and anchors plants?",
+      "options": [
+        "Solar radiation",
+        "Temperature",
+        "Soil",
+        "Water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Soil provides minerals and physical support for plant roots.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.068,
+      "question": "Competition occurs when organisms require which of the following?",
+      "options": [
+        "Different habitats",
+        "A shared resource",
+        "Unlimited food",
+        "No territory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Competition occurs when organisms require the same limited resource.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.3733,
+      "question": "Predation involves which relationship?",
+      "options": [
+        "Both species benefit",
+        "One kills and eats another",
+        "One benefits, other unaffected",
+        "Both species harmed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Predation is when a predator kills and consumes prey.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.3396,
+      "question": "Parasitism is a relationship where the parasite does which of the following?",
+      "options": [
+        "Kills host quickly",
+        "Feeds on host",
+        "Helps host survive",
+        "Lives freely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parasites derive nourishment at the host's expense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.2268,
+      "question": "Mutualism is an interaction where which of the following occurs?",
+      "options": [
+        "One species benefits",
+        "Both species benefit",
+        "One species is harmed",
+        "Neither species benefits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mutualism benefits both species involved in the relationship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.8445,
+      "question": "Commensalism describes which type of relationship?",
+      "options": [
+        "Both species",
+        "One species",
+        "Neither species",
+        "One is harmed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In commensalism, one organism benefits while the other is unaffected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.313,
+      "question": "Amensalism occurs when one organism is inhibited while the other is which of the following?",
+      "options": [
+        "Benefited greatly",
+        "Harmed",
+        "Not harmed",
+        "Destroyed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amensalism occurs when one organism is inhibited while the other is unaffected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.97,
+      "question": "Ecological balance is best described as which of the following?",
+      "options": [
+        "A completely static equilibrium",
+        "Dynamic equilibrium",
+        "No change at all",
+        "Random events"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ecological balance is a dynamic equilibrium with fluctuations around stable levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.4236,
+      "question": "All energy that drives life on Earth originates from which source?",
+      "options": [
+        "The moon",
+        "The sun",
+        "The soil",
+        "The ocean"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solar radiation from the sun is the primary energy source for ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460416.6846,
+      "question": "Energy transfer in an ecosystem follows which path?",
+      "options": [
+        "Cyclic path",
+        "Unidirectional path",
+        "Random path",
+        "Bidirectional path"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy flows from sun to producers to consumers to decomposers in one direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.7434,
+      "question": "A food chain represents which of the following?",
+      "options": [
+        "Energy loss",
+        "Feeding links",
+        "Nutrient cycling",
+        "Population growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A food chain represents feeding relationships in an ecosystem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.8562,
+      "question": "A food web provides stability by allowing energy to flow through which of the following?",
+      "options": [
+        "One path",
+        "Many paths",
+        "No path",
+        "Closed loops"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Food webs provide stability through multiple energy pathways.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.8914,
+      "question": "The carbon cycle involves carbon dioxide being fixed by plants during which process?",
+      "options": [
+        "Respiration",
+        "Plant growth",
+        "Decomposition",
+        "Burning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbon dioxide is fixed by plants during photosynthesis, also called plant growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.085,
+      "question": "The nitrogen cycle converts atmospheric nitrogen into which usable forms?",
+      "options": [
+        "Ammonia and nitrates",
+        "Carbon dioxide and water",
+        "Phosphates and sulfates",
+        "Oxygen and hydrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrogen fixation converts N2 into ammonia and nitrates for plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.478,
+      "question": "The phosphorus cycle is largely which type of cycle?",
+      "options": [
+        "Gaseous",
+        "Sedimentary",
+        "Atmospheric",
+        "Aquatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phosphorus cycles through soil, water, and rocks without a gaseous phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.0688,
+      "question": "The water cycle circulates water through which processes?",
+      "options": [
+        "Evaporation",
+        "Fixation",
+        "Photosynthesis",
+        "Combustion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The water cycle involves evaporation, condensation, precipitation, and transpiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.8152,
+      "question": "Population density refers to which of the following?",
+      "options": [
+        "Births per year",
+        "Number per area",
+        "Deaths per year",
+        "Dispersion pattern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population density is the number of individuals per unit area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.9158,
+      "question": "Clumped, uniform, and random are types of which population characteristic?",
+      "options": [
+        "Growth rate",
+        "Dispersion",
+        "Mortality",
+        "Natality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dispersion describes how individuals are spatially distributed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.5952,
+      "question": "Exponential growth produces which curve shape?",
+      "options": [
+        "S-shaped",
+        "J-shaped",
+        "U-shaped",
+        "Bell-shaped"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exponential growth forms a J-shaped curve under unlimited resources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.1611,
+      "question": "Logistic growth is represented by which curve shape?",
+      "options": [
+        "J-shaped",
+        "S-shaped",
+        "Linear",
+        "Exponential"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logistic growth forms an S-shaped curve as it approaches carrying capacity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.2515,
+      "question": "Carrying capacity is defined as which of the following?",
+      "options": [
+        "Max population",
+        "Minimum population",
+        "Growth rate",
+        "Death rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carrying capacity is the maximum population an environment can support.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.7766,
+      "question": "Density-dependent factors include which of the following?",
+      "options": [
+        "Drought",
+        "Competition",
+        "Floods",
+        "Temperature extremes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Density-dependent factors like competition intensify as population density increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.4238,
+      "question": "Mangroves dominating coastal ecosystems in southern Nigeria are an example of which concept?",
+      "options": [
+        "Keystone species",
+        "Dominant species",
+        "Invasive species",
+        "Endangered species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dominant species exert the greatest influence on community structure through abundance or functional role.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.6113,
+      "question": "Primary succession begins on which type of substrate?",
+      "options": [
+        "Bare rock",
+        "Abandoned farmland",
+        "Deforested land",
+        "Burned forest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primary succession starts on bare substrates without previous life, like volcanic lava or exposed rock.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.3867,
+      "question": "The stable final stage of ecological succession is called which of the following?",
+      "options": [
+        "Pioneer stage",
+        "Climax community",
+        "Seral stage",
+        "Intermediate stage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The climax community is relatively stable and in equilibrium with environmental conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.4753,
+      "question": "A habitat is defined as which of the following?",
+      "options": [
+        "Living place",
+        "Population group",
+        "Energy flow",
+        "Succession type"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A habitat is the natural environment where an organism lives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.9744,
+      "question": "Forests are dense vegetative habitats dominated by which organisms?",
+      "options": [
+        "Grasses",
+        "Trees and shrubs",
+        "Cacti",
+        "Lichens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forests are dominated by trees and shrubs and are highly productive ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.6843,
+      "question": "Which terrestrial habitat is dominated by grasses with few trees?",
+      "options": [
+        "Forest",
+        "Savanna",
+        "Desert",
+        "Highland"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grasslands, such as savannas, are dominated by grasses with few trees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.048,
+      "question": "Deserts are characterized by which of the following?",
+      "options": [
+        "High rainfall",
+        "Low rainfall",
+        "Dense vegetation",
+        "Cold temperatures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deserts are arid habitats with extremely low rainfall and sparse vegetation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.844,
+      "question": "Mountain habitats are characterized by which of the following?",
+      "options": [
+        "High temperatures",
+        "Steep gradients",
+        "Dense lowland forests",
+        "Constant oxygen levels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mountains have steep gradients, low temperatures, and reduced oxygen at higher altitudes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.8179,
+      "question": "Freshwater habitats have a salt concentration of less than which percentage?",
+      "options": [
+        "0.5",
+        "3.5",
+        "5.0",
+        "10.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freshwater ecosystems have low salt concentration, less than 0.5 percent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.1963,
+      "question": "Marine habitats are characterized by which salinity level?",
+      "options": [
+        "Less than 0.5 percent",
+        "Around 3.5 percent",
+        "Between 0.5 and 3.0 percent",
+        "Zero percent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Marine ecosystems have high salinity, around 3.5 percent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.0566,
+      "question": "Estuaries are transition zones between which two environments?",
+      "options": [
+        "Freshwater and marine",
+        "Forest and grassland",
+        "Desert and mountain",
+        "Wetland and mangrove"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Estuaries are where rivers meet the sea, mixing freshwater and marine environments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.7036,
+      "question": "Wetlands are water-saturated areas that support which type of vegetation?",
+      "options": [
+        "Hydrophytic plants",
+        "Desert cacti",
+        "Coniferous trees",
+        "Alpine herbs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wetlands support hydrophytic vegetation such as reeds and sedges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792676460417.3257,
+      "question": "Mangrove forests are dominated by which type of trees?",
+      "options": [
+        "Salt-tolerant trees",
+        "Coniferous trees",
+        "Deciduous trees",
+        "Grass species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mangroves are specialized habitats dominated by salt-tolerant trees with aerial roots.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
