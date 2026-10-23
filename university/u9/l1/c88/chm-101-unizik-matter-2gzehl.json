@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-101-unizik-matter-2gzehl",
+  "quizId": "chm-101-unizik-matte-3cric0",
   "title": "CHM 101 ( UNIZIK ) : MATTER",
-  "subject": "CHM 101 â€” CHM 101 Course",
+  "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791910890230.5671,
+      "question": "Which of the following is NOT a state of matter?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Heat",
+        "Plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heat is a form of energy, not a state of matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6038,
+      "question": "In which state of matter do particles have only vibratory motion?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solid particles vibrate about fixed positions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.0186,
+      "question": "Which state of matter takes the shape of its container but has a definite volume?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liquids have definite volume but take container shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.8645,
+      "question": "Which of the following is an example of a gas?",
+      "options": [
+        "Wooden block",
+        "Milk",
+        "Iron",
+        "Oxygen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Oxygen is a gas at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6138,
+      "question": "Plasma differs from ordinary gas because it?",
+      "options": [
+        "Has a definite shape",
+        "Conducts electricity",
+        "Has strong intermolecular forces",
+        "Cannot be affected by magnetic fields"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plasma contains ionized particles that conduct electricity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.439,
+      "question": "Which of the following is a physical change?",
+      "options": [
+        "Burning of wood",
+        "Digestion of food",
+        "Melting of ice",
+        "Souring of milk"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Melting is a change of state, not composition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.675,
+      "question": "Which of the following is a chemical change?",
+      "options": [
+        "Cutting of paper",
+        "Stretching of rubber",
+        "Electroplating a metal",
+        "Dissolving salt in water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electroplating forms new substances on the metal surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.866,
+      "question": "A substance that cannot be broken down into chemically simpler components is called?",
+      "options": [
+        "Compound",
+        "Mixture of substances",
+        "Element",
+        "Solution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Elements consist of one type of atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.7993,
+      "question": "Which of the following is a homogeneous mixture?",
+      "options": [
+        "Sand and water",
+        "Sugar dissolved in water",
+        "Peanuts mixed with raisins",
+        "Oil and water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sugar solution has uniform composition throughout.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.185,
+      "question": "Which of the following is classified as a compound?",
+      "options": [
+        "Air",
+        "Gold",
+        "Water",
+        "Crude oil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Water is made of hydrogen and oxygen chemically combined.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.9714,
+      "question": "Brass is best classified as a?",
+      "options": [
+        "Elemental substance",
+        "Compound",
+        "Mixture",
+        "Pure substance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brass is an alloy, a mixture of copper and zinc.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.1382,
+      "question": "Which of the following distinguishes a compound from a mixture?",
+      "options": [
+        "Compounds can be separated by physical methods",
+        "Compounds have variable composition",
+        "Compounds have constant composition",
+        "Compounds contain only one element"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compounds have fixed proportions by mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.1296,
+      "question": "The smallest particle of a substance that can normally exist alone is called?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Ion",
+        "Subatomic particle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A molecule is the smallest independent particle of a substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.7969,
+      "question": "Which of the following elements is monoatomic?",
+      "options": [
+        "Hydrogen",
+        "Oxygen gas",
+        "Helium",
+        "Chlorine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Helium exists as single atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.986,
+      "question": "The atomicity of phosphorus is which of the following?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phosphorus exists as P4 molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4543,
+      "question": "Negatively charged ions are formed by?",
+      "options": [
+        "Loss of one electron",
+        "Gain of electrons",
+        "Loss of protons",
+        "Gain of protons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anions form when atoms gain electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.9927,
+      "question": "Which of the following is a cation?",
+      "options": [
+        "Cl-",
+        "O2-",
+        "Na+",
+        "OH-"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Na+ is a positive ion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.0312,
+      "question": "The Latin name from which potassium's symbol is derived is which of the following?",
+      "options": [
+        "Kalium",
+        "Natrium",
+        "Ferrum",
+        "Argentum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Potassium's symbol K comes from Kalium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.3242,
+      "question": "The chemical symbol for copper is which of the following?",
+      "options": [
+        "Co",
+        "Cu",
+        "Cp",
+        "Cr"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copper's symbol is Cu from cuprum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.5835,
+      "question": "The number of atoms present in one molecule of sulphur is which of the following?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sulphur molecules are S8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.84,
+      "question": "In one formula unit of aluminium sulphate, how many sulphur atoms are present?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aluminium sulphate has three sulphur atoms per formula unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4214,
+      "question": "The valency of an element is the number of hydrogen atoms that can combine with or replace?",
+      "options": [
+        "One molecule of that element",
+        "One atom of that element",
+        "One mole of that element",
+        "One ion of that element"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Valency is defined relative to one atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6863,
+      "question": "When writing the formula of a compound containing a metal and a nonmetal, the symbol of the metal is written?",
+      "options": [
+        "Second",
+        "First",
+        "In brackets",
+        "As a subscript"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metals are written first in formulas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.8127,
+      "question": "The relative molecular mass of a compound is the sum of the?",
+      "options": [
+        "Atomic numbers of all atoms",
+        "Relative atomic masses",
+        "Number of atoms in molecule",
+        "Valencies of all atoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relative molecular mass is the sum of relative atomic masses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.1802,
+      "question": "The relative molecular mass of calcium carbonate is which of the following?",
+      "options": [
+        "68.0",
+        "100",
+        "84.0",
+        "56.0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "40 + 12 + 3(16) = 100.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6562,
+      "question": "The number of particles in one mole of a substance is called?",
+      "options": [
+        "Molar mass",
+        "Avogadro's number",
+        "Relative molecular mass",
+        "Empirical formula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Avogadro's number is 6.02 x 10^23 particles per mole.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.9053,
+      "question": "The molar mass of H2SO4 is which of the following?",
+      "options": [
+        "98 g/mol",
+        "82 g/mol",
+        "66 g/mol",
+        "114 g/mol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2(1) + 32 + 4(16) = 98 g/mol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.5972,
+      "question": "The number of moles present in 36 g of water is which of the following?",
+      "options": [
+        "1 mol",
+        "2 mol",
+        "3 mol",
+        "4 mol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molar mass of water is 18 g/mol, so 36/18 = 2 mol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.0408,
+      "question": "The formula that indicates the actual number of atoms of each element in a molecule is called?",
+      "options": [
+        "Empirical formula",
+        "Molecular formula",
+        "Structural formula",
+        "Ionic formula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molecular formula gives actual atom counts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4377,
+      "question": "A compound contains 40% sulphur and 60% oxygen by mass. Its empirical formula is which of the following?",
+      "options": [
+        "Sulphur monoxide",
+        "Sulphur dioxide",
+        "Sulphur trioxide",
+        "Disulphur monoxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mole ratio S:O = 40/32 : 60/16 = 1.25 : 3.75 = 1:3, so SO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.8535,
+      "question": "The percentage by mass of oxygen in calcium carbonate is which of the following?",
+      "options": [
+        "16%",
+        "32%",
+        "48%",
+        "60%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "48/100 x 100 = 48%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4656,
+      "question": "Which law states that all pure samples of the same compound contain the same elements combined in the same proportion by mass?",
+      "options": [
+        "Law of conservation of matter",
+        "Law of definite proportion",
+        "Law of multiple proportions",
+        "Law of reciprocal proportions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Law of definite proportion was given by Proust.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.148,
+      "question": "The law of conservation of matter was proposed by?",
+      "options": [
+        "Proust",
+        "John Dalton",
+        "Lavoisier",
+        "Graham"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lavoisier proposed the law of conservation of matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.0273,
+      "question": "Copper and oxygen combine to form CuO and Cu2O. This is an example of the law of?",
+      "options": [
+        "Definite proportion",
+        "Multiple proportions",
+        "Conservation of matter",
+        "Reciprocal proportions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Different compounds form from same elements in simple whole-number ratios.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.158,
+      "question": "In the equation 2H2 + O2 -> 2H2O, the coefficient of O2 is?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "O2 has no written coefficient, so it is 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.63,
+      "question": "In a chemical equation, the symbol s indicates that the substance is in?",
+      "options": [
+        "Gaseous state",
+        "Liquid state",
+        "Solid state",
+        "Aqueous state"
+      ],
+      "correctAnswer": 2,
+      "explanation": "s denotes solid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.793,
+      "question": "The coefficient of Fe when the equation Fe + O2 -> Fe2O3 is balanced is which of the following?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "4Fe + 3O2 -> 2Fe2O3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.322,
+      "question": "In stoichiometric calculations, the number of moles is calculated by dividing mass by?",
+      "options": [
+        "Avogadro's number",
+        "Molar mass",
+        "Volume",
+        "Pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "moles = mass / molar mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6262,
+      "question": "The mass of Na required to react with 2.0 g of H2O in the reaction 2Na + 2H2O -> 2NaOH + H2 is which of the following?",
+      "options": [
+        "1.3 g",
+        "2.6 g",
+        "3.9 g",
+        "5.2 g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "2 mol Na reacts with 2 mol water, so mass Na = (2/18)*2*23 = 2.56 g ≈ 2.6 g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4736,
+      "question": "The reaction 2Na + Cl2 -> 2NaCl is an example of?",
+      "options": [
+        "Decomposition reaction",
+        "Combination reaction",
+        "Combustion reaction",
+        "Double-replacement reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two substances combine to form one product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.6394,
+      "question": "The decomposition of magnesium hydroxide produces magnesium oxide and which of the following?",
+      "options": [
+        "H2",
+        "O2",
+        "H2O",
+        "H2O2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mg(OH)2 decomposes to MgO and H2O.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.3733,
+      "question": "A reaction that is almost always exothermic is?",
+      "options": [
+        "Decomposition",
+        "Combustion",
+        "Double-replacement",
+        "Single-replacement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combustion releases heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.1099,
+      "question": "In the reaction between copper and silver nitrate to form copper nitrate and silver, copper is?",
+      "options": [
+        "Reduced",
+        "Oxidized",
+        "Precipitated",
+        "Decomposed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copper loses electrons and is oxidized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.7344,
+      "question": "The reaction between aqueous sodium chloride and aqueous silver nitrate to form solid silver chloride and aqueous sodium nitrate is an example of?",
+      "options": [
+        "Combination",
+        "Decomposition",
+        "Single replacement reaction",
+        "Double-replacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ions exchange partners in double-replacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.478,
+      "question": "Which phenomenon is the random, erratic movement of visible particles suspended in a fluid?",
+      "options": [
+        "Diffusion process",
+        "Osmosis process",
+        "Brownian motion",
+        "Sublimation process"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brownian motion is random movement of suspended particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.955,
+      "question": "The process in which a solid changes directly to a gas is called?",
+      "options": [
+        "Melting",
+        "Evaporation",
+        "Sublimation",
+        "Condensation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sublimation bypasses the liquid state.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.375,
+      "question": "The temperature at which a solid changes to a liquid is called?",
+      "options": [
+        "Boiling point",
+        "Melting point",
+        "Freezing point",
+        "Sublimation point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Melting point is the solid-to-liquid transition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.4988,
+      "question": "According to Boyle's law, if the pressure of a gas is doubled at constant temperature, the volume will?",
+      "options": [
+        "Double",
+        "Halve",
+        "Remain the same",
+        "Quadruple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boyle's law states volume is inversely proportional to pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.116,
+      "question": "Charles's law states that at constant pressure, the volume of a gas is directly proportional to its?",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Number of moles",
+        "Density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charles's law uses absolute temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791910890230.552,
+      "question": "The value of the ideal gas constant R is which of the following?",
+      "options": [
+        "8.314 dm3 atm mol-1 K-1",
+        "0.08206 L atm/mol K",
+        "0.08206 J mol-1 K-1",
+        "1.00 dm3 atm mol-1 K-1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "R = 0.08206 L atm mol-1 K-1.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
