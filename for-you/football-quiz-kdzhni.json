@@ -4,16 +4,16 @@
   "subject": "Quizzes For You",
   "description": "",
   "totalQuestions": 30,
-  "defaultTimePerQuestion": 20,
+  "defaultTimePerQuestion": 10,
   "settings": {
-    "canChangeTime": true,
+    "canChangeTime": false,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
     "shuffleQuestions": true,
     "shuffleOptions": true,
-    "defaultTimePerQuestion": 20
+    "defaultTimePerQuestion": 10
   },
   "questions": [
     {
