@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-101-unizik-cell-c0vh5p",
+  "quizId": "bio-101-unizik-cell-pz5vza",
   "title": "BIO 101 ( UNIZIK ) : CELL",
-  "subject": "BIO 101 â€” General Biology I",
+  "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791825063605.1387,
+      "question": "Which feature makes an organism living?",
+      "options": [
+        "Presence of water",
+        "Presence of cells",
+        "Presence of oxygen",
+        "Presence of nutrients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell is the basic unit of life present in all living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.402,
+      "question": "Organisms composed of a single cell are known as which of the following?",
+      "options": [
+        "Unicellular",
+        "Multicellular",
+        "Prokaryotic",
+        "Eukaryotic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unicellular organisms consist of only one cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.2568,
+      "question": "Which of the following is the fundamental structural and functional unit of all living organisms?",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Molecule",
+        "Cell"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cell is described as the fundamental structural and functional unit of life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.8945,
+      "question": "Cells that lack a membrane bound nucleus are known as which of the following?",
+      "options": [
+        "Eukaryotic",
+        "Multicellular",
+        "Prokaryotic",
+        "Unicellular"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prokaryotic cells do not have a membrane bound nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.0708,
+      "question": "Which of the following is the semi-fluid matrix that occupies the volume of the cell?",
+      "options": [
+        "Nucleoplasm",
+        "Cytoplasm",
+        "Protoplasm",
+        "Cell sap"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cytoplasm is the semi-fluid matrix where cellular activities occur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.1975,
+      "question": "Which structure contains the chromosomes and genetic material?",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Ribosome",
+        "Membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nucleus contains chromosomes which contain DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.7798,
+      "question": "Which of the following is the main arena of cellular activities in both plant and animal cells?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Cytoplasm",
+        "Golgi body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Various chemical reactions occur in the cytoplasm to keep the cell living.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.6362,
+      "question": "Which cells have a membrane bound nucleus?",
+      "options": [
+        "Prokaryotic",
+        "Bacterial",
+        "Viral",
+        "Eukaryotic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eukaryotic cells have a membrane bound nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063605.0432,
+      "question": "Anything less than a complete cell structure fails to ensure which of the following?",
+      "options": [
+        "Growth and development",
+        "Reproduction and repair",
+        "Independent living",
+        "Movement and response"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A complete cell structure is required for independent living.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.6304,
+      "question": "Which organism has the smallest cells?",
+      "options": [
+        "Mycoplasma",
+        "Bacteria",
+        "Ostrich egg",
+        "Human RBC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mycoplasmas are the smallest cells at only 0.3 mm in length.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.796,
+      "question": "Which of the following is the largest isolated single cell?",
+      "options": [
+        "Human red blood cell",
+        "Nerve cell",
+        "Ostrich egg",
+        "Bacterial cell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The egg of an ostrich is the largest isolated single cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.2231,
+      "question": "Which of the following is the diameter of human red blood cells?",
+      "options": [
+        "0.3 mm",
+        "3 to 5 µm",
+        "25 µm",
+        "7.0 µm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Human red blood cells are about 7.0 µm in diameter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.0234,
+      "question": "Which cells are some of the longest cells?",
+      "options": [
+        "Red blood cells",
+        "Nerve cells",
+        "Muscle cells",
+        "Skin cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nerve cells are some of the longest cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.2373,
+      "question": "The shape of a cell may vary with which of the following?",
+      "options": [
+        "Its colour",
+        "Its function",
+        "Its age",
+        "Its location"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shape of the cell may vary with the function they perform.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.4531,
+      "question": "Bacteria cells could be which of the following sizes?",
+      "options": [
+        "0.3 mm",
+        "7.0 µm",
+        "3 to 5 µm",
+        "25 µm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bacteria could be 3 to 5 µm in size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.254,
+      "question": "Which organelle is the largest and most prominent in eukaryotic cells?",
+      "options": [
+        "Mitochondrion",
+        "Nucleus",
+        "Golgi apparatus",
+        "Ribosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleus is the largest and most prominent organelle in eukaryotic cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.002,
+      "question": "Which of the following is the double membrane structure that encloses the nucleus?",
+      "options": [
+        "Nuclear envelope",
+        "Cell wall",
+        "Plasma membrane of cell",
+        "Tonoplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nuclear envelope is a double membrane that encloses the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.9402,
+      "question": "Which of the following regulates molecular traffic between the nucleus and cytoplasm?",
+      "options": [
+        "Cristae",
+        "Nuclear pores",
+        "Plasmodesmata channels",
+        "Vesicles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nuclear pores regulate molecular traffic between the nucleus and cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.4219,
+      "question": "The gel-like substance within the nucleus is called which of the following?",
+      "options": [
+        "Cytoplasm",
+        "Stroma",
+        "Nucleoplasm",
+        "Matrix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nucleoplasm is the gel-like substance containing chromatin and nucleoli.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.293,
+      "question": "The nucleolus synthesizes which of the following?",
+      "options": [
+        "DNA and RNA",
+        "ATP and NADH",
+        "Lipids and steroids",
+        "Ribosomal RNA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The nucleolus synthesizes ribosomal RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.547,
+      "question": "Which organelle is called the powerhouse of the cell?",
+      "options": [
+        "Mitochondrion",
+        "Nucleus",
+        "Ribosome",
+        "Lysosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mitochondrion is often called the powerhouse of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.4888,
+      "question": "The folds of the inner mitochondrial membrane are called which of the following?",
+      "options": [
+        "Grana",
+        "Cristae",
+        "Cisternae",
+        "Thylakoids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The highly folded inner membrane forms cristae that project into the matrix.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.389,
+      "question": "Mitochondria generate energy through which of the following processes?",
+      "options": [
+        "Photosynthesis in plants",
+        "Oxidative phosphorylation",
+        "Glycolysis in cytoplasm",
+        "Fermentation in yeast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria generate energy through oxidative phosphorylation and the electron transport chain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.623,
+      "question": "Which organelle has its own DNA allowing semi-autonomous replication?",
+      "options": [
+        "Golgi apparatus",
+        "Lysosome",
+        "Mitochondrion",
+        "Peroxisome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitochondria contain their own DNA allowing semi-autonomous replication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.3855,
+      "question": "The endoplasmic reticulum exists in which two forms?",
+      "options": [
+        "Rough and smooth",
+        "Thick and thin layers",
+        "Inner and outer parts",
+        "Free and bound forms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ER exists as rough ER and smooth ER.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.6616,
+      "question": "Which ER is studded with ribosomes?",
+      "options": [
+        "Smooth ER",
+        "Rough ER",
+        "Both equally",
+        "Neither"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rough ER is studded with ribosomes on its cytoplasmic surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.2324,
+      "question": "The function of smooth ER is which of the following?",
+      "options": [
+        "Protein synthesis",
+        "Lipid synthesis",
+        "DNA replication",
+        "ATP production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smooth ER synthesizes lipids, phospholipids, and steroids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.937,
+      "question": "The flattened sacs of the Golgi apparatus are called which of the following?",
+      "options": [
+        "Cristae",
+        "Thylakoids",
+        "Cisternae",
+        "Grana"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Golgi apparatus consists of flattened membrane bound sacs called cisternae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.7986,
+      "question": "Which face of the Golgi apparatus faces the ER?",
+      "options": [
+        "Cis face",
+        "Trans face",
+        "Medial region",
+        "Lateral face"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cis face is the receiving side facing the ER.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.1125,
+      "question": "The Golgi apparatus is often called which of the following?",
+      "options": [
+        "Powerhouse",
+        "Post office",
+        "Control center",
+        "Recycling center"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Golgi apparatus is often called the post office of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.5093,
+      "question": "Ribosomes are composed of which of the following?",
+      "options": [
+        "DNA and lipids",
+        "Proteins and lipids",
+        "rRNA and proteins",
+        "DNA and proteins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ribosomes are composed of ribosomal RNA and proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.4644,
+      "question": "Eukaryotic ribosomes are which type?",
+      "options": [
+        "70S",
+        "60S",
+        "40S",
+        "80S"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eukaryotic ribosomes are 80S type composed of 60S and 40S subunits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.506,
+      "question": "The primary function of ribosomes is which of the following?",
+      "options": [
+        "Lipid synthesis",
+        "Protein synthesis",
+        "DNA replication",
+        "ATP production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribosomes serve as the primary sites of protein synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.314,
+      "question": "Lysosomes contain approximately how many hydrolytic enzymes?",
+      "options": [
+        "10",
+        "50",
+        "25",
+        "100"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lysosomes contain approximately 50 different hydrolytic enzymes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.6392,
+      "question": "Lysosomal enzymes function optimally at which pH?",
+      "options": [
+        "Neutral",
+        "Basic",
+        "Alkaline",
+        "Acidic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lysosomal enzymes function optimally at acidic pH around 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.7632,
+      "question": "The process of recycling cellular components by lysosomes is called which of the following?",
+      "options": [
+        "Phagocytosis",
+        "Exocytosis",
+        "Autophagy",
+        "Pinocytosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Autophagy is the recycling of cellular components by lysosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.3147,
+      "question": "Peroxisomes contain which enzyme that breaks down hydrogen peroxide?",
+      "options": [
+        "Catalase",
+        "Hydrolase",
+        "Protease",
+        "Lipase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Catalase breaks down hydrogen peroxide into water and oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.018,
+      "question": "Peroxisomes oxidize which of the following through beta-oxidation?",
+      "options": [
+        "Proteins",
+        "Fatty acids",
+        "Carbohydrates",
+        "Nucleic acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peroxisomes oxidize fatty acids through beta-oxidation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.2092,
+      "question": "The cytoskeleton consists of how many main components?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cytoskeleton consists of microfilaments, intermediate filaments, and microtubules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.963,
+      "question": "The diameter of microfilaments is which of the following?",
+      "options": [
+        "10 nm",
+        "25 nm",
+        "50 nm",
+        "7 nm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Microfilaments are approximately 7 nm in diameter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.1182,
+      "question": "Which cytoskeleton component forms hollow tubes?",
+      "options": [
+        "Microfilaments",
+        "Intermediate filaments",
+        "Microtubules",
+        "Actin filaments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microtubules are hollow tubes approximately 25 nm in diameter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.3582,
+      "question": "According to the fluid mosaic model, the membrane is which of the following?",
+      "options": [
+        "Rigid",
+        "Static",
+        "Solid",
+        "Dynamic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The fluid mosaic model describes the membrane as dynamic with components that move laterally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.7012,
+      "question": "In the phospholipid bilayer, which direction do hydrophobic tails face?",
+      "options": [
+        "Outward",
+        "Inward",
+        "Sideways",
+        "Upward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrophobic tails face inward while hydrophilic heads face outward.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.386,
+      "question": "Which of the following maintains electrochemical gradients essential for nerve impulses?",
+      "options": [
+        "Nucleus",
+        "Cell membrane",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane maintains electrochemical gradients essential for nerve impulses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.5205,
+      "question": "Which of the following is the primary site of photosynthesis?",
+      "options": [
+        "Mitochondria",
+        "Peroxisome",
+        "Chloroplast",
+        "Lysosome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chloroplasts are the primary site of photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.727,
+      "question": "The stacks of thylakoids are called which of the following?",
+      "options": [
+        "Cristae",
+        "Grana",
+        "Cisternae",
+        "Stroma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thylakoids are organized into structures called grana.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.7058,
+      "question": "Light-independent reactions occur in which part of chloroplasts?",
+      "options": [
+        "Thylakoid membrane",
+        "Grana",
+        "Stroma",
+        "Outer membrane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Light-independent reactions occur in the stroma.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.9856,
+      "question": "The plant cell wall is primarily composed of which of the following?",
+      "options": [
+        "Chitin",
+        "Protein",
+        "Lipid",
+        "Cellulose"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The plant cell wall is composed primarily of cellulose fibers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.9014,
+      "question": "Which membrane surrounds the central vacuole?",
+      "options": [
+        "Nuclear envelope",
+        "Plasma membrane",
+        "Thylakoid membrane",
+        "Tonoplast"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The central vacuole is surrounded by a membrane called the tonoplast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791825063606.6047,
+      "question": "The central vacuole can occupy which percentage of cell volume?",
+      "options": [
+        "10 to 30 percent of volume",
+        "30 to 90 percent",
+        "5 to 15 percent of volume",
+        "50 to 100 percent of volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The central vacuole can occupy 30 to 90 percent of the total cell volume.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
