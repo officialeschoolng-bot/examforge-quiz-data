@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-102-unn-revision-quiz-2-14ea2t",
+  "quizId": "chm-102-unn-revision-2v00i2",
   "title": "CHM 102 ( UNN ) : REVISION QUIZ 2",
-  "subject": "CHM 102 â€” CHM 102 Course",
+  "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792590674629.8555,
+      "question": "The large natural deposit of solid alkanes is known as which lake?",
+      "options": [
+        "Salt Lake",
+        "Pitch Lake",
+        "Great Lake",
+        "Dead Lake"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Pitch Lake is a large natural deposit of solid alkanes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.1992,
+      "question": "Kolbe's method produces an alkane with which number of carbon atoms?",
+      "options": [
+        "odd",
+        "even",
+        "one",
+        "zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kolbe electrolysis gives an alkane with an even number of carbon atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.426,
+      "question": "Normal alkanes from C5 to C17 are in which physical state?",
+      "options": [
+        "gases",
+        "liquids",
+        "solids",
+        "plasmas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alkanes with five to seventeen carbons are colourless liquids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.8674,
+      "question": "Sulphonation of alkanes requires at least how many carbon atoms?",
+      "options": [
+        "two",
+        "four",
+        "six",
+        "ten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkanes with six or more carbon atoms undergo sulphonation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.9497,
+      "question": "Lindlar catalyst reduces alkynes to which product?",
+      "options": [
+        "cis-alkene",
+        "trans-alkene",
+        "alkane",
+        "alcohol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrogen with Lindlar catalyst gives cis-alkenes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.2913,
+      "question": "Terminal alkynes with ammoniacal copper(I) chloride give which precipitate?",
+      "options": [
+        "white",
+        "reddish",
+        "yellow",
+        "green"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal alkynes form a reddish copper(I) alkyne precipitate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.7969,
+      "question": "Three moles of ethyne heated at 400 C with Ziegler catalyst gives which product?",
+      "options": [
+        "benzene",
+        "toluene",
+        "naphthalene",
+        "phenol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethyne trimerizes to benzene with Ziegler catalyst at 400 C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.4182,
+      "question": "Thionyl chloride converts an alcohol into which product?",
+      "options": [
+        "alkyl chloride",
+        "alkene",
+        "ether",
+        "aldehyde"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thionyl chloride replaces the hydroxyl group with chlorine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.5642,
+      "question": "SN2 reaction consistently results in which stereochemical outcome?",
+      "options": [
+        "retention",
+        "inversion",
+        "racemization",
+        "no change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Backside attack in SN2 causes inversion of configuration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.8071,
+      "question": "E1 elimination follows which rule for the major product?",
+      "options": [
+        "Hofmann",
+        "Zaitsev",
+        "Markovnikov",
+        "Saytzeff"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E1 elimination generally follows Zaitsev's rule to give the more substituted alkene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.4717,
+      "question": "Protic solvents reduce the reactivity of which nucleophiles most?",
+      "options": [
+        "large neutral",
+        "small charged",
+        "bulky bases",
+        "bulky radicals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Protic solvents solvate small charged nucleophiles strongly through hydrogen bonding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.3381,
+      "question": "Grignard reagents are formed from alkyl halides and which metal?",
+      "options": [
+        "sodium",
+        "zinc",
+        "magnesium",
+        "iron"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkyl halides react with magnesium in ether to form Grignard reagents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.2698,
+      "question": "The Wurtz reaction uses sodium metal in which solvent?",
+      "options": [
+        "water",
+        "ether",
+        "ethanol",
+        "acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wurtz reaction occurs with sodium metal in dry ether.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.142,
+      "question": "Buckminsterfullerene was named in honour of which professional?",
+      "options": [
+        "chemist",
+        "architect",
+        "physicist",
+        "biologist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It honours Robert Buckminster Fuller, designer of geodesic domes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.3257,
+      "question": "Which fullerene has been isolated and characterized as chiral?",
+      "options": [
+        "C60",
+        "C70",
+        "C76",
+        "C84"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C76 is noted as a chiral fullerene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.224,
+      "question": "Doxil, a liposome-encapsulated drug, was approved in which year?",
+      "options": [
+        "1985",
+        "1990",
+        "1995",
+        "2000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Doxil was approved in 1995 to treat specific cancers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.8638,
+      "question": "Graphene is roughly how many times stronger than steel?",
+      "options": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Graphene is about 200 times stronger than steel.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.4915,
+      "question": "Which instrument determines the surface charge of nanoparticles?",
+      "options": [
+        "SEM",
+        "TEM",
+        "DLS",
+        "Zeta analyser"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Zeta potential analysis determines the surface charge of nanoparticles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.9912,
+      "question": "Berzelius reduced K2SiF6 with molten potassium in which year?",
+      "options": [
+        "1771",
+        "1823",
+        "1857",
+        "1863"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Berzelius reduced K2SiF6 with molten potassium in 1823.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.715,
+      "question": "Ethanoic acid boils at which temperature?",
+      "options": [
+        "78 C",
+        "100 C",
+        "118 C",
+        "140 C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethanoic acid boils at 118 C due to strong hydrogen bonding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.6685,
+      "question": "Butyric acid is found in which natural substance?",
+      "options": [
+        "ants",
+        "vinegar",
+        "butter",
+        "citrus fruits"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Butyric acid is the common name for butanoic acid found in butter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.7725,
+      "question": "A carboxylic acid with two COOH groups uses which suffix?",
+      "options": [
+        "-oic acid",
+        "-dioic acid",
+        "-dial",
+        "-diol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two carboxyl groups give the suffix -dioic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.739,
+      "question": "Grignard reagents react with carbon dioxide to give which product after protonation?",
+      "options": [
+        "alcohol",
+        "alkene",
+        "aldehyde",
+        "carboxylic acid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Grignard reagents add to CO2 to form carboxylic acids after protonation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.0203,
+      "question": "Ammonolysis of an acid anhydride gives which product?",
+      "options": [
+        "ester",
+        "amide",
+        "alcohol",
+        "acid chloride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reaction of an acid anhydride with ammonia gives an amide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.1975,
+      "question": "Which carboxylic acid derivative is the least reactive?",
+      "options": [
+        "ester",
+        "amide",
+        "acid chloride",
+        "anhydride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amides are the least reactive of the common carboxylic acid derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.2349,
+      "question": "Spodumene has which formula?",
+      "options": [
+        "LiAlSi2O6",
+        "K2Li3Al4Si7O21",
+        "Li2CO3",
+        "LiCl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spodumene is LiAlSi2O6, the most abundant lithium mineral.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.7437,
+      "question": "Down's process keeps sodium chloride molten at which temperature?",
+      "options": [
+        "450 C",
+        "600 C",
+        "808 C",
+        "1000 C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The NaCl is kept molten at 600 C using a eutectic mixture with CaCl2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.4834,
+      "question": "Rubidium and caesium were discovered by which scientist?",
+      "options": [
+        "Bunsen",
+        "Davy",
+        "Berzelius",
+        "Scheele"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Robert Bunsen discovered rubidium and caesium in 1861.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.6548,
+      "question": "The caesium clock is used for which standard measurement?",
+      "options": [
+        "mass",
+        "length",
+        "time",
+        "charge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The caesium atomic clock defines the second and the metre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.9387,
+      "question": "Lithium is the only alkali metal that forms which nitride?",
+      "options": [
+        "Na3N",
+        "Li3N",
+        "K3N",
+        "Cs3N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lithium reacts with nitrogen to form lithium nitride, Li3N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.6096,
+      "question": "Sodium reacts with oxygen to give which product?",
+      "options": [
+        "Na2O2",
+        "Na2O",
+        "NaO2",
+        "Na2O3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium forms the peroxide Na2O2 with oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.4893,
+      "question": "Sodium carbonate is prepared by which industrial process?",
+      "options": [
+        "Solvay",
+        "Haber",
+        "Contact",
+        "Ostwald"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sodium carbonate is prepared by the Solvay process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674629.6943,
+      "question": "Lemery in 1675 divided compounds into how many sources?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lemery divided compounds into vegetables, mineral, and animal sources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.475,
+      "question": "Carl Wilhelm Scheele discovered tartaric and which other acid?",
+      "options": [
+        "acetic",
+        "citric",
+        "lactic",
+        "formic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scheele discovered tartaric and citric acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.0454,
+      "question": "Berthelot is credited with synthesizing which compound?",
+      "options": [
+        "urea",
+        "methane",
+        "acetic acid",
+        "carbohydrates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Berthelot synthesized methane from its elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.4465,
+      "question": "Organic compounds are carbon compounds except which of the following?",
+      "options": [
+        "hydrocarbons",
+        "alcohols",
+        "oxides",
+        "esters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Organic compounds exclude oxides, sulphides, hydrogen cyanide, carbonates, and bicarbonates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.8342,
+      "question": "Antoine Lavoisier is considered the father of which field?",
+      "options": [
+        "organic synthesis",
+        "modern chemistry",
+        "biochemistry",
+        "alchemy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lavoisier is considered the father of modern chemistry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.3926,
+      "question": "A plot of ln k versus 1/T gives a straight line with slope equal to which quantity?",
+      "options": [
+        "Ea/R",
+        "-Ea/R",
+        "R/Ea",
+        "-R/Ea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slope of ln k versus 1/T equals -Ea/R.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.5461,
+      "question": "In the Arrhenius equation, A represents which term?",
+      "options": [
+        "frequency factor",
+        "activation energy",
+        "rate constant",
+        "temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A is the frequency factor in the Arrhenius equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.9597,
+      "question": "The first step in heterogeneous catalysis is which?",
+      "options": [
+        "desorption",
+        "adsorption",
+        "reaction",
+        "migration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step in heterogeneous catalysis is adsorption and activation of the reactants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.9338,
+      "question": "The substance whose reaction an enzyme catalyzes is called which?",
+      "options": [
+        "product",
+        "substrate",
+        "catalyst",
+        "inhibitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The substance whose reaction the enzyme catalyzes is called the substrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.115,
+      "question": "An unstable grouping of atoms that can break up to form products is called which?",
+      "options": [
+        "complex",
+        "reactant",
+        "intermediate",
+        "catalyst"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An activated complex is an unstable grouping of atoms that can break up to form products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.0435,
+      "question": "Thortveitite has which formula?",
+      "options": [
+        "FeTiO3",
+        "(Sc,Y)2Si2O7",
+        "CaTiO3",
+        "K2(UO2)2(VO4)2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thortveitite is the rare mineral of Scandium with formula (Sc,Y)2Si2O7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.4382,
+      "question": "Vanadinite has which formula?",
+      "options": [
+        "VS4",
+        "Pb5(VO4)3Cl",
+        "K2(UO2)2(VO4)2",
+        "FeCr2O4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vanadinite is Pb5(VO4)3Cl, an ore of Vanadium and Lead.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.825,
+      "question": "Pyrolusite has which formula?",
+      "options": [
+        "MnO",
+        "MnO2",
+        "Mn2O3",
+        "Mn3O4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pyrolusite is MnO2, the main ore of Manganese.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.5586,
+      "question": "Pentlandite has which formula?",
+      "options": [
+        "(Ni,Fe)9S8",
+        "(Co,Ni)As3",
+        "CoAsS",
+        "CuFeS2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pentlandite is (Ni, Fe)9S8, an ore of Nickel and Iron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.495,
+      "question": "Cuprite has which formula?",
+      "options": [
+        "Cu2O",
+        "CuO",
+        "CuSO4",
+        "Cu2S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cuprite is Copper Oxide (Cu2O).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.043,
+      "question": "Chromium has which anomalous electronic configuration?",
+      "options": [
+        "[Ar] 3d4 4s2",
+        "[Ar] 3d5 4s1",
+        "[Ar] 3d6 4s0",
+        "[Ar] 3d3 4s2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromium adopts [Ar] 3d5 4s1 due to the stability of a half-filled d sub-shell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.255,
+      "question": "EDTA is a classic example of which ligand type?",
+      "options": [
+        "monodentate",
+        "bidentate",
+        "hexadentate",
+        "tridentate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "EDTA binds through six donor atoms and is hexadentate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590674630.5442,
+      "question": "Cobalt blue pigment has which formula?",
+      "options": [
+        "CoAl2O4",
+        "PbCrO4",
+        "Fe4[Fe(CN)6]3",
+        "CuSO4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cobalt blue pigment is CoAl2O4.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
