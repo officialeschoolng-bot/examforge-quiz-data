@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-102-unn-chapter-seven-recent-advance-tiq510",
+  "quizId": "bio-102-unn-chapter--jgpe0r",
   "title": "BIO 102 ( UNN ) : CHAPTER SEVEN ( RECENT ADVANCES IN GENETIC ENGINEERING )",
-  "subject": "BIO 102 â€” BIO 102 Course",
+  "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792261078283.185,
+      "question": "Recombinant DNA technology involves the joining of DNA molecules from which source?",
+      "options": [
+        "A single species",
+        "Two different species",
+        "Three identical species",
+        "Four related species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Recombinant DNA technology involves joining DNA molecules from two different species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.5164,
+      "question": "The study and science of biochemistry initially focused on which subject?",
+      "options": [
+        "Genetic engineering",
+        "Cellular manipulation",
+        "Chemistry of life",
+        "Molecular cloning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biochemistry initially just focused on the study of the chemistry of living things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3875,
+      "question": "Genetic engineering is used to produce individuals with which feature?",
+      "options": [
+        "New inherited properties",
+        "Identical genetic traits",
+        "Reduced genetic variation",
+        "Natural mutations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic engineering produces individuals having a new combination of inherited properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0295,
+      "question": "Cellular manipulation involves the collection of which type of cells?",
+      "options": [
+        "Diploid cells",
+        "Haploid cells",
+        "Polyploid cells",
+        "Tetraploid cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cellular manipulation involves the collection of haploid cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0046,
+      "question": "Fusion of somatic cells leads to the formation of which structure?",
+      "options": [
+        "A double hybrid cell",
+        "One hybrid cell",
+        "A cloned organism",
+        "A recombinant vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cellular manipulation often leads to cell fusion and the formation of a single hybrid cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.959,
+      "question": "Which substance is used as a fusogen to induce cell fusion?",
+      "options": [
+        "Sodium chloride",
+        "Ethanol",
+        "PEG",
+        "Polyethylene glycol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cell fusion may be induced by treatment with fusogens like killed Sendai virus or polyethylene glycol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.6868,
+      "question": "Formation of hybridoma cells is an important step for the production of which product?",
+      "options": [
+        "Human insulin",
+        "Hepatitis B vaccine",
+        "Growth hormones",
+        "Antibodies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hybridoma cells are important for the technique of forming monoclonal antibodies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9468,
+      "question": "Molecular manipulation involves the construction of which type of molecules?",
+      "options": [
+        "Artificial DNA",
+        "Natural genomic RNA",
+        "Synthetic proteins",
+        "Cellular lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molecular manipulation involves the construction of artificial recombinant DNA molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.329,
+      "question": "Insertion of DNA molecules into a host cell is referred to by which term?",
+      "options": [
+        "Gene cloning",
+        "Transformation",
+        "Transduction",
+        "Recombinant DNA technology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insertion of DNA molecules into a host cell is often referred to as recombinant DNA technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.1338,
+      "question": "DNA sequencing may lead to the ability to predict which structure of a protein?",
+      "options": [
+        "Secondary structure",
+        "Tertiary structure",
+        "Quaternary structure",
+        "Primary structure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "DNA sequencing may lead to the ability to predict the primary structure of a protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9272,
+      "question": "Human insulin for the treatment of diabetes is produced using which technique?",
+      "options": [
+        "Gene splicing",
+        "DNA probes",
+        "Gene synthesis",
+        "Cellular hybridization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The synthesis of recombinant protein has led to the production of human insulin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9446,
+      "question": "DNA probes are essential for identifying which type of genes?",
+      "options": [
+        "Normal genes",
+        "Aberrant genes",
+        "Synthetic genes",
+        "Viral genes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA probes are essential for aberrant genes which are the causes of numerous diseases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.004,
+      "question": "Gene therapy involves the incorporation of DNA into which part of a person?",
+      "options": [
+        "Cytoplasm",
+        "Cell membrane",
+        "Genome",
+        "Ribosome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gene therapy incorporates DNA into a person's genome to treat disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.744,
+      "question": "Gene splicing is a biochemical or chemical manipulation with which objective?",
+      "options": [
+        "Cleaving DNA",
+        "Attaching DNA molecules",
+        "Copying DNA molecules",
+        "Denaturing DNA molecules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gene splicing aims to attach one DNA molecule to another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3772,
+      "question": "Which enzyme is used to cleave DNA to yield single stranded ends?",
+      "options": [
+        "DNA ligase",
+        "DNA polymerase",
+        "Terminal transferase",
+        "Endonuclease"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Restriction endonuclease cleaves DNA to yield single stranded complementary ends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.5461,
+      "question": "The complementary ends of two DNA molecules are covalently joined by which enzyme?",
+      "options": [
+        "DNA ligase",
+        "Restriction endonuclease",
+        "Helicase",
+        "Primase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA ligase covalently joins the complementary ends of the two DNA molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.072,
+      "question": "If restriction endonuclease produces blunt ends, which enzyme may be used to add nucleotides?",
+      "options": [
+        "DNA polymerase",
+        "Ligase",
+        "Terminal transferase",
+        "Restriction endonuclease"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal deoxynucleotidyl transferase is used to add nucleotides to the 3' terminal OH group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.621,
+      "question": "Gene cloning involves the isolation of a bacterial cell containing which type of DNA?",
+      "options": [
+        "Alien DNA",
+        "Homologous DNA",
+        "Synthetic DNA",
+        "Plasmid DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gene cloning involves the isolation of a bacterial cell of a fragment of any heterologous DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.1914,
+      "question": "The DNA to be cloned may be a fragment of genomic DNA obtained by which method?",
+      "options": [
+        "DNA ligation",
+        "Polymerase chain reaction",
+        "Enzyme digestion",
+        "Gel electrophoresis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The DNA to be cloned may be a fragment of genomic DNA obtained by restriction endonuclease digestion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3665,
+      "question": "In cloning using plasmid vectors, plasmids are reintroduced into host cells by which process?",
+      "options": [
+        "Transduction",
+        "Transformation",
+        "Recombinant DNA technology",
+        "Fusion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In cloning using plasmid vectors, plasmids are reintroduced into host cells by transformation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3518,
+      "question": "Markers on the cloning vectors allow the selection of cells containing which component?",
+      "options": [
+        "Plasmid DNA",
+        "Empty cloning vectors",
+        "Bacterial host DNA",
+        "Ribosomal RNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Markers on the cloning vectors allow selection of plasmid-containing cells and identification of those containing recombinant plasmid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9434,
+      "question": "To identify clones containing particular sequences, DNA from individual colonies is screened using which tool?",
+      "options": [
+        "Labelled DNA probe",
+        "Restriction enzyme",
+        "DNA ligase",
+        "Terminal transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA from individual colonies may be screened with a labelled DNA probe by colony hybridization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.6672,
+      "question": "Genetic engineering allows the introduction or removal of what?",
+      "options": [
+        "A defined trait",
+        "A specific gene",
+        "A cellular organelle",
+        "A viral particle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic engineering allows us to introduce a defined trait with the aid of a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.8806,
+      "question": "Gene therapy can resolve a genetic defect by which method?",
+      "options": [
+        "Adding new genes",
+        "Modifying the ribosome",
+        "Increasing protein synthesis",
+        "Removing the gene"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gene therapy can resolve a genetic defect by completely exterminating the defective gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3442,
+      "question": "A somatic cell is any normal cell of an organism that is not involved in which process?",
+      "options": [
+        "Metabolism",
+        "Reproduction",
+        "Respiration",
+        "Photosynthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A somatic cell is not involved in reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0334,
+      "question": "A fusogen is a substance that facilitates which cellular process?",
+      "options": [
+        "DNA replication",
+        "Cell fusion",
+        "Protein synthesis",
+        "Gene splicing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A fusogen facilitates cell fusion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9304,
+      "question": "The biochemical knowledge has opened new windows into which applied field?",
+      "options": [
+        "Astrophysics",
+        "Genetics",
+        "Geology",
+        "Meteorology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemical knowledge has opened new areas including genetic engineering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.342,
+      "question": "Which technique involves obtaining nuclei and cytoplasm from different cells?",
+      "options": [
+        "Cell fusion",
+        "DNA sequencing",
+        "Gene splicing",
+        "Transformation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cell fusion involves obtaining nuclei and cytoplasm from different cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.5518,
+      "question": "Recombinant DNA technology is a branch of which broader scientific field?",
+      "options": [
+        "Biotech",
+        "Astrophysics",
+        "Paleontology",
+        "Oceanography"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recombinant DNA technology is an area of biotechnology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.983,
+      "question": "A vector used in molecular manipulation is established in which type of entity?",
+      "options": [
+        "A test tube",
+        "A Petri dish",
+        "A host",
+        "A centrifuge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DNA is inserted into a vector and established in a host organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.4385,
+      "question": "The production of human growth hormones is used to treat children with which condition?",
+      "options": [
+        "Diabetes",
+        "Growth defects",
+        "Hepatitis B",
+        "Immune disorders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human growth hormones are for administration to children with growth defects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9685,
+      "question": "Gene therapy treats disease by incorporating DNA that encodes which type of product?",
+      "options": [
+        "A helpful protein",
+        "A toxic protein",
+        "A viral enzyme",
+        "A structural lipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gene therapy incorporates DNA that encodes a specific therapeutic protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.2996,
+      "question": "Terminal deoxynucleotidyl transferase adds nucleotides to which position of a DNA chain?",
+      "options": [
+        "5' terminal phosphate group",
+        "3' terminal OH group",
+        "2' terminal OH group",
+        "1' terminal base group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The enzyme adds nucleotides to the 3' terminal OH group of a DNA chain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.08,
+      "question": "The use of DNA probes has led to the production of a vaccine for which disease?",
+      "options": [
+        "Diabetes",
+        "Growth defects",
+        "Hepatitis B",
+        "Malaria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The technique has led to the production of a vaccine for hepatitis B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.3674,
+      "question": "A discussion on gene therapy is inconclusive without mentioning which technique?",
+      "options": [
+        "Gene splicing",
+        "Cellular manipulation",
+        "DNA sequencing",
+        "Protein synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A discussion on gene therapy is inconclusive without mentioning gene splicing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0286,
+      "question": "The latest method to cleave DNA for insertion uses which enzyme to yield single stranded ends?",
+      "options": [
+        "DNA ligase",
+        "Endonuclease",
+        "Terminal transferase",
+        "DNA polymerase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The latest method uses a restriction endonuclease to yield single stranded ends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.761,
+      "question": "When inserting foreign DNA into a cloning vector, both are treated with which substance to allow association?",
+      "options": [
+        "The same endonuclease",
+        "A different ligase",
+        "A specific polymerase",
+        "A terminal transferase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cloning vector is treated with the same endonuclease so that complementary ends associate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.5781,
+      "question": "The complementary ends of foreign DNA and cloning vector specifically associate under which conditions?",
+      "options": [
+        "Denaturing conditions",
+        "Annealing conditions",
+        "Oxidizing conditions",
+        "Reducing conditions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complementary ends specifically associate under annealing conditions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.6409,
+      "question": "The covalently joined DNA molecules are spliced through the action of which enzyme?",
+      "options": [
+        "Restriction endonuclease",
+        "DNA ligase",
+        "Terminal transferase",
+        "Helicase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The DNA is subsequently covalently joined through the action of DNA ligase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0073,
+      "question": "If foreign DNA and cloning vector have no common restriction sites, which enzyme may be used?",
+      "options": [
+        "DNA polymerase",
+        "Ligase",
+        "Terminal transferase",
+        "Restriction endonuclease"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terminal deoxynucleotidyl transferase may be used if there are no common restriction sites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.934,
+      "question": "In gene cloning, what is the purpose of obtaining a homogenous population of DNA molecules?",
+      "options": [
+        "To create a clone",
+        "To destroy the host cell",
+        "To prevent transformation",
+        "To induce mutation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The isolation is done in order to obtain a homogenous population, i.e., clone, of DNA molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.7961,
+      "question": "The production of human insulin has been facilitated by the synthesis of which product?",
+      "options": [
+        "DNA probes",
+        "Gene therapy",
+        "Cellular hybrids",
+        "Recombinant DNA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The synthesis of recombinant protein has led to the production of human insulin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.0188,
+      "question": "Which technique is essential for the formation of hybridoma cells for monoclonal antibodies?",
+      "options": [
+        "Cell fusion",
+        "DNA sequencing",
+        "Gene splicing",
+        "Transformation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cell fusion is an important step in the technique of forming hybridoma cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.8225,
+      "question": "The manipulation of recombinant DNA has many important applications in which field?",
+      "options": [
+        "Astrobiology",
+        "Paleontology",
+        "Biotech",
+        "Oceanography"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Recombinant DNA technology is an area of biotechnology with many important applications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.1714,
+      "question": "DNA probes are used in which technique to screen DNA from individual colonies?",
+      "options": [
+        "Colony hybridization",
+        "Gel electrophoresis",
+        "Polymerase chain reaction",
+        "Southern blotting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA from individual colonies may be screened with a labelled DNA probe by colony hybridization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9539,
+      "question": "Genetic engineering allows the introduction of a defined trait with the aid of which tool?",
+      "options": [
+        "A vector",
+        "A probe",
+        "A fusogen",
+        "A primer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic engineering allows us to introduce a defined trait with the aid of a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.028,
+      "question": "Which molecule is inserted into a host cell or organism during molecular manipulation?",
+      "options": [
+        "Natural genomic RNA",
+        "Synthetic protein",
+        "Cellular lipid",
+        "Artificial DNA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Artificial recombinant DNA molecules are inserted into a host cell or organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.509,
+      "question": "The insertion of foreign DNA into a cloning vector requires the vector to be cleaned with which substance?",
+      "options": [
+        "A restriction enzyme",
+        "A DNA ligase",
+        "A terminal transferase",
+        "A polymerase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cloning vector is cleaned with a restriction enzyme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.1162,
+      "question": "The gaps between vector and insert DNA are sealed with which enzyme?",
+      "options": [
+        "DNA ligase",
+        "Restriction endonuclease",
+        "Terminal transferase",
+        "Helicase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The gaps between vector and insert DNA are sealed with DNA ligase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792261078283.9216,
+      "question": "Gene therapy can resolve a genetic defect by completely exterminating which entity?",
+      "options": [
+        "The defective gene",
+        "The host cell",
+        "The viral vector",
+        "The recombinant protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gene therapy can resolve a genetic defect by completely exterminating the defective gene.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
