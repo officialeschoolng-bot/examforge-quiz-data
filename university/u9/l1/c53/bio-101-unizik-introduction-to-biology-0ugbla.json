@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-101-unizik-introduction-to-biology-0ugbla",
+  "quizId": "bio-101-unizik-intro-o0lgx9",
   "title": "BIO 101 ( UNIZIK ) : INTRODUCTION TO BIOLOGY",
-  "subject": "BIO 101 â€” General Biology I",
+  "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792694999906.1533,
+      "question": "Biology is derived from which Greek words?",
+      "options": [
+        "Bios and logos",
+        "Life and nature",
+        "Plants and animals",
+        "Cells and tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bios means life and logos means study.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.3962,
+      "question": "Biology is best defined as which of the following?",
+      "options": [
+        "Study of dead matter",
+        "Study of chemical salts",
+        "Science of life",
+        "Science of earth history"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biology is the science of life and living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.758,
+      "question": "Anatomy is the study of which of the following?",
+      "options": [
+        "Body structures",
+        "Chemical reactions",
+        "Gene heredity",
+        "Disease causes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anatomy deals with the structures of organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.609,
+      "question": "Biochemistry focuses on which of the following?",
+      "options": [
+        "Plant names",
+        "Cell chemistry",
+        "Animal behaviour",
+        "Fossil records"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemistry studies chemical reactions required for life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.412,
+      "question": "Bioinformatics uses information technology for which of the following?",
+      "options": [
+        "Disease spread",
+        "Plant growth",
+        "Genomic data",
+        "Animal motion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bioinformatics handles genomic and biological data using information technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.0454,
+      "question": "Biotechnology involves the manipulation of which of the following?",
+      "options": [
+        "Rock formation",
+        "Star mapping",
+        "Weather study",
+        "Living matter"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Biotechnology manipulates living matter including genetic modification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.3813,
+      "question": "Ecology studies interactions of organisms with which of the following?",
+      "options": [
+        "Environment",
+        "Fossil records",
+        "Genetic codes",
+        "Cell structures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ecology studies interactions between organisms and their environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.3733,
+      "question": "Genetics is the study of which of the following?",
+      "options": [
+        "Drugs and organisms",
+        "Genes and heredity",
+        "Cells and tissues",
+        "Plants and animals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genetics focuses on genes and heredity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.5596,
+      "question": "Physiology is the study of which of the following?",
+      "options": [
+        "Disease causes",
+        "Organ structures",
+        "Body functions",
+        "Fossil records"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physiology studies functions and mechanisms in living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.639,
+      "question": "Microbiology is the study of which of the following?",
+      "options": [
+        "Large animals",
+        "Fossil plants",
+        "Microbes",
+        "Human behaviour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microbiology studies microscopic organisms and their interactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.7068,
+      "question": "Living things include plants animals and which other group?",
+      "options": [
+        "Mineral crystals",
+        "Microorganisms",
+        "Rock fragments",
+        "Gaseous matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Living things include plants animals and microorganisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.9348,
+      "question": "Living things were initially classified into which two groups?",
+      "options": [
+        "Plants and animals",
+        "Fungi and protists",
+        "Bacteria and archaea",
+        "Monera and fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Early classification placed living things as plants or animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.296,
+      "question": "Both plants and animals have which cell type?",
+      "options": [
+        "Prokaryotic",
+        "Eukaryotic",
+        "Bacterial",
+        "Viral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plants and animals are both eukaryotic organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.8955,
+      "question": "Animals are generally described as which of the following?",
+      "options": [
+        "Non motile and autotrophic",
+        "Motile and heterotrophic",
+        "Motile and autotrophic",
+        "Non motile and heterotrophic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animals are motile and heterotrophic organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.7095,
+      "question": "Bacteria are neither plants nor animals because they are which of the following?",
+      "options": [
+        "Eukaryotes",
+        "Prokaryotes",
+        "Fungi",
+        "Protists"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bacteria are prokaryotes and lack a nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.0952,
+      "question": "Classification of living things includes how many levels?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The levels are kingdom phylum class order family genus and species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.8584,
+      "question": "The most fundamental classification of living things is which of the following?",
+      "options": [
+        "Kingdom",
+        "Phylum",
+        "Species",
+        "Family"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kingdom is the most fundamental classification level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.2312,
+      "question": "The current number of kingdoms is which of the following?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The five kingdoms are Animalia Plantae Monera Protista and Fungi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.951,
+      "question": "Placement into kingdoms is based on food acquisition cell type and which other factor?",
+      "options": [
+        "Cell number",
+        "Fossil age",
+        "Body colour",
+        "Habitat size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kingdoms are based on food acquisition cell type and cell number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.2703,
+      "question": "Phylum follows which classification level?",
+      "options": [
+        "Kingdom",
+        "Subspecies",
+        "Family",
+        "Order"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phylum comes after kingdom in the classification hierarchy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.1409,
+      "question": "Phylum seeks physical resemblance that suggests which of the following?",
+      "options": [
+        "Common ancestry",
+        "Random mutation",
+        "Separate origin",
+        "Recent extinction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physical similarities in a phylum suggest common ancestry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.2388,
+      "question": "Classes further subdivide which classification level?",
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Species",
+        "Family"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Classes are subdivisions of a phylum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.9941,
+      "question": "Humans belong to the mammal class because they do which of the following?",
+      "options": [
+        "Lay eggs",
+        "Drink milk",
+        "Have scales",
+        "Breathe water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mammals are named for drinking milk as babies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.8208,
+      "question": "Orders are further broken down from which classification level?",
+      "options": [
+        "Class",
+        "Genus",
+        "Family",
+        "Species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Orders are subdivisions of classes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.906,
+      "question": "A taxonomy key is best described as which of the following?",
+      "options": [
+        "Habitat records",
+        "Trait checklist",
+        "Fossil records",
+        "Gene maps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A taxonomy key is a checklist of characteristics used for grouping.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.3223,
+      "question": "Orders are divided into which classification level?",
+      "options": [
+        "Families",
+        "Subfamilies",
+        "Species",
+        "Orders"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Families are the classification level below order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.2637,
+      "question": "Organisms within a family are said to be related because of which of the following?",
+      "options": [
+        "Familiarity",
+        "Geographic separation",
+        "Random mutation",
+        "Recent extinction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Family members are considered related because of familiarity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.6462,
+      "question": "Genus completes which part of the two-part name?",
+      "options": [
+        "First part",
+        "Second part",
+        "Third part",
+        "Fourth part"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genus forms the first part of an organism's two-part name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.5557,
+      "question": "Genus classification is very specific so it contains which of the following?",
+      "options": [
+        "More species",
+        "Fewer forms",
+        "No species",
+        "Larger groups"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A genus is specific and contains fewer organisms than higher levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.2375,
+      "question": "Species is which classification level?",
+      "options": [
+        "Lowest and exact",
+        "Highest and broad",
+        "Middle and vague",
+        "First and general"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Species is the lowest and most exacting classification level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.9795,
+      "question": "The main pattern for species placement is the ability to do which of the following?",
+      "options": [
+        "Interbreed",
+        "Share habitat",
+        "Eat same food",
+        "Live together"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organisms of the same species can breed with one another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.472,
+      "question": "Animalia cell wall is which of the following?",
+      "options": [
+        "Present",
+        "Absent",
+        "Thick",
+        "Cellulosic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animalia cells lack a cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.36,
+      "question": "Plantae mode of nutrition is which of the following?",
+      "options": [
+        "Heterotrophic",
+        "Autotrophic",
+        "Saprophytic",
+        "Parasitic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plantae are autotrophic organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999908.9539,
+      "question": "Monera nuclear membrane is which of the following?",
+      "options": [
+        "Present",
+        "Absent",
+        "Porous",
+        "Double"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monera are prokaryotes and lack a nuclear membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.0837,
+      "question": "Protista is described as which of the following?",
+      "options": [
+        "Multicellular",
+        "Unicellular",
+        "Colonial",
+        "Tissue level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Protista are unicellular eukaryotic organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.5261,
+      "question": "Fungi cannot make their own food because they are which of the following?",
+      "options": [
+        "Autotrophic",
+        "Heterotrophic",
+        "Photosynthetic",
+        "Chemosynthetic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fungi are heterotrophic and cannot make their own food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.7922,
+      "question": "Monera cell wall is which of the following?",
+      "options": [
+        "Cellulosic",
+        "Noncellulosic",
+        "Absent",
+        "Chitinous layer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monera have a noncellulosic cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.3967,
+      "question": "Animalia organization level includes which of the following?",
+      "options": [
+        "Tissues",
+        "Single cells",
+        "No tissues",
+        "Colonial cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Animalia show tissue organ or organ system organization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.2637,
+      "question": "Organisms are classified by source of energy and source of which element?",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Water",
+        "Oxygen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Classification considers energy source and carbon source.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.7737,
+      "question": "Autotrophs use inorganic sources while heterotrophs consume which of the following?",
+      "options": [
+        "Organic matter",
+        "Sunlight only",
+        "Inorganic salts",
+        "Pure water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heterotrophs obtain energy by consuming organic matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.6423,
+      "question": "Autotrophs produce energy-rich organic compounds using which sources?",
+      "options": [
+        "Organic matter",
+        "Inorganic salts",
+        "Host cells",
+        "Other organisms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Autotrophs use inorganic sources to make organic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.9521,
+      "question": "Autotroph examples include plants algae and which of the following?",
+      "options": [
+        "Fungi",
+        "Bacteria",
+        "Animals",
+        "Protozoa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some bacteria are autotrophic along with plants and algae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.0527,
+      "question": "Heterotrophs obtain energy by consuming which of the following?",
+      "options": [
+        "Sunlight",
+        "Organic matter",
+        "Inorganic salts",
+        "Pure water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heterotrophs rely on organic matter for energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.9492,
+      "question": "Heterotroph examples include animals fungi and which of the following?",
+      "options": [
+        "Bacteria",
+        "Green algae",
+        "Some plants",
+        "All viruses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most bacteria are heterotrophic along with animals and fungi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.9143,
+      "question": "Autotrophs are divided into photoautotrophs and which other type?",
+      "options": [
+        "Chemoautotrophs",
+        "Heterotrophs",
+        "Photoheterotrophs",
+        "Chemoheterotrophs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two autotroph types are photoautotrophs and chemoautotrophs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.1648,
+      "question": "Photoautotrophs use which energy source?",
+      "options": [
+        "Sunlight",
+        "Chemicals",
+        "Host cells",
+        "Organic matter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photoautotrophs use sunlight for photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.9768,
+      "question": "Chemoautotrophs use energy from which of the following?",
+      "options": [
+        "Sunlight",
+        "Chemicals",
+        "Organic matter",
+        "Host cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemoautotrophs use energy from chemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.6697,
+      "question": "Heterotrophs are divided into photoheterotrophs and which other type?",
+      "options": [
+        "Chemoheterotrophs",
+        "Autotrophs",
+        "Photoautotrophs",
+        "Chemoautotrophic forms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The two heterotroph types are photoheterotrophs and chemoheterotrophs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.3274,
+      "question": "Photoheterotrophs obtain energy from sunlight and carbon from which of the following?",
+      "options": [
+        "Organic matter",
+        "Inorganic salts",
+        "Pure water",
+        "Air only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photoheterotrophs use sunlight for energy but organic matter for carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792694999909.983,
+      "question": "Chemoheterotrophs obtain energy by consuming which of the following?",
+      "options": [
+        "Sunlight",
+        "Organics",
+        "Inorganic salts",
+        "Pure water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemoheterotrophs consume organic compounds produced by other organisms.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
