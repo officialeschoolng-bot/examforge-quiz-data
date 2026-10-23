@@ -1,18 +1,440 @@
 {
-  "quizId": "phy-101-uniniger-measurement-quantities--li2c44",
+  "quizId": "phy-101-uniniger-mea-746405",
   "title": "PHY 101 (UNINIGER): MEASUREMENT, QUANTITIES AND UNITS",
-  "subject": "PHY 101 â€” PHY 101 Course",
+  "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1791917647936.7253,
+      "question": "Which of the following best defines a physical quantity?",
+      "options": [
+        "A standard unit",
+        "A measurable property ",
+        "A measuring instrument",
+        "A derived unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A physical quantity is a property of a body that can be measured and expressed as a number with a unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.4163,
+      "question": "A physical quantity is measured by comparing it with a:",
+      "options": [
+        "standard unit",
+        "yardstick",
+        "measuring instrument",
+        "physical property"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Measurement involves comparing a quantity with a standard unit of the same kind.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.6409,
+      "question": "In many local markets, grains are commonly measured using:",
+      "options": [
+        "cups and bags",
+        "metres and litres",
+        "kilograms and grams",
+        "seconds and hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In local markets, grains and similar items are often measured using cups, bowls, baskets, or bags.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.0469,
+      "question": "Which statement about fundamental quantities is correct?",
+      "options": [
+        "They are derived from other quantities",
+        "They are independent of other quantities",
+        "They are always vector quantities",
+        "They are combinations of derived quantities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fundamental quantities are basic quantities that do not depend on other quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.3643,
+      "question": "Which of the following is a fundamental quantity?",
+      "options": [
+        "Area",
+        "Volume",
+        "Density",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Temperature is a fundamental quantity; area, volume, and density are derived quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.1082,
+      "question": "Fundamental units are the units of:",
+      "options": [
+        "derived quantities",
+        "fundamental quantities",
+        "complex quantities",
+        "vector quantities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fundamental units are used to measure fundamental quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.7305,
+      "question": "The SI unit of mass is the:",
+      "options": [
+        "kilogram",
+        "gram",
+        "metre",
+        "second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of mass is the kilogram (kg).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.0205,
+      "question": "The SI unit of time is the:",
+      "options": [
+        "second",
+        "minute",
+        "hour",
+        "day"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of time is the second (s).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.6182,
+      "question": "The SI unit of electric current is the:",
+      "options": [
+        "ampere",
+        "volt",
+        "ohm",
+        "watt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of electric current is the ampere (A).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647936.9443,
+      "question": "The SI unit of thermodynamic temperature is the:",
+      "options": [
+        "kelvin",
+        "degree Celsius",
+        "degree Fahrenheit",
+        "rankine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of temperature is the kelvin (K).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.4446,
+      "question": "The SI unit of amount of substance is the:",
+      "options": [
+        "mole",
+        "gram",
+        "litre",
+        "kilogram"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of amount of substance is the mole (mol).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.635,
+      "question": "The SI unit of luminous intensity is the:",
+      "options": [
+        "candela",
+        "lumen",
+        "lux",
+        "watt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI base unit of luminous intensity is the candela (cd).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.4688,
+      "question": "SI units are accepted:",
+      "options": [
+        "only by local traders",
+        "internationally by scientists",
+        "only by engineers in one country",
+        "only by students"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SI units are internationally accepted standards for measurement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.36,
+      "question": "Derived quantities are obtained by:",
+      "options": [
+        "adding two quantities",
+        "multiplying two quantities",
+        "combining fundamental quantities",
+        "choosing quantities at random"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Derived quantities are obtained by combining fundamental quantities according to physical relationships.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.77,
+      "question": "Which of the following is a derived quantity?",
+      "options": [
+        "Area",
+        "Mass",
+        "Time",
+        "Length"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Area is derived from length and breadth; mass, time, and length are fundamental quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.876,
+      "question": "Derived units are obtained from:",
+      "options": [
+        "fundamental units",
+        "imperial units",
+        "local units",
+        "historical units"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Derived units are formed by combining fundamental units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.0344,
+      "question": "The derived SI unit of velocity is:",
+      "options": [
+        "m s⁻¹",
+        "m s",
+        "m",
+        "m s⁻²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Velocity is displacement divided by time, so its unit is metre per second (m s⁻¹).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.823,
+      "question": "The derived SI unit of acceleration is:",
+      "options": [
+        "m s⁻¹",
+        "m s",
+        "m",
+        "m s⁻²"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acceleration is change in velocity divided by time, so its unit is metre per second squared (m s⁻²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.0557,
+      "question": "The derived SI unit of momentum is:",
+      "options": [
+        "kg m s⁻¹",
+        "kg m s⁻²",
+        "kg m² s⁻¹",
+        "kg m² s⁻²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum is mass × velocity, so its unit is kg m s⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.4119,
+      "question": "The derived SI unit of work or energy is:",
+      "options": [
+        "kg m² s⁻²",
+        "kg m s⁻²",
+        "kg m² s⁻¹",
+        "kg m s⁻¹"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work is force × distance, so its unit is kg m² s⁻², also called the joule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.7507,
+      "question": "The derived SI unit of power is:",
+      "options": [
+        "kg m² s⁻³",
+        "kg m² s⁻²",
+        "kg m s⁻³",
+        "kg m² s⁻¹"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power is work divided by time, so its unit is kg m² s⁻³, also called the watt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.2683,
+      "question": "The derived SI unit of pressure is:",
+      "options": [
+        "kg m s⁻²",
+        "kg m⁻¹ s⁻²",
+        "kg m² s⁻²",
+        "kg m⁻² s⁻²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure is force per unit area, so its unit is kg m⁻¹ s⁻².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.4724,
+      "question": "The derived SI unit of density is:",
+      "options": [
+        "kg m⁻³",
+        "kg m³",
+        "kg m⁻²",
+        "kg m²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Density is mass divided by volume, so its unit is kg m⁻³.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.3972,
+      "question": "In the standard method of unit derivation, how many steps are involved?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The standard unit-derivation method involves six steps.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.7703,
+      "question": "The unit of force is derived as:",
+      "options": [
+        "kg m s⁻²",
+        "kg m² s⁻²",
+        "kg m s²",
+        "kg m⁻¹ s⁻²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Force is mass × acceleration, so its unit is kg m s⁻², also called the newton.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.2417,
+      "question": "The derived unit of pressure can be expressed as:",
+      "options": [
+        "kg m s⁻²",
+        "kg m⁻¹ s⁻²",
+        "kg m⁻² s⁻²",
+        "kg m² s⁻²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pressure = force/area = kg m s⁻² ÷ m² = kg m⁻¹ s⁻².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.669,
+      "question": "The three fundamental dimensions used in mechanics are length, mass, and:",
+      "options": [
+        "time",
+        "force",
+        "energy",
+        "power"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In mechanics, the fundamental dimensions are length, mass, and time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917647937.8042,
+      "question": "The dimension of power is:",
+      "options": [
+        "M L² T⁻³",
+        "M L² T⁻²",
+        "M L T⁻²",
+        "M L T⁻¹"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power = work/time = M L² T⁻² ÷ T = M L² T⁻³.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917950289.8635,
+      "question": "Which of the following sets contains only fundamental quantities?",
+      "options": [
+        "Area, volume, density",
+        "Force, energy, power",
+        "Length, mass, time",
+        "Velocity, acceleration, momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Length, mass, and time are fundamental quantities; area, volume, density, force, energy, power, velocity, acceleration, and momentum are derived.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1791917950289.7012,
+      "question": "The dimension of force is:",
+      "options": [
+        "M L² T⁻²",
+        "M L T⁻¹",
+        "M L T⁻²",
+        "M L² T⁻³"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Force = mass × acceleration, so its dimension is M × L T⁻² = M L T⁻².",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
