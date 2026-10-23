@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-102-unn-revision-quiz-1-ztb7ar",
+  "quizId": "chm-102-unn-revision-2apmhb",
   "title": "CHM 102 ( UNN ) : REVISION QUIZ 1",
-  "subject": "CHM 102 â€” CHM 102 Course",
+  "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792590553040.8547,
+      "question": "Acyclic alkanes have which general formula?",
+      "options": [
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2n-2",
+        "CnH2n+1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acyclic alkanes have the general formula CnH2n+2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.9277,
+      "question": "Which hybridization is found on each carbon atom of an alkane?",
+      "options": [
+        "sp",
+        "sp2",
+        "sp3",
+        "sp3d"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each carbon atom in an alkane has sp3 hybrid orbitals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.738,
+      "question": "Markovnikov addition places hydrogen on which alkene carbon?",
+      "options": [
+        "carbon with fewer H",
+        "carbon with no H",
+        "carbon with more H",
+        "carbon with one H"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Markovnikov addition places hydrogen on the carbon that already has more hydrogen atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.377,
+      "question": "Terminal alkynes contain which acidic atom?",
+      "options": [
+        "H",
+        "C",
+        "O",
+        "X"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Terminal alkynes contain an acidic hydrogen attached to the triple bond carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.7832,
+      "question": "Catalytic hydrogenation of alkenes uses which catalyst?",
+      "options": [
+        "Na",
+        "Zn",
+        "Fe",
+        "Ni"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nickel, platinum, or palladium catalyzes alkene hydrogenation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.6277,
+      "question": "Alkyl halides contain a halogen bonded to which carbon type?",
+      "options": [
+        "sp carbon",
+        "sp2 carbon",
+        "sp3 carbon",
+        "sp3d carbon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkyl halides have a halogen covalently bonded to an sp3 hybridized carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.5615,
+      "question": "A tertiary alkyl halide has the halogen attached to a carbon bonded to how many alkyl groups?",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a tertiary alkyl halide the halogen-bearing carbon is bonded to three alkyl groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.742,
+      "question": "SN2 reaction rate depends on concentrations of which species?",
+      "options": [
+        "substrate only",
+        "nucleophile only",
+        "leaving group only",
+        "both reactants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "SN2 is bimolecular and its rate depends on both substrate and nucleophile concentrations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.2888,
+      "question": "SN1 proceeds through which intermediate?",
+      "options": [
+        "carbanion",
+        "carbocation",
+        "radical",
+        "alkene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SN1 reactions proceed through a carbocation intermediate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.449,
+      "question": "E2 requires leaving group and beta hydrogen to be in which arrangement?",
+      "options": [
+        "syn periplanar",
+        "fully eclipsed",
+        "anti periplanar",
+        "partially eclipsed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E2 needs an anti periplanar arrangement for optimal orbital overlap.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.58,
+      "question": "Most stable carbon allotrope at normal conditions is which form?",
+      "options": [
+        "beta form",
+        "lonsdaleite",
+        "alpha form",
+        "diamond"
+      ],
+      "correctAnswer": 2,
+      "explanation": "alpha graphite is the most stable carbon form at normal temperature and pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.0178,
+      "question": "C60 contains how many pentagonal rings?",
+      "options": [
+        "20",
+        "12",
+        "10",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C60 has 12 pentagons and 20 hexagons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.1177,
+      "question": "Nanotechnology manipulates matter at scales of approximately which range?",
+      "options": [
+        "1 to 100 nm",
+        "1 to 100 um",
+        "1 to 100 mm",
+        "1 to 100 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nanotechnology operates at about 1 to 100 nm in at least one dimension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.8384,
+      "question": "Carbon nanotubes are rolled sheets of which material?",
+      "options": [
+        "graphene",
+        "graphite",
+        "diamond",
+        "silica"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CNTs are formed by rolling graphene sheets into tubes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4612,
+      "question": "Silicon belongs to which group of the periodic table?",
+      "options": [
+        "Group 14",
+        "Group 13",
+        "Group 15",
+        "Group 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Silicon is a Group 14 element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.547,
+      "question": "The carboxyl functional group consists of a carbonyl group bonded to which group?",
+      "options": [
+        "amino group",
+        "hydroxyl group",
+        "halogen atom",
+        "alkyl group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The carboxyl group contains a carbonyl C=O directly bonded to an OH group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.1506,
+      "question": "Carboxylic acids are named by replacing the terminal -e of the alkane with which suffix?",
+      "options": [
+        "-ol",
+        "-oic acid",
+        "-al",
+        "-amine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IUPAC names for carboxylic acids end with -oic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.2153,
+      "question": "Carboxylic acids are classified as which type of acids?",
+      "options": [
+        "strong acids",
+        "weak acids",
+        "superacids",
+        "neutral compounds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carboxylic acids only partially ionize in water, making them weak acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.863,
+      "question": "The reaction of a carboxylic acid and an alcohol with an acid catalyst is called which process?",
+      "options": [
+        "Fischer esterification",
+        "hydrolysis",
+        "ammonolysis",
+        "saponification"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acid-catalyzed ester formation is known as Fischer esterification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.8506,
+      "question": "Amides can be reduced by lithium aluminum hydride to give which product?",
+      "options": [
+        "alcohols",
+        "amines",
+        "alkenes",
+        "acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LiAlH4 reduces amides to amines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4436,
+      "question": "Group 1 elements have which valence configuration?",
+      "options": [
+        "ns2",
+        "np1",
+        "ns1",
+        "nd1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkali metals have one valence electron in an ns orbital.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4744,
+      "question": "Sodium metal is extracted by electrolysis of which molten compound?",
+      "options": [
+        "sodium chloride",
+        "sodium hydroxide",
+        "sodium carbonate",
+        "sodium nitrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Down's process electrolyses molten sodium chloride.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.2288,
+      "question": "Flame test color for sodium is which?",
+      "options": [
+        "crimson red",
+        "yellow",
+        "pale violet",
+        "sky blue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sodium gives a yellow flame color.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.772,
+      "question": "Alkaline earth metals have which valence configuration?",
+      "options": [
+        "ns2",
+        "ns1",
+        "np2",
+        "nd2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group IIA elements have two valence electrons in an ns orbital.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.5884,
+      "question": "Plaster of Paris is formed by heating gypsum to which temperature?",
+      "options": [
+        "200 C",
+        "120 C",
+        "400 C",
+        "800 C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heating gypsum at about 120 C gives calcium sulphate hemihydrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.3496,
+      "question": "Organic chemistry deals with compounds containing which elements?",
+      "options": [
+        "C only",
+        "Metals",
+        "C and H",
+        "Nonmetals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Organic chemistry deals with compounds containing carbon, hydrogen, and other non-metal elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.1963,
+      "question": "Wohler synthesized urea in which year?",
+      "options": [
+        "1830",
+        "1820",
+        "1840",
+        "1828"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Wohler synthesized urea in 1828.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.445,
+      "question": "August Kekulé proposed the theory of what type of carbon?",
+      "options": [
+        "Divalent",
+        "Trivalent",
+        "Tetravalent",
+        "Pentavalent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kekulé proposed the theory of tetravalent carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4397,
+      "question": "Biochemistry combines organic chemistry with which field?",
+      "options": [
+        "Physics",
+        "Geology",
+        "Biology",
+        "Mathematics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biochemistry combines organic chemistry with biology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.996,
+      "question": "Berzelius proposed which theory regarding carbon compounds?",
+      "options": [
+        "Atomic",
+        "Molecular",
+        "Vital",
+        "Kinetic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Berzelius proposed the vital force theory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.5742,
+      "question": "Molecularity refers to the number of what in a step?",
+      "options": [
+        "Molecules",
+        "Products",
+        "Bonds",
+        "Steps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molecularity is the number of species that must collide to produce the reaction indicated by that step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.6006,
+      "question": "A termolecular reaction involves how many reactant molecules?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A termolecular reaction requires the collision of three reactant molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.3806,
+      "question": "The slowest step in a reaction mechanism is called which?",
+      "options": [
+        "Slow step",
+        "Fast step",
+        "First step",
+        "Last step"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In multiple-step reactions, the slowest step determines the rate and is called the rate-determining step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.7751,
+      "question": "The Arrhenius equation relates rate constant to which two factors?",
+      "options": [
+        "T and Ea",
+        "Pressure",
+        "Mass",
+        "Color"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Arrhenius equation expresses the dependence of the rate constant on absolute temperature and activation energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.9224,
+      "question": "A catalyst that is present in the same phase as reactants is called which?",
+      "options": [
+        "Heterogeneous",
+        "Homogeneous",
+        "Enzymatic",
+        "Surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A homogeneous catalyst is present in the same phase as the reacting molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4229,
+      "question": "Elements in the d-block are referred to as which type of transition elements?",
+      "options": [
+        "Inner transition",
+        "Outer transition",
+        "Rare earth",
+        "Noble metal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The d-block elements are referred to as Outer Transition Elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4497,
+      "question": "The main ore of Titanium is which mineral?",
+      "options": [
+        "Ilmenite",
+        "Rutile",
+        "Perovskite",
+        "Anatase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ilmenite is the main ore of Titanium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4226,
+      "question": "Haematite is an ore of Iron with which formula?",
+      "options": [
+        "Fe3O4",
+        "Fe2O3",
+        "FeCO3",
+        "FeS2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haematite is alpha-Fe2O3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.157,
+      "question": "Cobalt occurs as which ore?",
+      "options": [
+        "Cobaltite",
+        "Skutterudite",
+        "Pentlandite",
+        "Chalcopyrite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cobalt occurs as Cobaltite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.2822,
+      "question": "Zinc blende is also known as which mineral?",
+      "options": [
+        "Sphalerite",
+        "Smithsonite",
+        "Hemimorphite",
+        "Calamine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zinc blende is also known as Sphalerite.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.9133,
+      "question": "Transition metals are found in which block of the periodic table?",
+      "options": [
+        "s-block",
+        "p-block",
+        "d-block",
+        "f-block"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transition metals are located in the d-block, groups 3 through 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.5034,
+      "question": "When transition metals form cations they lose which electrons first?",
+      "options": [
+        "ns electrons",
+        "nd electrons",
+        "np electrons",
+        "nf electrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transition metals lose their ns electrons first when forming ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.0461,
+      "question": "A molecule or ion that donates an electron pair to a metal is called which?",
+      "options": [
+        "ligand",
+        "catalyst",
+        "chelate",
+        "isomer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ligands donate electron pairs to the central metal to form coordinate bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.4111,
+      "question": "A low spin complex forms when the splitting energy is which?",
+      "options": [
+        "larger than pairing energy",
+        "smaller than pairing energy",
+        "zero",
+        "negative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Low spin occurs when the crystal field splitting energy exceeds the pairing energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.195,
+      "question": "Iron is used as a catalyst in which industrial process?",
+      "options": [
+        "Haber process",
+        "Contact process",
+        "Ostwald process",
+        "Solvay process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iron catalyzes the Haber process for ammonia synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.984,
+      "question": "Normal alkanes from C1 to C4 are in which physical state at room temperature?",
+      "options": [
+        "liquids",
+        "gases",
+        "solids",
+        "plasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Normal alkanes with one to four carbons are colourless gases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.7812,
+      "question": "Lucas Test gives immediate turbidity with which alcohol class?",
+      "options": [
+        "primary",
+        "tertiary",
+        "secondary",
+        "methyl"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tertiary alcohols react fastest with Lucas reagent and give immediate turbidity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.29,
+      "question": "Heterogeneous catalysis occurs when catalyst and reactants are in which arrangement?",
+      "options": [
+        "Two phases",
+        "One phase",
+        "Three phases",
+        "Four phases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In heterogeneous catalysis, the catalyst exists in a different phase from the reacting species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.6191,
+      "question": "Which derivative of carboxylic acid is the most reactive?",
+      "options": [
+        "amide",
+        "ester",
+        "carboxylate salt",
+        "acid chloride"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acid chlorides are the most reactive of the common carboxylic acid derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590553042.6104,
+      "question": "Hemoglobin contains which transition metal?",
+      "options": [
+        "copper",
+        "iron",
+        "zinc",
+        "magnesium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Iron is present in the heme group of hemoglobin.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
