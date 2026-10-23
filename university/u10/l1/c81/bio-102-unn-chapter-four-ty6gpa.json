@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-102-unn-chapter-four-ty6gpa",
-  "title": "BIO 102 ( UNN ) : CHAPTER FOUR",
-  "subject": "BIO 102 â€” BIO 102 Course",
+  "quizId": "bio-251-unn-chapter--h1yqyn",
+  "title": "BIO 251 ( UNN ) : CHAPTER FOUR",
+  "subject": "BIO 251",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792075151746.4902,
+      "question": "What is the standard free energy change for oxidative decarboxylation of pyruvate to acetyl CoA?",
+      "options": [
+        "-33.4",
+        "+33.4",
+        "-25.1",
+        "+25.1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The standard free energy change for oxidative decarboxylation of pyruvate to acetyl CoA is -33.4 kJ/mol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5845,
+      "question": "How many steps are involved in the tricarboxylic acid cycle?",
+      "options": [
+        "Six",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tricarboxylic acid cycle is an eight-step reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.266,
+      "question": "Complete oxidation of one acetyl-CoA in the TCA cycle produces how many molecules of CO2?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complete oxidation of one acetyl-CoA in the TCA cycle produces two molecules of CO2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.427,
+      "question": "Complete oxidation of one acetyl-CoA in the TCA cycle produces how many molecules of NADH?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complete oxidation of one acetyl-CoA in the TCA cycle produces three molecules of NADH.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5718,
+      "question": "Complete oxidation of one acetyl-CoA in the TCA cycle produces how many molecules of FADH2?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complete oxidation of one acetyl-CoA in the TCA cycle produces two molecules of FADH2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.4978,
+      "question": "The TCA cycle is also known by which other name?",
+      "options": [
+        "Urea",
+        "Citric",
+        "Calvin",
+        "Cori"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The TCA cycle is also known as the citric acid cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.7888,
+      "question": "Who propounded the tricarboxylic acid cycle?",
+      "options": [
+        "Han's Krebs",
+        "Embden",
+        "Meyerhof",
+        "Peter Mitchell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The TCA cycle was propounded by Han's Krebs in 1932.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.9917,
+      "question": "In the TCA cycle, acetyl-CoA condenses with which molecule to form citrate?",
+      "options": [
+        "Pyruvate",
+        "Citrate",
+        "Malate",
+        "OAA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Two molecules of acetyl-CoA condense with two molecules of oxaloacetate to form citrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.7983,
+      "question": "How many pairs of NADH are produced when a molecule of glucose is degraded in the TCA cycle?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Three pairs of NADH are produced in the TCA cycle when a molecule of glucose is degraded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.0874,
+      "question": "How many pairs of FADH2 are produced when a molecule of glucose is degraded in the TCA cycle?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One pair of FADH2 is produced in the TCA cycle when a molecule of glucose is degraded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.961,
+      "question": "Where do all the reactions of the TCA cycle occur?",
+      "options": [
+        "Cytosol",
+        "Matrix",
+        "Nucleus",
+        "Vesicle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All reactions of the TCA cycle occur in the mitochondrial matrix.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.048,
+      "question": "Which membrane of the mitochondria is impermeable to most small molecules and ions?",
+      "options": [
+        "Outer",
+        "Inner",
+        "Cristae",
+        "Matrix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inner membrane is impermeable to most small molecules and ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1343,
+      "question": "Which complex is contained within the mitochondrial matrix?",
+      "options": [
+        "ATP synthase",
+        "PDH complex",
+        "DNA polymerase",
+        "Ribosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mitochondrial matrix contains the pyruvate dehydrogenase complex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.122,
+      "question": "The TCA cycle starts with oxaloacetate and acetyl CoA but ends with regeneration of which molecule?",
+      "options": [
+        "Citrate",
+        "OAA",
+        "Malate",
+        "Pyruvate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The TCA cycle starts with oxaloacetate and acetyl CoA but ends with regeneration of oxaloacetate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.901,
+      "question": "In aerobic cells, pyruvate is oxidized to which molecule?",
+      "options": [
+        "Lactate",
+        "Ethanol",
+        "AcCoA",
+        "Citrate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In aerobic cells, pyruvate is oxidized to acetyl CoA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5933,
+      "question": "What is the final acceptor of electrons in the electron transport chain?",
+      "options": [
+        "NAD+",
+        "FAD",
+        "Oxygen",
+        "Cytochrome c"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The final acceptor of electrons in the electron transport chain is molecular oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.861,
+      "question": "When molecular oxygen accepts electrons, it becomes completely reduced to which molecule?",
+      "options": [
+        "Peroxide",
+        "Water",
+        "Radical",
+        "Superoxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molecular oxygen accepting electrons becomes completely reduced to water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1614,
+      "question": "How many sites in the electron transport chain produce ATP?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are three sites in the electron transport chain where ATPs are produced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.809,
+      "question": "FADH2 based dehydrogenases produce ATP at how many points in the chain?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FADH2 based dehydrogenases produce ATP only at two points in the chain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.6719,
+      "question": "Which complex is inhibited by rotenone?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex I is inhibited by rotenone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.8752,
+      "question": "Which complex is inhibited by antimycin A?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complex III is inhibited by antimycin A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.8167,
+      "question": "Which complex is inhibited by cyanide?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Complex IV is inhibited by cyanide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.269,
+      "question": "What is a typical example of an uncoupler?",
+      "options": [
+        "Rotenone",
+        "Antimycin",
+        "2,4-DNP",
+        "Cyanide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A typical example of an uncoupler is 2,4-dinitrophenol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.6562,
+      "question": "Who postulated the chemiosmotic theory?",
+      "options": [
+        "Peter Mitchell",
+        "Han's Krebs",
+        "Embden",
+        "Meyerhof"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chemiosmotic theory was postulated by Peter Mitchell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1824,
+      "question": "In which year did Peter Mitchell win the Nobel Prize?",
+      "options": [
+        "1961",
+        "1978",
+        "1932",
+        "1955"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peter Mitchell won the Nobel Prize in 1978.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.8232,
+      "question": "What is generated across the mitochondrial membrane during electron transfer?",
+      "options": [
+        "Electron gradient",
+        "Proton gradient",
+        "Sodium gradient",
+        "Calcium gradient"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During electron transfer, protons are expelled leading to a proton gradient across the mitochondrial membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1445,
+      "question": "The free energy stored in the proton gradient is used to synthesize ATP from which molecules?",
+      "options": [
+        "AMP and Pi",
+        "ADP and Pi",
+        "ATP and Pi",
+        "ADP and H2O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The free energy stored in the gradient is used to synthesize ATP from ADP and Pi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1104,
+      "question": "What is the specific name for Complex I?",
+      "options": [
+        "Succinate-ubiquinone",
+        "NADH-ubiquinone",
+        "Ubiquinol-cytC",
+        "Cytochrome C oxidase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complex I is specifically known as NADH-ubiquinone oxidoreductase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.7502,
+      "question": "Which complex does not synthesize ATP?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complex II does not synthesize ATP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5825,
+      "question": "What is the specific name for Complex III?",
+      "options": [
+        "NADH-ubiquinone",
+        "Succinate-ubiquinone",
+        "Ubiquinol-cytC",
+        "Cytochrome C oxidase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complex III is specifically known as Ubiquinol-cytC oxidoreductase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.6038,
+      "question": "What is the specific name for Complex IV?",
+      "options": [
+        "Cytochrome C oxidase",
+        "NADH-ubiquinone",
+        "Succinate-ubiquinone",
+        "Ubiquinol-cytC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex IV is specifically known as Cytochrome C oxidase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.365,
+      "question": "Which inhibitor inhibits Complex IV?",
+      "options": [
+        "Rotenone",
+        "Antimycin",
+        "Cyanide",
+        "Amytal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inhibitors of Complex IV include cyanide, CO, H2S, and Azide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.8418,
+      "question": "Which inhibitors inhibit Complex I?",
+      "options": [
+        "Rotenone, piericidin A, amytal",
+        "Antimycin A",
+        "Cyanide",
+        "CO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inhibitors of Complex I include rotenone, piericidin A, and amytal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.3792,
+      "question": "Electron transport carriers occur in pairs to participate in which type of reactions?",
+      "options": [
+        "Hydrolysis",
+        "Redox",
+        "Condensation",
+        "Isomerization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electron transport carriers occur in pairs and participate in redox reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.0947,
+      "question": "In redox reactions, the electron acceptor is known as which agent?",
+      "options": [
+        "Reducing",
+        "Oxidizing",
+        "Catalyst",
+        "Inhibitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In redox reactions, the electron acceptor is the oxidizing agent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5244,
+      "question": "How are redox pairs with increasing tendency to accept electrons assigned values?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Redox pairs with increasing tendency to accept electrons are assigned increasing positive values.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.2808,
+      "question": "Which redox pair has the highest tendency to donate electrons?",
+      "options": [
+        "NAD+/NADH",
+        "H+/H2",
+        "O2/H2O",
+        "Q/QH2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The H+/H2 redox pair has the highest tendency to donate electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.797,
+      "question": "Which redox pair has the highest tendency to accept electrons?",
+      "options": [
+        "H+/H2",
+        "NAD+/NADH",
+        "O2/H2O",
+        "Q/QH2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The O2/H2O pair has the highest tendency to accept electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.175,
+      "question": "How many electrons can cytochromes accept or donate at a time?",
+      "options": [
+        "Two",
+        "Three",
+        "One",
+        "Four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cytochromes have the capacity to accept or donate one electron at a time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.8508,
+      "question": "How many hydrogen atoms and electrons are required to reduce a molecule of oxygen to two molecules of water?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It takes four hydrogen atoms and four electrons to reduce a molecule of oxygen to two molecules of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1006,
+      "question": "What is the redox potential value for the NAD+/NADH pair?",
+      "options": [
+        "-0.41",
+        "-0.32",
+        "+0.04",
+        "+0.82"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The redox potential value for the NAD+/NADH pair is -0.32.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.761,
+      "question": "What is the redox potential value for the O2/H2O pair?",
+      "options": [
+        "+0.82",
+        "-0.32",
+        "+0.04",
+        "-0.41"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The redox potential value for the O2/H2O pair is +0.82.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.6235,
+      "question": "Which complex is referred to as Site 1 of ATP synthesis?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complex I is referred to as Site 1 of ATP synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.837,
+      "question": "Which complex is referred to as Site 2 of ATP synthesis?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complex III is referred to as Site 2 of ATP synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.5842,
+      "question": "Which complex is referred to as Site 3 of ATP synthesis?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Complex IV is referred to as Site 3 of ATP synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.6313,
+      "question": "What happens to the proton gradient when uncouplers are present?",
+      "options": [
+        "It is increased",
+        "It is dissipated",
+        "It is maintained",
+        "It is reversed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uncouplers have the ability to dissipate the proton gradients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.028,
+      "question": "What is the effect of uncouplers on ATP production?",
+      "options": [
+        "It increases it",
+        "It decreases it",
+        "It prevents it",
+        "It has no effect"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uncouplers dissipate proton gradients, preventing ATP production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.3242,
+      "question": "The electron transport chain is located in which membrane?",
+      "options": [
+        "Outer",
+        "Inner",
+        "Plasma",
+        "Nuclear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electron transport chain occurs in the inner mitochondrial membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.1567,
+      "question": "How many molecules of CO2 are expelled at two points in the TCA cycle?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbon dioxide is expelled at two points in the TCA cycle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792075151748.9849,
+      "question": "The flow of electrons in the ETC is from more electronegative pairs to more what?",
+      "options": [
+        "Electronegative",
+        "Electropositive",
+        "Neutral",
+        "Redox"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flow of electrons is from the more electronegative pair to more electropositive pair.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
