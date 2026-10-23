@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-102-unn-chapter-six-introductory-mol-0wkdxv",
+  "quizId": "bio-102-unn-chapter--t1vvs7",
   "title": "BIO 102 ( UNN ) : CHAPTER SIX( INTRODUCTORY MOLECULAR BIOLOGY )",
-  "subject": "BIO 102 â€” BIO 102 Course",
+  "subject": "BIO 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792081486695.2395,
+      "question": "Nucleic acids occur in every living cell where they function as which type of macromolecules?",
+      "options": [
+        "Storage",
+        "Genetic",
+        "Catalytic",
+        "Structural"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nucleic acids function as information macromolecules responsible for storage, preservation and transmission of genetic information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.1116,
+      "question": "The building blocks of nucleic acids are known as which of the following?",
+      "options": [
+        "Nucleosides",
+        "Proteins",
+        "Nucleotide",
+        "Lipids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nucleic acids are polymers made up of simple units (monomers) known as nucleotides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.8179,
+      "question": "How many main components make up a nucleotide?",
+      "options": [
+        "Two",
+        "Four",
+        "Five",
+        "Three"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nucleotides are essentially made up of three components: nitrogenous bases, pentose sugar and phosphate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.1628,
+      "question": "Which pentose sugar is found in ribonucleic acid?",
+      "options": [
+        "Glucose",
+        "Ribose",
+        "Deoxyribose",
+        "Fructose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribonucleic acid (RNA) contains ribose sugar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.8423,
+      "question": "Which of the following is not a component of a nucleotide?",
+      "options": [
+        "Phosphate",
+        "Sugar",
+        "Base",
+        "Protein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nucleotides are made up of nitrogenous bases, pentose sugar and phosphate, not protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.584,
+      "question": "Which of the following are classified as purines?",
+      "options": [
+        "Adenine and Guanine",
+        "Cytosine and Thymine",
+        "Thymine and Uracil",
+        "Uracil and Cytosine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The purines are adenine and guanine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.061,
+      "question": "Which of the following are classified as pyrimidines?",
+      "options": [
+        "Adenine and Guanine",
+        "Cytosine and Thymine",
+        "Adenine and Thymine",
+        "Guanine and Cytosine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pyrimidines are cytosine, thymine and uracil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9597,
+      "question": "Which nitrogenous base is found in DNA but replaced by uracil in RNA?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Thymine",
+        "Cytosine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thymine of DNA is replaced by Uracil in RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.1519,
+      "question": "Which nitrogenous base is found in RNA but not in DNA?",
+      "options": [
+        "Thymine",
+        "Adenine",
+        "Guanine",
+        "Uracil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RNA contains uracil, whereas DNA contains thymine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4949,
+      "question": "When a nitrogenous base binds to a pentose sugar, the product is known as which of the following?",
+      "options": [
+        "Nucleoside",
+        "Nucleotide",
+        "Nucleic acid",
+        "Protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a nitrogenous base binds to a pentose sugar, the product is known as a nucleoside.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4749,
+      "question": "Which type of bond links a nitrogenous base to a pentose sugar?",
+      "options": [
+        "Ester",
+        "Peptide",
+        "Glycosidic",
+        "Hydrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nitrogenous base binds to a pentose sugar through an N-β-glycosidic bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.7124,
+      "question": "A purine base binds with which nitrogen to the pentose sugar?",
+      "options": [
+        "1st",
+        "3rd",
+        "9th",
+        "5th"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The purine binds with its 9th nitrogen to the 1st carbon of the ribose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9426,
+      "question": "A pyrimidine base binds with which nitrogen to the pentose sugar?",
+      "options": [
+        "1st",
+        "3rd",
+        "9th",
+        "5th"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pyrimidine binds with its 1st nitrogen to the 1st carbon of the ribose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.412,
+      "question": "When a nucleoside enters into an ester linkage with a phosphate group, the product is known as which of the following?",
+      "options": [
+        "Nucleoside",
+        "Nucleotide",
+        "Nucleic acid",
+        "Protein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When a nucleoside enters into an ester linkage with a phosphate group, the product is a nucleotide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.7056,
+      "question": "Which of the following is an example of a nucleotide?",
+      "options": [
+        "AMP",
+        "Adenosine",
+        "Adenine",
+        "Ribose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adenosine 5'-monophosphate is an example of a nucleotide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.6147,
+      "question": "DNA is characterized by which type of configuration?",
+      "options": [
+        "Single stranded",
+        "Double stranded",
+        "Triple stranded",
+        "Circular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA engages in base pairing leading to its double stranded nature and an alpha-helical configuration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4824,
+      "question": "The double strands of DNA have the attribute of being complementary and what else?",
+      "options": [
+        "Parallel",
+        "Anti-parallel",
+        "Identical",
+        "Random"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The double strands of DNA have the additional attribute of being complementary and also anti-parallel.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.7122,
+      "question": "If one strand of DNA runs in the 5' to 3' direction, the complementary strand runs in which direction?",
+      "options": [
+        "5' to 3'",
+        "3' to 5'",
+        "3' to 3'",
+        "5' to 5'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If one strand runs in the 5' to 3' direction, the complementary strand runs in the 3' to 5' direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.027,
+      "question": "In eukaryotic cells, which proteins bind to chromosomal DNA to form nucleoproteins?",
+      "options": [
+        "Albumins",
+        "Globulins",
+        "Histones",
+        "Enzymes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In eukaryotic cells, lysine- and arginine-rich proteins called histones bind to chromosomal DNA to form nucleoproteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4436,
+      "question": "Histones are rich in which amino acids?",
+      "options": [
+        "Lysine and arginine",
+        "Glycine and alanine",
+        "Valine and leucine",
+        "Serine and threonine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are lysine- and arginine-rich proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.2888,
+      "question": "Where are nucleoproteins housed within the cell?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nucleoproteins are housed within the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.6045,
+      "question": "The relationship between DNA, RNA and Proteins is generally described as which of the following?",
+      "options": [
+        "Central dogma",
+        "Genetic code",
+        "Transcription",
+        "Translation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This relationship is generally described as the central dogma of molecular biology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.7317,
+      "question": "Originally, it was believed that information flow was in which direction?",
+      "options": [
+        "One direction",
+        "Two directions",
+        "Random",
+        "Circular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Originally it was believed that information flow was in one direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9346,
+      "question": "Which entity came into the purview of molecular biology and showed that information can also flow from RNA to DNA?",
+      "options": [
+        "Bacterium",
+        "Virus",
+        "Fungus",
+        "Plant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When retrovirus came into the purview of molecular biology it became clear that information can also flow from RNA to DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.2402,
+      "question": "Replication involves the DNA-directed synthesis of which molecule?",
+      "options": [
+        "RNA",
+        "DNA",
+        "Protein",
+        "Lipid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Replication involves the DNA-directed synthesis of DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.5483,
+      "question": "Which enzyme causes the unwinding of the gene during replication?",
+      "options": [
+        "RNA polymerase",
+        "DNA polymerase",
+        "Ligase",
+        "Helicase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA polymerase causes the unwinding of the gene during replication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.3413,
+      "question": "Replication gives rise to two new strands, resulting in what type of copy?",
+      "options": [
+        "Mutated",
+        "Faithful",
+        "Partial",
+        "Random"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Replication gives rise to a faithful copy of self.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.0642,
+      "question": "Replication is sometimes described as which of the following?",
+      "options": [
+        "Duplication",
+        "Transcription",
+        "Translation",
+        "Mutation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Replication is also sometimes described as duplication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.3542,
+      "question": "Transcription is the DNA-directed synthesis of which molecule?",
+      "options": [
+        "DNA",
+        "RNA",
+        "Protein",
+        "Lipid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transcription is the DNA-directed synthesis of RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9905,
+      "question": "In transcription, which enzyme is directed to unwind the gene?",
+      "options": [
+        "DNA polymerase",
+        "RNA polymerase",
+        "Ligase",
+        "Helicase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In transcription, the DNA directs the RNA polymerase to unwind the gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.777,
+      "question": "During transcription, the thymine of DNA is replaced by which base in RNA?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Cytosine",
+        "Uracil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the course of transcription, the thymine of DNA is replaced by uracil of RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.576,
+      "question": "The primary transcript remains in the nucleus until it has undergone what?",
+      "options": [
+        "Processing",
+        "Translation",
+        "Replication",
+        "Mutation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary transcript remains in the nucleus until it has undergone some post-transcriptional changes referred to as processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.3667,
+      "question": "Processing of the primary transcript results in the generation of which molecule?",
+      "options": [
+        "DNA",
+        "mRNA",
+        "Protein",
+        "tRNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Processing results in the generation of a mature messenger RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4185,
+      "question": "The mature mRNA leaves the nucleus for which cytoplasmic structures?",
+      "options": [
+        "Ribosomes",
+        "Mitochondria",
+        "Lysosomes",
+        "Golgi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mature mRNA leaves the nucleus for the ribosomes in the cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.5264,
+      "question": "Translation is the actual synthesis of which molecule on the ribosome?",
+      "options": [
+        "DNA",
+        "RNA",
+        "Protein",
+        "Carbohydrate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Translation is the actual synthesis of polypeptide on the ribosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.8967,
+      "question": "During translation, the information contained in mRNA serves as which of the following?",
+      "options": [
+        "Template",
+        "Enzyme",
+        "Product",
+        "Substrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The information contained in the mRNA serves as a template for the assembly of amino acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.4548,
+      "question": "The 4-letter language of nucleic acid guides the 20-letter language of which sequence?",
+      "options": [
+        "Amino acid",
+        "Nucleotide",
+        "Protein",
+        "Sugar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 4-letter language of nucleic acid guides the 20-letter language of amino acid sequence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9028,
+      "question": "Which RNA ferries activated amino acids to the site of protein synthesis?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "siRNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transfer RNA (tRNA) ferries activated amino acids to the site.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.2556,
+      "question": "Which molecule guides the linear sequence of assemblage and determines initiation and termination?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "Code",
+        "rRNA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The genetic code guides the linear sequence of assemblage in addition to determining the points of initiation and termination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.9316,
+      "question": "What needs a signal to initiate transcription?",
+      "options": [
+        "Loose DNA",
+        "Chromatin",
+        "Ribosome",
+        "mRNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tightly packaged and protected chromatin needs a signal to initiate transcription.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.2324,
+      "question": "DNA is unpacked by processes which include DNA demethylation and what else?",
+      "options": [
+        "Histone acetylation",
+        "Histone methylation",
+        "DNA methylation",
+        "Protein synthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA is unpacked by processes which include DNA demethylation and histone acetylation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.2473,
+      "question": "The primary transcript is a heteronuclear RNA containing expressible exons and what else?",
+      "options": [
+        "Introns",
+        "Exons",
+        "Codons",
+        "Anticodons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary transcript contains expressible exons and the intervening non-coding sequences called introns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.844,
+      "question": "Processing involves excision of introns and the ligase binding of which sequences?",
+      "options": [
+        "Exons",
+        "Introns",
+        "Codons",
+        "Anticodons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Processing involves excision of introns and the ligase binding of exons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.7195,
+      "question": "Capping and polyadenylation of the tail produce which molecule?",
+      "options": [
+        "Mature mRNA",
+        "Primary transcript",
+        "DNA",
+        "Protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Capping and polyadenylation of the tail produce a mature mRNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.5686,
+      "question": "Post-translational modification of the polypeptide generates which molecule?",
+      "options": [
+        "Active protein",
+        "Inactive protein",
+        "mRNA",
+        "DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Post-translational modification generates an active protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.633,
+      "question": "What guides the active protein to its cellular destination?",
+      "options": [
+        "Ribosome",
+        "tRNA",
+        "mRNA",
+        "Chaperone"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The active protein is chaperoned to its cellular destination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.6182,
+      "question": "The active protein has a dynamic cycle which involves degradation at a precise point in time called what?",
+      "options": [
+        "Half-life",
+        "Full-life",
+        "Quarter-life",
+        "Life span"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Degradation occurs at a precise point in time (its half-life).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.816,
+      "question": "Which bond is formed between the phosphate group and the sugar in a nucleotide?",
+      "options": [
+        "Ester",
+        "Peptide",
+        "Glycosidic",
+        "Hydrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ester bond is formed via the 5' carbon of the ribose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.0745,
+      "question": "What is the monomer that serves as the building block for nucleic acids?",
+      "options": [
+        "Nucleotide",
+        "Nucleoside",
+        "Protein",
+        "Lipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The monomer nucleotides form the building blocks for the nucleic acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792081486695.8557,
+      "question": "Which of the following is responsible for the anti-parallel nature of DNA?",
+      "options": [
+        "Base pairing",
+        "Hydrogen bonds",
+        "Backbone",
+        "Histones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The way the nitrogenous bases are arranged on the sugar phosphate backbone enables the DNA to engage in base pairing leading to its double stranded nature and an alpha-helical configuration.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
