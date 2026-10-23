@@ -1,18 +1,440 @@
 {
-  "quizId": "phy-101-unizik-vectors-ohpf3t",
+  "quizId": "phy-101-unizik-vecto-h4q1lm",
   "title": "PHY 101 ( UNIZIK ) : VECTORS",
-  "subject": "PHY 101 â€” PHY 101 Course",
+  "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792007215754.6958,
+      "question": "Physical quantities are broadly divided into which two categories?",
+      "options": [
+        "Scalar and vector",
+        "Speed and velocity",
+        "Mass and time",
+        "Force and acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physical quantities are classified as scalars or vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.1614,
+      "question": "Which quantity obeys the laws of vector addition?",
+      "options": [
+        "Scalar quantity",
+        "Mass",
+        "Vector quantity",
+        "Time interval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vector quantities follow vector addition laws.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.7603,
+      "question": "Which is a scalar?",
+      "options": [
+        "Mass",
+        "Displacement",
+        "Velocity",
+        "Force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mass has magnitude only and is a scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.8691,
+      "question": "Which is NOT a scalar?",
+      "options": [
+        "Time",
+        "Temperature",
+        "Velocity",
+        "Energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity is a vector because it has direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.7317,
+      "question": "Which is a vector?",
+      "options": [
+        "Speed",
+        "Distance",
+        "Work",
+        "Force"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Force has both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.9502,
+      "question": "Which is NOT a vector?",
+      "options": [
+        "Force",
+        "Acceleration",
+        "Speed",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed is a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.254,
+      "question": "A 2D vector in the xy-plane can be resolved into how many perpendicular components?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 2D vector has two perpendicular components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.3599,
+      "question": "Unit vectors i and j point along which directions?",
+      "options": [
+        "y and z axes",
+        "x and y axes",
+        "negative x and y axes",
+        "z and x axes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "i and j are unit vectors along the positive x and y axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.925,
+      "question": "Which magnitude does a unit vector have?",
+      "options": [
+        "Exactly 0",
+        "Equal to vector",
+        "Any value",
+        "Exactly 1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A unit vector is defined with magnitude exactly one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.9297,
+      "question": "For vector A at angle θ with the positive x-axis, Aₓ equals which expression?",
+      "options": [
+        "A sin θ",
+        "A cos θ",
+        "A tan θ",
+        "A divided by cos θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal component is A cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.3958,
+      "question": "Magnitude of A = 3i + 4j + 5k is which value?",
+      "options": [
+        "√50 units",
+        "5 units",
+        "50 units",
+        "12 units"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnitude is the square root of 9 plus 16 plus 25.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.7302,
+      "question": "tan θ equals which ratio?",
+      "options": [
+        "Aᵧ / Aₓ",
+        "Aₓ plus Aᵧ",
+        "Aₓ Aᵧ",
+        "Aₓ minus Aᵧ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The tangent of the direction angle is Aᵧ divided by Aₓ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.0525,
+      "question": "θ is found using which inverse function?",
+      "options": [
+        "sin⁻¹(Aₓ/Aᵧ)",
+        "cos⁻¹(Aₓ/Aᵧ)",
+        "tan⁻¹(Aᵧ/Aₓ)",
+        "tan(Aᵧ/Aₓ)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The direction angle is obtained using the inverse tangent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.713,
+      "question": "Unit vector k points along which axis?",
+      "options": [
+        "x-axis",
+        "y-axis",
+        "negative x-axis",
+        "z-axis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "k is the unit vector along the positive z-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.0244,
+      "question": "Vectors are added by operating on which parts?",
+      "options": [
+        "Components",
+        "Magnitudes only",
+        "Directions only",
+        "Angles only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Component addition adds matching i, j, and k components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.6348,
+      "question": "Given A = 2i + 3j + 4k and B = i + 4j + 5k, A + B equals which vector?",
+      "options": [
+        "3i + 7j + 9k",
+        "i − j − k",
+        "2i + 12j + 20k",
+        "3i + 7j − 9k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding components gives 3i, 7j, and 9k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.8398,
+      "question": "Given A = 2i + 3j + 4k and B = i + 4j + 5k, A − B equals which vector?",
+      "options": [
+        "3i + 7j + 9k",
+        "i + j + k",
+        "2i + 12j + 20k",
+        "i − j − k"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Subtracting components gives i, −j, and −k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.5295,
+      "question": "If A = 5i + 2j and B = 3i − 4j, A + B equals which vector?",
+      "options": [
+        "2i + 6j",
+        "8i − 2j",
+        "8i + 6j",
+        "2i − 2j"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adding components gives 8i and −2j.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.0596,
+      "question": "For F₁ = 4i − 3j + 2k and F₂ = −2i + 5j + 4k, net force equals which vector?",
+      "options": [
+        "2i − 2j − 6k",
+        "6i + 2j + 6k",
+        "2i + 2j + 6k",
+        "2i + 8j + 6k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adding components gives 2i, 2j, and 6k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.8142,
+      "question": "Magnitude of net force 2i + 2j + 6k is which value?",
+      "options": [
+        "44 units",
+        "√40 units",
+        "√44 units",
+        "6 units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The magnitude is the square root of 4 plus 4 plus 36.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.9556,
+      "question": "Two important types of vector multiplication are which?",
+      "options": [
+        "addition and subtraction",
+        "dot and cross products",
+        "scalar and vector addition",
+        "resolution and direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vectors can be multiplied using dot or cross products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.1956,
+      "question": "For A = 3i + 4j + 5k and B = 3i + 4j − 5k, A · B equals which value?",
+      "options": [
+        "50",
+        "25",
+        "−50",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The products sum to 9 plus 16 minus 25, which is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.5974,
+      "question": "Which expression gives the dot product?",
+      "options": [
+        "|A||B| cos θ",
+        "|A||B| sin θ",
+        "A plus B",
+        "A minus B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The dot product equals |A||B| cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.2795,
+      "question": "Cross product produces which result?",
+      "options": [
+        "A scalar quantity result",
+        "A vector result",
+        "An angle result",
+        "A unit result"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cross product yields a vector perpendicular to both vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.4395,
+      "question": "For A = 2i + j − 3k and B = i − 2j + k, A × B equals which vector?",
+      "options": [
+        "5i + 5j + 5k",
+        "−5i + 5j − 5k",
+        "−5i − 5j − 5k",
+        "5i − 5j + 5k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Expanding the determinant gives −5i, −5j, and −5k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.626,
+      "question": "In dimensional analysis, dimension of velocity is which?",
+      "options": [
+        "L",
+        "L T⁻¹",
+        "T",
+        "L T²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Velocity has dimensions of length divided by time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.2517,
+      "question": "In v² − u² = 2aS, LHS dimension is which?",
+      "options": [
+        "L T⁻¹",
+        "L T⁻²",
+        "L² T⁻²",
+        "L² T⁻¹"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both v² and u² have dimensions L² T⁻².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.8484,
+      "question": "Dimension of acceleration is which?",
+      "options": [
+        "L² T⁻²",
+        "L T⁻¹",
+        "M L T⁻²",
+        "L T⁻²"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acceleration has dimensions of length divided by time squared.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.465,
+      "question": "In v = k λᵃ Eᵇ ρᶜ, Young's modulus dimension is which?",
+      "options": [
+        "M L⁻¹ T⁻²",
+        "M L⁻³",
+        "M L⁻¹ T⁻¹",
+        "M L T⁻²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Young's modulus has dimensions M L⁻¹ T⁻².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792007215754.3135,
+      "question": "From dimensional analysis, speed of sound v is proportional to which expression?",
+      "options": [
+        "√(Eρ)",
+        "λEρ",
+        "E/ρ",
+        "√(E/ρ)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dimensional analysis gives v proportional to the square root of E divided by ρ.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
