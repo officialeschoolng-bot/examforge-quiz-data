@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNIZIK ) : BRIEF INTRODUCTION TO COMPUTING",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792754126047.9573,
+      "question": "A computer is defined as an electronic device that accepts data and processes it to produce which of the following?",
+      "options": [
+        "Raw facts",
+        "Meaningful information",
+        "Physical output",
+        "Digital signals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A computer processes data to produce meaningful information useful to humans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.2793,
+      "question": "The term computer is derived from which Latin word?",
+      "options": [
+        "Computare",
+        "Computa",
+        "Computron",
+        "Computera"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Computer comes from the Latin word computare which means to calculate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4473,
+      "question": "The manual method of data processing involves the use of which tools?",
+      "options": [
+        "Typewriters and adding machines",
+        "Chalk, pen and pencil",
+        "Vacuum tubes and transistors",
+        "Integrated circuits and chips"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The manual method uses chalk, wall, pen, pencil and similar tools.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6936,
+      "question": "The mechanical method of data processing involves the use of which machines?",
+      "options": [
+        "Computers and servers",
+        "Calculators and phones",
+        "Typewriters and adding machines",
+        "Printers and scanners"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The mechanical method uses machines like typewriters and adding machines.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.7888,
+      "question": "Which characteristic of a computer refers to its ability to perform completely different types of work at the same time?",
+      "options": [
+        "Speed",
+        "Accuracy",
+        "Versatility",
+        "Reliability"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Versatility means computers are multipurpose and can perform different tasks simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.0588,
+      "question": "Which characteristic of a computer means it does not suffer from tiredness or lack of concentration?",
+      "options": [
+        "Speed",
+        "Reliability",
+        "Storage",
+        "Flexibility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reliability means the computer performs consistently without human traits like tiredness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.261,
+      "question": "The first generation of computers used which technology?",
+      "options": [
+        "Transistors",
+        "Vacuum tubes",
+        "Integrated circuits",
+        "Microprocessors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First generation computers used vacuum tube technology from 1940 to 1956.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.0002,
+      "question": "ENIAC was developed by which two individuals?",
+      "options": [
+        "Bill Gates and Paul Allen",
+        "Charles Babbage and Ada Lovelace",
+        "Eckert and Mauchly",
+        "Intel and Microsoft"
+      ],
+      "correctAnswer": 2,
+      "explanation": "John Presper Eckert and John Mauchly developed ENIAC at the University of Pennsylvania.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6458,
+      "question": "UNIVAC I was the first commercially produced computer in which country?",
+      "options": [
+        "United Kingdom",
+        "Germany",
+        "United States",
+        "Japan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "UNIVAC I was the first commercially produced computer in the US.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5427,
+      "question": "The second generation of computers used which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Second generation computers used transistors from 1956 to 1963.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1416,
+      "question": "Which programming languages were developed during the second generation?",
+      "options": [
+        "Python and Java",
+        "C and C++",
+        "FORTRAN and COBOL",
+        "HTML and CSS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "FORTRAN and COBOL were high-level languages developed during the second generation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6052,
+      "question": "The third generation of computers used which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Third generation computers used integrated circuits from 1964 to 1971.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.827,
+      "question": "Which computer was a family of compatible computers that could run the same software?",
+      "options": [
+        "ENIAC",
+        "UNIVAC",
+        "IBM System/360",
+        "Apple II"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IBM System/360 was a family of compatible computers facilitating upgrades and scalability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.969,
+      "question": "The fourth generation of computers used which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessors"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fourth generation computers used microprocessors based on VLSI technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.467,
+      "question": "Which of the following is an example of a fourth generation computer?",
+      "options": [
+        "ENIAC",
+        "IBM 1401",
+        "Apple II",
+        "UNIVAC I"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Apple II introduced in 1977 is an example of a fourth generation computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5874,
+      "question": "The fifth generation of computers is characterized by which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "AI and ULSI",
+        "Integrated circuits"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fifth generation computers use AI and microprocessor chips based on ULSI technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5374,
+      "question": "Which of the following is a key advancement expected in sixth generation computers?",
+      "options": [
+        "Vacuum tubes",
+        "Quantum computing",
+        "Transistors",
+        "Integrated circuits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Quantum computing, nanotechnology and biocomputing are key advancements for sixth generation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.218,
+      "question": "Computers are classified based on which three criteria?",
+      "options": [
+        "Type, size and purpose",
+        "Speed, cost and brand",
+        "Color, weight and shape",
+        "Age, origin and maker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Computers are classified by type, size and purpose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.661,
+      "question": "Which classification of computers by type includes analog, digital and hybrid?",
+      "options": [
+        "By size",
+        "By purpose",
+        "By type",
+        "By cost"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By type, computers are classified as analog, digital and hybrid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.617,
+      "question": "Which classification of computers by size includes micro, mini, mainframe and super?",
+      "options": [
+        "By type",
+        "By purpose",
+        "By size",
+        "By brand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By size, computers are classified as micro, mini, mainframe and super computers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.863,
+      "question": "Which classification of computers by purpose includes general purpose and special purpose?",
+      "options": [
+        "By type",
+        "By size",
+        "By purpose",
+        "By generation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By purpose, computers are classified as general purpose and special purpose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.565,
+      "question": "Which of the following is a core component of a computer system?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "CPU",
+        "Printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "CPU, motherboard, power supply, RAM and ROM are core components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1794,
+      "question": "Which of the following is an example of a peripheral device?",
+      "options": [
+        "CPU",
+        "Motherboard",
+        "RAM",
+        "Keyboard"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Keyboard, mouse, monitor, printer and scanner are peripheral devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6904,
+      "question": "Which part of the CPU executes arithmetic and logical operations?",
+      "options": [
+        "Control Unit",
+        "ALU",
+        "Registers",
+        "Cache"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Arithmetic Logic Unit executes all arithmetic and logical operations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6519,
+      "question": "Which part of the CPU controls and coordinates computer components?",
+      "options": [
+        "ALU",
+        "Registers",
+        "Control Unit",
+        "Cache"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Control Unit controls and coordinates computer components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.0786,
+      "question": "Which type of memory is volatile and loses data when power is turned off?",
+      "options": [
+        "ROM",
+        "RAM",
+        "Hard disk",
+        "Flash disk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RAM is volatile and data is erased once power supply is turned off.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5986,
+      "question": "Which type of memory is permanent and does not allow data to be modified?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Registers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ROM is a permanent form of storage that does not allow data modification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6519,
+      "question": "Which storage device uses laser light to read or write data?",
+      "options": [
+        "Hard disk",
+        "Flash disk",
+        "Optical disk",
+        "Magnetic tape"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Optical disc drives use laser light to read or write data to optical discs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.9338,
+      "question": "What is the maximum storage capacity of a Blu-ray disc?",
+      "options": [
+        "700 MB",
+        "8.4 GB",
+        "50 GB",
+        "1.44 MB"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blu-ray discs can store up to 50 GB of data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.2332,
+      "question": "Which component acts as the central electrical circuit connecting different parts of the computer?",
+      "options": [
+        "CPU",
+        "Motherboard",
+        "Power supply",
+        "RAM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The motherboard acts as the central electrical circuit connecting different parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.341,
+      "question": "Which device provides electricity that activates the entire computer system?",
+      "options": [
+        "Motherboard",
+        "CPU",
+        "Power supply",
+        "RAM"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The power supply port provides electricity that activates the entire computer system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4456,
+      "question": "Which input device is used to input text, characters and commands?",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Keyboard",
+        "Printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The keyboard is used to input text, characters and other important commands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4185,
+      "question": "Which output device generates a copy of virtual text or images on paper using ink?",
+      "options": [
+        "Monitor",
+        "Speaker",
+        "Projector",
+        "Printer"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The printer generates a copy of virtual text or images on paper using ink.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.156,
+      "question": "Which of the following is an example of an input device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Speaker",
+        "Scanner"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Scanner is an input device that sends data to a computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.9692,
+      "question": "Which of the following is an example of an output device?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Monitor",
+        "Scanner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Monitor is an output device that displays information from the computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.2793,
+      "question": "Which unit is described as the main unit of a PC that contains the motherboard, processor and memory?",
+      "options": [
+        "System unit",
+        "Monitor",
+        "Keyboard",
+        "Printer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The system unit contains the motherboard, processor, buses, memory and power supply.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5034,
+      "question": "CPU speed is measured in which unit?",
+      "options": [
+        "Gigabytes",
+        "Megahertz",
+        "Megabytes",
+        "Milliseconds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CPU speed is measured in megahertz which equals one million ticks per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1694,
+      "question": "Which type of keyboard is used for special purpose applications requiring faster data entry?",
+      "options": [
+        "General purpose keyboard",
+        "Special purpose keyboard",
+        "Virtual keyboard",
+        "Wireless keyboard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Special purpose keyboards are used for applications like ATMs requiring faster data entry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.5735,
+      "question": "Which printer type combines a magnetic roller with powdered ink called toner?",
+      "options": [
+        "Inkjet printer",
+        "Dot-matrix printer",
+        "Laser printer",
+        "Thermal printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Laser printers use a magnetic roller with toner to transfer characters onto a page.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1992,
+      "question": "Which printer type is the cheapest available and uses a print head to strike an inked ribbon?",
+      "options": [
+        "Laser printer",
+        "Inkjet printer",
+        "Dot-matrix printer",
+        "3D printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dot-matrix printers are the cheapest and create characters by hammering pins against an inked ribbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1912,
+      "question": "Which type of scanner looks and behaves like a photocopier?",
+      "options": [
+        "Sheet fed scanner",
+        "Hand scanner",
+        "Flatbed scanner",
+        "Drum scanner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flatbed scanners look and behave like a photocopier where items are laid on a glass plate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.3918,
+      "question": "Which operating system type allows users to submit jobs to a central place with no interaction during processing?",
+      "options": [
+        "Time sharing",
+        "Batch processing",
+        "Real time",
+        "Distributed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Batch processing collects jobs into a batch with no user interaction during processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4707,
+      "question": "Which operating system type provides computing services to many users concurrently online?",
+      "options": [
+        "Batch",
+        "Real time",
+        "Time sharing",
+        "Network"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time sharing operating systems provide computing services to many users concurrently online.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.1465,
+      "question": "Which operating system type is designed for applications where response time is critical to prevent disaster?",
+      "options": [
+        "Batch",
+        "Time sharing",
+        "Real time",
+        "Distributed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Real time operating systems service applications where response time is of the essence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4094,
+      "question": "Which operating system component is responsible for creation and deletion of user and system processes?",
+      "options": [
+        "Memory management",
+        "Process management",
+        "File management",
+        "I/O system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Process management handles creation, deletion, suspension and resumption of processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.4688,
+      "question": "Which type of software is designed to solve problems of a specific nature?",
+      "options": [
+        "System software",
+        "Utility software",
+        "Application software",
+        "Operating system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Application software is designed to solve problems of a specific nature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.7783,
+      "question": "Which of the following is an example of application software?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Microsoft Word",
+        "Device driver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microsoft Word is a word processing application software.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.2715,
+      "question": "Humanware is the combination of hardware and software elements that make which aspect as good as possible?",
+      "options": [
+        "Computer speed",
+        "Human interaction",
+        "Data storage",
+        "Network connectivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Humanware aims to make human interaction with a device as good as possible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.6577,
+      "question": "The internet originated from which network developed by the US Department of Defense?",
+      "options": [
+        "ARPANET",
+        "INTERNET",
+        "Ethernet",
+        "Intranet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The internet originated from ARPANET in the late 1960s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754126047.86,
+      "question": "Which of the following is an example of an internet application for communication?",
+      "options": [
+        "Netflix",
+        "Amazon",
+        "Email",
+        "Coursera"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Email is a fast and reliable way to send messages globally through the internet.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
