@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-101-uniniger-intermolecular-forces-g97bze",
+  "quizId": "chm-101-uniniger-int-ozv4a2",
   "title": "CHM 101 ( UNINIGER ) : INTERMOLECULAR FORCES",
-  "subject": "CHM 101 â€” CHM 101 Course",
+  "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792519197750.6729,
+      "question": "Which two types of forces may a substance possess?",
+      "options": [
+        "Cohesive and thermal forces",
+        "Nuclear and thermal forces",
+        "Cohesive and magnetic forces",
+        "Electric and thermal forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A substance may possess forces of attraction and forces of thermal agitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.2683,
+      "question": "Which forces determine the tendency of molecules to move?",
+      "options": [
+        "Cohesive forces",
+        "Nuclear forces",
+        "Thermal forces",
+        "Magnetic forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thermal forces determine the tendency of molecules to move.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.3188,
+      "question": "Thermal forces depend on which factor?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Mass",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Thermal forces depend on temperature and increase with increase of temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.1208,
+      "question": "Cohesive forces tend to do which of the following?",
+      "options": [
+        "Disorder the molecules",
+        "Order the molecules",
+        "Destroy the molecules",
+        "Ionize the molecules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cohesive forces tend to order the molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.348,
+      "question": "There is always a competition between thermal forces and which other forces?",
+      "options": [
+        "Cohesive forces",
+        "Nuclear forces",
+        "Gravitational forces",
+        "Electric forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Competition exists between thermal forces which disorder molecules and cohesive forces which order them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.5518,
+      "question": "Cohesive forces are also known as which forces?",
+      "options": [
+        "Thermal forces",
+        "Intermolecular forces",
+        "Intramolecular forces",
+        "Nuclear forces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These cohesive forces are the intermolecular forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.5137,
+      "question": "Whether a substance exists as gas, liquid, or solid will affect the balance between which two opposing forces?",
+      "options": [
+        "Nuclear and magnetic forces",
+        "Cohesive and thermal forces",
+        "Electric and magnetic forces",
+        "Gravitational and thermal forces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The balance between opposing cohesive and thermal forces determines the state of the substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9856,
+      "question": "In gases, thermal forces are how strong compared to cohesive forces?",
+      "options": [
+        "Much weaker",
+        "Equal",
+        "Slightly weaker",
+        "Much stronger"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In gases, the thermal forces are very much stronger than the cohesive forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.1482,
+      "question": "Gas molecules are always in a state of what?",
+      "options": [
+        "Rest",
+        "Constant motion",
+        "Vibration only",
+        "Rotation only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molecules in gas are always in a state of constant motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.7615,
+      "question": "Which state of matter is characterized by cohesive forces that hold molecules in a regular ordered structure?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Solids are characterized by cohesive forces holding molecules in a regular ordered structure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.076,
+      "question": "Solids do not possess which type of motion?",
+      "options": [
+        "Translational motion",
+        "Rotational motion",
+        "Vibrational motion",
+        "Internal motion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Due to strong cohesive forces, solids do not possess translational motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.166,
+      "question": "Liquids are intermediate between which two extremes?",
+      "options": [
+        "Gas and solid",
+        "Solid and plasma",
+        "Gas and plasma",
+        "Liquid and plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liquids are intermediate between the two extremes of gases and solids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.2468,
+      "question": "In liquids, cohesive forces are best described as what?",
+      "options": [
+        "Very strong",
+        "Very weak",
+        "Moderate",
+        "Absent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In liquids, the cohesive forces are moderate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9324,
+      "question": "The structure of a liquid is best described as what?",
+      "options": [
+        "Completely ordered",
+        "Somewhat ordered",
+        "Completely disordered",
+        "Crystalline"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The structure of liquid is somewhat ordered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.6555,
+      "question": "Molecules in the liquid state can do which of the following?",
+      "options": [
+        "Move freely",
+        "Not move at all",
+        "Only vibrate",
+        "Only rotate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molecules in the liquid state can move freely, not as those of a gas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9739,
+      "question": "The change of state can be done by changing which factor?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The change of state can be done by changing the temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.3909,
+      "question": "When the temperature of a gas is decreased, cohesive forces do what?",
+      "options": [
+        "Decrease",
+        "Remain constant",
+        "Increase",
+        "Disappear"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the temperature of a gas is decreased, the cohesive forces increase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.7805,
+      "question": "When the temperature of a gas is decreased, gas molecules do what?",
+      "options": [
+        "Expand",
+        "Condense into liquid",
+        "Become solid instantly",
+        "Ionize"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decreased temperature causes gas molecules to condense into a liquid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.136,
+      "question": "Cooling causes the kinetic energy of molecules to do what?",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "Fluctuate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cooling causes the kinetic energy to be decreased.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.3125,
+      "question": "As cohesive forces become stronger, the change of state from gas to liquid to solid takes place through which process?",
+      "options": [
+        "Heating",
+        "Cooling",
+        "Dilution",
+        "Agitation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cooling strengthens cohesive forces leading to change from gas to liquid to solid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.7065,
+      "question": "When a solid is heated, which forces increase?",
+      "options": [
+        "Cohesive forces",
+        "Nuclear forces",
+        "Thermal forces",
+        "Magnetic forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When a solid is heated, the thermal forces increase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8484,
+      "question": "When thermal forces become more dominating than cohesive forces in a solid, the solid begins to change into what?",
+      "options": [
+        "Gas directly",
+        "Liquid",
+        "Plasma",
+        "Crystal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The solid begins to change into liquid and then into the gaseous state.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8086,
+      "question": "Properties of matter useful in identifying it are called which type of properties?",
+      "options": [
+        "Chemical properties",
+        "Physical properties",
+        "Specific properties",
+        "General properties"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Properties useful in identifying matter are called specific properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4573,
+      "question": "Specific properties may be classified under which two general groups?",
+      "options": [
+        "Physical and chemical properties",
+        "Thermal and cohesive properties",
+        "Nuclear and magnetic properties",
+        "Organic and inorganic properties"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Specific properties are classified as physical and chemical properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.7634,
+      "question": "Physical properties can be determined without causing what?",
+      "options": [
+        "A change in temperature",
+        "A change in pressure",
+        "A change in identity of a material",
+        "A change in volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physical properties can be determined without causing a change in identity of a material.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.194,
+      "question": "Which of the following is an example of a physical property?",
+      "options": [
+        "Rusting of iron",
+        "Reaction of sodium with water",
+        "Decomposition of water",
+        "Melting point"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Melting and boiling points are physical properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4348,
+      "question": "Which of the following is a physical property?",
+      "options": [
+        "Density",
+        "Rusting",
+        "Decomposition",
+        "Reaction with water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Density is a physical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8289,
+      "question": "Chemical properties deal with behaviour of a material in which its identity is what?",
+      "options": [
+        "Maintained",
+        "Altered",
+        "Enhanced",
+        "Reduced"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemical properties deal with changes in which the identity of a material is altered.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9329,
+      "question": "Rusting of iron in moist air is an example of which property?",
+      "options": [
+        "Physical property",
+        "Chemical property",
+        "Thermal property",
+        "Mechanical property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rusting of iron is a chemical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.2812,
+      "question": "Reaction of sodium with water is an example of which property?",
+      "options": [
+        "Physical property",
+        "Chemical property",
+        "Optical property",
+        "Magnetic property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reaction of sodium with water is a chemical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9258,
+      "question": "Decomposition of water by an electric current is an example of which property?",
+      "options": [
+        "Physical property",
+        "Chemical property",
+        "Thermal property",
+        "Cohesive property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decomposition of water by electric current is a chemical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.6936,
+      "question": "Which of the following is included among physical properties?",
+      "options": [
+        "Solubility",
+        "Rusting",
+        "Decomposition",
+        "Reaction with water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solubility is a physical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.1504,
+      "question": "Which of the following is included among physical properties?",
+      "options": [
+        "Hardness",
+        "Rusting",
+        "Reaction of sodium with water",
+        "Decomposition of water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hardness is a physical property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8035,
+      "question": "Crystalline or amorphous forms are examples of which property?",
+      "options": [
+        "Chemical property",
+        "Physical property",
+        "Nuclear property",
+        "Thermal property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Crystalline or amorphous forms are physical properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.6567,
+      "question": "Matter can be converted to energy and energy to what?",
+      "options": [
+        "Matter",
+        "Pressure",
+        "Volume",
+        "Mass only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Matter can be converted to energy and energy to matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4802,
+      "question": "Matter and energy may be considered as what?",
+      "options": [
+        "The same physical quantity",
+        "Unrelated quantities",
+        "Different states only",
+        "Magnetic quantities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Matter and energy may be considered as two different forms of the same physical quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.3757,
+      "question": "The relationship between matter and energy is formulated into which law?",
+      "options": [
+        "Law of Conservation of Mass only",
+        "Law of Conservation of Matter and Energy",
+        "Law of Thermodynamics",
+        "Law of Chemical Equilibrium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship is formulated into the Law of Conservation of Matter and Energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.9976,
+      "question": "The stoichiometry of a reaction expresses which relationship?",
+      "options": [
+        "Qualitative relationship",
+        "Quantitative relationship",
+        "Thermal relationship",
+        "Physical relationship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stoichiometry is the quantitative relationship between reactants and products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.6846,
+      "question": "The stoichiometry of a reaction is expressed by which equation?",
+      "options": [
+        "Overall balanced chemical equation",
+        "Unbalanced equation",
+        "Word equation only",
+        "Nuclear equation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stoichiometry is expressed by the overall balanced chemical equation for the reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.1025,
+      "question": "In the general reaction aA + bB = cC + dD, the letters a, b, c, and d are called what?",
+      "options": [
+        "Reaction constants",
+        "Stoichiometric coefficients",
+        "Molar masses",
+        "Atomic numbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The letters a, b, c, and d are the stoichiometric coefficients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.1086,
+      "question": "The stoichiometry of a reaction expresses the relationship between which substances?",
+      "options": [
+        "Reactants and products",
+        "Atoms and molecules",
+        "Solids and liquids",
+        "Elements and compounds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stoichiometry is the quantitative relationship between reactants and products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4253,
+      "question": "Chemical bonding deals with which aspect of molecules?",
+      "options": [
+        "Nature of forces holding atoms together",
+        "Rate of chemical reactions",
+        "Energy of reaction",
+        "Colour of compounds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chemical bonding deals with the nature of forces which hold atoms together in a molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8145,
+      "question": "Who first introduced the concept of chemical bonding?",
+      "options": [
+        "Dalton",
+        "Frankland",
+        "Thomson",
+        "Rutherford"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frankland in 1852 was the first to introduce the concept of chemical bonding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.0054,
+      "question": "In which year did Frankland introduce the concept of chemical bonding?",
+      "options": [
+        "1852",
+        "1862",
+        "1842",
+        "1872"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frankland introduced the concept of chemical bonding in 1852.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4902,
+      "question": "What did Frankland postulate as the combining power of an element in a compound?",
+      "options": [
+        "Atomic mass",
+        "Valency",
+        "Density",
+        "Reactivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frankland postulated that valency is the combining power of an element in a compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.4116,
+      "question": "Which valency did Frankland assign to nitrogen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitrogen has a valency of 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.415,
+      "question": "Which valency did Frankland assign to oxygen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxygen has a valency of 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.8975,
+      "question": "Which valency did Frankland assign to hydrogen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrogen has a valency of 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.6506,
+      "question": "Chemical bonding helps to explain which aspect of a molecule?",
+      "options": [
+        "Geometry",
+        "Colour",
+        "Density",
+        "Temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chemical bonding helps to explain the geometry of a molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792519197752.2756,
+      "question": "The concept of valency describes which property of an element?",
+      "options": [
+        "Combining power",
+        "Melting point",
+        "Density",
+        "Colour"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valency is the combining power of an element in a compound.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
