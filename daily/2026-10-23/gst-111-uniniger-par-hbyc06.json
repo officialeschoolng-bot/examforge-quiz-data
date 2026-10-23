@@ -3,16 +3,718 @@
   "title": "GST 111 ( UNINIGER ) : PARTS OF SPEECH (1)",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792745141379.5972,
+      "question": "Parts of speech are classified according to what?",
+      "options": [
+        "Function and use",
+        "Length and sound",
+        "Origin and history",
+        "Spelling and meaning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parts of speech are basic categories based on function and use in sentences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1863,
+      "question": "How many major parts of speech are traditionally recognized?",
+      "options": [
+        "Fifteen",
+        "Twenty",
+        "Eight",
+        "Ten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traditionally there are eight major parts of speech.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.8735,
+      "question": "Which part of speech is sometimes added as a ninth in modern grammar?",
+      "options": [
+        "Determiners",
+        "Interjections",
+        "Articles",
+        "Particles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modern grammar sometimes adds determiners as a ninth part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6907,
+      "question": "Which of the following is NOT listed among the major parts of speech?",
+      "options": [
+        "Nouns",
+        "Verbs",
+        "Tenses",
+        "Adverbs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tenses are not a part of speech; they are verb forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.2915,
+      "question": "Every word in a sentence belongs to which of the following?",
+      "options": [
+        "A phrase",
+        "A word class",
+        "A part of speech",
+        "A sentence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every word belongs to one of the parts of speech categories.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.4185,
+      "question": "Which of the following is a part of speech?",
+      "options": [
+        "Nouns",
+        "Syllables",
+        "Punctuation",
+        "Paragraphs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nouns are one of the eight major parts of speech.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6384,
+      "question": "Which of the following correctly lists a major part of speech?",
+      "options": [
+        "Verbs",
+        "Paragraphs",
+        "Sentences",
+        "Phrases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verbs are one of the major parts of speech.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.026,
+      "question": "The basic categories into which words are classified are called what?",
+      "options": [
+        "Parts of speech",
+        "Figures of speech",
+        "Parts of sentence",
+        "Types of clauses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parts of speech are the basic categories for classifying words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.817,
+      "question": "A noun is the name of a person, place, animal, thing, idea, or what?",
+      "options": [
+        "Quality",
+        "Movement",
+        "Condition",
+        "Manner"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A noun names a person, place, animal, thing, idea, or quality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6184,
+      "question": "Which of the following is an example of a noun?",
+      "options": [
+        "Quickly",
+        "Run",
+        "Joy",
+        "Beautiful"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Joy is a noun (abstract).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.2334,
+      "question": "Proper nouns always begin with which type of letter?",
+      "options": [
+        "Small",
+        "Upper",
+        "Silent",
+        "Vowel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Proper nouns always begin with a capital letter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.0984,
+      "question": "Which of the following is a proper noun?",
+      "options": [
+        "City",
+        "Mountain",
+        "Nigeria",
+        "River"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nigeria is a specific name of a place, so it is a proper noun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.2773,
+      "question": "Which of the following is a common noun?",
+      "options": [
+        "John",
+        "Lagos",
+        "Book",
+        "Bible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Book is a general name, so it is a common noun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.226,
+      "question": "Collective nouns refer to which of the following?",
+      "options": [
+        "Groups",
+        "Individuals",
+        "Actions",
+        "Qualities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Collective nouns refer to groups, e.g., class, team.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.376,
+      "question": "Which of the following is a collective noun?",
+      "options": [
+        "Team",
+        "Chair",
+        "Joy",
+        "Sand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Team is a collective noun referring to a group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.539,
+      "question": "Tangible nouns refer to things that can be what?",
+      "options": [
+        "Touched",
+        "Imagined",
+        "Counted",
+        "Abstracted"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tangible nouns refer to physical objects that can be touched.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6978,
+      "question": "Which of the following is a tangible noun?",
+      "options": [
+        "Freedom",
+        "Table",
+        "Love",
+        "Democracy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Table is a physical object that can be touched.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.8176,
+      "question": "Abstract nouns refer to which of the following?",
+      "options": [
+        "Ideas",
+        "Objects",
+        "People",
+        "Places"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abstract nouns refer to ideas, qualities, or states, not physical objects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.2898,
+      "question": "Which of the following is an abstract noun?",
+      "options": [
+        "Chair",
+        "Car",
+        "Joy",
+        "Goat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Joy is an abstract noun referring to a feeling.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1375,
+      "question": "Countable nouns can be what?",
+      "options": [
+        "Counted",
+        "Measured",
+        "Imagined",
+        "Touched"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Countable nouns can be counted, e.g., chair, car.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.382,
+      "question": "Which of the following is a countable noun?",
+      "options": [
+        "Water",
+        "Rice",
+        "Car",
+        "Sand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Car is a countable noun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.542,
+      "question": "Uncountable nouns are also known as which of the following?",
+      "options": [
+        "Mass nouns",
+        "Count nouns",
+        "Proper nouns",
+        "Abstract nouns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uncountable nouns are often called mass nouns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6135,
+      "question": "Which of the following is an uncountable noun?",
+      "options": [
+        "Book",
+        "House",
+        "Sand",
+        "Goat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sand is an uncountable noun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1519,
+      "question": "Which of the following does a verb express?",
+      "options": [
+        "Quality",
+        "Being",
+        "Name",
+        "Description"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A verb expresses action, event, or state of being.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.3887,
+      "question": "Which of the following is an action verb?",
+      "options": [
+        "Is",
+        "Seem",
+        "Write",
+        "Become"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Write is an action verb showing a physical or mental action.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1672,
+      "question": "Linking verbs are also called which of the following?",
+      "options": [
+        "Action verbs",
+        "Copula verbs",
+        "Auxiliary verbs",
+        "Modal verbs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Linking verbs are also called copula or stative verbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.4893,
+      "question": "Which of the following is a linking verb?",
+      "options": [
+        "Dance",
+        "Think",
+        "Is",
+        "Jump"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Is is a linking verb showing state.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.446,
+      "question": "Auxiliary verbs help the main verb to express tense, mood, or what?",
+      "options": [
+        "Voice",
+        "Number",
+        "Gender",
+        "Case"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Auxiliary verbs help express tense, mood, or voice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1853,
+      "question": "Which of the following is an auxiliary verb?",
+      "options": [
+        "Run",
+        "Have",
+        "Write",
+        "Eat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Have is an auxiliary verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.6514,
+      "question": "A transitive verb takes which of the following?",
+      "options": [
+        "No object",
+        "Object",
+        "Adverb",
+        "Adjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transitive verbs take a direct object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.9058,
+      "question": "In the sentence She kicked the ball, the verb kicked is what type?",
+      "options": [
+        "Transitive",
+        "Intransitive",
+        "Linking",
+        "Auxiliary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kicked takes the direct object the ball, so it is transitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.914,
+      "question": "An intransitive verb has which of the following?",
+      "options": [
+        "No object",
+        "Direct object",
+        "Indirect object",
+        "Prepositional object"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intransitive verbs have no object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.0215,
+      "question": "The verb laughed in She laughed takes which of the following?",
+      "options": [
+        "No object",
+        "Direct object",
+        "Indirect object",
+        "Prepositional object"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Laughed has no object, so it is intransitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.0327,
+      "question": "Which of the following is a modal verb?",
+      "options": [
+        "Run",
+        "Can",
+        "Write",
+        "Eat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Can is a modal verb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.12,
+      "question": "An adjective describes or modifies which of the following?",
+      "options": [
+        "Noun or pronoun",
+        "Verb or adverb",
+        "Preposition or conjunction",
+        "Sentence or clause"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adjectives modify nouns or pronouns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.7969,
+      "question": "Which of the following is an adjective?",
+      "options": [
+        "Quickly",
+        "Beauty",
+        "Run",
+        "Happy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Happy is an adjective describing a noun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.468,
+      "question": "Adjectives give more information about which of the following?",
+      "options": [
+        "Nouns",
+        "Verbs",
+        "Adverbs",
+        "Conjunctions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adjectives provide more information about nouns or pronouns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.314,
+      "question": "The positive degree of an adjective describes without what?",
+      "options": [
+        "Comparison",
+        "Modification",
+        "Qualification",
+        "Description"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive degree describes without comparison.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.1519,
+      "question": "The comparative degree compares how many things?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "More than two"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative degree compares two things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.3809,
+      "question": "Which degree of comparison compares more than two things?",
+      "options": [
+        "Positive",
+        "Comparative",
+        "Superlative",
+        "None"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Superlative degree compares more than two things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.7812,
+      "question": "What is the comparative form of tall?",
+      "options": [
+        "Taller",
+        "Tallest",
+        "Tall",
+        "More tall"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The comparative of tall is taller.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.5374,
+      "question": "What is the superlative form of large?",
+      "options": [
+        "Larger",
+        "Largest",
+        "Large",
+        "Most large"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Superlative of large is largest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.8833,
+      "question": "An adverb modifies a verb, an adjective, or which of the following?",
+      "options": [
+        "A noun",
+        "Adverbs",
+        "A pronoun",
+        "A preposition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adverbs modify verbs, adjectives, or other adverbs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.7168,
+      "question": "Adverbs show how, when, where, or to what extent an action is done. Which of the following is an adverb?",
+      "options": [
+        "Quickly",
+        "Quick",
+        "Quickness",
+        "Quicken"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quickly is an adverb showing how an action is done.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.5989,
+      "question": "Which of the following is an adverb of time?",
+      "options": [
+        "Today",
+        "Outside",
+        "Very",
+        "Completely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Today is an adverb of time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.7632,
+      "question": "The positive degree of an adverb fast is what?",
+      "options": [
+        "Fast",
+        "Faster",
+        "Fastest",
+        "More fast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive degree is the base form fast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.7158,
+      "question": "The comparative degree of fast is what?",
+      "options": [
+        "Faster",
+        "Fastest",
+        "Fast",
+        "More fast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative of fast is faster.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.0835,
+      "question": "The superlative degree of fast is what?",
+      "options": [
+        "Fastest",
+        "Faster",
+        "Fast",
+        "Most fast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Superlative of fast is fastest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.303,
+      "question": "In the sentence Yesterday, I saw him, the adverb Yesterday is in which position?",
+      "options": [
+        "Front",
+        "Middle",
+        "End",
+        "Back"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adverb is at the front position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792745141379.221,
+      "question": "In the sentence I often visit her, the adverb often is in which position?",
+      "options": [
+        "Mid",
+        "Front",
+        "End",
+        "Initial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adverb is in the mid position.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
