@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-102-unn-chapter-one-enzymes-hh6j7f",
-  "title": "BIO 102 ( UNN ) : CHAPTER ONE ( ENZYMES )",
-  "subject": "BIO 102 â€” BIO 102 Course",
+  "quizId": "bio-251-unn-chapter--tadvzh",
+  "title": "BIO 251 ( UNN ) : CHAPTER ONE ( ENZYMES )",
+  "subject": "BIO 251",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792042838086.2095,
+      "question": "Enzymes are produced by living cells as catalysts for which type of reaction?",
+      "options": [
+        "Physical",
+        "Chemical",
+        "Nuclear",
+        "Mechanical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes are biological catalysts that speed up biochemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.422,
+      "question": "The rate of chemical reactions within living cells is increased by enzymes without them suffering which of the following?",
+      "options": [
+        "Shape",
+        "Change",
+        "Structure",
+        "Size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes increase reaction rates without being consumed or undergoing overall change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.5903,
+      "question": "Biological catalysis was first recognized in the late 1700s during studies on which process?",
+      "options": [
+        "Starch synthesis",
+        "Meat digestion",
+        "Sugar breakdown",
+        "Protein folding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early studies on biological catalysis focused on meat digestion by stomach secretions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1829,
+      "question": "Historical records suggest that biological catalysis and enzymes are as old as which of the following?",
+      "options": [
+        "The earth",
+        "Mankind",
+        "Plants",
+        "Animals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Historical records suggest that biological catalysis and enzymes are as old as mankind.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1907,
+      "question": "The small part of an enzyme where the enzyme chemistry takes place is called which of the following?",
+      "options": [
+        "Scaffold",
+        "Site",
+        "Cofactor",
+        "Cleft"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The active site is the specific region of an enzyme where catalytic activity occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9902,
+      "question": "The active sites of an enzyme often make up what percentage of the total volume?",
+      "options": [
+        "10-20%",
+        "30-40%",
+        "50-60%",
+        "70-80%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The active site typically comprises only 10 to 20 percent of the total enzyme volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.4004,
+      "question": "The rest of the protein structure that is not the active site acts as which of the following?",
+      "options": [
+        "Cofactor",
+        "Scaffold",
+        "Substrate",
+        "Inhibitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rest of the protein acts as a scaffold to support the active site.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9363,
+      "question": "The active site of an enzyme is usually which type of structure?",
+      "options": [
+        "Hydrophobic cleft",
+        "Hydrophilic cleft",
+        "Rigid block",
+        "Lipid bilayer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The active site is typically a hydrophilic cleft or cavity containing amino acid side chains.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.7603,
+      "question": "Which molecule acts as a ribozyme and has catalytic action but is not a protein?",
+      "options": [
+        "DNA",
+        "RNA",
+        "Lipid",
+        "Carbohydrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RNA molecules can have catalytic action as ribozymes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.431,
+      "question": "If an enzyme is denatured or dissociated into its subunits, what happens to its catalytic activity?",
+      "options": [
+        "It increases",
+        "It is lost",
+        "It stays same",
+        "It reverses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Denaturation or dissociation of an enzyme results in the loss of catalytic activity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9683,
+      "question": "Which level of protein structure is essential for maintaining catalytic activity?",
+      "options": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Quaternary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proteins maintain catalytic activity at their tertiary structure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.0425,
+      "question": "Which of the following takes part in the catalysis of many reactions but is not an enzyme?",
+      "options": [
+        "Lipids",
+        "Hormones",
+        "Vitamins",
+        "Antibodies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Antibodies can take part in the catalysis of many reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.2698,
+      "question": "Enzymology is the study of which of the following?",
+      "options": [
+        "Cell structure",
+        "Enzyme action",
+        "Gene expression",
+        "Protein synthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymology is the study of enzymes and enzyme-catalyzed reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.4233,
+      "question": "To study an enzyme in vitro, it must be isolated in which form?",
+      "options": [
+        "Crude",
+        "Pure",
+        "Mixed",
+        "Denatured"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes must be isolated in pure form free from contaminants for in vitro study.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.29,
+      "question": "Which enzyme property is investigated under enzymology?",
+      "options": [
+        "Color",
+        "Shape",
+        "Density",
+        "Specificity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Enzymology investigates enzyme properties including specificity and reversibility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.5881,
+      "question": "Enzymes can be classified based on which of the following?",
+      "options": [
+        "Origin",
+        "Hue",
+        "Size",
+        "Shape"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes are classified based on the location where they are found or function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1174,
+      "question": "Enzymes are classified into how many major types based on location?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes are classified into two major types based on location.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.3574,
+      "question": "Previously, enzymes were named by adding which suffix to the substrate?",
+      "options": [
+        "-ose",
+        "-ase",
+        "-in",
+        "-ol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes were originally named by adding the suffix \"ase\" to the substrate name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.8972,
+      "question": "Which organization initiated standards of enzyme nomenclature in 1955?",
+      "options": [
+        "IUPAC",
+        "IUB",
+        "WHO",
+        "UNESCO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The International Union of Biochemistry initiated standards of enzyme nomenclature in 1955.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.92,
+      "question": "Each enzyme has been assigned how many digits in its classification number?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each enzyme is assigned a four-digit Enzyme Commission classification number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.276,
+      "question": "What is the E.C. number for peroxidase?",
+      "options": [
+        "1.11.1.7",
+        "2.11.1.7",
+        "3.11.1.7",
+        "4.11.1.7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The E.C. number for peroxidase is 1.11.1.7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9512,
+      "question": "Which enzyme group catalyzes the transfer of electrons?",
+      "options": [
+        "Transferases",
+        "Hydrolases",
+        "Reductases",
+        "Lyases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Oxidoreductases catalyze oxidation or reduction reactions involving electron transfer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.674,
+      "question": "Which enzyme group catalyzes the formation of C-C, C-S, C-O, and C-N bonds?",
+      "options": [
+        "Ligases",
+        "Isomerases",
+        "Lyases",
+        "Hydrolases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ligases catalyze the formation of C-C, C-S, C-O, and C-N bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.8948,
+      "question": "The molecule that is bound in the active site and acted upon by the enzyme is called which of the following?",
+      "options": [
+        "Cofactor",
+        "Substrate",
+        "Product",
+        "Inhibitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The substrate is the molecule bound in the active site and acted upon by the enzyme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9229,
+      "question": "The enzyme-substrate complex was first proposed by which scientist in 1880?",
+      "options": [
+        "Wurtz",
+        "Michaelis",
+        "Krebs",
+        "Fischer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Charles Adolphe Wurtz first proposed the existence of the enzyme-substrate complex in 1880.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.4148,
+      "question": "Reactions required to digest food do not occur at a useful rate without which of the following?",
+      "options": [
+        "Enzymes",
+        "Heat",
+        "Pressure",
+        "Light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes are required to speed up reactions like food digestion to a useful rate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1465,
+      "question": "The distinguishing feature of an enzyme-catalyzed reaction is that it takes place within which structure?",
+      "options": [
+        "Membrane",
+        "Cleft",
+        "Nucleus",
+        "Cytoplasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzyme-catalyzed reactions take place within the active site, often a cleft or cavity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1804,
+      "question": "Enzymes are sensitive to temperature and are denatured by which condition?",
+      "options": [
+        "Hotness",
+        "Cold",
+        "Darkness",
+        "Light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes are denatured by excess heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.805,
+      "question": "The optimum pH of pepsin in the stomach is about which value?",
+      "options": [
+        "2",
+        "7",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pepsin in the stomach has an optimum pH of about 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.591,
+      "question": "The optimum pH of salivary amylase is about which value?",
+      "options": [
+        "2",
+        "7",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Salivary amylase has an optimum pH of about 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.954,
+      "question": "The reaction rate for an enzyme is limited by its what?",
+      "options": [
+        "Limit point",
+        "Melting point",
+        "Boiling point",
+        "Freezing point"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reaction rate for an enzyme is limited by its saturation point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9338,
+      "question": "The specificity of enzymes is illustrated by which hypothesis?",
+      "options": [
+        "Lock and key",
+        "Induced fit",
+        "Fluid mosaic",
+        "Central dogma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzyme specificity is illustrated by the lock and key hypothesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.1328,
+      "question": "Enzymes are not consumed in the reactions they catalyze, acting as what?",
+      "options": [
+        "Reactants",
+        "Catalysts",
+        "Products",
+        "Substrates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes act as catalysts and are not consumed in the reactions they catalyze.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.689,
+      "question": "Enzymes lower which type of energy of a reaction?",
+      "options": [
+        "Kinetic",
+        "Binding",
+        "Potential",
+        "Thermal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes lower the activation energy of a reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.9563,
+      "question": "Enzymes are created in cells but are capable of functioning where?",
+      "options": [
+        "Outside cell",
+        "Inside cell",
+        "In nucleus",
+        "In mitochondria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes are created in cells but can function outside the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.6396,
+      "question": "At 0°C, enzyme action is low because the movement of molecules is what?",
+      "options": [
+        "Fast",
+        "Low",
+        "Random",
+        "Constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At 0°C, low molecular movement reduces the collision frequency between enzymes and substrates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.0327,
+      "question": "Increasing the temperature speeds up the movement of molecules, increasing which form of energy?",
+      "options": [
+        "Kinetic",
+        "Potential",
+        "Chemical",
+        "Nuclear"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increasing temperature increases the kinetic energy of molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.7537,
+      "question": "Enzymes catalyse which type of reactions in living things?",
+      "options": [
+        "All metabolic",
+        "Only catabolic",
+        "Only anabolic",
+        "Only synthetic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes catalyse all metabolic reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.7854,
+      "question": "The activity of a cell is determined by which enzymes are what?",
+      "options": [
+        "Active",
+        "Inactive",
+        "Denatured",
+        "Synthesized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The activity of a cell is determined by which enzymes are active in the cell at that time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838086.3748,
+      "question": "Cell activity is altered by removing specific enzymes and/or synthesising which of the following?",
+      "options": [
+        "New enzymes",
+        "New lipids",
+        "New carbohydrates",
+        "New nucleic acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cell activity is altered by removing specific enzymes and/or synthesising new enzymes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.966,
+      "question": "A complete and balanced set of enzymes is essential for the breakdown of what?",
+      "options": [
+        "Food",
+        "Cells",
+        "Tissues",
+        "Organs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A complete and balanced set of enzymes is essential for the breakdown of nutrients or food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.9446,
+      "question": "Enzymes harness energy to power cell motility and which other process?",
+      "options": [
+        "Contraction",
+        "Bone growth",
+        "Hair growth",
+        "Skin repair"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enzymes harness energy to power cell motility and muscle contraction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.9224,
+      "question": "Deficiencies in the quantity or catalytic activity of key enzymes can cause what?",
+      "options": [
+        "Disease",
+        "Growth",
+        "Repair",
+        "Immunity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deficiencies in key enzymes can lead to disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.5547,
+      "question": "Bioprocessing is the use of biological materials to carry out what type of procedures?",
+      "options": [
+        "Industrial",
+        "Political",
+        "Social",
+        "Legal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bioprocessing uses biological materials for manufacturing or treatment procedures of commercial or scientific interest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.0051,
+      "question": "Glucose isomerase is used for the production of which substance from glucose?",
+      "options": [
+        "Sugar",
+        "Sucrose",
+        "Lactose",
+        "Maltose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose isomerase is used for the production of fructose from glucose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.909,
+      "question": "Sucrase is used for the production of glucose and fructose from which substance?",
+      "options": [
+        "Sucrose",
+        "Starch",
+        "Cellulose",
+        "Lactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sucrase produces glucose and fructose from sucrose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.2087,
+      "question": "Glucose oxidase is used for testing blood or urine for which substance?",
+      "options": [
+        "Glucose",
+        "Protein",
+        "Ketones",
+        "Urea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose oxidase is used for testing blood or urine for glucose in diabetics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.6558,
+      "question": "Pectinase is used for the production of clear juice from which fruits?",
+      "options": [
+        "Apples",
+        "Oranges",
+        "Bananas",
+        "Mangoes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pectinase is used for the production of clear juice from apples and grapes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.5203,
+      "question": "Which enzyme is used in the production of fructose from glucose?",
+      "options": [
+        "Isomerase",
+        "Sucrase",
+        "Oxidase",
+        "Pectinase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glucose isomerase is used to produce fructose from glucose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792042838087.0688,
+      "question": "Pectinase is used in the making of which beverage?",
+      "options": [
+        "Cider",
+        "Coffee",
+        "Tea",
+        "Milk"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pectinase is used in cider and wine-making to produce clear juice.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
