@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-102-unn-revision-quiz-3-7skhgd",
+  "quizId": "chm-102-unn-revision-ateg3y",
   "title": "CHM 102 ( UNN ) : REVISION QUIZ 3",
-  "subject": "CHM 102 â€” CHM 102 Course",
+  "subject": "CHM 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792590764924.0657,
+      "question": "Grignard reagents are prepared by reacting an alkyl halide with magnesium metal in which solvent?",
+      "options": [
+        "ether",
+        "water",
+        "ethanol",
+        "benzene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Grignard reagents are formed when alkyl halides react with magnesium in ether.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.6387,
+      "question": "Dehalogenation of vicinal dihalides uses methanol together with which metal?",
+      "options": [
+        "zinc",
+        "sodium",
+        "copper",
+        "magnesium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vicinal dihalides treated with zinc dust and methanol give an alkene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.7766,
+      "question": "The C=C stretching vibration of alkenes appears in which infrared region?",
+      "options": [
+        "1620-1680 cm-1",
+        "3000-3100 cm-1",
+        "1700-1750 cm-1",
+        "2200-2250 cm-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The C=C stretch appears around 1620 to 1680 cm-1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.6575,
+      "question": "Hydration of ethyne yields which type of compound?",
+      "options": [
+        "carboxylic acid",
+        "aldehyde",
+        "primary alcohol",
+        "secondary ketone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethyne gives an aldehyde on hydration, unlike other terminal alkynes which give ketones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.791,
+      "question": "Oxidation of an alkyne with KMnO4 under neutral conditions gives which product?",
+      "options": [
+        "diketone",
+        "carboxylic acid",
+        "aldehyde",
+        "alcohol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neutral permanganate oxidation of an alkyne produces a diketone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.8984,
+      "question": "Complete combustion of an alkane in excess oxygen produces carbon dioxide and which product?",
+      "options": [
+        "water",
+        "hydrogen",
+        "ozone",
+        "carbon monoxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complete combustion of alkanes gives carbon dioxide, steam, and heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764925.1748,
+      "question": "Low molecular mass alkyl fluorides and chlorides are in which physical state?",
+      "options": [
+        "gases",
+        "liquids",
+        "solids",
+        "oils"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alkyl fluorides and chlorides of low molecular mass are gases at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.195,
+      "question": "Alkyl iodides gradually turn brown on exposure to light due to liberation of which element?",
+      "options": [
+        "iodine",
+        "bromine",
+        "chlorine",
+        "fluorine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iodides liberate free iodine on exposure to light, causing browning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.4275,
+      "question": "The SN2 reaction follows which kinetic order?",
+      "options": [
+        "zero order",
+        "first order",
+        "second",
+        "third"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SN2 is bimolecular and follows second-order kinetics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.255,
+      "question": "Which solvent enhances the rate of SN2 reactions?",
+      "options": [
+        "water",
+        "DMSO",
+        "ethanol",
+        "acetic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polar aprotic solvents such as DMSO and DMF accelerate SN2 reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.6177,
+      "question": "Zaitsev's rule predicts the major elimination product has which feature?",
+      "options": [
+        "fewer alkyl groups",
+        "more alkyl groups",
+        "cis only",
+        "terminal only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The more substituted alkene is thermodynamically more stable and is the major product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.4678,
+      "question": "Beta graphite has which layer stacking pattern?",
+      "options": [
+        "ABAB pattern",
+        "ABCABC",
+        "AAAA pattern",
+        "ABBA pattern"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta graphite has ABCABC stacking of its layers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.5889,
+      "question": "The interlayer spacing in graphite is greater than which value?",
+      "options": [
+        "141.5 pm",
+        "154.45 pm",
+        "335.4 pm",
+        "356.68 pm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Graphite has a C-C distance of 141.5 pm within layers and interlayer spacing greater than 335.4 pm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.6636,
+      "question": "C60 has a diameter of about which value?",
+      "options": [
+        "0.7 nm",
+        "1.4 nm",
+        "2.1 nm",
+        "3.5 nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C60 is about 0.7 nm in diameter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.8262,
+      "question": "Direct fluorination of solid C60 with F2 gas at 70 C yields which product?",
+      "options": [
+        "C60F2",
+        "C60F48",
+        "C60Cl6",
+        "C60Br6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluorination of C60 with F2 gas at 70 C over several days gives C60F2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.4426,
+      "question": "Silicon makes up what percentage by weight of the Earth's crust?",
+      "options": [
+        "27.2",
+        "45.5",
+        "10.0",
+        "72.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Silicon makes up about 27.2 percent by weight of the Earth's crust.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.6223,
+      "question": "Silica gel has a surface area of about which range?",
+      "options": [
+        "150-500",
+        "2200-2600",
+        "750-800",
+        "1000-1200"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Silica gel has a surface area of about 750 to 800 m2 per gram.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7979,
+      "question": "Methanoic acid is commonly known by which name?",
+      "options": [
+        "formic",
+        "acetic",
+        "propionic",
+        "butyric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methanoic acid is commonly called formic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7112,
+      "question": "Carboxylic acids often exist in the liquid and solid states as which species?",
+      "options": [
+        "monomers",
+        "dimers",
+        "trimers",
+        "polymers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carboxylic acids form strong intermolecular hydrogen bonds and often exist as dimers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.626,
+      "question": "Which reagent converts a carboxylic acid into an acid chloride?",
+      "options": [
+        "SOCl2",
+        "NaOH",
+        "HCl",
+        "NaCl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thionyl chloride converts carboxylic acids into acid chlorides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7258,
+      "question": "Ester names change the acid -ic ending to which suffix?",
+      "options": [
+        "-ol",
+        "-al",
+        "-ate",
+        "-oic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The R part of the OR group is named first, followed by the acid name with -ic changed to -ate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.1077,
+      "question": "Hydrolysis of an acid anhydride with water produces which product?",
+      "options": [
+        "alcohol",
+        "ester",
+        "acid",
+        "aldehyde"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Water adds to an acid anhydride to give two molecules of carboxylic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.9294,
+      "question": "Lepidolite contains lithium along with potassium, aluminium and which element?",
+      "options": [
+        "silicon",
+        "sulfur",
+        "chlorine",
+        "nitrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lepidolite has the formula K2Li3Al4Si7O21(F, OH)3 and contains silicon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.4111,
+      "question": "Sodium chloride makes up what percentage by mass of the biosphere?",
+      "options": [
+        "2.6",
+        "4.0",
+        "10.0",
+        "26.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NaCl makes up 2.6 percent by mass of the biosphere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.03,
+      "question": "Natural potassium contains what percentage of the radioactive isotope 40K?",
+      "options": [
+        "0.012",
+        "0.12",
+        "1.2",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Natural potassium contains 0.012 percent of radioactive 40K.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.1365,
+      "question": "Sodium chloride is kept molten in Down's cell at which temperature?",
+      "options": [
+        "450 C",
+        "600 C",
+        "808 C",
+        "1000 C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The NaCl is kept molten at 600 C using a eutectic mixture with calcium chloride.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.05,
+      "question": "Caesium metal can be obtained by electrolysis of molten which compound?",
+      "options": [
+        "CsCN",
+        "CsCl",
+        "CsOH",
+        "Cs2O"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Caesium metal can be obtained by electrolysis of molten CsCN.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.9546,
+      "question": "Caesium salts give which flame colour?",
+      "options": [
+        "blue",
+        "red",
+        "yellow",
+        "green"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Caesium gives a blue flame colour in flame tests.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.8967,
+      "question": "Wohler synthesized urea from ammonium sulphate and which compound?",
+      "options": [
+        "potassium cyanate",
+        "potassium chloride",
+        "sodium cyanate",
+        "ammonium cyanate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ammonium sulphate reacts with potassium cyanate to give ammonium cyanate, which rearranges to urea.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7126,
+      "question": "Emil Fischer synthesized complex carbohydrates and which compounds?",
+      "options": [
+        "lipids",
+        "amino acids",
+        "nucleic acids",
+        "vitamins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fischer's synthesis of complex carbohydrates and amino acids led to the development of biochemistry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.3628,
+      "question": "Lavoisier is known for the concept of conservation of which quantity?",
+      "options": [
+        "mass",
+        "charge",
+        "volume",
+        "energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lavoisier established the concept of the conservation of mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.0386,
+      "question": "Alchemists sought a potion that could give which benefit?",
+      "options": [
+        "eternal life",
+        "great wealth",
+        "perfect health",
+        "long youth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alchemists believed they could create a potion that could give eternal life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.588,
+      "question": "In an elementary step, the coefficient of each reactant becomes which term in the rate law?",
+      "options": [
+        "power",
+        "product",
+        "sum",
+        "ratio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coefficient of each reactant becomes the power to which it is raised in the rate law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7893,
+      "question": "The reaction of NO2 with F2 has which experimental rate law?",
+      "options": [
+        "k[NO2][F2]",
+        "k[NO2]2[F2]",
+        "k[NO2][F2]2",
+        "k[NO2]2[F2]2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Experiments show the rate law is k[NO2][F2], so the reaction is not elementary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.0417,
+      "question": "The two-point Arrhenius equation uses rate constants measured at two different what?",
+      "options": [
+        "pressures",
+        "temperatures",
+        "volumes",
+        "concentrations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two-point Arrhenius equation relates rate constants at two temperatures to the activation energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.8157,
+      "question": "In the Arrhenius equation, R represents which quantity?",
+      "options": [
+        "gas constant",
+        "rate constant",
+        "frequency factor",
+        "activation energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "R is the gas constant in the Arrhenius equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7485,
+      "question": "The fraction of molecules with sufficient activation energy depends strongly on which factor?",
+      "options": [
+        "pressure",
+        "heat",
+        "volume",
+        "mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fraction of molecules with sufficient activation energy is very temperature dependent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7324,
+      "question": "The release of products from a catalyst surface is known by which term?",
+      "options": [
+        "adsorption",
+        "escape",
+        "diffusion",
+        "reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The final step in heterogeneous catalysis is desorption, the escape of products from the surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.5405,
+      "question": "Thortveitite is found in Scandinavia and which other country?",
+      "options": [
+        "Japan",
+        "Brazil",
+        "India",
+        "China"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thortveitite is found in Scandinavia and Japan.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.8774,
+      "question": "Carnotite has which formula?",
+      "options": [
+        "Pb5(VO4)3Cl",
+        "K2(UO2)2(VO4)2",
+        "FeCr2O4",
+        "VS4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carnotite is K2(UO2)2(VO4)2·3H2O, an ore of potassium, uranium, and vanadium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.5906,
+      "question": "Siderite is an ore of iron with which formula?",
+      "options": [
+        "FeCO3",
+        "Fe2O3",
+        "Fe3O4",
+        "FeS2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Siderite is iron(II) carbonate, FeCO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.6582,
+      "question": "Atacamite has which formula?",
+      "options": [
+        "Cu2O",
+        "CuSO4·5H2O",
+        "Cu2Cl(OH)3",
+        "Cu2(OH)2CO3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atacamite is Cu2Cl(OH)3, an ore of copper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.1235,
+      "question": "Malachite is a basic carbonate ore of which metal?",
+      "options": [
+        "Cu",
+        "Fe",
+        "Zn",
+        "Pb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Malachite is a basic copper carbonate with formula Cu2(OH)2CO3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.2715,
+      "question": "Copper has which anomalous electronic configuration?",
+      "options": [
+        "[Ar] 3d9 4s2",
+        "[Ar] 3d10 4s1",
+        "[Ar] 3d8 4s2",
+        "[Kr] 3d10 4s1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copper adopts [Ar] 3d10 4s1 due to the stability of a fully filled d sub-shell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.386,
+      "question": "A complex with coordination number 4 can be tetrahedral or which other geometry?",
+      "options": [
+        "linear",
+        "planar",
+        "octahedral",
+        "trigonal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coordination number 4 gives tetrahedral or square planar geometry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.7327,
+      "question": "In an octahedral field, dxy, dxz and dyz form which set?",
+      "options": [
+        "eg",
+        "t2g",
+        "dsp",
+        "sp3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dxy, dxz, and dyz orbitals form the lower energy t2g set in an octahedral field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.528,
+      "question": "Linkage isomerism involves a ligand binding through which feature?",
+      "options": [
+        "same donor atoms",
+        "different donor atoms",
+        "ring size",
+        "chirality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Linkage isomerism arises when a ligand can bind through different donor atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.4792,
+      "question": "Down a transition group, the stability of higher oxidation states does which?",
+      "options": [
+        "falls",
+        "rises",
+        "stays",
+        "ends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Higher oxidation states become more stable down the group for transition metals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.2107,
+      "question": "Carbonic anhydrase contains which metal?",
+      "options": [
+        "zinc",
+        "copper",
+        "iron",
+        "magnesium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbonic anhydrase is a zinc-containing enzyme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792590764926.9324,
+      "question": "Primary amides contain which group?",
+      "options": [
+        "NH2",
+        "OH",
+        "Cl",
+        "OR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primary amides have the general formula RCONH2.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
