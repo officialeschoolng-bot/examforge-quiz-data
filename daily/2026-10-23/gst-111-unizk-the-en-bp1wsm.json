@@ -3,16 +3,718 @@
   "title": "GST 111 ( UNIZK ) : THE ENGLISH SOUNDS",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792754208637.3093,
+      "question": "The English language is composed of how many sounds?",
+      "options": [
+        "26",
+        "44",
+        "24",
+        "20"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 44 sounds in English which include vowels and consonants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.897,
+      "question": "Which term describes the smallest units of sound that distinguish one word from another?",
+      "options": [
+        "Letters",
+        "Syllables",
+        "Phonemes",
+        "Morphemes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sounds or phonemes are the smallest units of sound that can distinguish one word from another.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.8396,
+      "question": "Which category of the sound system includes consonants and vowels?",
+      "options": [
+        "Suprasegmental features",
+        "Segmental features",
+        "Prosodic features",
+        "Articulatory features"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Segmental features are consonants and vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.4448,
+      "question": "Which term refers to the pitch variations and rhythm in speech?",
+      "options": [
+        "Segmental features",
+        "Consonants",
+        "Vowels",
+        "Suprasegmental features"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The suprasegmental features are stress, intonation and rhythm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.1526,
+      "question": "Consonants are speech sounds articulated with which type of airflow?",
+      "options": [
+        "Free flow",
+        "Partial closure",
+        "Complete closure",
+        "No obstruction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A consonant is a speech sound that is articulated with complete or partial closure of the vocal tract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.7878,
+      "question": "How many consonant sounds exist in the English language?",
+      "options": [
+        "21",
+        "24",
+        "20",
+        "26"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 24 consonants in English.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.4634,
+      "question": "Which parameters are used to classify consonants?",
+      "options": [
+        "Place, manner, and state of glottis",
+        "Height, backness, and rounding",
+        "Stress, pitch, and tone",
+        "Length, tension, and volume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three parameters for classifying consonants are place of articulation, manner of articulation, and state of glottis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.3245,
+      "question": "Which term refers to the point in the vocal tract where a consonant is produced?",
+      "options": [
+        "Manner of articulation",
+        "State of glottis",
+        "Place of articulation",
+        "Voicing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The place of articulation denotes the particular point in the vocal tract where a speech sound is produced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.0344,
+      "question": "Which of the following is a voiceless bilabial plosive?",
+      "options": [
+        "/b/",
+        "/p/",
+        "/t/",
+        "/d/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/p/ is described as a voiceless bilabial plosive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.1997,
+      "question": "The letter 'b' is silent in which of the following words?",
+      "options": [
+        "bat",
+        "bride",
+        "debt",
+        "ban"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The letter 'b' is not pronounced in debt, dumb, climb, and plumber.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.8035,
+      "question": "Which consonant sound is described as a voiceless alveolar plosive?",
+      "options": [
+        "/d/",
+        "/k/",
+        "/t/",
+        "/g/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/t/ is a voiceless alveolar plosive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.4805,
+      "question": "The written 't' is silent in which of these words?",
+      "options": [
+        "ten",
+        "listen",
+        "tap",
+        "little"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The written 't' is not pronounced when it comes between 's' and 'n' as in listen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.58,
+      "question": "Which sound is the voiced counterpart of /t/?",
+      "options": [
+        "/p/",
+        "/k/",
+        "/b/",
+        "/d/"
+      ],
+      "correctAnswer": 3,
+      "explanation": "/d/ is the voiced alveolar plosive, the counterpart of /t/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.9353,
+      "question": "The written 'd' is silent in which word?",
+      "options": [
+        "dog",
+        "bad",
+        "handsome",
+        "ladder"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The written 'd' is silent in handsome and handkerchief.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.3242,
+      "question": "Which sound is a voiceless velar plosive?",
+      "options": [
+        "/k/",
+        "/g/",
+        "/t/",
+        "/p/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/k/ is described as a voiceless velar plosive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.8645,
+      "question": "The written 'k' is not pronounced in which of the following words?",
+      "options": [
+        "key",
+        "cat",
+        "cake",
+        "knee"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The written 'k' is not pronounced in knee, knit, knife, and know.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.325,
+      "question": "Which consonant is described as the voiced velar plosive?",
+      "options": [
+        "/k/",
+        "/g/",
+        "/d/",
+        "/b/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/g/ is the voiced velar plosive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.153,
+      "question": "The written 'g' is silent in which of these words?",
+      "options": [
+        "get",
+        "gown",
+        "sign",
+        "aghast"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The written 'g' is silent in gnaw, gnash, gnat, and sign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.1948,
+      "question": "Which sound is described as a voiceless labiodental fricative?",
+      "options": [
+        "/v/",
+        "/f/",
+        "/θ/",
+        "/s/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/f/ is a voiceless labiodental fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.706,
+      "question": "Which consonant is the voiced counterpart of /f/?",
+      "options": [
+        "/v/",
+        "/s/",
+        "/z/",
+        "/θ/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/v/ is the voiced labiodental fricative, counterpart of /f/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.036,
+      "question": "The sound /θ/ is found in which of the following words?",
+      "options": [
+        "this",
+        "then",
+        "thin",
+        "that"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/θ/ is the voiceless dental fricative found in thin, thought, and thank.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.2222,
+      "question": "Which sound is the voiced counterpart of /θ/?",
+      "options": [
+        "/ð/",
+        "/s/",
+        "/z/",
+        "/ʃ/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/ð/ is the voiced dental fricative, found in rather, this, and then.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.786,
+      "question": "Which consonant is described as the voiceless alveolar fricative?",
+      "options": [
+        "/z/",
+        "/s/",
+        "/ʃ/",
+        "/f/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/s/ is described as the voiceless alveolar fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.121,
+      "question": "Which sound is the voiced alveolar fricative?",
+      "options": [
+        "/s/",
+        "/ʃ/",
+        "/z/",
+        "/ʒ/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/z/ is the voiced alveolar fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.5786,
+      "question": "Which sound is a voiceless palato-alveolar fricative?",
+      "options": [
+        "/ʃ/",
+        "/ʒ/",
+        "/tʃ/",
+        "/dʒ/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/ʃ/ is the voiceless palato-alveolar fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.9233,
+      "question": "The sound /ʒ/ is found in which word?",
+      "options": [
+        "sheep",
+        "measure",
+        "church",
+        "judge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/ʒ/ occurs in leisure, invasion, measure, and vision.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.0408,
+      "question": "Which sound is a voiceless palato-alveolar affricate?",
+      "options": [
+        "/ʃ/",
+        "/tʃ/",
+        "/dʒ/",
+        "/ʒ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/tʃ/ is the voiceless palato-alveolar affricate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.7195,
+      "question": "Which consonant is the voiced counterpart of /tʃ/?",
+      "options": [
+        "/ʃ/",
+        "/ʒ/",
+        "/dʒ/",
+        "/j/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/dʒ/ is the voiced counterpart of /tʃ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.5698,
+      "question": "How many nasal sounds exist in English?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are three nasal sounds in English: /m/, /n/, and /ŋ/.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.9233,
+      "question": "Which consonant is a voiced bilabial nasal?",
+      "options": [
+        "/n/",
+        "/ŋ/",
+        "/m/",
+        "/l/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/m/ is a voiced bilabial nasal sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.865,
+      "question": "Which English sound cannot occur in the initial position?",
+      "options": [
+        "/m/",
+        "/n/",
+        "/l/",
+        "/ŋ/"
+      ],
+      "correctAnswer": 3,
+      "explanation": "/ŋ/ is the only English sound that cannot occur in the initial position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.1692,
+      "question": "How many lateral sounds are there in English?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/l/ is the only lateral sound in English.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.8542,
+      "question": "The sound /l/ is not pronounced in which of the following words?",
+      "options": [
+        "leaf",
+        "blow",
+        "palm",
+        "light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/l/ is not pronounced in palm, half, calf, and psalm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.505,
+      "question": "Which consonant is described as a voiced palato-alveolar approximant?",
+      "options": [
+        "/l/",
+        "/r/",
+        "/w/",
+        "/j/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/r/ is described as the voiced palato-alveolar approximant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.6775,
+      "question": "The written 'w' is silent in which word?",
+      "options": [
+        "wig",
+        "write",
+        "wean",
+        "weak"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The written 'w' is silent in write, wreck, wrist, and who.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.0078,
+      "question": "Which sound is the voiced palatal approximant?",
+      "options": [
+        "/w/",
+        "/r/",
+        "/j/",
+        "/l/"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/j/ is the voiced palatal approximant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.9656,
+      "question": "The sound /j/ does not occur in which position of an English word?",
+      "options": [
+        "Initial position",
+        "Medial position",
+        "Final position",
+        "All positions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sound /j/ does not occur at the final position of an English word.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.7327,
+      "question": "Which consonant is a voiceless glottal fricative?",
+      "options": [
+        "/h/",
+        "/f/",
+        "/s/",
+        "/θ/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/h/ is referred to as the voiceless glottal fricative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.0334,
+      "question": "The sound /h/ is silent in which of the following words?",
+      "options": [
+        "house",
+        "heaven",
+        "honour",
+        "hand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "/h/ is silent in honour, hour, heir, and honest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.9592,
+      "question": "How many vowel sounds are there in English?",
+      "options": [
+        "5",
+        "12",
+        "20",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In spoken language, vowel sounds are twenty in number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.3623,
+      "question": "Vowel sounds are produced without which of the following?",
+      "options": [
+        "Voicing",
+        "Obstruction to airflow",
+        "Vocal cord vibration",
+        "Tongue movement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vowel sounds are produced without obstruction to the flow of air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.7856,
+      "question": "How many pure vowels are there in English?",
+      "options": [
+        "8",
+        "12",
+        "7",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The English pure vowels are twelve in number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.6494,
+      "question": "Which of the following is a long vowel sound?",
+      "options": [
+        "/i/",
+        "/e/",
+        "/æ/",
+        "/i:/"
+      ],
+      "correctAnswer": 3,
+      "explanation": "/i:/ is a long vowel sound accompanied by the colon sign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.684,
+      "question": "The schwa sound is represented by which symbol?",
+      "options": [
+        "/ʌ/",
+        "/ə/",
+        "/ɒ/",
+        "/æ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "/ə/ is referred to as the schwa sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.3608,
+      "question": "A diphthong is best described as which type of sound?",
+      "options": [
+        "Single sound",
+        "Double sound",
+        "Three-part sound",
+        "Voiceless sound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A diphthong is a double sound with a gliding movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.8247,
+      "question": "How many diphthongs are there in English?",
+      "options": [
+        "12",
+        "7",
+        "8",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are eight diphthongs in English.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.6702,
+      "question": "Which term describes a three-part vowel sound?",
+      "options": [
+        "Monophthong",
+        "Diphthong",
+        "Triphthong",
+        "Consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A triphthong has a sequence of three vowels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.429,
+      "question": "Which word contains the diphthong /eɪ/?",
+      "options": [
+        "day",
+        "go",
+        "cow",
+        "boy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "/eɪ/ is found in day, eight, face, and way.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.6409,
+      "question": "Which feature refers to the prominence assigned to a syllable in a word?",
+      "options": [
+        "Intonation",
+        "Stress",
+        "Rhythm",
+        "Pitch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress is the prominence assigned to a word or a syllable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792754208637.758,
+      "question": "Which feature involves the rise and fall of the voice pitch?",
+      "options": [
+        "Stress",
+        "Rhythm",
+        "Intonation",
+        "Articulation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intonation involves the voice pitch becoming high or low to communicate meaning.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
