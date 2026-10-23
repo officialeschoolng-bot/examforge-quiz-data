@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-201-unizik-mendelian-genetics-and-te-8182zl",
+  "quizId": "bio-201-unizik-mende-w10r3l",
   "title": "BIO 201 ( UNIZIK ) : MENDELIAN GENETICS AND TERMINOLOGIES",
-  "subject": "BIO 201 â€” BIO 201 Course",
+  "subject": "BIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792695119555.0615,
+      "question": "Genes are best described as which of the following?",
+      "options": [
+        "Units of inheritance",
+        "Thread-like cell structures",
+        "Chemical cell wastes",
+        "Body fluid particles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genes are the basic units of inheritance located on chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.882,
+      "question": "Chromosomes are which of the following?",
+      "options": [
+        "Cell waste products",
+        "Gene-bearing threads",
+        "Membrane-bound sacs",
+        "Protein storage grains"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromosomes are thread-like structures that carry genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.0667,
+      "question": "An allele is best defined as which of the following?",
+      "options": [
+        "Alternative gene form",
+        "Chromosome protein coat",
+        "Cell division phase",
+        "Nuclear membrane pore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An allele is one of the alternative forms of a gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.884,
+      "question": "The locus of a gene refers to which of the following?",
+      "options": [
+        "Cell membrane site",
+        "Nuclear pore site",
+        "Cytoplasm region",
+        "Gene position"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A locus is the position of a gene along a chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.0762,
+      "question": "Homozygous condition involves which of the following?",
+      "options": [
+        "Two different alleles",
+        "Two same alleles",
+        "One missing allele",
+        "Many gene copies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Homozygous means two copies of the same allele at a locus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.14,
+      "question": "Heterozygous condition involves which of the following?",
+      "options": [
+        "Two identical alleles",
+        "One gene copy only",
+        "No alleles at all",
+        "Unlike allele pair"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Heterozygous means two different alleles at a given locus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.294,
+      "question": "Phenotype refers to which of the following?",
+      "options": [
+        "Gene constitution",
+        "Chromosome number",
+        "Observable traits",
+        "Allele position"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenotype refers to the observable characteristics of an organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8408,
+      "question": "Genotype refers to which of the following?",
+      "options": [
+        "Genetic makeup",
+        "Body size shape",
+        "Tissue colour",
+        "Organ position"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genotype is the genetic constitution of an organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.87,
+      "question": "ABO blood group system is controlled by how many alleles?",
+      "options": [
+        "Two forms only",
+        "Three forms",
+        "Four forms",
+        "Five forms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ABO system is controlled by three alleles represented as A B and O.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.3115,
+      "question": "A mating of AO and BO can produce which blood groups?",
+      "options": [
+        "Only group A",
+        "Only group B",
+        "All four groups",
+        "Only groups A and B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "AO and BO parents can produce offspring of groups A B AB and O.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.6943,
+      "question": "Joseph Kolreuter carried out artificial hybridization in which year?",
+      "options": [
+        "1760",
+        "1820",
+        "1854",
+        "1866"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kolreuter performed early artificial hybridization work in 1760.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.7646,
+      "question": "Gregor Mendel is known as which of the following?",
+      "options": [
+        "Founder of ecology",
+        "Discoverer of cells",
+        "Author of evolution",
+        "Father of genetics"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mendel is regarded as the father of modern genetics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.6746,
+      "question": "Population genetics studies the frequency and interaction of alleles and genes in which group?",
+      "options": [
+        "Single cells",
+        "Populations",
+        "Fossil beds",
+        "Organ systems"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population genetics studies allele and gene frequencies in populations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.001,
+      "question": "Molecular genetics studies genes at which level?",
+      "options": [
+        "Population level",
+        "Ecosystem level",
+        "Molecular level",
+        "Organ level"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Molecular genetics studies gene structure and function at the molecular level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8372,
+      "question": "Genetic engineering is also known as which of the following?",
+      "options": [
+        "Natural selection",
+        "Population genetics",
+        "Field ecology",
+        "Recombinant DNA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Genetic engineering is also called recombinant DNA technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.0886,
+      "question": "The Human Genome Project mapped all human genes in which year?",
+      "options": [
+        "1993",
+        "2003",
+        "2013",
+        "1953"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Human Genome Project mapped human genes successfully in 2003.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8445,
+      "question": "BRCA gene abnormalities increase the risk of which cancer?",
+      "options": [
+        "Lung and skin",
+        "Colon and liver",
+        "Ovarian cancer",
+        "Bone and brain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BRCA gene abnormalities are linked to breast and ovarian cancers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.5027,
+      "question": "Genetic fingerprinting is most useful for which of the following?",
+      "options": [
+        "Paternity",
+        "Plant growth",
+        "Soil testing",
+        "Water purity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic fingerprinting can be used to determine paternity in disputed cases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.5237,
+      "question": "Monohybrid inheritance studies how many pairs of contrasting characteristics?",
+      "options": [
+        "Two pairs",
+        "One pair",
+        "Three pairs",
+        "Four pairs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monohybrid inheritance involves one pair of contrasting characteristics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.7908,
+      "question": "The F2 monohybrid ratio for tall to dwarf is which of the following?",
+      "options": [
+        "1 to 1",
+        "9 to 3",
+        "3 to 1",
+        "1 to 3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mendel observed an approximate three to one ratio in the F2 generation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.1033,
+      "question": "Dihybrid inheritance involves how many pairs of contrasting characteristics?",
+      "options": [
+        "Two pairs",
+        "One pair",
+        "Three pairs",
+        "Four pairs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dihybrid inheritance involves two pairs of contrasting characteristics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8445,
+      "question": "Mendel's principle of independent assortment states that one pair of characteristics may combine with which of the following?",
+      "options": [
+        "Only same pair",
+        "No other pair",
+        "Fixed single pair",
+        "Another pair"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Independent assortment allows one pair of characteristics to combine with another pair.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.6658,
+      "question": "Chromosomes are composed primarily of DNA and which other substance?",
+      "options": [
+        "Fatty lipids",
+        "Proteins",
+        "Mineral salts",
+        "Simple sugars"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromosomes are made up of DNA and proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.2495,
+      "question": "Histones are rich in which amino acids?",
+      "options": [
+        "Lysine and arginine",
+        "Glycine and alanine",
+        "Leucine and valine",
+        "Serine and threonine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Histones are basic proteins rich in lysine and arginine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.4937,
+      "question": "The nucleolus is the site of synthesis of which molecule?",
+      "options": [
+        "DNA",
+        "Lipids",
+        "RNA",
+        "Proteins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nucleolus is the site of ribonucleic acid synthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.2893,
+      "question": "Human somatic cells contain how many chromosomes?",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "44"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human somatic cells contain 46 chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.2686,
+      "question": "Nondisjunction can produce an organism with which condition?",
+      "options": [
+        "Extra chromosome",
+        "Fewer genes only",
+        "Normal chromosome",
+        "No chromosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nondisjunction can produce an organism with an extra chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.2593,
+      "question": "A translocation occurs when a chromosome part attaches to which type of chromosome?",
+      "options": [
+        "Homologous",
+        "Sister",
+        "Other type",
+        "Identical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A translocation involves attachment of a chromosome part to a nonhomologous chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8667,
+      "question": "An inversion involves a chromosome segment being cut out and which action?",
+      "options": [
+        "Duplicated twice",
+        "Completely lost",
+        "Copied again",
+        "Reversed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In an inversion a chromosome segment is cut out and reversed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8628,
+      "question": "The XX-XY sex determining system is found in which group?",
+      "options": [
+        "Mammals",
+        "Birds",
+        "Snakes",
+        "Butterflies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The XX-XY system occurs in mammals and some plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.3745,
+      "question": "The ZZ-ZW sex determining system is found in which group?",
+      "options": [
+        "Mammals",
+        "Grasshoppers",
+        "Birds",
+        "Fruit flies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ZZ-ZW system occurs in birds fish snakes and butterflies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.3708,
+      "question": "Bridges proposed that the ratio of X chromosomes to autosome sets determines which feature?",
+      "options": [
+        "Size",
+        "Sex",
+        "Colour",
+        "Weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bridges 1925 proposed the genic balance theory in which the sex index determines sex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.8933,
+      "question": "Males are hemizygous for X-linked genes because they are which sex?",
+      "options": [
+        "Males",
+        "Females",
+        "Both sexes",
+        "Neither sex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Males have a single copy of X-linked genes and are called hemizygous.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.4739,
+      "question": "A male with an X-linked disorder transmits the gene to which offspring?",
+      "options": [
+        "Sons only",
+        "Both sons",
+        "No children",
+        "Daughters"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A father transmits his X chromosome to all daughters but not to sons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.7244,
+      "question": "A Y-linked disorder is transmitted from father to which offspring?",
+      "options": [
+        "Daughters",
+        "Sons",
+        "Both sexes",
+        "No offspring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Y-linked genes are passed from father to sons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.3005,
+      "question": "Albinism is associated with absence or defect of which enzyme?",
+      "options": [
+        "Phenylalanine",
+        "CFTR protein",
+        "Tyrosinase",
+        "Haemoglobin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Albinism results from absence or defect of tyrosinase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.704,
+      "question": "Phenylketonuria involves a mutation in the gene for which enzyme?",
+      "options": [
+        "Tyrosinase",
+        "CFTR protein",
+        "Haemoglobin",
+        "PAH enzyme"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Phenylketonuria is caused by mutation in the gene for phenylalanine hydroxylase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.4019,
+      "question": "Cystic fibrosis is caused by a mutation in the gene for which protein?",
+      "options": [
+        "CFTR",
+        "PAH enzyme",
+        "Tyrosinase",
+        "Haemoglobin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cystic fibrosis results from mutation in the cystic fibrosis transmembrane conductance regulator gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.7927,
+      "question": "Sickle cell trait provides resistance against which disease?",
+      "options": [
+        "Measles",
+        "Malaria",
+        "Tuberculosis",
+        "Cholera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sickle cell trait gives partial protection against malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.025,
+      "question": "The double helix structure of DNA was described by which scientists?",
+      "options": [
+        "Mendel and Morgan",
+        "Avery and Chase",
+        "Watson and Crick",
+        "Bateson and Punnett"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Watson and Crick described the DNA double helix in 1953.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.6824,
+      "question": "RNA contains which nitrogenous base instead of thymine?",
+      "options": [
+        "Thymine",
+        "Adenine",
+        "Guanine",
+        "Uracil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RNA contains uracil in place of the thymine found in DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.4988,
+      "question": "The central dogma of molecular biology describes information flow from which molecule?",
+      "options": [
+        "DNA to RNA",
+        "RNA to DNA",
+        "Protein to DNA",
+        "RNA to lipid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The central dogma states that genetic information flows from DNA to RNA to protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.1255,
+      "question": "Which codons act as termination signals during translation?",
+      "options": [
+        "AUG UUU AAA",
+        "UAA UAG UGA",
+        "UUU AAA GGG",
+        "CCC GGG TTT"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UAA UAG and UGA are nonsense codons that stop translation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.5903,
+      "question": "Somatic mutations are generally which of the following?",
+      "options": [
+        "Always inherited",
+        "Only inherited",
+        "Not inherited",
+        "Often inherited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Somatic mutations occur in nonreproductive cells and are not passed to offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.3215,
+      "question": "Point mutation involves a change in which unit?",
+      "options": [
+        "One base",
+        "Whole chromosome",
+        "Many gene sets",
+        "Entire genome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A point mutation involves a change in a single nucleotide or base pair.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.208,
+      "question": "Deletion mutation results in which of the following?",
+      "options": [
+        "Gene doubling",
+        "Gene reversal",
+        "Gene transfer",
+        "Gene loss"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Deletion mutation involves loss of a portion of a chromosome or gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.2073,
+      "question": "Induced mutations are caused by agents known as which of the following?",
+      "options": [
+        "Vitamins",
+        "Mutagens",
+        "Enzymes",
+        "Hormones"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mutagens are physical or chemical agents that induce mutations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.745,
+      "question": "Lamarck proposed that organisms transmit which characteristics to offspring?",
+      "options": [
+        "Random mutations",
+        "Natural selection",
+        "Acquired traits",
+        "Gene drift"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lamarck proposed inheritance of acquired characteristics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.655,
+      "question": "Darwin proposed which mechanism for organic evolution?",
+      "options": [
+        "Natural selection",
+        "Divine creation",
+        "Spontaneous generation",
+        "Cosmozoan arrival"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Darwin proposed natural selection as the mechanism of evolution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792695119555.105,
+      "question": "Darwin's theory states that living organisms produce which of the following?",
+      "options": [
+        "Fewer offspring",
+        "Same offspring",
+        "No offspring",
+        "More offspring"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Darwin noted that organisms produce more offspring than can survive.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
