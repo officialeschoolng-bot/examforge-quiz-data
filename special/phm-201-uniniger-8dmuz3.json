@@ -3,7 +3,7 @@
   "title": "PHM 201 (UNINIGER)",
   "subject": "PHM 201",
   "description": "",
-  "totalQuestions": 40,
+  "totalQuestions": 32,
   "defaultTimePerQuestion": 20,
   "settings": {
     "canChangeTime": false,
@@ -27,34 +27,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Viruses</b> are acellular (not composed of cells) and are obligate intracellular parasites, meaning they must enter a host cell to replicate. They cannot multiply on their own.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602532.178,
-      "question": "Archaea are best described as:",
-      "options": [
-        "Eukaryotes that possess a true membrane-bound nucleus",
-        "Acellular agents that depend on a host cell for multiplication",
-        "Prokaryotes of a separate domain",
-        "Photosynthetic eukaryotes found mainly in aquatic habitats"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Archaea</b> are prokaryotes, like bacteria, but they form a separate domain (Archaea) based on distinct genetic and biochemical features (e.g., different cell wall and membrane lipids). They are not eukaryotes and are not acellular.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602533.8625,
-      "question": "The miasma theory held that disease is caused by:",
-      "options": [
-        "Bad air from rotting matter and swamps",
-        "Specific microorganisms that infect particular hosts",
-        "Imbalance of body fluids determined by the seasons",
-        "Invisible seeds passed on by contact with infected objects"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The <b>miasma theory</b> proposed that diseases were caused by \\bad air\\ (miasma) emanating from decaying organic matter, swamps, and unsanitary conditions. It predated germ theory.",
       "difficulty": "easy",
       "points": 1
     },
@@ -101,20 +73,6 @@
       "points": 1
     },
     {
-      "id": 1792865602533.6528,
-      "question": "What was the key limitation of microscopy in the 1600s?",
-      "options": [
-        "Single-lens microscopes were banned by scientific societies of the time",
-        "Microbes could not be seen until stains were invented in 1884",
-        "Nobody linked microbes to disease",
-        "Microbes were thought to exist only in rotting meat and swamps"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Although microscopists like Leeuwenhoek could see microbes, the <b>link between microbes and disease</b> was not established until the late 19th century (germ theory). Early microscopy was limited by lens quality, but the key conceptual limitation was that no one connected the observed organisms to disease causation.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792865602533.3384,
       "question": "What did Redi's 1668 meat-jar experiment conclude?",
       "options": [
@@ -139,34 +97,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Lazzaro Spallanzani</b> boiled his infusions for a longer time and sealed the flasks, whereas <b>John Needham</b> boiled briefly and left flasks open or loosely sealed. Spallanzani's stricter technique resulted in sterile flasks, supporting biogenesis.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602533.67,
-      "question": "Critics of Spallanzani argued that his sealed flasks stayed sterile because:",
-      "options": [
-        "Boiling had made the broth chemically toxic to every living form",
-        "Heating destroyed the vital force in air",
-        "Sealed glass flasks were permeable to dust and airborne spores",
-        "The broth had not been left long enough to ferment"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Supporters of spontaneous generation argued that <b>heating destroyed the \\vital force\\</b> in the air, which they believed was necessary for spontaneous generation. They claimed that sealing the flasks prevented fresh vital force from entering.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602534.8538,
-      "question": "Why did the broth in Pasteur's swan-neck flask stay sterile?",
-      "options": [
-        "Air was completely excluded by the sealed glass neck of the flask",
-        "Steam produced during boiling continuously killed incoming microbes",
-        "Dust and microbes were trapped in the curved neck",
-        "The curved neck filtered out the vital force needed for growth"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Louis Pasteur</b> used swan-neck flasks that were open to the air but had a curved neck where <b>dust and microbes were trapped</b>. The broth remained sterile because microbes could not reach it, while air could pass freely.",
       "difficulty": "easy",
       "points": 1
     },
@@ -255,20 +185,6 @@
       "points": 1
     },
     {
-      "id": 1792865602534.5261,
-      "question": "John Snow's 1854 map of cholera cases in Soho linked the outbreak to:",
-      "options": [
-        "A contaminated water pump on Broad Street",
-        "Foul air rising from the swamps near the Thames river basin",
-        "Doctors' hands carrying material from the autopsy room",
-        "Contaminated milk delivered by a single local dairy supplier"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>John Snow</b> mapped cholera deaths in Soho and found they clustered around the <b>Broad Street water pump</b>. He concluded that the disease was waterborne, not airborne, and had the pump handle removed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1792865602535.5796,
       "question": "Snow's 1854 cholera map is regarded as the foundation of:",
       "options": [
@@ -321,20 +237,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "<b>Koch's postulates</b> do not include attenuation. They state that the microbe must be present in all cases, be isolated in pure culture, cause the disease when inoculated into a healthy host, and be re-isolated from the experimentally infected host.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602535.9946,
-      "question": "Recovering *V. cholerae* from an experimentally infected animal and showing it matches the original satisfies which postulate?",
-      "options": [
-        "Re-isolation of the same microbe",
-        "Isolation and growth of the microbe in pure culture",
-        "Reproduction of the disease in a healthy animal host",
-        "Presence in every case and absence from healthy hosts"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The fourth postulate requires <b>re-isolation of the same microbe</b> from the experimentally infected host.",
       "difficulty": "easy",
       "points": 1
     },
@@ -531,20 +433,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Carl Woese</b> used <b>rRNA sequence comparisons</b> to propose the three domains: Bacteria, Archaea, and Eukarya.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1792865602536.5762,
-      "question": "Antimicrobial resistance (AMR) is best defined as:",
-      "options": [
-        "The ability of the host immune system to destroy any microbe encountered",
-        "Tolerance of microbes to extreme heat during pasteurisation or boiling",
-        "Failure of vaccines to induce antibodies in malnourished individuals",
-        "Microbes no longer killed by drugs that once worked"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>Antimicrobial resistance</b> occurs when microorganisms (bacteria, viruses, fungi, parasites) develop the ability to survive and grow in the presence of drugs that would normally kill them.",
       "difficulty": "easy",
       "points": 1
     },
