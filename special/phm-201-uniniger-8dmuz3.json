@@ -3,16 +3,578 @@
   "title": "PHM 201 (UNINIGER)",
   "subject": "PHM 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 40,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792865602528.2612,
+      "question": "Which class of microorganisms is acellular and needs a host cell to multiply?",
+      "options": [
+        "Bacteria",
+        "Viruses",
+        "Protozoa",
+        "Algae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Viruses</b> are acellular (not composed of cells) and are obligate intracellular parasites, meaning they must enter a host cell to replicate. They cannot multiply on their own.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602532.178,
+      "question": "Archaea are best described as:",
+      "options": [
+        "Eukaryotes that possess a true membrane-bound nucleus",
+        "Acellular agents that depend on a host cell for multiplication",
+        "Prokaryotes of a separate domain",
+        "Photosynthetic eukaryotes found mainly in aquatic habitats"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Archaea</b> are prokaryotes, like bacteria, but they form a separate domain (Archaea) based on distinct genetic and biochemical features (e.g., different cell wall and membrane lipids). They are not eukaryotes and are not acellular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.8625,
+      "question": "The miasma theory held that disease is caused by:",
+      "options": [
+        "Bad air from rotting matter and swamps",
+        "Specific microorganisms that infect particular hosts",
+        "Imbalance of body fluids determined by the seasons",
+        "Invisible seeds passed on by contact with infected objects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>miasma theory</b> proposed that diseases were caused by \\bad air\\ (miasma) emanating from decaying organic matter, swamps, and unsanitary conditions. It predated germ theory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.5112,
+      "question": "Who proposed in 1546 that disease spreads by \\seeds\\ passed by contact, objects or air?",
+      "options": [
+        "Leeuwenhoek",
+        "Metchnikoff",
+        "Semmelweis",
+        "Fracastoro"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Girolamo Fracastoro</b> in 1546 suggested that epidemic diseases are caused by transferable \\seeds\\ (seminaria) that can spread by direct contact, contaminated objects (fomites), or through the air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.0342,
+      "question": "Leeuwenhoek's \\animalcules\\ were:",
+      "options": [
+        "Fragments of dead plant tissue seen in thin slices of cork",
+        "Tiny living things seen in pond water and plaque",
+        "Chemical crystals formed when pond water was evaporated",
+        "Mould spores carried on the surface of fresh meat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Antonie van Leeuwenhoek</b> observed tiny living organisms (\\animalcules\\) in pond water and dental plaque using his single-lens microscopes. These were among the first observations of bacteria and protists.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.0562,
+      "question": "Who introduced the word \\cell\\ in *Micrographia* (1665)?",
+      "options": [
+        "Hooke",
+        "Pasteur",
+        "Fleming",
+        "Leeuwenhoek"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Robert Hooke</b> coined the term \\cell\\ in his book *Micrographia* (1665) after observing the tiny compartments in thin slices of cork under a microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.6528,
+      "question": "What was the key limitation of microscopy in the 1600s?",
+      "options": [
+        "Single-lens microscopes were banned by scientific societies of the time",
+        "Microbes could not be seen until stains were invented in 1884",
+        "Nobody linked microbes to disease",
+        "Microbes were thought to exist only in rotting meat and swamps"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Although microscopists like Leeuwenhoek could see microbes, the <b>link between microbes and disease</b> was not established until the late 19th century (germ theory). Early microscopy was limited by lens quality, but the key conceptual limitation was that no one connected the observed organisms to disease causation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.3384,
+      "question": "What did Redi's 1668 meat-jar experiment conclude?",
+      "options": [
+        "Microbes enter jars only through the gauze covering",
+        "Maggots arise from rotting meat itself when it is warm",
+        "A vital force turns decaying meat into living larvae",
+        "Maggots come from flies' eggs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Francesco Redi</b> showed that maggots appeared on meat only when flies could lay eggs on it. Sealed jars or jars covered with gauze remained maggot-free, supporting <b>biogenesis</b> (life from pre-existing life) and refuting spontaneous generation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.4622,
+      "question": "Spallanzani's 1768 experiments differed from Needham's by:",
+      "options": [
+        "Boiling longer in sealed flasks",
+        "Using swan-neck flasks open to the air",
+        "Adding carbolic acid to the broth before sealing",
+        "Infecting chickens with the cultured broth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Lazzaro Spallanzani</b> boiled his infusions for a longer time and sealed the flasks, whereas <b>John Needham</b> boiled briefly and left flasks open or loosely sealed. Spallanzani's stricter technique resulted in sterile flasks, supporting biogenesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602533.67,
+      "question": "Critics of Spallanzani argued that his sealed flasks stayed sterile because:",
+      "options": [
+        "Boiling had made the broth chemically toxic to every living form",
+        "Heating destroyed the vital force in air",
+        "Sealed glass flasks were permeable to dust and airborne spores",
+        "The broth had not been left long enough to ferment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Supporters of spontaneous generation argued that <b>heating destroyed the \\vital force\\</b> in the air, which they believed was necessary for spontaneous generation. They claimed that sealing the flasks prevented fresh vital force from entering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.8538,
+      "question": "Why did the broth in Pasteur's swan-neck flask stay sterile?",
+      "options": [
+        "Air was completely excluded by the sealed glass neck of the flask",
+        "Steam produced during boiling continuously killed incoming microbes",
+        "Dust and microbes were trapped in the curved neck",
+        "The curved neck filtered out the vital force needed for growth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Louis Pasteur</b> used swan-neck flasks that were open to the air but had a curved neck where <b>dust and microbes were trapped</b>. The broth remained sterile because microbes could not reach it, while air could pass freely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.1318,
+      "question": "In Pasteur's experiment, microbes appeared in the broth when:",
+      "options": [
+        "The flask was cooled below room temperature overnight",
+        "Fresh air was blown gently across the open end",
+        "The broth was boiled a second time after several months",
+        "The neck was broken or the flask tilted"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Microbial growth occurred only when the broth came into contact with the trapped dust/microbes, which happened when the <b>neck was broken or the flask was tilted</b> to allow the broth to touch the contaminated curve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.8557,
+      "question": "Biogenesis is the principle that:",
+      "options": [
+        "Life arises only from pre-existing life",
+        "Life arises spontaneously from decaying non-living matter",
+        "Life arises from a vital force acting on sterile broth",
+        "Life arises when air contacts heated organic infusions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Biogenesis</b> states that living organisms arise from other living organisms, not from non-living matter. This principle was established through the experiments of Redi, Spallanzani, and Pasteur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.855,
+      "question": "A pure culture is:",
+      "options": [
+        "A mixed population of several bacterial species grown together on agar",
+        "Cells descended from one cell, free of other species",
+        "Any broth culture that has been heated to destroy all spores present",
+        "A sample taken directly from a patient without any further isolation steps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>pure culture</b> contains only one species of microorganism, all descended from a single cell. It is essential for studying the properties of a specific microbe.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.9968,
+      "question": "Tyndallisation refers to:",
+      "options": [
+        "A single brief heating that preserves the flavour of foods and drinks",
+        "Filtration of liquids through porous porcelain to remove all bacteria",
+        "Repeated heating to kill spores in infusions",
+        "Exposure of surfaces to carbolic acid spray in operating theatres"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Tyndallisation</b> (fractional sterilisation) involves heating an infusion at 100°C on three successive days. The first heating kills vegetative cells; spores that germinate overnight are killed on subsequent heatings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.028,
+      "question": "Pasteurisation is best defined as:",
+      "options": [
+        "Prolonged boiling under pressure to destroy all spores and viruses",
+        "Repeated heating on three consecutive days to kill heat-resistant spores",
+        "Chemical treatment of wounds to kill microbes on living tissue",
+        "Mild controlled heating that kills spoilage organisms"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Pasteurisation</b> is a mild heat treatment (e.g., 63°C for 30 min or 72°C for 15 s) that kills most spoilage organisms and some pathogens, but not all spores. It is used for milk and other foods.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.345,
+      "question": "Semmelweis reduced deaths from childbed fever from about 18% to about 2% by:",
+      "options": [
+        "Closing the autopsy room permanently",
+        "Handwashing with chlorinated lime",
+        "Spraying carbolic acid in the delivery theatre",
+        "Removing the handle of a contaminated water pump"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Ignaz Semmelweis</b> observed that doctors who performed autopsies and then attended deliveries carried \\cadaveric particles\\ to mothers. He instituted <b>handwashing with chlorinated lime</b>, which drastically reduced mortality from puerperal fever.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602534.5261,
+      "question": "John Snow's 1854 map of cholera cases in Soho linked the outbreak to:",
+      "options": [
+        "A contaminated water pump on Broad Street",
+        "Foul air rising from the swamps near the Thames river basin",
+        "Doctors' hands carrying material from the autopsy room",
+        "Contaminated milk delivered by a single local dairy supplier"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>John Snow</b> mapped cholera deaths in Soho and found they clustered around the <b>Broad Street water pump</b>. He concluded that the disease was waterborne, not airborne, and had the pump handle removed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.5796,
+      "question": "Snow's 1854 cholera map is regarded as the foundation of:",
+      "options": [
+        "Antibiotic therapy",
+        "Immunology",
+        "Chemotherapy",
+        "Epidemiology"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Snow's systematic mapping and analysis of cholera cases is considered a founding event in <b>epidemiology</b>—the study of the distribution and determinants of health-related states in populations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.6292,
+      "question": "Lister introduced antiseptic surgery in 1867 using:",
+      "options": [
+        "Chlorinated lime",
+        "Penicillin",
+        "Carbolic acid",
+        "Salvarsan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Joseph Lister</b> used <b>carbolic acid (phenol)</b> as an antiseptic to kill microbes in the operating theatre, greatly reducing surgical infections.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.4553,
+      "question": "Asepsis refers to:",
+      "options": [
+        "Killing microbes on the surface of living tissue with chemicals",
+        "Preventing entry of microbes",
+        "Weakening a pathogen so that it stimulates immunity",
+        "Treating disease with chemicals that inhibit the pathogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Asepsis</b> means preventing microorganisms from entering a sterile environment or wound. It contrasts with antisepsis, which uses chemicals to kill microbes on living tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.7766,
+      "question": "Which of the following is NOT one of Koch's postulates?",
+      "options": [
+        "The microbe is present in every case of the disease and absent from healthy hosts",
+        "The microbe is isolated and grown in pure culture",
+        "The pure culture causes the same disease in a healthy host",
+        "The microbe must first be attenuated"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Koch's postulates</b> do not include attenuation. They state that the microbe must be present in all cases, be isolated in pure culture, cause the disease when inoculated into a healthy host, and be re-isolated from the experimentally infected host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.9946,
+      "question": "Recovering *V. cholerae* from an experimentally infected animal and showing it matches the original satisfies which postulate?",
+      "options": [
+        "Re-isolation of the same microbe",
+        "Isolation and growth of the microbe in pure culture",
+        "Reproduction of the disease in a healthy animal host",
+        "Presence in every case and absence from healthy hosts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fourth postulate requires <b>re-isolation of the same microbe</b> from the experimentally infected host.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.0242,
+      "question": "Which organism cannot be grown in pure culture, limiting the use of Koch's postulates?",
+      "options": [
+        "*Staphylococcus aureus*",
+        "*Escherichia coli*",
+        "*T. pallidum*",
+        "*Vibrio cholerae*"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>*Treponema pallidum*</b> (the cause of syphilis) cannot be grown in pure culture in the laboratory, so Koch's postulates cannot be fully applied to it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.7139,
+      "question": "Falkow's molecular Koch's postulates (1988) link disease to:",
+      "options": [
+        "A vaccine and protective immunity in all hosts",
+        "A gene or virulence factor",
+        "An antibiotic and the organism that produced it in culture",
+        "A symptom and the season in which it most commonly occurs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Falkow's molecular Koch's postulates</b> extend Koch's postulates to the molecular level, linking a specific <b>gene or virulence factor</b> to the disease phenotype.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.35,
+      "question": "The use of agar as a solid medium enabled:",
+      "options": [
+        "Visualisation of viruses under the light microscope",
+        "Production of the first synthetic chemotherapeutic agent",
+        "Mapping of cholera cases in an urban district",
+        "Isolation of pure cultures on solid media"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Agar provides a solid surface for bacteria to grow as discrete colonies. This allows <b>isolation of pure cultures</b> from mixed samples, a critical advance in microbiology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.1328,
+      "question": "The Gram stain (1884) is used to:",
+      "options": [
+        "Distinguish bacteria into groups by staining",
+        "Kill bacteria on living tissue before surgery",
+        "Weaken pathogens for use in vaccines",
+        "Measure the genome size of bacteria through sequencing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>Gram stain</b> differentiates bacteria based on cell wall structure. Gram-positive bacteria stain purple; gram-negative bacteria stain pink.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.0447,
+      "question": "The word \\vaccine\\ comes from *vacca*, Latin for:",
+      "options": [
+        "Poison",
+        "Needle",
+        "Cow",
+        "Serum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Edward Jenner</b> used material from cowpox lesions to protect against smallpox. The term <b>vaccine</b> comes from *vacca* (cow) and *vaccinia* (cowpox).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.5894,
+      "question": "Pasteur's vaccines against chicken cholera, anthrax and rabies used:",
+      "options": [
+        "Purified antitoxins from horse serum",
+        "Attenuated pathogens",
+        "Synthetic arsenic compounds",
+        "Heat-killed fungal extracts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Louis Pasteur</b> developed vaccines using <b>attenuated</b> (weakened) pathogens—for chicken cholera, anthrax, and rabies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.9546,
+      "question": "Behring and Kitasato's serum therapy (1890) relied on:",
+      "options": [
+        "Chemicals that kill pathogens with little harm to the host",
+        "Weakened live bacteria injected into healthy people",
+        "Mould extracts that inhibit bacterial growth",
+        "Antibodies that neutralise toxins"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Behring and Kitasato</b> demonstrated that serum from animals immunized against diphtheria or tetanus contained <b>antibodies (antitoxins)</b> that neutralized the toxins. This led to serum therapy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.5493,
+      "question": "Salvarsan, Ehrlich's \\magic bullet\\, was significant as the first:",
+      "options": [
+        "Synthetic chemotherapeutic agent",
+        "Antibiotic produced by a mould",
+        "Vaccine prepared from attenuated bacteria",
+        "Antitoxin made from animal serum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Paul Ehrlich</b> developed <b>Salvarsan</b> (arsphenamine) as a synthetic chemical that could treat syphilis. It was the first <b>synthetic chemotherapeutic agent</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.9446,
+      "question": "What did Fleming observe in 1928?",
+      "options": [
+        "Staphylococcus colonies growing faster near a contaminating *Penicillium* mould",
+        "Complete death of *Penicillium* colonies surrounding a dense lawn of bacteria",
+        "Bacteria inhibited near a *Penicillium* mould",
+        "Spontaneous appearance of mould in a sterile sealed flask of broth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Alexander Fleming</b> observed a zone of inhibition of bacterial growth around a contaminating <b>*Penicillium*</b> mould on a *Staphylococcus* plate. This led to the discovery of penicillin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.869,
+      "question": "Who purified penicillin and carried out its clinical trials?",
+      "options": [
+        "Behring and Kitasato",
+        "Florey and Chain",
+        "Ehrlich and Hata",
+        "Watson and Crick"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Howard Florey</b> and <b>Ernst Chain</b> purified penicillin and conducted the first clinical trials, enabling its mass production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602535.3486,
+      "question": "The term \\antibiotic\\ was coined by:",
+      "options": [
+        "Metchnikoff",
+        "Beijerinck",
+        "Ivanovsky",
+        "Waksman"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Selman Waksman</b> coined the term \\antibiotic\\ to describe chemical substances produced by microorganisms that inhibit or kill other microorganisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.5615,
+      "question": "Phagocytosis, described by Metchnikoff, is:",
+      "options": [
+        "Engulfment of microbes by white blood cells",
+        "Neutralisation of toxins by specific circulating antibodies",
+        "Transfer of resistance genes between neighbouring bacterial cells",
+        "Destruction of microbes on skin by chemical disinfectants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Élie Metchnikoff</b> discovered <b>phagocytosis</b>, the process by which white blood cells (phagocytes) engulf and destroy microbes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.9912,
+      "question": "Ivanovsky and Beijerinck are credited with the discovery of:",
+      "options": [
+        "Antibiotics",
+        "Archaea",
+        "Viruses",
+        "Chemotherapy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Dmitri Ivanovsky</b> and <b>Martinus Beijerinck</b> discovered <b>viruses</b> through their work on tobacco mosaic disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.7847,
+      "question": "Woese proposed the three domains of life (1977) based on:",
+      "options": [
+        "Colony morphology on agar plates",
+        "rRNA sequences",
+        "Gram staining reactions of cells",
+        "Fossil evidence from ancient rocks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Carl Woese</b> used <b>rRNA sequence comparisons</b> to propose the three domains: Bacteria, Archaea, and Eukarya.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.5762,
+      "question": "Antimicrobial resistance (AMR) is best defined as:",
+      "options": [
+        "The ability of the host immune system to destroy any microbe encountered",
+        "Tolerance of microbes to extreme heat during pasteurisation or boiling",
+        "Failure of vaccines to induce antibodies in malnourished individuals",
+        "Microbes no longer killed by drugs that once worked"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Antimicrobial resistance</b> occurs when microorganisms (bacteria, viruses, fungi, parasites) develop the ability to survive and grow in the presence of drugs that would normally kill them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.5828,
+      "question": "Which disease was eradicated worldwide in 1980?",
+      "options": [
+        "Smallpox",
+        "Poliomyelitis",
+        "Cholera",
+        "Lassa fever"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Smallpox</b> was declared eradicated by the World Health Organization in 1980, following a global vaccination campaign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792865602536.9714,
+      "question": "Which of these is listed as an emerging infection and an open challenge in Nigeria?",
+      "options": [
+        "Smallpox",
+        "Anthrax",
+        "Lassa fever",
+        "Childbed fever"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Lassa fever</b> is an emerging viral hemorrhagic fever endemic in Nigeria and other West African countries. It poses a significant public health challenge.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
