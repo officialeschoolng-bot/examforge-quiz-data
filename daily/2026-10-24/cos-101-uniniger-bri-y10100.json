@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNINIGER ) : BRIEF HISTORY AND BASIC COMPONENTS OF COMPUTER",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1792844371716.6077,
+      "question": "A computer is described as which type of device?",
+      "options": [
+        "Mechanical",
+        "Optical",
+        "Magnetic",
+        "Electronic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A computer is an electronic device that accepts data, performs operations, and stores results.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.9397,
+      "question": "Programs or instructions required by hardware are called what?",
+      "options": [
+        "Hardware",
+        "Firmware",
+        "Software",
+        "Peripherals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Software is the set of programs or instructions required by hardware resources to function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.4023,
+      "question": "The physical components of a computer are known as what?",
+      "options": [
+        "Hardware",
+        "Software",
+        "Human ware",
+        "Malware"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hardware refers to the physical components like processor, memory, monitor, and keyboard.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.3027,
+      "question": "The history of computers began with primitive designs in which era?",
+      "options": [
+        "Early 19th century",
+        "Early 18th century",
+        "Late 17th century",
+        "Early 20th century"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The history of computers began with primitive designs in the early 19th century.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.5222,
+      "question": "The Pascaline was invented by which individual?",
+      "options": [
+        "Charles Babbage",
+        "Herman Hollerith",
+        "Blaise Pascal",
+        "Joseph Jacquard"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blaise Pascal invented the Pascaline in 1642 at age 18.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.4363,
+      "question": "The Pascaline was built as an aid for which profession?",
+      "options": [
+        "Farming",
+        "Tax collection",
+        "Teaching",
+        "Medicine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pascal built the Pascaline as an aid for his father who was a tax collector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.152,
+      "question": "The Jacquard loom used which material for weaving designs?",
+      "options": [
+        "Silk threads",
+        "Copper wires",
+        "Paper strips",
+        "Punched wooden cards"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Jacquard loom used punched wooden cards to weave fabric designs automatically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.5044,
+      "question": "Charles Babbage designed which steam-driven machine?",
+      "options": [
+        "Pascaline",
+        "Analytical Engine",
+        "Hollerith Machine",
+        "UNIVAC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charles Babbage designed the Analytical Engine, a steam-driven calculating machine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.0713,
+      "question": "Ada Lovelace is recognized as the world's first what?",
+      "options": [
+        "Computer engineer",
+        "Computer inventor",
+        "Computer scientist",
+        "Computer programmer"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ada Lovelace wrote programs for Babbage's Analytical Engine and is the world's first computer programmer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.525,
+      "question": "The Atanasoff-Berry Computer was the first digital electronic computer in which nation?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ABC was the first digital electronic computer in the U.S.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.1558,
+      "question": "ENIAC was developed by which duo?",
+      "options": [
+        "Atanasoff and Berry",
+        "Mauchly and Eckert",
+        "Thompson and Ritchie",
+        "Pascal and Lovelace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "John Mauchly and J. Presper Eckert developed the ENIAC in 1945.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.903,
+      "question": "UNIVAC was the first commercial computer for which sectors?",
+      "options": [
+        "Education and health",
+        "Business and government",
+        "Home and leisure",
+        "Military and defense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UNIVAC was the first commercial computer for business and government applications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.7747,
+      "question": "Grace Hopper developed which programming language?",
+      "options": [
+        "COBOL",
+        "FORTRAN",
+        "UNIX",
+        "BASIC"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Grace Hopper developed COBOL, the first computer programming language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.183,
+      "question": "UNIX was developed by Ken Thompson at which facility?",
+      "options": [
+        "IBM Lab",
+        "Microsoft Lab",
+        "Apple Lab",
+        "Bell Lab"
+      ],
+      "correctAnswer": 3,
+      "explanation": "UNIX was developed by Ken Thompson and other developers at Bell Lab in 1969.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.2124,
+      "question": "The five generations of computers represent what type of changes?",
+      "options": [
+        "Economic changes",
+        "Social changes",
+        "Political changes",
+        "Technological changes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Generations of computers define the technological changes from the first digital computer to the present.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.429,
+      "question": "Each generation of computers represents what kind of development?",
+      "options": [
+        "Minor adjustment",
+        "Temporary change",
+        "Major breakthrough",
+        "Gradual decline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each generation represents a major breakthrough in technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.975,
+      "question": "First generation computers were based on which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Silicon chips",
+        "Microprocessors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First generation computers from 1945 to 1956 were based on vacuum tubes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.4558,
+      "question": "A key characteristic of first generation computers is what?",
+      "options": [
+        "Very large size",
+        "Small size",
+        "Low cost",
+        "High portability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First generation computers were very large, slow, and expensive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.3457,
+      "question": "First generation computers used which programming language?",
+      "options": [
+        "Assembly language",
+        "Machine language",
+        "High-level language",
+        "Natural language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First generation computers relied on machine language, the lowest-level programming language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.8179,
+      "question": "Input for first generation computers was based on which medium?",
+      "options": [
+        "Keyboards",
+        "Punched cards",
+        "Touch screens",
+        "Magnetic disks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Input for first generation computers was based on punched cards and paper tape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371716.0332,
+      "question": "Second generation computers were based on which component?",
+      "options": [
+        "Transistors",
+        "Vacuum tubes",
+        "Integrated circuits",
+        "Microprocessors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Second generation computers from 1956 to 1963 were based on transistors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.9802,
+      "question": "One transistor replaced how many vacuum tubes?",
+      "options": [
+        "Ten",
+        "Twenty",
+        "Eighty",
+        "Forty"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Each transistor replaced the equivalent of 40 vacuum tubes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.5662,
+      "question": "Second generation computers moved to which type of language?",
+      "options": [
+        "Machine language",
+        "Binary language",
+        "Natural language",
+        "Assembly language"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Second generation computers moved from binary machine language to symbolic or assembly languages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.1238,
+      "question": "Second generation computers stored instructions in which component?",
+      "options": [
+        "Their memory",
+        "Punched cards",
+        "Paper tape",
+        "Magnetic drums"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Second generation computers stored their instructions in their memory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.513,
+      "question": "Third generation computers used transistors placed on which material?",
+      "options": [
+        "Silicon chips",
+        "Copper plates",
+        "Glass panels",
+        "Plastic boards"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transistors were miniaturized and placed on silicon chips called semiconductors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.547,
+      "question": "Third generation computers allowed interaction through which devices?",
+      "options": [
+        "Punched cards",
+        "Keyboards and monitors",
+        "Printouts",
+        "Paper tape"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Users interacted with third generation computers through keyboards and monitors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.1453,
+      "question": "Third generation computer hardware was interfaced with what?",
+      "options": [
+        "An operating system",
+        "A compiler",
+        "An interpreter",
+        "A database"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The hardware of third generation computers was interfaced with an operating system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.2505,
+      "question": "Fourth generation computers use which type of integrated circuits?",
+      "options": [
+        "Discrete",
+        "Hybrid",
+        "Monolithic",
+        "Thin-film"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fourth generation computers use monolithic integrated circuits with millions of transistors on one chip.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.2058,
+      "question": "The microprocessor is described as what type of chip?",
+      "options": [
+        "A memory chip",
+        "A single processing chip",
+        "A display chip",
+        "A power chip"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The microprocessor is a single chip that could do all the processing of a full-scale computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.24,
+      "question": "Fourth generation computers produce less of which byproduct?",
+      "options": [
+        "Sound",
+        "Light",
+        "Heat",
+        "Vibration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fourth generation computers have less heat generation compared to earlier generations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.2927,
+      "question": "Fifth generation computers are based on which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Integrated circuits",
+        "Artificial intelligence"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fifth generation computers are based on artificial intelligence and machine learning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.093,
+      "question": "Fifth generation computers support which voice-related feature?",
+      "options": [
+        "Voice recognition",
+        "Voice amplification",
+        "Voice modulation",
+        "Voice generation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fifth generation computers support voice recognition and natural language understanding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.9158,
+      "question": "Which technology is believed to help make artificial intelligence a reality?",
+      "options": [
+        "Parallel processing",
+        "Serial processing",
+        "Batch processing",
+        "Time-sharing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parallel processing and superconductors are believed to help make artificial intelligence a reality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.828,
+      "question": "The basic components of a computer include which trio?",
+      "options": [
+        "Monitor, keyboard, mouse",
+        "Hardware, software, firmware",
+        "Input, CPU, output",
+        "RAM, ROM, cache"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The three important components are Input Unit, Central Processing Unit, and Output Unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.8987,
+      "question": "The CPU is referred to as which part of the computer?",
+      "options": [
+        "The heart",
+        "The brain",
+        "The spine",
+        "The lungs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The CPU is called the brain of the computer because it is the control centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.7146,
+      "question": "The input unit converts input into which language?",
+      "options": [
+        "English language",
+        "Binary language",
+        "Assembly language",
+        "Machine language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Input devices convert input into binary language that the computer understands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.7903,
+      "question": "Which of the following is an input device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Keyboard",
+        "Speaker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Keyboard, mouse, and microphone are examples of input devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.8135,
+      "question": "The CPU first fetches instructions from which component?",
+      "options": [
+        "Memory",
+        "Output unit",
+        "Input unit",
+        "Secondary storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The CPU first fetches instructions from memory and then interprets them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.9146,
+      "question": "The CPU is characterized by which performance measure?",
+      "options": [
+        "Clock speeds",
+        "Screen size",
+        "Storage capacity",
+        "Weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CPUs are characterized by their clock speeds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.5178,
+      "question": "The ALU performs which type of calculations?",
+      "options": [
+        "Only logical decisions",
+        "Only arithmetic calculations",
+        "Neither arithmetic nor logical",
+        "Both arithmetic and logical"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The ALU performs mathematical calculations and takes logical decisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.0896,
+      "question": "Logical decisions in the ALU involve which action?",
+      "options": [
+        "Storing data permanently",
+        "Displaying results",
+        "Comparing two data items",
+        "Fetching instructions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Logical decisions involve comparing two data items to see which is larger, smaller, or equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.1233,
+      "question": "The control unit is responsible for which function?",
+      "options": [
+        "Performing calculations",
+        "Coordinating data flow",
+        "Storing data",
+        "Displaying results"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The control unit coordinates and controls data flow in and out of the CPU.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.674,
+      "question": "The control unit decodes and interprets which element?",
+      "options": [
+        "Output data",
+        "Input data",
+        "Fetched instruction",
+        "Storage address"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The control unit decodes the fetched instruction, interprets it, and sends control signals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.7292,
+      "question": "Registers are described as what type of devices?",
+      "options": [
+        "Low-speed storage",
+        "High-speed storage",
+        "Permanent storage",
+        "External storage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Registers are high-speed devices for storing data or instructions temporarily.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.6643,
+      "question": "The main register in the ALU is called what?",
+      "options": [
+        "Instruction register",
+        "Memory register",
+        "Accumulator",
+        "Address register"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Accumulator is the main register in the ALU and contains one of the operands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.335,
+      "question": "Internal memory is also known by which name?",
+      "options": [
+        "Secondary memory",
+        "Virtual memory",
+        "Primary memory",
+        "Cache memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Internal memory is also called the Primary memory or Main memory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.099,
+      "question": "Memory that is not immediately accessible to the computer is called what?",
+      "options": [
+        "Primary memory",
+        "Main memory",
+        "Internal memory",
+        "Secondary memory"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Memories that are not immediately accessible to the computer are called secondary memory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.5144,
+      "question": "The output unit converts binary data into which form?",
+      "options": [
+        "Machine form",
+        "Binary form",
+        "Digital form",
+        "Human understandable form"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The output unit converts binary data coming from the CPU to human understandable form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.4033,
+      "question": "Which of the following is a common output device?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Printer",
+        "Microphone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Monitor, printer, and plotter are common output devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1792844371717.1824,
+      "question": "The historical development of computers discussed spans from which invention?",
+      "options": [
+        "Transistor to microprocessor",
+        "ENIAC to IBM PC",
+        "Pascaline to UNIVAC",
+        "Vacuum tube to silicon chip"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lesson discussed historical development from Blaise Pascal's Pascaline of 1642 to UNIVAC of 1946.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
