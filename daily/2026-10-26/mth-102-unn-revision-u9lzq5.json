@@ -3,16 +3,718 @@
   "title": "MTH 102 ( UNN ) : REVISION 2 ( ENGINEERING )",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793035777823.1304,
+      "question": "The vector having O and A as its initial and terminal points is known as which of the following?",
+      "options": [
+        "Scalar vector",
+        "Position vector of A",
+        "Null vector",
+        "Unit vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vector with origin O and point A as its initial and terminal points is the position vector of A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.801,
+      "question": "Multiplying a vector u by a scalar α results in a vector with magnitude given by which expression?",
+      "options": [
+        "α|u|",
+        "α + |u|",
+        "|α| + |u|",
+        "|α||u|"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The magnitude of a scalar multiple αu is the absolute value of the scalar times the magnitude of the vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.051,
+      "question": "The unit vector along a given vector a is computed using which expression?",
+      "options": [
+        "a/|a|",
+        "a x |a|",
+        "a · |a|",
+        "|a|/a"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The unit vector is obtained by dividing the vector by its magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.4124,
+      "question": "The angle θ between two vectors u and v satisfies which equation?",
+      "options": [
+        "sin θ = (u·v)/(|u||v|)",
+        "tan θ = (u·v)/(|u||v|)",
+        "cos θ = (u·v)/(|u||v|)",
+        "cot θ = (u·v)/(|u||v|)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cosine of the angle between two vectors is the dot product divided by the product of their magnitudes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3347,
+      "question": "Two vectors u and v are parallel if their cross product satisfies which condition?",
+      "options": [
+        "u x v = 1",
+        "u x v = -1",
+        "u x v = u·v",
+        "u x v = 0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Parallel vectors have a zero cross product because the sine of the angle between them is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3154,
+      "question": "The area of a triangle with position vectors a, b, and c is given by which expression?",
+      "options": [
+        "|(b-a) x (c-a)|",
+        "1/2 |(b-a) x (c-a)|",
+        "1/3 |(b-a) x (c-a)|",
+        "1/6 |(b-a) x (c-a)|"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area of the triangle is half the magnitude of the cross product of its two side vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3044,
+      "question": "The volume of a tetrahedron defined by vectors u, v, and w is given by which expression?",
+      "options": [
+        "1/2 |u·(v x w)|",
+        "1/3 |u·(v x w)|",
+        "1/6 |u·(v x w)|",
+        "|u·(v x w)|"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The volume of a tetrahedron is one-sixth of the absolute value of the scalar triple product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1758,
+      "question": "The rate of change of displacement with respect to time is known as which quantity?",
+      "options": [
+        "Acceleration",
+        "Velocity",
+        "Speed",
+        "Momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Velocity is defined as the first derivative of the displacement vector with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.606,
+      "question": "Acceleration is obtained by taking which derivative of the position vector?",
+      "options": [
+        "First derivative",
+        "Second derivative",
+        "Third derivative",
+        "Integral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration is the second derivative of position with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.5525,
+      "question": "A set of vectors is linearly dependent if there exist scalars not all zero such that their weighted sum equals which vector?",
+      "options": [
+        "Unit vector",
+        "Position vector",
+        "Zero vector",
+        "Constant vector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Linearly dependent vectors can be combined with non-zero scalars to yield the zero vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.5557,
+      "question": "The coordinates of a point dividing the line segment joining A(x₁,y₁) and B(x₂,y₂) externally in ratio K:L is given by which expression?",
+      "options": [
+        "((Kx₂ + Lx₁)/(K+L), (Ky₂ + Ly₁)/(K+L))",
+        "((Kx₂ - Lx₁)/(K-L), (Ky₂ - Ly₁)/(K-L))",
+        "((Lx₂ - Kx₁)/(L-K), (Ly₂ - Ky₁)/(L-K))",
+        "((Kx₁ - Lx₂)/(K-L), (Ky₁ - Ly₂)/(K-L))"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The external division formula subtracts the coordinates in the numerator and the ratios in the denominator.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3274,
+      "question": "The area of a polygon can be determined by dividing it into which simpler shapes?",
+      "options": [
+        "Circles",
+        "Triangles",
+        "Squares",
+        "Rectangles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area of a polygon is the sum of the areas of the triangles it can be divided into.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.7693,
+      "question": "The slope of a line parallel to the line y = 3x + 2 is which value?",
+      "options": [
+        "-3",
+        "1/3",
+        "-1/3",
+        "3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Parallel lines have equal slopes, so the slope is the same as the given line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.4163,
+      "question": "The slope of a line perpendicular to the line y = 2x + 5 is which value?",
+      "options": [
+        "2",
+        "-2",
+        "-1/2",
+        "1/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The slope of a perpendicular line is the negative reciprocal of the given line's slope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.821,
+      "question": "The equation of the line passing through (0, 2a) and (2a, 0) is given by which expression?",
+      "options": [
+        "x - y = 2a",
+        "x + y = 2a",
+        "x + y = 4a",
+        "x - y = 4a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the intercept form x/(2a) + y/(2a) = 1 simplifies to x + y = 2a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3696,
+      "question": "Three points A, B, and C are collinear if the area of triangle ABC equals which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Zero",
+        "Negative one"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collinear points lie on the same straight line, resulting in a triangle with zero area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.6655,
+      "question": "If two lines with slopes m₁ and m₂ are parallel, the acute angle between them is which value?",
+      "options": [
+        "90 degrees",
+        "45 degrees",
+        "0 degrees",
+        "180 degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parallel lines do not intersect and the angle between them is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.4187,
+      "question": "The perpendicular distance from the origin to the line ax + by + c = 0 is given by which expression?",
+      "options": [
+        "|c| / √(a² + b²)",
+        "|c| / (a² + b²)",
+        "c / √(a + b)",
+        "c / (a + b)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substituting the origin (0,0) into the point-to-line distance formula gives |c| / √(a² + b²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.535,
+      "question": "The distance between the parallel lines 3x + 4y - 7 = 0 and 3x + 4y + 13 = 0 is which value?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distance is |13 - (-7)| / √(3² + 4²) = 20 / 5 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.2825,
+      "question": "The y-coordinate of a point dividing the line joining (x₁,y₁) and (x₂,y₂) internally in ratio m:n is given by which expression?",
+      "options": [
+        "(my₁ + ny₂)/(m+n)",
+        "(my₂ + ny₁)/(m+n)",
+        "(my₂ - ny₁)/(m-n)",
+        "(my₁ - ny₂)/(m-n)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The internal division formula for the y-coordinate is (my₂ + ny₁)/(m+n).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1055,
+      "question": "The median of a triangle drawn from a vertex extends to the opposite side at which point?",
+      "options": [
+        "Centroid",
+        "Vertex",
+        "Midpoint",
+        "Circumcenter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A median connects a vertex to the midpoint of the opposite side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.2166,
+      "question": "The area of the triangle with vertices (0,0), (a,b), and (b,a) where b > a is given by which expression?",
+      "options": [
+        "1/2(a² - b²)",
+        "1/2(b² - a²)",
+        "a² - b²",
+        "b² - a²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The determinant formula yields 1/2 |a(a) - b(b)| = 1/2(b² - a²) since b > a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.276,
+      "question": "The equation of the normal to the curve xy = 4 at the point (4,1) is given by which expression?",
+      "options": [
+        "y - 4x + 15 = 0",
+        "y + 4x - 15 = 0",
+        "y - 4x - 15 = 0",
+        "y + 4x + 15 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope of the tangent is -1/4, so the normal slope is 4, giving y - 1 = 4(x - 4).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3108,
+      "question": "The locus of a point equidistant from P(x₁,y₁) and Q(x₂,y₂) is given by which equation?",
+      "options": [
+        "(x-x₁)² + (y-y₁)² = (x-x₂)² + (y-y₂)²",
+        "(x+x₁)² + (y+y₁)² = (x+x₂)² + (y+y₂)²",
+        "(x-x₁) + (y-y₁) = (x-x₂) + (y-y₂)",
+        "(x+x₁) + (y+y₁) = (x+x₂) + (y+y₂)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The locus is the perpendicular bisector, where the squared distances to both points are equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.837,
+      "question": "The equation of a line passing through the intersection of two lines can be expressed as which combination?",
+      "options": [
+        "Linear combination",
+        "Quadratic combination",
+        "Exponential combination",
+        "Trigonometric combination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A line through the intersection of two given lines is a linear combination of their equations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.684,
+      "question": "The equation of a circle with its center at the origin and radius r is given by which expression?",
+      "options": [
+        "x + y = r",
+        "x² - y² = r²",
+        "x² + y² = r²",
+        "x² + y² = r"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The standard equation for a circle centered at the origin is x² + y² = r².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.6309,
+      "question": "The general equation of a circle is represented by which expression?",
+      "options": [
+        "x² + y² + 2gx + 2fy + c = 0",
+        "x² + y² + gx + fy + c = 0",
+        "x² - y² + 2gx + 2fy + c = 0",
+        "x² + y² + 2gx - 2fy + c = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The general equation of a circle has coefficients of x² and y² equal and no xy term.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.9675,
+      "question": "The square of the length of a tangent from an external point (x₁,y₁) to a circle is obtained by which substitution?",
+      "options": [
+        "Substituting the point into the circle equation",
+        "Substituting the point into the tangent equation",
+        "Substituting the point into the normal equation",
+        "Substituting the point into the radius equation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The square of the tangent length is obtained by substituting the point's coordinates into the circle's equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.93,
+      "question": "The normal to a circle at any point always passes through which location?",
+      "options": [
+        "Directrix",
+        "Focus",
+        "Vertex",
+        "Center"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The normal line to a circle is the line perpendicular to the tangent, which always passes through the circle's center.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.3616,
+      "question": "The parabola y² = -4ax opens towards which direction?",
+      "options": [
+        "Positive x-axis",
+        "Negative x-axis",
+        "Positive y-axis",
+        "Negative y-axis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The negative coefficient of the x term indicates the parabola opens to the left.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.8127,
+      "question": "The focus of the parabola y² = 8x is located at which point?",
+      "options": [
+        "(0, 2)",
+        "(2, 0)",
+        "(0, -2)",
+        "(-2, 0)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For y² = 4ax, the focus is at (a,0). Here 4a = 8, so a = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.056,
+      "question": "The length of the latus rectum of the parabola y² = 12x is which value?",
+      "options": [
+        "12",
+        "6",
+        "3",
+        "24"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The latus rectum length for y² = 4ax is |4a|, which is equal to 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.54,
+      "question": "For the ellipse x²/25 + y²/16 = 1, the major axis lies along which axis?",
+      "options": [
+        "y-axis",
+        "z-axis",
+        "x-axis",
+        "origin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The larger denominator is under x², so the major axis is along the x-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.4375,
+      "question": "The eccentricity of the ellipse x²/9 + y²/4 = 1 is which value?",
+      "options": [
+        "√5/3",
+        "√5/2",
+        "3/5",
+        "2/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eccentricity is calculated as e = √(a² - b²) / a = √(9 - 4) / 3 = √5/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1755,
+      "question": "The foci of the ellipse x²/25 + y²/9 = 1 are located at which points?",
+      "options": [
+        "(±3, 0)",
+        "(0, ±3)",
+        "(±4, 0)",
+        "(0, ±4)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The foci are at (±ae, 0). Here a=5, b=3, so e = 4/5, making ae = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.9902,
+      "question": "The equation of the directrices for the ellipse x²/16 + y²/9 = 1 is given by which expression?",
+      "options": [
+        "x = ± 16/√7",
+        "y = ± 16/√7",
+        "x = ± 16/3",
+        "y = ± 16/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The directrices are x = ± a/e. Here a=4, e = √7/4, giving x = ± 16/√7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1567,
+      "question": "The standard equation of a hyperbola is given by which expression?",
+      "options": [
+        "x²/a² + y²/b² = 1",
+        "x²/a² - y²/b² = 1",
+        "y² = 4ax",
+        "x² + y² = r²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard hyperbola equation has a negative sign between the squared terms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.7146,
+      "question": "The equations of the asymptotes for the hyperbola x²/a² - y²/b² = 1 are given by which expression?",
+      "options": [
+        "y = ±(a/b)x",
+        "y = ±(b/a)x",
+        "y = ±(a²/b²)x",
+        "y = ±(b²/a²)x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The asymptotes are found by replacing the constant 1 with 0, giving y = ±(b/a)x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.8862,
+      "question": "The eccentricity of a hyperbola is always which value?",
+      "options": [
+        "Less than 1",
+        "Equal to 1",
+        "Greater than 1",
+        "Equal to 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, the eccentricity e of a hyperbola is strictly greater than 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.5696,
+      "question": "The foci of the hyperbola x²/9 - y²/16 = 1 are located at which points?",
+      "options": [
+        "(±4, 0)",
+        "(±3, 0)",
+        "(±5, 0)",
+        "(0, ±5)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The foci are at (±ae, 0). Here a=3, b=4, so e = 5/3, making ae = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1384,
+      "question": "The parametric equations x = a cos θ and y = a sin θ represent which shape?",
+      "options": [
+        "Parabola",
+        "Ellipse",
+        "Hyperbola",
+        "Circle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Squaring and adding the parametric equations yields x² + y² = a², which is a circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.2004,
+      "question": "The equation x² - y² = 1 represents which type of conic section?",
+      "options": [
+        "Parabola",
+        "Ellipse",
+        "Hyperbola",
+        "Circle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equation has squared terms with opposite signs, which is the standard form of a hyperbola.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.0857,
+      "question": "The equation of the tangent to the ellipse x²/a² + y²/b² = 1 at the point (x₁,y₁) is given by which expression?",
+      "options": [
+        "xx₁/a² + yy₁/b² = 1",
+        "xx₁/b² + yy₁/a² = 1",
+        "x/a² + y/b² = 1",
+        "x²/a² + y²/b² = 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The tangent to an ellipse at a point replaces x² with xx₁ and y² with yy₁.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.8892,
+      "question": "The equation of the normal to the parabola y² = 4ax at the point (x₁,y₁) is given by which expression?",
+      "options": [
+        "y - y₁ = (y₁/2a)(x - x₁)",
+        "y - y₁ = -(y₁/2a)(x - x₁)",
+        "y - y₁ = (2a/y₁)(x - x₁)",
+        "y - y₁ = -(2a/y₁)(x - x₁)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The normal slope is the negative reciprocal of the tangent slope, giving -(y₁/2a).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.809,
+      "question": "The equation of a circle having (x₁,y₁) and (x₂,y₂) as endpoints of a diameter is given by which expression?",
+      "options": [
+        "(x-x₁)(x-x₂) + (y-y₁)(y-y₂) = 0",
+        "(x-x₁)(x-x₂) - (y-y₁)(y-y₂) = 0",
+        "(x+x₁)(x+x₂) + (y+y₁)(y+y₂) = 0",
+        "(x+x₁)(x+x₂) - (y+y₁)(y+y₂) = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the standard diameter form equation for a circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.0771,
+      "question": "The directrix of the parabola y² = 4ax is given by which equation?",
+      "options": [
+        "x = a",
+        "x = -a",
+        "y = a",
+        "y = -a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The directrix of the standard parabola y² = 4ax is the vertical line x = -a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.1133,
+      "question": "The vertex of the parabola y² = 4a(x - h) is located at which point?",
+      "options": [
+        "(0, h)",
+        "(-h, 0)",
+        "(h, 0)",
+        "(0, -h)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The parabola is shifted horizontally by h, placing the vertex at (h,0).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.5024,
+      "question": "The center of the ellipse (x - 2)²/4 + (y + 2)²/9 = 1 is located at which point?",
+      "options": [
+        "(2, 2)",
+        "(-2, 2)",
+        "(2, -2)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The center (h,k) is found from the terms (x-h)² and (y-k)², giving h=2 and k=-2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.973,
+      "question": "The eccentricity of the ellipse x²/2 + y²/4 = 1 is which value?",
+      "options": [
+        "√2/2",
+        "1/2",
+        "√3/2",
+        "2/√2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Here a=2 and b=√2, so e = √(a² - b²)/a = √(4-2)/2 = √2/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035777824.811,
+      "question": "The length of the latus rectum of the hyperbola x²/a² - y²/b² = 1 is given by which expression?",
+      "options": [
+        "2a²/b",
+        "2b²/a",
+        "b²/a",
+        "a²/b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The latus rectum of a hyperbola is a focal chord perpendicular to the transverse axis with length 2b²/a.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
