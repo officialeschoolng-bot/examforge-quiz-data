@@ -3,16 +3,718 @@
   "title": "MTH 161 ( UNIZIK ) : VECTORS/EQUILIBRIUM OF FORCES/MOMENT ABOUT A POINT",
   "subject": "MTH 161",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793004414876.067,
+      "question": "A vector is a quantity that has both magnitude and which other property?",
+      "options": [
+        "Acceleration",
+        "Temperature",
+        "Direction",
+        "Displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A vector is defined as a quantity possessing both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.5503,
+      "question": "The scalar product of two vectors is also known as which product?",
+      "options": [
+        "Dot product",
+        "Cross product",
+        "Vector product",
+        "Triple product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The scalar product is interchangeably called the dot product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0742,
+      "question": "If two vectors are perpendicular to each other, their scalar product equals which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Negative one",
+        "Zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cosine of 90 degrees is zero, making the dot product zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0725,
+      "question": "When two vectors have the exact same direction, their dot product equals which expression?",
+      "options": [
+        "Zero",
+        "Magnitude product",
+        "Negative value",
+        "One"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosine of 0 degrees is 1, so the dot product equals the product of their magnitudes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.9358,
+      "question": "If two vectors point in exactly opposite directions, their dot product equals which expression?",
+      "options": [
+        "Negative value",
+        "Positive value",
+        "Zero",
+        "One"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cosine of 180 degrees is -1, making the dot product negative of the magnitude product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.9573,
+      "question": "The vector product of two vectors is also known as which product?",
+      "options": [
+        "Dot product",
+        "Scalar product",
+        "Cross product",
+        "Inner product"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vector product is interchangeably called the cross product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.436,
+      "question": "When two vectors are collinear or parallel, their cross product equals which value?",
+      "options": [
+        "One",
+        "Zero",
+        "Infinity",
+        "Magnitude"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sine of 0 degrees is zero, resulting in a zero cross product for parallel vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.6846,
+      "question": "Which unit vectors represent the x, y, and z directions respectively?",
+      "options": [
+        "a, b, c",
+        "x, y, z",
+        "p, q, r",
+        "i, j, k"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The standard unit vectors for the three dimensions are i, j, and k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.285,
+      "question": "In a parallelogram OACB, the diagonal OC represents which operation of the two adjacent sides?",
+      "options": [
+        "Difference",
+        "Sum",
+        "Product",
+        "Ratio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The diagonal passing through the intersection point represents the vector sum of the adjacent sides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.463,
+      "question": "A vector with all its components equal to zero is called which type of vector?",
+      "options": [
+        "Origin vector",
+        "Unit vector",
+        "Position vector",
+        "Resultant vector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A zero vector is also referred to as an origin vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.1375,
+      "question": "The unit vector in the direction of vector a is expressed by which formula?",
+      "options": [
+        "|a|/a",
+        "a+|a|",
+        "a|a|",
+        "a/|a|"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A unit vector is found by dividing the vector by its magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.593,
+      "question": "The resultant of multiple vectors is obtained through which mathematical operation?",
+      "options": [
+        "Product",
+        "Division",
+        "Addition",
+        "Subtraction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The resultant vector is the vector sum of all the individual vectors involved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.6023,
+      "question": "The projection of vector a on vector b is calculated using which expression?",
+      "options": [
+        "a x b/|a|",
+        "a . b/|b|",
+        "a . b/|a|",
+        "a x b/|b|"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scalar projection involves the dot product of a with the unit vector of b.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.6948,
+      "question": "Given a = 7i - 3j and b = 5i + 7j, calculate 3a + b.",
+      "options": [
+        "21i - 2j",
+        "16i - 2j",
+        "26i - 2j",
+        "26i + 2j"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiplying a by 3 and adding b gives 21i - 9j + 5i + 7j = 26i - 2j.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0247,
+      "question": "Find the resultant of the vectors a=3i, b=-2i-j, and c=i+4j.",
+      "options": [
+        "4i + 4j",
+        "2i + 3j",
+        "6i + 5j",
+        "2i - 3j"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Summing the i and j components yields 3i - 2i + i = 2i and -j + 4j = 3j.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.7266,
+      "question": "If the vectors 3i - 2j and 4i + Pj are parallel, find the constant P.",
+      "options": [
+        "-8/3",
+        "1/6",
+        "3/8",
+        "-6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cross product must be zero, giving 3P - (-8) = 0, which solves to P = -8/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.9395,
+      "question": "Given p = (4,-3) and q = (-12,5), find a vector U parallel to p+q and half its size.",
+      "options": [
+        "(-8,2)",
+        "(4,-1)",
+        "(8,-2)",
+        "(-4,1)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sum p+q is (-8,2), and half of this vector is (-4,1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.4465,
+      "question": "Given |p|=3, |q|=4, and p.q=-6, determine the angle between p and q.",
+      "options": [
+        "30",
+        "120",
+        "45",
+        "135"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosine of the angle is -6/(3*4) = -0.5, which corresponds to 120 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0205,
+      "question": "Find the angle between the vectors i+5j and 5i-j.",
+      "options": [
+        "30",
+        "45",
+        "90",
+        "60"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dot product is 5-5=0, indicating the vectors are perpendicular with an angle of 90 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.3264,
+      "question": "If PQ = 4i + 3j and QR = 5i + 12j, find the cosine of the angle between them.",
+      "options": [
+        "16/63",
+        "13/13",
+        "7/63",
+        "56/65"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The dot product is 56, and dividing by the product of magnitudes (5*13) yields 56/65.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0752,
+      "question": "Calculate the magnitude of the vector a = 4i - 3j + 12k.",
+      "options": [
+        "13",
+        "169",
+        "19",
+        "26"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The square root of (16 + 9 + 144) equals the square root of 169, which is 13.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.7368,
+      "question": "If r = i + 2j and q = 2i - 3j, find r . q.",
+      "options": [
+        "-3",
+        "2.5",
+        "-4",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dot product is (1*2) + (2*-3) = 2 - 6 = -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.7158,
+      "question": "If a = 3i + 4j and b = λj + 2k are perpendicular, find the value of λ.",
+      "options": [
+        "4",
+        "-3",
+        "-4",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The dot product is 3*0 + 4*λ + 0*2 = 4λ, which must equal zero, so λ=0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.0693,
+      "question": "Find the unit vector in the direction of the resultant of p = 5i + 3j and q = 7i - 8j.",
+      "options": [
+        "12i/13 - 5j/13",
+        "12i/13 - 5j/13",
+        "13i/14 - 5j/14",
+        "11i/12 - 5j/12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The resultant is 12i - 5j, which is divided by its magnitude of 13 to get the unit vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.1873,
+      "question": "The position vectors of P and Q are i-j and 2i-5j. Find a unit vector perpendicular to PQ.",
+      "options": [
+        "(i - 4j)/√17",
+        "(-i + 4j)/17",
+        "(4i + j)/√17",
+        "(4i - j)/17"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A perpendicular vector has a zero dot product, and dividing by the magnitude yields the unit vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.559,
+      "question": "For a body to be in equilibrium, the total sum of the forces acting on it must equal which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Zero",
+        "Weight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equilibrium of a body is maintained if the total sum of forces acting on it is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.1016,
+      "question": "Lami's theorem states that each force is proportional to the sine of the angle between which other forces?",
+      "options": [
+        "The other two",
+        "All other forces",
+        "The resultant force",
+        "The horizontal forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lami's theorem relates each force to the sine of the angle between the lines of action of the other two forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.069,
+      "question": "A particle X of weight 65kg at rest is suspended by two strings making angles of 45 and 75 with the horizontal. Which theorem is used to find the tensions?",
+      "options": [
+        "Cosine rule",
+        "Pythagoras theorem",
+        "Sine rule",
+        "Lami's theorem"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lami's theorem is used when three forces acting at a point are in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.893,
+      "question": "A body of mass 15kg is suspended by two strings inclined at 60 and 40 to the downward vertical. Calculate the weight W using g=10.",
+      "options": [
+        "15N",
+        "600N",
+        "150N",
+        "1.5N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Weight is calculated as mass multiplied by gravity, which is 15 kg * 10 m/s^2 = 150N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.3975,
+      "question": "In an equilibrium triangle of forces, if three forces act at a point, they can be represented in magnitude and direction by which of the following?",
+      "options": [
+        "The sides of a triangle",
+        "The diagonals of a square",
+        "The radii of a circle",
+        "The angles of a polygon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The triangle of forces states that three forces in equilibrium can be represented by the sides of a triangle taken in order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.5542,
+      "question": "An object of mass 10kg hangs from a string pulled aside by a horizontal force S. The string is inclined at 60 to the vertical. Calculate the tension T using Lami's theorem.",
+      "options": [
+        "100N",
+        "173N",
+        "50N",
+        "200N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using Lami's theorem, T/sin90 = 100/sin150, which gives T = 200N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.1555,
+      "question": "A mass of 3kg hanging from a string is pulled aside by a horizontal force R with the string inclined at 30 to the vertical. Calculate the tension T using g=10.",
+      "options": [
+        "17.32N",
+        "34.64N",
+        "30.00N",
+        "60.00N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Lami's theorem, T/sin90 = 30/sin120, resulting in T = 34.64N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.9824,
+      "question": "Three forces of magnitudes 3N, 5N, and 7N act on a body and are in equilibrium. Which rule is used to find the angle between the 5N and 7N forces?",
+      "options": [
+        "Sine rule",
+        "Cosine rule",
+        "Lami's theorem",
+        "Pythagoras rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosine rule is applied to the triangle of forces to find the unknown angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.5222,
+      "question": "Three coplanar forces of magnitude 6N, 9N, and 4.5N maintain a particle in equilibrium. If the angle between the 6N and 9N is 30, which rule is used to find the angle between the 4.5N and 6N?",
+      "options": [
+        "Lami's theorem",
+        "Pythagoras rule",
+        "Cosine rule",
+        "Sine rule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lami's theorem is directly applied to find unknown angles between three forces in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.8718,
+      "question": "Forces of magnitudes 10N, 26N, and PN act on a particle in equilibrium with a right-angle triangle arrangement. Calculate P using Pythagoras rule.",
+      "options": [
+        "16N",
+        "36N",
+        "28N",
+        "24N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using P^2 = 26^2 - 10^2, P equals the square root of 576, which is 24N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414876.9429,
+      "question": "Three forces F1(10N,030), F2(PN,120), and F3(15N,0) act on a body in equilibrium. Find the value of P using Pythagoras rule.",
+      "options": [
+        "10.18N",
+        "11.18N",
+        "12.18N",
+        "13.18N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying the Pythagoras rule to the force triangle gives P = √(15^2 - 10^2) = 11.18N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.7478,
+      "question": "Five forces T, 4N, 8N, S, and 10N acting on a body in equilibrium. Which method is used to calculate the values of T and S?",
+      "options": [
+        "Lami's theorem",
+        "Triangle law",
+        "Resolving forces",
+        "Cosine rule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When more than three forces act on a body, resolving forces into vertical and horizontal components is used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.2373,
+      "question": "The resultant of two forces of 5N and 7N acting at 60 degrees to each other is found using which rule?",
+      "options": [
+        "Cosine rule",
+        "Lami's theorem",
+        "Sine rule",
+        "Pythagoras rule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cosine rule relates the sides of a triangle to the cosine of one of its angles, useful for non-right angled vector triangles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.856,
+      "question": "The moment of a force is defined as the product of the force and which other quantity?",
+      "options": [
+        "Lever arm",
+        "Total distance",
+        "Horizontal force",
+        "Vertical distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moment is the product of the force and the perpendicular distance it covers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.2505,
+      "question": "For a body to be in rotational equilibrium, clockwise moment must equal which other moment?",
+      "options": [
+        "Anti-clockwise moment",
+        "Total force moment",
+        "Vertical force moment",
+        "Horizontal force moment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equilibrium holds when the total clockwise moment equals the total anti-clockwise moment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.3848,
+      "question": "A uniform bar of 10m in length must have its centre of gravity at which distance from either end?",
+      "options": [
+        "5m",
+        "2m",
+        "10m",
+        "4m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a uniform bar, the centre of gravity is always in the centre position, which is 5m for a 10m bar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.497,
+      "question": "A uniform rod 12m long is pivoted at its centre. A 50kg mass is suspended from one end. Find the distance x from the other end to suspend a 75kg mass for equilibrium.",
+      "options": [
+        "2m",
+        "4m",
+        "6m",
+        "10m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about the pivot gives 50*6 = 75*x, solving to x = 4m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.1216,
+      "question": "A uniform rod PQ is 20m long and weighs 80N. Weights of 20N and 50N are suspended at P and Q. Find the distance from P where the rod must be supported.",
+      "options": [
+        "9m",
+        "12m",
+        "16m",
+        "18m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about the support point D yields the distance from P as 12m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.9333,
+      "question": "A non-uniform beam PQ of length 4m and weight 100N rests on supports at P and Q. The centre of gravity is 1.5m from P. Find the reaction at P.",
+      "options": [
+        "37.5N",
+        "62.5N",
+        "34.5N",
+        "56.5N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about Q gives 4*R1 = 100*2.5, resulting in R1 = 62.5N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.3728,
+      "question": "A uniform beam PQ of length 16m and weight 30N rests on supports at P and Q. A 24N weight is suspended 2m from Q. Find the reaction at P.",
+      "options": [
+        "38N",
+        "36N",
+        "27N",
+        "18N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Taking moments about Q gives 16*R1 = (30*8) + (24*2), solving to R1 = 18N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.5947,
+      "question": "A uniform beam of length 18m and mass 30kg rests on supports P and Q which are 1m from each end. A 2kg mass is placed 12m from P. Find the reaction at Q using g=10.",
+      "options": [
+        "135N",
+        "155N",
+        "165N",
+        "175N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking moments about P yields 16*R2 = (300*8) + (20*12), which gives R2 = 165N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.505,
+      "question": "A uniform beam PQ, 80cm long and of weight 60N, rests on a support at X where PX = 30cm. Find the reaction at X if a mass m is dropped at P to keep it in equilibrium.",
+      "options": [
+        "80N",
+        "60N",
+        "100N",
+        "40N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about P gives 60*0.4 = R1*0.3, solving to R1 = 80N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.3716,
+      "question": "A non-uniform rod PQ of length 30m rests on supports X and Y such that PX=2m and YQ=8m. The reactions at X and Y are 200N and 300N. Find the mass of the rod.",
+      "options": [
+        "40kg",
+        "50kg",
+        "30kg",
+        "60kg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolving vertically gives the weight W = 500N, and dividing by g=10 yields a mass of 50kg.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.801,
+      "question": "A non-uniform rod BC of length 2m and mass 3kg has its centre of gravity 0.8m from B. It rests on supports at M and N which are 0.3m and 1.6m from B. Find the reaction at N.",
+      "options": [
+        "18.46N",
+        "15.00N",
+        "11.54N",
+        "20.00N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking moments about M gives 1.3*R2 = 30*0.5, resulting in R2 = 11.54N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004414877.4805,
+      "question": "A uniform plank PQ of length 10m and mass m rests on supports A and B where PA=BQ=1m. A mass of 8kg is placed at C where AC=3.5m. If the reaction at B is 100N, calculate the value of m.",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "17"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about A gives 80*3.5 + 10m*4 = 100*8, which solves to m = 13.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
