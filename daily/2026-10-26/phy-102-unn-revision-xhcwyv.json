@@ -3,16 +3,718 @@
   "title": "PHY 102 ( UNN ) : REVISION 1",
   "subject": "PHY 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793013172520.7363,
+      "question": "Coulomb's Law states that the force between two point charges is inversely proportional to which quantity?",
+      "options": [
+        "The product of the two charges",
+        "The distance between the two charges",
+        "The square of that distance",
+        "The sum of the two charges"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coulomb's Law shows force is inversely proportional to the square of the distance between charges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.4348,
+      "question": "Which unit measures electric field intensity?",
+      "options": [
+        "Joule per coulomb",
+        "Newton per coulomb",
+        "Volt per second",
+        "Joule per second per ampere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric field intensity is force per unit charge, measured in newtons per coulomb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.2046,
+      "question": "Electric potential at a point is the work done to move a unit positive charge from which location?",
+      "options": [
+        "From one plate to another",
+        "From infinity to that point",
+        "From the origin to that point",
+        "From the negative plate to the positive plate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric potential is defined as the work done in bringing a unit positive charge from infinity to that point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.2422,
+      "question": "The electric field inside a conductor in electrostatic equilibrium is which value?",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Uniform",
+        "Variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In electrostatic equilibrium, the electric field inside a conductor is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.4412,
+      "question": "Gauss's Law states that the total electric flux through a closed surface equals which quantity?",
+      "options": [
+        "The total charge enclosed times ε₀",
+        "The total charge enclosed divided by ε₀",
+        "The total charge enclosed plus ε₀",
+        "The total charge enclosed minus ε₀"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gauss's Law states that flux through a closed surface equals the enclosed charge divided by ε₀.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.7354,
+      "question": "For an infinite plane sheet of charge with surface charge density σ, the electric field is which expression?",
+      "options": [
+        "σ/ε₀",
+        "σ/(2ε₀)",
+        "σ/(4ε₀)",
+        "σ ε₀"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The electric field due to an infinite plane sheet of charge is σ/ε₀.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6,
+      "question": "A Gaussian surface is best described as which of the following?",
+      "options": [
+        "A real conducting surface",
+        "An imaginary closed surface",
+        "An equipotential surface",
+        "A flat surface only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Gaussian surface is an imaginary closed surface used to apply Gauss's Law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.1785,
+      "question": "The electric field due to a point charge Q at distance r is given by which expression?",
+      "options": [
+        "Q/(4π ε₀ r)",
+        "Q/(4π ε₀ r²)",
+        "Q/(2π ε₀ r)",
+        "Q divided by 4π ε₀ times r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The electric field due to a point charge is Q/(4π ε₀ r²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.9517,
+      "question": "The capacitance of a parallel plate capacitor is given by which expression?",
+      "options": [
+        "C = ε₀d/A",
+        "C = ε₀A/d",
+        "C = Ad/ε₀",
+        "C = d/ε₀A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The capacitance of a parallel plate capacitor is ε₀A/d where A is area and d is separation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.224,
+      "question": "When a dielectric is inserted between capacitor plates, the capacitance changes in which way?",
+      "options": [
+        "It decreases to zero",
+        "It increases by factor K",
+        "It remains unchanged",
+        "It becomes infinite always"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inserting a dielectric increases capacitance by the dielectric constant K.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6028,
+      "question": "For capacitors connected in series, the equivalent capacitance is found using which relationship?",
+      "options": [
+        "C = C₁ + C₂ + C₃",
+        "1/C = sum of reciprocals",
+        "C = C₁ × C₂ × C₃ multiplied together",
+        "1/C = C₁ + C₂ + C₃ added together"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In series, the reciprocal of equivalent capacitance equals the sum of reciprocals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.781,
+      "question": "The energy stored in a capacitor is given by which expression?",
+      "options": [
+        "U = QV",
+        "U = ½QV",
+        "U = 2QV",
+        "U = Q divided by V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The energy stored in a capacitor equals half the product of charge and voltage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.165,
+      "question": "Electric current is defined as the rate of flow of which quantity?",
+      "options": [
+        "Charge per unit time",
+        "Energy per unit time",
+        "Resistance per unit time",
+        "Voltage per unit time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electric current is the rate at which charge flows through a cross-sectional area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.143,
+      "question": "Ohm's law states that current is directly proportional to which quantity?",
+      "options": [
+        "The circuit resistance",
+        "Potential difference",
+        "The temperature value",
+        "The time taken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ohm's law states that current is directly proportional to potential difference at constant temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.3809,
+      "question": "The resistance of a wire is directly proportional to which property?",
+      "options": [
+        "Cross-sectional area",
+        "Length",
+        "Current",
+        "Voltage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resistance is directly proportional to length and inversely proportional to cross-sectional area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.5366,
+      "question": "A 20.0 m wire of 1.50 mm diameter has resistance 2.5 Ω. Which resistivity value applies?",
+      "options": [
+        "0.22 × 10⁻⁶ Ωm",
+        "2.2 × 10⁻⁶ Ωm",
+        "0.22 × 10⁻⁴ Ωm",
+        "2.2 × 10⁻⁴ Ωm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using ρ = RA/L, the resistivity is approximately 0.22 × 10⁻⁶ Ωm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.2417,
+      "question": "Kirchhoff's first rule is based on the law of conservation of which quantity?",
+      "options": [
+        "Energy",
+        "Charge",
+        "Momentum",
+        "Mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kirchhoff's first rule is based on conservation of charge at a junction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.262,
+      "question": "Kirchhoff's second rule states that the sum of potential drops in a closed loop equals which quantity?",
+      "options": [
+        "Zero",
+        "The sum of emfs",
+        "The total resistance",
+        "The total current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sum of potential drops around any closed loop equals the sum of emfs in that loop.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.7764,
+      "question": "In a Wheatstone bridge, balance is achieved when the current through the galvanometer has which value?",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Minimum",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Wheatstone bridge is balanced when no current flows through the galvanometer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.2153,
+      "question": "The meter bridge is a practical application of which principle?",
+      "options": [
+        "Ohm's law only",
+        "Wheatstone bridge",
+        "Kirchhoff's first rule only",
+        "Faraday's law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The meter bridge is a practical form of the Wheatstone bridge used to measure resistance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.9412,
+      "question": "Magnetic field lines around a straight current-carrying conductor take which shape?",
+      "options": [
+        "Straight lines parallel to conductor",
+        "Concentric circles",
+        "Radial lines outward",
+        "Random curves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic field lines around a straight conductor form concentric circles perpendicular to the wire.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6035,
+      "question": "The force on a moving charge in a magnetic field is given by which expression?",
+      "options": [
+        "F = qvB sinθ",
+        "F = qvB cosθ",
+        "F = qv/B",
+        "F = qB/v"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic force on a moving charge is qvB sinθ where θ is the angle between velocity and field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.7737,
+      "question": "The angle of dip is the angle between which two directions?",
+      "options": [
+        "Magnetic north and geographic north",
+        "Earth's magnetic field and the horizontal",
+        "Magnetic meridian and magnetic north pole",
+        "Electric field and magnetic field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of dip is the angle between the earth's magnetic field and the horizontal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6582,
+      "question": "The SI unit of magnetic flux density is which of the following?",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Gauss"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI unit of magnetic flux density is the tesla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.541,
+      "question": "The magnetic field at a distance r from a long straight wire carrying current I is given by which expression?",
+      "options": [
+        "μ₀I/(2πr)",
+        "μ₀I/(4πr)",
+        "μ₀I/(2πr²)",
+        "μ₀I/(4πr²)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic field from a long straight wire is μ₀I/(2πr).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.7336,
+      "question": "The magnetic field inside a long solenoid is given by which expression?",
+      "options": [
+        "μ₀nI",
+        "μ₀nI/2",
+        "μ₀I/n",
+        "μ₀n/I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic field inside a long solenoid is μ₀nI where n is turns per unit length.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.5999,
+      "question": "Two parallel wires carrying currents in the same direction exhibit which behavior?",
+      "options": [
+        "Attract each other",
+        "Repel each other",
+        "Have no effect on each other",
+        "Neutralize each other"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parallel currents in the same direction attract each other due to magnetic forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.5144,
+      "question": "The magnetic field at the center of a circular loop of radius R carrying current I is which expression?",
+      "options": [
+        "μ₀I/(2R)",
+        "μ₀I/(4R)",
+        "μ₀I/(2πR)",
+        "μ₀I/(4πR)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic field at the center of a circular loop is μ₀I/(2R).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.2048,
+      "question": "Faraday's law states that induced emf is proportional to the rate of change of which quantity?",
+      "options": [
+        "The electric current",
+        "Magnetic flux",
+        "The resistance value",
+        "The voltage level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Faraday's law states that induced emf is proportional to the rate of change of magnetic flux.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.8787,
+      "question": "Lenz's law states that the induced current opposes the change in which quantity?",
+      "options": [
+        "The resistance value",
+        "Magnetic flux",
+        "The voltage level",
+        "The capacitance value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lenz's law states that induced current opposes the change in magnetic flux that produced it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.5403,
+      "question": "The unit of magnetic flux is which of the following?",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Farad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The unit of magnetic flux is the weber.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6597,
+      "question": "A changing magnetic field can induce which of the following?",
+      "options": [
+        "A static electric charge",
+        "An electromotive force",
+        "A steady constant current",
+        "A steady constant voltage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A changing magnetic field induces an electromotive force according to Faraday's law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.1597,
+      "question": "Self-inductance is defined as the ratio of induced emf to the rate of change of which quantity?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Charge",
+        "Resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-inductance is the ratio of induced emf to the rate of change of current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.6772,
+      "question": "The unit of inductance is which of the following?",
+      "options": [
+        "Farad",
+        "Henry",
+        "Tesla",
+        "Weber"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The unit of inductance is the henry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172520.055,
+      "question": "In an LR circuit, the inductive time constant is given by which ratio?",
+      "options": [
+        "L/R",
+        "R/L",
+        "LR",
+        "L + R"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The inductive time constant of an LR circuit is L/R.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.581,
+      "question": "The energy stored in an inductor is given by which expression?",
+      "options": [
+        "½LI²",
+        "LI² multiplied by one",
+        "2LI²",
+        "L divided by I²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The energy stored in an inductor equals half times inductance times current squared.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.3267,
+      "question": "Ferromagnetic materials are characterized by which property?",
+      "options": [
+        "Small positive susceptibility",
+        "Large positive susceptibility",
+        "Small negative susceptibility",
+        "Zero susceptibility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ferromagnetic materials have a large positive susceptibility and are strongly attracted to magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.2617,
+      "question": "Paramagnetic materials exhibit which behavior in a magnetic field?",
+      "options": [
+        "Weak attraction",
+        "Strong attraction",
+        "Strong repulsion",
+        "No response"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paramagnetic materials are weakly attracted to magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.9873,
+      "question": "Diamagnetic materials exhibit which behavior in a magnetic field?",
+      "options": [
+        "Weak repulsion",
+        "Strong attraction",
+        "Permanent magnetization",
+        "Ferromagnetic behavior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diamagnetic materials are weakly repelled by magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.9343,
+      "question": "The magnetization curve plots which relationship?",
+      "options": [
+        "B against H",
+        "E against H",
+        "B against E",
+        "H against E"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetization curve plots magnetic flux density B against magnetic field strength H.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.7952,
+      "question": "The root mean square value of alternating current equals which fraction of peak current?",
+      "options": [
+        "I₀ divided by √2",
+        "I₀ multiplied by √2",
+        "I₀ divided by 2",
+        "2I₀ multiplied by 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The RMS value of alternating current equals peak current divided by the square root of two.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.5715,
+      "question": "In a pure resistor, the current and voltage have which phase relationship?",
+      "options": [
+        "Out of phase by 90°",
+        "In phase",
+        "Out of phase by 180°",
+        "Out of phase by 45°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a pure resistor, current and voltage are in phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.2239,
+      "question": "In a pure capacitor, the current has which relationship to the voltage?",
+      "options": [
+        "Leads the voltage by 90°",
+        "Lags the voltage by 90°",
+        "Is in phase with voltage",
+        "Leads the voltage by 45°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a pure capacitor, current leads voltage by 90 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.1543,
+      "question": "Resonance occurs in an LCR circuit under which condition?",
+      "options": [
+        "X_L = X_C",
+        "X_L > X_C",
+        "X_L < X_C",
+        "R = X_L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resonance in an LCR circuit occurs when inductive reactance equals capacitive reactance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.5544,
+      "question": "Maxwell's equations are based on which set of laws?",
+      "options": [
+        "Newton's laws of motion",
+        "Gauss, Faraday, Ampere laws",
+        "Ohm's law and Kirchhoff's laws",
+        "Coulomb's law and Biot-Savart law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maxwell's equations are built on Gauss's law, Faraday's law, and Ampere's law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.0425,
+      "question": "Electromagnetic waves are transverse waves consisting of which fields?",
+      "options": [
+        "Electric and magnetic fields perpendicular",
+        "Electric and magnetic fields running parallel",
+        "Electric fields alone without magnetic fields",
+        "Magnetic fields alone without electric fields"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electromagnetic waves consist of electric and magnetic fields perpendicular to each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.5186,
+      "question": "The speed of electromagnetic waves in vacuum is given by which expression?",
+      "options": [
+        "1 over the square root of μ₀ε₀",
+        "The square root of the product μ₀ε₀",
+        "The product of μ₀ and ε₀ divided by two",
+        "The sum of μ₀ and ε₀ divided by two"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The speed of electromagnetic waves in vacuum equals 1 divided by the square root of μ₀ε₀.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.4697,
+      "question": "The electromagnetic spectrum includes which of the following wave types?",
+      "options": [
+        "Sound waves",
+        "X-rays",
+        "Water waves",
+        "Seismic waves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "X-rays are part of the electromagnetic spectrum, unlike sound, water, or seismic waves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.3018,
+      "question": "A capacitor of 2 μF is charged to 100 V. Which charge is stored on the capacitor?",
+      "options": [
+        "2 × 10⁻² C",
+        "2 × 10⁻⁶ C",
+        "2 × 10⁻⁴ C",
+        "2 × 10⁻⁸ C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Q = CV, the charge is 2 × 10⁻⁶ F × 100 V = 2 × 10⁻⁴ C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013172521.5002,
+      "question": "A wire of resistance 6 Ω is drawn so its length becomes three times the original. Which value represents the new resistance?",
+      "options": [
+        "18 Ω",
+        "54 Ω",
+        "6 Ω",
+        "2 Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When length triples and volume remains constant, resistance increases by a factor of nine, giving 54 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
