@@ -3,16 +3,718 @@
   "title": "MTH 101 ( UNIZIK ) : INDICES AND LOGARITHMS",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793004262046.6782,
+      "question": "The law of indices for the expression x^a multiplied by x^b results in which term?",
+      "options": [
+        "x^(a+b)",
+        "x^(a-b)",
+        "x^(ab)",
+        "x^(a/b)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first law of indices states that when multiplying terms with the same base, you add the exponents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.9229,
+      "question": "The law of indices for the expression x^a divided by x^b results in which term?",
+      "options": [
+        "x^(a+b)",
+        "x^(a-b)",
+        "x^(ab)",
+        "x^(a/b)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The second law of indices states that when dividing terms with the same base, you subtract the exponents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.0696,
+      "question": "The law of indices for the expression (x^a)^b results in which term?",
+      "options": [
+        "x^(a+b)",
+        "x^(a-b)",
+        "x^(ab)",
+        "x^(a/b)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fifth law of indices states that when raising a power to another power, you multiply the exponents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.6494,
+      "question": "The expression x^0 evaluates to which value for any non-zero x?",
+      "options": [
+        "0",
+        "1",
+        "x",
+        "infinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The third law of indices states that any non-zero number raised to the power of zero is 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.5505,
+      "question": "The expression x^(-a) is equivalent to which of the following?",
+      "options": [
+        "1 / (x^a)",
+        "x^a",
+        "-x^a",
+        "a^x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fourth law of indices states that a negative exponent indicates the reciprocal of the base raised to the positive exponent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.6006,
+      "question": "The expression x^(1/a) is equivalent to which term?",
+      "options": [
+        "a-root of x",
+        "x-root of a",
+        "a squared",
+        "1 divided by a"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sixth law of indices states that a fractional exponent of the form 1/a represents the a-th root of the base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.0151,
+      "question": "The expression x^(a/b) is equivalent to which term?",
+      "options": [
+        "(b-root of x)^a",
+        "(a-root of x)^b",
+        "x multiplied by a/b",
+        "(x^a) / b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The seventh law of indices states that a fractional exponent a/b can be expressed as the b-th root of x raised to the power of a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3374,
+      "question": "Evaluate the expression (8^(1/3) multiplied by 5^(2/3)) divided by 10^(2/3).",
+      "options": [
+        "Cube root of 2",
+        "Cube root of 5",
+        "One half",
+        "Two"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simplifying the powers by factoring out the common exponent gives the cube root of 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.693,
+      "question": "Simplify the square root of 160r^2 plus the square root of 71r^4 plus the square root of 100r^8 starting from the innermost term.",
+      "options": [
+        "10r^4",
+        "13r",
+        "9r^2",
+        "11r^4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The square root of 100r^8 simplifies directly to 10r^4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.7954,
+      "question": "The product of 27/5, 3^(-3), and (1/5)^(-1) evaluates to which value?",
+      "options": [
+        "1",
+        "3",
+        "9",
+        "27"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simplifying the negative exponents and multiplying the fractions results in 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3691,
+      "question": "Evaluate the expression (81)^(3/4) minus (27)^(1/3) divided by 3 multiplied by 2^3.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Evaluating the powers in the numerator yields 24, which divides by the denominator of 24 to give 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.7896,
+      "question": "Simplify the expression (0.2)^3 multiplied by 8 divided by (0.4)^2.",
+      "options": [
+        "0.4",
+        "0.2",
+        "0.8",
+        "0.04"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Converting the decimals to fractions and simplifying the powers results in 0.4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3142,
+      "question": "Simplify the expression (4(2^(n+1)) minus 2^(n+2)) divided by (2^(n+1) minus 2^n).",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring out 2^n from both the numerator and denominator simplifies the expression to 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3713,
+      "question": "Simplify the expression (3(5^(n+1)) plus 5^n) divided by (5^(n+2) minus 5^(n+1)).",
+      "options": [
+        "-100",
+        "100",
+        "-50",
+        "50"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring out 5^n from the numerator and denominator and simplifying yields -100.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.478,
+      "question": "Simplify the expression [(1/x^(-1)) plus (1/y^(-1))]^(-1).",
+      "options": [
+        "(x-y)/(xy)",
+        "xy/(x+y)",
+        "x^2+y^2",
+        "xy(x+y)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Removing the negative exponents gives (x+y), and taking the inverse results in xy/(x+y).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.52,
+      "question": "The expression (1/q^(4/3)) multiplied by q^(4/3) simplifies to which of the following?",
+      "options": [
+        "1",
+        "q",
+        "q^2",
+        "q^(-1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiplying a term by its reciprocal results in 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1812,
+      "question": "Solve for y in the equation (4^(2y))^(1/3) = 8.",
+      "options": [
+        "9/4",
+        "3/2",
+        "4/3",
+        "2/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressing both sides in base 2 gives 4y/3 = 3, which simplifies to y = 9/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.8643,
+      "question": "Solve for x in the equation (4^(2x))^(1/3) = 16.",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressing both sides in base 2 gives 4x/3 = 4, which simplifies to x = 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.293,
+      "question": "Solve for x in the equation 8^(1-2x) = 1/4^x.",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/2",
+        "3/8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating the powers of base 2 gives 3(1-2x) = -2x, which solves to x = 3/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.9307,
+      "question": "Solve for x in the equation 10^x multiplied by 5^(2x-2) multiplied by 4^(x-1) = 1.",
+      "options": [
+        "2/3",
+        "3/4",
+        "1/4",
+        "5/4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Changing all bases to 2 and 5 and equating the powers gives 3x = 2, so x = 2/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3574,
+      "question": "Solve for x in the equation 5^(2x-4) - 1 = 0.",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding 1 to both sides and equating the powers gives 2x - 4 = 0, so x = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.359,
+      "question": "Solve for x in the equation 27^(2x) = 1/9 (3^(x-1)).",
+      "options": [
+        "-3/5",
+        "3/5",
+        "-1/7",
+        "7/4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressing all terms in base 3 gives 6x = x - 3, which solves to x = -3/5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.0276,
+      "question": "Solve for x in the equation 3^(3x-8) - 1/3^(x-2) = 0.",
+      "options": [
+        "5/2",
+        "3/2",
+        "-3",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rearranging and equating the powers gives 3x - 8 = -x + 2, so x = 5/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.067,
+      "question": "Solve for x in the equation 8^(2x-1) = 1/512.",
+      "options": [
+        "-1",
+        "1",
+        "-2",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressing both sides as base 8 gives 8^(2x-1) = 8^(-3), so 2x - 1 = -3 and x = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3267,
+      "question": "Solve for x in the equation 4^(2x) / 4^(3x) = 2.",
+      "options": [
+        "-1/2",
+        "1/2",
+        "-2",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simplifying the left side to base 2 gives -2x = 1, so x = -1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.8916,
+      "question": "Solve for x in the equation 5^(2x+1) + 5^(2x) = 150.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring out 5^(2x) gives 6 multiplied by 5^(2x) = 150, leading to 5^(2x) = 25 and x = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1125,
+      "question": "Solve for y in the equation 10^y multiplied by 5^(2y-2) multiplied by 4^(y-1) = 1.",
+      "options": [
+        "2/3",
+        "1/2",
+        "3/4",
+        "4/5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewriting the bases and equating the powers of 2 and 5 yields 3y = 2, so y = 2/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1775,
+      "question": "Solve for x in the equation 4^(2x-3) - 3(4^(x-2)) - 1 = 0.",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substituting p = 4^x transforms the equation into a quadratic that factors to give x = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.6628,
+      "question": "Solve for x in the equation 9e^(2x) - 30e^x + 25 = 0.",
+      "options": [
+        "ln 5 - ln 3",
+        "ln 3 - ln 5",
+        "ln 5 + ln 3",
+        "ln 15"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring the quadratic in e^x yields (3e^x - 5)^2 = 0, so e^x = 5/3, giving x = ln 5 - ln 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3335,
+      "question": "Solve for x in the equation 2^(2x^2 + 15x + 7) = 1.",
+      "options": [
+        "-7 or -1/2",
+        "7 or 1/2",
+        "-7 or 1/2",
+        "7 or -1/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating the exponent to zero yields a quadratic equation that factors to give x = -7 or -1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.858,
+      "question": "If b^x = N, then the logarithmic relationship is expressed as which equation?",
+      "options": [
+        "x = log_b N",
+        "N = log_b x",
+        "b = log_x N",
+        "x = log_N b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The definition of logarithm states that b^x = N is equivalent to x = log_b N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.2017,
+      "question": "The logarithm of any number to its own base evaluates to which value?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A fundamental property states that log_b b = 1 for any valid base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1992,
+      "question": "The logarithm of one to any base evaluates to which value?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A special case under the power law states that log_b 1 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3818,
+      "question": "The law of logarithm for a product log_b(mn) is equivalent to which expression?",
+      "options": [
+        "log_b m + log_b n",
+        "log_b m - log_b n",
+        "log_b m multiplied by log_b n",
+        "log_b m divided by log_b n"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first law of logarithm states that the logarithm of a product is the sum of the logarithms of the factors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.776,
+      "question": "The law of logarithm for a quotient log_b(m/n) is equivalent to which expression?",
+      "options": [
+        "log_b m - log_b n",
+        "log_b m + log_b n",
+        "log_b m multiplied by log_b n",
+        "log_b m divided by log_b n"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The second law of logarithm states that the logarithm of a quotient is the difference of the logarithms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1523,
+      "question": "The power law of logarithm states that log_b(N^k) is equivalent to which expression?",
+      "options": [
+        "k log_b N",
+        "N log_b k",
+        "k + log_b N",
+        "log_b N / k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The third law of logarithm allows bringing the exponent to the front as a multiplier.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.2192,
+      "question": "Evaluate the expression log_4(1/64).",
+      "options": [
+        "-3",
+        "-2",
+        "3",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since 1/64 = 4^(-3), the logarithm evaluates to -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.821,
+      "question": "Evaluate the expression log_(1/2) 32.",
+      "options": [
+        "-5",
+        "5",
+        "-2",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since 32 = (1/2)^(-5), the logarithm evaluates to -5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.1418,
+      "question": "Simplify the expression log 49 divided by log 343.",
+      "options": [
+        "2/3",
+        "3/2",
+        "1/2",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressing both numbers as powers of 7 allows cancelling to get 2/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.9888,
+      "question": "Simplify the expression log_2(27/4) - log_2(9/8) + log_2(1/24).",
+      "options": [
+        "-2",
+        "-1",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combining the logarithms into a single fraction and simplifying yields log_2(1/4), which is -2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.9077,
+      "question": "Evaluate the expression log_7(49^n) minus log_10(0.01).",
+      "options": [
+        "2n + 2",
+        "2n - 2",
+        "n + 2",
+        "n - 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simplifying both terms gives 2n and 2 respectively, resulting in 2n + 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.7017,
+      "question": "Simplify the expression (log_10 8 - log_10 4) / (log_10 4 - log_10 2).",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Applying the quotient law to both numerator and denominator results in log_10 2 / log_10 2, which equals 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.002,
+      "question": "Simplify the expression 2log(2/5) - log(72/125) + log 9.",
+      "options": [
+        "1 - 2log 2",
+        "1 + 2log 2",
+        "1 - 4log 3",
+        "-1 + 2log 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combining the terms and simplifying the fraction yields log(10/4), which expands to 1 - 2log 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.44,
+      "question": "Evaluate log_5(0.04) divided by (log_3 18 - log_3 2).",
+      "options": [
+        "-1",
+        "1",
+        "-2",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The numerator simplifies to -2 and the denominator to 2, giving a final result of -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.355,
+      "question": "Simplify the expression log_2 96 - 2log_2 6.",
+      "options": [
+        "3 - log_2 3",
+        "2 - log_2 3",
+        "3 + log_2 3",
+        "log_2 3 - 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combining into a single logarithm gives log_2(8/3), which expands to 3 - log_2 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.2876,
+      "question": "The value of log_0.25 32 is equivalent to which number?",
+      "options": [
+        "-2.5",
+        "2.5",
+        "-0.4",
+        "0.4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Changing the base to 2 gives log_2 32 / log_2 0.25, which is 5 / -2 = -2.5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.8596,
+      "question": "Solve for x in the equation log_2 x^4 + log_2 x = 5.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Applying the product law gives log_2(x^5) = 5, leading to x^5 = 32 and x = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.2576,
+      "question": "Solve for x in the equation log_2 x + log_3 81 = 1.",
+      "options": [
+        "1/8",
+        "1/2",
+        "1/4",
+        "1/16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since log_3 81 = 4, the equation becomes log_2 x = -3, giving x = 2^(-3) = 1/8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.3347,
+      "question": "Solve for x in the equation log_2(5x - 6) + log_2(2x + 3) = log_2(10x^2 - 3x - 5).",
+      "options": [
+        "13/6",
+        "6/13",
+        "5/2",
+        "2/5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating the arguments after applying the product law yields a linear equation that solves to 13/6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793004262047.9822,
+      "question": "Solve for x and y in the equations 8^y = 4^(2x+5) and log_3 y = log_3 x + 2.",
+      "options": [
+        "x = 10/23, y = 90/23",
+        "x = 10/23, y = 23/90",
+        "x = 23/10, y = 90/23",
+        "x = 23/10, y = 23/90"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating powers and substituting y = 9x gives x = 10/23 and y = 90/23.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
