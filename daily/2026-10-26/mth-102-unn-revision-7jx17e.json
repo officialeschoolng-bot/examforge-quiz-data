@@ -3,16 +3,718 @@
   "title": "MTH 102 ( UNN ) : REVISION 1 ( ENGINEERING )",
   "subject": "MTH 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793035427187.2827,
+      "question": "Given vectors u = 2i + j - 4k and v = 3i - 2j + k, find the vector u - v.",
+      "options": [
+        "-i + 3j - 5k",
+        "5i - j - 3k",
+        "-i - 3j + 5k",
+        "i - 3j + 5k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subtracting the components gives (2-3)i + (1 - (-2))j + (-4 - 1)k = -i + 3j - 5k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.7046,
+      "question": "If a = 3i + 2j + 4k and b = -4i + 2j + 5k, find the vector 3a - 5b.",
+      "options": [
+        "-29i + 4j + 13k",
+        "29i + 4j - 13k",
+        "29i - 4j - 13k",
+        "-29i - 4j - 13k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiplying and subtracting gives (9+20)i + (6-10)j + (12-25)k = 29i - 4j - 13k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.8599,
+      "question": "Find the dot product of vectors a = i + 2j - k and b = 2i - j + 3k.",
+      "options": [
+        "1",
+        "-3",
+        "5",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dot product is (1)(2) + (2)(-1) + (-1)(3) = 2 - 2 - 3 = -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.455,
+      "question": "Two vectors (2i - λj + k) and (4i - 2j - 2k) are perpendicular. Find the value of λ.",
+      "options": [
+        "3",
+        "-5",
+        "5",
+        "-3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Their dot product must be zero: 8 + 2λ - 2 = 0, which gives 2λ = -6, so λ = -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.727,
+      "question": "Calculate the cross product of a = i + 2j + k and b = i + j - k.",
+      "options": [
+        "-3i + 2j - k",
+        "3i - 2j + k",
+        "-3i - 2j - k",
+        "3i + 2j + k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the determinant formula, the result is i(-2-1) - j(-1-1) + k(1-2) = -3i + 2j - k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.4575,
+      "question": "Find the vector product of (2i + j - k) and (i - j + 2k).",
+      "options": [
+        "i + 5j + 3k",
+        "i - 5j - 3k",
+        "-i - 5j - 3k",
+        "-i + 5j + 3k"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cross product evaluates to i(2-1) - j(4 - (-1)) + k(-2 - 1) = i - 5j - 3k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.55,
+      "question": "Given a = i + 2j - 2k and b = -2i - 4j + 4k, find the sine of the angle between them.",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since b is a scalar multiple of a, they are parallel, meaning the angle between them is zero and the sine is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.6387,
+      "question": "Find the projection of u = -i + 2j + 3k on v = 2i - j - 4k.",
+      "options": [
+        "-16/√21",
+        "16/√21",
+        "16/21",
+        "-16/21"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The projection is the dot product divided by the magnitude of v: (-2 - 2 - 12) / √(4+1+16) = -16/√21.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.1584,
+      "question": "Find the direction cosine along the y-axis for the vector 2i - 3j + 6k.",
+      "options": [
+        "2/7",
+        "-3/7",
+        "6/7",
+        "3/7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnitude is 7, and the y-component is -3, so the direction cosine is -3/7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.1624,
+      "question": "Find the area of the triangle with adjacent sides a = i + 4j + 6k and b = i - j + k.",
+      "options": [
+        "5√6",
+        "5√6/2",
+        "5√3/2",
+        "15√6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cross product is 10i + 5j - 5k with magnitude 5√6, and the triangle area is half of this.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.5334,
+      "question": "Find the area of the parallelogram with adjacent sides a = i + 4j + 6k and b = i - j + k.",
+      "options": [
+        "5√6",
+        "5√6/2",
+        "10√6",
+        "25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area is the magnitude of the cross product, which is √(100+25+25) = √150 = 5√6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.5908,
+      "question": "Find the volume of the parallelepiped with sides a = i + 2j + 3k, b = -4i + 3j + 4k, c = 2i + 5j + 2k.",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scalar triple product determinant evaluates to 1(6-20) - 2(-8-8) + 3(-20-6) = -60, so the volume is 60.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.3,
+      "question": "Find the value of t for which the vectors 2i + tj + 5k and -6i + 9j - 15k are parallel.",
+      "options": [
+        "-3",
+        "3",
+        "9",
+        "-9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating the ratios of corresponding components gives 2/-6 = t/9, which solves to t = -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.5674,
+      "question": "Find the value of λ such that (3, λ, 0), (2, -4, -2) and (1, 2, 2) are coplanar.",
+      "options": [
+        "2",
+        "-4",
+        "-2",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The determinant of the coordinates must be zero: 3(-8+4) - λ(4+2) = 0, giving -12 - 6λ = 0, so λ = -2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.7131,
+      "question": "If x = sin 3t, y = cos 3t, z = t, find the square of the velocity magnitude.",
+      "options": [
+        "17",
+        "18",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The velocity vector is (3cos 3t, -3sin 3t, 1), and its squared magnitude is 9(cos² + sin²) + 1 = 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.0942,
+      "question": "A particle moves along r = eᵗ i + 2cos 3t j + 2sin 3t k. Find the velocity vector.",
+      "options": [
+        "eᵗ i - 6sin 3t j + 6cos 3t k",
+        "eᵗ i + 6sin 3t j + 6cos 3t k",
+        "eᵗ i - 6sin 3t j - 6cos 3t k",
+        "eᵗ i + 6sin 3t j - 6cos 3t k"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiating each component with respect to time gives eᵗ i - 6sin 3t j + 6cos 3t k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.0154,
+      "question": "The acceleration of a particle is a = 12cos t i - 12sin t j. Find the magnitude of the velocity.",
+      "options": [
+        "144",
+        "12",
+        "24",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Integrating acceleration gives v = 12sin t i + 12cos t j, and its magnitude is √(144sin² + 144cos²) = 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.235,
+      "question": "Find the distance between points A(1, 2) and B(4, 6).",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the distance formula, d = √((4-1)² + (6-2)²) = √(9+16) = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.0566,
+      "question": "Find the midpoint of the line segment joining (3, 1/3) and (2, 1/3).",
+      "options": [
+        "(5/2, 1/3)",
+        "(2/3, 2/13)",
+        "(3, 1)",
+        "(1, 1/3)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint formula gives ((3+2)/2, (1/3 + 1/3)/2) = (5/2, 1/3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.9485,
+      "question": "Find the point dividing the line joining (1, 2) and (4, 7) internally in the ratio 2:3.",
+      "options": [
+        "(7/5, 4/5)",
+        "(11/5, 4)",
+        "(11/5, 3)",
+        "(7/5, 4)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the section formula gives x = (2*4 + 3*1)/5 = 11/5 and y = (2*7 + 3*2)/5 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.7097,
+      "question": "The centroid of a triangle with vertices (-3, 2), (4, -2) and (1, 4) is?",
+      "options": [
+        "(2/3, 4/3)",
+        "(10/3, 10/3)",
+        "(2, 4/3)",
+        "(4/3, 4/3)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The centroid is the average of the coordinates: ((-3+4+1)/3, (2-2+4)/3) = (2/3, 4/3).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.176,
+      "question": "Find the area of the triangle with vertices (0,0), (a,b) and (b,a) where b > a.",
+      "options": [
+        "b² - a²",
+        "1/2(b² - a²)",
+        "1/2(a² - b²)",
+        "a² - b²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area is half the absolute value of the determinant: 1/2 |a(a-0) + b(0-b)| = 1/2(b² - a²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.2517,
+      "question": "The area of a triangle with vertices A(2,1), B(-3,0) and C(-2,4) is?",
+      "options": [
+        "9",
+        "18",
+        "9 1/2",
+        "19"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The determinant formula gives 1/2 |2(0-4) - 3(4-1) + (-2)(1-0)| = 1/2 |-19| = 9.5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.005,
+      "question": "The slope of the line joining points (4, 7) and (-2, 1) is?",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope is (7-1)/(4 - (-2)) = 6/6 = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.0623,
+      "question": "Find the equation of the line passing through (2, -1) and having slope 2/3.",
+      "options": [
+        "2x - 3y - 7 = 0",
+        "2x + 3y - 7 = 0",
+        "3x - 2y - 7 = 0",
+        "3x + 2y + 7 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the point-slope form: y + 1 = 2/3(x - 2) simplifies to 2x - 3y - 7 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.936,
+      "question": "Determine the slope and y-intercept of the line 5x - 7y + 13 = 0.",
+      "options": [
+        "5/7, 13/7",
+        "7/5, 13/5",
+        "5, 7",
+        "7, 13"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rearranging to y = (5/7)x + 13/7 shows the slope is 5/7 and the y-intercept is 13/7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.963,
+      "question": "Find the equation of the line which makes an angle of 30 degrees with the positive x-axis and passes through (-1, -2).",
+      "options": [
+        "y = (x + 1 - 2√3)/√3",
+        "y = (x + 1 + 2√3)/√3",
+        "y = (x - 1 - 2√3)/√3",
+        "y = (x - 1 + 2√3)/√3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope is tan 30 = 1/√3, and using the point-slope form gives y + 2 = (1/√3)(x + 1).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.9412,
+      "question": "Find the value of k for which the lines 3x + 4y = 5 and 4x + ky = 2 are perpendicular.",
+      "options": [
+        "3",
+        "4",
+        "12",
+        "-3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The product of their slopes must be -1: (-3/4)(-4/k) = -1, which gives 3/k = -1, so k = -3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.9663,
+      "question": "The acute angle between the lines x = 1 and y - x = 8 is?",
+      "options": [
+        "π",
+        "π/2",
+        "π/4",
+        "π/3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The first line is vertical and the second has a slope of 1, making an angle of 45 degrees or π/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.3638,
+      "question": "The coordinate of points of intersection of the straight lines 4x + 3y = 10 and 3x + 5y = 13 is?",
+      "options": [
+        "(3, 5)",
+        "(1, -1)",
+        "(2, 1)",
+        "(1, 2)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Solving the simultaneous equations yields x = 1 and y = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.9038,
+      "question": "The perpendicular distance of the origin from the line 4x + 3y + 10 = 0 is?",
+      "options": [
+        "25",
+        "2",
+        "5",
+        "2/5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the distance formula: |4(0) + 3(0) + 10| / √(16+9) = 10/5 = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.3599,
+      "question": "The perpendicular distance between the point (-2, 3) and the line 4x - 3y = 8 is?",
+      "options": [
+        "3/2",
+        "5",
+        "5/3",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distance formula gives |4(-2) - 3(3) - 8| / √(16+9) = 25/5 = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.9556,
+      "question": "The distance between the two parallel lines 3x + 4y - 7 = 0 and 3x + 4y + 13 = 0 is?",
+      "options": [
+        "0",
+        "4",
+        "6",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distance is |13 - (-7)| / √(9+16) = 20/5 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.0112,
+      "question": "The conic whose eccentricity is 1/2 is?",
+      "options": [
+        "Circle",
+        "Parabola",
+        "Ellipse",
+        "Hyperbola"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A conic with an eccentricity less than 1 is classified as an ellipse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.255,
+      "question": "The equation x² + y² - 2x + 4y - 4 = 0 has a radius of?",
+      "options": [
+        "3",
+        "9",
+        "4",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Completing the square gives (x-1)² + (y+2)² = 9, so the radius is 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.8787,
+      "question": "Find the centre and radius of the circle whose equation is 3x² + 3y² - 6x + 9y - 1 = 0.",
+      "options": [
+        "(-1, -3/2), √(43/12)",
+        "(1, -3/2), √(43/12)",
+        "(1, 3/2), √(43/12)",
+        "(-1, 3/2), √(43/12)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dividing by 3 and completing the square gives the centre (1, -3/2) and radius √(43/12).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.6812,
+      "question": "The equation of the circle with diameter ends (-1/2, 1/2) and (2,1) is?",
+      "options": [
+        "10x² + 10y² + 17x - 17y + 6 = 0",
+        "2x² + 2y² - 3x - 3y - 1 = 0",
+        "6x² + 6y² - 9x - 20y = 0",
+        "10x² + 10y² - 9x - 17y + 5 = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the diameter formula simplifies to 2x² + 2y² - 3x - 3y - 1 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.615,
+      "question": "The equation of a circle whose centre is at (-1, 0) and radius 2 is?",
+      "options": [
+        "x² + y² - 2y = 0",
+        "x² + y² + 2x - 3 = 0",
+        "x² + y² + 2y + 1 = 0",
+        "x² + y² + 2x + 1 = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expanding (x+1)² + y² = 4 gives x² + y² + 2x - 3 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.4873,
+      "question": "The diameter of the circle x² + y² + 4x - 4y = 1 is?",
+      "options": [
+        "3",
+        "9",
+        "27",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The equation simplifies to (x+2)² + (y-2)² = 9, giving a radius of 3 and diameter of 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.6765,
+      "question": "The equation of a circle having (1,-1) and (-1,-1) as the endpoints of a diameter is?",
+      "options": [
+        "y² + 2y + x² = 0",
+        "y² + x² - 2 = 0",
+        "y² - x² + 2y - 12 = 0",
+        "x² + y² = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the diameter form (x-x₁)(x-x₂) + (y-y₁)(y-y₂) = 0 simplifies to x² + y² + 2y = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.5957,
+      "question": "Find the equation of the tangent to the circle (x-5)² + (y+4)² = 25 at the point (1, -1).",
+      "options": [
+        "4x - 3y - 7 = 0",
+        "4x + 3y - 7 = 0",
+        "3x - 4y - 7 = 0",
+        "3x + 4y + 7 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius slope is -3/4, so the tangent slope is 4/3, giving 4x - 3y - 7 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.889,
+      "question": "The equation of the tangent to the circle x² + y² = 7 at the point (0, √7) is?",
+      "options": [
+        "x = √7",
+        "y = √7",
+        "x + y = √7",
+        "x = -√7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the tangent formula xx₁ + yy₁ = r² gives 0 + y√7 = 7, which simplifies to y = √7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.7344,
+      "question": "If y = mx + 5 is a tangent to the circle x² + y² = 5, the possible values of m are?",
+      "options": [
+        "± 2",
+        "± 4",
+        "± 3",
+        "± 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substituting y = mx + 5 into the circle equation and setting the discriminant to zero gives m² = 4, so m = ±2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.3025,
+      "question": "The length of the tangent from (5, 12) to the circle 2x² + 2y² = 50 is?",
+      "options": [
+        "5",
+        "12",
+        "7",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The circle is x² + y² = 25, and the tangent length squared is 5² + 12² - 25 = 144, so the length is 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.6592,
+      "question": "The length of the tangent from the point T(2,3) to the circle 2x² + 2y² - 5x - 7y + 6 = 0 is?",
+      "options": [
+        "√3",
+        "1/√3",
+        "1/√2",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dividing by 2 and substituting the point into the equation gives a squared length of 1/2, so the length is 1/√2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.8179,
+      "question": "The equation of the directrix of the parabola x² + 2x - 8y - 15 = 0 is?",
+      "options": [
+        "y + 4 = 0",
+        "y = ± 4",
+        "x - y = 4",
+        "y + 2 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The parabola simplifies to (x+1)² = 8(y+2) with a=2, making the directrix y = -2 - 2 = -4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.3916,
+      "question": "The vertex of the parabola y² = 2x + 3 is?",
+      "options": [
+        "(-3/2, 0)",
+        "(3, 0)",
+        "(-3, 0)",
+        "(3/2, 0)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewriting as y² = 2(x + 3/2) shows the vertex is at (-3/2, 0).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.1392,
+      "question": "The length of the latus rectum of the parabola y² - 2x - 2y + 5 = 0 is?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equation simplifies to (y-1)² = 2(x-2), where 4a = 2, so the latus rectum length is 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.7532,
+      "question": "The centre of the ellipse 5x² + 9y² - 4x + 36y - 71 = 0 is?",
+      "options": [
+        "(2/5, 2)",
+        "(2/5, -2)",
+        "(2, 2/5)",
+        "(2, -2/5)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Completing the square gives the centre coordinates as (2/5, -2).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793035427187.334,
+      "question": "The equation of the directrices of the ellipse x²/25 + y²/16 = 1 is?",
+      "options": [
+        "x = ± 3/25",
+        "x = ± 20/3",
+        "x = ± 25/3",
+        "x = ± 25/4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With a=5, b=4, and e=3/5, the directrices are x = ± a/e = ± 25/3.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
