@@ -3,16 +3,718 @@
   "title": "PHY 102 ( UNN ) : REVISION 4",
   "subject": "PHY 102",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793013601009.7705,
+      "question": "Two charges of 4 μC and -4 μC are separated by 0.2 m. Which force exists between them?",
+      "options": [
+        "1.8 N",
+        "7.2 N",
+        "3.6 N",
+        "0.9 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F = kQ₁Q₂/r² = (9 × 10⁹ × 4 × 10⁻⁶ × 4 × 10⁻⁶)/(0.2)² = 3.6 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.1326,
+      "question": "Two equal charges of 4 μC each are 0.2 m apart. Which potential exists at the midpoint between them?",
+      "options": [
+        "3.6 × 10⁵ V",
+        "7.2 × 10⁵ V",
+        "1.44 × 10⁶ V",
+        "1.8 × 10⁵ V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V = 2 × kQ/r = 2 × (9 × 10⁹ × 4 × 10⁻⁶)/0.1 = 7.2 × 10⁵ V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.3826,
+      "question": "An electric dipole with moment 2 × 10⁻³⁰ C·m lies in a 4 × 10⁴ N/C field at 60°. Which torque acts on it?",
+      "options": [
+        "3.5 × 10⁻²⁶ N·m",
+        "8.0 × 10⁻²⁶ N·m",
+        "4.0 × 10⁻²⁶ N·m",
+        "6.9 × 10⁻²⁶ N·m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "τ = PE sinθ = (2 × 10⁻³⁰)(4 × 10⁴)(0.866) ≈ 6.9 × 10⁻²⁶ N·m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.2598,
+      "question": "A charge of 3 μC is moved through a potential difference of 150 V. Which work is done?",
+      "options": [
+        "4.5 × 10⁻⁴ J",
+        "2.25 × 10⁻⁴ J",
+        "9.0 × 10⁻⁴ J",
+        "1.5 × 10⁻⁴ J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "W = qV = 3 × 10⁻⁶ × 150 = 4.5 × 10⁻⁴ J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.2515,
+      "question": "A charge of 5 μC lies inside a closed spherical surface. Which flux passes through the surface?",
+      "options": [
+        "2.83 × 10⁵ N·m²/C",
+        "1.13 × 10⁶ N·m²/C",
+        "5.65 × 10⁵ N·m²/C",
+        "8.47 × 10⁵ N·m²/C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Φ = Q/ε₀ = 5 × 10⁻⁶ / 8.85 × 10⁻¹² ≈ 5.65 × 10⁵ N·m²/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.8506,
+      "question": "A uniformly charged sphere has total charge 8 μC and radius 0.2 m. Which electric field exists at r = 0.1 m inside it?",
+      "options": [
+        "1.8 × 10⁶ N/C",
+        "4.5 × 10⁵ N/C",
+        "2.25 × 10⁵ N/C",
+        "9 × 10⁵ N/C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "E = kQr/R³ = (9 × 10⁹ × 8 × 10⁻⁶ × 0.1)/(0.2)³ = 9 × 10⁵ N/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.7932,
+      "question": "An infinite sheet carries surface charge density 5 × 10⁻⁶ C/m². Which electric field exists near it?",
+      "options": [
+        "2.83 × 10⁵ N/C",
+        "5.65 × 10⁵ N/C",
+        "1.13 × 10⁶ N/C",
+        "5.0 × 10⁵ N/C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E = σ/ε₀ = 5 × 10⁻⁶ / 8.85 × 10⁻¹² ≈ 5.65 × 10⁵ N/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.8457,
+      "question": "A 2 μC charge lies at the center of a cube. Which flux passes through one face?",
+      "options": [
+        "3.77 × 10⁴ N·m²/C",
+        "7.53 × 10⁴ N·m²/C",
+        "2.26 × 10⁵ N·m²/C",
+        "1.13 × 10⁵ N·m²/C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One face carries one-sixth of total flux, so Φ = Q/(6ε₀) ≈ 3.77 × 10⁴ N·m²/C.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.5698,
+      "question": "A parallel plate capacitor has area 0.01 m² and separation 2 mm in air. Which capacitance applies?",
+      "options": [
+        "22.1 pF",
+        "88.5 pF",
+        "11.1 pF",
+        "44.3 pF"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C = ε₀A/d = (8.85 × 10⁻¹² × 0.01)/0.002 ≈ 44.3 pF.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.9636,
+      "question": "A 6 μF and a 3 μF capacitor are connected in series, then joined in parallel with a 2 μF capacitor. Which equivalent capacitance applies?",
+      "options": [
+        "2 μF",
+        "6 μF",
+        "4 μF",
+        "11 μF"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Series part = (6 × 3)/9 = 2 μF; parallel with 2 μF gives 4 μF.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.5408,
+      "question": "A 5 μF capacitor is charged to 100 V. Which energy is stored?",
+      "options": [
+        "0.025 J",
+        "0.05 J",
+        "0.0125 J",
+        "0.25 J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "U = ½CV² = ½ × 5 × 10⁻⁶ × (100)² = 0.025 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.1619,
+      "question": "A dielectric of constant 5 fills a capacitor originally rated 8 μF. Which new capacitance results?",
+      "options": [
+        "1.6 μF",
+        "40 μF",
+        "13 μF",
+        "8 μF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C' = K C = 5 × 8 = 40 μF.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.1865,
+      "question": "A charge of 240 C flows past a point in 2 minutes. Which current flows?",
+      "options": [
+        "120 A",
+        "0.5 A",
+        "4 A",
+        "2 A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "I = Q/t = 240/120 = 2 A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.0852,
+      "question": "A wire of resistivity 2.8 × 10⁻⁸ Ωm has length 4 m and area 2 × 10⁻⁶ m². Which resistance applies?",
+      "options": [
+        "0.056 Ω",
+        "0.112 Ω",
+        "0.028 Ω",
+        "0.224 Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "R = ρL/A = (2.8 × 10⁻⁸ × 4)/(2 × 10⁻⁶) = 0.056 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.6997,
+      "question": "A resistor of 15 Ω carries 4 A. Which power does it dissipate?",
+      "options": [
+        "60 W",
+        "480 W",
+        "240 W",
+        "120 W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "P = I²R = 16 × 15 = 240 W.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.281,
+      "question": "A wire of area 1 × 10⁻⁶ m² carries 2 A with 8 × 10²⁸ free electrons per m³. Which drift velocity applies?",
+      "options": [
+        "3.12 × 10⁻⁴ m/s",
+        "1.56 × 10⁻⁴ m/s",
+        "7.8 × 10⁻⁵ m/s",
+        "2.5 × 10⁻⁴ m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "v = I/(nAq) = 2/(8 × 10²⁸ × 10⁻⁶ × 1.6 × 10⁻¹⁹) ≈ 1.56 × 10⁻⁴ m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.6353,
+      "question": "A 9 V battery drives current through 1 Ω and 2 Ω resistors in series. Which current flows?",
+      "options": [
+        "9 A",
+        "1.5 A",
+        "6 A",
+        "3 A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Total R = 3 Ω, so I = V/R = 9/3 = 3 A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.0337,
+      "question": "In a Wheatstone bridge, three arms are 3 Ω, 6 Ω, and 4 Ω. Which fourth arm balances it?",
+      "options": [
+        "8 Ω",
+        "2 Ω",
+        "12 Ω",
+        "18 Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Balance needs 3/6 = 4/R₄, giving R₄ = 8 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.7788,
+      "question": "A circuit has 6 Ω and 3 Ω in parallel, joined in series with 4 Ω. Which total resistance results?",
+      "options": [
+        "9 Ω",
+        "13 Ω",
+        "6 Ω",
+        "3 Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parallel part = 2 Ω, plus 4 Ω series gives 6 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.1494,
+      "question": "A junction has 12 A entering and 4 A and 3 A leaving through two branches. Which current leaves the third branch?",
+      "options": [
+        "7 A",
+        "5 A",
+        "1 A",
+        "19 A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conservation of charge gives 12 − 4 − 3 = 5 A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.3276,
+      "question": "A charge of 5 μC moves at 3 × 10⁵ m/s perpendicular to a 0.4 T field. Which force acts on it?",
+      "options": [
+        "0.3 N",
+        "1.2 N",
+        "0.15 N",
+        "0.6 N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F = qvB = 5 × 10⁻⁶ × 3 × 10⁵ × 0.4 = 0.6 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.4834,
+      "question": "A wire of length 0.5 m carrying 4 A lies perpendicular to a 0.8 T field. Which force acts on it?",
+      "options": [
+        "0.8 N",
+        "3.2 N",
+        "1.6 N",
+        "0.4 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F = ILB = 4 × 0.5 × 0.8 = 1.6 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.4993,
+      "question": "A proton moves at 3 × 10⁶ m/s in a 0.5 T field. Which radius of path results?",
+      "options": [
+        "6.26 cm",
+        "3.13 cm",
+        "12.5 cm",
+        "1.56 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "r = mv/(qB) = (1.67 × 10⁻²⁷ × 3 × 10⁶)/(1.6 × 10⁻¹⁹ × 0.5) ≈ 6.26 cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.9531,
+      "question": "A coil of 100 turns carries 2 A and has area 0.02 m². Which magnetic moment applies?",
+      "options": [
+        "2 A·m²",
+        "4 A·m²",
+        "8 A·m²",
+        "0.4 A·m²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "μ = NIA = 100 × 2 × 0.02 = 4 A·m².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.5283,
+      "question": "A long wire carries 8 A. Which field exists at 0.04 m from it?",
+      "options": [
+        "2 × 10⁻⁵ T",
+        "8 × 10⁻⁵ T",
+        "1 × 10⁻⁵ T",
+        "4 × 10⁻⁵ T"
+      ],
+      "correctAnswer": 3,
+      "explanation": "B = μ₀I/(2πr) = (4π × 10⁻⁷ × 8)/(2π × 0.04) = 4 × 10⁻⁵ T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.7183,
+      "question": "A solenoid has 2000 turns per metre and carries 1.5 A. Which field exists inside?",
+      "options": [
+        "3.77 × 10⁻³ T",
+        "1.88 × 10⁻³ T",
+        "7.54 × 10⁻³ T",
+        "9.42 × 10⁻⁴ T"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B = μ₀nI = 4π × 10⁻⁷ × 2000 × 1.5 ≈ 3.77 × 10⁻³ T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.307,
+      "question": "Parallel wires carry 3 A and 5 A at 0.05 m separation. Which force per metre acts?",
+      "options": [
+        "3 × 10⁻⁵ N/m",
+        "1.2 × 10⁻⁴ N/m",
+        "6 × 10⁻⁵ N/m",
+        "1.5 × 10⁻⁵ N/m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F/L = μ₀I₁I₂/(2πd) = (2 × 10⁻⁷ × 15)/0.05 = 6 × 10⁻⁵ N/m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.7253,
+      "question": "A circular loop of radius 0.08 m carries 3 A. Which field exists at its center?",
+      "options": [
+        "1.18 × 10⁻⁵ T",
+        "2.36 × 10⁻⁵ T",
+        "4.72 × 10⁻⁵ T",
+        "5.89 × 10⁻⁶ T"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B = μ₀I/(2R) = (4π × 10⁻⁷ × 3)/(0.16) ≈ 2.36 × 10⁻⁵ T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.5635,
+      "question": "A coil of 200 turns has flux changing by 0.04 Wb in 0.2 s. Which emf is induced?",
+      "options": [
+        "20 V",
+        "80 V",
+        "4 V",
+        "40 V"
+      ],
+      "correctAnswer": 3,
+      "explanation": "emf = N ΔΦ/Δt = 200 × 0.04/0.2 = 40 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.6602,
+      "question": "A conducting rod of length 0.4 m moves at 3 m/s perpendicular to a 0.5 T field. Which emf is induced?",
+      "options": [
+        "0.6 V",
+        "0.3 V",
+        "1.2 V",
+        "0.15 V"
+      ],
+      "correctAnswer": 0,
+      "explanation": "emf = BLv = 0.5 × 0.4 × 3 = 0.6 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.074,
+      "question": "A loop of area 0.25 m² lies with its normal at 45° to a 0.6 T field. Which flux passes through it?",
+      "options": [
+        "0.053 Wb",
+        "0.212 Wb",
+        "0.106 Wb",
+        "0.150 Wb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Φ = BA cos45° = 0.6 × 0.25 × 0.7071 ≈ 0.106 Wb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.858,
+      "question": "A coil of 80 turns and area 0.05 m² has a field changing from 0.3 T to 0.1 T in 0.4 s. Which emf is induced?",
+      "options": [
+        "4 V",
+        "2 V",
+        "1 V",
+        "8 V"
+      ],
+      "correctAnswer": 1,
+      "explanation": "emf = N ΔB A/Δt = 80 × (0.2 × 0.05)/0.4 = 2 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.876,
+      "question": "An inductor of 0.8 H carries 5 A. Which energy is stored?",
+      "options": [
+        "5 J",
+        "20 J",
+        "2.5 J",
+        "10 J"
+      ],
+      "correctAnswer": 3,
+      "explanation": "U = ½LI² = ½ × 0.8 × 25 = 10 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.3552,
+      "question": "An LR circuit has L = 4 H and R = 8 Ω. Which time constant applies?",
+      "options": [
+        "0.5 s",
+        "2 s",
+        "32 s",
+        "0.25 s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "τ = L/R = 4/8 = 0.5 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.346,
+      "question": "A 0.6 H inductor has current changing at 5 A/s. Which emf is induced?",
+      "options": [
+        "1.5 V",
+        "6 V",
+        "3 V",
+        "0.3 V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "emf = L(dI/dt) = 0.6 × 5 = 3 V.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.0496,
+      "question": "Two inductors of 3 H and 6 H are connected in series. Which equivalent inductance applies?",
+      "options": [
+        "2 H",
+        "9 H",
+        "18 H",
+        "4.5 H"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In series, L_eq = 3 + 6 = 9 H.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.9683,
+      "question": "A material of susceptibility 4 × 10⁻³ is placed in a field of 250 A/m. Which magnetization results?",
+      "options": [
+        "0.5 A/m",
+        "2 A/m",
+        "0.25 A/m",
+        "1 A/m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "M = χH = 4 × 10⁻³ × 250 = 1 A/m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.4368,
+      "question": "A material of relative permeability 3 lies in a field of 400 A/m. Which flux density results?",
+      "options": [
+        "1.51 × 10⁻³ T",
+        "7.54 × 10⁻⁴ T",
+        "3.02 × 10⁻³ T",
+        "5.03 × 10⁻⁴ T"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B = μ₀μrH = 4π × 10⁻⁷ × 3 × 400 ≈ 1.51 × 10⁻³ T.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.9775,
+      "question": "Which property describes a ferromagnetic substance?",
+      "options": [
+        "Small positive χ",
+        "Small negative χ",
+        "Large positive χ",
+        "Zero χ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ferromagnetic materials are strongly magnetized and have a large positive susceptibility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.7935,
+      "question": "Which of the following materials behaves as a diamagnetic substance?",
+      "options": [
+        "Iron",
+        "Bismuth",
+        "Nickel",
+        "Cobalt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bismuth is diamagnetic, being weakly repelled by magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.2786,
+      "question": "An alternating current has RMS value 8 A. Which peak value applies?",
+      "options": [
+        "5.66 A",
+        "16 A",
+        "8 A",
+        "11.3 A"
+      ],
+      "correctAnswer": 3,
+      "explanation": "I₀ = Irms × √2 = 8 × 1.414 ≈ 11.3 A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.988,
+      "question": "A 5 μF capacitor is connected to a 100 Hz supply. Which reactance applies?",
+      "options": [
+        "318 Ω",
+        "159 Ω",
+        "636 Ω",
+        "79.5 Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Xc = 1/(2πfC) = 1/(2π × 100 × 5 × 10⁻⁶) ≈ 318 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.8389,
+      "question": "An inductor of 0.4 H is connected to a 50 Hz supply. Which reactance applies?",
+      "options": [
+        "63 Ω",
+        "251 Ω",
+        "126 Ω",
+        "31.4 Ω"
+      ],
+      "correctAnswer": 2,
+      "explanation": "XL = 2πfL = 2π × 50 × 0.4 ≈ 126 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.477,
+      "question": "A circuit has R = 12 Ω and X_L = 16 Ω. Which impedance applies?",
+      "options": [
+        "28 Ω",
+        "20 Ω",
+        "4 Ω",
+        "10 Ω"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Z = √(R² + X_L²) = √(144 + 256) = 20 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.0183,
+      "question": "An electromagnetic wave has frequency 2 × 10¹⁰ Hz. Which wavelength applies in vacuum?",
+      "options": [
+        "3.0 cm",
+        "0.75 cm",
+        "6.0 cm",
+        "1.5 cm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "λ = c/f = (3 × 10⁸)/(2 × 10¹⁰) = 1.5 × 10⁻² m = 1.5 cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.5637,
+      "question": "A photon has wavelength 400 nm. Which energy does it carry?",
+      "options": [
+        "4.97 × 10⁻¹⁹ J",
+        "2.48 × 10⁻¹⁹ J",
+        "9.94 × 10⁻¹⁹ J",
+        "1.66 × 10⁻¹⁹ J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "E = hc/λ = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(4 × 10⁻⁷) ≈ 4.97 × 10⁻¹⁹ J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.8655,
+      "question": "Which of the following describes electromagnetic waves?",
+      "options": [
+        "Longitudinal waves",
+        "Neither wave type",
+        "Transverse waves",
+        "Both wave types"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electromagnetic waves are transverse waves with oscillating electric and magnetic fields.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.2827,
+      "question": "Which law predicts that a changing magnetic field produces an electric field?",
+      "options": [
+        "Gauss's law for electricity",
+        "Faraday's law",
+        "Gauss's law for magnetism",
+        "Ampere-Maxwell law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Faraday's law states that a changing magnetic field induces an electric field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.315,
+      "question": "An LC circuit has L = 2 H and C = 8 μF. Which resonant frequency applies?",
+      "options": [
+        "19.9 Hz",
+        "79.6 Hz",
+        "10 Hz",
+        "39.8 Hz"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f = 1/(2π√LC) = 1/(2π√(2 × 8 × 10⁻⁶)) ≈ 39.8 Hz.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793013601009.4058,
+      "question": "A 4 Ω and 12 Ω resistor are connected in parallel, then joined in series with 2 Ω. Which equivalent resistance applies?",
+      "options": [
+        "5 Ω",
+        "16 Ω",
+        "3 Ω",
+        "10 Ω"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parallel part = (4 × 12)/16 = 3 Ω, plus 2 Ω series gives 5 Ω.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
