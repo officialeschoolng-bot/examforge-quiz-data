@@ -3,16 +3,578 @@
   "title": "Topic 1: Units and Dimensions",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1793024291475.8845,
+      "question": "Which of these is a fundamental (base) SI quantity?",
+      "options": [
+        "Force",
+        "Mass",
+        "Energy",
+        "Velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>fundamental (base) quantity</b> is one that cannot be derived from other quantities. The seven SI base quantities are length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity. <b>Mass</b> is therefore a base quantity.<br><br>• Force is derived (mass × acceleration).<br>• Energy is derived (force × distance).<br>• Velocity is derived (displacement / time).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.3723,
+      "question": "Which quantity has the same dimensions as work?",
+      "options": [
+        "Energy",
+        "Power",
+        "Momentum",
+        "Force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Work</b> and <b>energy</b> have the same dimensions: <b>[ML²T⁻²]</b>. Work is the transfer of energy, so they are dimensionally identical.<br><br>• Power: [ML²T⁻³]<br>• Momentum: [MLT⁻¹]<br>• Force: [MLT⁻²]",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.8489,
+      "question": "Which of these is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Speed",
+        "Acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>scalar</b> has magnitude only, no direction. <b>Speed</b> is the magnitude of velocity, so it is a scalar.<br><br>• Displacement, velocity, and acceleration are vectors (they have direction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.5442,
+      "question": "Which of these is a vector quantity?",
+      "options": [
+        "Force",
+        "Mass",
+        "Temperature",
+        "Time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>vector</b> has both magnitude and direction. <b>Force</b> is a vector.<br><br>• Mass, temperature, and time are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.4912,
+      "question": "The dot (scalar) product of two vectors gives:",
+      "options": [
+        "A vector",
+        "A tensor",
+        "A unit vector",
+        "A scalar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>dot product</b> (scalar product) of two vectors <b>A·B = |A||B|cos θ</b> yields a <b>scalar</b>. It is used to find the component of one vector along another and to calculate work (F·d).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.8545,
+      "question": "The cross product of two parallel vectors is:",
+      "options": [
+        "Maximum",
+        "The zero vector",
+        "A scalar",
+        "A unit vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>cross product</b> magnitude is <b>|A×B| = |A||B|sin θ</b>. For parallel vectors, θ = 0° or 180°, so sin θ = 0, giving the <b>zero vector</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.5344,
+      "question": "The resultant of two vectors is greatest when the angle between them is:",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnitude of the resultant is <b>R = √(A² + B² + 2AB cos θ)</b>. This is maximum when cos θ = 1, i.e., θ = <b>0°</b> (vectors point in the same direction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.841,
+      "question": "A unit vector has:",
+      "options": [
+        "Zero magnitude",
+        "No direction",
+        "Units of length",
+        "A magnitude of one"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A <b>unit vector</b> is defined as a vector with <b>magnitude exactly 1</b>. It is used to specify direction only. For example, <b>î, ĵ, k̂</b> are unit vectors along the x, y, and z axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.555,
+      "question": "The rate of change of displacement is:",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Velocity",
+        "Jerk"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Velocity</b> is the rate of change of displacement with respect to time: <b>v = Δs/Δt</b>. Speed is the rate of change of distance; acceleration is the rate of change of velocity; jerk is the rate of change of acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.0674,
+      "question": "The slope of a velocity–time graph gives:",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Speed",
+        "Momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slope of a velocity–time graph is <b>Δv/Δt</b>, which is <b>acceleration</b>. A positive slope means acceleration; a negative slope means deceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.561,
+      "question": "The area under a velocity–time graph gives:",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Force",
+        "Power"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area under a velocity–time graph is the integral of velocity with respect to time, which equals <b>displacement</b> (or distance, depending on sign).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.127,
+      "question": "A body in free fall near Earth’s surface (ignoring air resistance) has:",
+      "options": [
+        "Constant velocity",
+        "Increasing acceleration",
+        "Zero acceleration",
+        "Constant acceleration"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Near Earth's surface, free fall occurs under gravity alone. The acceleration due to gravity <b>g ≈ 9.8 m/s²</b> is essentially constant (ignoring air resistance and altitude changes). So the body has <b>constant acceleration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.6006,
+      "question": "At the highest point of a projectile’s path, the velocity is:",
+      "options": [
+        "Zero",
+        "Horizontal only",
+        "Vertical only",
+        "At its maximum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the highest point, the vertical component of velocity is zero (<b>v<sub>y</sub> = 0</b>), but the horizontal component <b>v<sub>x</sub> = u cos θ</b> remains unchanged (no horizontal acceleration). So the velocity is <b>horizontal only</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.8105,
+      "question": "The horizontal and vertical motions of a projectile are:",
+      "options": [
+        "Dependent",
+        "Identical",
+        "Independent",
+        "Opposite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Projectile motion can be analyzed by treating horizontal and vertical motions <b>independently</b>. Horizontally: constant velocity (no acceleration). Vertically: constant acceleration due to gravity. The two motions combine to give the parabolic path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.1594,
+      "question": "For a given launch speed on level ground, the range is greatest at a launch angle of:",
+      "options": [
+        "45°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Range R = (u² sin 2θ)/g. This is maximum when sin 2θ = 1, i.e., 2θ = 90°, so θ = <b>45°</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.784,
+      "question": "A body moving at constant speed can still accelerate if:",
+      "options": [
+        "Its mass changes",
+        "Its weight changes",
+        "Its temperature changes",
+        "Its direction changes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Acceleration is the rate of change of <b>velocity</b> (a vector). Even if speed is constant, a change in <b>direction</b> means velocity changes, so the body accelerates. This is exactly what happens in uniform circular motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.2393,
+      "question": "Newton’s first law is also known as the law of:",
+      "options": [
+        "Gravitation",
+        "Inertia",
+        "Energy",
+        "Reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's first law states that a body remains at rest or in uniform motion in a straight line unless acted upon by an external force. This is the law of <b>inertia</b>—the tendency of a body to resist changes in its state of motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.473,
+      "question": "According to Newton, the inertia of a body depends on its:",
+      "options": [
+        "Colour",
+        "Shape",
+        "Mass",
+        "Speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inertia is the resistance to change in motion. It is directly proportional to the <b>mass</b> of the body. A more massive body has greater inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291476.3564,
+      "question": "Newton’s second law states that net force equals the rate of change of:",
+      "options": [
+        "Energy",
+        "Displacement",
+        "Power",
+        "Momentum"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Newton's second law: <b>F<sub>net</sub> = dp/dt</b>, where p = mv is momentum. For constant mass, this reduces to <b>F = ma</b>. So force equals the rate of change of <b>momentum</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.7087,
+      "question": "A person in a lift accelerating upward feels:",
+      "options": [
+        "Lighter",
+        "Weightless",
+        "Heavier",
+        "Unchanged"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In an upward-accelerating lift, the normal reaction N = m(g + a) > mg. The person feels <b>heavier</b> because the floor pushes up with a greater force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.095,
+      "question": "Rocket propulsion is best explained by which of Newton’s laws?",
+      "options": [
+        "First law",
+        "Second law",
+        "Law of gravitation",
+        "Third law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A rocket expels gas backward at high speed. By Newton's <b>third law</b>, the gas exerts an equal and opposite force on the rocket, propelling it forward.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.3323,
+      "question": "Frictional force acts:",
+      "options": [
+        "Opposite to relative motion",
+        "Along the motion",
+        "Perpendicular to the surface",
+        "Vertically upward"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Friction always acts <b>opposite to the direction of relative motion</b> (or attempted motion) between two surfaces in contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.4458,
+      "question": "Limiting friction is directly proportional to the:",
+      "options": [
+        "Contact area",
+        "Normal reaction",
+        "Speed of the body",
+        "Volume of the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Limiting friction <b>F<sub>L</sub> = μ<sub>s</sub>N</b>, where N is the <b>normal reaction</b>. It is independent of the contact area (for a given normal reaction) and independent of speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.8223,
+      "question": "The coefficient of friction:",
+      "options": [
+        "Is measured in newtons",
+        "Is measured in kilograms",
+        "Is measured in m/s²",
+        "Has no units"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The coefficient of friction μ is the ratio of frictional force to normal reaction: <b>μ = F/N</b>. Since it is a ratio of two forces, it is <b>dimensionless</b> (no units).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.9333,
+      "question": "The SI unit of power is the:",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Hertz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Power is the rate of doing work: P = W/t. The SI unit is the <b>watt (W)</b>, where 1 W = 1 J/s.<br><br>• Joule is energy.<br>• Newton is force.<br>• Hertz is frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.7798,
+      "question": "The kinetic energy of a body depends on its:",
+      "options": [
+        "Height only",
+        "Mass and speed",
+        "Colour",
+        "Temperature only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic energy K = ½mv². It depends on both <b>mass</b> and <b>speed</b> (specifically, the square of speed).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.39,
+      "question": "The work–energy theorem states that net work done equals the change in:",
+      "options": [
+        "Momentum",
+        "Mass",
+        "Weight",
+        "Kinetic energy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>work–energy theorem</b>: W<sub>net</sub> = ΔK = ½mv² − ½mu². The net work done on a body equals its change in <b>kinetic energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.7686,
+      "question": "Which of these is a conservative force?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Air resistance",
+        "Viscous drag"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>conservative force</b> is one for which the work done is independent of the path taken and depends only on initial and final positions. <b>Gravity</b> is conservative.<br><br>Friction, air resistance, and viscous drag are non-conservative (work depends on path; energy is dissipated as heat).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.8596,
+      "question": "Under conservative forces only, total mechanical energy is:",
+      "options": [
+        "Increasing",
+        "Decreasing",
+        "Conserved",
+        "Zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The law of conservation of mechanical energy: if only conservative forces act, the total mechanical energy (KE + PE) remains <b>constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.3994,
+      "question": "Gravitational potential energy depends on a body’s:",
+      "options": [
+        "Speed",
+        "Position",
+        "Momentum",
+        "Colour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravitational potential energy PE = mgh depends on <b>position</b> (height h) relative to a reference level, as well as mass and g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.0051,
+      "question": "Linear momentum is the product of:",
+      "options": [
+        "Mass and acceleration",
+        "Force and distance",
+        "Force and mass",
+        "Mass and velocity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Linear momentum p = mv, the product of <b>mass</b> and <b>velocity</b>. It is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.7783,
+      "question": "Impulse is equal to the change in:",
+      "options": [
+        "Momentum",
+        "Kinetic energy",
+        "Mass",
+        "Power"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Impulse J = FΔt. By Newton's second law, F = dp/dt, so J = Δp. Thus impulse equals the <b>change in momentum</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.576,
+      "question": "In a perfectly elastic collision:",
+      "options": [
+        "The bodies stick together",
+        "Kinetic energy is lost",
+        "Kinetic energy is conserved",
+        "Momentum is not conserved"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a <b>perfectly elastic collision</b>, both momentum and <b>kinetic energy</b> are conserved. The bodies bounce apart with no loss of kinetic energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.1006,
+      "question": "In uniform circular motion, the centripetal force is directed:",
+      "options": [
+        "Away from the centre",
+        "Along the tangent",
+        "Opposite to the velocity",
+        "Towards the centre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>centripetal force</b> is always directed <b>towards the centre</b> of the circular path. It is responsible for changing the direction of velocity without changing its magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.6904,
+      "question": "Which quantity stays constant in uniform circular motion?",
+      "options": [
+        "Velocity",
+        "Speed",
+        "Acceleration",
+        "Momentum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In uniform circular motion, the <b>speed</b> (magnitude of velocity) is constant. Velocity, acceleration, and momentum change direction continuously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.1738,
+      "question": "The gravitational force between two masses is:",
+      "options": [
+        "Always attractive",
+        "Always repulsive",
+        "Sometimes repulsive",
+        "Zero in a vacuum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gravitation is <b>always attractive</b>. Unlike electric forces (which can be attractive or repulsive), gravity always pulls masses together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.3008,
+      "question": "Torque is best described as the:",
+      "options": [
+        "Rate of change of mass",
+        "Turning effect of a force",
+        "Product of mass and speed",
+        "Force per unit area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Torque (τ)</b> is the turning effect of a force about an axis. It is given by τ = rF sin θ, where r is the distance from the axis to the point of application of the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.79,
+      "question": "In simple harmonic motion, the acceleration is directed:",
+      "options": [
+        "Away from equilibrium",
+        "Towards equilibrium",
+        "Along the velocity",
+        "Perpendicular to motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In SHM, the restoring force (and hence acceleration) is always directed <b>towards the equilibrium position</b> and is proportional to the displacement: a = −ω²x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.264,
+      "question": "The period of an oscillation is the:",
+      "options": [
+        "Number of oscillations per second",
+        "Maximum displacement",
+        "Time for one complete cycle",
+        "Distance covered per second"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>period (T)</b> is the time taken for one complete oscillation (one full cycle). It is the reciprocal of frequency: T = 1/f.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793024291477.123,
+      "question": "In simple harmonic motion, the speed is greatest at the:",
+      "options": [
+        "Mean position",
+        "Extreme position",
+        "Point of maximum displacement",
+        "Point of maximum acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In SHM, speed is maximum at the <b>mean (equilibrium) position</b> where displacement is zero. At the extreme positions, the speed is zero (the body momentarily stops before reversing).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
   "defaultTimePerQuestion": 60
 }
