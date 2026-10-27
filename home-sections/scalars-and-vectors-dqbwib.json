@@ -3,16 +3,578 @@
   "title": "Scalars and Vectors",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1793093996910.345,
+      "question": "Which of the following best defines a scalar quantity?",
+      "options": [
+        "A quantity with magnitude, direction, and obeying vector laws.",
+        "A quantity with only magnitude and no specific direction.",
+        "A quantity with magnitude but obeying parallelogram law.",
+        "A quantity with direction but lacking a physical magnitude."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>scalar quantity</b> is a physical quantity that is completely specified by its <b>magnitude</b> alone — it has no direction. Examples include mass, time, temperature, speed, distance, and energy.<br><br>• Option A describes a vector.<br>• Option C is inconsistent — the parallelogram law is for vector addition.<br>• Option D describes a direction without magnitude, which is not a physical scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.4539,
+      "question": "Which of the following best defines a vector quantity?",
+      "options": [
+        "A physical quantity having only magnitude and a unit.",
+        "A physical quantity completely described by magnitude.",
+        "A physical quantity having magnitude and direction.",
+        "A physical quantity having neither magnitude nor direction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>vector quantity</b> is a physical quantity that has <b>both magnitude and direction</b> and obeys the laws of vector algebra (e.g., the parallelogram law of addition). Examples include displacement, velocity, acceleration, force, and momentum.<br><br>Options A, B, and D either describe scalars or non-physical constructs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.7405,
+      "question": "Which of the following is an example of a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Speed",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Speed</b> is a scalar because it is the magnitude of velocity — it tells you how fast something is moving, but not in which direction.<br><br>• Displacement is a vector (change in position).<br>• Acceleration is a vector (rate of change of velocity).<br>• Momentum is a vector (mass × velocity).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.8237,
+      "question": "Which of the following is an example of a vector quantity?",
+      "options": [
+        "Mass",
+        "Time",
+        "Displacement",
+        "Temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Displacement</b> is a vector — it is the straight-line distance from the starting point to the ending point, together with the direction of that line.<br><br>• Mass, time, and temperature are scalars; they have magnitude only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.761,
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Speed",
+        "Distance",
+        "Weight",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Weight</b> is the gravitational force acting on a body (W = mg). It is a force, and force is a vector — it has magnitude and is directed toward the centre of the Earth.<br><br>• Speed and distance are scalars.<br>• Mass is a scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.3025,
+      "question": "A physical quantity that has a magnitude but no direction is a:",
+      "options": [
+        "Vector",
+        "Scalar",
+        "Tensor",
+        "Resultant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By definition, a <b>scalar</b> has magnitude only. A vector has both magnitude and direction. A tensor is a more general mathematical object. A resultant is the single vector equivalent to the sum of two or more vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.4175,
+      "question": "Distance and displacement are examples of:",
+      "options": [
+        "Scalar and vector respectively.",
+        "Vector and scalar respectively.",
+        "Two scalar quantities.",
+        "Two vector quantities."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Distance</b> is the total path length travelled — it has magnitude only, so it is a <b>scalar</b>. <b>Displacement</b> is the change in position in a specific direction — it is a <b>vector</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.1973,
+      "question": "A vector is represented by a directed line segment where the length indicates:",
+      "options": [
+        "The direction of the vector.",
+        "The magnitude of the vector.",
+        "The angle of the vector.",
+        "The unit of the vector."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a vector diagram, a vector is drawn as an arrow. The <b>length of the arrow</b> represents the <b>magnitude</b> of the vector (to scale), while the arrowhead shows its <b>direction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.623,
+      "question": "Equal vectors must:",
+      "options": [
+        "Have the same magnitude but different directions.",
+        "Have the same direction but different magnitudes.",
+        "Have the same magnitude and the same direction.",
+        "Have opposite directions and different magnitudes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two vectors are <b>equal</b> if and only if they have the <b>same magnitude and the same direction</b>. Their starting points do not matter (they are free vectors).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.7024,
+      "question": "The negative of a vector has:",
+      "options": [
+        "The exact same direction and magnitude.",
+        "The same magnitude but opposite direction.",
+        "A different magnitude and same direction.",
+        "No magnitude and an undefined direction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>negative of a vector</b> <b>A</b>, written <b>−A</b>, has the <b>same magnitude</b> but the <b>opposite direction</b>. This is essential for defining vector subtraction: A − B = A + (−B).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.558,
+      "question": "What is a null vector?",
+      "options": [
+        "Has a magnitude of exactly zero.",
+        "Has a specific direction but no magnitude.",
+        "Has a magnitude of exactly one.",
+        "Is always equal in length to a unit vector."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>null vector</b> (or zero vector) has <b>magnitude zero</b> and an arbitrary direction. It is the identity element for vector addition: A + 0 = A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.0488,
+      "question": "What is a unit vector?",
+      "options": [
+        "Has a magnitude of zero.",
+        "Has a magnitude of one.",
+        "Has no specific direction.",
+        "Equals the scalar value two."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>unit vector</b> has <b>magnitude exactly one</b>. It is used to specify direction. Examples: î, ĵ, k̂ along the x, y, and z axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.7212,
+      "question": "What is the direction of a unit vector?",
+      "options": [
+        "It is always along the x-axis.",
+        "It is always along the y-axis.",
+        "It is along the original vector.",
+        "It is perpendicular to the original vector."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A unit vector obtained from a vector <b>A</b> points in the <b>same direction</b> as <b>A</b>. It is defined as A-hat = A / |A|, where |A| is the magnitude of A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.5962,
+      "question": "The magnitude of a unit vector is:",
+      "options": [
+        "Zero",
+        "One",
+        "Infinite",
+        "Variable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By definition, a unit vector has magnitude <b>one</b>. This is what distinguishes it from other vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.0786,
+      "question": "A unit vector in the direction of vector A is denoted as:",
+      "options": [
+        "A^",
+        "|A|",
+        "A · A",
+        "A × A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The unit vector in the direction of <b>A</b> is written as <b>A-hat</b> (A with a caret). It equals A divided by its magnitude: A-hat = A/|A|.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.5295,
+      "question": "Which type of vector has a direction but no specific spatial origin?",
+      "options": [
+        "Position vector",
+        "Free vector",
+        "Bound vector",
+        "Unit vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>free vector</b> is a vector whose initial point is not fixed — it can be translated anywhere in space without changing its magnitude or direction. A <b>position vector</b> is a bound vector (fixed at the origin).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.1047,
+      "question": "Multiplying a vector by -1 will:",
+      "options": [
+        "Change only the magnitude.",
+        "Change only the direction.",
+        "Change both direction and magnitude.",
+        "Leave the vector completely unchanged."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiplying a vector by <b>−1</b> reverses its direction but keeps its magnitude the same: −A has magnitude |A| but points opposite to A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.1348,
+      "question": "The resultant of two vectors is found using:",
+      "options": [
+        "Always equals the algebraic sum of their magnitudes.",
+        "Is found using the parallelogram law.",
+        "Is always smaller than the smallest vector.",
+        "Has no relation to the original vectors' directions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>resultant</b> of two vectors is found graphically using the <b>parallelogram law</b> (or equivalently, the triangle law). It is the diagonal of the parallelogram formed by the two vectors drawn from a common point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.558,
+      "question": "Vector addition is commutative, which means:",
+      "options": [
+        "A + B = B + A",
+        "A + B = A − B",
+        "A + B = −(B + A)",
+        "A − B = B − A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector addition is <b>commutative</b>: the order in which you add two vectors does not affect the resultant, so <b>A + B = B + A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.5671,
+      "question": "Which of the following is true about vector addition?",
+      "options": [
+        "It is not commutative.",
+        "It is associative.",
+        "It depends on the path taken.",
+        "It is always a scalar."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vector addition is <b>associative</b>: (A + B) + C = A + (B + C). It is also commutative. It does not depend on the path (it is path-independent). The result is a vector, not a scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.2107,
+      "question": "The triangle law of vector addition requires vectors to be drawn:",
+      "options": [
+        "Vectors are drawn tail-to-tail.",
+        "Vectors are drawn head-to-head.",
+        "Vectors are drawn head-to-tail.",
+        "Vectors are drawn perpendicular to each other."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>triangle law</b> of vector addition states that if two vectors are represented in magnitude and direction by two sides of a triangle taken in order (i.e., <b>head-to-tail</b>), then their resultant is represented by the third side taken in the reverse order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.7607,
+      "question": "The parallelogram law of vector addition uses:",
+      "options": [
+        "Uses the diagonal of a rectangle.",
+        "Uses the diagonal of a parallelogram.",
+        "Uses the sides of a circle.",
+        "Uses the diagonal of a square."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>parallelogram law</b> states that if two vectors are represented by two adjacent sides of a parallelogram drawn from a common point, their resultant is represented by the <b>diagonal of the parallelogram</b> passing through that point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.781,
+      "question": "The resultant of two equal vectors bisects:",
+      "options": [
+        "Always equal to zero.",
+        "Bisects the angle between them.",
+        "Is always perpendicular to both vectors.",
+        "Is always parallel to one of the vectors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When two vectors of equal magnitude are added, the resultant lies along the <b>angle bisector</b> of the two vectors. This follows from the symmetry of the parallelogram formed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.5269,
+      "question": "The sum of a vector and its negative vector is:",
+      "options": [
+        "A unit vector.",
+        "A null vector.",
+        "A scalar quantity.",
+        "A double magnitude vector."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For any vector <b>A</b>, <b>A + (−A) = 0</b>, the <b>null vector</b>. This is the additive inverse property of vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.6377,
+      "question": "Vector subtraction (A - B) is equivalent to:",
+      "options": [
+        "A + (−B)",
+        "A − (−B)",
+        "B − A",
+        "(−A) − B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector subtraction is defined as the addition of the negative: <b>A − B = A + (−B)</b>. Geometrically, this means reversing B and then adding it to A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.5095,
+      "question": "The resultant of two vectors is maximum when the angle between them is:",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnitude of the resultant is R = √(A² + B² + 2AB cos θ). This is maximum when cos θ = 1, i.e., θ = <b>0°</b> (the vectors point in the same direction). Then R = A + B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.8506,
+      "question": "The resultant of two vectors is minimum when the angle between them is:",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "R = √(A² + B² + 2AB cos θ). This is minimum when cos θ = −1, i.e., θ = <b>180°</b> (vectors point in opposite directions). Then R = |A − B|.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.7285,
+      "question": "Resolution of a vector means:",
+      "options": [
+        "Adding two or more vectors together.",
+        "Splitting it into its perpendicular components.",
+        "Finding the angle it makes with the x-axis.",
+        "Multiplying it by a scalar quantity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Resolution</b> is the process of splitting a single vector into <b>two or more components</b> — usually perpendicular (rectangular) components along the x and y axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.4634,
+      "question": "Rectangular components of a vector are:",
+      "options": [
+        "Are always equal in magnitude.",
+        "Are mutually perpendicular.",
+        "Are always parallel to each other.",
+        "Have no relationship to the original vector."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Rectangular components</b> are the components of a vector along two mutually perpendicular axes (typically x and y). They are not necessarily equal in magnitude; their vector sum gives the original vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.698,
+      "question": "The dot product of two vectors results in a:",
+      "options": [
+        "Results in a vector quantity.",
+        "Results in a scalar quantity.",
+        "Is always equal to exactly zero.",
+        "Is always negative in value."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>dot product</b> (scalar product) of two vectors <b>A·B = |A||B|cos θ</b> produces a <b>scalar</b>. It is used to find the angle between vectors and to compute work (W = F·d).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.9062,
+      "question": "The cross product of two vectors results in a:",
+      "options": [
+        "Results in a scalar quantity.",
+        "Results in a vector quantity.",
+        "Is always equal to exactly zero.",
+        "Is always parallel to both vectors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>cross product</b> (vector product) <b>A×B = |A||B|sin θ n̂</b> produces a <b>vector</b> that is perpendicular to both A and B (direction given by the right-hand rule).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.203,
+      "question": "The dot product of two perpendicular vectors is:",
+      "options": [
+        "Is always a maximum value",
+        "Is equal to zero",
+        "Is always a negative value",
+        "Is exactly equal to one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If two vectors are perpendicular, θ = 90°, and cos 90° = 0, so <b>A·B = |A||B|cos 90° = 0</b>. This is a key test for perpendicularity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.733,
+      "question": "The cross product of two parallel vectors is:",
+      "options": [
+        "Is a maximum vector.",
+        "Is exactly zero.",
+        "Is a unit vector.",
+        "Is a negative scalar."
+      ],
+      "correctAnswer": 1,
+      "explanation": "If two vectors are parallel (or anti-parallel), θ = 0° or 180°, and sin θ = 0, so <b>A×B = 0</b> (the null vector).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.8572,
+      "question": "The direction of the cross product of two vectors is:",
+      "options": [
+        "Parallel to both original vectors.",
+        "Perpendicular to both original vectors.",
+        "Along the bisector of the two vectors.",
+        "In the same plane as the two vectors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cross product <b>A×B</b> is always <b>perpendicular to both A and B</b> — that is, it is perpendicular to the plane containing A and B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.006,
+      "question": "The direction of the cross product of two vectors is given by the:",
+      "options": [
+        "Left-hand rule",
+        "Right-hand rule",
+        "Triangle law",
+        "Parallelogram law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The direction of A×B is determined by the <b>right-hand rule</b>: point the fingers of your right hand along A, curl them toward B, and your thumb points in the direction of A×B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.254,
+      "question": "The magnitude of the cross product is given by:",
+      "options": [
+        "AB cos(θ)",
+        "AB sin(θ)",
+        "A/B",
+        "A + B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnitude of the cross product is <b>|A×B| = |A||B|sin θ</b>, where θ is the angle between the two vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.705,
+      "question": "The magnitude of the dot product is given by:",
+      "options": [
+        "AB sin(θ)",
+        "AB cos(θ)",
+        "A − B",
+        "A * B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dot product is <b>A·B = |A||B|cos θ</b>, where θ is the angle between the vectors. Its magnitude is |A||B|cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.4438,
+      "question": "The dot product of two vectors is also known as the:",
+      "options": [
+        "Vector product",
+        "Scalar product",
+        "Cross product",
+        "Tensor product"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dot product is also called the <b>scalar product</b> because its result is a scalar. The cross product is called the vector product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.2285,
+      "question": "If A · B = 0, the angle between A and B is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A·B = |A||B|cos θ = 0. Since |A| and |B| are not zero (for non-null vectors), cos θ = 0, so θ = <b>90°</b>. The vectors are perpendicular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093996910.4185,
+      "question": "If A × B = 0, the vectors are:",
+      "options": [
+        "Perpendicular",
+        "Parallel",
+        "Orthogonal",
+        "Unit vectors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A×B = |A||B|sin θ n̂ = 0. This requires sin θ = 0, so θ = 0° or 180°, meaning the vectors are <b>parallel</b> (or anti-parallel).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
