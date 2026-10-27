@@ -3,16 +3,578 @@
   "title": "Newton's laws of motion",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1793094354811.1853,
+      "question": "Which of the following best states Newton's First Law?",
+      "options": [
+        "A body at rest remains at rest unless an external force acts on it.",
+        "An object continues in its state of rest or uniform motion without a net force.",
+        "A moving object will always slow down and stop if no force is applied.",
+        "The acceleration of an object is directly proportional to the applied force."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Newton's First Law</b> states that a body remains at rest or continues to move with constant velocity (uniform motion in a straight line) unless acted upon by a net external force. Option B captures this fully — it covers both rest AND uniform motion.<br><br>• Option A only mentions rest (incomplete).<br>• Option C is false — a moving object does <i>not</i> naturally slow down (that would be pre-Galileo thinking).<br>• Option D describes the Second Law, not the First.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.6206,
+      "question": "What is inertia?",
+      "options": [
+        "The tendency of an object to resist any change in its state of motion.",
+        "The tendency of an object to move in a circular path at a constant speed.",
+        "The force required to accelerate a mass of one kilogram at one meter per second squared.",
+        "The rate of change of velocity of an object with respect to time."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Inertia</b> is the property of matter by which it resists any change in its state of rest or uniform motion. It is directly proportional to mass — more massive objects have more inertia.<br><br>• Option B describes circular motion, not inertia.<br>• Option C defines the newton (unit of force).<br>• Option D defines acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.351,
+      "question": "Newton's First Law is also commonly known as the:",
+      "options": [
+        "Law of action and reaction.",
+        "Law of inertia.",
+        "Law of acceleration.",
+        "Law of gravitation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because Newton's First Law describes how objects resist changes in motion, it is commonly called the <b>Law of Inertia</b>.<br><br>• Law of action and reaction = Third Law.<br>• Law of acceleration = Second Law.<br>• Law of gravitation = a separate law by Newton.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.347,
+      "question": "Why do passengers get thrown forward when a moving bus stops suddenly?",
+      "options": [
+        "The bus exerts a forward force on the passengers.",
+        "The passengers' bodies tend to continue moving forward due to inertia.",
+        "The passengers are pushed forward by the air inside the bus.",
+        "The passengers experience a decrease in their gravitational weight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the bus stops, the passengers' bodies <b>tend to keep moving forward</b> with the velocity they had before braking. This is <b>inertia</b> in action. No external forward force acts on them; the sensation of being \\thrown forward\\ is simply their body continuing to move while the bus decelerates.<br><br>Seatbelts exist precisely to counteract this effect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.2227,
+      "question": "What is an inertial frame of reference?",
+      "options": [
+        "A frame moving at constant velocity relative to an inertial frame.",
+        "A non-accelerating frame where Newton's laws hold true.",
+        "A frame that is rotating at a constant angular velocity.",
+        "Any frame of reference that is accelerating linearly."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>inertial frame</b> is a frame of reference in which Newton's laws of motion hold in their standard form. It is either at rest or moving with <b>constant velocity</b> (no acceleration).<br><br>• Rotating and accelerating frames are non-inertial.<br>• Frames moving at constant velocity relative to another inertial frame are also inertial.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.095,
+      "question": "What is a non-inertial frame of reference?",
+      "options": [
+        "A frame where an object with no net force stays at rest.",
+        "A frame moving at a constant velocity of zero meters per second.",
+        "An accelerating frame where fictitious forces must be introduced.",
+        "A frame where Newton's first law is always perfectly valid."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>non-inertial frame</b> is one that is accelerating (or rotating). In such a frame, Newton's laws do not hold directly; we must introduce <b>fictitious (pseudo) forces</b> — e.g., centrifugal force in a rotating frame or the \\inertial force\\ felt when a car accelerates.<br><br>Options A, B, and D describe inertial frames.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.2483,
+      "question": "If the net force acting on an object is zero, the object:",
+      "options": [
+        "Must be at rest.",
+        "Must be moving in a circle.",
+        "Maintains a constant velocity.",
+        "Must be accelerating."
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the net force is zero, Newton's First Law tells us the object maintains a <b>constant velocity</b> — which could be zero (at rest) or any non-zero constant velocity. So it does not have to be at rest.<br><br>• Moving in a circle requires a net force (centripetal).<br>• Acceleration requires a net force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.7263,
+      "question": "Which of the following best expresses Newton's Second Law?",
+      "options": [
+        "The velocity remains constant when the net external force is zero.",
+        "Every action force has an equal and opposite reaction force.",
+        "Force equals the rate of change of momentum.",
+        "The acceleration of an object is completely independent of its mass."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Newton's Second Law</b> can be expressed as <b>F = dp/dt</b> (force equals the rate of change of momentum). For constant mass, this reduces to F = ma.<br><br>• Option A describes the First Law.<br>• Option B describes the Third Law.<br>• Option D is false — acceleration depends inversely on mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.1248,
+      "question": "The definition of one Newton is the force that:",
+      "options": [
+        "The force required to move a mass of one kilogram at one meter per second.",
+        "The force that gives a one-kilogram mass an acceleration of one m/s².",
+        "The work done when a force of one newton moves an object one meter.",
+        "The force required to keep a one-kilogram object moving at constant speed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>1 newton (N)</b> is the force required to give a mass of 1 kg an acceleration of 1 m/s²: <b>1 N = 1 kg·m/s²</b>.<br><br>• Option A confuses motion with acceleration.<br>• Option C describes a joule (1 J = 1 N·m), which is energy.<br>• Option D is false — constant speed requires zero net force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.3113,
+      "question": "The acceleration of an object is directly proportional to:",
+      "options": [
+        "Its mass.",
+        "The net force.",
+        "Its velocity.",
+        "The time elapsed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "From F = ma, acceleration is directly proportional to the <b>net force</b>: double the net force and the acceleration doubles (for constant mass).<br><br>Acceleration is independent of velocity and time elapsed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.3752,
+      "question": "The acceleration of an object is inversely proportional to:",
+      "options": [
+        "Its mass.",
+        "The net force.",
+        "Its velocity.",
+        "The time elapsed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "From a = F/m, acceleration is inversely proportional to <b>mass</b>: double the mass and the acceleration halves (for constant force).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.6074,
+      "question": "What is the direction of the acceleration vector?",
+      "options": [
+        "It is always opposite to the net force direction.",
+        "It is always perpendicular to the applied force.",
+        "It is always in the same direction as the net force.",
+        "It acts in the direction of the object's velocity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "From F = ma, since mass is a positive scalar, the acceleration vector is always <b>in the same direction as the net force</b>.<br><br>It need not be along the velocity (e.g., circular motion has acceleration toward the centre while velocity is tangential).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.653,
+      "question": "What is the relationship between mass and inertia?",
+      "options": [
+        "A smaller mass means greater inertia.",
+        "Mass is a measure of an object's inertia.",
+        "Inertia is independent of the object's mass.",
+        "Mass and inertia are completely unrelated concepts."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Mass</b> is the quantitative measure of an object's inertia — the resistance to a change in its state of motion. The greater the mass, the greater the inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8792,
+      "question": "Which of the following is true about the mass of an object?",
+      "options": [
+        "It varies depending on the local gravitational field.",
+        "It is a fundamental scalar quantity.",
+        "It is measured in units of newtons.",
+        "It is the same as the object's weight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Mass</b> is a <b>fundamental scalar quantity</b> (a base SI quantity) measured in kilograms. It does not vary with location and is not the same as weight.<br><br>• Weight is a force (measured in newtons) that depends on local gravity.<br>• Mass is constant everywhere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.5647,
+      "question": "Impulse is defined as the:",
+      "options": [
+        "Rate of change of force with respect to time.",
+        "Product of force and the time interval it acts.",
+        "Product of mass and the acceleration of a body.",
+        "Total work done by a force over a distance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Impulse (J)</b> is defined as the product of force and the time interval over which it acts: <b>J = F·Δt</b>. It is a vector quantity.<br><br>• Option C defines force (ma).<br>• Option D defines work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8047,
+      "question": "The impulse-momentum theorem states that impulse is equal to:",
+      "options": [
+        "The change in kinetic energy of the object.",
+        "The change in momentum of the object.",
+        "The work done by the net force on the object.",
+        "The rate of change of the object's mass."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>impulse-momentum theorem</b>: J = F·Δt = Δp = m(v₂ − v₁). So impulse equals the <b>change in momentum</b> of the object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.536,
+      "question": "Momentum is defined as the:",
+      "options": [
+        "The product of an object's mass and its velocity.",
+        "The rate at which an object's velocity changes over time.",
+        "The force required to accelerate an object at one m/s².",
+        "The total energy possessed by a moving physical object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Momentum (p)</b> is defined as the product of mass and velocity: <b>p = mv</b>. It is a vector quantity.<br><br>• Option B defines acceleration.<br>• Option C defines force.<br>• Option D describes energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.4397,
+      "question": "The SI unit of momentum is:",
+      "options": [
+        "Joule",
+        "Newton",
+        "N·s",
+        "kg·m/s²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Momentum p = mv, so its SI unit is <b>kg·m/s</b>, which is equivalent to <b>N·s</b> (since 1 N = 1 kg·m/s², multiplying by s gives kg·m/s).<br><br>• Joule = energy.<br>• Newton = force.<br>• kg·m/s² = newton (acceleration-related).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8093,
+      "question": "Conservation of momentum holds true when:",
+      "options": [
+        "Total momentum is conserved in the absence of a net force.",
+        "Total momentum is always strictly conserved in every situation.",
+        "Momentum is conserved only during perfectly elastic collisions.",
+        "Momentum is conserved only during perfectly inelastic collisions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>law of conservation of momentum</b> states that the total momentum of an isolated system (no net external force) remains constant. It applies to <b>all collisions</b> (elastic, inelastic, and perfectly inelastic) as long as no external force acts.<br><br>• Options C and D incorrectly restrict it to specific collision types.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.0247,
+      "question": "A free body diagram shows:",
+      "options": [
+        "Only the forces acting on the object.",
+        "Only the forces the object exerts on others.",
+        "The object's velocity and acceleration vectors.",
+        "All forces in the universe acting on the object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>free body diagram (FBD)</b> shows <b>only the forces acting ON the object</b> of interest, drawn as arrows from a point representing the object. Forces the object exerts on others are excluded.<br><br>Velocity and acceleration vectors are not forces and are not typically shown on an FBD.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.4563,
+      "question": "Which of the following best states Newton's Third Law?",
+      "options": [
+        "Action and reaction forces always cancel each other out completely.",
+        "For every action force, there is an equal and opposite reaction force.",
+        "The net force acting on an object is equal to its mass times acceleration.",
+        "An object at rest will stay at rest unless an external force acts on it."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Newton's Third Law</b>: for every action, there is an equal and opposite reaction. The forces act on <b>different bodies</b>, so they do not cancel.<br><br>• Option A is false — action-reaction pairs act on different bodies.<br>• Option C is the Second Law.<br>• Option D is the First Law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.1218,
+      "question": "Action and reaction forces always:",
+      "options": [
+        "Act on the exact same body simultaneously.",
+        "Can balance each other to produce equilibrium.",
+        "Act on different bodies and never cancel out.",
+        "Have different physical natures and magnitudes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Action-reaction pairs</b> act on <b>different bodies</b>, so they <b>never cancel</b> each other. The forces are equal in magnitude, opposite in direction, and of the same nature (e.g., both gravitational, both contact).<br><br>This is why a horse can pull a cart: the force the horse exerts on the cart and the force the cart exerts on the horse act on different objects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.3376,
+      "question": "Which of the following is true about action-reaction pairs?",
+      "options": [
+        "They occur simultaneously.",
+        "They occur sequentially.",
+        "They occur randomly.",
+        "They depend on mass."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Action and reaction occur simultaneously</b> — there is no time delay between them. As soon as body A exerts a force on body B, body B exerts an equal and opposite force on body A at the same instant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.2078,
+      "question": "How does a rocket move in space?",
+      "options": [
+        "It pushes against the air molecules in the atmosphere.",
+        "It exerts a backward force on exhaust gases, which push it forward.",
+        "It relies on the gravitational pull of the nearest planet.",
+        "It uses magnetic fields to propel itself through the vacuum."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rocket works by expelling exhaust gases backward at high speed. By Newton's Third Law, the gases push the rocket <b>forward</b>. This works in a vacuum (space) because the rocket does not need to push against anything external — it only needs to eject mass.<br><br>This is often misunderstood: rockets do not \\push against air.\\",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8003,
+      "question": "When you walk on the ground, the reaction force is:",
+      "options": [
+        "The ground pushing forward on your foot.",
+        "Your foot pushing backward on the ground.",
+        "The gravity pulling you downward toward the earth.",
+        "The air resistance pushing against your body."
+      ],
+      "correctAnswer": 0,
+      "explanation": "When you walk, you push <b>backward</b> on the ground (action). By Newton's Third Law, the ground pushes <b>forward</b> on you (reaction) — and this forward force propels you.<br><br>• Option B is the action (your foot on the ground), not the reaction on you.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.9556,
+      "question": "Why is it difficult to walk on ice?",
+      "options": [
+        "The normal force from the ice is too high.",
+        "The action-reaction force between your foot and ice is reduced.",
+        "The gravitational force is much stronger on ice.",
+        "The inertia of your body increases on slippery surfaces."
+      ],
+      "correctAnswer": 1,
+      "explanation": "On ice, the <b>friction</b> between your foot and the surface is very low. When you push backward on the ice, the ice can barely push forward on you (Newton's Third Law reaction) because the low friction cannot support the backward push. So you slip.<br><br>This is fundamentally about reduced <b>action-reaction (frictional) force</b>, not gravity or inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.9316,
+      "question": "Static friction is the force that:",
+      "options": [
+        "Always equals the coefficient of friction.",
+        "Adjusts to match the applied force.",
+        "Is always greater than kinetic friction.",
+        "Is independent of the normal force."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Static friction</b> acts between surfaces at rest relative to each other. It is a \\smart\\ force: it <b>adjusts its magnitude</b> to match the applied force up to a maximum (limiting) value. It only equals the applied force — not the coefficient of friction or anything else.<br><br>It is generally greater than kinetic friction but not \\always\\ — that depends on the materials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.3684,
+      "question": "Kinetic friction is the force that:",
+      "options": [
+        "Is always less than the maximum static friction.",
+        "Is always greater than the maximum static friction.",
+        "Is equal to the applied force at all times.",
+        "Increases continuously as the object speeds up."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Kinetic (sliding) friction</b> acts when surfaces are already sliding. It is <b>always less than the maximum static friction</b> for the same pair of surfaces. This is why it is easier to keep an object moving than to start it moving.<br><br>It is approximately constant, not increasing with speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.3264,
+      "question": "A body moving in a circle at constant speed has:",
+      "options": [
+        "Zero acceleration.",
+        "A non-zero net force.",
+        "Constant velocity.",
+        "Zero momentum."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Even at constant speed, a body moving in a circle has <b>changing velocity direction</b>, so it accelerates (centripetal acceleration). By Newton's Second Law, this requires a <b>non-zero net force</b> — the centripetal force, directed toward the centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.9622,
+      "question": "A net force acting on a body always causes a change in:",
+      "options": [
+        "Its mass.",
+        "Its weight.",
+        "Its velocity.",
+        "Its inertia."
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Newton's Second Law (F = ma), a net force causes <b>acceleration</b>, which means a change in <b>velocity</b> (either magnitude, direction, or both).<br><br>Mass and inertia are intrinsic properties that a net force does not change. Weight changes only if gravity changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.9546,
+      "question": "The tendency of an object to remain in its current state of motion is called:",
+      "options": [
+        "Acceleration.",
+        "Momentum.",
+        "Inertia.",
+        "Force."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Inertia</b> is the tendency of an object to resist any change in its state of rest or uniform motion. It is the property that Newton's First Law describes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.935,
+      "question": "The rate of change of momentum of a body is directly proportional to:",
+      "options": [
+        "The applied net force.",
+        "The mass of the body.",
+        "The velocity of the body.",
+        "The time of contact."
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is Newton's Second Law in its most general form: <b>F<sub>net</sub> = dp/dt</b>. The rate of change of momentum is directly proportional to (and in fact equal to) the <b>applied net force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.771,
+      "question": "A force of 1 N acting on a mass of 1 kg produces an acceleration of:",
+      "options": [
+        "10 m/s².",
+        "1 m/s².",
+        "0.1 m/s².",
+        "9.8 m/s²."
+      ],
+      "correctAnswer": 1,
+      "explanation": "From a = F/m = 1 N ÷ 1 kg = <b>1 m/s²</b>. This follows directly from the definition of the newton.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.0596,
+      "question": "Which of the following is a statement of the Law of Inertia?",
+      "options": [
+        "F = ma.",
+        "For every action, there is an equal and opposite reaction.",
+        "An object at rest stays at rest unless acted upon by a force.",
+        "Force is directly proportional to the rate of change of momentum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>Law of Inertia</b> (Newton's First Law) states that an object at rest stays at rest and an object in motion stays in uniform motion unless acted upon by an external force.<br><br>• F = ma is the Second Law.<br>• Action-reaction is the Third Law.<br>• The momentum form is the Second Law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.4224,
+      "question": "When a bullet is fired from a gun, the gun recoils because of:",
+      "options": [
+        "The conservation of energy.",
+        "The conservation of mass.",
+        "The conservation of momentum.",
+        "The high temperature of the explosion."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Before firing, the total momentum of the gun + bullet system is zero. After firing, the bullet has forward momentum and the gun has equal backward momentum so the total remains zero. This is <b>conservation of momentum</b>.<br><br>The gun recoil speed is small because the gun's mass is much larger than the bullet's.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.955,
+      "question": "Weight is defined as the:",
+      "options": [
+        "Amount of matter present in an object.",
+        "Force of gravity acting on an object.",
+        "Mass of an object in a gravitational field.",
+        "Resistance of an object to changes in motion."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Weight</b> is the <b>gravitational force</b> acting on an object: W = mg. It is a vector, measured in newtons, and depends on the local value of g.<br><br>• Option A is mass.<br>• Option C confuses mass with weight.<br>• Option D is inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8472,
+      "question": "The mass of an object is:",
+      "options": [
+        "A measure of its inertia.",
+        "The same as its weight.",
+        "Dependent on the local gravity.",
+        "Measured in newtons."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Mass</b> is a fundamental scalar quantity that measures an object's inertia and the amount of matter in it. It is constant everywhere.<br><br>• Weight depends on gravity.<br>• Mass is measured in kg, not N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.738,
+      "question": "A body is in equilibrium when:",
+      "options": [
+        "The net force acting on it is zero.",
+        "It is moving at a constant speed.",
+        "It has zero momentum.",
+        "It is accelerating uniformly."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A body is in <b>equilibrium</b> when the net force acting on it is zero (translational equilibrium) — which means it is either at rest or moving with constant velocity.<br><br>Constant speed is not enough for equilibrium; the direction must also be constant (i.e., velocity is constant).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.8293,
+      "question": "A body moves with a constant velocity of 5 m/s. The net force acting on it is:",
+      "options": [
+        "5 N.",
+        "0 N.",
+        "50 N.",
+        "Depends on the mass."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Constant velocity means zero acceleration. By Newton's Second Law (F = ma), the <b>net force is zero</b>. This is a direct consequence of Newton's First Law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793094354811.5974,
+      "question": "In the equation F = ma, the 'a' represents the:",
+      "options": [
+        "Net acceleration of the object.",
+        "Area under the force-time graph.",
+        "Momentum of the object.",
+        "Inertial frame of reference."
+      ],
+      "correctAnswer": 0,
+      "explanation": "In F = ma, '<b>a</b>' stands for the <b>net acceleration</b> of the object — the acceleration produced by the net force F acting on mass m.<br><br>• The area under a force-time graph is impulse.<br>• 'p' represents momentum.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
