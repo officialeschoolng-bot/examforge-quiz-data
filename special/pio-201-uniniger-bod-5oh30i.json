@@ -3,16 +3,508 @@
   "title": "PIO 201 (UNINIGER): BODY FLUIDS INTERNAL ENVIRONMENT",
   "subject": "PIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 35,
+  "defaultTimePerQuestion": 15,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793121872456.6846,
+      "question": "Approximately what percentage of adult body weight is water?",
+      "options": [
+        "60%",
+        "40%",
+        "20%",
+        "80%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Water makes up about <b>60%</b> of adult body weight, though this varies with age, sex, and body composition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.4326,
+      "question": "In a 70 kg adult, total body water is approximately:",
+      "options": [
+        "42 L",
+        "60 L",
+        "20 L",
+        "14 L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total body water is about 60% of body weight: 0.60 × 70 kg ≈ <b>42 L</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.4758,
+      "question": "Which fluid compartment is the largest in the body?",
+      "options": [
+        "Intracellular fluid",
+        "Extracellular fluid",
+        "Plasma",
+        "Interstitial fluid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>intracellular fluid (ICF)</b> compartment is the largest, containing about two-thirds of total body water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.996,
+      "question": "Intracellular fluid accounts for what percentage of body weight?",
+      "options": [
+        "40%",
+        "20%",
+        "15%",
+        "5%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ICF is about two-thirds of total body water, which corresponds to roughly <b>40%</b> of body weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.1672,
+      "question": "Plasma accounts for what percentage of body weight?",
+      "options": [
+        "5%",
+        "15%",
+        "40%",
+        "20%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plasma is about one-fifth of extracellular fluid and represents roughly <b>5%</b> of body weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.241,
+      "question": "Which extracellular fluid subdivision directly bathes the cells?",
+      "options": [
+        "Plasma",
+        "Lymph",
+        "Interstitial fluid",
+        "Transcellular fluid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Interstitial fluid</b> surrounds and directly bathes the cells, serving as the medium for exchange of nutrients and wastes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8333,
+      "question": "Which barrier is highly permeable and separates plasma from interstitial fluid?",
+      "options": [
+        "Cell membrane",
+        "Capillary wall",
+        "Nuclear envelope",
+        "Mitochondrial membrane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>capillary wall</b> is highly permeable to water and small solutes, allowing free exchange between plasma and interstitial fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8394,
+      "question": "Which ion is most abundant in intracellular fluid?",
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Chloride",
+        "Calcium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Potassium (K⁺)</b> is the major intracellular cation, while sodium is the major extracellular cation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.895,
+      "question": "Which ion is most abundant in extracellular fluid?",
+      "options": [
+        "Potassium",
+        "Sodium",
+        "Magnesium",
+        "Phosphate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Sodium (Na⁺)</b> is the most abundant cation in extracellular fluid and plays a key role in osmotic balance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.4832,
+      "question": "Which pump maintains the ionic gradient between ECF and ICF?",
+      "options": [
+        "Proton pump",
+        "Na⁺/K⁺ ATPase",
+        "Calcium ATPase",
+        "Sodium–glucose cotransporter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Na⁺/K⁺ ATPase</b> pump actively transports 3 Na⁺ out and 2 K⁺ in, maintaining the characteristic ionic gradients across the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8237,
+      "question": "Simple diffusion moves substances in which direction?",
+      "options": [
+        "High to low concentration",
+        "Low to high concentration",
+        "Against the gradient",
+        "With ATP hydrolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Simple diffusion</b> is passive movement from a region of <b>high concentration to low concentration</b>, down the concentration gradient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.2402,
+      "question": "Osmosis is the movement of water toward:",
+      "options": [
+        "Lower solute concentration",
+        "Higher solute concentration",
+        "Higher water concentration",
+        "Lower osmotic pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Osmosis</b> is the movement of water across a semipermeable membrane toward the side with <b>higher solute concentration</b> (lower water concentration).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.3928,
+      "question": "Facilitated diffusion requires which membrane component?",
+      "options": [
+        "Carrier proteins",
+        "ATP hydrolysis",
+        "Pressure gradient",
+        "Secondary active transport"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Facilitated diffusion</b> uses membrane <b>carrier proteins</b> to move substances down their concentration gradient without ATP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.0913,
+      "question": "Primary active transport directly uses:",
+      "options": [
+        "ATP",
+        "An ion gradient",
+        "Pressure",
+        "Thermal energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Primary active transport</b> directly hydrolyzes <b>ATP</b> to move substances against their concentration gradient (e.g., Na⁺/K⁺ ATPase).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8313,
+      "question": "Secondary active transport is driven by energy stored in:",
+      "options": [
+        "ATP",
+        "An ion gradient",
+        "A pressure difference",
+        "Thermal energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Secondary active transport</b> uses the energy stored in an <b>ion gradient</b> (usually Na⁺) to move another substance against its gradient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.7126,
+      "question": "Bulk flow is driven primarily by:",
+      "options": [
+        "ATP hydrolysis",
+        "Osmotic pressure",
+        "Ion concentration",
+        "A pressure gradient"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Bulk flow</b> is the movement of fluid due to a <b>pressure gradient</b>, as in blood flow through capillaries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.4856,
+      "question": "A cell placed in a hypertonic solution will:",
+      "options": [
+        "Swell and lyse",
+        "Shrink",
+        "Remain stable",
+        "Increase in volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <b>hypertonic</b> solution, water leaves the cell by osmosis, causing the cell to <b>shrink</b> (crenate).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.9045,
+      "question": "A cell placed in a hypotonic solution will:",
+      "options": [
+        "Shrink",
+        "Swell",
+        "Remain stable",
+        "Lose water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <b>hypotonic</b> solution, water enters the cell by osmosis, causing it to <b>swell</b> and potentially lyse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.9531,
+      "question": "Tonicity is determined by solutes that:",
+      "options": [
+        "Freely cross the membrane",
+        "Cannot cross the membrane",
+        "Are actively transported",
+        "Require ATP"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Tonicity</b> depends on the concentration of <b>non-penetrating solutes</b> that cannot cross the membrane and thus exert an osmotic effect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8733,
+      "question": "Which hormone is released in response to increased plasma osmolarity?",
+      "options": [
+        "ADH",
+        "Aldosterone",
+        "ANP",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increased plasma osmolarity stimulates release of <b>ADH</b> (antidiuretic hormone), which increases water reabsorption in the kidneys.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.9492,
+      "question": "Which hormone promotes sodium excretion?",
+      "options": [
+        "ANP",
+        "ADH",
+        "Aldosterone",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>ANP</b> (atrial natriuretic peptide) promotes sodium and water excretion by the kidneys, reducing blood volume and pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.1958,
+      "question": "Which system provides rapid, short-term regulation of body fluids?",
+      "options": [
+        "Nervous system",
+        "Endocrine system",
+        "Cardiovascular system",
+        "Respiratory system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>nervous system</b> provides rapid, short-term regulation of body fluids, for example through ADH release and thirst mechanisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.7527,
+      "question": "Which system provides slower, longer-lasting regulation of body fluids?",
+      "options": [
+        "Endocrine system",
+        "Nervous system",
+        "Cardiovascular system",
+        "Respiratory system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>endocrine system</b> provides slower, longer-lasting regulation through hormones such as aldosterone and ADH.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.6973,
+      "question": "The basic structural framework of the cell membrane is provided by:",
+      "options": [
+        "Integral proteins",
+        "Phospholipids",
+        "Cholesterol",
+        "Glycocalyx"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>phospholipid bilayer</b> forms the basic structural framework of the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.122,
+      "question": "Which molecule buffers membrane fluidity?",
+      "options": [
+        "Phospholipid",
+        "Cholesterol",
+        "Integral protein",
+        "Glycocalyx"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Cholesterol</b> inserts between phospholipids and buffers membrane fluidity, keeping it appropriately fluid across temperature ranges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.6787,
+      "question": "Which membrane component is involved in cell recognition and adhesion?",
+      "options": [
+        "Cholesterol",
+        "Glycocalyx",
+        "Phospholipid",
+        "Peripheral protein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>glycocalyx</b> (carbohydrate coat) is involved in cell recognition, adhesion, and immune interactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.51,
+      "question": "The hydrophilic portion of a phospholipid is the:",
+      "options": [
+        "Phosphate head",
+        "Fatty acid tail",
+        "Hydrophobic core",
+        "Integral protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>phosphate head</b> is hydrophilic (water-loving) and faces the aqueous environment on either side of the membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872456.8752,
+      "question": "The hydrophobic portion of a phospholipid is the:",
+      "options": [
+        "Fatty acid tail",
+        "Phosphate head",
+        "Hydrophilic exterior",
+        "Integral protein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>fatty acid tails</b> are hydrophobic (water-fearing) and face inward, forming the core of the bilayer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.5261,
+      "question": "Which compartment contains two-thirds of total body water?",
+      "options": [
+        "Intracellular fluid",
+        "Extracellular fluid",
+        "Plasma",
+        "Interstitial fluid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About <b>two-thirds</b> of total body water is contained within the <b>intracellular fluid</b> compartment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.1487,
+      "question": "Which is an example of transcellular fluid?",
+      "options": [
+        "Cerebrospinal fluid",
+        "Plasma",
+        "Interstitial fluid",
+        "Lymph"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Cerebrospinal fluid</b> is an example of transcellular fluid, which is secreted by cells into specialized spaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.8809,
+      "question": "Which ion is high in extracellular fluid?",
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Magnesium",
+        "Phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Sodium (Na⁺)</b> is the major cation in extracellular fluid, essential for osmotic balance and action potentials.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.8577,
+      "question": "Which ion is high in intracellular fluid?",
+      "options": [
+        "Potassium",
+        "Sodium",
+        "Chloride",
+        "Bicarbonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Potassium (K⁺)</b> is the major cation in intracellular fluid, important for resting membrane potential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.298,
+      "question": "In capillaries, bulk flow is driven mainly by:",
+      "options": [
+        "ATP hydrolysis",
+        "Osmotic pressure",
+        "Ion concentration",
+        "Pressure gradient"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Bulk flow</b> in capillaries is driven by a <b>pressure gradient</b> (hydrostatic pressure), forcing fluid out at the arterial end and back in at the venous end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.69,
+      "question": "Which is an example of positive feedback?",
+      "options": [
+        "Childbirth",
+        "Body temperature regulation",
+        "Blood pressure regulation",
+        "Osmolarity regulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Childbirth</b> is a classic example of positive feedback: uterine contractions stimulate oxytocin release, which increases contractions further.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793121872457.178,
+      "question": "What percentage of body water is in the intracellular compartment?",
+      "options": [
+        "60%",
+        "40%",
+        "20%",
+        "80%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About <b>60%</b> of total body water is in the intracellular compartment (two-thirds of total body water).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
