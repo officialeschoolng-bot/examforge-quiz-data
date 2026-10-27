@@ -3,16 +3,578 @@
   "title": "Mechanical Energy and Work",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1793096929187.8254,
+      "question": "In physics, work is defined as the product of force and:",
+      "options": [
+        "Velocity",
+        "Displacement",
+        "Mass",
+        "Time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In physics, <b>work</b> is the product of force and displacement in the direction of the force: W = Fd cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.4834,
+      "question": "What is the standard SI unit of work?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI unit of work is the <b>joule (J)</b>. One joule equals one newton-meter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.9128,
+      "question": "Work is a:",
+      "options": [
+        "Vector quantity",
+        "Scalar quantity",
+        "Tensor quantity",
+        "Complex quantity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Work</b> is a scalar quantity. It has magnitude and sign but no direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.943,
+      "question": "The work done by a force is zero when the angle between force and displacement is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Work is W = Fd cos θ. When θ = <b>90°</b>, cos 90° = 0, so the work done is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1487,
+      "question": "The work done by kinetic friction on a moving object is generally:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic friction acts opposite to the displacement, so the angle is 180° and the work done is <b>negative</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.119,
+      "question": "The work done by the centripetal force on an object in circular motion is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Centripetal force is always perpendicular to the velocity and displacement, so the work done is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.271,
+      "question": "The work done by gravity on an object falling vertically downwards is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Minimum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gravity acts downward and the displacement is downward, so the work done by gravity is <b>positive</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.6824,
+      "question": "One Joule of work is equivalent to one:",
+      "options": [
+        "Newton-meter",
+        "Newton per second",
+        "Watt per second",
+        "Kilogram per second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since W = Fd, one joule is equal to one <b>newton-meter (N·m)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.8962,
+      "question": "The energy possessed by an object due to its motion is called:",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Thermal energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Kinetic energy</b> is the energy an object possesses because of its motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.3223,
+      "question": "The formula for the kinetic energy of a moving object is:",
+      "options": [
+        "mgh",
+        "1/2 mv²",
+        "Fd",
+        "ma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The kinetic energy of an object of mass m moving with speed v is <b>1/2 mv²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1123,
+      "question": "Kinetic energy is directly proportional to the square of the:",
+      "options": [
+        "Mass",
+        "Velocity",
+        "Height",
+        "Force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic energy is K = 1/2 mv², so it is directly proportional to the <b>square of velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.7607,
+      "question": "The work-energy theorem states that net work equals the change in:",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Total momentum",
+        "Mechanical power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>work-energy theorem</b> states that the net work done on an object equals its change in kinetic energy: W_net = ΔK.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.7126,
+      "question": "If positive work is done on an object, its kinetic energy:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positive net work increases kinetic energy according to W_net = ΔK.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.5754,
+      "question": "The kinetic energy of an object at rest is:",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Infinite",
+        "Negative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At rest, velocity is zero, so kinetic energy K = 1/2 mv² is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.327,
+      "question": "The energy possessed by an object due to its position is called:",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Potential energy</b> is energy associated with the position or configuration of an object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.0886,
+      "question": "The gravitational potential energy of an object near Earth's surface is given by:",
+      "options": [
+        "1/2 mv²",
+        "mgh",
+        "Fd",
+        "1/2 kx²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Near Earth's surface, gravitational potential energy is <b>mgh</b>, where h is height above a chosen reference level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.5034,
+      "question": "The elastic potential energy stored in a spring is given by:",
+      "options": [
+        "mgh",
+        "1/2 mv²",
+        "1/2 kx²",
+        "Fv"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The elastic potential energy of a spring is <b>1/2 kx²</b>, where k is the spring constant and x is the extension or compression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.0085,
+      "question": "Gravitational potential energy depends primarily on the object's mass and its:",
+      "options": [
+        "Speed",
+        "Height",
+        "Acceleration",
+        "Time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravitational potential energy U = mgh depends on mass, gravitational field strength, and <b>height</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.5696,
+      "question": "The reference point chosen for calculating gravitational potential energy is:",
+      "options": [
+        "Absolute",
+        "Arbitrary",
+        "Fixed",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The zero level for gravitational potential energy is <b>arbitrary</b>; only changes in potential energy are physically significant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1108,
+      "question": "A force for which the work done is independent of the path taken is called:",
+      "options": [
+        "Path-dependent force",
+        "Conservative force",
+        "Non-conservative force",
+        "Frictional force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>conservative force</b> does work that depends only on initial and final positions, not on the path taken.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.191,
+      "question": "Mechanical energy is the sum of:",
+      "options": [
+        "Work and power",
+        "Kinetic and potential",
+        "Force and distance",
+        "Mass and velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mechanical energy is the sum of <b>kinetic energy and potential energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.541,
+      "question": "Mechanical energy is conserved when only which forces act on the system?",
+      "options": [
+        "Frictional",
+        "Conservative",
+        "Non-conservative",
+        "External"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mechanical energy is conserved when only <b>conservative forces</b> do work on the system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.0286,
+      "question": "The presence of friction causes mechanical energy to be:",
+      "options": [
+        "Conserved",
+        "Dissipated",
+        "Increased",
+        "Created"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friction is non-conservative and dissipates mechanical energy into other forms such as heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.0645,
+      "question": "The total energy of an isolated system always remains:",
+      "options": [
+        "Constant",
+        "Decreasing",
+        "Increasing",
+        "Zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an isolated system, total energy is conserved, so it remains <b>constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.3196,
+      "question": "In a swinging pendulum, kinetic energy is maximum at the:",
+      "options": [
+        "Highest point",
+        "Lowest point",
+        "Middle point",
+        "Starting point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the <b>lowest point</b>, the pendulum has maximum speed and therefore maximum kinetic energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.6924,
+      "question": "In a swinging pendulum, potential energy is maximum at the:",
+      "options": [
+        "Highest point",
+        "Lowest point",
+        "Middle point",
+        "Starting point"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the <b>highest point</b>, the pendulum has maximum height and therefore maximum gravitational potential energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.794,
+      "question": "As an object falls freely under gravity, its potential energy is converted into:",
+      "options": [
+        "Thermal energy",
+        "Kinetic energy",
+        "Chemical energy",
+        "Sound energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As an object falls, gravitational potential energy decreases and is converted into <b>kinetic energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.9187,
+      "question": "The work done by a conservative force over a closed path is always:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a conservative force, the work done over any closed path is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.936,
+      "question": "Gravity is an example of a:",
+      "options": [
+        "Conservative force",
+        "Non-conservative force",
+        "Frictional force",
+        "Contact force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Gravity</b> is a conservative force because the work it does depends only on the change in position, not the path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.269,
+      "question": "Friction is an example of a:",
+      "options": [
+        "Conservative force",
+        "Non-conservative force",
+        "Fundamental force",
+        "Gravitational force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Friction</b> is non-conservative because the work it does depends on the path and it dissipates mechanical energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.9255,
+      "question": "Power is defined as the rate of doing:",
+      "options": [
+        "Work",
+        "Mass",
+        "Height",
+        "Force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Power</b> is the rate at which work is done: P = W/t.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1587,
+      "question": "The SI unit of power is the:",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The SI unit of power is the <b>watt (W)</b>, equal to one joule per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.3184,
+      "question": "For a constant force, power can be calculated by multiplying force by:",
+      "options": [
+        "Time",
+        "Distance",
+        "Velocity",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a constant force, power is P = Fv, the product of force and <b>velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1167,
+      "question": "One Watt of power is equal to one:",
+      "options": [
+        "Joule per second",
+        "Newton per meter",
+        "Joule per meter",
+        "Newton per second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One watt is defined as one <b>joule per second</b>: 1 W = 1 J/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.4258,
+      "question": "Power is a:",
+      "options": [
+        "Vector quantity",
+        "Scalar quantity",
+        "Tensor quantity",
+        "Complex quantity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Power</b> is a scalar quantity; it has magnitude but no direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.832,
+      "question": "In an elastic collision, kinetic energy is:",
+      "options": [
+        "Lost",
+        "Conserved",
+        "Gained",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an <b>elastic collision</b>, both momentum and kinetic energy are conserved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.1313,
+      "question": "In an inelastic collision, kinetic energy is:",
+      "options": [
+        "Lost",
+        "Conserved",
+        "Gained",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In an <b>inelastic collision</b>, some kinetic energy is converted into other forms, so kinetic energy is lost.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.4453,
+      "question": "The area under a force-displacement graph represents:",
+      "options": [
+        "Power",
+        "Work",
+        "Momentum",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area under a force-displacement graph is the <b>work done</b> by the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.677,
+      "question": "Due to energy losses, the efficiency of a real machine is always less than:",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Infinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A real machine always has some energy losses, so its efficiency is always less than <b>one</b>, or 100%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793096929187.102,
+      "question": "A stretched rubber band held stationary possesses:",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A stretched rubber band has <b>elastic potential energy</b> stored due to its deformation.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
