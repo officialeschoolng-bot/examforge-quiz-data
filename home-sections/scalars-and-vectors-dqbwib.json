@@ -3,7 +3,7 @@
   "title": "Scalars and Vectors",
   "subject": "",
   "level": "",
-  "totalQuestions": 40,
+  "totalQuestions": 35,
   "questions": [
     {
       "id": 1793093996910.345,
@@ -300,34 +300,6 @@
       "points": 1
     },
     {
-      "id": 1793093996910.7607,
-      "question": "The parallelogram law of vector addition uses:",
-      "options": [
-        "Uses the diagonal of a rectangle.",
-        "Uses the diagonal of a parallelogram.",
-        "Uses the sides of a circle.",
-        "Uses the diagonal of a square."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The <b>parallelogram law</b> states that if two vectors are represented by two adjacent sides of a parallelogram drawn from a common point, their resultant is represented by the <b>diagonal of the parallelogram</b> passing through that point.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793093996910.781,
-      "question": "The resultant of two equal vectors bisects:",
-      "options": [
-        "Always equal to zero.",
-        "Bisects the angle between them.",
-        "Is always perpendicular to both vectors.",
-        "Is always parallel to one of the vectors."
-      ],
-      "correctAnswer": 1,
-      "explanation": "When two vectors of equal magnitude are added, the resultant lies along the <b>angle bisector</b> of the two vectors. This follows from the symmetry of the parallelogram formed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793093996910.5269,
       "question": "The sum of a vector and its negative vector is:",
       "options": [
@@ -338,20 +310,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "For any vector <b>A</b>, <b>A + (−A) = 0</b>, the <b>null vector</b>. This is the additive inverse property of vectors.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793093996910.6377,
-      "question": "Vector subtraction (A - B) is equivalent to:",
-      "options": [
-        "A + (−B)",
-        "A − (−B)",
-        "B − A",
-        "(−A) − B"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Vector subtraction is defined as the addition of the negative: <b>A − B = A + (−B)</b>. Geometrically, this means reversing B and then adding it to A.",
       "difficulty": "easy",
       "points": 1
     },
@@ -380,34 +338,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "R = √(A² + B² + 2AB cos θ). This is minimum when cos θ = −1, i.e., θ = <b>180°</b> (vectors point in opposite directions). Then R = |A − B|.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793093996910.7285,
-      "question": "Resolution of a vector means:",
-      "options": [
-        "Adding two or more vectors together.",
-        "Splitting it into its perpendicular components.",
-        "Finding the angle it makes with the x-axis.",
-        "Multiplying it by a scalar quantity."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Resolution</b> is the process of splitting a single vector into <b>two or more components</b> — usually perpendicular (rectangular) components along the x and y axes.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793093996910.4634,
-      "question": "Rectangular components of a vector are:",
-      "options": [
-        "Are always equal in magnitude.",
-        "Are mutually perpendicular.",
-        "Are always parallel to each other.",
-        "Have no relationship to the original vector."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Rectangular components</b> are the components of a vector along two mutually perpendicular axes (typically x and y). They are not necessarily equal in magnitude; their vector sum gives the original vector.",
       "difficulty": "easy",
       "points": 1
     },
