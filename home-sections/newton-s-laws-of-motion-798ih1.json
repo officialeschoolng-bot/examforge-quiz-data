@@ -3,36 +3,8 @@
   "title": "Newton's laws of motion",
   "subject": "",
   "level": "",
-  "totalQuestions": 40,
+  "totalQuestions": 30,
   "questions": [
-    {
-      "id": 1793094354811.1853,
-      "question": "Which of the following best states Newton's First Law?",
-      "options": [
-        "A body at rest remains at rest unless an external force acts on it.",
-        "An object continues in its state of rest or uniform motion without a net force.",
-        "A moving object will always slow down and stop if no force is applied.",
-        "The acceleration of an object is directly proportional to the applied force."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Newton's First Law</b> states that a body remains at rest or continues to move with constant velocity (uniform motion in a straight line) unless acted upon by a net external force. Option B captures this fully — it covers both rest AND uniform motion.<br><br>• Option A only mentions rest (incomplete).<br>• Option C is false — a moving object does <i>not</i> naturally slow down (that would be pre-Galileo thinking).<br>• Option D describes the Second Law, not the First.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793094354811.6206,
-      "question": "What is inertia?",
-      "options": [
-        "The tendency of an object to resist any change in its state of motion.",
-        "The tendency of an object to move in a circular path at a constant speed.",
-        "The force required to accelerate a mass of one kilogram at one meter per second squared.",
-        "The rate of change of velocity of an object with respect to time."
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Inertia</b> is the property of matter by which it resists any change in its state of rest or uniform motion. It is directly proportional to mass — more massive objects have more inertia.<br><br>• Option B describes circular motion, not inertia.<br>• Option C defines the newton (unit of force).<br>• Option D defines acceleration.",
-      "difficulty": "easy",
-      "points": 1
-    },
     {
       "id": 1793094354811.351,
       "question": "Newton's First Law is also commonly known as the:",
@@ -48,20 +20,6 @@
       "points": 1
     },
     {
-      "id": 1793094354811.347,
-      "question": "Why do passengers get thrown forward when a moving bus stops suddenly?",
-      "options": [
-        "The bus exerts a forward force on the passengers.",
-        "The passengers' bodies tend to continue moving forward due to inertia.",
-        "The passengers are pushed forward by the air inside the bus.",
-        "The passengers experience a decrease in their gravitational weight."
-      ],
-      "correctAnswer": 1,
-      "explanation": "When the bus stops, the passengers' bodies <b>tend to keep moving forward</b> with the velocity they had before braking. This is <b>inertia</b> in action. No external forward force acts on them; the sensation of being \\thrown forward\\ is simply their body continuing to move while the bus decelerates.<br><br>Seatbelts exist precisely to counteract this effect.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793094354811.2227,
       "question": "What is an inertial frame of reference?",
       "options": [
@@ -72,20 +30,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "An <b>inertial frame</b> is a frame of reference in which Newton's laws of motion hold in their standard form. It is either at rest or moving with <b>constant velocity</b> (no acceleration).<br><br>• Rotating and accelerating frames are non-inertial.<br>• Frames moving at constant velocity relative to another inertial frame are also inertial.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793094354811.095,
-      "question": "What is a non-inertial frame of reference?",
-      "options": [
-        "A frame where an object with no net force stays at rest.",
-        "A frame moving at a constant velocity of zero meters per second.",
-        "An accelerating frame where fictitious forces must be introduced.",
-        "A frame where Newton's first law is always perfectly valid."
-      ],
-      "correctAnswer": 2,
-      "explanation": "A <b>non-inertial frame</b> is one that is accelerating (or rotating). In such a frame, Newton's laws do not hold directly; we must introduce <b>fictitious (pseudo) forces</b> — e.g., centrifugal force in a rotating frame or the \\inertial force\\ felt when a car accelerates.<br><br>Options A, B, and D describe inertial frames.",
       "difficulty": "easy",
       "points": 1
     },
@@ -118,20 +62,6 @@
       "points": 1
     },
     {
-      "id": 1793094354811.1248,
-      "question": "The definition of one Newton is the force that:",
-      "options": [
-        "The force required to move a mass of one kilogram at one meter per second.",
-        "The force that gives a one-kilogram mass an acceleration of one m/s².",
-        "The work done when a force of one newton moves an object one meter.",
-        "The force required to keep a one-kilogram object moving at constant speed."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>1 newton (N)</b> is the force required to give a mass of 1 kg an acceleration of 1 m/s²: <b>1 N = 1 kg·m/s²</b>.<br><br>• Option A confuses motion with acceleration.<br>• Option C describes a joule (1 J = 1 N·m), which is energy.<br>• Option D is false — constant speed requires zero net force.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793094354811.3113,
       "question": "The acceleration of an object is directly proportional to:",
       "options": [
@@ -142,20 +72,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "From F = ma, acceleration is directly proportional to the <b>net force</b>: double the net force and the acceleration doubles (for constant mass).<br><br>Acceleration is independent of velocity and time elapsed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793094354811.3752,
-      "question": "The acceleration of an object is inversely proportional to:",
-      "options": [
-        "Its mass.",
-        "The net force.",
-        "Its velocity.",
-        "The time elapsed."
-      ],
-      "correctAnswer": 0,
-      "explanation": "From a = F/m, acceleration is inversely proportional to <b>mass</b>: double the mass and the acceleration halves (for constant force).",
       "difficulty": "easy",
       "points": 1
     },
@@ -212,20 +128,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Impulse (J)</b> is defined as the product of force and the time interval over which it acts: <b>J = F·Δt</b>. It is a vector quantity.<br><br>• Option C defines force (ma).<br>• Option D defines work.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793094354811.8047,
-      "question": "The impulse-momentum theorem states that impulse is equal to:",
-      "options": [
-        "The change in kinetic energy of the object.",
-        "The change in momentum of the object.",
-        "The work done by the net force on the object.",
-        "The rate of change of the object's mass."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The <b>impulse-momentum theorem</b>: J = F·Δt = Δp = m(v₂ − v₁). So impulse equals the <b>change in momentum</b> of the object.",
       "difficulty": "easy",
       "points": 1
     },
@@ -300,20 +202,6 @@
       "points": 1
     },
     {
-      "id": 1793094354811.1218,
-      "question": "Action and reaction forces always:",
-      "options": [
-        "Act on the exact same body simultaneously.",
-        "Can balance each other to produce equilibrium.",
-        "Act on different bodies and never cancel out.",
-        "Have different physical natures and magnitudes."
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Action-reaction pairs</b> act on <b>different bodies</b>, so they <b>never cancel</b> each other. The forces are equal in magnitude, opposite in direction, and of the same nature (e.g., both gravitational, both contact).<br><br>This is why a horse can pull a cart: the force the horse exerts on the cart and the force the cart exerts on the horse act on different objects.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793094354811.3376,
       "question": "Which of the following is true about action-reaction pairs?",
       "options": [
@@ -328,20 +216,6 @@
       "points": 1
     },
     {
-      "id": 1793094354811.2078,
-      "question": "How does a rocket move in space?",
-      "options": [
-        "It pushes against the air molecules in the atmosphere.",
-        "It exerts a backward force on exhaust gases, which push it forward.",
-        "It relies on the gravitational pull of the nearest planet.",
-        "It uses magnetic fields to propel itself through the vacuum."
-      ],
-      "correctAnswer": 1,
-      "explanation": "A rocket works by expelling exhaust gases backward at high speed. By Newton's Third Law, the gases push the rocket <b>forward</b>. This works in a vacuum (space) because the rocket does not need to push against anything external — it only needs to eject mass.<br><br>This is often misunderstood: rockets do not \\push against air.\\",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793094354811.8003,
       "question": "When you walk on the ground, the reaction force is:",
       "options": [
@@ -352,20 +226,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "When you walk, you push <b>backward</b> on the ground (action). By Newton's Third Law, the ground pushes <b>forward</b> on you (reaction) — and this forward force propels you.<br><br>• Option B is the action (your foot on the ground), not the reaction on you.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793094354811.9556,
-      "question": "Why is it difficult to walk on ice?",
-      "options": [
-        "The normal force from the ice is too high.",
-        "The action-reaction force between your foot and ice is reduced.",
-        "The gravitational force is much stronger on ice.",
-        "The inertia of your body increases on slippery surfaces."
-      ],
-      "correctAnswer": 1,
-      "explanation": "On ice, the <b>friction</b> between your foot and the surface is very low. When you push backward on the ice, the ice can barely push forward on you (Newton's Third Law reaction) because the low friction cannot support the backward push. So you slip.<br><br>This is fundamentally about reduced <b>action-reaction (frictional) force</b>, not gravity or inertia.",
       "difficulty": "easy",
       "points": 1
     },
