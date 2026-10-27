@@ -3,16 +3,438 @@
   "title": "Relative Motion and Conservation Principles",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1793095653921.0107,
+      "question": "What does relative velocity describe?",
+      "options": [
+        "The velocity of an object measured relative to another.",
+        "The velocity of an object as measured by a stationary observer.",
+        "The velocity of an object measured with respect to its own frame.",
+        "The velocity of an object measured relative to the ground."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Relative velocity</b> is the velocity of one object as measured from another object or reference frame. It is not necessarily relative to the ground or to a stationary observer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.0598,
+      "question": "An inertial frame of reference is one that:",
+      "options": [
+        "Moves at a constant velocity relative to another frame.",
+        "Is not accelerating.",
+        "Is attached to the surface of the rotating Earth.",
+        "Is always completely at rest relative to the universe."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>inertial frame</b> is a non-accelerating frame, meaning Newton's laws hold in their standard form. A frame moving at constant velocity relative to an inertial frame is also inertial, but the defining property is zero acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.5117,
+      "question": "If two cars are moving in the same direction, the relative velocity of the faster car with respect to the slower one is:",
+      "options": [
+        "The sum of their speeds.",
+        "The difference in their speeds.",
+        "The product of their speeds.",
+        "Equal to zero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For motion in the same direction, the relative speed is found by subtracting the slower speed from the faster speed. The relative velocity points in the direction of the faster car.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.8662,
+      "question": "If two objects are moving towards each other, their relative speed is:",
+      "options": [
+        "The difference of their individual speeds.",
+        "The sum of their individual speeds.",
+        "Equal to the speed of the faster object.",
+        "Always zero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When two objects approach each other, their relative speed is the <b>sum</b> of their individual speeds, because the separation decreases at a rate equal to both speeds combined.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.1726,
+      "question": "A rotating frame of reference is:",
+      "options": [
+        "Always an inertial frame.",
+        "A non-inertial frame.",
+        "A frame with zero acceleration.",
+        "A frame moving at constant velocity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rotating frame has changing direction of velocity and therefore has acceleration. It is a <b>non-inertial frame</b>, requiring fictitious forces for Newton's laws to hold.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.413,
+      "question": "Linear momentum is conserved when:",
+      "options": [
+        "The net external force is zero.",
+        "The internal forces cancel out completely.",
+        "The system is completely isolated from all forces.",
+        "The net external force acting on the system is zero."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conservation of linear momentum requires that the <b>net external force</b> on the system be zero. Internal forces can be nonzero but cancel in pairs and do not change total momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.7732,
+      "question": "The law of conservation of momentum is derived from:",
+      "options": [
+        "Newton's first law of motion.",
+        "Newton's third law of motion.",
+        "Newton's law of universal gravitation.",
+        "The principle of dimensional homogeneity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conservation of momentum follows from <b>Newton's third law</b>: internal action-reaction pairs are equal and opposite, so they produce no net change in total momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.6553,
+      "question": "In a perfectly inelastic collision:",
+      "options": [
+        "Kinetic energy is completely conserved.",
+        "Momentum is not conserved.",
+        "Objects stick together after collision.",
+        "The total kinetic energy is completely converted to mass."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a <b>perfectly inelastic collision</b>, the colliding objects stick together and move with a common final velocity. Momentum is conserved, but kinetic energy is not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.0635,
+      "question": "In an elastic collision:",
+      "options": [
+        "Only momentum is conserved.",
+        "Only kinetic energy is conserved.",
+        "Both momentum and kinetic energy are conserved.",
+        "Neither momentum nor kinetic energy is conserved."
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>elastic collision</b> conserves both momentum and kinetic energy. This is the key distinction from inelastic collisions, where kinetic energy is not fully conserved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653921.147,
+      "question": "The recoil of a gun is best explained by:",
+      "options": [
+        "The conservation of kinetic energy.",
+        "The conservation of linear momentum.",
+        "The conservation of angular momentum.",
+        "The conservation of mechanical energy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Before firing, the gun-bullet system has zero total momentum. After firing, the bullet moves forward and the gun recoils backward so total momentum remains zero. This is <b>conservation of linear momentum</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.5122,
+      "question": "The center of mass of an isolated system of particles:",
+      "options": [
+        "Always remains strictly at rest.",
+        "Moves with constant velocity.",
+        "Accelerates continuously due to internal forces.",
+        "Follows a curved path regardless of external forces."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an isolated system, the net external force is zero, so the center of mass moves with constant velocity. It may be at rest or moving uniformly, but it does not accelerate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.1814,
+      "question": "For a system of particles, the internal forces:",
+      "options": [
+        "Can change the total momentum of the system.",
+        "Cannot change the total momentum of the system.",
+        "Always increase the total kinetic energy.",
+        "Are always equal to the external forces."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internal forces occur in equal and opposite action-reaction pairs, so they cannot change the total momentum of the system. They can redistribute momentum among particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.0823,
+      "question": "A conservative force is one for which:",
+      "options": [
+        "The work done is independent of the path.",
+        "The work done is always exactly zero.",
+        "The force depends on the velocity of the object.",
+        "The work done depends entirely on the path taken."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>conservative force</b> does work that depends only on initial and final positions, not on the path. Equivalently, the work done over a closed loop is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.5247,
+      "question": "Which of the following is a conservative force?",
+      "options": [
+        "Friction",
+        "Air resistance",
+        "Gravity",
+        "Tension in a string during a swing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Gravity</b> is conservative because the work it does depends only on the change in height, not on the path taken. Friction and air resistance are non-conservative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.8384,
+      "question": "Which of the following is a non-conservative force?",
+      "options": [
+        "Elastic spring force",
+        "Gravitational force",
+        "Electrostatic force",
+        "Friction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Friction</b> is non-conservative because the work it does depends on the path and it dissipates mechanical energy. Spring, gravitational, and electrostatic forces are conservative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.652,
+      "question": "Mechanical energy is conserved when:",
+      "options": [
+        "Only conservative forces do work on the system.",
+        "Non-conservative forces are doing negative work.",
+        "The system is in a state of thermal equilibrium.",
+        "Friction is the only force acting on the system."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mechanical energy is conserved when <b>only conservative forces</b> do work. If non-conservative forces such as friction do work, mechanical energy is not conserved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.2788,
+      "question": "The work-energy theorem states that the work done by the net force equals:",
+      "options": [
+        "The change in potential energy.",
+        "The change in kinetic energy.",
+        "The change in total momentum.",
+        "The change in total mechanical energy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>work-energy theorem</b> states that the net work done on an object equals its change in kinetic energy: W_net = ΔK.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.6826,
+      "question": "Potential energy is associated with:",
+      "options": [
+        "The position of an object.",
+        "The velocity of an object.",
+        "The mass of an object alone.",
+        "The acceleration of an object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Potential energy</b> is energy associated with the position or configuration of an object in a conservative force field. Kinetic energy, by contrast, is associated with motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.2766,
+      "question": "In a perfectly inelastic collision, the kinetic energy:",
+      "options": [
+        "Is completely conserved.",
+        "Is partially lost.",
+        "Increases after the collision.",
+        "Remains exactly the same."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a perfectly inelastic collision, momentum is conserved but some kinetic energy is converted into other forms such as heat or deformation. Thus kinetic energy is partially lost.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.552,
+      "question": "The total energy of an isolated system:",
+      "options": [
+        "Always decreases over time.",
+        "Always increases over time.",
+        "Remains constant.",
+        "Depends on the internal forces only."
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an isolated system, total energy is conserved. Energy may change form, but the total amount remains constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.0337,
+      "question": "A force is conservative if the work done over a closed loop is:",
+      "options": [
+        "Always positive.",
+        "Always negative.",
+        "Exactly zero.",
+        "Dependent on the object's mass."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A conservative force does zero net work over any closed path. This is equivalent to saying its work is path-independent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.5557,
+      "question": "The potential energy of a spring is given by:",
+      "options": [
+        "mgh",
+        "1/2 mv²",
+        "1/2 kx²",
+        "Fd"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The elastic potential energy stored in a spring is <b>1/2 kx²</b>, where k is the spring constant and x is the extension or compression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.503,
+      "question": "Angular momentum is conserved when:",
+      "options": [
+        "The net external torque is zero.",
+        "The net external force is zero.",
+        "The moment of inertia is strictly constant.",
+        "The rotational kinetic energy is strictly constant."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angular momentum is conserved when the <b>net external torque</b> on the system is zero. A net force alone does not determine angular momentum conservation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.5369,
+      "question": "An ice skater spinning with arms extended pulls her arms in. Her angular velocity:",
+      "options": [
+        "Decreases due to the change in mass.",
+        "Remains exactly the same.",
+        "Increases.",
+        "Becomes zero immediately."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pulling the arms in decreases the moment of inertia. Since angular momentum L = Iω is conserved, a smaller I means a larger angular velocity ω.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.2112,
+      "question": "Angular momentum is defined as the cross product of:",
+      "options": [
+        "Position and linear momentum.",
+        "Force and time.",
+        "Mass and velocity.",
+        "Torque and angular acceleration."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angular momentum is <b>L = r × p</b>, the cross product of position vector and linear momentum. It is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.6687,
+      "question": "Kepler's second law of planetary motion is a direct consequence of:",
+      "options": [
+        "The conservation of linear momentum.",
+        "The conservation of angular momentum.",
+        "The conservation of total mechanical energy.",
+        "Newton's law of universal gravitation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kepler's second law says a planet sweeps equal areas in equal times. This follows from <b>conservation of angular momentum</b> for a planet under a central gravitational force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.0117,
+      "question": "If the net external torque on a system is zero, the total angular momentum:",
+      "options": [
+        "Remains constant.",
+        "Increases linearly with time.",
+        "Decreases exponentially with time.",
+        "Changes depending on the moment of inertia."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zero net external torque means total angular momentum is conserved, so it remains constant. The moment of inertia and angular velocity may change, but their product L = Iω stays constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.0532,
+      "question": "The moment of inertia is the rotational analogue of:",
+      "options": [
+        "Velocity",
+        "Force",
+        "Mass",
+        "Acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Moment of inertia</b> measures resistance to changes in rotational motion, just as mass measures resistance to changes in linear motion. It is the rotational analogue of mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.436,
+      "question": "When a spinning ice skater pulls her arms in, her moment of inertia:",
+      "options": [
+        "Increases.",
+        "Decreases.",
+        "Remains constant.",
+        "Becomes exactly zero."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bringing mass closer to the axis of rotation reduces the moment of inertia. This is why the skater spins faster when her arms are pulled in.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793095653922.756,
+      "question": "A torque acting on a rotating body causes a change in its:",
+      "options": [
+        "Moment of inertia.",
+        "Angular momentum.",
+        "Mass distribution.",
+        "Total mechanical energy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Torque is the rotational analogue of force. A net torque changes <b>angular momentum</b>, just as a net force changes linear momentum.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
