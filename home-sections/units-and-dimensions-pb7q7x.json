@@ -3,16 +3,438 @@
   "title": "Units and Dimensions",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1793093323519.6926,
+      "question": "Which of the following is a fundamental physical quantity?",
+      "options": [
+        "Area",
+        "Force",
+        "Mass",
+        "Velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>fundamental (base) quantity</b> cannot be derived from other quantities. The seven SI base quantities are length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity. <b>Mass</b> is one of them. Area, force, and velocity are derived quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.5457,
+      "question": "Which set contains only the seven fundamental quantities in SI?",
+      "options": [
+        "Mass, weight, time, temperature, voltage, mole, candela",
+        "Length, area, time, temperature, current, mole, candela",
+        "Mass, length, time, temperature, current, mole, candela",
+        "Mass, length, velocity, temperature, charge, mole, candela"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The seven SI base quantities are: <b>mass, length, time, thermodynamic temperature, electric current, amount of substance (mole), and luminous intensity (candela)</b>. Option C lists exactly these (with 'current' meaning electric current).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.764,
+      "question": "Which of the following is an example of a derived physical quantity?",
+      "options": [
+        "Time",
+        "Length",
+        "Density",
+        "Current"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>derived quantity</b> is formed by combining base quantities. <b>Density</b> = mass/volume = [M L<sup>−3</sup>], so it is derived. Time, length, and current are base quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.303,
+      "question": "What distinguishes a base unit from a derived unit?",
+      "options": [
+        "Base units are always larger in magnitude than derived units.",
+        "Base units are fundamental and independent.",
+        "Derived units are only used in chemistry, not physics.",
+        "Base units are defined solely by the mass of an object."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Base units</b> are defined independently for the fundamental quantities. <b>Derived units</b> are formed by combining base units (e.g., newton = kg·m/s²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.9104,
+      "question": "The SI base unit for the amount of a substance is the:",
+      "options": [
+        "Kelvin",
+        "Mole",
+        "Candela",
+        "Ampere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI base unit for amount of substance is the <b>mole (mol)</b>. Kelvin is temperature, candela is luminous intensity, ampere is electric current.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.8994,
+      "question": "The fundamental physical quantity measured in Kelvin is:",
+      "options": [
+        "Luminous intensity",
+        "Temperature",
+        "Amount of substance",
+        "Electric current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The kelvin (K) is the SI base unit of <b>thermodynamic temperature</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.1733,
+      "question": "The SI base unit for electric current is the:",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Ampere",
+        "Coulomb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The SI base unit for electric current is the <b>ampere (A)</b>. Volt is potential difference, ohm is resistance, coulomb is charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.8618,
+      "question": "The SI base unit for luminous intensity is the:",
+      "options": [
+        "Lumen",
+        "Lux",
+        "Candela",
+        "Watt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The SI base unit for luminous intensity is the <b>candela (cd)</b>. Lumen and lux are derived photometric units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.667,
+      "question": "Why is the kilogram considered a base unit rather than a derived unit?",
+      "options": [
+        "It is the only unit that uses a prefix.",
+        "It is a fundamental quantity.",
+        "It can be broken down into grams.",
+        "It measures the amount of matter."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The kilogram is the SI base unit of <b>mass</b>, which is a fundamental quantity. The prefix 'kilo' is part of the unit name historically, but mass itself is a base quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.7305,
+      "question": "Which of the following is NOT a base unit in the SI system?",
+      "options": [
+        "Mole",
+        "Newton",
+        "Kelvin",
+        "Candela"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>newton (N)</b> is a derived unit of force (kg·m/s²). Mole, kelvin, and candela are base units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.3376,
+      "question": "The \\dimensions\\ of a physical quantity refer to:",
+      "options": [
+        "The physical size of the object being measured.",
+        "The powers of fundamental units.",
+        "The system of units being used.",
+        "The measuring instrument's precision."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensions describe a quantity in terms of the <b>powers of fundamental quantities</b> (M, L, T, etc.). For example, velocity has dimensions [L T<sup>−1</sup>].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.2024,
+      "question": "How are dimensions conventionally represented in physics?",
+      "options": [
+        "Parentheses",
+        "Square brackets",
+        "Curly brackets",
+        "Angle brackets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensions are written inside <b>square brackets</b>, e.g., [M L T<sup>−2</sup>] for force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.1235,
+      "question": "What is the dimensional formula for Area?",
+      "options": [
+        "[L]",
+        "[L<sup>2</sup>]",
+        "[L<sup>3</sup>]",
+        "[M L<sup>2</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Area = length × length, so its dimension is <b>[L<sup>2</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.0225,
+      "question": "What is the dimensional formula for Velocity?",
+      "options": [
+        "[L T]",
+        "[L T<sup>−1</sup>]",
+        "[L T<sup>−2</sup>]",
+        "[M L T<sup>−1</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Velocity = displacement / time = L / T, so <b>[L T<sup>−1</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.6504,
+      "question": "What is the dimensional formula for Force?",
+      "options": [
+        "[M L<sup>−1</sup> T<sup>−2</sup>]",
+        "[M L T<sup>−2</sup>]",
+        "[M L<sup>2</sup> T<sup>−2</sup>]",
+        "[M L T<sup>−1</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Force = mass × acceleration = M × L T<sup>−2</sup> = <b>[M L T<sup>−2</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.383,
+      "question": "What is the dimensional formula for Energy?",
+      "options": [
+        "[M L T<sup>−2</sup>]",
+        "[M L<sup>2</sup> T<sup>−2</sup>]",
+        "[M L<sup>2</sup> T<sup>−1</sup>]",
+        "[M L<sup>−2</sup> T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy = force × distance = [M L T<sup>−2</sup>] × [L] = <b>[M L<sup>2</sup> T<sup>−2</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.682,
+      "question": "What is the dimensional formula for Pressure?",
+      "options": [
+        "[M L T<sup>−2</sup>]",
+        "[M L<sup>−2</sup> T<sup>−2</sup>]",
+        "[M L<sup>−1</sup> T<sup>−2</sup>]",
+        "[M L<sup>2</sup> T<sup>−2</sup>]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pressure = force / area = [M L T<sup>−2</sup>] / [L<sup>2</sup>] = <b>[M L<sup>−1</sup> T<sup>−2</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.0063,
+      "question": "What is the dimensional formula for Angular Velocity?",
+      "options": [
+        "[T]",
+        "[T<sup>−1</sup>]",
+        "[L T<sup>−1</sup>]",
+        "[M L<sup>2</sup> T<sup>−1</sup>]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular velocity = angle / time. Angle is dimensionless, so dimensions = <b>[T<sup>−1</sup>]</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.2817,
+      "question": "A physical quantity is said to be \\dimensionless\\ when:",
+      "options": [
+        "It has no units.",
+        "Its dimensions are zero.",
+        "It is a fundamental quantity.",
+        "It cannot be measured."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A quantity is dimensionless when all its fundamental dimensions cancel out, i.e., the exponents of M, L, T are zero. It may still have a unit (e.g., radian).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.387,
+      "question": "Which of the following pairs are both examples of dimensionless quantities?",
+      "options": [
+        "Force and Area",
+        "Strain and Angle",
+        "Velocity and Speed",
+        "Work and Energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Strain</b> = extension / original length (L/L = 1) and <b>angle</b> (arc length / radius) are both dimensionless. The other pairs are not both dimensionless.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.6904,
+      "question": "What does the principle of dimensional homogeneity state?",
+      "options": [
+        "All terms in an equation must be exactly zero.",
+        "Dimensions on both sides must be equal.",
+        "An equation can only contain one variable.",
+        "All terms in an equation are dimensionless."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>principle of dimensional homogeneity</b> states that for a physically correct equation, the dimensions of every term on the left-hand side must equal the dimensions of every term on the right-hand side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.8857,
+      "question": "Dimensional analysis can be used to:",
+      "options": [
+        "Derive constants like 2 or π.",
+        "Check physical equations.",
+        "Solve differential equations.",
+        "Determine the temperature."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensional analysis is used to <b>check the consistency of physical equations</b> and to derive relationships between quantities, but it cannot determine dimensionless constants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.3875,
+      "question": "A major limitation of dimensional analysis is:",
+      "options": [
+        "It requires complex calculus.",
+        "It cannot find dimensionless constants.",
+        "It only works for fundamental quantities.",
+        "It requires the CGS system."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensional analysis cannot determine <b>dimensionless constants</b> (e.g., 2π, ½) that appear in equations. It only gives the form of the relationship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.9524,
+      "question": "Why can't you add quantities with different dimensions?",
+      "options": [
+        "It is physically meaningless.",
+        "The calculator gives an error.",
+        "They have different prefixes.",
+        "It violates the SI system rules."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding quantities with different dimensions (e.g., length + time) is <b>physically meaningless</b> because they represent different kinds of quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.3325,
+      "question": "Which has the same dimensions as Work?",
+      "options": [
+        "Power",
+        "Force",
+        "Torque",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Work</b> has dimensions [M L<sup>2</sup> T<sup>−2</sup>]. <b>Torque</b> = force × distance = [M L T<sup>−2</sup>] × [L] = [M L<sup>2</sup> T<sup>−2</sup>], so they have the same dimensions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.8562,
+      "question": "Which has the same dimensions as Momentum?",
+      "options": [
+        "Force",
+        "Energy",
+        "Impulse",
+        "Power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Momentum</b> p = mv = [M L T<sup>−1</sup>]. <b>Impulse</b> = force × time = [M L T<sup>−2</sup>] × [T] = [M L T<sup>−1</sup>]. So they are dimensionally identical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.3757,
+      "question": "The MKS system stands for:",
+      "options": [
+        "Meter-Kilogram-Second",
+        "Millimeter-Kilometer-Second",
+        "Meter-Kelvin-Second",
+        "Mole-Kilogram-Second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>MKS</b> stands for <b>Metre–Kilogram–Second</b>, a coherent system of units based on these three base units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.6177,
+      "question": "The unit \\Newton\\ is a:",
+      "options": [
+        "Base unit",
+        "Derived unit",
+        "Dimensionless unit",
+        "CGS unit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The newton is a <b>derived unit</b> of force: 1 N = 1 kg·m/s². It is not a base unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323520.4758,
+      "question": "What do SI prefixes like \\kilo\\ and \\milli\\ represent?",
+      "options": [
+        "Fundamental quantities",
+        "Multiples and submultiples",
+        "Different systems",
+        "Derived units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SI prefixes indicate <b>multiples and submultiples</b> of units: kilo = 10<sup>3</sup>, milli = 10<sup>−3</sup>, etc.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793093323521.1943,
+      "question": "What is the conceptual difference between mass and weight in terms of units?",
+      "options": [
+        "Mass is in kg, weight is in Newtons.",
+        "Mass is in Newtons, weight is in kg.",
+        "Both are in kilograms.",
+        "Both are dimensionless."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Mass</b> is a base quantity measured in kilograms (kg). <b>Weight</b> is a force (gravitational force on mass) measured in newtons (N).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
