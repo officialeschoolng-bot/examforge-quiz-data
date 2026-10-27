@@ -3,8 +3,429 @@
   "title": "Angular Momentum, Moment of Inertia & Circular Motion",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1793106675435.291,
+      "question": "Uniform circular motion is motion along a circle with constant:",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Speed",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In <b>uniform circular motion</b>, the speed remains constant while the direction of velocity changes continuously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.9597,
+      "question": "In uniform circular motion, the velocity changes because its:",
+      "options": [
+        "Magnitude changes",
+        "Direction changes",
+        "Mass changes",
+        "Unit changes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Velocity is a vector. In uniform circular motion the speed is constant, but the <b>direction changes</b>, so velocity changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.8232,
+      "question": "The velocity of a body in circular motion is directed:",
+      "options": [
+        "Towards the centre",
+        "Away from the centre",
+        "Along the radius",
+        "Along the tangent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Instantaneous velocity in circular motion is always <b>tangent</b> to the circular path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.4353,
+      "question": "Angular displacement is usually measured in:",
+      "options": [
+        "Metres",
+        "Radians",
+        "Newtons",
+        "Joules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular displacement is an angle and is usually measured in <b>radians</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.7534,
+      "question": "One complete revolution corresponds to an angle of:",
+      "options": [
+        "π radians",
+        "2π radians",
+        "π/2 radians",
+        "4π radians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One complete revolution is 360°, which equals <b>2π radians</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.7046,
+      "question": "Angular velocity is the rate of change of:",
+      "options": [
+        "Angular displacement",
+        "Linear displacement",
+        "Mass",
+        "Radius"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angular velocity ω is the rate of change of <b>angular displacement</b>: ω = Δθ/Δt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.2742,
+      "question": "The SI unit of angular velocity is:",
+      "options": [
+        "m/s",
+        "rad/s",
+        "rad",
+        "rad/s²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular velocity is measured in <b>radians per second (rad/s)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.4646,
+      "question": "The period of circular motion is the time taken for:",
+      "options": [
+        "Half a revolution",
+        "A complete revolution",
+        "One metre of travel",
+        "Zero revolutions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The period T is the time taken to complete <b>one full revolution</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.553,
+      "question": "Frequency is the number of revolutions per:",
+      "options": [
+        "Metre",
+        "Kilogram",
+        "Newton",
+        "Unit time"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Frequency f is the number of revolutions completed per <b>unit time</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.5608,
+      "question": "Period and frequency are:",
+      "options": [
+        "Equal to each other",
+        "Unrelated",
+        "Reciprocals of each other",
+        "Directly proportional"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Period and frequency are related by f = 1/T, so they are <b>reciprocals</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675437.498,
+      "question": "The SI unit of frequency is the:",
+      "options": [
+        "Hertz",
+        "Second",
+        "Radian",
+        "Newton"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI unit of frequency is the <b>hertz (Hz)</b>, equal to one cycle per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.9902,
+      "question": "The linear speed of a body in circular motion is related to its angular velocity and the:",
+      "options": [
+        "Mass",
+        "Radius",
+        "Weight",
+        "Density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Linear speed is v = rω, so it depends on angular velocity and <b>radius</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.734,
+      "question": "At a given angular velocity, a point farther from the axis has a linear speed that is:",
+      "options": [
+        "Smaller",
+        "Zero",
+        "Greater",
+        "Equal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since v = rω, for the same ω a larger radius gives a <b>greater</b> linear speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.577,
+      "question": "Centripetal acceleration is directed:",
+      "options": [
+        "Along the tangent",
+        "Away from the centre",
+        "Opposite to the velocity",
+        "Towards the centre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Centripetal acceleration points <b>towards the centre</b> of the circular path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.0076,
+      "question": "The work done by the centripetal force on a body in uniform circular motion is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Centripetal force is perpendicular to the displacement, so the work done is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.6777,
+      "question": "For a stone whirled on a string, the centripetal force is provided by the:",
+      "options": [
+        "Weight of the stone ",
+        "Tension in the string",
+        "Friction",
+        "Air resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>tension in the string</b> provides the inward centripetal force on the stone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.5793,
+      "question": "For the Moon orbiting Earth, the centripetal force is provided by:",
+      "options": [
+        "Friction",
+        "Tension",
+        "Gravity",
+        "Magnetism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Moon is kept in orbit by Earth’s gravitational pull, which provides the <b>centripetal force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.9543,
+      "question": "A body moving in a vertical circle has a tension in the string that is greatest at the:",
+      "options": [
+        "Top",
+        "Midpoint",
+        "Bottom",
+        "Side"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At the <b>bottom</b> of a vertical circle, tension must support the weight and provide centripetal force, so it is greatest there.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.6719,
+      "question": "Kepler’s second law states that a planet sweeps out:",
+      "options": [
+        "Equal areas in equal times",
+        "Equal distances in equal times",
+        "Equal angles in equal radii",
+        "Equal speeds at all points"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kepler’s second law: a planet sweeps out <b>equal areas in equal times</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.2102,
+      "question": "According to Kepler’s second law, a planet moves fastest when it is:",
+      "options": [
+        "Farthest from the Sun",
+        "Closest to the Sun",
+        "At the midpoint",
+        "At rest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A planet moves fastest when it is <b>closest to the Sun</b>, where its orbital radius is smallest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.3918,
+      "question": "Newton’s law of gravitation states that every two masses attract each other with a force proportional to the:",
+      "options": [
+        "Sum of their masses",
+        "Difference of their masses",
+        "Product of their masses",
+        "Square of their masses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Newton’s law of gravitation: F ∝ m₁m₂/r², so the force is proportional to the <b>product of the masses</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.278,
+      "question": "The gravitational force between two masses is always:",
+      "options": [
+        "Repulsive",
+        "Zero",
+        "Variable in sign",
+        "Attractive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gravitational force is always <b>attractive</b> between two masses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.3076,
+      "question": "The constant G in Newton’s law is called the:",
+      "options": [
+        "Universal gravitational constant",
+        "Universal Spring constant",
+        "Universal Gas constant",
+        "Universal Coulomb constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The constant G is the <b>universal gravitational constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.9858,
+      "question": "The constant G was first measured experimentally by:",
+      "options": [
+        "Galileo",
+        "Faraday",
+        "Cavendish",
+        "Kepler"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The value of G was first measured experimentally by Henry <b>Cavendish</b> using a torsion balance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.3315,
+      "question": "Gravitational force pairs between two bodies are:",
+      "options": [
+        "Unequal in magnitude",
+        "Equal magnitude opposite ",
+        "Equal in magnitude and same direction",
+        "Always zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton’s third law, gravitational force pairs are <b>equal in magnitude and opposite in direction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.2097,
+      "question": "The acceleration due to gravity at Earth’s surface depends on Earth’s mass and:",
+      "options": [
+        "Earth’s radius",
+        "The falling body’s mass",
+        "The falling body’s shape",
+        "The falling body’s speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At Earth’s surface, g = GM/R², so it depends on Earth’s mass and <b>Earth’s radius</b>, not on the falling body’s mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.4717,
+      "question": "The acceleration due to gravity with increasing height above Earth’s surface:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays the same",
+        "Becomes infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since g = GM/r², as height increases r increases, so g <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.7964,
+      "question": "The gravitational field strength at a point is the force per unit:",
+      "options": [
+        "Charge",
+        "Volume",
+        "Mass",
+        "Area"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gravitational field strength is the gravitational force per unit <b>mass</b>: g = F/m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.3718,
+      "question": "Escape velocity is the minimum speed needed for a body to:",
+      "options": [
+        "Orbit Earth at a low height",
+        "Fall back to Earth",
+        "Reach the top of a building",
+        "Leave a planet"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Escape velocity is the minimum speed required to <b>leave a planet’s gravitational field</b> without further propulsion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793106675438.9263,
+      "question": "A geostationary satellite has an orbital period equal to Earth’s:",
+      "options": [
+        "Rotation period",
+        "Orbital period around the Sun",
+        "Lunar period",
+        "Seasonal period"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A geostationary satellite orbits with a period equal to Earth’s <b>rotation period</b>, so it stays above the same point on the equator.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": false,
     "canPracticeMode": false,
