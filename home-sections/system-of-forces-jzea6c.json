@@ -3,16 +3,494 @@
   "title": "System of Forces",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 34,
+  "questions": [
+    {
+      "id": 1793107749289.1848,
+      "question": "Kinematics is the branch of mechanics that studies motion:",
+      "options": [
+        "Including the forces that cause it",
+        "Without regard to its causes",
+        "Of stationary bodies only",
+        "Of rotating bodies only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Kinematics</b> describes motion — position, velocity, acceleration, time — <b>without regard to the forces that cause it</b>. Dynamics, by contrast, deals with forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749290.235,
+      "question": "Distance is best described as:",
+      "options": [
+        "A vector quantity",
+        "The straight-line gap between two points",
+        "The total length of path travelled",
+        "Always equal to displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Distance</b> is the <b>total length of path travelled</b>. It is a scalar and is never less than the magnitude of displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749290.677,
+      "question": "The magnitude of displacement is never greater than the:",
+      "options": [
+        "Distance travelled",
+        "Speed",
+        "Velocity",
+        "Acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The straight-line displacement can never exceed the actual path length, so |displacement| ≤ <b>distance travelled</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749290.938,
+      "question": "If a body completes a round trip, its displacement is zero but its distance is:",
+      "options": [
+        "Zero",
+        "Negative",
+        "Non-zero",
+        "Undefined"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a round trip, the start and end positions are the same, so displacement is zero while the <b>distance travelled is non-zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.9556,
+      "question": "Speed is defined as:",
+      "options": [
+        "Displacement per unit time",
+        "Force per unit time",
+        "Change in velocity per unit time",
+        "Distance covered per unit time"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Speed</b> is the <b>distance covered per unit time</b>. It is a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.734,
+      "question": "Velocity is the rate of change of:",
+      "options": [
+        "Displacement",
+        "Speed",
+        "Momentum",
+        "Distance travelled"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Velocity</b> is the rate of change of <b>displacement</b> with time: v = Δs/Δt. It is a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.9832,
+      "question": "The SI unit of velocity is:",
+      "options": [
+        "m/s²",
+        "m",
+        "m/s",
+        "kg m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity is displacement per unit time, so its SI unit is <b>m/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.325,
+      "question": "Average speed is the total distance divided by the:",
+      "options": [
+        "Total displacement",
+        "Total time taken",
+        "Final velocity",
+        "Mean acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Average speed = total distance ÷ <b>total time taken</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.443,
+      "question": "Instantaneous velocity is the velocity:",
+      "options": [
+        "At a particular instant",
+        "Averaged over the whole journey",
+        "Equal to total displacement",
+        "That is always zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Instantaneous velocity</b> is the velocity <b>at a particular instant</b>, equal to the limit of Δs/Δt as Δt → 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.051,
+      "question": "On a displacement–time graph, the instantaneous velocity is given by the:",
+      "options": [
+        "Area under the curve",
+        "Intercept on the time axis",
+        "Height of the curve",
+        "Slope of the tangent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>slope of the tangent</b> to a displacement–time graph gives the instantaneous velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.364,
+      "question": "A straight sloping line on a displacement–time graph indicates:",
+      "options": [
+        "Constant acceleration",
+        "Constant velocity",
+        "Rest",
+        "Variable velocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A straight line on a displacement–time graph has constant slope, indicating <b>constant velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.664,
+      "question": "A horizontal line on a displacement–time graph indicates that the body is:",
+      "options": [
+        "Accelerating uniformly",
+        "Moving uniformly",
+        "At rest",
+        "In free fall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A horizontal line on a displacement–time graph means displacement is not changing, so the body is <b>at rest</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.848,
+      "question": "Acceleration is the rate of change of:",
+      "options": [
+        "Distance",
+        "Position",
+        "Displacement",
+        "Velocity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Acceleration</b> is the rate of change of <b>velocity</b> with time: a = Δv/Δt.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.227,
+      "question": "The SI unit of acceleration is:",
+      "options": [
+        "m/s²",
+        "m/s",
+        "N",
+        "J"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acceleration is velocity per unit time, so its SI unit is <b>m/s²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.995,
+      "question": "Retardation is the term used when a body’s:",
+      "options": [
+        "Speed is increasing",
+        "Speed is decreasing",
+        "Mass is decreasing",
+        "Direction is constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Retardation</b> (deceleration) is negative acceleration, used when a body’s <b>speed is decreasing</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.3503,
+      "question": "A body moving with constant velocity has an acceleration that is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Infinite",
+        "Zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Constant velocity means no change in velocity, so acceleration is <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.3027,
+      "question": "A horizontal line on a velocity–time graph indicates:",
+      "options": [
+        "Zero velocity",
+        "Constant acceleration",
+        "Uniform velocity",
+        "Free fall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A horizontal velocity–time line means velocity is not changing, so the body has <b>uniform velocity</b> (zero acceleration).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.6245,
+      "question": "The slope of a velocity–time graph gives the:",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Distance",
+        "Speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>slope of a velocity–time graph</b> gives the acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.3608,
+      "question": "The area under a velocity–time graph gives the:",
+      "options": [
+        "Acceleration",
+        "Force",
+        "Displacement",
+        "Momentum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The area under a velocity–time graph is ∫v dt, which gives the <b>displacement</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.0552,
+      "question": "A straight sloping line on a velocity–time graph indicates:",
+      "options": [
+        "Uniform acceleration",
+        "Uniform velocity",
+        "Rest",
+        "Zero acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A straight sloping velocity–time line has constant slope, indicating <b>uniform acceleration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.736,
+      "question": "The equations of motion apply to bodies moving with:",
+      "options": [
+        "Variable acceleration",
+        "Changing mass",
+        "Constant acceleration",
+        "Zero speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The standard equations of motion apply only to bodies moving with <b>constant acceleration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.398,
+      "question": "In the equations of motion, the symbol u stands for the:",
+      "options": [
+        "Initial velocity",
+        "Final velocity",
+        "Time taken",
+        "Displacement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the equations of motion, <b>u</b> represents the <b>initial velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.4426,
+      "question": "Which equation of motion does not involve time?",
+      "options": [
+        "v = u + at",
+        "s = ut + ½at²",
+        "s = vt",
+        "v² = u² + 2as"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The equation <b>v² = u² + 2as</b> does not contain the time variable t.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.6982,
+      "question": "Free fall is motion under the influence of:",
+      "options": [
+        "Friction alone",
+        "Gravity alone",
+        "Thrust",
+        "Air resistance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Free fall</b> is motion under the influence of <b>gravity alone</b>, with air resistance neglected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.394,
+      "question": "Near Earth’s surface, the acceleration due to gravity is:",
+      "options": [
+        "Zero",
+        "Dependent on the falling body’s mass",
+        "Approximately constant",
+        "Increasing with time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Near Earth’s surface, g ≈ 9.8 m/s² and is <b>approximately constant</b>, independent of the falling body’s mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.9153,
+      "question": "Ignoring air resistance, a heavy and a light body dropped from the same height reach the ground:",
+      "options": [
+        "The heavier first",
+        "The lighter first",
+        "Depending on their colour",
+        "At the same time"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ignoring air resistance, both fall with the same acceleration g, so they reach the ground <b>at the same time</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.3923,
+      "question": "Who showed that all bodies fall with the same acceleration regardless of mass?",
+      "options": [
+        "Faraday",
+        "Galileo",
+        "Joule",
+        "Kepler"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Galileo</b> showed that, ignoring air resistance, all bodies fall with the same acceleration regardless of mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.1472,
+      "question": "A body thrown vertically upward has a velocity at its maximum height that is:",
+      "options": [
+        "Maximum",
+        "Upward",
+        "Downward",
+        "Zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At maximum height, the vertical velocity of a body thrown upward is momentarily <b>zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.1714,
+      "question": "Ignoring air resistance, the time to rise to maximum height compared with the time to fall back to the launch level is:",
+      "options": [
+        "Longer",
+        "Shorter",
+        "Zero",
+        "Equal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ignoring air resistance, the motion is symmetric, so the time up equals the <b>time down</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.5793,
+      "question": "After launch, a projectile moves under the influence of:",
+      "options": [
+        "Constant thrust",
+        "Gravity alone",
+        "Friction",
+        "Centripetal force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After launch, the only force on a projectile (ignoring air resistance) is gravity, so it moves under <b>gravity alone</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.5884,
+      "question": "The path of a projectile is a:",
+      "options": [
+        "Parabola",
+        "Circle",
+        "Straight line",
+        "Hyperbola"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The trajectory of a projectile under constant gravity is a <b>parabola</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.3171,
+      "question": "The horizontal component of a projectile’s velocity:",
+      "options": [
+        "Increases steadily",
+        "Decreases steadily",
+        "Is always zero",
+        "Stays constant"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ignoring air resistance, no horizontal force acts, so the <b>horizontal velocity stays constant</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.8892,
+      "question": "The acceleration of a projectile throughout its flight is:",
+      "options": [
+        "Zero",
+        "Horizontal only",
+        "g directed downward",
+        "Variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ignoring air resistance, a projectile’s acceleration is always <b>g directed downward</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793107749291.9856,
+      "question": "Two projectiles launched with the same speed at complementary angles have:",
+      "options": [
+        "Different ranges",
+        "Equal ranges",
+        "Zero range",
+        "Equal maximum heights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the same launch speed, complementary angles (e.g., 30° and 60°) give the same range: R = v²sin2θ/g is symmetric about 45°. So ranges are <b>equal</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 20
 }
