@@ -3,16 +3,718 @@
   "title": "CHM 101 ( UNIZIK ) : PARTICULATE NATURE OF MATTER, SYMBOL AND FORMULAE",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793194464258.9087,
+      "question": "Which particle is the smallest unit of an element that can enter into a chemical combination?",
+      "options": [
+        "Ion",
+        "Molecule",
+        "Radical",
+        "Atom"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An atom is defined as the smallest particle of an element that retains its properties and can enter into chemical combination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.3079,
+      "question": "Which term describes a substance's smallest particle that can normally exist alone and retain its chemical properties?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Ion",
+        "Cation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A molecule is the smallest particle of a substance that can normally exist alone while retaining the chemical properties of that substance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.5115,
+      "question": "Which property defines the number of atoms in each molecule of an element?",
+      "options": [
+        "Valency",
+        "Mole ratio",
+        "Atomicity",
+        "Atomic mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atomicity refers to the number of atoms present in one molecule of an element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.8804,
+      "question": "Which group of elements consists entirely of monoatomic molecules?",
+      "options": [
+        "Halogens",
+        "Alkali metals",
+        "Alkaline earth metals",
+        "Noble gases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All noble gases and metals exist as monoatomic molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.508,
+      "question": "Which of the following elements exists as a diatomic molecule?",
+      "options": [
+        "Helium",
+        "Neon",
+        "Oxygen",
+        "Argon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydrogen, nitrogen, fluorine, oxygen, iodine, chlorine, and bromine exist as diatomic molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.5452,
+      "question": "Which element is known to exist as a triatomic molecule?",
+      "options": [
+        "Ozone",
+        "Sulphur",
+        "Phosphorus",
+        "Chlorine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxygen can exist as ozone, which is a triatomic molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.1484,
+      "question": "Which element exists in a tetra-atomic molecular form?",
+      "options": [
+        "Sulphur",
+        "Phosphorus",
+        "Ozone",
+        "Bromine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phosphorus is known to exist as a tetra-atomic molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.832,
+      "question": "Which term describes an atom or group of atoms that possesses an electric charge?",
+      "options": [
+        "Ion",
+        "Radical",
+        "Molecule",
+        "Isotope"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An ion is defined as an atom or group of atoms that possess an electric charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.0198,
+      "question": "Which type of ion is formed when a metal loses electrons?",
+      "options": [
+        "Anion",
+        "Radical",
+        "Cation",
+        "Neutron"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cations are positively charged ions generally formed by metals through the loss of electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.649,
+      "question": "Which type of ion is generally formed by nonmetals gaining electrons?",
+      "options": [
+        "Cation",
+        "Proton",
+        "Anion",
+        "Radical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anions are negatively charged ions typically formed by nonmetals through the gain of electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.4285,
+      "question": "Which term describes a group of atoms carrying either a positive or negative charge?",
+      "options": [
+        "Radical",
+        "Cation",
+        "Anion",
+        "Molecule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A radical is a group of atoms that carry either a positive or negative charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9436,
+      "question": "Which letter must always be capitalized when writing a chemical symbol?",
+      "options": [
+        "Second letter",
+        "First letter",
+        "Third letter",
+        "Last letter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first letter of a chemical symbol must always be capitalized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.4177,
+      "question": "Which is the correct chemical symbol for an element when using its first two letters?",
+      "options": [
+        "He",
+        "HE",
+        "he",
+        "hE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When using two letters, the first must be capitalized and the second small, as in He for Helium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9915,
+      "question": "Which symbol is derived from the first letter and any other letter of the element name?",
+      "options": [
+        "Mg",
+        "Ca",
+        "Li",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnesium uses the first letter and another letter from its name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.1912,
+      "question": "Which element's symbol is derived from its Latin name Natrium?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Sodium",
+        "Potassium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sodium's symbol comes from its Latin name, Natrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.533,
+      "question": "Which Latin name is used to derive the symbol for Iron?",
+      "options": [
+        "Ferrum",
+        "Cuprum",
+        "Kalium",
+        "Argentum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The symbol for iron is derived from its Latin name, Ferrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.124,
+      "question": "Which element has the chemical symbol Cu?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Copper",
+        "Lead"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Copper's symbol is derived from its Latin name, Cuprum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.3284,
+      "question": "Which element is represented by the symbol K?",
+      "options": [
+        "Potassium",
+        "Sodium",
+        "Calcium",
+        "Cadmium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Potassium's symbol is derived from its Latin name, Kalium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.7544,
+      "question": "Which element is represented by the symbol Hg?",
+      "options": [
+        "Silver",
+        "Lead",
+        "Mercury",
+        "Gold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mercury's symbol is derived from its Latin name, Hydrargyrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.8682,
+      "question": "Which term describes an abbreviated form of the name of an element representing one atom of the element?",
+      "options": [
+        "Atomic number",
+        "Chemical symbol",
+        "Structural formula",
+        "Molecular mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A chemical symbol is an abbreviated form of the name of an element representing one atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.0698,
+      "question": "Which rule states that the first letter of an element's name is used as its symbol and must be capitalized?",
+      "options": [
+        "Second principle",
+        "Third principle",
+        "Fourth principle",
+        "First principle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The first principle associated with writing chemical symbols states the first letter is used and capitalized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.173,
+      "question": "Which term describes a collection of chemical symbols showing the elements in a compound?",
+      "options": [
+        "Chemical formula",
+        "Empirical formula",
+        "Molecular formula",
+        "Structural formula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A chemical formula is a collection of chemical symbols used to show elements present in a compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.49,
+      "question": "In the chemical formula for ammonia, which element does the subscript 3 refer to?",
+      "options": [
+        "Nitrogen",
+        "Both elements",
+        "Neither element",
+        "Hydrogen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A subscript applies only to the symbol immediately before it, so the 3 refers to hydrogen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.1692,
+      "question": "Which number of oxygen atoms is present in sodium sulphate?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The formula Na2SO4 indicates the presence of four oxygen atoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.6077,
+      "question": "Which operation is performed on atoms inside brackets in a chemical formula?",
+      "options": [
+        "Addition of atoms",
+        "Multiplying",
+        "Subtraction of atoms",
+        "Division of atoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atoms inside brackets are multiplied by the number outside the brackets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.3552,
+      "question": "Which total number of oxygen atoms is present in aluminium sulphate?",
+      "options": [
+        "Four",
+        "Eight",
+        "Twelve",
+        "Three"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are 3 sulphate groups, each with 4 oxygen atoms, totaling 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.1934,
+      "question": "Which element is written first in the formula of a compound containing a metal and a nonmetal?",
+      "options": [
+        "Nonmetal",
+        "Metal",
+        "Heavier element",
+        "Lighter element"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The symbol of the metal is always written first, followed by that of the nonmetal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.4595,
+      "question": "Which term defines the number of hydrogen atoms that can combine with one atom of an element?",
+      "options": [
+        "Atomicity",
+        "Molarity",
+        "Valency",
+        "Basicity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Valency is the number of hydrogen atoms that can combine with or replace one atom of an element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.0984,
+      "question": "Which action is taken when writing a polyatomic ion in a formula if its number is one?",
+      "options": [
+        "Omit brackets",
+        "Use brackets",
+        "Use parentheses",
+        "Add a subscript"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the number of polyatomic ions is one, the bracket is not required.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.651,
+      "question": "Which condition must be met by an ionic compound regarding its charges?",
+      "options": [
+        "Positive charges dominate",
+        "Negative charges dominate",
+        "No overall charge",
+        "Random charge balance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The number of positive charges must equal the number of negative charges for no overall charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9133,
+      "question": "Which method is used to determine the formula when ion charges differ?",
+      "options": [
+        "Swap and drop",
+        "Add and subtract",
+        "Multiply and divide",
+        "Guess and check"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The swap and drop method helps write formulas when the number of charges differs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.1814,
+      "question": "Which isotope is used as the standard for estimating relative atomic masses?",
+      "options": [
+        "Carbon-14",
+        "Carbon-12",
+        "Oxygen-16",
+        "Hydrogen-1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemists use the atom of carbon-12 to estimate relative atomic masses of other elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.092,
+      "question": "Which relative molecular mass value corresponds to slaked lime?",
+      "options": [
+        "56",
+        "74",
+        "40",
+        "90"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The RMM of calcium hydroxide is calculated as 40 + 32 + 2 = 74.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.4993,
+      "question": "Which quantity is defined as the amount of substance containing the same number of particles as 12.00g of carbon-12?",
+      "options": [
+        "Molar mass",
+        "Atomic mass",
+        "Avogadro's number",
+        "Mole"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A mole is the amount of substance containing the same number of particles as 12.00g of carbon-12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.7507,
+      "question": "Which numerical value represents Avogadro's number?",
+      "options": [
+        "6.022 x 10^24",
+        "6.022 x 10^22",
+        "6.022 x 10^23",
+        "3.011 x 10^23"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Avogadro's number is the number of particles in one mole, equal to 6.022 x 10^23.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.748,
+      "question": "Which formula is used to calculate the number of moles from the number of particles?",
+      "options": [
+        "n = m / Mm",
+        "n = P / V",
+        "n = V / T",
+        "n = N / NA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The number of moles is calculated by dividing the number of particles by Avogadro's number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.874,
+      "question": "Which unit is used to express the molar mass of a substance?",
+      "options": [
+        "g/mol",
+        "mol/g",
+        "g/mL",
+        "mol/L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molar mass is the mass of one mole of a substance expressed in grams per mole.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9648,
+      "question": "Which mass value corresponds to 2 moles of water?",
+      "options": [
+        "18 g",
+        "36 g",
+        "9 g",
+        "54 g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The molar mass of water is 18 g/mol, so 2 moles weigh 36 g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.3325,
+      "question": "Which information is needed to calculate the percentage composition of an element in a compound?",
+      "options": [
+        "Color and density",
+        "Melting and boiling point",
+        "Volume and pressure",
+        "Molar mass and formula"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The formula of the compound and the relative atomic masses of its elements are needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.616,
+      "question": "Which percentage by mass of oxygen is present in calcium carbonate?",
+      "options": [
+        "48%",
+        "12%",
+        "40%",
+        "16%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxygen contributes 48g out of a 100g molar mass of calcium carbonate, which is 48%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.0098,
+      "question": "Which formula indicates the simplest ratio of atoms of each element in a compound?",
+      "options": [
+        "Molecular formula",
+        "Structural formula",
+        "Empirical formula",
+        "Condensed formula"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The empirical formula indicates the simplest ratio of atoms in a compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.6555,
+      "question": "Which formula indicates the actual number of atoms of each element in a molecule?",
+      "options": [
+        "Empirical formula",
+        "Electronic formula",
+        "Displayed formula",
+        "Molecular formula"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The molecular formula indicates the actual number of atoms in a molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.0884,
+      "question": "Which relationship exists between the molecular and empirical formulas of a compound?",
+      "options": [
+        "They are always identical",
+        "They are always different",
+        "Molecular is a simple multiple",
+        "Empirical is a complex multiple"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The molecular formula is always a simple multiple of the empirical formula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.124,
+      "question": "Which compound has identical empirical and molecular formulas?",
+      "options": [
+        "Benzene",
+        "Glucose",
+        "Water",
+        "Ethyne"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For some compounds like water, both empirical and molecular formulas are identical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.29,
+      "question": "Which empirical formula corresponds to glucose?",
+      "options": [
+        "CH2O",
+        "C6H12O6",
+        "CH",
+        "C2H4O2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The empirical formula for glucose is CH2O, while its molecular formula is C6H12O6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.217,
+      "question": "Which type of compound lacks a molecular formula?",
+      "options": [
+        "Covalent compound",
+        "Pure ionic compound",
+        "Organic compound",
+        "Gaseous compound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pure ionic compounds have no molecules and therefore lack a molecular formula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9136,
+      "question": "Which scientist proposed the Law of Conservation of Mass?",
+      "options": [
+        "Proust",
+        "Avogadro",
+        "Lavoisier",
+        "Dalton"
+      ],
+      "correctAnswer": 3,
+      "explanation": "John Dalton proposed the law of conservation of matter, which states matter is neither created nor destroyed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.5652,
+      "question": "Which scientist proposed the Law of Definite Proportion?",
+      "options": [
+        "Dalton",
+        "Avogadro",
+        "Graham",
+        "Proust"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The law of definite proportion was proposed by Proust.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.9578,
+      "question": "Which set of compounds best illustrates the Law of Multiple Proportions?",
+      "options": [
+        "CO and CO2",
+        "H2O and H2O2",
+        "NaCl and KCl",
+        "FeCl2 and CuCl2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon and oxygen combine to form CO and CO2, demonstrating the law of multiple proportions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793194464262.601,
+      "question": "Which law applies when elements A, B, and C combine separately with D and also with one another?",
+      "options": [
+        "Law of Conservation of Mass",
+        "Law of Definite Proportion",
+        "Law of Reciprocal Proportions",
+        "Law of Multiple Proportions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The law of reciprocal proportions applies to the masses of different elements combining separately with a fixed mass of another element.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
