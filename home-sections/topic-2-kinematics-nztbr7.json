@@ -3,7 +3,7 @@
   "title": "Topic 2: Kinematics",
   "subject": "",
   "level": "",
-  "totalQuestions": 40,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": 1793275209424.7124,
@@ -16,62 +16,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Kinematics</b> describes motion — position, velocity, acceleration, time — <b>without regard to the forces that cause it</b>. Dynamics, by contrast, deals with forces.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209429.6833,
-      "question": "Distance is best described as:",
-      "options": [
-        "A vector quantity",
-        "The straight-line gap between two points",
-        "The total length of path travelled",
-        "Always equal to displacement"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Distance</b> is the <b>total length of path travelled</b>. It is a scalar and is never less than the magnitude of displacement.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209429.5068,
-      "question": "Displacement is:",
-      "options": [
-        "The total path length",
-        "A scalar quantity",
-        "Always greater than distance",
-        "The change in position with direction"
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>Displacement</b> is the <b>change in position</b>, including direction. It is a vector and its magnitude is never greater than the distance travelled.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209429.0996,
-      "question": "The magnitude of displacement is never greater than the:",
-      "options": [
-        "Distance travelled",
-        "Speed",
-        "Velocity",
-        "Acceleration"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The straight-line displacement can never exceed the actual path length, so |displacement| ≤ <b>distance travelled</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209429.2793,
-      "question": "If a body completes a round trip, its displacement is zero but its distance is:",
-      "options": [
-        "Zero",
-        "Negative",
-        "Non-zero",
-        "Undefined"
-      ],
-      "correctAnswer": 2,
-      "explanation": "For a round trip, the start and end positions are the same, so displacement is zero while the <b>distance travelled is non-zero</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -128,20 +72,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Average speed = total distance ÷ <b>total time taken</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209429.4246,
-      "question": "Uniform velocity means that:",
-      "options": [
-        "Speed keeps changing",
-        "Direction keeps changing",
-        "Speed and direction both stay constant",
-        "Acceleration is constant and non-zero"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Uniform velocity</b> means both <b>speed and direction stay constant</b>, so acceleration is zero.",
       "difficulty": "easy",
       "points": 1
     },
@@ -230,20 +160,6 @@
       "points": 1
     },
     {
-      "id": 1793275209430.3313,
-      "question": "Uniform acceleration means that velocity changes by:",
-      "options": [
-        "Zero amount",
-        "Random amounts",
-        "Equal amounts in equal time intervals",
-        "Increasing amounts each second"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Uniform acceleration</b> means velocity changes by <b>equal amounts in equal time intervals</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793275209430.5093,
       "question": "Retardation is the term used when a body’s:",
       "options": [
@@ -328,20 +244,6 @@
       "points": 1
     },
     {
-      "id": 1793275209430.65,
-      "question": "A curved line on a velocity–time graph indicates:",
-      "options": [
-        "Constant acceleration",
-        "Rest",
-        "Uniform velocity",
-        "Non-uniform acceleration"
-      ],
-      "correctAnswer": 3,
-      "explanation": "A curved velocity–time line has a changing slope, indicating <b>non-uniform acceleration</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793275209430.8042,
       "question": "The equations of motion apply to bodies moving with:",
       "options": [
@@ -366,20 +268,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "In the equations of motion, <b>u</b> represents the <b>initial velocity</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209430.6155,
-      "question": "The velocity of body A relative to body B is found by:",
-      "options": [
-        "Adding both velocities",
-        "Subtracting the velocity of B from that of A",
-        "Multiplying both velocities",
-        "Dividing one by the other"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Relative velocity of A with respect to B is <b>v_A − v_B</b>, i.e., subtracting the velocity of B from that of A (vector subtraction).",
       "difficulty": "easy",
       "points": 1
     },
@@ -468,20 +356,6 @@
       "points": 1
     },
     {
-      "id": 1793275209432.8877,
-      "question": "At the highest point, the acceleration of a body thrown upward is:",
-      "options": [
-        "Directed downward and equal to g",
-        "Zero",
-        "Directed upward",
-        "Infinite"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Even at the highest point, acceleration due to gravity is <b>g directed downward</b>. Only the velocity is zero, not the acceleration.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793275209432.745,
       "question": "Ignoring air resistance, the time to rise to maximum height compared with the time to fall back to the launch level is:",
       "options": [
@@ -534,20 +408,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "Ignoring air resistance, no horizontal force acts, so the <b>horizontal velocity stays constant</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793275209432.9346,
-      "question": "The acceleration of a projectile throughout its flight is:",
-      "options": [
-        "Zero",
-        "Horizontal only",
-        "g directed downward",
-        "Variable"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Ignoring air resistance, a projectile’s acceleration is always <b>g directed downward</b>.",
       "difficulty": "easy",
       "points": 1
     },
