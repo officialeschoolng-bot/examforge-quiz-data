@@ -3,16 +3,718 @@
   "title": "BIO 101 ( UNIZIK ) : DEFINITION OF BIOLOGY",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793290786747.5483,
+      "question": "Biology is derived from which Greek words?",
+      "options": [
+        "Bios and logos",
+        "Life and science",
+        "Earth and study",
+        "Plants and animals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biology comes from the Greek words bios meaning life and logos meaning study.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4612,
+      "question": "The Greek word logos in biology means which term?",
+      "options": [
+        "Life",
+        "Earth",
+        "Study",
+        "Organism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Logos means study, while bios means life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.7554,
+      "question": "Biology is defined as the study of which subject?",
+      "options": [
+        "Living organisms",
+        "Non-living matter",
+        "Chemical reactions",
+        "Physical forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biology is the study of living organisms and their vital processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.2322,
+      "question": "Anatomy is the study of which aspect of organisms?",
+      "options": [
+        "Body structures",
+        "Body functions",
+        "Chemical reactions",
+        "Diseases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anatomy deals with the study of organisms' structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6443,
+      "question": "Botany is the study of which group of organisms?",
+      "options": [
+        "Animals",
+        "Plants",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Botany is the branch of biology that studies plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6975,
+      "question": "Genetics is the study of which entities?",
+      "options": [
+        "Genes",
+        "Cells",
+        "Tissues",
+        "Organs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetics is the study of genes and heredity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5527,
+      "question": "Immunology is the study of which body system?",
+      "options": [
+        "Digestive system",
+        "Nervous system",
+        "Immune system",
+        "Respiratory system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Immunology focuses on the study of the immune system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.05,
+      "question": "Microbiology deals with which type of organisms?",
+      "options": [
+        "Microscopic organisms",
+        "Microscopic organisms in soil",
+        "Large mammals",
+        "Flowering plants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Microbiology is the study of microscopic organisms and their interactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6785,
+      "question": "Biotechnology involves the manipulation of which material?",
+      "options": [
+        "Living matter",
+        "Soil particles",
+        "Water molecules",
+        "Rock fragments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biotechnology involves the manipulation of living matter including genetic modification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.7305,
+      "question": "Bioinformatics uses information technology to study which type of data?",
+      "options": [
+        "Genomic and biological data",
+        "Chemical and physical data",
+        "Geological and soil data",
+        "Atmospheric and weather data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bioinformatics applies information technology to genomic and other biological data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.1616,
+      "question": "Pathology is the study of which subject?",
+      "options": [
+        "Human diseases",
+        "Body cells",
+        "Genetic codes",
+        "Body tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pathology or pathobiology studies diseases and their causes and development.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5625,
+      "question": "Pharmacology studies the interactions between drugs and which entity?",
+      "options": [
+        "Living organisms",
+        "Single cells",
+        "Genetic material",
+        "Body tissues"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pharmacology studies interactions between drugs and organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.7378,
+      "question": "Physiology deals with which aspect of living organisms?",
+      "options": [
+        "Functions and mechanisms",
+        "Structures and forms",
+        "Chemical reactions",
+        "Evolutionary relationships"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physiology studies the functions and mechanisms occurring in living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.61,
+      "question": "Living things include plants, animals, and which other group?",
+      "options": [
+        "Microorganisms",
+        "Non-living matter",
+        "Chemical elements",
+        "Inorganic compounds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Living things include plants, animals, and microorganisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4253,
+      "question": "Bacteria are neither plants nor animals because they are which type of organisms?",
+      "options": [
+        "Prokaryotes",
+        "Eukaryotes",
+        "Multicellular",
+        "Photosynthetic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bacteria are prokaryotes, lacking a nucleus, unlike plants and animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.9324,
+      "question": "Both archaea and bacteria lack which cellular structure?",
+      "options": [
+        "Nucleus",
+        "Cell wall",
+        "Cytoplasm",
+        "Ribosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Archaea and bacteria are prokaryotes and lack a nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.1135,
+      "question": "Living things were initially classified into which two groups?",
+      "options": [
+        "Plants and animals",
+        "Fungi and bacteria",
+        "Protists and monera",
+        "Archaea and fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Living things were initially classified as either plants or animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.073,
+      "question": "Animals are distinguished from plants by which feature?",
+      "options": [
+        "Mode of nutrition",
+        "Cell size",
+        "Habitat type",
+        "Reproductive rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Animals are motile and heterotrophic while plants are non-motile and photosynthetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.758,
+      "question": "The classification of living things includes how many levels?",
+      "options": [
+        "Seven",
+        "Three",
+        "Four",
+        "Eight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The classification includes seven levels: kingdom, phylum, class, order, family, genus, and species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.2407,
+      "question": "How many kingdoms are currently recognized?",
+      "options": [
+        "Five",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are five kingdoms: Animalia, Plantae, Monera, Protista, and Fungi.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.479,
+      "question": "Organisms are placed into kingdoms based on which criteria?",
+      "options": [
+        "Food acquisition and cell type",
+        "Habitat and size",
+        "Color and shape",
+        "Age and origin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kingdoms are based on how organisms acquire food, their cell types, and cell number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.9348,
+      "question": "The most fundamental classification of living things is which level?",
+      "options": [
+        "Kingdom",
+        "Phylum",
+        "Species",
+        "Class"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kingdoms form the most fundamental classification level of living things.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.14,
+      "question": "The phylum level attempts to find which kind of similarity among organisms?",
+      "options": [
+        "Physical resemblance",
+        "Genetic mutation",
+        "Behavioral pattern",
+        "Reproductive rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phylum seeks physical resemblance among organisms within a kingdom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4722,
+      "question": "Physical similarities at the phylum level suggest which relationship?",
+      "options": [
+        "Common ancestry",
+        "Random mutation",
+        "Environmental adaptation",
+        "Geographic isolation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Physical similarities suggest a common ancestry among organisms in a phylum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6228,
+      "question": "Humans belong to which class because they drink milk as babies?",
+      "options": [
+        "Mammal",
+        "Reptile",
+        "Amphibian",
+        "Avian"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans are mammals because they drink milk as babies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6702,
+      "question": "Classes are used to further subdivide which classification level?",
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Order",
+        "Family"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Classes are used to further subdivide organisms of a phylum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.831,
+      "question": "A taxonomy key is best described as which of the following?",
+      "options": [
+        "Checklist of characteristics",
+        "Guide for grouping organisms based on features",
+        "List of organism names",
+        "Map of habitats"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A taxonomy key is a checklist of characteristics that determine how organisms are grouped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4084,
+      "question": "Orders in each class are further broken down into which level?",
+      "options": [
+        "Family",
+        "Genus",
+        "Species",
+        "Phylum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Orders are further broken down into families.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.2957,
+      "question": "Organisms within a family are said to be related because of which factor?",
+      "options": [
+        "Common ancestry",
+        "Evolutionary relationship",
+        "Similar habitat",
+        "Same species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organisms within a family are related due to familiarity and common ancestry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.616,
+      "question": "Organisms within a family have more in common than organisms in which level?",
+      "options": [
+        "Higher classification levels",
+        "Lower classification levels",
+        "Same classification level",
+        "Equal classification levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organisms in a family have more in common than with organisms in any classification level above it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.352,
+      "question": "The genus is used to complete which part of an organism's two-part name?",
+      "options": [
+        "First part",
+        "Second part",
+        "Third part",
+        "Last part"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genus is used to complete the first part of an organism's two-part name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.236,
+      "question": "The genus classification is described as which type of category?",
+      "options": [
+        "Very specific",
+        "Very broad",
+        "Least specific",
+        "Non-specific"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genus classification is very specific, so there are fewer organisms within each one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.636,
+      "question": "Which level is the lowest and most exacting classification?",
+      "options": [
+        "Species",
+        "Genus",
+        "Family",
+        "Order"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Species is the lowest and most exacting level of classification.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.2786,
+      "question": "The main pattern for placing an organism in a species is based on which ability?",
+      "options": [
+        "Breeding with same species",
+        "Interbreeding to produce fertile offspring",
+        "Surviving in same habitat",
+        "Consuming same food"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main pattern is the ability to breed with other organisms of the same species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5903,
+      "question": "The species regulates which part of an organism's two-part name?",
+      "options": [
+        "Second part",
+        "First part",
+        "Third part",
+        "Last part"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The species of an organism regulates the second part of its two-part name.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.1465,
+      "question": "Which kingdom has prokaryotic cell type?",
+      "options": [
+        "Monera",
+        "Animalia",
+        "Plantae",
+        "Fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Monera is the kingdom with prokaryotic cell type.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5723,
+      "question": "Which kingdom lacks a cell wall?",
+      "options": [
+        "Animalia",
+        "Plantae",
+        "Monera",
+        "Fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Animalia has eukaryotic cells and lacks a cell wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4778,
+      "question": "Fungi are heterotrophic and have which cell type?",
+      "options": [
+        "Eukaryotic",
+        "Prokaryotic",
+        "Bacterial",
+        "Viral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fungi have eukaryotic cells and are heterotrophic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.9429,
+      "question": "Which kingdom includes mushrooms as an example?",
+      "options": [
+        "Fungi",
+        "Plantae",
+        "Monera",
+        "Animalia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mushrooms are examples of organisms in the Fungi kingdom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.289,
+      "question": "Protista organisms are mostly which type of cellular organization?",
+      "options": [
+        "Unicellular",
+        "Multicellular",
+        "Acellular",
+        "Colonial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protista are unicellular organisms with eukaryotic cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4563,
+      "question": "The nuclear membrane is absent in which kingdom?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Animalia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Monera are prokaryotes and lack a nuclear membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.0781,
+      "question": "Autotrophs produce energy-rich organic compounds using which type of sources?",
+      "options": [
+        "Inorganic sources",
+        "Non-living inorganic sources",
+        "Organic compounds from hosts",
+        "Dead and decaying matter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Autotrophs use inorganic sources like sunlight or inorganic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.3792,
+      "question": "Heterotrophs obtain energy by consuming which material?",
+      "options": [
+        "Other organic matter",
+        "Organic matter from other organisms",
+        "Sunlight directly",
+        "Water and minerals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heterotrophs obtain energy by consuming other organic matter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5479,
+      "question": "Photoautotrophs use which source of energy?",
+      "options": [
+        "Sunlight",
+        "Chemical reactions",
+        "Organic compounds",
+        "Heat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photoautotrophs use sunlight for photosynthesis to convert carbon dioxide into organic molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.5427,
+      "question": "Chemoautotrophs derive energy from which process?",
+      "options": [
+        "Oxidizing inorganic compounds",
+        "Oxidizing inorganic compounds in extreme environments",
+        "Absorbing sunlight",
+        "Consuming organic matter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chemoautotrophs use energy from chemical reactions such as oxidizing inorganic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.4727,
+      "question": "Autotrophs convert carbon dioxide into which type of molecules?",
+      "options": [
+        "Organic molecules",
+        "Inorganic molecules",
+        "Mineral molecules",
+        "Gaseous molecules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Autotrophs convert carbon dioxide into organic molecules using sunlight or inorganic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.0654,
+      "question": "Which organisms are examples of autotrophs?",
+      "options": [
+        "Plants, algae, and some bacteria",
+        "Animals, fungi, and bacteria",
+        "Fungi and protists only",
+        "Animals and insects only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plants, algae, and some bacteria are examples of autotrophs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.0215,
+      "question": "Heterotrophs rely on which group for organic molecules?",
+      "options": [
+        "Autotrophs or other heterotrophs",
+        "Autotrophs or other heterotrophs in the food chain",
+        "Inorganic compounds",
+        "Water and salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heterotrophs rely on consuming autotrophs or other heterotrophs for organic molecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.0088,
+      "question": "Chemoautotrophs are found in which extreme environment?",
+      "options": [
+        "Hydrothermal vents",
+        "Desert dunes",
+        "Polar ice caps",
+        "Tropical forests"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chemoautotrophs such as certain bacteria and archaea are found in extreme environments like hydrothermal vents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793290786748.6638,
+      "question": "Photoheterotrophs combine photosynthesis with which process?",
+      "options": [
+        "Uptake of organic molecules",
+        "Uptake of organic molecules from environment",
+        "Oxidation of minerals",
+        "Breakdown of water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photoheterotrophs combine photosynthesis with the uptake of organic molecules from their environment.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
