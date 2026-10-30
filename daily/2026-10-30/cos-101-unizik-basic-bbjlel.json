@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNIZIK )  : BASIC COMPONENTS OF A COMPUTER",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793366686160.0425,
+      "question": "Which of the following best describes a computer?",
+      "options": [
+        "A tool used for sending messages",
+        "A machine that performs only math",
+        "A unit that stores files permanently",
+        "A device that processes data"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A computer accepts data, processes it, and produces meaningful information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.655,
+      "question": "How many basic functions does a digital computer carry out?",
+      "options": [
+        "Three",
+        "Four",
+        "Six",
+        "Five"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A digital computer carries out five functions: input, store, process, output, and control.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.969,
+      "question": "Which of the following is NOT one of the five functions of a computer?",
+      "options": [
+        "Input",
+        "Storage",
+        "Processing",
+        "Printing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Printing is an output function, not one of the five core functions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.761,
+      "question": "Which of the following is a core component of a computer?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "CPU",
+        "Printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Core components include CPU, motherboard, power supply, RAM, and ROM.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2505,
+      "question": "Which of the following is a peripheral device?",
+      "options": [
+        "Motherboard",
+        "Power supply",
+        "RAM",
+        "Scanner"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Peripherals include keyboard, mouse, monitor, printer, scanner, and USB drive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.1938,
+      "question": "Computer hardware refers to which of the following?",
+      "options": [
+        "Physical components",
+        "Instructions and data",
+        "Operating system",
+        "Application programs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hardware is the collection of physical elements that constitutes a computer system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.3357,
+      "question": "Which part of the CPU executes arithmetic and logical operations?",
+      "options": [
+        "Control Unit",
+        "Memory",
+        "Registers",
+        "ALU"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The ALU executes all arithmetic and logical operations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.055,
+      "question": "Which CPU part controls and coordinates computer components?",
+      "options": [
+        "ALU",
+        "Registers",
+        "CU",
+        "Memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Control Unit controls and coordinates computer components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.7808,
+      "question": "Which CPU component stores data to be executed next?",
+      "options": [
+        "Arithmetic unit",
+        "Control unit",
+        "Registers",
+        "Main memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Registers store the data that is to be executed next.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2664,
+      "question": "Which of the following is NOT a main part of the CPU?",
+      "options": [
+        "ALU",
+        "CU",
+        "Registers",
+        "Disk"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The CPU comprises ALU, CU, and registers; hard disk is secondary storage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.7295,
+      "question": "How many main parts does the CPU comprise?",
+      "options": [
+        "One part",
+        "Three",
+        "Five parts",
+        "Seven parts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The CPU comprises three main parts: ALU, CU, and registers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2368,
+      "question": "Which of the following describes the Control Unit's role?",
+      "options": [
+        "Performs arithmetic",
+        "Stores data temporarily",
+        "Coordinates",
+        "Manages memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Control Unit controls and coordinates computer components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5981,
+      "question": "Which type of memory is volatile?",
+      "options": [
+        "ROM",
+        "Flash disk",
+        "Hard disk",
+        "RAM"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RAM is volatile; data is erased when power is turned off.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.6963,
+      "question": "Which memory is permanent and cannot be modified?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ROM is a permanent form of storage that does not allow data to be modified.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.1094,
+      "question": "Random Access Memory allows access to any memory cell if which is known?",
+      "options": [
+        "Row and column",
+        "Address and data",
+        "File and folder",
+        "Bit and byte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RAM is random access because any memory cell can be accessed directly if the row and column are known.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2212,
+      "question": "Which of the following is true about ROM?",
+      "options": [
+        "It is volatile",
+        "It stores data temporarily",
+        "It is non-volatile",
+        "It allows easy modification"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ROM stays active regardless of whether power supply is turned on or off.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.3098,
+      "question": "Which of the following is a magnetic secondary storage device?",
+      "options": [
+        "CD",
+        "Hard disk",
+        "Flash disk",
+        "DVD"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A hard disk stores data on an electromagnetically charged surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5288,
+      "question": "Which optical media has the largest storage capacity?",
+      "options": [
+        "CD",
+        "DVD",
+        "Blu-ray",
+        "Floppy disk"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blu-ray discs can store up to 50 GB of data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2283,
+      "question": "The storage capacity of a standard CD is which of the following?",
+      "options": [
+        "700 MB",
+        "8.4 GB",
+        "50 GB",
+        "1.44 MB"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CDs can store up to 700 megabytes of data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.1235,
+      "question": "Which storage device uses flash memory chips?",
+      "options": [
+        "Hard disk",
+        "Optical disk",
+        "Flash disk",
+        "Magnetic tape"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A flash disk is a storage module made of flash memory chips.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.638,
+      "question": "Which of the following describes a flash disk's structure?",
+      "options": [
+        "Mechanical platters",
+        "Laser-read surface",
+        "Magnetic surface",
+        "Emulated"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Flash disks have no mechanical platters; the disk storage structure is emulated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.4917,
+      "question": "How does RAM storage capacity compare to hard disk capacity?",
+      "options": [
+        "RAM is larger",
+        "RAM is smaller",
+        "They are equal",
+        "RAM is unlimited"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RAM typically holds 500 MB to 6 GB, while hard disks hold 80 GB to 1000 GB.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.3643,
+      "question": "Which of the following happens to RAM contents when the computer is turned off?",
+      "options": [
+        "They remain",
+        "They are saved",
+        "They disappear",
+        "They are compressed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "RAM contents disappear when power is turned off or the computer crashes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.9473,
+      "question": "Which statement about hard disk contents is correct?",
+      "options": [
+        "They disappear on power off",
+        "They persist",
+        "They are temporary",
+        "They are stored in chips"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hard disk contents remain when the power is turned off and when the computer crashes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5596,
+      "question": "RAM consists of which of the following?",
+      "options": [
+        "Hard disks",
+        "Chips",
+        "Platters",
+        "Tapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RAM consists of chips, while hard disks consist of platters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.9944,
+      "question": "Which of the following describes the primary function of the motherboard?",
+      "options": [
+        "Store data permanently",
+        "Connect parts",
+        "Process instructions",
+        "Display images"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The motherboard acts as the central electrical circuit by connecting different parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.314,
+      "question": "Which of the following is a component of the motherboard?",
+      "options": [
+        "CPU",
+        "Memory",
+        "Secondary storage",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The motherboard comprises the CPU, memory, and secondary storage devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5122,
+      "question": "Motherboards are sensitive to which of the following?",
+      "options": [
+        "Heat",
+        "Low humidity",
+        "Magnetic fields",
+        "Light exposure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Motherboards may malfunction if exposed to high temperatures, pressure, or humidity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5295,
+      "question": "The power supply unit converts which of the following?",
+      "options": [
+        "Low to high voltage",
+        "DC to AC only",
+        "AC to DC only",
+        "High to low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The power supply unit converts high voltage electrical current to a low voltage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.4907,
+      "question": "Which device ensures stable power supply during fluctuations?",
+      "options": [
+        "UPS",
+        "Processor",
+        "Memory",
+        "Storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A UPS or uninterrupted power supply unit ensures that fluctuations do not impact performance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.3892,
+      "question": "Laptops typically operate on which power source?",
+      "options": [
+        "Batteries",
+        "Solar panels",
+        "Fuel cells",
+        "AC only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Laptops operate on removable batteries that require periodic charging.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.4324,
+      "question": "Which of the following describes the primary function of a computer keyboard?",
+      "options": [
+        "Input text",
+        "Display images",
+        "Print documents",
+        "Store data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The keyboard is used to input text, characters, and other commands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.0317,
+      "question": "Which type of keyboard may be virtual?",
+      "options": [
+        "Desktop keyboard",
+        "Tablet",
+        "Mechanical keyboard",
+        "Wired keyboard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In many tablets and virtual PCs, the keyboard may also be virtual.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.822,
+      "question": "Which feature helps keyboard use in low light?",
+      "options": [
+        "Light",
+        "Bluetooth",
+        "USB port",
+        "Touchpad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many keyboards have a backlight to illuminate the keys for use at night or in low light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.0146,
+      "question": "Which of the following determines a monitor's sharpness and quality?",
+      "options": [
+        "Screen size",
+        "Resolution",
+        "Color depth",
+        "Refresh rate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The resolution and pixel density of a monitor determines its sharpness and quality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.2698,
+      "question": "Which of the following can reduce eye strain from monitor light?",
+      "options": [
+        "Glare film",
+        "Screen cleaner",
+        "Larger screen",
+        "Higher brightness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An anti-glare film or wearing glasses can minimise the effect of monitor light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.484,
+      "question": "Which monitor size is commonly used by graphics professionals?",
+      "options": [
+        "14 inch monitor",
+        "15 inch monitor",
+        "17 inch monitor",
+        "21 inch"
+      ],
+      "correctAnswer": 3,
+      "explanation": "21-inch monitors are mostly used by graphics professionals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.0105,
+      "question": "Which of the following does a computer mouse control?",
+      "options": [
+        "Cursor",
+        "Volume",
+        "Brightness",
+        "Network"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mouse controls the cursor and gives input to the system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.4744,
+      "question": "Which mouse feature helps navigate long pages?",
+      "options": [
+        "Left click",
+        "Right click",
+        "Wheel",
+        "USB cable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A scrolling wheel helps users navigate a long page.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.8323,
+      "question": "Which printer type uses toner?",
+      "options": [
+        "Inkjet",
+        "Thermal",
+        "Dot matrix",
+        "Laser"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Laser printers combine a magnetic roller with powdered ink called toner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.7668,
+      "question": "Which of the following is a common maintenance task for printers?",
+      "options": [
+        "Replace ink",
+        "Updating drivers",
+        "Cleaning screen",
+        "Changing CPU"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Printer maintenance includes regularly replacing ink cartridges and toner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.6914,
+      "question": "Which of the following does higher RAM in a computer increase?",
+      "options": [
+        "Speed",
+        "Storage capacity",
+        "Screen resolution",
+        "Network speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The higher the RAM, the more its processing power and ability to run applications simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.9807,
+      "question": "A USB flash drive uses which type of memory?",
+      "options": [
+        "Magnetic",
+        "Optical",
+        "Flash",
+        "RAM"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A USB Flash Drive consists of a flash memory data storage device integrated with a USB interface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.5452,
+      "question": "Which of the following is an input device?",
+      "options": [
+        "Monitor",
+        "Printer",
+        "Mouse",
+        "Speaker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An input device sends data to a computer, and the mouse is a common example.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.3438,
+      "question": "What do input devices translate data into?",
+      "options": [
+        "Human-readable form",
+        "Digital form",
+        "Printed form",
+        "Visual form"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Input devices translate data from a form humans understand to one the computer can work with.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.9678,
+      "question": "Which of the following is a pointing input device?",
+      "options": [
+        "Scanner",
+        "Microphone",
+        "Trackball",
+        "Webcam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A trackball is a pointing device like a mouse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.327,
+      "question": "Which input device captures images for a computer?",
+      "options": [
+        "Joystick",
+        "Camera",
+        "MIDI keyboard",
+        "Light pen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A digital camera is an input device that captures images.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.1428,
+      "question": "Which of the following is an output device?",
+      "options": [
+        "Scanner",
+        "Mouse",
+        "Monitor",
+        "Keyboard"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An output device communicates results of data processing, and a monitor is a common example.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.081,
+      "question": "What do output devices convert electronic information into?",
+      "options": [
+        "Machine code",
+        "Source code",
+        "Binary data",
+        "Text form"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Output devices convert electronically generated information into human readable form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793366686161.8962,
+      "question": "Which output device produces physical copies on paper?",
+      "options": [
+        "Speaker",
+        "Printer",
+        "Projector",
+        "Monitor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A printer generates a copy of virtual text or images on paper using ink.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
