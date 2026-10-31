@@ -3,16 +3,676 @@
   "title": "ETHICS OF DISPENSING AND PRESENTATION OF PHARMACEUTICAL PRODUCT",
   "subject": "Special",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 47,
+  "defaultTimePerQuestion": 23,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 23
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793478283407.9849,
+      "question": "What is the main goal of Good Dispensing Practice?",
+      "options": [
+        "Increase pharmacy profit margins",
+        "Ensure correct medicine delivery",
+        "Speed up dispensing in busy shops",
+        "Reduce patient counseling needs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Good Dispensing Practice aims to ensure the <b>safe and accurate delivery of the correct medicine</b> with appropriate information. Profit and speed are not the primary goals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283407.7678,
+      "question": "Which is NOT one of the Five Rights of Medication Use?",
+      "options": [
+        "Right patient",
+        "Right drug",
+        "Right price",
+        "Right route"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Five Rights include right patient, right drug, right dose, right route, and right time. <b>Right price</b> is not one of them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283407.7852,
+      "question": "What is the first main activity in the dispensing process?",
+      "options": [
+        "Preparation and selection",
+        "Delivery and information",
+        "Analysis and interpretation",
+        "Reception and validation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The dispensing process begins with <b>reception and validation</b> of the prescription.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.0503,
+      "question": "During validation, what must be confirmed about the prescriber?",
+      "options": [
+        "Years in practice",
+        "Name and registration number",
+        "Medical specialty area",
+        "Hospital or clinic affiliation details"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Validation confirms that the prescriber is legitimate, including the <b>name and registration number</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4927,
+      "question": "When counting tablets in bulk, use:",
+      "options": [
+        "A clean spatula",
+        "Washed hands only",
+        "Gloves and counters",
+        "Direct counter pouring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bulk tablets should be counted using <b>gloves and a clean counting tray or counter</b> to avoid contamination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.0776,
+      "question": "Who gives administration and dosage information?",
+      "options": [
+        "Pharmacy technician",
+        "Cashier",
+        "Prescriber",
+        "Pharmacist"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The <b>pharmacist</b> is responsible for giving administration and dosage information to the patient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.785,
+      "question": "Which is a legal medication classification?",
+      "options": [
+        "Brand drugs",
+        "Generic drugs",
+        "Over-the-counter drugs",
+        "Herbal and traditional remedies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Over-the-counter (OTC)</b> is a legal medication classification. Brand and generic are not legal categories in the same sense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1892,
+      "question": "The superscription “Rx” represents:",
+      "options": [
+        "Patient’s full name and address",
+        "Directions to the patient",
+        "Prescriber’s signature",
+        "Take thou/recipe"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The superscription <b>Rx</b> stands for <b>recipe</b>, meaning “take thou.”",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1067,
+      "question": "The part stating name and strength is the:",
+      "options": [
+        "Subscription",
+        "Inscription",
+        "Signa",
+        "Superscription"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>inscription</b> is the part of the prescription giving the name and strength of the medicine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.6863,
+      "question": "The subscription gives:",
+      "options": [
+        "Directions to the patient",
+        "Prescriber’s signature",
+        "Directions to dispenser",
+        "Patient’s name and address"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>subscription</b> gives directions to the dispenser about compounding or dispensing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1292,
+      "question": "A prescription requiring compounding is:",
+      "options": [
+        "Simple prescription",
+        "Narcotic prescription",
+        "Compound or complex prescription",
+        "Electronic transmission prescription"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A prescription requiring compounding is a <b>compound or complex prescription</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.3215,
+      "question": "A narcotic prescription must also contain:",
+      "options": [
+        "Patient’s date of birth",
+        "Patient address and registry number",
+        "Statement of medication side effects",
+        "Pharmacy logo and address"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A narcotic prescription must include additional legal details such as the <b>patient address and registry number</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1401,
+      "question": "All written or printed package matter is called:",
+      "options": [
+        "Signa",
+        "Inscription",
+        "Labelling",
+        "Subscription"
+      ],
+      "correctAnswer": 2,
+      "explanation": "All written or printed matter on or accompanying a package is called <b>labelling</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.2722,
+      "question": "A key label function is to show:",
+      "options": [
+        "Receipt for purchase",
+        "How and when to use product",
+        "Advertise other pharmacy services",
+        "Provide medical history"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key function of the label is to show <b>how and when to use the product</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.9907,
+      "question": "Label information must be all EXCEPT:",
+      "options": [
+        "Accurate",
+        "Concise",
+        "Lengthy",
+        "Legible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Label information must be accurate, concise, and legible; it should not be <b>lengthy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.6633,
+      "question": "Labels should be concise to:",
+      "options": [
+        "Save on printing and paper costs",
+        "Avoid patient confusion",
+        "Meet advertising rules",
+        "Leave logo space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Concise labels help <b>avoid patient confusion</b> and improve understanding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1948,
+      "question": "A non-medicine liquid needs:",
+      "options": [
+        "For external use only",
+        "For rectal use only",
+        "Not to be taken",
+        "Shake the bottle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A non-medicine liquid should carry the warning <b>Not to be taken</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1597,
+      "question": "A preferred positive warning label is:",
+      "options": [
+        "Do not swallow",
+        "For rectal use only",
+        "Avoid use on broken skin",
+        "Not to be taken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positive warnings state the intended use. <b>For rectal use only</b> is a positive warning label.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.362,
+      "question": "A suppository label should say:",
+      "options": [
+        "For external use only",
+        "For vaginal use only",
+        "For rectal use only",
+        "Not to be taken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Suppositories are intended for rectal use, so the label should say <b>For rectal use only</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4832,
+      "question": "“Shake well before use” applies to:",
+      "options": [
+        "Compressed tablets",
+        "Topical ointments",
+        "Rectal suppositories",
+        "Suspensions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Suspensions</b> settle on standing and must be shaken well before use to ensure dose uniformity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.0527,
+      "question": "A bottle label goes:",
+      "options": [
+        "On the bottom",
+        "On the cap",
+        "Front, one-third down",
+        "Over the bottle opening and cap"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A bottle label is placed on the <b>front, about one-third down</b> the bottle for visibility.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.367,
+      "question": "Labels often fail to stick because of:",
+      "options": [
+        "Too much adhesive",
+        "Dirty or greasy surface",
+        "Crooked placement",
+        "Paper label instead of plastic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Labels fail to adhere on a <b>dirty or greasy surface</b>; the container should be clean and dry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4255,
+      "question": "A single prefabricated product is a:",
+      "options": [
+        "Compound prescription",
+        "Simple prescription",
+        "Narcotic prescription",
+        "In-patient prescription"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A single prefabricated product corresponds to a <b>simple prescription</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.2068,
+      "question": "“M. et ft. sol. Disp vi” means:",
+      "options": [
+        "Make ointment, dispense two",
+        "Mix solution, dispense six",
+        "Make capsules, give twelve",
+        "Dispense as written"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The abbreviation means <b>mix and make a solution; dispense six</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.3813,
+      "question": "“gtt. iii a.u. hs” means:",
+      "options": [
+        "Three tablets in both ears at bedtime",
+        "Three drops in both ears at bedtime",
+        "Three grams to affected area after meals",
+        "Three drops by mouth every hour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "gtt = drops, a.u. = both ears, hs = at bedtime, so it means <b>three drops in both ears at bedtime</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.6716,
+      "question": "Which is NOT a prescription component?",
+      "options": [
+        "Prescriber’s full signature",
+        "Patient address",
+        "Pharmacy profit margin",
+        "Prescription date"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A prescription includes prescriber signature, patient details, and date. <b>Pharmacy profit margin</b> is not a prescription component.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.6628,
+      "question": "An official label is used when the formula is:",
+      "options": [
+        "Any extemporaneous pharmacy preparation",
+        "In a standard reference book",
+        "For over-the-counter medications only",
+        "Written as dispense as written"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An official label is used when the formula appears in a <b>standard reference book</b> such as a pharmacopoeia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1372,
+      "question": "An unofficial label is used when the formula is:",
+      "options": [
+        "Not in standard reference",
+        "Patented brand-name product",
+        "Controlled substance order",
+        "Simple over-the-counter drug"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An unofficial label is used when the formula is <b>not in a standard reference</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.757,
+      "question": "Which is legally required on dispensed medicine labels?",
+      "options": [
+        "Patient’s full name",
+        "Keep out of reach of children",
+        "Pharmacy name and address",
+        "All of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Among the listed items, the <b>pharmacy name and address</b> is legally required on dispensed medicine labels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.5667,
+      "question": "“b.i.d.” means:",
+      "options": [
+        "Twice a day",
+        "Three times a day",
+        "Four times a day",
+        "Once a day"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>b.i.d.</b> means <b>bis in die</b>, twice a day.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.343,
+      "question": "“p.r.n.” means:",
+      "options": [
+        "By mouth",
+        "After meals",
+        "As needed",
+        "At bedtime"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>p.r.n.</b> means <b>pro re nata</b>, as needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.5007,
+      "question": "“p.o.” means:",
+      "options": [
+        "By mouth",
+        "Rectally",
+        "Topically",
+        "By subcutaneous injection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>p.o.</b> means <b>per os</b>, by mouth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4397,
+      "question": "Dispensing decisions are based on:",
+      "options": [
+        "Patient’s ability to pay for drugs",
+        "Prescription validation",
+        "Prescriber’s reputation",
+        "Pharmacy stock level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dispensing decisions are based on <b>prescription validation</b>, not ability to pay, reputation, or stock alone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1267,
+      "question": "If an interaction is suspected, the pharmacist should:",
+      "options": [
+        "Dispense and ignore it",
+        "Change without consulting",
+        "Consult the prescriber",
+        "Ask the patient to choose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If an interaction is suspected, the pharmacist should <b>consult the prescriber</b> before dispensing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.5747,
+      "question": "Which is a dosage form instruction?",
+      "options": [
+        "Take with food",
+        "Store in cool place",
+        "For external use only",
+        "Chew it thoroughly"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Chew it thoroughly</b> is an instruction related to the dosage form. The others concern administration timing, storage, or route.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4897,
+      "question": "Confidentiality is maintained to:",
+      "options": [
+        "Improve professional image",
+        "Meet advertising standards",
+        "Respect patient privacy",
+        "Hide medication cost"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Confidentiality is maintained primarily to <b>respect patient privacy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.0332,
+      "question": "The signa gives directions to the:",
+      "options": [
+        "Pharmacist",
+        "Patient",
+        "Wholesaler",
+        "Prescriber"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>signa</b> gives directions to the <b>patient</b> on how to take the medicine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.4133,
+      "question": "Which means “before meals”?",
+      "options": [
+        "p.c.",
+        "a.c.",
+        "h.s.",
+        "p.r.n."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>a.c.</b> means <b>ante cibum</b>, before meals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.0837,
+      "question": "A hospital medication order form is an:",
+      "options": [
+        "E-prescription",
+        "Simple prescription",
+        "In-patient prescription",
+        "Narcotic drug prescription"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A hospital medication order form is an <b>in-patient prescription</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.2104,
+      "question": "Carton labels go on the large side to:",
+      "options": [
+        "Ease stacking",
+        "Keep all information visible",
+        "Hide contents",
+        "Meet manufacturing rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carton labels are placed on the large side to <b>keep all information visible</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1365,
+      "question": "Clean the outside of a container:",
+      "options": [
+        "Before packing the product inside",
+        "After label affixed",
+        "Before affixing label",
+        "Not necessary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The outside of the container should be cleaned <b>before affixing the label</b> so it adheres properly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.8875,
+      "question": "“a.u.” refers to:",
+      "options": [
+        "Both ears",
+        "Both eyes",
+        "Each nostril",
+        "Affected area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>a.u.</b> means <b>auris utraque</b>, both ears.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.1548,
+      "question": "Drowsiness warnings apply to:",
+      "options": [
+        "An NSAID",
+        "A sedative",
+        "An antacid",
+        "A vitamin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drowsiness warnings are important for <b>sedatives</b> and other central nervous system depressants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.482,
+      "question": "Too much label information may cause:",
+      "options": [
+        "Better compliance",
+        "Patient confusion",
+        "Higher printing cost",
+        "Poor adhesion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Too much label information may cause <b>patient confusion</b>, so labels should be concise.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.9866,
+      "question": "An external preparation label should say:",
+      "options": [
+        "External use only",
+        "Not to be taken",
+        "Poison",
+        "For rectal use only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An external preparation should be labelled <b>For external use only</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.2844,
+      "question": "An inhalation preparation may be labelled:",
+      "options": [
+        "For external use only",
+        "Not to be taken",
+        "For vaginal use only",
+        "Take with food"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An inhalation preparation may carry the warning <b>Not to be taken</b> orally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793478283408.7114,
+      "question": "“q.s.” means:",
+      "options": [
+        "Sufficient quantity",
+        "Every hour",
+        "Four times daily",
+        "As directed by doctor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>q.s.</b> means <b>quantum sufficit</b>, sufficient quantity.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
