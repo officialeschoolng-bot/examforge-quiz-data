@@ -3,16 +3,718 @@
   "title": "ANA 201 ( UNIZIK ) : HUMERUS",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793508300778.1978,
+      "question": "Which bone is the longest and strongest of the upper limb?",
+      "options": [
+        "Radius",
+        "Humerus",
+        "Ulna",
+        "Clavicle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The humerus is identified as the longest and strongest bone of the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.262,
+      "question": "Which three main parts make up the humerus?",
+      "options": [
+        "Upper end, lower end, and shaft",
+        "Head, neck, and shaft",
+        "Base, body, and apex",
+        "Proximal, middle, and distal ends"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The humerus is divided into the upper end, lower end, and the shaft connecting them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.9084,
+      "question": "How many distinct features are present on the upper end of the humerus?",
+      "options": [
+        "Three",
+        "Four",
+        "Seven",
+        "Five"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The upper end presents five features, including the head, neck, and tubercles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3687,
+      "question": "How many distinct features are present on the lower end of the humerus?",
+      "options": [
+        "Seven",
+        "Five",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower end presents seven features, including the capitulum, trochlea, and epicondyles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3933,
+      "question": "In which direction is the head of the humerus directed?",
+      "options": [
+        "Laterally and downwards",
+        "Anteriorly and downwards",
+        "Medially and upwards",
+        "Posteriorly and upwards"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The head is directed medially, backwards, and upwards to articulate with the glenoid cavity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.6577,
+      "question": "Which cavity does the head of the humerus articulate with?",
+      "options": [
+        "Acetabulum",
+        "Radial notch",
+        "Trochlear notch",
+        "Glenoid cavity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The head of the humerus articulates with the glenoid cavity of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.1482,
+      "question": "Which joint is formed by the articulation of the humerus and scapula?",
+      "options": [
+        "Elbow joint",
+        "Glenohumeral joint",
+        "Acromioclavicular joint",
+        "Sternoclavicular joint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The articulation between the humerus and scapula forms the glenohumeral or shoulder joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3757,
+      "question": "Which part of the humerus is cylindrical in its upper half?",
+      "options": [
+        "Shaft",
+        "Head",
+        "Neck",
+        "Trochlea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shaft is cylindrical in the upper half and flattened anteroposteriorly in the lower half.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.723,
+      "question": "Which direction does the olecranon fossa face in the anatomical position?",
+      "options": [
+        "Anteriorly",
+        "Medially",
+        "Posteriorly",
+        "Laterally"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The olecranon fossa is located on the posterior aspect and faces posteriorly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.1602,
+      "question": "Which structure covers the head of the humerus?",
+      "options": [
+        "Fibrocartilage",
+        "Elastic cartilage",
+        "Fibrous capsule",
+        "Articular hyaline cartilage"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The head is covered by articular hyaline cartilage, which is thicker in the center.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.4968,
+      "question": "Which neck of the humerus is a constriction at the margins of the rounded head?",
+      "options": [
+        "Surgical neck",
+        "Morphological neck",
+        "Anatomical neck",
+        "True neck"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anatomical neck is the constriction located directly at the margins of the rounded head.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.0088,
+      "question": "Which neck is the most common site for fractures due to being weaker?",
+      "options": [
+        "Anatomical neck",
+        "Surgical neck",
+        "Morphological neck",
+        "Epiphyseal neck"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The surgical neck is structurally weaker and is a common site for fractures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.8823,
+      "question": "Which nerve is closely related to the surgical neck of the humerus?",
+      "options": [
+        "Radial nerve",
+        "Ulnar nerve",
+        "Median nerve",
+        "Axillary nerve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The axillary nerve and circumflex humeral vessels are closely related to the surgical neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.0146,
+      "question": "Which junction is represented by the morphological neck in an adult bone?",
+      "options": [
+        "Diaphysis and epiphysis",
+        "Head and neck",
+        "Tubercles and shaft",
+        "Shaft and trochlea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The morphological neck represents the true junction between the diaphysis and epiphysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.7917,
+      "question": "Which three muscles attach to the greater tubercle of the humerus?",
+      "options": [
+        "Subscapularis and teres major",
+        "Pectoralis major and minor",
+        "Supraspinatus and infraspinatus",
+        "Teres minor and teres major"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The greater tubercle provides attachment for the supraspinatus, infraspinatus, and teres minor muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.412,
+      "question": "Which muscle attaches to the lesser tubercle of the humerus?",
+      "options": [
+        "Supraspinatus",
+        "Infraspinatus",
+        "Teres minor",
+        "Subscapularis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The lesser tubercle provides attachment to the subscapularis muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.6677,
+      "question": "Which muscle attaches to the floor of the intertubercular sulcus?",
+      "options": [
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Teres major",
+        "Subscapularis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The latissimus dorsi attaches to the floor of the intertubercular sulcus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.695,
+      "question": "Which structure is contained within the intertubercular sulcus?",
+      "options": [
+        "Radial nerve",
+        "Long head of biceps",
+        "Ulnar nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intertubercular sulcus contains the long head of the biceps enclosed in a synovial sheath.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.5273,
+      "question": "Which muscle attaches to the lateral lip of the intertubercular sulcus?",
+      "options": [
+        "Teres major",
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Subscapularis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pectoralis major attaches to the lateral lip of the intertubercular sulcus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.0476,
+      "question": "Which border of the humerus ends in the radial fossa?",
+      "options": [
+        "Medial border",
+        "Lateral border",
+        "Posterior border",
+        "Anterior border"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The anterior border extends down and ends in the radial fossa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.9622,
+      "question": "Which border of the humerus forms the medial supracondylar ridge?",
+      "options": [
+        "Medial border",
+        "Anterior border",
+        "Lateral border",
+        "Posterior border"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower part of the medial border is sharp and forms the medial supracondylar ridge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.2776,
+      "question": "Which structure crosses the lateral border of the humerus from behind?",
+      "options": [
+        "Medial groove",
+        "Radial groove",
+        "Ulnar groove",
+        "Coronoid groove"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radial groove crosses the lateral border of the humerus about its middle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.9893,
+      "question": "Which structure is located on the anterolateral surface of the humerus?",
+      "options": [
+        "Nutrient foramen",
+        "Radial groove",
+        "Deltoid tuberosity",
+        "Oblique ridge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterolateral surface presents the V-shaped deltoid tuberosity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.403,
+      "question": "Which structure is located on the anteromedial surface of the humerus?",
+      "options": [
+        "Deltoid tuberosity",
+        "Radial groove",
+        "Oblique ridge",
+        "Nutrient foramen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A nutrient foramen directed downwards is located on the anteromedial surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.4263,
+      "question": "Which structure lies in the radial groove on the posterior surface of the humerus?",
+      "options": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radial groove lodges the radial nerve and profunda brachii vessels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.4922,
+      "question": "Which nerve is related to the posterior surface of the medial epicondyle?",
+      "options": [
+        "Radial nerve",
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulnar nerve is related to the posterior surface of the medial epicondyle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.7883,
+      "question": "Which origin is provided by the anterior surface of the medial epicondyle?",
+      "options": [
+        "Common extensor origin",
+        "Deltoid origin",
+        "Common flexor origin",
+        "Triceps origin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterior surface of the medial epicondyle provides an area for the common flexor origin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.0415,
+      "question": "Which muscle originates from the posterior surface of the lateral epicondyle?",
+      "options": [
+        "Brachialis",
+        "Coracobrachialis",
+        "Pronator teres",
+        "Anconeus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The posterior surface of the lateral epicondyle gives origin to the anconeus muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.7751,
+      "question": "Which process fits into the coronoid fossa during full elbow flexion?",
+      "options": [
+        "Coronoid process",
+        "Olecranon process",
+        "Radial head",
+        "Medial epicondyle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coronoid process of the ulna fits into the coronoid fossa during full flexion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.7817,
+      "question": "Which structure fits into the olecranon fossa during full elbow extension?",
+      "options": [
+        "Coronoid process",
+        "Olecranon process",
+        "Radial head",
+        "Medial epicondyle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The olecranon process of the ulna fits into the olecranon fossa during full extension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.5544,
+      "question": "Which foramen is formed when the bony bar between the coronoid and olecranon fossae is perforated?",
+      "options": [
+        "Intertubercular foramen",
+        "Nutrient foramen",
+        "Supratrochlear foramen",
+        "Radial foramen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A perforation between the coronoid and olecranon fossae forms the supratrochlear foramen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.739,
+      "question": "Which ligament stretches from the supratrochlear process to the medial epicondyle?",
+      "options": [
+        "Coracoclavicular ligament",
+        "Annular ligament",
+        "Ulnar collateral ligament",
+        "Struthers ligament"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Struthers ligament is a fibrous band stretching from the supratrochlear process to the medial epicondyle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.69,
+      "question": "Which structures deviate through the supratrochlear foramen when a supratrochlear process is present?",
+      "options": [
+        "Brachial artery and median nerve",
+        "Radial nerve and profunda brachii",
+        "Ulnar nerve and artery",
+        "Axillary nerve and vessels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brachial artery along with the median nerve deviates from their normal course and passes through the foramen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.5845,
+      "question": "Which nerve is directly related to the surgical neck of the humerus?",
+      "options": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axillary nerve is closely related to the surgical neck and can be injured in fractures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.6106,
+      "question": "Which fracture commonly occurs in young individuals from a fall on an outstretched hand?",
+      "options": [
+        "Shaft fracture",
+        "Surgical neck fracture",
+        "Supracondylar fracture",
+        "Anatomical neck fracture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A supracondylar fracture is caused by a fall on the outstretched hand and commonly occurs in young age.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3281,
+      "question": "Which bony points form an equilateral triangle in a supracondylar fracture?",
+      "options": [
+        "Olecranon and tubercles",
+        "Head, neck, and shaft",
+        "Capitulum and trochlea",
+        "Two epicondyles and olecranon"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The medial epicondyle, lateral epicondyle, and olecranon process form an equilateral triangle that remains intact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.0457,
+      "question": "Which nerve is most commonly injured in a supracondylar fracture of the humerus?",
+      "options": [
+        "Median nerve",
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median nerve is most commonly involved in the supracondylar fracture of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.367,
+      "question": "Which condition may result from injury to the brachial artery in a supracondylar fracture?",
+      "options": [
+        "Tennis elbow",
+        "Volkmann ischemic contracture",
+        "Golfer elbow",
+        "Carpal tunnel syndrome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Injury to the brachial artery may cause Volkmann ischemic contracture and myositis ossificans.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.4875,
+      "question": "Where is nonunion of a humerus fracture common due to poor blood supply?",
+      "options": [
+        "Distal third",
+        "Midshaft only",
+        "Upper and middle third junction",
+        "Surgical neck"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nonunion is common if a fracture occurs at the junction of the upper and middle thirds due to poor blood supply.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.5212,
+      "question": "How many secondary ossification centres does the upper end of the humerus have?",
+      "options": [
+        "One",
+        "Two",
+        "Four",
+        "Three"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The upper end of the humerus has three secondary ossification centres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3408,
+      "question": "How many secondary ossification centres does the lower end of the humerus have?",
+      "options": [
+        "Four",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower end of the humerus has four secondary ossification centres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.324,
+      "question": "Which ossification centre may be mistaken for a fracture due to late union?",
+      "options": [
+        "Capitulum",
+        "Medial epicondyle",
+        "Lateral epicondyle",
+        "Trochlea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The separate centre for the medial epicondyle and its late union may be mistaken for a fracture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.2976,
+      "question": "Which muscle attaches to the posterior surface of the lateral epicondyle?",
+      "options": [
+        "Pronator teres",
+        "Flexor carpi ulnaris",
+        "Anconeus",
+        "Brachioradialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The posterior surface of the lateral epicondyle gives origin to the anconeus muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.6638,
+      "question": "Which nerve passes through the radial groove?",
+      "options": [
+        "Median nerve",
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Radial nerve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The radial nerve and profunda brachii vessels are lodged in the radial groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.5903,
+      "question": "Which part of the humerus is flattened anteroposteriorly in the lower half?",
+      "options": [
+        "Shaft",
+        "Head",
+        "Neck",
+        "Tubercle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shaft is cylindrical in the upper half and flattened anteroposteriorly in the lower half.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.698,
+      "question": "Which structure forms the floor of the intertubercular sulcus?",
+      "options": [
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Teres major",
+        "Subscapularis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The latissimus dorsi attaches to the floor of the intertubercular sulcus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.037,
+      "question": "Which muscle inserts into the deltoid tuberosity?",
+      "options": [
+        "Teres major",
+        "Latissimus dorsi",
+        "Deltoid",
+        "Pectoralis major"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The deltoid tuberosity provides insertion to the deltoid muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.6768,
+      "question": "Which nerve is at risk with a fracture of the surgical neck?",
+      "options": [
+        "Median nerve",
+        "Ulnar nerve",
+        "Radial nerve",
+        "Axillary nerve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The axillary nerve wraps around the surgical neck and is at risk of injury.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3713,
+      "question": "Which angle is formed by the superimposition of the long axis of the upper and lower articular surfaces?",
+      "options": [
+        "Humeral torsion angle",
+        "Carrying angle",
+        "Angle of Louis",
+        "Q-angle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The angle of humeral torsion is formed by the superimposition of the long axis of the upper and lower articular surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793508300779.3113,
+      "question": "Which border of the humerus starts from the lateral lip of the intertubercular sulcus?",
+      "options": [
+        "Medial border",
+        "Anterior border",
+        "Lateral border",
+        "Posterior border"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The anterior border starts from the lateral lip of the intertubercular sulcus.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
