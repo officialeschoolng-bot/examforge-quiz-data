@@ -1,0 +1,465 @@
+<div style="padding: 8px 0 24px; text-align: center; border-bottom: 2px solid var(--divider-color); margin-bottom: 32px;">
+  <div style="color: var(--text-tertiary); font-size: 0.78em; font-weight: 700; letter-spacing: 0.18em; margin-bottom: 6px;">EXAMFORGE REFERENCE</div>
+  <div style="color: var(--text-primary); font-size: 1.9em; font-weight: 700; line-height: 1.2;">BINOMIAL THEOREM</div>
+  <div style="color: var(--text-secondary); font-size: 0.95em; margin-top: 8px;">Expansion, Pascal's Triangle, and Specific Terms</div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 0 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">1. What is a "BINOMIAL"?</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Definition</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;">First things first: "Bi" means two, "nomial" means term. So a binomial is just an expression with two terms separated by a plus or minus sign.</div>
+    <div style="margin-bottom: 4px; font-weight: 600;">Examples of BINOMIALS:</div>
+    <ul style="margin: 0; padding-left: 20px;">
+      <li><span style="color: var(--text-primary); font-family: monospace;">x + 3</span></li>
+      <li><span style="color: var(--text-primary); font-family: monospace;">2a - 5b</span></li>
+      <li><span style="color: var(--text-primary); font-family: monospace;">3x - 7y</span></li>
+    </ul>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">2. The Problem: Expanding Binomials</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Manual Expansion</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-bottom: 16px;">
+    If we wish to expand a binomial of the form (x + y)<sup>n</sup>, when the exponent is small, we can multiply everything out manually.
+  </div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-bottom: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — EXPAND (x + y)²</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      This means (x + y)(x + y). We use FOIL (First, Outer, Inner, Last):<br><br>
+      • First: x &times; x = x<sup>2</sup><br>
+      • Outer: x &times; y = xy<br>
+      • Inner: y &times; x = xy<br>
+      • Last: y &times; y = y<sup>2</sup><br><br>
+      Combine like terms: x<sup>2</sup> + 2xy + y<sup>2</sup><br>
+      <strong>Solution:</strong> (x + y)<sup>2</sup> = x<sup>2</sup> + 2xy + y<sup>2</sup>
+    </div>
+  </div>
+
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 2 — EXPAND (x + y)³</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      This is (x + y)(x + y)(x + y). Let's do it step by step:<br><br>
+      First, expand (x + y)<sup>2</sup> as we did: x<sup>2</sup> + 2xy + y<sup>2</sup><br><br>
+      Now multiply by (x + y):<br>
+      = (x<sup>2</sup> + 2xy + y<sup>2</sup>)(x + y)<br>
+      = x<sup>3</sup> + x<sup>2</sup>y + 2x<sup>2</sup>y + 2xy<sup>2</sup> + xy<sup>2</sup> + y<sup>3</sup><br>
+      = x<sup>3</sup> + 3x<sup>2</sup>y + 3xy<sup>2</sup> + y<sup>3</sup><br><br>
+      <strong>Solution:</strong> (x + y)<sup>3</sup> = x<sup>3</sup> + 3x<sup>2</sup>y + 3xy<sup>2</sup> + y<sup>3</sup>
+    </div>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Here's the PROBLEM</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    What if we need to expand (x + y)<sup>7</sup> or (x + y)<sup>10</sup>? Doing this by FOIL would take forever! We need a better method.
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">3. Discovering a Pattern: Pascal's Triangle</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">The Pattern</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;">Look at the coefficients we've found so far:</div>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px; font-family: monospace;">
+      <li>1</li>
+      <li>1x + 1y</li>
+      <li>1x<sup>2</sup> + 2xy + 1y<sup>2</sup></li>
+      <li>1x<sup>3</sup> + 3x<sup>2</sup>y + 3xy<sup>2</sup> + 1y<sup>3</sup></li>
+    </ul>
+    <div style="margin-bottom: 8px;">Let's arrange these coefficients in a triangle (Pascal's Triangle):</div>
+    
+    <div style="text-align: center; font-family: monospace; font-size: 1.1em; line-height: 1.5; background: var(--bg-surface); padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+      <div>(x + y)<sup>0</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</div>
+      <div>(x + y)<sup>1</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 &nbsp; 1</div>
+      <div>(x + y)<sup>2</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 &nbsp; 2 &nbsp; 1</div>
+      <div>(x + y)<sup>3</sup> &nbsp;&nbsp; 1 &nbsp; 3 &nbsp; 3 &nbsp; 1</div>
+      <div>(x + y)<sup>4</sup> &nbsp;1 &nbsp; 4 &nbsp; 6 &nbsp; 4 &nbsp; 1</div>
+      <div>(x + y)<sup>5</sup> 1 &nbsp; 5 &nbsp; 10 &nbsp; 10 &nbsp; 5 &nbsp; 1</div>
+      <div>(x + y)<sup>6</sup> 1 &nbsp; 6 &nbsp; 15 &nbsp; 20 &nbsp; 15 &nbsp; 6 &nbsp; 1</div>
+    </div>
+
+    <div style="margin-bottom: 4px; font-weight: 600;">How Pascal's Triangle works (How to draw it from memory):</div>
+    <ol style="margin: 0; padding-left: 20px;">
+      <li>Start with 1 at the top.</li>
+      <li>Each number is the sum of the two numbers directly above it.</li>
+    </ol>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">How to Use It</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;"><strong>Magic:</strong> The row corresponding to exponent n gives us the coefficients for (x + y)<sup>n</sup>!</div>
+    <div style="margin-bottom: 8px;">Notice that when the exponent is 0, we get one term. When the exponent is 1, we get two terms. When the exponent is 2, we get three terms. When the exponent is 3, we get four terms.</div>
+    <div>If the exponent is n, after expanding, we will have <span style="background-color: rgba(255, 235, 59, 0.4); padding: 2px 4px; border-radius: 3px; font-weight: bold;">n + 1 terms</span>.</div>
+  </div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-top: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE — EXPAND (x + y)⁴ USING PASCAL'S TRIANGLE</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Find row for exponent 4 from Pascal's triangle: 1, 4, 6, 4, 1<br><br>
+      Now write the expansion:
+      <ul style="margin: 4px 0; padding-left: 20px;">
+        <li>Start with x<sup>4</sup>, then decrease x's exponent by 1 each term.</li>
+        <li>Start with y<sup>0</sup> (which is 1), then increase y's exponent by 1 each term.</li>
+      </ul>
+      (x + y)<sup>4</sup> = 1x<sup>4</sup>y<sup>0</sup> + 4x<sup>3</sup>y<sup>1</sup> + 6x<sup>2</sup>y<sup>2</sup> + 4x<sup>1</sup>y<sup>3</sup> + 1x<sup>0</sup>y<sup>4</sup><br><br>
+      <strong>Simplify:</strong> x<sup>4</sup> + 4x<sup>3</sup>y + 6x<sup>2</sup>y<sup>2</sup> + 4xy<sup>3</sup> + y<sup>4</sup><br><br>
+      Much faster than FOIL!
+    </div>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">4. Finding Specific Terms (The Exam Favorite!)</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">The Exam Favorite</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;">Exams RARELY ask you to expand the whole thing. They ask things like:</div>
+    <ul style="margin: 0 0 16px 0; padding-left: 20px;">
+      <li>"Find the 3rd term in the expansion of (2x - 3)<sup>5</sup>"</li>
+      <li>"What is the coefficient of x<sup>3</sup> in (x + 2)<sup>7</sup>"</li>
+    </ul>
+    
+    <div style="margin-bottom: 8px; font-weight: 600;">Method 1: Using Pascal's Triangle (for small exponents)</div>
+    <ol style="margin: 0; padding-left: 20px; margin-bottom: 12px;">
+      <li>Find Pascal's row for exponent 5: 1, 5, 10, 10, 5, 1</li>
+      <li>The 4th term uses the 4th coefficient: 10</li>
+    </ol>
+    
+    <div style="margin-bottom: 4px; font-weight: 600;">The pattern for (a + b)<sup>5</sup>:</div>
+    <ul style="margin: 0 0 12px 0; padding-left: 20px; font-family: monospace;">
+      <li>1st term: a<sup>5</sup>b<sup>0</sup></li>
+      <li>2nd term: a<sup>4</sup>b<sup>1</sup></li>
+      <li>3rd term: a<sup>3</sup>b<sup>2</sup></li>
+      <li>4th term: a<sup>2</sup>b<sup>3</sup></li>
+    </ul>
+    <div style="margin-bottom: 8px;">We stop at the 4th term since we were asked for the 4th term.</div>
+    <div style="padding: 8px 12px; background-color: rgba(135, 206, 235, 0.3); border-radius: 4px; display: inline-block;">
+      <strong>NB:</strong> a's exponent + b's exponent = n (in this case, 5)
+    </div><br><br>
+    So the 4th term is: <strong>10a<sup>2</sup>b<sup>3</sup></strong>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">5. The Binomial Theorem Formula (For Any Exponent!)</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">The General Formula</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;">What if we need (x + y)<sup>100</sup>? Pascal's Triangle would be HUGE! We need a formula.</div>
+    <div style="margin-bottom: 8px;">For any positive integer n:</div>
+  </div>
+  
+  <div style="text-align: center; color: var(--text-primary); font-size: 1.15em; padding: 16px 0; line-height: 1.6;">
+    (x + y)<sup>n</sup> = <sup>n</sup>C<sub>0</sub> &middot; x<sup>n</sup> &middot; y<sup>0</sup> + <sup>n</sup>C<sub>1</sub> &middot; x<sup>n-1</sup> &middot; y<sup>1</sup> + <sup>n</sup>C<sub>2</sub> &middot; x<sup>n-2</sup> &middot; y<sup>2</sup> + ... + <sup>n</sup>C<sub>n</sub> &middot; x<sup>0</sup> &middot; y<sup>n</sup>
+  </div>
+  
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-top: 16px;">
+    <div style="margin-bottom: 8px;">Or with summation notation:</div>
+  </div>
+  <div style="text-align: center; color: var(--text-primary); font-size: 1.15em; padding: 16px 0;">
+    (x + y)<sup>n</sup> = <span style="font-size: 1.2em;">&sum;</span> <sup>n</sup>C<sub>k</sub> x<sup>n-k</sup> y<sup>k</sup>
+  </div>
+  
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-top: 16px;">
+    If you can't use the Sigma (Summation) notation, it's alright, you don't necessarily need to understand the Summation notation to solve BINOMIAL EXPANSION.
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">What is <sup>n</sup>C<sub>k</sub>? (The Combination Formula)</div>
+  <div style="text-align: center; color: var(--text-primary); font-size: 1.15em; padding: 16px 0;">
+    <sup>n</sup>C<sub>k</sub> = <span style="display:inline-block;vertical-align:middle;text-align:center;margin:0 5px;"><span style="display:block;padding:0 10px 4px;border-bottom:1px solid var(--text-primary);">n!</span><span style="display:block;padding:4px 10px 0;">k!(n - k)!</span></span>
+  </div>
+  
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <div style="margin-bottom: 8px;">This is the binomial coefficient, read as "n combination k".</div>
+    <div style="margin-bottom: 4px; font-weight: 600;">Where ! means factorial:</div>
+    <div style="font-family: monospace; background: var(--bg-surface); padding: 10px; border-radius: 6px;">
+      5! = 5 &times; 4 &times; 3 &times; 2 &times; 1 = 120<br>
+      3! = 3 &times; 2 &times; 1 = 6<br>
+      0! = 1 (by definition)
+    </div>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE — CALCULATING <sup>5</sup>C<sub>2</sub></div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      <sup>5</sup>C<sub>2</sub> = 5! / [2! &middot; (5 - 2)!] = 5! / (2! &middot; 3!)<br>
+      = (5 &times; 4 &times; 3 &times; 2 &times; 1) / [(2 &times; 1) &times; (3 &times; 2 &times; 1)]<br>
+      = 120 / (2 &times; 6) = 120 / 12 = <strong>10</strong><br><br>
+      Look familiar? That's the same as the 3rd number in row 5 of Pascal's Triangle!<br><br>
+      Notice how when we found 5 Combination 2 (<sup>5</sup>C<sub>2</sub>), it gave the same value as the (2 + 1)th term of the Pascal's triangle.
+    </div>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">6. Finding Specific Terms Quickly (The Formula Method)</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">The (k+1)th Term Formula</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-bottom: 12px;">
+    This is the MOST POWERFUL technique for exams! For the expansion of (a + b)<sup>n</sup>:
+  </div>
+  
+  <div style="text-align: center; color: var(--text-primary); font-size: 1.2em; padding: 16px; background-color: rgba(135, 206, 235, 0.3); border-radius: 6px; font-weight: bold;">
+    T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup>
+  </div>
+  
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-top: 12px;">
+    <strong>Important:</strong> If you want the kth term, use k - 1 in the formula.
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Formula Examples</div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-bottom: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — FIND THE 4TH TERM OF (2x - 3)⁵</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Here: n = 5 (the power). We want the 4th term, so k = 3 (because k + 1 = 4).<br>
+      a = 2x, b = -3.<br><br>
+      Plug into formula:<br>
+      T<sub>4</sub> = <sup>5</sup>C<sub>3</sub> &middot; (2x)<sup>5-3</sup> &middot; (-3)<sup>3</sup><br>
+      T<sub>4</sub> = <sup>5</sup>C<sub>3</sub> &middot; (2x)<sup>2</sup> &middot; (-27)<br><br>
+      Calculate:<br>
+      • <sup>5</sup>C<sub>3</sub> = <sup>5</sup>C<sub>2</sub> = 10<br>
+      • (2x)<sup>2</sup> = 4x<sup>2</sup><br>
+      • (-27) from (-3)<sup>3</sup><br><br>
+      Multiply: 10 &times; 4x<sup>2</sup> &times; (-27) = 10 &times; (-108x<sup>2</sup>) = <strong>-1080x<sup>2</sup></strong><br><br>
+      <strong>Answer:</strong> The 4th term is -1080x<sup>2</sup>.
+    </div>
+  </div>
+
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 2 — FIND THE TERM CONTAINING x³ IN (x + 2)⁷</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Here: n = 7, a = x, b = 2.<br><br>
+      We want the exponent of x to be 3.<br>
+      Since a = x, in the term <sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup>, the exponent on a is n - k.<br>
+      So: n - k = 3 &rarr; 7 - k = 3 &rarr; k = 4.<br><br>
+      Now use the formula:<br>
+      T<sub>4+1</sub> = T<sub>5</sub> = <sup>7</sup>C<sub>4</sub> &middot; x<sup>3</sup> &middot; 2<sup>4</sup><br><br>
+      Calculate:<br>
+      • <sup>7</sup>C<sub>4</sub> = 7! / (4! &middot; 3!) = (7 &times; 6 &times; 5) / (3 &times; 2 &times; 1) = 35<br>
+      • 2<sup>4</sup> = 16<br><br>
+      Multiply: 35 &middot; x<sup>3</sup> &middot; 16 = <strong>560x<sup>3</sup></strong>
+    </div>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">7. Quick Practice Problem (Try It!)</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Practice Problem</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-bottom: 16px;">
+    <strong>Problem:</strong> Find the constant term (term with no x) in the expansion of (2x<sup>2</sup> - 1/x)<sup>6</sup>.<br><br>
+    <em>Think about:</em> We have (2x<sup>2</sup>)<sup>6-k</sup> &middot; (-1/x)<sup>k</sup>. We want the x's to cancel out.
+  </div>
+  
+  <details style="background: var(--bg-surface); border: 1px solid var(--divider-color); border-radius: 6px; padding: 12px; cursor: pointer;">
+    <summary style="color: var(--text-primary); font-weight: 600; font-size: 0.95em;">Tap to reveal step-by-step solution</summary>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.65; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--divider-color);">
+      <strong>1. Write the general term:</strong><br>
+      T<sub>k+1</sub> = <sup>6</sup>C<sub>k</sub> &middot; (2x<sup>2</sup>)<sup>6-k</sup> &middot; (-1/x)<sup>k</sup><br><br>
+      
+      <strong>2. Simplify the x part:</strong><br>
+      (x<sup>2</sup>)<sup>6-k</sup> = x<sup>12-2k</sup> and (1/x)<sup>k</sup> = x<sup>-k</sup><br>
+      So total x exponent: 12 - 2k - k = 12 - 3k<br><br>
+      
+      <strong>3. We want constant term:</strong><br>
+      &rarr; exponent of x = 0<br>
+      So: 12 - 3k = 0 &rarr; 3k = 12 &rarr; k = 4<br><br>
+      
+      <strong>4. Now find the term:</strong><br>
+      T<sub>4+1</sub> = T<sub>5</sub> = <sup>6</sup>C<sub>4</sub> &middot; (2x<sup>2</sup>)<sup>2</sup> &middot; (-1/x)<sup>4</sup><br>
+      • <sup>6</sup>C<sub>4</sub> = 15<br>
+      • (2x<sup>2</sup>)<sup>2</sup> = 4x<sup>4</sup><br>
+      • (-1/x)<sup>4</sup> = 1/x<sup>4</sup> (positive since even power)<br><br>
+      
+      <strong>5. Multiply:</strong><br>
+      15 &times; 4x<sup>4</sup> &times; (1/x<sup>4</sup>) = 15 &times; 4 &times; 1 = 60<br><br>
+      <strong>Answer:</strong> The constant term is <strong>60</strong>.
+    </div>
+  </details>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">8. The Four Scenarios</h2>
+
+<div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65; margin-bottom: 24px;">
+  These FOUR scenarios are the ways you'll most likely be seeing questions.
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 1.1em; font-weight: 700; margin-bottom: 12px;">SCENARIO 1: Finding r<sup>th</sup> term or (k + 1)<sup>th</sup> term</div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-bottom: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — 3RD TERM OF (3x + 2)⁵</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      <strong>Quick solution (in seconds):</strong><br>
+      Formula for the (k+1)th term: T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup><br><br>
+      Here, n = 5, k = 3 - 1 = 2.<br>
+      a = 3x, b = 2.<br><br>
+      Plug in and compute mentally:<br>
+      • C(5,2) = 10<br>
+      • (3x)<sup>5-2</sup> = (3x)<sup>3</sup> = 27x<sup>3</sup><br>
+      • 2<sup>2</sup> = 4<br><br>
+      Multiply: 10 &times; 27x<sup>3</sup> &times; 4 = <strong>1080x<sup>3</sup></strong>.<br><br>
+      <strong>Result:</strong> The 3rd term is 1080x<sup>3</sup>.<br><br>
+      <em>Why it's fast: You skip writing the general term; directly use k = r - 1, where r is the term we are looking for. If we are looking for the fifth term take k as 4 (i.e., 5 - 1). Then compute the three parts (binomial coefficient, power of a, power of b) then multiply.</em><br><br>
+      <strong>NB:</strong> C(5, 2) is another way of writing <sup>5</sup>C<sub>2</sub>.
+    </div>
+  </div>
+
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 2 — 5TH TERM OF (3x - 2y)⁸</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Formula for the (k+1)th term: T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup><br><br>
+      Here, n = 8, k = 5 - 1 = 4.<br>
+      a = 3x, b = -2y.<br><br>
+      Plug in and compute mentally:<br>
+      • <sup>8</sup>C<sub>4</sub> = 70<br>
+      • (3x)<sup>8-4</sup> = (3x)<sup>4</sup> = 81x<sup>4</sup><br>
+      • (-2y)<sup>4</sup> = 16y<sup>4</sup><br><br>
+      Multiply: 70 &times; 81x<sup>4</sup> &times; 16y<sup>4</sup> = <strong>90720x<sup>4</sup>y<sup>4</sup></strong>.<br><br>
+      <strong>Result:</strong> The 5th term is 90720x<sup>4</sup>y<sup>4</sup>.
+    </div>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 1.1em; font-weight: 700; margin-bottom: 12px;">SCENARIO 2: Finding the Coefficient of a Term</div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-bottom: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — COEFFICIENT OF x⁵ IN (2x - 3)⁸</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      <strong>Step-by-step solution:</strong><br><br>
+      1. Identify n, a, and b: n = 8, a = 2x, b = -3.<br><br>
+      2. Write the general term T<sub>k+1</sub>:<br>
+      T<sub>k+1</sub> = <sup>8</sup>C<sub>k</sub> &middot; (2x)<sup>8-k</sup> &middot; (-3)<sup>k</sup><br><br>
+      3. Simplify the power of x:<br>
+      T<sub>k+1</sub> = <sup>8</sup>C<sub>k</sub> &middot; 2<sup>8-k</sup> &middot; x<sup>8-k</sup> &middot; (-3)<sup>k</sup><br><br>
+      4. We want the exponent of x to be 5, so set 8 - k = 5. This gives k = 3.<br><br>
+      5. Check: k = 3 is an integer between 0 and 8, so the term exists.<br><br>
+      6. Find the coefficient by plugging k = 3 into the expression:<br>
+      Term = <sup>8</sup>C<sub>3</sub> &middot; (2x)<sup>5</sup> &middot; (-3)<sup>3</sup><br><br>
+      Calculate:<br>
+      • <sup>8</sup>C<sub>3</sub> = 56<br>
+      • 2<sup>5</sup> = 32<br>
+      • (-3)<sup>3</sup> = -27<br><br>
+      Multiply: 56 &times; 32x<sup>5</sup> = 1792x<sup>5</sup><br>
+      Then 1792x<sup>5</sup> &times; (-27) = -48384x<sup>5</sup>.<br><br>
+      <strong>Answer:</strong> The coefficient of x<sup>5</sup> is -48384.
+    </div>
+  </div>
+
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 2 — COEFFICIENT OF x⁶y² IN (3x - 2y)⁸</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      <strong>Step-by-step solution:</strong><br><br>
+      1. Identify n, a, and b: n = 8, a = 3x, b = -2y.<br><br>
+      2. Write the general term T<sub>k+1</sub>:<br>
+      T<sub>k+1</sub> = <sup>8</sup>C<sub>k</sub> &middot; (3x)<sup>8-k</sup> &middot; (-2y)<sup>k</sup><br><br>
+      3. We want the exponent of x to be 6, so set 8 - k = 6. This gives k = 2.<br>
+      Or We want the exponent of y to be 2, so set k = 2.<br><br>
+      4. Check: k = 2 is an integer between 0 and 8, so the term exists.<br><br>
+      5. Find the coefficient by plugging k = 2 into the expression:<br>
+      Term = <sup>8</sup>C<sub>2</sub> &middot; (3x)<sup>8-2</sup> &middot; (-2y)<sup>2</sup><br><br>
+      Calculate:<br>
+      • <sup>8</sup>C<sub>2</sub> = 28<br>
+      • (3x)<sup>6</sup> = 729x<sup>6</sup><br>
+      • (-2y)<sup>2</sup> = 4y<sup>2</sup><br><br>
+      Multiply: 28 &times; 729x<sup>6</sup> = 20412x<sup>6</sup><br>
+      Then 20412x<sup>6</sup> &times; (4y<sup>2</sup>) = 81648x<sup>6</sup>y<sup>2</sup>.<br><br>
+      <strong>Answer:</strong> The coefficient of x<sup>6</sup>y<sup>2</sup> is 81648.
+    </div>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 1.1em; font-weight: 700; margin-bottom: 12px;">SCENARIO 3: Finding the Constant Term</div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — CONSTANT TERM IN (2x - 1/x)⁸</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      <strong>General term:</strong><br>
+      T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; (2x)<sup>8-k</sup> &middot; (-1/x)<sup>k</sup><br><br>
+      Which is the same as:<br>
+      T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; (2x)<sup>8-k</sup> &middot; (-1x)<sup>-k</sup><br><br>
+      For constant term, power of x = 0<br>
+      So: x<sup>8-k</sup> &times; x<sup>-k</sup> = x<sup>0</sup><br>
+      which is x<sup>8-k-k</sup> = x<sup>0</sup><br><br>
+      Since the bases are the same, equate the power:<br>
+      8 - k - k = 0<br>
+      8 - 2k = 0<br>
+      k = 4<br><br>
+      Now substitute k = 4:<br>
+      T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; (2x)<sup>8-k</sup> &middot; (-1/x)<sup>k</sup><br>
+      T<sub>5</sub> = <sup>8</sup>C<sub>4</sub> &times; (2x)<sup>4</sup> &times; (-1/x)<sup>4</sup><br><br>
+      Calculate:<br>
+      • <sup>8</sup>C<sub>4</sub> = 70<br>
+      • (2x)<sup>4</sup> = 16x<sup>4</sup><br>
+      • (-1/x)<sup>4</sup> = 1/x<sup>4</sup><br><br>
+      Constant term = 70 &times; 16x<sup>4</sup> &times; 1/x<sup>4</sup> = <strong>1120</strong><br><br>
+      Notice how x<sup>4</sup> cancelled out.<br><br>
+      <em>If the k is bigger than the exponent (8) or smaller than 0 (maybe a negative number), then the term doesn't exist or, in this case there's no constant term. CONSTANT TERM IS 0.</em>
+    </div>
+  </div>
+</div>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 1.1em; font-weight: 700; margin-bottom: 12px;">SCENARIO 4: Finding Middle Term</div>
+  
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px; margin-bottom: 16px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 1 — MIDDLE TERM IN (x + y)⁸</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Since the power is 8, there will be 9 terms after expanding. The middle term is the <strong>5th term</strong>.
+    </div>
+  </div>
+
+  <div style="background: var(--bg-surface); border-left: 3px solid var(--border-color); padding: 14px 16px; border-radius: 6px;">
+    <div style="color: var(--text-tertiary); font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 8px;">EXAMPLE 2 — MIDDLE TERM IN (x + y)⁷</div>
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      Since the power is 7, there will be 8 terms after expanding. The middle term is the <strong>4th and 5th terms</strong>.
+    </div>
+  </div>
+</div>
+
+<h2 style="color: var(--text-primary); font-size: 1.5em; font-weight: 700; margin: 40px 0 24px 0; padding-bottom: 12px; border-bottom: 1px solid var(--divider-color);">Summary Cheat Sheet</h2>
+
+<div style="padding: 20px 0; border-bottom: 1px solid var(--divider-color);">
+  <div style="color: var(--text-secondary); font-size: 0.9em; font-weight: 600; margin-bottom: 12px;">Key Takeaways</div>
+  <div style="color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <ol style="margin: 0; padding-left: 20px;">
+      <li><strong>For small n:</strong> Use Pascal's Triangle.</li>
+      <li><strong>For any n:</strong> Use Binomial Theorem: (a + b)<sup>n</sup> = &sum; [<sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup>].</li>
+      <li><strong>Specific term:</strong> Use T<sub>k+1</sub> = <sup>n</sup>C<sub>k</sub> &middot; a<sup>n-k</sup> &middot; b<sup>k</sup>.
+        <ul style="margin: 4px 0; padding-left: 20px;">
+          <li style="margin-bottom: 4px;">Remember: k starts at 0 for the first term!</li>
+        </ul>
+      </li>
+      <li><strong>Watch for signs:</strong> If b is negative, b<sup>k</sup> alternates signs.</li>
+      <li><strong>For fractional/negative exponents:</strong> The theorem works differently (that's for another video!).</li>
+    </ol>
+  </div>
+  
+  <div style="background-color: rgba(255, 235, 59, 0.3); padding: 16px; border-radius: 6px; margin-top: 16px;">
+    <div style="color: var(--text-secondary); font-size: 0.92em; line-height: 1.55;">
+      The key is <strong>PRACTICE</strong>. Start with Pascal's Triangle for small exponents to build intuition, then move to the formula for larger ones. You've got this!
+    </div>
+  </div>
+  
+  <div style="margin-top: 16px; color: var(--text-primary); font-size: 0.95em; line-height: 1.65;">
+    <strong>Final Tip:</strong> On exams, if you forget the formula, you can always generate Pascal's Triangle quickly for n &le; 6 or 7. It's a great backup plan!
+  </div>
+</div>
