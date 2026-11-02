@@ -3,16 +3,340 @@
   "title": "MTH 101: COMPLEX NUMBERS I",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 23,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793655850510.3884,
+      "question": "√(−81) =",
+      "options": [
+        "9",
+        "9i",
+        "−9i",
+        "81i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "√(−81) = √(81 × −1) = √81 · √(−1) = 9i. Answer: <b>9i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.2493,
+      "question": "i⁶⁴ =",
+      "options": [
+        "1",
+        "−1",
+        "i",
+        "−i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "64 = 4·16, so i⁶⁴ = (i⁴)¹⁶ = 1¹⁶ = 1. Answer: <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.126,
+      "question": "i²¹ =",
+      "options": [
+        "1",
+        "i",
+        "−1",
+        "−i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "21 = 4·5 + 1, so i²¹ = (i⁴)⁵ · i = 1 · i = i. Answer: <b>i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.8694,
+      "question": "Which of the following is a purely imaginary number?",
+      "options": [
+        "120",
+        "4 + 7i",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>4</span></span> + i",
+        "12i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A purely imaginary number has real part 0. 120 is real; 4 + 7i and <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>4</span></span> + i both have nonzero real parts; 12i = 0 + 12i has real part 0. Answer: <b>12i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.0723,
+      "question": "The conjugate of 7i − 5 is",
+      "options": [
+        "−5 − 7i",
+        "5 − 7i",
+        "5 + 7i",
+        "−5 + 7i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Write 7i − 5 as −5 + 7i. The conjugate changes the sign of the imaginary part only: −5 − 7i. Answer: <b>−5 − 7i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.2715,
+      "question": "The conjugate of −20i + 19 is",
+      "options": [
+        "−19 + 20i",
+        "19 − 20i",
+        "19 + 20i",
+        "−19 − 20i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Write −20i + 19 as 19 − 20i. The conjugate is 19 + 20i. Answer: <b>19 + 20i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.2344,
+      "question": "The conjugate of (3i + 4) + (5 − 3i) is",
+      "options": [
+        "−9",
+        "9",
+        "9i",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(3i + 4) + (5 − 3i) = (4 + 5) + (3i − 3i) = 9 + 0i = 9. The conjugate of a real number is itself, so the conjugate is 9. Answer: <b>9</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.0596,
+      "question": "(3 + 5i) + 6 =",
+      "options": [
+        "3 + 11i",
+        "9 − 5i",
+        "6 + 5i",
+        "9 + 5i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Add the real parts: 3 + 6 = 9; the imaginary part stays 5i. Answer: <b>9 + 5i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.0764,
+      "question": "7i + (4 + 5i) =",
+      "options": [
+        "4 + 12i",
+        "11 + 4i",
+        "4 + 2i",
+        "12 + 4i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Real parts: 0 + 4 = 4; imaginary parts: 7i + 5i = 12i. Answer: <b>4 + 12i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.6519,
+      "question": "17 + (14 − 15i) =",
+      "options": [
+        "31 + 15i",
+        "3 − 15i",
+        "31 − 15i",
+        "14 − 15i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Real parts: 17 + 14 = 31; imaginary part: −15i. Answer: <b>31 − 15i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.8057,
+      "question": "(3 − 5i) − (4 + 6i) =",
+      "options": [
+        "1 − 11i",
+        "−1 − 11i",
+        "−1 + 11i",
+        "7 + i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subtract real parts: 3 − 4 = −1; subtract imaginary parts: −5i − 6i = −11i. Answer: <b>−1 − 11i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.0598,
+      "question": "(2 + 2i) − (4 + 15i) =",
+      "options": [
+        "−2 + 13i",
+        "6 + 17i",
+        "2 − 13i",
+        "−2 − 13i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Real parts: 2 − 4 = −2; imaginary parts: 2i − 15i = −13i. Answer: <b>−2 − 13i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.8984,
+      "question": "i − (2 + 6i) =",
+      "options": [
+        "−2 − 5i",
+        "−2 + 7i",
+        "2 − 5i",
+        "−2 − 7i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "i − 2 − 6i = −2 + (i − 6i) = −2 − 5i. Answer: <b>−2 − 5i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.3477,
+      "question": "0 − (11 + 13i) =",
+      "options": [
+        "11 − 13i",
+        "11 + 13i",
+        "−11 − 13i",
+        "−11 + 13i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Distribute the minus sign: −11 − 13i. Answer: <b>−11 − 13i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.3547,
+      "question": "−3(4 + 2i) =",
+      "options": [
+        "−12 + 6i",
+        "−12 − 6i",
+        "12 − 6i",
+        "−12 − 2i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply each term by −3: (−3)(4) = −12 and (−3)(2i) = −6i. Answer: <b>−12 − 6i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.5635,
+      "question": "(5 + 3i)i =",
+      "options": [
+        "3 + 5i",
+        "−3 − 5i",
+        "5 − 3i",
+        "−3 + 5i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "(5 + 3i)i = 5i + 3i² = 5i − 3 = −3 + 5i. Answer: <b>−3 + 5i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.8582,
+      "question": "(2 + i)(3 − 3i) =",
+      "options": [
+        "9 − 3i",
+        "3 − 3i",
+        "9 + 3i",
+        "6 − 3i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expand: 6 − 6i + 3i − 3i² = 6 − 3i + 3 = 9 − 3i. Answer: <b>9 − 3i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.1487,
+      "question": "(2 − 7i)(3 + 4i) =",
+      "options": [
+        "−22 − 13i",
+        "6 − 13i",
+        "34 − 13i",
+        "34 + 13i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Expand: 6 + 8i − 21i − 28i² = 6 − 13i + 28 = 34 − 13i. Answer: <b>34 − 13i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850511.9717,
+      "question": "(5 + 12i)(6 + 7i) =",
+      "options": [
+        "114 + 107i",
+        "−54 + 107i",
+        "−54 − 107i",
+        "30 + 107i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expand: 30 + 35i + 72i + 84i² = 30 + 107i − 84 = −54 + 107i. Answer: <b>−54 + 107i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850512.1504,
+      "question": "1/i =",
+      "options": [
+        "i",
+        "−i",
+        "1",
+        "−1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply numerator and denominator by i: (1 · i) ÷ (i · i) = i ÷ (−1) = −i. Answer: <b>−i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850512.5676,
+      "question": "Write 3/(1 + i) in standard form.",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span>i",
+        "3 − 3i",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> − <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span>i",
+        "−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span>i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiply numerator and denominator by (1 − i): numerator 3(1 − i) = 3 − 3i; denominator (1 + i)(1 − i) = 1 + 1 = 2. So the value is <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> − <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span>i. Answer: <b><span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> − <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span>i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850512.88,
+      "question": "(1 − i)/(1 + i) =",
+      "options": [
+        "i",
+        "1",
+        "−1",
+        "−i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Multiply numerator and denominator by (1 − i): numerator (1 − i)² = 1 − 2i + i² = −2i; denominator (1 + i)(1 − i) = 1 + 1 = 2. So the value is −2i ÷ 2 = −i. Answer: <b>−i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793655850512.765,
+      "question": "Write (4 + 5i)/(6 − 5i) in standard form.",
+      "options": [
+        "−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>61</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>61</span></span>i",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>61</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>61</span></span>i",
+        "−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>61</span></span> − <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>61</span></span>i",
+        "−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>11</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>11</span></span>i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply numerator and denominator by (6 + 5i). Numerator: (4 + 5i)(6 + 5i) = 24 + 20i + 30i + 25i² = 24 + 50i − 25 = −1 + 50i. Denominator: 6² + 5² = 36 + 25 = 61. So the value is −<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>61</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>61</span></span>i. Answer: <b>−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>61</span></span> + <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>50</span><span style='display:block;padding:0 .3em'>61</span></span>i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
