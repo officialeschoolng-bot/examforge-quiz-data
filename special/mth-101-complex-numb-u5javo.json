@@ -3,7 +3,7 @@
   "title": "MTH 101: COMPLEX NUMBERS I",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 23,
+  "totalQuestions": 20,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -157,20 +157,6 @@
       "points": 1
     },
     {
-      "id": 1793655850511.8057,
-      "question": "(3 − 5i) − (4 + 6i) =",
-      "options": [
-        "1 − 11i",
-        "−1 − 11i",
-        "−1 + 11i",
-        "7 + i"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Subtract real parts: 3 − 4 = −1; subtract imaginary parts: −5i − 6i = −11i. Answer: <b>−1 − 11i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793655850511.0598,
       "question": "(2 + 2i) − (4 + 15i) =",
       "options": [
@@ -199,20 +185,6 @@
       "points": 1
     },
     {
-      "id": 1793655850511.3477,
-      "question": "0 − (11 + 13i) =",
-      "options": [
-        "11 − 13i",
-        "11 + 13i",
-        "−11 − 13i",
-        "−11 + 13i"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Distribute the minus sign: −11 − 13i. Answer: <b>−11 − 13i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793655850511.3547,
       "question": "−3(4 + 2i) =",
       "options": [
@@ -223,20 +195,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Multiply each term by −3: (−3)(4) = −12 and (−3)(2i) = −6i. Answer: <b>−12 − 6i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793655850511.5635,
-      "question": "(5 + 3i)i =",
-      "options": [
-        "3 + 5i",
-        "−3 − 5i",
-        "5 − 3i",
-        "−3 + 5i"
-      ],
-      "correctAnswer": 3,
-      "explanation": "(5 + 3i)i = 5i + 3i² = 5i − 3 = −3 + 5i. Answer: <b>−3 + 5i</b>.",
       "difficulty": "easy",
       "points": 1
     },
