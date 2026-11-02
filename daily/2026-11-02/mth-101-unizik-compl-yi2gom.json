@@ -3,7 +3,7 @@
   "title": "MTH 101 (UNIZIK): COMPLEX NUMBERS 1- ALGEBRA AND ARGAND PLANE",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 45,
+  "totalQuestions": 36,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -227,20 +227,6 @@
       "points": 1
     },
     {
-      "id": 1793606052914.8972,
-      "question": "If (x + 2i) + (3 − yi) = 7 + i, where x and y are real, then",
-      "options": [
-        "x = 4, y = 1",
-        "x = 10, y = 1",
-        "x = 4, y = 3",
-        "x = 4, y = −1"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Equate real and imaginary parts: x + 3 = 7 → x = 4; 2 − y = 1 → y = 1. Answer: <b>x = 4, y = 1</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793606052914.754,
       "question": "(<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1</span><span style='display:block;padding:0 .3em'>2</span></span> + 3i) + (<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>3</span><span style='display:block;padding:0 .3em'>2</span></span> − 5i) =",
       "options": [
@@ -297,20 +283,6 @@
       "points": 1
     },
     {
-      "id": 1793606052914.1362,
-      "question": "(2 − 5i)² =",
-      "options": [
-        "29 − 20i",
-        "−21 + 20i",
-        "4 − 25i",
-        "−21 − 20i"
-      ],
-      "correctAnswer": 3,
-      "explanation": "(2−5i)² = 4 − 20i + 25i² = 4 − 20i − 25 = <b>−21 − 20i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793606052914.9756,
       "question": "(1 + i)(1 − i)(2 + i) =",
       "options": [
@@ -325,34 +297,6 @@
       "points": 1
     },
     {
-      "id": 1793606052914.1016,
-      "question": "i³(3 + 2i) =",
-      "options": [
-        "−2 + 3i",
-        "3 + 2i",
-        "2 − 3i",
-        "−2 − 3i"
-      ],
-      "correctAnswer": 2,
-      "explanation": "i³ = −i. So −i(3+2i) = −3i − 2i² = −3i + 2 = <b>2 − 3i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793606052914.0615,
-      "question": "For z = 6 − 8i, the product z · z̄ is",
-      "options": [
-        "28",
-        "36",
-        "−28",
-        "100"
-      ],
-      "correctAnswer": 3,
-      "explanation": "z·z̄ = 6² + (−8)² = 36 + 64 = <b>100</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793606052914.3218,
       "question": "If z = 2 + 5i, then z + z̄ =",
       "options": [
@@ -363,20 +307,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "z + z̄ = (2+5i) + (2−5i) = <b>4</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793606052914.2297,
-      "question": "If z = 2 + 5i, then z − z̄ =",
-      "options": [
-        "10i",
-        "10",
-        "0",
-        "4"
-      ],
-      "correctAnswer": 0,
-      "explanation": "z − z̄ = (2+5i) − (2−5i) = <b>10i</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -405,20 +335,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Multiply by <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1 − i</span><span style='display:block;padding:0 .3em'>1 − i</span></span>:<br><span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2</span><span style='display:block;padding:0 .3em'>1 + i</span></span> · <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1 − i</span><span style='display:block;padding:0 .3em'>1 − i</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2(1 − i)</span><span style='display:block;padding:0 .3em'>(1+i)(1−i)</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2(1 − i)</span><span style='display:block;padding:0 .3em'>1 + 1</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2(1 − i)</span><span style='display:block;padding:0 .3em'>2</span></span> = <b>1 − i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793606052914.2642,
-      "question": "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2 + i</span><span style='display:block;padding:0 .3em'>1 − 2i</span></span> =",
-      "options": [
-        "i",
-        "−i",
-        "1",
-        "0"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Multiply by <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1 + 2i</span><span style='display:block;padding:0 .3em'>1 + 2i</span></span>:<br><span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2 + i</span><span style='display:block;padding:0 .3em'>1 − 2i</span></span> · <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>1 + 2i</span><span style='display:block;padding:0 .3em'>1 + 2i</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>(2+i)(1+2i)</span><span style='display:block;padding:0 .3em'>1 + 4</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>2 + 4i + i + 2i²</span><span style='display:block;padding:0 .3em'>5</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1px solid;padding:0 .3em'>5i</span><span style='display:block;padding:0 .3em'>5</span></span> = <b>i</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -521,34 +437,6 @@
       "points": 1
     },
     {
-      "id": 1793606052914.388,
-      "question": "Simplify (1 + √(−4))².",
-      "options": [
-        "5",
-        "−3 + 4i",
-        "1 + 4i",
-        "−3 − 4i"
-      ],
-      "correctAnswer": 1,
-      "explanation": "1 + √(−4) = 1 + 2i. Then (1 + 2i)² = 1 + 4i + 4i² = 1 + 4i − 4 = <b>−3 + 4i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793606052914.055,
-      "question": "The polar point (4, π/2) has rectangular coordinates",
-      "options": [
-        "(4, 0)",
-        "(−4, 0)",
-        "(0, 4)",
-        "(0, −4)"
-      ],
-      "correctAnswer": 2,
-      "explanation": "x = 4cos(π/2) = 0; y = 4sin(π/2) = 4. → <b>(0, 4)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793606052914.9836,
       "question": "The polar point (6, 5π/3) has rectangular coordinates",
       "options": [
@@ -601,20 +489,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "r = √(0² + (−5)²) = 5. The point lies on the negative y-axis, so θ = 3π/2. → <b>(5, 3π/2)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793606052914.1082,
-      "question": "The rectangular point (−1, 1) has polar coordinates",
-      "options": [
-        "(√2, π/4)",
-        "(√2, 5π/4)",
-        "(1, 3π/4)",
-        "(√2, 3π/4)"
-      ],
-      "correctAnswer": 3,
-      "explanation": "r = √((−1)² + 1²) = √2. The point lies in the second quadrant, so θ = 3π/4. → <b>(√2, 3π/4)</b>.",
       "difficulty": "easy",
       "points": 1
     },
