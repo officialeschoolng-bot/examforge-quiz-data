@@ -3,16 +3,718 @@
   "title": "PHY 101 ( UNINIGER ) : PHYSICAL QUANTITIES, UNIT AND DIMENSIONS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793733248389.1912,
+      "question": "A physical quantity is defined as which of the following?",
+      "options": [
+        "A standard of measurement",
+        "A unit of measurement",
+        "A measurable property",
+        "A mathematical constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A physical quantity is any measurable property of a physical system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.865,
+      "question": "Physical quantities are broadly classified into which two categories?",
+      "options": [
+        "Scalar and vector quantities",
+        "Fundamental and derived types",
+        "Static and dynamic values",
+        "Basic and combined forms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Physical quantities are classified into fundamental and derived quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.372,
+      "question": "Fundamental quantities are independent and cannot be derived from any other quantity.",
+      "options": [
+        "True",
+        "False",
+        "Only for mass",
+        "Only for length"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fundamental quantities form the foundation and cannot be derived from others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.8843,
+      "question": "The number of universally recognized fundamental quantities is which of the following?",
+      "options": [
+        "Exactly five",
+        "Exactly six",
+        "Exactly eight",
+        "Seven"
+      ],
+      "correctAnswer": 3,
+      "explanation": "There are seven universally recognized fundamental quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.7747,
+      "question": "Which of the following is an example of a fundamental quantity?",
+      "options": [
+        "Velocity",
+        "Force",
+        "Mass",
+        "Acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mass is one of the seven fundamental quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.8752,
+      "question": "Units are defined as which of the following?",
+      "options": [
+        "Agreed-upon standards",
+        "Derived mathematical forms",
+        "Inherent physical properties",
+        "Basic scientific measurements"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Units are agreed-upon standards for measurement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.461,
+      "question": "Adding a length to a velocity is considered nonsensical because they describe different physical phenomena.",
+      "options": [
+        "True",
+        "False",
+        "Sometimes true",
+        "Always false"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Different physical quantities have different units and cannot be directly added.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.6372,
+      "question": "Units serve to distinguish between different quantities and provide which of the following?",
+      "options": [
+        "Complex calculations",
+        "Common reference",
+        "Physical constants",
+        "Numerical values"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Units provide a common reference for measurement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.4902,
+      "question": "The modern internationally recognized system for fundamental units is known by which abbreviation?",
+      "options": [
+        "The MKS system",
+        "The SI system",
+        "The FPS system",
+        "The CGS system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Metre-Kilogram-Second system is known as the MKS system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.2607,
+      "question": "Fundamental units cannot be obtained by combining other units.",
+      "options": [
+        "True",
+        "False",
+        "Only in MKS",
+        "Only for mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fundamental units are independent and form the basis for other units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.8303,
+      "question": "In the MKS system, length is measured in which unit?",
+      "options": [
+        "Centimetre",
+        "Metre",
+        "Foot",
+        "Inch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The MKS system measures length in metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248390.0547,
+      "question": "In the MKS system, mass is measured in which unit?",
+      "options": [
+        "Gram",
+        "Pound",
+        "Kilogram",
+        "Ounce"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The MKS system measures mass in kilograms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.4033,
+      "question": "Derived units are obtained by combining fundamental units through which mathematical operations?",
+      "options": [
+        "Addition of basic units",
+        "Averaging of base values",
+        "Multiplication or division",
+        "Subtraction of basic units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Derived units are formed by multiplying or dividing fundamental units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.2568,
+      "question": "The derived unit for area is expressed as which of the following?",
+      "options": [
+        "m",
+        "m2",
+        "m3",
+        "m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Area is length times length, so its unit is square metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.8533,
+      "question": "The derived unit for velocity is expressed as which of the following?",
+      "options": [
+        "m",
+        "m2",
+        "m3",
+        "m/s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Velocity is distance divided by time, so its unit is metres per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.5913,
+      "question": "The derived unit for force is expressed as which of the following?",
+      "options": [
+        "kg·m/s2",
+        "metre per second",
+        "square metre",
+        "cubic metre"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Force is mass times acceleration, so its unit is kilogram metre per second squared.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.3215,
+      "question": "Volume is a derived quantity and its unit is expressed as which of the following?",
+      "options": [
+        "m",
+        "m2",
+        "m3",
+        "m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume is length cubed, so its unit is cubic metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.9,
+      "question": "The International System of Units is derived from which French term?",
+      "options": [
+        "Systeme Metrique",
+        "Systeme International",
+        "Systeme Universel",
+        "Systeme Decimal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SI is derived from the French term Systeme International d'Unites.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.237,
+      "question": "Which two supplementary units are recognized in the SI system?",
+      "options": [
+        "Length and mass",
+        "Time and current",
+        "Temperature and amount",
+        "Plane and solid angle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The SI system recognizes plane angle and solid angle as supplementary units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.6755,
+      "question": "The supplementary unit for plane angle is measured in which unit?",
+      "options": [
+        "Radians",
+        "Steradians",
+        "Degrees",
+        "Metres"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plane angle is measured in radians.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.014,
+      "question": "The supplementary unit for solid angle is measured in which unit?",
+      "options": [
+        "Radian measures",
+        "Degree measures",
+        "Metre measures",
+        "Steradians"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Solid angle is measured in steradians.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.8315,
+      "question": "One foot is equivalent to how many metres?",
+      "options": [
+        "0.3048 m",
+        "0.0254 m",
+        "0.3048 cm",
+        "3.281 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One foot is exactly 0.3048 metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.098,
+      "question": "One inch is equivalent to how many centimetres?",
+      "options": [
+        "0.3048 cm",
+        "2.54 cm",
+        "39.37 cm",
+        "30.48 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One inch is equal to 2.54 centimetres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.2136,
+      "question": "One hour is equivalent to how many seconds?",
+      "options": [
+        "60 seconds",
+        "3600 seconds",
+        "86400 seconds",
+        "1800 seconds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One hour contains 60 minutes, each with 60 seconds, totaling 3600 seconds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.1858,
+      "question": "One day is equivalent to how many seconds?",
+      "options": [
+        "3600 seconds",
+        "86400 seconds",
+        "43200 seconds",
+        "1440 seconds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One day consists of 24 hours, each with 3600 seconds, totaling 86400 seconds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.265,
+      "question": "One year is approximately equivalent to how many seconds?",
+      "options": [
+        "3.154 x 10^7 seconds",
+        "8.64 x 10^4 seconds exactly",
+        "3.154 x 10^4 seconds exactly",
+        "1.745 x 10^2 seconds exactly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One year is approximately 3.154 x 10^7 seconds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.8262,
+      "question": "One litre is equivalent to how many cubic metres?",
+      "options": [
+        "10^-3 m3",
+        "10^-2 m3",
+        "10^-6 m3",
+        "10^-1 m3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One litre is equal to 10^-3 cubic metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.4097,
+      "question": "180 degrees is equivalent to how many radians?",
+      "options": [
+        "π radians",
+        "2π radians",
+        "π/2 radians",
+        "4π radians"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A straight angle of 180 degrees is equal to π radians.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.7627,
+      "question": "One radian is approximately equivalent to how many degrees?",
+      "options": [
+        "57.3 degrees",
+        "45.0 degrees",
+        "60.0 degrees",
+        "90.0 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One radian is approximately 57.3 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.477,
+      "question": "One degree is equivalent to how many radians?",
+      "options": [
+        "1.745 x 10^-2 radians",
+        "1.745 x 10^-1 radians",
+        "3.154 x 10^-2 radians",
+        "8.640 x 10^-2 radians"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One degree is equal to 1.745 x 10^-2 radians.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.9324,
+      "question": "One Angstrom is equivalent to how many metres?",
+      "options": [
+        "10^-10 m",
+        "10^-9 m",
+        "10^-6 m",
+        "10^-3 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One Angstrom is defined as 10^-10 metres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.7576,
+      "question": "One kilometre is equivalent to how many metres?",
+      "options": [
+        "10^-3 m",
+        "10^3 m",
+        "10^-2 m",
+        "10^2 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix kilo means one thousand, so 1 km = 10^3 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.8423,
+      "question": "Dimensions express how a physical quantity relates to which fundamental quantities?",
+      "options": [
+        "Length, mass, and time",
+        "Mass, volume, and time",
+        "Length, weight, and time",
+        "Length, area, and time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensions express relationships in terms of length, mass, and time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.7222,
+      "question": "Dimensions are represented using which notation?",
+      "options": [
+        "Parentheses",
+        "Square brackets",
+        "Curly braces",
+        "Angle brackets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensions are conventionally represented using square brackets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.6062,
+      "question": "An equation is dimensionally correct if both sides have which property?",
+      "options": [
+        "Same dimensions",
+        "Same constants",
+        "Same variables",
+        "Same units"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an equation to be dimensionally correct, both sides must have identical dimensions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.6843,
+      "question": "Dimensional analysis alone cannot guarantee an equation's full correctness because it ignores which elements?",
+      "options": [
+        "Dimensionless constants",
+        "Fundamental quantities",
+        "Standard measurements",
+        "Physical derivations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensional analysis cannot account for dimensionless constants or vector directions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.168,
+      "question": "Trigonometric, exponential, and logarithmic functions are considered to be which of the following?",
+      "options": [
+        "Dimensional",
+        "Dimensionless",
+        "Derived",
+        "Fundamental"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trigonometric, exponential, and logarithmic functions and their arguments are dimensionless.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.0972,
+      "question": "The dimension of force is given by which expression?",
+      "options": [
+        "[MLT-2]",
+        "[MLT-1]",
+        "[ML2T-3]",
+        "[ML-3]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Force is mass times acceleration, so its dimension is [MLT-2].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.2573,
+      "question": "The dimension of acceleration is given by which expression?",
+      "options": [
+        "[LT-1]",
+        "[LT-2]",
+        "[L2T-2]",
+        "[MLT-2]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acceleration is velocity divided by time, giving the dimension [LT-2].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.9524,
+      "question": "The dimension of power is given by which expression?",
+      "options": [
+        "[MLT-2]",
+        "[MLT-1]",
+        "[ML2T-3]",
+        "[ML-3]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Power is energy divided by time, which has the dimension [ML2T-3].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.6985,
+      "question": "The dimension of density is given by which expression?",
+      "options": [
+        "[MLT-1]",
+        "[ML2T-3]",
+        "[ML-3]",
+        "[L2]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Density is mass divided by volume, giving the dimension [ML-3].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.883,
+      "question": "The dimension of momentum is given by which expression?",
+      "options": [
+        "[MLT-1]",
+        "[MLT-2]",
+        "[ML2T-3]",
+        "[ML-3]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum is mass times velocity, which has the dimension [MLT-1].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.7646,
+      "question": "The dimension of area is given by which expression?",
+      "options": [
+        "[L]",
+        "[L2]",
+        "[L3]",
+        "[LT-1]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Area is length squared, so its dimension is [L2].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.326,
+      "question": "The dimension of volume is given by which expression?",
+      "options": [
+        "[L]",
+        "[L2]",
+        "[L3]",
+        "[LT-1]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume is length cubed, so its dimension is [L3].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.9841,
+      "question": "Electric current has which dimension?",
+      "options": [
+        "[A]",
+        "[J]",
+        "[T]",
+        "[M]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electric current is a fundamental quantity with the dimension [A].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.1904,
+      "question": "Luminous intensity has which dimension?",
+      "options": [
+        "[A]",
+        "[J]",
+        "[T]",
+        "[M]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Luminous intensity is a fundamental quantity with the dimension [J].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.7737,
+      "question": "Verifying the equation v2 = u2 + 2as using dimensional analysis shows it is which of the following?",
+      "options": [
+        "Dimensionally correct",
+        "Dimensionally incorrect",
+        "Mathematically wrong",
+        "Partially correct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All terms in the equation v2 = u2 + 2as have the same dimension [L2T-2].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.696,
+      "question": "Verifying the equation v2 = u + at2 using dimensional analysis shows it is which of the following?",
+      "options": [
+        "Dimensionally correct",
+        "Dimensionally incorrect",
+        "Mathematically right",
+        "Partially wrong"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The left-hand side has dimensions [L2T-2] while the right-hand side terms have [LT-1] and [L].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.8992,
+      "question": "The period T of a simple pendulum depends on length L, mass M, and gravity g. Dimensional analysis gives T proportional to which expression?",
+      "options": [
+        "Square root of L/g",
+        "Square root of g/L",
+        "Square of L/g",
+        "Square of g/L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensional analysis yields T = k square root of L/g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793733248391.228,
+      "question": "The velocity V of a wave on a string depends on tension T, mass m, and length l. The dimensional equation is V = kTa m^b l^c. Solving for the exponents gives which result?",
+      "options": [
+        "a=0.5, b=-0.5, c=-0.5",
+        "a equals one, b equals one, c equals one",
+        "a equals negative half, b equals half, c equals half",
+        "a equals one, b equals negative one, c equals zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dimensional analysis yields the exponents a=1/2, b=-1/2, and c=-1/2.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
