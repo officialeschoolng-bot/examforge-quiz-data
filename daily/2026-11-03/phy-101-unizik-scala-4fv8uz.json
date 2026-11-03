@@ -3,16 +3,718 @@
   "title": "PHY 101 ( UNIZIK ) :SCALARS AND VECTORS",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793732610502.856,
+      "question": "Physical quantities can be classified based on magnitude and direction into which two groups?",
+      "options": [
+        "Mass and weight values",
+        "Speed and force values",
+        "Vectors and scalars",
+        "Distance and area values"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Physical quantities are grouped as scalars and vectors by magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.1096,
+      "question": "Scalar quantities are fully described by which feature?",
+      "options": [
+        "Magnitude alone",
+        "Direction alone",
+        "Both size and direction",
+        "Neither size nor direction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scalars require only magnitude for complete description.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.4817,
+      "question": "Which pair contains only scalar quantities?",
+      "options": [
+        "Force and velocity",
+        "Displacement and speed",
+        "Momentum and area",
+        "Mass and volume"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mass and volume are both scalar quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.4106,
+      "question": "Scalar quantities obey which rules?",
+      "options": [
+        "Vector rules",
+        "Arithmetic",
+        "Matrix rules",
+        "Cross rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scalars obey ordinary arithmetic rules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.8342,
+      "question": "Adding 40 kg and 20 kg to get 60 kg illustrates which property?",
+      "options": [
+        "Scalar sum",
+        "Vector sum",
+        "Cross product",
+        "Dot product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scalar addition follows simple arithmetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3047,
+      "question": "Which quantity is not scalar?",
+      "options": [
+        "Mass",
+        "Volume",
+        "Force",
+        "Density"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Force is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.1226,
+      "question": "Vector quantities require which pair?",
+      "options": [
+        "Magnitude alone and no direction",
+        "Direction alone and no magnitude",
+        "Mass and time values only",
+        "Magnitude and direction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vectors are described by both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.171,
+      "question": "Which list contains vector quantities only?",
+      "options": [
+        "Mass value and speed value",
+        "Displacement and velocity",
+        "Volume value and density value",
+        "Distance value and area value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Displacement and velocity are both vector quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.2922,
+      "question": "The arrow symbol over a letter represents which type of quantity?",
+      "options": [
+        "Vector",
+        "Scalar",
+        "Tensor",
+        "Constant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An arrow or cap over a letter denotes a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9473,
+      "question": "A bold letter is used to represent which quantity?",
+      "options": [
+        "Scalar",
+        "Unit",
+        "Null",
+        "Vector"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A bold letter is a common vector notation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.2815,
+      "question": "In two dimensions a vector A is written as which expression?",
+      "options": [
+        "A = Ax + Ay",
+        "A = Ax i - Ay j",
+        "A = Ax i + Ay j",
+        "A = Ax j + Ay i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A two dimensional vector has x and y components along i and j.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.243,
+      "question": "In three dimensions a vector A is expressed with how many unit vectors?",
+      "options": [
+        "One",
+        "Three",
+        "Two",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three dimensional vectors use i, j and k unit vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3855,
+      "question": "Two vectors are equal when they have which features?",
+      "options": [
+        "Same size and direction",
+        "Same size but no direction",
+        "Same direction but no size",
+        "Opposite directions only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equal vectors must have the same magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9204,
+      "question": "A unit vector has which magnitude?",
+      "options": [
+        "Zero",
+        "Two",
+        "Infinite",
+        "One"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A unit vector has a magnitude of one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.196,
+      "question": "A null vector is characterized by which magnitude?",
+      "options": [
+        "One",
+        "Zero",
+        "Two",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A null vector has zero magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.4878,
+      "question": "A vector with magnitude one is called which type?",
+      "options": [
+        "Null vector",
+        "Equal vector",
+        "Unit vector",
+        "Resultant vector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A vector of magnitude one is a unit vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7808,
+      "question": "A vector with zero magnitude is called which type?",
+      "options": [
+        "Null vector",
+        "Unit vector",
+        "Free vector",
+        "Position vector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A zero magnitude vector is a null vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9075,
+      "question": "Equality of vectors does not require which feature?",
+      "options": [
+        "Same magnitude",
+        "Same direction",
+        "Same size",
+        "Same position"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Equal vectors need not act from the same position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.205,
+      "question": "Resolving a vector means finding which of the following?",
+      "options": [
+        "Magnitude only value",
+        "Components along axes",
+        "Direction only value",
+        "Resultant only value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolution expresses a vector through its components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.028,
+      "question": "The unit vectors along x, y and z axes are represented by which symbols?",
+      "options": [
+        "a, b and c",
+        "x, y and z",
+        "i, j and k",
+        "p, q and r"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cartesian unit vectors are i, j and k.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9941,
+      "question": "In two dimensions vector A equals Ax i plus Ay j. Ax and Ay are known as which term?",
+      "options": [
+        "Components",
+        "Magnitudes",
+        "Resultants",
+        "Unit vectors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ax and Ay are the components of vector A.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.4338,
+      "question": "In three dimensions vector A equals Ax i plus Ay j plus Az k. The z-component is represented by which term?",
+      "options": [
+        "Ax",
+        "Ay",
+        "k",
+        "Az"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Az is the component along the z-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7434,
+      "question": "Unit vectors i, j and k point along which axes respectively?",
+      "options": [
+        "y, z and x",
+        "z, x and y",
+        "x, y and z",
+        "x, z and y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "i, j and k correspond to x, y and z axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3557,
+      "question": "The components of a vector can be expressed using which coordinate system?",
+      "options": [
+        "Polar only",
+        "Cartesian",
+        "Spherical only",
+        "Cylindrical only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cartesian coordinates express vectors through i, j and k components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9124,
+      "question": "A three dimensional vector has how many Cartesian components?",
+      "options": [
+        "Three",
+        "One",
+        "Two",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A three dimensional vector has x, y and z components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9202,
+      "question": "The magnitude of a two dimensional vector is found using which theorem?",
+      "options": [
+        "Sine rule",
+        "Cosine rule",
+        "Newton rule",
+        "Pythagoras"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vector magnitude follows Pythagoras theorem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3284,
+      "question": "The length of an arrow representing a vector indicates which feature?",
+      "options": [
+        "Direction",
+        "Unit",
+        "Magnitude",
+        "Position"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Arrow length represents vector magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.2656,
+      "question": "The arrowhead on a vector diagram indicates which feature?",
+      "options": [
+        "Magnitude",
+        "Direction",
+        "Mass",
+        "Speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The arrowhead shows the direction of the vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7324,
+      "question": "Vector addition must consider which two features?",
+      "options": [
+        "Size and direction",
+        "Magnitude alone only",
+        "Direction alone only",
+        "Mass and time only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector addition depends on both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7046,
+      "question": "Vector quantities do not obey which rules?",
+      "options": [
+        "Vector addition rules",
+        "Triangle law rules",
+        "Component method rules",
+        "Arithmetic rules"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vectors do not obey ordinary arithmetic addition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.9475,
+      "question": "The resultant of two or more vectors is obtained by which process?",
+      "options": [
+        "Scalar addition",
+        "Multiplication",
+        "Vector addition",
+        "Division"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The resultant is found through vector addition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.1667,
+      "question": "The magnitude of a vector in three dimensions can be found by extending which rule?",
+      "options": [
+        "Sine rule",
+        "Pythagoras",
+        "Cosine rule",
+        "Ohm rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three dimensional magnitude extends Pythagoras theorem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7112,
+      "question": "Two vectors can be added graphically using which arrangement?",
+      "options": [
+        "Tail to tail",
+        "Head to head",
+        "Side by side",
+        "Head to tail"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Graphical vector addition uses the head to tail method.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.47,
+      "question": "Multiplying a vector by a scalar produces which type of quantity?",
+      "options": [
+        "Vector",
+        "Scalar",
+        "Tensor",
+        "Null"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scalar multiplication of a vector yields a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.947,
+      "question": "If vector A is multiplied by scalar m, the result is which expression?",
+      "options": [
+        "D = m + A",
+        "D = A/m",
+        "D = mA",
+        "D = m - A"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Scalar multiplication gives D equal to mA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.0132,
+      "question": "Vector multiplication is done in how many main ways?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vectors are multiplied by scalars or by other vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.2239,
+      "question": "The product of a vector and a scalar yields which type of quantity?",
+      "options": [
+        "Scalar",
+        "Unit",
+        "Null",
+        "Vector"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A vector multiplied by a scalar remains a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.469,
+      "question": "The vector product is also known by which name?",
+      "options": [
+        "Cross product",
+        "Dot product",
+        "Scalar product",
+        "Inner product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector product is also called cross product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.0264,
+      "question": "The magnitude of A × B is given by which expression?",
+      "options": [
+        "|A||B| cos θ",
+        "|A| + |B| sin θ",
+        "|A||B| sin θ",
+        "|A| - |B| cos θ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cross product magnitude is |A||B| sin θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3748,
+      "question": "The angle used in A × B is which angle between the vectors?",
+      "options": [
+        "Larger angle",
+        "Smaller angle",
+        "Right angle",
+        "Straight angle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The smaller angle between the vectors is used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.3481,
+      "question": "The magnitude of A × B equals zero when the angle is which value?",
+      "options": [
+        "45 degrees",
+        "60 degrees",
+        "90 degrees",
+        "0 degrees"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sine of 0 degrees is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.8074,
+      "question": "The vector product of two parallel vectors has which magnitude?",
+      "options": [
+        "Zero",
+        "Maximum",
+        "Minimum",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parallel vectors have zero cross product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.2153,
+      "question": "The vector product of two perpendicular vectors has which sine value?",
+      "options": [
+        "Zero",
+        "Two",
+        "One",
+        "Infinite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sine of 90 degrees is one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.0469,
+      "question": "The direction of a cross product is perpendicular to which plane?",
+      "options": [
+        "Plane of one vector only",
+        "Plane of both vectors",
+        "Horizontal plane only",
+        "Vertical plane only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cross product direction is perpendicular to the plane of the vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.156,
+      "question": "In the vector product expression, which trigonometric function appears?",
+      "options": [
+        "Sine function",
+        "Cosine function",
+        "Tangent function",
+        "Secant function"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cross product uses the sine of the angle between vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.4568,
+      "question": "The scalar product is also known by which name?",
+      "options": [
+        "Cross product",
+        "Dot product",
+        "Vector product",
+        "Outer product"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scalar product is also called dot product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.465,
+      "question": "The dot product of A and B is given by which expression?",
+      "options": [
+        "|A||B| sin θ",
+        "|A| + |B| cos θ",
+        "|A||B| cos θ",
+        "|A| - |B| sin θ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dot product magnitude is |A||B| cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.814,
+      "question": "The dot product of two perpendicular vectors equals which value?",
+      "options": [
+        "One",
+        "Zero",
+        "Maximum",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perpendicular vectors have zero dot product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610503.7988,
+      "question": "The dot product in component form is given by which expression?",
+      "options": [
+        "AxBy + AyBz + AzBx",
+        "Ax + Ay + Az",
+        "AxBx - AyBy - AzBz",
+        "AxBx + AyBy + AzBz"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Component dot product sums products of matching components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793732610504.475,
+      "question": "The dot product of i and j equals which value?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "i and j are orthogonal unit vectors.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
