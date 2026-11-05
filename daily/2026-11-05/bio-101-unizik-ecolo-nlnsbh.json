@@ -3,16 +3,718 @@
   "title": "BIO 101 ( UNIZIK ) : ECOLOGY OF LIVING ORGANISMS",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793861376530.3767,
+      "question": "Who coined the word Ecology?",
+      "options": [
+        "Charles Darwin",
+        "Ernst Haeckel",
+        "Joseph Grinnell",
+        "Jean Lamarck"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word Ecology was coined by the German Zoologist Ernst Haeckel in 1866.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.4187,
+      "question": "The Greek word Oikos in ecology means?",
+      "options": [
+        "House",
+        "Home",
+        "Study",
+        "Tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oikos means home or dwelling place.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.9365,
+      "question": "Ecology is the study of relationships between organisms and their?",
+      "options": [
+        "Enemies",
+        "Predators",
+        "Environment",
+        "Food"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ecology is the scientific study of the inter-relationships between organisms and their natural environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.8076,
+      "question": "The word Logos in ecology means?",
+      "options": [
+        "Nature",
+        "Life",
+        "Earth",
+        "Study"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Logos means study of.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.986,
+      "question": "Organismal ecology is also known as?",
+      "options": [
+        "Synecology",
+        "Autecology",
+        "Population ecology",
+        "Ecosystem ecology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Organismal ecology is also called autecology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.3008,
+      "question": "Population ecology examines factors affecting population?",
+      "options": [
+        "Growth",
+        "Density",
+        "Size",
+        "Age"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population ecology examines factors affecting population density.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.9417,
+      "question": "Community ecology is also known as?",
+      "options": [
+        "Synecology",
+        "Autecology",
+        "Ethology",
+        "Pedology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Community ecology is also known as synecology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.1697,
+      "question": "Ecosystem ecology is the study of interactions between?",
+      "options": [
+        "Species",
+        "Populations",
+        "Communities",
+        "Biotic and abiotic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ecosystem ecology is the integrated study of interactions of living and non-living components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.3474,
+      "question": "Ethology is the study of organism?",
+      "options": [
+        "Size",
+        "Shape",
+        "Behavior",
+        "Color"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The study of behavior is called ethology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.0605,
+      "question": "Population distribution refers to how individuals are?",
+      "options": [
+        "Spread",
+        "Living",
+        "Feeding",
+        "Dying"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Population distribution is how spread out the individuals are in an area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.7925,
+      "question": "A group of interbreeding organisms is called?",
+      "options": [
+        "Population",
+        "Community",
+        "Species",
+        "Biome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A species is a group of related organisms that can interbreed freely to produce fertile offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376530.3647,
+      "question": "Organisms of the same species in one area form a?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Niche"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A population is a group of organisms of the same species living in the same area at the same time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.8416,
+      "question": "The solid part of the earth is called the?",
+      "options": [
+        "Lithosphere",
+        "Hydrosphere",
+        "Atmosphere",
+        "Biosphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lithosphere is the solid part of the earth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.9863,
+      "question": "The hydrosphere covers what percentage of the earth?",
+      "options": [
+        "30%",
+        "50%",
+        "70%",
+        "90%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hydrosphere covers 70% or two-thirds of the earth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.9712,
+      "question": "A self-supporting unit of living and non-living is an?",
+      "options": [
+        "Biome",
+        "Niche",
+        "Habitat",
+        "Ecosystem"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An ecosystem is a self-supporting unit of the earth made up of living and non-living parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.431,
+      "question": "Major ecosystems defined by climate are?",
+      "options": [
+        "Habitats",
+        "Biomes",
+        "Niches",
+        "Species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biomes are major ecosystems defined by similar geography, climate, and wildlife.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.6113,
+      "question": "The total surrounding area of an organism is its?",
+      "options": [
+        "Biome",
+        "Niche",
+        "Environment",
+        "Habitat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Environment is the total surrounding area of an organism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.055,
+      "question": "Abiotic components are classified into climatic and what?",
+      "options": [
+        "Edaphic",
+        "Biotic",
+        "Physiographic",
+        "Topographic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abiotic components are divided into climatic and physiographic components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.5696,
+      "question": "Which is a chemical climatic component?",
+      "options": [
+        "Wind",
+        "Rain",
+        "Sunlight",
+        "Oxygen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Oxygen is a chemical climatic component.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.8325,
+      "question": "Soil-related components are called?",
+      "options": [
+        "Edaphic",
+        "Climatic",
+        "Topographic",
+        "Biotic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Edaphic components are associated with the soil.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.3645,
+      "question": "The study of soil is called?",
+      "options": [
+        "Pedology",
+        "Ecology",
+        "Ethology",
+        "Biology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The study of soil is called pedology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.6187,
+      "question": "Topographic components are related to?",
+      "options": [
+        "Climate",
+        "Soil",
+        "Surface features",
+        "Living things"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Topographic components are related to the surface features of the earth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.7397,
+      "question": "Organisms that make their own food are?",
+      "options": [
+        "Producers",
+        "Consumers",
+        "Herbivores",
+        "Decomposers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Producers are autotrophs that can manufacture their own food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.7393,
+      "question": "Bacteria oxidizing ammonia to make food are?",
+      "options": [
+        "Photoautotrophs",
+        "Chemoautotrophs",
+        "Heterotrophs",
+        "Detritivores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemoautotrophs like bacteria manufacture food by oxidizing inorganic compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.7012,
+      "question": "Animals feeding on plants are called?",
+      "options": [
+        "Herbivores",
+        "Carnivores",
+        "Omnivores",
+        "Decomposers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Herbivores are primary consumers that feed directly on plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.885,
+      "question": "Organisms that break down dead matter are?",
+      "options": [
+        "Producers",
+        "Consumers",
+        "Decomposers",
+        "Herbivores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Decomposers breakdown dead plants and animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.504,
+      "question": "Which of these is a detritivore?",
+      "options": [
+        "Lion",
+        "Goat",
+        "Fungi",
+        "Earthworm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Earthworms are detritivores that consume materials to break them down.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.2324,
+      "question": "Organisms feeding on both plants and animals are?",
+      "options": [
+        "Herbivores",
+        "Omnivores",
+        "Carnivores",
+        "Decomposers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Omnivores feed both on plants and animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.1206,
+      "question": "A niche represents an organism's?",
+      "options": [
+        "Role",
+        "Size",
+        "Color",
+        "Weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A niche is defined as the functional role of an organism in an ecosystem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.6372,
+      "question": "Who coined the term niche?",
+      "options": [
+        "Darwin",
+        "Haeckel",
+        "Grinnell",
+        "Lamarck"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Joseph Grinnell coined the term niche in 1917.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.3142,
+      "question": "The niche in the absence of competition is?",
+      "options": [
+        "Realized",
+        "Fundamental",
+        "Partitioned",
+        "Formed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fundamental niche is the niche of a species in the absence of competition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.3286,
+      "question": "The niche occupied due to pressures is?",
+      "options": [
+        "Fundamental",
+        "Realized",
+        "Formed",
+        "Primary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Realized niche is the niche that a species occupies due to pressures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.1733,
+      "question": "No two species can occupy the same?",
+      "options": [
+        "Niche",
+        "Habitat",
+        "Biome",
+        "Area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "No two species can occupy the same niche.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376531.7124,
+      "question": "Niche partitioning helps competing species to?",
+      "options": [
+        "Die",
+        "Fight",
+        "Coexist",
+        "Migrate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coexistence is achieved through resource differentiation or niche partitioning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376532.7136,
+      "question": "Which is a terrestrial habitat?",
+      "options": [
+        "River",
+        "Ocean",
+        "Stream",
+        "Forest"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Forest is a terrestrial habitat found on land.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.4507,
+      "question": "Desert animals are largely?",
+      "options": [
+        "Diurnal",
+        "Nocturnal",
+        "Aquatic",
+        "Arboreal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animals living in deserts are largely nocturnal and forage for food at night.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.205,
+      "question": "Flowing freshwater is called?",
+      "options": [
+        "Lotic",
+        "Lentic",
+        "Marine",
+        "Estuarine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lotic freshwaters are flowing and running waters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.362,
+      "question": "Stagnant freshwater is called?",
+      "options": [
+        "Lotic",
+        "Marine",
+        "Lentic",
+        "Estuarine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lentic freshwaters are standing or stagnant waters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.2034,
+      "question": "High salinity water is a?",
+      "options": [
+        "Freshwater",
+        "Lotic",
+        "Lentic",
+        "Marine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Marine habitat is a body of water containing high level of salinity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.4912,
+      "question": "Plants growing in dry habitats are?",
+      "options": [
+        "Xerophytes",
+        "Hydrophytes",
+        "Mesophytes",
+        "Halophytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Xerophytes grow in dry habitats and face acute shortage of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.2515,
+      "question": "Plants growing on other plants for space are?",
+      "options": [
+        "Epiphytes",
+        "Xerophytes",
+        "Hydrophytes",
+        "Halophytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epiphytes are plants that grow on other plants for space only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.5286,
+      "question": "Plants growing in salt marshes are?",
+      "options": [
+        "Xerophytes",
+        "Epiphytes",
+        "Halophytes",
+        "Mesophytes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Halophytes are plants that grow in saline habitats.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.7666,
+      "question": "Animals living in trees are called?",
+      "options": [
+        "Aerial",
+        "Aquatic",
+        "Ground",
+        "Arboreal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Arboreal animals live in or on trees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.415,
+      "question": "Animals flying in air have an?",
+      "options": [
+        "Aerial",
+        "Aquatic",
+        "Arboreal",
+        "Ground"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aerial habitat is the habitat of animals that live on air and can fly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.0212,
+      "question": "The theory of use and disuse was proposed by?",
+      "options": [
+        "Lamarck",
+        "Darwin",
+        "Grinnell",
+        "Haeckel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jean Lamarck proposed the theory of use and disuse of body structures in 1809.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.545,
+      "question": "Who proposed natural selection?",
+      "options": [
+        "Lamarck",
+        "Haeckel",
+        "Darwin",
+        "Grinnell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Charles Darwin proposed the theory of natural selection in 1858.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.0913,
+      "question": "Darwin observed finches on which islands?",
+      "options": [
+        "Hawaiian",
+        "Canary",
+        "Fiji",
+        "Galapagos"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Darwin deduced his theory based on observations on the Galapagos Island.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.4004,
+      "question": "Which of the following is an evidence of evolution?",
+      "options": [
+        "Fossil record",
+        "Cell theory",
+        "Germ theory",
+        "Atomic theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fossil record of change in earlier species is an evidence of evolution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.7625,
+      "question": "In Darwin's theory, the struggle for existence leads to the survival of the?",
+      "options": [
+        "Fittest",
+        "Strongest",
+        "Fastest",
+        "Largest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There tends to be a struggle for existence or survival of the fittest among individuals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861376533.1296,
+      "question": "Lamarck believed that acquired traits are?",
+      "options": [
+        "Lost",
+        "Inherited",
+        "Mutated",
+        "Ignored"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lamarck believed beneficial characteristics acquired during an organism's lifetime could be transmitted to the progeny.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
