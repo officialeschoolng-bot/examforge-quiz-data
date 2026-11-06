@@ -3,16 +3,438 @@
   "title": "Topic 3: Vectors",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1793996214549.858,
+      "question": "A physical quantity described by both magnitude and direction is called a:",
+      "options": [
+        "scalar",
+        "vector",
+        "unit vector",
+        "null vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>vector</b> is a quantity that requires both magnitude and direction for its complete description. Scalars need only magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214549.6333,
+      "question": "A scalar quantity is completely described by its:",
+      "options": [
+        "magnitude alone",
+        "direction alone",
+        "magnitude and direction",
+        "position only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>scalar</b> is fully specified by its magnitude alone (e.g. mass, time, energy).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214549.2002,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Energy",
+        "Force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Energy</b> has magnitude only and no direction, so it is a scalar. Displacement, velocity, and force are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.1833,
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Mass",
+        "Speed",
+        "Momentum",
+        "Volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Momentum</b> has both magnitude and direction, so it is a vector. Mass, speed, and volume are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.2754,
+      "question": "A cap or caret over a letter, such as Â, usually denotes a:",
+      "options": [
+        "scalar",
+        "vector",
+        "unit vector",
+        "null vector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A caret or hat (Â) denotes a <b>unit vector</b>, a vector of magnitude 1 along a given direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.9336,
+      "question": "In arrow representation, the length of the arrow represents the vector’s:",
+      "options": [
+        "direction",
+        "magnitude",
+        "unit",
+        "angle only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In arrow representation, the arrow's <b>length</b> is proportional to the vector's magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.6924,
+      "question": "In arrow representation, the arrowhead indicates the vector’s:",
+      "options": [
+        "magnitude",
+        "direction",
+        "scalar value",
+        "component only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>arrowhead</b> shows the direction in which the vector points.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.356,
+      "question": "A unit vector has magnitude:",
+      "options": [
+        "zero",
+        "one",
+        "two",
+        "infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>unit vector</b> has magnitude exactly <b>1</b> and is used purely to specify direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.6382,
+      "question": "The components of a vector are:",
+      "options": [
+        "scalar quantities unrelated to the vector",
+        "the constituents of the vector",
+        "always unit vectors",
+        "defined only in two dimensions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>components</b> are the parts of a vector along chosen axes; together they make up (constitute) the vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.9602,
+      "question": "In two dimensions, a vector <b>A</b> can be written as:",
+      "options": [
+        "A<sub>x</sub>î + A<sub>y</sub>ĵ",
+        "A<sub>x</sub>ĵ + A<sub>y</sub>î",
+        "A<sub>x</sub>k̂ + A<sub>y</sub>î",
+        "A<sub>x</sub> + A<sub>y</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In two dimensions the standard form is <b>A = A<sub>x</sub>î + A<sub>y</sub>ĵ</b>, using the unit vectors along x and y.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.3828,
+      "question": "In three dimensions, a vector <b>A</b> can be written as:",
+      "options": [
+        "A<sub>x</sub>î + A<sub>y</sub>ĵ + A<sub>z</sub>k̂",
+        "A<sub>x</sub>î + A<sub>y</sub>ĵ",
+        "A<sub>x</sub>k̂ + A<sub>y</sub>ĵ",
+        "A<sub>z</sub>î + A<sub>x</sub>k̂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In three dimensions, <b>A = A<sub>x</sub>î + A<sub>y</sub>ĵ + A<sub>z</sub>k̂</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.09,
+      "question": "The unit vectors î, ĵ, k̂ are directed along the:",
+      "options": [
+        "x, y and z axes respectively",
+        "y, z and x axes respectively",
+        "z, x and y axes respectively",
+        "arbitrary axes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By convention, <b>î, ĵ, k̂</b> point along the <b>x, y, and z</b> axes respectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.6948,
+      "question": "The magnitude of a two-dimensional vector <b>A</b> is given by:",
+      "options": [
+        "√(A<sub>x</sub>² + A<sub>y</sub>²)",
+        "A<sub>x</sub> + A<sub>y</sub>",
+        "√(A<sub>x</sub> + A<sub>y</sub>)",
+        "A<sub>x</sub>² + A<sub>y</sub>²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By Pythagoras, <b>|A| = √(A<sub>x</sub>² + A<sub>y</sub>²)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.156,
+      "question": "The magnitude of a three-dimensional vector <b>A</b> is given by:",
+      "options": [
+        "√(A<sub>x</sub>² + A<sub>y</sub>² + A<sub>z</sub>²)",
+        "A<sub>x</sub> + A<sub>y</sub> + A<sub>z</sub>",
+        "√(A<sub>x</sub> + A<sub>y</sub> + A<sub>z</sub>)",
+        "A<sub>x</sub>² + A<sub>y</sub>² + A<sub>z</sub>²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extending Pythagoras to three dimensions: <b>|A| = √(A<sub>x</sub>² + A<sub>y</sub>² + A<sub>z</sub>²)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.0618,
+      "question": "For two vectors P and Q with angle θ between them, the magnitude of the resultant is:",
+      "options": [
+        "√(P² + Q² + 2PQ cos θ)",
+        "√(P² + Q² − 2PQ cos θ)",
+        "P + Q",
+        "P − Q"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From the cosine rule in the parallelogram construction, <b>R = √(P² + Q² + 2PQ cos θ)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.8315,
+      "question": "Multiplying a vector by a negative scalar reverses its:",
+      "options": [
+        "magnitude only",
+        "direction",
+        "unit",
+        "component"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A negative scalar multiplies the magnitude by |m| and <b>reverses the direction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.8787,
+      "question": "The magnitude of the cross product <b>A</b> × <b>B</b> is:",
+      "options": [
+        "|A||B| cos θ",
+        "|A||B| sin θ",
+        "|A| + |B|",
+        "|A| − |B|"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>|A × B| = |A||B| sin θ</b>, where θ is the angle between A and B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.2917,
+      "question": "The right-hand rule is used to determine the:",
+      "options": [
+        "magnitude of the dot product",
+        "direction of the cross product",
+        "magnitude of a scalar",
+        "direction of a scalar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>right-hand rule</b> gives the <b>direction</b> of the cross product A × B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.5417,
+      "question": "In the anticlockwise cross-product convention, î × ĵ equals:",
+      "options": [
+        "î",
+        "ĵ",
+        "k̂",
+        "−k̂"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the right-hand rule with the anticlockwise convention, <b>î × ĵ = k̂</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214550.3135,
+      "question": "In the clockwise cross-product convention, î × k̂ equals:",
+      "options": [
+        "ĵ",
+        "−ĵ",
+        "k̂",
+        "−k̂"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the clockwise convention, î × k̂ = <b>−ĵ</b>. (In the anticlockwise convention it would be +ĵ.)",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214551.3132,
+      "question": "The first component of <b>A</b> × <b>B</b> is:",
+      "options": [
+        "A<sub>y</sub>B<sub>z</sub> − A<sub>z</sub>B<sub>y</sub>",
+        "A<sub>x</sub>B<sub>x</sub> − A<sub>y</sub>B<sub>y</sub>",
+        "A<sub>x</sub>B<sub>y</sub> − A<sub>y</sub>B<sub>x</sub>",
+        "A<sub>z</sub>B<sub>x</sub> − A<sub>x</sub>B<sub>z</sub>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The î-component of A × B is <b>A<sub>y</sub>B<sub>z</sub> − A<sub>z</sub>B<sub>y</sub></b>, from expanding the determinant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.3276,
+      "question": "The dot product <b>A</b> · <b>B</b> is equal to:",
+      "options": [
+        "|A||B| cos θ",
+        "|A||B| sin θ",
+        "a vector perpendicular to both vectors",
+        "a determinant only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>A · B = |A||B| cos θ</b>, a scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.5952,
+      "question": "The dot product of two perpendicular vectors is:",
+      "options": [
+        "maximum",
+        "zero",
+        "infinite",
+        "negative one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If θ = 90°, cos 90° = 0, so <b>A · B = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.839,
+      "question": "In Cartesian components, the dot product <b>A</b> · <b>B</b> is:",
+      "options": [
+        "A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub> + A<sub>z</sub>B<sub>z</sub>",
+        "A<sub>x</sub>B<sub>y</sub> + A<sub>y</sub>B<sub>z</sub> + A<sub>z</sub>B<sub>x</sub>",
+        "a determinant",
+        "a cross product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In components, <b>A · B = A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub> + A<sub>z</sub>B<sub>z</sub></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.7776,
+      "question": "The scalar product of two vectors is a:",
+      "options": [
+        "scalar",
+        "vector",
+        "unit vector",
+        "null vector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>scalar product</b> (dot product) produces a <b>scalar</b>, not a vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.021,
+      "question": "The associative property of vector addition is:",
+      "options": [
+        "<b>A</b> + (<b>B</b> + <b>C</b>) = (<b>A</b> + <b>B</b>) + <b>C</b>",
+        "<b>A</b> + <b>B</b> = <b>B</b> + <b>A</b>",
+        "<b>A</b> + <b>0</b> = <b>A</b>",
+        "<b>A</b> + (−<b>A</b>) = <b>0</b>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Associativity</b> states that grouping does not change the sum: <b>A + (B + C) = (A + B) + C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.8542,
+      "question": "The commutative property of vector addition is:",
+      "options": [
+        "<b>A</b> + <b>B</b> = <b>B</b> + <b>A</b>",
+        "<b>A</b> + (<b>B</b> + <b>C</b>) = (<b>A</b> + <b>B</b>) + <b>C</b>",
+        "m(<b>A</b> + <b>B</b>) = m<b>A</b> + m<b>B</b>",
+        "<b>A</b> × <b>B</b> = <b>B</b> × <b>A</b>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Commutativity</b> states that the order of addition does not matter: <b>A + B = B + A</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.111,
+      "question": "The additive inverse property states that:",
+      "options": [
+        "<b>A</b> + <b>A</b> = <b>A</b>",
+        "<b>A</b> + (−<b>A</b>) = <b>0</b>",
+        "<b>A</b> + <b>0</b> = <b>A</b>",
+        "<b>A</b> + <b>B</b> = <b>B</b> + <b>A</b>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Every vector has an <b>additive inverse</b> −A such that <b>A + (−A) = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.7666,
+      "question": "Which of the following is not a vector quantity?",
+      "options": [
+        "Displacement",
+        "Force",
+        "Distance",
+        "Acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Distance</b> is a scalar (magnitude only). Displacement, force, and acceleration are vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793996214554.7976,
+      "question": "Work done by a force over a displacement is naturally expressed using the:",
+      "options": [
+        "dot product",
+        "cross product",
+        "unit vector only",
+        "null vector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work is <b>W = F · d</b>, a <b>dot product</b> of force and displacement.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
