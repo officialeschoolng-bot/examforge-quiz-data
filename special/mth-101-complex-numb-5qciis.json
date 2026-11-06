@@ -3,16 +3,298 @@
   "title": "MTH 101: COMPLEX NUMBERS II",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 20,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793969671328.1726,
+      "question": "The rectangular point (1, 1) has polar coordinates",
+      "options": [
+        "(√2, 45°)",
+        "(2, 45°)",
+        "(√2, 225°)",
+        "(1, 45°)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "r² = 1² + 1² = 2, so r = √2. tan θ = 1 ÷ 1 = 1, and since x > 0, y > 0 the point is in Quadrant I, so θ = 45°. Answer: <b>(√2, 45°)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.0386,
+      "question": "The rectangular point (0, −6) has polar coordinates",
+      "options": [
+        "(6, 90°)",
+        "(6, 180°)",
+        "(6, 270°)",
+        "(−6, 270°)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "r² = 0² + (−6)² = 36, so r = 6. The point lies on the negative y-axis, so θ = 270°. Answer: <b>(6, 270°)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.0696,
+      "question": "The rectangular point (5, −12) has polar coordinates (angle to 2 d.p.)",
+      "options": [
+        "(13, 67.38°)",
+        "(13, 112.62°)",
+        "(13, 247.38°)",
+        "(13, 292.62°)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "r² = 5² + (−12)² = 25 + 144 = 169, so r = 13. tan θ = (−12) ÷ 5 = −2.4. Since x > 0, y < 0 the point is in Quadrant IV, so θ = 360° − tan⁻¹(2.4) ≈ 360° − 67.38° = 292.62°. Answer: <b>(13, 292.62°)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.1301,
+      "question": "The rectangular point (−5, 5√3) has polar coordinates",
+      "options": [
+        "(10, 60°)",
+        "(10, 120°)",
+        "(10, 240°)",
+        "(5, 120°)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "r² = (−5)² + (5√3)² = 25 + 75 = 100, so r = 10. tan θ = (5√3) ÷ (−5) = −√3. Since x < 0, y > 0 the point is in Quadrant II, so θ = 180° − 60° = 120°. Answer: <b>(10, 120°)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.677,
+      "question": "Simplify (2 + √(−4))(5 − √(−16)) and write in standard form.",
+      "options": [
+        "12 + 2i",
+        "18 + 2i",
+        "18 − 2i",
+        "2 + 18i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "√(−4) = 2i and √(−16) = 4i, so the product is (2 + 2i)(5 − 4i). Expand: 10 − 8i + 10i − 8i² = 10 + 2i + 8 = 18 + 2i. Answer: <b>18 + 2i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.8125,
+      "question": "Simplify (3 − √(−9))(2 + √(−25)) and write in standard form.",
+      "options": [
+        "21 − 9i",
+        "9 + 21i",
+        "−9 + 21i",
+        "21 + 9i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "√(−9) = 3i and √(−25) = 5i, so the product is (3 − 3i)(2 + 5i). Expand: 6 + 15i − 6i − 15i² = 6 + 9i + 15 = 21 + 9i. Answer: <b>21 + 9i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.6177,
+      "question": "Simplify (1 + √(−4))(1 − √(−4)).",
+      "options": [
+        "5",
+        "−3",
+        "−5",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "√(−4) = 2i, so the expression is (1 + 2i)(1 − 2i) = 1² − (2i)² = 1 + 4 = 5. Answer: <b>5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.221,
+      "question": "Simplify (4 − √(−1))(3 + √(−49)) and write in standard form.",
+      "options": [
+        "5 + 25i",
+        "19 − 25i",
+        "19 + 25i",
+        "12 + 25i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "√(−1) = i and √(−49) = 7i, so the product is (4 − i)(3 + 7i). Expand: 12 + 28i − 3i − 7i² = 12 + 25i + 7 = 19 + 25i. Answer: <b>19 + 25i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.8384,
+      "question": "√(−4) · √(−25) =",
+      "options": [
+        "10",
+        "−10",
+        "10i",
+        "−10i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "√(−4) = 2i and √(−25) = 5i, so the product is (2i)(5i) = 10i² = −10. Answer: <b>−10</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.9563,
+      "question": "Simplify (5 − √(−36))(5 + √(−36)).",
+      "options": [
+        "25",
+        "11",
+        "61",
+        "−11"
+      ],
+      "correctAnswer": 2,
+      "explanation": "√(−36) = 6i, so the product is (5 − 6i)(5 + 6i) = 5² + 6² = 25 + 36 = 61. Answer: <b>61</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.622,
+      "question": "i⁸⁰ =",
+      "options": [
+        "1",
+        "−1",
+        "i",
+        "−i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "80 = 4·20, so i⁸⁰ = (i⁴)²⁰ = 1²⁰ = 1. Answer: <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.3745,
+      "question": "i¹⁷ + i¹⁸ + i¹⁹ + i²⁰ =",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "2i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The four consecutive powers of i sum to zero: i + i² + i³ + i⁴ = i − 1 − i + 1 = 0. Answer: <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.6155,
+      "question": "i⁴⁵ · i⁷ =",
+      "options": [
+        "i",
+        "−1",
+        "−i",
+        "1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "i⁴⁵ = i (since 45 = 4·11 + 1) and i⁷ = i³ = −i (since 7 = 4·1 + 3). Product: i · (−i) = −i² = 1. Answer: <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.4226,
+      "question": "The imaginary unit i is defined as",
+      "options": [
+        "√(−1)",
+        "−1",
+        "√1",
+        "1/(−1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By definition, i = √(−1), so that i² = −1. Answer: <b>√(−1)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.142,
+      "question": "The smallest positive integer n for which iⁿ = 1 is",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "i¹ = i, i² = −1, i³ = −i, i⁴ = 1. The smallest positive n with iⁿ = 1 is 4. Answer: <b>4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.4636,
+      "question": "The imaginary part of the real number 120, when written as a complex number, is",
+      "options": [
+        "120",
+        "0",
+        "120i",
+        "1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A real number 120 written as a complex number is 120 + 0i, so its imaginary part is 0. Answer: <b>0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.7236,
+      "question": "When faced with the square root of a negative number in an expression, the first thing to do is",
+      "options": [
+        "convert it to a complex number using i",
+        "multiply the roots together under one radical",
+        "square both sides",
+        "take the conjugate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "√(−k) must first be converted to √k · i. Multiplying the roots under one radical (e.g. √(−3)·√(−12) = √36 = 6) gives the wrong sign. Answer: <b>convert it to a complex number using i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.9177,
+      "question": "The conjugate of a purely imaginary number bi is",
+      "options": [
+        "b",
+        "bi",
+        "−bi",
+        "−b"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conjugate of bi = 0 + bi is 0 − bi = −bi. Answer: <b>−bi</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.3877,
+      "question": "If a point has polar coordinates (r, θ) and rectangular coordinates (x, y), then",
+      "options": [
+        "r = x + y and tan θ = x/y",
+        "r² = x² + y² and tan θ = y/x",
+        "r = x² + y² and tan θ = x/y",
+        "r² = x² − y² and tan θ = y/x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct relations are r² = x² + y² and tan θ = y ÷ x, with θ adjusted for quadrant. Answer: <b>r² = x² + y² and tan θ = y/x</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793969671329.8967,
+      "question": "Which of the following is a complex number written in standard form?",
+      "options": [
+        "(2 + i)/(1 − i)",
+        "3 + 2i²",
+        "5i + 4i²",
+        "4 − 7i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Standard form is a + bi with a, b real. Only 4 − 7i is in that form; the others still contain i² or a quotient. Answer: <b>4 − 7i</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
