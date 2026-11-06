@@ -3,7 +3,7 @@
   "title": "Topic 4: Motion in One Dimension",
   "subject": "",
   "level": "",
-  "totalQuestions": 50,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": 1793998352573.1787,
@@ -16,20 +16,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Motion</b> is the change in position of an object with time. It is not a force, a property of rest, or a scalar.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352574.1096,
-      "question": "Translational motion involves",
-      "options": [
-        "change of place",
-        "to-and-fro movement about a fixed point",
-        "irregular haphazard movement",
-        "motion about a fixed axis"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Translational motion</b> is motion in which all parts of a body move the same distance in the same direction, i.e., change of place. B is oscillatory, C is random, D is rotational.",
       "difficulty": "easy",
       "points": 1
     },
@@ -48,20 +34,6 @@
       "points": 1
     },
     {
-      "id": 1793998352574.6116,
-      "question": "Random motion has",
-      "options": [
-        "no defined path",
-        "motion about a fixed point",
-        "motion along a straight line",
-        "motion with constant acceleration"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Random motion</b> is irregular, with no definite path. B is oscillatory, C is translational, D is uniformly accelerated.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352574.4287,
       "question": "Rotational motion occurs",
       "options": [
@@ -76,48 +48,6 @@
       "points": 1
     },
     {
-      "id": 1793998352574.5515,
-      "question": "Position is",
-      "options": [
-        "location at an instant",
-        "total path travelled by a body",
-        "change in position over time",
-        "distance covered per unit time"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Position</b> is the location of an object at a particular instant. B is distance, C is velocity, D is speed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352574.3076,
-      "question": "Distance is",
-      "options": [
-        "total path travelled",
-        "change in position",
-        "location at an instant",
-        "rate of change of displacement"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Distance</b> is the total length of the path travelled. B is displacement, C is position, D is velocity.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352574.242,
-      "question": "Displacement is",
-      "options": [
-        "change in position",
-        "total path travelled",
-        "speed in a given direction",
-        "time rate of change of speed"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Displacement</b> is the change in position (final minus initial) with direction. B is distance, C is velocity, D is acceleration.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352574.1091,
       "question": "Distance is a scalar because",
       "options": [
@@ -128,62 +58,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "A <b>scalar</b> has magnitude only, no direction. Distance is scalar because it does not specify direction.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352574.48,
-      "question": "Displacement is a vector because",
-      "options": [
-        "it has direction",
-        "it has magnitude only",
-        "it is total path length",
-        "it is independent of time"
-      ],
-      "correctAnswer": 0,
-      "explanation": "A <b>vector</b> has both magnitude and direction. Displacement includes direction.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352574.739,
-      "question": "Speed is",
-      "options": [
-        "distance per unit time",
-        "displacement per unit time",
-        "change of velocity per time",
-        "total path length of motion"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Speed</b> = distance ÷ time. B is velocity, C is acceleration, D is distance.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.1814,
-      "question": "Average speed is",
-      "options": [
-        "total distance over time",
-        "total displacement over time",
-        "change in velocity over time",
-        "final position minus initial position"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Average speed</b> = total distance ÷ total time. B is average velocity, C is acceleration, D is displacement.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.7227,
-      "question": "Instantaneous speed is",
-      "options": [
-        "speed at an instant",
-        "total distance divided by total time",
-        "displacement divided by time interval",
-        "speed averaged over a long journey"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Instantaneous speed</b> is the speed at a particular instant. B is average speed, C is average velocity, D is average speed.",
       "difficulty": "easy",
       "points": 1
     },
@@ -230,34 +104,6 @@
       "points": 1
     },
     {
-      "id": 1793998352575.6824,
-      "question": "Instantaneous velocity is the limiting value of",
-      "options": [
-        "average velocity",
-        "average speed",
-        "total distance",
-        "total acceleration"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Instantaneous velocity</b> is the limit of average velocity as the time interval approaches zero. B is average speed, C is distance, D is acceleration.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.3525,
-      "question": "Acceleration is",
-      "options": [
-        "velocity change per time",
-        "rate of change of distance",
-        "total displacement per time",
-        "speed at a given instant"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Acceleration</b> = change in velocity ÷ time. B is speed, C is velocity, D is instantaneous speed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352575.7437,
       "question": "Average acceleration is",
       "options": [
@@ -268,20 +114,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Average acceleration</b> = change in velocity ÷ time interval. B is speed, C is velocity, D is not acceleration.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.449,
-      "question": "Instantaneous acceleration is the limiting value of",
-      "options": [
-        "average acceleration",
-        "average velocity of the particle",
-        "instantaneous speed of the particle",
-        "total displacement of the particle"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Instantaneous acceleration</b> is the limit of average acceleration as the time interval approaches zero. B is velocity, C is speed, D is displacement.",
       "difficulty": "easy",
       "points": 1
     },
@@ -370,20 +202,6 @@
       "points": 1
     },
     {
-      "id": 1793998352575.648,
-      "question": "Uniform acceleration means",
-      "options": [
-        "constant acceleration",
-        "zero velocity",
-        "variable acceleration",
-        "constant displacement"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Uniform acceleration</b> means acceleration is constant in magnitude and direction. B is rest, C is non-uniform, D is rest.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352575.3767,
       "question": "Equations of uniformly accelerated motion are valid when",
       "options": [
@@ -394,34 +212,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "The kinematic equations apply only when <b>acceleration is constant</b>. B is rest, C is random, D is circular motion.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.8496,
-      "question": "The equation relating final velocity, initial velocity, acceleration and time is",
-      "options": [
-        "v = u + at",
-        "v² = u² + 2as",
-        "s = ut + ½at²",
-        "s = ((u+v)/2)t"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>v = u + at</b> relates v, u, a, t. B relates v, u, a, s; C relates s, u, a, t; D relates s, u, v, t.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.8394,
-      "question": "The equation that does not contain time explicitly is",
-      "options": [
-        "v² = u² + 2as",
-        "v = u + at",
-        "s = ut + ½at²",
-        "s = ((u+v)/2)t"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>v² = u² + 2as</b> does not contain t. B, C, D contain t.",
       "difficulty": "easy",
       "points": 1
     },
@@ -510,20 +300,6 @@
       "points": 1
     },
     {
-      "id": 1793998352575.1423,
-      "question": "Free-fall equations assume air resistance is",
-      "options": [
-        "negligible",
-        "maximum",
-        "equal to gravity",
-        "increasing with time"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Free-fall equations ignore air resistance, assuming it is <b>negligible</b>. B, C, D would complicate motion.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352575.6206,
       "question": "The slope of a displacement-time graph for a stationary body is",
       "options": [
@@ -538,34 +314,6 @@
       "points": 1
     },
     {
-      "id": 1793998352575.028,
-      "question": "Average velocity can be zero while average speed is not because",
-      "options": [
-        "displacement may be zero",
-        "total distance may be negative",
-        "time interval may be negative",
-        "speed always has direction"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Average velocity = displacement ÷ time. If displacement is zero (e.g., round trip), average velocity is zero while average speed (distance ÷ time) is not. B is false, C is false, D is false.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352575.25,
-      "question": "Instantaneous speed is the speed",
-      "options": [
-        "at an instant",
-        "over a long interval",
-        "always zero",
-        "always vector"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Instantaneous speed</b> is the speed at a particular instant. B is average speed, C is false, D is false (speed is scalar).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1793998352576.8132,
       "question": "Displacement depends on",
       "options": [
@@ -576,20 +324,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Displacement = final position − initial position, so it depends only on <b>initial and final positions</b>. B is distance, C is speed, D is incomplete.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352576.2852,
-      "question": "Distance depends on",
-      "options": [
-        "actual path",
-        "final position only",
-        "initial position only",
-        "displacement direction"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Distance</b> is the total length of the actual path travelled. B, C, D are insufficient.",
       "difficulty": "easy",
       "points": 1
     },
@@ -688,20 +422,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "The kinematic equations for uniform acceleration apply to <b>straight-line motion</b>. B, C, D are not straight lines.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1793998352576.2578,
-      "question": "A body in uniform motion has acceleration equal to",
-      "options": [
-        "zero",
-        "constant nonzero",
-        "increasing",
-        "decreasing"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Uniform motion means constant velocity, so acceleration is <b>zero</b>. B, C, D imply changing velocity.",
       "difficulty": "easy",
       "points": 1
     }
