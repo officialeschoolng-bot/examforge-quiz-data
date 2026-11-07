@@ -3,16 +3,438 @@
   "title": "ANA 201 : RADIUS 1",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794026476616.1282,
+      "question": "The radius is homologous to which bone of the lower limb?",
+      "options": [
+        "Fibula",
+        "Patella",
+        "Tibia",
+        "Femur"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the radius is homologous to the medial bone of the leg, the tibia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.7349,
+      "question": "Which of the following is a part of the radius?",
+      "options": [
+        "Shaft",
+        "Base",
+        "Apex",
+        "Body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius consists of three parts: upper end, shaft, and lower end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.7786,
+      "question": "Which structure is located at the upper end of the radius?",
+      "options": [
+        "Styloid process",
+        "Radial tuberosity",
+        "Lister's tubercle",
+        "Ulnar notch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The upper end presents the head, neck, and radial tuberosity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.8118,
+      "question": "The head of the radius articulates superiorly with which structure?",
+      "options": [
+        "Trochlea",
+        "Capitulum",
+        "Radial notch",
+        "Olecranon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The head is disc shaped and articulates above with the capitulum of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.4468,
+      "question": "Where is the radial tuberosity located?",
+      "options": [
+        "Above the head",
+        "Below the medial neck",
+        "On the lateral shaft",
+        "At the lower end"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radial tuberosity is just below the medial part of the neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.234,
+      "question": "What is the shape of the radial head?",
+      "options": [
+        "Disc shaped",
+        "Cuboid",
+        "Triangular",
+        "Pyramidal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text describes the head of the radius as disc shaped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.9702,
+      "question": "Which border of the radius is the sharpest?",
+      "options": [
+        "Anterior",
+        "Posterior",
+        "Lateral",
+        "Medial"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The medial or interosseous border is described as the sharpest border.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.1172,
+      "question": "How many surfaces does the lower end of the radius present?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lower end of the radius is the widest part and presents five surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.5095,
+      "question": "Which structure projects distally from the lateral surface of the lower end of the radius?",
+      "options": [
+        "Lister's tubercle",
+        "Ulnar notch",
+        "Styloid process",
+        "Dorsal tubercle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lateral surface of the lower end projects distally as the styloid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.9294,
+      "question": "Which palpable structure is located on the dorsal surface of the lower end of the radius?",
+      "options": [
+        "Radial tuberosity",
+        "Lister's tubercle",
+        "Medial epicondyle",
+        "Ulnar styloid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dorsal surface presents a palpable dorsal tubercle known as Lister's tubercle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.0598,
+      "question": "What limits the dorsal tubercle of the radius medially?",
+      "options": [
+        "An oblique groove",
+        "A bony ridge",
+        "A synovial bursa",
+        "The interosseous membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The dorsal tubercle is limited medially by an oblique groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.9946,
+      "question": "In determining the side of the radius, which direction should the narrow disc-shaped end face?",
+      "options": [
+        "Downwards",
+        "Medially",
+        "Upwards",
+        "Laterally"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The narrow disc-shaped end (head) should be directed upwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.3967,
+      "question": "When determining the side of the radius, where should the sharpest border be kept?",
+      "options": [
+        "Laterally",
+        "Medially",
+        "Anteriorly",
+        "Posteriorly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sharpest interosseous border of the shaft is kept medially.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.3157,
+      "question": "Which structure encircles the circumference of the radial head?",
+      "options": [
+        "Quadrate ligament",
+        "Annular ligament",
+        "Interosseous membrane",
+        "Articular disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rest of the circumference of the head is encircled by the annular ligament.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.2542,
+      "question": "Which ligament is attached to the medial side of the radial neck?",
+      "options": [
+        "Annular ligament",
+        "Quadrate ligament",
+        "Radial collateral",
+        "Ulnar collateral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The quadrate ligament is attached to the medial side of the neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.3015,
+      "question": "Which structure is inserted into the rough posterior part of the radial tuberosity?",
+      "options": [
+        "Triceps tendon",
+        "Brachialis tendon",
+        "Biceps tendon",
+        "Supinator muscle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biceps tendon is inserted to the rough posterior part of the radial tuberosity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.8335,
+      "question": "What covers the smooth anterior part of the radial tuberosity?",
+      "options": [
+        "Periosteum",
+        "Synovial bursa",
+        "Fibrous capsule",
+        "Hyaline cartilage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A small synovial bursa covers its smooth anterior part and separates it from the biceps tendon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.0432,
+      "question": "Which border of the radius is well-defined only in its middle third?",
+      "options": [
+        "Anterior border",
+        "Medial border",
+        "Posterior border",
+        "Lateral border"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The posterior border is well-defined only in its middle third of the shaft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.2244,
+      "question": "What is the upper part of the anterior border of the radius called?",
+      "options": [
+        "Posterior oblique line",
+        "Anterior oblique line",
+        "Interosseous crest",
+        "Supinator crest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The upper part of the anterior border is called the anterior oblique line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.9976,
+      "question": "Which muscle originates from the anterior oblique line of the radius?",
+      "options": [
+        "Flexor pollicis longus",
+        "Pronator quadratus",
+        "Flexor digitorum superficialis",
+        "Supinator"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterior oblique line gives origin to the radial head of flexor digitorum superficialis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.569,
+      "question": "Which membrane is attached to the lower three-fourths of the medial border of the radius?",
+      "options": [
+        "Synovial membrane",
+        "Interosseous membrane",
+        "Oblique cord",
+        "Articular disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The interosseous membrane is attached to its lower three-fourth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.5713,
+      "question": "Which muscle originates from the upper two-fourths of the anterior surface of the radius?",
+      "options": [
+        "Flexor pollicis longus",
+        "Pronator teres",
+        "Supinator",
+        "Abductor pollicis longus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flexor pollicis longus originates from the upper two-fourth of the anterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.296,
+      "question": "Which muscle is inserted on the lower one-fourth of the anterior surface of the radius?",
+      "options": [
+        "Pronator teres",
+        "Supinator",
+        "Pronator quadratus",
+        "Brachioradialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronator quadratus is inserted on the lower one-fourth of the anterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.667,
+      "question": "In which direction is the nutrient canal on the anterior surface of the radius directed?",
+      "options": [
+        "Downwards",
+        "Upwards",
+        "Laterally",
+        "Medially"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nutrient canal on the anterior surface is directed upwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.253,
+      "question": "The nutrient artery for the radius is a branch of which artery?",
+      "options": [
+        "Radial artery",
+        "Brachial artery",
+        "Anterior interosseous artery",
+        "Ulnar artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nutrient artery for the radius is a branch from the anterior interosseous artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.9094,
+      "question": "Which muscle arises from the middle one-third of the posterior surface of the radius?",
+      "options": [
+        "Extensor pollicis brevis",
+        "Abductor pollicis longus",
+        "Extensor indicis",
+        "Extensor pollicis longus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abductor pollicis longus arises from the middle one-third of the posterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.6226,
+      "question": "Which muscle arises from the lower part of the posterior surface of the radius?",
+      "options": [
+        "Abductor pollicis longus",
+        "Supinator",
+        "Extensor pollicis brevis",
+        "Pronator quadratus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extensor pollicis brevis arises from the lower part of the posterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.6235,
+      "question": "Which muscle is inserted on the widened upper one-third of the lateral surface of the radius?",
+      "options": [
+        "Pronator teres",
+        "Supinator",
+        "Biceps brachii",
+        "Brachioradialis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Supinator is inserted on the widened upper one-third of the lateral surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.907,
+      "question": "Which muscle is inserted on the rough area in the most convex middle part of the lateral surface of the radius?",
+      "options": [
+        "Supinator",
+        "Pronator quadratus",
+        "Pronator teres",
+        "Flexor digitorum superficialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronator teres is inserted on the rough area in the most convex middle part of the lateral surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794026476616.6008,
+      "question": "Which structure forms the posterior oblique line of the radius?",
+      "options": [
+        "Lower part of the medial border",
+        "Upper part of the posterior border",
+        "Lateral part of the anterior border",
+        "Middle part of the interosseous border"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Above, the posterior border runs upwards and medially to the radial tuberosity and forms the posterior oblique line.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
