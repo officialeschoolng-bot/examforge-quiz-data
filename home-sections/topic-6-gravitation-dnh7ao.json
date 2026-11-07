@@ -3,16 +3,298 @@
   "title": "Topic 6: Gravitation",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1794032792428.502,
+      "question": "Which of the following fundamental forces is responsible for binding protons and neutrons within an atomic nucleus?",
+      "options": [
+        "Gravitational Force",
+        "Electromagnetic Force",
+        "Strong Nuclear Force",
+        "Weak Nuclear Force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>strong nuclear force</b> binds protons and neutrons together in the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.893,
+      "question": "The value of the universal gravitational constant, G, is approximately:",
+      "options": [
+        "9.81 N m² kg⁻²",
+        "6.67 × 10⁻¹¹ N m² kg⁻²",
+        "6.0 × 10²⁴ N m² kg⁻²",
+        "1.6 × 10⁻¹⁹ N m² kg⁻²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The accepted value is <b>G ≈ 6.67 × 10⁻¹¹ N m² kg⁻²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.2805,
+      "question": "Because the gravitational force decreases with the square of the distance, it is known as:",
+      "options": [
+        "a linear law.",
+        "an inverse square law.",
+        "a cubic law.",
+        "a direct square law."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since F ∝ r⁻², gravitation obeys an <b>inverse square law</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.5386,
+      "question": "The gravitational force between two objects is directly proportional to:",
+      "options": [
+        "the distance between their centers.",
+        "the square of the distance between them.",
+        "the product of their masses.",
+        "the difference in their masses."
+      ],
+      "correctAnswer": 2,
+      "explanation": "From F = G m₁ m₂ r⁻², the force is directly proportional to the <b>product of the masses</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.7334,
+      "question": "What is the unit of gravitational potential?",
+      "options": [
+        "Newton (N)",
+        "Joule (J)",
+        "Joules per kilogram (J kg⁻¹)",
+        "Newton per kilogram (N kg⁻¹)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Potential is work per unit mass, so its SI unit is <b>J kg⁻¹</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.3452,
+      "question": "The gravitational potential due to a point mass 'm' at a distance 'r' is given by the formula:",
+      "options": [
+        "V = Gm r⁻²",
+        "V = −Gm r⁻¹",
+        "V = Gm r⁻¹",
+        "V = −Gm r⁻²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a point mass, <b>V = −Gm r⁻¹</b>, with zero potential at infinity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.1257,
+      "question": "Gravitational field intensity (g) is defined as:",
+      "options": [
+        "The total gravitational force on an object.",
+        "The gravitational potential energy of a mass.",
+        "The gravitational force per unit mass.",
+        "The work done to move a mass."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gravitational field intensity is the <b>gravitational force per unit mass</b>: g = F m⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.799,
+      "question": "The unit of gravitational field intensity, N kg⁻¹, is dimensionally equivalent to the unit for:",
+      "options": [
+        "Force.",
+        "Work.",
+        "Acceleration.",
+        "Momentum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "N kg⁻¹ = (kg m s⁻²) kg⁻¹ = m s⁻², which is the unit of <b>acceleration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.5232,
+      "question": "The formula for gravitational field intensity at a distance 'r' from a body of mass 'M' is:",
+      "options": [
+        "g = GM r⁻¹",
+        "g = GM r⁻²",
+        "g = Gm r⁻²",
+        "g = GM² r⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The field of a point mass M is <b>g = GM r⁻²</b>, directed toward the mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.3,
+      "question": "If a body is taken from the Earth to the Moon, which of the following quantities would change?",
+      "options": [
+        "Its mass.",
+        "Its gravitational mass.",
+        "Its weight.",
+        "The number of atoms it contains."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mass and gravitational mass are intrinsic and unchanged; <b>weight</b> changes because g differs on the Moon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.093,
+      "question": "The escape velocity from Earth's surface is approximately:",
+      "options": [
+        "9.8 km s⁻¹",
+        "11.2 km s⁻¹",
+        "3.0 × 10⁸ m s⁻¹",
+        "1.1 × 10³ m s⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Earth's escape velocity is about <b>11.2 km s⁻¹</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.2715,
+      "question": "The first artificial satellite, Sputnik 1, was launched in:",
+      "options": [
+        "1945",
+        "1957",
+        "1969",
+        "1975"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sputnik 1 was launched in <b>1957</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.593,
+      "question": "A communication satellite is an example of a(n):",
+      "options": [
+        "Natural satellite.",
+        "Artificial satellite.",
+        "Planet.",
+        "Star."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A communication satellite is a man-made <b>artificial satellite</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.7927,
+      "question": "Kepler's Third Law can be expressed mathematically as:",
+      "options": [
+        "T ∝ r",
+        "T² ∝ r³",
+        "T³ ∝ r²",
+        "T² ∝ r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mathematical form is <b>T² ∝ r³</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.085,
+      "question": "The centripetal force required to keep a planet in a circular orbit is provided by:",
+      "options": [
+        "the planet's inertia.",
+        "the gravitational force from the Sun.",
+        "the planet's rotation.",
+        "electromagnetic forces."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>gravitational force from the Sun</b> provides the centripetal force for planetary orbits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792428.8203,
+      "question": "In the derivation of Kepler's Third Law, the angular velocity ω is related to the orbital period T by the formula:",
+      "options": [
+        "ω = T ÷ 2π",
+        "ω = 2πT",
+        "ω = 2π T⁻¹",
+        "ω = T² ÷ 4π²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One revolution is 2π radians in time T, so <b>ω = 2π T⁻¹</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792429.0383,
+      "question": "If the mass of one of two interacting objects is doubled, the gravitational force between them will:",
+      "options": [
+        "remain the same.",
+        "be halved.",
+        "be doubled.",
+        "be quadrupled."
+      ],
+      "correctAnswer": 2,
+      "explanation": "F ∝ m₁m₂. Doubling one mass <b>doubles</b> the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792429.7024,
+      "question": "The dimensional formula for gravitational field intensity is:",
+      "options": [
+        "[L T⁻²]",
+        "[L⁻¹ T⁻²]",
+        "[M L T⁻²]",
+        "[M L² T⁻³]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "g = F m⁻¹ has units N kg⁻¹ = m s⁻², so its dimensional formula is <b>[L T⁻²]</b>. The supplied key marking B appears to be a typo.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792429.0332,
+      "question": "If a spacecraft is at a point between the Earth and the Moon where the net gravitational force is zero, it is in a state of:",
+      "options": [
+        "weightlessness.",
+        "maximum gravitational potential.",
+        "stable orbit.",
+        "high acceleration."
+      ],
+      "correctAnswer": 0,
+      "explanation": "At the null point, the two gravitational pulls cancel, so the net force is zero and the craft is in a state of <b>weightlessness</b> (relative to those forces).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794032792429.054,
+      "question": "The gravitational force between two particles is 'F'. If the mass of each particle is doubled and the distance between them is halved, the new force will be:",
+      "options": [
+        "F",
+        "4F",
+        "8F",
+        "16F"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F ∝ m₁m₂ r⁻². Doubling both masses gives ×4; halving the distance gives ×4. Total factor = 4 × 4 = <b>16</b>, so the new force is 16F.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
