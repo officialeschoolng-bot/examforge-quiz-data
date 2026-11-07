@@ -3,16 +3,368 @@
   "title": "Topic 5: Motion is Two Dimensions",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1794031522019.2131,
+      "question": "The path followed by a projectile is called its:",
+      "options": [
+        "orbit",
+        "trajectory",
+        "displacement vector",
+        "angular displacement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The path traced by a projectile is its <b>trajectory</b>. An orbit is a closed path under a central force; displacement and angular displacement are different quantities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.171,
+      "question": "At the highest point of a projectile's path, its vertical velocity is:",
+      "options": [
+        "maximum",
+        "zero",
+        "equal to its horizontal velocity",
+        "directed upward but decreasing slowly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the highest point the projectile stops rising, so its <b>vertical velocity is zero</b>. The horizontal velocity is unchanged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.4014,
+      "question": "The trajectory of a projectile, with air resistance neglected, is:",
+      "options": [
+        "a straight line",
+        "a circle",
+        "a parabola",
+        "an ellipse centered on the launch point"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eliminating t between x = u<sub>x</sub>t and y = u<sub>y</sub>t − ½gt² gives y = ax − bx², a <b>parabola</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.9812,
+      "question": "The maximum horizontal range for a projectile on level ground occurs at a projection angle of:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90° above the horizontal, which gives the greatest range"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Range R = (u² sin 2θ) ÷ g is maximum when sin 2θ = 1, i.e. 2θ = 90°, so θ = <b>45°</b>. At 90° the projectile rises vertically and has zero range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.3743,
+      "question": "In projectile motion, gravity affects:",
+      "options": [
+        "only the horizontal velocity",
+        "only the vertical velocity",
+        "both components equally at all times",
+        "neither component once the projectile has left the launcher"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravity acts vertically, so it affects <b>only the vertical velocity</b>; the horizontal velocity is unaffected when air resistance is neglected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.0012,
+      "question": "A football kicked across a field is an example of:",
+      "options": [
+        "uniform circular motion",
+        "projectile motion",
+        "simple harmonic motion",
+        "motion with zero acceleration at every instant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After being kicked, the ball moves under gravity along a parabolic path — <b>projectile motion</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.9812,
+      "question": "A stone tied to a string and whirled at constant speed undergoes:",
+      "options": [
+        "projectile motion",
+        "uniform circular motion",
+        "linear motion with constant velocity",
+        "motion with no acceleration because its speed is constant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The stone moves along a circle at constant speed, so it undergoes <b>uniform circular motion</b>. Its speed is constant but its velocity changes direction, so D is false.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.8677,
+      "question": "In uniform circular motion, the speed is:",
+      "options": [
+        "zero",
+        "constant",
+        "continuously increasing",
+        "equal to the centripetal acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Uniform</b> circular motion means the <b>speed is constant</b>; only the direction of velocity changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.9946,
+      "question": "In uniform circular motion, the velocity vector:",
+      "options": [
+        "remains constant in both magnitude and direction",
+        "changes direction continuously",
+        "is always directed away from the centre",
+        "has a magnitude that decreases toward the centre of the circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The velocity is always tangent to the circle, so its <b>direction changes continuously</b> while its magnitude (speed) stays constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522019.8633,
+      "question": "The acceleration directed toward the centre of a circular path is called:",
+      "options": [
+        "tangential acceleration caused by a change in speed along the path",
+        "centripetal acceleration",
+        "gravitational acceleration",
+        "angular acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inward acceleration responsible for changing the direction of velocity is the <b>centripetal acceleration</b>, a = v² ÷ r, directed toward the centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.0337,
+      "question": "For a stone whirled on a string, the string exerts on the stone a force directed:",
+      "options": [
+        "outward from the centre",
+        "inward toward the centre",
+        "along the direction of motion",
+        "opposite to the stone's weight only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tension in the string pulls the stone <b>inward toward the centre</b>, providing the centripetal force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.411,
+      "question": "Centrifugal force is best described as:",
+      "options": [
+        "a real force pushing objects outward from every circle",
+        "a fictitious force appearing in a rotating frame",
+        "the same as centripetal force but opposite in direction",
+        "a force that acts only when the speed of the object is changing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Centrifugal force</b> is a <b>fictitious (pseudo) force</b> introduced by an observer in a rotating, non-inertial frame. It is not a real interaction force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.352,
+      "question": "Angular speed is defined as:",
+      "options": [
+        "angle swept per unit time",
+        "linear distance covered per unit time",
+        "change in speed per unit time",
+        "radius multiplied by tangential acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Angular speed</b> ω is the <b>angle swept per unit time</b>: ω = Δθ ÷ Δt. B is linear speed, C is tangential acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.4072,
+      "question": "The SI unit of angular speed is:",
+      "options": [
+        "m/s",
+        "rad/s",
+        "m/s²",
+        "N/kg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angular speed is angle per time, so its SI unit is <b>rad/s</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.208,
+      "question": "The relation between linear speed and angular speed for circular motion is:",
+      "options": [
+        "v = ωr",
+        "v = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>ω</span><span style='display:block;padding:0 .35em'>r</span></span>",
+        "v = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>r</span><span style='display:block;padding:0 .35em'>ω</span></span>",
+        "v = ω²r"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linear speed equals angular speed times radius: <b>v = ωr</b>. B and C are dimensionally wrong; D is the centripetal acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.1677,
+      "question": "Angular displacement is related to arc length by:",
+      "options": [
+        "s = rθ",
+        "s = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>θ</span><span style='display:block;padding:0 .35em'>r</span></span>",
+        "s = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>r</span><span style='display:block;padding:0 .35em'>θ</span></span>",
+        "s = rθ²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a circle, arc length = radius × angular displacement (in radians): <b>s = rθ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.7185,
+      "question": "The period of revolution is the:",
+      "options": [
+        "angle covered in one second",
+        "time for one complete revolution",
+        "distance covered in one revolution",
+        "number of revolutions per unit time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>period</b> T is the <b>time for one complete revolution</b>. A is angular speed, C is circumference, D is frequency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.241,
+      "question": "If the string holding a whirling stone cuts, the stone will move off with:",
+      "options": [
+        "zero velocity",
+        "tangential velocity",
+        "radial velocity toward the centre",
+        "a velocity directed outward along the string"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the string cuts, the inward force disappears. By inertia the stone continues with the velocity it had at that instant, which is <b>tangential</b> to the circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.6191,
+      "question": "The Earth revolving around the Sun is an example of:",
+      "options": [
+        "projectile motion",
+        "circular motion",
+        "uniformly accelerated linear motion",
+        "motion with zero centripetal acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Earth moves around the Sun under gravitational attraction, executing (approximately) <b>circular motion</b> with a centripetal acceleration toward the Sun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.061,
+      "question": "The vertical velocity of a projectile decreases as it rises because:",
+      "options": [
+        "gravity acts downward",
+        "horizontal velocity becomes zero",
+        "air resistance pushes it downward only",
+        "its mass increases with height"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Gravity acts downward</b>, opposite to the upward motion, so the vertical velocity decreases by g each second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.8892,
+      "question": "The horizontal velocity of a projectile remains constant because:",
+      "options": [
+        "gravity has no horizontal component",
+        "the projectile has no mass",
+        "the vertical acceleration cancels it",
+        "the launch angle is always exactly 45°, which removes all horizontal forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Gravity has no horizontal component</b>, so with air resistance neglected there is no horizontal force and the horizontal velocity is constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.0125,
+      "question": "The maximum height of a projectile depends on:",
+      "options": [
+        "initial vertical velocity component",
+        "initial horizontal velocity only",
+        "mass and colour of the projectile",
+        "the radius of the Earth and the mass of the projectile together"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum height H = u<sub>y</sub>² ÷ (2g) depends only on the <b>initial vertical velocity component</b> and g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.7935,
+      "question": "A projectile launched horizontally has an initial vertical velocity component of:",
+      "options": [
+        "zero",
+        "maximum",
+        "equal to its horizontal speed",
+        "equal to g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A horizontal launch has no initial vertical velocity, so <b>u<sub>y</sub> = 0</b>. Its initial velocity is entirely horizontal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522020.2932,
+      "question": "The centripetal force on an object in circular motion is directed:",
+      "options": [
+        "along the tangent to the path",
+        "toward the centre of the circle",
+        "away from the centre of the circle",
+        "opposite to the object's weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Centripetal force is always directed <b>toward the centre</b> of the circular path. A is the direction of velocity; C is centrifugal; D is not generally true.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031522021.0981,
+      "question": "The angular speed of a body making one complete revolution in time T is:",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>2π</span><span style='display:block;padding:0 .35em'>T</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>T</span><span style='display:block;padding:0 .35em'>2π</span></span>",
+        "2πT",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>T²</span><span style='display:block;padding:0 .35em'>2π</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One revolution corresponds to an angle of 2π radians in time T, so ω = <b>2π ÷ T</b>. B is the reciprocal, C and D are dimensionally wrong.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
