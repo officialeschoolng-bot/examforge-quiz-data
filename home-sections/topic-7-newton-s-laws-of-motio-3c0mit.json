@@ -3,16 +3,578 @@
   "title": "Topic 7: Newton's Laws of Motion",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1794034046840.5396,
+      "question": "Newton's First Law of Motion is also known as the:",
+      "options": [
+        "Law of Acceleration",
+        "Law of Inertia",
+        "Law of Action and Reaction",
+        "Law of Universal Gravitation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's first law describes how bodies resist changes in motion, so it is called the <b>Law of Inertia</b>. The Law of Acceleration is the second law, Action and Reaction is the third, and Universal Gravitation is a separate law.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.6077,
+      "question": "A body is said to be in equilibrium when the net external force acting on it is:",
+      "options": [
+        "maximum",
+        "zero",
+        "equal to its weight",
+        "constant but non-zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A body is in translational <b>equilibrium</b> when the <b>net external force is zero</b>, so it is at rest or moves with constant velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.659,
+      "question": "The tendency of an object to resist any change in its state of motion is called:",
+      "options": [
+        "momentum",
+        "impulse",
+        "inertia",
+        "friction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Inertia</b> is the property of matter by which a body resists any change in its state of rest or uniform motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.739,
+      "question": "Which of the following is a quantitative measure of inertia?",
+      "options": [
+        "Weight",
+        "Mass",
+        "Velocity",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Mass</b> is the quantitative measure of inertia: the greater the mass, the greater the resistance to change in motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.2395,
+      "question": "A passenger lurches forward when a moving bus suddenly stops. This is best explained by:",
+      "options": [
+        "Newton's Third Law",
+        "Newton's Second Law",
+        "Newton's First Law",
+        "The law of conservation of energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the bus stops, the passenger's body tends to keep moving forward because of inertia — this is <b>Newton's First Law</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.8672,
+      "question": "A reference frame in which Newton's First Law holds true is called a(n):",
+      "options": [
+        "accelerating frame",
+        "non-inertial frame",
+        "inertial reference frame",
+        "rotating frame"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An <b>inertial reference frame</b> is a non-accelerating frame in which Newton's first law (and the other laws in their simple form) holds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.4727,
+      "question": "Newton's Second Law states that the rate of change of linear momentum is directly proportional to the:",
+      "options": [
+        "mass of the body",
+        "velocity of the body",
+        "net external force acting on it",
+        "displacement of the body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Newton's second law in general form: <b>F<sub>net</sub> = dp ÷ dt</b>, so the rate of change of momentum is directly proportional to the <b>net external force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.1687,
+      "question": "The SI unit of force, the newton (N), is equivalent to:",
+      "options": [
+        "kg m s<sup>−1</sup>",
+        "kg m s<sup>−2</sup>",
+        "kg m<sup>2</sup> s<sup>−2</sup>",
+        "kg s<sup>−2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since F = ma, one newton = 1 kg × 1 m s<sup>−2</sup> = <b>kg m s<sup>−2</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.4634,
+      "question": "If the mass of a body is constant, Newton's Second Law can be written as:",
+      "options": [
+        "F = mv",
+        "F = ma",
+        "F = m ÷ a",
+        "F = m<sup>2</sup>a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For constant mass, F = dp ÷ dt reduces to <b>F = ma</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.7224,
+      "question": "According to Newton's Second Law, the acceleration of an object is inversely proportional to its:",
+      "options": [
+        "velocity",
+        "momentum",
+        "mass",
+        "displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From a = F ÷ m, acceleration is <b>inversely proportional to mass</b> for a given net force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.6262,
+      "question": "In an action-reaction pair, the two forces:",
+      "options": [
+        "act on the same body",
+        "always cancel each other out",
+        "act on different bodies",
+        "have the same magnitude and direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Action-reaction pairs act on <b>different bodies</b>, which is why they do not cancel. They are equal in magnitude but opposite in direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.0527,
+      "question": "Which of the following is an example of a contact force?",
+      "options": [
+        "Gravitational force",
+        "Magnetic force",
+        "Frictional force",
+        "Electrostatic force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Frictional force</b> requires contact between surfaces. Gravitational, magnetic, and electrostatic forces act at a distance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.2402,
+      "question": "The normal force exerted by a surface on an object acts:",
+      "options": [
+        "parallel to the surface",
+        "perpendicular to the surface",
+        "in the direction of motion",
+        "opposite to gravity always"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>normal force</b> acts <b>perpendicular</b> to the surface of contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.6157,
+      "question": "The term 'normal' in 'normal force' originates from geometry and means:",
+      "options": [
+        "average",
+        "perpendicular",
+        "horizontal",
+        "natural"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In geometry, 'normal' means <b>perpendicular</b> — hence the normal force is perpendicular to the surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.4114,
+      "question": "Which of the following statements about mass is correct?",
+      "options": [
+        "Mass is a vector quantity.",
+        "Mass varies with location.",
+        "Mass is a scalar quantity.",
+        "Mass is measured in newtons."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Mass is a scalar quantity</b>, measured in kilograms, and is constant everywhere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.1821,
+      "question": "Weight is best defined as:",
+      "options": [
+        "the amount of matter in a body",
+        "the gravitational force on a body",
+        "the inertia of a body",
+        "the mass per unit volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Weight</b> is the <b>gravitational force</b> acting on a body: W = mg. It is a vector measured in newtons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.0493,
+      "question": "An object has a mass of 5 kg on Earth. On the Moon, its mass will be:",
+      "options": [
+        "5 kg",
+        "less than 5 kg",
+        "greater than 5 kg",
+        "zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mass is an intrinsic property and does not change with location, so on the Moon the mass is still <b>5 kg</b>. Only weight changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.741,
+      "question": "The weight of an object on Earth is 49 N. On the Moon (g = 1.6 m s<sup>−2</sup>), its weight will be approximately:",
+      "options": [
+        "49 N",
+        "8 N",
+        "80 N",
+        "4.9 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mass = W ÷ g = 49 ÷ 9.8 = 5 kg. On the Moon, W = mg = 5 × 1.6 = <b>8 N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.007,
+      "question": "For a box on a frictionless inclined plane, the component of weight along the plane is:",
+      "options": [
+        "mg cos θ",
+        "mg sin θ",
+        "mg tan θ",
+        "mg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Along a plane inclined at θ, the sliding component of weight is <b>mg sin θ</b>; the perpendicular component is mg cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.24,
+      "question": "On a frictionless inclined plane, the normal force is equal in magnitude to:",
+      "options": [
+        "mg sin θ",
+        "mg cos θ",
+        "mg",
+        "zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The normal force balances the perpendicular component of weight, so N = <b>mg cos θ</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.8162,
+      "question": "In a frictionless Atwood machine with masses m<sub>1</sub> and m<sub>2</sub> (m<sub>2</sub> > m<sub>1</sub>), the acceleration of the system is:",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>(m<sub>2</sub> − m<sub>1</sub>)g</span><span style='display:block;padding:0 .35em'>m<sub>1</sub> + m<sub>2</sub></span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>(m<sub>1</sub> + m<sub>2</sub>)g</span><span style='display:block;padding:0 .35em'>m<sub>2</sub> − m<sub>1</sub></span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>m<sub>2</sub>g</span><span style='display:block;padding:0 .35em'>m<sub>1</sub> + m<sub>2</sub></span></span>",
+        "(m<sub>2</sub> − m<sub>1</sub>)g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solving the coupled equations T − m<sub>1</sub>g = m<sub>1</sub>a and m<sub>2</sub>g − T = m<sub>2</sub>a gives <b>a = (m<sub>2</sub> − m<sub>1</sub>)g ÷ (m<sub>1</sub> + m<sub>2</sub>)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.7983,
+      "question": "Two blocks in contact on a frictionless horizontal surface are pushed by a horizontal force. The force that block A exerts on block B is:",
+      "options": [
+        "equal to the applied force",
+        "less than the applied force",
+        "greater than the applied force",
+        "zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The applied force accelerates both blocks; the contact force only accelerates block B, so it is <b>less than the applied force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046840.4834,
+      "question": "For a block pulled along a horizontal frictionless floor by a cord at an angle θ to the horizontal, the vertical component of the tension:",
+      "options": [
+        "increases the normal force",
+        "reduces the normal force",
+        "has no effect on the normal force",
+        "equals the weight of the block"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The upward vertical component of the tension reduces the normal force: N = mg − T sin θ. So it <b>reduces the normal force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.7415,
+      "question": "Just before a block is lifted completely off the floor by an upward cord, the normal force becomes:",
+      "options": [
+        "maximum",
+        "equal to the weight",
+        "zero",
+        "equal to the tension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the block is just about to lift off, the normal force drops to <b>zero</b> and the tension alone balances the weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.4292,
+      "question": "If the net force acting on an object is constant and non-zero, the object undergoes:",
+      "options": [
+        "uniform velocity",
+        "uniform acceleration",
+        "circular motion",
+        "zero acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A constant net force produces a constant acceleration, so the object undergoes <b>uniform acceleration</b> (F = ma).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.1233,
+      "question": "Which law explains why a rocket is propelled forward by ejecting gas backward?",
+      "options": [
+        "Newton's First Law",
+        "Newton's Second Law",
+        "Newton's Third Law",
+        "Kepler's Third Law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The rocket pushes gas backward and the gas pushes the rocket forward — an equal and opposite pair. This is <b>Newton's Third Law</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.5552,
+      "question": "A body moving with constant velocity in a straight line has:",
+      "options": [
+        "zero net force acting on it",
+        "a constant net force acting on it",
+        "zero mass",
+        "zero inertia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Constant velocity means zero acceleration, so the <b>net force is zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.1118,
+      "question": "The inertia of an object depends on its:",
+      "options": [
+        "speed",
+        "mass",
+        "weight",
+        "volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inertia is measured by <b>mass</b>: the greater the mass, the greater the inertia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.5632,
+      "question": "Which of the following forces is NOT a fundamental force of nature?",
+      "options": [
+        "Gravitational force",
+        "Normal force",
+        "Strong nuclear force",
+        "Weak nuclear force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>normal force</b> is a contact (reaction) force, not a fundamental force. The four fundamental forces are gravitational, electromagnetic, strong, and weak nuclear.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.0994,
+      "question": "A scalar quantity has:",
+      "options": [
+        "magnitude and direction",
+        "magnitude only",
+        "direction only",
+        "neither magnitude nor direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>scalar</b> has <b>magnitude only</b>, with no direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.1946,
+      "question": "A vector quantity has:",
+      "options": [
+        "magnitude only",
+        "direction only",
+        "both magnitude and direction",
+        "neither magnitude nor direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A <b>vector</b> has <b>both magnitude and direction</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.3506,
+      "question": "The resultant of two forces acting on a body is found by:",
+      "options": [
+        "algebraic addition of their magnitudes",
+        "vector addition",
+        "multiplying their magnitudes",
+        "subtracting the smaller from the larger"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forces are vectors, so their resultant is found by <b>vector addition</b> (e.g. parallelogram or component method).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.9636,
+      "question": "The acceleration due to gravity near the Earth's surface is approximately:",
+      "options": [
+        "1.6 m s<sup>−2</sup>",
+        "9.8 m s<sup>−2</sup>",
+        "6.7 × 10<sup>−11</sup> m s<sup>−2</sup>",
+        "3.0 × 10<sup>8</sup> m s<sup>−2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Near Earth's surface, g ≈ <b>9.8 m s<sup>−2</sup></b>. (1.6 is the Moon's g, 6.7 × 10<sup>−11</sup> is G, and 3.0 × 10<sup>8</sup> is the speed of light.)",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.0947,
+      "question": "If the same force is applied to two objects of different masses, the object with the smaller mass will have:",
+      "options": [
+        "smaller acceleration",
+        "the same acceleration",
+        "larger acceleration",
+        "zero acceleration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since a = F ÷ m, for the same F a smaller mass gives a <b>larger acceleration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.4175,
+      "question": "When a body moves with uniform circular motion, its acceleration is directed:",
+      "options": [
+        "tangentially",
+        "toward the center of the circle",
+        "away from the center",
+        "along the velocity vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uniform circular motion has centripetal acceleration <b>toward the center</b> of the circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.8906,
+      "question": "The force responsible for keeping a body in circular motion is called:",
+      "options": [
+        "centrifugal force",
+        "centripetal force",
+        "frictional force",
+        "gravitational force only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>centripetal force</b> is the net inward force that keeps a body in circular motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.719,
+      "question": "A block is at rest on a rough horizontal surface. The force that opposes its impending motion is:",
+      "options": [
+        "kinetic friction",
+        "static friction",
+        "rolling friction",
+        "normal force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Before motion begins, the opposing force is <b>static friction</b>, which adjusts up to a maximum value.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.5293,
+      "question": "Once a block starts sliding on a rough surface, the friction acting on it is:",
+      "options": [
+        "static friction",
+        "kinetic friction",
+        "rolling friction",
+        "zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While sliding, the friction is <b>kinetic friction</b>, roughly constant and generally less than the maximum static friction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.2202,
+      "question": "The coefficient of kinetic friction is generally:",
+      "options": [
+        "greater than the coefficient of static friction",
+        "equal to the coefficient of static friction",
+        "less than the coefficient of static friction",
+        "independent of the surfaces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kinetic friction is usually <b>less than static friction</b>, so μ<sub>k</sub> < μ<sub>s</sub> for the same pair of surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794034046841.845,
+      "question": "The principle of inertia implies that a net external force is required to:",
+      "options": [
+        "keep a body at rest",
+        "maintain uniform motion",
+        "change a body's velocity",
+        "increase a body's mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By inertia, a body maintains its state of rest or uniform motion unless acted on by a net force; hence a net force is required to <b>change velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
