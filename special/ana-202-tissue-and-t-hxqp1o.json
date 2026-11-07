@@ -3,16 +3,438 @@
   "title": "ANA 202: TISSUE AND TISSUE PROCESSING",
   "subject": "Ana 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 30,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 30
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794031669144.2222,
+      "question": "What is the primary objective of fixation?",
+      "options": [
+        "To replace extracellular water with a rigid medium",
+        "To maintain clear and consistent morphological features almost as existing during life",
+        "To remove the dehydrating agent from tissue",
+        "To orient the tissue within paraffin wax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that the primary objective of fixation is that the stained section must maintain clear and consistent morphological features to almost that which existed during life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669147.8796,
+      "question": "Which effect of fixation directly minimizes loss of tissue constituents during processing?",
+      "options": [
+        "It hardens the tissue",
+        "It makes tissue insensitive to hypotonic solutions",
+        "It provides a support medium for sectioning",
+        "It coagulates tissue proteins and constituents"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fixation coagulates tissue proteins and constituents, thereby minimizing their loss during tissue processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.4797,
+      "question": "Which fixatives are commonly used according to the PDF?",
+      "options": [
+        "Formaldehyde and glutaraldehyde",
+        "Xylene and chloroform",
+        "Paraffin wax and celloidin",
+        "Hematoxylin and eosin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDF states that the commonly used fixatives are formaldehyde and glutaraldehyde.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.4185,
+      "question": "How does formaldehyde act as a fixative?",
+      "options": [
+        "It removes water by descending grades",
+        "It permeates tissue with support media",
+        "It creates a covalent bond between proteins in the tissue",
+        "It removes the dehydrating agent from tissue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Formaldehyde is described as a cross-linking fixative that acts by creating a covalent bond between proteins in the tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.5051,
+      "question": "Formaldehyde is soluble in water to what extent?",
+      "options": [
+        "10% by weight",
+        "40% by weight",
+        "45–55% by weight",
+        "100% by weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that formaldehyde is soluble in water to an extent of 40% by weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.106,
+      "question": "What is added to formaldehyde as a stabilizer?",
+      "options": [
+        "Xylene",
+        "Chloroform",
+        "Paraffin wax",
+        "Ten percent methanol"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ten percent methanol is added to formaldehyde as a stabilizer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.0916,
+      "question": "What is paraformaldehyde according to the PDF?",
+      "options": [
+        "A polymer of formaldehyde available as a white crystalline powder",
+        "A dehydrating agent used in descending grades",
+        "A clearing agent that removes alcohol",
+        "An embedding medium with a melting point of 45–55 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paraformaldehyde is described as a polymer of formaldehyde available as a white crystalline powder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.8718,
+      "question": "What is the principle of tissue processing?",
+      "options": [
+        "To stain the nucleus blue and cytoplasm pink",
+        "To cut sections 5–7 μ thick using a rotary microtome",
+        "To replace all extracellular water with a medium providing sufficient rigidity for sectioning",
+        "To focus the light source in the same plane as the object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tissue processing replaces all extracellular water with a medium that provides sufficient rigidity to enable sectioning without damage or distortion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.1223,
+      "question": "What is commonly used for dehydration during tissue processing?",
+      "options": [
+        "Xylene in ascending grades",
+        "Alcohol in descending grades",
+        "Paraffin wax at 45–55 degrees",
+        "Uranyl acetate and lead citrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that the commonly used dehydrating agent is alcohol in descending grades, e.g. 100%, 90%, 70%, 50%, 30%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.541,
+      "question": "What is the purpose of clearing in tissue processing?",
+      "options": [
+        "To coagulate tissue proteins",
+        "To permeate the tissue with support media",
+        "To harden the tissue before sectioning",
+        "To make the tissue clear by removing the dehydrating agent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Clearing makes the tissue clear by removing the dehydrating agent, e.g. xylene or chloroform.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.9385,
+      "question": "What does infiltration involve?",
+      "options": [
+        "Permeating the tissue with a support media",
+        "Removing water using alcohol",
+        "Removing alcohol using xylene",
+        "Staining the cytoplasm pink with eosin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Infiltration is described as permeating the tissue with a support media.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.863,
+      "question": "Which embedding medium is routinely used?",
+      "options": [
+        "Celloidin",
+        "Resins",
+        "Paraffin wax",
+        "Glutaraldehyde"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paraffin wax is routinely used as an embedding medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.407,
+      "question": "What is the melting point of paraffin wax given in the PDF?",
+      "options": [
+        "5–7 degrees",
+        "45–55 degrees",
+        "70–90 degrees",
+        "100–120 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that paraffin wax has a melting point of 45–55 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.8042,
+      "question": "Which other embedding media are mentioned in the PDF?",
+      "options": [
+        "Xylene and chloroform",
+        "Formaldehyde and glutaraldehyde",
+        "Hematoxylin and eosin",
+        "Celloidin and resins"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Besides paraffin wax, the PDF mentions celloidin and resins as other embedding media.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.3774,
+      "question": "At what temperature does the embedded tissue form a solid block?",
+      "options": [
+        "Room temperature",
+        "45–55 degrees",
+        "100 degrees",
+        "Below 0 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The tissue is embedded and orientated in the medium and forms a solid block at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.8408,
+      "question": "What thickness is used for routine histology sections?",
+      "options": [
+        "Less than 100 nm",
+        "45–55 μ",
+        "5–7 μ",
+        "100–120 μ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A rotary microtome is used to cut sections of 5–7 μ thick for routine histology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.5354,
+      "question": "Which instrument is used to cut sections for routine histology?",
+      "options": [
+        "Ultramicrotome",
+        "Rotary microtome",
+        "Confocal microscope",
+        "Light illuminator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that a rotary microtome is used to cut sections of 5–7 μ thick for routine histology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.9976,
+      "question": "Where are cut sections picked up after sectioning?",
+      "options": [
+        "Directly onto the objective lens",
+        "On filter paper without water",
+        "In xylene",
+        "On clean glass slides under a water bath"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sections are cut and picked up on clean glass slides under a water bath.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.5583,
+      "question": "What is done to the sections before staining?",
+      "options": [
+        "They are dried",
+        "They are frozen",
+        "They are immersed in formaldehyde",
+        "They are cut with glass knives"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDF states that the sections are dried before staining.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.194,
+      "question": "Which stain is routinely used for all teaching slides?",
+      "options": [
+        "Uranyl acetate and lead citrate",
+        "Xylene and chloroform",
+        "Hematoxylin and eosin",
+        "Formaldehyde and glutaraldehyde"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hematoxylin and eosin is routinely used for all teaching slides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.0286,
+      "question": "What type of dye is hematoxylin and what does it stain?",
+      "options": [
+        "Acidic dye; stains cytoplasm pink",
+        "Basic dye; stains nucleus blue",
+        "Cross-linking fixative; stains proteins",
+        "Clearing agent; makes tissue clear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hematoxylin is a basic dye and stains the nucleus blue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.001,
+      "question": "What type of dye is eosin and what does it stain?",
+      "options": [
+        "Basic dye; stains nucleus blue",
+        "Dehydrating agent; removes water",
+        "Embedding medium; supports sectioning",
+        "Acidic dye; stains cytoplasm pink"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eosin is an acidic dye and stains the cytoplasm pink.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.0066,
+      "question": "What happens once the sections are stained?",
+      "options": [
+        "They are mounted and are ready for viewing under a light microscope",
+        "They are dehydrated in descending grades of alcohol",
+        "They are embedded in paraffin wax",
+        "They are cut with a rotary microtome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDF states that once sections are stained they are mounted and are ready for viewing under a light microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.9006,
+      "question": "Which sequence represents descending grades of alcohol used in dehydration?",
+      "options": [
+        "30%, 50%, 70%, 90%, 100%",
+        "50%, 30%, 100%, 70%, 90%",
+        "100%, 90%, 70%, 50%, 30%",
+        "70%, 100%, 30%, 90%, 50%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The PDF gives the example of alcohol in descending grades: 100%, 90%, 70%, 50%, and 30%.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.8984,
+      "question": "Which agents are given as examples of clearing agents?",
+      "options": [
+        "Formaldehyde and glutaraldehyde",
+        "Xylene and chloroform",
+        "Paraffin wax and celloidin",
+        "Hematoxylin and eosin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF lists xylene and chloroform as examples of clearing agents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.598,
+      "question": "Fixation makes the tissue insensitive to which solutions?",
+      "options": [
+        "Xylene and chloroform",
+        "Hematoxylin and eosin",
+        "Paraffin and resin",
+        "Hypotonic or hypertonic solutions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The PDF states that fixation hardens the tissue and makes it insensitive to hypotonic or hypertonic solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.3425,
+      "question": "Which sources are listed for commonly obtaining tissue?",
+      "options": [
+        "Autopsy, surgical procedures, and experimental animals",
+        "Xylene, chloroform, and alcohol",
+        "Paraffin, celloidin, and resins",
+        "Hematoxylin, eosin, and methanol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The PDF states that tissue is commonly obtained from autopsy, surgical procedures, and experimental animals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.4497,
+      "question": "Which experimental animals are specifically mentioned in the PDF?",
+      "options": [
+        "Dogs, cats, and horses",
+        "Frogs, fish, and birds",
+        "Rabbit, rats, and mice",
+        "Sheep, goats, and cattle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The PDF mentions experimental animals including rabbit, rats, and mice.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.0015,
+      "question": "According to the PDF, when are guidelines of ethics always observed?",
+      "options": [
+        "Only during autopsy",
+        "In any experimental study",
+        "Only during sectioning",
+        "Only during staining"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The PDF states that guidelines of ethics are always observed in any experimental study.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794031669148.785,
+      "question": "To visualize the microstructure of a tissue under a light microscope, the specimen must go through which protocol?",
+      "options": [
+        "Staining, fixation, embedding, and clearing",
+        "Clearing, dehydration, staining, and sectioning",
+        "Embedding, staining, fixation, and infiltration",
+        "Fixation, tissue processing, sectioning, and staining"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The PDF states that the specimen must go through tissue fixation, tissue processing, sectioning, and staining to visualize microstructure under a light microscope.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
