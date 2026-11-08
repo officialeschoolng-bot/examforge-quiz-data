@@ -3,16 +3,438 @@
   "title": "ANA 201 : RADIUS 2",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794111957747.476,
+      "question": "How many surfaces does the lower end of the radius present?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lower end is the widest part of the bone and presents five surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957747.6982,
+      "question": "Which ligament attaches to the thick ridge on the anterior surface of the lower radius?",
+      "options": [
+        "Ulnar collateral",
+        "Palmar radio-carpal",
+        "Radial collateral",
+        "Annular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The thick ridge on the anterior surface provides attachment to the palmar radio-carpal ligament of the wrist joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.235,
+      "question": "Which surface of the lower radius contains the dorsal tubercle of Lister?",
+      "options": [
+        "Medial",
+        "Anterior",
+        "Lateral",
+        "Posterior"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The posterior surface presents the dorsal tubercle of Lister.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.1138,
+      "question": "Which structure is located immediately medial to the dorsal tubercle of Lister?",
+      "options": [
+        "Groove for EPL",
+        "Groove for ECRL",
+        "Groove for ECRB",
+        "Groove for extensor indicis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The dorsal tubercle of Lister is located lateral to the groove for the tendon of extensor pollicis longus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.7205,
+      "question": "Which tendons traverse the groove lateral to the Lister's tubercle?",
+      "options": [
+        "Extensor digitorum and extensor indicis",
+        "Extensor carpi radialis longus and brevis",
+        "Abductor pollicis longus and brevis",
+        "Extensor pollicis longus and brevis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The groove lateral to the Lister's tubercle is traversed by tendons of extensor carpi radialis longus and brevis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.9062,
+      "question": "Which tendons pass through the groove medial to the groove for extensor pollicis longus?",
+      "options": [
+        "Extensor digitorum and extensor indicis",
+        "Extensor carpi radialis longus and brevis",
+        "Flexor carpi radialis and ulnaris",
+        "Abductor pollicis longus and brevis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tendons of extensor digitorum and extensor indicis pass through this medial groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.3918,
+      "question": "Which structure is located on the medial surface of the lower end of the radius?",
+      "options": [
+        "Styloid process",
+        "Ulnar notch",
+        "Lister's tubercle",
+        "Radial tuberosity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial surface of the lower radius presents the ulnar notch for articulation with the head of ulna.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.699,
+      "question": "What structure is attached to the lower margin of the ulnar notch?",
+      "options": [
+        "Annular ligament",
+        "Palmar radio-carpal ligament",
+        "Articular disc",
+        "Radial collateral ligament"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The articular disc of the inferior radio-ulnar joint is attached to the lower margin of the ulnar notch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.4302,
+      "question": "Which muscle inserts at the base of the radial styloid process?",
+      "options": [
+        "Brachioradialis",
+        "Pronator teres",
+        "Supinator",
+        "Flexor pollicis longus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brachioradialis is inserted to the base of the styloid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.2556,
+      "question": "Which bone articulates with the medial quadrangular area of the inferior surface of the radius?",
+      "options": [
+        "Scaphoid",
+        "Lunate",
+        "Triquetral",
+        "Capitate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial quadrangular area articulates with the lateral part of the lunate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.6824,
+      "question": "Why are fractures of the radius more common than fractures of the ulna?",
+      "options": [
+        "It is more superficial",
+        "It is a weight-bearing bone",
+        "It has less muscle coverage",
+        "It has a thinner cortex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radius is a weight-bearing bone of the forearm, making it more prone to fractures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.583,
+      "question": "In a fracture of the radial shaft below the biceps insertion, the upper fragment is supinated by which muscle?",
+      "options": [
+        "Pronator teres",
+        "Biceps brachii",
+        "Supinator",
+        "Brachioradialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The upper fragment in this specific fracture is supinated by the supinator muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.2673,
+      "question": "In a fracture of the radial shaft, the lower fragment is pronated by which muscle?",
+      "options": [
+        "Pronator quadratus",
+        "Pronator teres",
+        "Brachioradialis",
+        "Supinator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lower fragment is pronated by the pronator teres.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.9993,
+      "question": "In a Colles' fracture, the distal fragment is displaced in which direction?",
+      "options": [
+        "Forwards and downwards",
+        "Backwards and upwards",
+        "Medially and downwards",
+        "Laterally and upwards"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a Colles' fracture, the distal fragment is displaced backwards and upwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.6453,
+      "question": "Which fracture is described as the reverse of Colles' fracture?",
+      "options": [
+        "Chauffeur's fracture",
+        "Smith's fracture",
+        "Galeazzi fracture",
+        "Monteggia fracture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smith's fracture is the reverse of Colles' fracture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.9512,
+      "question": "A fracture of the styloid process of the radius is termed what?",
+      "options": [
+        "Colles' fracture",
+        "Smith's fracture",
+        "Chauffeur's fracture",
+        "Barton's fracture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A fracture of the styloid process of the radius is termed a Chauffeur's fracture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.0315,
+      "question": "The radius is most commonly fractured in which age group?",
+      "options": [
+        "Children under 10",
+        "Teenagers",
+        "People over 50",
+        "Infants"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radius is the most commonly fractured bone in people over 50 years of age.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.9414,
+      "question": "What is the most common mechanism of injury for a radius fracture?",
+      "options": [
+        "Direct blow to the wrist",
+        "Fall on outstretched hand",
+        "Twisting injury",
+        "Heavy lifting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is often fractured as a result of a fall on an outstretched hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.939,
+      "question": "How many ossification centers does the radius have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radius ossifies from three centers: one primary and two secondary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.4175,
+      "question": "During which week of intrauterine life does the primary ossification center appear?",
+      "options": [
+        "4th week",
+        "6th week",
+        "8th week",
+        "10th week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary center appears in the mid-shaft during the 8th week of intrauterine life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.2542,
+      "question": "At what age does the center for the lower end of the radius appear?",
+      "options": [
+        "First year",
+        "Third year",
+        "Fifth year",
+        "Seventh year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center for the lower end appears at the age of the first year.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.354,
+      "question": "During which year does the center for the upper end of the radius appear?",
+      "options": [
+        "First year",
+        "Third year",
+        "Fifth year",
+        "Seventh year"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The center for the upper end appears during the fifth year.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.7153,
+      "question": "At what age does the upper epiphysis of the radius fuse?",
+      "options": [
+        "10 years",
+        "12 years",
+        "16 years",
+        "20 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The upper epiphysis fuses at the age of 12 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.5342,
+      "question": "At what age does the lower epiphysis of the radius fuse?",
+      "options": [
+        "12th year",
+        "16th year",
+        "18th year",
+        "20th year"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The lower epiphysis fuses at the age of the 20th year.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.3523,
+      "question": "Madelung deformity is a congenital anomaly of which bone?",
+      "options": [
+        "Ulna",
+        "Humerus",
+        "Radius",
+        "Carpal bones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Madelung deformity is a congenital anomaly of the radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.2358,
+      "question": "What causes the anterior bowing of the distal radius in Madelung deformity?",
+      "options": [
+        "Abnormal muscle pull",
+        "Abnormal growth of distal epiphysis",
+        "Premature fusion of the shaft",
+        "Fracture nonunion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The anterior bowing is due to an abnormal growth of the distal epiphysis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.5342,
+      "question": "Between what ages does Madelung deformity typically occur?",
+      "options": [
+        "5 and 9 years",
+        "10 and 14 years",
+        "15 and 20 years",
+        "20 and 25 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It occurs between 10 and 14 years of age.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.327,
+      "question": "What happens to the distal epiphyseal line in Madelung deformity?",
+      "options": [
+        "It thickens",
+        "It widens",
+        "It disappears prematurely",
+        "It becomes irregular"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There is premature disappearance of the distal epiphyseal line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.6956,
+      "question": "Madelung deformity may cause subluxation or dislocation of which structure?",
+      "options": [
+        "Distal end of ulna",
+        "Proximal end of radius",
+        "Scaphoid bone",
+        "Lunate bone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There may be subluxation or dislocation of the distal end of the ulna.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794111957748.2979,
+      "question": "What is the underlying defect in Madelung deformity that affects the distal ulna?",
+      "options": [
+        "Overgrowth of ulnar epiphysis",
+        "Defective development of radial epiphysis",
+        "Fracture of the ulnar styloid",
+        "Shortening of the ulnar shaft"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subluxation of the ulna is due to defective development of the distal radial epiphysis.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
