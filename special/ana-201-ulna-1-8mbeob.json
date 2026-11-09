@@ -3,16 +3,438 @@
   "title": "ANA 201 : ULNA 1",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794199968532.5547,
+      "question": "The ulna is the medial bone of which part of the body?",
+      "options": [
+        "Thigh",
+        "Forearm",
+        "Hand",
+        "Leg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna is described as the medial bone of the forearm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.119,
+      "question": "The ulna is homologous to which bone of the lower limb?",
+      "options": [
+        "Tibia",
+        "Fibula",
+        "Femur",
+        "Patella"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna is homologous to the lateral bone of the leg, which is the fibula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.7656,
+      "question": "The ulna consists of three parts. Which of the following is one of them?",
+      "options": [
+        "Base",
+        "Shaft",
+        "Apex",
+        "Neck"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna consists of the upper end, lower end, and shaft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.3555,
+      "question": "What is the shape of the upper end of the ulna?",
+      "options": [
+        "Hook-like",
+        "Spherical",
+        "Cuboid",
+        "Pyramidal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The upper end is expanded and hook-like with the concavity facing forwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.1768,
+      "question": "Which notch lies between the olecranon and coronoid processes?",
+      "options": [
+        "Radial notch",
+        "Trochlear notch",
+        "Mandibular notch",
+        "Sciatic notch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concavity of the upper end, known as the trochlear notch, lies between the olecranon and coronoid processes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.9358,
+      "question": "How does the thickness of the ulnar shaft change from above downwards?",
+      "options": [
+        "Increases",
+        "Remains constant",
+        "Diminishes",
+        "Varies randomly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The thickness of the shaft diminishes progressively from above downwards throughout its length.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.5742,
+      "question": "The styloid process is located at which part of the ulna?",
+      "options": [
+        "Upper end",
+        "Shaft",
+        "Lower end",
+        "Neck"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lower end of the ulna is slightly expanded and has a head and styloid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.4058,
+      "question": "Where is the styloid process situated in relation to the ulnar head?",
+      "options": [
+        "Anterolateral",
+        "Posteromedial",
+        "Anteromedial",
+        "Posterolateral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The styloid process is located posteromedial to the head of the ulna.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.5188,
+      "question": "During side determination, which border of the ulna is directed laterally?",
+      "options": [
+        "Anterior border",
+        "Posterior border",
+        "Interosseous border",
+        "Medial border"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sharp crest-like interosseous border of the shaft is directed laterally during side determination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.6418,
+      "question": "Which structure inserts on the rough posterior two-thirds of the olecranon's upper surface?",
+      "options": [
+        "Biceps brachii",
+        "Brachialis",
+        "Triceps brachii",
+        "Anconeus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The rough posterior two-thirds of the olecranon's upper surface provides insertion to the triceps brachii.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.281,
+      "question": "What is found on the posterior surface of the olecranon?",
+      "options": [
+        "A deep fossa",
+        "A subcutaneous bursa",
+        "A prominent ridge",
+        "A synovial sheath"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A subcutaneous olecranon bursa lies between the posterior surface of the olecranon and the skin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.711,
+      "question": "Which process of the ulna is described as a bracket-like projection?",
+      "options": [
+        "Olecranon process",
+        "Coronoid process",
+        "Styloid process",
+        "Ulnar tuberosity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coronoid process is a bracket-like projection from the front of the upper end of the ulna.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.6604,
+      "question": "The brachialis muscle is inserted into which structure?",
+      "options": [
+        "Coronoid process",
+        "Olecranon process",
+        "Ulnar tuberosity",
+        "Styloid process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The brachialis muscle is inserted into the whole of the anterior surface of the coronoid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.031,
+      "question": "What is the small tubercle at the upper end of the medial margin of the coronoid process called?",
+      "options": [
+        "Conoid tubercle",
+        "Deltoid tubercle",
+        "Sublime tubercle",
+        "Ulnar tubercle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The medial margin of the anterior surface has a tubercle at its upper end called the sublime tubercle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.6807,
+      "question": "Which muscle originates from the medial surface of the coronoid process?",
+      "options": [
+        "Brachialis",
+        "Pronator teres",
+        "Flexor digitorum profundus",
+        "Flexor carpi ulnaris"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The medial surface of the coronoid process gives origin to the flexor digitorum profundus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.418,
+      "question": "The radial notch is located on which surface of the coronoid process?",
+      "options": [
+        "Superior",
+        "Anterior",
+        "Medial",
+        "Lateral"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The lateral surface of the coronoid process possesses a radial notch for articulation with the head of the radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.8838,
+      "question": "Which ligament attaches to the anterior and posterior margins of the radial notch?",
+      "options": [
+        "Annular ligament",
+        "Quadrate ligament",
+        "Ulnar collateral ligament",
+        "Radial collateral ligament"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The annular ligament is attached to the anterior and posterior margins of the radial notch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.6277,
+      "question": "What is the depression below the radial notch called?",
+      "options": [
+        "Coronoid fossa",
+        "Radial fossa",
+        "Olecranon fossa",
+        "Supinator fossa"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The lower part of the lateral surface below the radial notch has a depressed area called the supinator fossa.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968532.44,
+      "question": "Which muscle originates from the supinator crest?",
+      "options": [
+        "Supinator",
+        "Pronator teres",
+        "Biceps brachii",
+        "Extensor indicis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The supinator crest and adjoining part of the supinator fossa give origin to the supinator muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.6396,
+      "question": "What is the shape of the trochlear notch?",
+      "options": [
+        "U-shaped",
+        "V-shaped",
+        "C-shaped",
+        "S-shaped"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The trochlear notch is C-shaped (semilunar) and articulates with the trochlea of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.3613,
+      "question": "The trochlear notch articulates with which structure?",
+      "options": [
+        "Capitulum",
+        "Trochlea of humerus",
+        "Head of radius",
+        "Radial notch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The trochlear notch articulates with the trochlea of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.626,
+      "question": "A non-articular strip is found at the junction of which two parts?",
+      "options": [
+        "Shaft and lower end",
+        "Head and styloid process",
+        "Olecranon and coronoid parts",
+        "Anterior and posterior borders"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The trochlear notch has a non-articular strip at the junction of its olecranon and coronoid parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.4514,
+      "question": "Which border is the sharpest and continuous with the supinator crest?",
+      "options": [
+        "Lateral border",
+        "Medial border",
+        "Anterior border",
+        "Posterior border"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lateral (interosseous) border is the sharpest and is continuous above with the supinator crest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.5337,
+      "question": "To which border of the ulna is the interosseous membrane attached?",
+      "options": [
+        "Anterior border",
+        "Posterior border",
+        "Medial border",
+        "Lateral border"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The interosseous membrane is attached to the lateral border except for its upper part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.1638,
+      "question": "The upper three-fourths of the anterior border gives origin to which muscle?",
+      "options": [
+        "Flexor digitorum profundus",
+        "Flexor carpi radialis",
+        "Extensor carpi ulnaris",
+        "Pronator teres"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The upper three-fourths of the anterior border gives origin to the flexor digitorum profundus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.3464,
+      "question": "Which border is subcutaneous throughout its entire length?",
+      "options": [
+        "Anterior border",
+        "Posterior border",
+        "Lateral border",
+        "Interosseous border"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The posterior border is subcutaneous throughout, hence it can be palpated along its entire length.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.192,
+      "question": "Which of the following muscles attaches to the posterior border by a common aponeurosis?",
+      "options": [
+        "Brachialis muscle",
+        "Extensor carpi ulnaris",
+        "Abductor pollicis longus",
+        "Flexor pollicis longus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The posterior border provides attachment to the flexor digitorum profundus, flexor carpi ulnaris, and extensor carpi ulnaris by a common aponeurosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.3625,
+      "question": "Where does the posterior border of the ulna start?",
+      "options": [
+        "Apex of olecranon",
+        "Tip of styloid",
+        "Base of radial notch",
+        "Side of ulnar tuberosity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior border starts from the apex of the triangular subcutaneous area on the back of the olecranon process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.3652,
+      "question": "How many borders and surfaces does the ulnar shaft have?",
+      "options": [
+        "Two borders, two surfaces",
+        "Three borders, three surfaces",
+        "Four borders, four surfaces",
+        "Three borders, two surfaces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shaft of the ulna has three borders (lateral, anterior, posterior) and three surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794199968533.8088,
+      "question": "Which structure forms the superior part of the trochlear notch?",
+      "options": [
+        "Coronoid process",
+        "Ulnar tuberosity",
+        "Olecranon process",
+        "Sublime tubercle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterior surface of the olecranon process forms the upper part of the trochlear notch.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
