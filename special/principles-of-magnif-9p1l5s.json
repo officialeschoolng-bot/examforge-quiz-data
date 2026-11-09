@@ -3,16 +3,718 @@
   "title": "PRINCIPLES OF MAGNIFICATION AND RESOLUTION (UNINIGER)",
   "subject": "Special",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 20,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 20
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794239450262.5454,
+      "question": "A specimen is viewed through a 10x eyepiece and a 40x objective lens. The overall magnification of the image is:",
+      "options": [
+        "50x",
+        "100x",
+        "400x",
+        "4000x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total magnification is the product of the eyepiece and objective magnifications: 10 × 40 = <b>400x</b>. Adding the powers gives the wrong 50x, and 100x or 4000x arise from miscalculation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450262.643,
+      "question": "Enlarging an image beyond what the objective can resolve, for example by fitting a stronger eyepiece, mainly produces:",
+      "options": [
+        "A larger, blurrier image with no added detail",
+        "Separate images of points that were too close to resolve",
+        "A higher numerical aperture in the objective lens",
+        "A shorter effective wavelength of the light used"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Resolution is fixed by the objective and the wavelength of light, so magnification beyond that limit is <b>empty magnification</b>: the image grows but no new detail appears. It cannot raise the NA (C) or shorten the wavelength (D).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450262.497,
+      "question": "Which change would reduce the smallest distance that a light microscope can resolve, and so improve its resolution?",
+      "options": [
+        "Switching from blue light to red light",
+        "Using an objective with a lower numerical aperture",
+        "Raising the eyepiece power from 10x to 15x",
+        "Switching from red light to blue light"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In d = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>0.61λ</span><span style='display:block;padding:0 .35em'>NA</span></span> a shorter wavelength lowers d. Blue light has a shorter wavelength than red, so switching red → blue improves resolution. Eyepiece power (C) and a lower NA (B) do not help, and red light is worse than blue (A).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.2168,
+      "question": "Using d = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>0.61λ</span><span style='display:block;padding:0 .35em'>NA</span></span>, the smallest resolvable distance for light of wavelength 550 nm and an objective of numerical aperture 1.25 is closest to:",
+      "options": [
+        "220 nm",
+        "268 nm",
+        "336 nm",
+        "440 nm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "d = 0.61 × 550 nm ÷ 1.25 ≈ <b>268 nm</b>. The value 336 nm omits the division by NA, and 440 nm omits the 0.61 factor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.6174,
+      "question": "Immersion oil is placed between the slide and the 100x objective mainly because it:",
+      "options": [
+        "Cools the specimen by absorbing lamp heat",
+        "Stops light bending away, so more rays enter the lens",
+        "Extends the working distance of the objective",
+        "Raises contrast by faintly staining the specimen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oil has a refractive index close to that of glass, so oblique rays are not refracted out of the lens path. This raises the effective numerical aperture and resolution. It does not cool the specimen (A), extend working distance (C), or stain (D).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.5466,
+      "question": "When the objective is changed from 10x to 40x, the depth of field generally:",
+      "options": [
+        "Increases because the image becomes larger",
+        "Stays the same because the eyepiece is unchanged",
+        "Increases because the working distance shortens",
+        "Decreases because the numerical aperture rises"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Higher-power objectives have higher numerical aperture, which gives a thinner zone of the specimen that is in focus at one time — so the depth of field <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.0588,
+      "question": "A microscope has a field of view 1.8 mm across at a total magnification of 100x. At 400x total magnification the field diameter is:",
+      "options": [
+        "0.45 mm",
+        "0.90 mm",
+        "1.80 mm",
+        "7.20 mm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Field diameter is inversely proportional to magnification, so 1.8 mm × <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>100</span><span style='display:block;padding:0 .35em'>400</span></span> = <b>0.45 mm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.0168,
+      "question": "The numerical aperture of an objective lens depends on:",
+      "options": [
+        "Eyepiece focal length and tube length",
+        "Wavelength of light and stage height",
+        "Refractive index of the medium and half-angle of the light cone collected",
+        "Objective magnification and slide thickness"
+      ],
+      "correctAnswer": 2,
+      "explanation": "NA = n sin θ, so it is set by the <b>refractive index of the medium</b> between specimen and lens and by the <b>half-angle of the cone of light</b> the lens accepts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.4304,
+      "question": "The condenser of a compound light microscope mainly serves to:",
+      "options": [
+        "Focus lamp light into a cone that illuminates the specimen",
+        "Magnify the real image formed by the objective",
+        "Hold the objectives on a revolving turret",
+        "Fine-adjust the distance between stage and objective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The condenser gathers and concentrates light from the source onto the specimen, which affects brightness and resolution. Magnification (B) is the job of the objective and eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.266,
+      "question": "Partly closing the condenser iris diaphragm when viewing a stained smear generally:",
+      "options": [
+        "Improves resolution while dimming the image",
+        "Raises resolution and depth of field together",
+        "Changes magnification but leaves contrast the same",
+        "Raises contrast and depth of field but lowers resolution"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A smaller aperture lowers the illuminating NA, which increases <b>contrast and depth of field</b> but <b>reduces resolving power</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.5537,
+      "question": "Objectives on a microscope are described as parfocal when:",
+      "options": [
+        "They all give the same magnification",
+        "The specimen stays almost in focus after switching objectives",
+        "They share the same numerical aperture",
+        "They all require immersion oil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Parfocal</b> objectives are matched in focal distance so that only slight refocusing is needed when the nosepiece is rotated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.93,
+      "question": "Köhler illumination is set up in order to provide:",
+      "options": [
+        "The highest magnification the objective allows",
+        "Coloured contrast in unstained cells",
+        "Even, glare-free illumination across the whole field of view",
+        "A longer working distance at high power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Köhler alignment focuses and centres the condenser and field diaphragm so the lamp filament is not imaged and light is <b>uniform and glare-free</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.9478,
+      "question": "After focusing a stained smear with the 10x objective on a parfocal microscope, the correct way to sharpen the image at 40x is to use:",
+      "options": [
+        "The coarse focus knob with the stage raised",
+        "The condenser height control only",
+        "The fine focus knob in small adjustments",
+        "The iris diaphragm to bring the specimen into focus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parfocal objectives need only slight refocusing, and the coarse knob risks driving the lens into the slide. Use the <b>fine focus knob</b> in small adjustments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.848,
+      "question": "Coloured fringes around an image arise because different wavelengths are focused at different points. This defect is called:",
+      "options": [
+        "Chromatic aberration",
+        "Spherical aberration",
+        "Astigmatism",
+        "Curvature of field"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A simple lens refracts shorter wavelengths more strongly than longer ones, so colours do not converge at a single focus — this is <b>chromatic aberration</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.7014,
+      "question": "Which objective class gives the most complete correction of chromatic aberration (at three wavelengths) and of spherical aberration, at the highest cost?",
+      "options": [
+        "Achromat",
+        "Plan achromat",
+        "Fluorite (semi-apochromat)",
+        "Apochromat"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Apochromats</b> use special glass and complex lens groups to correct colour at three wavelengths, whereas achromats correct only two.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.6626,
+      "question": "Which specimen is best viewed by dark-field microscopy?",
+      "options": [
+        "Gram-stained smears of Staphylococcus",
+        "Unstained, live Treponema pallidum",
+        "Acid-fast stained mycobacteria",
+        "H&E-stained tissue sections"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dark-field illumination makes thin, unstained live organisms such as spirochaetes appear bright against a dark background, since they are too slender for bright-field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.692,
+      "question": "Phase-contrast microscopy makes transparent, unstained cells visible by converting differences in which property into differences in brightness?",
+      "options": [
+        "Fluorescent emission from the cell",
+        "Absorption of ultraviolet radiation",
+        "Rotation of the plane of polarised light",
+        "Phase shift caused by refractive index and thickness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Light passing through parts of a cell with different refractive index or thickness is retarded differently, and the phase plate turns this <b>phase shift</b> into amplitude (brightness) contrast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.7861,
+      "question": "In fluorescence microscopy, the light emitted by a fluorophore has a wavelength that is:",
+      "options": [
+        "Longer than the excitation wavelength",
+        "Shorter than the excitation wavelength",
+        "Identical to the excitation wavelength",
+        "Always within the ultraviolet range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some energy is lost before emission (the Stokes shift), so emitted light is of <b>longer wavelength</b>, which allows filters to separate it from the excitation light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.3022,
+      "question": "A confocal microscope rejects out-of-focus light mainly by using:",
+      "options": [
+        "A beam of electrons in a vacuum",
+        "A pinhole placed in front of the detector",
+        "A pair of crossed polarising filters",
+        "Oil with an extremely high refractive index"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>pinhole</b> passes light from the focal plane only, which gives thin optical sections of thick specimens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.073,
+      "question": "Polarising microscopy helps distinguish crystalline drug particles from amorphous ones because crystals commonly:",
+      "options": [
+        "Fluoresce when illuminated",
+        "Absorb all visible wavelengths",
+        "Show birefringence between crossed polarisers",
+        "Scatter electrons strongly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anisotropic crystals split polarised light and appear bright against a dark field (<b>birefringence</b>), whereas amorphous solids remain dark.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.5833,
+      "question": "Differential interference contrast (DIC) microscopy gives unstained living cells an appearance that is:",
+      "options": [
+        "Shaded and relief-like, as if three-dimensional",
+        "Bright structures on a uniformly black background",
+        "Colour-coded according to elemental composition",
+        "A thin slice from a single focal plane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DIC detects gradients in optical path length and renders them as light and dark shading, producing a <b>pseudo-3D relief</b> image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.1733,
+      "question": "A researcher wants to watch living, unstained, transparent protozoa move while still seeing fine internal structure. The most suitable technique is:",
+      "options": [
+        "Bright-field after Gram staining",
+        "Transmission electron microscopy",
+        "Fluorescence microscopy of dried smears",
+        "Phase-contrast microscopy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Phase contrast</b> gives usable contrast in live, unstained transparent cells, whereas the other options require fixing, drying or staining that kills the cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.7048,
+      "question": "Living, unstained cells give poor contrast in ordinary bright-field microscopy mainly because they:",
+      "options": [
+        "Emit too little fluorescence",
+        "Absorb very little light, so they are nearly transparent",
+        "Rotate polarised light too strongly",
+        "Have a refractive index far above their surroundings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bright-field contrast depends on light absorption, and unstained cells <b>absorb almost none</b>, so there is little difference from the background.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.318,
+      "question": "The fluorescent dye DAPI is used to label cell nuclei because it binds to:",
+      "options": [
+        "Membrane phospholipids",
+        "Cell-wall peptidoglycan",
+        "Nuclear DNA",
+        "Actin filaments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DAPI attaches to <b>DNA</b> and fluoresces blue under ultraviolet excitation, so nuclei stand out.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.4507,
+      "question": "Ordinary light microscopes cannot resolve detail much finer than about 0.2 µm mainly because of:",
+      "options": [
+        "The poor quality of glass lenses",
+        "Insufficient eyepiece magnification",
+        "Chromatic aberration in the condenser",
+        "Diffraction of light, tied to its wavelength"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Diffraction</b> spreads each point into an Airy disc whose size depends on wavelength and NA, so very close points merge. Lens quality, eyepiece power and chromatic aberration are not the fundamental limit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.5178,
+      "question": "Which step of the Gram stain causes Gram-negative cells to lose the primary stain?",
+      "options": [
+        "Application of Gram's iodine",
+        "Washing with alcohol or acetone",
+        "Counterstaining with safranin",
+        "Heat fixation of the smear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>decolouriser</b> (alcohol or acetone) dissolves the outer membrane and washes the crystal violet–iodine complex out of the thin peptidoglycan layer of Gram-negative cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.1084,
+      "question": "Pink-red cells after the Gram stain indicate cell walls that:",
+      "options": [
+        "Hold crystal violet in a thick peptidoglycan layer",
+        "Contain mycolic acids that bind carbol fuchsin",
+        "Lose crystal violet because of thin peptidoglycan and an outer membrane",
+        "Are covered by a capsule that blocks every dye"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cells that <b>lose the primary stain</b> because of thin peptidoglycan and an outer membrane are recoloured by the safranin counterstain and appear pink-red.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.5447,
+      "question": "Mycobacterium tuberculosis resists decolourisation by acid-alcohol in the Ziehl–Neelsen stain because its wall is rich in:",
+      "options": [
+        "Mycolic acids",
+        "Teichoic acids",
+        "Lipopolysaccharide",
+        "Dipicolinic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The waxy <b>mycolic acid</b> layer holds carbol fuchsin once it has been driven in with heat, making the cells acid-fast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.76,
+      "question": "Heat-fixing a bacterial smear mainly serves to:",
+      "options": [
+        "Increase the refractive index of the cells",
+        "Enlarge the cells for easier measurement",
+        "Dissolve the cell wall so that dye enters",
+        "Kill the cells and attach them firmly to the slide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fixation <b>kills the cells and adheres them</b> to the glass so they are not washed away during staining.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.9082,
+      "question": "In a negative stain such as India ink or nigrosin, the organism appears:",
+      "options": [
+        "Dark against a clear background",
+        "Clear against a dark background",
+        "Uniformly dark with a bright halo",
+        "Fluorescent against a dark background"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The acidic stain is repelled by the negatively charged cell surface, so it colours the background and leaves the cell <b>clear against a dark background</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.4175,
+      "question": "A hanging-drop preparation is mainly used to observe:",
+      "options": [
+        "Acid-fastness of mycobacteria",
+        "The Gram reaction of bacterial walls",
+        "Motility of living bacteria",
+        "Internal cell ultrastructure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The drop keeps the organisms alive and free to swim, so true <b>motility</b> can be distinguished from Brownian movement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.356,
+      "question": "Haematoxylin in an H&E stain colours cell nuclei blue-purple because it behaves as a:",
+      "options": [
+        "Basic dye that binds acidic nucleic acids",
+        "Acidic dye that binds basic cytoplasmic proteins",
+        "Lipid-soluble dye that dissolves in membranes",
+        "Fluorochrome that emits blue light"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In its mordanted form haematoxylin carries a positive charge and binds the negatively charged phosphate groups of DNA and RNA — it is a <b>basic dye that binds acidic nucleic acids</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.6343,
+      "question": "Giemsa-stained thin blood films are used in malaria diagnosis to visualise:",
+      "options": [
+        "Cryptosporidium oocysts by acid-fast staining",
+        "Plasmodium parasites inside red blood cells",
+        "Spirochaetes by dark-field illumination",
+        "Heavy-metal granules in platelets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Giemsa stains parasite chromatin and cytoplasm in contrasting colours, so intracellular <b>Plasmodium</b> stages are seen against the red cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450263.8591,
+      "question": "In the Schaeffer–Fulton endospore stain, which result is expected for a Bacillus smear?",
+      "options": [
+        "Green vegetative cells containing red spores",
+        "Purple cells with colourless spores",
+        "Red vegetative cells and red spores",
+        "Green spores within pink vegetative cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Heat drives malachite green into the resistant spores, which then hold it, while the vegetative cells are decolourised and take up the safranin counterstain — <b>green spores in pink vegetative cells</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.8018,
+      "question": "Which statement correctly distinguishes SEM from TEM?",
+      "options": [
+        "SEM scans a surface to build a topographic image, whereas TEM sends electrons through ultrathin sections",
+        "SEM images only through ultrathin sections, whereas TEM scans surfaces",
+        "Both use visible photons and differ only in lens quality",
+        "SEM operates at atmospheric pressure, whereas TEM requires vacuum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>SEM</b> detects secondary electrons from a scanned surface, whereas <b>TEM</b> detects electrons transmitted through a very thin specimen; both need vacuum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.146,
+      "question": "An electron microscope column is held under high vacuum mainly because:",
+      "options": [
+        "Electrons are absorbed by visible light",
+        "Vacuum raises the numerical aperture of the lenses",
+        "Air molecules would scatter the electron beam",
+        "Vacuum stops the magnetic lenses from overheating"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Collisions with gas molecules would <b>deflect and scatter the electron beam</b>, ruining the beam and the image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.099,
+      "question": "Electron microscopes resolve far finer detail than light microscopes chiefly because accelerated electrons have:",
+      "options": [
+        "A larger numerical aperture in air",
+        "A far shorter wavelength",
+        "Stronger fluorescence emission",
+        "A higher refractive index than photons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The de Broglie wavelength of accelerated electrons is a small fraction of a nanometre, so the diffraction limit is far <b>shorter</b> than for visible light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.292,
+      "question": "The electron beam in a TEM is focused by:",
+      "options": [
+        "Ground-glass condensers",
+        "Quartz objective lenses",
+        "Oil-immersion lenses",
+        "Electromagnetic coils"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electrons are charged, so magnetic fields from <b>electromagnetic coils</b> bend and focus them; glass lenses have no such effect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.5315,
+      "question": "Uranyl acetate and lead citrate are used in TEM because their heavy atoms:",
+      "options": [
+        "Fluoresce under the electron beam",
+        "Bind specifically to peptidoglycan",
+        "Scatter electrons strongly, giving contrast",
+        "Shorten the wavelength of the electron beam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biological material is made of light elements and scatters electrons weakly, so heavy-metal stains <b>scatter electrons strongly</b> and add the density differences needed for contrast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.516,
+      "question": "A major limitation of conventional TEM and SEM sample preparation is that it:",
+      "options": [
+        "Needs dehydrated, fixed material, so living cells cannot be viewed",
+        "Needs oil immersion, which limits it to bacteria",
+        "Cannot detect objects smaller than 0.2 µm",
+        "Uses visible light that damages DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Specimens must withstand vacuum and the electron beam, so they are chemically <b>fixed and dehydrated</b>, which kills them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.1167,
+      "question": "Non-conductive specimens are sputter-coated before SEM with a thin layer of:",
+      "options": [
+        "Uranyl acetate",
+        "Glycerol",
+        "Gram's iodine",
+        "Gold or platinum"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A conductive metal layer (<b>gold or platinum</b>) drains charge and boosts secondary electron emission, avoiding charging artefacts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.981,
+      "question": "A TEM micrograph has a scale bar 20 mm long labelled 5 µm. The magnification of the micrograph is:",
+      "options": [
+        "400x",
+        "4000x",
+        "10,000x",
+        "40,000x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnification is image length divided by real length: <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>20 mm</span><span style='display:block;padding:0 .35em'>0.005 mm</span></span> = <b>4000x</b> (since 5 µm = 0.005 mm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.3262,
+      "question": "Individual virus particles are best examined in structural detail using:",
+      "options": [
+        "Transmission electron microscopy",
+        "Bright-field microscopy with Gram stain",
+        "Phase-contrast light microscopy",
+        "Polarising light microscopy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most viruses measure about 20–300 nm, which is below the resolution of light microscopes but within that of <b>TEM</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.412,
+      "question": "A key advantage of cryo-electron microscopy is that it:",
+      "options": [
+        "Removes the need for a vacuum",
+        "Allows living cells to be filmed at body temperature",
+        "Images biomolecules in a hydrated, near-native state frozen in vitreous ice",
+        "Uses visible light with higher aperture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rapid freezing preserves molecules in a <b>hydrated, near-native state</b> without dehydration, stains or crystalline ice damage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.447,
+      "question": "An eyepiece micrometer is calibrated against a stage micrometer: 100 eyepiece divisions line up with 40 stage divisions, each stage division being 10 µm. One eyepiece division equals:",
+      "options": [
+        "2.5 µm",
+        "4 µm",
+        "10 µm",
+        "25 µm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "40 stage divisions × 10 µm = 400 µm covers 100 eyepiece divisions, so one eyepiece division = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>400 µm</span><span style='display:block;padding:0 .35em'>100</span></span> = <b>4 µm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.3289,
+      "question": "At 400x an eyepiece micrometer is calibrated so that one division equals 2.5 µm. A granule spans 18 divisions. Its diameter is:",
+      "options": [
+        "7.2 µm",
+        "18 µm",
+        "20.5 µm",
+        "45 µm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diameter = 18 divisions × 2.5 µm per division = <b>45 µm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.24,
+      "question": "Treating a powdered plant drug with phloroglucinol and concentrated hydrochloric acid turns which structures red-pink?",
+      "options": [
+        "Starch grains",
+        "Suberised cork walls",
+        "Lignified vessels and fibres",
+        "Calcium oxalate crystals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phloroglucinol–HCl reacts with the aldehyde groups of <b>lignin</b>, which identifies <b>lignified vessels and fibres</b> in powdered drugs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.8792,
+      "question": "Dilute iodine solution applied to a powdered plant drug colours starch grains:",
+      "options": [
+        "Blue-black",
+        "Bright red",
+        "Pale green",
+        "Colourless"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Iodine forms an inclusion complex with the amylose component of starch, giving a characteristic <b>blue-black</b> colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.3499,
+      "question": "Optical microscopy used for particle-size analysis of a suspension is limited chiefly because it:",
+      "options": [
+        "Cannot detect particles larger than 1 µm",
+        "Counts only particles that have dissolved",
+        "Requires a vacuum chamber",
+        "Gives two-dimensional projections and counts relatively few particles"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The method measures <b>projected area diameter</b> in a plane and only a modest number of particles, which can misrepresent three-dimensional shape and the true distribution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794239450264.6687,
+      "question": "After using the 100x oil-immersion objective, the appropriate way to clean it is by:",
+      "options": [
+        "Rinsing with tap water",
+        "Wiping gently with lens tissue and approved cleaner",
+        "Scrubbing with a paper towel",
+        "Leaving the oil to dry on the lens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Lens tissue with a suitable cleaning fluid</b> removes oil without scratching the delicate coated lens surface. Water (A) and paper towels (C) can damage the lens, and leaving oil to dry (D) hardens it.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
