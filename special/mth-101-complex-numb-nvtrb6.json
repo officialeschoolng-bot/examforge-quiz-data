@@ -3,7 +3,7 @@
   "title": "MTH 101: COMPLEX NUMBERS III",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 30,
+  "totalQuestions": 20,
   "defaultTimePerQuestion": 75,
   "settings": {
     "canChangeTime": false,
@@ -59,20 +59,6 @@
       "points": 1
     },
     {
-      "id": 1794259829260.0366,
-      "question": "The polar point (8, 270°) has rectangular coordinates",
-      "options": [
-        "(0, 8)",
-        "(−8, 0)",
-        "(8, 0)",
-        "(0, −8)"
-      ],
-      "correctAnswer": 3,
-      "explanation": "x = 8 cos 270° = 8(0) = 0; y = 8 sin 270° = 8(−1) = −8. So the point is <b>(0, −8)</b>, on the negative y-axis.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794259829260.2024,
       "question": "The polar point (10, 30°) has rectangular coordinates",
       "options": [
@@ -83,104 +69,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "x = 10 cos 30° = 10·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√3</span><span style='display:block;padding:0 .35em'>2</span></span> = 5√3; y = 10 sin 30° = 10·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span> = 5. So the point is <b>(5√3, 5)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829260.1045,
-      "question": "The polar point (4, 60°) has rectangular coordinates",
-      "options": [
-        "(2, 2√3)",
-        "(2√3, 2)",
-        "(4√3, 2)",
-        "(2, 2)"
-      ],
-      "correctAnswer": 0,
-      "explanation": "x = 4 cos 60° = 4·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span> = 2; y = 4 sin 60° = 4·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√3</span><span style='display:block;padding:0 .35em'>2</span></span> = 2√3. So the point is <b>(2, 2√3)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829260.6475,
-      "question": "The polar point (2√2, 45°) has rectangular coordinates",
-      "options": [
-        "(√2, √2)",
-        "(2, 2)",
-        "(4, 4)",
-        "(2√2, 2√2)"
-      ],
-      "correctAnswer": 1,
-      "explanation": "x = 2√2 cos 45° = 2√2·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√2</span><span style='display:block;padding:0 .35em'>2</span></span> = 2; y is the same, so y = 2. The point is <b>(2, 2)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.2107,
-      "question": "The polar point (6, 120°) has rectangular coordinates",
-      "options": [
-        "(3, 3√3)",
-        "(−3√3, 3)",
-        "(−3, 3√3)",
-        "(−3, −3√3)"
-      ],
-      "correctAnswer": 2,
-      "explanation": "x = 6 cos 120° = 6·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span>) = −3; y = 6 sin 120° = 6·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√3</span><span style='display:block;padding:0 .35em'>2</span></span> = 3√3. So the point is <b>(−3, 3√3)</b>, in Quadrant II.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.273,
-      "question": "The polar point (8, 135°) has rectangular coordinates",
-      "options": [
-        "(4√2, 4√2)",
-        "(−4√2, −4√2)",
-        "(−8, 8)",
-        "(−4√2, 4√2)"
-      ],
-      "correctAnswer": 3,
-      "explanation": "x = 8 cos 135° = 8·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√2</span><span style='display:block;padding:0 .35em'>2</span></span>) = −4√2; y = 8 sin 135° = 8·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√2</span><span style='display:block;padding:0 .35em'>2</span></span> = 4√2. So the point is <b>(−4√2, 4√2)</b>, in Quadrant II.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.7524,
-      "question": "The polar point (4, 210°) has rectangular coordinates",
-      "options": [
-        "(2√3, −2)",
-        "(−2, −2√3)",
-        "(−2√3, −2)",
-        "(−2√3, 2)"
-      ],
-      "correctAnswer": 2,
-      "explanation": "x = 4 cos 210° = 4·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√3</span><span style='display:block;padding:0 .35em'>2</span></span>) = −2√3; y = 4 sin 210° = 4·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span>) = −2. So the point is <b>(−2√3, −2)</b>, in Quadrant III.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.0005,
-      "question": "The polar point (2, 300°) has rectangular coordinates",
-      "options": [
-        "(−1, −√3)",
-        "(−1, √3)",
-        "(1, −√3)",
-        "(√3, −1)"
-      ],
-      "correctAnswer": 2,
-      "explanation": "x = 2 cos 300° = 2·<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span> = 1; y = 2 sin 300° = 2·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√3</span><span style='display:block;padding:0 .35em'>2</span></span>) = −√3. So the point is <b>(1, −√3)</b>, in Quadrant IV.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.7473,
-      "question": "The polar point (12, 225°) has rectangular coordinates",
-      "options": [
-        "(−6√2, −6√2)",
-        "(−6, −6)",
-        "(6√2, −6√2)",
-        "(−12, −12)"
-      ],
-      "correctAnswer": 0,
-      "explanation": "x = 12 cos 225° = 12·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√2</span><span style='display:block;padding:0 .35em'>2</span></span>) = −6√2; y = 12 sin 225° = 12·(−<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>√2</span><span style='display:block;padding:0 .35em'>2</span></span>) = −6√2. So the point is <b>(−6√2, −6√2)</b>, in Quadrant III.",
       "difficulty": "easy",
       "points": 1
     },
@@ -223,20 +111,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "r<sup>2</sup> = (−7)<sup>2</sup> + 0<sup>2</sup> = 49, so r = 7. The point lies on the negative x-axis, so θ = 180°. Answer: <b>(7, 180°)</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.623,
-      "question": "The rectangular point (−3√3, −3) has polar coordinates",
-      "options": [
-        "(6, 30°)",
-        "(6, 210°)",
-        "(6, 150°)",
-        "(6, 330°)"
-      ],
-      "correctAnswer": 1,
-      "explanation": "r<sup>2</sup> = (−3√3)<sup>2</sup> + (−3)<sup>2</sup> = 27 + 9 = 36, so r = 6. tan θ = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>−3</span><span style='display:block;padding:0 .35em'>−3√3</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>√3</span></span>. Since x &lt; 0, y &lt; 0, the point is in Quadrant III, so θ = 180° + 30° = 210°. Answer: <b>(6, 210°)</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -321,20 +195,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "√(−25) = 5i and √(−4) = 2i, so the product is 5i(3 − 2i) = 15i − 10i<sup>2</sup> = 15i + 10 = <b>10 + 15i</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794259829261.1125,
-      "question": "Simplify (4 + √(−9))<sup>2</sup> and write in standard form.",
-      "options": [
-        "7 + 24i",
-        "7 − 24i",
-        "25 + 24i",
-        "16 − 9i"
-      ],
-      "correctAnswer": 0,
-      "explanation": "√(−9) = 3i, so (4 + 3i)<sup>2</sup> = 16 + 24i + 9i<sup>2</sup> = 16 + 24i − 9 = <b>7 + 24i</b>.",
       "difficulty": "easy",
       "points": 1
     },
