@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-101-uniniger-introduction-to-ecology-9dv145",
+  "quizId": "bio-101-uniniger-int-nqwd6f",
   "title": "BIO 101 ( UNINIGER ): INTRODUCTION TO ECOLOGY",
-  "subject": "BIO 101 â€” BIO 101 Course",
+  "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793861760521.6711,
+      "question": "The term ecology is derived from the Greek words \"oikos\" and \"logos\" which collectively imply which meaning?",
+      "options": [
+        "Study of life",
+        "Study of homes",
+        "Science of earth",
+        "Analysis of nature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oikos means home and logos means study, implying the study of organisms in their natural home.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.9321,
+      "question": "Ecology is primarily concerned with biological interactions and natural processes, distinguishing it from which other discipline?",
+      "options": [
+        "Environmental science",
+        "Physics",
+        "Geology",
+        "Chemistry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ecology focuses on biological interactions, whereas environmental science focuses on human impacts and management.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.0215,
+      "question": "A single living individual capable of independent existence is known by which level of organization?",
+      "options": [
+        "Organism",
+        "Population",
+        "Community",
+        "Biosphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The organism level represents a single living individual.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.7666,
+      "question": "Individuals of the same species living in a specific area represent which level of organization?",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "Population",
+        "Community"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A population is a group of individuals of the same species living in a specific area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.8745,
+      "question": "Different populations of organisms coexisting in a common environment is defined as which level?",
+      "options": [
+        "Organism",
+        "Community",
+        "Population",
+        "Biome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A community consists of different populations coexisting in a common environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.1636,
+      "question": "The totality of life on Earth and the regions that support it is called which level of organization?",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "Community",
+        "Biosphere"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The biosphere encompasses all life on Earth and the regions that support it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.76,
+      "question": "The environment encompasses all external factors and is divided into which two major components?",
+      "options": [
+        "Biotic and abiotic",
+        "Flora and fauna",
+        "Terrestrial and aquatic",
+        "Producers and consumers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The environment is divided into biotic (living) and abiotic (non-living) components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.5405,
+      "question": "Biotic components include all living entities while abiotic components refer to which type of factors?",
+      "options": [
+        "Reproductive factors",
+        "Physical and chemical factors",
+        "Behavioral factors",
+        "Genetic factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abiotic components refer to physical and chemical factors such as temperature, light, and water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.5303,
+      "question": "Organisms capable of converting solar energy into chemical energy through photosynthesis are classified as which group?",
+      "options": [
+        "Consumers",
+        "Decomposers",
+        "Producers",
+        "Herbivores"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Producers, or autotrophs, convert solar energy into chemical energy through photosynthesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.7507,
+      "question": "Bacteria and fungi that decompose dead matter to release nutrients are known by which term?",
+      "options": [
+        "Autotrophs",
+        "Decomposers",
+        "Consumers",
+        "Producers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decomposers, or saprotrophs, break down dead matter and release nutrients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.1746,
+      "question": "Organisms that depend on others for food are collectively classified as which group?",
+      "options": [
+        "Producers",
+        "Autotrophs",
+        "Consumers",
+        "Decomposers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consumers, or heterotrophs, depend on other organisms for food.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.644,
+      "question": "Which abiotic element serves as the primary energy source for photosynthesis and temperature regulation?",
+      "options": [
+        "Soil",
+        "Water",
+        "Atmosphere",
+        "Solar radiation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Solar radiation is the primary energy source for photosynthesis and temperature regulation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.2737,
+      "question": "The abiotic factor that supplies minerals and anchors plants is known by which term?",
+      "options": [
+        "Topography",
+        "Soil",
+        "Atmosphere",
+        "Temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soil supplies minerals to plants and anchors their roots.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.2832,
+      "question": "Which abiotic factor influences climate, drainage, and exposure to sunlight in a region?",
+      "options": [
+        "Topography",
+        "Water",
+        "Soil",
+        "Atmosphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Topography influences climate, drainage, and exposure to sunlight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.465,
+      "question": "Competition among individuals of the same species is referred to as which type of competition?",
+      "options": [
+        "Interspecific competition",
+        "Intraspecific competition",
+        "Amensalism",
+        "Mutualism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intraspecific competition occurs among individuals of the same species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.7778,
+      "question": "An interaction where one organism kills and consumes another is known by which term?",
+      "options": [
+        "Parasitism",
+        "Commensalism",
+        "Predation",
+        "Mutualism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Predation is an interaction where a predator kills and consumes its prey.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.6855,
+      "question": "A relationship where the parasite derives nourishment at the host's expense is known by which term?",
+      "options": [
+        "Predation",
+        "Mutualism",
+        "Parasitism",
+        "Commensalism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parasitism involves a parasite living on or inside a host, deriving nourishment at its expense.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.6199,
+      "question": "An interaction where both species benefit from the relationship is known by which term?",
+      "options": [
+        "Mutualism",
+        "Parasitism",
+        "Commensalism",
+        "Amensalism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutualism is a form of interaction where both species benefit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.973,
+      "question": "A relationship where one organism benefits while the other is neither harmed nor benefited is called which term?",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Amensalism",
+        "Parasitism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Commensalism describes an association where one organism benefits while the other is unaffected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.6143,
+      "question": "An interaction where one organism is inhibited while the other remains unaffected is known by which term?",
+      "options": [
+        "Commensalism",
+        "Amensalism",
+        "Parasitism",
+        "Mutualism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amensalism occurs when one organism is inhibited or destroyed while the other is unaffected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.2656,
+      "question": "The relationship between flowering plants and their pollinators represents which type of interaction?",
+      "options": [
+        "Parasitism",
+        "Commensalism",
+        "Mutualism",
+        "Amensalism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The plant receives pollination while the animal gains nectar, making it a mutualistic relationship.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760521.5332,
+      "question": "Through competition, species occupy distinct ecological niches to minimize overlap and promote which outcome?",
+      "options": [
+        "Extinction",
+        "Coexistence",
+        "Predation",
+        "Parasitism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Occupying distinct niches minimizes overlap and promotes coexistence among species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.7554,
+      "question": "The elimination of natural predators often results in overpopulation of herbivores, leading to which consequence?",
+      "options": [
+        "Habitat degradation",
+        "Increased biodiversity",
+        "Nutrient cycling",
+        "Ecological balance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Overpopulation of herbivores due to lack of predators leads to overgrazing and habitat degradation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.2166,
+      "question": "Deforestation, pesticide use, and pollution have altered predator-prey relationships and disrupted which associations?",
+      "options": [
+        "Mutualistic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Human activities have altered predator-prey relationships and disrupted mutualistic associations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.434,
+      "question": "Energy transfer in an ecosystem follows a unidirectional path starting from which source?",
+      "options": [
+        "Water",
+        "Soil",
+        "The sun",
+        "Decomposers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Energy transfer follows a unidirectional path starting from the sun.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.8552,
+      "question": "The ten percent law explains why energy pyramids are always arranged in which manner?",
+      "options": [
+        "Upright",
+        "Inverted",
+        "Spherical",
+        "Irregular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ten percent law explains why energy pyramids are always upright.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.4414,
+      "question": "At each trophic level, a significant portion of energy is lost in which form?",
+      "options": [
+        "Light",
+        "Heat",
+        "Sound",
+        "Chemical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy is lost as heat through metabolic processes like respiration at each trophic level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.4744,
+      "question": "A complex network of multiple feeding relationships in an ecosystem is known as which term?",
+      "options": [
+        "Food chain",
+        "Food web",
+        "Trophic level",
+        "Energy pyramid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A food web is a complex network of multiple feeding relationships.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.6643,
+      "question": "Food webs provide stability to ecosystems by allowing energy to flow through which pathways?",
+      "options": [
+        "Single pathways",
+        "Multiple pathways",
+        "Linear pathways",
+        "Isolated pathways"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Food webs provide stability by allowing energy to flow through multiple pathways.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.2827,
+      "question": "The continuous movement of essential chemical elements between biotic and abiotic components is called which process?",
+      "options": [
+        "Energy flow",
+        "Nutrient cycling",
+        "Trophic transfer",
+        "Photosynthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nutrient cycling is the continuous movement of elements between biotic and abiotic components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.937,
+      "question": "In which biogeochemical cycle is carbon dioxide fixed by plants and returned through respiration?",
+      "options": [
+        "Nitrogen cycle",
+        "Phosphorus cycle",
+        "Carbon cycle",
+        "Water cycle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The carbon cycle involves the fixation of carbon dioxide by plants and its return through respiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.3481,
+      "question": "The conversion of atmospheric nitrogen into biologically available forms is carried out by which process?",
+      "options": [
+        "Nitrification",
+        "Denitrification",
+        "Nitrogen fixation",
+        "Photosynthesis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitrogen fixation converts atmospheric nitrogen into biologically available forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.5464,
+      "question": "Which biogeochemical cycle is largely sedimentary and does not involve a gaseous phase?",
+      "options": [
+        "Carbon cycle",
+        "Nitrogen cycle",
+        "Phosphorus cycle",
+        "Water cycle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phosphorus cycle is largely sedimentary and does not involve a gaseous phase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.985,
+      "question": "The number of individuals per unit area or volume is known as which concept?",
+      "options": [
+        "Dispersion",
+        "Population density",
+        "Natality",
+        "Mortality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population density refers to the number of individuals per unit area or volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.341,
+      "question": "A spatial distribution pattern where individuals are clustered in social groups is known as which dispersion?",
+      "options": [
+        "Uniform",
+        "Random",
+        "Clumped",
+        "Regular"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clumped dispersion is common in social species or where resources are patchy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.436,
+      "question": "A spatial distribution pattern resulting from territorial behavior is known as which dispersion?",
+      "options": [
+        "Clumped",
+        "Random",
+        "Uniform",
+        "Irregular"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uniform dispersion is often a result of territorial behavior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.7266,
+      "question": "The J-shaped curve represents which type of population growth?",
+      "options": [
+        "Logistic growth",
+        "Exponential growth",
+        "Linear growth",
+        "Oscillatory growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exponential growth assumes unlimited resources and forms a J-shaped curve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.1777,
+      "question": "The maximum number of individuals that the environment can sustainably support is called which term?",
+      "options": [
+        "Carrying capacity",
+        "Population density",
+        "Intrinsic rate",
+        "Biotic potential"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carrying capacity is the maximum number of individuals the environment can sustainably support.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.017,
+      "question": "The S-shaped growth curve is characteristic of which model?",
+      "options": [
+        "Exponential growth",
+        "Logistic growth",
+        "J-curve growth",
+        "Irruptive growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logistic growth is represented by an S-shaped or sigmoid curve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.4858,
+      "question": "Factors like drought, temperature extremes, and floods are classified as which type of factors?",
+      "options": [
+        "Density-dependent",
+        "Density-independent",
+        "Biotic factors",
+        "Abiotic factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Density-independent factors affect populations regardless of their size.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.9326,
+      "question": "The number of species present in a community is known as which component of diversity?",
+      "options": [
+        "Species evenness",
+        "Species richness",
+        "Dominance",
+        "Abundance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Species richness refers to the number of species present in a community.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.336,
+      "question": "Species that exert the greatest influence on community structure through their abundance are called which term?",
+      "options": [
+        "Keystone species",
+        "Dominant species",
+        "Pioneer species",
+        "Invasive species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dominant species exert the greatest influence on community structure through their abundance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.7688,
+      "question": "Gradual and predictable changes in community composition over time is known as which process?",
+      "options": [
+        "Ecological succession",
+        "Population dynamics",
+        "Nutrient cycling",
+        "Habitat fragmentation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ecological succession is the gradual and predictable change in community composition over time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.2136,
+      "question": "Succession beginning on a bare substrate without previous life is classified as which type?",
+      "options": [
+        "Secondary succession",
+        "Primary succession",
+        "Climax succession",
+        "Pioneer succession"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primary succession occurs on a bare substrate without previous life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.884,
+      "question": "The relatively stable final stage of ecological succession is known by which term?",
+      "options": [
+        "Seral stage",
+        "Pioneer stage",
+        "Intermediate stage",
+        "Climax community"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The climax community is the relatively stable final stage of ecological succession.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.2695,
+      "question": "Habitats found on land are classified into which broad category?",
+      "options": [
+        "Aquatic",
+        "Transitional",
+        "Terrestrial",
+        "Estuarine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Terrestrial habitats are those found on land.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.6292,
+      "question": "Which terrestrial habitat is characterized by dense vegetation dominated by trees and shrubs?",
+      "options": [
+        "Grassland",
+        "Forest",
+        "Desert",
+        "Mountain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forests are dense vegetative habitats dominated by trees and shrubs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.7087,
+      "question": "The Guinea and Sudan savannas in Nigeria represent which type of habitat?",
+      "options": [
+        "Desert",
+        "Forest",
+        "Grassland",
+        "Wetland"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Guinea and Sudan savannas are classic examples of grassland ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.838,
+      "question": "Habitats characterized by steep gradients, low temperatures, and reduced oxygen are classified as which type?",
+      "options": [
+        "Deserts",
+        "Grasslands",
+        "Mountains",
+        "Forests"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mountain habitats are characterized by steep gradients, low temperatures, and reduced oxygen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861760522.9475,
+      "question": "Aquatic ecosystems with low salt concentration are classified as which type?",
+      "options": [
+        "Marine",
+        "Estuarine",
+        "Freshwater",
+        "Brackish"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freshwater ecosystems have a low salt concentration of less than 0.5%.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
