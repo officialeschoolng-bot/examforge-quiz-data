@@ -3,16 +3,718 @@
   "title": "MTH 161 ( UNIZIK ) : EQUILIBRIUM OF FORCES",
   "subject": "MTH 161",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794323962139.215,
+      "question": "A body is said to be in equilibrium when the total sum of forces acting on it equals which value?",
+      "options": [
+        "One",
+        "Zero",
+        "Infinity",
+        "Weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equilibrium is maintained if the total sum of forces acting on the body is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.8435,
+      "question": "Lami's theorem applies to how many forces acting at a point in equilibrium?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lami's theorem relates to three forces acting at a point in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.7615,
+      "question": "Lami's theorem states that each force is proportional to the sine of the angle between which other forces?",
+      "options": [
+        "The other two",
+        "All forces",
+        "The resultant force",
+        "The vertical forces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each force is proportional to the sine of the angle between the lines of action of the other two forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.6072,
+      "question": "Which theorem states that three forces in equilibrium can be represented by the sides of a triangle?",
+      "options": [
+        "Lami's theorem",
+        "Triangle of forces",
+        "Parallelogram law",
+        "Cosine rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The triangle of forces states that three forces in equilibrium can be represented by the sides of a triangle taken in order.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.5178,
+      "question": "A particle of mass 65 kg is suspended by two strings making angles 45° and 75° with the horizontal. Which theorem is used to find the tensions?",
+      "options": [
+        "Sine rule",
+        "Cosine rule",
+        "Lami's theorem",
+        "Pythagoras theorem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lami's theorem is used when three forces acting at a point are in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.6326,
+      "question": "In a system of three forces in equilibrium, the angle between the lines of action of two forces is 120°. What is the angle for the third force?",
+      "options": [
+        "60°",
+        "120°",
+        "240°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sum of angles between three forces in equilibrium is 360°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.6477,
+      "question": "An object of mass 10 kg hangs from a string pulled aside by a horizontal force S. The string is inclined at 60° to the vertical. Calculate the tension T using g = 10 m s⁻².",
+      "options": [
+        "100 N",
+        "200 N",
+        "50 N",
+        "173 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Lami's theorem, T/sin 90° = 100/sin 150°, which gives T = 200 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.0994,
+      "question": "A mass of 3 kg hanging from a string is pulled aside by a horizontal force R with the string inclined at 30° to the vertical. Calculate the tension T using g = 10 m s⁻².",
+      "options": [
+        "17.32 N",
+        "34.64 N",
+        "30.00 N",
+        "60.00 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Lami's theorem, T/sin 90° = 30/sin 120°, resulting in T = 34.64 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.928,
+      "question": "Three forces of magnitudes 3 N, 5 N, and 7 N act on a body and are in equilibrium. Which rule is used to find the angle between the 5 N and 7 N forces?",
+      "options": [
+        "Sine rule",
+        "Cosine rule",
+        "Lami's theorem",
+        "Pythagoras rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosine rule is applied to the triangle of forces to find the unknown angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.1838,
+      "question": "Three coplanar forces of magnitude 6 N, 9 N, and 4.5 N maintain a particle in equilibrium. If the angle between the 6 N and 9 N is 30°, which rule is used to find the angle between the 4.5 N and 6 N?",
+      "options": [
+        "Lami's theorem",
+        "Pythagoras rule",
+        "Cosine rule",
+        "Sine rule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lami's theorem is directly applied to find unknown angles between three forces in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.8809,
+      "question": "Forces of magnitudes 10 N, 26 N, and P N act on a particle in equilibrium with a right-angle triangle arrangement. Calculate P using the Pythagoras rule.",
+      "options": [
+        "16 N",
+        "36 N",
+        "28 N",
+        "24 N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using P² = 26² − 10², P equals the square root of 576, which is 24 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.2366,
+      "question": "Three forces F₁(10 N, 030°), F₂(P N, 120°), and F₃(15 N, 0°) act on a body in equilibrium. Find the value of P using the Pythagoras rule.",
+      "options": [
+        "10.18 N",
+        "11.18 N",
+        "12.18 N",
+        "13.18 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying the Pythagoras rule to the force triangle gives P = √(15² − 10²) = 11.18 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.41,
+      "question": "Five forces T, 4 N, 8 N, S, and 10 N acting on a body in equilibrium. Which method is used to calculate the values of T and S?",
+      "options": [
+        "Lami's theorem",
+        "Triangle law",
+        "Resolving forces",
+        "Cosine rule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When more than three forces act on a body, resolving forces into vertical and horizontal components is used.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.176,
+      "question": "The resultant of two forces of 5 N and 7 N acting at 60° to each other is found using which rule?",
+      "options": [
+        "Cosine rule",
+        "Lami's theorem",
+        "Sine rule",
+        "Pythagoras rule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cosine rule relates the sides of a triangle to the cosine of one of its angles, useful for non-right-angled vector triangles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.2427,
+      "question": "In the equilibrium of three forces, if the angle between two of the forces is 90°, what is the nature of the triangle formed by the forces?",
+      "options": [
+        "Equilateral",
+        "Isosceles",
+        "Right-angled",
+        "Obtuse-angled"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A 90° angle between two forces means the force triangle is right-angled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.1433,
+      "question": "Lami's theorem is derived from which other mathematical principle?",
+      "options": [
+        "Cosine rule",
+        "Sine rule",
+        "Pythagoras theorem",
+        "Tangent rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lami's theorem is an application of the sine rule to a triangle of forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.652,
+      "question": "Which of the following conditions must be met for a body to be in static equilibrium?",
+      "options": [
+        "Total force is zero",
+        "Total force is maximum",
+        "Total force equals weight",
+        "Total force is infinite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a body to be in equilibrium, the total sum of forces acting on the body must be zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.668,
+      "question": "A body of mass 15 kg is suspended at a point P by two strings inclined at 60° and 40° to the vertical. What is the weight of the body using g = 10 m s⁻²?",
+      "options": [
+        "15 N",
+        "150 N",
+        "1.5 N",
+        "600 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weight is calculated as mass multiplied by gravity, which is 15 kg × 10 m s⁻² = 150 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.2996,
+      "question": "In a system of three forces in equilibrium, the forces are 10 N, 26 N, and P. If the angle between the 10 N and P is 90°, what is the value of P?",
+      "options": [
+        "24 N",
+        "36 N",
+        "16 N",
+        "28 N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the Pythagoras theorem, P = √(26² − 10²) = 24 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.649,
+      "question": "A particle is acted upon by three forces in equilibrium. If two of the forces are equal in magnitude, what is the nature of the force triangle?",
+      "options": [
+        "Equilateral",
+        "Isosceles",
+        "Scalene",
+        "Right-angled"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equal forces mean the triangle has two equal sides, making it isosceles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.3884,
+      "question": "The angles between the lines of action of three forces in equilibrium are 120°, 120°, and 120°. What is the relationship between the magnitudes of the forces?",
+      "options": [
+        "They are all equal",
+        "One is double the other",
+        "One is half the other",
+        "They are all different"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equal angles between three forces in equilibrium imply the forces are equal in magnitude.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.219,
+      "question": "When resolving forces for a body in equilibrium, the sum of vertical components equals what?",
+      "options": [
+        "Zero",
+        "Total weight",
+        "Total horizontal force",
+        "Maximum force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a body in equilibrium, the sum of vertical components of all forces is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.377,
+      "question": "When resolving forces for a body in equilibrium, the sum of horizontal components equals what?",
+      "options": [
+        "Zero",
+        "Total weight",
+        "Total vertical force",
+        "Maximum force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a body in equilibrium, the sum of horizontal components of all forces is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.3684,
+      "question": "Which of the following is an example of a system in equilibrium?",
+      "options": [
+        "A car accelerating",
+        "A resting book",
+        "A falling stone",
+        "A swinging pendulum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A resting book is a classic example of static equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.0369,
+      "question": "If three forces act on a particle and are in equilibrium, the forces must be what?",
+      "options": [
+        "Coplanar",
+        "Non-coplanar",
+        "Parallel",
+        "Perpendicular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The triangle of forces assumes the three forces are in the same plane, that is coplanar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.7266,
+      "question": "The moment of a force is defined as the product of the force and which other quantity?",
+      "options": [
+        "Lever arm",
+        "Total distance",
+        "Horizontal force",
+        "Vertical distance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moment is the product of the force and the perpendicular distance it covers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.8098,
+      "question": "For a body to be in rotational equilibrium, clockwise moment must equal which other moment?",
+      "options": [
+        "Anti-clockwise moment",
+        "Total force moment",
+        "Vertical force moment",
+        "Horizontal force moment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equilibrium holds when the total clockwise moment equals the total anti-clockwise moment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.3074,
+      "question": "A uniform bar of 10 m in length must have its centre of gravity at which distance from either end?",
+      "options": [
+        "5 m",
+        "2 m",
+        "10 m",
+        "4 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a uniform bar, the centre of gravity is always in the centre position, which is 5 m for a 10 m bar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.3635,
+      "question": "A uniform rod 12 m long is pivoted at its centre. A 50 kg mass is suspended from one end. Find the distance x from the other end to suspend a 75 kg mass for equilibrium.",
+      "options": [
+        "2 m",
+        "4 m",
+        "6 m",
+        "10 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about the pivot gives 50 × 6 = 75 × (6 − x), solving to x = 2 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.9255,
+      "question": "A uniform rod PQ is 20 m long and weighs 80 N. Weights of 20 N and 50 N are suspended at P and Q. Find the distance from P where the rod must be supported.",
+      "options": [
+        "9 m",
+        "12 m",
+        "16 m",
+        "18 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about the support point yields the distance from P as 12 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.0706,
+      "question": "A non-uniform beam PQ of length 4 m and weight 100 N rests on supports at P and Q. The centre of gravity is 1.5 m from P. Find the reaction at P.",
+      "options": [
+        "37.5 N",
+        "62.5 N",
+        "34.5 N",
+        "56.5 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about Q gives 4R₁ = 100 × 2.5, resulting in R₁ = 62.5 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.1045,
+      "question": "A uniform beam PQ of length 16 m and weight 30 N rests on supports at P and Q. A 24 N weight is suspended 2 m from Q. Find the reaction at P.",
+      "options": [
+        "38 N",
+        "36 N",
+        "27 N",
+        "18 N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Taking moments about Q gives 16R₁ = (30 × 8) + (24 × 2), solving to R₁ = 18 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.3425,
+      "question": "A uniform beam of length 18 m and mass 30 kg rests on supports P and Q which are 1 m from each end. A 2 kg mass is placed 12 m from P. Find the reaction at Q using g = 10 m s⁻².",
+      "options": [
+        "135 N",
+        "155 N",
+        "165 N",
+        "175 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking moments about P yields 16R₂ = (300 × 8) + (20 × 12), which gives R₂ = 165 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.0435,
+      "question": "A uniform beam PQ, 80 cm long and of weight 60 N, rests on a support at X where PX = 30 cm. Find the reaction at X if a mass m is dropped at P to keep it in equilibrium.",
+      "options": [
+        "80 N",
+        "60 N",
+        "100 N",
+        "40 N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about P gives 60 × 0.4 = R₁ × 0.3, solving to R₁ = 80 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.621,
+      "question": "A non-uniform rod PQ of length 30 m rests on supports X and Y such that PX = 2 m and YQ = 8 m. The reactions at X and Y are 200 N and 300 N. Find the mass of the rod.",
+      "options": [
+        "40 kg",
+        "50 kg",
+        "30 kg",
+        "60 kg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolving vertically gives the weight W = 500 N, and dividing by g = 10 yields a mass of 50 kg.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.7444,
+      "question": "A non-uniform rod BC of length 2 m and mass 3 kg has its centre of gravity 0.8 m from B. It rests on supports at M and N which are 0.3 m and 1.6 m from B. Find the reaction at N.",
+      "options": [
+        "18.46 N",
+        "15.00 N",
+        "11.54 N",
+        "20.00 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking moments about M gives 1.3R₂ = 30 × 0.5, resulting in R₂ = 11.54 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962140.2532,
+      "question": "A uniform plank PQ of length 10 m and mass m rests on supports A and B where PA = BQ = 1 m. A mass of 8 kg is placed at C where AC = 3.5 m. If the reaction at B is 100 N, calculate the value of m.",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "17"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about A gives 80 × 3.5 + 10m × 4 = 100 × 8, which solves to m = 13.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.3196,
+      "question": "The centre of gravity of a non-uniform bar can be located at which position?",
+      "options": [
+        "The centre only",
+        "Any point along the bar",
+        "One end only",
+        "Outside the bar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of gravity of a non-uniform bar can be located at any point along the bar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.2717,
+      "question": "To convert a given mass in kg to weight in newtons, one must multiply by what value?",
+      "options": [
+        "10 m s⁻² or 9.8 m s⁻²",
+        "100",
+        "1",
+        "0.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Weight is calculated by multiplying mass by acceleration due to gravity, 10 m s⁻² or 9.8 m s⁻².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.4548,
+      "question": "A uniform beam of length 8 m and weight 40 N rests on supports at its ends. A 20 N load is suspended at one end. What is the reaction at the other support?",
+      "options": [
+        "10 N",
+        "20 N",
+        "30 N",
+        "40 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about the loaded end gives 8R = 40 × 4, so R = 20 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.279,
+      "question": "Which of the following is true about the reaction forces on a beam resting on two supports?",
+      "options": [
+        "They act downwards",
+        "They act upwards",
+        "They act horizontally",
+        "They act diagonally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Support reactions on a horizontal beam act vertically upwards to balance the downward forces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.7986,
+      "question": "A uniform bar AB of length 100 cm and weight 24 N is supported by two vertical strings at C and B such that AC = 30 cm. Loads of 3 N and 10 N are placed at A and D such that BD = 30 cm. Find the tension in the string at C.",
+      "options": [
+        "25.71 N",
+        "11.29 N",
+        "15.00 N",
+        "20.00 N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about B and resolving vertical forces gives the tension at C as 25.71 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.912,
+      "question": "The principle of moments is based on which condition for equilibrium?",
+      "options": [
+        "Sum of forces equals zero",
+        "Sum of moments equals zero",
+        "Sum of weights equals zero",
+        "Sum of distances equals zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of moments is derived from the condition that the sum of moments about any point must be zero for rotational equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.8623,
+      "question": "A non-uniform beam XY of mass 40 kg and length 8 m rests on supports A and B with XA = 2 m and BY = 1.5 m. Objects of mass 80 kg and 50 kg are suspended at X and Y. Find the reaction at B.",
+      "options": [
+        "1755.6 N",
+        "800.0 N",
+        "944.4 N",
+        "500.0 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking moments about A and resolving vertical forces yields the reaction at B as 944.4 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.5457,
+      "question": "What is the unit of moment of a force?",
+      "options": [
+        "Newton metre",
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moment is the product of force in newtons and distance in metres, hence the unit is newton metre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.0989,
+      "question": "In a uniform beam, the weight of the beam acts at which point?",
+      "options": [
+        "One end",
+        "The centre",
+        "The other end",
+        "A random point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The weight of a uniform beam acts at its centre of gravity, which is at its geometric centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.7249,
+      "question": "When taking moments about a point, the moment of a force passing through that point is what?",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Minimum",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The perpendicular distance from the point to the line of action of the force is zero, so the moment is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.8005,
+      "question": "The total clockwise moment on a body in equilibrium must equal what?",
+      "options": [
+        "Total anti-clockwise moment",
+        "Total upward force",
+        "Total downward force",
+        "Total mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For rotational equilibrium, the sum of clockwise moments equals the sum of anti-clockwise moments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.3723,
+      "question": "A uniform beam of length 24 m and mass 10 kg is hung horizontally by two vertical strings, one at X and another at M which is 4 m from Y. A 50 kg mass is suspended 8 m from X. Find the tension in the string at X using g = 10 m s⁻².",
+      "options": [
+        "260 N",
+        "340 N",
+        "500 N",
+        "100 N"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking moments about M and resolving vertical forces gives the tension at X as 340 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323962141.5347,
+      "question": "A uniform bar AB of length 100 cm and weight 24 N is supported by two strings at C and B where AC = 30 cm. Weights of 3 N and 10 N are placed at A and D where BD = 30 cm. Find the tension in the string at B.",
+      "options": [
+        "11.29 N",
+        "25.71 N",
+        "20.00 N",
+        "15.00 N"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taking moments about C and resolving vertical forces yields the tension at B as 11.29 N.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
