@@ -1,18 +1,720 @@
 {
-  "quizId": "bio-201-unizik-chemical-nature-of-genes--4mmk40",
+  "quizId": "bio-201-unizik-chemi-rha8ab",
   "title": "BIO 201 ( UNIZIK ) : CHEMICAL NATURE OF GENES AND GENE INTERACTIONS",
-  "subject": "BIO 201 â€” BIO 201 Course",
+  "subject": "BIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793861588775.722,
+      "question": "The physical structure of a genome composed primarily of nucleic acid with structural proteins is called a?",
+      "options": [
+        "Nucleolus",
+        "Gene",
+        "Chromosome",
+        "Nucleoid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A chromosome is defined as the physical structure of a genome composed primarily of nucleic acid with structural proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.5933,
+      "question": "The structure of an organism that contains instructions for growth and reproduction is known as a?",
+      "options": [
+        "Chromosome",
+        "Genome",
+        "Chromatid",
+        "Nucleosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A genome is defined as the structure of an organism that contains instructions for the organism's growth and reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.9175,
+      "question": "Elongated thread-like bodies clearly visible only when the cell is undergoing division are?",
+      "options": [
+        "Chromosomes",
+        "Ribosomes",
+        "Lysosomes",
+        "Centrosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chromosomes are elongated, thread-like bodies clearly visible only when the cell is undergoing division.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.7825,
+      "question": "The basic units of heredity arranged linearly on chromosomes are called?",
+      "options": [
+        "Histones",
+        "Nucleotides",
+        "Genes",
+        "Codons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The chromosomes bear, in linear arrangement, the basic units of heredity called genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.4949,
+      "question": "The chemical composition of chromosomes primarily includes DNA and which other substance?",
+      "options": [
+        "Lipids",
+        "Carbohydrates",
+        "Proteins",
+        "Minerals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chemically, the chromosomes are made up of DNA and proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.7385,
+      "question": "The major proteins associated with chromosomes are known as?",
+      "options": [
+        "Globulins",
+        "Albumins",
+        "Histones",
+        "Scleroproteins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The major proteins associated with chromosomes are the histones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.3403,
+      "question": "Histones are classified as basic proteins because they are rich in which amino acids?",
+      "options": [
+        "Glycine and alanine",
+        "Lysine and arginine",
+        "Valine and leucine",
+        "Serine and threonine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Histones are basic proteins because they are rich in such amino acids as lysine and arginine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.6433,
+      "question": "Due to their amino acid composition, histones carry which type of electrical charge?",
+      "options": [
+        "Negative",
+        "Neutral",
+        "Positive",
+        "Variable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Histones have a free amino group that can acquire a proton, making them positively charged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.2625,
+      "question": "DNA is negatively charged because of the presence of which chemical group?",
+      "options": [
+        "Sulfate groups",
+        "Phosphate groups",
+        "Hydroxyl groups",
+        "Amino groups"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA is negatively charged because of its many phosphate groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.83,
+      "question": "How many types of histone proteins exist in eukaryotic cells?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The histone proteins of all eukaryotic cells are of just five types namely H1, H2A, H2B, H3 and H4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.6213,
+      "question": "Which of the following is a core histone?",
+      "options": [
+        "H1",
+        "H2A",
+        "H5",
+        "H0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Core histones include H2A, H2B, H3 and H4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.3577,
+      "question": "Which of the following is classified as a linker histone?",
+      "options": [
+        "H1",
+        "H2B",
+        "H3",
+        "H4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "H1 is the linker histone which basically locks DNA in place onto the nucleosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.5308,
+      "question": "The large, spherical body attached to certain chromosomes during interphase is the?",
+      "options": [
+        "Centromere",
+        "Nucleolus",
+        "Nucleosome",
+        "Chromatid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One or more spherical bodies called nucleoli are attached to certain chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.0598,
+      "question": "Cells that are very active in protein synthesis are characterized by having?",
+      "options": [
+        "Small nuclei",
+        "Large nucleoli",
+        "Few ribosomes",
+        "Thin cell walls"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cells that are very active in protein synthesis have large nucleoli.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.216,
+      "question": "The term chromosome was first introduced by which scientist?",
+      "options": [
+        "Fleming",
+        "Strasburger",
+        "Waldeyer",
+        "Morgan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The term chromosome was first introduced by Waldeyer in 1888.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.71,
+      "question": "Chromosomes occur as separate structures in the nucleus and are made of?",
+      "options": [
+        "Nucleoprotein",
+        "Lipoprotein",
+        "Glycoprotein",
+        "Mucoprotein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chromosomes are made of nucleo-protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.0735,
+      "question": "The process of mitosis was first worked out by which German botanist in 1875?",
+      "options": [
+        "Waldeyer",
+        "Fleming",
+        "Strasburger",
+        "Morgan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitosis was first worked out by Strasburger, a German botanist in 1875.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588778.2695,
+      "question": "Each longitudinal half of a chromosome is called a?",
+      "options": [
+        "Centromere",
+        "Chromatid",
+        "Chromatin",
+        "Nucleosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each longitudinal half of the chromosome is called a chromatid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.8367,
+      "question": "The structure of the chromosome may best be studied in which stages?",
+      "options": [
+        "Prophase or telophase",
+        "Metaphase or anaphase",
+        "Interphase or prophase",
+        "Telophase or interphase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The structure of the chromosome may best be studied in its metaphase or anaphase stage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.0906,
+      "question": "The spindle fibers during cell division can originate from the cytoplasm or the?",
+      "options": [
+        "Nucleolus",
+        "Nuclear sap",
+        "Mitochondria",
+        "Ribosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The spindle could originate from the nuclear sap or more frequently out of cytoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.21,
+      "question": "The 46 chromosomes found in human cells have a combined length of approximately?",
+      "options": [
+        "200 nm",
+        "2 μm",
+        "20 nm",
+        "2000 nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 46 chromosomes found in human cells have a combined length of 200 nm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.6912,
+      "question": "If human chromosomes were uncoiled, the genetic material they contain would measure roughly?",
+      "options": [
+        "2 millimeters",
+        "20 centimeters",
+        "2 meters",
+        "20 meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If the chromosomes were to be uncoiled, the genetic material they contain would measure roughly 2 meters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.818,
+      "question": "The average diameter of the nucleus is about?",
+      "options": [
+        "5 to 10 nanometers",
+        "50 to 100 micrometers",
+        "5 to 10 millimeters",
+        "5 to 10 micrometers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The average diameter of the nucleus is about 5 to 10 μm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588779.5378,
+      "question": "Non-living viruses have chromosomes consisting of either DNA or?",
+      "options": [
+        "Protein",
+        "RNA",
+        "Lipid",
+        "Carbohydrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The non-living viruses have chromosomes consisting of either DNA or RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.2678,
+      "question": "Among organisms with prokaryotic cells, chromosomes consist entirely of?",
+      "options": [
+        "RNA",
+        "Protein",
+        "DNA",
+        "Lipid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Among organisms with prokaryotic cells, chromosomes consist entirely of DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.4307,
+      "question": "Bacterial chromosomes differ from eukaryotic ones in being composed almost exclusively of DNA and in being?",
+      "options": [
+        "Linear",
+        "Circular",
+        "Branched",
+        "Fragmented"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bacterial chromosomes differ from those of eucaryotic organisms in being composed almost exclusively of DNA and in being circular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.1355,
+      "question": "Bacterial DNA is combined with which histone-like protein?",
+      "options": [
+        "HU",
+        "H1",
+        "H2A",
+        "H3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bacterial DNA is combined with a histone-like protein called HU.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.7346,
+      "question": "The chromosomes of a eukaryotic cell consist primarily of DNA attached to a?",
+      "options": [
+        "Lipid core",
+        "Protein core",
+        "RNA core",
+        "Carbohydrate core"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The chromosomes of a eukaryotic cell consist primarily of DNA attached to a protein core.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.1948,
+      "question": "The number of chromosomes in body cells of a sexually reproducing organism is described as?",
+      "options": [
+        "Haploid",
+        "Diploid",
+        "Triploid",
+        "Polyploid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Among sexually reproducing organisms, the number of chromosomes in the body (somatic) cells is diploid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.9773,
+      "question": "Each gamete contains which number of chromosomes?",
+      "options": [
+        "Haploid",
+        "Diploid",
+        "Triploid",
+        "Tetraploid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each gamete contains a haploid number of chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.6755,
+      "question": "Human somatic cells contain how many chromosomes?",
+      "options": [
+        "23",
+        "46",
+        "48",
+        "52"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In humans, the diploid number of chromosomes in somatic cells is 46.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.5818,
+      "question": "The common fruit fly Drosophila melanogaster has how many chromosomes?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The common fruit fly has 8 chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.9944,
+      "question": "The onion plant has how many chromosomes?",
+      "options": [
+        "14",
+        "16",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The onion plant has 16 chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.7527,
+      "question": "The failure of chromosomes to separate properly during cell division is called?",
+      "options": [
+        "Translocation",
+        "Inversion",
+        "Nondisjunction",
+        "Deletion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The separation of chromosomes in cell division does not always proceed normally; this is known as nondisjunction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.9526,
+      "question": "The presence of three chromosomes of one type in an otherwise diploid individual is called?",
+      "options": [
+        "Monosomy",
+        "Trisomy",
+        "Tetrasomy",
+        "Nullisomy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of three chromosomes of one type in an otherwise diploid individual is called trisomy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.033,
+      "question": "Cells or organisms that have more than two complete sets of chromosomes are said to be?",
+      "options": [
+        "Polyploid",
+        "Haploid",
+        "Diploid",
+        "Aneuploid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells or organisms that have more than two complete sets of chromosomes are said to be polyploid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.739,
+      "question": "A description of the chromosome set of an organism is known as a?",
+      "options": [
+        "Genotype",
+        "Phenotype",
+        "Karyotype",
+        "Idiogram"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To study chromosomes, it is necessary to create a karyotype, which is a description of the chromosome set.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.4006,
+      "question": "Which drug disrupts the mitotic spindle and stops mitosis in metaphase?",
+      "options": [
+        "Colchicine",
+        "Penicillin",
+        "Insulin",
+        "Aspirin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dividing cells are treated with the drug colchicine, which disrupts the mitotic spindle and stops mitosis in metaphase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.2737,
+      "question": "Karyotyping reveals distinctive bands on chromosomes that aid in identifying?",
+      "options": [
+        "Genes",
+        "Mutations",
+        "Homologs",
+        "Proteins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Karyotyping reveals distinctive bands on chromosomes and aids in identifying homologs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.8718,
+      "question": "Large scale changes in the linkages of genes are caused by chromosomal?",
+      "options": [
+        "Point mutations",
+        "Gene rearrangements",
+        "Silent mutations",
+        "Missense mutations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genes can be rearranged by chromosomal deletions, inversions and translocations, creating large scale changes in the linkages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.6543,
+      "question": "A chromosome part breaking off and attaching to a nonhomologous chromosome is called a?",
+      "options": [
+        "Inversion",
+        "Deletion",
+        "Translocation",
+        "Duplication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A translocation occurs when part of a chromosome breaks off and attaches to a nonhomologous chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.0283,
+      "question": "A specific translocation between chromosomes 14 and 21 causes which syndrome?",
+      "options": [
+        "Turner syndrome",
+        "Down syndrome",
+        "Klinefelter syndrome",
+        "Patau syndrome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the cause of the Down syndrome following translocation between chromosomes 14 and 21.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.8264,
+      "question": "A chromosome segment that is cut out and reversed is known as a(n)?",
+      "options": [
+        "Inversion",
+        "Translocation",
+        "Deletion",
+        "Duplication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In an inversion, a segment of a chromosome is cut out and reversed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588780.7024,
+      "question": "Inversions inhibit which genetic process?",
+      "options": [
+        "Transcription",
+        "Translation",
+        "Recombination",
+        "Replication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inversions inhibit recombination by crossing over.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.7612,
+      "question": "Deletions of portions of the genome are generally considered?",
+      "options": [
+        "Beneficial",
+        "Neutral",
+        "Deleterious",
+        "Advantageous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While duplications can be a source of novelty, deletions of portions of the genome are generally deleterious.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.8726,
+      "question": "Duplications of portions of the genome are a source of?",
+      "options": [
+        "Evolutionary novelty",
+        "Genetic stagnation",
+        "Cell death",
+        "Disease resistance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Duplications are also a source of evolutionary novelty.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.6594,
+      "question": "Drosophila chromosomes are how many times larger than normal chromosomes?",
+      "options": [
+        "50 times",
+        "100 times",
+        "200 times",
+        "400 times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Drosophila chromosomes are 200 times larger than normal chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.1726,
+      "question": "The first sex-linked trait discovered by Morgan was?",
+      "options": [
+        "Red eye colour",
+        "White eye colour",
+        "Curly wings",
+        "Yellow body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first sex-linked trait discovered by Morgan was the white eye colour in Drosophila.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.0994,
+      "question": "Genes located on the Y chromosome but not on the X are termed?",
+      "options": [
+        "Sex-linked",
+        "Autosomal",
+        "Holandric",
+        "Hemizygous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genes on the Y chromosome but not on the X are termed holandric.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793861588781.9124,
+      "question": "The study of the frequency and interaction of alleles and genes in populations is called?",
+      "options": [
+        "Cytogenetics",
+        "Population genetics",
+        "Quantitative genetics",
+        "Molecular genetics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Population genetics is the study of the frequency and interaction of alleles and genes in populations.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
