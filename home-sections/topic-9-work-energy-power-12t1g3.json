@@ -3,8 +3,373 @@
   "title": "Topic 9: Work, Energy & Power",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 26,
+  "questions": [
+    {
+      "id": 1794303741915.8337,
+      "question": "What is the condition for a constant force to do maximum work on an object?",
+      "options": [
+        "The force acts parallel to the displacement.",
+        "The force acts perpendicular to the displacement.",
+        "The force acts in the opposite direction to the displacement.",
+        "The force is applied at an angle of 60 degrees to the displacement."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work is W = Fd cos θ, which is maximum when cos θ = 1, i.e. θ = 0°. So the force must act <b>parallel to the displacement</b>. Perpendicular (B) gives zero work; opposite (C) gives maximum negative work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.9854,
+      "question": "Which property determines the work done by gravity on a moving object?",
+      "options": [
+        "Vertical displacement.",
+        "Total horizontal path length.",
+        "The time taken for the journey.",
+        "The overall distance traveled in space."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gravity acts vertically, so the work it does depends only on the <b>vertical displacement</b> (W = mgh), not on the horizontal path or time taken.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.1694,
+      "question": "What does the area under a force-displacement graph represent?",
+      "options": [
+        "Work done by the force.",
+        "The power delivered by the force.",
+        "The change in kinetic energy.",
+        "The acceleration of the object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area under a force-displacement graph is ∫F dx, which is exactly the <b>work done</b> by the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.449,
+      "question": "How is energy defined in physics?",
+      "options": [
+        "The capacity to do work.",
+        "The rate of change of momentum.",
+        "The product of mass and acceleration.",
+        "The total force applied to an object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Energy</b> is defined as the <b>capacity to do work</b>. B is force (rate of change of momentum), C is force (ma), D is force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.9082,
+      "question": "Which equation represents Einstein's mass-energy equivalence principle?",
+      "options": [
+        "E = mc<sup>2</sup>",
+        "F = ma",
+        "P = W ÷ t",
+        "W = Fx cos θ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Einstein's mass-energy equivalence is <b>E = mc<sup>2</sup></b>. B is Newton's second law, C is power, D is work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.4055,
+      "question": "What is the origin of thermal energy in a body?",
+      "options": [
+        "The random motion of its molecules.",
+        "The vibration of its chemical bonds.",
+        "The movement of its electric charges.",
+        "The splitting of its atomic nuclei."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Thermal energy</b> arises from the <b>random motion (kinetic energy) of molecules</b>. Bond vibrations give chemical energy, charge motion gives electrical energy, and nuclear splitting gives nuclear energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.5645,
+      "question": "During which processes is nuclear energy released?",
+      "options": [
+        "Fission and fusion.",
+        "Oxidation and reduction.",
+        "Conduction and convection.",
+        "Reflection and refraction."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nuclear energy is released during <b>fission</b> (splitting heavy nuclei) and <b>fusion</b> (joining light nuclei). Oxidation/reduction are chemical, conduction/convection are heat transfer, and reflection/refraction are optical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.9895,
+      "question": "Which term describes energy stored in the bonds of chemical compounds?",
+      "options": [
+        "Chemical energy.",
+        "Thermal energy.",
+        "Nuclear energy.",
+        "Mechanical energy."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Chemical energy</b> is the energy stored in the bonds of chemical compounds and released during chemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.0908,
+      "question": "In what form does sound energy travel through a medium?",
+      "options": [
+        "Longitudinal waves.",
+        "Transverse waves.",
+        "Electromagnetic waves.",
+        "Standing waves."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sound propagates as <b>longitudinal waves</b> — compressions and rarefactions along the direction of travel. It is not electromagnetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.9995,
+      "question": "Which natural source is the primary provider of light energy?",
+      "options": [
+        "The sun.",
+        "The moon.",
+        "The stars.",
+        "The earth."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>sun</b> is the primary natural source of light (and radiant) energy for the Earth. The moon only reflects sunlight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.3906,
+      "question": "Mechanical energy is the sum of which two forms of energy?",
+      "options": [
+        "Potential and kinetic.",
+        "Thermal and chemical.",
+        "Nuclear and electrical.",
+        "Sound and radiant."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Mechanical energy</b> = <b>kinetic energy + potential energy</b>. The other pairs are non-mechanical forms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.6838,
+      "question": "Which formula represents the energy stored in a stretched or compressed spring?",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span>kx<sup>2</sup>",
+        "mgh",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>1</span><span style='display:block;padding:0 .35em'>2</span></span>mv<sup>2</sup>",
+        "Fx cos θ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The elastic potential energy of a spring is <b>½kx<sup>2</sup></b>, where k is the spring constant and x is the extension or compression. B is gravitational PE, C is kinetic energy, D is work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.6184,
+      "question": "What is the SI unit of the elastic constant (k)?",
+      "options": [
+        "N m<sup>−1</sup>",
+        "Joules",
+        "Watts",
+        "kg m<sup>−1</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From F = kx, k = F ÷ x, so its SI unit is <b>newton per metre (N m<sup>−1</sup>)</b>. Joules and watts are units of energy and power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.4326,
+      "question": "Which properties determine the kinetic energy of a moving object?",
+      "options": [
+        "Mass and velocity.",
+        "Weight and height.",
+        "Force and time.",
+        "Spring constant and extension."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kinetic energy K = ½mv<sup>2</sup> depends on the object's <b>mass and velocity</b>. Weight and height give gravitational PE; spring constant and extension give elastic PE.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.2542,
+      "question": "If the net work done on an object is positive, what happens to the object's kinetic energy?",
+      "options": [
+        "It increases.",
+        "It decreases.",
+        "It stays constant.",
+        "It becomes zero."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Positive net work adds energy to the object, so by the work-energy theorem its <b>kinetic energy increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.5244,
+      "question": "Which of the following is a conservative force?",
+      "options": [
+        "Gravity.",
+        "Friction.",
+        "Air resistance.",
+        "Viscous drag."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Gravity</b> is conservative: the work it does is path-independent and zero over a closed loop. Friction, air resistance, and viscous drag are non-conservative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.7197,
+      "question": "What is the total work done by a conservative force over a closed loop?",
+      "options": [
+        "Zero.",
+        "Maximum positive.",
+        "Maximum negative.",
+        "Equal to the change in kinetic energy."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Over any closed path, the initial and final positions are the same, so the work done by a <b>conservative force is zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.8042,
+      "question": "Which of the following is a non-conservative force?",
+      "options": [
+        "Friction.",
+        "Gravity.",
+        "Electric force.",
+        "Spring force."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Friction</b> is non-conservative: its work depends on the path and it dissipates mechanical energy. Gravity, electric force, and the spring force are conservative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.2678,
+      "question": "What is the effect of a decrease in potential energy in a conserved mechanical system?",
+      "options": [
+        "An equal increase in kinetic energy.",
+        "An equal decrease in kinetic energy.",
+        "A complete loss of total energy.",
+        "An increase in the mass of the object."
+      ],
+      "correctAnswer": 0,
+      "explanation": "With mechanical energy conserved, K + U = constant. If U decreases, <b>K increases by the same amount</b>. Energy is not lost, and mass does not change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.7805,
+      "question": "How is power defined in physics?",
+      "options": [
+        "The rate of doing work.",
+        "The rate of changing momentum.",
+        "The rate of applying force.",
+        "The rate of accelerating mass."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Power</b> is the <b>rate of doing work</b>: P = W ÷ t. B is force, C and D are not standard definitions of power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.4639,
+      "question": "What is the SI unit of power?",
+      "options": [
+        "Watt.",
+        "Joule.",
+        "Newton.",
+        "Horsepower."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SI unit of power is the <b>watt (W)</b>, equal to one joule per second. Joule is energy, newton is force, and horsepower is a non-SI unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.8586,
+      "question": "What is the watt equivalent of one horsepower?",
+      "options": [
+        "746 W.",
+        "1000 W.",
+        "550 W.",
+        "3600 W."
+      ],
+      "correctAnswer": 0,
+      "explanation": "One horsepower is approximately <b>746 W</b> (550 ft·lb/s, converted to SI).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.994,
+      "question": "Which machine has more power if two machines perform the same amount of work but one does it in less time?",
+      "options": [
+        "The faster machine.",
+        "The slower machine.",
+        "Both have equal power.",
+        "Neither has power."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Power = work ÷ time. For the same work, the machine that takes <b>less time</b> (the <b>faster</b> machine) delivers more power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.9653,
+      "question": "What is the work done by a lifting force when a body is raised at a constant velocity?",
+      "options": [
+        "mgh",
+        "Zero.",
+        "Less than mgh.",
+        "Greater than mgh."
+      ],
+      "correctAnswer": 0,
+      "explanation": "At constant velocity the net force is zero, so the lifting force equals the weight mg. The work done by the lifting force is therefore <b>mgh</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.4202,
+      "question": "What is the SI unit of elastic potential energy?",
+      "options": [
+        "Joule.",
+        "Newton.",
+        "Watt.",
+        "Meter."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elastic potential energy is energy, so its SI unit is the <b>joule (J)</b>. Newton, watt, and metre are units of force, power, and length.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794303741916.3223,
+      "question": "Which physical quantity is calculated using the dot product of force and displacement vectors?",
+      "options": [
+        "Work.",
+        "Power.",
+        "Kinetic energy.",
+        "Potential energy."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Work</b> is the dot product of force and displacement: W = F · d. Power, kinetic energy, and potential energy are not defined by this dot product.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
