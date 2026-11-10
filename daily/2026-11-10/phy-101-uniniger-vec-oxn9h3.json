@@ -3,16 +3,718 @@
   "title": "PHY 101 ( UNINIGER ) : VECTOR AND SCALAR QUANTITIES",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794322808650.5552,
+      "question": "Physical quantities described in terms of both direction and magnitude are categorized as which type of quantity?",
+      "options": [
+        "Scalar quantities",
+        "Vector quantities",
+        "Derived quantities",
+        "Base quantities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vector quantities, such as displacement and force, require both magnitude and direction for a complete description.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.352,
+      "question": "Which of the following is categorized as a scalar quantity?",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Acceleration",
+        "Mass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mass is completely described by its magnitude alone, making it a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.558,
+      "question": "The cap or hat symbol over a letter, like Â, typically denotes which type of vector?",
+      "options": [
+        "Null vector",
+        "Unit vector",
+        "Resultant vector",
+        "Position vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cap or hat over a letter usually denotes a unit vector, which has a magnitude of one and indicates direction only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.1401,
+      "question": "Which set of examples correctly lists vector quantities?",
+      "options": [
+        "Force, momentum, speed",
+        "Displacement, energy, power",
+        "Velocity, acceleration, momentum",
+        "Mass, volume, distance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity, acceleration, and momentum are all vector quantities, requiring both magnitude and direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.1526,
+      "question": "Scalar quantities obey ordinary laws of arithmetic, as demonstrated by which operation?",
+      "options": [
+        "40 kg + 20 kg = 60 kg",
+        "40 N + 20 N = 60 N",
+        "40 m/s + 20 m/s = 60 m/s",
+        "40 m + 20 m = 60 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Scalars like mass follow simple arithmetic addition, while vectors like force or velocity require direction consideration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9167,
+      "question": "Two vectors are considered equal if they possess which combination of features?",
+      "options": [
+        "Same magnitude, opposite direction",
+        "Same direction, different magnitude",
+        "Same magnitude and direction",
+        "Zero magnitude and direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vector equality requires both identical magnitude and identical direction, regardless of their starting positions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8472,
+      "question": "A vector that has a magnitude of exactly one and indicates direction only is called a which type of vector?",
+      "options": [
+        "Null vector",
+        "Unit vector",
+        "Position vector",
+        "Zero vector"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A unit vector is defined as having a magnitude of one, serving solely to specify direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8357,
+      "question": "A vector characterized by zero magnitude and no specific direction is known by which term?",
+      "options": [
+        "Unit vector",
+        "Scalar vector",
+        "Null vector",
+        "Polar vector"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The null or zero vector has a magnitude of zero and lacks a defined direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9211,
+      "question": "The expression A⃗ = Aₓî + Aᵧĵ + A_z k̂ represents a vector in which dimension?",
+      "options": [
+        "One dimension",
+        "Two dimensions",
+        "Three dimensions",
+        "Four dimensions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The presence of three unit vectors (î, ĵ, k̂) indicates the vector is expressed in three-dimensional space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.6636,
+      "question": "Breaking a vector down into its Cartesian coordinates is known by which term?",
+      "options": [
+        "Vector addition",
+        "Vector resolution",
+        "Vector multiplication",
+        "Vector differentiation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Resolving a vector involves breaking it down into its constituent components along the coordinate axes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.7573,
+      "question": "The magnitude of a 2D vector A⃗ = Aₓî + Aᵧĵ is calculated using which formula?",
+      "options": [
+        "Aₓ + Aᵧ",
+        "√(Aₓ² + Aᵧ²)",
+        "Aₓ² + Aᵧ²",
+        "√(Aₓ + Aᵧ)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnitude uses Pythagoras' theorem, which is the square root of the sum of the squares of the components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.2532,
+      "question": "A vector in 3D space is given by A⃗ = 3î + 8ĵ + 4k̂. Which value represents its magnitude?",
+      "options": [
+        "√89",
+        "15",
+        "√72",
+        "89"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnitude is √(3² + 8² + 4²) = √(9 + 64 + 16) = √89.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.086,
+      "question": "Adding two vectors that originate from the same point using a parallelogram construction yields the resultant along which part?",
+      "options": [
+        "Perimeter",
+        "Adjacent side",
+        "Diagonal",
+        "Base"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the parallelogram method, the resultant vector is represented by the diagonal passing through the common origin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8079,
+      "question": "The magnitude of the resultant vector R⃗ from adding vectors P⃗ and Q⃗ is given by which formula?",
+      "options": [
+        "R = √(P² - Q² + 2PQcosθ)",
+        "R = P + Q + 2PQcosθ",
+        "R = √(P² + Q² + 2PQcosθ)",
+        "R = √(P² + Q² - 2PQcosθ)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The resultant magnitude using the parallelogram method is R = √(P² + Q² + 2PQcosθ).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9338,
+      "question": "Given A⃗ = 3î + 8ĵ + 4k̂ and B⃗ = 2î + 8ĵ - 2k̂, the sum A⃗ + B⃗ is which expression?",
+      "options": [
+        "5î + 16ĵ + 2k̂",
+        "5î + 16ĵ + 6k̂",
+        "1î + 0ĵ + 6k̂",
+        "5î + 0ĵ + 2k̂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adding corresponding components gives (3+2)î + (8+8)ĵ + (4-2)k̂ = 5î + 16ĵ + 2k̂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.2031,
+      "question": "Given A⃗ = 3î + 8ĵ + 4k̂ and B⃗ = 2î + 8ĵ - 2k̂, the difference A⃗ - B⃗ equals which expression?",
+      "options": [
+        "1î + 0ĵ + 2k̂",
+        "5î + 16ĵ + 2k̂",
+        "1î + 0ĵ + 6k̂",
+        "1î + 16ĵ + 6k̂"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subtracting components gives (3-2)î + (8-8)ĵ + (4-(-2))k̂ = 1î + 0ĵ + 6k̂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3723,
+      "question": "Multiplying a vector A⃗ by a negative scalar m results in a new vector that has which property?",
+      "options": [
+        "Unchanged magnitude and direction",
+        "Reversed direction",
+        "Zero magnitude",
+        "Same direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If a vector is multiplied by a negative scalar, its direction is reversed, while its magnitude is scaled by the absolute value of the scalar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3574,
+      "question": "The magnitude of the cross product of two vectors is given by which expression?",
+      "options": [
+        "|A⃗||B⃗|cosθ",
+        "|A⃗||B⃗|sinθ",
+        "|A⃗||B⃗|tanθ",
+        "|A⃗||B⃗|"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnitude of the vector (cross) product is defined as the product of their magnitudes and the sine of the angle between them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.4805,
+      "question": "If the cross product between two vectors is zero, the vectors are said to have which orientation?",
+      "options": [
+        "Perpendicular",
+        "Parallel",
+        "Orthogonal",
+        "Inclined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A zero cross product indicates that the angle between the vectors is either 0° or 180°, meaning they are parallel.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8755,
+      "question": "The direction of the cross product A⃗ × B⃗ is determined by which rule?",
+      "options": [
+        "Left-hand rule",
+        "Right-hand rule",
+        "Fleming's rule",
+        "Ampere's rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The direction of the cross product is perpendicular to both original vectors and is found using the right-hand rule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3105,
+      "question": "The cross product î × ĵ in a Cartesian coordinate system is equal to which unit vector?",
+      "options": [
+        "î",
+        "ĵ",
+        "k̂",
+        "-k̂"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the anticlockwise direction, the cross product of the unit vectors î and ĵ yields k̂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.96,
+      "question": "Which value represents the cross product ĵ × î?",
+      "options": [
+        "k̂",
+        "î",
+        "-î",
+        "-k̂"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cross product is anticommutative, so ĵ × î = -(î × ĵ) = -k̂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.05,
+      "question": "The dot product of two vectors A⃗ and B⃗ yields which type of quantity?",
+      "options": [
+        "Vector",
+        "Scalar",
+        "Tensor",
+        "Matrix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scalar (dot) product of two vectors results in a scalar value, defined as |A⃗||B⃗|cosθ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.1875,
+      "question": "If the angle between two vectors is 90°, their dot product is equal to which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Zero",
+        "Negative one"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The dot product is zero when the vectors are perpendicular because cos 90° = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.156,
+      "question": "Two vectors are considered perpendicular if their dot product equals which value?",
+      "options": [
+        "Zero",
+        "One",
+        "Negative one",
+        "Their magnitude"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A dot product of zero indicates that the angle between the vectors is 90°, making them perpendicular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.5813,
+      "question": "Expanding the cross product of A⃗ = Aₓî + Aᵧĵ + A_z k̂ and B⃗ = Bₓî + Bᵧĵ + B_z k̂ yields which component for î?",
+      "options": [
+        "AₓBᵧ - AᵧBₓ",
+        "AᵧB_z - A_zBᵧ",
+        "A_zBₓ - AₓB_z",
+        "AₓB_z - A_zBₓ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The î component of the cross product is given by (AᵧB_z - A_zBᵧ).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.848,
+      "question": "The property A⃗ + B⃗ = B⃗ + A⃗ demonstrates which algebraic property of vectors?",
+      "options": [
+        "Associative property",
+        "Distributive property",
+        "Commutative property",
+        "Additive inverse"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The commutative property states that the order of addition does not affect the resultant vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.4004,
+      "question": "The equation A⃗ + (-A⃗) = 0 demonstrates which property of vectors?",
+      "options": [
+        "Additive identity",
+        "Additive inverse",
+        "Associative",
+        "Commutative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The additive inverse property states that adding a vector to its negative results in the zero vector.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9658,
+      "question": "The equation m(A⃗ + B⃗) = mA⃗ + mB⃗ represents which property?",
+      "options": [
+        "Commutative property",
+        "Distributive property",
+        "Associative property",
+        "Additive identity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distributive property shows how scalar multiplication distributes over vector addition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.5435,
+      "question": "The equation A⃗ + 0 = A⃗ demonstrates which property?",
+      "options": [
+        "Additive inverse",
+        "Additive identity",
+        "Associative",
+        "Distributive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adding the zero vector to any vector leaves the original vector unchanged, defining the additive identity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3906,
+      "question": "The equation A⃗ + (B⃗ + C⃗) = (A⃗ + B⃗) + C⃗ demonstrates which property?",
+      "options": [
+        "Distributive",
+        "Commutative",
+        "Associative",
+        "Additive identity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The associative property shows that grouping vectors differently during addition does not change the result.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.733,
+      "question": "The derivative of a vector function r⃗(t) = x(t)î + y(t)ĵ + z(t)k̂ is expressed as which of the following?",
+      "options": [
+        "dr⃗/dt = (dx/dt)î + (dy/dt)ĵ + (dz/dt)k̂",
+        "dr⃗/dt = x(t)î + y(t)ĵ + z(t)k̂",
+        "dr⃗/dt = (d²x/dt²)î + (d²y/dt²)ĵ + (d²z/dt²)k̂",
+        "dr⃗/dt = dx/dt + dy/dt + dz/dt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiating a vector function involves taking the derivative of each individual component with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9832,
+      "question": "The derivative of the vector function r⃗(t) = 7t³î + 3t²ĵ + 5tk̂ is which expression?",
+      "options": [
+        "21t²î + 6tĵ + 5k̂",
+        "7t²î + 3tĵ + 5k̂",
+        "21t³î + 6t²ĵ + 5tk̂",
+        "21t²î + 3tĵ + 5k̂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the power rule, the derivative of 7t³ is 21t², of 3t² is 6t, and of 5t is 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.717,
+      "question": "Given r⃗(t) = 5t²î + cos(7t)ĵ, its first derivative dr⃗/dt is which expression?",
+      "options": [
+        "10tî + 7sin(7t)ĵ",
+        "10tî - 7sin(7t)ĵ",
+        "5tî - sin(7t)ĵ",
+        "10tî - cos(7t)ĵ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The derivative of 5t² is 10t, and the derivative of cos(7t) is -7sin(7t).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8953,
+      "question": "For the vector r⃗(t) = 5t²î + cos(7t)ĵ, the second derivative d²r⃗/dt² is which expression?",
+      "options": [
+        "10î - 49cos(7t)ĵ",
+        "10î - 7cos(7t)ĵ",
+        "10tî - 49sin(7t)ĵ",
+        "10î + 49sin(7t)ĵ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differentiating 10t gives 10, and differentiating -7sin(7t) gives -49cos(7t).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3638,
+      "question": "The derivative of the vector r⃗(t) = axⁿî with respect to t (where x is a function of t) is expressed as which of the following?",
+      "options": [
+        "axⁿî",
+        "naxⁿ⁻¹î",
+        "naxⁿî",
+        "axⁿ⁻¹î"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the power rule, d/dt(axⁿ) = naxⁿ⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.3662,
+      "question": "Given A⃗ = 2î - 5ĵ + 4k̂, B⃗ = -2î + 3ĵ - k̂, and C⃗ = -2î + 3ĵ - 4k̂, the sum A⃗ + B⃗ + C⃗ equals which vector?",
+      "options": [
+        "-2î + ĵ - k̂",
+        "2î + ĵ - k̂",
+        "-2î - ĵ - k̂",
+        "-2î + ĵ + k̂"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Summing the components gives (2-2-2)î + (-5+3+3)ĵ + (4-1-4)k̂ = -2î + ĵ - k̂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.1309,
+      "question": "A vector A⃗ has a magnitude of √19. If its î and k̂ components are 3 and 3 respectively, what is the magnitude of its ĵ component?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "|A⃗|² = Aₓ² + Aᵧ² + A_z² => 19 = 3² + Aᵧ² + 3² => 19 = 18 + Aᵧ² => Aᵧ² = 1, so Aᵧ = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.4102,
+      "question": "Given A⃗ = 3î - ĵ + 3k̂ and B⃗ = -î + 2ĵ - k̂, which value is closest to the angle between them?",
+      "options": [
+        "30°",
+        "41.45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the dot product, |A⃗ · B⃗| = 8. The magnitudes are √19 and √6. cosθ = 8 / (√19 * √6) ≈ 8 / 10.68 ≈ 0.7491, giving θ ≈ 41.45°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.4075,
+      "question": "The cross product î × k̂ in a Cartesian coordinate system is equal to which unit vector?",
+      "options": [
+        "ĵ",
+        "-ĵ",
+        "k̂",
+        "-k̂"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the clockwise direction, î × k̂ = -ĵ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.6443,
+      "question": "The magnitude of the cross product |A⃗ × B⃗| for vectors A⃗ = 3î - ĵ + 3k̂ and B⃗ = -î + 2ĵ - k̂ is calculated as which value?",
+      "options": [
+        "√50",
+        "√19",
+        "√6",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cross product magnitude is given as √((-5)² + 5²) = √50 ≈ 7.07.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.8523,
+      "question": "A body moves through a distance d⃗ = 3î - 2ĵ - 4k̂ metres under a force F⃗ = 4î - ĵ - 2k̂ newtons. The work done is which value?",
+      "options": [
+        "12 J",
+        "22 J",
+        "18 J",
+        "10 J"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work is the dot product: W = F⃗ · d⃗ = (4)(3) + (-1)(-2) + (-2)(-4) = 12 + 2 + 8 = 22 J.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.0496,
+      "question": "A man walks 2 km due east and then 2 km due north. The magnitude of his displacement vector is which value?",
+      "options": [
+        "4 km",
+        "2√2 km",
+        "2 km",
+        "√2 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The displacement forms a right-angled triangle with sides 2 and 2. The hypotenuse is √(2² + 2²) = √8 = 2√2 km.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.9783,
+      "question": "Two forces of 15 N each act simultaneously on a body, one towards the north and the other towards the east. The magnitude of the resultant force is which value?",
+      "options": [
+        "30 N",
+        "15 N",
+        "15√2 N",
+        "√15 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The forces are perpendicular, so the resultant magnitude is √(15² + 15²) = √450 = 15√2 N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808652.2947,
+      "question": "Given vectors A⃗ = 4î + 2ĵ - k̂, B⃗ = 2î - ĵ + 2k̂, and C⃗ = î + ĵ + 2k̂, what is the result of A⃗ · B⃗?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A⃗ · B⃗ = (4)(2) + (2)(-1) + (-1)(2) = 8 - 2 - 2 = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808653.1638,
+      "question": "Which property is demonstrated by the equation A⃗ + 0 = A⃗?",
+      "options": [
+        "Additive inverse",
+        "Additive identity",
+        "Commutative",
+        "Associative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The equation shows that adding the zero vector to a vector leaves it unchanged, which is the additive identity property.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808653.6333,
+      "question": "The cross product of two parallel vectors is always equal to which of the following?",
+      "options": [
+        "Zero",
+        "One",
+        "Their dot product",
+        "A unit vector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For parallel vectors, the angle between them is 0° or 180°, and sin(0°) = sin(180°) = 0, making the cross product zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808653.0078,
+      "question": "In the expression A⃗ = Aₓî + Aᵧĵ, the terms Aₓ and Aᵧ are known by which term?",
+      "options": [
+        "Magnitudes",
+        "Components",
+        "Resultants",
+        "Scalars"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The terms Aₓ and Aᵧ are the components of the vector along the x and y axes, respectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808653.4473,
+      "question": "The formula cosθ = (A⃗ · B⃗) / (|A⃗||B⃗|) is used to find which quantity?",
+      "options": [
+        "The magnitude of the resultant",
+        "The angle between two vectors",
+        "The cross product",
+        "The scalar multiplication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rearranging the dot product formula allows calculation of the angle between two vectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794322808653.7844,
+      "question": "A vector multiplied by a positive scalar m results in a new vector with what characteristic?",
+      "options": [
+        "Magnitude is unchanged",
+        "Direction is reversed",
+        "Direction remains unchanged",
+        "Magnitude becomes zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiplying by a positive scalar changes the magnitude by a factor of m but leaves the direction unchanged.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
