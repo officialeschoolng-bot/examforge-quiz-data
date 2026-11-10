@@ -1,18 +1,720 @@
 {
-  "quizId": "cos-101-uniniger-brief-history-and-basic-1o6ds2",
+  "quizId": "cos-101-uniniger-bri-kny77s",
   "title": "COS 101 ( UNINIGER ) : BRIEF HISTORY AND BASIC COMPONENTS OF COMPUTING DEVICE",
-  "subject": "COS 101 â€” COS 101 Course",
+  "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794060970443.2788,
+      "question": "Blaise Pascal invented which gear-driven calculator in 1642?",
+      "options": [
+        "Pascaline",
+        "Analytic Engine",
+        "Hollerith Machine",
+        "Difference Engine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blaise Pascal invented the Pascaline in 1642 as an aid for his father.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.3225,
+      "question": "The Jacquard Loom used which type of cards to weave fabric designs automatically?",
+      "options": [
+        "Magnetic tapes",
+        "Punched cards",
+        "Silicon chips",
+        "Paper rolls"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Jacquard Loom used punched wooden cards to weave fabric designs automatically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.617,
+      "question": "Who is recognized as the world's first computer programmer?",
+      "options": [
+        "Grace Hopper",
+        "Charles Babbage",
+        "Ada Lovelace",
+        "Herman Hollerith"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ada Lovelace wrote programs for Babbage's Analytic Engine, making her the first computer programmer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4097,
+      "question": "Which invention by Charles Babbage was a steam-driven calculating machine?",
+      "options": [
+        "Pascaline",
+        "Analytic Engine",
+        "Hollerith Machine",
+        "Difference Engine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Charles Babbage proposed the Difference Engine, a steam-driven calculating machine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.3728,
+      "question": "Herman Hollerith developed a punch-card system for which purpose?",
+      "options": [
+        "Weaving fabric designs",
+        "Writing computer programs",
+        "U.S. Census calculation",
+        "Storing computer data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Herman Hollerith developed a punch-card system that helped calculate the 1890 U.S. Census.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.508,
+      "question": "Which device was the first digital electronic computer in the U.S.?",
+      "options": [
+        "Atanasoff-Berry Computer",
+        "Electronic Numerical Integrator",
+        "Universal Automatic Computer",
+        "Hollerith Machine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Atanasoff-Berry Computer (ABC) was the first digital electronic computer in the U.S.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.603,
+      "question": "ENIAC is an acronym for which of the following?",
+      "options": [
+        "Electronic Number Integrator and Computer",
+        "Electric Numerical Integration and Calculation",
+        "Electronic Numerical Integrator and Calculator",
+        "Electronic Numerical Interface and Calculator"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ENIAC stands for Electronic Numerical Integrator and Calculator.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.661,
+      "question": "Which computer was the first commercial computer for business and government applications?",
+      "options": [
+        "ENIAC",
+        "ABC",
+        "COBOL",
+        "UNIVAC"
+      ],
+      "correctAnswer": 3,
+      "explanation": "UNIVAC or Universal Automatic Computer was the first commercial computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4658,
+      "question": "Grace Hopper is credited with developing which first computer programming language?",
+      "options": [
+        "FORTRAN",
+        "COBOL",
+        "UNIX",
+        "ENIAC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grace Hopper developed COBOL, which was the first computer programming language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4287,
+      "question": "The UNIX operating system was developed in 1969 by developers at which location?",
+      "options": [
+        "IBM Lab",
+        "Bell Lab",
+        "Microsoft Lab",
+        "Apple Lab"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ken Thompson and other developers at Bell Lab developed UNIX in 1969.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4885,
+      "question": "The ENIAC was invented by which two university professors?",
+      "options": [
+        "Thompson and Ritchie",
+        "Atanasoff and Berry",
+        "Mauchly and Eckert",
+        "Babbage and Lovelace"
+      ],
+      "correctAnswer": 2,
+      "explanation": "John Mauchly and J. Presper Eckert invented the ENIAC.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.7234,
+      "question": "The first generation of computers was based on which technology?",
+      "options": [
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessors",
+        "Vacuum tubes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The first generation of computers (1945-1956) was based on vacuum tubes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4277,
+      "question": "Which programming language was used by first-generation computers?",
+      "options": [
+        "Assembly language",
+        "COBOL",
+        "FORTRAN",
+        "Machine language"
+      ],
+      "correctAnswer": 3,
+      "explanation": "First-generation computers relied on machine language, the lowest-level programming language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.465,
+      "question": "First-generation computers could solve how many problems at a time?",
+      "options": [
+        "Two problems",
+        "One problem",
+        "Three problems",
+        "Multiple problems"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First-generation computers could only solve one problem at a time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.1592,
+      "question": "Input for first-generation computers was based on which medium?",
+      "options": [
+        "Keyboards",
+        "Magnetic disks",
+        "Punched cards",
+        "Touch screens"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The input for first-generation computers was based on punched cards and paper tape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.03,
+      "question": "The second generation of computers was based on which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Integrated circuits",
+        "Microprocessors",
+        "Transistors"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The second generation of computers (1956-1963) was based on transistors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.1104,
+      "question": "Each transistor in the second generation replaced the equivalent of how many vacuum tubes?",
+      "options": [
+        "10 vacuum tubes",
+        "40 vacuum tubes",
+        "20 vacuum tubes",
+        "50 vacuum tubes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each transistor replaced the equivalent of 40 vacuum tubes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.163,
+      "question": "Second-generation computers moved from magnetic drums to which technology?",
+      "options": [
+        "Silicon chips",
+        "Magnetic core",
+        "Optical disks",
+        "Punched tapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Second-generation computers moved from a magnetic drum to magnetic core technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.874,
+      "question": "The second generation of computers saw the development of early versions of which languages?",
+      "options": [
+        "Python and Java",
+        "C and C++",
+        "COBOL and FORTRAN",
+        "HTML and CSS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "High-level programming languages such as early versions of COBOL and FORTRAN were developed in the second generation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.0076,
+      "question": "The third generation of computers was based on which technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Microprocessors",
+        "Integrated circuits"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The third generation of computers (1964-1971) was based on integrated circuits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.7373,
+      "question": "Third-generation computers allowed users to interact through which devices?",
+      "options": [
+        "Punched cards and printouts",
+        "Keyboards and monitors",
+        "Touch screens and mice",
+        "Voice and gesture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Third-generation computers allowed interaction through keyboards and monitors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.2175,
+      "question": "Third-generation computers reduced costs considerably because transistors were miniaturized onto what?",
+      "options": [
+        "Magnetic cores",
+        "Silicon chips",
+        "Punched cards",
+        "Paper tapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transistors were miniaturized and placed on silicon chips, called semiconductors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.8628,
+      "question": "The fourth generation of computers is based on which technology?",
+      "options": [
+        "Transistors",
+        "Integrated circuits",
+        "Microprocessor",
+        "Vacuum tubes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fourth generation of computers (1971-present) is based on the microprocessor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.064,
+      "question": "Monolithic integrated circuits used in fourth-generation computers put millions of transistors onto how many chips?",
+      "options": [
+        "Two chips",
+        "Three chips",
+        "Four chips",
+        "One chip"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Monolithic integrated circuits put millions of transistors onto one integrated circuit chip.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.5364,
+      "question": "Fourth-generation microprocessors were available in which range of bit sizes?",
+      "options": [
+        "1-bit to 8-bit",
+        "8-bit to 16-bit",
+        "4-bit to 64-bit",
+        "16-bit to 128-bit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fourth-generation microprocessors included 4-bit, 8-bit, 16-bit, 32-bit, and 64-bit processors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.6282,
+      "question": "The fifth generation of computers is based on which technologies?",
+      "options": [
+        "Transistors and ICs",
+        "AI and ML",
+        "Vacuum tubes",
+        "Microprocessors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fifth generation of computers is based on artificial intelligence (AI) and machine learning (ML).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.0718,
+      "question": "Which feature is associated with the fifth generation of computers?",
+      "options": [
+        "Punched cards",
+        "Magnetic drums",
+        "Parallel processing",
+        "Vacuum tubes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Parallel processing is a feature supported by fifth-generation computers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.6934,
+      "question": "Artificial intelligence becoming a reality is expected to be helped by parallel processing and which other technology?",
+      "options": [
+        "Vacuum tubes",
+        "Transistors",
+        "Magnetic cores",
+        "Superconductors"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It is believed that the use of parallel processing and superconductors will help to make artificial intelligence a reality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.9087,
+      "question": "A computer is defined as an electronic device that performs which of the following?",
+      "options": [
+        "Only stores data",
+        "Only displays results",
+        "Only calculates arithmetic",
+        "Accepts data and processes operations"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A computer accepts data, performs operations, displays results, and stores the data or results as needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.2224,
+      "question": "Which term refers to the physical components of a computer?",
+      "options": [
+        "Software",
+        "Hardware",
+        "Human ware",
+        "Firmware"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hardware is the physical components of a computer like a processor, memory devices, monitor, and keyboard.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.8643,
+      "question": "A set of programs or instructions required by hardware to function properly is called which term?",
+      "options": [
+        "Hardware",
+        "Firmware",
+        "Software",
+        "Human ware"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Software is a set of programs or instructions required by the hardware resources to function properly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.5308,
+      "question": "The course COS 101 is titled which of the following?",
+      "options": [
+        "Introduction to Computer Science",
+        "Basic Computer Applications",
+        "Computer Fundamentals",
+        "Introduction to Computing Sciences"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The course is titled COS 101: Introduction to Computing Sciences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.409,
+      "question": "The input unit converts user input into which language for the computer to understand?",
+      "options": [
+        "Assembly language",
+        "Binary language",
+        "Machine language",
+        "High-level language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Input devices take input and convert it into binary language that the computer understands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.837,
+      "question": "The input unit is formed by attaching which devices to a computer?",
+      "options": [
+        "Output devices",
+        "Input devices",
+        "Storage devices",
+        "Processing devices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Input Unit is formed by attaching one or more input devices to a computer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.5095,
+      "question": "The Central Processing Unit is often referred to as which part of the computer?",
+      "options": [
+        "Heart",
+        "Memory",
+        "Brain",
+        "Backbone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The CPU is called the brain of the computer because it is the control centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.9946,
+      "question": "The CPU has three main components which include ALU, Control Unit, and which other unit?",
+      "options": [
+        "Memory",
+        "Input",
+        "Output",
+        "Registers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The CPU has three main components: Arithmetic Logic Unit, Control Unit, and Registers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.2395,
+      "question": "The CPU fetches instructions from memory and then does which action?",
+      "options": [
+        "Stores them",
+        "Deletes them",
+        "Interprets them",
+        "Prints them"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The CPU first fetches instructions from memory and then interprets them to know what is to be done.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.1194,
+      "question": "Arithmetic calculations like addition and subtraction are performed by which component?",
+      "options": [
+        "Control Unit",
+        "ALU",
+        "Registers",
+        "Main Memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ALU performs mathematical calculations such as addition, subtraction, multiplication, and division.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.9224,
+      "question": "Logical decisions involving comparison of two data items are performed by which component?",
+      "options": [
+        "Control Unit",
+        "Registers",
+        "ALU",
+        "Main Memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ALU takes logical decisions involving comparison of two data items.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.4167,
+      "question": "Which component coordinates and controls the data flow in and out of the CPU?",
+      "options": [
+        "ALU",
+        "Registers",
+        "Main Memory",
+        "Control Unit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Control Unit coordinates and controls the data flow in and out of the CPU.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970444.2246,
+      "question": "The Control Unit sends control signals to which devices until the required operation is done?",
+      "options": [
+        "Storage devices",
+        "Memory devices",
+        "Network devices",
+        "Input/output devices"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Control Unit sends control signals to input/output devices until the required operation is done properly by ALU.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.2734,
+      "question": "Registers are described as high-speed devices for storing data or instructions in which manner?",
+      "options": [
+        "Permanently",
+        "Temporarily",
+        "Remotely",
+        "Optically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Registers are high-speed devices for storing data or instructions temporarily.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.4775,
+      "question": "The main register in the ALU that contains one of the operands is called which term?",
+      "options": [
+        "Controller",
+        "Memory",
+        "Accumulator",
+        "Buffer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accumulator (ACC) is the main register in the ALU and contains one of the operands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.966,
+      "question": "Registers can be of different sizes which include 16 bit, 32 bit, and which other size?",
+      "options": [
+        "128 bit",
+        "8 bit",
+        "256 bit",
+        "64 bit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Registers can be of different sizes such as 16 bit, 32 bit, and 64 bit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.4727,
+      "question": "Internal memory is also known by which alternative name?",
+      "options": [
+        "Secondary memory",
+        "Primary memory",
+        "Virtual memory",
+        "Cache memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The internal memory is also called the Primary memory or Main memory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.3203,
+      "question": "Which type of memory is not immediately accessible to the computer?",
+      "options": [
+        "Primary memory",
+        "Secondary memory",
+        "Main memory",
+        "Internal memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Memories that are not immediately accessible to the Computer is called secondary memory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.1055,
+      "question": "Each memory location in internal memory is of the same size and has which property?",
+      "options": [
+        "A variable size",
+        "A unique color",
+        "An address",
+        "A numerical index"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each memory location is of the same size and has an address.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.7502,
+      "question": "The output unit converts binary data coming from the CPU into which form?",
+      "options": [
+        "Machine language",
+        "Assembly code",
+        "Binary format",
+        "Human understandable form"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The output unit converts binary data coming from the CPU to human understandable form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.0874,
+      "question": "Which of the following is a common output device?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Monitor",
+        "Microphone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Monitor, printer, and plotter are common output devices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794060970445.5664,
+      "question": "Which inventor proposed the Analytic Engine?",
+      "options": [
+        "Blaise Pascal",
+        "Charles Babbage",
+        "Herman Hollerith",
+        "Joseph Marie Jacquard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charles Babbage designed the Analytic Engine, a steam-driven calculating machine.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
