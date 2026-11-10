@@ -3,7 +3,7 @@
   "title": "Topic 11: Center of Mass",
   "subject": "",
   "level": "",
-  "totalQuestions": 23,
+  "totalQuestions": 21,
   "questions": [
     {
       "id": 1794305475414.701,
@@ -16,20 +16,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "The <b>centre of mass</b> is the point where the entire mass of a system may be considered concentrated for describing translational motion. The centre of gravity (A) is the point where weight acts and coincides with the centre of mass only in a uniform gravitational field.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.8638,
-      "question": "For a system of discrete particles, the position vector of the centre of mass is obtained by dividing the sum of the moments of mass by the",
-      "options": [
-        "total mass of the system",
-        "number of particles",
-        "largest mass in the system",
-        "average mass of the particles"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The centre of mass is <b>r<sub>CM</sub> = (Σm<sub>i</sub>r<sub>i</sub>) ÷ M</b>, where M is the <b>total mass</b> of the system.",
       "difficulty": "easy",
       "points": 1
     },
@@ -142,20 +128,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "The centre of mass is a mass-weighted average, so it is <b>closer to the denser end</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.0315,
-      "question": "A fisherman pulling a shark towards a boat is an example where the centre of mass of the shark-boat system",
-      "options": [
-        "moves towards the shark",
-        "moves towards the boat",
-        "remains stationary",
-        "accelerates due to the pull"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The pull between the man and the shark is <b>internal</b> to the shark-boat system, so the <b>centre of mass remains stationary</b> (in the horizontal direction, neglecting external water drag).",
       "difficulty": "easy",
       "points": 1
     },
