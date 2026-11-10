@@ -1,18 +1,720 @@
 {
-  "quizId": "chm-101-uniniger-chemical-reaction-qvaj4v",
+  "quizId": "chm-101-uniniger-che-aeqzcl",
   "title": "CHM 101 ( UNINIGER ) : CHEMICAL REACTION",
-  "subject": "CHM 101 â€” CHM 101 Course",
+  "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793812351402.4785,
+      "question": "A chemical reaction is defined as the interaction of two or more chemicals to produce which result?",
+      "options": [
+        "Identical reactant molecules",
+        "Pure elemental substances",
+        "New chemical products",
+        "Energy without mass change"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A chemical reaction produces one or more new chemical products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.196,
+      "question": "In a chemical equation, the starting substances on the left-hand side are called which term?",
+      "options": [
+        "Reactants",
+        "Products",
+        "Catalysts",
+        "Intermediates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reactants are written on the left-hand side of a chemical equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.5498,
+      "question": "In a chemical equation, the end-result substances on the right-hand side are called which term?",
+      "options": [
+        "Reactants",
+        "Catalysts",
+        "Products",
+        "Intermediates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The products are the end-result written on the right-hand side of a chemical equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.3723,
+      "question": "The interaction of hydrogen and oxygen molecules to form water is an example of which process?",
+      "options": [
+        "Phase change",
+        "Chemical reaction",
+        "Nuclear decay",
+        "Simple mixing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formation of water from hydrogen and oxygen is a chemical reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.617,
+      "question": "Elements or compounds which interact to form new products are known by which term?",
+      "options": [
+        "Products",
+        "Reactants",
+        "Catalysts",
+        "Solvents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reactants are the elements or compounds that interact to form new products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.0015,
+      "question": "The length of time taken for a reaction to take place is referred to as which concept?",
+      "options": [
+        "Reaction rate",
+        "Reaction time",
+        "Activation time",
+        "Collision time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reaction time is the length of time taken for a reaction to take place.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.6343,
+      "question": "The speed at which reactants are used up or products are formed is known as which term?",
+      "options": [
+        "Reaction time",
+        "Reaction rate",
+        "Activation rate",
+        "Collision rate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reaction rate is the speed at which reactants are used up or products are formed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.421,
+      "question": "Reaction rate is the rate of change in the concentration of reactants per unit time at a particular temperature. This statement is which of the following?",
+      "options": [
+        "True",
+        "False",
+        "Sometimes true",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reaction rate is defined as the change in concentration of reactants per unit time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.4246,
+      "question": "The formula for the rate of reaction is expressed as change in concentration divided by which factor?",
+      "options": [
+        "Time taken",
+        "Mass of gas",
+        "Volume of liquid",
+        "Initial moles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rate of reaction is the change in concentration divided by the time taken for the change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.2024,
+      "question": "When 0.5g of Calcium trioxocarbonate reacts completely in 5 minutes, the rate of the reaction is calculated as which value?",
+      "options": [
+        "2.5 g/min",
+        "5.0 g/min",
+        "0.1 g/min",
+        "0.5 g/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The rate is calculated as 0.5g divided by 5 minutes, which equals 0.1 g/min.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.9114,
+      "question": "If 120cm³ of Oxygen is collected in 15 minutes, the rate of formation of Oxygen is which value?",
+      "options": [
+        "15 cm³ min⁻¹",
+        "8 cm³ min⁻¹",
+        "120 cm³ min⁻¹",
+        "2 cm³ min⁻¹"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rate is calculated as 120cm³ divided by 15 minutes, which equals 8 cm³ min⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.2249,
+      "question": "The formula for rate of reaction using volume is expressed as volume of reactants divided by which factor?",
+      "options": [
+        "Mass of gas",
+        "Initial moles",
+        "Change in mass",
+        "Time taken"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The rate of reaction using volume is the volume of reactants or products divided by the time taken.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.6816,
+      "question": "The theory stating that reactant particles must collide with a minimum amount of energy to form products is called which name?",
+      "options": [
+        "Collision theory",
+        "Kinetic theory",
+        "Atomic theory",
+        "Valence theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The collision theory states that particles must collide with a minimum amount of energy to form products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.5005,
+      "question": "The minimum amount of energy required by colliding particles to form products is called which term?",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Activation energy",
+        "Thermal energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Activation energy is the minimum amount of energy required by colliding particles to form products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.684,
+      "question": "If the energy of colliding particles is less than the activation energy, what happens to the particles?",
+      "options": [
+        "They react",
+        "They rebound",
+        "They dissolve",
+        "They evaporate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the energy is less than the activation energy, the particles merely rebound and no reaction occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.8672,
+      "question": "A reaction with low activation energy will take place spontaneously at which condition?",
+      "options": [
+        "High pressure",
+        "Boiling point",
+        "Freezing point",
+        "Room temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A reaction with low activation energy will take place spontaneously at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.426,
+      "question": "A reaction with a high activation energy requires an external supply of which forms of energy?",
+      "options": [
+        "Heat, light, or electrical energy",
+        "Chemical, nuclear, or thermal energy",
+        "Solar, geothermal, or tidal energy",
+        "Sound, wind, or mechanical energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A reaction with high activation energy requires energy usually in the form of heat, light or electrical energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.6245,
+      "question": "The addition of a catalyst to a reaction serves to do which of the following?",
+      "options": [
+        "Increase activation energy",
+        "Change equilibrium constant",
+        "Lower activation energy",
+        "Consume reactant mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The addition of a catalyst lowers the activation energy of a reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.2576,
+      "question": "The rate of a chemical reaction is determined by which general characteristic of the reactants?",
+      "options": [
+        "Physical state",
+        "Chemical nature",
+        "Color change",
+        "Molecular mass"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rate of a chemical reaction is determined by the chemical nature of the reactants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.909,
+      "question": "Ionic compounds usually react more rapidly than which other type of compounds?",
+      "options": [
+        "Metallic compounds",
+        "Covalent compounds",
+        "Polyatomic compounds",
+        "Organic compounds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ionic compounds usually react more rapidly than covalent compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.4094,
+      "question": "When a piece of zinc is placed in hydrochloric acid, the rapid evolution of gas is influenced by which factor?",
+      "options": [
+        "Nature of reactants",
+        "Presence of catalyst",
+        "Effect of pressure",
+        "Surface area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rapid reaction of zinc compared to iron demonstrates the effect of the nature of the reactants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.9534,
+      "question": "When a piece of gold is placed in hydrochloric acid, no reaction occurs, demonstrating the effect of which factor?",
+      "options": [
+        "Temperature",
+        "Pressure",
+        "Catalyst",
+        "Nature of reactants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gold not reacting at all demonstrates how the nature of the reactant determines if a reaction will occur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.4006,
+      "question": "In reactions, bonds are broken and formed. When an ionic compound is placed in water it undergoes which process?",
+      "options": [
+        "Melts",
+        "Dissociates",
+        "Precipitates",
+        "Sublimates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an ionic compound is placed in water it dissociates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.956,
+      "question": "It takes more energy to break which type of bonds?",
+      "options": [
+        "Ionic bonds",
+        "Metallic bonds",
+        "Covalent bonds",
+        "Hydrogen bonds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It takes more energy to break covalent bonds, which makes covalent compounds react more slowly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.3108,
+      "question": "An increase in the concentration of reactants leads to which change in the rate of reaction?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An increase in concentration increases the rate of chemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.7385,
+      "question": "Higher concentration increases the reaction rate because there is a greater number of which events?",
+      "options": [
+        "Molecular bonds",
+        "Energy barriers",
+        "Phase changes",
+        "Effective collisions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Higher concentration results in a greater number of effective collisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.3125,
+      "question": "Reactant particles will collide more frequently if they are crowded in which type of space?",
+      "options": [
+        "A large space",
+        "An open space",
+        "A small space",
+        "A vacuum space"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactant particles will collide more if they are crowded in a small space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.198,
+      "question": "As the temperature of reactants increases, the rate of chemical reaction undergoes which change?",
+      "options": [
+        "Decreases",
+        "Stops entirely",
+        "Remains unchanged",
+        "Increases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As the temperature of reactants increases, the rate of chemical reaction also increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351402.9746,
+      "question": "At an increased temperature, many more molecules obtain energy equal to or greater than which value?",
+      "options": [
+        "Activation energy",
+        "Kinetic energy",
+        "Potential energy",
+        "Thermal energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At increased temperature, many more molecules obtain energy equal to or greater than the activation energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.5054,
+      "question": "Reactions are generally faster at which temperature condition?",
+      "options": [
+        "Low temperatures",
+        "Freezing conditions",
+        "High temperatures",
+        "Constant pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactions are faster at high temperatures and slow at low temperatures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.4287,
+      "question": "An increase in the surface area of reactants causes the rate of reaction to change in which way?",
+      "options": [
+        "Decreases",
+        "Remains constant",
+        "Drops to zero",
+        "Increases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An increase in the surface area of the reactants increases the rate of its chemical reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.7744,
+      "question": "Reactions are faster when substances are in which physical form?",
+      "options": [
+        "Large lumps",
+        "Solid blocks",
+        "Powdered form",
+        "Thick sheets"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reactions are faster when the substances are in powdered or granulated form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.5046,
+      "question": "Reactions are slower when substances are in large lumps due to which factor?",
+      "options": [
+        "Larger volume",
+        "Smaller surface area",
+        "Higher density",
+        "Lower temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reactions are slower in large lumps due to a smaller surface area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.982,
+      "question": "A substance that alters the rate of a chemical reaction but remains chemically unchanged at the end is called which term?",
+      "options": [
+        "Reactant",
+        "Product",
+        "Catalyst",
+        "Solvent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A catalyst is a substance that alters the rate of a chemical reaction but remains chemically unchanged at the end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.641,
+      "question": "A positive catalyst increases the rate of a reaction by providing a different reaction pathway with which characteristic?",
+      "options": [
+        "Higher activation energy",
+        "Lower activation energy",
+        "Higher product energy",
+        "Lower reactant energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A positive catalyst provides a different reaction pathway with a lower energy of activation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.5042,
+      "question": "The introduction of a catalyst affects the activation energy by causing it to do which of the following?",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "Fluctuate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The introduction of a catalyst causes the activation energy to decrease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.4714,
+      "question": "Reactions that occur in the presence of sunlight are called which type of reactions?",
+      "options": [
+        "Thermal reactions",
+        "Photochemical reactions",
+        "Electrochemical reactions",
+        "Nuclear reactions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reactions that occur in the presence of sunlight are called photochemical reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.9792,
+      "question": "The decomposition of hydrogen peroxide is influenced by which factor?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Light",
+        "Mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The decomposition of hydrogen peroxide is influenced by light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.675,
+      "question": "The reaction between methane and chlorine will not occur in which condition?",
+      "options": [
+        "Light",
+        "Heat",
+        "Dark",
+        "Pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Some reactions, like the reaction between methane and chlorine, will not occur in the dark.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.3206,
+      "question": "An increase in pressure affects the rate of a reaction if one or more reactants are in which state of matter?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An increase in pressure affects the rate of a chemical reaction if one or more of the reactants are gases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.56,
+      "question": "Increasing the pressure of a gas at constant temperature leads to a decrease in which property?",
+      "options": [
+        "Mass",
+        "Volume",
+        "Moles",
+        "Density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Increasing the pressure of a given mass of gas at constant temperature leads to a decrease in volume.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.8853,
+      "question": "An increase in pressure enables gaseous reactants to collide more frequently, which leads to which outcome?",
+      "options": [
+        "Increased reaction rate",
+        "Decreased reaction rate",
+        "Constant reaction rate",
+        "Zero reaction rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An increase in pressure enables gaseous reactants to be in close contact and collide more frequently, increasing the reaction rate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.4167,
+      "question": "An exothermic reaction is a reaction in which heat is transferred in which direction?",
+      "options": [
+        "Absorbed from surroundings",
+        "Given off to surroundings",
+        "Retained in products",
+        "Consumed by reactants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An exothermic reaction is a reaction in which heat is given off to the surrounding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.8926,
+      "question": "In an exothermic reaction, the energy of the product Hp is lower than the energy of the reactant Hr, making the change in heat energy (ΔH) have which sign?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The energy change ΔH for an exothermic reaction is negative.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.822,
+      "question": "The formula for energy change is expressed as total energy of the product minus total energy of which?",
+      "options": [
+        "Reactant",
+        "Catalyst",
+        "Solvent",
+        "Product"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy change is Total energy of the Product minus Total energy of the Reactant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.3047,
+      "question": "A reaction in which energy is evolved or liberated in the form of heat energy is classified as which type?",
+      "options": [
+        "Endothermic",
+        "Exothermic",
+        "Isothermal",
+        "Adiabatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An exothermic reaction is one where energy is evolved or liberated in the form of heat energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.9917,
+      "question": "An energy barrier that must be overcome before a reaction can occur is known by which term?",
+      "options": [
+        "Kinetic energy",
+        "Activation energy",
+        "Potential energy",
+        "Thermal energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The activation energy of a reaction is an energy barrier that must be overcome before the reaction can occur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.3774,
+      "question": "If the activation energy of a reaction is too great, substances may not react at which condition?",
+      "options": [
+        "High pressure",
+        "Boiling point",
+        "Freezing point",
+        "Room temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If the activation energy is too great, substances may not react at room temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.8052,
+      "question": "An intermediate structure formed in the conversion of reactants to products is called which term?",
+      "options": [
+        "Transition state",
+        "Activated complex",
+        "Reaction intermediate",
+        "Final product"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The activated complex is an intermediate structure formed in the conversion of reactants to products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793812351403.6946,
+      "question": "The activated complex is located at which point on the reaction path?",
+      "options": [
+        "Minimum energy point",
+        "Maximum energy point",
+        "Zero energy point",
+        "Equilibrium point"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The activated complex is the structure at the maximum energy point along the reaction path.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
