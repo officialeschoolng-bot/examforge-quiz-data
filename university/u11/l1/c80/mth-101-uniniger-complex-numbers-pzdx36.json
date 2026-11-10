@@ -1,18 +1,720 @@
 {
-  "quizId": "mth-101-uniniger-complex-numbers-pzdx36",
+  "quizId": "mth-101-uniniger-com-hly2f9",
   "title": "MTH 101 ( UNINIGER ) : COMPLEX NUMBERS",
-  "subject": "MTH 101 â€” MTH 101 Course",
+  "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1793622881648.7224,
+      "question": "The value of i² is which of the following?",
+      "options": [
+        "1",
+        "i",
+        "-1",
+        "√(-1)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition i = √(-1), so i² = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.1333,
+      "question": "In a + bi, which variable represents the real part?",
+      "options": [
+        "b",
+        "i",
+        "a + b",
+        "a"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In standard form a + bi, a is the real part and b is the imaginary part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.586,
+      "question": "A complex number with a real part of zero is called which of the following?",
+      "options": [
+        "Purely real",
+        "Complex conjugate",
+        "Purely imaginary",
+        "Standard form"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the real part is zero, the complex number is purely imaginary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.5046,
+      "question": "The conjugate of the complex number a + bi is which of the following?",
+      "options": [
+        "-a + bi",
+        "a - bi",
+        "-a - bi",
+        "a + bi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The conjugate changes the sign of the imaginary part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.3484,
+      "question": "Which of the following is the conjugate of 5 - 3i?",
+      "options": [
+        "-5 + 3i",
+        "-5 - 3i",
+        "5 - 3i",
+        "5 + 3i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The conjugate of 5 - 3i is 5 + 3i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.0405,
+      "question": "The complex number 7i is classified as which of the following?",
+      "options": [
+        "Purely imaginary",
+        "Real number",
+        "Complex conjugate",
+        "Zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since the real part is zero, 7i is purely imaginary.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.904,
+      "question": "Which of the following is a real number?",
+      "options": [
+        "0 + 2i",
+        "4 - 3i",
+        "3 + 0i",
+        "i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A complex number with zero imaginary part is a real number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.6062,
+      "question": "The standard form of a complex number is which of the following?",
+      "options": [
+        "a - bi",
+        "a + bi",
+        "bi + a",
+        "a + b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard form is written as a + bi, where a and b are real.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.7617,
+      "question": "The imaginary part of the complex number 4 + 7i is which of the following?",
+      "options": [
+        "4",
+        "7i",
+        "i",
+        "7"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In a + bi, b is the imaginary part, so here it is 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.548,
+      "question": "Which of the following represents the conjugate of 12 - i/2?",
+      "options": [
+        "-12 + i/2",
+        "-12 - i/2",
+        "12 + i/2",
+        "12 - i/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conjugate changes the sign of the imaginary part, giving 12 + i/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.1428,
+      "question": "The square root of -9 can be written as which of the following?",
+      "options": [
+        "3i",
+        "-3i",
+        "9i",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The principal square root is √(-9) = √9√(-1) = 3i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.491,
+      "question": "When the imaginary part of a complex number is zero, the number is which of the following?",
+      "options": [
+        "Purely imaginary",
+        "Undefined",
+        "Complex conjugate",
+        "Real"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If b = 0 in a + bi, the number is a real number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.6538,
+      "question": "The conjugate of a real number is which of the following?",
+      "options": [
+        "Itself",
+        "Zero",
+        "Its negative",
+        "Purely imaginary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The conjugate of a real number a is a, since there is no imaginary part to change sign.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.955,
+      "question": "The complex number 0 + 0i is classified as which of the following?",
+      "options": [
+        "Purely imaginary",
+        "A real number",
+        "Undefined",
+        "Not a complex number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since the imaginary part is zero, it is a real number, specifically zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.4448,
+      "question": "The expression √(-100) simplifies to which of the following?",
+      "options": [
+        "-10i",
+        "10i",
+        "100i",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "√(-100) = √100√(-1) = 10i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.9077,
+      "question": "The conjugate of 9 + 15i is which of the following?",
+      "options": [
+        "9 - 15i",
+        "-9 + 15i",
+        "-9 - 15i",
+        "9 + 15i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The conjugate changes the sign of the imaginary part, giving 9 - 15i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.4744,
+      "question": "Which of the following is the conjugate of -20i + 19?",
+      "options": [
+        "20i + 19",
+        "-20i - 19",
+        "20i - 19",
+        "-20i + 19"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as 19 - 20i; the conjugate is 19 + 20i, which is 20i + 19.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.504,
+      "question": "The expression √(-5) simplifies to which of the following?",
+      "options": [
+        "-5i",
+        "5i",
+        "i√5",
+        "√5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "√(-5) = √5√(-1) = i√5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.0894,
+      "question": "To add two complex numbers, you add which parts separately?",
+      "options": [
+        "Only real parts",
+        "Only imaginary parts",
+        "Real parts and imaginary parts",
+        "Real parts and multiply imaginary parts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Addition involves adding the real parts together and the imaginary parts together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.6294,
+      "question": "The sum of -4 + 7i and 5 - 10i is which of the following?",
+      "options": [
+        "-9 + 17i",
+        "1 + 3i",
+        "-1 - 3i",
+        "1 - 3i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Add real parts: -4 + 5 = 1; add imaginary parts: 7i - 10i = -3i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.8655,
+      "question": "The result of 4 + 12i minus 3 - 15i is which of the following?",
+      "options": [
+        "1 - 3i",
+        "1 + 27i",
+        "7 - 3i",
+        "7 + 27i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subtract real parts: 4 - 3 = 1; subtract imaginary parts: 12i - (-15i) = 27i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.434,
+      "question": "The expression 5i - (-9 + i) simplifies to which of the following?",
+      "options": [
+        "9 + 4i",
+        "9 + 6i",
+        "-9 + 4i",
+        "-9 + 6i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "5i - (-9 + i) = 5i + 9 - i = 9 + 4i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.4297,
+      "question": "When subtracting complex numbers, the operation is performed by subtracting which components?",
+      "options": [
+        "Only real parts",
+        "Only imaginary parts",
+        "Real parts and adding imaginary parts",
+        "Real parts and imaginary parts"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Subtraction is done by subtracting real parts and subtracting imaginary parts separately.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.2922,
+      "question": "The sum of 2 + i and 3 - 2i is which of the following?",
+      "options": [
+        "5 + 3i",
+        "1 - i",
+        "5 - i",
+        "1 + 3i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Add real parts: 2 + 3 = 5; add imaginary parts: i - 2i = -i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.6326,
+      "question": "The expression 45 - 22i minus 10 - 7i equals which of the following?",
+      "options": [
+        "35 + 15i",
+        "55 - 15i",
+        "55 + 15i",
+        "35 - 15i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Subtract real parts: 45 - 10 = 35; subtract imaginary parts: -22i - (-7i) = -15i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.2478,
+      "question": "The expression 17 - (1 - i) simplifies to which of the following?",
+      "options": [
+        "16 - i",
+        "16 + i",
+        "18 + i",
+        "18 - i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "17 - (1 - i) = 17 - 1 + i = 16 + i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.076,
+      "question": "The expression i - (2 + 6i) simplifies to which of the following?",
+      "options": [
+        "-2 - 5i",
+        "-2 + 5i",
+        "2 - 5i",
+        "2 + 5i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "i - (2 + 6i) = i - 2 - 6i = -2 - 5i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.3994,
+      "question": "The expression 0 - (11 + 13i) simplifies to which of the following?",
+      "options": [
+        "11 + 13i",
+        "11 - 13i",
+        "-11 + 13i",
+        "-11 - 13i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "0 - (11 + 13i) = -11 - 13i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.0762,
+      "question": "When multiplying complex numbers, i² is replaced by which value?",
+      "options": [
+        "1",
+        "i",
+        "-1",
+        "√(-1)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fundamental property is i² = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.9348,
+      "question": "The product 7i(-5 + 2i) simplifies to which of the following?",
+      "options": [
+        "-14 - 35i",
+        "-14 + 35i",
+        "14 - 35i",
+        "14 + 35i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "7i(-5) = -35i and 7i(2i) = 14i² = -14, so the result is -14 - 35i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.4058,
+      "question": "The product (1 - 5i)(-9 + 2i) equals which of the following?",
+      "options": [
+        "1 - 47i",
+        "-9 + 47i",
+        "-9 - 47i",
+        "1 + 47i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Expanding gives -9 + 2i + 45i - 10i² = 1 + 47i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.3298,
+      "question": "The product (4 + i)(2 + 3i) simplifies to which of the following?",
+      "options": [
+        "5 - 14i",
+        "5 + 14i",
+        "8 + 14i",
+        "8 - 14i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expanding gives 8 + 12i + 2i + 3i² = 5 + 14i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.8523,
+      "question": "When a complex number is multiplied by its conjugate, the result is always which of the following?",
+      "options": [
+        "A purely imaginary number",
+        "Zero",
+        "A real number",
+        "The original number"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(a + bi)(a - bi) = a² + b², which is real.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.2195,
+      "question": "The product (1 - 8i)(1 + 8i) is which of the following?",
+      "options": [
+        "63",
+        "-63",
+        "-65",
+        "65"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Expanding gives 1 - 64i² = 1 + 64 = 65.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.643,
+      "question": "To write the quotient (3 - i)/(2 + 7i) in standard form, multiply numerator and denominator by which expression?",
+      "options": [
+        "2 - 7i",
+        "2 + 7i",
+        "3 + i",
+        "3 - i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply by the conjugate of the denominator, which is 2 - 7i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.9932,
+      "question": "The quotient 3/(9 - i) written in standard form is which of the following?",
+      "options": [
+        "27/82 - 3i/82",
+        "3/82 + 27i/82",
+        "27/82 + 3i/82",
+        "3/82 - 27i/82"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Multiply by (9 + i)/(9 + i) to get (27 + 3i)/82.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.0442,
+      "question": "The quotient (6 - 9i)/(2i) simplifies to which of the following?",
+      "options": [
+        "-9/2 + 3i",
+        "-9/2 - 3i",
+        "9/2 - 3i",
+        "9/2 + 3i"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Split the fraction and use 3/i = -3i to get -9/2 - 3i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.5613,
+      "question": "The powers of i repeat every how many exponents?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and the pattern repeats every 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.7964,
+      "question": "The expression √(-36) equals which of the following?",
+      "options": [
+        "-6i",
+        "36i",
+        "6",
+        "6i"
+      ],
+      "correctAnswer": 3,
+      "explanation": "√(-36) = √36√(-1) = 6i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.1423,
+      "question": "When multiplying expressions containing square roots of negative numbers, the first step should be to convert them to which form?",
+      "options": [
+        "Real numbers",
+        "Complex numbers",
+        "Polar coordinates",
+        "Trigonometric form"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convert square roots of negative numbers to complex numbers before multiplying to avoid errors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.7107,
+      "question": "The product (2 - 7i)(3 + 4i) simplifies to which of the following?",
+      "options": [
+        "34 - 13i",
+        "34 + 13i",
+        "6 - 28i",
+        "6 + 28i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expanding gives 6 + 8i - 21i - 28i² = 34 - 13i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.8074,
+      "question": "The product -3(4 + 2i) simplifies to which of the following?",
+      "options": [
+        "-12 - 6i",
+        "-12 + 6i",
+        "12 - 6i",
+        "12 + 6i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distribute -3 to get -12 - 6i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.1187,
+      "question": "The expression 1/i simplifies to which of the following?",
+      "options": [
+        "i",
+        "-i",
+        "1",
+        "-1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply numerator and denominator by i to get i/i² = -i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.3154,
+      "question": "The expression 3/(1 + i) simplifies to which of the following?",
+      "options": [
+        "3/2 - 3i/2",
+        "3/2 + 3i/2",
+        "3 - 3i",
+        "3 + 3i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply by (1 - i)/(1 - i) to get (3 - 3i)/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.549,
+      "question": "In polar coordinates, a point is represented by which ordered pair?",
+      "options": [
+        "(x, y)",
+        "(θ, r)",
+        "(r, θ)",
+        "(a, b)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polar coordinates use (r, θ), where r is distance and θ is angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.3582,
+      "question": "The conversion from polar to rectangular coordinates uses which equations?",
+      "options": [
+        "x = r sin θ, y = r cos θ",
+        "x = r tan θ, y = r cot θ",
+        "x = r cos θ, y = r tan θ",
+        "x = r cos θ, y = r sin θ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The standard transformation is x = r cos θ and y = r sin θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.7212,
+      "question": "The point (2, π) in polar coordinates converts to which rectangular coordinates?",
+      "options": [
+        "(-2, 0)",
+        "(2, 0)",
+        "(0, 2)",
+        "(0, -2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x = 2 cos π = -2 and y = 2 sin π = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.5117,
+      "question": "The point (5, π/2) in polar coordinates converts to which rectangular coordinates?",
+      "options": [
+        "(5, 0)",
+        "(0, 5)",
+        "(0, -5)",
+        "(-5, 0)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x = 5 cos(π/2) = 0 and y = 5 sin(π/2) = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.1162,
+      "question": "The rectangular coordinates (1, 1) convert to which polar coordinates?",
+      "options": [
+        "(√2, 3π/4)",
+        "(2, π/4)",
+        "(√2, π/4)",
+        "(2, 3π/4)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "r = √(1² + 1²) = √2 and tan θ = 1, so θ = π/4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1793622881651.893,
+      "question": "The point (0, 2) in rectangular coordinates converts to which polar coordinates?",
+      "options": [
+        "(2, 0)",
+        "(2, π)",
+        "(2, 3π/2)",
+        "(2, π/2)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "r = 2, and since x = 0 and y > 0, θ = π/2.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
