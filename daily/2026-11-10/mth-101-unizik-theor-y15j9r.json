@@ -3,16 +3,718 @@
   "title": "MTH 101 ( UNIZIK ) : THEORY OF LOGARITHMS",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794323555309.2776,
+      "question": "The relationship between the equation bˣ = N and logarithms is expressed as which equation?",
+      "options": [
+        "N = logᵦ x",
+        "x = logᵦ N",
+        "b = logₓ N",
+        "x = logₙ b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The definition of logarithm states that bˣ = N is equivalent to x = logᵦ N.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.8975,
+      "question": "The logarithm of any number to its own base evaluates to which value?",
+      "options": [
+        "Zero",
+        "The number itself",
+        "One",
+        "Ten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A fundamental property states that logᵦ b = 1 for any valid base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.4067,
+      "question": "The logarithm of one to any base evaluates to which value?",
+      "options": [
+        "One",
+        "Zero",
+        "The base",
+        "Negative one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A special case under the power law states that logᵦ 1 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.0247,
+      "question": "Given that 10² = 100, the expression in logarithmic form is which of the following?",
+      "options": [
+        "100 = log₁₀ 2",
+        "10 = log₁₀₀ 2",
+        "2 = log₁₀ 100",
+        "2 = log₁₀₀ 10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Converting the index form 10² = 100 to logarithm gives 2 = log₁₀ 100.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.6245,
+      "question": "Given that 2⁶ = 64, the expression in logarithmic form is which of the following?",
+      "options": [
+        "6 = log₂ 64",
+        "64 = log₂ 6",
+        "2 = log₆₄ 6",
+        "6 = log₆₄ 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Converting the index form 2⁶ = 64 to logarithm gives 6 = log₂ 64.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.1282,
+      "question": "Expressing 4ˣ = 256 in logarithmic form yields which equation?",
+      "options": [
+        "256 = log₄ x",
+        "4 = logₓ 256",
+        "x = log₂₅₆ 4",
+        "x = log₄ 256"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The index equation 4ˣ = 256 is equivalent to x = log₄ 256.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.2878,
+      "question": "Given that log₃ S = 1/2, the value of S is which of the following?",
+      "options": [
+        "3",
+        "9",
+        "Square root of 3",
+        "One third"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Converting the logarithm to indices gives S = 3^(1/2), which is the square root of 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.9875,
+      "question": "The value of x in the equation log₂ x = 3 is which of the following?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Converting to index form gives x = 2³, which evaluates to 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.2012,
+      "question": "The value of x in the equation log₅ x = 2 is which of the following?",
+      "options": [
+        "10",
+        "32",
+        "7",
+        "25"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Converting to index form gives x = 5², which evaluates to 25.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.3022,
+      "question": "The value of x in the equation log₁₀ x = −1 is which of the following?",
+      "options": [
+        "0.1",
+        "10",
+        "−10",
+        "−1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Converting to index form gives x = 10⁻¹, which equals 0.1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.2405,
+      "question": "The law of logarithm for a product logᵦ(mn) is equivalent to which expression?",
+      "options": [
+        "logᵦ m − logᵦ n",
+        "logᵦ m + logᵦ n",
+        "logᵦ m × logᵦ n",
+        "logᵦ m ÷ logᵦ n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first law of logarithm states that the logarithm of a product is the sum of the logarithms of the factors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.17,
+      "question": "The law of logarithm for a quotient logᵦ(m/n) is equivalent to which expression?",
+      "options": [
+        "logᵦ m + logᵦ n",
+        "logᵦ m × logᵦ n",
+        "logᵦ m ÷ logᵦ n",
+        "logᵦ m − logᵦ n"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The second law of logarithm states that the logarithm of a quotient is the difference of the logarithms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.5847,
+      "question": "The power law of logarithm states that logᵦ(Nᵏ) is equivalent to which expression?",
+      "options": [
+        "N logᵦ k",
+        "k + logᵦ N",
+        "k logᵦ N",
+        "logᵦ N ÷ k"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The third law of logarithm allows bringing the exponent to the front as a multiplier.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.594,
+      "question": "Applying the laws of logarithm, log₁₀ 30 simplifies to which expression?",
+      "options": [
+        "log₁₀ 6 + log₁₀ 5",
+        "log₁₀ 6 − log₁₀ 5",
+        "log₁₀ 6 × log₁₀ 5",
+        "log₁₀ 6 ÷ log₁₀ 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The product law allows log₁₀ 30 to be written as the sum of log₁₀ 6 and log₁₀ 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.3154,
+      "question": "Applying the laws of logarithm, log₂ 72 simplifies to which expression?",
+      "options": [
+        "log₂ 8 − log₂ 9",
+        "log₂ 8 × log₂ 9",
+        "log₂ 8 + log₂ 9",
+        "log₂ 8 ÷ log₂ 9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The product law allows log₂ 72 to be written as the sum of log₂ 8 and log₂ 9.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.197,
+      "question": "Simplifying the expression log₃ 9 + log₃ 27 using the laws of logarithm yields which result?",
+      "options": [
+        "log₃ 36",
+        "log₃ 3",
+        "log₃ 18",
+        "log₃ 243"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The product law combines the sum into log₃(9 × 27), which is log₃ 243.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.714,
+      "question": "Applying the laws of logarithm, log₁₀(100/3) simplifies to which expression?",
+      "options": [
+        "log₁₀ 100 − log₁₀ 3",
+        "log₁₀ 100 + log₁₀ 3",
+        "log₁₀ 100 × log₁₀ 3",
+        "log₁₀ 100 ÷ log₁₀ 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The quotient law allows log₁₀(100/3) to be written as the difference of log₁₀ 100 and log₁₀ 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.6643,
+      "question": "Applying the laws of logarithm, log₆(36/17) simplifies to which expression?",
+      "options": [
+        "log₆ 36 + log₆ 17",
+        "log₆ 36 − log₆ 17",
+        "log₆ 36 × log₆ 17",
+        "log₆ 36 ÷ log₆ 17"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The quotient law allows log₆(36/17) to be written as the difference of log₆ 36 and log₆ 17.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.583,
+      "question": "Simplifying the expression log₃ 81 − log₃ 9 using the laws of logarithm yields which result?",
+      "options": [
+        "log₃ 72",
+        "log₃ 729",
+        "log₃ 9",
+        "log₃ 3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The quotient law combines the difference into log₃(81 ÷ 9), which is log₃ 9.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.1255,
+      "question": "The expression logᵦ(Nᵏ) can be simplified to which of the following?",
+      "options": [
+        "N logᵦ k",
+        "logᵦ N + k",
+        "logᵦ N − k",
+        "k logᵦ N"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The power law allows the exponent k to be written as a multiplier in front of the logarithm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.8691,
+      "question": "Evaluating the expression log₄(1/64) yields which value?",
+      "options": [
+        "−2",
+        "3",
+        "2",
+        "−3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since 1/64 = 4⁻³, the logarithm evaluates to −3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.9775,
+      "question": "Evaluating the expression log base 1/2 of 32 yields which value?",
+      "options": [
+        "5",
+        "−2",
+        "−5",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 32 = (1/2)⁻⁵, the logarithm evaluates to −5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.4053,
+      "question": "Simplifying the expression log 49 divided by log 343 yields which value?",
+      "options": [
+        "3/2",
+        "1/2",
+        "2",
+        "2/3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Expressing both numbers as powers of 7 allows cancelling to get 2/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.4443,
+      "question": "Simplifying the expression log₂(27/4) − log₂(9/8) + log₂(1/24) yields which value?",
+      "options": [
+        "−1",
+        "1",
+        "−2",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combining the logarithms into a single fraction and simplifying yields log₂(1/4), which is −2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.0022,
+      "question": "Evaluating the expression log₇(49ⁿ) − log₁₀(0.01) yields which expression?",
+      "options": [
+        "2n − 2",
+        "n + 2",
+        "2n + 2",
+        "n − 2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Simplifying both terms gives 2n and 2 respectively, resulting in 2n + 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.272,
+      "question": "Simplifying the expression (log₁₀ 8 − log₁₀ 4) / (log₁₀ 4 − log₁₀ 2) yields which value?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Applying the quotient law to both numerator and denominator results in log₁₀ 2 / log₁₀ 2, which equals 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.4062,
+      "question": "Simplifying the expression 2log(2/5) − log(72/125) + log 9 yields which expression?",
+      "options": [
+        "1 + 2log 2",
+        "1 − 2log 2",
+        "1 − 4log 3",
+        "−1 + 2log 3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combining the terms and simplifying the fraction yields log(10/4), which expands to 1 − 2log 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.6687,
+      "question": "Evaluating log₅(0.04) divided by (log₃ 18 − log₃ 2) yields which value?",
+      "options": [
+        "1",
+        "−2",
+        "2",
+        "−1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The numerator simplifies to −2 and the denominator to 2, giving a final result of −1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.852,
+      "question": "Simplifying the expression log₂ 96 − 2log₂ 6 yields which expression?",
+      "options": [
+        "3 + log₂ 3",
+        "3 − log₂ 3",
+        "2 − log₂ 3",
+        "1 − log₂ 3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combining into a single logarithm gives log₂(8/3), which expands to 3 − log₂ 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.403,
+      "question": "Evaluating the expression log₄ 0.3 − log₄ 0.48 + log₄ 0.05 yields which value?",
+      "options": [
+        "−8",
+        "−2/5",
+        "−5/2",
+        "−1/8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combining terms gives log₄(1/32), and changing base to 2 yields −5/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.3882,
+      "question": "Evaluating the expression log base 0.20 of 125 yields which value?",
+      "options": [
+        "−2",
+        "2",
+        "3",
+        "−3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Expressing 125 as 5³ and 0.20 as 1/5, the logarithm evaluates to −3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.2153,
+      "question": "Using logarithm tables, evaluating log(0.65)² yields which value?",
+      "options": [
+        "0.6258",
+        "1.6258",
+        "1.6272",
+        "0.6272"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Squaring doubles the logarithm, giving a characteristic of 1 bar and mantissa 1.6258.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.6362,
+      "question": "Finding the number whose logarithm to base 10 is 2.6025 yields which value?",
+      "options": [
+        "40.04",
+        "4.004",
+        "400.4",
+        "0.4004"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The antilogarithm of 2.6025 gives 400.4, based on the characteristic indicating the decimal placement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555311.4,
+      "question": "Evaluating the expression log base sqrt 2 of 4 + log base 1/2 of 16 − log₄ 32 yields which value?",
+      "options": [
+        "2.5",
+        "−5.5",
+        "5.5",
+        "−2.5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Changing all bases to 2 and simplifying the terms yields 4 − 4 − 2.5 = −2.5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.7375,
+      "question": "Finding the value of log₂ 4 + log₄ 2 − log₂₅ 5 yields which result?",
+      "options": [
+        "0",
+        "sqrt 5",
+        "5",
+        "2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The terms simplify to 2 + 1/2 − 1/2, which equals 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.099,
+      "question": "The formula for changing the base of logₐ N is expressed as which of the following?",
+      "options": [
+        "logᵦ a ÷ logᵦ N",
+        "logᵦ N × logᵦ a",
+        "logᵦ N ÷ logᵦ a",
+        "logᵦ(N/a)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The change of base formula states that logₐ N is equal to logᵦ N divided by logᵦ a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.6948,
+      "question": "Evaluating the expression log base 0.25 of 32 yields which value?",
+      "options": [
+        "2.5",
+        "−2.5",
+        "−0.4",
+        "0.4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Changing the base to 2 gives log₂ 32 / log₂ 0.25, which is 5 / −2 = −2.5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.5557,
+      "question": "Evaluating the expression log₄ 32 yields which value?",
+      "options": [
+        "2",
+        "2.5",
+        "1.5",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Changing the base to 2 gives log₂ 32 / log₂ 4, which is 5 / 2 = 2.5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.188,
+      "question": "Solving for x in the equation log₉ x = 1.5 yields which value?",
+      "options": [
+        "72",
+        "36",
+        "27",
+        "24.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Converting the logarithm to index form gives x = 9^1.5, which equals 27.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.0613,
+      "question": "Given that logₓ 256 = 2, the value of log base 1/8 of 16 is which of the following?",
+      "options": [
+        "−1",
+        "−4/3",
+        "−1/12",
+        "3/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solving logₓ 256 = 2 gives x = 16, and then changing the base of log base 1/8 of 16 gives −4/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555312.2295,
+      "question": "Given that x = log 2 and y = log 3, the expression log cuberoot 72 in terms of x and y is which of the following?",
+      "options": [
+        "2/3 x + y",
+        "x − 2/3 y",
+        "x + 2/3 y",
+        "2/3 x − y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Simplifying log cuberoot 72 yields 1/3(log 8 + log 9) = 1/3(3x + 2y) = x + 2/3 y.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.9014,
+      "question": "If log₁₀ 2 = 0.3010 and log₁₀ 3 = 0.4771, evaluating log₁₀ 4.5 gives which value?",
+      "options": [
+        "0.3010",
+        "0.4771",
+        "0.9542",
+        "0.6532"
+      ],
+      "correctAnswer": 3,
+      "explanation": "log₁₀ 4.5 = log₁₀(9/2) = 2log₁₀ 3 − log₁₀ 2, which gives 0.6532.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.2654,
+      "question": "Given log₁₀ 7 = x and log₁₀ 2 = y, the value of log₁₀ 35 is which expression?",
+      "options": [
+        "x + y − 1",
+        "x/y + 1",
+        "x − y",
+        "x − y + 1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "log₁₀ 35 = log₁₀(7 × 10 / 2) = log₁₀ 7 + log₁₀ 10 − log₁₀ 2 = x − y + 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.3223,
+      "question": "Given log₁₀ y = 2 and log₁₀ 2x = 1, evaluating the expression (log₁₀ sqrt y) / (3x) yields which value?",
+      "options": [
+        "2sqrt 2/3",
+        "10/3",
+        "1/15",
+        "3sqrt 2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Solving the equations gives y = 100 and x = 5, so (log₁₀ 10)/(15) = 1/15.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.1167,
+      "question": "Given that log₁₀ q = 2.7078, the value of q is which of the following?",
+      "options": [
+        "5102",
+        "849.9",
+        "84.99",
+        "510.2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Finding the antilogarithm of 2.7078 gives 510.2, using the characteristic to place the decimal point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.92,
+      "question": "Solving for x in the equation log₂ x⁴ + log₂ x = 5 yields which value?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Applying the product law gives log₂(x⁵) = 5, leading to x⁵ = 32 and x = 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.3967,
+      "question": "Solving for x in the equation log₂ x + log₃ 81 = 1 yields which value?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/16",
+        "1/8"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since log₃ 81 = 4, the equation becomes log₂ x = −3, giving x = 2⁻³ = 1/8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.3513,
+      "question": "Solving for x in the equation log₂(5x − 6) + log₂(2x + 3) = log₂(10x² − 3x − 5) yields which value?",
+      "options": [
+        "6/13",
+        "13/6",
+        "5/2",
+        "2/5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equating the arguments after applying the product law yields a linear equation that solves to 13/6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.9119,
+      "question": "Solving for x and y in the equations 8ʸ = 4²ˣ⁺⁵ and log₃ y = log₃ x + 2 yields which values?",
+      "options": [
+        "x = 10/23, y = 23/90",
+        "x = 23/10, y = 90/23",
+        "x = 10/23, y = 90/23",
+        "x = 23/10, y = 23/90"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equating powers and substituting y = 9x gives x = 10/23 and y = 90/23.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794323555313.0364,
+      "question": "Solving the equation log₁₀(4P² + 1) − 2log₁₀ P − log₁₀ 2 = 1 yields which value for P?",
+      "options": [
+        "1/2",
+        "1/8",
+        "2",
+        "1/4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Simplifying gives (4P² + 1)/(2P²) = 10, leading to 16P² = 1, so P = 1/4.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
