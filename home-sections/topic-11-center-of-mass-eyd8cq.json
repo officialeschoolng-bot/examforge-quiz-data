@@ -3,16 +3,578 @@
   "title": "Topic 11: Center of Mass",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1794305475414.701,
+      "question": "The point at which the entire mass of a system may be considered to be concentrated for the purpose of describing translational motion is called the",
+      "options": [
+        "centre of gravity",
+        "centre of mass",
+        "centroid of volume",
+        "point of equilibrium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>centre of mass</b> is the point where the entire mass of a system may be considered concentrated for describing translational motion. The centre of gravity (A) is the point where weight acts and coincides with the centre of mass only in a uniform gravitational field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.8638,
+      "question": "For a system of discrete particles, the position vector of the centre of mass is obtained by dividing the sum of the moments of mass by the",
+      "options": [
+        "total mass of the system",
+        "number of particles",
+        "largest mass in the system",
+        "average mass of the particles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The centre of mass is <b>r<sub>CM</sub> = (Σm<sub>i</sub>r<sub>i</sub>) ÷ M</b>, where M is the <b>total mass</b> of the system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.4448,
+      "question": "The centre of mass of a uniform thin rod lies",
+      "options": [
+        "at one end of the rod",
+        "at the midpoint of the rod",
+        "at one-third of its length",
+        "outside the rod"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a uniform thin rod, the mass is distributed symmetrically, so the centre of mass lies at the <b>midpoint</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.3423,
+      "question": "For a homogeneous solid sphere, the centre of mass coincides with its",
+      "options": [
+        "surface point",
+        "geometric centre",
+        "lowest point",
+        "point of suspension"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A homogeneous solid sphere is spherically symmetric, so its centre of mass coincides with its <b>geometric centre</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.4338,
+      "question": "Which statement is true about the centre of mass of a doughnut-shaped object?",
+      "options": [
+        "It lies on the material of the object.",
+        "It lies at the centre of the hole.",
+        "It is undefined for such objects.",
+        "It lies on the outer edge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mass of a doughnut (torus) is symmetrically distributed about its axis, so its centre of mass lies at the <b>centre of the hole</b> — a point not on the material itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.7427,
+      "question": "If the net external force acting on a system is zero, the centre of mass of the system",
+      "options": [
+        "must be at rest",
+        "moves with constant velocity",
+        "accelerates uniformly",
+        "follows a circular path"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton's second law for the system, F<sub>ext</sub> = Ma<sub>CM</sub>. Zero net external force gives zero acceleration, so the centre of mass <b>moves with constant velocity</b> (possibly zero).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.5806,
+      "question": "The motion of the centre of mass of a system is determined only by",
+      "options": [
+        "the internal forces between particles",
+        "the net external force acting on the system",
+        "the total kinetic energy of the system",
+        "the relative positions of the particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of mass moves as if all external forces acted on the total mass there; internal forces cancel in pairs. So its motion is determined only by the <b>net external force</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.7417,
+      "question": "When an external force acts on a system of particles, the centre of mass accelerates as if",
+      "options": [
+        "the force were applied to the most massive particle",
+        "the entire mass were concentrated at that point",
+        "the force were distributed equally among all particles",
+        "no internal forces were present"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of mass accelerates as if the <b>entire mass of the system were concentrated there</b> and the net external force acted on it (F<sub>ext</sub> = Ma<sub>CM</sub>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.485,
+      "question": "In a uniform gravitational field, the centre of gravity of a body",
+      "options": [
+        "always lies above the centre of mass",
+        "always lies below the centre of mass",
+        "coincides with the centre of mass",
+        "is independent of the mass distribution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a <b>uniform gravitational field</b>, the same g acts on every element, so the centre of gravity <b>coincides with the centre of mass</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.8545,
+      "question": "The centre of gravity and the centre of mass of a body can differ when",
+      "options": [
+        "the body is very large",
+        "the gravitational field is non-uniform",
+        "the body is rotating",
+        "the body is in free fall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the <b>gravitational field is non-uniform</b> (e.g. a very tall object), different parts of the body experience different g, so the centre of gravity no longer coincides with the centre of mass.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.3394,
+      "question": "For a system of two particles of unequal masses, the centre of mass lies",
+      "options": [
+        "exactly midway between them",
+        "closer to the heavier particle",
+        "closer to the lighter particle",
+        "outside the line joining them"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of mass is a mass-weighted average, so it lies on the line joining them and is <b>closer to the heavier particle</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.8542,
+      "question": "The centre of mass of a uniform circular ring lies",
+      "options": [
+        "on the circumference of the ring",
+        "at the centre of the ring",
+        "at a point outside the ring",
+        "at any point on the ring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mass of a uniform circular ring is symmetrically distributed about its centre, so the centre of mass lies at the <b>centre of the ring</b> (not on the material).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.406,
+      "question": "Which of the following is true about the centre of mass of a system of particles?",
+      "options": [
+        "It must coincide with one of the particles.",
+        "It always lies within the convex hull of the particles.",
+        "It is always at the geometric centre.",
+        "It depends on the choice of origin."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of mass is a mass-weighted average of positions, so it always lies <b>within the convex hull of the particles</b>. It need not coincide with a particle or be at the geometric centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.5718,
+      "question": "The position of the centre of mass of a system of particles is independent of",
+      "options": [
+        "the masses of the particles",
+        "the positions of the particles",
+        "the choice of coordinate origin",
+        "the number of particles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The centre of mass is a physical point; its position is <b>independent of the choice of coordinate origin</b>. Its coordinates depend on masses and positions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.5364,
+      "question": "For a continuous mass distribution, the sum in the centre of mass formula is replaced by",
+      "options": [
+        "a derivative",
+        "an integral",
+        "a product",
+        "a limit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a continuous distribution, the discrete sum becomes an <b>integral</b>: r<sub>CM</sub> = (1 ÷ M)∫r dm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.856,
+      "question": "A non-uniform rod has a linear mass density that increases from one end to the other. Its centre of mass will be",
+      "options": [
+        "at the midpoint",
+        "closer to the denser end",
+        "closer to the lighter end",
+        "outside the rod"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centre of mass is a mass-weighted average, so it is <b>closer to the denser end</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.4463,
+      "question": "In the method of negative mass, a hole in a uniform plate is treated as",
+      "options": [
+        "a region of zero density",
+        "a positive mass added to the plate",
+        "a negative mass subtracted from the plate",
+        "a separate object with its own centre of mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the <b>method of negative mass</b>, a hole is treated as a <b>negative mass subtracted</b> from the full plate, which allows the centre of mass of the remaining portion to be found.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.0315,
+      "question": "A fisherman pulling a shark towards a boat is an example where the centre of mass of the shark-boat system",
+      "options": [
+        "moves towards the shark",
+        "moves towards the boat",
+        "remains stationary",
+        "accelerates due to the pull"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pull between the man and the shark is <b>internal</b> to the shark-boat system, so the <b>centre of mass remains stationary</b> (in the horizontal direction, neglecting external water drag).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.5818,
+      "question": "When a shell explodes in mid-air, the centre of mass of the fragments",
+      "options": [
+        "stops moving",
+        "follows the same parabolic path as before explosion",
+        "moves in a straight line",
+        "falls vertically downward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An explosion is an internal event; the net external force (gravity) is unchanged, so the <b>centre of mass follows the same parabolic path</b> as before.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.8335,
+      "question": "Two blocks connected by a compressed spring are thrown into the air. At the highest point, the spring is released. The centre of mass of the system after release",
+      "options": [
+        "changes direction abruptly",
+        "continues on the original parabolic path",
+        "moves horizontally",
+        "falls straight down"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Releasing the spring involves only internal forces, so the <b>centre of mass continues on the original parabolic path</b> under gravity alone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.1858,
+      "question": "The velocity of the centre of mass of a system is given by the mass-weighted average of the",
+      "options": [
+        "positions of the particles",
+        "velocities of the particles",
+        "accelerations of the particles",
+        "forces on the particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>v<sub>CM</sub> = (Σm<sub>i</sub>v<sub>i</sub>) ÷ M</b>, which is the mass-weighted average of the particles' <b>velocities</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.3103,
+      "question": "The acceleration of the centre of mass of a system is equal to the net external force divided by",
+      "options": [
+        "the total mass of the system",
+        "the mass of the heaviest particle",
+        "the number of particles",
+        "the average mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton's second law for a system: <b>a<sub>CM</sub> = F<sub>ext</sub> ÷ M</b>, where M is the <b>total mass</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.6077,
+      "question": "If the net external force on a system is zero, the acceleration of the centre of mass is",
+      "options": [
+        "zero",
+        "constant but non-zero",
+        "equal to the acceleration of the heaviest particle",
+        "equal to the sum of internal accelerations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "With F<sub>ext</sub> = 0, a<sub>CM</sub> = F<sub>ext</sub> ÷ M = <b>zero</b> — the centre of mass moves with constant velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.0552,
+      "question": "Which of the following statements about internal forces is correct?",
+      "options": [
+        "They can change the total momentum of the system.",
+        "They can change the motion of the centre of mass.",
+        "They cannot affect the motion of the centre of mass.",
+        "They always do positive work."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Internal forces occur in equal and opposite pairs (Newton's third law) and cancel in the net force on the system, so they <b>cannot affect the motion of the centre of mass</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475414.1172,
+      "question": "The centre of mass of a uniform rectangular plate lies",
+      "options": [
+        "at one corner",
+        "at the intersection of its diagonals",
+        "at the midpoint of one side",
+        "outside the plate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a uniform rectangular plate, symmetry gives the centre of mass at the <b>intersection of its diagonals</b> — the geometric centre.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.7034,
+      "question": "For a body with an axis of symmetry, the centre of mass must lie",
+      "options": [
+        "on that axis",
+        "perpendicular to that axis",
+        "at one end of the axis",
+        "outside the body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reflection symmetry about an axis forces the centre of mass to lie <b>on that axis</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.6445,
+      "question": "The centre of mass of a uniform solid cone lies",
+      "options": [
+        "at the centre of its base",
+        "on its axis of symmetry",
+        "at its apex",
+        "outside the cone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By symmetry, the centre of mass of a uniform solid cone lies <b>on its axis of symmetry</b>, specifically at one quarter of the height from the base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.6958,
+      "question": "A system consists of three particles of equal mass placed at the vertices of an equilateral triangle. The centre of mass is located at",
+      "options": [
+        "one of the vertices",
+        "the midpoint of one side",
+        "the geometric centre of the triangle",
+        "outside the triangle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Three equal masses at the vertices of an equilateral triangle give a centre of mass at the <b>geometric centre</b> (centroid) of the triangle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.1335,
+      "question": "The centre of mass of a system of particles can be located at a point where",
+      "options": [
+        "there is no mass",
+        "the density is maximum",
+        "the pressure is maximum",
+        "the gravitational field is zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The centre of mass may lie in a region where <b>there is no mass</b> (e.g. the centre of a ring or a doughnut).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.9004,
+      "question": "When a high jumper arches over the bar, the centre of mass of the body",
+      "options": [
+        "must also cross above the bar",
+        "may pass below the bar",
+        "always remains at the same height",
+        "moves in a straight line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By arching, the high jumper arranges for the centre of mass to <b>pass below the bar</b> while parts of the body clear it — a classic Fosbury-flop technique.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.971,
+      "question": "In a uniform gravitational field, the torque due to the weight of a body about any point is the same as if the entire weight acted at the",
+      "options": [
+        "centre of mass",
+        "geometric centre",
+        "point of suspension",
+        "lowest point"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a uniform gravitational field, the total torque due to weight equals that of a single force Mg acting at the <b>centre of mass</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.386,
+      "question": "The centre of mass of an isolated system of particles moves with constant velocity because",
+      "options": [
+        "internal forces are zero",
+        "kinetic energy is conserved",
+        "net external force is zero",
+        "total mass is constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an isolated system, the <b>net external force is zero</b>, so a<sub>CM</sub> = 0 and v<sub>CM</sub> is constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.8274,
+      "question": "If a man walks from one end of a boat to the other on still water, the centre of mass of the man-boat system",
+      "options": [
+        "moves in the direction of the man's motion",
+        "moves opposite to the man's motion",
+        "remains stationary",
+        "moves downward"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Walking involves only internal forces (man-boat), so the <b>centre of mass remains stationary</b> (neglecting water drag). The boat shifts in the opposite direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.2996,
+      "question": "The position vector of the centre of mass of a system of particles is defined as",
+      "options": [
+        "the sum of the position vectors of all particles",
+        "the mass-weighted average of the position vectors",
+        "the average of the velocities of the particles",
+        "the sum of the masses times the velocities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "r<sub>CM</sub> = (Σm<sub>i</sub>r<sub>i</sub>) ÷ M, which is the <b>mass-weighted average of the position vectors</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.4382,
+      "question": "For a uniform thin rod of length L, the centre of mass is located at a distance from one end equal to",
+      "options": [
+        "L",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>L</span><span style='display:block;padding:0 .35em'>2</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>L</span><span style='display:block;padding:0 .35em'>3</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>L</span><span style='display:block;padding:0 .35em'>4</span></span>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a uniform thin rod, the centre of mass lies at the <b>midpoint</b>, a distance L ÷ 2 from either end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.5007,
+      "question": "Which of the following objects has its centre of mass outside its material?",
+      "options": [
+        "A solid sphere",
+        "A uniform rod",
+        "A circular ring",
+        "A rectangular plate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A uniform <b>circular ring</b> has its centre of mass at the geometric centre, which lies in the empty hole — <b>outside the material</b> of the ring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.6877,
+      "question": "The centre of mass of a system of particles is a point that",
+      "options": [
+        "always lies inside the system",
+        "moves as if all external forces act there",
+        "is always at rest",
+        "coincides with the centre of gravity in all cases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton's second law for a system, the centre of mass <b>moves as if all external forces act there</b>. It need not lie inside the material, and coincides with the centre of gravity only in a uniform field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.8508,
+      "question": "When a uniform disk has a smaller disk removed from its edge, the centre of mass of the remaining portion",
+      "options": [
+        "remains at the original centre",
+        "shifts towards the hole",
+        "shifts away from the hole",
+        "becomes undefined"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Removing mass from one side shifts the centre of mass <b>away from the hole</b> — the remaining mass is biased toward the opposite side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.6416,
+      "question": "The centre of gravity of an extended body is the point at which",
+      "options": [
+        "the entire mass of the body is concentrated",
+        "the entire weight of the body may be considered to act",
+        "the body's kinetic energy is zero",
+        "the body's momentum is maximum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>centre of gravity</b> is the point at which the <b>entire weight of the body may be considered to act</b> — the point about which the total torque due to gravity is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794305475415.3733,
+      "question": "For a system of particles with total mass M and net external force F<sub>ext</sub>, the acceleration of the centre of mass is given by",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>F<sub>ext</sub></span><span style='display:block;padding:0 .35em'>M</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>M</span><span style='display:block;padding:0 .35em'>F<sub>ext</sub></span></span>",
+        "F<sub>ext</sub> × M",
+        "F<sub>ext</sub> + M"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newton's second law for a system: <b>a<sub>CM</sub> = F<sub>ext</sub> ÷ M</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
