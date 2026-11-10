@@ -3,16 +3,438 @@
   "title": "ANA 201 : ULNA BONE 2",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794285041166.614,
+      "question": "Which muscle arises from the upper three-fourth of the anterior surface of the ulna?",
+      "options": [
+        "Pronator quadratus",
+        "Flexor digitorum",
+        "Flexor carpi ulnaris",
+        "Extensor indicis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flexor digitorum profundus arises from the upper three-fourth of the anterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.3008,
+      "question": "The pronator quadratus arises from an oblique ridge on which part of the anterior surface?",
+      "options": [
+        "Upper one-fourth",
+        "Middle one-third",
+        "Lower one-fourth",
+        "Distal half"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pronator quadratus arises from an oblique ridge on the lower one-fourth of the anterior surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.8289,
+      "question": "Which direction does the nutrient foramen on the anterior surface of the ulna face?",
+      "options": [
+        "Downwards",
+        "Upwards",
+        "Laterally",
+        "Medially"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nutrient foramen is located a little above the middle of the anterior surface and is directed upwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.4106,
+      "question": "From which part of the medial surface does the flexor digitorum profundus arise?",
+      "options": [
+        "Upper half",
+        "Lower two-thirds",
+        "Middle third",
+        "Upper two-third"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The flexor digitorum profundus arises from the upper two-third of the medial surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.2805,
+      "question": "What structure divides the posterior surface of the ulna into upper and lower parts?",
+      "options": [
+        "Faint vertical line",
+        "Oblique line",
+        "Interosseous border",
+        "Posterior border"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An oblique line divides the posterior surface into a smaller upper part and a large lower part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.1228,
+      "question": "Which muscle inserts on the area above the oblique line on the posterior surface?",
+      "options": [
+        "Supinator",
+        "Anconeus",
+        "Extensor indicis",
+        "Abductor pollicis longus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The area above the oblique line on the posterior surface receives the insertion of the anconeus muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.439,
+      "question": "Which muscle attaches to the upper one-fourth of the lateral part below the oblique line?",
+      "options": [
+        "Extensor indicis",
+        "Extensor pollicis longus",
+        "Abductor pollicis longus",
+        "Anconeus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lateral part below the oblique line provides attachment to the abductor pollicis longus in its upper one-fourth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.2585,
+      "question": "Which muscle attaches to the middle one-fourth of the lateral part below the oblique line?",
+      "options": [
+        "Extensor pollicis longus",
+        "Abductor pollicis longus",
+        "Extensor indicis",
+        "Extensor pollicis brevis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The middle one-fourth of the lateral part provides attachment to the extensor pollicis longus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.3809,
+      "question": "Which muscle attaches to the third one-fourth of the lateral part below the oblique line?",
+      "options": [
+        "Abductor pollicis longus",
+        "Extensor pollicis longus",
+        "Anconeus",
+        "Extensor indicis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Extensor indicis attaches to the next one-fourth of the lateral part below the oblique line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.3865,
+      "question": "The distal one-fourth of the lateral part below the oblique line is characterized by which feature?",
+      "options": [
+        "Origin of supinator",
+        "Insertion of anconeus",
+        "Devoid of attachments",
+        "Interosseous membrane attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The distal one-fourth of the lateral part below the oblique line is devoid of any attachments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.4966,
+      "question": "The convex articular surface on the lateral side of the ulnar head forms which joint?",
+      "options": [
+        "Superior radio-ulnar joint",
+        "Inferior radio-ulnar joint",
+        "Wrist joint",
+        "Elbow joint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The convex articular surface on the lateral side of the ulnar head articulates with the radius to form the inferior radio-ulnar joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.5242,
+      "question": "What separates the inferior surface of the ulnar head from the wrist joint?",
+      "options": [
+        "Synovial membrane",
+        "Articular disc",
+        "Interosseous membrane",
+        "Medial collateral ligament"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inferior surface of the ulnar head is separated from the wrist joint by an articular disc of the inferior radio-ulnar joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.4292,
+      "question": "From which aspect of the ulnar head does the styloid process project downwards?",
+      "options": [
+        "Anterolateral",
+        "Posteromedial",
+        "Anteromedial",
+        "Posterolateral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The styloid process projects downwards from the posteromedial aspect of the head of the ulna.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.9612,
+      "question": "Which structure attaches to the tip of the ulnar styloid process?",
+      "options": [
+        "Palmar radio-carpal ligament",
+        "Medial collateral ligament",
+        "Annular ligament",
+        "Articular disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tip of the ulnar styloid process provides attachment to the medial collateral ligament of the wrist joint.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.867,
+      "question": "Which tendon lies in the groove between the back of the ulnar head and the styloid process?",
+      "options": [
+        "Extensor indicis",
+        "Extensor carpi ulnaris",
+        "Extensor digitorum",
+        "Extensor pollicis longus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tendon of extensor carpi ulnaris lies in the groove between the back of the head of the ulna and the styloid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.9219,
+      "question": "The ulnar styloid process can be palpated when the forearm is in which position?",
+      "options": [
+        "Supinated",
+        "Pronated",
+        "Flexed",
+        "Extended"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The styloid process may be felt slightly distal to the head when the forearm is pronated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.5745,
+      "question": "When the elbow is fully extended, where do the olecranon process and the epicondyles lie?",
+      "options": [
+        "In a horizontal line",
+        "In a vertical line",
+        "In a triangular shape",
+        "In a circular shape"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the elbow is fully extended, the tip of the olecranon process and the epicondyles lie in the same horizontal line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.6965,
+      "question": "When the elbow is fully flexed, what shape is formed by the three bony points?",
+      "options": [
+        "Square",
+        "Circle",
+        "Equilateral triangle",
+        "Straight line"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When fully flexed, the olecranon process and the two epicondyles form an equilateral triangle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.7727,
+      "question": "A fracture of the upper third of the ulnar shaft with dislocation of the radial head is termed what?",
+      "options": [
+        "Galeazzi fracture",
+        "Monteggia fracture",
+        "Night-stick fracture",
+        "Colles fracture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This specific combination of injuries is called a Monteggia fracture dislocation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.7222,
+      "question": "Which fracture involves the lower third of the radial shaft and dislocation of the inferior radio-ulnar joint?",
+      "options": [
+        "Monteggia fracture",
+        "Night-stick fracture",
+        "Galeazzi fracture",
+        "Smith fracture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A fracture of the lower third of the radius with inferior radio-ulnar joint dislocation is a Galeazzi fracture dislocation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.8333,
+      "question": "A direct injury to the ulnar shaft caused by raising the forearm to ward off a blow is called what?",
+      "options": [
+        "Boxer fracture",
+        "Night-stick fracture",
+        "Chauffeur fracture",
+        "Colles fracture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This mechanism of injury results in a night-stick fracture.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.2666,
+      "question": "How many primary and secondary ossification centers does the ulna have in total?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna ossifies from three centers: one primary for the shaft and two secondary for the ends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.3127,
+      "question": "During which week of intrauterine life does the primary ossification center appear?",
+      "options": [
+        "Fourth week",
+        "Sixth week",
+        "Eighth week",
+        "Tenth week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary center appears in the mid-shaft during the eighth week of intrauterine life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.914,
+      "question": "At what age does the secondary center for the upper end of the ulna appear?",
+      "options": [
+        "Six years",
+        "Seven years",
+        "Eight years",
+        "Nine years"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The secondary center for the upper end appears at 9 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.5981,
+      "question": "At what age does the secondary center for the upper end of the ulna fuse?",
+      "options": [
+        "Sixteen years",
+        "Eighteen years",
+        "Twenty years",
+        "Twenty-two years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The upper end secondary center fuses at 18 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.0376,
+      "question": "At what age does the secondary center for the lower end of the ulna appear?",
+      "options": [
+        "Six years",
+        "Eight years",
+        "Nine years",
+        "Ten years"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower end (middle of head) center appears at 6 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.4133,
+      "question": "At what age does the secondary center for the lower end of the ulna fuse?",
+      "options": [
+        "Sixteen years",
+        "Eighteen years",
+        "Twenty years",
+        "Twenty-five years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lower end center fuses at 20 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.1082,
+      "question": "How is the distal part of the olecranon process formed?",
+      "options": [
+        "From a separate center",
+        "Upward extension of shaft",
+        "Downward extension of head",
+        "From the articular disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distal part of the olecranon process is formed as an upward extension of the shaft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.2222,
+      "question": "Which structure stabilizes the forearm by gripping the lower end of the humerus?",
+      "options": [
+        "Radius",
+        "Ulna",
+        "Carpal bones",
+        "Articular disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna stabilizes the forearm by gripping the lower end of the humerus by its trochlear notch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794285041167.9536,
+      "question": "Which bone provides the foundation for the radius to produce supination and pronation?",
+      "options": [
+        "Humerus",
+        "Ulna",
+        "Scaphoid",
+        "Lunate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ulna provides the foundation for the radius to produce supination and pronation at the radio-ulnar joints.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
