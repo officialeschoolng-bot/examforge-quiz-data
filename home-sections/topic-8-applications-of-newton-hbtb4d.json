@@ -3,16 +3,466 @@
   "title": "Topic 8: Applications of Newton's Laws",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": 1794302451069.7512,
+      "question": "Translational equilibrium requires that the",
+      "options": [
+        "net external torque about one point is zero",
+        "net external force is zero",
+        "normal force always equals the weight",
+        "static friction must be at its maximum value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Translational equilibrium</b> requires the <b>net external force to be zero</b> (ΣF = 0). Torque concerns rotational equilibrium; normal force need not equal weight; friction need not be maximum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.4014,
+      "question": "Rotational equilibrium requires that the",
+      "options": [
+        "net external force is zero",
+        "angular momentum must always be zero",
+        "net external torque about any point is zero",
+        "all forces must pass through the centre of mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Rotational equilibrium</b> requires the <b>net external torque about any point to be zero</b> (Στ = 0). Angular momentum need only be constant, not zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.1782,
+      "question": "A body moving with constant velocity is in",
+      "options": [
+        "unstable equilibrium",
+        "neutral equilibrium",
+        "dynamic translational equilibrium",
+        "static translational equilibrium only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A body with constant velocity has zero acceleration and hence zero net force, so it is in <b>dynamic translational equilibrium</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.306,
+      "question": "If the net external force on a body is zero, its centre of mass",
+      "options": [
+        "must be at rest",
+        "moves with constant velocity",
+        "must accelerate uniformly",
+        "must move in a circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton's second law for the system, zero net force gives zero acceleration of the centre of mass, so it <b>moves with constant velocity</b> (possibly zero).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.5146,
+      "question": "A body may have zero net force but still not be in mechanical equilibrium if",
+      "options": [
+        "net torque is nonzero",
+        "its mass is very large",
+        "friction is absent",
+        "normal force equals weight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mechanical equilibrium requires <b>both</b> ΣF = 0 and Στ = 0. If the <b>net torque is nonzero</b>, the body will rotationally accelerate and is not in equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.0344,
+      "question": "A couple produces",
+      "options": [
+        "pure torque with zero net force",
+        "zero torque but nonzero net force",
+        "only translational acceleration",
+        "no rotational tendency because forces cancel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>couple</b> is a pair of equal, opposite, parallel forces. It produces <b>pure torque with zero net force</b>, so it causes rotation but not translation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.315,
+      "question": "Torque is defined as the",
+      "options": [
+        "dot product of force and displacement",
+        "cross product r × F",
+        "product of mass and acceleration",
+        "ratio of force to moment arm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Torque</b> is the vector <b>τ = r × F</b>, where r is the position vector from the pivot to the point of application and F is the force.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.3674,
+      "question": "The moment arm of a force is the",
+      "options": [
+        "distance from pivot to point of application",
+        "perpendicular distance to line of action",
+        "length of the force vector itself",
+        "angle between position vector and force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>moment arm</b> is the <b>perpendicular distance from the pivot to the line of action of the force</b>. Torque magnitude = force × moment arm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.5144,
+      "question": "The SI unit of torque is",
+      "options": [
+        "N m<sup>−1</sup>",
+        "N m",
+        "N s<sup>−1</sup>",
+        "kg m s<sup>−2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Torque has units of force × distance, so the SI unit is the <b>newton metre (N m)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.9321,
+      "question": "The principle of moments states that for rotational equilibrium",
+      "options": [
+        "clockwise moments equal anticlockwise moments",
+        "all forces must have equal magnitudes",
+        "the centre of gravity must lie at the pivot",
+        "total torque must be maximum in clockwise direction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>principle of moments</b>: for a body in rotational equilibrium, the sum of <b>clockwise moments equals the sum of anticlockwise moments</b> about any point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.3723,
+      "question": "A force whose line of action passes through the pivot produces torque equal to",
+      "options": [
+        "maximum",
+        "zero",
+        "force times distance",
+        "normal force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the line of action passes through the pivot, the moment arm is zero, so the <b>torque is zero</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.424,
+      "question": "A force applied at the pivot produces no torque because its",
+      "options": [
+        "moment arm is zero",
+        "magnitude is zero",
+        "direction is vertical",
+        "body has no mass"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A force applied at the pivot has <b>zero moment arm</b>, so torque = force × 0 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.323,
+      "question": "To find unknown forces in a static rigid body, one uses",
+      "options": [
+        "only force equilibrium",
+        "only torque equilibrium",
+        "both force and torque equilibrium",
+        "conservation of linear momentum alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In general, a rigid body has unknown forces and their lines of action, so <b>both force equilibrium (ΣF = 0) and torque equilibrium (Στ = 0)</b> are needed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.039,
+      "question": "A free-body diagram shows",
+      "options": [
+        "all external forces acting on the body",
+        "only forces exerted by the body",
+        "only the net force and net torque",
+        "internal forces between particles of the body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>free-body diagram</b> shows <b>all external forces acting on the body</b>. Internal forces cancel and are not shown.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.2048,
+      "question": "For three coplanar forces in equilibrium, the force vectors",
+      "options": [
+        "form a closed triangle",
+        "all point in the same direction",
+        "must be perpendicular in pairs",
+        "form an open polygon with no resultant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Three coplanar forces in equilibrium have a vector sum of zero, so they form a <b>closed triangle</b> (triangle of forces).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.7153,
+      "question": "For a picture frame suspended symmetrically by two equal tensions, the horizontal components of tension",
+      "options": [
+        "add to support the weight",
+        "cancel each other",
+        "equal the weight",
+        "vanish only if the angle is zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a symmetric suspension, the two horizontal components are equal and opposite, so they <b>cancel each other</b>. Only the vertical components add to balance the weight.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.6196,
+      "question": "A box sliding down a ramp at constant velocity has net force along the incline equal to",
+      "options": [
+        "zero",
+        "its weight component",
+        "the normal force",
+        "kinetic friction only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Constant velocity means zero acceleration, so the <b>net force along the incline is zero</b>: the weight component down the slope is exactly balanced by kinetic friction up the slope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.311,
+      "question": "Friction",
+      "options": [
+        "opposes relative motion or tendency",
+        "acts only when object is moving",
+        "depends only on object's weight",
+        "is always larger than any applied horizontal force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Friction</b> is the force that <b>opposes relative motion or the tendency of relative motion</b> between surfaces in contact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.9844,
+      "question": "While an object remains at rest under a horizontal push, static friction is",
+      "options": [
+        "equal and opposite applied force",
+        "always at its maximum value",
+        "equal to kinetic friction",
+        "completely independent of the applied horizontal force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "While the object is at rest, <b>static friction adjusts to be equal and opposite to the applied force</b>, up to a maximum value. It is not necessarily at its maximum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.4465,
+      "question": "Maximum static friction occurs",
+      "options": [
+        "just before sliding begins",
+        "after sliding at constant speed",
+        "only when normal force is zero",
+        "only when object is in neutral equilibrium"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Static friction increases with the applied force until it reaches its <b>maximum just before sliding begins</b>; at that point μ<sub>s</sub>N is fully mobilised.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.4114,
+      "question": "The coefficient of static friction is generally",
+      "options": [
+        "greater than kinetic coefficient",
+        "less than kinetic coefficient",
+        "exactly equal to kinetic coefficient",
+        "independent of surface roughness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For most surfaces, μ<sub>s</sub> &gt; μ<sub>k</sub>: it takes more force to <b>start</b> motion than to <b>maintain</b> it. So the coefficient of static friction is generally <b>greater</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.0156,
+      "question": "Friction is independent of the",
+      "options": [
+        "area of contact",
+        "normal force magnitude",
+        "surface roughness",
+        "coefficient of friction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a given pair of surfaces and a given normal force, kinetic friction is approximately independent of the <b>apparent area of contact</b> (a consequence of the way real contact area scales with normal force).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.1667,
+      "question": "Kinetic friction is independent of the",
+      "options": [
+        "normal force",
+        "speed of object",
+        "surface nature",
+        "coefficient value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic friction is approximately independent of the <b>speed of the object</b> over a wide range (though it does depend on the normal force, nature of surfaces, and μ<sub>k</sub>).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451069.0679,
+      "question": "If the applied force exceeds maximum static friction, the object",
+      "options": [
+        "begins to slide",
+        "remains at rest forever",
+        "has zero friction",
+        "loses all normal force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once the applied force exceeds the maximum static friction, the object <b>begins to slide</b>; kinetic friction then acts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.2153,
+      "question": "A smooth frictionless wall means",
+      "options": [
+        "no friction at wall",
+        "no normal force at wall",
+        "ladder cannot be in equilibrium",
+        "friction at base must be zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A <b>smooth frictionless wall</b> means there is <b>no friction at the wall</b>; only a normal force acts from the wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.6677,
+      "question": "In stable equilibrium, after a small displacement the centre of gravity",
+      "options": [
+        "rises",
+        "falls",
+        "stays unchanged",
+        "disappears"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <b>stable equilibrium</b>, a small displacement causes the centre of gravity to <b>rise</b>, so gravity provides a restoring torque that returns the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.9905,
+      "question": "In unstable equilibrium, after a small displacement the centre of gravity",
+      "options": [
+        "lowers",
+        "rises",
+        "stays same",
+        "gives no torque"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <b>unstable equilibrium</b>, a small displacement causes the centre of gravity to <b>lower</b>, so gravity pulls the body further away.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.8196,
+      "question": "In neutral equilibrium, after a small displacement the centre of gravity",
+      "options": [
+        "stays at same level",
+        "rises",
+        "falls",
+        "no equilibrium possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In <b>neutral equilibrium</b>, a small displacement leaves the centre of gravity at the <b>same level</b>, so there is no restoring or disturbing torque.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.9358,
+      "question": "Stable equilibrium is typically associated with",
+      "options": [
+        "low CG and wide base",
+        "high CG and narrow base",
+        "high CG and wide base",
+        "low CG and narrow base"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stability is promoted by a <b>low centre of gravity and a wide base</b>, which make it harder to tip the body over.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.8425,
+      "question": "A cone lying on its side is an example of",
+      "options": [
+        "neutral equilibrium",
+        "stable equilibrium only",
+        "unstable equilibrium",
+        "translational equilibrium only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cone lying on its side can roll without changing the height of its centre of gravity, so it is in <b>neutral equilibrium</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.0283,
+      "question": "A cone balanced on its tip is an example of",
+      "options": [
+        "unstable equilibrium",
+        "stable equilibrium",
+        "neutral equilibrium",
+        "static translational equilibrium only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cone on its tip has its centre of gravity at its highest point; any small displacement lowers it and topples the cone, so it is in <b>unstable equilibrium</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794302451070.0813,
+      "question": "For rotational equilibrium in two dimensions, about any point the",
+      "options": [
+        "sum of moments is zero",
+        "clockwise moments exceed anticlockwise",
+        "only moments about centre of mass count",
+        "net force must also be maximum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For rotational equilibrium, the <b>sum of moments (torques) about any point is zero</b>. The choice of point is arbitrary, not restricted to the centre of mass.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
