@@ -3,7 +3,7 @@
   "title": "Topic 8: Applications of Newton's Laws",
   "subject": "",
   "level": "",
-  "totalQuestions": 32,
+  "totalQuestions": 27,
   "questions": [
     {
       "id": 1794302451069.7512,
@@ -174,20 +174,6 @@
       "points": 1
     },
     {
-      "id": 1794302451069.323,
-      "question": "To find unknown forces in a static rigid body, one uses",
-      "options": [
-        "only force equilibrium",
-        "only torque equilibrium",
-        "both force and torque equilibrium",
-        "conservation of linear momentum alone"
-      ],
-      "correctAnswer": 2,
-      "explanation": "In general, a rigid body has unknown forces and their lines of action, so <b>both force equilibrium (ΣF = 0) and torque equilibrium (Στ = 0)</b> are needed.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794302451069.039,
       "question": "A free-body diagram shows",
       "options": [
@@ -198,20 +184,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "A <b>free-body diagram</b> shows <b>all external forces acting on the body</b>. Internal forces cancel and are not shown.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794302451069.2048,
-      "question": "For three coplanar forces in equilibrium, the force vectors",
-      "options": [
-        "form a closed triangle",
-        "all point in the same direction",
-        "must be perpendicular in pairs",
-        "form an open polygon with no resultant"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Three coplanar forces in equilibrium have a vector sum of zero, so they form a <b>closed triangle</b> (triangle of forces).",
       "difficulty": "easy",
       "points": 1
     },
@@ -240,48 +212,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Constant velocity means zero acceleration, so the <b>net force along the incline is zero</b>: the weight component down the slope is exactly balanced by kinetic friction up the slope.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794302451069.311,
-      "question": "Friction",
-      "options": [
-        "opposes relative motion or tendency",
-        "acts only when object is moving",
-        "depends only on object's weight",
-        "is always larger than any applied horizontal force"
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Friction</b> is the force that <b>opposes relative motion or the tendency of relative motion</b> between surfaces in contact.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794302451069.9844,
-      "question": "While an object remains at rest under a horizontal push, static friction is",
-      "options": [
-        "equal and opposite applied force",
-        "always at its maximum value",
-        "equal to kinetic friction",
-        "completely independent of the applied horizontal force"
-      ],
-      "correctAnswer": 0,
-      "explanation": "While the object is at rest, <b>static friction adjusts to be equal and opposite to the applied force</b>, up to a maximum value. It is not necessarily at its maximum.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794302451069.4465,
-      "question": "Maximum static friction occurs",
-      "options": [
-        "just before sliding begins",
-        "after sliding at constant speed",
-        "only when normal force is zero",
-        "only when object is in neutral equilibrium"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Static friction increases with the applied force until it reaches its <b>maximum just before sliding begins</b>; at that point μ<sub>s</sub>N is fully mobilised.",
       "difficulty": "easy",
       "points": 1
     },
