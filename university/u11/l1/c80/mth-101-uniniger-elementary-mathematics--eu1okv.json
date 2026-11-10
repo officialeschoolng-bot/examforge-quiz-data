@@ -1,18 +1,720 @@
 {
-  "quizId": "mth-101-uniniger-elementary-mathematics--eu1okv",
+  "quizId": "mth-101-uniniger-ele-eur90n",
   "title": "MTH 101 ( UNINIGER ) : ELEMENTARY MATHEMATICS 2",
-  "subject": "MTH 101 â€” MTH 101 Course",
+  "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794257521168.6245,
+      "question": "In the expression y = aˣ, the positive real number a is known by which term?",
+      "options": [
+        "Index",
+        "Base",
+        "Exponent",
+        "Power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an exponential function y = aˣ, the positive real number a is called the base, while x is the index or exponent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.6467,
+      "question": "Which law of indices correctly expresses the product of aˣ and aʸ?",
+      "options": [
+        "aˣʸ",
+        "aˣ⁻ʸ",
+        "aˣ/ʸ",
+        "aˣ⁺ʸ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The multiplication law of indices states that when multiplying terms with the same base, the exponents are added: aˣ * aʸ = aˣ⁺ʸ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.2402,
+      "question": "For an exponential function y = aˣ where a > 1, the graph exhibits which behavior throughout its domain?",
+      "options": [
+        "Increasing",
+        "Decreasing",
+        "Constant",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the base a is greater than 1, the function y = aˣ increases as x increases, meaning the graph rises from left to right.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.2458,
+      "question": "The horizontal asymptote for the graph of y = aˣ is the x-axis because aˣ is always greater than which value?",
+      "options": [
+        "One",
+        "The base",
+        "Zero",
+        "Negative one"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The graph approaches the x-axis but never intersects it since aˣ > 0 for all real values of x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.31,
+      "question": "The number e is defined as the limit of a specific expression as n approaches infinity. Which value approximates e?",
+      "options": [
+        "2.718",
+        "1.618",
+        "3.142",
+        "1.414"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mathematical constant e is defined as the limit of (1 + 1/n)ⁿ as n approaches infinity, with an approximate value of 2.71828.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.284,
+      "question": "Which value represents the solution to the index equation 3ˣ = 81?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since 81 can be expressed as 3⁴, the equation becomes 3ˣ = 3⁴. Equating the exponents yields x = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.113,
+      "question": "Solving the index equation 4²ˣ = 2⁶ˣ⁻² gives x equal to which value?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rewriting 4 as 2² gives (2²)²ˣ = 2⁶ˣ⁻², which simplifies to 2⁴ˣ = 2⁶ˣ⁻². Equating exponents yields 4x = 6x - 2, so 2x = 2, giving x = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.1536,
+      "question": "Solving the quadratic index equation 2(2²ˣ) - 5(2ˣ) + 2 = 0 yields which values for x?",
+      "options": [
+        "x = 1 or x = 2",
+        "x = 0 or x = 2",
+        "x = -2 or x = 1",
+        "x = -1 or x = 1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let t = 2ˣ, giving 2t² - 5t + 2 = 0. Factoring yields (2t - 1)(t - 2) = 0, so t = 1/2 or t = 2. Thus, 2ˣ = 2⁻¹ or 2ˣ = 2¹, giving x = -1 or x = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.0266,
+      "question": "Simplifying the index expression (64)²ᐟ³ × (9)¹ᐟ² × (2)⁻³ yields which result?",
+      "options": [
+        "6",
+        "12",
+        "3",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(2⁶)²ᐟ³ × (3²)¹ᐟ² × (2)⁻³ = 2⁴ × 3 × 2⁻³ = 2⁴⁻³ × 3 = 2 × 3 = 6.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.634,
+      "question": "The y-intercept of the graph of any exponential function y = aˣ is always equal to which value?",
+      "options": [
+        "0",
+        "a",
+        "e",
+        "1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The y-intercept occurs when x = 0, and a⁰ = 1 for any positive real number a.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.0415,
+      "question": "The logarithmic equation y = logₐx is equivalent to which exponential equation?",
+      "options": [
+        "y = aˣ",
+        "a = xʸ",
+        "x = aʸ",
+        "x = yᵃ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By the definition of logarithms, y = logₐx means that the base a raised to the power y equals x, which is written as aʸ = x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.6145,
+      "question": "The value of logₐ1 for any positive base a is which of the following?",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since a⁰ = 1 for any non-zero base, the logarithm of 1 to any base is always 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.2563,
+      "question": "Which law of logarithms correctly expands logₐ(MN)?",
+      "options": [
+        "logₐM × logₐN",
+        "logₐM - logₐN",
+        "logₐM / logₐN",
+        "logₐM + logₐN"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The product rule for logarithms states that the logarithm of a product is the sum of the logarithms: logₐ(MN) = logₐM + logₐN.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.365,
+      "question": "The change of base formula for logarithms is expressed as which of the following?",
+      "options": [
+        "logᵦ a / logᵦ M",
+        "logᵦ M / logᵦ a",
+        "logₐ M / logₐ b",
+        "logᵦ M × logᵦ a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The change of base formula allows rewriting a logarithm in a different base: logₐM = (logᵦM) / (logᵦa).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.3066,
+      "question": "The x-intercept for the graph of a logarithmic function y = logₐx is always equal to which value?",
+      "options": [
+        "1",
+        "0",
+        "a",
+        "e"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The x-intercept occurs when y = 0, and logₐ1 = 0, so the graph crosses the x-axis at x = 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.4036,
+      "question": "The logarithmic function with base e is usually denoted by which notation?",
+      "options": [
+        "log x",
+        "ln x",
+        "lg x",
+        "exp x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The natural logarithm, which has the irrational number e as its base, is denoted as ln x.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.8,
+      "question": "Simplifying the logarithmic expression log 64 + 2log 5 - 2log 40 yields which result?",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "0"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using logarithm laws, the expression simplifies to log(64 × 25 / 1600) = log(1600/1600) = log 1 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.125,
+      "question": "Solving the logarithmic equation log₄(3ˣ) - 4log₄3 = 0 gives x equal to which number?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equation simplifies to log₄(3ˣ) = log₄(3⁴), which implies 3ˣ = 3⁴, so x = 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.63,
+      "question": "The equation log₅(x²) - log₅(3 + 2x) = 0 reduces to which quadratic equation?",
+      "options": [
+        "x² + 2x + 3 = 0",
+        "x² - 2x - 3 = 0",
+        "x² - 3x - 2 = 0",
+        "x² + 3x + 2 = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equating the arguments gives x² = 3 + 2x, which rearranges to x² - 2x - 3 = 0.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.4497,
+      "question": "The y-axis serves as which feature for the graph of y = logₐx?",
+      "options": [
+        "Horizontal asymptote",
+        "Vertical asymptote",
+        "Tangent line",
+        "Intercept"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The graph approaches the y-axis but never intersects it, making the y-axis a vertical asymptote.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.0017,
+      "question": "Which value represents the measure of an angle in radians that intersects an arc equal in length to the radius?",
+      "options": [
+        "1 degree",
+        "1 revolution",
+        "1 gradian",
+        "1 radian"
+      ],
+      "correctAnswer": 3,
+      "explanation": "One radian is defined as the angle subtended at the center of a circle by an arc whose length equals the radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.7273,
+      "question": "Converting 180° to radians yields which result?",
+      "options": [
+        "π rad",
+        "2π rad",
+        "π/2 rad",
+        "4π rad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A straight angle of 180 degrees is equivalent to π radians, based on the relationship 360° = 2π rad.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.4736,
+      "question": "Which identity correctly represents the fundamental relationship between sine and cosine for any angle?",
+      "options": [
+        "sin²θ - cos²θ = 1",
+        "sin θ + cos θ = 1",
+        "sin²θ + cos²θ = 1",
+        "sin²θ + cos²θ = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Pythagorean trigonometric identity states that sin²θ + cos²θ = 1 for any angle θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.9507,
+      "question": "The exact value of sin 30° is which of the following?",
+      "options": [
+        "√3/2",
+        "1",
+        "√2/2",
+        "1/2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From the standard trigonometric ratios of special angles, the sine of 30 degrees is exactly 1/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.9478,
+      "question": "The trigonometric ratio tan(180° - θ) simplifies to which expression?",
+      "options": [
+        "tan θ",
+        "cot θ",
+        "-cot θ",
+        "-tan θ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the second quadrant, the tangent function is negative, so tan(180° - θ) = -tan θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.9077,
+      "question": "The compound angle formula for sin(A + B) is given by which expression?",
+      "options": [
+        "sin A cos B - cos A sin B",
+        "sin A cos B + cos A sin B",
+        "sin A sin B + cos A cos B",
+        "cos A cos B - sin A sin B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sum formula for sine is sin(A + B) = sin A cos B + cos A sin B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.6177,
+      "question": "The double angle formula for cos 2A is expressed as which of the following?",
+      "options": [
+        "2 sin A cos A",
+        "1 - 2 cos²A",
+        "cos²A - sin²A",
+        "2 cos²A + 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cosine of a double angle is cos 2A = cos²A - sin²A, which can also be written as 1 - 2 sin²A or 2 cos²A - 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.421,
+      "question": "The half angle formula for sin(A/2) is given by which expression?",
+      "options": [
+        "√((1 - cos A) / 2)",
+        "√((1 + cos A) / 2)",
+        "(1 - cos A) / sin A",
+        "sin A / (1 + cos A)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The half angle formula for sine is the square root of (1 - cos A)/2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.2083,
+      "question": "The principal value of arcsin(1/2) is which angle?",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "30°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The principal value of arcsin(1/2) is the unique acute angle in the range [-π/2, π/2] whose sine is 1/2, which is 30°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.396,
+      "question": "The expression a cos θ + b sin θ can be expressed in the form R sin(θ + α) where R is equal to which expression?",
+      "options": [
+        "a + b",
+        "a - b",
+        "√(a² + b²)",
+        "√(a² - b²)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To rewrite a cos θ + b sin θ in harmonic form, the amplitude R is calculated using the Pythagorean relation R = √(a² + b²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.5032,
+      "question": "An angle that is a multiple of 15° including 0° is referred to as which type of angle?",
+      "options": [
+        "Acute angle",
+        "Special angle",
+        "Reflex angle",
+        "Obtuse angle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lecture note defines any angle that is a multiple of 15 degrees, including 0 degrees, as a special angle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521170.8777,
+      "question": "The compound angle formula for cos(A - B) is given by which expression?",
+      "options": [
+        "cos A cos B - sin A sin B",
+        "sin A cos B - cos A sin B",
+        "cos A cos B + sin A sin B",
+        "sin A cos B + cos A sin B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The difference formula for cosine is cos(A - B) = cos A cos B + sin A sin B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.24,
+      "question": "A polynomial whose leading coefficient is equal to one is called which type of polynomial?",
+      "options": [
+        "Linear",
+        "Monic",
+        "Quadratic",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A monic polynomial is defined as a polynomial in which the coefficient of the term with the highest degree is exactly 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.0098,
+      "question": "The polynomial P(x) = 3x + 1 is classified as which type of polynomial based on its degree?",
+      "options": [
+        "Quadratic",
+        "Linear",
+        "Cubic",
+        "Quartic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A polynomial of degree one is called a linear polynomial.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.8748,
+      "question": "When a polynomial P(x) is divided by (x - c), the remainder is equal to which expression?",
+      "options": [
+        "P(c)",
+        "P(-c)",
+        "P(0)",
+        "P(1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Remainder Theorem states that when a polynomial P(x) is divided by (x - c), the remainder is P(c).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.8008,
+      "question": "If a polynomial P(x) is divided by (x - c) and P(c) = 0, then (x - c) is considered which of the following?",
+      "options": [
+        "A remainder",
+        "A quotient",
+        "A factor",
+        "A coefficient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Factor Theorem states that P(c) = 0 if and only if (x - c) is a factor of the polynomial P(x).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.964,
+      "question": "The method of synthetic division requires the divisor Q(x) to be which type of factor?",
+      "options": [
+        "Quadratic",
+        "Cubic",
+        "Constant",
+        "Linear"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Synthetic division is specifically used when dividing a polynomial by a linear factor of the form (x - c).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.2463,
+      "question": "The expansion of (1 + x)ⁿ using the Binomial Theorem contains how many terms?",
+      "options": [
+        "n",
+        "n + 1",
+        "n - 1",
+        "2n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key property of the binomial expansion is that it contains n + 1 terms, ranging from the term with x⁰ to the term with xⁿ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.0605,
+      "question": "The Binomial coefficient is defined by which combination formula?",
+      "options": [
+        "n! / (r! (n + r)!)",
+        "n! / (r! (n - r)!)",
+        "r! / (n! (n - r)!)",
+        "n! / ((n - r)!)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The binomial coefficient for n combination r is calculated as n! divided by r!(n-r)!.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.717,
+      "question": "The Pascal triangle property states that every number is the sum of which elements?",
+      "options": [
+        "Two numbers above",
+        "Two numbers below",
+        "Two numbers beside",
+        "Number above and below"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each entry in Pascal's triangle is the sum of the two entries directly above it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.372,
+      "question": "The symbol i was introduced to represent the square root of which number?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "Infinity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The imaginary unit i is defined as the square root of -1, with the property that i² = -1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.3406,
+      "question": "The modulus of a complex number z = 3 + 4i is defined by which value?",
+      "options": [
+        "7",
+        "25",
+        "1",
+        "5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The modulus represents the distance from the origin and is calculated as √(x² + y²) = √(3² + 4²) = √25 = 5.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.2104,
+      "question": "The complex conjugate of z = 5 - 3i is represented by which expression?",
+      "options": [
+        "-5 + 3i",
+        "-5 - 3i",
+        "5 + 3i",
+        "5 - 3i"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The complex conjugate of x + iy is formed by changing the sign of the imaginary part, giving 5 + 3i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.7485,
+      "question": "In the polar representation z = r(cos θ + i sin θ), the angle θ is called which term?",
+      "options": [
+        "Argument",
+        "Modulus",
+        "Conjugate",
+        "Real part"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In polar form, θ represents the argument or amplitude of the complex number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.6753,
+      "question": "De Moivre's Theorem states that zⁿ is equal to which expression for z = r(cos θ + i sin θ)?",
+      "options": [
+        "n r (cos nθ + i sin nθ)",
+        "rⁿ(cos θ + i sin θ)",
+        "r (cos nθ + i sin nθ)",
+        "rⁿ(cos nθ + i sin nθ)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "De Moivre's Theorem provides a formula for finding powers of complex numbers in polar form: zⁿ = rⁿ(cos nθ + i sin nθ).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.367,
+      "question": "Euler's formula for complex numbers is expressed as which equation?",
+      "options": [
+        "e^(iθ) = cos θ - i sin θ",
+        "e^(iθ) = cos θ + i sin θ",
+        "e^(iθ) = sin θ + i cos θ",
+        "e^(iθ) = sin θ - i cos θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Euler's formula establishes the fundamental relationship between complex exponentials and trigonometric functions as e^(iθ) = cos θ + i sin θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.2627,
+      "question": "Every non-zero complex number has exactly how many distinct n-th roots?",
+      "options": [
+        "1",
+        "2",
+        "n",
+        "n²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A non-zero complex number has precisely n distinct n-th roots, which lie on a circle of radius ⁿ√r and are equally spaced.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.7112,
+      "question": "The product of (3 + 4i) and (2 + 5i) simplifies to which expression?",
+      "options": [
+        "-14 + 23i",
+        "14 + 23i",
+        "-14 - 23i",
+        "14 - 23i"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expanding gives (3*2 - 4*5) + i(3*5 + 4*2) = (6 - 20) + i(15 + 8) = -14 + 23i.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.8958,
+      "question": "The positive angle between the complex number z = x + iy and the positive real axis is called which term?",
+      "options": [
+        "Modulus",
+        "Conjugate",
+        "Polar form",
+        "Amplitude"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The positive angle between the complex number and the positive real axis is called the amplitude or argument, defined as θ = tan⁻¹(y/x).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794257521171.9746,
+      "question": "A function that is the quotient of two polynomial functions is classified as which type of function?",
+      "options": [
+        "Exponential",
+        "Rational",
+        "Logarithmic",
+        "Trigonometric"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rational function is defined as f(x) = g(x)/h(x), where g(x) and h(x) are polynomials and h(x) ≠ 0.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
