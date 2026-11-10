@@ -3,7 +3,7 @@
   "title": "Topic 11: Center of Mass",
   "subject": "",
   "level": "",
-  "totalQuestions": 40,
+  "totalQuestions": 23,
   "questions": [
     {
       "id": 1794305475414.701,
@@ -90,34 +90,6 @@
       "points": 1
     },
     {
-      "id": 1794305475414.5806,
-      "question": "The motion of the centre of mass of a system is determined only by",
-      "options": [
-        "the internal forces between particles",
-        "the net external force acting on the system",
-        "the total kinetic energy of the system",
-        "the relative positions of the particles"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The centre of mass moves as if all external forces acted on the total mass there; internal forces cancel in pairs. So its motion is determined only by the <b>net external force</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.7417,
-      "question": "When an external force acts on a system of particles, the centre of mass accelerates as if",
-      "options": [
-        "the force were applied to the most massive particle",
-        "the entire mass were concentrated at that point",
-        "the force were distributed equally among all particles",
-        "no internal forces were present"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The centre of mass accelerates as if the <b>entire mass of the system were concentrated there</b> and the net external force acted on it (F<sub>ext</sub> = Ma<sub>CM</sub>).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794305475414.485,
       "question": "In a uniform gravitational field, the centre of gravity of a body",
       "options": [
@@ -128,20 +100,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "In a <b>uniform gravitational field</b>, the same g acts on every element, so the centre of gravity <b>coincides with the centre of mass</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.8545,
-      "question": "The centre of gravity and the centre of mass of a body can differ when",
-      "options": [
-        "the body is very large",
-        "the gravitational field is non-uniform",
-        "the body is rotating",
-        "the body is in free fall"
-      ],
-      "correctAnswer": 1,
-      "explanation": "If the <b>gravitational field is non-uniform</b> (e.g. a very tall object), different parts of the body experience different g, so the centre of gravity no longer coincides with the centre of mass.",
       "difficulty": "easy",
       "points": 1
     },
@@ -174,48 +132,6 @@
       "points": 1
     },
     {
-      "id": 1794305475414.406,
-      "question": "Which of the following is true about the centre of mass of a system of particles?",
-      "options": [
-        "It must coincide with one of the particles.",
-        "It always lies within the convex hull of the particles.",
-        "It is always at the geometric centre.",
-        "It depends on the choice of origin."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The centre of mass is a mass-weighted average of positions, so it always lies <b>within the convex hull of the particles</b>. It need not coincide with a particle or be at the geometric centre.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.5718,
-      "question": "The position of the centre of mass of a system of particles is independent of",
-      "options": [
-        "the masses of the particles",
-        "the positions of the particles",
-        "the choice of coordinate origin",
-        "the number of particles"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The centre of mass is a physical point; its position is <b>independent of the choice of coordinate origin</b>. Its coordinates depend on masses and positions.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.5364,
-      "question": "For a continuous mass distribution, the sum in the centre of mass formula is replaced by",
-      "options": [
-        "a derivative",
-        "an integral",
-        "a product",
-        "a limit"
-      ],
-      "correctAnswer": 1,
-      "explanation": "For a continuous distribution, the discrete sum becomes an <b>integral</b>: r<sub>CM</sub> = (1 ÷ M)∫r dm.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794305475414.856,
       "question": "A non-uniform rod has a linear mass density that increases from one end to the other. Its centre of mass will be",
       "options": [
@@ -230,20 +146,6 @@
       "points": 1
     },
     {
-      "id": 1794305475414.4463,
-      "question": "In the method of negative mass, a hole in a uniform plate is treated as",
-      "options": [
-        "a region of zero density",
-        "a positive mass added to the plate",
-        "a negative mass subtracted from the plate",
-        "a separate object with its own centre of mass"
-      ],
-      "correctAnswer": 2,
-      "explanation": "In the <b>method of negative mass</b>, a hole is treated as a <b>negative mass subtracted</b> from the full plate, which allows the centre of mass of the remaining portion to be found.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794305475414.0315,
       "question": "A fisherman pulling a shark towards a boat is an example where the centre of mass of the shark-boat system",
       "options": [
@@ -254,48 +156,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "The pull between the man and the shark is <b>internal</b> to the shark-boat system, so the <b>centre of mass remains stationary</b> (in the horizontal direction, neglecting external water drag).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.5818,
-      "question": "When a shell explodes in mid-air, the centre of mass of the fragments",
-      "options": [
-        "stops moving",
-        "follows the same parabolic path as before explosion",
-        "moves in a straight line",
-        "falls vertically downward"
-      ],
-      "correctAnswer": 1,
-      "explanation": "An explosion is an internal event; the net external force (gravity) is unchanged, so the <b>centre of mass follows the same parabolic path</b> as before.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.8335,
-      "question": "Two blocks connected by a compressed spring are thrown into the air. At the highest point, the spring is released. The centre of mass of the system after release",
-      "options": [
-        "changes direction abruptly",
-        "continues on the original parabolic path",
-        "moves horizontally",
-        "falls straight down"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Releasing the spring involves only internal forces, so the <b>centre of mass continues on the original parabolic path</b> under gravity alone.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.1858,
-      "question": "The velocity of the centre of mass of a system is given by the mass-weighted average of the",
-      "options": [
-        "positions of the particles",
-        "velocities of the particles",
-        "accelerations of the particles",
-        "forces on the particles"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>v<sub>CM</sub> = (Σm<sub>i</sub>v<sub>i</sub>) ÷ M</b>, which is the mass-weighted average of the particles' <b>velocities</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -328,48 +188,6 @@
       "points": 1
     },
     {
-      "id": 1794305475414.0552,
-      "question": "Which of the following statements about internal forces is correct?",
-      "options": [
-        "They can change the total momentum of the system.",
-        "They can change the motion of the centre of mass.",
-        "They cannot affect the motion of the centre of mass.",
-        "They always do positive work."
-      ],
-      "correctAnswer": 2,
-      "explanation": "Internal forces occur in equal and opposite pairs (Newton's third law) and cancel in the net force on the system, so they <b>cannot affect the motion of the centre of mass</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475414.1172,
-      "question": "The centre of mass of a uniform rectangular plate lies",
-      "options": [
-        "at one corner",
-        "at the intersection of its diagonals",
-        "at the midpoint of one side",
-        "outside the plate"
-      ],
-      "correctAnswer": 1,
-      "explanation": "For a uniform rectangular plate, symmetry gives the centre of mass at the <b>intersection of its diagonals</b> — the geometric centre.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475415.7034,
-      "question": "For a body with an axis of symmetry, the centre of mass must lie",
-      "options": [
-        "on that axis",
-        "perpendicular to that axis",
-        "at one end of the axis",
-        "outside the body"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Reflection symmetry about an axis forces the centre of mass to lie <b>on that axis</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794305475415.6445,
       "question": "The centre of mass of a uniform solid cone lies",
       "options": [
@@ -384,20 +202,6 @@
       "points": 1
     },
     {
-      "id": 1794305475415.6958,
-      "question": "A system consists of three particles of equal mass placed at the vertices of an equilateral triangle. The centre of mass is located at",
-      "options": [
-        "one of the vertices",
-        "the midpoint of one side",
-        "the geometric centre of the triangle",
-        "outside the triangle"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Three equal masses at the vertices of an equilateral triangle give a centre of mass at the <b>geometric centre</b> (centroid) of the triangle.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794305475415.1335,
       "question": "The centre of mass of a system of particles can be located at a point where",
       "options": [
@@ -408,20 +212,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "The centre of mass may lie in a region where <b>there is no mass</b> (e.g. the centre of a ring or a doughnut).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475415.9004,
-      "question": "When a high jumper arches over the bar, the centre of mass of the body",
-      "options": [
-        "must also cross above the bar",
-        "may pass below the bar",
-        "always remains at the same height",
-        "moves in a straight line"
-      ],
-      "correctAnswer": 1,
-      "explanation": "By arching, the high jumper arranges for the centre of mass to <b>pass below the bar</b> while parts of the body clear it — a classic Fosbury-flop technique.",
       "difficulty": "easy",
       "points": 1
     },
@@ -464,20 +254,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Walking involves only internal forces (man-boat), so the <b>centre of mass remains stationary</b> (neglecting water drag). The boat shifts in the opposite direction.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475415.2996,
-      "question": "The position vector of the centre of mass of a system of particles is defined as",
-      "options": [
-        "the sum of the position vectors of all particles",
-        "the mass-weighted average of the position vectors",
-        "the average of the velocities of the particles",
-        "the sum of the masses times the velocities"
-      ],
-      "correctAnswer": 1,
-      "explanation": "r<sub>CM</sub> = (Σm<sub>i</sub>r<sub>i</sub>) ÷ M, which is the <b>mass-weighted average of the position vectors</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -534,20 +310,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Removing mass from one side shifts the centre of mass <b>away from the hole</b> — the remaining mass is biased toward the opposite side.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794305475415.6416,
-      "question": "The centre of gravity of an extended body is the point at which",
-      "options": [
-        "the entire mass of the body is concentrated",
-        "the entire weight of the body may be considered to act",
-        "the body's kinetic energy is zero",
-        "the body's momentum is maximum"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The <b>centre of gravity</b> is the point at which the <b>entire weight of the body may be considered to act</b> — the point about which the total torque due to gravity is zero.",
       "difficulty": "easy",
       "points": 1
     },
