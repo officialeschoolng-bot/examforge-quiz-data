@@ -3,16 +3,578 @@
   "title": "Topic 10: Linear Momentum",
   "subject": "",
   "level": "",
-  "totalQuestions": 0,
-  "questions": [],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1794304550237.5598,
+      "question": "The linear momentum of a particle is the product of its mass and which other quantity?",
+      "options": [
+        "Its acceleration",
+        "Its velocity",
+        "Its displacement",
+        "The force acting on it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Linear momentum is defined as <b>p = mv</b>, the product of mass and <b>velocity</b>. Acceleration, displacement, and force do not define momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550237.5898,
+      "question": "Which statement best describes the direction of the momentum vector of a moving particle?",
+      "options": [
+        "It is always directed vertically downward",
+        "It is opposite to the particle's velocity",
+        "It is the same as the particle's velocity",
+        "It is perpendicular to the particle's velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since p = mv and mass is a positive scalar, the momentum vector points in the <b>same direction as the velocity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550237.935,
+      "question": "The SI unit of linear momentum is expressed as",
+      "options": [
+        "N s",
+        "J s",
+        "kg m s<sup>−2</sup>",
+        "W"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From p = mv, the unit is kg m s<sup>−1</sup>, which equals <b>N s</b> (since 1 N = 1 kg m s<sup>−2</sup>). J s is angular momentum, kg m s<sup>−2</sup> is force, and W is power.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550237.9094,
+      "question": "Impulse is the product of force and which quantity?",
+      "options": [
+        "Distance",
+        "Mass",
+        "Time",
+        "Velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Impulse is <b>J = FΔt</b>, the product of force and the <b>time</b> over which it acts. Force × distance gives work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550237.4277,
+      "question": "The impulse–momentum theorem states that the impulse delivered to an object is equal to its",
+      "options": [
+        "Change in kinetic energy",
+        "Change in momentum",
+        "Average velocity",
+        "Total work done"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The impulse–momentum theorem states <b>J = Δp</b>: impulse equals the <b>change in momentum</b>. Change in kinetic energy relates to work, not impulse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550237.2522,
+      "question": "For a force that varies with time, the impulse is obtained by",
+      "options": [
+        "Multiplying the maximum force by the total time",
+        "Integrating the force with respect to time",
+        "Dividing the force by the time interval",
+        "Taking the slope of the force–time graph"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a time-varying force, <b>J = ∫F dt</b> — impulse is the <b>integral of force with respect to time</b>. The slope of a force–time graph has no standard physical meaning here; the area gives impulse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.7974,
+      "question": "A system is described as isolated when",
+      "options": [
+        "No particles enter or leave the system",
+        "The net external force acting on it is zero",
+        "The total kinetic energy of the system remains constant",
+        "The internal forces between particles vanish"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>isolated system</b> is one on which the <b>net external force is zero</b>, so its total momentum is conserved. No particles entering/leaving (A) describes a closed system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.2598,
+      "question": "The law of conservation of linear momentum applies to a system that is",
+      "options": [
+        "Open but isolated",
+        "Closed and isolated",
+        "Closed but not isolated",
+        "Open and not isolated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conservation of linear momentum requires both that the system be <b>closed</b> (no mass exchange) and <b>isolated</b> (no net external force).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.4067,
+      "question": "The law of conservation of momentum follows directly from",
+      "options": [
+        "Newton's first law",
+        "Newton's third law",
+        "Newton's second law",
+        "The work–energy theorem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internal forces come in equal and opposite action-reaction pairs by <b>Newton's third law</b>, so they cancel and the total momentum stays constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.294,
+      "question": "During a typical collision, external forces such as gravity are neglected because",
+      "options": [
+        "They are always exactly zero",
+        "The collision lasts for a very long time",
+        "The internal forces are much larger and act briefly",
+        "The colliding objects are moving freely through space before impact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During a collision, the <b>internal forces are very large and act over a very short time</b>, so the impulse due to external forces (like gravity) is negligible compared with the internal impulse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.7415,
+      "question": "In an elastic collision, which two quantities are both conserved?",
+      "options": [
+        "Momentum and kinetic energy",
+        "Momentum and potential energy",
+        "Kinetic energy and total energy only",
+        "Velocity and kinetic energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An <b>elastic collision</b> conserves both <b>total momentum and total kinetic energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.3198,
+      "question": "A collision in which kinetic energy is not conserved is described as",
+      "options": [
+        "Elastic",
+        "Inelastic",
+        "Reversible",
+        "Super-elastic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An <b>inelastic collision</b> conserves momentum but not kinetic energy — some kinetic energy is converted into other forms such as heat or deformation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.9146,
+      "question": "In a completely inelastic collision, the colliding bodies",
+      "options": [
+        "Bounce apart without any energy loss",
+        "Stick together and move as one",
+        "Exchange their velocities completely",
+        "Separate with the same relative speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a <b>perfectly inelastic collision</b>, the bodies <b>stick together and move with a common final velocity</b>; this is the case of maximum kinetic energy loss.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.352,
+      "question": "The coefficient of restitution is the ratio of the relative speed of separation to which quantity?",
+      "options": [
+        "Total kinetic energy of the system",
+        "Relative speed of approach",
+        "Total momentum of the system",
+        "Mass of the colliding bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>coefficient of restitution</b> e = (relative speed of separation) ÷ (relative speed of approach). It measures the elasticity of the collision.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.1243,
+      "question": "For a perfectly elastic collision, what is the value of the coefficient of restitution?",
+      "options": [
+        "Zero",
+        "One",
+        "Less than one",
+        "Greater than one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>perfectly elastic collision</b> has e = <b>1</b>, because the relative speed of separation equals the relative speed of approach.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.5264,
+      "question": "A coefficient of restitution of zero corresponds to which type of collision?",
+      "options": [
+        "A collision in which the bodies bounce apart",
+        "A partially inelastic collision",
+        "A perfectly inelastic collision",
+        "A collision that releases additional energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When e = 0, the relative speed of separation is zero, so the bodies <b>move together after impact</b> — a <b>perfectly inelastic collision</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.724,
+      "question": "In a two-dimensional collision, momentum is conserved",
+      "options": [
+        "Only along the line of impact",
+        "Only in the horizontal direction",
+        "Independently along each coordinate axis",
+        "Only when kinetic energy is also conserved"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Momentum is a vector, so in two dimensions it is conserved <b>independently along each coordinate axis</b> (x and y).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.5105,
+      "question": "The total momentum of an isolated system of particles",
+      "options": [
+        "Always decreases with time",
+        "Remains constant in time",
+        "Always increases with time",
+        "Depends on the internal forces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an isolated system (zero net external force), the total momentum <b>remains constant in time</b>. Internal forces cancel in pairs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.7507,
+      "question": "A bullet embedding itself in a stationary block is an example of",
+      "options": [
+        "A collision in which kinetic energy is conserved",
+        "A partially inelastic collision",
+        "A perfectly inelastic collision",
+        "A collision that generates extra kinetic energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since the bullet and the block move together afterwards, this is a <b>perfectly inelastic collision</b>. Momentum is conserved; kinetic energy is not.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.1482,
+      "question": "The recoil of a fired gun is best explained by",
+      "options": [
+        "Newton's first law of motion",
+        "The conservation of kinetic energy",
+        "The conservation of linear momentum",
+        "The principle of conservation of mechanical energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Before firing the total momentum is zero; after firing the bullet's forward momentum equals the gun's backward momentum, so the total stays zero. This is the <b>conservation of linear momentum</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.0137,
+      "question": "The impulse delivered to a body can be determined graphically as the",
+      "options": [
+        "Slope of the force–time graph",
+        "Area under the force–time graph",
+        "Area under the force–distance graph",
+        "Slope of the momentum–time graph"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impulse = ∫F dt, which is exactly the <b>area under the force–time graph</b>. The force–distance area gives work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.1653,
+      "question": "Which pair of quantities are both vectors?",
+      "options": [
+        "Mass and momentum",
+        "Impulse and momentum",
+        "Kinetic energy and impulse",
+        "Momentum and kinetic energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Impulse</b> (force × time) and <b>momentum</b> both have magnitude and direction, so both are vectors. Mass and kinetic energy are scalars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.1545,
+      "question": "An explosion of a stationary object into two fragments is a process in which",
+      "options": [
+        "Only kinetic energy is conserved",
+        "Only momentum is conserved",
+        "Both momentum and kinetic energy are conserved",
+        "Neither momentum nor kinetic energy is conserved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an explosion, the total momentum of the fragments equals the initial (zero) momentum, so <b>only momentum is conserved</b>. Kinetic energy increases because energy is supplied internally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.0095,
+      "question": "When the net external force on a system is zero, the system's total momentum",
+      "options": [
+        "Is always equal to zero",
+        "Remains constant in time",
+        "Is converted into kinetic energy",
+        "Becomes equal to the total impulse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the statement of conservation of momentum: with zero net external force, the total momentum <b>remains constant in time</b>. It need not be zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.752,
+      "question": "If the momentum of a body is doubled while its mass remains constant, its kinetic energy",
+      "options": [
+        "Remains unchanged",
+        "Is doubled in value",
+        "Becomes four times larger",
+        "Is reduced to one half"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since K = <span style='display:inline-block;text-align:center;vertical-align:middle'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em'>p<sup>2</sup></span><span style='display:block;padding:0 .35em'>2m</span></span>, doubling p multiplies K by 2<sup>2</sup> = 4. Kinetic energy <b>becomes four times larger</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.1711,
+      "question": "A moving ball strikes a wall and rebounds. The impulse on the ball is directed",
+      "options": [
+        "Along its initial velocity",
+        "Along its final velocity",
+        "Away from the wall",
+        "Toward the wall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ball's momentum reverses, so the change in momentum (impulse) is directed <b>away from the wall</b>, in the direction of the rebound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.4983,
+      "question": "The change in momentum of an object is equal to",
+      "options": [
+        "The net force acting on it",
+        "The impulse applied to it",
+        "The work done on it",
+        "Its change in kinetic energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By the impulse–momentum theorem, <b>Δp = J</b> — the change in momentum equals the <b>impulse</b> applied to the object.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.3984,
+      "question": "Which statement about an inelastic collision is correct?",
+      "options": [
+        "Kinetic energy is conserved although momentum is not conserved",
+        "Momentum is conserved but kinetic energy is not",
+        "Both momentum and kinetic energy are conserved",
+        "Neither momentum nor kinetic energy is conserved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an inelastic collision, <b>momentum is conserved but kinetic energy is not</b> (some is converted to heat, sound, and deformation).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.3699,
+      "question": "In a perfectly elastic head-on collision between two identical masses where one is at rest, the incident mass",
+      "options": [
+        "Sticks to the stationary mass",
+        "Comes to rest after the impact",
+        "Rebounds with the same speed",
+        "Continues with half its original speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For equal masses in a one-dimensional elastic collision with one at rest, the masses exchange velocities, so the incident mass <b>comes to rest</b> after impact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.2195,
+      "question": "The impulse of a force acting on a body is measured in which unit?",
+      "options": [
+        "Joules",
+        "Newton-seconds",
+        "Newton-metres",
+        "Kilograms per second"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impulse = force × time, so the SI unit is the <b>newton-second (N s)</b>. Joules and newton-metres are units of energy or work.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.9006,
+      "question": "A closed system is one in which",
+      "options": [
+        "The net external force is zero",
+        "No particles enter or leave the system",
+        "The total kinetic energy of the system remains constant",
+        "The internal forces are zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>closed system</b> exchanges no mass with its surroundings, so <b>no particles enter or leave</b>. Isolation (zero net external force) is a separate condition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.0125,
+      "question": "In a two-body collision in one dimension, the total momentum before impact",
+      "options": [
+        "Is always greater than after impact",
+        "Equals the total momentum after impact",
+        "Is always less than after impact",
+        "Depends on whether the collision is elastic or inelastic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Momentum is conserved in <b>all</b> collisions in one dimension (no net external force), so the total momentum before impact <b>equals</b> the total momentum after impact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.4363,
+      "question": "The impulse–momentum theorem is especially useful when analysing",
+      "options": [
+        "A body moving at constant speed in a straight line",
+        "Forces acting over very short intervals",
+        "A body in static equilibrium",
+        "Motion under zero net force"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The impulse–momentum theorem is particularly useful for <b>forces acting over very short intervals</b> (e.g. impacts), where the force's time variation is hard to measure but Δp is known.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.452,
+      "question": "A super-elastic collision is one in which",
+      "options": [
+        "The bodies stick together after impact",
+        "Kinetic energy is lost to deformation",
+        "Kinetic energy is gained during the impact",
+        "The coefficient of restitution is exactly equal to zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a <b>super-elastic (explosive) collision</b>, stored internal energy is released, so <b>kinetic energy is gained</b> during the impact. This corresponds to e > 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.2368,
+      "question": "For an isolated system, the internal forces between particles",
+      "options": [
+        "Can change the total momentum",
+        "Cannot change the total momentum",
+        "Always increase the kinetic energy",
+        "Are always equal to zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internal forces occur in equal and opposite pairs (Newton's third law), so they <b>cannot change the total momentum</b> of the system; they may redistribute momentum and energy among particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.9922,
+      "question": "When a moving proton collides elastically with a stationary proton and they scatter at right angles, this result is consistent with",
+      "options": [
+        "The conservation of momentum only",
+        "Conservation of momentum and kinetic energy",
+        "The conservation of kinetic energy only",
+        "Neither the momentum nor the kinetic energy is conserved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equal-mass elastic collisions are consistent with the right-angle scattering pattern predicted by <b>conservation of both momentum and kinetic energy</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.0005,
+      "question": "The term 'recoil velocity' refers to the velocity acquired by a body",
+      "options": [
+        "When it is brought to rest",
+        "After it absorbs a moving body",
+        "Due to the ejection of part of its mass",
+        "When it continues to move at a constant velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Recoil velocity</b> is the backward velocity a body acquires when it <b>ejects part of its mass</b> (e.g. a gun firing a bullet, or a rocket ejecting gas), conserving momentum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.04,
+      "question": "In a collision between two bodies where external forces are negligible, the force each body exerts on the other",
+      "options": [
+        "Is always zero",
+        "Is equal and opposite to the other force",
+        "Is always larger on the more massive of the two bodies",
+        "Is larger on the less massive body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton's third law, the force each body exerts on the other is <b>equal and opposite</b>, regardless of their masses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.4312,
+      "question": "The momentum of a body can be changed by",
+      "options": [
+        "Applying a net impulse to it",
+        "Moving it at constant velocity",
+        "Keeping its speed constant",
+        "Balancing all forces on it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Momentum changes only when a <b>net impulse</b> acts (Δp = J), i.e. when a net force acts over time. Constant velocity, constant speed, and balanced forces leave momentum unchanged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794304550238.4304,
+      "question": "In a perfectly inelastic collision between two moving bodies, the final kinetic energy is",
+      "options": [
+        "Always greater than the initial value",
+        "Always equal to the initial value",
+        "Always less than the initial value",
+        "Sometimes equal to the initial value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a perfectly inelastic collision, the bodies stick together and the maximum possible kinetic energy is lost, so the final kinetic energy is <b>always less than the initial value</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ],
   "settings": {
     "canChangeTime": true,
     "canPracticeMode": true,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 15
   },
-  "defaultTimePerQuestion": 60
+  "defaultTimePerQuestion": 15
 }
