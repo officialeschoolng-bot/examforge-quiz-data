@@ -3,7 +3,7 @@
   "title": "CHM 101 (UNINIGER): ATOMIC PROPERTIES",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 60,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -17,20 +17,6 @@
   },
   "questions": [
     {
-      "id": 1794380686018.0928,
-      "question": "The main cause of periodicity in the properties of elements is the",
-      "options": [
-        "gradual increase in atomic mass",
-        "repetition of similar outermost electronic configurations at certain intervals",
-        "increase in the number of neutrons",
-        "radioactive decay of elements"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Periodicity arises because elements with similar <b>outermost electronic configurations</b> recur at regular intervals, giving similar chemical properties.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794380686018.9172,
       "question": "Which of the following is NOT a periodic property?",
       "options": [
@@ -41,20 +27,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "<b>Atomic number</b> increases monotonically and is not a periodic property. Atomic radius, ionization energy, and electronegativity vary periodically.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686018.0974,
-      "question": "Elements in the same group of the Periodic Table have similar chemical properties because they have the same",
-      "options": [
-        "atomic mass",
-        "number of shells",
-        "number of valence electrons",
-        "number of neutrons"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Elements in the same group have the same <b>number of valence electrons</b>, which determines their chemical behaviour.",
       "difficulty": "easy",
       "points": 1
     },
@@ -157,20 +129,6 @@
       "points": 1
     },
     {
-      "id": 1794380686018.8762,
-      "question": "Atomic radius is the distance between",
-      "options": [
-        "the nuclei of two different atoms",
-        "the centre of the nucleus and the outermost electron shell of an atom",
-        "the first and the last electron shells",
-        "the protons and neutrons in the nucleus"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Atomic radius is the distance from the <b>centre of the nucleus to the outermost electron shell</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794380686018.296,
       "question": "Atomic radius is the same as",
       "options": [
@@ -251,20 +209,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Across a period, increasing nuclear charge pulls the same shell closer, so atomic radius <b>decreases</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686018.2888,
-      "question": "The trend in atomic radius across a period is due to",
-      "options": [
-        "increasing nuclear charge attracting electrons in the same shell more strongly",
-        "an increasing number of shells",
-        "a decreasing number of protons",
-        "greater shielding by inner shells"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Across a period, <b>increasing nuclear charge</b> attracts the same-shell electrons more strongly, shrinking the radius.",
       "difficulty": "easy",
       "points": 1
     },
@@ -367,20 +311,6 @@
       "points": 1
     },
     {
-      "id": 1794380686018.8755,
-      "question": "The radius of a cation is smaller than that of its parent atom because",
-      "options": [
-        "the atom gains protons",
-        "the nuclear charge is reduced",
-        "the outermost shell is lost and the nucleus pulls the remaining electrons more strongly",
-        "electron repulsion increases"
-      ],
-      "correctAnswer": 2,
-      "explanation": "When the <b>outermost shell is lost</b>, the remaining electrons are pulled more strongly by the same nuclear charge, so the cation is smaller.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794380686018.97,
       "question": "An anion has a radius that is ______ the radius of its parent atom.",
       "options": [
@@ -391,20 +321,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "An anion gains extra electrons, increasing repulsion, so its radius is <b>larger than</b> that of the parent atom.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686018.3406,
-      "question": "The radius of an anion is larger than that of its parent atom because",
-      "options": [
-        "protons are lost from the nucleus",
-        "the extra electrons increase repulsion and are less strongly attracted by the nucleus",
-        "an electron shell is lost",
-        "the nuclear charge increases"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The <b>extra electrons increase repulsion</b> and are less strongly attracted, so the anion expands.",
       "difficulty": "easy",
       "points": 1
     },
@@ -489,20 +405,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "For isoelectronic ions, <b>K<sup>+</sup></b> has fewer protons (lower nuclear charge), so it is larger than Ca<sup>2+</sup>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686018.849,
-      "question": "Ionization energy is the energy required to",
-      "options": [
-        "add an electron to a gaseous atom",
-        "remove a valence electron from an atom to form an ion",
-        "attract a shared pair of electrons in a bond",
-        "break a molecule into atoms"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Ionization energy is the energy needed to <b>remove a valence electron</b> from a gaseous atom.",
       "difficulty": "easy",
       "points": 1
     },
@@ -605,34 +507,6 @@
       "points": 1
     },
     {
-      "id": 1794380686019.4495,
-      "question": "The second ionization energy of an element is greater than its first because",
-      "options": [
-        "the ion has more shells than the atom",
-        "an electron is being removed from a positively charged ion",
-        "the atom is larger than the ion",
-        "the electron affinity is high"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The second electron is removed from a <b>positively charged ion</b>, so more energy is required.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686019.5608,
-      "question": "Electron affinity is the energy change that occurs when",
-      "options": [
-        "a gaseous atom gains an electron to form a negative ion",
-        "an electron is removed from an atom",
-        "an atom attracts a shared pair of electrons",
-        "an atom loses a valence electron"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Electron affinity is the energy change when a <b>gaseous atom gains an electron</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794380686019.2864,
       "question": "Atoms with smaller atomic radii tend to have",
       "options": [
@@ -699,20 +573,6 @@
       ],
       "correctAnswer": 3,
       "explanation": "<b>Cl</b> has a high electron affinity, greater than Na, Mg, and P.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794380686019.1875,
-      "question": "Electronegativity is the ability of an atom to",
-      "options": [
-        "attract shared pairs of electrons to itself in a chemical bond",
-        "remove an electron from another atom",
-        "lose electrons readily",
-        "release energy when it gains an electron"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Electronegativity is the ability to <b>attract shared pairs of electrons</b> in a bond.",
       "difficulty": "easy",
       "points": 1
     },
