@@ -3,16 +3,858 @@
   "title": "CHM 101 (UNINIGER): ATOMIC PROPERTIES",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 60,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794380686018.0928,
+      "question": "The main cause of periodicity in the properties of elements is the",
+      "options": [
+        "gradual increase in atomic mass",
+        "repetition of similar outermost electronic configurations at certain intervals",
+        "increase in the number of neutrons",
+        "radioactive decay of elements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Periodicity arises because elements with similar <b>outermost electronic configurations</b> recur at regular intervals, giving similar chemical properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.9172,
+      "question": "Which of the following is NOT a periodic property?",
+      "options": [
+        "Atomic radius",
+        "Ionization energy",
+        "Electronegativity",
+        "Atomic number"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Atomic number</b> increases monotonically and is not a periodic property. Atomic radius, ionization energy, and electronegativity vary periodically.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.0974,
+      "question": "Elements in the same group of the Periodic Table have similar chemical properties because they have the same",
+      "options": [
+        "atomic mass",
+        "number of shells",
+        "number of valence electrons",
+        "number of neutrons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Elements in the same group have the same <b>number of valence electrons</b>, which determines their chemical behaviour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.742,
+      "question": "Going from left to right across a period, the number of electron shells",
+      "options": [
+        "increases",
+        "decreases",
+        "doubles",
+        "remains the same"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Across a period, electrons are added to the <b>same shell</b>, so the number of shells remains the same.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.1873,
+      "question": "Going down a group, the number of electron shells",
+      "options": [
+        "remains constant",
+        "decreases",
+        "increases",
+        "halves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Going down a group, a new shell is added for each period, so the number of electron shells <b>increases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.0713,
+      "question": "An element with electronic configuration 2, 8, 1 belongs to group",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "VII"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The outermost shell has <b>1 electron</b>, so the element belongs to Group I.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.0576,
+      "question": "An element with electronic configuration 2, 8, 7 is in period",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "There are <b>3 occupied shells</b> (2, 8, 7), so the element is in Period 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.6882,
+      "question": "Which sub-atomic particle has a negligible mass compared with the others?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>electron</b> has a mass about 1/1836 that of a proton, so it is negligible compared with protons and neutrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.7966,
+      "question": "The sub-atomic particle that carries no charge is the",
+      "options": [
+        "neutron",
+        "proton",
+        "electron",
+        "ion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>neutron</b> is electrically neutral (no charge).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.713,
+      "question": "The nucleus of an atom contains",
+      "options": [
+        "protons and electrons",
+        "electrons and neutrons",
+        "protons and neutrons",
+        "protons only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nucleus contains <b>protons and neutrons</b>; electrons occupy the shells around it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.8762,
+      "question": "Atomic radius is the distance between",
+      "options": [
+        "the nuclei of two different atoms",
+        "the centre of the nucleus and the outermost electron shell of an atom",
+        "the first and the last electron shells",
+        "the protons and neutrons in the nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atomic radius is the distance from the <b>centre of the nucleus to the outermost electron shell</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.296,
+      "question": "Atomic radius is the same as",
+      "options": [
+        "atomic mass",
+        "atomic number",
+        "atomic size",
+        "ionization energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Atomic radius is a measure of <b>atomic size</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.2175,
+      "question": "In a diatomic molecule such as H<sub>2</sub>, the atomic radius is taken as",
+      "options": [
+        "twice the distance between the two nuclei",
+        "half the distance between the two nuclei",
+        "equal to the distance between the two nuclei",
+        "one-quarter of the distance between the two nuclei"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a diatomic molecule, the atomic radius is <b>half the internuclear distance</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.276,
+      "question": "Down a group in the Periodic Table, atomic radius",
+      "options": [
+        "increases steadily",
+        "decreases steadily",
+        "remains unchanged",
+        "first increases then decreases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Atomic radius <b>increases down a group</b> because new shells are added.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.3872,
+      "question": "The trend in atomic radius down a group is mainly due to",
+      "options": [
+        "a decrease in nuclear charge",
+        "an increase in the number of electron shells",
+        "an increase in the number of neutrons",
+        "a decrease in the number of valence electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Down a group, the <b>number of electron shells increases</b>, so the outermost electrons are farther from the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.3274,
+      "question": "In potassium (2, 8, 8, 1), the outermost electron is in the",
+      "options": [
+        "K shell",
+        "L shell",
+        "M shell",
+        "N shell"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The fourth shell is the <b>N shell</b>, so the outermost electron is in the N shell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.629,
+      "question": "Across a period from left to right, atomic radius generally",
+      "options": [
+        "increases",
+        "remains constant",
+        "decreases",
+        "varies irregularly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Across a period, increasing nuclear charge pulls the same shell closer, so atomic radius <b>decreases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.2888,
+      "question": "The trend in atomic radius across a period is due to",
+      "options": [
+        "increasing nuclear charge attracting electrons in the same shell more strongly",
+        "an increasing number of shells",
+        "a decreasing number of protons",
+        "greater shielding by inner shells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Across a period, <b>increasing nuclear charge</b> attracts the same-shell electrons more strongly, shrinking the radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.9978,
+      "question": "Which of the following has the largest atomic radius?",
+      "options": [
+        "Li",
+        "Na",
+        "K",
+        "Cs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Atomic radius increases down Group I, so <b>Cs</b> has the largest radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.07,
+      "question": "Which of the following period 3 elements has the smallest atomic radius?",
+      "options": [
+        "Na",
+        "Cl",
+        "Mg",
+        "Si"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Across Period 3, radius decreases from left to right, so <b>Cl</b> has the smallest radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.4136,
+      "question": "Which of chlorine and bromine has the larger atomic radius, and why?",
+      "options": [
+        "Chlorine, because it has more electrons",
+        "They are equal because they are in the same group",
+        "Bromine, because it has more electron shells",
+        "Chlorine, because it has higher electronegativity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Bromine</b> is below chlorine in Group VII and has <b>more electron shells</b>, so it has the larger atomic radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.6155,
+      "question": "Which arrangement shows decreasing atomic radius?",
+      "options": [
+        "Si > Al > Mg > Na",
+        "Na > Mg > Al > Si",
+        "Mg > Na > Si > Al",
+        "Al > Na > Si > Mg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Across Period 3, radius decreases from left to right, so <b>Na > Mg > Al > Si</b> is correct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.2656,
+      "question": "Which of the following period 2 elements (excluding the noble gas) has the largest atomic radius?",
+      "options": [
+        "Li",
+        "Be",
+        "N",
+        "F"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Across Period 2, radius decreases from left to right, so <b>Li</b> has the largest radius.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.822,
+      "question": "Which arrangement shows increasing atomic radius?",
+      "options": [
+        "C < N < O < F",
+        "F < O < N < C",
+        "O < F < C < N",
+        "N < C < F < O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Across Period 2, radius decreases from left to right, so increasing order is <b>F < O < N < C</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.6057,
+      "question": "A cation has a radius that is ______ the radius of its parent atom.",
+      "options": [
+        "larger than",
+        "the same as",
+        "smaller than",
+        "twice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A cation loses its outermost shell, so its radius is <b>smaller than</b> that of the parent atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.8755,
+      "question": "The radius of a cation is smaller than that of its parent atom because",
+      "options": [
+        "the atom gains protons",
+        "the nuclear charge is reduced",
+        "the outermost shell is lost and the nucleus pulls the remaining electrons more strongly",
+        "electron repulsion increases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the <b>outermost shell is lost</b>, the remaining electrons are pulled more strongly by the same nuclear charge, so the cation is smaller.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.97,
+      "question": "An anion has a radius that is ______ the radius of its parent atom.",
+      "options": [
+        "larger than",
+        "smaller than",
+        "the same as",
+        "unrelated to"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An anion gains extra electrons, increasing repulsion, so its radius is <b>larger than</b> that of the parent atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.3406,
+      "question": "The radius of an anion is larger than that of its parent atom because",
+      "options": [
+        "protons are lost from the nucleus",
+        "the extra electrons increase repulsion and are less strongly attracted by the nucleus",
+        "an electron shell is lost",
+        "the nuclear charge increases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>extra electrons increase repulsion</b> and are less strongly attracted, so the anion expands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.004,
+      "question": "Which is larger, Na or Na<sup>+</sup>?",
+      "options": [
+        "Na<sup>+</sup>",
+        "Na",
+        "They are equal",
+        "It cannot be determined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The neutral atom <b>Na</b> is larger than Na<sup>+</sup>, which has lost its outermost shell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.893,
+      "question": "Which is larger, Cl or Cl<sup>−</sup>?",
+      "options": [
+        "Cl is larger",
+        "They are equal",
+        "It cannot be determined",
+        "Cl<sup>−</sup> is larger"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Cl<sup>−</sup></b> is larger than Cl because the extra electron increases repulsion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.4749,
+      "question": "Which of the following isoelectronic ions has the smallest radius?",
+      "options": [
+        "O<sup>2−</sup>",
+        "F<sup>−</sup>",
+        "Na<sup>+</sup>",
+        "Mg<sup>2+</sup>"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For isoelectronic ions, higher nuclear charge gives smaller radius, so <b>Mg<sup>2+</sup></b> is smallest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.5461,
+      "question": "Which of the following isoelectronic ions has the largest radius?",
+      "options": [
+        "O<sup>2−</sup>",
+        "F<sup>−</sup>",
+        "Na<sup>+</sup>",
+        "Al<sup>3+</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For isoelectronic ions, lower nuclear charge gives larger radius, so <b>O<sup>2−</sup></b> is largest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.1558,
+      "question": "Down a group, the ionic radius of ions with the same charge",
+      "options": [
+        "decreases",
+        "increases",
+        "remains the same",
+        "becomes zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ionic radius <b>increases down a group</b> as more shells are added.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.052,
+      "question": "K<sup>+</sup> and Ca<sup>2+</sup> have the same electronic configuration (2, 8, 8). Which is larger, and why?",
+      "options": [
+        "K<sup>+</sup>, because it has fewer protons",
+        "Ca<sup>2+</sup>, because it has more protons",
+        "They are equal in size",
+        "Ca<sup>2+</sup>, because it has more electrons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For isoelectronic ions, <b>K<sup>+</sup></b> has fewer protons (lower nuclear charge), so it is larger than Ca<sup>2+</sup>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.849,
+      "question": "Ionization energy is the energy required to",
+      "options": [
+        "add an electron to a gaseous atom",
+        "remove a valence electron from an atom to form an ion",
+        "attract a shared pair of electrons in a bond",
+        "break a molecule into atoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ionization energy is the energy needed to <b>remove a valence electron</b> from a gaseous atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.5674,
+      "question": "A high ionization energy for an atom means that",
+      "options": [
+        "its electron is easily removed",
+        "its electron is difficult to remove",
+        "the atom is very large",
+        "the atom readily gains electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High ionization energy means the electron is <b>difficult to remove</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686018.1558,
+      "question": "Down a group, the ionization energy",
+      "options": [
+        "increases",
+        "remains constant",
+        "decreases",
+        "doubles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ionization energy <b>decreases down a group</b> as the outermost electron is farther from the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.9744,
+      "question": "Ionization energy decreases down a group because the outermost electron is",
+      "options": [
+        "closer to the nucleus",
+        "farther from the nucleus and less strongly held",
+        "attracted by a larger number of valence electrons",
+        "found in fewer shells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The outermost electron is <b>farther from the nucleus</b> and more shielded, so it is less strongly held.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.506,
+      "question": "Across a period from left to right, the ionization energy generally",
+      "options": [
+        "decreases",
+        "increases",
+        "remains constant",
+        "varies randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ionization energy generally <b>increases across a period</b> as nuclear charge increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.0288,
+      "question": "Which of the following has the highest first ionization energy?",
+      "options": [
+        "Na",
+        "Mg",
+        "Al",
+        "Ar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Ar</b> has a stable noble-gas configuration, so it has the highest first ionization energy among the listed elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.0635,
+      "question": "Which of the following loses its valence electron most easily?",
+      "options": [
+        "Li",
+        "Na",
+        "K",
+        "Cs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ionization energy decreases down Group I, so <b>Cs</b> loses its valence electron most easily.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.3857,
+      "question": "The usual unit of ionization energy is",
+      "options": [
+        "kJ",
+        "kJ mol<sup>−1</sup>",
+        "mol kJ<sup>−1</sup>",
+        "J K<sup>−1</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ionization energy is usually expressed in <b>kJ mol<sup>−1</sup></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.4495,
+      "question": "The second ionization energy of an element is greater than its first because",
+      "options": [
+        "the ion has more shells than the atom",
+        "an electron is being removed from a positively charged ion",
+        "the atom is larger than the ion",
+        "the electron affinity is high"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The second electron is removed from a <b>positively charged ion</b>, so more energy is required.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.5608,
+      "question": "Electron affinity is the energy change that occurs when",
+      "options": [
+        "a gaseous atom gains an electron to form a negative ion",
+        "an electron is removed from an atom",
+        "an atom attracts a shared pair of electrons",
+        "an atom loses a valence electron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electron affinity is the energy change when a <b>gaseous atom gains an electron</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.2864,
+      "question": "Atoms with smaller atomic radii tend to have",
+      "options": [
+        "weaker attraction for electrons",
+        "no attraction for electrons",
+        "stronger attraction for electrons",
+        "higher electropositivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Smaller atoms hold their electrons closer, so they have a <b>stronger attraction for electrons</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.2236,
+      "question": "Down a group, electron affinity generally",
+      "options": [
+        "increases",
+        "decreases",
+        "remains constant",
+        "varies irregularly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electron affinity generally <b>decreases down a group</b> as atomic size increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.116,
+      "question": "Across a period from left to right, electron affinity generally",
+      "options": [
+        "decreases",
+        "disappears",
+        "increases",
+        "remains constant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electron affinity generally <b>increases across a period</b> as atoms become smaller and more electron-attracting.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.607,
+      "question": "Noble gases have no tendency to accept additional electrons because",
+      "options": [
+        "their outermost shells are already complete",
+        "they have very large radii",
+        "they have low ionization energies",
+        "they have only one valence electron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Noble gases have <b>complete outermost shells</b>, so they do not accept additional electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.4976,
+      "question": "Which of the following has the highest electron affinity?",
+      "options": [
+        "Na",
+        "Mg",
+        "P",
+        "Cl"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Cl</b> has a high electron affinity, greater than Na, Mg, and P.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.1875,
+      "question": "Electronegativity is the ability of an atom to",
+      "options": [
+        "attract shared pairs of electrons to itself in a chemical bond",
+        "remove an electron from another atom",
+        "lose electrons readily",
+        "release energy when it gains an electron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electronegativity is the ability to <b>attract shared pairs of electrons</b> in a bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.2673,
+      "question": "The most electronegative element is",
+      "options": [
+        "Cl",
+        "O",
+        "F",
+        "N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Fluorine (F)</b> is the most electronegative element.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.7378,
+      "question": "Down a group, electronegativity",
+      "options": [
+        "decreases",
+        "increases",
+        "remains constant",
+        "doubles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electronegativity <b>decreases down a group</b> as atomic size increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.8933,
+      "question": "Across a period from left to right, electronegativity",
+      "options": [
+        "decreases",
+        "remains the same",
+        "increases",
+        "varies irregularly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electronegativity <b>increases across a period</b> as nuclear charge increases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.4185,
+      "question": "Metals are generally characterised by",
+      "options": [
+        "high electronegativity",
+        "low electronegativity",
+        "infinite electronegativity",
+        "zero ionization energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metals have <b>low electronegativity</b>; they tend to lose electrons rather than attract them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.6248,
+      "question": "Which arrangement shows increasing electronegativity?",
+      "options": [
+        "Cl < Al < Mg < Na",
+        "Na < Mg < Al < Cl",
+        "Mg < Na < Cl < Al",
+        "Na < Al < Mg < Cl"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electronegativity increases across a period, so the correct increasing order is <b>Na < Mg < Al < Cl</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.9028,
+      "question": "Electropositivity is the",
+      "options": [
+        "tendency of an atom to attract electrons",
+        "tendency of an atom to lose electrons to form a positive ion",
+        "energy released when an atom gains an electron",
+        "ability of an atom to conduct electricity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electropositivity is the <b>tendency to lose electrons</b> and form positive ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.5923,
+      "question": "In general, electropositivity",
+      "options": [
+        "decreases down a group and increases across a period",
+        "increases down a group and decreases across a period",
+        "increases both down a group and across a period",
+        "decreases both down a group and across a period"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electropositivity <b>increases down a group</b> and <b>decreases across a period</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.4353,
+      "question": "Which of the following Group II elements is the most electropositive?",
+      "options": [
+        "Be",
+        "Mg",
+        "Ca",
+        "Ba"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electropositivity increases down Group II, so <b>Ba</b> is the most electropositive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.6152,
+      "question": "Metals are generally",
+      "options": [
+        "poor conductors of heat and electricity",
+        "insulators",
+        "good conductors of heat and electricity",
+        "semiconductors only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Metals are <b>good conductors</b> of heat and electricity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794380686019.5017,
+      "question": "Within a period, the melting and boiling points of metallic elements generally",
+      "options": [
+        "decrease from left to right",
+        "increase from left to right",
+        "remain constant",
+        "vanish"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Within a period, the melting and boiling points of metallic elements generally <b>increase from left to right</b> as metallic bonding strengthens.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
