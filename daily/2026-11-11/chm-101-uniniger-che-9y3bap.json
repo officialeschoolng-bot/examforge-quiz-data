@@ -3,16 +3,718 @@
   "title": "CHM 101 ( UNINIGER ) : CHEMICAL EQUILIBRIUM",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794399992830.9646,
+      "question": "A state in a reversible chemical reaction where the forward and reverse reactions occur at the same speed is called which term?",
+      "options": [
+        "Chemical kinetics",
+        "Chemical thermodynamics",
+        "Chemical equilibrium",
+        "Chemical dynamics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chemical equilibrium is defined as the state in a reversible reaction where the forward and reverse reaction rates are equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.0757,
+      "question": "At chemical equilibrium, the concentrations of reactants and products remain constant because which condition is met?",
+      "options": [
+        "Forward and reverse rates are equal",
+        "The forward reaction stops",
+        "The reverse reaction stops",
+        "All reactants are consumed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At equilibrium, the rates of the forward and reverse reactions are equal, so concentrations remain constant even though reactions continue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.476,
+      "question": "In the general reversible reaction A + B ⇌ C + D, the symbol ⇌ represents which property?",
+      "options": [
+        "Irreversibility",
+        "Equilibrium constant",
+        "Reaction rate",
+        "Reversibility"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The double arrow symbol ⇌ indicates that the reaction is reversible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.5886,
+      "question": "Which of the following reactions illustrates a reversible reaction where the condition for forward and reverse reactions is the same?",
+      "options": [
+        "3Fe(s) + 4H₂O(l) ⇌ Fe₃O₄(s) + 4H₂(g)",
+        "NH₄Cl(s) ⇌ NH₃(g) + HCl(g)",
+        "I(s) ⇌ I(g)",
+        "2H₂ + O₂ → 2H₂O"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the reaction 3Fe(s) + 4H₂O(l) ⇌ Fe₃O₄(s) + 4H₂(g), the same condition applies for both forward and reverse reactions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.281,
+      "question": "In the reversible reaction NH₄Cl(s) ⇌ NH₃(g) + HCl(g), the temperature conditions for the forward and reverse reactions are described as which of the following?",
+      "options": [
+        "Identical conditions",
+        "Constant pressure",
+        "Different conditions",
+        "Constant volume"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For NH₄Cl, the forward and reverse reactions require different temperature conditions (heat for forward, cold for reverse).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.813,
+      "question": "The equilibrium constant is a measure of the ratio of the concentration of the products to the concentration of the reactants, with each concentration raised to which power?",
+      "options": [
+        "The reaction rate",
+        "The stoichiometric coefficient",
+        "The activation energy",
+        "The temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each concentration in the equilibrium constant expression is raised to the power corresponding to its coefficient in the balanced equation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.3628,
+      "question": "For the reaction mA + nB ⇌ xC + yD, the equilibrium constant Kc is expressed as which formula?",
+      "options": [
+        "[A]^m[B]^n / [C]^x[D]^y",
+        "[A][B] / [C][D]",
+        "[C][D] / [A][B]",
+        "[C]^x[D]^y / [A]^m[B]^n"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The equilibrium constant Kc is the product of product concentrations raised to their coefficients divided by the product of reactant concentrations raised to their coefficients.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.9663,
+      "question": "In any equilibrium system containing a solid or pure liquid, the active mass of that substance is assumed to be which value?",
+      "options": [
+        "One",
+        "Zero",
+        "Infinity",
+        "Variable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The active mass of a pure solid or pure liquid is assumed to be unity (1) at a given temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.6821,
+      "question": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the equilibrium constant Kc is expressed as which of the following?",
+      "options": [
+        "[N₂][H₂]³ / [NH₃]²",
+        "[NH₃] / ([N₂][H₂])",
+        "[NH₃]² / ([N₂][H₂]³)",
+        "[N₂][H₂] / [NH₃]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Applying the equilibrium law, Kc = [NH₃]² / ([N₂][H₂]³) since the coefficients are 2, 1, and 3 respectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.5913,
+      "question": "For the reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant Kc simplifies to which expression?",
+      "options": [
+        "[CO₂]",
+        "[CaO][CO₂] / [CaCO₃]",
+        "[CO₂] / [CaCO₃]",
+        "[CO₂][CaO]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since CaCO₃ and CaO are solids, their active masses are 1, so Kc = [CO₂][1]/[1] = [CO₂].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.3538,
+      "question": "When a system in equilibrium is subjected to a change in concentration, pressure or temperature, the equilibrium position shifts in order to do which of the following?",
+      "options": [
+        "Enhance the change",
+        "Ignore the change",
+        "Stop the reaction",
+        "Oppose the change"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Le Chatelier's principle states that the system adjusts to oppose or cancel out the applied change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.4963,
+      "question": "Le Chatelier's principle can also be stated as: if a system at equilibrium is disturbed, the system adjusts itself in order to do which of the following?",
+      "options": [
+        "Increase the disturbance",
+        "Permanently change state",
+        "Restore the equilibrium",
+        "Reverse completely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The principle states that the system adjusts to restore equilibrium after a disturbance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.5837,
+      "question": "The three major factors that affect the position of equilibrium are concentration, temperature, and which other factor?",
+      "options": [
+        "Pressure",
+        "Catalyst",
+        "Volume",
+        "Density"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three major factors affecting equilibrium position are changes in concentration, pressure, and temperature.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.4143,
+      "question": "An increase in the concentration of a reactant in an equilibrium system will shift the equilibrium position in which direction?",
+      "options": [
+        "Toward reactants",
+        "No shift",
+        "Depends on pressure",
+        "Toward products"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Increasing the concentration of a reactant shifts the equilibrium toward the formation of more products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.142,
+      "question": "A decrease in the concentration of a product in an equilibrium system will shift the equilibrium position in which direction?",
+      "options": [
+        "Toward products",
+        "Toward reactants",
+        "No shift",
+        "Depends on temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Removing product causes the system to shift toward the products to replace what was removed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.6482,
+      "question": "Adding more H₂ to the equilibrium N₂ + 3H₂ ⇌ 2NH₃ will result in which change?",
+      "options": [
+        "Less NH₃ formed",
+        "No change in NH₃",
+        "More NH₃ formed",
+        "NH₃ decomposes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adding more H₂ (reactant) shifts the equilibrium to the right, producing more NH₃.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.3013,
+      "question": "For an exothermic forward reaction, an increase in temperature will shift the equilibrium position in which direction?",
+      "options": [
+        "Toward products",
+        "No shift",
+        "Toward reactants",
+        "Randomly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Increasing temperature for an exothermic reaction shifts the equilibrium to the left (toward reactants) to absorb the added heat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.1785,
+      "question": "For an endothermic forward reaction, an increase in temperature will shift the equilibrium position in which direction?",
+      "options": [
+        "Toward products",
+        "Toward reactants",
+        "No shift",
+        "Depends on pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increasing temperature for an endothermic reaction shifts the equilibrium to the right (toward products).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.0208,
+      "question": "In the reaction 3H₂ + N₂ ⇌ 2NH₃ (ΔH = -92 kJ), increasing the temperature affects the yield of ammonia in which way?",
+      "options": [
+        "Increases yield",
+        "No effect",
+        "Doubles yield",
+        "Decreases yield"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since the reaction is exothermic, increasing temperature shifts equilibrium to the left, decreasing ammonia yield.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.7666,
+      "question": "Increasing pressure by reducing volume in a gaseous equilibrium system will shift the equilibrium toward which side?",
+      "options": [
+        "Side with more gas moles",
+        "Side with solids",
+        "Side with liquids",
+        "Side with fewer gas moles"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Increasing pressure shifts the equilibrium to the side with fewer moles of gas to reduce the pressure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.164,
+      "question": "For the reaction N₂ + 3H₂ ⇌ 2NH₃, increasing pressure will shift the equilibrium in which direction?",
+      "options": [
+        "Toward reactants",
+        "No shift",
+        "Toward products",
+        "Depends on temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The left side has 4 moles of gas (1+3) and the right side has 2 moles, so increasing pressure shifts equilibrium to the right (fewer moles).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.3394,
+      "question": "In the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), an increase in pressure will shift the equilibrium in which direction?",
+      "options": [
+        "Toward reactants",
+        "Toward products",
+        "No shift",
+        "Randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The left side has 1 mole of gas and the right side has 2 moles, so increasing pressure shifts equilibrium to the left (toward reactants).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.479,
+      "question": "The presence of a catalyst in a reversible reaction has which effect on the equilibrium position?",
+      "options": [
+        "Shifts right",
+        "No effect",
+        "Shifts left",
+        "Stops reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A catalyst increases the rates of both forward and reverse reactions equally, so the equilibrium position is unchanged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.581,
+      "question": "A catalyst affects a reversible reaction by lowering the activation energies of the forward and backward reactions by which amount?",
+      "options": [
+        "Different amounts",
+        "Zero amount",
+        "Variable amounts",
+        "The same amount"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A catalyst lowers the activation energy of both forward and reverse reactions by the same amount, so equilibrium is reached faster but position is unchanged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.1194,
+      "question": "When a noble gas is introduced into a system at equilibrium, which property of the system is increased?",
+      "options": [
+        "Partial pressures",
+        "Concentrations",
+        "Total pressure",
+        "Temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adding a noble gas increases only the total pressure of the system without affecting partial pressures or concentrations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.497,
+      "question": "The addition of a noble gas to an equilibrium system has which effect on the equilibrium position?",
+      "options": [
+        "No effect",
+        "Shifts right",
+        "Shifts left",
+        "Stops reaction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since noble gases do not affect the partial pressures or concentrations of the reacting gases, the equilibrium position is unaffected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992831.2559,
+      "question": "According to the one-sentence rules, increasing a reactant will cause the equilibrium to shift in which direction?",
+      "options": [
+        "Left",
+        "No shift",
+        "Depends on volume",
+        "Right"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Increasing a reactant shifts the equilibrium to the right to consume the added reactant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.4917,
+      "question": "According to the one-sentence rules, increasing pressure shifts the equilibrium to the side with which characteristic?",
+      "options": [
+        "More gas moles",
+        "More solids",
+        "Fewer gas moles",
+        "More liquids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Increasing pressure shifts the equilibrium to the side with fewer gas moles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.4124,
+      "question": "According to the one-sentence rules, increasing temperature shifts the equilibrium away from which side?",
+      "options": [
+        "Side that releases heat",
+        "Side that absorbs heat",
+        "Side with fewer moles",
+        "Side with more moles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increasing temperature shifts the equilibrium away from the side that releases heat (i.e., favors the endothermic direction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.5618,
+      "question": "According to the one-sentence rules, adding a catalyst causes which effect on equilibrium?",
+      "options": [
+        "Shifts right",
+        "No shift",
+        "Shifts left",
+        "Stops reaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adding a catalyst results in no shift in equilibrium position, only a faster attainment of equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.8076,
+      "question": "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), the equilibrium constant expression is which of the following?",
+      "options": [
+        "[PCl₅] / ([PCl₃][Cl₂])",
+        "[PCl₃] / ([PCl₅][Cl₂])",
+        "[Cl₂] / ([PCl₅][PCl₃])",
+        "[PCl₃][Cl₂] / [PCl₅]"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The equilibrium constant K = [PCl₃][Cl₂] / [PCl₅].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.8782,
+      "question": "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), an increase in pressure will shift the equilibrium position in which direction?",
+      "options": [
+        "Left",
+        "Right",
+        "No shift",
+        "Depends on temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The left side has 1 mole of gas and the right side has 2 moles, so increasing pressure shifts equilibrium to the left (backward reaction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.952,
+      "question": "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) with ΔH = +95 kJ mol⁻¹, an increase in temperature will shift the equilibrium in which direction?",
+      "options": [
+        "Left",
+        "No shift",
+        "Right",
+        "Randomly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since the reaction is endothermic (ΔH positive), increasing temperature shifts equilibrium to the right (forward reaction).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.666,
+      "question": "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), the removal of chlorine will shift the equilibrium in which direction?",
+      "options": [
+        "Left",
+        "No shift",
+        "Stops reaction",
+        "Right"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Removing Cl₂ (a product) causes the system to shift right to produce more PCl₃ and Cl₂.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.7913,
+      "question": "In the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), if the concentration of NH₃ is increased, the equilibrium will shift in which direction?",
+      "options": [
+        "Left",
+        "Right",
+        "No shift",
+        "Depends on pressure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Increasing product concentration shifts the equilibrium to the left (toward reactants).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.2195,
+      "question": "The equilibrium constant Kc for a reaction is a measure of which property?",
+      "options": [
+        "Reaction rate",
+        "Activation energy",
+        "Extent of reaction",
+        "Temperature change"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The equilibrium constant indicates the extent to which a reaction proceeds to form products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.8052,
+      "question": "A reversible reaction is one in which the products can react to form which substances?",
+      "options": [
+        "More products",
+        "Intermediates",
+        "Catalysts",
+        "The original reactants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In a reversible reaction, products can react to reform the original reactants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.9905,
+      "question": "In the reaction I(s) ⇌ I(g), the temperature conditions for the forward and reverse reactions are described as which of the following?",
+      "options": [
+        "Different",
+        "Identical",
+        "Constant",
+        "Undefined"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For iodine, the forward and reverse reactions require different temperature conditions (heat for sublimation, cold for deposition).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.798,
+      "question": "The active mass of a pure solid in an equilibrium expression is taken as which value?",
+      "options": [
+        "Zero",
+        "Its molar mass",
+        "Its density",
+        "One"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pure solids have a constant active mass of 1, so they are omitted from the equilibrium expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.3574,
+      "question": "Which of the following is NOT a factor that affects the position of equilibrium?",
+      "options": [
+        "Concentration",
+        "Catalyst",
+        "Pressure",
+        "Temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A catalyst speeds up the attainment of equilibrium but does not change the equilibrium position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.8572,
+      "question": "In Le Chatelier's principle, the system adjusts itself to do which of the following after a disturbance?",
+      "options": [
+        "Oppose the disturbance",
+        "Enhance the disturbance",
+        "Ignore the disturbance",
+        "Amplify the disturbance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The system adjusts to oppose the change and restore equilibrium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.6025,
+      "question": "For an endothermic reaction, decreasing the temperature will shift the equilibrium in which direction?",
+      "options": [
+        "Right",
+        "No shift",
+        "Depends on pressure",
+        "Left"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Decreasing temperature favors the exothermic direction, which is the reverse for an endothermic forward reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.7874,
+      "question": "The equilibrium constant expression for the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) is which of the following?",
+      "options": [
+        "[SO₂]²[O₂] / [SO₃]²",
+        "[SO₃] / ([SO₂][O₂])",
+        "[SO₃]² / ([SO₂]²[O₂])",
+        "[SO₂][O₂] / [SO₃]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Applying the equilibrium law, Kc = [SO₃]² / ([SO₂]²[O₂]).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.9504,
+      "question": "In the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), increasing pressure will shift the equilibrium in which direction?",
+      "options": [
+        "Right",
+        "Left",
+        "No shift",
+        "Randomly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The left side has 3 moles of gas and the right side has 2 moles, so increasing pressure shifts equilibrium to the right (fewer moles).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.4255,
+      "question": "The equilibrium constant is temperature-dependent, meaning its value changes with which factor?",
+      "options": [
+        "Concentration",
+        "Pressure",
+        "Volume",
+        "Temperature"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The equilibrium constant Kc depends on temperature and changes when temperature changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.537,
+      "question": "In a reaction where ΔH is negative (exothermic), decreasing the temperature will shift the equilibrium in which direction?",
+      "options": [
+        "Left",
+        "Right",
+        "No shift",
+        "Randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decreasing temperature favors the exothermic direction, which is the forward reaction, shifting equilibrium right.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.9587,
+      "question": "A reversible reaction reaches equilibrium when which condition is achieved?",
+      "options": [
+        "Reactants are completely consumed",
+        "Products are completely consumed",
+        "Reaction stops completely",
+        "Forward and reverse rates become equal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Equilibrium is reached when the rates of forward and reverse reactions become equal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.2937,
+      "question": "Adding a catalyst to a reversible reaction increases the rate of which reaction(s)?",
+      "options": [
+        "Both forward and reverse",
+        "Forward only",
+        "Reverse only",
+        "Neither"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A catalyst increases both forward and reverse reaction rates equally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.9956,
+      "question": "In the reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), the active mass of CaO is given which value?",
+      "options": [
+        "Zero",
+        "Its molar mass",
+        "Its concentration",
+        "One"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since CaO is a solid, its active mass is 1 and it is omitted from the equilibrium expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794399992832.7297,
+      "question": "The equilibrium constant expression for the reaction 4NH₃(g) + 5O₂(g) ⇌ 4NO(g) + 6H₂O(g) is which of the following?",
+      "options": [
+        "[NH₃]⁴[O₂]⁵ / ([NO]⁴[H₂O]⁶)",
+        "[NO]⁴[H₂O]⁶ / ([NH₃]⁴[O₂]⁵)",
+        "[NO][H₂O] / ([NH₃][O₂])",
+        "[NH₃][O₂] / ([NO][H₂O])"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying the equilibrium law, Kc = [NO]⁴[H₂O]⁶ / ([NH₃]⁴[O₂]⁵).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
