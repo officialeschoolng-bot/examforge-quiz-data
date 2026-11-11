@@ -3,16 +3,438 @@
   "title": "ANA 201 : CARPAL BONES",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794371831229.4507,
+      "question": "How many carpal bones make up the carpus?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The carpus consists of eight carpal bones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.1284,
+      "question": "In how many rows are the carpal bones arranged?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The carpal bones are arranged in two rows: proximal and distal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.928,
+      "question": "How many bones are in each carpal row?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each row consists of four bones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.9346,
+      "question": "Which bone is located most laterally in the proximal row?",
+      "options": [
+        "Lunate",
+        "Scaphoid",
+        "Triquetral",
+        "Pisiform"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The proximal row from lateral to medial begins with the scaphoid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.8406,
+      "question": "Which bone is located most medially in the proximal row?",
+      "options": [
+        "Lunate",
+        "Scaphoid",
+        "Pisiform",
+        "Triquetral"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The proximal row from lateral to medial ends with the pisiform.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.7395,
+      "question": "Which bone is located most laterally in the distal row?",
+      "options": [
+        "Trapezium",
+        "Trapezoid",
+        "Capitate",
+        "Hamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The distal row from lateral to medial begins with the trapezium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.161,
+      "question": "Which bone is located most medially in the distal row?",
+      "options": [
+        "Capitate",
+        "Hamate",
+        "Trapezoid",
+        "Trapezium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The distal row from lateral to medial ends with the hamate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.8755,
+      "question": "Which carpal bone is described as boat-shaped?",
+      "options": [
+        "Lunate",
+        "Scaphoid",
+        "Trapezoid",
+        "Pisiform"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scaphoid is identified as boat-shaped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.5435,
+      "question": "Which carpal bone is described as moon-shaped?",
+      "options": [
+        "Lunate",
+        "Triquetral",
+        "Capitate",
+        "Hamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lunate is identified as moon-shaped or crescentic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.7097,
+      "question": "Which carpal bone is described as pyramidal in shape?",
+      "options": [
+        "Pisiform",
+        "Trapezium",
+        "Triquetral",
+        "Trapezoid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The triquetral bone is described as pyramidal in shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.1174,
+      "question": "Which carpal bone is described as pea-shaped?",
+      "options": [
+        "Pisiform",
+        "Hamate",
+        "Lunate",
+        "Scaphoid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pisiform is identified as pea-shaped or pea-like.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.179,
+      "question": "Which carpal bone has a groove and crest on its palmar surface?",
+      "options": [
+        "Trapezium",
+        "Trapezoid",
+        "Capitate",
+        "Hamate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The trapezium is quadrilateral and has a groove and crest on its palmar surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.9592,
+      "question": "Which carpal bone is described as shoe-shaped?",
+      "options": [
+        "Trapezoid",
+        "Trapezium",
+        "Lunate",
+        "Scaphoid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The trapezoid bone is identified as shoe-shaped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.2388,
+      "question": "Which is the largest carpal bone?",
+      "options": [
+        "Hamate",
+        "Capitate",
+        "Scaphoid",
+        "Triquetral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The capitate is identified as the largest carpal bone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.8516,
+      "question": "Which carpal bone features a hook-like process?",
+      "options": [
+        "Trapezium",
+        "Capitate",
+        "Hamate",
+        "Pisiform"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hamate is wedge-shaped and has a hook-like process on its palmar surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.5002,
+      "question": "Which carpal bone has a rounded head on its proximal surface?",
+      "options": [
+        "Scaphoid",
+        "Capitate",
+        "Lunate",
+        "Pisiform"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The capitate has a rounded head on its proximal surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.039,
+      "question": "What is the morphological origin of the pisiform bone?",
+      "options": [
+        "Flat bone",
+        "Long bone",
+        "Sesamoid bone",
+        "Irregular bone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pisiform is usually regarded as a sesamoid bone developed in the tendon of flexor carpi ulnaris.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.276,
+      "question": "Which carpal bone is the most commonly fractured?",
+      "options": [
+        "Lunate",
+        "Capitate",
+        "Scaphoid",
+        "Hamate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fracture of the scaphoid is the most common fracture of the carpus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.8982,
+      "question": "A scaphoid fracture usually occurs due to which mechanism?",
+      "options": [
+        "Direct blow",
+        "Falling on hand",
+        "Twisting",
+        "Crushing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scaphoid fractures usually occur due to a fall on the outstretched hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.4297,
+      "question": "At which part does the scaphoid bone usually fracture?",
+      "options": [
+        "Neck",
+        "Proximal pole",
+        "Distal pole",
+        "Narrow waist"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The fracture occurs at the narrow waist of the scaphoid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.8386,
+      "question": "Tenderness in which area clinically indicates a scaphoid fracture?",
+      "options": [
+        "Anatomical box",
+        "Carpal tunnel",
+        "Guyon canal",
+        "Snuffbox roof"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Clinically, a scaphoid fracture presents as tenderness in the anatomical box.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.5466,
+      "question": "Which complication can occur if the proximal segment of a fractured scaphoid loses its blood supply?",
+      "options": [
+        "Necrosis",
+        "Infection",
+        "Fusion",
+        "Atrophy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the proximal segment is deprived of blood supply, it may undergo avascular necrosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.0059,
+      "question": "What is the state of the carpal bones at birth?",
+      "options": [
+        "Ossified",
+        "Fibrous",
+        "Cartilage",
+        "Muscle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The carpal bones are cartilaginous at birth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.0032,
+      "question": "How many ossification centers does each carpal bone have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each carpal bone ossifies by one centre and all these centres appear after birth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.227,
+      "question": "Which carpal bone is the first to ossify?",
+      "options": [
+        "Hamate",
+        "Capitate",
+        "Triquetral",
+        "Scaphoid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The capitate is the first bone to ossify in the carpus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.2139,
+      "question": "Which carpal bone is the last to ossify?",
+      "options": [
+        "Scaphoid",
+        "Lunate",
+        "Pisiform",
+        "Hamate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pisiform is the last bone to ossify in the carpus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.7092,
+      "question": "At what age does the ossification center for the capitate appear?",
+      "options": [
+        "First month",
+        "Second month",
+        "Third month",
+        "Fourth month"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The center for the capitate appears during the second month.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831229.1753,
+      "question": "At what age does the ossification center for the hamate appear?",
+      "options": [
+        "Second month",
+        "Third month",
+        "Fourth month",
+        "Fifth month"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The center for the hamate appears at the end of the third month.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831230.5698,
+      "question": "In females, at what age does the pisiform bone typically ossify?",
+      "options": [
+        "4th to 5th year",
+        "9th to 10th year",
+        "12th year",
+        "15th year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pisiform ossifies in the 9th to 10th year in females.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794371831230.297,
+      "question": "Knowledge of carpal bone ossification is important for determining what?",
+      "options": [
+        "Blood type",
+        "Bone age",
+        "Muscle mass",
+        "Joint space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The knowledge of ossification of carpal bones is important in determining the bone age of the child.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
