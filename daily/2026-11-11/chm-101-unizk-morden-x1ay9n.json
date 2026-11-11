@@ -3,16 +3,718 @@
   "title": "CHM 101 ( UNIZK ) : MORDEN ATOMIC THEORY",
   "subject": "CHM 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794426873873.246,
+      "question": "Which equation relates wave velocity, wavelength, and frequency?",
+      "options": [
+        "C = λ/V",
+        "C = V/λ",
+        "C = λV",
+        "C = λ + V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The relationship between wave velocity C, wavelength λ, and frequency V is C = λV.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.3884,
+      "question": "The velocity of light is approximately which value?",
+      "options": [
+        "3 × 10⁶ m/s",
+        "3 × 10¹⁰ m/s",
+        "3 × 10¹² m/s",
+        "3 × 10⁸ m/s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The velocity of light c is approximately 3 × 10⁸ m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.6196,
+      "question": "Frequency is the reciprocal of which quantity?",
+      "options": [
+        "Wavelength",
+        "Velocity",
+        "Amplitude",
+        "Wave number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frequency is the reciprocal of wavelength and is measured in cm⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.3032,
+      "question": "A spectrum is produced by dispersion of light using which instrument?",
+      "options": [
+        "Lens",
+        "Prism",
+        "Mirror",
+        "Filter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spectrum is produced by dispersion of beam of light by a prism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.8704,
+      "question": "Which element gives a yellow colour when heated in a discharge tube?",
+      "options": [
+        "Strontium",
+        "Potassium",
+        "Helium",
+        "Sodium"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sodium gives yellow, strontium red, potassium violet, and helium pink.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.7366,
+      "question": "Which colour is emitted by helium when heated in a discharge tube?",
+      "options": [
+        "Yellow",
+        "Red",
+        "Pink",
+        "Violet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Helium gives pink when heated in a discharge tube.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.873,
+      "question": "The hydrogen atom has an atomic radius of which value in cm?",
+      "options": [
+        "5.0 × 10⁻¹⁰",
+        "5.0 × 10⁻⁸",
+        "5.0 × 10⁻¹²",
+        "5.0 × 10⁻¹⁴"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The hydrogen atom has an atomic radius of 5.0 × 10⁻¹⁰ cm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.4888,
+      "question": "The Balmer series lies in which region of the spectrum?",
+      "options": [
+        "Ultraviolet",
+        "Infrared",
+        "Microwave",
+        "Visible"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Balmer series is in the visible region of the spectrum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.0195,
+      "question": "The Rydberg constant has approximately which value?",
+      "options": [
+        "1.09679 × 10³ cm⁻¹",
+        "1.09679 × 10⁷ cm⁻¹",
+        "1.09679 × 10⁵ cm⁻¹",
+        "1.09679 × 10⁹ cm⁻¹"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Rydberg constant has a value of 1.09679 × 10⁵ cm⁻¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.553,
+      "question": "The Paschen series corresponds to which value of n²?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Paschen series has n² = 4, 5, 6, and lies in the infrared region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.358,
+      "question": "The Brackett series has n² equal to which starting value?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Brackett series has n² = 6, 7, 8, etc., and lies in the infrared region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873875.8901,
+      "question": "The Pfund series is described by which expression?",
+      "options": [
+        "V̄ = R[1/5² − 1/n²]",
+        "V̄ = R[1/2² − 1/n²]",
+        "V̄ = R[1/3² − 1/n²]",
+        "V̄ = R[1/4² − 1/n²]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Pfund series is given by V̄ = 1/λ = R[1/5² − 1/n²].",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.7466,
+      "question": "The Ritz equation gives the frequency of which of the following?",
+      "options": [
+        "Only visible lines",
+        "Any line spectra",
+        "Only infrared lines",
+        "Only ultraviolet lines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ritz equation gives the frequency of any line spectra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.1343,
+      "question": "The Pauli exclusion principle requires electrons in the same orbital to have opposite which property?",
+      "options": [
+        "Energies",
+        "Charges",
+        "Spins",
+        "Masses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If two electrons occupy a single orbital, their spins must be paired.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5752,
+      "question": "A single orbital can accommodate a maximum of how many electrons?",
+      "options": [
+        "One",
+        "Four",
+        "Three",
+        "Two"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Not more than two electrons may occupy a single orbital.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.267,
+      "question": "When two electrons occupy a single orbital, their spins must be which of the following?",
+      "options": [
+        "Paired",
+        "Parallel",
+        "Identical",
+        "Random"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If two electrons occupy a single orbital, their spins must be paired.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.0076,
+      "question": "How many quantum numbers are needed to properly define an electron in an atom?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Four quantum numbers are needed to properly define the energy of an electron in an atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.0579,
+      "question": "The principal quantum number relates to the average distance of an electron from which of the following?",
+      "options": [
+        "The orbital",
+        "The electron",
+        "The subshell",
+        "The nucleus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The principal quantum number relates to the average distance of the electron from the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.4216,
+      "question": "The principal quantum number has integral values ranging from which of the following?",
+      "options": [
+        "1 to 7",
+        "0 to 6",
+        "1 to 5",
+        "0 to 7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The principal quantum number has integral values from 1 to 7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.559,
+      "question": "The principal quantum number mainly determines which property of an electron?",
+      "options": [
+        "Spin",
+        "Shape",
+        "Energy",
+        "Orientation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The principal quantum number is applicable in the determination of the energy of the electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2793,
+      "question": "The azimuthal quantum number is also known by which name?",
+      "options": [
+        "Spin quantum number",
+        "Magnetic quantum number",
+        "Principal quantum number",
+        "Orbital quantum number"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The azimuthal quantum number is also referred to as the orbital quantum number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.1562,
+      "question": "The azimuthal quantum number is related to which property of an electron?",
+      "options": [
+        "Angular momentum",
+        "Spin",
+        "Magnetic orientation",
+        "Energy level"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The azimuthal quantum number is related to the angular momentum of the electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2495,
+      "question": "An L value of zero corresponds to which orbital shape?",
+      "options": [
+        "Dumbbell",
+        "Spherical",
+        "Double dumbbell",
+        "Complex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L = 0 corresponds to an s-orbital, which has a spherical shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.485,
+      "question": "An L value of one corresponds to which orbital shape?",
+      "options": [
+        "Spherical",
+        "Double dumbbell",
+        "Dumbbell",
+        "Complex"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L = 1 corresponds to a p-orbital, which has a dumbbell shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2556,
+      "question": "An azimuthal quantum number of two corresponds to which type of orbital?",
+      "options": [
+        "s orbital",
+        "p orbital",
+        "f orbital",
+        "d orbital"
+      ],
+      "correctAnswer": 3,
+      "explanation": "L = 2 corresponds to a d-orbital, which has a double dumbbell geometry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.0425,
+      "question": "The magnetic quantum number describes the orientation of an electron cloud in which of the following?",
+      "options": [
+        "Energy",
+        "Space",
+        "Time",
+        "Spin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnetic quantum number describes the orientation of the electron cloud in space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.528,
+      "question": "Which quantum number is also called the orientation quantum number?",
+      "options": [
+        "Magnetic",
+        "Principal",
+        "Azimuthal",
+        "Spin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The magnetic quantum number is also referred to as the orientation quantum number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2656,
+      "question": "The spin quantum number defines which property of an electron?",
+      "options": [
+        "Orbital shape",
+        "Energy level",
+        "Magnetic orientation",
+        "Spin direction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The spin quantum number defines the spin of the electron.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.686,
+      "question": "How many quantum numbers are needed to define an orbital?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Three quantum numbers, n, L, and m, are needed to define an orbital.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.226,
+      "question": "Degeneracy refers to the existence of orbitals with which property?",
+      "options": [
+        "Equal energies",
+        "Equal shapes",
+        "Equal spins",
+        "Equal charges"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Degeneracy is the existence of two or more orbitals with identical or similar energy levels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.1938,
+      "question": "The p subshell contains how many degenerate orbitals?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A p subshell contains three degenerate orbitals: px, py, and pz.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.1199,
+      "question": "The d subshell contains how many degenerate orbitals?",
+      "options": [
+        "Three",
+        "Seven",
+        "Nine",
+        "Five"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A d subshell contains five degenerate orbitals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.8296,
+      "question": "Which subshell contains seven degenerate orbitals?",
+      "options": [
+        "p",
+        "d",
+        "f",
+        "s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An f subshell contains seven degenerate orbitals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5613,
+      "question": "Hund's rule states that electrons enter degenerate orbitals in which manner?",
+      "options": [
+        "Singly",
+        "In pairs",
+        "At random",
+        "All at once"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electrons will enter the orbits of a particular degenerate orbital level singly before pairing occurs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.7346,
+      "question": "Hund's rule helps to minimize which factor among electrons?",
+      "options": [
+        "Charge",
+        "Attraction",
+        "Overlap",
+        "Repulsion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electrons tend to be as far apart as possible to reduce the energy of repulsion among themselves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.349,
+      "question": "Hund's rule of maximum multiplicity applies to which type of orbitals?",
+      "options": [
+        "Inner shell orbitals",
+        "Degenerate orbitals",
+        "Different energy levels",
+        "Only s orbitals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hund's rule applies when electrons occupy orbitals of identical energy level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.356,
+      "question": "The ground state electronic configuration of hydrogen is which of the following?",
+      "options": [
+        "1s²",
+        "2s¹",
+        "1s¹",
+        "2s²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydrogen has one electron in the ground state, which occupies the 1s level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.344,
+      "question": "The ground state electronic configuration of helium is which of the following?",
+      "options": [
+        "1s²",
+        "1s¹",
+        "2s²",
+        "2p²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Helium has two electrons, and the second electron also occupies the 1s level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.114,
+      "question": "The ground state electronic configuration of lithium is which of the following?",
+      "options": [
+        "1s²2s²",
+        "1s¹2s¹",
+        "1s²2p¹",
+        "1s²2s¹"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lithium has the electronic structure 1s² 2s¹.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5144,
+      "question": "The ground state electronic configuration of beryllium is which of the following?",
+      "options": [
+        "1s²2s¹",
+        "1s²2s²",
+        "1s²2p²",
+        "2s²2p²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beryllium has the electronic structure 1s² 2s².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2087,
+      "question": "The magnetic moment of an element arises due to the presence of which of the following?",
+      "options": [
+        "Paired spins",
+        "Nuclear charge",
+        "Unpaired spins",
+        "Orbital overlap"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnetic moment arises due to the presence of unpaired electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.6067,
+      "question": "The unit used to express magnetic moment is which of the following?",
+      "options": [
+        "Bohr magneton",
+        "Joule per second",
+        "Newton per meter",
+        "Coulomb per second"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnetic moment has a unit of Bohr magneton (BM).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.6223,
+      "question": "Which instrument measures magnetic moment?",
+      "options": [
+        "Beam balance",
+        "Spring balance",
+        "Balance",
+        "Gouy balance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The magnetic moment can be measured using a Gouy balance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5767,
+      "question": "[CoF₆]³⁻ is paramagnetic with an observed magnetic moment of which value?",
+      "options": [
+        "2.3 BM",
+        "5.3 BM",
+        "3.3 BM",
+        "4.3 BM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[CoF₆]³⁻ is paramagnetic with an observed magnetic moment of 5.3 BM.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.887,
+      "question": "Which type of complex is attracted into a magnetic field?",
+      "options": [
+        "Diamagnetic",
+        "Ferromagnetic",
+        "Paramagnetic",
+        "Antiferromagnetic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paramagnetic complexes tend to move into a magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.2407,
+      "question": "Complexes that tend to move out of a magnetic field are classified as which type?",
+      "options": [
+        "Diamagnetic",
+        "Paramagnetic",
+        "Ferromagnetic",
+        "Antiferromagnetic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complexes are classified as diamagnetic if they tend to move out of a magnetic field.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5405,
+      "question": "An electron in an orbital experiences which type of force from the nucleus?",
+      "options": [
+        "Gravitational attraction",
+        "Magnetic repulsion",
+        "Nuclear repulsion",
+        "Coulombic attraction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An electron experiences a coulombic attraction to the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.5925,
+      "question": "The shielding effect involves repulsion between which types of electrons?",
+      "options": [
+        "Bonding and lone",
+        "Core and outer",
+        "Paired and unpaired",
+        "Sigma and pi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shielding implies inner core repulsion of the outermost electrons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.3826,
+      "question": "Slater's rule is used to estimate which quantity?",
+      "options": [
+        "Bond order",
+        "Orbital energy",
+        "Shielding constant",
+        "Magnetic moment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Slater proposed a rule for calculating the shielding constant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794426873876.8767,
+      "question": "The shielding constant is represented by which symbol?",
+      "options": [
+        "S",
+        "Z",
+        "n",
+        "L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shielding constant is represented by S or σ.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
