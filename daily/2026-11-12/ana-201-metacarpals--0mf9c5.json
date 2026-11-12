@@ -3,16 +3,438 @@
   "title": "ANA 201 : METACARPALS AND PHALANGES",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794457797635.4702,
+      "question": "How many metacarpal bones are present in the metacarpus?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The metacarpus consists of five metacarpal bones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.7998,
+      "question": "In which direction are the metacarpal bones numbered?",
+      "options": [
+        "Medial to lateral",
+        "Superior to inferior",
+        "Lateral to medial",
+        "Proximal to distal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They are numbered one to five from the lateral side to the medial side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.5403,
+      "question": "Which of the following is a part of a metacarpal bone?",
+      "options": [
+        "Shaft",
+        "Trochlea",
+        "Tubercle",
+        "Fossa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each metacarpal consists of three parts: head, shaft, and base.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.9067,
+      "question": "Where is the head of a metacarpal bone located?",
+      "options": [
+        "Proximal end",
+        "Distal end",
+        "Midshaft",
+        "Base"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The head is at the distal end and is rounded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.79,
+      "question": "What shape is the shaft of a metacarpal on its palmar aspect?",
+      "options": [
+        "Convex",
+        "Flat",
+        "Concave",
+        "Square"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shaft is concave on the palmar aspect and on the sides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.8704,
+      "question": "Where is the base of a metacarpal bone located?",
+      "options": [
+        "Distal end",
+        "Proximal end",
+        "Anterior surface",
+        "Posterior surface"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base is the proximal end and is expanded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.7815,
+      "question": "What is a distinguishing feature of the first metacarpal?",
+      "options": [
+        "Longest bone",
+        "Thinnest bone",
+        "Shortest bone",
+        "Most curved bone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The first metacarpal is the shortest and stoutest bone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.445,
+      "question": "Through what angle is the first metacarpal rotated?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "180 degrees",
+        "270 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is rotated medially through 90 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.903,
+      "question": "In which direction does the dorsal surface of the first metacarpal face?",
+      "options": [
+        "Medially",
+        "Laterally",
+        "Posteriorly",
+        "Anteriorly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due to medial rotation, its dorsal surface faces laterally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.633,
+      "question": "What is the shape of the articular surface at the base of the first metacarpal?",
+      "options": [
+        "Saddle-shaped",
+        "Hinge-shaped",
+        "Pivot-shaped",
+        "Ball-shaped"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Its base possesses a concave-convex or saddle-shaped articular surface for the trapezium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.1077,
+      "question": "How does the head of the first metacarpal compare to others?",
+      "options": [
+        "More convex",
+        "Less convex",
+        "More pointed",
+        "Less rounded"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The head of the first metacarpal is less convex and broader than other metacarpals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.394,
+      "question": "Where is the epiphysis located in the first metacarpal?",
+      "options": [
+        "Distal end",
+        "Proximal end",
+        "Shaft",
+        "Middle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first metacarpal has its epiphysis at its proximal end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.91,
+      "question": "Where is the epiphysis located in the second to fifth metacarpals?",
+      "options": [
+        "Proximal end",
+        "Distal end",
+        "Midshaft",
+        "Base"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The other metacarpals have their epiphysis at their distal end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.4463,
+      "question": "How many primary ossification centres does each metacarpal have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each metacarpal ossifies by one primary centre for the shaft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.7627,
+      "question": "At what age do the secondary centres for the 2nd to 5th metacarpal heads fuse?",
+      "options": [
+        "12 years",
+        "14 years",
+        "16 years",
+        "18 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The secondary centre for the head fuses at 16 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.2827,
+      "question": "Bennett's fracture involves which bone?",
+      "options": [
+        "1st metacarpal",
+        "2nd metacarpal",
+        "4th metacarpal",
+        "5th metacarpal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bennett's fracture is an oblique fracture of the base of the 1st metacarpal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.6816,
+      "question": "Boxer's fracture most commonly involves the neck of which metacarpal?",
+      "options": [
+        "1st",
+        "2nd",
+        "3rd",
+        "5th"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Boxer's fracture most commonly involves the neck of the 5th metacarpal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.343,
+      "question": "How many phalanges are present in each hand?",
+      "options": [
+        "Twelve",
+        "Thirteen",
+        "Fourteen",
+        "Fifteen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are 14 phalanges in each hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.6353,
+      "question": "How many phalanges are in the thumb?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The thumb has two phalanges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.291,
+      "question": "How many phalanges are in each finger?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are three phalanges in each finger.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.808,
+      "question": "What shape is the base of the proximal phalanges?",
+      "options": [
+        "Concave oval",
+        "Convex round",
+        "Saddle-shaped",
+        "Flat triangular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The bases of proximal phalanges have a concave oval facet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.8528,
+      "question": "What shape are the articular surfaces at the bases of middle and distal phalanges?",
+      "options": [
+        "Oval",
+        "Saddle",
+        "Pulley-shaped",
+        "Flat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bases of middle and distal phalanges possess pulley-shaped articular surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.5781,
+      "question": "What shape are the heads of proximal and middle phalanges?",
+      "options": [
+        "Pulley-shaped",
+        "Saddle-shaped",
+        "Pointed",
+        "Flat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The heads of proximal and middle phalanges are pulley-shaped.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.5532,
+      "question": "What characterizes the head of the distal phalanx?",
+      "options": [
+        "Pulley-shaped",
+        "Smooth articular",
+        "Rough tuberosity",
+        "Saddle-shaped"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The head of the distal phalanx is non-articular and has a rough horseshoe-shaped tuberosity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.075,
+      "question": "During which week of intrauterine life does the primary centre for the proximal phalanx appear?",
+      "options": [
+        "8th week",
+        "10th week",
+        "12th week",
+        "14th week"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The primary centre for the proximal phalanx appears in the 10th week.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.6812,
+      "question": "During which week of intrauterine life does the primary centre for the middle phalanx appear?",
+      "options": [
+        "8th week",
+        "10th week",
+        "12th week",
+        "14th week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary centre for the middle phalanx appears in the 12th week.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.9087,
+      "question": "During which week of intrauterine life does the primary centre for the distal phalanx appear?",
+      "options": [
+        "8th week",
+        "10th week",
+        "12th week",
+        "14th week"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary centre for the distal phalanx appears in the 8th week.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.4507,
+      "question": "At what age does the secondary centre for the base of a phalanx appear?",
+      "options": [
+        "At birth",
+        "1 year",
+        "2 years",
+        "4 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The secondary centre for the base appears at 2 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.578,
+      "question": "At what age does the secondary centre for the base of a phalanx fuse?",
+      "options": [
+        "12 years",
+        "14 years",
+        "16 years",
+        "18 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The secondary centre fuses at 16 years.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794457797635.6873,
+      "question": "How can an undisplaced fracture of a phalanx be treated?",
+      "options": [
+        "Surgery",
+        "Amputation",
+        "Traction",
+        "Strapping"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It can be treated satisfactorily by strapping the fractured finger with the neighboring finger.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
