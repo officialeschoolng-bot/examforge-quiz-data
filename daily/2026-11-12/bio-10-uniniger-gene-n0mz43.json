@@ -3,16 +3,718 @@
   "title": "BIO 10 ( UNINIGER ) : GENETICS AND ECOLOGY",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794502436082.2021,
+      "question": "Genetics is the study of which aspects of organisms?",
+      "options": [
+        "Cells and tissues",
+        "Ecology and habitat",
+        "Heredity and genes",
+        "Nutrition and growth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genetics focuses on heredity, variation, and genes in organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.3274,
+      "question": "Gregor Johann Mendel is recognized as which of the following?",
+      "options": [
+        "Father of ecology",
+        "Father of genetics",
+        "Father of evolution",
+        "Father of cytology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mendel discovered the fundamental laws of inheritance and is called the father of genetics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.9102,
+      "question": "A Mendelian gene is best described as which of the following?",
+      "options": [
+        "Basic heredity unit",
+        "A type of chromosome",
+        "A storage protein",
+        "A cell organelle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Mendelian gene is the basic unit of heredity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.7532,
+      "question": "Which type of molecular gene encodes a protein?",
+      "options": [
+        "Protein-coding gene",
+        "Non-coding sequence gene",
+        "Ribosomal RNA gene",
+        "Transfer RNA gene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Protein-coding genes are transcribed and translated to produce proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0364,
+      "question": "Wilhelm Johannsen introduced which term in 1909?",
+      "options": [
+        "Chromosome",
+        "Allele",
+        "Gene",
+        "Codon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Johannsen introduced the term gene, inspired by the Greek word gonos.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.9192,
+      "question": "DNA nucleotides contain which sugar?",
+      "options": [
+        "Ribose sugar",
+        "Deoxyribose",
+        "Glucose sugar",
+        "Fructose sugar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA contains the five-carbon sugar 2-deoxyribose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.4753,
+      "question": "How many hydrogen bonds form between cytosine and guanine?",
+      "options": [
+        "A single bond",
+        "Two hydrogen bonds",
+        "Four bonds",
+        "Three bonds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cytosine and guanine align to form three hydrogen bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.705,
+      "question": "DNA strands have directionality because one end contains which group?",
+      "options": [
+        "Hydroxyl group",
+        "Phosphate group",
+        "Amino group",
+        "Carboxyl group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 3′ end contains an exposed hydroxyl group on deoxyribose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.2356,
+      "question": "Nucleic acid synthesis occurs in which direction?",
+      "options": [
+        "3′ to 5′",
+        "5′ to 3′",
+        "2′ to 5′",
+        "5′ to 2′"
+      ],
+      "correctAnswer": 1,
+      "explanation": "New nucleotides are added using the exposed 3′ hydroxyl, so synthesis runs 5′ to 3′.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.793,
+      "question": "RNA contains which base in place of thymine?",
+      "options": [
+        "Guanine",
+        "Cytosine",
+        "Adenine",
+        "Uracil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RNA contains uracil instead of thymine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.526,
+      "question": "The region of a chromosome at which a particular gene is located is known as which of the following?",
+      "options": [
+        "Allele",
+        "Locus",
+        "Codon",
+        "Genome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each locus contains one allele of a gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.832,
+      "question": "DNA packaged with histones to form a nucleosome is called which of the following?",
+      "options": [
+        "Chromatin",
+        "Plasmid",
+        "Telomere",
+        "Centromere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNA packaged and condensed with histones is called chromatin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.6428,
+      "question": "Telomeres serve which function?",
+      "options": [
+        "Initiate DNA replication",
+        "Bind spindle fibres",
+        "Encode proteins",
+        "Cap chromosome ends"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Telomeres are repetitive sequences that cap linear chromosome ends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.124,
+      "question": "Prokaryotes typically store their genomes on which structure?",
+      "options": [
+        "Large linear chromosomes",
+        "Multiple plasmids",
+        "Circular chromosome",
+        "Histone complexes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prokaryotes usually have a single large circular chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.623,
+      "question": "Gene expression produces which type of molecule?",
+      "options": [
+        "DNA only",
+        "RNA or protein",
+        "Lipid only",
+        "Carbohydrate only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gene expression yields a functional RNA or protein gene product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.269,
+      "question": "A codon consists of how many nucleotides?",
+      "options": [
+        "Three nucleotides",
+        "One nucleotide",
+        "Two nucleotides",
+        "Four nucleotide units"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each codon is a set of three nucleotides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.1267,
+      "question": "How many possible codons exist in the genetic code?",
+      "options": [
+        "20",
+        "32",
+        "128",
+        "64"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Four nucleotides at three positions give 4³ = 64 codons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.3967,
+      "question": "Transcription produces which molecule?",
+      "options": [
+        "DNA",
+        "Protein",
+        "mRNA",
+        "Lipid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transcription synthesizes single-stranded messenger RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0435,
+      "question": "Which enzyme performs transcription?",
+      "options": [
+        "DNA polymerase",
+        "RNA polymerase",
+        "Ribosome",
+        "Ligase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RNA polymerase reads the template strand and synthesizes RNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.1697,
+      "question": "In eukaryotes transcription occurs in which location?",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Ribosome",
+        "Membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eukaryotic transcription occurs in the nucleus where DNA is stored.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.6318,
+      "question": "Translation uses mRNA as a template to synthesize which product?",
+      "options": [
+        "DNA molecule",
+        "Lipid molecule",
+        "RNA molecule",
+        "A protein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Translation produces a polypeptide chain that folds into protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.654,
+      "question": "Which molecules carry amino acids to the ribosome?",
+      "options": [
+        "mRNA",
+        "rRNA",
+        "tRNA",
+        "DNA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transfer RNA binds amino acids and matches codons through anticodons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.2483,
+      "question": "Reproduction in living forms is considered in relation to which dimension?",
+      "options": [
+        "Time",
+        "Space",
+        "Mass",
+        "Color"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reproduction is considered in relation to time because copies change through time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.9343,
+      "question": "A bacterium typically completes its life history in which time?",
+      "options": [
+        "60 minutes",
+        "30 minutes",
+        "24 hours",
+        "60 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The notes state a bacterium requires about 30 minutes to divide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.046,
+      "question": "In some simple algae such as Chlamydomonas, most of the cycle is which phase?",
+      "options": [
+        "Diploid",
+        "Triploid",
+        "Tetraploid",
+        "Haploid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Most of the Chlamydomonas cycle is haploid, and meiosis follows fertilization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.9863,
+      "question": "In mosses the gametophyte is which part of the plant?",
+      "options": [
+        "Spore-bearing spike",
+        "Small prothallus",
+        "Main green plant",
+        "Ovary tissue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In mosses the haplophase gametophyte is the main green plant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.7817,
+      "question": "In ferns the large spore-bearing plant is which type?",
+      "options": [
+        "Diploid",
+        "Haploid",
+        "Triploid",
+        "Haplodiploid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The large fern plant is entirely diploid while the prothallus is haploid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.1277,
+      "question": "Butterfly development includes which dormant stage?",
+      "options": [
+        "Larva",
+        "Pupa",
+        "Imago",
+        "Pluteus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The chrysalis or pupa is the dormant stage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0737,
+      "question": "In sea urchins the larva is called which of the following?",
+      "options": [
+        "Polyp",
+        "Medusa",
+        "Nauplius",
+        "Pluteus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sea urchin larva is called a pluteus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.3428,
+      "question": "In Obelia the motile stage is called which of the following?",
+      "options": [
+        "Polyp",
+        "Pluteus",
+        "Medusa",
+        "Larva"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Obelia has sessile polyps and motile medusae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.4658,
+      "question": "Charles Darwin recognized that evolution requires which condition?",
+      "options": [
+        "Copy variation",
+        "Identical copies",
+        "No inheritance",
+        "Fixed offspring number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Darwin realized copies must show variation for natural selection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.2217,
+      "question": "The principle of compromise states that variation must be which of the following?",
+      "options": [
+        "Completely absent",
+        "Extremely high",
+        "Purely random",
+        "Moderate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Too little variation produces no change, while too much scrambles inherited traits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0208,
+      "question": "Sexual reproduction is most successful at producing which outcome?",
+      "options": [
+        "No variation",
+        "Right variation",
+        "Too much variation",
+        "Clonal copies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sexual reproduction produces the right amount of variation and new trait combinations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.371,
+      "question": "Increased organism size is accompanied by which requirement?",
+      "options": [
+        "Simpler life cycles",
+        "Fewer cell divisions",
+        "Greater efficiency",
+        "Shorter generation time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Size increase necessitated selection for increased efficiency and complexity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.1848,
+      "question": "A species must avoid producing which offspring condition?",
+      "options": [
+        "Too few offspring",
+        "Any variation",
+        "Any mutation",
+        "Too many offspring"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A species must avoid too few offspring because it may become extinct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.4885,
+      "question": "The amount of variation is controlled by which factor?",
+      "options": [
+        "Skin color",
+        "Habitat size",
+        "Body temperature",
+        "Mutation rate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Variation control factors include mutation rate, chromosome number, and crossing over.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0618,
+      "question": "Asexual reproductive bodies such as spores are typically which of the following?",
+      "options": [
+        "Large and few",
+        "Large and dispersed",
+        "Small and dispersed",
+        "Small and clustered"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asexual spores are small and effectively dispersed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.743,
+      "question": "Heredity is the transfer of which entities from parents to offspring?",
+      "options": [
+        "Habitats",
+        "Traits",
+        "Foods",
+        "Diseases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heredity transfers characters or traits from parents to offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.3625,
+      "question": "Variation refers to differences among individuals of which group?",
+      "options": [
+        "Same species",
+        "Different kingdoms",
+        "Same cell",
+        "Different ecosystems"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Variation concerns differences among individuals of the same species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.1316,
+      "question": "Which source contributes to genetic variation?",
+      "options": [
+        "Daily sleep pattern",
+        "Local weather",
+        "Gravitational pull",
+        "Gene mutation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sources of genetic variation include mutation, gene flow, and sexual reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.3274,
+      "question": "Evolution is defined as change in which aspect of a population over time?",
+      "options": [
+        "Physical size",
+        "Habitat location",
+        "Genetic make-up",
+        "Population color"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Evolution is change in the genetic make-up of a population over time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.4092,
+      "question": "Charles Darwin published On the Origin of Species in which year?",
+      "options": [
+        "1859",
+        "1865",
+        "1900",
+        "1909"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Darwin published On the Origin of Species in 1859.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0166,
+      "question": "Evolution is described as which type of process?",
+      "options": [
+        "Random",
+        "Purely chance",
+        "Goal-directed",
+        "Non-random"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Although mutations are random, natural selection is not a process of chance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.8826,
+      "question": "Natural selection leads populations to do which of the following?",
+      "options": [
+        "Remain identical",
+        "Adapt and change",
+        "Avoid reproduction",
+        "Lose all variation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural selection is the process through which populations adapt and change.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.8457,
+      "question": "Genetic drift changes allele frequencies due to which cause?",
+      "options": [
+        "Natural selection",
+        "Gene flow",
+        "Random chance",
+        "Mutation pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genetic drift is change in gene variant frequency due to random chance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.0288,
+      "question": "Convergent evolution produces which outcome in unrelated organisms?",
+      "options": [
+        "Similar features",
+        "Identical genomes",
+        "Shared ancestry",
+        "Same species"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Convergent evolution occurs when unrelated organisms evolve similar features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.2773,
+      "question": "Ecology is the study of which relationship?",
+      "options": [
+        "Atoms and molecules study",
+        "Cells and tissues",
+        "Planets and stars",
+        "Organism and environment"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ecology studies inter-relationships between living organisms and their environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.211,
+      "question": "Ecology includes which two ecosystem types?",
+      "options": [
+        "Marine and freshwater",
+        "Natural and artificial",
+        "Terrestrial and aquatic",
+        "Biotic and abiotic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The notes state there are natural and artificial ecosystems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.7336,
+      "question": "Mutualism is a symbiotic relationship in which which outcome occurs?",
+      "options": [
+        "One benefits",
+        "Both harmed",
+        "Both benefit",
+        "One harmed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mutualism is a +/+ interaction where both organisms benefit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794502436083.8777,
+      "question": "Parasitism is classified as which type of interaction?",
+      "options": [
+        "+/–",
+        "+/+",
+        "+/0",
+        "–/–"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parasitism benefits one organism and harms the other, so it is +/–.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
