@@ -3,16 +3,718 @@
   "title": "GST 113 ( UNIZK ) : EXPRESSIVE ARTS FOR GOOD MENTAL HEALTH AND ESSENTIAL WELL-BEING  IN CONTEMPORARY THEATER PRACTICE",
   "subject": "GST 113",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794593054208.3015,
+      "question": "Which of the following best describes theatre in the context of performing for good mental health?",
+      "options": [
+        "A place for pure entertainment",
+        "A collaborative art form",
+        "A medical treatment clinic",
+        "A physical fitness routine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Theatre is defined as a collaborative art form that combines different art forms to express meaning and purposefully engage for health and well-being benefits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.8975,
+      "question": "Expressive Arts Therapy is commonly abbreviated using which acronym?",
+      "options": [
+        "EAT",
+        "ART",
+        "EXA",
+        "ACT"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Expressive Arts Therapy is abbreviated as EXA, an integrative, multimodal approach that utilizes a variety of techniques.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.008,
+      "question": "Which approach does Expressive Arts Therapy use to help people faced with emotional and mental health issues?",
+      "options": [
+        "A purely surgical and medical approach",
+        "A singular and isolated method",
+        "Purely pharmaceutical",
+        "Integrative and multimodal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "EXA is an integrative, multimodal approach that utilizes a variety of techniques including drama, dance, and music.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.0837,
+      "question": "Which of the following is a technique used in Expressive Arts Therapy?",
+      "options": [
+        "Drama",
+        "Surgery",
+        "Accounting",
+        "Engineering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EXA utilizes a variety of techniques including drama and theatre, dance, creative writing, music, and visual arts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1848,
+      "question": "Which skill is developed by Expressive Arts Therapy according to the text?",
+      "options": [
+        "Financial auditing skills",
+        "Emotional intelligence",
+        "Culinary expertise",
+        "Mechanical repair skills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "EXA develops emotional intelligence, confidence, resilience, discipline, and commitment among other skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.7505,
+      "question": "Which session is highlighted as the first step for EXA therapists?",
+      "options": [
+        "Collaboration session",
+        "Aesthetic response session",
+        "Follow the metaphor",
+        "Curiosity session"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Following the metaphor is the first of four sessions highlighted to help EXA therapists engage clients in the creative arts laboratory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.5183,
+      "question": "Which item is used by clinicians to help clients identify metaphors?",
+      "options": [
+        "Art cards",
+        "Medical charts",
+        "Financial reports",
+        "Legal documents"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The theatre clinician may offer the use of art cards with a variety of different images to help a participant identify a metaphor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1902,
+      "question": "Which session involves the therapist and client working collectively on art processes?",
+      "options": [
+        "Curiosity",
+        "Aesthetic response",
+        "Follow the metaphor",
+        "Collaboration"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the collaboration session, therapists and their clients may work collectively on art creative processes together.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4988,
+      "question": "During the curiosity session, therapists do which of the following?",
+      "options": [
+        "Provide final judgments on the work",
+        "Grade the artwork strictly",
+        "Ask exploratory questions",
+        "Stop the session immediately"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During the curiosity session, EXA therapists do not assess or analyze participant's creative work; rather they remain curious and ask exploratory questions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.9373,
+      "question": "Which art form is associated with double meaning-making and dramatic tension?",
+      "options": [
+        "Drama",
+        "Visual art",
+        "Music",
+        "Poetry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The power of dramatic art is found in its bodily, emotional nature, including double meaning-making, aesthetic focus, and dramatic tension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.032,
+      "question": "Which art form can help develop eye-hand-mind coordination?",
+      "options": [
+        "Drama",
+        "Visual arts",
+        "Poetry",
+        "Music"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Engaging participants through learning musical instruments helps develop eye-hand-mind coordination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.433,
+      "question": "Engaging clients through visual arts helps them discern which of the following?",
+      "options": [
+        "Musical notes",
+        "Signs and symbols",
+        "Dramatic scripts",
+        "Poetic rhythms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By making their own artworks, EXA clients learn to discern signs, symbols, and visual codes layered in artworks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.088,
+      "question": "Which benefit is associated with EXA at a community level?",
+      "options": [
+        "Isolation",
+        "Competition",
+        "Communality",
+        "Individualism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The arts help at a community level by creating a feeling of communality and rebuilding social connections.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4045,
+      "question": "Expressive Arts Therapy promotes which concept in terms of health service?",
+      "options": [
+        "Health economics",
+        "Health politics",
+        "Health litigation",
+        "Health engineering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since it can be used as a non-medical approach to preventing mental health problems, it promotes health economics by saving money.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.325,
+      "question": "Which factor is essential for effective mental, physical, and emotional health treatment?",
+      "options": [
+        "Sympathy",
+        "Apathy",
+        "Antipathy",
+        "Empathy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The study concludes that for effective mental, physical, and emotional health treatment, empathy is essential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.081,
+      "question": "Expressive arts therapy practices can be applied in which settings?",
+      "options": [
+        "Only in hospitals",
+        "All types of settings",
+        "Only in schools",
+        "Only in rehabilitation centers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "EXA therapy practices are not limited to the students of arts alone but can be applied to work effectively in all types of settings and with people of all ages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1926,
+      "question": "According to Sofola, the artist creates to do which of the following?",
+      "options": [
+        "Generate financial wealth",
+        "Build physical structures",
+        "Restore the life of the sick",
+        "Win political elections"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sofola states that the artist creates to heal and restore the life of the sick and battered humanity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.141,
+      "question": "Besides drama, which of the following is encompassed by Expressive Arts Therapy?",
+      "options": [
+        "Chemistry",
+        "Physics",
+        "Math",
+        "Dance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Expressive Arts Therapy utilizes a variety of techniques including drama and theatre, dance, creative writing, music, and visual arts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.7854,
+      "question": "Expressive Arts Therapy aims to provide what for patients with mental health challenges?",
+      "options": [
+        "Healing and hope",
+        "Financial debt and ruin",
+        "Physical pain and suffering",
+        "Legal troubles and fines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expressive Arts aim to use diverse forms of artistic expressions to facilitate healing and provide hope for patients with mental health challenges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.9136,
+      "question": "Which university study suggests improvisational theatre can reduce anxiety?",
+      "options": [
+        "Oxford University study",
+        "Harvard University study",
+        "University of Michigan",
+        "Cambridge University study"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A study at the University of Michigan suggests that improvisational theatre training can reduce fearfulness and anxiety among teens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.9644,
+      "question": "Which of the following is a session used by EXA therapists?",
+      "options": [
+        "Physical surgery session",
+        "Aesthetic response",
+        "Financial audit review",
+        "Legal debate session"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aesthetic response is another session used by both theatre clinician and participant as an expressive reflection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.8118,
+      "question": "An aesthetic response can take the form of which of the following?",
+      "options": [
+        "Movement or music",
+        "A written examination",
+        "A financial report",
+        "A legal contract"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An aesthetic response may take the form of movement, music, or any art form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4663,
+      "question": "The main purpose of using EXA in theatre practice is to promote what?",
+      "options": [
+        "Physical strength",
+        "Financial wealth",
+        "Political power",
+        "Mental alertness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main purpose of using this technique in theatre practice is to develop and promote participant's mental alertness as creative, imaginative individuals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1697,
+      "question": "Which skill is NOT explicitly mentioned as developed by EXA?",
+      "options": [
+        "Emotional intelligence",
+        "Confidence",
+        "Financial auditing",
+        "Problem-solving"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text mentions EXA develops emotional intelligence, confidence, resilience, discipline, communication skills, and problem-solving, but not financial auditing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1624,
+      "question": "Drama fosters self-discipline, confidence, and which other skill?",
+      "options": [
+        "Solitude",
+        "Teamwork",
+        "Selfishness",
+        "Arrogance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drama fosters self-discipline, confidence, and team work, developing skills in interpreting, researching, negotiating, problem-solving, and decision making.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.146,
+      "question": "Which magazine published an article on students doing better with music lessons?",
+      "options": [
+        "Forbes",
+        "Time",
+        "Newsweek",
+        "The Economist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An article in Forbes Business Magazine noted that students do better in Science, Mathematics, and English if they also take Music lessons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.0654,
+      "question": "Which skill is required for playing in an ensemble?",
+      "options": [
+        "Individual isolation",
+        "Conflict creation",
+        "Data entry",
+        "Team skills"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Engaging participants through playing in an ensemble is demanding and helps develop team skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1853,
+      "question": "Making artworks helps EXA clients learn to make what?",
+      "options": [
+        "Financial decisions",
+        "Medical diagnoses",
+        "Critical judgements",
+        "Legal rulings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By making their own artworks, EXA clients learn to discern signs, symbols, and visual codes, and make critical judgements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.984,
+      "question": "Which sector has seen arts programmes open in hundreds of hospitals?",
+      "options": [
+        "Finance",
+        "Healthcare",
+        "Agriculture",
+        "Transport"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since the 1980s, arts programmes have opened in hundreds of hospitals, clinics, and community centers across the world.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.32,
+      "question": "Engaging in arts programmes helps alleviate which feeling through social connections?",
+      "options": [
+        "Loneliness",
+        "Happiness",
+        "Excitement",
+        "Anger"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Through getting involved in arts programmes, people in later life can rebuild their social connections, which helps in alleviating loneliness and isolation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.3801,
+      "question": "Expressive arts therapy serves as which kind of approach to preventing mental health problems?",
+      "options": [
+        "Surgical",
+        "Pharmaceutical",
+        "Legal",
+        "Non-medical"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since it can be used as a non-medical approach to preventing mental health problems, it could help save money in the health service and social care.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.076,
+      "question": "The creative process of art making helps people resolve which of the following?",
+      "options": [
+        "Financial debts and issues",
+        "Conflicts and problems",
+        "Legal disputes and cases",
+        "Mechanical issues and faults"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The creative process involved in EXA treatments helps people resolve conflicts and problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.179,
+      "question": "Empathy is defined as the ability to be aware of what?",
+      "options": [
+        "Personal finances and money",
+        "Legal statutes and laws",
+        "Feelings of other people",
+        "Scientific facts and data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Empathy is defined as the ability to be aware of the feelings and emotions of other people.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.7607,
+      "question": "Unending issues have impacted negatively on which aspect of the youth?",
+      "options": [
+        "Wellbeing and mental health",
+        "Physical height and growth",
+        "Financial status and wealth",
+        "Academic grades and scores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sad reality of unending issues has impacted negatively on the wellbeing and mental health of the society, especially the youth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.5537,
+      "question": "Which of the following is an EXA technique?",
+      "options": [
+        "Computer programming",
+        "Car repair",
+        "Cooking",
+        "Creative writing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "EXA utilizes techniques including drama, dance, creative writing, music, and visual arts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.0166,
+      "question": "Which session involves the use of art cards?",
+      "options": [
+        "The aesthetic response",
+        "Follow the metaphor",
+        "The collaboration session",
+        "The curiosity session"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The theatre clinician may offer the use of art cards to help a participant identify a metaphor, which is part of the follow the metaphor session.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.7842,
+      "question": "A clinician uses feedback during the curiosity session to assess what?",
+      "options": [
+        "Level of response",
+        "Financial capacity",
+        "Physical strength",
+        "Academic knowledge"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A theatre clinician may use feedback to assess the level or degree of participant's response or reactions to inquisitiveness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.5195,
+      "question": "Drama helps develop which type of communication skills?",
+      "options": [
+        "Only written and typed",
+        "Only spoken and heard",
+        "Verbal and nonverbal",
+        "Only digital and online"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of dramatic activities as therapeutic interventions helps to develop verbal and nonverbal, individual and group communication skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.402,
+      "question": "Learning to read music notation helps develop which skill?",
+      "options": [
+        "Legal drafting and writing",
+        "Financial planning and analysis",
+        "Surgical precision and care",
+        "Eye-hand-mind coordination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Engaging participants through learning musical instruments requires learning to read music notation, which develops eye-hand-mind coordination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4976,
+      "question": "Visual arts participants investigate artists and artworks from which perspectives?",
+      "options": [
+        "Financial and economic",
+        "Cultural and social",
+        "Legal and political",
+        "Medical and surgical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Participants engage in critical and historical study of the art world to investigate artists, artworks, and audiences from a range of cultural, political, historical, and social perspectives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1375,
+      "question": "Arts activities in care homes can help increase what between residents and staff?",
+      "options": [
+        "Social interactions",
+        "Financial disputes and issues",
+        "Physical conflicts and fights",
+        "Legal battles and cases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arts activities can help increase social interactions between residents and staff, which can improve mood and wellbeing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.0356,
+      "question": "Engaging in expressive arts helps to boost which personal attribute?",
+      "options": [
+        "Arrogance",
+        "Selfishness",
+        "Apathy",
+        "Confidence"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Engaging in expressive arts can help to boost confidence and make one feel more engaged and resilient.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.982,
+      "question": "EXA therapy practices should not be limited to which group according to the conclusion?",
+      "options": [
+        "Medical doctors and nurses",
+        "Legal practitioners and judges",
+        "Students of arts alone",
+        "Financial experts and bankers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "EXA therapy practices are not limited to the students of arts alone but can be applied to work effectively in all types of settings.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4585,
+      "question": "Which factor draws attention away from the contributions of EXA for good mental health?",
+      "options": [
+        "Collaboration",
+        "Specialisation",
+        "Communication",
+        "Empathy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Specialisation and the rapid rate of advancement of knowledge and technology draw the attention of people away from the contributions of EXA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.2588,
+      "question": "The paper explores expressive arts therapy as which of the following?",
+      "options": [
+        "A therapeutic tool",
+        "A financial tool for wealth",
+        "A legal tool for justice",
+        "A political tool for power"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The paper explores expressive arts therapy as a therapeutic tool towards the process of healing, clearing the mind, and self-expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.3079,
+      "question": "Empathy is essential for which aspect of health treatment?",
+      "options": [
+        "Financial billing",
+        "Legal documentation",
+        "Physical construction",
+        "Effective treatment"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The study concludes that for effective mental, physical, and emotional health treatment, empathy is essential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.4673,
+      "question": "Expressive arts engage the client and help sharpen which skills?",
+      "options": [
+        "Financial skills and acumen",
+        "Observational skills",
+        "Legal skills and knowledge",
+        "Mechanical skills and repair"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expressive arts engage the client and help sharpen their observational skills and teach them to be more empathetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.179,
+      "question": "Which of the following is a benefit of EXA mentioned in the conclusion?",
+      "options": [
+        "Increase financial debt and ruin",
+        "Create legal disputes and cases",
+        "Manage addiction/behaviours",
+        "Cause physical pain and suffering"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The creative process involved in EXA treatments helps people manage addiction/behaviours, reduce stress, and increase self-esteem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1748,
+      "question": "Expressive arts therapy is defined as using creativity to generate what?",
+      "options": [
+        "Ideas and alternatives",
+        "Financial debts and issues",
+        "Legal disputes and cases",
+        "Physical conflicts and fights"
+      ],
+      "correctAnswer": 0,
+      "explanation": "EXA is defined as using creativity to generate and recognize ideas, alternatives, or possibilities that may be useful in solving problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794593054209.1606,
+      "question": "The creative process of art making is used to heal which type of wounds?",
+      "options": [
+        "Physical wounds",
+        "Financial wounds",
+        "Legal wounds",
+        "Invisible wounds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "EXA is unique in using the creative process of art making to heal invisible wounds and enhance physical, mental, and emotional wellbeing.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
