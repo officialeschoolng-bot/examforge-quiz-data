@@ -3,16 +3,718 @@
   "title": "Histology : Light Microscopy And Tissue",
   "subject": "Histology",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794546530555.5608,
+      "question": "A light microscope uses which type of illumination to magnify specimens?",
+      "options": [
+        "Visible light",
+        "Electron beams",
+        "Ultraviolet rays",
+        "X-rays"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A light microscope is an optical device that uses visible light for illumination and lenses to magnify specimens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.604,
+      "question": "A microscope that utilizes a single lens for magnification is termed what?",
+      "options": [
+        "Compound",
+        "Simple",
+        "Digital",
+        "Stereo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simple microscopes utilize a single lens, while compound microscopes have a number of lenses in combination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.2126,
+      "question": "Routine histological techniques involve which type of microscopy?",
+      "options": [
+        "Dark field",
+        "Bright field",
+        "Confocal",
+        "Fluorescence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All routine histological techniques involve the bright field microscopy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.7844,
+      "question": "Which microscopy is best suited to observe unstained living cells?",
+      "options": [
+        "Bright field",
+        "Phase contrast",
+        "Dark field",
+        "Fluorescence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dark field microscopy is where unstained specimens, such as living cells, are observed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.7595,
+      "question": "Who invented the primitive microscope in 1673?",
+      "options": [
+        "Robert Hooke",
+        "Joseph Lister",
+        "Van Leeuwenhoek",
+        "Zacharias Janssen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antonie Philips van Leeuwenhoek invented the concept of using convex lenses to magnify small structures in 1673.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.9026,
+      "question": "Who discovered and described the cell in 1655?",
+      "options": [
+        "Van Leeuwenhoek",
+        "Robert Hooke",
+        "Joseph Lister",
+        "Matthias Schleiden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The invention of microscope led to the discovery and description of cell by Robert Hooke in 1655.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.477,
+      "question": "Which scientist invented the achromatic lens in 1829?",
+      "options": [
+        "Lister",
+        "Hooke",
+        "Leeuwenhoek",
+        "Janssen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modern microscopy started with the invention of achromatic lens by Lister in 1829.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.5435,
+      "question": "Which optical part collects and focuses light onto the specimen?",
+      "options": [
+        "Eyepiece",
+        "Objective",
+        "Condenser",
+        "Nosepiece"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The condenser collects and focuses light from the light source onto the specimen being viewed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.0452,
+      "question": "Which structure controls the amount of light coming through the condenser?",
+      "options": [
+        "Stage clips",
+        "Body tube",
+        "Iris diaphragm",
+        "Coarse adjustment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The condenser has an aperture, or iris diaphragm, that controls the amount of the light coming up through the condenser.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.228,
+      "question": "When the aperture is closed, how is the image affected?",
+      "options": [
+        "Contrast is high",
+        "Image is brighter",
+        "Contrast is low",
+        "Light is increased"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When the aperture is closed, light comes in the center and contrast is high.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530555.4177,
+      "question": "Where are the objective lenses attached on the microscope?",
+      "options": [
+        "Base",
+        "Stage",
+        "Nosepiece",
+        "Support arm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Objective lenses are attached to the nosepiece of the microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6357,
+      "question": "Which component is responsible for magnifying the specimen initially?",
+      "options": [
+        "Eyepiece lens",
+        "Condenser lens",
+        "Objective lens",
+        "Illuminator"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The objective lens is responsible for magnifying the specimen or section to be visualized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6985,
+      "question": "Which lens forms the real, inverted magnified image of the specimen?",
+      "options": [
+        "Ocular",
+        "Objective",
+        "Condenser",
+        "Eyepiece"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The real magnified image is formed by the objective lens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.946,
+      "question": "Which component produces the final virtual, erect magnified image?",
+      "options": [
+        "Objective lens",
+        "Condenser",
+        "Eyepiece",
+        "Illuminator"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The eye piece produces a magnified virtual image which is seen by the eye.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.2205,
+      "question": "Which adjustment compensates for focusing differences between the user's eyes?",
+      "options": [
+        "Coarse focus knob",
+        "Fine focus knob",
+        "Diopter adjustment",
+        "Stage control knob"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Diopter adjustments are present to adjust the focusing of the eye piece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.5234,
+      "question": "The body tube connects the eyepiece to the objective lenses and has what standard length?",
+      "options": [
+        "150 mm",
+        "160 mm",
+        "170 mm",
+        "180 mm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The body tube is a cylindrical tube that connects the eyepiece to the objective lenses with a standard length of 160 mm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.8513,
+      "question": "Which part connects the body tube to the base of the microscope?",
+      "options": [
+        "Arm",
+        "Stage",
+        "Nosepiece",
+        "Pillar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The arm connects the body tube to the base of the microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6575,
+      "question": "Which knob brings the specimen into general focus?",
+      "options": [
+        "Fine adjustment",
+        "Diopter control",
+        "Stage movement",
+        "Coarse focus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Coarse adjustment mechanical knobs bring the specimen into general focus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.335,
+      "question": "Which knob fine tunes the focus and increases the detail of the specimen?",
+      "options": [
+        "Coarse adjustment",
+        "Fine adjustment",
+        "Diopter control",
+        "Stage movement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fine adjustment fine tunes the focus and increases the detail of the specimen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.3875,
+      "question": "Which structure holds the slide in place on the stage?",
+      "options": [
+        "Stage clips",
+        "Stage vernier",
+        "Slide calipers",
+        "Base clamps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stage clips hold the slide in place on the stage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.736,
+      "question": "Which component supports the entire microscope?",
+      "options": [
+        "Arm",
+        "Head",
+        "Base",
+        "Stage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The base supports the microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.396,
+      "question": "The word compound in compound microscope refers to which feature?",
+      "options": [
+        "Two sets of lenses",
+        "Multiple objectives",
+        "Complex light source",
+        "Heavy metal base"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word compound refers to the fact that two lenses work together to produce the final magnified image.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9941,
+      "question": "Final magnification is calculated by multiplying the objective lens power by the power of which other lens?",
+      "options": [
+        "Condenser",
+        "Eyepiece",
+        "Illuminator",
+        "Diaphragm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnification (M final) is calculated by multiplying M objective by M eyepiece.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9065,
+      "question": "The unaided eye can distinguish two points separated by what minimum distance?",
+      "options": [
+        "0.2 mm",
+        "0.2 um",
+        "2.0 mm",
+        "2.0 um"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A given sufficient light an unaided eye can distinguish 2 points lying 0.2 mm apart.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9246,
+      "question": "Which factor increases the resolution of a microscope by using immersion oil?",
+      "options": [
+        "Light wavelength",
+        "Numerical aperture",
+        "Total magnification",
+        "Image contrast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The resolution is dependent on the numerical aperture, where the refractive index of oil immersion is 1.51 compared to air which is 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6292,
+      "question": "Which aberration produces a colored spectrum of white light?",
+      "options": [
+        "Spherical",
+        "Chromatic",
+        "Comatic",
+        "Astigmatic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromatic aberration is the production of a coloured spectrum of white light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.948,
+      "question": "Which lens type fully corrects chromatic aberration for three colors?",
+      "options": [
+        "Achromatic",
+        "Fluorite",
+        "Apochromatic",
+        "Monochromatic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Apochromatic lenses are fully corrected for three colours.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.4775,
+      "question": "Which aberration is a defect of single lenses due to their curved surface?",
+      "options": [
+        "Chromatic",
+        "Spherical",
+        "Diffraction",
+        "Refraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spherical aberration is a defect of single lenses due to their curved surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9666,
+      "question": "Which illumination method uses an auxiliary lens and iris to provide an evenly illuminated view?",
+      "options": [
+        "Critical illumination",
+        "Kohler illumination",
+        "Dark field",
+        "Phase contrast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kohler illumination provides an evenly illuminated view and displaces critical illumination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.56,
+      "question": "Which type of microscope illuminates the specimen from the side so it appears bright against a dark background?",
+      "options": [
+        "Bright field",
+        "Dark field",
+        "Phase contrast",
+        "Fluorescence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In dark field microscopy, scattered light enters the objective lens which results in bright objects against dark background.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9133,
+      "question": "Which microscope utilizes a LASER scanned in an X-Y raster pattern?",
+      "options": [
+        "Confocal",
+        "Fluorescence",
+        "Electron",
+        "Phase contrast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The confocal scanning optical microscope uses a LASER scanned across the object rapidly in an X-Y raster pattern.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.861,
+      "question": "Which microscope uses ultraviolet light to excite fluorochromes in a specimen?",
+      "options": [
+        "Confocal",
+        "Dark field",
+        "Fluorescence",
+        "Phase contrast"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In fluorescence microscopy, a fluorochrome is excited with ultraviolet light and the resulting visible fluorescence is viewed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.133,
+      "question": "An electron microscope uses what type of lenses instead of glass?",
+      "options": [
+        "Glass lenses",
+        "Plastic lenses",
+        "Electromagnetic",
+        "Achromatic lenses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Instead of glass lenses here one uses electromagnetic lenses.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.0854,
+      "question": "The resolving power of an electron microscope is approximately what value?",
+      "options": [
+        "2.0 nm",
+        "0.2 nm",
+        "0.2 mm",
+        "2.0 um"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The resolving power of an electron microscope is 0.2 nm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.7021,
+      "question": "A transmission electron microscope passes a beam through sections thinner than what size?",
+      "options": [
+        "100 nm",
+        "200 nm",
+        "300 nm",
+        "400 nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In transmission electron microscopy the beam of electron passes through the tissue which is a thin section less than 100 nm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.413,
+      "question": "A scanning electron microscope reflects electrons back from the surface to provide what type of view?",
+      "options": [
+        "Internal view",
+        "Surface view",
+        "Cross section",
+        "Virtual image"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In scanning electron microscope the beam of electrons is reflected back from the surface, thus giving us the surface view.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6704,
+      "question": "Which step in tissue preparation maintains clear and consistent morphological features?",
+      "options": [
+        "Fixation",
+        "Dehydration",
+        "Clearing",
+        "Embedding"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The primary objective of fixation is that stained section of any tissue must maintain clear and consistent morphological features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.4873,
+      "question": "Which commonly used fixative acts by creating a covalent bond between proteins?",
+      "options": [
+        "Ethyl alcohol",
+        "Xylene liquid",
+        "Paraffin wax",
+        "Formaldehyde"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Formaldehyde is a cross-linking fixative which acts by creating a covalent bond between proteins in the tissue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.7947,
+      "question": "Which process involves the removal of water from tissue using alcohol?",
+      "options": [
+        "Dehydration",
+        "Clearing",
+        "Infiltration",
+        "Fixation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dehydration is the removal of water by a dehydrating agent, commonly alcohol.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6619,
+      "question": "Which chemical is commonly used to clear tissue by removing the dehydrating agent?",
+      "options": [
+        "Formalin",
+        "Alcohol",
+        "Xylene",
+        "Paraffin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clearing is making the tissue clear by removing the dehydrating agent, for example xylene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.5967,
+      "question": "Paraffin wax is routinely used as an embedding medium and has what melting point range?",
+      "options": [
+        "35-45 degrees",
+        "45-55 degrees",
+        "55-65 degrees",
+        "65-75 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Paraffin wax is routinely used as an embedding media and has a melting point of 45-55 degree.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.1924,
+      "question": "Which instrument is used to cut sections during routine histology?",
+      "options": [
+        "Rotary microtome",
+        "Cryostat machine",
+        "Vibrating blade",
+        "Laser cutting tool"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A rotary microtome is used to cut sections of 5-7 um thick for routine histology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.1055,
+      "question": "What is the typical thickness of sections cut for routine histology?",
+      "options": [
+        "1-4 um",
+        "5-7 um",
+        "8-10 um",
+        "11-13 um"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rotary microtome is used to cut sections of 5-7 um thick for routine histology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.142,
+      "question": "Which basic dye is used to stain the nucleus blue?",
+      "options": [
+        "Eosin dye",
+        "Safranin dye",
+        "Congo red dye",
+        "Haematoxylin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Haematoxylin is a basic dye and stains the nucleus blue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.8381,
+      "question": "Which acidic dye is used to stain the cytoplasm pink?",
+      "options": [
+        "Haematoxylin",
+        "Eosin",
+        "Methylene blue",
+        "Silver nitrate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eosin is an acidic dye and stains the cytoplasm pink.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.531,
+      "question": "Which part of the microscope is the flat platform where the slide is placed?",
+      "options": [
+        "Stage",
+        "Base plate",
+        "Upper arm",
+        "Main head"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The stage is the flat platform where the slide is placed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.0476,
+      "question": "What is placed over the stained tissue section to protect it on the slide?",
+      "options": [
+        "Coverslip",
+        "Lens paper",
+        "Glass plate",
+        "Filter paper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stained tissue sections are mounted on a glass slide with a coverslip placed over it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.9453,
+      "question": "The numerical aperture (NA) of a lens is calculated using which formula?",
+      "options": [
+        "NA = n sin u",
+        "NA = n cos u",
+        "NA = n tan u",
+        "NA = n log u"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The numerical aperture is calculated using the formula NA = n sin u.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.6338,
+      "question": "The refractive index of immersion oil used in microscopy is what value?",
+      "options": [
+        "1.33",
+        "1.51",
+        "1.00",
+        "1.75"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The refractive index of oil immersion is 1.51.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794546530556.5288,
+      "question": "Which component controls the movement of the mechanical stage left, right, up, and down?",
+      "options": [
+        "Coarse adjustment knob",
+        "Fine adjustment knob",
+        "Diopter control knob",
+        "Stage control knobs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Stage control knobs move the stage left and right or up and down.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
