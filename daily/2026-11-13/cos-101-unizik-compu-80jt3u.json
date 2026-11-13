@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNIZIK ) : COMPUTER HARDWARES AND SOFTWARE",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794592374842.045,
+      "question": "The system unit is made up of several components like which of the following?",
+      "options": [
+        "CPU and RAM",
+        "Keyboard and mouse",
+        "Monitor and printer",
+        "Scanner and speaker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The system unit includes the motherboard, processor, buses, memory, and power supply unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.989,
+      "question": "The CPU is considered the computer's most important single item because it performs which function?",
+      "options": [
+        "Displays images",
+        "Stores data",
+        "Converts power",
+        "Runs programs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The microprocessor, or CPU, does all the PC's thinking and runs the programs requested by the user.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5022,
+      "question": "The power supply unit converts high voltage electrical current to which type of voltage?",
+      "options": [
+        "High voltage",
+        "Variable voltage",
+        "Low voltage",
+        "Alternating voltage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The power supply unit converts high voltage electrical current to a low voltage to prevent components from blowing up.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5674,
+      "question": "Which storage unit holds data permanently and is not affected when the PC is turned off?",
+      "options": [
+        "RAM",
+        "Cache memory",
+        "Flash drive",
+        "Hard drive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The hard disk is the computer's main permanent storage unit, holding large amounts of data and programs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6377,
+      "question": "The motherboard is made of a piece of fiberglass because fiberglass has which property?",
+      "options": [
+        "Conducts current",
+        "Generates heat",
+        "Insulates parts",
+        "Stores data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fiberglass cannot conduct electricity, so each component is insulated from all others.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6948,
+      "question": "CPU speed is measured in which unit?",
+      "options": [
+        "Megabytes",
+        "Gigabytes",
+        "Milliseconds",
+        "Megahertz"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The speed of a CPU is measured in megahertz (MHz), which equals one million ticks per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.7336,
+      "question": "A computer keyboard is considered intelligent if it can do which of the following?",
+      "options": [
+        "Type alphabets",
+        "Print documents",
+        "Start actions",
+        "Store data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An intelligent keyboard can initiate a series of actions for the computer to carry out by pressing a key.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5498,
+      "question": "The intelligent computer keyboard has four major divisions, which include function keys, alphanumeric keys, numeric keys, and which other keys?",
+      "options": [
+        "Control keys",
+        "Special keys",
+        "Arrow keys",
+        "Symbol keys"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intelligent keyboard divisions are function keys, alphanumeric keys, numeric keys, and control keys.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.637,
+      "question": "A general purpose keyboard most commonly contains how many keys?",
+      "options": [
+        "104 keys",
+        "87 keys",
+        "101 keys",
+        "110 keys"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most popular general purpose keyboards contain 101 keys.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.7163,
+      "question": "Which part of the keyboard contains alphabets, numbers, and special signs?",
+      "options": [
+        "Numeric keys",
+        "Arrow keys",
+        "Function keys",
+        "Alphanumeric pad"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The centered part of the keyboard known as the alphanumeric keypad contains alphabets, numbers, and special signs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.1497,
+      "question": "Which part of the keyboard is mainly used for fast data entry in mathematical applications?",
+      "options": [
+        "Arrow keys",
+        "Numeric keypad",
+        "Main pad",
+        "Function keys"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The numeric keypad contains 0 to 9 numbers and mathematical signs used for fast data entry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.625,
+      "question": "Which keys are referred to as cursor-control or cursor-movement keys?",
+      "options": [
+        "Arrow keys",
+        "Function keys",
+        "Control keys",
+        "Numeric keys"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Arrow keys are a set of four keys up, down, left, and right used to move the cursor on the screen.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.1982,
+      "question": "The first line of the keyboard contains a set of 12 keys named F1 to F12, which are known as?",
+      "options": [
+        "Control keys",
+        "Function keys",
+        "Numeric keys",
+        "Arrow keys"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first line of the keyboard contains a set of 12 keys with names F1 to F12 known as function keys.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5068,
+      "question": "An ATM used in banks is an example of which type of keyboard application?",
+      "options": [
+        "General keyboard",
+        "Alphanumeric keys",
+        "Special keys",
+        "Virtual keyboard"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Special purpose keyboards are used for special applications requiring faster data entry, like ATMs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.9343,
+      "question": "A mouse consists of a pointing device, a roller ball, and a set of what?",
+      "options": [
+        "Pins",
+        "Buttons",
+        "Wheels",
+        "Lights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A mouse has a roller ball and two or more buttons which can be pressed to make a selection.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.2573,
+      "question": "Which printer type combines a magnetic roller with powdered ink called toner?",
+      "options": [
+        "Laser printer",
+        "Inkjet printer",
+        "Dot-matrix printer",
+        "Thermal printer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Laser printers combine a magnetic roller with powdered ink called toner to transfer characters onto a page.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.2517,
+      "question": "Which printer type uses small nozzles to spray fast-drying ink onto a page?",
+      "options": [
+        "Laser printer",
+        "Dot-matrix printer",
+        "Inkjet printer",
+        "3D printer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inkjet printers spray a fine, quick-drying ink through small nozzles to produce characters and images.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.2827,
+      "question": "Which printer type is the cheapest available and creates characters out of a series of dots?",
+      "options": [
+        "Dot-matrix",
+        "Laser printer",
+        "Inkjet printer",
+        "Thermal printer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dot-matrix printers are the cheapest printers available and create characters by hammering pins against an inked ribbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6047,
+      "question": "Which two monitor sizes are the most common?",
+      "options": [
+        "14 and 15 inch",
+        "15 and 17 inch",
+        "17 and 19 inch",
+        "21 and 24 inch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two most common monitor sizes are 15-inch and 17-inch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.734,
+      "question": "VGA monitors have a resolution of which dimensions?",
+      "options": [
+        "800x600",
+        "1024x768",
+        "1280x1024",
+        "640x480"
+      ],
+      "correctAnswer": 3,
+      "explanation": "VGA is 640x480 (width by height).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.9814,
+      "question": "Which scanner type looks and behaves a lot like a photocopier?",
+      "options": [
+        "Sheet fed scanner",
+        "Hand scanner",
+        "Flatbed scanner",
+        "Drum scanner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flatbed scanners look and behave a lot like a photocopier.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.3132,
+      "question": "Which scanner type is a low-cost alternative that is moved manually over a flat surface?",
+      "options": [
+        "Flatbed scanner",
+        "Hand scanner",
+        "Sheet fed scanner",
+        "Drum scanner"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hand scanners are manual devices you move over a flat surface, just like a PC's mouse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.9338,
+      "question": "A subwoofer is designed to improve which type of sound?",
+      "options": [
+        "Bass",
+        "Treble",
+        "Midrange",
+        "Surround"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A subwoofer improves the bass (low notes) sound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.7341,
+      "question": "Computer software is divided into which two major groups?",
+      "options": [
+        "System and app",
+        "Utility and app",
+        "Operating and utility",
+        "Translators and system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Computer software is divided into system software and application software.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.351,
+      "question": "System software provides a suitable environment for which activity?",
+      "options": [
+        "Playing games",
+        "Browsing the web",
+        "Writing code",
+        "Editing images"
+      ],
+      "correctAnswer": 2,
+      "explanation": "System software facilitates the writing, editing, debugging, testing, and running of user programs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.3105,
+      "question": "An operating system acts as an interface between which two entities?",
+      "options": [
+        "Software and hardware",
+        "User and hardware",
+        "Two different users",
+        "Compiler and interpreter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An operating system is a program that acts as an interface between a user of a computer and the computer hardware.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.0322,
+      "question": "Which type of operating system collects jobs into a batch with no user interaction during processing?",
+      "options": [
+        "Batch",
+        "Time-sharing",
+        "Real-time",
+        "Distributed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a batch processing environment, users submit jobs to a central place where they are collected into a batch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6836,
+      "question": "Which operating system provides computing services to several users concurrently online?",
+      "options": [
+        "Batch",
+        "Real-time",
+        "Time-sharing",
+        "Multiprogramming"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time-sharing operating systems provide computing services to several users concurrently online.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6575,
+      "question": "Which operating system is designed to service applications where response time is of the essence?",
+      "options": [
+        "Real-time",
+        "Batch",
+        "Time-sharing",
+        "Distributed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Real-time operating systems are designed to service those applications where response time is of the essence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5293,
+      "question": "A multiprogramming operating system allows more than one active user program to be stored where?",
+      "options": [
+        "On the hard disk",
+        "In main memory",
+        "On the CPU",
+        "In the cache"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A multiprogramming operating system allows more than one active user program to be stored in main memory simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.896,
+      "question": "A multiprocessing system is a computer hardware configuration that includes which feature?",
+      "options": [
+        "Multiple CPUs",
+        "Multiple users",
+        "Multiple programs",
+        "Multiple systems"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A multiprocessing system is a computer hardware configuration that includes more than one independent processing unit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6335,
+      "question": "A distributed operating system appears to its users as which type of system?",
+      "options": [
+        "Uniprocessor system",
+        "Multiprocessor system",
+        "Network system",
+        "Batch system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A distributed operating system appears to its users as a traditional uniprocessor system, even though it is composed of multiple processors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.4075,
+      "question": "Which operating system component is responsible for keeping track of which parts of memory are currently being used and by whom?",
+      "options": [
+        "Process management",
+        "File management",
+        "Memory management",
+        "I/O system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The operating system's memory management component keeps track of which parts of memory are currently being used and by whom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.1206,
+      "question": "Which operating system component is responsible for disk scheduling?",
+      "options": [
+        "Secondary storage",
+        "Memory management",
+        "Process management",
+        "Networking"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Secondary storage management handles disk scheduling, free space management, and storage allocation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5947,
+      "question": "In the I/O system, which component knows the peculiarities of a specific hardware device?",
+      "options": [
+        "The buffer cache",
+        "Device driver",
+        "The user interface",
+        "The CPU"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only the device driver knows the peculiarities of a specific device.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.5513,
+      "question": "A file is defined as a collection of related information that is defined by its creator and is a sequence of what?",
+      "options": [
+        "Characters and strings",
+        "Bits and bytes",
+        "Instructions",
+        "Programs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A file is a sequence of bits, bytes, lines, or records whose meaning is defined by its creator and user.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.9697,
+      "question": "The command interpreter is also known by which name in UNIX?",
+      "options": [
+        "Shell",
+        "Kernel",
+        "Compiler",
+        "Loader"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The command interpreter is variously called the control card interpreter, command line interpreter, or shell (in UNIX).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.0361,
+      "question": "Utility software performs operations such as file conversion, file copy, and which other type?",
+      "options": [
+        "Housekeeping",
+        "Game playing",
+        "Web browsing",
+        "Word processing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utility software performs operations like file conversion, file copy, and housekeeping operations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.4382,
+      "question": "Application software designed to solve problems of a specific nature can be subdivided into which two classes?",
+      "options": [
+        "System and utility",
+        "General and user",
+        "Operating and translators",
+        "Word and spreadsheets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Application software is subdivided into generalized software and user-defined software.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.1384,
+      "question": "Which of the following is an example of a communication package?",
+      "options": [
+        "Microsoft Word",
+        "Excel",
+        "Cross Talk",
+        "Ventura"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Communication packages include Carbon Plus, Data Talk V3.3, Cross Talk, SAGE Chit Chat, and Data Soft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.9846,
+      "question": "A payroll package developed for the salary operation of a particular company is an example of which type of software?",
+      "options": [
+        "User programs",
+        "Application software",
+        "System software",
+        "Utility software"
+      ],
+      "correctAnswer": 0,
+      "explanation": "User programs are a suite of programs written by programmers for computer users to operate their individual business or tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.0195,
+      "question": "Humanware is the combination of hardware and software elements that makes which interaction as good as possible?",
+      "options": [
+        "Computer-to-computer",
+        "Human-to-device",
+        "Software-to-hardware",
+        "Network-to-network"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Humanware makes human interaction with a device as good as possible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6511,
+      "question": "The ability to navigate, understand, and utilize digital technologies effectively is known as which term?",
+      "options": [
+        "UX design",
+        "Netiquette",
+        "Digital literacy",
+        "Ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Digital literacy is the ability to navigate, understand, and utilize digital technologies effectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.6106,
+      "question": "Designing interfaces and interactions that are intuitive, efficient, and enjoyable for users is known as which term?",
+      "options": [
+        "UX design",
+        "Customer support",
+        "Digital literacy",
+        "Training"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UX design involves designing interfaces and interactions that are intuitive, efficient, and enjoyable for users.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.7048,
+      "question": "Understanding and following social norms and expectations when using digital technologies is known as which term?",
+      "options": [
+        "Accessibility",
+        "Thinking skills",
+        "Etiquette",
+        "Digital literacy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Digital etiquette involves understanding and following social norms and expectations when using digital technologies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.0432,
+      "question": "Ensuring that technology can be used by people with diverse abilities and backgrounds is known as which term?",
+      "options": [
+        "Ethical use",
+        "Inclusion",
+        "UX design",
+        "Literacy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Accessibility and inclusion is ensuring that technology can be used by people with diverse abilities and backgrounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.0642,
+      "question": "Which of the following is an application of computers in the field of education?",
+      "options": [
+        "Electronic health records",
+        "Online banking",
+        "Personalized learning",
+        "Autonomous vehicles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information processing in education includes personalized learning through learning management systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.337,
+      "question": "Which of the following is an application of computers in healthcare?",
+      "options": [
+        "Automated grading",
+        "Telemedicine",
+        "Inventory management",
+        "Video games"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Computer applications in healthcare include telemedicine for remote consultations and diagnosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.969,
+      "question": "Which of the following is an application of computers in the military?",
+      "options": [
+        "Drones",
+        "Telemedicine",
+        "Personalized learning",
+        "Online shopping"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Autonomous vehicles and drones are among the applications of computers in the military and transportation sectors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794592374842.444,
+      "question": "Which of the following is an application of computers in banking?",
+      "options": [
+        "Telemedicine",
+        "Personalized learning",
+        "Online banking",
+        "Video games"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Computer applications in banking include creating secure online banking systems.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
