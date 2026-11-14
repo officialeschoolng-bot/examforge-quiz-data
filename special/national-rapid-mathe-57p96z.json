@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 25,
+  "totalQuestions": 28,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -363,6 +363,48 @@
       ],
       "correctAnswer": 0,
       "explanation": "To solve this, we need to follow the Order of Operations (PEMDAS/BODMAS) for both the numerator (top) and the denominator (bottom) separately before dividing them.<br><br><b>Step 1: Simplify the Numerator (Top)</b><br>Expression: 2<sup>4</sup> + (16 − 3 × 4)<br>• First, calculate the exponent: 2<sup>4</sup> = 16<br>• Next, do the multiplication inside the parentheses: 3 × 4 = 12<br>• Then, do the subtraction inside the parentheses: 16 − 12 = 4<br>• Finally, add them together: 16 + 4 = <b>20</b><br><br><b>Step 2: Simplify the Denominator (Bottom)</b><br>Expression: (6 + 3<sup>2</sup>) ÷ (7 − 4)<br>• First, calculate the exponent: 3<sup>2</sup> = 9<br>• Next, do the addition in the first parenthesis: 6 + 9 = 15<br>• Then, do the subtraction in the second parenthesis: 7 − 4 = 3<br>• Finally, divide them: 15 ÷ 3 = <b>5</b><br><br><b>Step 3: Divide the Numerator by the Denominator</b><br>20 ÷ 5 = <b>4</b>.<br><br>• Option B (5) is a trap for those who miscalculate the numerator.<br>• Option C (10) is a trap for those who forget to square the 3.<br>• Option D (20) is a trap for those who only calculate the numerator and stop.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794692412934.7078,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>How many real solutions does the following cubic equation have?</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x³ − 6x² + 11x − 6 = 0</kbd>",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find the number of real solutions, we can factor the cubic equation.<br><br><b>Step 1: Find the first root</b><br>By testing small integers, we can see that x = 1 is a solution because:<br>(1)³ − 6(1)² + 11(1) − 6 = 1 − 6 + 11 − 6 = 0.<br><br><b>Step 2: Factor out (x − 1)</b><br>Using polynomial division or synthetic division, we divide the equation by (x − 1) to get the remaining quadratic:<br>(x − 1)(x² − 5x + 6) = 0<br><br><b>Step 3: Factor the quadratic</b><br>The quadratic x² − 5x + 6 can be factored into (x − 2)(x − 3).<br>So, the full factored equation is: (x − 1)(x − 2)(x − 3) = 0.<br><br>The solutions are x = 1, x = 2, and x = 3. All three are real numbers.<br><br>• Option A (1) is a trap for those who stop after finding the first root.<br>• Option D (4) is a trap for those who confuse the highest power (3) with the number of solutions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794692528915.9707,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path d='M 165.11 200 A 140 140 0 0 1 394.89 200 Z' fill='rgba(128,128,128,0.45)' /><circle cx='280' cy='280' r='140' fill='none' stroke='currentColor' stroke-width='2.6'/><line x1='165.11' y1='200' x2='394.89' y2='200' stroke='currentColor' stroke-width='2.6'/><line x1='110' y1='110' x2='230' y2='170' stroke='currentColor' stroke-width='2.6'/><circle cx='230' cy='170' r='5' fill='currentColor' /><text x='90' y='110' text-anchor='middle' font-family='Georgia,serif' font-size='28' font-weight='bold' fill='currentColor'>A</text></svg></div><br>What is the name of the shaded part labeled A in the circle above?",
+      "options": [
+        "Segment",
+        "Sector",
+        "Arc",
+        "Diameter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shaded region is bounded by a straight line (a chord) and a curved line (an arc). This specific area is called a <b>segment</b>.<br><br>• Option B (Sector) is a trap. A sector is the area bounded by two radii and an arc, looking like a slice of pizza.<br>• Option C (Arc) is just the curved part of the circumference, not the area.<br>• Option D (Diameter) is the straight line passing through the center of the circle, not a shaded area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794692689403.6091,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path d='M 150 400 L 450 400 L 450 340 L 360 340 L 360 280 L 270 280 L 270 220 L 150 220 Z' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><text x='300' y='440' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>20 cm</text><text x='115' y='310' text-anchor='middle' transform='rotate(-90 115 310)' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>12 cm</text><text x='210' y='205' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>8 cm</text><text x='465' y='375' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text><text x='405' y='330' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>6 cm</text><text x='345' y='315' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text><text x='315' y='270' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>6 cm</text><text x='285' y='250' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text></svg></div><br>The figure above is a step-like shape drawn with straight lines, and all its angles are right angles. Calculate the perimeter of the shape.",
+      "options": [
+        "48 cm",
+        "64 cm",
+        "52 cm",
+        "40 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the perimeter of a rectilinear (blocky) shape, you simply add up the lengths of all the outside edges.<br><br>There is a quick shortcut for this type of shape: the sum of all the horizontal segments going right always equals the sum of all the horizontal segments going left. The same applies to the vertical segments.<br><br><b>Step 1: Sum of horizontal segments</b><br>The total width at the bottom is <b>20 cm</b>. The top and step horizontal edges must add up to the same amount.<br>Total horizontal distance = 20 + 20 = 40 cm.<br><br><b>Step 2: Sum of vertical segments</b><br>The total height on the left is <b>12 cm</b>. The right side and step vertical edges must add up to the same amount.<br>Total vertical distance = 12 + 12 = 24 cm.<br><br><b>Step 3: Add them together</b><br>Perimeter = 40 + 24 = <b>64 cm</b>.<br><br>(You can also verify this by adding every individual side: 20 + 4 + 6 + 4 + 6 + 4 + 8 + 12 = 64 cm).<br><br>• Option A (48 cm) is a trap if you forget to add the top and left sides.<br>• Option C (52 cm) is a trap if you miscalculate the vertical or horizontal sums.<br>• Option D (40 cm) is just the total horizontal distance.",
       "difficulty": "easy",
       "points": 1
     }
