@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 5,
+  "totalQuestions": 6,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -83,6 +83,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To find the perimeter, we must add up the lengths of all the outside edges. First, we need to deduce the length of the missing bottom inner edge.<br><br><b>Step 1: Find the missing inner horizontal length</b><br>The total width at the bottom is 10 cm. The top of the shape is divided into three parts: the left top edge (2 cm), the inner gap (unknown), and the right top edge (2 cm).<br><br>Because the shape is formed by straight vertical and horizontal lines, the inner gap width equals the inner bottom edge width.<br>Inner width = 10 cm − 2 cm − 2 cm = <b>6 cm</b>.<br><br><b>Step 2: Add all the outer sides</b><br>• Left vertical edge: 12 cm<br>• Bottom horizontal edge: 10 cm<br>• Right vertical edge: 12 cm<br>• Top-right horizontal edge: 2 cm<br>• Inner-right vertical edge: 4 cm<br>• Inner-bottom horizontal edge: 6 cm<br>• Inner-left vertical edge: 4 cm<br>• Top-left horizontal edge: 2 cm<br><br>Perimeter = 12 + 10 + 12 + 2 + 4 + 6 + 4 + 2 = <b>52 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794642561013.7275,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='80' y1='400' x2='500' y2='400' stroke='currentColor' stroke-width='2.6' stroke-linecap='round'/><line x1='400' y1='400' x2='400' y2='40' stroke='currentColor' stroke-width='2.6' stroke-linecap='round'/><polyline points='380,400 380,380 400,380' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><line x1='200' y1='400' x2='400' y2='53.6' stroke='currentColor' stroke-width='4' stroke-linecap='round'/><path d='M 260 400 A 60 60 0 0 0 230 348.04' fill='none' stroke='currentColor' stroke-width='2'/><text x='300' y='430' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 m</text><text x='265' y='370' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>60°</text><text x='300' y='220' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>x m</text></svg></div><br>A ladder leans against a vertical wall. The foot of the ladder is 4 meters away from the base of the wall. If the ladder makes an angle of 60° with the ground, what is the length of the ladder?",
+      "options": [
+        "4 m",
+        "8 m",
+        "6.93 m",
+        "5.5 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because the wall is vertical, the ladder, the wall, and the ground form a right-angled triangle.<br><br>The distance from the wall (4 m) is the side <b>adjacent</b> to the 60° angle. The ladder (x) is the <b>hypotenuse</b>.<br><br>Using the cosine ratio:<br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>adjacent</span><span style='display:block;padding:0 .35em;'>hypotenuse</span></span><br><br>cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>We know that cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>.<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply:<br>x = 4 × 2 = <b>8 m</b>.",
       "difficulty": "easy",
       "points": 1
     }
