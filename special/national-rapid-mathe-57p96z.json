@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 14,
+  "totalQuestions": 15,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -209,6 +209,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To find the number of students who study <b>exactly two</b> subjects, we must look only at the regions where two circles overlap but the third does not.<br><br>These regions are:<br>• Physics and Chemistry only = 5<br>• Physics and Biology only = 3<br>• Chemistry and Biology only = 4<br><br>Adding these together:<br>5 + 3 + 4 = <b>12 students</b>.<br><br>• Option B (14) is a trap for those who include the center intersection (2). 12 + 2 = 14. (Adding the center gives you those who study <i>at least</i> two subjects).<br>• Option C (18) is a trap for those who add up all the overlapping regions completely, counting the center multiple times: (5+2) + (3+2) + (4+2) = 7 + 5 + 6 = 18.<br>• Option D (24) is simply the sum of all the numbers inside the three circles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794690103136.892,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x + 2y = 16</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − 2y = 0</kbd>",
+      "options": [
+        "x = 4, y = 2",
+        "x = 2, y = 4",
+        "x = 4, y = −2",
+        "x = 3, y = 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br>(3x + 2y) + (x − 2y) = 16 + 0<br>4x = 16<br>x = 4<br><br><b>Step 2: Substitute x into the second equation</b><br>x − 2y = 0<br>4 − 2y = 0<br>2y = 4<br>y = 2<br><br>So the solution is <b>x = 4</b> and <b>y = 2</b>.<br><br>• Option B is a trap for those who mix up the x and y values.<br>• Option C is a trap for those who make a sign error when moving 2y to the other side.",
       "difficulty": "easy",
       "points": 1
     }
