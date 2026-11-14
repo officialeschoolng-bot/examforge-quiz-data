@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 39,
+  "totalQuestions": 40,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -559,6 +559,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To find the number of anagrams, we use the permutation formula for a set with repeated elements.<br><br><b>Step 1: Count the total number of letters</b><br>The word <b>EXAMFORGE</b> has 9 letters in total.<br><br><b>Step 2: Identify any repeated letters</b><br>If we look closely, the letter <b>E</b> appears exactly 2 times. All other letters (X, A, M, F, O, R, G) appear only once.<br><br><b>Step 3: Apply the formula</b><br>The formula is: <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Total Letters!</span><span style='display:block;padding:0 .35em;'>Repeated Letters!</span></span><br><br>Number of arrangements = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>9!</span><span style='display:block;padding:0 .35em;'>2!</span></span><br><br>9! = 362,880<br>2! = 2<br><br>Number of arrangements = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>362,880</span><span style='display:block;padding:0 .35em;'>2</span></span> = <b>181,440</b>.<br><br>• Option A (362,880) is a trap for those who calculate 9! but forget to divide by 2! for the repeated 'E'.<br>• Option C (90,720) is a trap for those who incorrectly divide by 4.<br>• Option D (725,760) is a trap for those who mistakenly multiply by 2 instead of dividing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794694650181.3982,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='80' y1='260' x2='240' y2='260' stroke='currentColor' stroke-width='2.6' stroke-dasharray='8,6' /><line x1='240' y1='260' x2='160' y2='100' stroke='currentColor' stroke-width='2.6' stroke-dasharray='8,6' /><line x1='80' y1='260' x2='160' y2='100' stroke='currentColor' stroke-width='2.6' /><line x1='180' y1='360' x2='80' y2='260' stroke='currentColor' stroke-width='2.6' /><line x1='340' y1='360' x2='240' y2='260' stroke='currentColor' stroke-width='2.6' /><line x1='260' y1='200' x2='160' y2='100' stroke='currentColor' stroke-width='2.6' /><polygon points='180,360 340,360 260,200' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><line x1='260' y1='200' x2='260' y2='360' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4' /><path d='M 260 340 L 280 340 L 280 360' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='260' y='390' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>6 cm</text><text x='275' y='280' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>8 cm</text><text x='305' y='320' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>12 cm</text></svg></div><br>Calculate the volume of the triangular prism shown above. height = 8cm, base = 6cm, length = 12cm",
+      "options": [
+        "288 cm<sup>3</sup>",
+        "144 cm<sup>3</sup>",
+        "576 cm<sup>3</sup>",
+        "72 cm<sup>3</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The formula for the volume of a prism is:<br><br>Volume = Area of base × length<br><br><b>Step 1: Find the area of the triangular base</b><br>The base of the prism is a triangle with a base of 6 cm and a perpendicular height of 8 cm.<br>Area of triangle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 6 × 8 = <b>24 cm<sup>2</sup></b><br><br><b>Step 2: Multiply by the length of the prism</b><br>The length (depth) of the prism is 12 cm.<br>Volume = 24 × 12 = <b>288 cm<sup>3</sup></b>.<br><br>• Option B (144 cm<sup>3</sup>) is a trap for those who forget the ½ in the triangle area formula (6 × 8 × 12 = 576, then divided by 4 instead of 2).<br>• Option C (576 cm<sup>3</sup>) is a trap for those who forget to divide by 2 when finding the area of the triangle (6 × 8 × 12 = 576).<br>• Option D (72 cm<sup>3</sup>) is a trap for those who multiply the base, height, and length without the ½ (72 is 6 × 12, forgetting the height).",
       "difficulty": "easy",
       "points": 1
     }
