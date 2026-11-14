@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 10,
+  "totalQuestions": 11,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -153,6 +153,20 @@
       ],
       "correctAnswer": 2,
       "explanation": "The shaded region includes the entire universal set EXCEPT for the inside of Set B.<br><br>Notice that the <b>only unshaded part</b> is the right side of Set B (the part of B that does not overlap with A).<br><br>• Option A (A ∪ B) is incorrect because it would include the inside of Set B.<br>• Option B (A ∩ B) is incorrect because it represents only the overlapping intersection.<br>• Option D (A') is incorrect because it represents everything outside Set A, which is not what is shaded here.<br><br>Because the shaded area represents everything that is <b>not</b> in Set B, the correct notation is <b>B'</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794646984950.167,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='50' y='80' width='460' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='70' y='110' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><circle cx='220' cy='200' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='200' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='280' cy='290' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='140' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='140' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text><text x='280' y='385' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>C</text><text x='170' y='190' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>8</text><text x='390' y='190' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>10</text><text x='280' y='345' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>5</text><text x='280' y='165' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>4</text><text x='230' y='265' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>3</text><text x='330' y='265' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>6</text><text x='280' y='225' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>2</text><text x='480' y='375' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>7</text></svg></div><br>The Venn diagram above shows the number of students who offer three subjects: A, B, and C. How many students offer <b>exactly two</b> of the three subjects?",
+      "options": [
+        "15",
+        "13",
+        "21",
+        "38"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the number of students who offer <b>exactly two</b> subjects, we must look only at the regions where two circles overlap but the third does not.<br><br>These regions are:<br>• A and B only = 4<br>• A and C only = 3<br>• B and C only = 6<br><br>Adding these together:<br>4 + 3 + 6 = <b>13 students</b>.<br><br>• Option C (21) is a trap for those who include the center intersection (2). 13 + 2 = 15, or adding 8 (A only) gives 21.<br>• Option D (38) is the total number of students who offer at least one subject (the union).<br>• Option A (15) is the number of students who offer <i>at least</i> two subjects (4 + 3 + 6 + 2 = 15).",
       "difficulty": "easy",
       "points": 1
     }
