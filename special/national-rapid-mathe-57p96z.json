@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 7,
+  "totalQuestions": 8,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -111,6 +111,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To find the mean from a frequency table, we use the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Sum of (f × x)</span><span style='display:block;padding:0 .35em;'>Sum of f</span></span><br><br>First, we calculate the (f × x) for each row and find the totals:<br>• For x = 4: 5 × 4 = 20<br>• For x = 6: 8 × 6 = 48<br>• For x = 8: 2 × 8 = 16<br>• For x = 10: 5 × 10 = 50<br><br>Sum of frequencies (Sum of f) = 5 + 8 + 2 + 5 = 20<br>Sum of (f × x) = 20 + 48 + 16 + 50 = 134<br><br>Now, substitute these values into the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>134</span><span style='display:block;padding:0 .35em;'>20</span></span> = <b>6.7</b><br><br>The correct answer is <b>6.7</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794643289568.9487,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x + y = 11</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − y = 1</kbd>",
+      "options": [
+        "x = 4, y = 3",
+        "x = 3, y = 4",
+        "x = 5, y = 2",
+        "x = 4, y = −3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x + y = 11</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(2x + y) + (x − y) = 11 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 4 − 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 3</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 3</b>.",
       "difficulty": "easy",
       "points": 1
     }
