@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 12,
+  "totalQuestions": 13,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -181,6 +181,20 @@
       ],
       "correctAnswer": 2,
       "explanation": "To form an even number, the digit in the units (last) place must be an even number.<br><br><b>Step 1: Choose the last digit</b><br>The available even digits are 2, 4, and 6. Therefore, there are <b>3 choices</b> for the last digit.<br><br><b>Step 2: Arrange the remaining digits</b><br>Once the last digit is chosen, there are 5 digits left to fill the first five positions. The number of ways to arrange these remaining 5 digits is 5 factorial (5!).<br><br>5! = 5 × 4 × 3 × 2 × 1 = <b>120 ways</b>.<br><br><b>Step 3: Calculate the total combinations</b><br>Total = (Choices for last digit) × (Arrangements for remaining digits)<br>Total = 3 × 120 = <b>360 ways</b>.<br><br>• Option A (120) is the number of ways if the last digit was fixed to just one even number (e.g., just ending in 2).<br>• Option D (720) is the total number of 6-digit numbers that can be formed with no restrictions (6! = 720).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794647639071.5173,
+      "question": "<div style='font-size: 1.1rem; text-align: center; margin-bottom: 12px; font-weight: 600;'>Solve the following simultaneous equations to find the values of x and y:</div><div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 200' width='100%' style='display:block;max-width:520px;margin: 0 auto;overflow:visible;'><rect x='60' y='20' width='440' height='65' rx='12' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><text x='280' y='64' text-anchor='middle' font-family='Courier New, monospace' font-size='36' font-weight='900' fill='currentColor'>4x + y = 17</text><rect x='60' y='115' width='440' height='65' rx='12' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><text x='280' y='159' text-anchor='middle' font-family='Courier New, monospace' font-size='36' font-weight='900' fill='currentColor'>2x + y = 9</text></svg></div>",
+      "options": [
+        "x = 4, y = 1",
+        "x = 1, y = 4",
+        "x = 4, y = −1",
+        "x = 2, y = 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by subtracting the second equation from the first to eliminate y.<br><br><b>Step 1: Subtract the equations</b><br>(4x + y) − (2x + y) = 17 − 9<br>2x = 8<br>x = 4<br><br><b>Step 2: Substitute x into the second equation</b><br>2(4) + y = 9<br>8 + y = 9<br>y = 9 − 8<br>y = 1<br><br>So the solution is <b>x = 4</b> and <b>y = 1</b>.",
       "difficulty": "easy",
       "points": 1
     }
