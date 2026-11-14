@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 32,
+  "totalQuestions": 34,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -461,6 +461,34 @@
       ],
       "correctAnswer": 0,
       "explanation": "The slope of a straight line passing through two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) is given by:<br><br>Slope = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Change in y</span><span style='display:block;padding:0 .35em;'>Change in x</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>y<sub>2</sub> − y<sub>1</sub></span><span style='display:block;padding:0 .35em;'>x<sub>2</sub> − x<sub>1</sub></span></span><br><br>Using the two points marked on the graph, (1, 2) and (2, 4):<br><br>Slope = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4 − 2</span><span style='display:block;padding:0 .35em;'>2 − 1</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>2</span><span style='display:block;padding:0 .35em;'>1</span></span> = <b>2</b>.<br><br>• Option B (1/2) is a trap for those who accidentally divide the change in x by the change in y.<br>• Options C and D are traps for those who misread the direction of the line. The line rises from left to right, so the slope must be positive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794693576514.0198,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='80' y1='400' x2='480' y2='400' stroke='currentColor' stroke-width='2.5'/><line x1='120' y1='440' x2='120' y2='60' stroke='currentColor' stroke-width='2.5'/><line x1='180' y1='400' x2='180' y2='160' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><line x1='120' y1='160' x2='180' y2='160' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><line x1='240' y1='400' x2='240' y2='40' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><line x1='120' y1='40' x2='240' y2='40' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><line x1='60' y1='400' x2='260' y2='0' stroke='currentColor' stroke-width='3'/><circle cx='120' cy='280' r='5' fill='currentColor'/><circle cx='240' cy='40' r='5' fill='currentColor'/><text x='180' y='430' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>1</text><text x='240' y='430' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>2</text><text x='100' y='285' text-anchor='end' font-family='Georgia,serif' font-size='20' fill='currentColor'>2</text><text x='100' y='165' text-anchor='end' font-family='Georgia,serif' font-size='20' fill='currentColor'>4</text><text x='100' y='45' text-anchor='end' font-family='Georgia,serif' font-size='20' fill='currentColor'>6</text><text x='490' y='405' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>x</text><text x='125' y='50' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>y</text><text x='95' y='420' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>O</text><text x='130' y='275' text-anchor='start' font-family='Georgia,serif' font-size='18' fill='currentColor'>(0, 2)</text><text x='250' y='35' text-anchor='start' font-family='Georgia,serif' font-size='18' fill='currentColor'>(2, 6)</text></svg></div><br>Based on the graph above, what is the <b>y-intercept</b> of the straight line?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>y-intercept</b> is the point where the straight line crosses the vertical y-axis.<br><br>Looking at the graph, the line crosses the y-axis exactly at the mark labeled <b>2</b>. <br><br>The coordinates of this point are <b>(0, 2)</b>. Therefore, the y-intercept is <b>2</b>.<br><br>• Option B (4) is a trap for those who misread the scale or look at the y-value of the second point.<br>• Option C (6) is the y-value of the highest point shown, not where it crosses the axis.<br>• Option D (−2) is incorrect because the line crosses the positive side of the y-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794693831846.7854,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='150' y1='350' x2='350' y2='350' stroke='currentColor' stroke-width='2.6'/><line x1='350' y1='350' x2='350' y2='150' stroke='currentColor' stroke-width='2.6'/><line x1='150' y1='350' x2='350' y2='150' stroke='currentColor' stroke-width='2.6'/><path d='M 350 330 L 330 330 L 330 350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><path d='M 190 350 A 40 40 0 0 0 178.28 321.72' fill='none' stroke='currentColor' stroke-width='2'/><text x='195' y='340' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>45°</text><text x='250' y='240' text-anchor='middle' transform='rotate(-45 250 240)' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>8√2 m</text><text x='365' y='255' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text></svg></div><br>Find the value of <b>x</b> in the right-angled triangle above.",
+      "options": [
+        "8 m",
+        "8√2 m",
+        "4√2 m",
+        "16 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We are given an angle of 45°, the hypotenuse (8√2 m), and we need to find the side opposite the angle (x).<br><br>The trigonometric ratio that connects the opposite side and the hypotenuse is <b>sine</b>.<br><br>sin(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Opposite</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for sin(45°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>x</span><span style='display:block;padding:0 .35em;'>8√2</span></span><br><br>Cross-multiply to solve for x:<br>√2 × x = 1 × 8√2<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>8√2</span><span style='display:block;padding:0 .35em;'>√2</span></span><br><br>The √2 cancels out, leaving:<br>x = <b>8 m</b>.<br><br>• Option B (8√2 m) is a trap for those who use cosine instead of sine.<br>• Option C (4√2 m) is a trap if you incorrectly divide by 2.<br>• Option D (16 m) is a trap if you forget the square root in the denominator.",
       "difficulty": "easy",
       "points": 1
     }
