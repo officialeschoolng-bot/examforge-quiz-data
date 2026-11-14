@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 47,
+  "totalQuestions": 48,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -671,6 +671,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "Digital computers use electrical signals that have two distinct states: ON (represented by 1) and OFF (represented by 0).<br><br>Because they rely on this two-state logic (transistors), computers process and store data natively using <b>Base 2 (Binary)</b>.<br><br>• Option B (Base 8) and Option D (Base 16) are used as human-friendly shorthand by programmers because they are easier to read than long strings of 1s and 0s, but the computer hardware itself still processes the data in binary.<br>• Option C (Base 10) is the decimal system used by humans in everyday life, but it is not the native language of computer hardware.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695508138.2083,
+      "question": "<div style='text-align: center; margin: 15px 0;'><div style='font-size: 1.1rem; margin-bottom: 16px;'>Convert the following decimal number to Base 2 (Binary):</div><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 16px 32px; border-radius: 8px; border: none; font-size: 2.5em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>42</kbd></div>",
+      "options": [
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>101010</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>110010</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>101001</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>100101</kbd></div>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert the decimal number 42 to Base 2, we divide by 2 repeatedly and record the remainders:<br><br>42 ÷ 2 = 21 remainder <b>0</b><br>21 ÷ 2 = 10 remainder <b>1</b><br>10 ÷ 2 = 5 remainder <b>0</b><br>5 ÷ 2 = 2 remainder <b>1</b><br>2 ÷ 2 = 1 remainder <b>0</b><br>1 ÷ 2 = 0 remainder <b>1</b><br><br>Reading the remainders from bottom to top gives us <b>101010</b>.<br><br>• Option B (110010) is the binary representation of 50.<br>• Option C (101001) is the binary representation of 41.<br>• Option D (100101) is the binary representation of 37.",
       "difficulty": "easy",
       "points": 1
     }
