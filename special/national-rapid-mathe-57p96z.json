@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 46,
+  "totalQuestions": 47,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -657,6 +657,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To find the area of a rhombus using its diagonals, we use the formula:<br><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × d<sub>1</sub> × d<sub>2</sub><br><br>Where d<sub>1</sub> and d<sub>2</sub> are the lengths of the diagonals.<br><br><b>Step 1: Substitute the given values</b><br>d<sub>1</sub> = 8 cm<br>d<sub>2</sub> = 6 cm<br><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 8 × 6<br><br><b>Step 2: Calculate the area</b><br>Area = 4 × 6 = <b>24 cm<sup>2</sup></b>.<br><br>• Option A (48 cm<sup>2</sup>) is a trap for those who forget to multiply by ½.<br>• Option C (14 cm<sup>2</sup>) is a trap for those who simply add the diagonals together (8 + 6 = 14).<br>• Option D (12 cm<sup>2</sup>) is a trap for those who only multiply one half of the diagonals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695443257.4683,
+      "question": "Which number base system is primarily used internally by digital computers to process and store data?",
+      "options": [
+        "Base 2 (Binary)",
+        "Base 8 (Octal)",
+        "Base 10 (Decimal)",
+        "Base 16 (Hexadecimal)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Digital computers use electrical signals that have two distinct states: ON (represented by 1) and OFF (represented by 0).<br><br>Because they rely on this two-state logic (transistors), computers process and store data natively using <b>Base 2 (Binary)</b>.<br><br>• Option B (Base 8) and Option D (Base 16) are used as human-friendly shorthand by programmers because they are easier to read than long strings of 1s and 0s, but the computer hardware itself still processes the data in binary.<br>• Option C (Base 10) is the decimal system used by humans in everyday life, but it is not the native language of computer hardware.",
       "difficulty": "easy",
       "points": 1
     }
