@@ -3,16 +3,438 @@
   "title": "EMBRYOLOGY : GAMETOGENESIS",
   "subject": "EMBRYOLOGY",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794632882489.5847,
+      "question": "Fertilization unites which gametes to form a zygote?",
+      "options": [
+        "Sperm and zygote",
+        "Sperm and oocyte",
+        "Ovum and blastocyst",
+        "Gamete and epiblast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fertilization is the process where the male sperm and female oocyte unite to give rise to a zygote.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.0623,
+      "question": "Primordial germ cells are initially formed in which structure?",
+      "options": [
+        "Yolk sac",
+        "Epiblast",
+        "Developing gonads",
+        "Umbilical cord"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primordial germ cells are formed in the epiblast during the second week before moving to the yolk sac wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.5828,
+      "question": "During which week do primordial germ cells move to the yolk sac wall?",
+      "options": [
+        "Second week",
+        "First week",
+        "Fourth week",
+        "Fifth week"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Primordial germ cells are formed in the epiblast and move to the wall of the yolk sac during the second week.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.4219,
+      "question": "Migration of primordial germ cells toward developing gonads begins during which week?",
+      "options": [
+        "Second week",
+        "Third week",
+        "Fourth week",
+        "Fifth week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During the fourth week, these cells begin to migrate from the yolk sac toward the developing gonads.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.198,
+      "question": "Primordial germ cells arrive at the developing gonads by the end of which week?",
+      "options": [
+        "Third week",
+        "Fourth week",
+        "Fifth week",
+        "Sixth week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cells begin migrating during the fourth week and arrive at the gonads by the end of the fifth week.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.5156,
+      "question": "Gametogenesis reduces the number of chromosomes through which process?",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Cytodifferentiation",
+        "Fertilization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gametogenesis includes meiosis specifically to reduce the number of chromosomes in preparation for fertilization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.2825,
+      "question": "Which process completes the maturation of germ cells alongside meiosis?",
+      "options": [
+        "Mitosis",
+        "Fertilization",
+        "Migration",
+        "Cytodifferentiation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Germ cells undergo meiosis and cytodifferentiation to complete their maturation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.8555,
+      "question": "Teratomas often contain tissues from how many germ layers?",
+      "options": [
+        "Only one layer",
+        "Exactly two layers",
+        "All three layers",
+        "More than four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Teratomas arise from pluripotent stem cells that can differentiate into any of the three germ layers or their derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.6826,
+      "question": "Which cells are thought to be responsible for some teratomas?",
+      "options": [
+        "Strayed PGCs",
+        "Mature sperm cells",
+        "Somatic body cells",
+        "Unfertilized oocytes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some evidence suggests that primordial germ cells that have strayed from their normal migratory paths could be responsible for some of these tumors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.2822,
+      "question": "Besides strayed primordial germ cells, another source of teratomas may be which cells?",
+      "options": [
+        "Yolk sac cells",
+        "Epiblast cells",
+        "Gonadal cells",
+        "Allantois cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Another source of teratomas may be epiblast cells that give rise to all three germ layers during gastrulation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.5632,
+      "question": "Teratomas are considered tumors of which origin?",
+      "options": [
+        "Disputed",
+        "Paternal",
+        "Maternal",
+        "Viral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Teratomas are described as tumors of disputed origin because their exact cellular source is debated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.999,
+      "question": "Approximately how many genes are found on human chromosomes?",
+      "options": [
+        "23,000",
+        "46,000",
+        "23",
+        "46"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Humans have approximately 23,000 genes located on 46 chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.69,
+      "question": "Genes located on the same chromosome are known as which type?",
+      "options": [
+        "Autosomes",
+        "Linked genes",
+        "Sex chromosomes",
+        "Homologous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genes on the same chromosome tend to be inherited together and are therefore known as linked genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.5803,
+      "question": "Somatic cells contain how many homologous pairs of chromosomes?",
+      "options": [
+        "23 pairs",
+        "22 pairs",
+        "46 pairs",
+        "44 pairs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In somatic cells, chromosomes appear as 23 homologous pairs to form the diploid number of 46.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.9094,
+      "question": "How many pairs of autosomes are present in human somatic cells?",
+      "options": [
+        "22 pairs",
+        "23 pairs",
+        "1 pair",
+        "46 pairs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are 22 pairs of matching autosomes and one pair of sex chromosomes in human somatic cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.906,
+      "question": "An individual with XX sex chromosomes is genetically described as which sex?",
+      "options": [
+        "Male",
+        "Female",
+        "Intersex",
+        "Undetermined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the sex pair is XX, the individual is genetically female.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.8335,
+      "question": "Each gamete contains which number of chromosomes?",
+      "options": [
+        "Haploid",
+        "Diploid",
+        "Tetraploid",
+        "Polyploid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each gamete contains a haploid number of 23 chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.4727,
+      "question": "The union of gametes at fertilization restores which chromosome number?",
+      "options": [
+        "Haploid number",
+        "Diploid number",
+        "Triploid number",
+        "Tetraploid number"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The union of the gametes at fertilization restores the diploid number of 46.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.3118,
+      "question": "Mitosis produces daughter cells that are genetically what to the parent cell?",
+      "options": [
+        "Different",
+        "Identical",
+        "Half",
+        "Mutated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitosis is the process whereby one cell divides, giving rise to two daughter cells that are genetically identical to the parent cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.3286,
+      "question": "Before a cell enters mitosis, which process must occur?",
+      "options": [
+        "DNA replication",
+        "Cytodifferentiation",
+        "Meiosis",
+        "Cell fusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Before a cell enters mitosis, each chromosome replicates its deoxyribonucleic acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.6182,
+      "question": "Chromosomes begin to coil, contract, and condense during which phase?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coiling, contracting, and condensing of chromosomes mark the beginning of prophase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.9414,
+      "question": "The narrow region joining two chromatids is known as which structure?",
+      "options": [
+        "Centriole",
+        "Centromere",
+        "Spindle",
+        "Nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromatids are joined at a narrow region common to both called the centromere.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.4326,
+      "question": "Doubled chromatids become distinguishable only at which stage?",
+      "options": [
+        "Prometaphase",
+        "Late prophase",
+        "Early anaphase",
+        "Final telophase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Throughout prophase chromosomes condense, but only at prometaphase do the chromatids become distinguishable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.2734,
+      "question": "Chromosomes line up in the equatorial plane during which phase?",
+      "options": [
+        "Metaphase",
+        "Prophase",
+        "Prometaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "During metaphase, the chromosomes line up in the equatorial plane and their doubled structure is clearly visible.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.802,
+      "question": "Microtubules extend from the centromere to which structure?",
+      "options": [
+        "Centriole",
+        "Nucleus",
+        "Cell membrane",
+        "Golgi apparatus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each chromosome is attached by microtubules extending from the centromere to the centriole to form the mitotic spindle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.934,
+      "question": "The division of the centromere marks the beginning of which phase?",
+      "options": [
+        "Metaphase",
+        "Anaphase",
+        "Telophase",
+        "Prophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soon, the centromere of each chromosome divides, marking the beginning of anaphase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.1086,
+      "question": "During which phase do chromosomes uncoil and the nuclear envelope reform?",
+      "options": [
+        "Anaphase",
+        "Telophase",
+        "Metaphase",
+        "Prometaphase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During telophase, chromosomes uncoil and lengthen, the nuclear envelope reforms, and the cytoplasm divides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.671,
+      "question": "Meiosis is the cell division that takes place in which cells?",
+      "options": [
+        "Somatic cells",
+        "Germ cells",
+        "Epiblast cells",
+        "Autosome cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Meiosis is described as the cell division that takes place in the germ cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.797,
+      "question": "Meiosis generates which type of cells?",
+      "options": [
+        "Somatic cells",
+        "Body cells",
+        "Teratoma cells",
+        "Gametes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Meiosis takes place in germ cells to generate male and female gametes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794632882490.8247,
+      "question": "Meiosis reduces the number of chromosomes in which cells?",
+      "options": [
+        "Somatic cells",
+        "Germ cells",
+        "Epiblast cells",
+        "Autosome cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Germ cells undergo meiosis specifically to reduce their chromosome number for fertilization.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
