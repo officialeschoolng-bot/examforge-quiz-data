@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 22,
+  "totalQuestions": 24,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -321,6 +321,34 @@
       ],
       "correctAnswer": 1,
       "explanation": "The hidden rule in this sequence is: <b>(First Number × Second Number) + First Number = Answer</b>. <br>Alternatively, you can view it as <b>First Number × (Second Number + 1)</b>.<br><br>Let's check the pattern:<br>• 1 + 4 → (1 × 4) + 1 = 4 + 1 = <b>5</b><br>• 2 + 5 → (2 × 5) + 2 = 10 + 2 = <b>12</b><br>• 3 + 6 → (3 × 6) + 3 = 18 + 3 = <b>21</b><br><br>Applying the same rule to the last line:<br>• 8 + 11 → (8 × 11) + 8 = 88 + 8 = <b>96</b>.<br><br>• Option A (40) is a trap for those who use the cumulative addition method (1+4=5, 2+5+5=12, 3+6+12=21, 8+11+21=40). Both 40 and 96 are mathematically logical, but 96 is the direct equation pattern.<br>• Option C (19) is a trap for those who just add 8 + 11 normally.<br>• Option D (52) is a trap for those who multiply the numbers but forget to add the first number (8 × 11 = 88 ≠ 52).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691736758.2388,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Evaluate the following expression:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>24 ÷ 4 (8 ÷ 4) = ?</kbd>",
+      "options": [
+        "3",
+        "12",
+        "48",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To solve this, we must follow the Order of Operations (PEMDAS/BODMAS).<br><br><b>Step 1: Solve inside the parentheses first</b><br>8 ÷ 4 = 2<br>The expression becomes: 24 ÷ 4 (2)<br><br><b>Step 2: Perform Division and Multiplication from LEFT to RIGHT</b><br>First, do the division: 24 ÷ 4 = 6<br>Then, multiply by the number in the parentheses: 6 × 2 = <b>12</b>.<br><br>• Option A (3) is a very common trap. People get this by multiplying the 4 and the 2 first (4 × 2 = 8), and then doing 24 ÷ 8 = 3. While implicit multiplication is sometimes prioritized in higher-level math, standard arithmetic rules dictate left-to-right evaluation.<br>• Option C (48) is a trap if you incorrectly add instead of multiply.<br>• Option D (24) is a trap if you forget to divide by 4 completely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691917483.1191,
+      "question": "<div style='text-align:center; margin-bottom: 15px;'><svg viewBox='0 0 200 200' width='160' height='160' style='display:inline-block; overflow:visible;'><circle cx='100' cy='100' r='90' fill='none' stroke='currentColor' stroke-width='4' /><circle cx='100' cy='100' r='4' fill='currentColor'/><line x1='100' y1='100' x2='152' y2='70' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><line x1='100' y1='100' x2='65.4' y2='80' stroke='currentColor' stroke-width='4' stroke-linecap='round'/><text x='100' y='30' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>12</text><text x='135' y='39.4' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>1</text><text x='160.6' y='65' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>2</text><text x='170' y='100' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>3</text><text x='160.6' y='135' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>4</text><text x='135' y='160.6' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>5</text><text x='100' y='170' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>6</text><text x='65' y='160.6' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>7</text><text x='39.4' y='135' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>8</text><text x='30' y='100' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>9</text><text x='39.4' y='65' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>10</text><text x='65' y='39.4' text-anchor='middle' dominant-baseline='central' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='currentColor'>11</text></svg></div><br><br><div style='font-size: 1.15rem; font-weight: bold; line-height: 1.5; text-align: center; margin-bottom: 10px;'>A clock chimes once at 1:00, twice at 2:00, and so on. How many total chimes will it make in 12 hours?</div>",
+      "options": [
+        "78",
+        "144",
+        "66",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a classic arithmetic series problem. We need to find the sum of the numbers from 1 to 12.<br><br>The sequence of chimes is: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.<br><br><b>Method 1: Pairing</b><br>You can pair the first and last numbers:<br>1 + 12 = 13<br>2 + 11 = 13<br>3 + 10 = 13<br>...and so on.<br>Since there are 12 numbers, there are 6 pairs.<br>6 × 13 = <b>78</b>.<br><br><b>Method 2: Formula</b><br>Sum = n(n + 1) / 2<br>Sum = 12(12 + 1) / 2<br>Sum = 12 × 13 / 2 = 156 / 2 = <b>78</b>.<br><br>• Option B (144) is a trap if you mistakenly multiply 12 × 12.<br>• Option C (66) is a trap if you use the formula for 11 hours instead of 12 (11 × 12 / 2 = 66).<br>• Option D (12) is just the number of hours.",
       "difficulty": "easy",
       "points": 1
     }
