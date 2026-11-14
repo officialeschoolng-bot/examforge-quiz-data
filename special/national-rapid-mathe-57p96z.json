@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 17,
+  "totalQuestions": 18,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -251,6 +251,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To simplify this expression, we first break down each surd into its largest perfect square factor.<br><br><b>Step 1: Simplify each term individually</b><br>• 2√27 = 2 × √(9 × 3) = 2 × 3√3 = <b>6√3</b><br>• 3√12 = 3 × √(4 × 3) = 3 × 2√3 = <b>6√3</b><br>• √48 = √(16 × 3) = <b>4√3</b><br><br><b>Step 2: Substitute the simplified terms back into the expression</b><br>6√3 + 6√3 − 4√3<br><br><b>Step 3: Combine the like terms</b><br>Since they all share the same radical (√3), we simply add and subtract their coefficients:<br>(6 + 6 − 4)√3 = <b>8√3</b>.<br><br>• Option B (16√3) is a trap for adding all the coefficients together: 6 + 6 + 4 = 16.<br>• Option C (4√3) is a trap for ignoring the outside coefficients (2 and 3) and just doing 3 + 2 − 4 = 1, or making a calculation error.<br>• Option D (8√9) is a trap for incorrectly multiplying the numbers under the root instead of factoring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691064703.1025,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='50' y='100' width='460' height='280' fill='var(--bg-primary, #1e1e1e)' /><rect x='50' y='100' width='460' height='280' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='220' cy='240' r='90' fill='rgba(128,128,128,0.6)' /><circle cx='340' cy='240' r='90' fill='var(--bg-primary, #1e1e1e)' /><circle cx='340' cy='240' r='90' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='220' cy='240' r='90' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='70' y='130' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><text x='150' y='180' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='400' y='180' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A ∩ B'",
+        "B ∩ A'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shaded region is the left crescent, which includes all the elements that are inside Set A but <b>not</b> inside Set B.<br><br>• Option A (A ∪ B) represents everything inside both circles.<br>• Option B (A ∩ B) represents the overlapping middle section.<br>• Option D (B ∩ A') is the exact opposite of what is shaded; it would be the right crescent (everything in B but not in A).<br><br>Because the shaded area is Set A minus the intersection, it is denoted as <b>A ∩ B'</b>.",
       "difficulty": "easy",
       "points": 1
     }
