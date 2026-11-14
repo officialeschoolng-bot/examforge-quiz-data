@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 6,
+  "totalQuestions": 7,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -97,6 +97,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "Because the wall is vertical, the ladder, the wall, and the ground form a right-angled triangle.<br><br>The distance from the wall (4 m) is the side <b>adjacent</b> to the 60° angle. The ladder (x) is the <b>hypotenuse</b>.<br><br>Using the cosine ratio:<br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>adjacent</span><span style='display:block;padding:0 .35em;'>hypotenuse</span></span><br><br>cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>We know that cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>.<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply:<br>x = 4 × 2 = <b>8 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794642838138.7412,
+      "question": "<div style='max-width: 500px; margin: 0 auto;'><p style='margin-bottom: 12px; font-size: 1.05rem;'>The table below shows the marks scored by a group of students in a mathematics test.</p><table style='width: 100%; margin: 16px auto; text-align: center; font-size: 16px; color: currentColor;'><thead><tr><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Mark (x)</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Tally</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th></tr></thead><tbody><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>6</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>|||| |||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>8</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>8</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr></tbody></table><p style='margin-top: 12px; font-size: 1.05rem;'>What is the mean mark of the data set?</p></div>",
+      "options": [
+        "6.5",
+        "6.7",
+        "7.0",
+        "6.8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the mean from a frequency table, we use the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Sum of (f × x)</span><span style='display:block;padding:0 .35em;'>Sum of f</span></span><br><br>First, we calculate the (f × x) for each row and find the totals:<br>• For x = 4: 5 × 4 = 20<br>• For x = 6: 8 × 6 = 48<br>• For x = 8: 2 × 8 = 16<br>• For x = 10: 5 × 10 = 50<br><br>Sum of frequencies (Sum of f) = 5 + 8 + 2 + 5 = 20<br>Sum of (f × x) = 20 + 48 + 16 + 50 = 134<br><br>Now, substitute these values into the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>134</span><span style='display:block;padding:0 .35em;'>20</span></span> = <b>6.7</b><br><br>The correct answer is <b>6.7</b>.",
       "difficulty": "easy",
       "points": 1
     }
