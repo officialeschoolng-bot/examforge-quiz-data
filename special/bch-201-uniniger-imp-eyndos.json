@@ -3,16 +3,578 @@
   "title": "BCH 201 (UNINIGER): IMPORTANCE OF BIOCHEMISTRY IN HEALTHCARE",
   "subject": "BCH 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 40,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794685886139.084,
+      "question": "Who introduced the term \\Biochemistry\\ in 1903?",
+      "options": [
+        "Louis Pasteur",
+        "Carl Neuberg",
+        "Emil Fischer",
+        "Hans Krebs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term \\Biochemistry\\ was coined by the German chemist <b>Carl Neuberg</b> in 1903. Louis Pasteur and Emil Fischer made monumental contributions to the field, but did not coin the term.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.4304,
+      "question": "Which of the following best describes the scope of biochemistry?",
+      "options": [
+        "Study of geological formations",
+        "Study of biomolecule structure and function",
+        "Study of planetary movements",
+        "Study of historical artifacts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemistry is the branch of science that explores the chemical processes and substances that occur within living organisms. It primarily focuses on the <b>structure and function of biomolecules</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.4053,
+      "question": "Which of the following is NOT a biomolecule primarily focused on in biochemistry?",
+      "options": [
+        "Carbohydrates",
+        "Proteins",
+        "Lipids",
+        "Minerals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The four major classes of biomolecules are carbohydrates, proteins, lipids, and nucleic acids. While <b>minerals</b> are essential micronutrients, they are inorganic elements rather than complex organic biomolecules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.1763,
+      "question": "Biochemistry has applications in all of the following EXCEPT?",
+      "options": [
+        "Medicine",
+        "Veterinary Science",
+        "Political Science",
+        "Agriculture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biochemistry has profound applications in medicine (diagnosis, treatment), veterinary science (animal health), and agriculture (genetic modification, soil health). It does not directly apply to <b>Political Science</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.5508,
+      "question": "Which product is obtained from genetic engineering?",
+      "options": [
+        "Table salt",
+        "Insulin",
+        "Crude oil",
+        "Cement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prior to genetic engineering, insulin for diabetics was extracted from animal pancreases. Today, <b>human insulin</b> is produced in large quantities by genetically engineered bacteria (E. coli) using recombinant DNA technology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.2278,
+      "question": "Which is NOT a level of medical care in biochemistry?",
+      "options": [
+        "Preventive care",
+        "Diagnostic care",
+        "Financial care",
+        "Rehabilitative care"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Biochemistry contributes heavily to preventive, diagnostic, and rehabilitative medical care. <b>Financial care</b> is an economic aspect of healthcare management, not a level of clinical/biochemical care.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.4873,
+      "question": "How does biochemistry contribute to preventive care?",
+      "options": [
+        "By ignoring risk factors",
+        "By identifying biomarkers for early detection",
+        "By focusing on surgery",
+        "By disregarding genetics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemistry aids preventive care by identifying early warning signs (biomarkers) of disease in blood or urine before symptoms appear, allowing for early intervention.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886139.9927,
+      "question": "Nutritional biochemistry helps prevent which diseases?",
+      "options": [
+        "Bone fractures",
+        "Obesity and diabetes",
+        "Viral infections",
+        "Skin rashes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nutritional biochemistry studies how diet affects metabolism. It is crucial for preventing metabolic conditions like <b>obesity and type 2 diabetes</b> by guiding dietary choices.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.1213,
+      "question": "What is the purpose of pharmacogenomics?",
+      "options": [
+        "To manufacture drugs",
+        "To tailor medication based on genetics",
+        "To reduce production costs",
+        "To eliminate clinical trials"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pharmacogenomics combines pharmacology and genomics to design drugs and dosages that are specifically <b>tailored to a patient's genetic makeup</b>, maximizing efficacy and minimizing side effects.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.265,
+      "question": "How do biochemical studies inform public health?",
+      "options": [
+        "By identifying at-risk populations",
+        "By designing transportation",
+        "By determining architecture",
+        "By regulating exports"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biochemical epidemiology helps public health officials identify <b>at-risk populations</b> (e.g., high cholesterol prevalence in certain demographics) to design targeted health campaigns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.0913,
+      "question": "How does biochemistry guide lifestyle recommendations?",
+      "options": [
+        "By encouraging ignorance of health",
+        "By motivating healthier habits",
+        "By promoting inactivity",
+        "By encouraging processed foods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding how the body metabolizes food, responds to exercise, and handles stress allows biochemists to provide evidence-based recommendations that <b>motivate healthier habits</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.29,
+      "question": "Which is a biochemical test for monitoring health?",
+      "options": [
+        "X-ray imaging",
+        "Blood tests",
+        "MRI scans",
+        "Ultrasound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "X-rays, MRIs, and ultrasounds are imaging techniques. <b>Blood tests</b> are biochemical tests that measure specific molecules (enzymes, glucose, lipids) to monitor physiological health.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.9236,
+      "question": "Where is vaccine development particularly important?",
+      "options": [
+        "Chronic conditions only",
+        "Infectious diseases",
+        "Orthopedic injuries",
+        "Cosmetic procedures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vaccines are biological preparations designed to provide acquired immunity against specific pathogens. They are particularly important for preventing <b>infectious diseases</b> (e.g., polio, measles, COVID-19).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.635,
+      "question": "What does elevated glucose indicate?",
+      "options": [
+        "Liver cirrhosis",
+        "Diabetes mellitus",
+        "Kidney stones",
+        "Heart failure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An elevated level of glucose (sugar) in the blood is a primary biochemical marker for <b>diabetes mellitus</b>, a condition where the body cannot properly utilize or produce insulin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.1487,
+      "question": "What do specific enzyme levels signify?",
+      "options": [
+        "Psychological disorders",
+        "Liver or heart conditions",
+        "Bone fractures",
+        "Skin infections"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enzymes like ALT/AST are markers for liver damage, while troponin and CK-MB are markers for heart attacks. Therefore, specific enzyme levels can signify <b>liver or heart conditions</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.5583,
+      "question": "Which patients need regular biochemical testing?",
+      "options": [
+        "Acute injuries only",
+        "Chronic conditions",
+        "Minor cuts",
+        "Temporary infections"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Patients with <b>chronic conditions</b> (like diabetes, kidney disease, or hypertension) require regular biochemical testing to monitor disease progression and adjust treatments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.0862,
+      "question": "How does biochemical analysis guide personalized treatment?",
+      "options": [
+        "By increasing reactions",
+        "By enhancing efficacy and reducing reactions",
+        "By eliminating supervision",
+        "By standardizing treatment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By understanding a patient's unique biochemical profile, clinicians can choose treatments that <b>enhance efficacy while reducing adverse drug reactions</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.4402,
+      "question": "What is the purpose of lipid profiles?",
+      "options": [
+        "To assess liver function",
+        "To assess cardiovascular risk",
+        "To assess kidney function",
+        "To assess thyroid activity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A lipid profile measures cholesterol and triglycerides in the blood. It is primarily used to assess the risk of developing <b>cardiovascular diseases</b> like atherosclerosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.721,
+      "question": "What is the role of genetic tests in screening?",
+      "options": [
+        "To identify hereditary predispositions",
+        "To treat infections",
+        "To replace diagnostic tests",
+        "To eliminate lifestyle changes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genetic screening looks for specific mutations in a person's DNA to <b>identify hereditary predispositions</b> to certain diseases (like breast cancer or sickle cell anemia).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.2927,
+      "question": "Which is a metabolic disorder diagnosed biochemically?",
+      "options": [
+        "Common cold",
+        "Phenylketonuria",
+        "Influenza",
+        "Conjunctivitis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenylketonuria (PKU) is an inherited metabolic disorder where the body cannot process the amino acid phenylalanine. It is routinely diagnosed biochemically via a newborn heel-prick test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.851,
+      "question": "What is the purpose of PCR and serological tests?",
+      "options": [
+        "To diagnose infectious diseases",
+        "To measure bone density",
+        "To assess psychological disorders",
+        "To evaluate hearing loss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PCR (Polymerase Chain Reaction) detects the genetic material of pathogens, while serological tests detect antibodies. Both are vital biochemical tools to <b>diagnose infectious diseases</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.029,
+      "question": "Biochemical assessments diagnose all EXCEPT?",
+      "options": [
+        "Malnutrition",
+        "Vitamin deficiencies",
+        "Metabolic syndromes",
+        "Fractured bones"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Biochemical tests easily identify malnutrition, vitamin deficiencies, and metabolic syndromes. A <b>fractured bone</b> is a structural injury diagnosed using imaging (like X-rays), not biochemistry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.0994,
+      "question": "What is the role of biochemical tests in toxicology?",
+      "options": [
+        "To detect stress levels",
+        "To detect drugs and toxins",
+        "To assess cognition",
+        "To measure fitness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Toxicology relies on biochemical tests of blood, urine, and tissues to <b>detect the presence of drugs, poisons, or toxins</b> in the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.452,
+      "question": "How is accuracy ensured in clinical laboratories?",
+      "options": [
+        "Through random sampling",
+        "Through quality control measures",
+        "By ignoring calibration",
+        "By reducing training"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clinical laboratories ensure the accuracy and reliability of biochemical tests through strict <b>quality control measures</b>, regular equipment calibration, and standardized procedures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.481,
+      "question": "What do biochemical insights inform in therapeutic care?",
+      "options": [
+        "Hospital furniture",
+        "Drug development",
+        "Billing software",
+        "Transportation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding the molecular basis of diseases directly informs <b>drug development</b> (pharmacology), allowing scientists to design molecules that target specific biochemical pathways.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.8806,
+      "question": "Enzyme replacement therapy treats which condition?",
+      "options": [
+        "Common cold",
+        "Gaucher disease",
+        "Influenza",
+        "Malaria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gaucher disease is a genetic disorder caused by a deficiency of the enzyme glucocerebrosidase. It is treated with <b>enzyme replacement therapy</b> to prevent organ damage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.8591,
+      "question": "What is the purpose of therapeutic drug monitoring?",
+      "options": [
+        "To maintain therapeutic drug levels",
+        "To provide unlimited medication",
+        "To administer drugs without prescriptions",
+        "To minimize costs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Therapeutic drug monitoring measures the concentration of a drug in the blood to ensure it stays within a <b>therapeutic range</b> (effective but non-toxic), especially for drugs with narrow safety margins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.1401,
+      "question": "What is essential for gene therapy development?",
+      "options": [
+        "Understanding gene expression pathways",
+        "Understanding hospital procedures",
+        "Understanding insurance policies",
+        "Understanding marketing strategies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gene therapy aims to fix or replace faulty genes. It requires a deep <b>understanding of gene expression pathways</b> and how to regulate them safely within the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.884,
+      "question": "How does molecular understanding help cancer treatment?",
+      "options": [
+        "By designing therapies to enhance immune response",
+        "By reducing costs",
+        "By eliminating chemotherapy",
+        "By preventing all cancers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Understanding the molecular biology of cancer allows scientists to design targeted therapies (like immunotherapies) that <b>enhance the immune system's ability to recognize and attack cancer cells</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.6157,
+      "question": "What does biochemistry aid in designing for recovering patients?",
+      "options": [
+        "Hospital architecture",
+        "Rehabilitation programs",
+        "Hospital finances",
+        "Patient records"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biochemistry helps design <b>rehabilitation programs</b> by understanding the metabolic demands of healing and the specific nutritional or therapeutic needs of the recovering body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.7983,
+      "question": "What type of recovery do neurodegenerative disease pathways inform?",
+      "options": [
+        "Financial recovery",
+        "Cognitive recovery",
+        "Social media management",
+        "Political engagement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neurodegenerative diseases (like Alzheimer's or Parkinson's) affect the brain. Studying these biochemical pathways informs <b>cognitive recovery</b> strategies and neurorehabilitation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.5269,
+      "question": "How does biochemistry aid dietary planning in rehabilitation?",
+      "options": [
+        "By understanding nutrient roles in tissue repair",
+        "By focusing on entertainment",
+        "By prioritizing transportation",
+        "By emphasizing communication"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dietary planning during rehabilitation relies on <b>understanding how specific nutrients (proteins, vitamins, minerals) contribute to tissue repair</b> and recovery after injury or illness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.9866,
+      "question": "Why is biochemistry essential for drug actions in rehabilitation?",
+      "options": [
+        "To understand molecular mechanisms",
+        "To know packaging colors",
+        "To identify brand names",
+        "To understand advertising"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To correctly utilize drugs during rehabilitation, health professionals must <b>understand the molecular mechanisms</b> of how the drug interacts with the body to promote healing or manage symptoms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.2014,
+      "question": "What does biochemistry help understand in muscle physiology?",
+      "options": [
+        "Muscle repair processes",
+        "Psychological aspects",
+        "Economic impacts",
+        "Historical development"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Biochemistry explains the cellular and molecular events—such as protein synthesis and energy metabolism—that drive <b>muscle repair processes</b> after exercise or injury.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.4038,
+      "question": "What can understanding pain pathways lead to?",
+      "options": [
+        "Ineffective management",
+        "More effective management",
+        "Increased sensitivity",
+        "Complete elimination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding the biochemical pathways of pain transmission allows for the development of targeted analgesics, leading to <b>more effective management</b> of pain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.483,
+      "question": "Which areas does biochemistry inform in cognitive rehabilitation?",
+      "options": [
+        "Neurotransmitter systems",
+        "Architectural design",
+        "Financial planning",
+        "Legal regulations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cognitive rehabilitation is informed by biochemistry's understanding of <b>neurotransmitter systems</b>, which are crucial for memory, attention, and learning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.782,
+      "question": "What are genomics and proteomics paving the way for?",
+      "options": [
+        "Standardized rehabilitation",
+        "Personalized rehabilitation",
+        "Elimination of programs",
+        "Reduced need for professionals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genomics (study of genes) and proteomics (study of proteins) provide individual molecular profiles, paving the way for <b>personalized rehabilitation</b> tailored to a patient's specific genetic and protein expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.3018,
+      "question": "What do inflammatory markers indicate in rehabilitation?",
+      "options": [
+        "Financial status",
+        "Recovery progress",
+        "Social life",
+        "Hospital reputation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Inflammatory markers (like C-reactive protein) measured biochemically indicate the degree of inflammation, which helps clinicians track <b>recovery progress</b> and detect complications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.0554,
+      "question": "Nutrient processing understanding is relevant for managing?",
+      "options": [
+        "Diabetes and obesity",
+        "Architectural design",
+        "Political campaigns",
+        "Historical research"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Understanding how the body processes nutrients (macronutrient metabolism) is directly relevant for managing metabolic disorders like <b>diabetes and obesity</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794685886140.0005,
+      "question": "What has molecular biology applications led to?",
+      "options": [
+        "Traditional farming",
+        "Gene therapy and CRISPR",
+        "Manual typewriters",
+        "Steam engines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Advances in molecular biology have directly led to revolutionary biotechnologies like <b>gene therapy and CRISPR</b> (gene editing), which are transforming modern medicine.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
