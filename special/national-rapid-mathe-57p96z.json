@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 1,
+  "totalQuestions": 2,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -27,6 +27,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "The area of a triangle is A = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height.<br><br>Here the base is 8 units and the perpendicular height is 7 units (shown by the broken line), so A = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 8 × 7 = <b>28 square units</b>.<br><br>• Option B (56) comes from forgetting the factor of <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> and simply multiplying 8 × 7.<br>• Option C (15) comes from adding the base and the height instead of multiplying.<br>• Option D (24) does not follow from the given dimensions at all.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794641400979.6816,
+      "question": "<div style='max-width:700px;color:currentColor;'><svg viewBox='0 0 700 300' width='100%' style='display:block;max-width:700px;overflow:visible;'><line x1='150' y1='200' x2='550' y2='200' stroke='currentColor' stroke-width='3' /><line x1='150' y1='190' x2='150' y2='210' stroke='currentColor' stroke-width='3' /><line x1='550' y1='190' x2='550' y2='210' stroke='currentColor' stroke-width='3' /><text x='150' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>A</text><text x='550' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>B</text><text x='350' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>132 cm</text><circle cx='150' cy='140' r='60' stroke='currentColor' stroke-width='3' fill='none' /><circle cx='150' cy='140' r='4' fill='currentColor' /><line x1='150' y1='140' x2='150' y2='200' stroke='currentColor' stroke-width='2' stroke-dasharray='6,6' /><text x='165' y='175' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>7 cm</text></svg></div><br>How many times will this wheel rotate to reach from point A to point B?",
+      "options": [
+        "3 times",
+        "2 times",
+        "4 times",
+        "3.5 times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The distance a wheel covers in one complete rotation is equal to its circumference.<br><br>Circumference C = 2πr<br><br>Using π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>:<br><br>C = 2 × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 = 44 cm<br><br>The number of rotations is the total distance divided by the circumference:<br><br>Rotations = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>132</span><span style='display:block;padding:0 .35em;'>44</span></span> = <b>3 times</b>.",
       "difficulty": "easy",
       "points": 1
     }
