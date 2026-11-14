@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 45,
+  "totalQuestions": 46,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -643,6 +643,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "The <b>cardinality</b> of a set is the number of <b>unique</b> (distinct) elements it contains. Even though an element is listed multiple times, it only counts once.<br><br><b>Step 1: Identify the unique elements</b><br>Looking through the set, we can list the distinct numbers by removing any duplicates:<br>{ 1, 2, 3, 4, 5, 6, 7, 8, 9 }<br><br><b>Step 2: Count the unique elements</b><br>There are exactly <b>9</b> unique numbers in the set.<br><br>• Option B (15) is a trap for those who count every number listed, including the repetitions.<br>• Option C (12) is a trap for those who miscount the duplicates.<br>• Option D (6) is a trap for those who miscount the unique elements.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695391229.5657,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='150 130 260 220' width='100%' style='display:block;max-width:350px;margin:0 auto;overflow:visible;'><polygon points='200,240 280,180 360,240 280,300' fill='rgba(128,128,128,0.15)' stroke='none' /><polygon points='200,240 280,180 360,240 280,300' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><line x1='200' y1='240' x2='360' y2='240' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4' /><line x1='280' y1='180' x2='280' y2='300' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4' /><polyline points='280,230 290,230 290,240' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='280' y='270' text-anchor='middle' font-family='Georgia, serif' font-size='20' font-weight='bold' fill='currentColor'>8 cm</text><text x='295' y='250' text-anchor='start' font-family='Georgia, serif' font-size='20' font-weight='bold' fill='currentColor'>6 cm</text></svg></div><br>The diagram above shows a rhombus with its diagonals measuring 8 cm and 6 cm. Calculate the area of the rhombus.",
+      "options": [
+        "48 cm<sup>2</sup>",
+        "24 cm<sup>2</sup>",
+        "14 cm<sup>2</sup>",
+        "12 cm<sup>2</sup>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the area of a rhombus using its diagonals, we use the formula:<br><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × d<sub>1</sub> × d<sub>2</sub><br><br>Where d<sub>1</sub> and d<sub>2</sub> are the lengths of the diagonals.<br><br><b>Step 1: Substitute the given values</b><br>d<sub>1</sub> = 8 cm<br>d<sub>2</sub> = 6 cm<br><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 8 × 6<br><br><b>Step 2: Calculate the area</b><br>Area = 4 × 6 = <b>24 cm<sup>2</sup></b>.<br><br>• Option A (48 cm<sup>2</sup>) is a trap for those who forget to multiply by ½.<br>• Option C (14 cm<sup>2</sup>) is a trap for those who simply add the diagonals together (8 + 6 = 14).<br>• Option D (12 cm<sup>2</sup>) is a trap for those who only multiply one half of the diagonals.",
       "difficulty": "easy",
       "points": 1
     }
