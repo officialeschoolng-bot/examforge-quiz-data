@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 2,
+  "totalQuestions": 3,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -41,6 +41,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "The distance a wheel covers in one complete rotation is equal to its circumference.<br><br>Circumference C = 2πr<br><br>Using π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>:<br><br>C = 2 × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 = 44 cm<br><br>The number of rotations is the total distance divided by the circumference:<br><br>Rotations = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>132</span><span style='display:block;padding:0 .35em;'>44</span></span> = <b>3 times</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794641623794.7415,
+      "question": "If it takes 5 minutes for one towel to dry, how long will it take seven towels to dry if they are spread on a rope?",
+      "options": [
+        "35 minutes",
+        "5 minutes",
+        "12 minutes",
+        "70 minutes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drying time depends on environmental conditions (like sun and wind) and exposure, not on the total number of items, as long as they are spread out.<br><br>Because the seven towels are hung on the rope simultaneously, they dry in parallel. Therefore, they will all take the same amount of time as a single towel.<br><br>• Option A (35 minutes) is a common trap; it comes from multiplying 5 minutes × 7 towels, which only applies if they were dried one after the other.<br>• Options C and D are random incorrect calculations.<br><br>The correct answer is <b>5 minutes</b>.",
       "difficulty": "easy",
       "points": 1
     }
