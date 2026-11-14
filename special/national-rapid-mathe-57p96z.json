@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 24,
+  "totalQuestions": 25,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -349,6 +349,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is a classic arithmetic series problem. We need to find the sum of the numbers from 1 to 12.<br><br>The sequence of chimes is: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.<br><br><b>Method 1: Pairing</b><br>You can pair the first and last numbers:<br>1 + 12 = 13<br>2 + 11 = 13<br>3 + 10 = 13<br>...and so on.<br>Since there are 12 numbers, there are 6 pairs.<br>6 × 13 = <b>78</b>.<br><br><b>Method 2: Formula</b><br>Sum = n(n + 1) / 2<br>Sum = 12(12 + 1) / 2<br>Sum = 12 × 13 / 2 = 156 / 2 = <b>78</b>.<br><br>• Option B (144) is a trap if you mistakenly multiply 12 × 12.<br>• Option C (66) is a trap if you use the formula for 11 hours instead of 12 (11 × 12 / 2 = 66).<br>• Option D (12) is just the number of hours.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794692290458.9092,
+      "question": "<div style='text-align: center; margin: 15px 0;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 24px 32px; border-radius: 12px; border: none; color: currentColor;'><svg viewBox='0 0 600 200' width='100%' style='display:block;max-width:550px;margin:0 auto;overflow:visible;'><text x='300' y='75' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>2<tspan dy='-22' font-size='32'>4</tspan><tspan dy='22'> + (16 − 3 × 4)</tspan></text><line x1='50' y1='100' x2='550' y2='100' stroke='currentColor' stroke-width='4' /><text x='300' y='160' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>(6 + 3<tspan dy='-22' font-size='32'>2</tspan><tspan dy='22'>) ÷ (7 − 4)</tspan></text></svg></kbd></div>",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this, we need to follow the Order of Operations (PEMDAS/BODMAS) for both the numerator (top) and the denominator (bottom) separately before dividing them.<br><br><b>Step 1: Simplify the Numerator (Top)</b><br>Expression: 2<sup>4</sup> + (16 − 3 × 4)<br>• First, calculate the exponent: 2<sup>4</sup> = 16<br>• Next, do the multiplication inside the parentheses: 3 × 4 = 12<br>• Then, do the subtraction inside the parentheses: 16 − 12 = 4<br>• Finally, add them together: 16 + 4 = <b>20</b><br><br><b>Step 2: Simplify the Denominator (Bottom)</b><br>Expression: (6 + 3<sup>2</sup>) ÷ (7 − 4)<br>• First, calculate the exponent: 3<sup>2</sup> = 9<br>• Next, do the addition in the first parenthesis: 6 + 9 = 15<br>• Then, do the subtraction in the second parenthesis: 7 − 4 = 3<br>• Finally, divide them: 15 ÷ 3 = <b>5</b><br><br><b>Step 3: Divide the Numerator by the Denominator</b><br>20 ÷ 5 = <b>4</b>.<br><br>• Option B (5) is a trap for those who miscalculate the numerator.<br>• Option C (10) is a trap for those who forget to square the 3.<br>• Option D (20) is a trap for those who only calculate the numerator and stop.",
       "difficulty": "easy",
       "points": 1
     }
