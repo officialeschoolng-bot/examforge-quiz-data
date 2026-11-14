@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 37,
+  "totalQuestions": 39,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -531,6 +531,34 @@
       ],
       "correctAnswer": 2,
       "explanation": "To find the size of one interior angle of a regular polygon, we first find the sum of all interior angles and then divide by the number of sides.<br><br><b>Step 1: Find the sum of interior angles</b><br>The formula is: Sum = (n − 2) × 180°<br>Where n is the number of sides. Here, n = 6.<br>Sum = (6 − 2) × 180°<br>Sum = 4 × 180° = <b>720°</b><br><br><b>Step 2: Find one interior angle</b><br>Since it is a regular polygon, all 6 angles are equal.<br>One interior angle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>720°</span><span style='display:block;padding:0 .35em;'>6</span></span> = <b>120°</b>.<br><br>• Option A (60°) is a trap for those who calculate the exterior angle instead.<br>• Option B (108°) is the interior angle of a regular pentagon (5 sides).<br>• Option D (720°) is the sum of ALL the interior angles, not just one.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794694433611.1272,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><circle cx='280' cy='240' r='140' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='280' cy='240' r='4' fill='currentColor'/><line x1='280' y1='240' x2='158.76' y2='170' stroke='currentColor' stroke-width='2.5'/><line x1='280' y1='240' x2='401.24' y2='170' stroke='currentColor' stroke-width='2.5'/><line x1='158.76' y1='170' x2='401.24' y2='170' stroke='currentColor' stroke-width='2.5'/><line x1='158.76' y1='170' x2='280' y2='380' stroke='currentColor' stroke-width='2.5'/><line x1='401.24' y1='170' x2='280' y2='380' stroke='currentColor' stroke-width='2.5'/><path d='M 188.76 170 A 30 30 0 0 1 184.74 185' fill='none' stroke='currentColor' stroke-width='2'/><path d='M 260 345.36 A 40 40 0 0 1 300 345.36' fill='none' stroke='currentColor' stroke-width='2'/><text x='195' y='180' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>30°</text><text x='265' y='255' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>O</text><text x='125' y='165' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>A</text><text x='415' y='165' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>B</text><text x='280' y='410' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>C</text><text x='280' y='335' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='bold' fill='currentColor'>?</text></svg></div><br>In the circle above, O is the center. If angle OAB is 30°, what is the value of angle ACB?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Step 1: Identify the isosceles triangle</b><br>Triangle OAB is formed by two radii (OA and OB). Since all radii of a circle are equal, triangle OAB is an isosceles triangle.<br><br><b>Step 2: Find the central angle AOB</b><br>In an isosceles triangle, the base angles are equal. Therefore, angle OBA = angle OAB = 30°.<br>The sum of angles in a triangle is 180°, so:<br>Angle AOB = 180° − (30° + 30°) = <b>120°</b>.<br><br><b>Step 3: Use the circle theorem</b><br>The angle at the center (angle AOB) is twice the angle at the circumference (angle ACB) subtended by the same arc.<br><br>Angle ACB = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × Angle AOB<br>Angle ACB = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 120° = <b>60°</b>.<br><br>• Option A (30°) is a trap for those who assume the angle at the circumference is the same as the base angle.<br>• Option D (120°) is the angle at the center, not the circumference.<br>• Option C (90°) is a trap for those who assume the triangle is right-angled.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794694530039.7307,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>How many different anagrams can be made from the word below?</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 2.5em; font-weight: 900; letter-spacing: 3px; color: currentColor;'>EXAMFORGE</kbd>",
+      "options": [
+        "362,880",
+        "181,440",
+        "90,720",
+        "725,760"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the number of anagrams, we use the permutation formula for a set with repeated elements.<br><br><b>Step 1: Count the total number of letters</b><br>The word <b>EXAMFORGE</b> has 9 letters in total.<br><br><b>Step 2: Identify any repeated letters</b><br>If we look closely, the letter <b>E</b> appears exactly 2 times. All other letters (X, A, M, F, O, R, G) appear only once.<br><br><b>Step 3: Apply the formula</b><br>The formula is: <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Total Letters!</span><span style='display:block;padding:0 .35em;'>Repeated Letters!</span></span><br><br>Number of arrangements = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>9!</span><span style='display:block;padding:0 .35em;'>2!</span></span><br><br>9! = 362,880<br>2! = 2<br><br>Number of arrangements = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>362,880</span><span style='display:block;padding:0 .35em;'>2</span></span> = <b>181,440</b>.<br><br>• Option A (362,880) is a trap for those who calculate 9! but forget to divide by 2! for the repeated 'E'.<br>• Option C (90,720) is a trap for those who incorrectly divide by 4.<br>• Option D (725,760) is a trap for those who mistakenly multiply by 2 instead of dividing.",
       "difficulty": "easy",
       "points": 1
     }
