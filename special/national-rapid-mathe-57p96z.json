@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 4,
+  "totalQuestions": 5,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -69,6 +69,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To solve this, it helps to break the 47 hours into a full day (24 hours) plus the remaining hours.<br><br>47 hours = 24 hours + 23 hours.<br><br><b>Step 1: Add 24 hours</b><br>Adding exactly 24 hours brings us to the exact same time on the next day.<br>Wednesday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd> + 24 hours = Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br><br><b>Step 2: Add the remaining 23 hours</b><br>Start at Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br>• Adding 1 hour brings us to Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd>.<br>• We still have 22 hours left to add (23 − 1 = 22).<br>• Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd> + 22 hours = Friday <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd>.<br><br>The correct answer is <b>Friday, <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd></b>.<br><br>• Option B is a trap for those who forget to add the 23 hours after the first 24 hours.<br>• Option C is a trap for those who miscount the days.<br>• Option D is a trap for those who add instead of subtract when crossing over the 12-hour mark.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794641992216.1594,
+      "question": "<div style='max-width:400px;color:currentColor;'><svg viewBox='0 0 320 340' width='100%' style='display:block;overflow:visible;'><polygon points='50,290 250,290 250,50 210,50 210,130 90,130 90,50 50,50' fill='none' stroke='currentColor' stroke-width='3.5' stroke-linejoin='round'/><text x='35' y='175' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>12 cm</text><text x='265' y='175' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>12 cm</text><text x='150' y='320' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>10 cm</text><text x='70' y='35' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>2 cm</text><text x='230' y='35' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>2 cm</text><text x='80' y='95' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>4 cm</text><text x='220' y='95' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>4 cm</text><text x='150' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>?</text></svg></div><br>The shape below is drawn with straight lines only, and all its angles are right angles. Calculate the perimeter of the shape.",
+      "options": [
+        "52 cm",
+        "48 cm",
+        "56 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the perimeter, we must add up the lengths of all the outside edges. First, we need to deduce the length of the missing bottom inner edge.<br><br><b>Step 1: Find the missing inner horizontal length</b><br>The total width at the bottom is 10 cm. The top of the shape is divided into three parts: the left top edge (2 cm), the inner gap (unknown), and the right top edge (2 cm).<br><br>Because the shape is a blocky 'U', the inner gap width equals the inner bottom edge width.<br>Inner width = 10 cm − 2 cm − 2 cm = <b>6 cm</b>.<br><br><b>Step 2: Add all the outer sides</b><br>• Left vertical edge: 12 cm<br>• Bottom horizontal edge: 10 cm<br>• Right vertical edge: 12 cm<br>• Top-right horizontal edge: 2 cm<br>• Inner-right vertical edge: 4 cm<br>• Inner-bottom horizontal edge: 6 cm<br>• Inner-left vertical edge: 4 cm<br>• Top-left horizontal edge: 2 cm<br><br>Perimeter = 12 + 10 + 12 + 2 + 4 + 6 + 4 + 2 = <b>52 cm</b>.",
       "difficulty": "easy",
       "points": 1
     }
