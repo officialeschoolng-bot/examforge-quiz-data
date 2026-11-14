@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 3,
+  "totalQuestions": 4,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -55,6 +55,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "Drying time depends on environmental conditions (like sun and wind) and exposure, not on the total number of items, as long as they are spread out.<br><br>Because the seven towels are hung on the rope simultaneously, they dry in parallel. Therefore, they will all take the same amount of time as a single towel.<br><br>• Option A (35 minutes) is a common trap; it comes from multiplying 5 minutes × 7 towels, which only applies if they were dried one after the other.<br>• Options C and D are random incorrect calculations.<br><br>The correct answer is <b>5 minutes</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794641767824.6626,
+      "question": "If the current time is <kbd style='font-size: 1.4em; font-weight: 900; padding: 4px 10px; background: rgba(128,128,128,0.2); border-bottom: 3px solid currentColor;'>11:45 PM</kbd> on a Wednesday, what will be the exact day and time exactly 47 hours from now?",
+      "options": [
+        "Friday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 PM</kbd>",
+        "Friday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>11:45 PM</kbd>",
+        "Thursday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 PM</kbd>",
+        "Saturday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 AM</kbd>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this, it helps to break the 47 hours into a full day (24 hours) plus the remaining hours.<br><br>47 hours = 24 hours + 23 hours.<br><br><b>Step 1: Add 24 hours</b><br>Adding exactly 24 hours brings us to the exact same time on the next day.<br>Wednesday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd> + 24 hours = Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br><br><b>Step 2: Add the remaining 23 hours</b><br>Start at Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br>• Adding 1 hour brings us to Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd>.<br>• We still have 22 hours left to add (23 − 1 = 22).<br>• Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd> + 22 hours = Friday <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd>.<br><br>The correct answer is <b>Friday, <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd></b>.<br><br>• Option B is a trap for those who forget to add the 23 hours after the first 24 hours.<br>• Option C is a trap for those who miscount the days.<br>• Option D is a trap for those who add instead of subtract when crossing over the 12-hour mark.",
       "difficulty": "easy",
       "points": 1
     }
