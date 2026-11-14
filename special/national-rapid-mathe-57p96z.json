@@ -3,11 +3,11 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 14,
+  "totalQuestions": 15,
   "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
@@ -209,6 +209,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "Let the height of the table be <b>T</b>, the flask be <b>F</b>, and the box be <b>B</b>.<br><br>From the first diagram, the distance from the top of the flask to the top of the box is 150 cm:<br><b>Equation 1:</b> T + F − B = 150<br><br>From the second diagram, the distance from the top of the box to the top of the flask is 110 cm:<br><b>Equation 2:</b> T + B − F = 110<br><br>To find the height of the table, add both equations together. Notice that the +F and −F cancel out, and the −B and +B cancel out:<br>(T + F − B) + (T + B − F) = 150 + 110<br>2T = 260<br><br>Divide by 2:<br>T = 130 cm<br><br>• Option A (110 cm) is the height from the second diagram.<br>• Option C (150 cm) is the height from the first diagram.<br>• Option D (260 cm) is the trap answer you get if you forget to divide by 2 at the end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794651169268.8765,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='50' y='80' width='460' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='70' y='110' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><circle cx='220' cy='200' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='200' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='280' cy='290' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='140' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>P</text><text x='410' y='140' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>C</text><text x='280' y='385' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text><text x='170' y='190' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>10</text><text x='390' y='190' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>12</text><text x='280' y='345' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>8</text><text x='280' y='155' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>5</text><text x='230' y='265' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>3</text><text x='330' y='265' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>4</text><text x='280' y='220' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>2</text><text x='480' y='375' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>15</text></svg></div><br>The Venn diagram above shows the number of students who study three subjects: Physics (P), Chemistry (C), and Biology (B). How many students study <b>exactly two</b> of the three subjects?",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "24"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the number of students who study <b>exactly two</b> subjects, we must look only at the regions where two circles overlap but the third does not.<br><br>These regions are:<br>• Physics and Chemistry only = 5<br>• Physics and Biology only = 3<br>• Chemistry and Biology only = 4<br><br>Adding these together:<br>5 + 3 + 4 = <b>12 students</b>.<br><br>• Option B (14) is a trap for those who include the center intersection (2). 12 + 2 = 14. (Adding the center gives you those who study <i>at least</i> two subjects).<br>• Option C (18) is a trap for those who add up all the overlapping regions completely, counting the center multiple times: (5+2) + (3+2) + (4+2) = 7 + 5 + 6 = 18.<br>• Option D (24) is simply the sum of all the numbers inside the three circles.",
       "difficulty": "easy",
       "points": 1
     }
