@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 8,
+  "totalQuestions": 9,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -125,6 +125,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x + y = 11</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(2x + y) + (x − y) = 11 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 4 − 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 3</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794643434314.5952,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path fill-rule='evenodd' d='M 280 120 A 120 120 0 1 1 279.9 120 Z M 280 180 A 60 60 0 1 0 280.1 180 Z' fill='rgba(128,128,128,0.25)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><line x1='280' y1='240' x2='400' y2='240' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='280' y1='240' x2='280' y2='180' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><circle cx='280' cy='240' r='4' fill='currentColor'/><text x='340' y='230' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>R = 14 cm</text><text x='295' y='205' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>r = 7 cm</text></svg></div><br>The diagram above shows two concentric circles. The radius of the larger circle is 14 cm and the radius of the smaller circle is 7 cm. Calculate the area of the shaded portion. (Take π = 22/7)",
+      "options": [
+        "154 cm²",
+        "308 cm²",
+        "462 cm²",
+        "616 cm²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shaded portion is an annulus (a ring shape). To find its area, subtract the area of the smaller circle from the area of the larger circle.<br><br><b>Step 1: Area of the larger circle</b><br>Area = πR² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196 = 22 × 28 = 616 cm²<br><br><b>Step 2: Area of the smaller circle</b><br>Area = πr² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 49 = 22 × 7 = 154 cm²<br><br><b>Step 3: Area of the shaded portion</b><br>Area = (Area of larger circle) − (Area of smaller circle)<br>Area = 616 − 154 = <b>462 cm²</b>.<br><br>Alternatively, you can use the formula: Area = π(R² − r²) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × (14² − 7²) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × (196 − 49) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 147 = 22 × 21 = <b>462 cm²</b>.",
       "difficulty": "easy",
       "points": 1
     }
