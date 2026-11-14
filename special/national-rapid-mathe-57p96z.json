@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 49,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -699,6 +699,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To expand a cubic binomial like (x − 2)<sup>3</sup>, we can use the binomial theorem or multiply it out step by step.<br><br><b>Method 1: Step-by-step multiplication</b><br>(x − 2)<sup>3</sup> = (x − 2)(x − 2)(x − 2)<br>First, expand the first two brackets: (x − 2)(x − 2) = x<sup>2</sup> − 4x + 4.<br>Now multiply by the third bracket: (x<sup>2</sup> − 4x + 4)(x − 2)<br>= x<sup>3</sup> − 2x<sup>2</sup> − 4x<sup>2</sup> + 8x + 4x − 8<br>= <b>x<sup>3</sup> − 6x<sup>2</sup> + 12x − 8</b><br><br><b>Method 2: Binomial Theorem</b><br>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup><br>Here, a = x and b = −2.<br>= (x)<sup>3</sup> + 3(x)<sup>2</sup>(−2) + 3(x)(−2)<sup>2</sup> + (−2)<sup>3</sup><br>= x<sup>3</sup> − 6x<sup>2</sup> + 12x − 8<br><br>• Option B is the expansion of (x + 2)<sup>3</sup>.<br>• Option C has a sign error on the 12x term.<br>• Option D is a trap for those who just cube the first and last terms and forget the middle terms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695701361.1567,
+      "question": "Who was the first Nigerian to obtain a PhD in Mathematics?",
+      "options": [
+        "Chike Obi",
+        "Adegoke Olubummo",
+        "James Ezeilo",
+        "Grace Alele-Williams"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Chike Obi</b> was a renowned Nigerian mathematician and politician. He made history by becoming the first Nigerian to earn a doctorate degree in mathematics, receiving his PhD from the University of Cambridge in 1950.<br><br>• Option B (Adegoke Olubummo) was the second Nigerian to earn a PhD in mathematics (1955).<br>• Option C (James Ezeilo) was the third (1958).<br>• Option D (Grace Alele-Williams) was the first Nigerian woman to earn a PhD in mathematics (1976).",
       "difficulty": "easy",
       "points": 1
     }
