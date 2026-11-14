@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 9,
+  "totalQuestions": 10,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -139,6 +139,20 @@
       ],
       "correctAnswer": 2,
       "explanation": "The shaded portion is an annulus (a ring shape). To find its area, subtract the area of the smaller circle from the area of the larger circle.<br><br><b>Step 1: Area of the larger circle</b><br>Area = πR² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196 = 22 × 28 = 616 cm²<br><br><b>Step 2: Area of the smaller circle</b><br>Area = πr² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 49 = 22 × 7 = 154 cm²<br><br><b>Step 3: Area of the shaded portion</b><br>Area = (Area of larger circle) − (Area of smaller circle)<br>Area = 616 − 154 = <b>462 cm²</b>.<br><br>Alternatively, you can use the formula: Area = π(R² − r²) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × (14² − 7²) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × (196 − 49) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 147 = 22 × 21 = <b>462 cm²</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794646712322.17,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path d='M 50 100 L 510 100 L 510 380 L 50 380 Z M 250 240 A 90 90 0 1 0 430 240 A 90 90 0 1 0 250 240 Z' fill='rgba(128,128,128,0.35)' /><rect x='50' y='100' width='460' height='280' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='220' cy='240' r='90' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='240' r='90' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='70' y='130' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><text x='150' y='180' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='400' y='180' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "B'",
+        "A'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shaded region includes the entire universal set EXCEPT for the inside of Set B.<br><br>Notice that the <b>only unshaded part</b> is the right side of Set B (the part of B that does not overlap with A).<br><br>• Option A (A ∪ B) is incorrect because it would include the inside of Set B.<br>• Option B (A ∩ B) is incorrect because it represents only the overlapping intersection.<br>• Option D (A') is incorrect because it represents everything outside Set A, which is not what is shaded here.<br><br>Because the shaded area represents everything that is <b>not</b> in Set B, the correct notation is <b>B'</b>.",
       "difficulty": "easy",
       "points": 1
     }
