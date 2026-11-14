@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 13,
+  "totalQuestions": 14,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -195,6 +195,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "We can solve this system using the elimination method by subtracting the second equation from the first to eliminate y.<br><br><b>Step 1: Subtract the equations</b><br>(4x + y) − (2x + y) = 17 − 9<br>2x = 8<br>x = 4<br><br><b>Step 2: Substitute x into the second equation</b><br>2(4) + y = 9<br>8 + y = 9<br>y = 9 − 8<br>y = 1<br><br>So the solution is <b>x = 4</b> and <b>y = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794649358455.3792,
+      "question": "<div style='text-align:center; margin: 10px 0;'><svg width='450' height='320' viewBox='0 0 580 360' style='display:inline-block; overflow:visible;'><line x1='20' y1='320' x2='560' y2='320' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><rect x='40' y='190' width='150' height='12' rx='4' fill='currentColor'/><rect x='50' y='202' width='12' height='118' fill='currentColor'/><rect x='168' y='202' width='12' height='118' fill='currentColor'/><rect x='80' y='280' width='60' height='40' fill='none' stroke='currentColor' stroke-width='3' rx='4'/><line x1='80' y1='280' x2='140' y2='320' stroke='currentColor' stroke-width='2'/><line x1='140' y1='280' x2='80' y2='320' stroke='currentColor' stroke-width='2'/><path d='M 105 130 L 125 130 L 125 145 L 120 145 L 120 160 L 125 160 L 125 190 L 105 190 L 105 160 L 110 160 L 110 145 L 105 145 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M 210 130 L 220 130 L 220 280 L 210 280' fill='none' stroke='currentColor' stroke-width='2.5'/><text x='235' y='210' font-family='Georgia, serif' font-size='22' font-weight='bold' fill='currentColor'>150 cm</text><rect x='330' y='190' width='150' height='12' rx='4' fill='currentColor'/><rect x='340' y='202' width='12' height='118' fill='currentColor'/><rect x='458' y='202' width='12' height='118' fill='currentColor'/><rect x='380' y='150' width='60' height='40' fill='none' stroke='currentColor' stroke-width='3' rx='4'/><line x1='380' y1='150' x2='440' y2='190' stroke='currentColor' stroke-width='2'/><line x1='440' y1='150' x2='380' y2='190' stroke='currentColor' stroke-width='2'/><path d='M 395 260 L 415 260 L 415 275 L 410 275 L 410 290 L 415 290 L 415 320 L 395 320 L 395 290 L 400 290 L 400 275 L 395 275 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M 490 150 L 500 150 L 500 260 L 490 260' fill='none' stroke='currentColor' stroke-width='2.5'/><text x='515' y='210' font-family='Georgia, serif' font-size='22' font-weight='bold' fill='currentColor'>110 cm</text></svg></div><br>Based on the two diagrams above, what is the height of the table?",
+      "options": [
+        "110 cm",
+        "130 cm",
+        "150 cm",
+        "260 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let the height of the table be <b>T</b>, the flask be <b>F</b>, and the box be <b>B</b>.<br><br>From the first diagram, the distance from the top of the flask to the top of the box is 150 cm:<br><b>Equation 1:</b> T + F − B = 150<br><br>From the second diagram, the distance from the top of the box to the top of the flask is 110 cm:<br><b>Equation 2:</b> T + B − F = 110<br><br>To find the height of the table, add both equations together. Notice that the +F and −F cancel out, and the −B and +B cancel out:<br>(T + F − B) + (T + B − F) = 150 + 110<br>2T = 260<br><br>Divide by 2:<br>T = 130 cm<br><br>• Option A (110 cm) is the height from the second diagram.<br>• Option C (150 cm) is the height from the first diagram.<br>• Option D (260 cm) is the trap answer you get if you forget to divide by 2 at the end.",
       "difficulty": "easy",
       "points": 1
     }
