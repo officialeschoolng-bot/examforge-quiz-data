@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 41,
+  "totalQuestions": 42,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -587,6 +587,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To simplify this expression, we evaluate each logarithmic term individually by asking: \\To what power must the base be raised to get the number?\\<br><br><b>Step 1: Evaluate the first term</b><br>log<sub>2</sub>(32) = 5, because 2<sup>5</sup> = 32.<br><br><b>Step 2: Evaluate the second term</b><br>log<sub>3</sub>(27) = 3, because 3<sup>3</sup> = 27.<br><br><b>Step 3: Evaluate the third term</b><br>log<sub>4</sub>(16) = 2, because 4<sup>2</sup> = 16.<br><br><b>Step 4: Substitute the values back into the expression</b><br>5 + 3 − 2 = <b>6</b>.<br><br>• Option C (8) is a trap for those who mistakenly add the last term instead of subtracting it (5 + 3 = 8).<br>• Option D (10) is a trap for those who add all the values together (5 + 3 + 2 = 10).<br>• Option A (4) is a trap for those who miscalculate the first term as 4.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794694846203.4182,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Simplify the following logarithmic expression:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>log<sub>4</sub>(64) + log<sub>2</sub>(8) − log<sub>3</sub>(<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>)</kbd>",
+      "options": [
+        "4",
+        "8",
+        "−8",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To simplify this expression, we evaluate each logarithmic term individually by asking: \\To what power must the base be raised to get the number?\\<br><br><b>Step 1: Evaluate the first term</b><br>log<sub>4</sub>(64) = 3, because 4<sup>3</sup> = 64.<br><br><b>Step 2: Evaluate the second term</b><br>log<sub>2</sub>(8) = 3, because 2<sup>3</sup> = 8.<br><br><b>Step 3: Evaluate the third term</b><br>log<sub>3</sub>(<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>) = −2, because 3<sup>−2</sup> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3<sup>2</sup></span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>.<br><br><b>Step 4: Substitute the values back into the expression</b><br>3 + 3 − (−2)<br><br>Remember that subtracting a negative number is the same as adding:<br>3 + 3 + 2 = <b>8</b>.<br><br>• Option A (4) is a trap for those who forget the negative sign on the last term (3 + 3 − 2 = 4).<br>• Option C (−8) is a trap for those who make multiple sign errors.<br>• Option D (2) is a trap for those who incorrectly calculate the first terms.",
       "difficulty": "easy",
       "points": 1
     }
