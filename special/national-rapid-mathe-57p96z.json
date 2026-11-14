@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 42,
+  "totalQuestions": 43,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -601,6 +601,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To simplify this expression, we evaluate each logarithmic term individually by asking: \\To what power must the base be raised to get the number?\\<br><br><b>Step 1: Evaluate the first term</b><br>log<sub>4</sub>(64) = 3, because 4<sup>3</sup> = 64.<br><br><b>Step 2: Evaluate the second term</b><br>log<sub>2</sub>(8) = 3, because 2<sup>3</sup> = 8.<br><br><b>Step 3: Evaluate the third term</b><br>log<sub>3</sub>(<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>) = −2, because 3<sup>−2</sup> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3<sup>2</sup></span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>.<br><br><b>Step 4: Substitute the values back into the expression</b><br>3 + 3 − (−2)<br><br>Remember that subtracting a negative number is the same as adding:<br>3 + 3 + 2 = <b>8</b>.<br><br>• Option A (4) is a trap for those who forget the negative sign on the last term (3 + 3 − 2 = 4).<br>• Option C (−8) is a trap for those who make multiple sign errors.<br>• Option D (2) is a trap for those who incorrectly calculate the first terms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695057425.3489,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='100,350 450,350 100,150' fill='rgba(128,128,128,0.15)' stroke='none' /><polygon points='100,350 450,350 100,150' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><polyline points='100,330 120,330 120,350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='220' y='280' text-anchor='middle' font-family='Georgia, serif' font-size='48' font-weight='bold' fill='currentColor'>?</text></svg></div><br>Based on the diagram above, what type of triangle is shown?",
+      "options": [
+        "Equilateral triangle",
+        "Isosceles triangle",
+        "Scalene triangle",
+        "Right-angled triangle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A triangle is classified by the lengths of its sides.<br><br>• An equilateral triangle has all three sides equal.<br>• An isosceles triangle has exactly two sides equal.<br>• A <b>scalene triangle</b> has all three sides of different lengths.<br><br>By looking at the diagram, it is visually clear that all three sides are different lengths (one vertical leg is shorter than the horizontal leg, and the hypotenuse is the longest). Therefore, based on side lengths, it is a <b>scalene triangle</b>.<br><br>• Option A and B are incorrect because no sides appear equal.<br>• Option D (Right-angled) describes the triangle by its angles, but the question is asking for classification by its sides. (Note: The triangle is technically a right-angled scalene triangle).",
       "difficulty": "easy",
       "points": 1
     }
