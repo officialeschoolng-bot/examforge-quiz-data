@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 28,
+  "totalQuestions": 29,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -405,6 +405,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "To find the perimeter of a rectilinear (blocky) shape, you simply add up the lengths of all the outside edges.<br><br>There is a quick shortcut for this type of shape: the sum of all the horizontal segments going right always equals the sum of all the horizontal segments going left. The same applies to the vertical segments.<br><br><b>Step 1: Sum of horizontal segments</b><br>The total width at the bottom is <b>20 cm</b>. The top and step horizontal edges must add up to the same amount.<br>Total horizontal distance = 20 + 20 = 40 cm.<br><br><b>Step 2: Sum of vertical segments</b><br>The total height on the left is <b>12 cm</b>. The right side and step vertical edges must add up to the same amount.<br>Total vertical distance = 12 + 12 = 24 cm.<br><br><b>Step 3: Add them together</b><br>Perimeter = 40 + 24 = <b>64 cm</b>.<br><br>(You can also verify this by adding every individual side: 20 + 4 + 6 + 4 + 6 + 4 + 8 + 12 = 64 cm).<br><br>• Option A (48 cm) is a trap if you forget to add the top and left sides.<br>• Option C (52 cm) is a trap if you miscalculate the vertical or horizontal sums.<br>• Option D (40 cm) is just the total horizontal distance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794692792582.1482,
+      "question": "<div style='max-width:750px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 750 250' width='100%' style='display:block;overflow:visible;'><path d='M 40 160 L 260 160 L 280 220 L 20 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='70' y='170' width='160' height='40' fill='#222' rx='4'/><text x='150' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>12</text><circle cx='110' cy='130' r='25' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/><rect x='150' y='100' width='50' height='50' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><path d='M 265 160 L 485 160 L 505 220 L 245 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='295' y='170' width='160' height='40' fill='#222' rx='4'/><text x='375' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>18</text><rect x='315' y='100' width='50' height='50' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><polygon points='410,100 455,150 365,150' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><path d='M 490 160 L 710 160 L 730 220 L 470 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='520' y='170' width='160' height='40' fill='#222' rx='4'/><text x='600' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>16</text><polygon points='580,100 625,150 535,150' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><circle cx='660' cy='125' r='25' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/></svg></div><br>Based on the three scales above, what is the weight of the <b>blue square</b>?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let the weight of the orange circle be <b>O</b>, the blue square be <b>S</b>, and the red triangle be <b>T</b>.<br><br>From the three scales, we can write three equations:<br>1) O + S = 12<br>2) S + T = 18<br>3) O + T = 16<br><br><b>Step 1: Find the total weight of all three shapes</b><br>If we add all three equations together, we get two of each shape:<br>(O + S) + (S + T) + (O + T) = 12 + 18 + 16<br>2O + 2S + 2T = 46<br><br>Divide everything by 2 to find the weight of one of each shape:<br>O + S + T = 23<br><br><b>Step 2: Find the weight of the blue square</b><br>We know that the orange circle + red triangle = 16 (from the third scale).<br>Substitute this into our total:<br>(O + T) + S = 23<br>16 + S = 23<br>S = 23 − 16<br>S = 7<br><br>The blue square weighs <b>7</b>.<br><br>• Option A (5) is the weight of the orange circle.<br>• Option D (12) is the weight of the orange circle and blue square together.",
       "difficulty": "easy",
       "points": 1
     }
