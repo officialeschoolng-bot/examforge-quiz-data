@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 48,
+  "totalQuestions": 49,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -685,6 +685,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To convert the decimal number 42 to Base 2, we divide by 2 repeatedly and record the remainders:<br><br>42 ÷ 2 = 21 remainder <b>0</b><br>21 ÷ 2 = 10 remainder <b>1</b><br>10 ÷ 2 = 5 remainder <b>0</b><br>5 ÷ 2 = 2 remainder <b>1</b><br>2 ÷ 2 = 1 remainder <b>0</b><br>1 ÷ 2 = 0 remainder <b>1</b><br><br>Reading the remainders from bottom to top gives us <b>101010</b>.<br><br>• Option B (110010) is the binary representation of 50.<br>• Option C (101001) is the binary representation of 41.<br>• Option D (100101) is the binary representation of 37.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695616436.2825,
+      "question": "<div style='text-align: center; margin: 15px 0;'><div style='font-size: 1.1rem; margin-bottom: 16px;'>Expand the following cubic expression:</div><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>(x − 2)<sup>3</sup></kbd></div>",
+      "options": [
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.4em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>x³ − 6x² + 12x − 8</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.4em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>x³ + 6x² + 12x + 8</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.4em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>x³ − 6x² − 12x + 8</kbd></div>",
+        "<div style='text-align: center;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 8px 16px; border-radius: 8px; border: none; font-size: 1.4em; font-weight: 900; font-family: &quot;Courier New&quot;, Courier, monospace; color: currentColor;'>x³ − 8</kbd></div>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To expand a cubic binomial like (x − 2)<sup>3</sup>, we can use the binomial theorem or multiply it out step by step.<br><br><b>Method 1: Step-by-step multiplication</b><br>(x − 2)<sup>3</sup> = (x − 2)(x − 2)(x − 2)<br>First, expand the first two brackets: (x − 2)(x − 2) = x<sup>2</sup> − 4x + 4.<br>Now multiply by the third bracket: (x<sup>2</sup> − 4x + 4)(x − 2)<br>= x<sup>3</sup> − 2x<sup>2</sup> − 4x<sup>2</sup> + 8x + 4x − 8<br>= <b>x<sup>3</sup> − 6x<sup>2</sup> + 12x − 8</b><br><br><b>Method 2: Binomial Theorem</b><br>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup><br>Here, a = x and b = −2.<br>= (x)<sup>3</sup> + 3(x)<sup>2</sup>(−2) + 3(x)(−2)<sup>2</sup> + (−2)<sup>3</sup><br>= x<sup>3</sup> − 6x<sup>2</sup> + 12x − 8<br><br>• Option B is the expansion of (x + 2)<sup>3</sup>.<br>• Option C has a sign error on the 12x term.<br>• Option D is a trap for those who just cube the first and last terms and forget the middle terms.",
       "difficulty": "easy",
       "points": 1
     }
