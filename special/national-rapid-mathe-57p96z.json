@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 44,
+  "totalQuestions": 45,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -629,6 +629,20 @@
       ],
       "correctAnswer": 1,
       "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>Where:<br>• <b>P</b> (Principal) = ₦5,000<br>• <b>R</b> (Rate) = 10%<br>• <b>T</b> (Time) = 3 years<br><br><b>Step 1: Substitute the values into the formula</b><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5000 × 10 × 3</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 2: Simplify the expression</b><br>I = 50 × 10 × 3<br>I = 500 × 3<br>I = <b>₦1,500</b><br><br>• Option A (₦1,000) is a trap for those who calculate the interest for only 2 years instead of 3.<br>• Option C (₦500) is a trap for those who calculate the interest for only 1 year.<br>• Option D (₦1,150) is a trap for those who calculate compound interest instead of simple interest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695270538.1208,
+      "question": "<div style='text-align: center; margin-bottom: 16px; font-size: 1.1rem;'>Given the set below, what is the <b>cardinality</b> of Set A?</div><kbd style='display: block; background: rgba(128, 128, 128, 0.15); padding: 16px 24px; border-radius: 8px; border: none; font-size: 1.6em; font-weight: 900; line-height: 1.6; color: currentColor; text-align: center;'>A = { 1, 2, 3, 4, 1, 5, 2, 6, 3, 7, 1, 8, 4, 9, 2 }</kbd>",
+      "options": [
+        "9",
+        "15",
+        "12",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>cardinality</b> of a set is the number of <b>unique</b> (distinct) elements it contains. Even though an element is listed multiple times, it only counts once.<br><br><b>Step 1: Identify the unique elements</b><br>Looking through the set, we can list the distinct numbers by removing any duplicates:<br>{ 1, 2, 3, 4, 5, 6, 7, 8, 9 }<br><br><b>Step 2: Count the unique elements</b><br>There are exactly <b>9</b> unique numbers in the set.<br><br>• Option B (15) is a trap for those who count every number listed, including the repetitions.<br>• Option C (12) is a trap for those who miscount the duplicates.<br>• Option D (6) is a trap for those who miscount the unique elements.",
       "difficulty": "easy",
       "points": 1
     }
