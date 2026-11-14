@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 35,
+  "totalQuestions": 36,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -503,6 +503,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "We are given an angle of 30° and the side adjacent to the angle (6√3 cm). We need to find the hypotenuse (x).<br><br>The trigonometric ratio that connects the adjacent side and the hypotenuse is <b>cosine</b>.<br><br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Adjacent</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for cos(30°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6√3</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply to solve for x:<br>√3 × x = 2 × 6√3<br>√3 × x = 12√3<br><br>Divide both sides by √3:<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>12√3</span><span style='display:block;padding:0 .35em;'>√3</span></span><br><br>The √3 cancels out, leaving:<br>x = <b>12 cm</b>.<br><br>• Option B (6 cm) is a trap for those who use sine instead of cosine or forget the √3.<br>• Option C (6√3 cm) is the length of the adjacent side.<br>• Option D (12√3 cm) is a trap if you multiply by 2 but forget to divide by √3 at the end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794693938990.0054,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='150,350 450,350 330,200 150,200' fill='rgba(128,128,128,0.15)' stroke='none' /><polygon points='150,350 450,350 330,200 150,200' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><path d='M 150 330 L 170 330 L 170 350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><line x1='120' y1='200' x2='120' y2='350' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4'/><line x1='120' y1='200' x2='150' y2='200' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><line x1='120' y1='350' x2='150' y2='350' stroke='currentColor' stroke-width='1.5' stroke-dasharray='6,4'/><text x='240' y='185' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>6 cm</text><text x='300' y='380' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>10 cm</text><text x='105' y='280' text-anchor='middle' transform='rotate(-90 105 280)' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>5 cm</text></svg></div><br>Calculate the area of the trapezium shown above.",
+      "options": [
+        "40 cm<sup>2</sup>",
+        "30 cm<sup>2</sup>",
+        "80 cm<sup>2</sup>",
+        "50 cm<sup>2</sup>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area of a trapezium is calculated using the formula:<br><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × (a + b) × h<br><br>Where:<br>• <b>a</b> is the top parallel side = 6 cm<br>• <b>b</b> is the bottom parallel side = 10 cm<br>• <b>h</b> is the perpendicular height = 5 cm<br><br><b>Step 1: Add the parallel sides</b><br>a + b = 6 + 10 = 16 cm<br><br><b>Step 2: Multiply by the height</b><br>16 × 5 = 80 cm<sup>2</sup><br><br><b>Step 3: Divide by 2</b><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>80</span><span style='display:block;padding:0 .35em;'>2</span></span> = <b>40 cm<sup>2</sup></b>.<br><br>• Option B (30 cm<sup>2</sup>) is a trap for those who use the wrong formula or miscalculate.<br>• Option C (80 cm<sup>2</sup>) is a trap for those who forget to divide by 2 at the end.<br>• Option D (50 cm<sup>2</sup>) is a trap for those who make an addition error (e.g., 10 + 10 = 20).",
       "difficulty": "easy",
       "points": 1
     }
