@@ -3,7 +3,7 @@
   "title": "BCH 201 (UNINIGER): IMPORTANCE OF BIOCHEMISTRY IN HEALTHCARE",
   "subject": "BCH 201",
   "description": "",
-  "totalQuestions": 40,
+  "totalQuestions": 26,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -27,20 +27,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "The term \\Biochemistry\\ was coined by the German chemist <b>Carl Neuberg</b> in 1903. Louis Pasteur and Emil Fischer made monumental contributions to the field, but did not coin the term.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886139.4304,
-      "question": "Which of the following best describes the scope of biochemistry?",
-      "options": [
-        "Study of geological formations",
-        "Study of biomolecule structure and function",
-        "Study of planetary movements",
-        "Study of historical artifacts"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Biochemistry is the branch of science that explores the chemical processes and substances that occur within living organisms. It primarily focuses on the <b>structure and function of biomolecules</b>.",
       "difficulty": "easy",
       "points": 1
     },
@@ -101,20 +87,6 @@
       "points": 1
     },
     {
-      "id": 1794685886139.4873,
-      "question": "How does biochemistry contribute to preventive care?",
-      "options": [
-        "By ignoring risk factors",
-        "By identifying biomarkers for early detection",
-        "By focusing on surgery",
-        "By disregarding genetics"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Biochemistry aids preventive care by identifying early warning signs (biomarkers) of disease in blood or urine before symptoms appear, allowing for early intervention.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794685886139.9927,
       "question": "Nutritional biochemistry helps prevent which diseases?",
       "options": [
@@ -125,20 +97,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Nutritional biochemistry studies how diet affects metabolism. It is crucial for preventing metabolic conditions like <b>obesity and type 2 diabetes</b> by guiding dietary choices.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.1213,
-      "question": "What is the purpose of pharmacogenomics?",
-      "options": [
-        "To manufacture drugs",
-        "To tailor medication based on genetics",
-        "To reduce production costs",
-        "To eliminate clinical trials"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Pharmacogenomics combines pharmacology and genomics to design drugs and dosages that are specifically <b>tailored to a patient's genetic makeup</b>, maximizing efficacy and minimizing side effects.",
       "difficulty": "easy",
       "points": 1
     },
@@ -241,20 +199,6 @@
       "points": 1
     },
     {
-      "id": 1794685886140.0862,
-      "question": "How does biochemical analysis guide personalized treatment?",
-      "options": [
-        "By increasing reactions",
-        "By enhancing efficacy and reducing reactions",
-        "By eliminating supervision",
-        "By standardizing treatment"
-      ],
-      "correctAnswer": 1,
-      "explanation": "By understanding a patient's unique biochemical profile, clinicians can choose treatments that <b>enhance efficacy while reducing adverse drug reactions</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794685886140.4402,
       "question": "What is the purpose of lipid profiles?",
       "options": [
@@ -265,20 +209,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "A lipid profile measures cholesterol and triglycerides in the blood. It is primarily used to assess the risk of developing <b>cardiovascular diseases</b> like atherosclerosis.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.721,
-      "question": "What is the role of genetic tests in screening?",
-      "options": [
-        "To identify hereditary predispositions",
-        "To treat infections",
-        "To replace diagnostic tests",
-        "To eliminate lifestyle changes"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Genetic screening looks for specific mutations in a person's DNA to <b>identify hereditary predispositions</b> to certain diseases (like breast cancer or sickle cell anemia).",
       "difficulty": "easy",
       "points": 1
     },
@@ -339,20 +269,6 @@
       "points": 1
     },
     {
-      "id": 1794685886140.452,
-      "question": "How is accuracy ensured in clinical laboratories?",
-      "options": [
-        "Through random sampling",
-        "Through quality control measures",
-        "By ignoring calibration",
-        "By reducing training"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Clinical laboratories ensure the accuracy and reliability of biochemical tests through strict <b>quality control measures</b>, regular equipment calibration, and standardized procedures.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794685886140.481,
       "question": "What do biochemical insights inform in therapeutic care?",
       "options": [
@@ -409,34 +325,6 @@
       "points": 1
     },
     {
-      "id": 1794685886140.884,
-      "question": "How does molecular understanding help cancer treatment?",
-      "options": [
-        "By designing therapies to enhance immune response",
-        "By reducing costs",
-        "By eliminating chemotherapy",
-        "By preventing all cancers"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Understanding the molecular biology of cancer allows scientists to design targeted therapies (like immunotherapies) that <b>enhance the immune system's ability to recognize and attack cancer cells</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.6157,
-      "question": "What does biochemistry aid in designing for recovering patients?",
-      "options": [
-        "Hospital architecture",
-        "Rehabilitation programs",
-        "Hospital finances",
-        "Patient records"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Biochemistry helps design <b>rehabilitation programs</b> by understanding the metabolic demands of healing and the specific nutritional or therapeutic needs of the recovering body.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794685886140.7983,
       "question": "What type of recovery do neurodegenerative disease pathways inform?",
       "options": [
@@ -447,90 +335,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "Neurodegenerative diseases (like Alzheimer's or Parkinson's) affect the brain. Studying these biochemical pathways informs <b>cognitive recovery</b> strategies and neurorehabilitation.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.5269,
-      "question": "How does biochemistry aid dietary planning in rehabilitation?",
-      "options": [
-        "By understanding nutrient roles in tissue repair",
-        "By focusing on entertainment",
-        "By prioritizing transportation",
-        "By emphasizing communication"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Dietary planning during rehabilitation relies on <b>understanding how specific nutrients (proteins, vitamins, minerals) contribute to tissue repair</b> and recovery after injury or illness.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.9866,
-      "question": "Why is biochemistry essential for drug actions in rehabilitation?",
-      "options": [
-        "To understand molecular mechanisms",
-        "To know packaging colors",
-        "To identify brand names",
-        "To understand advertising"
-      ],
-      "correctAnswer": 0,
-      "explanation": "To correctly utilize drugs during rehabilitation, health professionals must <b>understand the molecular mechanisms</b> of how the drug interacts with the body to promote healing or manage symptoms.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.2014,
-      "question": "What does biochemistry help understand in muscle physiology?",
-      "options": [
-        "Muscle repair processes",
-        "Psychological aspects",
-        "Economic impacts",
-        "Historical development"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Biochemistry explains the cellular and molecular events—such as protein synthesis and energy metabolism—that drive <b>muscle repair processes</b> after exercise or injury.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.4038,
-      "question": "What can understanding pain pathways lead to?",
-      "options": [
-        "Ineffective management",
-        "More effective management",
-        "Increased sensitivity",
-        "Complete elimination"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Understanding the biochemical pathways of pain transmission allows for the development of targeted analgesics, leading to <b>more effective management</b> of pain.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.483,
-      "question": "Which areas does biochemistry inform in cognitive rehabilitation?",
-      "options": [
-        "Neurotransmitter systems",
-        "Architectural design",
-        "Financial planning",
-        "Legal regulations"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Cognitive rehabilitation is informed by biochemistry's understanding of <b>neurotransmitter systems</b>, which are crucial for memory, attention, and learning.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794685886140.782,
-      "question": "What are genomics and proteomics paving the way for?",
-      "options": [
-        "Standardized rehabilitation",
-        "Personalized rehabilitation",
-        "Elimination of programs",
-        "Reduced need for professionals"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Genomics (study of genes) and proteomics (study of proteins) provide individual molecular profiles, paving the way for <b>personalized rehabilitation</b> tailored to a patient's specific genetic and protein expression.",
       "difficulty": "easy",
       "points": 1
     },
