@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 34,
+  "totalQuestions": 35,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -489,6 +489,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "We are given an angle of 45°, the hypotenuse (8√2 m), and we need to find the side opposite the angle (x).<br><br>The trigonometric ratio that connects the opposite side and the hypotenuse is <b>sine</b>.<br><br>sin(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Opposite</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for sin(45°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>x</span><span style='display:block;padding:0 .35em;'>8√2</span></span><br><br>Cross-multiply to solve for x:<br>√2 × x = 1 × 8√2<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>8√2</span><span style='display:block;padding:0 .35em;'>√2</span></span><br><br>The √2 cancels out, leaving:<br>x = <b>8 m</b>.<br><br>• Option B (8√2 m) is a trap for those who use cosine instead of sine.<br>• Option C (4√2 m) is a trap if you incorrectly divide by 2.<br>• Option D (16 m) is a trap if you forget the square root in the denominator.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794693886694.3904,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='150' y1='350' x2='350' y2='350' stroke='currentColor' stroke-width='2.6'/><line x1='350' y1='350' x2='350' y2='235' stroke='currentColor' stroke-width='2.6'/><line x1='150' y1='350' x2='350' y2='235' stroke='currentColor' stroke-width='2.6'/><path d='M 350 330 L 330 330 L 330 350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><path d='M 200 350 A 50 50 0 0 0 193.3 325' fill='none' stroke='currentColor' stroke-width='2'/><text x='210' y='340' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>30°</text><text x='250' y='385' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>6√3 cm</text><text x='275' y='275' text-anchor='start' transform='rotate(-30 275 275)' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text></svg></div><br>Find the value of <b>x</b> (the hypotenuse) in the right-angled triangle above.",
+      "options": [
+        "12 cm",
+        "6 cm",
+        "6√3 cm",
+        "12√3 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We are given an angle of 30° and the side adjacent to the angle (6√3 cm). We need to find the hypotenuse (x).<br><br>The trigonometric ratio that connects the adjacent side and the hypotenuse is <b>cosine</b>.<br><br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Adjacent</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for cos(30°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6√3</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply to solve for x:<br>√3 × x = 2 × 6√3<br>√3 × x = 12√3<br><br>Divide both sides by √3:<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>12√3</span><span style='display:block;padding:0 .35em;'>√3</span></span><br><br>The √3 cancels out, leaving:<br>x = <b>12 cm</b>.<br><br>• Option B (6 cm) is a trap for those who use sine instead of cosine or forget the √3.<br>• Option C (6√3 cm) is the length of the adjacent side.<br>• Option D (12√3 cm) is a trap if you multiply by 2 but forget to divide by √3 at the end.",
       "difficulty": "easy",
       "points": 1
     }
