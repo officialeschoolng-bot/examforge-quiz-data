@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 18,
+  "totalQuestions": 22,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -265,6 +265,62 @@
       ],
       "correctAnswer": 2,
       "explanation": "The shaded region is the left crescent, which includes all the elements that are inside Set A but <b>not</b> inside Set B.<br><br>• Option A (A ∪ B) represents everything inside both circles.<br>• Option B (A ∩ B) represents the overlapping middle section.<br>• Option D (B ∩ A') is the exact opposite of what is shaded; it would be the right crescent (everything in B but not in A).<br><br>Because the shaded area is Set A minus the intersection, it is denoted as <b>A ∩ B'</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691158986.3962,
+      "question": "<div style='text-align:center; margin: 15px 0;'><svg width='400' height='200' viewBox='0 0 350 180' style='display:inline-block; overflow:visible;'><line x1='50' y1='40' x2='50' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='62' y1='40' x2='62' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='74' y1='40' x2='74' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='86' y1='40' x2='86' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='45' y1='75' x2='91' y2='45' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='120' y1='40' x2='120' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='132' y1='40' x2='132' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='144' y1='40' x2='144' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='156' y1='40' x2='156' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='115' y1='75' x2='161' y2='45' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='190' y1='40' x2='190' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='202' y1='40' x2='202' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='214' y1='40' x2='214' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='226' y1='40' x2='226' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='185' y1='75' x2='231' y2='45' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='260' y1='40' x2='260' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='272' y1='40' x2='272' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='284' y1='40' x2='284' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='296' y1='40' x2='296' y2='80' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='255' y1='75' x2='301' y2='45' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='50' y1='100' x2='50' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='62' y1='100' x2='62' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='74' y1='100' x2='74' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='86' y1='100' x2='86' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='45' y1='135' x2='91' y2='105' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='120' y1='100' x2='120' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line x1='132' y1='100' x2='132' y2='140' stroke='currentColor' stroke-width='5' stroke-linecap='round'/></svg></div><br>What number is represented by the tally marks above?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "32"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To read tally marks, we group them in fives.<br><br><b>Step 1: Count the groups of five</b><br>There are 5 complete groups (often called 'gates') in the diagram. Each gate represents 5.<br>5 groups × 5 = <b>25</b>.<br><br><b>Step 2: Count the remaining single marks</b><br>After the last gate, there are 2 individual vertical lines.<br><br><b>Step 3: Add them together</b><br>25 + 2 = <b>27</b>.<br><br>• Option A (25) is a trap for those who only count the full gates and forget the extra singles.<br>• Option C (29) is a trap for those who miscount the singles or think there are 4 left over.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691249653.8433,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following quadratic equation:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x² − 5x + 6 = 0</kbd>",
+      "options": [
+        "x = 2 or x = 3",
+        "x = −2 or x = −3",
+        "x = 1 or x = 6",
+        "x = −1 or x = −6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we need to find two numbers that multiply to give the constant term (+6) and add to give the coefficient of x (−5).<br><br><b>Step 1: Find the factors</b><br>The numbers are <b>−2</b> and <b>−3</b> because:<br>(−2) × (−3) = 6<br>(−2) + (−3) = −5<br><br><b>Step 2: Write in factored form</b><br>(x − 2)(x − 3) = 0<br><br><b>Step 3: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>x − 2 = 0  →  <b>x = 2</b><br>x − 3 = 0  →  <b>x = 3</b><br><br>• Option B is a trap for those who get the signs wrong during factoring.<br>• Option C is a trap for those who find factors that multiply to 6 but forget to check if they add to −5 (1 + 6 = 7, not −5).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691277486.6567,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following quadratic equation:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x² + 2x − 15 = 0</kbd>",
+      "options": [
+        "x = 5 or x = −3",
+        "x = −5 or x = 3",
+        "x = 5 or x = 3",
+        "x = −5 or x = −3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To solve this quadratic equation, we need to find two numbers that multiply to give the constant term (−15) and add to give the coefficient of x (+2).<br><br><b>Step 1: Find the factors</b><br>The numbers are <b>+5</b> and <b>−3</b> because:<br>(5) × (−3) = −15<br>(5) + (−3) = 2<br><br><b>Step 2: Write in factored form</b><br>(x + 5)(x − 3) = 0<br><br><b>Step 3: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>x + 5 = 0  →  <b>x = −5</b><br>x − 3 = 0  →  <b>x = 3</b><br><br>• Option A is a trap for those who correctly factor but make a sign error when moving the numbers to the other side (e.g., x + 5 = 0 becomes x = +5).<br>• Option C is a trap for those who forget that one of the factors must be negative to multiply to −15.<br>• Option D is a trap for those who make errors with both signs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794691516444.533,
+      "question": "<div style='text-align:center; margin: 15px 0;'><svg width='100%' height='280' viewBox='0 0 400 280' style='display:block;max-width:400px;margin:0 auto;overflow:visible;'><text x='200' y='50' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>1 + 4 = 5</text><text x='200' y='110' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>2 + 5 = 12</text><text x='200' y='170' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>3 + 6 = 21</text><text x='200' y='240' text-anchor='middle' font-family='Georgia, serif' font-size='46' font-weight='bold' fill='currentColor'>8 + 11 = <tspan fill='#f44336'>?</tspan></text></svg></div><br>Based on the pattern above, what is the value of the missing number?",
+      "options": [
+        "40",
+        "96",
+        "19",
+        "52"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hidden rule in this sequence is: <b>(First Number × Second Number) + First Number = Answer</b>. <br>Alternatively, you can view it as <b>First Number × (Second Number + 1)</b>.<br><br>Let's check the pattern:<br>• 1 + 4 → (1 × 4) + 1 = 4 + 1 = <b>5</b><br>• 2 + 5 → (2 × 5) + 2 = 10 + 2 = <b>12</b><br>• 3 + 6 → (3 × 6) + 3 = 18 + 3 = <b>21</b><br><br>Applying the same rule to the last line:<br>• 8 + 11 → (8 × 11) + 8 = 88 + 8 = <b>96</b>.<br><br>• Option A (40) is a trap for those who use the cumulative addition method (1+4=5, 2+5+5=12, 3+6+12=21, 8+11+21=40). Both 40 and 96 are mathematically logical, but 96 is the direct equation pattern.<br>• Option C (19) is a trap for those who just add 8 + 11 normally.<br>• Option D (52) is a trap for those who multiply the numbers but forget to add the first number (8 × 11 = 88 ≠ 52).",
       "difficulty": "easy",
       "points": 1
     }
