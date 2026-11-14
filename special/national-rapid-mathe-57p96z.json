@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 40,
+  "totalQuestions": 41,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -573,6 +573,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "The formula for the volume of a prism is:<br><br>Volume = Area of base × length<br><br><b>Step 1: Find the area of the triangular base</b><br>The base of the prism is a triangle with a base of 6 cm and a perpendicular height of 8 cm.<br>Area of triangle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 6 × 8 = <b>24 cm<sup>2</sup></b><br><br><b>Step 2: Multiply by the length of the prism</b><br>The length (depth) of the prism is 12 cm.<br>Volume = 24 × 12 = <b>288 cm<sup>3</sup></b>.<br><br>• Option B (144 cm<sup>3</sup>) is a trap for those who forget the ½ in the triangle area formula (6 × 8 × 12 = 576, then divided by 4 instead of 2).<br>• Option C (576 cm<sup>3</sup>) is a trap for those who forget to divide by 2 when finding the area of the triangle (6 × 8 × 12 = 576).<br>• Option D (72 cm<sup>3</sup>) is a trap for those who multiply the base, height, and length without the ½ (72 is 6 × 12, forgetting the height).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794694806745.7888,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Simplify the following logarithmic expression:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>log<sub>2</sub>(32) + log<sub>3</sub>(27) − log<sub>4</sub>(16)</kbd>",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To simplify this expression, we evaluate each logarithmic term individually by asking: \\To what power must the base be raised to get the number?\\<br><br><b>Step 1: Evaluate the first term</b><br>log<sub>2</sub>(32) = 5, because 2<sup>5</sup> = 32.<br><br><b>Step 2: Evaluate the second term</b><br>log<sub>3</sub>(27) = 3, because 3<sup>3</sup> = 27.<br><br><b>Step 3: Evaluate the third term</b><br>log<sub>4</sub>(16) = 2, because 4<sup>2</sup> = 16.<br><br><b>Step 4: Substitute the values back into the expression</b><br>5 + 3 − 2 = <b>6</b>.<br><br>• Option C (8) is a trap for those who mistakenly add the last term instead of subtracting it (5 + 3 = 8).<br>• Option D (10) is a trap for those who add all the values together (5 + 3 + 2 = 10).<br>• Option A (4) is a trap for those who miscalculate the first term as 4.",
       "difficulty": "easy",
       "points": 1
     }
