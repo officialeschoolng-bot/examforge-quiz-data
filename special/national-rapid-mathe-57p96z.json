@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics",
   "subject": "Mathematics",
   "description": "The ExamForge Rapid Mathematics Competition is an exciting academic challenge designed to test participants' mathematical knowledge, speed, accuracy, and problem-solving abilities. It provides students with an opportunity to put their mathematical skills to the test in a competitive and engaging environment, where every second counts and every correct answer brings them closer to victory.",
-  "totalQuestions": 43,
+  "totalQuestions": 44,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -615,6 +615,20 @@
       ],
       "correctAnswer": 2,
       "explanation": "A triangle is classified by the lengths of its sides.<br><br>• An equilateral triangle has all three sides equal.<br>• An isosceles triangle has exactly two sides equal.<br>• A <b>scalene triangle</b> has all three sides of different lengths.<br><br>By looking at the diagram, it is visually clear that all three sides are different lengths (one vertical leg is shorter than the horizontal leg, and the hypotenuse is the longest). Therefore, based on side lengths, it is a <b>scalene triangle</b>.<br><br>• Option A and B are incorrect because no sides appear equal.<br>• Option D (Right-angled) describes the triangle by its angles, but the question is asking for classification by its sides. (Note: The triangle is technically a right-angled scalene triangle).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794695157480.829,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='230' y='95' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text></svg></div><br><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>A man borrowed ₦5,000 from a bank at a simple interest rate of 10% per annum for 3 years. How much interest will he pay at the end of the period?</div>",
+      "options": [
+        "₦1,000",
+        "₦1,500",
+        "₦500",
+        "₦1,150"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>Where:<br>• <b>P</b> (Principal) = ₦5,000<br>• <b>R</b> (Rate) = 10%<br>• <b>T</b> (Time) = 3 years<br><br><b>Step 1: Substitute the values into the formula</b><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5000 × 10 × 3</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 2: Simplify the expression</b><br>I = 50 × 10 × 3<br>I = 500 × 3<br>I = <b>₦1,500</b><br><br>• Option A (₦1,000) is a trap for those who calculate the interest for only 2 years instead of 3.<br>• Option C (₦500) is a trap for those who calculate the interest for only 1 year.<br>• Option D (₦1,150) is a trap for those who calculate compound interest instead of simple interest.",
       "difficulty": "easy",
       "points": 1
     }
