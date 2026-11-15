@@ -171,20 +171,6 @@
       "points": 1
     },
     {
-      "id": 1794647443444.3313,
-      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 120' width='100%' style='display:block;max-width:520px;margin: 0 auto;overflow:visible;'><rect x='50' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='80' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>1</text><rect x='130' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='160' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>2</text><rect x='210' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='240' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>3</text><rect x='290' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='320' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>4</text><rect x='370' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='400' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>5</text><rect x='450' y='30' width='60' height='60' rx='8' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='480' y='72' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='900' fill='currentColor'>6</text></svg></div><br>Look at the numbers above. How many different 6-digit even numbers can be formed using all these digits without repetition?",
-      "options": [
-        "120",
-        "240",
-        "360",
-        "720"
-      ],
-      "correctAnswer": 2,
-      "explanation": "To form an even number, the digit in the units (last) place must be an even number.<br><br><b>Step 1: Choose the last digit</b><br>The available even digits are 2, 4, and 6. Therefore, there are <b>3 choices</b> for the last digit.<br><br><b>Step 2: Arrange the remaining digits</b><br>Once the last digit is chosen, there are 5 digits left to fill the first five positions. The number of ways to arrange these remaining 5 digits is 5 factorial (5!).<br><br>5! = 5 × 4 × 3 × 2 × 1 = <b>120 ways</b>.<br><br><b>Step 3: Calculate the total combinations</b><br>Total = (Choices for last digit) × (Arrangements for remaining digits)<br>Total = 3 × 120 = <b>360 ways</b>.<br><br>• Option A (120) is the number of ways if the last digit was fixed to just one even number (e.g., just ending in 2).<br>• Option D (720) is the total number of 6-digit numbers that can be formed with no restrictions (6! = 720).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794649358455.3792,
       "question": "<div style='text-align:center; margin: 10px 0;'><svg width='450' height='320' viewBox='0 0 580 360' style='display:inline-block; overflow:visible;'><line x1='20' y1='320' x2='560' y2='320' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><rect x='40' y='190' width='150' height='12' rx='4' fill='currentColor'/><rect x='50' y='202' width='12' height='118' fill='currentColor'/><rect x='168' y='202' width='12' height='118' fill='currentColor'/><rect x='80' y='280' width='60' height='40' fill='none' stroke='currentColor' stroke-width='3' rx='4'/><line x1='80' y1='280' x2='140' y2='320' stroke='currentColor' stroke-width='2'/><line x1='140' y1='280' x2='80' y2='320' stroke='currentColor' stroke-width='2'/><path d='M 105 130 L 125 130 L 125 145 L 120 145 L 120 160 L 125 160 L 125 190 L 105 190 L 105 160 L 110 160 L 110 145 L 105 145 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M 210 130 L 220 130 L 220 280 L 210 280' fill='none' stroke='currentColor' stroke-width='2.5'/><text x='235' y='210' font-family='Georgia, serif' font-size='22' font-weight='bold' fill='currentColor'>150 cm</text><rect x='330' y='190' width='150' height='12' rx='4' fill='currentColor'/><rect x='340' y='202' width='12' height='118' fill='currentColor'/><rect x='458' y='202' width='12' height='118' fill='currentColor'/><rect x='380' y='150' width='60' height='40' fill='none' stroke='currentColor' stroke-width='3' rx='4'/><line x1='380' y1='150' x2='440' y2='190' stroke='currentColor' stroke-width='2'/><line x1='440' y1='150' x2='380' y2='190' stroke='currentColor' stroke-width='2'/><path d='M 395 260 L 415 260 L 415 275 L 410 275 L 410 290 L 415 290 L 415 320 L 395 320 L 395 290 L 400 290 L 400 275 L 395 275 Z' fill='none' stroke='currentColor' stroke-width='3' stroke-linejoin='round'/><path d='M 490 150 L 500 150 L 500 260 L 490 260' fill='none' stroke='currentColor' stroke-width='2.5'/><text x='515' y='210' font-family='Georgia, serif' font-size='22' font-weight='bold' fill='currentColor'>110 cm</text></svg></div><br>Based on the two diagrams above, what is the height of the table?",
       "options": [
@@ -311,20 +297,6 @@
       "points": 1
     },
     {
-      "id": 1794691516444.533,
-      "question": "<div style='text-align:center; margin: 15px 0;'><svg width='100%' height='280' viewBox='0 0 400 280' style='display:block;max-width:400px;margin:0 auto;overflow:visible;'><text x='200' y='50' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>1 + 4 = 5</text><text x='200' y='110' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>2 + 5 = 12</text><text x='200' y='170' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='currentColor'>3 + 6 = 21</text><text x='200' y='240' text-anchor='middle' font-family='Georgia, serif' font-size='46' font-weight='bold' fill='currentColor'>8 + 11 = <tspan fill='#f44336'>?</tspan></text></svg></div><br>Based on the pattern above, what is the value of the missing number?",
-      "options": [
-        "40",
-        "96",
-        "19",
-        "52"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The hidden rule in this sequence is: <b>(First Number × Second Number) + First Number = Answer</b>. <br>Alternatively, you can view it as <b>First Number × (Second Number + 1)</b>.<br><br>Let's check the pattern:<br>• 1 + 4 → (1 × 4) + 1 = 4 + 1 = <b>5</b><br>• 2 + 5 → (2 × 5) + 2 = 10 + 2 = <b>12</b><br>• 3 + 6 → (3 × 6) + 3 = 18 + 3 = <b>21</b><br><br>Applying the same rule to the last line:<br>• 8 + 11 → (8 × 11) + 8 = 88 + 8 = <b>96</b>.<br><br>• Option A (40) is a trap for those who use the cumulative addition method (1+4=5, 2+5+5=12, 3+6+12=21, 8+11+21=40). Both 40 and 96 are mathematically logical, but 96 is the direct equation pattern.<br>• Option C (19) is a trap for those who just add 8 + 11 normally.<br>• Option D (52) is a trap for those who multiply the numbers but forget to add the first number (8 × 11 = 88 ≠ 52).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794691736758.2388,
       "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Evaluate the following expression:</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>24 ÷ 4 (8 ÷ 4) = ?</kbd>",
       "options": [
@@ -349,20 +321,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is a classic arithmetic series problem. We need to find the sum of the numbers from 1 to 12.<br><br>The sequence of chimes is: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.<br><br><b>Method 1: Pairing</b><br>You can pair the first and last numbers:<br>1 + 12 = 13<br>2 + 11 = 13<br>3 + 10 = 13<br>...and so on.<br>Since there are 12 numbers, there are 6 pairs.<br>6 × 13 = <b>78</b>.<br><br><b>Method 2: Formula</b><br>Sum = n(n + 1) / 2<br>Sum = 12(12 + 1) / 2<br>Sum = 12 × 13 / 2 = 156 / 2 = <b>78</b>.<br><br>• Option B (144) is a trap if you mistakenly multiply 12 × 12.<br>• Option C (66) is a trap if you use the formula for 11 hours instead of 12 (11 × 12 / 2 = 66).<br>• Option D (12) is just the number of hours.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794692290458.9092,
-      "question": "<div style='text-align: center; margin: 15px 0;'><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 24px 32px; border-radius: 12px; border: none; color: currentColor;'><svg viewBox='0 0 600 200' width='100%' style='display:block;max-width:550px;margin:0 auto;overflow:visible;'><text x='300' y='75' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>2<tspan dy='-22' font-size='32'>4</tspan><tspan dy='22'> + (16 − 3 × 4)</tspan></text><line x1='50' y1='100' x2='550' y2='100' stroke='currentColor' stroke-width='4' /><text x='300' y='160' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>(6 + 3<tspan dy='-22' font-size='32'>2</tspan><tspan dy='22'>) ÷ (7 − 4)</tspan></text></svg></kbd></div>",
-      "options": [
-        "4",
-        "5",
-        "10",
-        "20"
-      ],
-      "correctAnswer": 0,
-      "explanation": "To solve this, we need to follow the Order of Operations (PEMDAS/BODMAS) for both the numerator (top) and the denominator (bottom) separately before dividing them.<br><br><b>Step 1: Simplify the Numerator (Top)</b><br>Expression: 2<sup>4</sup> + (16 − 3 × 4)<br>• First, calculate the exponent: 2<sup>4</sup> = 16<br>• Next, do the multiplication inside the parentheses: 3 × 4 = 12<br>• Then, do the subtraction inside the parentheses: 16 − 12 = 4<br>• Finally, add them together: 16 + 4 = <b>20</b><br><br><b>Step 2: Simplify the Denominator (Bottom)</b><br>Expression: (6 + 3<sup>2</sup>) ÷ (7 − 4)<br>• First, calculate the exponent: 3<sup>2</sup> = 9<br>• Next, do the addition in the first parenthesis: 6 + 9 = 15<br>• Then, do the subtraction in the second parenthesis: 7 − 4 = 3<br>• Finally, divide them: 15 ÷ 3 = <b>5</b><br><br><b>Step 3: Divide the Numerator by the Denominator</b><br>20 ÷ 5 = <b>4</b>.<br><br>• Option B (5) is a trap for those who miscalculate the numerator.<br>• Option C (10) is a trap for those who forget to square the 3.<br>• Option D (20) is a trap for those who only calculate the numerator and stop.",
       "difficulty": "easy",
       "points": 1
     },
@@ -405,20 +363,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "To find the perimeter of a rectilinear (blocky) shape, you simply add up the lengths of all the outside edges.<br><br>There is a quick shortcut for this type of shape: the sum of all the horizontal segments going right always equals the sum of all the horizontal segments going left. The same applies to the vertical segments.<br><br><b>Step 1: Sum of horizontal segments</b><br>The total width at the bottom is <b>20 cm</b>. The top and step horizontal edges must add up to the same amount.<br>Total horizontal distance = 20 + 20 = 40 cm.<br><br><b>Step 2: Sum of vertical segments</b><br>The total height on the left is <b>12 cm</b>. The right side and step vertical edges must add up to the same amount.<br>Total vertical distance = 12 + 12 = 24 cm.<br><br><b>Step 3: Add them together</b><br>Perimeter = 40 + 24 = <b>64 cm</b>.<br><br>(You can also verify this by adding every individual side: 20 + 4 + 6 + 4 + 6 + 4 + 8 + 12 = 64 cm).<br><br>• Option A (48 cm) is a trap if you forget to add the top and left sides.<br>• Option C (52 cm) is a trap if you miscalculate the vertical or horizontal sums.<br>• Option D (40 cm) is just the total horizontal distance.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794692792582.1482,
-      "question": "<div style='max-width:750px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 750 250' width='100%' style='display:block;overflow:visible;'><path d='M 40 160 L 260 160 L 280 220 L 20 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='70' y='170' width='160' height='40' fill='#222' rx='4'/><text x='150' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>12</text><circle cx='110' cy='130' r='25' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/><rect x='150' y='100' width='50' height='50' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><path d='M 265 160 L 485 160 L 505 220 L 245 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='295' y='170' width='160' height='40' fill='#222' rx='4'/><text x='375' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>18</text><rect x='315' y='100' width='50' height='50' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><polygon points='410,100 455,150 365,150' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><path d='M 490 160 L 710 160 L 730 220 L 470 220 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='520' y='170' width='160' height='40' fill='#222' rx='4'/><text x='600' y='198' text-anchor='middle' font-family='Courier New, monospace' font-size='28' font-weight='bold' fill='#f4d03f'>16</text><polygon points='580,100 625,150 535,150' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><circle cx='660' cy='125' r='25' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/></svg></div><br>Based on the three scales above, what is the weight of the <b>blue square</b>?",
-      "options": [
-        "5",
-        "7",
-        "10",
-        "12"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Let the weight of the orange circle be <b>O</b>, the blue square be <b>S</b>, and the red triangle be <b>T</b>.<br><br>From the three scales, we can write three equations:<br>1) O + S = 12<br>2) S + T = 18<br>3) O + T = 16<br><br><b>Step 1: Find the total weight of all three shapes</b><br>If we add all three equations together, we get two of each shape:<br>(O + S) + (S + T) + (O + T) = 12 + 18 + 16<br>2O + 2S + 2T = 46<br><br>Divide everything by 2 to find the weight of one of each shape:<br>O + S + T = 23<br><br><b>Step 2: Find the weight of the blue square</b><br>We know that the orange circle + red triangle = 16 (from the third scale).<br>Substitute this into our total:<br>(O + T) + S = 23<br>16 + S = 23<br>S = 23 − 16<br>S = 7<br><br>The blue square weighs <b>7</b>.<br><br>• Option A (5) is the weight of the orange circle.<br>• Option D (12) is the weight of the orange circle and blue square together.",
       "difficulty": "easy",
       "points": 1
     },
@@ -489,20 +433,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "We are given an angle of 45°, the hypotenuse (8√2 m), and we need to find the side opposite the angle (x).<br><br>The trigonometric ratio that connects the opposite side and the hypotenuse is <b>sine</b>.<br><br>sin(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Opposite</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for sin(45°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>√2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>x</span><span style='display:block;padding:0 .35em;'>8√2</span></span><br><br>Cross-multiply to solve for x:<br>√2 × x = 1 × 8√2<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>8√2</span><span style='display:block;padding:0 .35em;'>√2</span></span><br><br>The √2 cancels out, leaving:<br>x = <b>8 m</b>.<br><br>• Option B (8√2 m) is a trap for those who use cosine instead of sine.<br>• Option C (4√2 m) is a trap if you incorrectly divide by 2.<br>• Option D (16 m) is a trap if you forget the square root in the denominator.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1794693886694.3904,
-      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='150' y1='350' x2='350' y2='350' stroke='currentColor' stroke-width='2.6'/><line x1='350' y1='350' x2='350' y2='235' stroke='currentColor' stroke-width='2.6'/><line x1='150' y1='350' x2='350' y2='235' stroke='currentColor' stroke-width='2.6'/><path d='M 350 330 L 330 330 L 330 350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><path d='M 200 350 A 50 50 0 0 0 193.3 325' fill='none' stroke='currentColor' stroke-width='2'/><text x='210' y='340' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>30°</text><text x='250' y='385' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>6√3 cm</text><text x='275' y='275' text-anchor='start' transform='rotate(-30 275 275)' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text></svg></div><br>Find the value of <b>x</b> (the hypotenuse) in the right-angled triangle above.",
-      "options": [
-        "12 cm",
-        "6 cm",
-        "6√3 cm",
-        "12√3 cm"
-      ],
-      "correctAnswer": 0,
-      "explanation": "We are given an angle of 30° and the side adjacent to the angle (6√3 cm). We need to find the hypotenuse (x).<br><br>The trigonometric ratio that connects the adjacent side and the hypotenuse is <b>cosine</b>.<br><br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Adjacent</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br>Using the special angle value for cos(30°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span>:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6√3</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply to solve for x:<br>√3 × x = 2 × 6√3<br>√3 × x = 12√3<br><br>Divide both sides by √3:<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>12√3</span><span style='display:block;padding:0 .35em;'>√3</span></span><br><br>The √3 cancels out, leaving:<br>x = <b>12 cm</b>.<br><br>• Option B (6 cm) is a trap for those who use sine instead of cosine or forget the √3.<br>• Option C (6√3 cm) is the length of the adjacent side.<br>• Option D (12√3 cm) is a trap if you multiply by 2 but forget to divide by √3 at the end.",
       "difficulty": "easy",
       "points": 1
     },
@@ -605,20 +535,6 @@
       "points": 1
     },
     {
-      "id": 1794695057425.3489,
-      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='100,350 450,350 100,150' fill='rgba(128,128,128,0.15)' stroke='none' /><polygon points='100,350 450,350 100,150' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><polyline points='100,330 120,330 120,350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='220' y='280' text-anchor='middle' font-family='Georgia, serif' font-size='48' font-weight='bold' fill='currentColor'>?</text></svg></div><br>Based on the diagram above, what type of triangle is shown?",
-      "options": [
-        "Equilateral triangle",
-        "Isosceles triangle",
-        "Scalene triangle",
-        "Right-angled triangle"
-      ],
-      "correctAnswer": 2,
-      "explanation": "A triangle is classified by the lengths of its sides.<br><br>• An equilateral triangle has all three sides equal.<br>• An isosceles triangle has exactly two sides equal.<br>• A <b>scalene triangle</b> has all three sides of different lengths.<br><br>By looking at the diagram, it is visually clear that all three sides are different lengths (one vertical leg is shorter than the horizontal leg, and the hypotenuse is the longest). Therefore, based on side lengths, it is a <b>scalene triangle</b>.<br><br>• Option A and B are incorrect because no sides appear equal.<br>• Option D (Right-angled) describes the triangle by its angles, but the question is asking for classification by its sides. (Note: The triangle is technically a right-angled scalene triangle).",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1794695157480.829,
       "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text><text x='230' y='95' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5000</text></svg></div><br><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>A man borrowed ₦5,000 from a bank at a simple interest rate of 10% per annum for 3 years. How much interest will he pay at the end of the period?</div>",
       "options": [
@@ -713,6 +629,90 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Chike Obi</b> was a renowned Nigerian mathematician and politician. He made history by becoming the first Nigerian to earn a doctorate degree in mathematics, receiving his PhD from the University of Cambridge in 1950.<br><br>• Option B (Adegoke Olubummo) was the second Nigerian to earn a PhD in mathematics (1955).<br>• Option C (James Ezeilo) was the third (1958).<br>• Option D (Grace Alele-Williams) was the first Nigerian woman to earn a PhD in mathematics (1976).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794728890726.6152,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 400 150' width='100%' style='display:block;max-width:400px;overflow:visible;'><path d='M 20 90 L 140 90 L 150 130 L 10 130 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='30' y='100' width='100' height='25' fill='#222' rx='4'/><text x='80' y='120' text-anchor='middle' font-family='Courier New, monospace' font-size='20' font-weight='bold' fill='#f4d03f'>12</text><circle cx='60' cy='70' r='18' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/><rect x='85' y='50' width='35' height='35' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><path d='M 145 90 L 265 90 L 275 130 L 135 130 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='155' y='100' width='100' height='25' fill='#222' rx='4'/><text x='205' y='120' text-anchor='middle' font-family='Courier New, monospace' font-size='20' font-weight='bold' fill='#f4d03f'>18</text><rect x='165' y='50' width='35' height='35' rx='4' fill='#3498db' stroke='currentColor' stroke-width='1.5'/><polygon points='225,50 255,85 195,85' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><path d='M 270 90 L 390 90 L 400 130 L 260 130 Z' fill='#e0e0e0' stroke='currentColor' stroke-width='2'/><rect x='280' y='100' width='100' height='25' fill='#222' rx='4'/><text x='330' y='120' text-anchor='middle' font-family='Courier New, monospace' font-size='20' font-weight='bold' fill='#f4d03f'>16</text><polygon points='315,50 345,85 285,85' fill='#e74c3c' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/><circle cx='360' cy='70' r='18' fill='#f39c12' stroke='currentColor' stroke-width='1.5'/></svg></div><br><div style='font-size: 1.2rem; font-weight: bold;'>Based on the three scales above, what is the weight of the blue square?</div>",
+      "options": [
+        "7",
+        "12",
+        "5",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let the orange circle be <b>O</b>, blue square be <b>S</b>, and red triangle be <b>T</b>.<br><br>1) O + S = 12<br>2) S + T = 18<br>3) O + T = 16<br><br>Add all three equations:<br>(O + S) + (S + T) + (O + T) = 12 + 18 + 16<br>2O + 2S + 2T = 46<br>Divide by 2:<br>O + S + T = 23<br><br>We know O + T = 16. Substitute this in:<br>16 + S = 23<br>S = 23 − 16 = <b>7</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794728980083.443,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 350 250' width='100%' style='display:block;max-width:320px;margin:0 auto;overflow:visible;'><polygon points='50,200 300,200 50,50' fill='rgba(128,128,128,0.15)' stroke='none' /><polygon points='50,200 300,200 50,50' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round' /><polyline points='50,180 70,180 70,200' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='150' y='140' text-anchor='middle' font-family='Georgia, serif' font-size='32' font-weight='bold' fill='currentColor'>?</text></svg></div><br><div style='font-size: 1.2rem; font-weight: bold;'>Based on the diagram above, what type of triangle is shown based on its <b>angles</b>?</div>",
+      "options": [
+        "Right-angled triangle",
+        "Acute-angled triangle",
+        "Obtuse-angled triangle",
+        "Reflex-angled triangle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diagram clearly shows a right-angle symbol (the small square) in the bottom left corner.<br><br>Therefore, based on its angles, it is a <b>Right-angled triangle</b>. <br><br>• Option B (Acute) means all angles are less than 90°.<br>• Option C (Obtuse) means one angle is greater than 90°.<br>• Option D (Reflex) is an angle greater than 180°, which a triangle cannot have.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794728999109.1812,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 350 250' width='100%' style='display:block;max-width:320px;margin:0 auto;overflow:visible;'><line x1='50' y1='200' x2='250' y2='200' stroke='currentColor' stroke-width='2.6'/><line x1='250' y1='200' x2='250' y2='85' stroke='currentColor' stroke-width='2.6'/><line x1='50' y1='200' x2='250' y2='85' stroke='currentColor' stroke-width='2.6'/><path d='M 250 180 L 230 180 L 230 200' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><path d='M 95 200 A 45 45 0 0 0 89 180' fill='none' stroke='currentColor' stroke-width='2'/><text x='105' y='190' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>30°</text><text x='150' y='235' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>6√3 cm</text><text x='175' y='125' text-anchor='start' transform='rotate(-30 175 125)' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text></svg></div><br><div style='font-size: 1.2rem; font-weight: bold;'>Find the value of x (the hypotenuse) in the right-angled triangle above.</div>",
+      "options": [
+        "12 cm",
+        "6 cm",
+        "6√3 cm",
+        "12√3 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We are given an angle of 30° and the side adjacent to the angle (6√3 cm). We need to find the hypotenuse (x).<br><br>cos(30°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Adjacent</span><span style='display:block;padding:0 .35em;'>Hypotenuse</span></span><br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√3</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6√3</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply:<br>√3 × x = 12√3<br>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>12√3</span><span style='display:block;padding:0 .35em;'>√3</span></span> = <b>12 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794729018517.9287,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 350 80' width='100%' style='display:block;max-width:350px;margin:0 auto;overflow:visible;'><rect x='10' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='30' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>1</text><rect x='65' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='85' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>2</text><rect x='120' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='140' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>3</text><rect x='175' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='195' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>4</text><rect x='230' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='250' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>5</text><rect x='285' y='15' width='40' height='50' rx='6' fill='none' stroke='currentColor' stroke-width='2.5' /><text x='305' y='50' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='900' fill='currentColor'>6</text></svg></div><br><div style='font-size: 1.2rem; font-weight: bold;'>Look at the numbers above. How many different 6-digit even numbers can be formed using all these digits without repetition?</div>",
+      "options": [
+        "360",
+        "120",
+        "240",
+        "720"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To form an even number, the last digit must be even.<br><br><b>Step 1: Choose the last digit</b><br>The available even digits are 2, 4, and 6. There are <b>3 choices</b>.<br><br><b>Step 2: Arrange the remaining digits</b><br>Once the last digit is chosen, 5 digits remain. The number of ways to arrange them is 5! (5 factorial).<br>5! = 5 × 4 × 3 × 2 × 1 = <b>120 ways</b>.<br><br><b>Step 3: Calculate total combinations</b><br>3 choices × 120 ways = <b>360</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794729077858.0706,
+      "question": "<div style='text-align: center; margin: 10px 0;'><svg viewBox='0 0 400 380' width='100%' style='display:block;max-width: 320px; margin: 0 auto; overflow: visible;'><text x='200' y='50' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>1 + 4 = 5</text><text x='200' y='130' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>2 + 5 = 12</text><text x='200' y='210' text-anchor='middle' font-family='Courier New, monospace' font-size='46' font-weight='900' fill='currentColor'>3 + 6 = 21</text><text x='200' y='320' text-anchor='middle' font-family='Courier New, monospace' font-size='52' font-weight='900' fill='currentColor'>8 + 11 = <tspan fill='#f44336'>?</tspan></text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>Based on the pattern above, what is the value of the missing number?</div>",
+      "options": [
+        "40",
+        "96",
+        "19",
+        "52"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rule used here is <b>Cumulative Addition</b>. You add the two numbers on the left, and then add the result from the previous line.<br><br>• Line 1: 1 + 4 = <b>5</b><br>• Line 2: 2 + 5 = 7, then 7 + 5 = <b>12</b><br>• Line 3: 3 + 6 = 9, then 9 + 12 = <b>21</b><br>• Line 4: 8 + 11 = 19, then 19 + 21 = <b>40</b>.<br><br>• Option B (96) is a trap for a different mathematical rule: (A × B) + A. (e.g., 8 × 11 = 88, plus 8 = 96). But 40 is the standard cumulative answer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794729138089.9543,
+      "question": "<div style='text-align: center; margin: 15px 0;'><table style='margin: 0 auto; text-align: center; font-size: 1.6em; font-family: &quot;Courier New&quot;, Courier, monospace; font-weight: 900; color: currentColor;'><tr><td style='border-bottom: 4px solid currentColor; padding: 10px 20px 15px 20px;'>2<sup>4</sup> + (16 − 3 × 4)</td></tr><tr><td style='padding: 15px 20px 10px 20px;'>(6 + 3<sup>2</sup>) ÷ (7 − 4)</td></tr></table></div>",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this, we need to follow the Order of Operations (PEMDAS/BODMAS) for both the numerator (top) and the denominator (bottom) separately before dividing them.<br><br><b>Step 1: Simplify the Numerator (Top)</b><br>2<sup>4</sup> + (16 − 3 × 4) = 16 + (16 − 12) = 16 + 4 = <b>20</b><br><br><b>Step 2: Simplify the Denominator (Bottom)</b><br>(6 + 3<sup>2</sup>) ÷ (7 − 4) = (6 + 9) ÷ 3 = 15 ÷ 3 = <b>5</b><br><br><b>Step 3: Divide</b><br>20 ÷ 5 = <b>4</b>.",
       "difficulty": "easy",
       "points": 1
     }
