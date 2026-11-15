@@ -3,16 +3,718 @@
   "title": "REDUCING AND NON REDUCING SUGARS",
   "subject": "BCH",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794752372717.814,
+      "question": "A reducing sugar is capable of acting as which type of agent?",
+      "options": [
+        "Reducing",
+        "Oxidizing",
+        "Catalytic",
+        "Buffering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A reducing sugar is defined as any sugar capable of acting as a reducing agent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.9287,
+      "question": "A reducing sugar has an OH group attached to which specific carbon?",
+      "options": [
+        "Anomeric",
+        "Carboxyl",
+        "Methyl",
+        "Amino"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anomeric carbon of a reducing sugar has an OH group attached that can reduce other compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6384,
+      "question": "A reducing sugar contains a free group of which type?",
+      "options": [
+        "Aldehyde",
+        "Amine",
+        "Sulfhydryl",
+        "Phosphate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reducing sugars contain a free aldehyde group or a free ketone group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.8267,
+      "question": "The carbonyl carbon of a reducing sugar is oxidized to which group?",
+      "options": [
+        "Carboxyl",
+        "Hydroxyl",
+        "Amine",
+        "Ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The carbonyl carbon of the sugar is oxidized to a carboxyl group as it causes reduction in another compound.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.3428,
+      "question": "All monosaccharides are classified as which type of sugar?",
+      "options": [
+        "Reducing",
+        "Non-reducing",
+        "Complex",
+        "Invert"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All monosaccharides such as glucose, fructose, and galactose are reducing sugars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.7822,
+      "question": "Lactose and maltose are examples of which sugar category?",
+      "options": [
+        "Reducing disaccharides",
+        "Non-reducing disaccharides",
+        "Monosaccharides",
+        "Polysaccharides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactose and maltose are reducing disaccharides with one anomeric carbon involved in the glycosidic bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.095,
+      "question": "Reducing disaccharides have how many anomeric carbons involved in the glycosidic bond?",
+      "options": [
+        "One",
+        "Two",
+        "Zero",
+        "Three"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reducing disaccharides have only one of their anomeric carbons involved in the glycosidic bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6562,
+      "question": "Non-reducing sugars lack which type of linkage?",
+      "options": [
+        "Hemiacetal",
+        "Peptide",
+        "Ester",
+        "Ionic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Non-reducing sugars have no free aldehyde group, ketone group, or hemiacetal linkage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6172,
+      "question": "Sucrose is classified as which type of sugar?",
+      "options": [
+        "Non-reducing",
+        "Reducing",
+        "Monosaccharide",
+        "Aldose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sucrose is a non-reducing sugar because its anomeric carbons are involved in glycosidic bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.3433,
+      "question": "Starch and cellulose are examples of which sugar type?",
+      "options": [
+        "Non-reducing",
+        "Reducing",
+        "Monosaccharides",
+        "Disaccharides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Polysaccharides like starch and cellulose are examples of non-reducing sugars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.3918,
+      "question": "Sucrose is composed of which two monosaccharides?",
+      "options": [
+        "Glucose and fructose",
+        "Glucose and glucose",
+        "Glucose and galactose",
+        "Fructose and galactose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sucrose consists of glucose and fructose linked by glycosidic bonds between their anomeric carbons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.589,
+      "question": "Maltose is composed of which monosaccharide units?",
+      "options": [
+        "Glucose and glucose",
+        "Glucose and fructose",
+        "Glucose and galactose",
+        "Fructose and fructose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maltose is a disaccharide composed of two glucose units.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.9722,
+      "question": "Lactose is composed of which two monosaccharides?",
+      "options": [
+        "Glucose and galactose",
+        "Glucose and fructose",
+        "Glucose and glucose",
+        "Galactose and fructose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lactose is a disaccharide composed of glucose and galactose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.4143,
+      "question": "Hydrolysis of sucrose is achieved using which reagent?",
+      "options": [
+        "Dilute hydrochloric acid",
+        "Sodium hydroxide",
+        "Benedict's reagent",
+        "Distilled water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sucrose can be hydrolysed using dilute hydrochloric acid to release its reducing sugar components.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.8928,
+      "question": "Monosaccharides reacting with strong acids lose which molecule?",
+      "options": [
+        "Water",
+        "Carbon dioxide",
+        "Ammonia",
+        "Oxygen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Monosaccharides react with strong acids to lose a water molecule and form furfural derivatives.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6018,
+      "question": "Dehydration of monosaccharides with strong acids forms which derivatives?",
+      "options": [
+        "Furfural",
+        "Carboxyl",
+        "Amine",
+        "Ester"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reaction forms furfural and its derivatives upon dehydration with strong acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.7278,
+      "question": "Furfural derivatives combine with α-naphthol to form which product?",
+      "options": [
+        "Colored complex",
+        "White precipitate",
+        "Gas",
+        "Clear solution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Furfural derivatives combine with α-naphthol or resorcinol to form a colored complex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6973,
+      "question": "The dehydration reaction is demonstrated by which test?",
+      "options": [
+        "Molisch's test",
+        "Benedict's test",
+        "Fehling's test",
+        "Barfoed's test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molisch's test demonstrates the dehydration reaction of carbohydrates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.573,
+      "question": "Molisch's test is named after which scientist?",
+      "options": [
+        "Hans Molisch",
+        "James Benedict",
+        "Hermann Fehling",
+        "Lobry de Bruyn"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The test is named after Czech-Austrian botanist Hans Molisch.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.4448,
+      "question": "Molisch's test is used as a general test for which substances?",
+      "options": [
+        "All carbohydrates",
+        "All proteins",
+        "All lipids",
+        "All nucleic acids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molisch's test is a general test for all carbohydrates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.534,
+      "question": "Which sugars give a rapid positive result with Molisch's test?",
+      "options": [
+        "Monosaccharides",
+        "Disaccharides",
+        "Polysaccharides",
+        "Oligosaccharides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Monosaccharides give a rapid positive test while disaccharides and polysaccharides react slowly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.0361,
+      "question": "In Molisch's test, concentrated sulfuric acid hydrates which bonds?",
+      "options": [
+        "Glycosidic",
+        "Peptide",
+        "Ester",
+        "Hydrogen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Concentrated sulfuric acid hydrates glycosidic bonds to yield monosaccharides.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.1282,
+      "question": "The furfural produced in Molisch's test reacts with which compound?",
+      "options": [
+        "Sulphonated α-naphthol",
+        "Copper sulfate",
+        "Potassium tartrate",
+        "Sodium citrate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The products react with sulphonated α-naphthol to form a purple or reddish-purple complex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.832,
+      "question": "Molisch's reagent contains how many grams of α-naphthol in 25 ml ethanol?",
+      "options": [
+        "3.75",
+        "2.50",
+        "5.00",
+        "1.25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3.75 grams of α-naphthol in 25 ml of 99 percent ethanol is the composition of Molisch's reagent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.3882,
+      "question": "In Molisch's test, sulfuric acid is added in which manner?",
+      "options": [
+        "Drop-wise along tube walls",
+        "All at once with shaking",
+        "After heating the sample",
+        "Mixed with the reagent first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sulfuric acid is added drop-wise along the walls of the tube to form a layer and avoid mixing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.9219,
+      "question": "The positive indicator for Molisch's test is the appearance of which feature?",
+      "options": [
+        "Purple ring",
+        "Blue solution",
+        "Red precipitate",
+        "White crystals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A purple ring at the layer formed by the concentrated acid is a positive indicator for Molisch's test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.4968,
+      "question": "Carbohydrates with a free sugar group undergo enolisation in which conditions?",
+      "options": [
+        "Mild alkaline",
+        "Strong acidic",
+        "Neutral",
+        "Strong alkaline"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In mild alkaline solutions, carbohydrates with a free aldehyde or keto group tautomerize and undergo enolisation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.7861,
+      "question": "The enediol form has two hydroxyl groups attached to which structure?",
+      "options": [
+        "Double-bonded carbon",
+        "Single-bonded oxygen",
+        "Nitrogen atom",
+        "Sulfur atom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enediols are formed when two hydroxyl groups are attached to the double-bonded carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.2808,
+      "question": "In mild alkaline conditions, glucose is converted into which sugars?",
+      "options": [
+        "Fructose and mannose",
+        "Galactose and lactose",
+        "Sucrose and maltose",
+        "Starch and cellulose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In mild alkaline conditions, glucose is converted into fructose and mannose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.2207,
+      "question": "The interconversion of sugars through a common enediol form is called which transformation?",
+      "options": [
+        "Lobry de Bruyn-Van Ekenstein",
+        "Danielli-Davson",
+        "Molisch transformation",
+        "Fehling conversion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The interconversion of sugars through a common enediol form is called the Lobry de Bruyn-Van Ekenstein transformation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.0647,
+      "question": "Reducing sugars reduce Cu²⁺ to which ion?",
+      "options": [
+        "Cu⁺",
+        "Cu³⁺",
+        "Cu⁰",
+        "Cu⁴⁺"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reducing sugars reduce Cu²⁺ to Cu⁺ which forms a red precipitate of copper(I) oxide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.4983,
+      "question": "The red precipitate formed during enediol reactions is which compound?",
+      "options": [
+        "Copper(I) oxide",
+        "Copper(II) sulfate",
+        "Copper(II) oxide",
+        "Copper carbonate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cu⁺ forms a red precipitate of copper(I) oxide during the reaction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.1267,
+      "question": "Benedict's test checks for the presence of which sugars?",
+      "options": [
+        "Reducing sugars",
+        "Non-reducing sugars",
+        "Polysaccharides only",
+        "Lipids"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benedict's test is a chemical test used to check for the presence of reducing sugars in a sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.2515,
+      "question": "Benedict's reagent is a mixture containing which copper compound?",
+      "options": [
+        "Copper(II) sulfate pentahydrate",
+        "Copper(I) oxide",
+        "Copper(II) chloride",
+        "Copper metal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benedict's reagent contains the pentahydrate of copper(II) sulfate along with sodium citrate and sodium carbonate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.3032,
+      "question": "Benedict's reagent contains which two additional compounds besides copper sulfate?",
+      "options": [
+        "Sodium citrate and sodium carbonate",
+        "Potassium tartrate and sodium hydroxide",
+        "α-naphthol and ethanol",
+        "Hydrochloric acid and water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Benedict's reagent is a mixture of sodium citrate, sodium carbonate, and copper(II) sulfate pentahydrate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.5156,
+      "question": "A positive Benedict's test results in which colored precipitate?",
+      "options": [
+        "Brick-red",
+        "Purple",
+        "Green",
+        "Blue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A positive Benedict's test results in the formation of a brick-red precipitate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.0537,
+      "question": "In Benedict's test, cupric ions are reduced to which ions?",
+      "options": [
+        "Cuprous",
+        "Cupric",
+        "Copper metal",
+        "Copper chloride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cupric ions in Benedict's reagent are reduced to cuprous ions by the free aldehydes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.0308,
+      "question": "The color of the final solution in Benedict's test ranges from green to which color?",
+      "options": [
+        "Brick red",
+        "Purple",
+        "Blue",
+        "White"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The color of the final solution ranges from green to brick red depending on the quantity of sugar present.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.7297,
+      "question": "According to Benedict's test results, a green color indicates how much sugar?",
+      "options": [
+        "0-0.5mg%",
+        "0.5-1.0mg%",
+        "1.0-1.5mg%",
+        "1.5-2mg%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A green color in Benedict's test indicates 0-0.5mg% sugar present in the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6323,
+      "question": "According to Benedict's test results, an orange color indicates how much sugar?",
+      "options": [
+        "1.0-1.5mg%",
+        "0-0.5mg%",
+        "0.5-1.0mg%",
+        "1.5-2mg%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An orange color in Benedict's test indicates 1.0-1.5mg% sugar present in the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.0427,
+      "question": "According to Benedict's test results, a yellow color indicates how much sugar?",
+      "options": [
+        "0.5-1.0mg%",
+        "0-0.5mg%",
+        "1.0-1.5mg%",
+        "1.5-2mg%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A yellow color in Benedict's test indicates 0.5-1.0mg% sugar present in the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.6658,
+      "question": "According to Benedict's test results, a brick red color indicates how much sugar?",
+      "options": [
+        "1.5-2mg%",
+        "0-0.5mg%",
+        "0.5-1.0mg%",
+        "1.0-1.5mg%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A brick red color in Benedict's test indicates 1.5-2mg% sugar present in the sample.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.9514,
+      "question": "In Benedict's test, aldehydes are oxidized to which type of acid?",
+      "options": [
+        "Carboxylic acid",
+        "Sulfuric acid",
+        "Hydrochloric acid",
+        "Nitric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Free aldehydes are oxidized to carboxylic acid while cupric ions are reduced to cuprous ions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.8499,
+      "question": "Fehling's test is used to differentiate between which sugar types?",
+      "options": [
+        "Reducing and non-reducing",
+        "Monosaccharides and disaccharides",
+        "Aldoses and ketoses",
+        "Starch and cellulose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fehling's test is a chemical test used to differentiate between reducing and non-reducing sugars.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.8525,
+      "question": "Fehling's solution contains copper sulfate mixed with which compound?",
+      "options": [
+        "Potassium sodium tartrate",
+        "Sodium citrate",
+        "α-naphthol",
+        "Resorcinol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fehling's solution is made of copper sulfate pentahydrate mixed with potassium sodium tartrate and strong alkali.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.413,
+      "question": "The strong alkali used in Fehling's solution is which compound?",
+      "options": [
+        "Sodium hydroxide",
+        "Sodium carbonate",
+        "Hydrochloric acid",
+        "Sulfuric acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The strong alkali used in Fehling's solution is usually sodium hydroxide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.7935,
+      "question": "Reducing sugars reduce copper ions in Fehling's solution to give which colored precipitate?",
+      "options": [
+        "Orange to red",
+        "Purple to blue",
+        "Green to yellow",
+        "White to gray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In an alkaline medium, reducing sugars reduce copper ions in Fehling's solution to give an orange to red precipitate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372717.807,
+      "question": "The concentration of test samples used in the Fehling's procedure should be which percentage?",
+      "options": [
+        "5%",
+        "10%",
+        "2%",
+        "20%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The concentration of the test samples should be 5 percent (w/v) for Fehling's test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372718.0154,
+      "question": "In Fehling's procedure, test tubes are kept in a water bath for how long?",
+      "options": [
+        "1-2 minutes",
+        "5-10 minutes",
+        "30 seconds",
+        "15-20 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Test tubes are kept in the water bath for 1-2 minutes during the Fehling's procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794752372718.6604,
+      "question": "A negative Fehling's test is indicated by which observation?",
+      "options": [
+        "Deep blue color",
+        "Reddish precipitate",
+        "Green solution",
+        "Brick-red precipitate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The absence of the reddish precipitate or the appearance of deep blue color indicates a negative result in Fehling's test.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
