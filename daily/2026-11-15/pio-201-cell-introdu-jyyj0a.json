@@ -3,16 +3,438 @@
   "title": "PIO 201 : Cell Introduction",
   "subject": "PIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794717413148.0415,
+      "question": "All the living things are composed of which basic units?",
+      "options": [
+        "Atoms",
+        "Cells",
+        "Organs",
+        "Tissues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that all living things are composed of cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.1008,
+      "question": "The cell is defined as the structural and functional unit of which entity?",
+      "options": [
+        "The body",
+        "The tissue",
+        "The organ",
+        "The system"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell is defined as the structural and functional unit of the living body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.3262,
+      "question": "Which unit is the smallest that has all the characteristics of life?",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Cell",
+        "System"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A single cell is the smallest unit that has all the characteristics of life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.4958,
+      "question": "Which cell is given as an exception to reproduction by division?",
+      "options": [
+        "Neuron",
+        "Muscle cell",
+        "Epithelial cell",
+        "Blood cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states there are exceptions like the neuron which do not reproduce.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.8198,
+      "question": "Each cell produces its own energy necessary for which processes?",
+      "options": [
+        "Growth and repair",
+        "Digestion and excretion",
+        "Movement and speech",
+        "Vision and hearing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cells produce energy necessary for their growth, repair, and other activities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.9854,
+      "question": "Cells show an immediate response to the entry of which substances?",
+      "options": [
+        "Nutrients",
+        "Invaders",
+        "Hormones",
+        "Enzymes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cells show immediate response to the entry of invaders like bacteria or toxic substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.9595,
+      "question": "Cells maintain the medium for which purpose?",
+      "options": [
+        "Division",
+        "Survival",
+        "Transport",
+        "Digestion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cells maintain the medium, the environment, for their survival.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.0813,
+      "question": "A group of cells having similar function is defined as what?",
+      "options": [
+        "Organ",
+        "System",
+        "Tissue",
+        "Organism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tissue is defined as the group of cells having similar function.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.0054,
+      "question": "How many major types of primary tissues exist in the body?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All tissues are classified into four major types called the primary tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.236,
+      "question": "Skeletal and smooth are examples of which primary tissue?",
+      "options": [
+        "Nervous",
+        "Epithelial",
+        "Connective",
+        "Muscle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Muscle tissue includes skeletal muscle, smooth muscle, and cardiac muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.0361,
+      "question": "Neurons and supporting cells make up which type of tissue?",
+      "options": [
+        "Nervous",
+        "Muscle",
+        "Epithelial",
+        "Connective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nervous tissue consists of neurons and supporting cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.6245,
+      "question": "Squamous and columnar are types of which tissue?",
+      "options": [
+        "Muscle",
+        "Nervous",
+        "Epithelial",
+        "Connective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Epithelial tissue includes squamous, columnar, and cuboidal epithelial cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.8079,
+      "question": "Cartilage and bone belong to which primary tissue category?",
+      "options": [
+        "Epithelial",
+        "Connective",
+        "Muscle",
+        "Nervous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Connective tissue includes connective tissue proper, cartilage, bone, and blood.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.466,
+      "question": "An organ is formed by how many primary tissue types at minimum?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An organ is formed by two or more primary types of tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.6565,
+      "question": "Organs composed of all four primary tissue types are known as what?",
+      "options": [
+        "Simple organs",
+        "Some organs",
+        "Complex organs",
+        "Basic organs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that some organs are composed of all four types of primary tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.8145,
+      "question": "Compact organs are also known by which term?",
+      "options": [
+        "Tubular",
+        "Hollow",
+        "Parenchymal",
+        "Membranous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The organs are of two types, namely tubular or hollow organs and compact or parenchymal organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.0103,
+      "question": "Which of the following is listed as an organ in the body?",
+      "options": [
+        "Neuron",
+        "Pancreas",
+        "Blood",
+        "Muscle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text lists pancreas among organs such as brain, heart, lungs, stomach, intestine, liver, and kidneys.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.2654,
+      "question": "A group of organs working together carries out specific functions of which entity?",
+      "options": [
+        "Cell",
+        "Tissue",
+        "Body",
+        "Organelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An organ system is defined as a group of organs that work together to carry out specific functions of the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.3418,
+      "question": "The digestive system is concerned with which process?",
+      "options": [
+        "Digestion",
+        "Excretion",
+        "Respiration",
+        "Circulation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The digestive system is concerned with digestion of food particles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.2039,
+      "question": "Which system eliminates unwanted substances?",
+      "options": [
+        "Digestive",
+        "Excretory",
+        "Respiratory",
+        "Endocrine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The excretory system eliminates unwanted substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.7397,
+      "question": "Transport of substances between organs is performed by which system?",
+      "options": [
+        "Cardiovascular",
+        "Nervous",
+        "Digestive",
+        "Musculoskeletal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cardiovascular system is responsible for transport of substances between the organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.156,
+      "question": "The supply of oxygen and removal of carbon dioxide is the role of which system?",
+      "options": [
+        "Digestive",
+        "Excretory",
+        "Respiratory",
+        "Reproductive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The respiratory system is concerned with the supply of oxygen and removal of carbon dioxide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.9136,
+      "question": "Reproduction of species is the function of which system?",
+      "options": [
+        "Endocrine",
+        "Reproductive",
+        "Nervous",
+        "Excretory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reproductive system is involved in the reproduction of species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.7642,
+      "question": "Growth of the body and maintenance of normal life is regulated by which system?",
+      "options": [
+        "Nervous",
+        "Musculoskeletal",
+        "Endocrine",
+        "Cardiovascular"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The endocrine system is concerned with growth of the body and regulation and maintenance of normal life.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.3223,
+      "question": "Stability and movements of the body are functions of which system?",
+      "options": [
+        "Nervous",
+        "Musculoskeletal",
+        "Respiratory",
+        "Excretory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The musculoskeletal system is responsible for stability and movements of the body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.7651,
+      "question": "The cell body is formed along with which covering structure?",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Cell membrane",
+        "Organelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each cell is formed by a cell body and a membrane covering the cell body called the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.3489,
+      "question": "The cell body has which two main parts?",
+      "options": [
+        "Nucleus and cytoplasm",
+        "Membrane and nucleus",
+        "Cytoplasm and membrane",
+        "Organelle and nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell body has two parts, namely nucleus and cytoplasm surrounding the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.9116,
+      "question": "The structure of the cell is studied under how many headings?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The structure of the cell is studied under three headings: cell membrane, cytoplasm, and nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.0688,
+      "question": "Which structure is labeled covering the cell in Figure 1.1?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Cell membrane",
+        "Microtubule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Figure 1.1 labels the outer covering of the cell as the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794717413152.3894,
+      "question": "Smooth endoplasmic reticulum appears in Figure 1.1 as which structure?",
+      "options": [
+        "Organelle",
+        "Nucleus",
+        "Membrane",
+        "Fluid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Figure 1.1 labels the smooth endoplasmic reticulum among the cell organelles.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
