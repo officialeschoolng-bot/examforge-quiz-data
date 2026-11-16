@@ -3,16 +3,144 @@
   "title": "National Rapid Mathematics Competition",
   "subject": "Competition",
   "description": "Think you've got what it takes to be the best? It's time to put your mathematical skills to the test! Speed and Accuracy will be required",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 9,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
     "canPracticeMode": false,
-    "canSeeCorrection": true,
+    "canSeeCorrection": false,
     "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": true,
-    "shuffleOptions": true
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794863957749.5637,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='120,400 440,400 270,120' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><line x1='270' y1='120' x2='270' y2='400' stroke='currentColor' stroke-width='2' stroke-dasharray='8,6'/><path d='M270,378 L292,378 L292,400' fill='none' stroke='currentColor' stroke-width='1.8'/><text x='280' y='446' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>8</text><text x='300' y='268' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>7</text><text x='110' y='426' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>A</text><text x='450' y='426' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>B</text><text x='270' y='106' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>C</text></svg></div><br>Find the area of this triangle.",
+      "options": [
+        "28 square units",
+        "56 square units",
+        "15 square units",
+        "24 square units"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area of a triangle is A = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height.<br><br>Here the base is 8 units and the perpendicular height is 7 units (shown by the broken line), so A = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 8 × 7 = <b>28 square units</b>.<br><br>• Option B (56) comes from forgetting the factor of <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> and simply multiplying 8 × 7.<br>• Option C (15) comes from adding the base and the height instead of multiplying.<br>• Option D (24) does not follow from the given dimensions at all.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.6638,
+      "question": "<div style='max-width:700px;color:currentColor;'><svg viewBox='0 0 700 300' width='100%' style='display:block;max-width:700px;overflow:visible;'><line x1='150' y1='200' x2='550' y2='200' stroke='currentColor' stroke-width='3' /><line x1='150' y1='190' x2='150' y2='210' stroke='currentColor' stroke-width='3' /><line x1='550' y1='190' x2='550' y2='210' stroke='currentColor' stroke-width='3' /><text x='150' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>A</text><text x='550' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>B</text><text x='350' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='currentColor'>132 cm</text><circle cx='150' cy='140' r='60' stroke='currentColor' stroke-width='3' fill='none' /><circle cx='150' cy='140' r='4' fill='currentColor' /><line x1='150' y1='140' x2='150' y2='200' stroke='currentColor' stroke-width='2' stroke-dasharray='6,6' /><text x='165' y='175' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>7 cm</text></svg></div><br>How many times will this wheel rotate to reach from point A to point B?",
+      "options": [
+        "3 times",
+        "2 times",
+        "4 times",
+        "3.5 times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The distance a wheel covers in one complete rotation is equal to its circumference.<br><br>Circumference C = 2πr<br><br>Using π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>:<br><br>C = 2 × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 = 44 cm<br><br>The number of rotations is the total distance divided by the circumference:<br><br>Rotations = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>132</span><span style='display:block;padding:0 .35em;'>44</span></span> = <b>3 times</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.4395,
+      "question": "If it takes 5 minutes for one towel to dry, how long will it take seven towels to dry if they are spread on a rope?",
+      "options": [
+        "35 minutes",
+        "5 minutes",
+        "12 minutes",
+        "70 minutes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drying time depends on environmental conditions (like sun and wind) and exposure, not on the total number of items, as long as they are spread out.<br><br>Because the seven towels are hung on the rope simultaneously, they dry in parallel. Therefore, they will all take the same amount of time as a single towel.<br><br>• Option A (35 minutes) is a common trap; it comes from multiplying 5 minutes × 7 towels, which only applies if they were dried one after the other.<br>• Options C and D are random incorrect calculations.<br><br>The correct answer is <b>5 minutes</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.3564,
+      "question": "If the current time is <kbd style='font-size: 1.4em; font-weight: 900; padding: 4px 10px; background: rgba(128,128,128,0.2); border-bottom: 3px solid currentColor;'>11:45 PM</kbd> on a Wednesday, what will be the exact day and time exactly 47 hours from now?",
+      "options": [
+        "Friday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 PM</kbd>",
+        "Friday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>11:45 PM</kbd>",
+        "Thursday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 PM</kbd>",
+        "Saturday, <kbd style='font-size: 1.3em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10:45 AM</kbd>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this, it helps to break the 47 hours into a full day (24 hours) plus the remaining hours.<br><br>47 hours = 24 hours + 23 hours.<br><br><b>Step 1: Add 24 hours</b><br>Adding exactly 24 hours brings us to the exact same time on the next day.<br>Wednesday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd> + 24 hours = Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br><br><b>Step 2: Add the remaining 23 hours</b><br>Start at Thursday <kbd style='font-size: 1.1em; font-weight: 900;'>11:45 PM</kbd>.<br>• Adding 1 hour brings us to Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd>.<br>• We still have 22 hours left to add (23 − 1 = 22).<br>• Friday <kbd style='font-size: 1.1em; font-weight: 900;'>12:45 AM</kbd> + 22 hours = Friday <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd>.<br><br>The correct answer is <b>Friday, <kbd style='font-size: 1.1em; font-weight: 900;'>10:45 PM</kbd></b>.<br><br>• Option B is a trap for those who forget to add the 23 hours after the first 24 hours.<br>• Option C is a trap for those who miscount the days.<br>• Option D is a trap for those who add instead of subtract when crossing over the 12-hour mark.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.0483,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='180,380 380,380 380,140 340,140 340,220 220,220 220,140 180,140' fill='none' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><text x='165' y='260' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>12 cm</text><text x='395' y='260' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>12 cm</text><text x='280' y='415' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>10 cm</text><text x='200' y='125' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>2 cm</text><text x='360' y='125' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>2 cm</text><text x='205' y='180' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text><text x='355' y='180' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text><text x='280' y='205' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>?</text></svg></div><br>The shape below is drawn with straight lines only, and all its angles are right angles. Calculate the perimeter of the shape.",
+      "options": [
+        "52 cm",
+        "48 cm",
+        "56 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the perimeter, we must add up the lengths of all the outside edges. First, we need to deduce the length of the missing bottom inner edge.<br><br><b>Step 1: Find the missing inner horizontal length</b><br>The total width at the bottom is 10 cm. The top of the shape is divided into three parts: the left top edge (2 cm), the inner gap (unknown), and the right top edge (2 cm).<br><br>Because the shape is formed by straight vertical and horizontal lines, the inner gap width equals the inner bottom edge width.<br>Inner width = 10 cm − 2 cm − 2 cm = <b>6 cm</b>.<br><br><b>Step 2: Add all the outer sides</b><br>• Left vertical edge: 12 cm<br>• Bottom horizontal edge: 10 cm<br>• Right vertical edge: 12 cm<br>• Top-right horizontal edge: 2 cm<br>• Inner-right vertical edge: 4 cm<br>• Inner-bottom horizontal edge: 6 cm<br>• Inner-left vertical edge: 4 cm<br>• Top-left horizontal edge: 2 cm<br><br>Perimeter = 12 + 10 + 12 + 2 + 4 + 6 + 4 + 2 = <b>52 cm</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.852,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='80' y1='400' x2='500' y2='400' stroke='currentColor' stroke-width='2.6' stroke-linecap='round'/><line x1='400' y1='400' x2='400' y2='40' stroke='currentColor' stroke-width='2.6' stroke-linecap='round'/><polyline points='380,400 380,380 400,380' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><line x1='200' y1='400' x2='400' y2='53.6' stroke='currentColor' stroke-width='4' stroke-linecap='round'/><path d='M 260 400 A 60 60 0 0 0 230 348.04' fill='none' stroke='currentColor' stroke-width='2'/><text x='300' y='430' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 m</text><text x='265' y='370' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>60°</text><text x='300' y='220' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>x m</text></svg></div><br>A ladder leans against a vertical wall. The foot of the ladder is 4 meters away from the base of the wall. If the ladder makes an angle of 60° with the ground, what is the length of the ladder?",
+      "options": [
+        "4 m",
+        "8 m",
+        "6.93 m",
+        "5.5 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because the wall is vertical, the ladder, the wall, and the ground form a right-angled triangle.<br><br>The distance from the wall (4 m) is the side <b>adjacent</b> to the 60° angle. The ladder (x) is the <b>hypotenuse</b>.<br><br>Using the cosine ratio:<br>cos(θ) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>adjacent</span><span style='display:block;padding:0 .35em;'>hypotenuse</span></span><br><br>cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>We know that cos(60°) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>.<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>x</span></span><br><br>Cross-multiply:<br>x = 4 × 2 = <b>8 m</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.6836,
+      "question": "<div style='max-width: 500px; margin: 0 auto;'><p style='margin-bottom: 12px; font-size: 1.05rem;'>The table below shows the marks scored by a group of students in a mathematics test.</p><table style='width: 100%; margin: 16px auto; text-align: center; font-size: 16px; color: currentColor;'><thead><tr><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Mark (x)</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Tally</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th></tr></thead><tbody><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>6</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>|||| |||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>8</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>8</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>||||</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr></tbody></table><p style='margin-top: 12px; font-size: 1.05rem;'>What is the mean mark of the data set?</p></div>",
+      "options": [
+        "6.5",
+        "6.7",
+        "7.0",
+        "6.8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the mean from a frequency table, we use the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Sum of (f × x)</span><span style='display:block;padding:0 .35em;'>Sum of f</span></span><br><br>First, we calculate the (f × x) for each row and find the totals:<br>• For x = 4: 5 × 4 = 20<br>• For x = 6: 8 × 6 = 48<br>• For x = 8: 2 × 8 = 16<br>• For x = 10: 5 × 10 = 50<br><br>Sum of frequencies (Sum of f) = 5 + 8 + 2 + 5 = 20<br>Sum of (f × x) = 20 + 48 + 16 + 50 = 134<br><br>Now, substitute these values into the formula:<br><br>Mean = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>134</span><span style='display:block;padding:0 .35em;'>20</span></span> = <b>6.7</b><br><br>The correct answer is <b>6.7</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.9958,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x + y = 11</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − y = 1</kbd>",
+      "options": [
+        "x = 4, y = 3",
+        "x = 3, y = 4",
+        "x = 5, y = 2",
+        "x = 4, y = −3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x + y = 11</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(2x + y) + (x − y) = 11 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 4 − 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 3</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794863957750.421,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path fill-rule='evenodd' d='M 280 120 A 120 120 0 1 1 279.9 120 Z M 280 180 A 60 60 0 1 0 280.1 180 Z' fill='rgba(128,128,128,0.25)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><line x1='280' y1='240' x2='400' y2='240' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='280' y1='240' x2='280' y2='180' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><circle cx='280' cy='240' r='4' fill='currentColor'/><text x='340' y='230' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>R = 14 cm</text><text x='295' y='205' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>r = 7 cm</text></svg></div><br>The diagram above shows two concentric circles. The radius of the larger circle is 14 cm and the radius of the smaller circle is 7 cm. Calculate the area of the shaded portion. (Take π = 22/7)",
+      "options": [
+        "154 cm²",
+        "308 cm²",
+        "462 cm²",
+        "616 cm²"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The shaded portion is an annulus (a ring shape). To find its area, subtract the area of the smaller circle from the area of the larger circle.<br><br><b>Step 1: Area of the larger circle</b><br>Area = πR² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196 = 22 × 28 = 616 cm²<br><br><b>Step 2: Area of the smaller circle</b><br>Area = πr² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7² = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 49 = 22 × 7 = 154 cm²<br><br><b>Step 3: Area of the shaded portion</b><br>Area = (Area of larger circle) − (Area of smaller circle)<br>Area = 616 − 154 = <b>462 cm²</b>.<br><br>Alternatively, you can use the formula: Area = π(R² − r²) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
