@@ -3,16 +3,438 @@
   "title": "ANA 202 : CELL STRUCTURE 1",
   "subject": "ANA 202",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794801270609.505,
+      "question": "Which of the following defines the fundamental structural and functional unit of the body?",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Cell",
+        "System"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.1936,
+      "question": "The dense central part of the protoplasm is known as which structure?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Cytosol",
+        "Vacuoplasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleus is the central, denser portion of the protoplasm enclosed by a nuclear membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.76,
+      "question": "The fluid base of the cytoplasm is referred to as which of the following?",
+      "options": [
+        "Matrix",
+        "Vacuoplasm",
+        "Organelle",
+        "Cytosol"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The cytosol or hyaloplasm is the fluid matrix of the cytoplasm that contains organelles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.218,
+      "question": "Membrane-bound spaces within the cytosol are collectively called which of the following?",
+      "options": [
+        "Vacuoplasm",
+        "Nucleoplasm",
+        "Cytoskeleton",
+        "Glycocalyx"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The spaces enclosed by organelle membranes within the cytosol are collectively termed the vacuoplasm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.6118,
+      "question": "The membrane separating the cytoplasm from surrounding structures is called which of the following?",
+      "options": [
+        "Nuclear membrane",
+        "Cell membrane",
+        "Basement membrane",
+        "Organelle membrane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane or plasma membrane separates the cytoplasm from the surrounding environment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.206,
+      "question": "The cell membrane regulates entry and exit of compounds through which property?",
+      "options": [
+        "Rigid permeability",
+        "Selective permeability",
+        "Complete impermeability",
+        "Non-selective diffusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane has highly selective permeability that regulates the passage of compounds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.3457,
+      "question": "The average thickness of a cell membrane as seen under an electron microscope is which of the following?",
+      "options": [
+        "7.5 nm",
+        "75 nm",
+        "0.75 nm",
+        "750 nm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell membrane is approximately 7.5 nm thick under the electron microscope.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.6206,
+      "question": "The trilaminar appearance of the cell membrane consists of which arrangement?",
+      "options": [
+        "One dense and one light layer",
+        "Two light layers with a dense zone",
+        "Two dense layers with a light zone",
+        "Three equally dense layers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The membrane shows two densely stained layers separated by a lighter zone.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.122,
+      "question": "Membranes are mainly made up of which combination of substances?",
+      "options": [
+        "Nucleic acids and lipids",
+        "Lipids, proteins, and carbohydrates",
+        "Proteins and nucleic acids",
+        "Carbohydrates and nucleic acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Membranes consist mainly of lipids, proteins, and small amounts of carbohydrates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.396,
+      "question": "The basic framework of the cell membrane is constituted by which molecules?",
+      "options": [
+        "Phospholipids",
+        "Glycolipids",
+        "Cholesterol",
+        "Proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phospholipids predominantly constitute the basic framework of membranes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.5798,
+      "question": "The water-soluble end of a phospholipid molecule is called which of the following?",
+      "options": [
+        "Non-polar end",
+        "Hydrophobic end",
+        "Polar end",
+        "Tail end"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The head end containing phosphate is soluble in water and is called the polar end.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.4712,
+      "question": "The fluid mosaic model of the cell membrane was proposed by which scientists?",
+      "options": [
+        "Watson and Crick",
+        "Singer and Nicolson",
+        "Robert Hooke",
+        "Schwann and Schleiden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Singer and Nicolson proposed the fluid mosaic model of membrane structure in 1972.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.2185,
+      "question": "Phospholipids in an aqueous medium arrange themselves into which structure?",
+      "options": [
+        "A single layer",
+        "A micelle",
+        "A bi-layer",
+        "A globular mass"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phospholipids form a bi-layer with hydrophilic heads facing the aqueous medium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.7358,
+      "question": "The dark staining parts of the membrane seen by EM are formed by which component?",
+      "options": [
+        "Tails of lipid molecules",
+        "Heads of lipid molecules",
+        "Embedded proteins",
+        "Carbohydrate chains"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The heads of phospholipid molecules form the dark staining parts of the membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.514,
+      "question": "Because of its manner of formation, the cell membrane is best regarded as which type of structure?",
+      "options": [
+        "A rigid solid",
+        "A fluid structure",
+        "A crystalline lattice",
+        "A static barrier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The membrane is a fluid structure that can readily reform when disturbed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.0234,
+      "question": "Which lipid provides stability to the cell membrane?",
+      "options": [
+        "Cholesterol",
+        "Sphingomyelin",
+        "Phosphatidylserine",
+        "Galactocerebroside"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cholesterol is present in membranes and provides stability to them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.7996,
+      "question": "Which glycolipid is an important constituent of myelin?",
+      "options": [
+        "Ganglioside",
+        "Galactocerebroside",
+        "Phosphatidylcholine",
+        "Sphingomyelin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Galactocerebroside is a glycolipid and an important constituent of myelin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.5986,
+      "question": "Glycolipids are present in which location of cell membranes?",
+      "options": [
+        "Inner surface only",
+        "Both surfaces equally",
+        "Outer surface only",
+        "Within the lipid tails"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Glycolipids are present only over the outer surface of cell membranes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.454,
+      "question": "Proteins occupying the entire thickness of the membrane and projecting from both surfaces are called which of the following?",
+      "options": [
+        "Peripheral proteins",
+        "Transmembrane proteins",
+        "Integral proteins",
+        "Glycoproteins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transmembrane proteins span the full thickness and project out of both membrane surfaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.1682,
+      "question": "Membrane proteins that form passive channels allow substances to pass through which process?",
+      "options": [
+        "Active transport",
+        "Diffusion",
+        "Endocytosis",
+        "Pinocytosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Passive channels allow substances to diffuse through the membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.405,
+      "question": "Proteins that bind specific hormones or neurotransmitters act as which of the following?",
+      "options": [
+        "Enzymes",
+        "Pumps",
+        "Receptors",
+        "Channels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Receptor proteins are specific for particular molecules like hormones or neurotransmitters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.8958,
+      "question": "Proteins play a vital role in transport across the membrane by acting as which of the following?",
+      "options": [
+        "Pumps",
+        "Receptors",
+        "Antigens",
+        "Channels only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some proteins act as pumps that carry ions from one surface to the other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.8657,
+      "question": "Carbohydrates attached to proteins on the membrane form which structure?",
+      "options": [
+        "Glycolipids",
+        "Glycoproteins",
+        "Phospholipids",
+        "Proteoglycans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbohydrates attached to proteins form glycoproteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.0193,
+      "question": "The carbohydrate layer on the external surface of the plasma membrane is called which of the following?",
+      "options": [
+        "Glycocalyx",
+        "Cytoskeleton",
+        "Basement membrane",
+        "Hyaloplasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The well-developed carbohydrate layer on the external surface is called the glycocalyx.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.8477,
+      "question": "The cell membrane maintains which property of the cell?",
+      "options": [
+        "Colour",
+        "Shape",
+        "Weight",
+        "Density"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One of the primary functions of the cell membrane is maintaining the shape of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.3787,
+      "question": "The plasma membranes of nerve and muscle cells are normally polarised with which charge distribution?",
+      "options": [
+        "Positive inside, negative outside",
+        "Negative inside, positive outside",
+        "Neutral on both sides",
+        "Positive on both sides"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The external surface bears a positive charge and the internal surface a negative charge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.9985,
+      "question": "The potential difference across a polarised nerve cell membrane may be as much as which value?",
+      "options": [
+        "10 mv",
+        "50 mv",
+        "100 mv",
+        "500 mv"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The potential difference across polarised nerve and muscle cell membranes may be as much as 100 mv.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.784,
+      "question": "Reversal of the charge across a membrane upon stimulation is called which of the following?",
+      "options": [
+        "Repolarisation",
+        "Hyperpolarisation",
+        "Depolarisation",
+        "Polarisation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Selective passage of sodium and potassium ions reversing the charge is called depolarisation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.1106,
+      "question": "Depolarisation of a muscle cell membrane results in which outcome?",
+      "options": [
+        "Relaxation",
+        "Contraction",
+        "Secretion",
+        "Division"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Depolarisation results in contraction in the case of muscle cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794801270613.376,
+      "question": "The membranes of rod and cone cells of the retina bear proteins sensitive to which stimulus?",
+      "options": [
+        "Heat",
+        "Pressure",
+        "Light",
+        "Chemicals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rod and cone cell membranes bear proteins that are sensitive to light.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
