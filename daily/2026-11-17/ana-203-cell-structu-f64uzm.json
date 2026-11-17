@@ -3,16 +3,438 @@
   "title": "ANA 203 : CELL STRUCTURE 2",
   "subject": "ANA 203",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794893787375.7551,
+      "question": "Large molecules enter the cell by which process?",
+      "options": [
+        "Osmosis",
+        "Endocytosis",
+        "Diffusion",
+        "Filtration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Large molecules enter the cell through the process of endocytosis, where the membrane invaginates to form a vesicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.899,
+      "question": "The process where the cell membrane surrounds a molecule and separates to form a vesicle is known as which mechanism?",
+      "options": [
+        "Pinocytosis",
+        "Phagocytosis",
+        "Endocytosis",
+        "Exocytosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Endocytosis involves the invagination of the cell membrane to surround and engulf a molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.4873,
+      "question": "Which structure is formed when a part of the cell membrane surrounds a large molecule and separates from the membrane?",
+      "options": [
+        "Lysosome",
+        "Coated pit",
+        "Endocytic vesicle",
+        "Caveola"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The separated membrane-bound structure containing the molecule is called an endocytic vesicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.229,
+      "question": "Pinocytosis specifically refers to the absorption of which substances?",
+      "options": [
+        "Foreign bacteria",
+        "Large proteins",
+        "Fluids",
+        "Whole cells"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pinocytosis is the process where vesicles form to absorb fluids or other small molecules into the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.4548,
+      "question": "The vesicles formed during the absorption of fluids into the cell are called which of the following?",
+      "options": [
+        "Pinocytic vesicles",
+        "Exocytic vesicles",
+        "Secretory granules",
+        "Coated vesicles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term pinocytosis is applied to fluid absorption, and the resulting vesicles are called pinocytic vesicles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.7393,
+      "question": "Engulfing foreign matter such as bacteria by a cell is termed what process?",
+      "options": [
+        "Potocytosis",
+        "Transcytosis",
+        "Phagocytosis",
+        "Reverse pinocytosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When endocytosis is used to engulf foreign material like bacteria, the process is specifically called phagocytosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.2197,
+      "question": "Secretions produced within the cytoplasm are transported to the exterior via which structures?",
+      "options": [
+        "Endocytic vesicles",
+        "Exocytic vesicles",
+        "Pinocytic vesicles",
+        "Phagosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secretions are enclosed in exocytic vesicles that fuse with the cell membrane to release their contents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.003,
+      "question": "The process by which vesicles fuse with the internal surface of the cell membrane to release molecules to the exterior is called what?",
+      "options": [
+        "Exocytosis",
+        "Endocytosis",
+        "Phagocytosis",
+        "Pinocytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exocytosis is the process where vesicles fuse with the cell membrane and rupture to release molecules outside the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.877,
+      "question": "Exocytosis is also referred to by which alternate term?",
+      "options": [
+        "Potocytosis",
+        "Transcytosis",
+        "Reverse pinocytosis",
+        "Receptor-mediated endocytosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that the process of exocytosis is also called reverse pinocytosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0437,
+      "question": "Small molecules generally pass into the cell through which mechanism?",
+      "options": [
+        "Endocytosis",
+        "Passive channels",
+        "Phagocytosis",
+        "Exocytosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Small molecules can enter cells by passing through passive channels in the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.807,
+      "question": "Because endocytic vesicles derive from the membrane and exocytic vesicles fuse with it, what occurs constantly?",
+      "options": [
+        "Loss of cell volume",
+        "Membrane material transfer",
+        "Protein synthesis",
+        "Cell division"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is a constant transfer of membrane material between the cell surface and the vesicles within the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.7422,
+      "question": "Areas of the cell membrane that give origin to endocytic vesicles are marked by the presence of which proteins?",
+      "options": [
+        "Clathrin",
+        "Caveolin",
+        "Fusogenic proteins",
+        "Actin filaments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fusogenic proteins aid the formation of endocytic vesicles and are found in the membrane areas giving origin to them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.113,
+      "question": "Besides aiding endocytosis, fusogenic proteins also help in which other process?",
+      "options": [
+        "Exocytosis",
+        "Glycolysis",
+        "Apoptosis",
+        "Pinocytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fusogenic proteins also assist in exocytosis by facilitating the fusion of the membrane surrounding vesicles with the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.2654,
+      "question": "When viewed by electron microscopy, areas of receptor-mediated endocytosis appear as which structures?",
+      "options": [
+        "Microvilli",
+        "Coated pits",
+        "Cilia",
+        "Gap junctions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Depressed areas of receptor-mediated endocytosis viewed by EM are called coated pits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0696,
+      "question": "The thickening at the floor of a coated pit is caused by the presence of which protein?",
+      "options": [
+        "Caveolin",
+        "Clathrin",
+        "Fusogenic protein",
+        "Integrin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A protein called clathrin is present in the thickened membrane lining the floor of coated pits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0547,
+      "question": "Clathrin forms what type of structure around the developing vesicle?",
+      "options": [
+        "A pore",
+        "A channel",
+        "A scaffolding",
+        "A lipid bilayer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Clathrin forms a scaffolding around the developing vesicle to facilitate its formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.966,
+      "question": "After the endocytic vesicle is formed, what happens to the clathrin molecules?",
+      "options": [
+        "They are degraded",
+        "They detach and return",
+        "They enter the nucleus",
+        "They form lysosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After facilitating separation, clathrin molecules detach from the vesicle surface and return to the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0276,
+      "question": "The process where material is transferred right through the thickness of a cell is known as what?",
+      "options": [
+        "Potocytosis",
+        "Transcytosis",
+        "Phagocytosis",
+        "Exocytosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transcytosis is defined as the transfer of material through the entire thickness of a cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.71,
+      "question": "Transcytosis is mainly seen in which type of cells?",
+      "options": [
+        "Flat cells",
+        "Muscle cells",
+        "Neurons",
+        "Red blood cells"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The process of transcytosis is seen mainly in flat cells such as endothelium.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.7007,
+      "question": "Invaginations of the cell membrane involved in transcytosis are called what?",
+      "options": [
+        "Coated pits",
+        "Caveolae",
+        "Microvilli",
+        "Desmosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transcytosis takes place through invaginations of the cell membrane called caveolae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.6384,
+      "question": "Which protein is associated with caveolae?",
+      "options": [
+        "Clathrin",
+        "Tubulin",
+        "Caveolin",
+        "Actin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A protein called caveolin is associated with the structure of caveolae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0085,
+      "question": "Caveolae differ from coated pits in that they are not transformed into what?",
+      "options": [
+        "Lysosomes",
+        "Vesicles",
+        "Proteins",
+        "Pores"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Caveolae differ from coated pits because they are not transformed into vesicles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.3179,
+      "question": "Caveolae play a role in the transport of extracellular molecules to which compartment?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Cytosol",
+        "Endoplasmic reticulum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Caveolae play a role in transporting extracellular molecules directly to the cytosol without the formation of vesicles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.7412,
+      "question": "The process where extracellular molecules enter the cytosol through caveolae without forming endocytic vesicles is called what?",
+      "options": [
+        "Potocytosis",
+        "Transcytosis",
+        "Phagocytosis",
+        "Pinocytosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The process of molecules entering the cytosol through caveolae without vesicle formation is called potocytosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.372,
+      "question": "Which of the following best describes the primary function of the cell membrane regarding substances?",
+      "options": [
+        "Synthesizing proteins",
+        "Controlling passage in and out",
+        "Generating energy",
+        "Storing genetic material"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane controls the passage of substances in and out of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.0537,
+      "question": "The term endocytosis involves the cell membrane performing which action?",
+      "options": [
+        "Fusing with the nucleus",
+        "Dissolving completely",
+        "Invaginating around a molecule",
+        "Releasing contents outside"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During endocytosis, the membrane invaginates a part of itself to surround the target molecule.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.5115,
+      "question": "Exocytic vesicles approach the cell membrane and fuse with which surface?",
+      "options": [
+        "The outer surface",
+        "The internal surface",
+        "The nuclear membrane",
+        "The mitochondrial membrane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molecules are enclosed in vesicles that approach the cell membrane and fuse with its internal surface.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.3416,
+      "question": "The rupturing of the exocytic vesicle after fusion results in which outcome?",
+      "options": [
+        "Release to the exterior",
+        "Entry of molecules",
+        "Digestion of bacteria",
+        "Formation of a coated pit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Once the vesicle fuses with the membrane, it ruptures to release the enclosed molecule to the exterior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.881,
+      "question": "Which process is responsible for the absorption of small molecules into the cell via vesicles?",
+      "options": [
+        "Phagocytosis",
+        "Pinocytosis",
+        "Exocytosis",
+        "Transcytosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pinocytosis is the process where vesicles are formed for the absorption of fluids or other small molecules into the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794893787375.9512,
+      "question": "The fusion of membrane surrounding vesicles with the cell membrane during exocytosis is facilitated by which substances?",
+      "options": [
+        "Clathrin proteins",
+        "Caveolin proteins",
+        "Fusogenic proteins",
+        "Intermediate proteins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fusogenic proteins help in exocytosis by facilitating the fusion of the membrane surrounding vesicles with the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
