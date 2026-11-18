@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 1,
+  "totalQuestions": 2,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -27,6 +27,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Step 1: Deduce the missing outer edges</b><br>Because all angles are right angles, opposite outer edges must match the total lengths of the shorter segments parallel to them.<br>• The total left vertical edge = inner vertical (6 cm) + right vertical (4 cm) = <b>10 cm</b>.<br>• The total bottom horizontal edge = top horizontal (7 cm) + inner horizontal (5 cm) = <b>12 cm</b>.<br><br><b>Step 2: Add all the outer sides together</b><br>Perimeter = Top (7) + Right (4) + Inner Horizontal (5) + Inner Vertical (6) + Left (10) + Bottom (12)<br>Perimeter = <b>44 cm</b>.<br><br>• Option B (40 cm) is a trap for those who forget to add the right vertical edge (4 cm).<br>• Option C (34 cm) is a trap for those who forget to add the left vertical edge (10 cm).<br>• Option D (32 cm) is a trap for those who forget to add the bottom edge (12 cm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795020796049.654,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x + 3y = 12</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − y = 1</kbd>",
+      "options": [
+        "x = 3, y = 2",
+        "x = 2, y = 3",
+        "x = 4, y = 1",
+        "x = 1, y = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the substitution method by expressing x in terms of y from the second equation.<br><br><b>Step 1: Rearrange the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = y + 1</kbd><br><br><b>Step 2: Substitute into the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(y + 1) + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y + 2 + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y + 2 = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y = 10</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2</kbd><br><br><b>Step 3: Substitute y back to find x</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 2 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 2</b>.",
       "difficulty": "easy",
       "points": 1
     }
