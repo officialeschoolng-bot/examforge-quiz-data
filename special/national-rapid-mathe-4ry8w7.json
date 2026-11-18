@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 47,
+  "totalQuestions": 48,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -678,6 +678,21 @@
         "6",
         "12",
         "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024486031.6223,
+      "question": "<div style='display: flex; justify-content: center; align-items: center; margin: 20px 0; color: currentColor;'><span style='font-size: 3em; font-weight: 300; line-height: 1;'>|</span><table style='margin: 0 16px; font-size: 1.2em; text-align: center;'><tr><td style='padding: 6px 16px;'>2</td><td style='padding: 6px 16px;'>3</td><td style='padding: 6px 16px;'>1</td></tr><tr><td style='padding: 6px 16px;'>4</td><td style='padding: 6px 16px;'>−1</td><td style='padding: 6px 16px;'>2</td></tr><tr><td style='padding: 6px 16px;'>1</td><td style='padding: 6px 16px;'>5</td><td style='padding: 6px 16px;'>3</td></tr></table><span style='font-size: 3em; font-weight: 300; line-height: 1;'>|</span></div><p style='margin-top: 12px; font-size: 1.05rem;'>Find the determinant of the 3×3 matrix shown above.</p>",
+      "options": [
+        "−35",
+        "35",
+        "−15",
+        "45",
+        "−45"
       ],
       "correctAnswer": 0,
       "explanation": "A",
