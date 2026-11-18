@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 28,
+  "totalQuestions": 33,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -405,6 +405,76 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Step 1: Determine the total number of outcomes</b><br>When rolling two dice, the total number of outcomes is:<br>6 × 6 = <b>36</b>.<br><br><b>Step 2: Identify the successful outcomes</b><br>We need the sum to be strictly greater than 9 (so 10, 11, or 12). Let's list the combinations:<br>• Sum = 10: (4,6), (5,5), (6,4) → <b>3</b> ways<br>• Sum = 11: (5,6), (6,5) → <b>2</b> ways<br>• Sum = 12: (6,6) → <b>1</b> way<br><br>Total successful outcomes = 3 + 2 + 1 = <b>6</b>.<br><br><b>Step 3: Calculate the probability</b><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Favorable Outcomes</span><span style='display:block;padding:0 .35em;'>Total Outcomes</span></span><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6</span><span style='display:block;padding:0 .35em;'>36</span></span> = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span></b>.<br><br>• Option B (1/12) is a trap for those who forget the (5,5) or (6,6) combinations.<br>• Option C (5/36) is a trap for those who include a sum of 9 (e.g., (3,6), (4,5)) by misreading 'greater than or equal to'.<br>• Option D (1/9) is a trap for those who only count the sums of 10 and 11, forgetting 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023264568.616,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 280 140 A 100 100 0 0 1 280 300 A 100 100 0 0 1 280 140 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A'",
+        "B'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shaded region is the middle section where Set A and Set B overlap. It includes only the elements that are in <b>both</b> Set A and Set B.<br><br>• Option A (A ∪ B) is incorrect because it represents everything inside both circles.<br>• Option C (A') is incorrect because it represents everything outside Set A.<br>• Option D (B') is incorrect because it represents everything outside Set B.<br><br>Because the shaded area is the overlapping middle section, it is denoted as <b>A ∩ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023363024.7058,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 280 140 A 100 100 0 0 1 280 300 A 100 100 0 0 1 280 140 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A'",
+        "B'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shaded region is the middle section where Set A and Set B overlap. It includes only the elements that are in <b>both</b> Set A and Set B.<br><br>• Option A (A ∪ B) is incorrect because it represents everything inside both circles.<br>• Option C (A') is incorrect because it represents everything outside Set A.<br>• Option D (B') is incorrect because it represents everything outside Set B.<br><br>Because the shaded area is the overlapping middle section, it is denoted as <b>A ∩ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023363024.6418,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 220 120 A 100 100 0 0 0 280 300 A 100 100 0 0 1 340 320 A 100 100 0 0 1 340 120 A 100 100 0 0 1 280 140 A 100 100 0 0 0 220 120 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "(A ∪ B)'",
+        "(A ∩ B)'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shaded region covers the entirety of Set A and Set B, including the overlapping middle section. It represents all elements that are in A <b>or</b> B (or both).<br><br>• Option B (A ∩ B) is incorrect because it only represents the middle overlapping section.<br>• Option C ((A ∪ B)') is incorrect because it represents everything <i>outside</i> the two circles.<br>• Option D ((A ∩ B)') is incorrect because it represents everything except the middle overlapping section.<br><br>Because the shaded area represents the combination of both sets, it is denoted as <b>A ∪ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023608777.1248,
+      "question": "<span style='display:inline-block;font-size:3.6em;font-weight:900;line-height:1.05;letter-spacing:3px;background:rgba(128,128,128,0.25);padding:10px 20px;border-radius:12px;'>MATHEMATICS</span><br><br>How many distinct anagrams can be formed from the word shown above?",
+      "options": [
+        "4,989,600",
+        "39,916,800",
+        "11!",
+        "2,494,800"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word MATHEMATICS has 11 letters.<br><br>Letter counts: M = 2, A = 2, T = 2, and H, E, I, C, S each appear once.<br><br>The number of distinct arrangements is:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>11!</span><span style='display:block;padding:0 .35em;'>2! × 2! × 2!</span></span><br><br>= <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>39,916,800</span><span style='display:block;padding:0 .35em;'>8</span></span> = <b>4,989,600</b>.<br><br>• Option B (39,916,800) is 11! without dividing by the repeated letters.<br>• Option C (11!) is the same trap written differently.<br>• Option D (2,494,800) comes from dividing by 16 instead of 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023715158.2722,
+      "question": "<span style='display:inline-block;font-size:4.8em;font-weight:900;line-height:1.05;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;'><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 .35em;'>10!</span><span style='display:block;padding:0 .35em;'>6!</span></span></span><br><br>Evaluate the expression shown above.",
+      "options": [
+        "5,040",
+        "720",
+        "30,240",
+        "151,200"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Write the numerator in expanded form so the 6! cancels:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10!</span><span style='display:block;padding:0 .35em;'>6!</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10 × 9 × 8 × 7 × 6!</span><span style='display:block;padding:0 .35em;'>6!</span></span><br><br>The 6! cancels, leaving:<br><br>10 × 9 × 8 × 7 = <b>5,040</b>.<br><br>• Option B (720) is just 6!.<br>• Option C (30,240) comes from multiplying too many factors.<br>• Option D (151,200) comes from not cancelling correctly.",
       "difficulty": "easy",
       "points": 1
     }
