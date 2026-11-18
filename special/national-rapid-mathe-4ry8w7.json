@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 2,
+  "totalQuestions": 4,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -41,6 +41,34 @@
       ],
       "correctAnswer": 0,
       "explanation": "We can solve this system using the substitution method by expressing x in terms of y from the second equation.<br><br><b>Step 1: Rearrange the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = y + 1</kbd><br><br><b>Step 2: Substitute into the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(y + 1) + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y + 2 + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y + 2 = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y = 10</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2</kbd><br><br><b>Step 3: Substitute y back to find x</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 2 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795020838660.847,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x + 2y = 18</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 5</kbd>",
+      "options": [
+        "x = 4, y = 3",
+        "x = 3, y = 4",
+        "x = 5, y = 2",
+        "x = 2, y = 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by making the coefficients of y opposites.<br><br><b>Step 1: Multiply the second equation by 2</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(2x − y) = 2(5)</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x − 2y = 10</kbd><br><br><b>Step 2: Add the new equation to the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>(3x + 2y) + (4x − 2y) = 18 + 10</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>7x = 28</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 3: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(4) − y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>8 − y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 3</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795020913408.7012,
+      "question": "<div style='text-align: center; margin: 30px 0;'><span style='display: inline-block; font-family: &quot;Times New Roman&quot;, Times, serif; font-size: clamp(3.5rem, 15vw, 9rem); font-weight: 900; letter-spacing: 4px; background-color: rgba(255, 215, 0, 0.25); border: 4px solid currentColor; padding: 10px 30px; border-radius: 12px; color: currentColor; line-height: 1.1; max-width: 100%; word-wrap: break-word;'>MDCCLIX</span></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>Convert the very large highlighted Roman numeral above into Arabic numerals (standard numbers).</div>",
+      "options": [
+        "1759",
+        "1769",
+        "1659",
+        "1749"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert the Roman numeral <b>MDCCLIX</b> to Arabic numerals, we break it down into its individual components and add them together:<br><br>• <b>M</b> = 1000<br>• <b>D</b> = 500<br>• <b>C</b> = 100<br>• <b>C</b> = 100<br>• <b>L</b> = 50<br>• <b>IX</b> = 9 (where I before X means 10 − 1)<br><br>Adding these values together:<br>1000 + 500 + 100 + 100 + 50 + 9 = <b>1759</b>.<br><br>• Option B (1769) is a trap if you mistakenly add an extra X (10).<br>• Option C (1659) is a trap if you mistake D (500) for a C (100) or misread the hundreds.<br>• Option D (1749) is a trap if you confuse L (50) with XL (40).",
       "difficulty": "easy",
       "points": 1
     }
