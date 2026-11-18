@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 4,
+  "totalQuestions": 5,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -69,6 +69,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To convert the Roman numeral <b>MDCCLIX</b> to Arabic numerals, we break it down into its individual components and add them together:<br><br>• <b>M</b> = 1000<br>• <b>D</b> = 500<br>• <b>C</b> = 100<br>• <b>C</b> = 100<br>• <b>L</b> = 50<br>• <b>IX</b> = 9 (where I before X means 10 − 1)<br><br>Adding these values together:<br>1000 + 500 + 100 + 100 + 50 + 9 = <b>1759</b>.<br><br>• Option B (1769) is a trap if you mistakenly add an extra X (10).<br>• Option C (1659) is a trap if you mistake D (500) for a C (100) or misread the hundreds.<br>• Option D (1749) is a trap if you confuse L (50) with XL (40).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795021005515.1116,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='250' y1='400' x2='250' y2='100' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='430' y1='316' x2='430' y2='16' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='250' y1='400' x2='430' y2='316' stroke='currentColor' stroke-width='2.6'/><path d='M 250 330 A 70 70 0 0 1 313.4 370.4' fill='none' stroke='currentColor' stroke-width='2'/><path d='M 430 246 A 70 70 0 0 0 366.6 345.6' fill='none' stroke='currentColor' stroke-width='2'/><text x='250' y='90' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='430' y='6' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='265' y='355' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>065°</text><text x='390' y='290' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>?</text><circle cx='250' cy='400' r='5' fill='currentColor'/><circle cx='430' cy='316' r='5' fill='currentColor'/><text x='235' y='420' text-anchor='end' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>B</text><text x='445' y='335' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>A</text></svg></div><br>The diagram above shows two points, A and B. The bearing of A from B is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>065°</kbd>. What is the bearing of B from A?",
+      "options": [
+        "065°",
+        "115°",
+        "245°",
+        "295°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find the reverse bearing (the bearing of B from A), we can use the rule that reverse bearings differ by exactly 180°.<br><br><b>Step 1: Apply the reverse bearing formula</b><br>Since the given bearing is less than 180°, we add 180° to find the opposite direction.<br>Reverse Bearing = 065° + 180° = <b>245°</b>.<br><br><b>Alternative Method (Using Angles):</b><br>• The two North lines are parallel, so the interior angles between them add up to 180°.<br>• The angle inside the triangle at A (between the North line and the line to B) is therefore 180° − 65° = 115°.<br>• The bearing of B from A is measured clockwise from the North line at A. It is 360° − 115° = 245°.<br><br>• Option A (065°) is a trap for those who forget to reverse the direction.<br>• Option B (115°) is a trap for those who calculate the interior angle but don't convert it to a true bearing from North.<br>• Option D (295°) is a trap for those who subtract 65° from 360° instead of adding 180°.",
       "difficulty": "easy",
       "points": 1
     }
