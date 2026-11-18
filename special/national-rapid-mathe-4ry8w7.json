@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 44,
+  "totalQuestions": 45,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -636,6 +636,21 @@
       ],
       "correctAnswer": 0,
       "explanation": "To find the median, the numbers must first be arranged in ascending order (from smallest to largest).<br><br><b>Step 1: Arrange the data</b><br>8, 12, 17, 23, 31, 34, <b>42, 45, 55</b>, 60, 67, 73, 88, 91, 99<br><br><b>Step 2: Find the middle value</b><br>Because there are 15 numbers (an odd amount), the median is the exact middle number. The middle position is the 8th number (since 7 numbers are before it and 7 are after it).<br><br>Counting to the 8th number gives us <b>45</b>.<br><br>• Option B (42) is the 7th number.<br>• Option C (55) is the 9th number.<br>• Option D (34) is the 6th number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024313309.454,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><circle cx='280' cy='160' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><circle cx='210' cy='260' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><circle cx='350' cy='260' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><text x='280' y='60' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Math</text><text x='120' y='340' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Physics</text><text x='440' y='340' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Chem</text><text x='280' y='130' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>10</text><text x='180' y='270' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>15</text><text x='380' y='270' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>20</text><text x='230' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>5</text><text x='330' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>8</text><text x='280' y='300' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>3</text><text x='280' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>4</text><text x='60' y='450' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>12</text></svg></div><br><div style='font-size: 1.8em; font-weight: 900; line-height: 1.2; background:rgba(128,128,128,0.15); padding:14px 28px; border-radius:14px; color: currentColor;'>How many students registered for at least two courses?</div>",
+      "options": [
+        "20",
+        "16",
+        "12",
+        "26",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
       "difficulty": "easy",
       "points": 1
     }
