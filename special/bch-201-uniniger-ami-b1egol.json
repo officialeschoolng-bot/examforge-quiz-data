@@ -3,16 +3,858 @@
   "title": "BCH 201 (UNINIGER): AMINO ACID",
   "subject": "BCH 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 60,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795014767035.7576,
+      "question": "Which of the following best defines an amino acid?",
+      "options": [
+        "An organic compound containing an amino group and a hydroxyl group.",
+        "An organic compound containing an amino group and a carboxyl group.",
+        "A polymer of peptides linked by glycosidic bonds.",
+        "A simple sugar molecule with an attached nitrogen atom."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — An amino acid is defined by the presence of both an amino group (-NH2) and a carboxyl group (-COOH) attached to the same carbon (the alpha-carbon).<br><br>• Option A is incorrect because a hydroxyl group (-OH) is not the defining acidic group; amino acids contain a carboxyl group, not merely a hydroxyl group.<br>• Option C is incorrect because peptides are linked by peptide bonds, not glycosidic bonds; glycosidic bonds link sugars.<br>• Option D is incorrect because amino acids are not simple sugars with nitrogen; they are organic acids with an amino substituent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.9988,
+      "question": "All amino acids found in proteins are alpha-amino acids. What does this signify?",
+      "options": [
+        "The amino group is attached to the alpha-carbon, adjacent to the carboxyl group.",
+        "The amino group is on the terminal carbon of the side chain.",
+        "They all have the same stereochemistry (D-form).",
+        "They are all synthesized in the alpha-cells of the pancreas."
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Correct: A</b> — In an alpha-amino acid, the amino group is attached to the alpha-carbon, which is the carbon immediately adjacent to the carboxyl carbon.<br><br>• Option B is incorrect because the amino group is not on the terminal side-chain carbon; it is on the alpha-carbon.<br>• Option C is incorrect because naturally occurring protein amino acids are predominantly L-enantiomers, not D-forms.<br>• Option D is incorrect because alpha-amino acids are not synthesized in pancreatic alpha-cells; that phrase confuses the alpha-carbon with pancreatic cell types.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.0813,
+      "question": "Based on the number of amino and carboxyl groups, into which category does Glutamic acid fall?",
+      "options": [
+        "Neutral amino acid",
+        "Basic amino acid",
+        "Acidic amino acid",
+        "Aromatic amino acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Glutamic acid has two carboxyl groups and one amino group, giving it a net acidic character; it is therefore classified as an acidic amino acid.<br><br>• Option A is incorrect because neutral amino acids have equal numbers of amino and carboxyl groups.<br>• Option B is incorrect because basic amino acids have more amino/basic groups than carboxyl groups.<br>• Option D is incorrect because aromatic amino acids are classified by an aromatic side chain, not by acidic group count.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.625,
+      "question": "Which of the following is a basic amino acid?",
+      "options": [
+        "Aspartic acid",
+        "Alanine",
+        "Lysine",
+        "Valine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Lysine contains an extra amino group in its side chain, making it a basic amino acid with a positive charge at physiological pH.<br><br>• Option A is incorrect because aspartic acid is an acidic amino acid.<br>• Option B is incorrect because alanine is a neutral, non-polar amino acid.<br>• Option D is incorrect because valine is a neutral, non-polar branched-chain amino acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.7268,
+      "question": "Phenylalanine, Tyrosine, and Tryptophan are classified as:",
+      "options": [
+        "Aliphatic amino acids",
+        "Aromatic amino acids",
+        "Sulphur-containing amino acids",
+        "Heterocyclic amino acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Phenylalanine, tyrosine, and tryptophan all contain aromatic rings in their side chains, so they are classified as aromatic amino acids.<br><br>• Option A is incorrect because aliphatic amino acids have non-aromatic hydrocarbon side chains.<br>• Option C is incorrect because sulphur-containing amino acids include cysteine and methionine.<br>• Option D is incorrect because although tryptophan contains a heterocyclic indole ring, the group as a whole is classified as aromatic; heterocyclic is not the standard class for all three.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.1633,
+      "question": "Which of the following is an imino acid?",
+      "options": [
+        "Glycine",
+        "Proline",
+        "Serine",
+        "Arginine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Proline is called an imino acid because its side chain forms a cyclic structure with the amino group, giving it a secondary amine (imino) character.<br><br>• Option A is incorrect because glycine is the simplest amino acid with a primary amino group.<br>• Option C is incorrect because serine is a hydroxyl-containing amino acid.<br>• Option D is incorrect because arginine is a basic amino acid with a guanidino group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.044,
+      "question": "Which of these is a sulphur-containing amino acid?",
+      "options": [
+        "Serine",
+        "Threonine",
+        "Tyrosine",
+        "Cysteine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Correct: D</b> — Cysteine contains a thiol (-SH) group in its side chain and is a sulphur-containing amino acid.<br><br>• Option A is incorrect because serine contains a hydroxyl group, not sulphur.<br>• Option B is incorrect because threonine contains a hydroxyl group, not sulphur.<br>• Option C is incorrect because tyrosine contains a phenol group, not sulphur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767035.831,
+      "question": "Which of the following is classified as an essential amino acid?",
+      "options": [
+        "Alanine",
+        "Aspartic acid",
+        "Glutamic acid",
+        "Methionine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Correct: D</b> — Methionine is an essential amino acid; it cannot be synthesized by the human body and must be obtained from the diet.<br><br>• Option A is incorrect because alanine is non-essential.<br>• Option B is incorrect because aspartic acid is non-essential.<br>• Option C is incorrect because glutamic acid is non-essential.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.4954,
+      "question": "Which of these amino acids is considered non-essential in human nutrition?",
+      "options": [
+        "Leucine",
+        "Valine",
+        "Tyrosine",
+        "Tryptophan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Tyrosine is considered non-essential because it can be synthesized in the body from phenylalanine.<br><br>• Option A is incorrect because leucine is an essential amino acid.<br>• Option B is incorrect because valine is an essential amino acid.<br>• Option D is incorrect because tryptophan is an essential amino acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.0864,
+      "question": "An amino acid that can be converted to glucose is termed:",
+      "options": [
+        "Ketogenic",
+        "Glucogenic",
+        "Essential",
+        "Non-polar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — A glucogenic amino acid is one whose carbon skeleton can be converted into glucose via gluconeogenesis.<br><br>• Option A is incorrect because ketogenic amino acids are converted to ketone bodies, not glucose.<br>• Option C is incorrect because essential refers to dietary requirement, not metabolic fate.<br>• Option D is incorrect because non-polar refers to side-chain chemistry, not glucose formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.9875,
+      "question": "Which of the following is a purely ketogenic amino acid?",
+      "options": [
+        "Isoleucine",
+        "Phenylalanine",
+        "Leucine",
+        "Tyrosine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Leucine is a purely ketogenic amino acid; its carbon skeleton is converted only to ketone bodies, not to glucose.<br><br>• Option A is incorrect because isoleucine is both glucogenic and ketogenic.<br>• Option B is incorrect because phenylalanine is both glucogenic and ketogenic.<br>• Option D is incorrect because tyrosine is both glucogenic and ketogenic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.363,
+      "question": "Amino acids that are both glucogenic and ketogenic include:",
+      "options": [
+        "Leucine and Lysine",
+        "Alanine and Glycine",
+        "Isoleucine and Phenylalanine",
+        "Valine and Methionine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Isoleucine and phenylalanine are examples of amino acids that can be converted to both glucose and ketone bodies.<br><br>• Option A is incorrect because leucine and lysine are purely ketogenic.<br>• Option B is incorrect because alanine and glycine are glucogenic only.<br>• Option D is incorrect because valine and methionine are glucogenic, not both glucogenic and ketogenic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.6816,
+      "question": "According to side chain polarity, Valine is classified as a:",
+      "options": [
+        "Hydrophilic, polar amino acid",
+        "Hydrophobic, non-polar amino acid",
+        "Positively charged amino acid",
+        "Negatively charged amino acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Valine has a branched hydrocarbon side chain, making it hydrophobic and non-polar.<br><br>• Option A is incorrect because hydrophilic polar amino acids have polar side chains such as -OH or -NH2.<br>• Option C is incorrect because positively charged amino acids include lysine and arginine.<br>• Option D is incorrect because negatively charged amino acids include aspartate and glutamate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.7307,
+      "question": "Which of the following amino acids is hydrophilic and uncharged polar at physiological pH?",
+      "options": [
+        "Leucine",
+        "Methionine",
+        "Serine",
+        "Lysine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Serine has a hydroxyl (-OH) side chain, making it hydrophilic and uncharged polar at physiological pH.<br><br>• Option A is incorrect because leucine is hydrophobic and non-polar.<br>• Option B is incorrect because methionine is hydrophobic and non-polar.<br>• Option D is incorrect because lysine is positively charged at physiological pH.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.25,
+      "question": "Which two amino acids are negatively charged at physiological pH?",
+      "options": [
+        "Lysine and Arginine",
+        "Aspartic acid and Glutamic acid",
+        "Serine and Threonine",
+        "Histidine and Lysine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Aspartic acid and glutamic acid have acidic side chains that lose protons at physiological pH, giving them a net negative charge.<br><br>• Option A is incorrect because lysine and arginine are positively charged.<br>• Option C is incorrect because serine and threonine are uncharged polar amino acids.<br>• Option D is incorrect because histidine and lysine are positively charged or partially positive, not negatively charged.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.5403,
+      "question": "What is the primary reason most amino acids are optically active?",
+      "options": [
+        "They contain a carboxyl group.",
+        "They contain an asymmetric alpha-carbon atom.",
+        "They are all found in the L-configuration.",
+        "They can form zwitterions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Most amino acids have four different groups attached to the alpha-carbon, making it asymmetric (chiral) and therefore optically active.<br><br>• Option A is incorrect because a carboxyl group alone does not create optical activity.<br>• Option C is incorrect because being in the L-configuration is a consequence of chirality, not the primary reason for optical activity.<br>• Option D is incorrect because zwitterion formation does not explain optical activity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.1135,
+      "question": "Which amino acid is the exception to the rule that all amino acids are optically active?",
+      "options": [
+        "Alanine",
+        "Proline",
+        "Glycine",
+        "Cysteine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Glycine has two hydrogen atoms on its alpha-carbon, so it lacks a chiral center and is not optically active.<br><br>• Option A is incorrect because alanine has a chiral alpha-carbon.<br>• Option B is incorrect because proline has a chiral alpha-carbon.<br>• Option D is incorrect because cysteine has a chiral alpha-carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.7595,
+      "question": "The property of amino acids to react with both acids and bases is known as:",
+      "options": [
+        "Amphoterism",
+        "Denaturation",
+        "Isoelectric focusing",
+        "Decarboxylation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Correct: A</b> — Amphoterism is the ability of a molecule to act as both an acid and a base; amino acids are amphoteric because they contain both acidic and basic groups.<br><br>• Option B is incorrect because denaturation refers to loss of protein structure.<br>• Option C is incorrect because isoelectric focusing is a separation technique based on isoelectric point.<br>• Option D is incorrect because decarboxylation is the removal of a carboxyl group as CO2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.661,
+      "question": "The pH at which an amino acid carries no net electrical charge is called its:",
+      "options": [
+        "pKa",
+        "Optimum pH",
+        "Isoelectric point (IEP)",
+        "Neutral point"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — The isoelectric point (IEP) is the pH at which the amino acid has no net charge and exists mainly as a zwitterion.<br><br>• Option A is incorrect because pKa is the pH at which a specific ionizable group is half-dissociated.<br>• Option B is incorrect because optimum pH usually refers to enzyme activity.<br>• Option D is incorrect because neutral point is not the standard biochemical term for this concept.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.0725,
+      "question": "At a pH below its isoelectric point, an amino acid will exist primarily as a:",
+      "options": [
+        "Zwitterion",
+        "Cation (positively charged)",
+        "Anion (negatively charged)",
+        "Neutral molecule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Below the isoelectric point, the medium is more acidic, so the amino acid is protonated and carries a net positive charge (cation).<br><br>• Option A is incorrect because the zwitterion predominates at the isoelectric point.<br>• Option C is incorrect because the anion predominates above the isoelectric point.<br>• Option D is incorrect because the molecule is charged, not neutral, away from the IEP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.012,
+      "question": "What is the form of an amino acid at its isoelectric point called?",
+      "options": [
+        "Anion",
+        "Cation",
+        "Zwitterion",
+        "Radical ion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — At the isoelectric point, the amino acid exists predominantly as a zwitterion, containing both positive and negative charges with a net charge of zero.<br><br>• Option A is incorrect because the anion form dominates at pH above the IEP.<br>• Option B is incorrect because the cation form dominates at pH below the IEP.<br>• Option D is incorrect because radical ions are not the standard form of amino acids at the IEP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.0288,
+      "question": "Why do amino acids precipitate most readily at their isoelectric point?",
+      "options": [
+        "They become denatured.",
+        "The molecules have no net charge and repel each other less.",
+        "They form covalent bonds with each other.",
+        "Their solubility increases dramatically."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — At the isoelectric point, amino acid molecules have no net charge, so electrostatic repulsion between them is minimized, allowing them to aggregate and precipitate.<br><br>• Option A is incorrect because denaturation applies to proteins, not simple amino acids.<br>• Option C is incorrect because precipitation at the IEP does not involve new covalent bonds.<br>• Option D is incorrect because solubility is lowest, not highest, at the isoelectric point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.1792,
+      "question": "Which reagent reacts with the amino group of most amino acids to liberate nitrogen gas, but not with proline?",
+      "options": [
+        "Ninhydrin",
+        "Nitrous acid",
+        "Acetyl chloride",
+        "Methyl iodide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Nitrous acid reacts with primary amino groups to release nitrogen gas; proline has a secondary amino group and does not give this reaction.<br><br>• Option A is incorrect because ninhydrin produces a colour change, not nitrogen gas.<br>• Option C is incorrect because acetyl chloride acetylates amino groups.<br>• Option D is incorrect because methyl iodide methylates amino groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.2808,
+      "question": "The reaction of an amino acid with an alcohol forms:",
+      "options": [
+        "A salt",
+        "An ester",
+        "An amide",
+        "A peptide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — The carboxyl group of an amino acid reacts with an alcohol to form an ester, often in the presence of an acid catalyst.<br><br>• Option A is incorrect because salt formation occurs with acids or bases, not alcohols.<br>• Option C is incorrect because amide formation involves reaction with an amine.<br>• Option D is incorrect because peptide formation involves reaction with another amino acid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.5117,
+      "question": "The decarboxylation of histidine produces which physiologically active compound?",
+      "options": [
+        "Tryptamine",
+        "Ethanolamine",
+        "Histamine",
+        "Serotonin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Decarboxylation of histidine removes CO2 and produces histamine, a mediator of allergic and inflammatory responses.<br><br>• Option A is incorrect because tryptamine is derived from tryptophan.<br>• Option B is incorrect because ethanolamine is derived from serine.<br>• Option D is incorrect because serotonin is derived from tryptophan.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.3445,
+      "question": "The reaction of an amino acid with acetyl chloride is an example of:",
+      "options": [
+        "Decarboxylation",
+        "Acetylation",
+        "Methylation",
+        "Deamination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Acetyl chloride reacts with the amino group of an amino acid to add an acetyl group, so the reaction is acetylation.<br><br>• Option A is incorrect because decarboxylation removes CO2.<br>• Option C is incorrect because methylation uses methyl iodide or similar reagents.<br>• Option D is incorrect because deamination removes an amino group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.7764,
+      "question": "Oxidative deamination of an amino acid produces:",
+      "options": [
+        "A fatty acid and NH3",
+        "A hydroxyl fatty acid and NH3",
+        "An alpha-keto acid and NH3",
+        "A primary amine and CO2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Oxidative deamination removes the amino group as ammonia and converts the carbon skeleton to an alpha-keto acid.<br><br>• Option A is incorrect because a fatty acid is not the direct product of amino acid oxidative deamination.<br>• Option B is incorrect because a hydroxyl fatty acid is not the product.<br>• Option D is incorrect because the amino group is removed as NH3, not left as a primary amine, and CO2 is not the direct product.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.1582,
+      "question": "The formation of a peptide bond is a reaction between:",
+      "options": [
+        "The R-groups of two amino acids.",
+        "The amino group of one amino acid and the carboxyl group of another.",
+        "Two carboxyl groups.",
+        "Two amino groups."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — A peptide bond forms by condensation between the alpha-amino group of one amino acid and the alpha-carboxyl group of another, with loss of water.<br><br>• Option A is incorrect because R-groups are not directly involved in the peptide backbone bond.<br>• Option C is incorrect because carboxyl-carboxyl reaction does not form a peptide bond.<br>• Option D is incorrect because amino-amino reaction does not form a peptide bond.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.0422,
+      "question": "Which colour is produced when most amino acids react with Ninhydrin?",
+      "options": [
+        "Yellow",
+        "Blue",
+        "Red",
+        "Purple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Most amino acids react with ninhydrin to produce a blue or blue-purple colour (often called Ruhemann's purple). The key marks blue as the expected answer.<br><br>• Option A is incorrect because yellow is typical of proline, not most amino acids.<br>• Option C is incorrect because red is not the standard ninhydrin colour.<br>• Option D is incorrect because although purple is often used to describe the complex, the option marked correct in the key is blue.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.6394,
+      "question": "Which amino acid gives a yellow colour with Ninhydrin?",
+      "options": [
+        "Glycine",
+        "Tryptophan",
+        "Proline",
+        "Tyrosine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Proline contains a secondary amine and reacts with ninhydrin to give a yellow colour rather than the usual blue-purple.<br><br>• Option A is incorrect because glycine gives the typical blue-purple colour.<br>• Option B is incorrect because tryptophan gives a blue-purple colour.<br>• Option D is incorrect because tyrosine gives a blue-purple colour.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.0706,
+      "question": "The Xanthoproteic test is used to detect the presence of which type of amino acids?",
+      "options": [
+        "Sulphur-containing amino acids",
+        "Aromatic amino acids",
+        "Basic amino acids",
+        "Acidic amino acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — The xanthoproteic test involves nitration of aromatic rings, so it detects aromatic amino acids such as phenylalanine, tyrosine, and tryptophan.<br><br>• Option A is incorrect because sulphur-containing amino acids are detected by other tests such as the lead acetate test.<br>• Option C is incorrect because basic amino acids are not the target of the xanthoproteic test.<br>• Option D is incorrect because acidic amino acids are not specifically detected by this test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.164,
+      "question": "Millon's test is specific for which amino acid due to its phenol group?",
+      "options": [
+        "Tryptophan",
+        "Phenylalanine",
+        "Tyrosine",
+        "Histidine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Millon's reagent reacts with the phenol group of tyrosine to give a red colour, making the test relatively specific for tyrosine.<br><br>• Option A is incorrect because tryptophan contains an indole ring, not a phenol group.<br>• Option B is incorrect because phenylalanine lacks a phenol group.<br>• Option D is incorrect because histidine contains an imidazole group, not a phenol group.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.2664,
+      "question": "The Rosenheim test is a specific test for which amino acid?",
+      "options": [
+        "Cysteine",
+        "Proline",
+        "Tryptophan",
+        "Arginine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — The Rosenheim test is used to detect tryptophan, often based on its indole ring reactivity.<br><br>• Option A is incorrect because cysteine is detected by sulphur-specific tests.<br>• Option B is incorrect because proline is detected by ninhydrin yellow colour or other tests.<br>• Option D is incorrect because arginine is detected by tests such as the Sakaguchi test.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.5107,
+      "question": "Which of the following elements is a defining component of proteins, constituting about 16% of their mass?",
+      "options": [
+        "Carbon",
+        "Hydrogen",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Correct: D</b> — Proteins are characterized by a high nitrogen content, averaging about 16% of their mass, which is used in the Kjeldahl method to estimate protein content.<br><br>• Option A is incorrect because carbon is abundant in all organic molecules, not defining for proteins.<br>• Option B is incorrect because hydrogen is not the defining element of proteins.<br>• Option C is incorrect because oxygen is also common in carbohydrates and lipids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.831,
+      "question": "Proteins are polymers of amino acids linked by which type of bond?",
+      "options": [
+        "Glycosidic bond",
+        "Peptide bond",
+        "Ester bond",
+        "Hydrogen bond"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Amino acids in proteins are joined by peptide bonds, which are amide linkages formed by condensation.<br><br>• Option A is incorrect because glycosidic bonds link sugars in carbohydrates.<br>• Option C is incorrect because ester bonds are found in lipids and some other molecules.<br>• Option D is incorrect because hydrogen bonds are non-covalent interactions that stabilize protein structure, not the primary backbone linkage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.9578,
+      "question": "Which of the following is NOT a biological function of proteins?",
+      "options": [
+        "Catalyzing metabolic reactions as enzymes.",
+        "Storing genetic information.",
+        "Providing structural support in skin and bone.",
+        "Transporting lipids and hormones in the blood."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Storing genetic information is the function of nucleic acids (DNA and RNA), not proteins.<br><br>• Option A is incorrect because enzymes are proteins and catalyze metabolic reactions.<br>• Option C is incorrect because structural proteins such as collagen provide support in skin and bone.<br>• Option D is incorrect because transport proteins such as albumin carry lipids and hormones in blood.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.5405,
+      "question": "The colloidal nature of proteins is demonstrated by which two phenomena?",
+      "options": [
+        "Osmosis and diffusion",
+        "Dialysis and precipitation",
+        "Tyndall effect and Brownian movement",
+        "Hydrolysis and denaturation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Proteins are colloids; their colloidal nature is shown by the Tyndall effect (scattering of light) and Brownian movement (random motion of particles).<br><br>• Option A is incorrect because osmosis and diffusion are general properties of solutions, not specific demonstrations of colloids.<br>• Option B is incorrect because dialysis and precipitation are separation techniques, not direct demonstrations of colloidal nature.<br>• Option D is incorrect because hydrolysis and denaturation are chemical changes, not colloidal properties.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.6365,
+      "question": "Why are proteins considered non-dialyzable?",
+      "options": [
+        "They are positively charged.",
+        "They are too large to pass through a semipermeable membrane.",
+        "They are insoluble in water.",
+        "They precipitate at their isoelectric point."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Proteins are large macromolecules and cannot pass through the pores of a semipermeable dialysis membrane, so they are retained while small molecules diffuse out.<br><br>• Option A is incorrect because charge is not the main reason; size is.<br>• Option C is incorrect because many proteins are soluble in water.<br>• Option D is incorrect because precipitation at the IEP is not the reason for non-dialyzability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.6614,
+      "question": "The ability of proteins to act as buffers is due to their:",
+      "options": [
+        "High molecular weight",
+        "Colloidal nature",
+        "Amphoteric nature",
+        "Peptide bonds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Proteins contain both acidic and basic groups and can donate or accept protons, so their amphoteric nature allows them to act as buffers.<br><br>• Option A is incorrect because high molecular weight does not directly explain buffering.<br>• Option B is incorrect because colloidal nature relates to particle size, not proton exchange.<br>• Option D is incorrect because peptide bonds are not the main buffering groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767036.667,
+      "question": "The process of denaturation of a protein involves:",
+      "options": [
+        "The breaking of peptide bonds.",
+        "The complete hydrolysis of the protein into amino acids.",
+        "The destruction of secondary and tertiary structures without breaking peptide bonds.",
+        "The synthesis of new peptide bonds."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Denaturation disrupts the non-covalent interactions that maintain secondary, tertiary, and quaternary structure, but the primary sequence and peptide bonds remain intact.<br><br>• Option A is incorrect because breaking peptide bonds is hydrolysis, not denaturation.<br>• Option B is incorrect because complete hydrolysis to amino acids is a more extensive process.<br>• Option D is incorrect because denaturation does not synthesize new peptide bonds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.5403,
+      "question": "Which of the following is a physical denaturing agent for proteins?",
+      "options": [
+        "Strong acid",
+        "Heavy metals",
+        "High temperature",
+        "Organic solvents"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — High temperature is a physical agent that disrupts non-covalent interactions and denatures proteins.<br><br>• Option A is incorrect because strong acid is a chemical denaturing agent.<br>• Option B is incorrect because heavy metals are chemical denaturants.<br>• Option D is incorrect because organic solvents are chemical denaturants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.4863,
+      "question": "Which of the following is a key characteristic of a denatured protein?",
+      "options": [
+        "Increased solubility in water",
+        "Loss of biological activity",
+        "Enhanced enzymatic function",
+        "A more stable, rigid structure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Denaturation usually destroys the native conformation and therefore leads to loss of biological activity.<br><br>• Option A is incorrect because denatured proteins often become less soluble and may precipitate.<br>• Option C is incorrect because enzymatic function is typically lost, not enhanced.<br>• Option D is incorrect because the denatured state is usually less ordered and less stable functionally.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.0183,
+      "question": "What is the net charge of an amino acid at a pH well above its isoelectric point?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "It depends on the amino acid."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — At a pH above the isoelectric point, the amino acid is deprotonated and carries a net negative charge.<br><br>• Option A is incorrect because a positive charge occurs at pH below the IEP.<br>• Option C is incorrect because zero net charge occurs at the IEP.<br>• Option D is incorrect because the general rule applies to amino acids with ionizable groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.2395,
+      "question": "Which amino acid is a precursor for the synthesis of serotonin and melatonin?",
+      "options": [
+        "Tyrosine",
+        "Histidine",
+        "Tryptophan",
+        "Phenylalanine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Tryptophan is the precursor for serotonin (5-hydroxytryptamine) and melatonin.<br><br>• Option A is incorrect because tyrosine is a precursor for catecholamines and thyroid hormones.<br>• Option B is incorrect because histidine is a precursor for histamine.<br>• Option D is incorrect because phenylalanine is converted to tyrosine, not directly to serotonin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.7852,
+      "question": "Which of the following amino acids does NOT contain a chiral center?",
+      "options": [
+        "Alanine",
+        "Glycine",
+        "Threonine",
+        "Leucine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Glycine has two hydrogen atoms attached to its alpha-carbon, so it is achiral.<br><br>• Option A is incorrect because alanine has a chiral alpha-carbon.<br>• Option C is incorrect because threonine has two chiral centers.<br>• Option D is incorrect because leucine has a chiral alpha-carbon.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.938,
+      "question": "The unique feature of proline is that its side chain forms a cyclic structure with its:",
+      "options": [
+        "Carboxyl group",
+        "Amino group",
+        "Alpha-carbon",
+        "Hydrogen atom"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Proline is unique because its side chain cyclizes with the amino group, forming a secondary amine (imino acid).<br><br>• Option A is incorrect because the side chain does not cyclize with the carboxyl group.<br>• Option C is incorrect because the alpha-carbon is part of the ring but the key feature is the amino group involvement.<br>• Option D is incorrect because the side chain does not cyclize with a hydrogen atom.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.4375,
+      "question": "The covalent bond that links the sulfur atoms of two cysteine molecules is called a:",
+      "options": [
+        "Peptide bond",
+        "Hydrogen bond",
+        "Disulfide bond",
+        "Ionic bond"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Two cysteine residues can be oxidized to form a covalent disulfide bond (-S-S-) between their thiol groups.<br><br>• Option A is incorrect because peptide bonds link amino acids through the backbone.<br>• Option B is incorrect because hydrogen bonds are non-covalent.<br>• Option D is incorrect because ionic bonds are electrostatic interactions between charged groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.0002,
+      "question": "In the reaction Amino Acid + CO2 -> Carbamino compound, which group is involved?",
+      "options": [
+        "Carboxyl group",
+        "R-group",
+        "Amino group",
+        "Alpha-carbon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Carbon dioxide reacts with the amino group of an amino acid to form a carbamino compound, as occurs with hemoglobin.<br><br>• Option A is incorrect because the carboxyl group is not the site of carbamino formation.<br>• Option B is incorrect because R-groups are not generally involved in carbamino formation.<br>• Option D is incorrect because the alpha-carbon is not the reactive site.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.7976,
+      "question": "Which of these plasma proteins is responsible for carrying hormones, minerals, and lipids?",
+      "options": [
+        "Antibodies",
+        "Hemoglobin",
+        "Albumin",
+        "Collagen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Albumin is the most abundant plasma protein and serves as a carrier for hormones, minerals, lipids, and drugs.<br><br>• Option A is incorrect because antibodies are involved in immune defense.<br>• Option B is incorrect because hemoglobin transports oxygen.<br>• Option D is incorrect because collagen is a structural protein, not a plasma carrier.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.6777,
+      "question": "Which of the following is an essential amino acid that is also a precursor to histamine?",
+      "options": [
+        "Lysine",
+        "Arginine",
+        "Histidine",
+        "Methionine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Histidine is an essential amino acid and is decarboxylated to form histamine.<br><br>• Option A is incorrect because lysine is essential but not the precursor to histamine.<br>• Option B is incorrect because arginine is conditionally essential and not the direct precursor to histamine.<br>• Option D is incorrect because methionine is essential but not the precursor to histamine.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.94,
+      "question": "The isoelectric point (IEP) is crucial for protein separation techniques because at this pH, proteins:",
+      "options": [
+        "Have maximum solubility.",
+        "Have maximum charge and mobility in an electric field.",
+        "Are most easily precipitated and have zero mobility.",
+        "Dissolve completely in organic solvents."
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — At the IEP, a protein has no net charge, so it does not migrate in an electric field and is most easily precipitated.<br><br>• Option A is incorrect because solubility is usually minimal at the IEP.<br>• Option B is incorrect because maximum charge and mobility occur away from the IEP.<br>• Option D is incorrect because solubility in organic solvents is not the basis of IEP separation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.1646,
+      "question": "Which of the following pairs are both basic amino acids with a net positive charge at physiological pH?",
+      "options": [
+        "Aspartate and Glutamate",
+        "Lysine and Arginine",
+        "Serine and Threonine",
+        "Leucine and Isoleucine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Lysine and arginine have basic side chains that are protonated and positively charged at physiological pH.<br><br>• Option A is incorrect because aspartate and glutamate are acidic and negatively charged.<br>• Option C is incorrect because serine and threonine are uncharged polar amino acids.<br>• Option D is incorrect because leucine and isoleucine are non-polar amino acids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.1416,
+      "question": "What type of reaction produces a peptide bond?",
+      "options": [
+        "Hydrolysis",
+        "Oxidation",
+        "Condensation",
+        "Deamination"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — A peptide bond is formed by a condensation (dehydration synthesis) reaction between an amino group and a carboxyl group, with loss of water.<br><br>• Option A is incorrect because hydrolysis breaks peptide bonds.<br>• Option B is incorrect because oxidation is not the primary reaction in peptide bond formation.<br>• Option D is incorrect because deamination removes amino groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.0261,
+      "question": "The alpha-helix and beta-pleated sheet are examples of a protein's:",
+      "options": [
+        "Primary structure",
+        "Secondary structure",
+        "Tertiary structure",
+        "Quaternary structure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Alpha-helices and beta-pleated sheets are regular local folding patterns that constitute secondary structure.<br><br>• Option A is incorrect because primary structure is the amino acid sequence.<br>• Option C is incorrect because tertiary structure is the overall 3D folding of a single polypeptide.<br>• Option D is incorrect because quaternary structure involves multiple polypeptide subunits.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.1348,
+      "question": "Which of the following is NOT a denaturing agent?",
+      "options": [
+        "Urea",
+        "X-rays",
+        "Detergent",
+        "A gentle increase in temperature to optimal physiological level."
+      ],
+      "correctAnswer": 3,
+      "explanation": "<b>Correct: D</b> — A gentle increase to the optimal physiological temperature supports normal protein function and is not a denaturing condition.<br><br>• Option A is incorrect because urea disrupts hydrogen bonding and denatures proteins.<br>• Option B is incorrect because X-rays can damage proteins and cause denaturation.<br>• Option C is incorrect because detergents disrupt hydrophobic interactions and denature proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.7112,
+      "question": "The reaction of an amino acid with methyl iodide is called:",
+      "options": [
+        "Acetylation",
+        "Methylation",
+        "Deamination",
+        "Decarboxylation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Methyl iodide adds a methyl group to the amino group, so the reaction is methylation.<br><br>• Option A is incorrect because acetylation uses acetyl chloride or acetic anhydride.<br>• Option C is incorrect because deamination removes an amino group.<br>• Option D is incorrect because decarboxylation removes CO2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.751,
+      "question": "The conversion of Serine to Ethanolamine is an example of:",
+      "options": [
+        "Transamination",
+        "Oxidative deamination",
+        "Decarboxylation",
+        "Hydrolysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Correct: C</b> — Serine is decarboxylated to ethanolamine, a reaction that removes the carboxyl group as CO2.<br><br>• Option A is incorrect because transamination transfers an amino group to a keto acid.<br>• Option B is incorrect because oxidative deamination removes an amino group as ammonia.<br>• Option D is incorrect because hydrolysis breaks bonds using water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.1787,
+      "question": "What is a zwitterion?",
+      "options": [
+        "An ion with two positive charges.",
+        "A molecule with both positive and negative charges but a net charge of zero.",
+        "An ion with two negative charges.",
+        "A large protein molecule."
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — A zwitterion has both positive and negative charges within the same molecule but carries no net charge overall.<br><br>• Option A is incorrect because a zwitterion is not defined by two positive charges.<br>• Option C is incorrect because a zwitterion is not defined by two negative charges.<br>• Option D is incorrect because a zwitterion is a charge state, not a size class of protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.9937,
+      "question": "Proteins are crucial for the immune system because they form:",
+      "options": [
+        "Antigens",
+        "Antibodies (immunoglobulins)",
+        "Buffers",
+        "Hormones"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Correct: B</b> — Antibodies are immunoglobulins, which are proteins produced by the immune system to recognize and neutralize antigens.<br><br>• Option A is incorrect because antigens are substances that trigger an immune response, not the proteins that defend the body.<br>• Option C is incorrect because buffers help maintain pH, not specifically immune defense.<br>• Option D is incorrect because hormones are signaling molecules, not the main immune proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795014767037.8066,
+      "question": "The peptide linkage in a protein is represented as:",
+      "options": [
+        "-CO-NH-",
+        "-CO-O-",
+        "-NH-C=O-",
+        "-NH-NH-"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Correct: A</b> — The peptide bond is an amide linkage represented as -CO-NH- between the carbonyl carbon of one amino acid and the amino nitrogen of the next.<br><br>• Option B is incorrect because -CO-O- represents an ester linkage.<br>• Option C is incorrect because it is the same amide linkage written in reverse order, but the standard representation is -CO-NH-.<br>• Option D is incorrect because -NH-NH- is not a peptide bond.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
