@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 14,
+  "totalQuestions": 15,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -209,6 +209,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "The <b>unshaded</b> portion is the inner circle. Its radius is given as <b>r = 14 cm</b>.<br><br><b>Step 1: Use the area of a circle formula</b><br>Area = πr²<br><br><b>Step 2: Substitute the values</b><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196<br>Area = 22 × 28 = <b>616 cm²</b>.<br><br>• Option B (770 cm²) is a trap for those who calculate the area of the <i>shaded</i> region: π(R² − r²) = 22/7 × (441 − 196) = 770.<br>• Option C (1386 cm²) is a trap for those who calculate the <i>total</i> area of the larger circle: πR² = 22/7 × 441 = 1386.<br>• Option D (154 cm²) is a trap for those who mistakenly use the difference in radii as the radius (21 − 14 = 7, then 22/7 × 7² = 154).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022586214.6768,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='150' height='150' viewBox='0 0 150 150' style='display:inline-block; overflow:visible;'><path d='M 75 15 L 125 40 L 125 110 L 75 135 L 25 110 L 25 40 Z' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M 75 15 L 75 45' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/><circle cx='75' cy='50' r='5' fill='currentColor'/><text x='75' y='85' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A trader bought a bag of rice for <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>₦2,500</kbd> and sold it for <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>₦3,000</kbd>. What is the percentage profit?</div>",
+      "options": [
+        "20%",
+        "16.67%",
+        "25%",
+        "500%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the percentage profit, we first need to calculate the actual profit made, and then express it as a percentage of the <b>Cost Price</b>.<br><br><b>Step 1: Calculate the profit</b><br>Profit = Selling Price − Cost Price<br>Profit = 3,000 − 2,500 = <b>₦500</b><br><br><b>Step 2: Calculate the percentage profit</b><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Profit</span><span style='display:block;padding:0 .35em;'>Cost Price</span></span> × 100<br><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>500</span><span style='display:block;padding:0 .35em;'>2500</span></span> × 100<br><br>Percentage Profit = 0.2 × 100 = <b>20%</b>.<br><br>• Option B (16.67%) is a trap for those who incorrectly divide the profit by the <i>Selling Price</i> instead of the Cost Price (500 ÷ 3000 × 100).<br>• Option C (25%) is a trap for those who make a calculation error, such as subtracting incorrectly or dividing by the wrong base.<br>• Option D (500%) is a trap for those who simply look at the ₦500 profit and forget to divide by the Cost Price.",
       "difficulty": "easy",
       "points": 1
     }
