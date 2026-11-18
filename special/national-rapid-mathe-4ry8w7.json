@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 17,
+  "totalQuestions": 28,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -251,6 +251,160 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Step 1: Determine the total number of possible outcomes</b><br>When rolling two fair six-sided dice, each die has 6 outcomes. The total number of possible outcomes in the sample space is:<br>6 × 6 = <b>36</b>.<br><br><b>Step 2: Identify the prime sums</b><br>The possible sums of two dice range from 2 to 12. The prime numbers within this range are: <b>2, 3, 5, 7,</b> and <b>11</b>. (Note: 1 is not prime, and numbers like 4, 6, 8, 9, 10, 12 are composite).<br><br><b>Step 3: Count the combinations for each prime sum</b><br>• Sum = <b>2</b>: (1,1) → <b>1</b> way<br>• Sum = <b>3</b>: (1,2), (2,1) → <b>2</b> ways<br>• Sum = <b>5</b>: (1,4), (2,3), (3,2), (4,1) → <b>4</b> ways<br>• Sum = <b>7</b>: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → <b>6</b> ways<br>• Sum = <b>11</b>: (5,6), (6,5) → <b>2</b> ways<br><br>Total favorable outcomes = 1 + 2 + 4 + 6 + 2 = <b>15</b>.<br><br><b>Step 4: Calculate the probability</b><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Favorable Outcomes</span><span style='display:block;padding:0 .35em;'>Total Outcomes</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>36</span></span><br><br>Simplify the fraction by dividing the numerator and denominator by 3:<br>Probability = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5</span><span style='display:block;padding:0 .35em;'>12</span></span></b>.<br><br>• Option B (1/6) is a trap for those who only calculate the probability of getting a sum of 7 (6/36), which is the most common sum, assuming it's the only prime.<br>• Option C (1/3) is a trap for those who only count the sums 3, 5, and 7 (2 + 4 + 6 = 12 ways → 12/36 = 1/3), forgetting that 2 and 11 are also prime.<br>• Option D (1/4) is a trap for those who miscalculate the total ways or miss multiple prime combinations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022966500.8022,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='300' height='160' viewBox='0 0 300 160' style='display:inline-block; overflow:visible;'><rect x='20' y='20' width='260' height='120' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5'/><rect x='25' y='25' width='250' height='110' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4'/><circle cx='120' cy='80' r='4' fill='currentColor'/><circle cx='200' cy='80' r='4' fill='currentColor'/><line x1='120' y1='80' x2='200' y2='80' stroke='currentColor' stroke-width='2' stroke-dasharray='4,4'/><text x='160' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>10 km</text><text x='160' y='130' text-anchor='middle' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>Scale: 1 : 50,000</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A map is drawn to a scale of <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>1 : 50,000</kbd>. If the actual distance between two towns on land is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10 km</kbd>, what is the length of this distance on the map in centimeters?</div>",
+      "options": [
+        "20 cm",
+        "5 cm",
+        "2 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Understand the scale</b><br>A scale of 1 : 50,000 means that 1 cm on the map represents 50,000 cm on the actual ground.<br><br><b>Step 2: Convert the actual distance to centimeters</b><br>The actual distance is given as 10 km. We must convert this to centimeters to match the scale.<br>• 1 km = 1,000 meters<br>• 1 meter = 100 centimeters<br>• Therefore, 1 km = 1,000 × 100 = 100,000 cm.<br>10 km = 10 × 100,000 = <b>1,000,000 cm</b>.<br><br><b>Step 3: Calculate the map distance</b><br>Map Distance = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Actual Distance</span><span style='display:block;padding:0 .35em;'>Scale Factor</span></span><br>Map Distance = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1,000,000 cm</span><span style='display:block;padding:0 .35em;'>50,000</span></span><br><br>Map Distance = <b>20 cm</b>.<br><br>• Option B (5 cm) is a trap for those who mistakenly divide 10 km directly by 2 or make a decimal error.<br>• Option C (2 cm) is a trap for those who only convert to meters instead of centimeters (10,000 m ÷ 50,000 = 0.2 m, misread as 2 cm).<br>• Option D (50 cm) is a trap for those who multiply by 5 instead of dividing by 50,000.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.9722,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 500 400' width='100%' style='display:block;max-width:480px;overflow:visible;'><polygon points='100,300 350,300 350,150 100,150' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6'/><polygon points='100,150 350,150 225,50' fill='rgba(128,128,128,0.3)' stroke='currentColor' stroke-width='2.6'/><path d='M 350 280 L 330 280 L 330 300' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='225' y='330' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>24 cm</text><text x='370' y='230' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>16 cm</text><text x='225' y='125' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>10 cm</text><text x='225' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='bold' fill='currentColor'>?</text></svg></div><br>The diagram shows a composite shape made of a rectangle and an isosceles triangle. Calculate the total area of the shape.",
+      "options": [
+        "504 cm²",
+        "384 cm²",
+        "624 cm²",
+        "456 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Calculate the area of the rectangle</b><br>Area of rectangle = length × width<br>Area = 24 cm × 16 cm = <b>384 cm²</b>.<br><br><b>Step 2: Calculate the area of the triangle</b><br>The base of the triangle is the same as the top of the rectangle, which is 24 cm. The perpendicular height is given as 10 cm.<br>Area of triangle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 24 × 10 = <b>120 cm²</b>.<br><br><b>Step 3: Add both areas together</b><br>Total Area = 384 + 120 = <b>504 cm²</b>.<br><br>• Option B (384 cm²) is a trap for those who only calculate the area of the rectangle.<br>• Option C (624 cm²) is a trap for those who forget the ½ in the triangle formula (384 + 240 = 624).<br>• Option D (456 cm²) is a trap for those who make an arithmetic error.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.0955,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>4x + 3y = 24</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 2</kbd>",
+      "options": [
+        "x = 3, y = 4",
+        "x = 4, y = 3",
+        "x = 2, y = 5",
+        "x = 5, y = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the substitution method by expressing y in terms of x from the second equation.<br><br><b>Step 1: Rearrange the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − y = 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2x − 2</kbd><br><br><b>Step 2: Substitute into the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x + 3(2x − 2) = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x + 6x − 6 = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>10x = 30</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br><b>Step 3: Substitute x back to find y</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2(3) − 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 6 − 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 4</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.9558,
+      "question": "<div style='text-align: center; margin: 30px 0;'><span style='display: inline-block; font-family: &quot;Times New Roman&quot;, Times, serif; font-size: clamp(3.5rem, 15vw, 9rem); font-weight: 900; letter-spacing: 4px; background-color: rgba(255, 215, 0, 0.25); border: 4px solid currentColor; padding: 10px 30px; border-radius: 12px; color: currentColor; line-height: 1.1; max-width: 100%; word-wrap: break-word;'>MCMXCIV</span></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>Convert the very large highlighted Roman numeral above into Arabic numerals (standard numbers).</div>",
+      "options": [
+        "1994",
+        "1984",
+        "1944",
+        "2004"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert the Roman numeral <b>MCMXCIV</b> to Arabic numerals, we break it down into its individual components and add them together:<br><br>• <b>M</b> = 1000<br>• <b>CM</b> = 900 (C before M means 1000 − 100)<br>• <b>XC</b> = 90 (X before C means 100 − 10)<br>• <b>IV</b> = 4 (I before V means 5 − 1)<br><br>Adding these values together:<br>1000 + 900 + 90 + 4 = <b>1994</b>.<br><br>• Option B (1984) is a trap for those who read LXXX (80) instead of XC (90).<br>• Option C (1944) is a trap for those who read XL (40) instead of XC (90).<br>• Option D (2004) is a trap for those who mistake MCM for MM (2000).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.8225,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='250' y1='400' x2='250' y2='100' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='430' y1='316' x2='430' y2='16' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='250' y1='400' x2='430' y2='316' stroke='currentColor' stroke-width='2.6'/><path d='M 250 330 A 70 70 0 0 1 313.4 370.4' fill='none' stroke='currentColor' stroke-width='2'/><text x='250' y='90' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='430' y='6' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='265' y='355' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>115°</text><circle cx='250' cy='400' r='5' fill='currentColor'/><circle cx='430' cy='316' r='5' fill='currentColor'/><text x='235' y='420' text-anchor='end' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>B</text><text x='445' y='335' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>A</text></svg></div><br>The diagram above shows two points, A and B. The bearing of A from B is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>115°</kbd>. What is the bearing of B from A?",
+      "options": [
+        "295°",
+        "245°",
+        "115°",
+        "65°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the reverse bearing (the bearing of B from A), we use the rule that reverse bearings differ by exactly 180°.<br><br><b>Step 1: Apply the reverse bearing formula</b><br>Since the given bearing is less than 180°, we add 180°.<br>Reverse Bearing = 115° + 180° = <b>295°</b>.<br><br><b>Alternative Method (Using Angles):</b><br>• The two North lines are parallel, so the interior angles between them add up to 180°.<br>• The angle inside the triangle at A (between the North line and the line to B) is 180° − 115° = 65°.<br>• The bearing of B from A is measured clockwise from the North line at A. It is 360° − 65° = 295°.<br><br>• Option B (245°) is a trap for those who subtract the angle from 360° incorrectly.<br>• Option C (115°) is a trap for those who forget to reverse the direction.<br>• Option D (65°) is the interior angle at A, not the true bearing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.9524,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; font-size: 1.2rem; margin-bottom: 16px;'>Simplify the following surd expression completely.</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 20px 30px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor; line-height: 2;'> <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 12px;'>10 + 4√5</span><span style='display:block;padding:0 12px;'>2 + √5</span></span> </kbd></div>",
+      "options": [
+        "2√5",
+        "√5",
+        "4√5",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(2 − √5)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10 + 4√5</span><span style='display:block;padding:0 .35em;'>2 + √5</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>2 − √5</span><span style='display:block;padding:0 .35em;'>2 − √5</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 10 × 2 = 20<br>• Outer: 10 × (−√5) = −10√5<br>• Inner: 4√5 × 2 = 8√5<br>• Last: 4√5 × (−√5) = −4(5) = −20<br><br>Combine the terms:<br>(20 − 20) + (8√5 − 10√5) = <b>−2√5</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(2 + √5)(2 − √5) = 2² − (√5)² = 4 − 5 = <b>−1</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>−2√5</span><span style='display:block;padding:0 .35em;'>−1</span></span> = <b>2√5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086224.6042,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>15000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>8% p.a.</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>3 years</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A man deposited <b>₦15,000</b> in a bank that offers a simple interest rate of <b>8% per annum</b>. How much will he have in his account <b>in total</b> after <b>3 years</b>?</div>",
+      "options": [
+        "₦3,600",
+        "₦18,600",
+        "₦15,000",
+        "₦22,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 1: Calculate the simple interest</b><br>Where:<br>• <b>P</b> (Principal) = ₦15,000<br>• <b>R</b> (Rate) = 8%<br>• <b>T</b> (Time) = 3 years<br><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15000 × 8 × 3</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>I = 150 × 8 × 3<br>I = <b>₦3,600</b><br><br><b>Step 2: Find the total amount</b><br>The question asks for the <b>total amount</b>, which includes the original deposit plus the interest.<br>Total Amount = ₦15,000 + ₦3,600 = <b>₦18,600</b>.<br><br>• Option A (₦3,600) is a trap for those who only calculate the interest.<br>• Option C (₦15,000) is a trap for those who forget to calculate interest at all.<br>• Option D (₦22,000) is a trap for those who miscalculate the time or rate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086225.247,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>2x² − 5x − 3 = 0</kbd></div>",
+      "options": [
+        "x = 3 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = −3 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = 3 or x = 2",
+        "x = 1 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>2</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (2 × (−3) = <b>−6</b>) and add to give the middle coefficient (<b>−5</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>−6</b> and <b>+1</b> because:<br>(−6) × (1) = −6<br>(−6) + (1) = −5<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>2x² − 6x + x − 3 = 0<br>2x(x − 3) + 1(x − 3) = 0<br>(2x + 1)(x − 3) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>2x + 1 = 0  →  <b>x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span></b><br>x − 3 = 0  →  <b>x = 3</b>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086225.4268,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 500 400' width='100%' style='display:block;max-width:480px;overflow:visible;'><line x1='40' y1='100' x2='460' y2='100' stroke='currentColor' stroke-width='2.6'/><line x1='40' y1='300' x2='460' y2='300' stroke='currentColor' stroke-width='2.6'/><line x1='150' y1='0' x2='350' y2='400' stroke='currentColor' stroke-width='2.6'/><path d='M 200 100 A 60 60 0 0 1 184 63' fill='none' stroke='currentColor' stroke-width='2'/><path d='M 260 300 A 40 40 0 0 1 283 272' fill='none' stroke='currentColor' stroke-width='2'/><text x='200' y='80' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='currentColor'>(4x − 15)°</text><text x='250' y='280' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='currentColor'>(2x + 25)°</text><text x='30' y='105' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>A</text><text x='470' y='105' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>B</text><text x='30' y='305' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>C</text><text x='470' y='305' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>D</text></svg></div><br>In the diagram, line <b>AB</b> is parallel to line <b>CD</b>. The transversal intersects them such that the alternate interior angles are <b>(4x − 15)°</b> and <b>(2x + 25)°</b>. Calculate the size of one of these angles.",
+      "options": [
+        "65°",
+        "25°",
+        "115°",
+        "45°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Set up the equation</b><br>Since lines AB and CD are parallel, alternate interior angles are equal. Therefore:<br><kbd style='font-size: 1.2em; font-weight: bold;'>4x − 15 = 2x + 25</kbd><br><br><b>Step 2: Solve for x</b><br>Subtract 2x from both sides:<br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − 15 = 25</kbd><br>Add 15 to both sides:<br><kbd style='font-size: 1.2em; font-weight: bold;'>2x = 40</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 20</kbd><br><br><b>Step 3: Calculate the angle</b><br>Substitute x back into either expression:<br>Angle = 4(20) − 15 = 80 − 15 = <b>65°</b>.<br><br>• Option B (25°) is a trap for those who solve for x but forget to substitute it back to find the angle.<br>• Option C (115°) is a trap for those who assume the angles are supplementary (add to 180) instead of equal.<br>• Option D (45°) is a trap for arithmetic errors in the substitution step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086225.3018,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Given the first four terms of an Arithmetic Progression (AP) below, find the <b>sum of the first 16 terms</b>:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 20px 30px; border-radius: 12px; border: 3px solid currentColor; font-size: 2.2em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>3, &nbsp; 8, &nbsp; 13, &nbsp; 18</kbd></div>",
+      "options": [
+        "648",
+        "624",
+        "672",
+        "816"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Identify the first term and common difference</b><br>• The first term (a) is <b>3</b>.<br>• The common difference (d) is: d = 8 − 3 = <b>5</b>.<br><br><b>Step 2: Use the sum of an AP formula</b><br>The formula for the sum of the first n terms is:<br>S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>n</span><span style='display:block;padding:0 .35em;'>2</span></span> [2a + (n − 1)d]<br><br>Here, n = 16.<br><br><b>Step 3: Substitute the values and calculate</b><br>S<sub>16</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>16</span><span style='display:block;padding:0 .35em;'>2</span></span> [2(3) + (16 − 1)5]<br>S<sub>16</sub> = 8 [6 + 15(5)]<br>S<sub>16</sub> = 8 [6 + 75]<br>S<sub>16</sub> = 8 × 81 = <b>648</b>.<br><br>• Option B (624) is a trap for those who use n = 15 in the formula: 15/2[6 + 14(5)] = 624.<br>• Option C (672) is a trap for those who mistakenly use n = 16 in the d term: 8[6 + 16(5)] = 672.<br>• Option D (816) is a trap for those who forget to divide by 2: 16 × 51 = 816.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023086225.409,
+      "question": "<div style='text-align: center; margin: 20px 0;'><svg viewBox='0 0 400 180' width='100%' style='display:block;max-width:300px;margin:0 auto 20px auto;overflow:visible;'><rect x='50' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='70' cy='70' r='4' fill='currentColor'/><circle cx='110' cy='70' r='4' fill='currentColor'/><circle cx='70' cy='110' r='4' fill='currentColor'/><circle cx='110' cy='110' r='4' fill='currentColor'/><circle cx='90' cy='90' r='4' fill='currentColor'/><rect x='270' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='290' cy='70' r='4' fill='currentColor'/><circle cx='330' cy='70' r='4' fill='currentColor'/><circle cx='290' cy='110' r='4' fill='currentColor'/><circle cx='330' cy='110' r='4' fill='currentColor'/><circle cx='310' cy='90' r='4' fill='currentColor'/><text x='200' y='100' text-anchor='middle' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='currentColor'>+</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.6;'>Two fair six-sided dice are rolled simultaneously. What is the probability that the <b>sum of the two numbers rolled is strictly greater than 9</b>?</div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>12</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5</span><span style='display:block;padding:0 .35em;'>36</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Determine the total number of outcomes</b><br>When rolling two dice, the total number of outcomes is:<br>6 × 6 = <b>36</b>.<br><br><b>Step 2: Identify the successful outcomes</b><br>We need the sum to be strictly greater than 9 (so 10, 11, or 12). Let's list the combinations:<br>• Sum = 10: (4,6), (5,5), (6,4) → <b>3</b> ways<br>• Sum = 11: (5,6), (6,5) → <b>2</b> ways<br>• Sum = 12: (6,6) → <b>1</b> way<br><br>Total successful outcomes = 3 + 2 + 1 = <b>6</b>.<br><br><b>Step 3: Calculate the probability</b><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Favorable Outcomes</span><span style='display:block;padding:0 .35em;'>Total Outcomes</span></span><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6</span><span style='display:block;padding:0 .35em;'>36</span></span> = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span></b>.<br><br>• Option B (1/12) is a trap for those who forget the (5,5) or (6,6) combinations.<br>• Option C (5/36) is a trap for those who include a sum of 9 (e.g., (3,6), (4,5)) by misreading 'greater than or equal to'.<br>• Option D (1/9) is a trap for those who only count the sums of 10 and 11, forgetting 12.",
       "difficulty": "easy",
       "points": 1
     }
