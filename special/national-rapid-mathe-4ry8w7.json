@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 13,
+  "totalQuestions": 14,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -195,6 +195,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "<b>Step 1: Identify the first term and common difference</b><br>• The first term (a) is <b>7</b>.<br>• The common difference (d) is found by subtracting any term from the next term:<br>d = 11 − 7 = <b>4</b>.<br><br><b>Step 2: Use the sum of an AP formula</b><br>The formula for the sum of the first n terms is:<br>S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>n</span><span style='display:block;padding:0 .35em;'>2</span></span> [2a + (n − 1)d]<br><br>Here, n = 15.<br><br><b>Step 3: Substitute the values and calculate</b><br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [2(7) + (15 − 1)4]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 14(4)]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 56]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [70]<br>S<sub>15</sub> = 15 × 35 = <b>525</b>.<br><br>• Option B (555) is a trap for those who forget to subtract 1 from n in the formula: 15/2[14 + 15(4)] = 555.<br>• Option C (63) is a trap for those who calculate the 15th term (T<sub>15</sub>) instead of the sum of the first 15 terms.<br>• Option D (1050) is a trap for those who forget to divide by 2 at the beginning of the formula (15 × 70 = 1050).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022502048.1355,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path fill-rule='evenodd' d='M 280 90 A 150 150 0 1 1 279.9 90 Z M 280 140 A 100 100 0 1 0 280.1 140 Z' fill='rgba(128,128,128,0.35)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><line x1='280' y1='240' x2='430' y2='240' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='280' y1='240' x2='280' y2='140' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><circle cx='280' cy='240' r='4' fill='currentColor'/><text x='360' y='230' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>R = 21 cm</text><text x='290' y='190' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>r = 14 cm</text></svg></div><br>The diagram above shows two concentric circles. The outer path is shaded. Calculate the area of the <b>unshaded</b> portion. (Take π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>)",
+      "options": [
+        "616 cm²",
+        "770 cm²",
+        "1386 cm²",
+        "154 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>unshaded</b> portion is the inner circle. Its radius is given as <b>r = 14 cm</b>.<br><br><b>Step 1: Use the area of a circle formula</b><br>Area = πr²<br><br><b>Step 2: Substitute the values</b><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196<br>Area = 22 × 28 = <b>616 cm²</b>.<br><br>• Option B (770 cm²) is a trap for those who calculate the area of the <i>shaded</i> region: π(R² − r²) = 22/7 × (441 − 196) = 770.<br>• Option C (1386 cm²) is a trap for those who calculate the <i>total</i> area of the larger circle: πR² = 22/7 × 441 = 1386.<br>• Option D (154 cm²) is a trap for those who mistakenly use the difference in radii as the radius (21 − 14 = 7, then 22/7 × 7² = 154).",
       "difficulty": "easy",
       "points": 1
     }
