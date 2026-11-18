@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 48,
+  "totalQuestions": 49,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -693,6 +693,21 @@
         "−15",
         "45",
         "−45"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024658882.8032,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the distribution of a dataset across 4 columns.</p><table style='width: 100%; max-width: 500px; margin: 16px auto; text-align: center; font-size: 15px; color: currentColor; border-collapse: collapse;'><thead><tr><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Class Interval</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Midpoint (x)</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>fx</th></tr></thead><tbody><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>1000 - 1999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2000 - 2999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>20</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3000 - 3999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>30</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4000 - 4999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>40</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr></tbody></table><p style='margin-top: 12px;'>Calculate the mean of the grouped data set.</p></div>",
+      "options": [
+        "3499.5",
+        "3500.0",
+        "3490.5",
+        "3400.0",
+        "3600.0"
       ],
       "correctAnswer": 0,
       "explanation": "A",
