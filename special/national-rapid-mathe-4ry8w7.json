@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 1,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -15,5 +15,20 @@
     "shuffleOptions": true,
     "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795020635501.2078,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='120,380 420,380 420,280 295,280 295,130 120,130' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><path d='M 120 360 L 140 360 L 140 380' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 420 360 L 400 360 L 400 380' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 295 150 L 275 150 L 275 130' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 120 150 L 140 150 L 140 130' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 295 280 L 275 280 L 275 260' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 420 280 L 400 280 L 400 260' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><text x='358' y='268' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>5 cm</text><text x='282' y='210' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>6 cm</text><text x='207' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>7 cm</text><text x='438' y='335' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text></svg></div><br>The shape below is drawn with straight lines only, and all its angles are right angles. Calculate the perimeter of the shape.",
+      "options": [
+        "44 cm",
+        "40 cm",
+        "34 cm",
+        "32 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Deduce the missing outer edges</b><br>Because all angles are right angles, opposite outer edges must match the total lengths of the shorter segments parallel to them.<br>• The total left vertical edge = inner vertical (6 cm) + right vertical (4 cm) = <b>10 cm</b>.<br>• The total bottom horizontal edge = top horizontal (7 cm) + inner horizontal (5 cm) = <b>12 cm</b>.<br><br><b>Step 2: Add all the outer sides together</b><br>Perimeter = Top (7) + Right (4) + Inner Horizontal (5) + Inner Vertical (6) + Left (10) + Bottom (12)<br>Perimeter = <b>44 cm</b>.<br><br>• Option B (40 cm) is a trap for those who forget to add the right vertical edge (4 cm).<br>• Option C (34 cm) is a trap for those who forget to add the left vertical edge (10 cm).<br>• Option D (32 cm) is a trap for those who forget to add the bottom edge (12 cm).",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
