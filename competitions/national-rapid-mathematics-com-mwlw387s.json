@@ -3,16 +3,730 @@
   "title": "National Rapid Mathematics Competition",
   "subject": "Competition",
   "description": "Think you've got what it takes to be the best? It's time to put your mathematical skills to the test! Speed and Accuracy will be required",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
     "canPracticeMode": false,
-    "canSeeCorrection": true,
+    "canSeeCorrection": false,
     "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": true,
-    "shuffleOptions": true
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795024759185.9976,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><polygon points='120,380 420,380 420,280 295,280 295,130 120,130' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><path d='M 120 360 L 140 360 L 140 380' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 420 360 L 400 360 L 400 380' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 295 150 L 275 150 L 275 130' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 120 150 L 140 150 L 140 130' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 295 280 L 275 280 L 275 260' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><path d='M 420 280 L 400 280 L 400 260' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linejoin='round'/><text x='358' y='268' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>5 cm</text><text x='282' y='210' text-anchor='end' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>6 cm</text><text x='207' y='118' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>7 cm</text><text x='438' y='335' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>4 cm</text></svg></div><br>The shape below is drawn with straight lines only, and all its angles are right angles. Calculate the perimeter of the shape.",
+      "options": [
+        "44 cm",
+        "40 cm",
+        "34 cm",
+        "32 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Deduce the missing outer edges</b><br>Because all angles are right angles, opposite outer edges must match the total lengths of the shorter segments parallel to them.<br>• The total left vertical edge = inner vertical (6 cm) + right vertical (4 cm) = <b>10 cm</b>.<br>• The total bottom horizontal edge = top horizontal (7 cm) + inner horizontal (5 cm) = <b>12 cm</b>.<br><br><b>Step 2: Add all the outer sides together</b><br>Perimeter = Top (7) + Right (4) + Inner Horizontal (5) + Inner Vertical (6) + Left (10) + Bottom (12)<br>Perimeter = <b>44 cm</b>.<br><br>• Option B (40 cm) is a trap for those who forget to add the right vertical edge (4 cm).<br>• Option C (34 cm) is a trap for those who forget to add the left vertical edge (10 cm).<br>• Option D (32 cm) is a trap for those who forget to add the bottom edge (12 cm).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759185.0571,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x + 3y = 12</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − y = 1</kbd>",
+      "options": [
+        "x = 3, y = 2",
+        "x = 2, y = 3",
+        "x = 4, y = 1",
+        "x = 1, y = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the substitution method by expressing x in terms of y from the second equation.<br><br><b>Step 1: Rearrange the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = y + 1</kbd><br><br><b>Step 2: Substitute into the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(y + 1) + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y + 2 + 3y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y + 2 = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>5y = 10</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2</kbd><br><br><b>Step 3: Substitute y back to find x</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 2 + 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759185.2546,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x + 2y = 18</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 5</kbd>",
+      "options": [
+        "x = 4, y = 3",
+        "x = 3, y = 4",
+        "x = 5, y = 2",
+        "x = 2, y = 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by making the coefficients of y opposites.<br><br><b>Step 1: Multiply the second equation by 2</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(2x − y) = 2(5)</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x − 2y = 10</kbd><br><br><b>Step 2: Add the new equation to the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>(3x + 2y) + (4x − 2y) = 18 + 10</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>7x = 28</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 3: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2(4) − y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>8 − y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 3</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759185.8926,
+      "question": "<div style='text-align: center; margin: 30px 0;'><span style='display: inline-block; font-family: &quot;Times New Roman&quot;, Times, serif; font-size: clamp(3.5rem, 15vw, 9rem); font-weight: 900; letter-spacing: 4px; background-color: rgba(255, 215, 0, 0.25); border: 4px solid currentColor; padding: 10px 30px; border-radius: 12px; color: currentColor; line-height: 1.1; max-width: 100%; word-wrap: break-word;'>MDCCLIX</span></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>Convert the very large highlighted Roman numeral above into Arabic numerals (standard numbers).</div>",
+      "options": [
+        "1759",
+        "1769",
+        "1659",
+        "1749"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert the Roman numeral <b>MDCCLIX</b> to Arabic numerals, we break it down into its individual components and add them together:<br><br>• <b>M</b> = 1000<br>• <b>D</b> = 500<br>• <b>C</b> = 100<br>• <b>C</b> = 100<br>• <b>L</b> = 50<br>• <b>IX</b> = 9 (where I before X means 10 − 1)<br><br>Adding these values together:<br>1000 + 500 + 100 + 100 + 50 + 9 = <b>1759</b>.<br><br>• Option B (1769) is a trap if you mistakenly add an extra X (10).<br>• Option C (1659) is a trap if you mistake D (500) for a C (100) or misread the hundreds.<br>• Option D (1749) is a trap if you confuse L (50) with XL (40).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.497,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='250' y1='400' x2='250' y2='100' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='430' y1='316' x2='430' y2='16' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='250' y1='400' x2='430' y2='316' stroke='currentColor' stroke-width='2.6'/><path d='M 250 330 A 70 70 0 0 1 313.4 370.4' fill='none' stroke='currentColor' stroke-width='2'/><path d='M 430 246 A 70 70 0 0 0 366.6 345.6' fill='none' stroke='currentColor' stroke-width='2'/><text x='250' y='90' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='430' y='6' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='265' y='355' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>065°</text><text x='390' y='290' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>?</text><circle cx='250' cy='400' r='5' fill='currentColor'/><circle cx='430' cy='316' r='5' fill='currentColor'/><text x='235' y='420' text-anchor='end' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>B</text><text x='445' y='335' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>A</text></svg></div><br>The diagram above shows two points, A and B. The bearing of A from B is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>065°</kbd>. What is the bearing of B from A?",
+      "options": [
+        "065°",
+        "115°",
+        "245°",
+        "295°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find the reverse bearing (the bearing of B from A), we can use the rule that reverse bearings differ by exactly 180°.<br><br><b>Step 1: Apply the reverse bearing formula</b><br>Since the given bearing is less than 180°, we add 180° to find the opposite direction.<br>Reverse Bearing = 065° + 180° = <b>245°</b>.<br><br><b>Alternative Method (Using Angles):</b><br>• The two North lines are parallel, so the interior angles between them add up to 180°.<br>• The angle inside the triangle at A (between the North line and the line to B) is therefore 180° − 65° = 115°.<br>• The bearing of B from A is measured clockwise from the North line at A. It is 360° − 115° = 245°.<br><br>• Option A (065°) is a trap for those who forget to reverse the direction.<br>• Option B (115°) is a trap for those who calculate the interior angle but don't convert it to a true bearing from North.<br>• Option D (295°) is a trap for those who subtract 65° from 360° instead of adding 180°.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.3708,
+      "question": "<div style='max-width:400px;color:currentColor;margin:0 auto 20px auto;'><svg viewBox='0 0 400 340' width='100%' style='display:block;max-width:380px;overflow:visible;'><rect x='10' y='30' width='380' height='290' rx='10' fill='rgba(128,128,128,0.05)' stroke='currentColor' stroke-width='3' /><path d='M 10 70 L 390 70' stroke='currentColor' stroke-width='3' /><circle cx='80' cy='20' r='8' fill='none' stroke='currentColor' stroke-width='4' /><circle cx='320' cy='20' r='8' fill='none' stroke='currentColor' stroke-width='4' /><text x='200' y='55' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='bold' fill='currentColor'>MAY</text><text x='50' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>S</text><text x='100' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>M</text><text x='150' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>T</text><text x='200' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>W</text><text x='250' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>T</text><text x='300' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>F</text><text x='350' y='95' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='currentColor'>S</text><path d='M 10 110 L 390 110 M 10 150 L 390 150 M 10 190 L 390 190 M 10 230 L 390 230 M 10 270 L 390 270' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' opacity='0.5' /><text x='50' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>1</text><text x='100' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>2</text><text x='150' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>3</text><text x='200' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>4</text><text x='250' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>5</text><text x='300' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>6</text><text x='350' y='135' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>7</text><text x='50' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>8</text><text x='100' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>9</text><text x='150' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>10</text><text x='200' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>11</text><text x='250' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>12</text><text x='300' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>13</text><text x='350' y='175' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>14</text><text x='50' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>15</text><text x='100' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>16</text><text x='150' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>17</text><text x='200' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>18</text><text x='250' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>19</text><text x='300' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>20</text><text x='350' y='215' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>21</text><text x='50' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>22</text><text x='100' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>23</text><text x='150' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>24</text><text x='200' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>25</text><text x='250' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>26</text><text x='300' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>27</text><text x='350' y='255' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>28</text><text x='50' y='295' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>29</text><text x='100' y='295' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>30</text><text x='150' y='295' text-anchor='middle' font-family='sans-serif' font-size='16' fill='currentColor'>31</text></svg></div><br><div style='font-size: 1.1rem; line-height: 1.6;'>Five years ago, Obi was 5 times younger than his dad. In 10 years' time, Obi's dad will be twice as old as Obi. How old is Obi now?</div>",
+      "options": [
+        "10 years old",
+        "12 years old",
+        "15 years old",
+        "8 years old"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let Obi's current age be <b>x</b> and his dad's current age be <b>y</b>.<br><br><b>Step 1: Translate the first sentence into an equation</b><br>Five years ago, Obi was (x − 5) and his dad was (y − 5).<br>At that time, the dad was 5 times older than Obi:<br>y − 5 = 5(x − 5)<br>y − 5 = 5x − 25<br><b>y = 5x − 20</b>  (Equation 1)<br><br><b>Step 2: Translate the second sentence into an equation</b><br>In 10 years' time, Obi will be (x + 10) and his dad will be (y + 10).<br>At that time, the dad will be twice as old as Obi:<br>y + 10 = 2(x + 10)<br>y + 10 = 2x + 20<br><b>y = 2x + 10</b>  (Equation 2)<br><br><b>Step 3: Solve the simultaneous equations</b><br>Since both equations equal y, we can set them equal to each other:<br>5x − 20 = 2x + 10<br>5x − 2x = 10 + 20<br>3x = 30<br><b>x = 10</b><br><br>So, Obi is currently <b>10 years old</b>. (His dad is currently y = 2(10) + 10 = 30 years old).<br><br>• Option B (12) is a trap for calculation errors.<br>• Option C (15) is a trap for those who misread the word 'younger' and set up the equation incorrectly.<br>• Option D (8) is a trap for those who solve for the dad's age (y=30) and subtract 22, or make sign errors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.0393,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; font-size: 1.2rem; margin-bottom: 16px;'>Simplify the following surd expression completely.</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 20px 30px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor; line-height: 2;'> <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 12px;'>2 + 3√2</span><span style='display:block;padding:0 12px;'>3 + √2</span></span> </kbd></div>",
+      "options": [
+        "√2",
+        "2√2",
+        "3√2",
+        "√3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(3 − √2)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>2 + 3√2</span><span style='display:block;padding:0 .35em;'>3 + √2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3 − √2</span><span style='display:block;padding:0 .35em;'>3 − √2</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 2 × 3 = 6<br>• Outer: 2 × (−√2) = −2√2<br>• Inner: 3√2 × 3 = 9√2<br>• Last: 3√2 × (−√2) = −3(2) = −6<br><br>Combine the terms:<br>(6 − 6) + (9√2 − 2√2) = <b>7√2</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(3 + √2)(3 − √2) = 3² − (√2)² = 9 − 2 = <b>7</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>7√2</span><span style='display:block;padding:0 .35em;'>7</span></span> = <b>√2</b><br><br>• Option B (2√2) is a trap for those who make an arithmetic error in the numerator.<br>• Option C (3√2) is a trap for those who forget to cancel the 7s.<br>• Option D (√3) is a trap for those who mistakenly combine the radicands.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.462,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; font-size: 1.2rem; margin-bottom: 16px;'>Simplify the following surd expression completely.</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 20px 30px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor; line-height: 2;'> <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 12px;'>4 + 3√2</span><span style='display:block;padding:0 12px;'>3 + 2√2</span></span> </kbd></div>",
+      "options": [
+        "√2",
+        "2√2",
+        "3√2",
+        "√3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(3 − 2√2)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4 + 3√2</span><span style='display:block;padding:0 .35em;'>3 + 2√2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3 − 2√2</span><span style='display:block;padding:0 .35em;'>3 − 2√2</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 4 × 3 = 12<br>• Outer: 4 × (−2√2) = −8√2<br>• Inner: 3√2 × 3 = 9√2<br>• Last: 3√2 × (−2√2) = −6(2) = −12<br><br>Combine the terms:<br>(12 − 12) + (9√2 − 8√2) = <b>√2</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(3 + 2√2)(3 − 2√2) = 3² − (2√2)² = 9 − 8 = <b>1</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√2</span><span style='display:block;padding:0 .35em;'>1</span></span> = <b>√2</b><br><br>• Option B (2√2) is a trap for those who make an addition error in the numerator instead of subtracting.<br>• Option C (3√2) is a trap for those who incorrectly multiply the last terms and get a positive rational number.<br>• Option D (√3) is a trap for those who mistakenly combine the radicands incorrectly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.426,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>20000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5% p.a.</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>4 years</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A man deposited <b>₦20,000</b> in a bank that offers a simple interest rate of <b>5% per annum</b>. How much will he have in his account <b>in total</b> after <b>4 years</b>?</div>",
+      "options": [
+        "₦4,000",
+        "₦24,000",
+        "₦21,000",
+        "₦28,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 1: Calculate the simple interest</b><br>Where:<br>• <b>P</b> (Principal) = ₦20,000<br>• <b>R</b> (Rate) = 5%<br>• <b>T</b> (Time) = 4 years<br><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>20000 × 5 × 4</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>I = 200 × 5 × 4<br>I = <b>₦4,000</b><br><br><b>Step 2: Find the total amount</b><br>The question asks for the <b>total amount</b> in the account, which includes the original deposit plus the interest earned.<br>Total Amount = Principal + Interest<br>Total Amount = ₦20,000 + ₦4,000 = <b>₦24,000</b>.<br><br>• Option A (₦4,000) is a trap for those who only calculate the interest and forget to add the principal.<br>• Option C (₦21,000) is a trap for those who only calculate 1 year of interest and add it (20,000 + 1,000).<br>• Option D (₦28,000) is a trap for those who miscalculate the time or rate (e.g., calculating for 8 years).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759186.0278,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>2x² − 7x + 3 = 0</kbd></div>",
+      "options": [
+        "x = 3 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = −3 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = 3 or x = 2",
+        "x = 1 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>2</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (2 × 3 = <b>6</b>) and add to give the middle coefficient (<b>−7</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>−6</b> and <b>−1</b> because:<br>(−6) × (−1) = 6<br>(−6) + (−1) = −7<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>2x² − 6x − x + 3 = 0<br>2x(x − 3) − 1(x − 3) = 0<br>(2x − 1)(x − 3) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>2x − 1 = 0  →  <b>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span></b><br>x − 3 = 0  →  <b>x = 3</b><br><br>• Option B is a trap for those who get the signs wrong during factorization.<br>• Option C is a trap for those who find factors that multiply to 6 but forget to check if they add to −7 (2 + 3 = 5, not −7).<br>• Option D is a trap for those who mistakenly flip the numerator and denominator in the fraction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.7415,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>3x² + 10x + 8 = 0</kbd></div>",
+      "options": [
+        "x = −2 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "x = 2 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "x = −2 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>4</span></span>",
+        "x = −4 or x = −2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (3 × 8 = <b>24</b>) and add to give the middle coefficient (<b>+10</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>+6</b> and <b>+4</b> because:<br>(+6) × (+4) = 24<br>(+6) + (+4) = +10<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>3x² + 6x + 4x + 8 = 0<br>3x(x + 2) + 4(x + 2) = 0<br>(3x + 4)(x + 2) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>3x + 4 = 0  →  <b>x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span></b><br>x + 2 = 0  →  <b>x = −2</b><br><br>• Option B is a trap for those who get the signs wrong and make both roots positive.<br>• Option C is a trap for those who find the correct factors but flip the fraction (3/4 instead of 4/3) when dividing by the leading coefficient.<br>• Option D is a trap for those who forget to divide by the leading coefficient of 3, leaving the root as −4 instead of −4/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.4656,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 520 450' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='110' y='220' width='300' height='150' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6'/><path d='M 110 220 A 150 150 0 0 1 410 220 Z' fill='rgba(128,128,128,0.3)' stroke='currentColor' stroke-width='2.6'/><line x1='110' y1='220' x2='410' y2='220' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4'/><line x1='260' y1='220' x2='260' y2='70' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4'/><circle cx='260' cy='220' r='4' fill='currentColor'/><polyline points='390,370 410,370 410,350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='260' y='400' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>14 cm</text><text x='425' y='300' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>8 cm</text><text x='270' y='150' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>7 cm</text></svg></div><br>The figure above is made up of a rectangle and a semi-circle. Calculate the total area of the shape. (Take π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>)",
+      "options": [
+        "189 cm²",
+        "266 cm²",
+        "77 cm²",
+        "112 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the total area, we calculate the area of the semi-circle and the area of the rectangle, then add them together.<br><br><b>Step 1: Find the area of the semi-circle</b><br>The width of the rectangle is 14 cm, which is also the diameter of the semi-circle. Therefore, the radius (r) is 14 ÷ 2 = <b>7 cm</b>.<br>Area of a full circle = πr²<br>Area of a semi-circle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × π × r²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 × 7<br>Area = 11 × 7 = <b>77 cm²</b><br><br><b>Step 2: Find the area of the rectangle</b><br>Area of a rectangle = length × width<br>Area = 14 cm × 8 cm = <b>112 cm²</b><br><br><b>Step 3: Add the two areas together</b><br>Total Area = 77 cm² + 112 cm² = <b>189 cm²</b>.<br><br>• Option B (266 cm²) is a trap for those who calculate the area of a <i>full</i> circle instead of a semi-circle (112 + 154 = 266).<br>• Option C (77 cm²) is a trap for those who only calculate the area of the semi-circle and forget the rectangle.<br>• Option D (112 cm²) is a trap for those who only calculate the area of the rectangle and forget the semi-circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.4807,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Given the first four terms of an Arithmetic Progression (AP) below, find the <b>sum of the first 15 terms</b>:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 20px 30px; border-radius: 12px; border: 3px solid currentColor; font-size: 2.2em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>7, &nbsp; 11, &nbsp; 15, &nbsp; 19</kbd></div>",
+      "options": [
+        "525",
+        "555",
+        "63",
+        "1050"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Identify the first term and common difference</b><br>• The first term (a) is <b>7</b>.<br>• The common difference (d) is found by subtracting any term from the next term:<br>d = 11 − 7 = <b>4</b>.<br><br><b>Step 2: Use the sum of an AP formula</b><br>The formula for the sum of the first n terms is:<br>S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>n</span><span style='display:block;padding:0 .35em;'>2</span></span> [2a + (n − 1)d]<br><br>Here, n = 15.<br><br><b>Step 3: Substitute the values and calculate</b><br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [2(7) + (15 − 1)4]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 14(4)]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 56]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [70]<br>S<sub>15</sub> = 15 × 35 = <b>525</b>.<br><br>• Option B (555) is a trap for those who forget to subtract 1 from n in the formula: 15/2[14 + 15(4)] = 555.<br>• Option C (63) is a trap for those who calculate the 15th term (T<sub>15</sub>) instead of the sum of the first 15 terms.<br>• Option D (1050) is a trap for those who forget to divide by 2 at the beginning of the formula (15 × 70 = 1050).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.3574,
+      "question": "<div style='max-width:560px;color:currentColor; margin: 0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><path fill-rule='evenodd' d='M 280 90 A 150 150 0 1 1 279.9 90 Z M 280 140 A 100 100 0 1 0 280.1 140 Z' fill='rgba(128,128,128,0.35)' stroke='currentColor' stroke-width='2.6' stroke-linejoin='round'/><line x1='280' y1='240' x2='430' y2='240' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='280' y1='240' x2='280' y2='140' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><circle cx='280' cy='240' r='4' fill='currentColor'/><text x='360' y='230' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>R = 21 cm</text><text x='290' y='190' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>r = 14 cm</text></svg></div><br>The diagram above shows two concentric circles. The outer path is shaded. Calculate the area of the <b>unshaded</b> portion. (Take π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>)",
+      "options": [
+        "616 cm²",
+        "770 cm²",
+        "1386 cm²",
+        "154 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The <b>unshaded</b> portion is the inner circle. Its radius is given as <b>r = 14 cm</b>.<br><br><b>Step 1: Use the area of a circle formula</b><br>Area = πr²<br><br><b>Step 2: Substitute the values</b><br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 14²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 196<br>Area = 22 × 28 = <b>616 cm²</b>.<br><br>• Option B (770 cm²) is a trap for those who calculate the area of the <i>shaded</i> region: π(R² − r²) = 22/7 × (441 − 196) = 770.<br>• Option C (1386 cm²) is a trap for those who calculate the <i>total</i> area of the larger circle: πR² = 22/7 × 441 = 1386.<br>• Option D (154 cm²) is a trap for those who mistakenly use the difference in radii as the radius (21 − 14 = 7, then 22/7 × 7² = 154).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.273,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='150' height='150' viewBox='0 0 150 150' style='display:inline-block; overflow:visible;'><path d='M 75 15 L 125 40 L 125 110 L 75 135 L 25 110 L 25 40 Z' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' stroke-linejoin='round'/><path d='M 75 15 L 75 45' stroke='currentColor' stroke-width='2.5' stroke-linecap='round'/><circle cx='75' cy='50' r='5' fill='currentColor'/><text x='75' y='85' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A trader bought a bag of rice for <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>₦2,500</kbd> and sold it for <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>₦3,000</kbd>. What is the percentage profit?</div>",
+      "options": [
+        "20%",
+        "16.67%",
+        "25%",
+        "500%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the percentage profit, we first need to calculate the actual profit made, and then express it as a percentage of the <b>Cost Price</b>.<br><br><b>Step 1: Calculate the profit</b><br>Profit = Selling Price − Cost Price<br>Profit = 3,000 − 2,500 = <b>₦500</b><br><br><b>Step 2: Calculate the percentage profit</b><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Profit</span><span style='display:block;padding:0 .35em;'>Cost Price</span></span> × 100<br><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>500</span><span style='display:block;padding:0 .35em;'>2500</span></span> × 100<br><br>Percentage Profit = 0.2 × 100 = <b>20%</b>.<br><br>• Option B (16.67%) is a trap for those who incorrectly divide the profit by the <i>Selling Price</i> instead of the Cost Price (500 ÷ 3000 × 100).<br>• Option C (25%) is a trap for those who make a calculation error, such as subtracting incorrectly or dividing by the wrong base.<br>• Option D (500%) is a trap for those who simply look at the ₦500 profit and forget to divide by the Cost Price.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.5671,
+      "question": "<div style='max-width:500px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 400 400' width='100%' style='display:block;max-width:350px;overflow:visible;'><defs><marker id='arrow' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='currentColor'/></marker></defs><line x1='40' y1='200' x2='360' y2='200' stroke='currentColor' stroke-width='2.5' marker-end='url(#arrow)'/><line x1='200' y1='360' x2='200' y2='40' stroke='currentColor' stroke-width='2.5' marker-end='url(#arrow)'/><line x1='200' y1='200' x2='300' y2='100' stroke='currentColor' stroke-width='2' stroke-dasharray='4,4'/><circle cx='200' cy='200' r='4' fill='currentColor'/><text x='370' y='210' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text><text x='215' y='30' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>y</text><text x='185' y='220' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>0</text><text x='310' y='90' font-family='Georgia,serif' font-size='18' font-weight='bold' fill='currentColor'>(x, y)</text></svg></div><br>In the Cartesian plane shown above, what is the specific mathematical name given to the <b>horizontal axis</b> (the x-axis)?",
+      "options": [
+        "Abscissa",
+        "Ordinate",
+        "Origin",
+        "Quadrant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a 2D Cartesian coordinate system:<br><br>• The <b>horizontal axis</b> (x-axis) is called the <b>Abscissa</b>. It represents the first coordinate in an ordered pair (x, y).<br>• The <b>vertical axis</b> (y-axis) is called the <b>Ordinate</b>. It represents the second coordinate.<br>• The point where they intersect (0, 0) is called the <b>Origin</b>.<br>• The four regions formed by the axes are called <b>Quadrants</b>.<br><br>Therefore, the correct answer is <b>Abscissa</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.1025,
+      "question": "<div style='text-align: center; margin: 20px 0;'><svg viewBox='0 0 400 180' width='100%' style='display:block;max-width:300px;margin:0 auto 20px auto;overflow:visible;'><rect x='50' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='70' cy='70' r='4' fill='currentColor'/><circle cx='110' cy='70' r='4' fill='currentColor'/><circle cx='70' cy='110' r='4' fill='currentColor'/><circle cx='110' cy='110' r='4' fill='currentColor'/><circle cx='90' cy='90' r='4' fill='currentColor'/><rect x='270' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='290' cy='70' r='4' fill='currentColor'/><circle cx='330' cy='70' r='4' fill='currentColor'/><circle cx='290' cy='110' r='4' fill='currentColor'/><circle cx='330' cy='110' r='4' fill='currentColor'/><circle cx='310' cy='90' r='4' fill='currentColor'/><text x='200' y='100' text-anchor='middle' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='currentColor'>+</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.6;'>Two fair six-sided dice are rolled simultaneously. What is the probability that the <b>sum of the two numbers rolled is a prime number</b>?</div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5</span><span style='display:block;padding:0 .35em;'>12</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>4</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Determine the total number of possible outcomes</b><br>When rolling two fair six-sided dice, each die has 6 outcomes. The total number of possible outcomes in the sample space is:<br>6 × 6 = <b>36</b>.<br><br><b>Step 2: Identify the prime sums</b><br>The possible sums of two dice range from 2 to 12. The prime numbers within this range are: <b>2, 3, 5, 7,</b> and <b>11</b>. (Note: 1 is not prime, and numbers like 4, 6, 8, 9, 10, 12 are composite).<br><br><b>Step 3: Count the combinations for each prime sum</b><br>• Sum = <b>2</b>: (1,1) → <b>1</b> way<br>• Sum = <b>3</b>: (1,2), (2,1) → <b>2</b> ways<br>• Sum = <b>5</b>: (1,4), (2,3), (3,2), (4,1) → <b>4</b> ways<br>• Sum = <b>7</b>: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → <b>6</b> ways<br>• Sum = <b>11</b>: (5,6), (6,5) → <b>2</b> ways<br><br>Total favorable outcomes = 1 + 2 + 4 + 6 + 2 = <b>15</b>.<br><br><b>Step 4: Calculate the probability</b><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Favorable Outcomes</span><span style='display:block;padding:0 .35em;'>Total Outcomes</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>36</span></span><br><br>Simplify the fraction by dividing the numerator and denominator by 3:<br>Probability = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5</span><span style='display:block;padding:0 .35em;'>12</span></span></b>.<br><br>• Option B (1/6) is a trap for those who only calculate the probability of getting a sum of 7 (6/36), which is the most common sum, assuming it's the only prime.<br>• Option C (1/3) is a trap for those who only count the sums 3, 5, and 7 (2 + 4 + 6 = 12 ways → 12/36 = 1/3), forgetting that 2 and 11 are also prime.<br>• Option D (1/4) is a trap for those who miscalculate the total ways or miss multiple prime combinations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.398,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='300' height='160' viewBox='0 0 300 160' style='display:inline-block; overflow:visible;'><rect x='20' y='20' width='260' height='120' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5'/><rect x='25' y='25' width='250' height='110' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4'/><circle cx='120' cy='80' r='4' fill='currentColor'/><circle cx='200' cy='80' r='4' fill='currentColor'/><line x1='120' y1='80' x2='200' y2='80' stroke='currentColor' stroke-width='2' stroke-dasharray='4,4'/><text x='160' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>10 km</text><text x='160' y='130' text-anchor='middle' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>Scale: 1 : 50,000</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A map is drawn to a scale of <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>1 : 50,000</kbd>. If the actual distance between two towns on land is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>10 km</kbd>, what is the length of this distance on the map in centimeters?</div>",
+      "options": [
+        "20 cm",
+        "5 cm",
+        "2 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Understand the scale</b><br>A scale of 1 : 50,000 means that 1 cm on the map represents 50,000 cm on the actual ground.<br><br><b>Step 2: Convert the actual distance to centimeters</b><br>The actual distance is given as 10 km. We must convert this to centimeters to match the scale.<br>• 1 km = 1,000 meters<br>• 1 meter = 100 centimeters<br>• Therefore, 1 km = 1,000 × 100 = 100,000 cm.<br>10 km = 10 × 100,000 = <b>1,000,000 cm</b>.<br><br><b>Step 3: Calculate the map distance</b><br>Map Distance = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Actual Distance</span><span style='display:block;padding:0 .35em;'>Scale Factor</span></span><br>Map Distance = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1,000,000 cm</span><span style='display:block;padding:0 .35em;'>50,000</span></span><br><br>Map Distance = <b>20 cm</b>.<br><br>• Option B (5 cm) is a trap for those who mistakenly divide 10 km directly by 2 or make a decimal error.<br>• Option C (2 cm) is a trap for those who only convert to meters instead of centimeters (10,000 m ÷ 50,000 = 0.2 m, misread as 2 cm).<br>• Option D (50 cm) is a trap for those who multiply by 5 instead of dividing by 50,000.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.7314,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 500 400' width='100%' style='display:block;max-width:480px;overflow:visible;'><polygon points='100,300 350,300 350,150 100,150' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6'/><polygon points='100,150 350,150 225,50' fill='rgba(128,128,128,0.3)' stroke='currentColor' stroke-width='2.6'/><path d='M 350 280 L 330 280 L 330 300' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='225' y='330' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>24 cm</text><text x='370' y='230' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>16 cm</text><text x='225' y='125' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>10 cm</text><text x='225' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='32' font-weight='bold' fill='currentColor'>?</text></svg></div><br>The diagram shows a composite shape made of a rectangle and an isosceles triangle. Calculate the total area of the shape.",
+      "options": [
+        "504 cm²",
+        "384 cm²",
+        "624 cm²",
+        "456 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Calculate the area of the rectangle</b><br>Area of rectangle = length × width<br>Area = 24 cm × 16 cm = <b>384 cm²</b>.<br><br><b>Step 2: Calculate the area of the triangle</b><br>The base of the triangle is the same as the top of the rectangle, which is 24 cm. The perpendicular height is given as 10 cm.<br>Area of triangle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × base × height<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × 24 × 10 = <b>120 cm²</b>.<br><br><b>Step 3: Add both areas together</b><br>Total Area = 384 + 120 = <b>504 cm²</b>.<br><br>• Option B (384 cm²) is a trap for those who only calculate the area of the rectangle.<br>• Option C (624 cm²) is a trap for those who forget the ½ in the triangle formula (384 + 240 = 624).<br>• Option D (456 cm²) is a trap for those who make an arithmetic error.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.6987,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>4x + 3y = 24</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 2</kbd>",
+      "options": [
+        "x = 3, y = 4",
+        "x = 4, y = 3",
+        "x = 2, y = 5",
+        "x = 5, y = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the substitution method by expressing y in terms of x from the second equation.<br><br><b>Step 1: Rearrange the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − y = 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2x − 2</kbd><br><br><b>Step 2: Substitute into the first equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x + 3(2x − 2) = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x + 6x − 6 = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>10x = 30</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br><b>Step 3: Substitute x back to find y</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 2(3) − 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 6 − 2</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 4</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.0522,
+      "question": "<div style='text-align: center; margin: 30px 0;'><span style='display: inline-block; font-family: &quot;Times New Roman&quot;, Times, serif; font-size: clamp(3.5rem, 15vw, 9rem); font-weight: 900; letter-spacing: 4px; background-color: rgba(255, 215, 0, 0.25); border: 4px solid currentColor; padding: 10px 30px; border-radius: 12px; color: currentColor; line-height: 1.1; max-width: 100%; word-wrap: break-word;'>MCMXCIV</span></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600;'>Convert the very large highlighted Roman numeral above into Arabic numerals (standard numbers).</div>",
+      "options": [
+        "1994",
+        "1984",
+        "1944",
+        "2004"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert the Roman numeral <b>MCMXCIV</b> to Arabic numerals, we break it down into its individual components and add them together:<br><br>• <b>M</b> = 1000<br>• <b>CM</b> = 900 (C before M means 1000 − 100)<br>• <b>XC</b> = 90 (X before C means 100 − 10)<br>• <b>IV</b> = 4 (I before V means 5 − 1)<br><br>Adding these values together:<br>1000 + 900 + 90 + 4 = <b>1994</b>.<br><br>• Option B (1984) is a trap for those who read LXXX (80) instead of XC (90).<br>• Option C (1944) is a trap for those who read XL (40) instead of XC (90).<br>• Option D (2004) is a trap for those who mistake MCM for MM (2000).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.35,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><line x1='250' y1='400' x2='250' y2='100' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='430' y1='316' x2='430' y2='16' stroke='currentColor' stroke-width='2.5' stroke-dasharray='8,6'/><line x1='250' y1='400' x2='430' y2='316' stroke='currentColor' stroke-width='2.6'/><path d='M 250 330 A 70 70 0 0 1 313.4 370.4' fill='none' stroke='currentColor' stroke-width='2'/><text x='250' y='90' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='430' y='6' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>N</text><text x='265' y='355' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>115°</text><circle cx='250' cy='400' r='5' fill='currentColor'/><circle cx='430' cy='316' r='5' fill='currentColor'/><text x='235' y='420' text-anchor='end' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>B</text><text x='445' y='335' text-anchor='start' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>A</text></svg></div><br>The diagram above shows two points, A and B. The bearing of A from B is <kbd style='font-size: 1.1em; font-weight: 900; padding: 2px 6px; background: rgba(128,128,128,0.2); border-bottom: 2px solid currentColor;'>115°</kbd>. What is the bearing of B from A?",
+      "options": [
+        "295°",
+        "245°",
+        "115°",
+        "65°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the reverse bearing (the bearing of B from A), we use the rule that reverse bearings differ by exactly 180°.<br><br><b>Step 1: Apply the reverse bearing formula</b><br>Since the given bearing is less than 180°, we add 180°.<br>Reverse Bearing = 115° + 180° = <b>295°</b>.<br><br><b>Alternative Method (Using Angles):</b><br>• The two North lines are parallel, so the interior angles between them add up to 180°.<br>• The angle inside the triangle at A (between the North line and the line to B) is 180° − 115° = 65°.<br>• The bearing of B from A is measured clockwise from the North line at A. It is 360° − 65° = 295°.<br><br>• Option B (245°) is a trap for those who subtract the angle from 360° incorrectly.<br>• Option C (115°) is a trap for those who forget to reverse the direction.<br>• Option D (65°) is the interior angle at A, not the true bearing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.5503,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; font-size: 1.2rem; margin-bottom: 16px;'>Simplify the following surd expression completely.</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 20px 30px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor; line-height: 2;'> <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 12px;'>10 + 4√5</span><span style='display:block;padding:0 12px;'>2 + √5</span></span> </kbd></div>",
+      "options": [
+        "2√5",
+        "√5",
+        "4√5",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(2 − √5)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10 + 4√5</span><span style='display:block;padding:0 .35em;'>2 + √5</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>2 − √5</span><span style='display:block;padding:0 .35em;'>2 − √5</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 10 × 2 = 20<br>• Outer: 10 × (−√5) = −10√5<br>• Inner: 4√5 × 2 = 8√5<br>• Last: 4√5 × (−√5) = −4(5) = −20<br><br>Combine the terms:<br>(20 − 20) + (8√5 − 10√5) = <b>−2√5</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(2 + √5)(2 − √5) = 2² − (√5)² = 4 − 5 = <b>−1</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>−2√5</span><span style='display:block;padding:0 .35em;'>−1</span></span> = <b>2√5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.9468,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>15000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>8% p.a.</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>3 years</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A man deposited <b>₦15,000</b> in a bank that offers a simple interest rate of <b>8% per annum</b>. How much will he have in his account <b>in total</b> after <b>3 years</b>?</div>",
+      "options": [
+        "₦3,600",
+        "₦18,600",
+        "₦15,000",
+        "₦22,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 1: Calculate the simple interest</b><br>Where:<br>• <b>P</b> (Principal) = ₦15,000<br>• <b>R</b> (Rate) = 8%<br>• <b>T</b> (Time) = 3 years<br><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15000 × 8 × 3</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>I = 150 × 8 × 3<br>I = <b>₦3,600</b><br><br><b>Step 2: Find the total amount</b><br>The question asks for the <b>total amount</b>, which includes the original deposit plus the interest.<br>Total Amount = ₦15,000 + ₦3,600 = <b>₦18,600</b>.<br><br>• Option A (₦3,600) is a trap for those who only calculate the interest.<br>• Option C (₦15,000) is a trap for those who forget to calculate interest at all.<br>• Option D (₦22,000) is a trap for those who miscalculate the time or rate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.4492,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>2x² − 5x − 3 = 0</kbd></div>",
+      "options": [
+        "x = 3 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = −3 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = 3 or x = 2",
+        "x = 1 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>2</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (2 × (−3) = <b>−6</b>) and add to give the middle coefficient (<b>−5</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>−6</b> and <b>+1</b> because:<br>(−6) × (1) = −6<br>(−6) + (1) = −5<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>2x² − 6x + x − 3 = 0<br>2x(x − 3) + 1(x − 3) = 0<br>(2x + 1)(x − 3) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>2x + 1 = 0  →  <b>x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span></b><br>x − 3 = 0  →  <b>x = 3</b>",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.5417,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 500 400' width='100%' style='display:block;max-width:480px;overflow:visible;'><line x1='40' y1='100' x2='460' y2='100' stroke='currentColor' stroke-width='2.6'/><line x1='40' y1='300' x2='460' y2='300' stroke='currentColor' stroke-width='2.6'/><line x1='150' y1='0' x2='350' y2='400' stroke='currentColor' stroke-width='2.6'/><path d='M 200 100 A 60 60 0 0 1 184 63' fill='none' stroke='currentColor' stroke-width='2'/><path d='M 260 300 A 40 40 0 0 1 283 272' fill='none' stroke='currentColor' stroke-width='2'/><text x='200' y='80' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='currentColor'>(4x − 15)°</text><text x='250' y='280' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='bold' fill='currentColor'>(2x + 25)°</text><text x='30' y='105' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>A</text><text x='470' y='105' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>B</text><text x='30' y='305' text-anchor='end' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>C</text><text x='470' y='305' text-anchor='start' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>D</text></svg></div><br>In the diagram, line <b>AB</b> is parallel to line <b>CD</b>. The transversal intersects them such that the alternate interior angles are <b>(4x − 15)°</b> and <b>(2x + 25)°</b>. Calculate the size of one of these angles.",
+      "options": [
+        "65°",
+        "25°",
+        "115°",
+        "45°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Set up the equation</b><br>Since lines AB and CD are parallel, alternate interior angles are equal. Therefore:<br><kbd style='font-size: 1.2em; font-weight: bold;'>4x − 15 = 2x + 25</kbd><br><br><b>Step 2: Solve for x</b><br>Subtract 2x from both sides:<br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − 15 = 25</kbd><br>Add 15 to both sides:<br><kbd style='font-size: 1.2em; font-weight: bold;'>2x = 40</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 20</kbd><br><br><b>Step 3: Calculate the angle</b><br>Substitute x back into either expression:<br>Angle = 4(20) − 15 = 80 − 15 = <b>65°</b>.<br><br>• Option B (25°) is a trap for those who solve for x but forget to substitute it back to find the angle.<br>• Option C (115°) is a trap for those who assume the angles are supplementary (add to 180) instead of equal.<br>• Option D (45°) is a trap for arithmetic errors in the substitution step.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.3586,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Given the first four terms of an Arithmetic Progression (AP) below, find the <b>sum of the first 16 terms</b>:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 20px 30px; border-radius: 12px; border: 3px solid currentColor; font-size: 2.2em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>3, &nbsp; 8, &nbsp; 13, &nbsp; 18</kbd></div>",
+      "options": [
+        "648",
+        "624",
+        "672",
+        "816"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Identify the first term and common difference</b><br>• The first term (a) is <b>3</b>.<br>• The common difference (d) is: d = 8 − 3 = <b>5</b>.<br><br><b>Step 2: Use the sum of an AP formula</b><br>The formula for the sum of the first n terms is:<br>S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>n</span><span style='display:block;padding:0 .35em;'>2</span></span> [2a + (n − 1)d]<br><br>Here, n = 16.<br><br><b>Step 3: Substitute the values and calculate</b><br>S<sub>16</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>16</span><span style='display:block;padding:0 .35em;'>2</span></span> [2(3) + (16 − 1)5]<br>S<sub>16</sub> = 8 [6 + 15(5)]<br>S<sub>16</sub> = 8 [6 + 75]<br>S<sub>16</sub> = 8 × 81 = <b>648</b>.<br><br>• Option B (624) is a trap for those who use n = 15 in the formula: 15/2[6 + 14(5)] = 624.<br>• Option C (672) is a trap for those who mistakenly use n = 16 in the d term: 8[6 + 16(5)] = 672.<br>• Option D (816) is a trap for those who forget to divide by 2: 16 × 51 = 816.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.7202,
+      "question": "<div style='text-align: center; margin: 20px 0;'><svg viewBox='0 0 400 180' width='100%' style='display:block;max-width:300px;margin:0 auto 20px auto;overflow:visible;'><rect x='50' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='70' cy='70' r='4' fill='currentColor'/><circle cx='110' cy='70' r='4' fill='currentColor'/><circle cx='70' cy='110' r='4' fill='currentColor'/><circle cx='110' cy='110' r='4' fill='currentColor'/><circle cx='90' cy='90' r='4' fill='currentColor'/><rect x='270' y='50' width='80' height='80' rx='10' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='3'/><circle cx='290' cy='70' r='4' fill='currentColor'/><circle cx='330' cy='70' r='4' fill='currentColor'/><circle cx='290' cy='110' r='4' fill='currentColor'/><circle cx='330' cy='110' r='4' fill='currentColor'/><circle cx='310' cy='90' r='4' fill='currentColor'/><text x='200' y='100' text-anchor='middle' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='currentColor'>+</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.6;'>Two fair six-sided dice are rolled simultaneously. What is the probability that the <b>sum of the two numbers rolled is strictly greater than 9</b>?</div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>12</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>5</span><span style='display:block;padding:0 .35em;'>36</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Determine the total number of outcomes</b><br>When rolling two dice, the total number of outcomes is:<br>6 × 6 = <b>36</b>.<br><br><b>Step 2: Identify the successful outcomes</b><br>We need the sum to be strictly greater than 9 (so 10, 11, or 12). Let's list the combinations:<br>• Sum = 10: (4,6), (5,5), (6,4) → <b>3</b> ways<br>• Sum = 11: (5,6), (6,5) → <b>2</b> ways<br>• Sum = 12: (6,6) → <b>1</b> way<br><br>Total successful outcomes = 3 + 2 + 1 = <b>6</b>.<br><br><b>Step 3: Calculate the probability</b><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Favorable Outcomes</span><span style='display:block;padding:0 .35em;'>Total Outcomes</span></span><br>Probability = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>6</span><span style='display:block;padding:0 .35em;'>36</span></span> = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span></b>.<br><br>• Option B (1/12) is a trap for those who forget the (5,5) or (6,6) combinations.<br>• Option C (5/36) is a trap for those who include a sum of 9 (e.g., (3,6), (4,5)) by misreading 'greater than or equal to'.<br>• Option D (1/9) is a trap for those who only count the sums of 10 and 11, forgetting 12.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.7014,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 280 140 A 100 100 0 0 1 280 300 A 100 100 0 0 1 280 140 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A'",
+        "B'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shaded region is the middle section where Set A and Set B overlap. It includes only the elements that are in <b>both</b> Set A and Set B.<br><br>• Option A (A ∪ B) is incorrect because it represents everything inside both circles.<br>• Option C (A') is incorrect because it represents everything outside Set A.<br>• Option D (B') is incorrect because it represents everything outside Set B.<br><br>Because the shaded area is the overlapping middle section, it is denoted as <b>A ∩ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.1077,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 280 140 A 100 100 0 0 1 280 300 A 100 100 0 0 1 280 140 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "A'",
+        "B'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shaded region is the middle section where Set A and Set B overlap. It includes only the elements that are in <b>both</b> Set A and Set B.<br><br>• Option A (A ∪ B) is incorrect because it represents everything inside both circles.<br>• Option C (A') is incorrect because it represents everything outside Set A.<br>• Option D (B') is incorrect because it represents everything outside Set B.<br><br>Because the shaded area is the overlapping middle section, it is denoted as <b>A ∩ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759191.4192,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 560 440' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='60' y='60' width='440' height='320' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='80' y='90' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>U</text><path d='M 220 120 A 100 100 0 0 0 280 300 A 100 100 0 0 1 340 320 A 100 100 0 0 1 340 120 A 100 100 0 0 1 280 140 A 100 100 0 0 0 220 120 Z' fill='rgba(128,128,128,0.5)' stroke='none'/><circle cx='220' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><circle cx='340' cy='220' r='100' fill='none' stroke='currentColor' stroke-width='2.6'/><text x='150' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>A</text><text x='410' y='160' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>B</text></svg></div><br>Which notation represents the shaded region in the Venn diagram above?",
+      "options": [
+        "A ∪ B",
+        "A ∩ B",
+        "(A ∪ B)'",
+        "(A ∩ B)'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shaded region covers the entirety of Set A and Set B, including the overlapping middle section. It represents all elements that are in A <b>or</b> B (or both).<br><br>• Option B (A ∩ B) is incorrect because it only represents the middle overlapping section.<br>• Option C ((A ∪ B)') is incorrect because it represents everything <i>outside</i> the two circles.<br>• Option D ((A ∩ B)') is incorrect because it represents everything except the middle overlapping section.<br><br>Because the shaded area represents the combination of both sets, it is denoted as <b>A ∪ B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.0547,
+      "question": "<span style='display:inline-block;font-size:3.6em;font-weight:900;line-height:1.05;letter-spacing:3px;background:rgba(128,128,128,0.25);padding:10px 20px;border-radius:12px;'>MATHEMATICS</span><br><br>How many distinct anagrams can be formed from the word shown above?",
+      "options": [
+        "4,989,600",
+        "39,916,800",
+        "11!",
+        "2,494,800"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word MATHEMATICS has 11 letters.<br><br>Letter counts: M = 2, A = 2, T = 2, and H, E, I, C, S each appear once.<br><br>The number of distinct arrangements is:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>11!</span><span style='display:block;padding:0 .35em;'>2! × 2! × 2!</span></span><br><br>= <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>39,916,800</span><span style='display:block;padding:0 .35em;'>8</span></span> = <b>4,989,600</b>.<br><br>• Option B (39,916,800) is 11! without dividing by the repeated letters.<br>• Option C (11!) is the same trap written differently.<br>• Option D (2,494,800) comes from dividing by 16 instead of 8.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.7888,
+      "question": "<span style='display:inline-block;font-size:4.8em;font-weight:900;line-height:1.05;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;'><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 .35em;'>10!</span><span style='display:block;padding:0 .35em;'>6!</span></span></span><br><br>Evaluate the expression shown above.",
+      "options": [
+        "5,040",
+        "720",
+        "30,240",
+        "151,200"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Write the numerator in expanded form so the 6! cancels:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10!</span><span style='display:block;padding:0 .35em;'>6!</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10 × 9 × 8 × 7 × 6!</span><span style='display:block;padding:0 .35em;'>6!</span></span><br><br>The 6! cancels, leaving:<br><br>10 × 9 × 8 × 7 = <b>5,040</b>.<br><br>• Option B (720) is just 6!.<br>• Option C (30,240) comes from multiplying too many factors.<br>• Option D (151,200) comes from not cancelling correctly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.6406,
+      "question": "<span style='display:inline-block;font-size:2.5em;font-weight:900;line-height:1.2;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;color:currentColor;'>What is the formula for the volume of a sphere?</span>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "4 × π × r²",
+        "π × r² × h",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "2 × π × r"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.6892,
+      "question": "<span style='display:inline-block;font-size:2.5em;font-weight:900;line-height:1.2;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;color:currentColor;'>What is the formula for the volume of a cone?</span>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r² × h",
+        "π × r² × h",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "2 × π × r × h",
+        "π × r × l"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.8245,
+      "question": "Which of the following is an irrational number?",
+      "options": [
+        "√9",
+        "0.75",
+        "π",
+        "2/3",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.67,
+      "question": "Which of the following is true about the diagonals of a rhombus?",
+      "options": [
+        "They are equal in length",
+        "They bisect each other at right angles",
+        "They are parallel to the sides",
+        "They only bisect the exterior angles",
+        "They are equal to the sides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.9907,
+      "question": "Which measure of central tendency is most affected by extreme values (outliers) in a data set?",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Range",
+        "Interquartile Range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.7966,
+      "question": "An angle whose measure is strictly between 90 degrees and 180 degrees is called a(n):",
+      "options": [
+        "Acute angle",
+        "Right angle",
+        "Obtuse angle",
+        "Reflex angle",
+        "Straight angle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.7136,
+      "question": "The probability of an event that is absolutely certain to occur is always:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "-1",
+        "Infinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.116,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x + 2y = 12</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − 2y = 4</kbd>",
+      "options": [
+        "x = 4, y = 0",
+        "x = 0, y = 4",
+        "x = 3, y = 1.5",
+        "x = 4, y = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x + 2y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(3x + 2y) + (x − 2y) = 12 + 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x = 16</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>−2y = 0</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 0</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.5154,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 7</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x + y = 5</kbd>",
+      "options": [
+        "x = 3, y = 2",
+        "x = 4, y = 1",
+        "x = 4, y = −1",
+        "x = 5, y = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − y = 7</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(2x − y) + (x + y) = 7 + 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 5 − 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 1</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.9744,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>5x + 2y = 16</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x − 2y = 8</kbd>",
+      "options": [
+        "x = 2, y = 3",
+        "x = 4, y = −2",
+        "x = 3, y = 0.5",
+        "x = 3, y = 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>5x + 2y = 16</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(5x + 2y) + (3x − 2y) = 16 + 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>8x = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3(3) − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>9 − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 9 − 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 0.5</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 0.5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.9507,
+      "question": "<div style='margin-bottom: 16px; line-height: 1.5;'><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>45</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>12</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>88</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>34</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>67</span><br><br><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>23</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>91</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>55</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>17</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>73</span><br><br><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>42</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>60</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>8</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>99</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>31</span></div><br>What is the median of the numbers shown above?",
+      "options": [
+        "45",
+        "42",
+        "55",
+        "34"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the median, the numbers must first be arranged in ascending order (from smallest to largest).<br><br><b>Step 1: Arrange the data</b><br>8, 12, 17, 23, 31, 34, <b>42, 45, 55</b>, 60, 67, 73, 88, 91, 99<br><br><b>Step 2: Find the middle value</b><br>Because there are 15 numbers (an odd amount), the median is the exact middle number. The middle position is the 8th number (since 7 numbers are before it and 7 are after it).<br><br>Counting to the 8th number gives us <b>45</b>.<br><br>• Option B (42) is the 7th number.<br>• Option C (55) is the 9th number.<br>• Option D (34) is the 6th number.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.541,
+      "question": "<div style='max-width:560px;color:currentColor;'><svg viewBox='0 0 560 480' width='100%' style='display:block;max-width:520px;overflow:visible;'><circle cx='280' cy='160' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><circle cx='210' cy='260' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><circle cx='350' cy='260' r='120' fill='rgba(128,128,128,0.1)' stroke='currentColor' stroke-width='2.6'/><text x='280' y='60' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Math</text><text x='120' y='340' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Physics</text><text x='440' y='340' text-anchor='middle' font-family='Georgia,serif' font-size='26' font-weight='700' fill='currentColor'>Chem</text><text x='280' y='130' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>10</text><text x='180' y='270' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>15</text><text x='380' y='270' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>20</text><text x='230' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>5</text><text x='330' y='200' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>8</text><text x='280' y='300' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>3</text><text x='280' y='240' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>4</text><text x='60' y='450' text-anchor='middle' font-family='Georgia,serif' font-size='24' font-weight='700' fill='currentColor'>12</text></svg></div><br><div style='font-size: 1.8em; font-weight: 900; line-height: 1.2; background:rgba(128,128,128,0.15); padding:14px 28px; border-radius:14px; color: currentColor;'>How many students registered for at least two courses?</div>",
+      "options": [
+        "20",
+        "16",
+        "12",
+        "26",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.1753,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the scores of students in a mathematics test.</p><table style='width: 100%; max-width: 400px; margin: 16px auto; text-align: center; font-size: 16px; color: currentColor;'><thead><tr><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Score (x)</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th></tr></thead><tbody><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>6</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td></tr></tbody></table><p style='margin-top: 12px;'>What is the mean score of the data set?</p></div>",
+      "options": [
+        "3.8",
+        "4.0",
+        "3.5",
+        "4.2",
+        "3.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.294,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the distribution of a dataset across 5 columns.</p><table style='width: 100%; max-width: 500px; margin: 16px auto; text-align: center; font-size: 15px; color: currentColor; border-collapse: collapse;'><thead><tr><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>x</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>f</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>fx</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>|x − x̄|</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>f|x − x̄|</th></tr></thead><tbody><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>20</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>30</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>40</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>1</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr></tbody></table><p style='margin-top: 12px;'>Calculate the mean deviation of the data set.</p></div>",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "12",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.0137,
+      "question": "<div style='display: flex; justify-content: center; align-items: center; margin: 20px 0; color: currentColor;'><span style='font-size: 3em; font-weight: 300; line-height: 1;'>|</span><table style='margin: 0 16px; font-size: 1.2em; text-align: center;'><tr><td style='padding: 6px 16px;'>2</td><td style='padding: 6px 16px;'>3</td><td style='padding: 6px 16px;'>1</td></tr><tr><td style='padding: 6px 16px;'>4</td><td style='padding: 6px 16px;'>−1</td><td style='padding: 6px 16px;'>2</td></tr><tr><td style='padding: 6px 16px;'>1</td><td style='padding: 6px 16px;'>5</td><td style='padding: 6px 16px;'>3</td></tr></table><span style='font-size: 3em; font-weight: 300; line-height: 1;'>|</span></div><p style='margin-top: 12px; font-size: 1.05rem;'>Find the determinant of the 3×3 matrix shown above.</p>",
+      "options": [
+        "−35",
+        "35",
+        "−15",
+        "45",
+        "−45"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.3076,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the distribution of a dataset across 4 columns.</p><table style='width: 100%; max-width: 500px; margin: 16px auto; text-align: center; font-size: 15px; color: currentColor; border-collapse: collapse;'><thead><tr><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Class Interval</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>Midpoint (x)</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>fx</th></tr></thead><tbody><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>1000 - 1999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2000 - 2999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>20</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3000 - 3999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>30</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4000 - 4999</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>40</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr></tbody></table><p style='margin-top: 12px;'>Calculate the mean of the grouped data set.</p></div>",
+      "options": [
+        "3499.5",
+        "3500.0",
+        "3490.5",
+        "3400.0",
+        "3600.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024759192.6936,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>Given the two matrices below, find their product <b>A × B</b>.</p><div style='display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px 0; font-size: 1.1rem; color: currentColor;'><div><b>A</b> = <span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>1</td><td style='padding: 4px 12px;'>2</td></tr><tr><td style='padding: 4px 12px;'>3</td><td style='padding: 4px 12px;'>4</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span></div><div><b>B</b> = <span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>5</td><td style='padding: 4px 12px;'>6</td></tr><tr><td style='padding: 4px 12px;'>7</td><td style='padding: 4px 12px;'>8</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span></div></div></div>",
+      "options": [
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>19</td><td style='padding: 4px 12px;'>22</td></tr><tr><td style='padding: 4px 12px;'>43</td><td style='padding: 4px 12px;'>50</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>19</td><td style='padding: 4px 12px;'>43</td></tr><tr><td style='padding: 4px 12px;'>22</td><td style='padding: 4px 12px;'>50</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>5</td><td style='padding: 4px 12px;'>12</td></tr><tr><td style='padding: 4px 12px;'>21</td><td style='padding: 4px 12px;'>32</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>23</td><td style='padding: 4px 12px;'>34</td></tr><tr><td style='padding: 4px 12px;'>31</td><td style='padding: 4px 12px;'>46</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To multiply two 2×2 matrices, we take the dot product of the rows of the first matrix and the columns of the second matrix.<br><br><b>Step-by-step calculation:</b><br><br><b>1. Top-left element:</b><br>(Row 1 of A) × (Column 1 of B) = (1 × 5) + (2 × 7) = 5 + 14 = <b>19</b><br><br><b>2. Top-right element:</b><br>(Row 1 of A) × (Column 2 of B) = (1 × 6) + (2 × 8) = 6 + 16 = <b>22</b><br><br><b>3. Bottom-left element:</b><br>(Row 2 of A) × (Column 1 of B) = (3 × 5) + (4 × 7) = 15 + 28 = <b>43</b><br><br><b>4. Bottom-right element:</b><br>(Row 2 of A) × (Column 2 of B) = (3 × 6) + (4 × 8) = 18 + 32 = <b>50</b><br><br>The resulting matrix is Option A.<br><br>• Option B is the transpose of the correct answer.<br>• Option C comes from multiplying corresponding elements instead of row-by-column.<br>• Option D comes from simply adding the matrices together.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
