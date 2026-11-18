@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 45,
+  "totalQuestions": 47,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -648,6 +648,36 @@
         "12",
         "26",
         "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024397974.7095,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the scores of students in a mathematics test.</p><table style='width: 100%; max-width: 400px; margin: 16px auto; text-align: center; font-size: 16px; color: currentColor;'><thead><tr><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Score (x)</th><th style='padding: 10px; border-bottom: 2px solid currentColor; font-weight: 600;'>Frequency (f)</th></tr></thead><tbody><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>5</td></tr><tr><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>6</td><td style='padding: 10px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td></tr></tbody></table><p style='margin-top: 12px;'>What is the mean score of the data set?</p></div>",
+      "options": [
+        "3.8",
+        "4.0",
+        "3.5",
+        "4.2",
+        "3.0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024442189.059,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>The table below shows the distribution of a dataset across 5 columns.</p><table style='width: 100%; max-width: 500px; margin: 16px auto; text-align: center; font-size: 15px; color: currentColor; border-collapse: collapse;'><thead><tr><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>x</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>f</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>fx</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>|x − x̄|</th><th style='padding: 8px; border-bottom: 2px solid currentColor; font-weight: 600;'>f|x − x̄|</th></tr></thead><tbody><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>10</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>2</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>20</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>3</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>30</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>4</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr><tr><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>40</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'>1</td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td><td style='padding: 8px; border-bottom: 1px solid rgba(128,128,128,0.5);'></td></tr></tbody></table><p style='margin-top: 12px;'>Calculate the mean deviation of the data set.</p></div>",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "12",
+        "7"
       ],
       "correctAnswer": 0,
       "explanation": "A",
