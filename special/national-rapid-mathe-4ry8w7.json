@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 12,
+  "totalQuestions": 13,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -181,6 +181,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To find the total area, we calculate the area of the semi-circle and the area of the rectangle, then add them together.<br><br><b>Step 1: Find the area of the semi-circle</b><br>The width of the rectangle is 14 cm, which is also the diameter of the semi-circle. Therefore, the radius (r) is 14 ÷ 2 = <b>7 cm</b>.<br>Area of a full circle = πr²<br>Area of a semi-circle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × π × r²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 × 7<br>Area = 11 × 7 = <b>77 cm²</b><br><br><b>Step 2: Find the area of the rectangle</b><br>Area of a rectangle = length × width<br>Area = 14 cm × 8 cm = <b>112 cm²</b><br><br><b>Step 3: Add the two areas together</b><br>Total Area = 77 cm² + 112 cm² = <b>189 cm²</b>.<br><br>• Option B (266 cm²) is a trap for those who calculate the area of a <i>full</i> circle instead of a semi-circle (112 + 154 = 266).<br>• Option C (77 cm²) is a trap for those who only calculate the area of the semi-circle and forget the rectangle.<br>• Option D (112 cm²) is a trap for those who only calculate the area of the rectangle and forget the semi-circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022376370.9736,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Given the first four terms of an Arithmetic Progression (AP) below, find the <b>sum of the first 15 terms</b>:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 20px 30px; border-radius: 12px; border: 3px solid currentColor; font-size: 2.2em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>7, &nbsp; 11, &nbsp; 15, &nbsp; 19</kbd></div>",
+      "options": [
+        "525",
+        "555",
+        "63",
+        "1050"
+      ],
+      "correctAnswer": 0,
+      "explanation": "<b>Step 1: Identify the first term and common difference</b><br>• The first term (a) is <b>7</b>.<br>• The common difference (d) is found by subtracting any term from the next term:<br>d = 11 − 7 = <b>4</b>.<br><br><b>Step 2: Use the sum of an AP formula</b><br>The formula for the sum of the first n terms is:<br>S<sub>n</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>n</span><span style='display:block;padding:0 .35em;'>2</span></span> [2a + (n − 1)d]<br><br>Here, n = 15.<br><br><b>Step 3: Substitute the values and calculate</b><br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [2(7) + (15 − 1)4]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 14(4)]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [14 + 56]<br>S<sub>15</sub> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>15</span><span style='display:block;padding:0 .35em;'>2</span></span> [70]<br>S<sub>15</sub> = 15 × 35 = <b>525</b>.<br><br>• Option B (555) is a trap for those who forget to subtract 1 from n in the formula: 15/2[14 + 15(4)] = 555.<br>• Option C (63) is a trap for those who calculate the 15th term (T<sub>15</sub>) instead of the sum of the first 15 terms.<br>• Option D (1050) is a trap for those who forget to divide by 2 at the beginning of the formula (15 × 70 = 1050).",
       "difficulty": "easy",
       "points": 1
     }
