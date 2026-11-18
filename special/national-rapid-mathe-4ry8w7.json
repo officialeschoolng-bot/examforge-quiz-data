@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 49,
+  "totalQuestions": 50,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -711,6 +711,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024712802.106,
+      "question": "<div style='margin-bottom: 16px; font-size: 1.05rem;'><p>Given the two matrices below, find their product <b>A × B</b>.</p><div style='display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px 0; font-size: 1.1rem; color: currentColor;'><div><b>A</b> = <span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>1</td><td style='padding: 4px 12px;'>2</td></tr><tr><td style='padding: 4px 12px;'>3</td><td style='padding: 4px 12px;'>4</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span></div><div><b>B</b> = <span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>5</td><td style='padding: 4px 12px;'>6</td></tr><tr><td style='padding: 4px 12px;'>7</td><td style='padding: 4px 12px;'>8</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span></div></div></div>",
+      "options": [
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>19</td><td style='padding: 4px 12px;'>22</td></tr><tr><td style='padding: 4px 12px;'>43</td><td style='padding: 4px 12px;'>50</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>19</td><td style='padding: 4px 12px;'>43</td></tr><tr><td style='padding: 4px 12px;'>22</td><td style='padding: 4px 12px;'>50</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>5</td><td style='padding: 4px 12px;'>12</td></tr><tr><td style='padding: 4px 12px;'>21</td><td style='padding: 4px 12px;'>32</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>",
+        "<span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>[</span><table style='display: inline-block; vertical-align: middle; margin: 0 8px; text-align: center;'><tr><td style='padding: 4px 12px;'>23</td><td style='padding: 4px 12px;'>34</td></tr><tr><td style='padding: 4px 12px;'>31</td><td style='padding: 4px 12px;'>46</td></tr></table><span style='font-size: 2.5em; font-weight: 300; vertical-align: middle;'>]</span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To multiply two 2×2 matrices, we take the dot product of the rows of the first matrix and the columns of the second matrix.<br><br><b>Step-by-step calculation:</b><br><br><b>1. Top-left element:</b><br>(Row 1 of A) × (Column 1 of B) = (1 × 5) + (2 × 7) = 5 + 14 = <b>19</b><br><br><b>2. Top-right element:</b><br>(Row 1 of A) × (Column 2 of B) = (1 × 6) + (2 × 8) = 6 + 16 = <b>22</b><br><br><b>3. Bottom-left element:</b><br>(Row 2 of A) × (Column 1 of B) = (3 × 5) + (4 × 7) = 15 + 28 = <b>43</b><br><br><b>4. Bottom-right element:</b><br>(Row 2 of A) × (Column 2 of B) = (3 × 6) + (4 × 8) = 18 + 32 = <b>50</b><br><br>The resulting matrix is Option A.<br><br>• Option B is the transpose of the correct answer.<br>• Option C comes from multiplying corresponding elements instead of row-by-column.<br>• Option D comes from simply adding the matrices together.",
       "difficulty": "easy",
       "points": 1
     }
