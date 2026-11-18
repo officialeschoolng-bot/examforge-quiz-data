@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 6,
+  "totalQuestions": 7,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -97,6 +97,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "Let Obi's current age be <b>x</b> and his dad's current age be <b>y</b>.<br><br><b>Step 1: Translate the first sentence into an equation</b><br>Five years ago, Obi was (x − 5) and his dad was (y − 5).<br>At that time, the dad was 5 times older than Obi:<br>y − 5 = 5(x − 5)<br>y − 5 = 5x − 25<br><b>y = 5x − 20</b>  (Equation 1)<br><br><b>Step 2: Translate the second sentence into an equation</b><br>In 10 years' time, Obi will be (x + 10) and his dad will be (y + 10).<br>At that time, the dad will be twice as old as Obi:<br>y + 10 = 2(x + 10)<br>y + 10 = 2x + 20<br><b>y = 2x + 10</b>  (Equation 2)<br><br><b>Step 3: Solve the simultaneous equations</b><br>Since both equations equal y, we can set them equal to each other:<br>5x − 20 = 2x + 10<br>5x − 2x = 10 + 20<br>3x = 30<br><b>x = 10</b><br><br>So, Obi is currently <b>10 years old</b>. (His dad is currently y = 2(10) + 10 = 30 years old).<br><br>• Option B (12) is a trap for calculation errors.<br>• Option C (15) is a trap for those who misread the word 'younger' and set up the equation incorrectly.<br>• Option D (8) is a trap for those who solve for the dad's age (y=30) and subtract 22, or make sign errors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795021839507.2456,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; font-size: 1.2rem; margin-bottom: 16px;'>Simplify the following surd expression completely. The final answer should be a single surd.</span><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 20px 30px; border-radius: 8px; border: none; font-size: 2.2em; font-weight: 900; letter-spacing: 1px; color: currentColor; line-height: 2;'> <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2.5px solid currentColor;padding:0 12px;'>2 + 3√2</span><span style='display:block;padding:0 12px;'>3 + √2</span></span> </kbd></div>",
+      "options": [
+        "√2",
+        "2√2",
+        "3√2",
+        "√3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(3 − √2)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>2 + 3√2</span><span style='display:block;padding:0 .35em;'>3 + √2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3 − √2</span><span style='display:block;padding:0 .35em;'>3 − √2</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 2 × 3 = 6<br>• Outer: 2 × (−√2) = −2√2<br>• Inner: 3√2 × 3 = 9√2<br>• Last: 3√2 × (−√2) = −3(2) = −6<br><br>Combine the terms:<br>(6 − 6) + (9√2 − 2√2) = <b>7√2</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(3 + √2)(3 − √2) = 3² − (√2)² = 9 − 2 = <b>7</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>7√2</span><span style='display:block;padding:0 .35em;'>7</span></span> = <b>√2</b><br><br>• Option B (2√2) is a trap for those who make an arithmetic error in the numerator.<br>• Option C (3√2) is a trap for those who forget to cancel the 7s.<br>• Option D (√3) is a trap for those who mistakenly combine the radicands.",
       "difficulty": "easy",
       "points": 1
     }
