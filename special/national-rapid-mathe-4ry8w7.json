@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 15,
+  "totalQuestions": 16,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -223,6 +223,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To find the percentage profit, we first need to calculate the actual profit made, and then express it as a percentage of the <b>Cost Price</b>.<br><br><b>Step 1: Calculate the profit</b><br>Profit = Selling Price − Cost Price<br>Profit = 3,000 − 2,500 = <b>₦500</b><br><br><b>Step 2: Calculate the percentage profit</b><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>Profit</span><span style='display:block;padding:0 .35em;'>Cost Price</span></span> × 100<br><br>Percentage Profit = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>500</span><span style='display:block;padding:0 .35em;'>2500</span></span> × 100<br><br>Percentage Profit = 0.2 × 100 = <b>20%</b>.<br><br>• Option B (16.67%) is a trap for those who incorrectly divide the profit by the <i>Selling Price</i> instead of the Cost Price (500 ÷ 3000 × 100).<br>• Option C (25%) is a trap for those who make a calculation error, such as subtracting incorrectly or dividing by the wrong base.<br>• Option D (500%) is a trap for those who simply look at the ₦500 profit and forget to divide by the Cost Price.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022689732.298,
+      "question": "<div style='max-width:500px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 400 400' width='100%' style='display:block;max-width:350px;overflow:visible;'><defs><marker id='arrow' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='currentColor'/></marker></defs><line x1='40' y1='200' x2='360' y2='200' stroke='currentColor' stroke-width='2.5' marker-end='url(#arrow)'/><line x1='200' y1='360' x2='200' y2='40' stroke='currentColor' stroke-width='2.5' marker-end='url(#arrow)'/><line x1='200' y1='200' x2='300' y2='100' stroke='currentColor' stroke-width='2' stroke-dasharray='4,4'/><circle cx='200' cy='200' r='4' fill='currentColor'/><text x='370' y='210' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>x</text><text x='215' y='30' font-family='Georgia,serif' font-size='24' font-weight='bold' fill='currentColor'>y</text><text x='185' y='220' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='currentColor'>0</text><text x='310' y='90' font-family='Georgia,serif' font-size='18' font-weight='bold' fill='currentColor'>(x, y)</text></svg></div><br>In the Cartesian plane shown above, what is the specific mathematical name given to the <b>horizontal axis</b> (the x-axis)?",
+      "options": [
+        "Abscissa",
+        "Ordinate",
+        "Origin",
+        "Quadrant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a 2D Cartesian coordinate system:<br><br>• The <b>horizontal axis</b> (x-axis) is called the <b>Abscissa</b>. It represents the first coordinate in an ordered pair (x, y).<br>• The <b>vertical axis</b> (y-axis) is called the <b>Ordinate</b>. It represents the second coordinate.<br>• The point where they intersect (0, 0) is called the <b>Origin</b>.<br>• The four regions formed by the axes are called <b>Quadrants</b>.<br><br>Therefore, the correct answer is <b>Abscissa</b>.",
       "difficulty": "easy",
       "points": 1
     }
