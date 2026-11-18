@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 43,
+  "totalQuestions": 44,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -622,6 +622,20 @@
       ],
       "correctAnswer": 2,
       "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>5x + 2y = 16</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(5x + 2y) + (3x − 2y) = 16 + 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>8x = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3(3) − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>9 − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 9 − 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 0.5</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 0.5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024215717.043,
+      "question": "<div style='margin-bottom: 16px; line-height: 1.5;'><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>45</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>12</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>88</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>34</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>67</span><br><br><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>23</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>91</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>55</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>17</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>73</span><br><br><span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>42</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>60</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>8</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>99</span> <span style='display:inline-block;font-size:2.5em;font-weight:900;padding:8px 16px;margin:4px;background:rgba(128,128,128,0.15);border-radius:8px;color:currentColor;'>31</span></div><br>What is the median of the numbers shown above?",
+      "options": [
+        "45",
+        "42",
+        "55",
+        "34"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the median, the numbers must first be arranged in ascending order (from smallest to largest).<br><br><b>Step 1: Arrange the data</b><br>8, 12, 17, 23, 31, 34, <b>42, 45, 55</b>, 60, 67, 73, 88, 91, 99<br><br><b>Step 2: Find the middle value</b><br>Because there are 15 numbers (an odd amount), the median is the exact middle number. The middle position is the 8th number (since 7 numbers are before it and 7 are after it).<br><br>Counting to the 8th number gives us <b>45</b>.<br><br>• Option B (42) is the 7th number.<br>• Option C (55) is the 9th number.<br>• Option D (34) is the 6th number.",
       "difficulty": "easy",
       "points": 1
     }
