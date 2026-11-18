@@ -3,16 +3,438 @@
   "title": "ANA 201 : PECTORAL REGION 1",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1794977806661.4165,
+      "question": "The pectoral region is located on which aspect of the thorax?",
+      "options": [
+        "Posterior",
+        "Anterior",
+        "Lateral",
+        "Superior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text defines the pectoral region as the anterior aspect of the thorax.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.902,
+      "question": "Which of the following structures secretes milk in females?",
+      "options": [
+        "Pectoralis major",
+        "Axillary folds",
+        "Breasts",
+        "Sternum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The breasts, or mammary glands, are the structures that secrete milk in females.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.5076,
+      "question": "Which landmark is a palpable notch at the upper border of the manubrium sterni?",
+      "options": [
+        "Sternal angle",
+        "Infraclavicular fossa",
+        "Suprasternal notch",
+        "Coracoid process"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suprasternal notch is located at the upper border of the manubrium sterni between the clavicles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.8447,
+      "question": "Which landmark marks the junction between the manubrium and the body of the sternum?",
+      "options": [
+        "Jugular notch",
+        "Sternal angle",
+        "Coracoid process",
+        "Midclavicular line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sternal angle, or angle of Louis, marks the junction of the manubrium and the body of the sternum.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4849,
+      "question": "The sternal angle serves as a landmark to identify which structure?",
+      "options": [
+        "1st rib",
+        "2nd rib",
+        "3rd rib",
+        "4th rib"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sternal angle is used to identify the 2nd rib, which helps in counting the other ribs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.032,
+      "question": "In males, the nipple usually lies at the level of which intercostal space?",
+      "options": [
+        "3rd",
+        "4th",
+        "5th",
+        "6th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In males, the nipple usually lies in the 4th intercostal space just medial to the midclavicular line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.5444,
+      "question": "At what distance below the clavicle can the tip of the coracoid process be felt?",
+      "options": [
+        "1 cm",
+        "2.5 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tip of the coracoid process is felt in the infraclavicular fossa, 2.5 cm below the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.485,
+      "question": "Which line runs vertically downwards from the midpoint of the clavicle?",
+      "options": [
+        "Midsternal line",
+        "Midclavicular line",
+        "Anterior axillary line",
+        "Midaxillary line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The midclavicular line runs vertically downwards from the midpoint of the clavicle to the midinguinal point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.365,
+      "question": "Which line runs vertically downwards from a point midway between the anterior and posterior axillary folds?",
+      "options": [
+        "Anterior axillary line",
+        "Posterior axillary line",
+        "Midaxillary line",
+        "Midsternal line"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The midaxillary line runs vertically downwards from a point located midway between the anterior and posterior axillary folds.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.8262,
+      "question": "Which nerve supplies the skin above the sternal angle?",
+      "options": [
+        "Supraclavicular nerves",
+        "Intercostal nerves",
+        "Phrenic nerve",
+        "Axillary nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The skin above the horizontal line at the level of the sternal angle is supplied by supraclavicular nerves (C3 and C4).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4512,
+      "question": "Which intercostal nerves supply the skin below the sternal angle?",
+      "options": [
+        "T1-T4",
+        "T2-T6",
+        "T3-T7",
+        "T4-T8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The skin below the horizontal line is supplied by anterior and lateral cutaneous branches of the 2nd-6th intercostal nerves (T2-T6).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4424,
+      "question": "Which spinal segments form the brachial plexus, leaving a direct meeting point between C4 and T2 dermatomes?",
+      "options": [
+        "C1-C4",
+        "C5-T1",
+        "C6-T2",
+        "C3-C7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nerves derived from C5-T1 spinal segments form the brachial plexus, making the C4 and T2 areas meet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4038,
+      "question": "Which muscle is the largest of the pectoral region?",
+      "options": [
+        "Pectoralis minor",
+        "Subclavius",
+        "Pectoralis major",
+        "Serratus anterior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pectoralis major is described as the largest muscle of the pectoral region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.7705,
+      "question": "The clavicular head of the pectoralis major arises from which structure?",
+      "options": [
+        "Sternum",
+        "Clavicle",
+        "Ribs",
+        "Scapula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The clavicular head arises from the medial half of the anterior aspect of the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4219,
+      "question": "The sternocostal head of the pectoralis major arises from all of the following except?",
+      "options": [
+        "Lateral half of the sternum",
+        "Medial parts of the 2nd-6th costal cartilages",
+        "Aponeurosis of the external oblique",
+        "Coracoid process"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sternocostal head arises from the sternum, costal cartilages, and external oblique aponeurosis, but not the coracoid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.9812,
+      "question": "The pectoralis major inserts on which part of the humerus?",
+      "options": [
+        "Medial lip of the bicipital groove",
+        "Lateral lip of the bicipital groove",
+        "Greater tubercle",
+        "Lesser tubercle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pectoralis major inserts by a U-shaped tendon on the lateral lip of the bicipital groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.7324,
+      "question": "The twisting of the lower fibres of the pectoralis major forms which structure?",
+      "options": [
+        "Infraclavicular fossa",
+        "Sternal angle",
+        "Rounded axillary fold",
+        "Deltopectoral groove"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The twisting of the lowest fibres inserting highest forms the rounded axillary fold.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.5144,
+      "question": "Which nerves supply the pectoralis major?",
+      "options": [
+        "Medial and lateral pectoral nerves",
+        "Axillary and radial nerves",
+        "Thoracodorsal nerve",
+        "Long thoracic nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nerve supply is by lateral (C5 to C7) and medial pectoral (C8 and T1) nerves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.6997,
+      "question": "Which muscles of the upper limb are supplied by all five spinal segments of the brachial plexus?",
+      "options": [
+        "Pectoralis major and minor",
+        "Serratus anterior and subclavius",
+        "Deltoid and teres minor",
+        "Biceps and brachialis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pectoralis major and pectoralis minor are the only muscles of the upper limb supplied by all five spinal segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.6775,
+      "question": "The clavicular head of the pectoralis major performs which action on the arm?",
+      "options": [
+        "Extension",
+        "Abduction",
+        "Flexion",
+        "Lateral rotation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The clavicular head flexes the arm, while the sternocostal head adducts and medially rotates it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.4185,
+      "question": "The sternocostal head of the pectoralis major performs which action on the arm?",
+      "options": [
+        "Flexion",
+        "Adduction",
+        "Extension",
+        "Abduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sternocostal head adducts and medially rotates the arm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.623,
+      "question": "Congenital absence of the sternocostal part of the pectoralis major causes weakness in what movement?",
+      "options": [
+        "Flexion",
+        "Abduction",
+        "Adduction",
+        "Extension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The congenital anomaly causes weakness in adduction and medial rotation of the arm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.1948,
+      "question": "The pectoralis minor lies deep to which muscle?",
+      "options": [
+        "Serratus anterior",
+        "Pectoralis major",
+        "Subclavius",
+        "Latissimus dorsi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pectoralis minor is a small triangular muscle that lies deep to the pectoralis major.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.8977,
+      "question": "From which ribs does the pectoralis minor arise?",
+      "options": [
+        "1st, 2nd, and 3rd",
+        "3rd, 4th, and 5th",
+        "5th, 6th, and 7th",
+        "7th, 8th, and 9th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It arises from the 3rd, 4th, and 5th ribs near their costal cartilages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.7927,
+      "question": "The pectoralis minor inserts into which structure?",
+      "options": [
+        "Acromion process",
+        "Coracoid process",
+        "Spine of scapula",
+        "Glenoid cavity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It inserts via a short thick tendon into the medial border and upper surface of the coracoid process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.57,
+      "question": "Which action is performed by the pectoralis minor?",
+      "options": [
+        "Depresses the point of shoulder",
+        "Elevates the ribs",
+        "Extends the arm",
+        "Laterally rotates the arm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Actions include assisting in protraction, depressing the point of the shoulder, and acting as an accessory muscle of respiration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.35,
+      "question": "Why is the pectoralis minor considered the key muscle of the axilla?",
+      "options": [
+        "It is the largest muscle there",
+        "It divides the axillary artery",
+        "It forms the floor of the axilla",
+        "It protects the brachial plexus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It crosses in front of the axillary artery and is used to divide the artery into three parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.9236,
+      "question": "In a prefixed pectoralis minor, the muscle arises from which ribs?",
+      "options": [
+        "2nd to 5th",
+        "4th to 6th",
+        "3rd to 5th",
+        "1st to 4th"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A prefixed origin means it arises from the 2nd to 5th ribs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.0989,
+      "question": "A vertical sheet of muscle fibers passing superficial to the medial part of the pectoralis major is called what?",
+      "options": [
+        "Pectoralis minimus",
+        "Rectus sternalis",
+        "Serratus anterior",
+        "External oblique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is termed the rectus sternalis or sternalis muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1794977806661.9353,
+      "question": "The anterior lamina of the pectoralis major tendon is formed by which fibers?",
+      "options": [
+        "Clavicular",
+        "Sternocostal",
+        "Abdominal",
+        "Costal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anterior lamina of the tendon is formed by the clavicular fibres.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
