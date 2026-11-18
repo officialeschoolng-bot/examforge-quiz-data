@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 9,
+  "totalQuestions": 12,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -139,6 +139,48 @@
       ],
       "correctAnswer": 1,
       "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 1: Calculate the simple interest</b><br>Where:<br>• <b>P</b> (Principal) = ₦20,000<br>• <b>R</b> (Rate) = 5%<br>• <b>T</b> (Time) = 4 years<br><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>20000 × 5 × 4</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>I = 200 × 5 × 4<br>I = <b>₦4,000</b><br><br><b>Step 2: Find the total amount</b><br>The question asks for the <b>total amount</b> in the account, which includes the original deposit plus the interest earned.<br>Total Amount = Principal + Interest<br>Total Amount = ₦20,000 + ₦4,000 = <b>₦24,000</b>.<br><br>• Option A (₦4,000) is a trap for those who only calculate the interest and forget to add the principal.<br>• Option C (₦21,000) is a trap for those who only calculate 1 year of interest and add it (20,000 + 1,000).<br>• Option D (₦28,000) is a trap for those who miscalculate the time or rate (e.g., calculating for 8 years).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022192852.7012,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>2x² − 7x + 3 = 0</kbd></div>",
+      "options": [
+        "x = 3 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = −3 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "x = 3 or x = 2",
+        "x = 1 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>2</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (2 × 3 = <b>6</b>) and add to give the middle coefficient (<b>−7</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>−6</b> and <b>−1</b> because:<br>(−6) × (−1) = 6<br>(−6) + (−1) = −7<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>2x² − 6x − x + 3 = 0<br>2x(x − 3) − 1(x − 3) = 0<br>(2x − 1)(x − 3) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>2x − 1 = 0  →  <b>x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span></b><br>x − 3 = 0  →  <b>x = 3</b><br><br>• Option B is a trap for those who get the signs wrong during factorization.<br>• Option C is a trap for those who find factors that multiply to 6 but forget to check if they add to −7 (2 + 3 = 5, not −7).<br>• Option D is a trap for those who mistakenly flip the numerator and denominator in the fraction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022227365.7283,
+      "question": "<div style='text-align: center; margin: 20px 0;'><span style='display: block; margin-bottom: 20px; font-size: 1.2rem;'>Solve the following quadratic equation to find the values of x:</span><kbd style='display: inline-block; background: rgba(255, 215, 0, 0.15); padding: 24px 40px; border-radius: 12px; border: 3px solid currentColor; font-size: 3em; font-weight: 900; letter-spacing: 2px; color: currentColor; line-height: 1.4;'>3x² + 10x + 8 = 0</kbd></div>",
+      "options": [
+        "x = −2 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "x = 2 or x = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "x = −2 or x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>4</span></span>",
+        "x = −4 or x = −2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To solve this quadratic equation, we can use the factorization method by splitting the middle term.<br><br><b>Step 1: Identify the coefficients</b><br>We need two numbers that multiply to give the product of the first and last terms (3 × 8 = <b>24</b>) and add to give the middle coefficient (<b>+10</b>).<br><br><b>Step 2: Find the factors</b><br>The numbers are <b>+6</b> and <b>+4</b> because:<br>(+6) × (+4) = 24<br>(+6) + (+4) = +10<br><br><b>Step 3: Split the middle term and factor by grouping</b><br>3x² + 6x + 4x + 8 = 0<br>3x(x + 2) + 4(x + 2) = 0<br>(3x + 4)(x + 2) = 0<br><br><b>Step 4: Solve for x</b><br>For the equation to equal zero, one of the brackets must equal zero:<br>3x + 4 = 0  →  <b>x = −<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span></b><br>x + 2 = 0  →  <b>x = −2</b><br><br>• Option B is a trap for those who get the signs wrong and make both roots positive.<br>• Option C is a trap for those who find the correct factors but flip the fraction (3/4 instead of 4/3) when dividing by the leading coefficient.<br>• Option D is a trap for those who forget to divide by the leading coefficient of 3, leaving the root as −4 instead of −4/3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022283588.6357,
+      "question": "<div style='max-width:560px;color:currentColor;margin:0 auto;'><svg viewBox='0 0 520 450' width='100%' style='display:block;max-width:520px;overflow:visible;'><rect x='110' y='220' width='300' height='150' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.6'/><path d='M 110 220 A 150 150 0 0 1 410 220 Z' fill='rgba(128,128,128,0.3)' stroke='currentColor' stroke-width='2.6'/><line x1='110' y1='220' x2='410' y2='220' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4'/><line x1='260' y1='220' x2='260' y2='70' stroke='currentColor' stroke-width='2' stroke-dasharray='6,4'/><circle cx='260' cy='220' r='4' fill='currentColor'/><polyline points='390,370 410,370 410,350' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'/><text x='260' y='400' text-anchor='middle' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>14 cm</text><text x='425' y='300' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>8 cm</text><text x='270' y='150' text-anchor='start' font-family='Georgia,serif' font-size='22' font-weight='700' fill='currentColor'>7 cm</text></svg></div><br>The figure above is made up of a rectangle and a semi-circle. Calculate the total area of the shape. (Take π = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span>)",
+      "options": [
+        "189 cm²",
+        "266 cm²",
+        "77 cm²",
+        "112 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find the total area, we calculate the area of the semi-circle and the area of the rectangle, then add them together.<br><br><b>Step 1: Find the area of the semi-circle</b><br>The width of the rectangle is 14 cm, which is also the diameter of the semi-circle. Therefore, the radius (r) is 14 ÷ 2 = <b>7 cm</b>.<br>Area of a full circle = πr²<br>Area of a semi-circle = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × π × r²<br>Area = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>22</span><span style='display:block;padding:0 .35em;'>7</span></span> × 7 × 7<br>Area = 11 × 7 = <b>77 cm²</b><br><br><b>Step 2: Find the area of the rectangle</b><br>Area of a rectangle = length × width<br>Area = 14 cm × 8 cm = <b>112 cm²</b><br><br><b>Step 3: Add the two areas together</b><br>Total Area = 77 cm² + 112 cm² = <b>189 cm²</b>.<br><br>• Option B (266 cm²) is a trap for those who calculate the area of a <i>full</i> circle instead of a semi-circle (112 + 154 = 266).<br>• Option C (77 cm²) is a trap for those who only calculate the area of the semi-circle and forget the rectangle.<br>• Option D (112 cm²) is a trap for those who only calculate the area of the rectangle and forget the semi-circle.",
       "difficulty": "easy",
       "points": 1
     }
