@@ -3,7 +3,7 @@
   "title": "BCH 201 (UNINIGER): AMINO ACID",
   "subject": "BCH 201",
   "description": "",
-  "totalQuestions": 60,
+  "totalQuestions": 45,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": false,
@@ -27,20 +27,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Correct: B</b> — An amino acid is defined by the presence of both an amino group (-NH2) and a carboxyl group (-COOH) attached to the same carbon (the alpha-carbon).<br><br>• Option A is incorrect because a hydroxyl group (-OH) is not the defining acidic group; amino acids contain a carboxyl group, not merely a hydroxyl group.<br>• Option C is incorrect because peptides are linked by peptide bonds, not glycosidic bonds; glycosidic bonds link sugars.<br>• Option D is incorrect because amino acids are not simple sugars with nitrogen; they are organic acids with an amino substituent.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767035.9988,
-      "question": "All amino acids found in proteins are alpha-amino acids. What does this signify?",
-      "options": [
-        "The amino group is attached to the alpha-carbon, adjacent to the carboxyl group.",
-        "The amino group is on the terminal carbon of the side chain.",
-        "They all have the same stereochemistry (D-form).",
-        "They are all synthesized in the alpha-cells of the pancreas."
-      ],
-      "correctAnswer": 0,
-      "explanation": "<b>Correct: A</b> — In an alpha-amino acid, the amino group is attached to the alpha-carbon, which is the carbon immediately adjacent to the carboxyl carbon.<br><br>• Option B is incorrect because the amino group is not on the terminal side-chain carbon; it is on the alpha-carbon.<br>• Option C is incorrect because naturally occurring protein amino acids are predominantly L-enantiomers, not D-forms.<br>• Option D is incorrect because alpha-amino acids are not synthesized in pancreatic alpha-cells; that phrase confuses the alpha-carbon with pancreatic cell types.",
       "difficulty": "easy",
       "points": 1
     },
@@ -213,34 +199,6 @@
       "points": 1
     },
     {
-      "id": 1795014767036.25,
-      "question": "Which two amino acids are negatively charged at physiological pH?",
-      "options": [
-        "Lysine and Arginine",
-        "Aspartic acid and Glutamic acid",
-        "Serine and Threonine",
-        "Histidine and Lysine"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Aspartic acid and glutamic acid have acidic side chains that lose protons at physiological pH, giving them a net negative charge.<br><br>• Option A is incorrect because lysine and arginine are positively charged.<br>• Option C is incorrect because serine and threonine are uncharged polar amino acids.<br>• Option D is incorrect because histidine and lysine are positively charged or partially positive, not negatively charged.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.5403,
-      "question": "What is the primary reason most amino acids are optically active?",
-      "options": [
-        "They contain a carboxyl group.",
-        "They contain an asymmetric alpha-carbon atom.",
-        "They are all found in the L-configuration.",
-        "They can form zwitterions."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Most amino acids have four different groups attached to the alpha-carbon, making it asymmetric (chiral) and therefore optically active.<br><br>• Option A is incorrect because a carboxyl group alone does not create optical activity.<br>• Option C is incorrect because being in the L-configuration is a consequence of chirality, not the primary reason for optical activity.<br>• Option D is incorrect because zwitterion formation does not explain optical activity.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795014767036.1135,
       "question": "Which amino acid is the exception to the rule that all amino acids are optically active?",
       "options": [
@@ -269,34 +227,6 @@
       "points": 1
     },
     {
-      "id": 1795014767036.661,
-      "question": "The pH at which an amino acid carries no net electrical charge is called its:",
-      "options": [
-        "pKa",
-        "Optimum pH",
-        "Isoelectric point (IEP)",
-        "Neutral point"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Correct: C</b> — The isoelectric point (IEP) is the pH at which the amino acid has no net charge and exists mainly as a zwitterion.<br><br>• Option A is incorrect because pKa is the pH at which a specific ionizable group is half-dissociated.<br>• Option B is incorrect because optimum pH usually refers to enzyme activity.<br>• Option D is incorrect because neutral point is not the standard biochemical term for this concept.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.0725,
-      "question": "At a pH below its isoelectric point, an amino acid will exist primarily as a:",
-      "options": [
-        "Zwitterion",
-        "Cation (positively charged)",
-        "Anion (negatively charged)",
-        "Neutral molecule"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Below the isoelectric point, the medium is more acidic, so the amino acid is protonated and carries a net positive charge (cation).<br><br>• Option A is incorrect because the zwitterion predominates at the isoelectric point.<br>• Option C is incorrect because the anion predominates above the isoelectric point.<br>• Option D is incorrect because the molecule is charged, not neutral, away from the IEP.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795014767036.012,
       "question": "What is the form of an amino acid at its isoelectric point called?",
       "options": [
@@ -307,20 +237,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "<b>Correct: C</b> — At the isoelectric point, the amino acid exists predominantly as a zwitterion, containing both positive and negative charges with a net charge of zero.<br><br>• Option A is incorrect because the anion form dominates at pH above the IEP.<br>• Option B is incorrect because the cation form dominates at pH below the IEP.<br>• Option D is incorrect because radical ions are not the standard form of amino acids at the IEP.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.0288,
-      "question": "Why do amino acids precipitate most readily at their isoelectric point?",
-      "options": [
-        "They become denatured.",
-        "The molecules have no net charge and repel each other less.",
-        "They form covalent bonds with each other.",
-        "Their solubility increases dramatically."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — At the isoelectric point, amino acid molecules have no net charge, so electrostatic repulsion between them is minimized, allowing them to aggregate and precipitate.<br><br>• Option A is incorrect because denaturation applies to proteins, not simple amino acids.<br>• Option C is incorrect because precipitation at the IEP does not involve new covalent bonds.<br>• Option D is incorrect because solubility is lowest, not highest, at the isoelectric point.",
       "difficulty": "easy",
       "points": 1
     },
@@ -391,20 +307,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "<b>Correct: C</b> — Oxidative deamination removes the amino group as ammonia and converts the carbon skeleton to an alpha-keto acid.<br><br>• Option A is incorrect because a fatty acid is not the direct product of amino acid oxidative deamination.<br>• Option B is incorrect because a hydroxyl fatty acid is not the product.<br>• Option D is incorrect because the amino group is removed as NH3, not left as a primary amine, and CO2 is not the direct product.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.1582,
-      "question": "The formation of a peptide bond is a reaction between:",
-      "options": [
-        "The R-groups of two amino acids.",
-        "The amino group of one amino acid and the carboxyl group of another.",
-        "Two carboxyl groups.",
-        "Two amino groups."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — A peptide bond forms by condensation between the alpha-amino group of one amino acid and the alpha-carboxyl group of another, with loss of water.<br><br>• Option A is incorrect because R-groups are not directly involved in the peptide backbone bond.<br>• Option C is incorrect because carboxyl-carboxyl reaction does not form a peptide bond.<br>• Option D is incorrect because amino-amino reaction does not form a peptide bond.",
       "difficulty": "easy",
       "points": 1
     },
@@ -521,34 +423,6 @@
       "points": 1
     },
     {
-      "id": 1795014767036.5405,
-      "question": "The colloidal nature of proteins is demonstrated by which two phenomena?",
-      "options": [
-        "Osmosis and diffusion",
-        "Dialysis and precipitation",
-        "Tyndall effect and Brownian movement",
-        "Hydrolysis and denaturation"
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Correct: C</b> — Proteins are colloids; their colloidal nature is shown by the Tyndall effect (scattering of light) and Brownian movement (random motion of particles).<br><br>• Option A is incorrect because osmosis and diffusion are general properties of solutions, not specific demonstrations of colloids.<br>• Option B is incorrect because dialysis and precipitation are separation techniques, not direct demonstrations of colloidal nature.<br>• Option D is incorrect because hydrolysis and denaturation are chemical changes, not colloidal properties.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.6365,
-      "question": "Why are proteins considered non-dialyzable?",
-      "options": [
-        "They are positively charged.",
-        "They are too large to pass through a semipermeable membrane.",
-        "They are insoluble in water.",
-        "They precipitate at their isoelectric point."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Proteins are large macromolecules and cannot pass through the pores of a semipermeable dialysis membrane, so they are retained while small molecules diffuse out.<br><br>• Option A is incorrect because charge is not the main reason; size is.<br>• Option C is incorrect because many proteins are soluble in water.<br>• Option D is incorrect because precipitation at the IEP is not the reason for non-dialyzability.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795014767036.6614,
       "question": "The ability of proteins to act as buffers is due to their:",
       "options": [
@@ -559,20 +433,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "<b>Correct: C</b> — Proteins contain both acidic and basic groups and can donate or accept protons, so their amphoteric nature allows them to act as buffers.<br><br>• Option A is incorrect because high molecular weight does not directly explain buffering.<br>• Option B is incorrect because colloidal nature relates to particle size, not proton exchange.<br>• Option D is incorrect because peptide bonds are not the main buffering groups.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767036.667,
-      "question": "The process of denaturation of a protein involves:",
-      "options": [
-        "The breaking of peptide bonds.",
-        "The complete hydrolysis of the protein into amino acids.",
-        "The destruction of secondary and tertiary structures without breaking peptide bonds.",
-        "The synthesis of new peptide bonds."
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Correct: C</b> — Denaturation disrupts the non-covalent interactions that maintain secondary, tertiary, and quaternary structure, but the primary sequence and peptide bonds remain intact.<br><br>• Option A is incorrect because breaking peptide bonds is hydrolysis, not denaturation.<br>• Option B is incorrect because complete hydrolysis to amino acids is a more extensive process.<br>• Option D is incorrect because denaturation does not synthesize new peptide bonds.",
       "difficulty": "easy",
       "points": 1
     },
@@ -717,20 +577,6 @@
       "points": 1
     },
     {
-      "id": 1795014767037.94,
-      "question": "The isoelectric point (IEP) is crucial for protein separation techniques because at this pH, proteins:",
-      "options": [
-        "Have maximum solubility.",
-        "Have maximum charge and mobility in an electric field.",
-        "Are most easily precipitated and have zero mobility.",
-        "Dissolve completely in organic solvents."
-      ],
-      "correctAnswer": 2,
-      "explanation": "<b>Correct: C</b> — At the IEP, a protein has no net charge, so it does not migrate in an electric field and is most easily precipitated.<br><br>• Option A is incorrect because solubility is usually minimal at the IEP.<br>• Option B is incorrect because maximum charge and mobility occur away from the IEP.<br>• Option D is incorrect because solubility in organic solvents is not the basis of IEP separation.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795014767037.1646,
       "question": "Which of the following pairs are both basic amino acids with a net positive charge at physiological pH?",
       "options": [
@@ -759,34 +605,6 @@
       "points": 1
     },
     {
-      "id": 1795014767037.0261,
-      "question": "The alpha-helix and beta-pleated sheet are examples of a protein's:",
-      "options": [
-        "Primary structure",
-        "Secondary structure",
-        "Tertiary structure",
-        "Quaternary structure"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Alpha-helices and beta-pleated sheets are regular local folding patterns that constitute secondary structure.<br><br>• Option A is incorrect because primary structure is the amino acid sequence.<br>• Option C is incorrect because tertiary structure is the overall 3D folding of a single polypeptide.<br>• Option D is incorrect because quaternary structure involves multiple polypeptide subunits.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767037.1348,
-      "question": "Which of the following is NOT a denaturing agent?",
-      "options": [
-        "Urea",
-        "X-rays",
-        "Detergent",
-        "A gentle increase in temperature to optimal physiological level."
-      ],
-      "correctAnswer": 3,
-      "explanation": "<b>Correct: D</b> — A gentle increase to the optimal physiological temperature supports normal protein function and is not a denaturing condition.<br><br>• Option A is incorrect because urea disrupts hydrogen bonding and denatures proteins.<br>• Option B is incorrect because X-rays can damage proteins and cause denaturation.<br>• Option C is incorrect because detergents disrupt hydrophobic interactions and denature proteins.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795014767037.7112,
       "question": "The reaction of an amino acid with methyl iodide is called:",
       "options": [
@@ -811,34 +629,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "<b>Correct: C</b> — Serine is decarboxylated to ethanolamine, a reaction that removes the carboxyl group as CO2.<br><br>• Option A is incorrect because transamination transfers an amino group to a keto acid.<br>• Option B is incorrect because oxidative deamination removes an amino group as ammonia.<br>• Option D is incorrect because hydrolysis breaks bonds using water.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767037.1787,
-      "question": "What is a zwitterion?",
-      "options": [
-        "An ion with two positive charges.",
-        "A molecule with both positive and negative charges but a net charge of zero.",
-        "An ion with two negative charges.",
-        "A large protein molecule."
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — A zwitterion has both positive and negative charges within the same molecule but carries no net charge overall.<br><br>• Option A is incorrect because a zwitterion is not defined by two positive charges.<br>• Option C is incorrect because a zwitterion is not defined by two negative charges.<br>• Option D is incorrect because a zwitterion is a charge state, not a size class of protein.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795014767037.9937,
-      "question": "Proteins are crucial for the immune system because they form:",
-      "options": [
-        "Antigens",
-        "Antibodies (immunoglobulins)",
-        "Buffers",
-        "Hormones"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Correct: B</b> — Antibodies are immunoglobulins, which are proteins produced by the immune system to recognize and neutralize antigens.<br><br>• Option A is incorrect because antigens are substances that trigger an immune response, not the proteins that defend the body.<br>• Option C is incorrect because buffers help maintain pH, not specifically immune defense.<br>• Option D is incorrect because hormones are signaling molecules, not the main immune proteins.",
       "difficulty": "easy",
       "points": 1
     },
