@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 8,
+  "totalQuestions": 9,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -125,6 +125,20 @@
       ],
       "correctAnswer": 0,
       "explanation": "To simplify this expression, we must rationalize the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator, which is <b>(3 − 2√2)</b>.<br><br><b>Step 1: Multiply by the conjugate</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>4 + 3√2</span><span style='display:block;padding:0 .35em;'>3 + 2√2</span></span> × <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3 − 2√2</span><span style='display:block;padding:0 .35em;'>3 − 2√2</span></span><br><br><b>Step 2: Expand the numerator using FOIL</b><br>• First: 4 × 3 = 12<br>• Outer: 4 × (−2√2) = −8√2<br>• Inner: 3√2 × 3 = 9√2<br>• Last: 3√2 × (−2√2) = −6(2) = −12<br><br>Combine the terms:<br>(12 − 12) + (9√2 − 8√2) = <b>√2</b><br><br><b>Step 3: Expand the denominator (Difference of Squares)</b><br>(3 + 2√2)(3 − 2√2) = 3² − (2√2)² = 9 − 8 = <b>1</b><br><br><b>Step 4: Divide to get the final answer</b><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>√2</span><span style='display:block;padding:0 .35em;'>1</span></span> = <b>√2</b><br><br>• Option B (2√2) is a trap for those who make an addition error in the numerator instead of subtracting.<br>• Option C (3√2) is a trap for those who incorrectly multiply the last terms and get a positive rational number.<br>• Option D (√3) is a trap for those who mistakenly combine the radicands incorrectly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795022137791.4873,
+      "question": "<div style='text-align: center; margin-bottom: 20px;'><svg width='260' height='120' viewBox='0 0 260 120' style='display:inline-block; overflow:visible;'><rect x='10' y='10' width='240' height='100' rx='8' fill='rgba(128,128,128,0.15)' stroke='currentColor' stroke-width='2.5' /><rect x='15' y='15' width='230' height='90' rx='4' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4,4' /><circle cx='130' cy='60' r='25' fill='none' stroke='currentColor' stroke-width='2' /><text x='130' y='70' text-anchor='middle' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='currentColor'>₦</text><text x='30' y='40' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>20000</text><text x='230' y='40' text-anchor='end' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>5% p.a.</text><text x='30' y='95' font-family='Georgia, serif' font-size='16' font-weight='bold' fill='currentColor'>4 years</text></svg></div><br><div style='font-size: 1.1rem; text-align: center; font-weight: 600; line-height: 1.5;'>A man deposited <b>₦20,000</b> in a bank that offers a simple interest rate of <b>5% per annum</b>. How much will he have in his account <b>in total</b> after <b>4 years</b>?</div>",
+      "options": [
+        "₦4,000",
+        "₦24,000",
+        "₦21,000",
+        "₦28,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formula for simple interest is:<br><br>Interest (I) = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>P × R × T</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br><b>Step 1: Calculate the simple interest</b><br>Where:<br>• <b>P</b> (Principal) = ₦20,000<br>• <b>R</b> (Rate) = 5%<br>• <b>T</b> (Time) = 4 years<br><br>I = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>20000 × 5 × 4</span><span style='display:block;padding:0 .35em;'>100</span></span><br><br>I = 200 × 5 × 4<br>I = <b>₦4,000</b><br><br><b>Step 2: Find the total amount</b><br>The question asks for the <b>total amount</b> in the account, which includes the original deposit plus the interest earned.<br>Total Amount = Principal + Interest<br>Total Amount = ₦20,000 + ₦4,000 = <b>₦24,000</b>.<br><br>• Option A (₦4,000) is a trap for those who only calculate the interest and forget to add the principal.<br>• Option C (₦21,000) is a trap for those who only calculate 1 year of interest and add it (20,000 + 1,000).<br>• Option D (₦28,000) is a trap for those who miscalculate the time or rate (e.g., calculating for 8 years).",
       "difficulty": "easy",
       "points": 1
     }
