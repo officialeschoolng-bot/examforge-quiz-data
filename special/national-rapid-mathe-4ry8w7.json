@@ -3,7 +3,7 @@
   "title": "National Rapid Mathematics 2",
   "subject": "Mathematics",
   "description": "",
-  "totalQuestions": 33,
+  "totalQuestions": 43,
   "defaultTimePerQuestion": 24,
   "settings": {
     "canChangeTime": true,
@@ -475,6 +475,153 @@
       ],
       "correctAnswer": 0,
       "explanation": "Write the numerator in expanded form so the 6! cancels:<br><br><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10!</span><span style='display:block;padding:0 .35em;'>6!</span></span> = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10 × 9 × 8 × 7 × 6!</span><span style='display:block;padding:0 .35em;'>6!</span></span><br><br>The 6! cancels, leaving:<br><br>10 × 9 × 8 × 7 = <b>5,040</b>.<br><br>• Option B (720) is just 6!.<br>• Option C (30,240) comes from multiplying too many factors.<br>• Option D (151,200) comes from not cancelling correctly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023885327.8323,
+      "question": "<span style='display:inline-block;font-size:2.5em;font-weight:900;line-height:1.2;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;color:currentColor;'>What is the formula for the volume of a sphere?</span>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "4 × π × r²",
+        "π × r² × h",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "2 × π × r"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795023885327.4429,
+      "question": "<span style='display:inline-block;font-size:2.5em;font-weight:900;line-height:1.2;background:rgba(128,128,128,0.25);padding:14px 28px;border-radius:14px;color:currentColor;'>What is the formula for the volume of a cone?</span>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r² × h",
+        "π × r² × h",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:2px solid currentColor;padding:0 .35em;'>4</span><span style='display:block;padding:0 .35em;'>3</span></span> × π × r³",
+        "2 × π × r × h",
+        "π × r × l"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024033391.2385,
+      "question": "Which of the following is an irrational number?",
+      "options": [
+        "√9",
+        "0.75",
+        "π",
+        "2/3",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024033391.1677,
+      "question": "Which of the following is true about the diagonals of a rhombus?",
+      "options": [
+        "They are equal in length",
+        "They bisect each other at right angles",
+        "They are parallel to the sides",
+        "They only bisect the exterior angles",
+        "They are equal to the sides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024033391.7925,
+      "question": "Which measure of central tendency is most affected by extreme values (outliers) in a data set?",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Range",
+        "Interquartile Range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024033391.722,
+      "question": "An angle whose measure is strictly between 90 degrees and 180 degrees is called a(n):",
+      "options": [
+        "Acute angle",
+        "Right angle",
+        "Obtuse angle",
+        "Reflex angle",
+        "Straight angle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024033391.4307,
+      "question": "The probability of an event that is absolutely certain to occur is always:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "-1",
+        "Infinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024161911.974,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x + 2y = 12</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x − 2y = 4</kbd>",
+      "options": [
+        "x = 4, y = 0",
+        "x = 0, y = 4",
+        "x = 3, y = 1.5",
+        "x = 4, y = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x + 2y = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(3x + 2y) + (x − 2y) = 12 + 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4x = 16</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 − 2y = 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>−2y = 0</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 0</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024161911.683,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>2x − y = 7</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>x + y = 5</kbd>",
+      "options": [
+        "x = 3, y = 2",
+        "x = 4, y = 1",
+        "x = 4, y = −1",
+        "x = 5, y = 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>2x − y = 7</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(2x − y) + (x + y) = 7 + 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x = 12</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 4</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>x + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>4 + y = 5</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 5 − 4</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 1</kbd><br><br>So the solution is <b>x = 4</b> and <b>y = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795024161911.5845,
+      "question": "<span style='display: block; margin-bottom: 16px; font-size: 1.05rem;'>Solve the following simultaneous equations to find the values of x and y:</span><kbd style='display: inline-block; margin-bottom: 12px; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>5x + 2y = 16</kbd><br><kbd style='display: inline-block; background: rgba(128, 128, 128, 0.15); padding: 12px 24px; border-radius: 8px; border: none; font-size: 1.8em; font-weight: 900; letter-spacing: 1px; color: currentColor;'>3x − 2y = 8</kbd>",
+      "options": [
+        "x = 2, y = 3",
+        "x = 4, y = −2",
+        "x = 3, y = 0.5",
+        "x = 3, y = 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We can solve this system using the elimination method by adding the two equations together to eliminate y.<br><br><b>Step 1: Add the equations</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>5x + 2y = 16</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>(5x + 2y) + (3x − 2y) = 16 + 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>8x = 24</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>x = 3</kbd><br><br><b>Step 2: Substitute x into the second equation</b><br><kbd style='font-size: 1.2em; font-weight: bold;'>3x − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>3(3) − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>9 − 2y = 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 9 − 8</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>2y = 1</kbd><br><kbd style='font-size: 1.2em; font-weight: bold;'>y = 0.5</kbd><br><br>So the solution is <b>x = 3</b> and <b>y = 0.5</b>.",
       "difficulty": "easy",
       "points": 1
     }
