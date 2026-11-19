@@ -3,16 +3,718 @@
   "title": "BIO 101 : ( UNIZIK ) : THE CELL",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795080625997.1172,
+      "question": "Which statement defines a cell?",
+      "options": [
+        "Basic unit of life",
+        "Tissue forming unit",
+        "Organ support structure",
+        "Fluid transport unit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cell is the fundamental unit of life and carries out all life activities.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.9675,
+      "question": "Cell Biology focuses on which study area?",
+      "options": [
+        "Animal behaviour patterns",
+        "Cells and organelles",
+        "Plant ecology systems",
+        "Genetic disease patterns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cell Biology studies cells from their basic structures to the functions of their organelles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.419,
+      "question": "George Emil Palade is recognized as which figure in cell biology?",
+      "options": [
+        "Founding father",
+        "Modern genetics pioneer",
+        "First microscope maker",
+        "Plant anatomy founder"
+      ],
+      "correctAnswer": 0,
+      "explanation": "George Emil Palade is described as the founding father of cell biology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.6755,
+      "question": "Antonie Van Leewenhoek called living cells by which term?",
+      "options": [
+        "Living granules",
+        "Tiny organisms",
+        "Moving particles",
+        "Animalcules"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Antonie Van Leewenhoek observed living cells and called them animalcules.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.8826,
+      "question": "Robert Hooke first discovered cells while Robert Brown later provided insight into which area?",
+      "options": [
+        "Cell structure",
+        "Cell movement",
+        "Cell division",
+        "Cell death"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Robert Hooke discovered cells in 1665 while Robert Brown later provided insight into cell structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.1138,
+      "question": "Which function belongs to the cell membrane?",
+      "options": [
+        "Protects and supports cell",
+        "Forms cellulose fibres in walls",
+        "Produces ATP energy molecules",
+        "Stores genetic material safely"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cell membrane supports and protects the cell and controls movement of substances.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.099,
+      "question": "Cell membrane allows movement of which substances?",
+      "options": [
+        "All substances freely",
+        "Selected substances",
+        "Only water molecules",
+        "Only protein molecules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell membrane is porous and allows selective movement of substances in and out of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.6646,
+      "question": "Plant cell wall is made mainly of which substance?",
+      "options": [
+        "Cellulose",
+        "Chitin",
+        "Keratin",
+        "Glycogen granules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plant cell wall is made up of cellulose, hemicellulose and pectin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.674,
+      "question": "Which feature describes the plant cell wall?",
+      "options": [
+        "Soft and flexible",
+        "Thin and porous",
+        "Rigid and stiff",
+        "Fluid and movable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The plant cell wall is a rigid and stiff structure surrounding the cell membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.7783,
+      "question": "Most chemical reactions in a cell occur in which region?",
+      "options": [
+        "Nucleus",
+        "Rigid cell wall",
+        "Cytoplasm",
+        "Vacuole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cytoplasm is a jelly-like substance where most chemical reactions within a cell take place.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.3782,
+      "question": "Hereditary material in the nucleus is known as which molecule?",
+      "options": [
+        "ATP energy molecule",
+        "DNA genetic material",
+        "RNA messenger molecule",
+        "NAD carrier complex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleus contains the cell hereditary material known as DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.8298,
+      "question": "Signals for growth, maturity, division and death are sent by which structure?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Lysosome",
+        "Golgi body"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Signals for growth, maturity, division and death are sent from the nucleus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.5317,
+      "question": "Nucleolus is the site for production of which structure?",
+      "options": [
+        "Lysosome enzymes",
+        "Ribosomes",
+        "Mitochondria",
+        "Vacuoles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nucleolus is the site for ribosome production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625997.9915,
+      "question": "Nuclear membrane forms a boundary between nucleus and which other parts?",
+      "options": [
+        "Cell organelles",
+        "External environment",
+        "Cell wall layers",
+        "Vacuole fluid contents"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nuclear membrane forms the boundary between the nucleus and other cell organelles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.3118,
+      "question": "Chromosomes carry which basic genetic material?",
+      "options": [
+        "ATP energy store",
+        "DNA",
+        "Lipids",
+        "Proteins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromosomes carry the basic genetic material known as DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.9446,
+      "question": "Rough endoplasmic reticulum synthesizes proteins while smooth endoplasmic reticulum synthesizes which molecules?",
+      "options": [
+        "Nucleic acids",
+        "Simple sugars",
+        "Lipids",
+        "Amino acids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Smooth endoplasmic reticulum synthesizes lipids such as cholesterol and phospholipids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.9365,
+      "question": "Golgi apparatus is often called which cell part?",
+      "options": [
+        "Powerhouse",
+        "Post office",
+        "Control center",
+        "Protein factory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Golgi apparatus is involved in transportation of materials within the cell and is called the post office of the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.2495,
+      "question": "Ribosomes are the site of synthesis for which molecule?",
+      "options": [
+        "Lipid molecules",
+        "Proteins",
+        "DNA",
+        "ATP"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribosomes are the site of protein synthesis in the cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.2068,
+      "question": "Mitochondria produce which energy molecule?",
+      "options": [
+        "DNA genetic code",
+        "RNA messenger copy",
+        "ATP energy",
+        "NAD carrier unit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitochondria produce ATP, the cell energy currency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.3162,
+      "question": "Vacuoles are usually filled with which material?",
+      "options": [
+        "DNA",
+        "Protein",
+        "Fluid",
+        "Cellulose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vacuoles are spaces within the cell that are usually filled with fluid.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.074,
+      "question": "Plant cells typically have which shape?",
+      "options": [
+        "Irregular and rounded shapes",
+        "Star-like and lobed forms",
+        "Filariform and elongated forms",
+        "Square or rectangular"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Plant cells are typically square or rectangular while animal cells are irregular or rounded.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.757,
+      "question": "Animal cells usually contain which vacuole pattern?",
+      "options": [
+        "Single large vacuole",
+        "Numerous small ones",
+        "Few large vacuole bodies",
+        "Central large vacuole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animal cells usually have numerous small vacuoles while plant cells often have few large or one central vacuole.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.7068,
+      "question": "Cilia are usually present in which cell type?",
+      "options": [
+        "Plant cells",
+        "Animal cells",
+        "Bacterial cells",
+        "Fungal cell walls"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cilia are absent in plant cells but present in most animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.0085,
+      "question": "Mitochondria in plant cells are described as which?",
+      "options": [
+        "Present and numerous",
+        "Present but few",
+        "Absent from all plant cells",
+        "Rare and small"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria are present in plant cells but few in number compared with animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.0317,
+      "question": "Typical eukaryotic cell size ranges from which values?",
+      "options": [
+        "1 to 2 μm",
+        "0.5 to 1 μm",
+        "10 to 30 μm",
+        "40 to 60 micrometers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A typical eukaryotic cell is measured between 10 and 30 micrometers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.3992,
+      "question": "Mycoplasma is described as having which cell diameter?",
+      "options": [
+        "About 1.5 micrometers",
+        "About 4.0 micrometers",
+        "About 0.5 μm",
+        "About 10.0 micrometers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mycoplasma is the smallest prokaryote with about 0.5 micrometer diameter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.4346,
+      "question": "Most abundant unicellular organisms are which groups?",
+      "options": [
+        "Fungi and protist groups",
+        "Bacteria and archaea",
+        "Algae and protozoan forms",
+        "Viruses and viroid particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prokaryotes, mainly bacteria and archaea, are the most abundant unicellular organisms.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.0623,
+      "question": "Cells with unusual star-like or multilobed shapes illustrate which diversity?",
+      "options": [
+        "Cell size",
+        "Cell number",
+        "Cell function roles",
+        "Cell morphology"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cell morphology describes variation in cell shape from rounded to star-like or multilobed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.7056,
+      "question": "Cell cycle is best described as which set of phases?",
+      "options": [
+        "Random unregulated steps",
+        "Ordered set of phases",
+        "Single resting period",
+        "Double division event"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cell cycle is an ordered set of phases in the life of a proliferating cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.5916,
+      "question": "Cells that do not divide include which examples?",
+      "options": [
+        "Skin cells and root tip cells",
+        "Neurons and heart cells",
+        "Sperm cells and egg gametes",
+        "Bacterial cells and yeast cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neurons, heart cells and red blood cells are examples of cells that do not divide.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.543,
+      "question": "Somatic cells are described by which feature?",
+      "options": [
+        "Form gametes directly",
+        "Divide by meiosis only",
+        "Do not form gametes",
+        "Always remain haploid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Somatic cells do not give rise to gametes while germinal cells do.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.843,
+      "question": "Germinal cells give rise to which cell type?",
+      "options": [
+        "Neurons",
+        "Gametes",
+        "Skin cells",
+        "Muscle cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Germinal cells give rise to gametes through meiosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.39,
+      "question": "Uncontrolled cell division may lead to which condition?",
+      "options": [
+        "Plasmolysis",
+        "Cytolysis",
+        "Cancer",
+        "Osmosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cell division without control leads to cancer cell production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.0632,
+      "question": "Mitosis produces two daughter cells with which genetic content?",
+      "options": [
+        "Half that of the parent",
+        "Same as parent",
+        "Double the parent",
+        "Randomly altered"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitosis produces two daughter cells with the same genetic components as the parent cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.312,
+      "question": "Mitosis is conventionally divided into how many stages?",
+      "options": [
+        "Three stages",
+        "Four distinct stages",
+        "Five stages",
+        "Six stages"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitosis is conventionally divided into prophase, prometaphase, metaphase, anaphase and telophase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.1304,
+      "question": "Prophase occupies about which portion of mitosis?",
+      "options": [
+        "One quarter",
+        "One third",
+        "Half",
+        "One tenth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prophase occupies half of mitosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.655,
+      "question": "Chromosomes align along the metaphase plate during which stage?",
+      "options": [
+        "Prophase",
+        "Telophase stage",
+        "Anaphase",
+        "Metaphase"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chromosomes align themselves along the metaphase plate during metaphase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.4695,
+      "question": "Sister chromatids are pulled apart to opposite ends during which stage?",
+      "options": [
+        "Prophase stage",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Centromeres divide and sister chromatids are pulled apart during anaphase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.8684,
+      "question": "In plant cells cytokinesis forms which structure along the metaphase plate?",
+      "options": [
+        "Cleavage furrow",
+        "Spindle fibre",
+        "Cell plate",
+        "Nuclear envelope"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In plants a cell plate forms along the lines of the metaphase plate during cytokinesis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.094,
+      "question": "Meiosis is used mainly for production of which cells?",
+      "options": [
+        "Neurons",
+        "Skin cells",
+        "Muscle cells",
+        "Gametes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Meiosis is used for production of gametes such as sperm and egg cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.96,
+      "question": "Homologous chromosomes separate during which division?",
+      "options": [
+        "Meiosis 2 division",
+        "Mitosis only",
+        "Cytokinesis",
+        "Meiosis 1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Homologous pairs separate in the first round of cell division called meiosis 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.2002,
+      "question": "Sister chromatids separate during which division?",
+      "options": [
+        "Meiosis 1 division",
+        "Mitosis first division",
+        "Prophase 1 stage",
+        "Meiosis 2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sister chromatids separate in the second round called meiosis 2.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.2588,
+      "question": "Crossing over is seen under the microscope as which structure?",
+      "options": [
+        "Centromere",
+        "Chiasmata",
+        "Kinetochore",
+        "Spindle fibre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Crossing over is seen under the microscope as chiasmata.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.0117,
+      "question": "Osmosis is best described as movement of which substance?",
+      "options": [
+        "Solute particles across pores",
+        "Lipid molecules through pores",
+        "Water molecules",
+        "Protein molecules"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Osmosis is the net movement of water molecules across a semipermeable membrane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.8796,
+      "question": "A cell placed in a hypertonic solution will undergo which change?",
+      "options": [
+        "Swell and burst quickly",
+        "Shrink and die",
+        "Remain unchanged",
+        "Divide rapidly and grow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water moves out of the cell into a hypertonic solution causing the cell to shrink and die.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.029,
+      "question": "A cell placed in an isotonic solution shows which water movement?",
+      "options": [
+        "Rapid inward movement",
+        "Rapid outward movement",
+        "No net movement",
+        "Constant outward flow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In an isotonic solution the solute and water concentration is the same as the external solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.9543,
+      "question": "Plasmolysis is defined as shrinkage of which cell part?",
+      "options": [
+        "Rigid cell wall",
+        "Nucleus",
+        "Protoplasm",
+        "Vacuole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plasmolysis is the shrinkage of the protoplasm of a plant cell due to loss of water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.8887,
+      "question": "Incipient plasmolysis is characterized by which change?",
+      "options": [
+        "Complete detachment from wall",
+        "Spherical protoplast formation",
+        "Cell shrinks and wall shows",
+        "Concave pocket formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In incipient plasmolysis the cell shrinks and the cell wall becomes detectable.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.428,
+      "question": "Concave plasmolysis is characterized by which feature?",
+      "options": [
+        "Reversible attachment",
+        "Complete detachment from wall",
+        "Spherical protoplast only",
+        "Irreversible cell death"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Concave plasmolysis produces concave pockets with points of attachment still existing and the condition can be reversed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080625998.4373,
+      "question": "Convex plasmolysis is characterized by which condition?",
+      "options": [
+        "Reversible attachment",
+        "Complete detachment",
+        "Concave pockets",
+        "Partial shrinkage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convex plasmolysis is a spherical protoplast that has completely detached from the cell wall and cannot be reversed.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
