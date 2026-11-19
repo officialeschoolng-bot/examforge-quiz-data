@@ -3,7 +3,7 @@
   "title": "MTH 101: SET THEORY",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 28,
+  "totalQuestions": 31,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -405,6 +405,48 @@
       ],
       "correctAnswer": 0,
       "explanation": "This is solved using the formula for the union of two sets:<br><br>n(T ∪ C) = n(T) + n(C) − n(T ∩ C)<br><br>Where:<br>• n(T) = 15<br>• n(C) = 20<br>• n(T ∩ C) = 5<br><br>n(T ∪ C) = 15 + 20 − 5<br>n(T ∪ C) = 35 − 5 = <b>30</b>.<br><br>• Option B (35) is a trap for those who forget to subtract the intersection (15 + 20).<br>• Option C (40) is a trap for those who add the intersection instead of subtracting it (15 + 20 + 5).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795121497460.834,
+      "question": "Which of the following pairs of sets is <b>equivalent but not equal</b>?",
+      "options": [
+        "A = {1, 2, 3} and B = {a, b, c}",
+        "A = {1, 2, 3} and B = {3, 2, 1}",
+        "A = {x : x is a vowel} and B = {a, e, i, o, u}",
+        "A = {1, 2, 3} and B = {1, 2, 3, 4}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two sets are <b>equal</b> if they contain exactly the same elements. Two sets are <b>equivalent</b> if they have the exact same number of elements (same cardinality), regardless of what those elements are.<br><br>• Option A is <b>equivalent</b> because both sets have 3 elements (n(A) = 3, n(B) = 3). They are <b>not equal</b> because their elements are different (numbers vs. letters).<br>• Option B is both <b>equal and equivalent</b> because the order does not matter; they contain the exact same elements.<br>• Option C is both <b>equal and equivalent</b> because listing the vowels gives the same set.<br>• Option D is neither equal nor equivalent because Set B has 4 elements while Set A has 3.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795121497460.3079,
+      "question": "Given Set A = {x ∈ ℤ | -1 ≤ x ≤ 2} and Set B = {-1, 0, 1, 2}. Which of the following statements is strictly true?",
+      "options": [
+        "A and B are equivalent but not equal",
+        "A and B are equal and equivalent",
+        "A and B are neither equal nor equivalent",
+        "A is a proper subset of B"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Step 1: Write Set A in roster form.</b><br>The notation {x ∈ ℤ | -1 ≤ x ≤ 2} means all integers (ℤ) from -1 to 2, inclusive.<br>A = {-1, 0, 1, 2}.<br><br><b>Step 2: Compare Set A and Set B.</b><br>Set B is explicitly given as {-1, 0, 1, 2}.<br><br>Since they contain exactly the same elements, they are <b>equal sets</b>. Because they have the same number of elements, they are automatically <b>equivalent sets</b> as well.<br><br>• Option A is incorrect because the sets are equal.<br>• Option D is incorrect because a proper subset must be strictly smaller, but here they are identical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795121497460.1914,
+      "question": "If Set P is the set of months in a year that start with the letter 'J', and Set Q is the set of prime numbers less than 6. What is the relationship between Set P and Set Q?",
+      "options": [
+        "P and Q are equal sets",
+        "P and Q are equivalent sets",
+        "P and Q are disjoint sets",
+        "P ⊂ Q"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Step 1: List the elements of Set P.</b><br>The months that start with 'J' are January, June, and July.<br>P = {January, June, July}. The cardinality n(P) = <b>3</b>.<br><br><b>Step 2: List the elements of Set Q.</b><br>The prime numbers less than 6 are 2, 3, and 5.<br>Q = {2, 3, 5}. The cardinality n(Q) = <b>3</b>.<br><br><b>Step 3: Determine the relationship.</b><br>Because n(P) = n(Q) = 3, the sets have the same cardinality. Therefore, they are <b>equivalent sets</b>.<br><br>They are <b>not equal sets</b> because they do not contain the same elements (one has months, the other has numbers).<br><br>• Option A is incorrect because equal sets must have identical elements.<br>• Option C is incorrect because disjoint sets have no common elements, but we are not comparing the nature of the elements here, just the definition of relationship.<br>• Option D is incorrect because P does not contain the numbers 2, 3, 5.",
       "difficulty": "easy",
       "points": 1
     }
