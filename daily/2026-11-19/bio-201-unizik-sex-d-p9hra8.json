@@ -3,16 +3,718 @@
   "title": "BIO 201 : ( UNIZIK ) : SEX DETERMINATION AND SEX LINKAGE",
   "subject": "BIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795081144778.8875,
+      "question": "Gender categorization based on reproductive roles is called which term?",
+      "options": [
+        "Sex",
+        "Genes",
+        "Alleles",
+        "Traits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sex explains the gender categorization of organisms based on the reproductive roles they play in their species.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8186,
+      "question": "Organisms with male and female reproductive organs in the same individual are described as which?",
+      "options": [
+        "Dioecious",
+        "Monoecious",
+        "Hermaphroditic",
+        "Unisexual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The condition where male and female reproductive organs exist in the same individuals is called monoecious.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5557,
+      "question": "Organisms with distinct separate male and female individuals are described as which?",
+      "options": [
+        "Dioecious",
+        "Monoecious",
+        "Hermaphroditic",
+        "Bisexual"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When there are organisms of distinct sexes or separate male and female individuals, the condition is referred to as dioecious.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.3787,
+      "question": "Chromosomes concerned with sex determination are known as which type?",
+      "options": [
+        "Autosomes",
+        "Allosomes",
+        "Ribosomes",
+        "Centrosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sex chromosomes or allosomes are concerned with sex determination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8296,
+      "question": "Chromosomes concerned with other body characters are known as which type?",
+      "options": [
+        "Autosomes",
+        "Allosomes",
+        "Lysosomes",
+        "Centrosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Autosomes are not concerned with sex determination but with other body characters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8318,
+      "question": "Which chromosomal sex determining system is found in mammals and plants?",
+      "options": [
+        "XX-XY",
+        "XX-XO",
+        "ZZ-ZW",
+        "ZO-ZZ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The XX-XY system is found in mammals and plants.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.964,
+      "question": "Which chromosomal sex determining system is found in grasshoppers?",
+      "options": [
+        "XX-XY",
+        "XX-XO",
+        "ZZ-ZW",
+        "ZO-ZZ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The XX-XO system is found in non-heteromorphous organisms like grasshoppers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.2866,
+      "question": "Which chromosomal sex determining system is found in birds and snakes?",
+      "options": [
+        "XX-XY",
+        "XX-XO",
+        "ZZ-ZW",
+        "ZO-ZZ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ZZ-ZW system is found in birds, fish, snakes, amphibians, butterflies and isopods.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.4275,
+      "question": "The female gamete contains which chromosomes in the X-Y system?",
+      "options": [
+        "2X chromosomes",
+        "X and Y chromosomes",
+        "Z and W chromosomes",
+        "X and O chromosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the X-Y system the female gamete contains 2X chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8613,
+      "question": "The male gamete contains which chromosomes in the X-Y system?",
+      "options": [
+        "2X chromosomes",
+        "X and Y",
+        "Z and W",
+        "X and O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The male gamete contains X and Y chromosomes in the X-Y system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.9033,
+      "question": "Offspring sex in the X-Y system depends on which gamete?",
+      "options": [
+        "Egg",
+        "Sperm",
+        "Ovum",
+        "Zygote"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sex of an offspring depends on whether the sperm that fertilizes the egg cell carries an X or Y chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.9255,
+      "question": "Which gene on the Y chromosome determines maleness?",
+      "options": [
+        "SRY gene",
+        "ABO gene",
+        "BRCA gene",
+        "CYP2C9 gene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The location of the SRY gene in the sex determining region of the Y chromosome determines maleness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.3193,
+      "question": "The sex of an offspring depends on whether the fertilizing sperm carries which chromosome?",
+      "options": [
+        "X chromosome only",
+        "Y chromosome only",
+        "X or Y",
+        "Z or W"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An offspring develops into a female when the sperm carries an X chromosome and into a male when it carries a Y chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.9023,
+      "question": "Sex determination in Drosophila follows which system?",
+      "options": [
+        "XX-XY",
+        "XX-XO",
+        "ZZ-ZW",
+        "ZO-ZZ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Drosophila, the female has two X chromosomes and the male has one X chromosome, following the XX-XO system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.565,
+      "question": "Which ratio determines sex in the X-O system?",
+      "options": [
+        "X to autosome",
+        "Y to autosome",
+        "Z to autosome",
+        "O to autosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ratio of X chromosomes to the number of autosomal sets determines sex in the X-O system.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.6792,
+      "question": "A ratio of 0.5 in X-O insects results in which sex?",
+      "options": [
+        "Male",
+        "Female",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If an insect has an X to autosome ratio of 0.5 it will become male.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.1252,
+      "question": "A ratio of 1 in X-O insects results in which sex?",
+      "options": [
+        "Male",
+        "Female",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If an insect receives two X chromosomes and is diploid the ratio is 1 and the insect will be female.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.7576,
+      "question": "In the Z-W system the male is described as which?",
+      "options": [
+        "Homogametic",
+        "Heterogametic",
+        "Hemizygous",
+        "Homozygous"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the Z-W system the male has ZZ chromosomes and is homogametic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.1418,
+      "question": "In the Z-W system the female is described as which?",
+      "options": [
+        "Homogametic",
+        "Heterogametic",
+        "Homozygous",
+        "Autosomal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the Z-W system the female is heterogametic with ZW chromosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.3345,
+      "question": "Which gamete determines the sex of the offspring in the Z-W system?",
+      "options": [
+        "Sperm",
+        "Ovum",
+        "Pollen",
+        "Zygote"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the Z-W system the ovum of the female determines the sex of the offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5342,
+      "question": "Who proposed the genic balance theory of sex determination?",
+      "options": [
+        "Bridges",
+        "Mendel",
+        "Morgan",
+        "William Bateson"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bridges proposed the genic balance theory of sex determination in 1925.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.557,
+      "question": "Genes for females are located on which chromosome?",
+      "options": [
+        "Y chromosome",
+        "X chromosome",
+        "Autosomes",
+        "Ribosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the genic balance theory, genes for females are located on the X chromosome while those for males are located in the autosomes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5872,
+      "question": "Which ratio determines sex in genic sex determination?",
+      "options": [
+        "X to autosome",
+        "Y to autosome",
+        "Z to autosome",
+        "O to autosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ratio of X chromosomes to autosome sets determines the sex index ratio.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.174,
+      "question": "A sex index value of 0.5 determines which sex?",
+      "options": [
+        "Female",
+        "Male",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A sex index value of 0.5 and below determines maleness.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.1987,
+      "question": "A sex index value of 1 or more determines which sex?",
+      "options": [
+        "Female",
+        "Male",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the sex index value is 1 or more it is female.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5217,
+      "question": "Which environmental factor affects sexual phenotypes in turtles and crocodiles?",
+      "options": [
+        "Temperature",
+        "Nutrition",
+        "Light intensity",
+        "Humidity levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Temperature affects the sexual phenotypes of some individuals like alligators, turtles and crocodiles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.4836,
+      "question": "Warm temperature produces which sex in turtles?",
+      "options": [
+        "Males",
+        "Females",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Warm temperature produces females in turtles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5217,
+      "question": "Cold temperature produces which sex in turtles?",
+      "options": [
+        "Males",
+        "Females",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cold temperature produces males in turtles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.1428,
+      "question": "Warm temperature produces which sex in alligators?",
+      "options": [
+        "Males",
+        "Females",
+        "Inter-sex",
+        "Sterile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Warm temperature produces males in alligators.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.3608,
+      "question": "Position in the stack determines sex in which organism?",
+      "options": [
+        "Limpets",
+        "Turtles",
+        "Crocodiles",
+        "Alligators"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In limpets, the position in the stack determines sex.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.1372,
+      "question": "Who proposed the nutrition theory of sex determination?",
+      "options": [
+        "Sharp",
+        "Bridges",
+        "Morgan",
+        "Darwin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sharp proposed the nutrition theory of sex determination in 1934.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.2334,
+      "question": "Big roots rich in nutrients give which flowers in Arisaema japonica?",
+      "options": [
+        "Male flowers",
+        "Female flowers",
+        "Inter-sex flowers",
+        "Sterile flowers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Arisaema japonica, big roots that are rich in nutrients give female flowers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.951,
+      "question": "Favourable conditions produce which sex organs in Equisetum prothalli?",
+      "options": [
+        "Male organs",
+        "Female organs",
+        "Inter-sex organs",
+        "Sterile organs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equisetum prothalli growing under favourable conditions produce female sex organs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.174,
+      "question": "The location of a gene on a sex chromosome is called which term?",
+      "options": [
+        "Sex linkage",
+        "Autosomal linkage",
+        "Gene mutation",
+        "Genetic drift"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sex linkage is the location of a gene on a sex chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.3882,
+      "question": "Genes found on the Y chromosome are referred to as which?",
+      "options": [
+        "Holandric genes",
+        "X-linked genes",
+        "Autosomal genes",
+        "Sex-linked genes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Genes found on the Y chromosomes are referred to as Y-linked genes or holandric genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8994,
+      "question": "Y-linked inheritance is transmitted from father to which offspring?",
+      "options": [
+        "Daughters",
+        "Sons",
+        "Nephews",
+        "Nieces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Any Y-linked inheritance is transmitted from father to his sons.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5007,
+      "question": "X-linked inheritance is transmitted by males to which offspring?",
+      "options": [
+        "Daughters",
+        "Sons",
+        "Nephews",
+        "Grandchildren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Males transmit X-linked inheritance only to their daughters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.5178,
+      "question": "Sons receive X-linked characters only from which parent?",
+      "options": [
+        "Fathers",
+        "Mothers",
+        "Brothers",
+        "Sisters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sons receive X-linked characters only from their mothers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.335,
+      "question": "A lone X-linked gene in a male is referred to as which type?",
+      "options": [
+        "Homozygous",
+        "Heterozygous",
+        "Hemizygous",
+        "Monozygous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lone X-linked gene in the male is referred to as a hemizygous gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8699,
+      "question": "Why are males more likely to be affected by rare recessive disorders?",
+      "options": [
+        "They have two X chromosomes",
+        "They have one X chromosome",
+        "They have one Y chromosome",
+        "They have two Y chromosomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because males have a single copy of X-linked genes they are more likely to be affected by rare recessive disorders.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.546,
+      "question": "In a cross between a normal female and a carrier male, which offspring are affected?",
+      "options": [
+        "All male offspring",
+        "All female offspring",
+        "All offspring",
+        "No offspring"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a normal female marries a carrier male for a disorder located on the X chromosome it is transmitted to all the male offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.9646,
+      "question": "How many X-linked traits pass from a carrier male to daughters?",
+      "options": [
+        "All daughters",
+        "None",
+        "Half daughters",
+        "One daughter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a situation where a carrier male mates with a normal female none of the X-linked traits are passed to the daughters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.884,
+      "question": "Hypertronic sweat is a symptom of which disease?",
+      "options": [
+        "Cystic Fibrosis",
+        "Sickle Cell Disease",
+        "Tay-Sachs Disease",
+        "Albinism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cystic Fibrosis is characterized by respiratory bronchiectasis, pancreatic insufficiency, and hypertronic sweat.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.7764,
+      "question": "De-pigmentation and pink eyes are symptoms of which disease?",
+      "options": [
+        "Cystic Fibrosis",
+        "Albinism",
+        "Galactosemia",
+        "Homocystinuria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Albinism presents with de-pigmentation and pink eyes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.4766,
+      "question": "Which condition presents with severe CNS defects and an odor of maple syrup?",
+      "options": [
+        "Cystic Fibrosis",
+        "Maple Syrup Urine",
+        "Autosomal Recessive Polycystic Kidney Disease",
+        "Severe Combined Immunodeficiency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maple Syrup Urine Disease presents with severe CNS defect, mental retardation, and the patient smells like maple syrup or burnt sugar.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.0986,
+      "question": "Sickle shaped red blood cells are a symptom of which disease?",
+      "options": [
+        "Cystic Fibrosis",
+        "Tay-Sachs Disease",
+        "Sickle Cell Disease",
+        "Congenital Fructose Intolerance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sickle Cell Disease is characterized by sickle shaped red blood cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.8965,
+      "question": "Progressive dementia is a symptom of which disease?",
+      "options": [
+        "Marfan's Syndrome",
+        "Achondroplasia",
+        "Huntington's Disease",
+        "Autosomal Recessive Polycystic Kidney Disease"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Huntington's Disease is an autosomal dominant disorder presenting with progressive dementia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.6323,
+      "question": "Short-limbed dwarfism is a symptom of which disease?",
+      "options": [
+        "Achondroplasia",
+        "Huntington's Disease",
+        "Marfan's Syndrome",
+        "Noonan Syndrome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Achondroplasia presents with short-limbed dwarfism and an enlarged head.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.9949,
+      "question": "Which disorder presents with haemorrhage as a primary symptom?",
+      "options": [
+        "Cystic Fibrosis",
+        "Sickle Cell Disease",
+        "Albinism",
+        "Von Willebrand Disease"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Von Willebrand Disease is an autosomal dominant disorder characterized by haemorrhage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795081144778.055,
+      "question": "A cat-like cry and microcephaly are symptoms of which syndrome?",
+      "options": [
+        "Down Syndrome",
+        "Cri du chat Syndrome",
+        "Turner's Syndrome",
+        "Klinefelter's Syndrome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cri du chat Syndrome presents with a cat-like cry, microcephaly, round-face, and wide-set eyes.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
