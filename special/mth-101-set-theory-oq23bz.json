@@ -3,7 +3,7 @@
   "title": "MTH 101: SET THEORY",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 31,
+  "totalQuestions": 30,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -433,20 +433,6 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Step 1: Write Set A in roster form.</b><br>The notation {x ∈ ℤ | -1 ≤ x ≤ 2} means all integers (ℤ) from -1 to 2, inclusive.<br>A = {-1, 0, 1, 2}.<br><br><b>Step 2: Compare Set A and Set B.</b><br>Set B is explicitly given as {-1, 0, 1, 2}.<br><br>Since they contain exactly the same elements, they are <b>equal sets</b>. Because they have the same number of elements, they are automatically <b>equivalent sets</b> as well.<br><br>• Option A is incorrect because the sets are equal.<br>• Option D is incorrect because a proper subset must be strictly smaller, but here they are identical.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795121497460.1914,
-      "question": "If Set P is the set of months in a year that start with the letter 'J', and Set Q is the set of prime numbers less than 6. What is the relationship between Set P and Set Q?",
-      "options": [
-        "P and Q are equal sets",
-        "P and Q are equivalent sets",
-        "P and Q are disjoint sets",
-        "P ⊂ Q"
-      ],
-      "correctAnswer": 1,
-      "explanation": "<b>Step 1: List the elements of Set P.</b><br>The months that start with 'J' are January, June, and July.<br>P = {January, June, July}. The cardinality n(P) = <b>3</b>.<br><br><b>Step 2: List the elements of Set Q.</b><br>The prime numbers less than 6 are 2, 3, and 5.<br>Q = {2, 3, 5}. The cardinality n(Q) = <b>3</b>.<br><br><b>Step 3: Determine the relationship.</b><br>Because n(P) = n(Q) = 3, the sets have the same cardinality. Therefore, they are <b>equivalent sets</b>.<br><br>They are <b>not equal sets</b> because they do not contain the same elements (one has months, the other has numbers).<br><br>• Option A is incorrect because equal sets must have identical elements.<br>• Option C is incorrect because disjoint sets have no common elements, but we are not comparing the nature of the elements here, just the definition of relationship.<br>• Option D is incorrect because P does not contain the numbers 2, 3, 5.",
       "difficulty": "easy",
       "points": 1
     }
