@@ -3,16 +3,438 @@
   "title": "ANA 201 : BREAST ( MAMMARY GLAND ) 1",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795064638231.877,
+      "question": "The mammary gland is a modified version of which type of gland?",
+      "options": [
+        "Sebaceous gland",
+        "Sweat gland",
+        "Salivary gland",
+        "Endocrine gland"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text describes the mammary gland as a modified sweat gland present in the superficial fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.7737,
+      "question": "In which layer of the pectoral region is the mammary gland located?",
+      "options": [
+        "Deep fascia",
+        "Superficial fascia",
+        "Muscle layer",
+        "Periosteum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mammary gland is present in the superficial fascia of the pectoral region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.5322,
+      "question": "Enlargement of the breasts in males is termed what?",
+      "options": [
+        "Gynecomastia",
+        "Mastitis",
+        "Galactorrhea",
+        "Polymastia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "On rare occasions, the breasts of a male become enlarged, a condition called gynecomastia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.274,
+      "question": "The small extension of the breast that pierces the deep fascia into the axilla is called what?",
+      "options": [
+        "Areola",
+        "Nipple",
+        "Axillary tail of Spence",
+        "Cooper's ligament"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A small extension from the superolateral part is called the axillary tail of Spence.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.2852,
+      "question": "The aperture in the deep fascia through which the axillary tail passes is known as what?",
+      "options": [
+        "Foramen ovale",
+        "Foramen of Langer",
+        "Foramen of Monro",
+        "Foramen spinosum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The aperture in the deep fascia is called the foramen of Langer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.9443,
+      "question": "Vertically, the breast extends from the 2nd rib to which rib?",
+      "options": [
+        "4th rib",
+        "5th rib",
+        "6th rib",
+        "7th rib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vertically, the breast extends from the 2nd rib to the 6th rib.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.6287,
+      "question": "Horizontally, the breast extends from the lateral border of the sternum to which line?",
+      "options": [
+        "Midclavicular line",
+        "Anterior axillary line",
+        "Midaxillary line",
+        "Posterior axillary line"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Horizontally, it extends from the lateral border of the sternum to the midaxillary line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.705,
+      "question": "Which muscle lies immediately deep to the pectoral fascia under the breast?",
+      "options": [
+        "Serratus anterior",
+        "Pectoralis major",
+        "External oblique",
+        "Pectoralis minor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The deep aspect of the breast is related to the pectoral fascia, covering the pectoralis major.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.7402,
+      "question": "The space filled with loose areolar tissue deep to the breast is called what?",
+      "options": [
+        "Retromammary space",
+        "Interpectoral space",
+        "Subacromial space",
+        "Axillary space"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The breast is separated from the pectoral fascia by the retromammary space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.0989,
+      "question": "Because of the retromammary space, the breast can do which of the following?",
+      "options": [
+        "Attach firmly to the chest wall",
+        "Move freely over the pectoral fascia",
+        "Produce milk continuously",
+        "Prevent skin dimpling"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Due to the loose areolar tissue in the retromammary space, the breast can move freely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.907,
+      "question": "Which of the following is NOT a structural component of the breast?",
+      "options": [
+        "Skin",
+        "Stroma",
+        "Parenchyma",
+        "Bone"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The breast consists of skin, stroma, and parenchyma (glandular tissue).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.7505,
+      "question": "The nipple is usually located at the level of which intercostal space?",
+      "options": [
+        "2nd",
+        "3rd",
+        "4th",
+        "5th"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nipple is a conical projection usually at the level of the 4th intercostal space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.6282,
+      "question": "The circular area of pigmented skin surrounding the base of the nipple is called the what?",
+      "options": [
+        "Areola",
+        "Lobule",
+        "Alveolus",
+        "Lactiferous sinus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The areola is the circular area of pigmented skin surrounding the nipple.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.1333,
+      "question": "Which glands in the areola produce oily secretion to lubricate the nipple?",
+      "options": [
+        "Sweat glands",
+        "Modified sebaceous glands",
+        "Mammary glands",
+        "Ceruminous glands"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The areola contains modified sebaceous glands that produce oily secretion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.852,
+      "question": "Enlarged sebaceous glands appearing as nodular elevations during pregnancy are called what?",
+      "options": [
+        "Montgomery's tubercles",
+        "Areolar glands",
+        "Lactiferous sinuses",
+        "Cooper's nodes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These enlarged glands are called Montgomery's tubercles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.617,
+      "question": "The fibrous strands that condense from the connective tissue of the breast stroma are called what?",
+      "options": [
+        "Suspensory ligaments of Cooper",
+        "Pectoral fascia",
+        "Clavipectoral fascia",
+        "Axillary fascia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The connective tissue condenses to form fibrous strands called the suspensory ligaments of Cooper.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.8945,
+      "question": "What is the primary function of the suspensory ligaments of Cooper?",
+      "options": [
+        "Produce milk",
+        "Maintain the protuberance of the breast",
+        "Lubricate the nipple",
+        "Drain lymph"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ligaments of Cooper maintain the protuberance of the breast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.2163,
+      "question": "Atrophy of the suspensory ligaments due to aging causes the breast to become what?",
+      "options": [
+        "Firmer",
+        "Pendulous",
+        "Smaller",
+        "Inflamed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Their atrophy due to ageing makes the breast pendulous in old age.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.4558,
+      "question": "Where is fat NOT distributed within the breast?",
+      "options": [
+        "Outer margins",
+        "Beneath the areola and nipple",
+        "Upper quadrants",
+        "Lower quadrants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fat is distributed all over the breast except beneath the areola and the nipple.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.5706,
+      "question": "The parenchyma of the breast is responsible for what function?",
+      "options": [
+        "Supporting the breast",
+        "Secreting milk",
+        "Forming the nipple",
+        "Lubricating the skin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parenchyma or glandular tissue of the breast secretes milk to feed the newborn.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.4739,
+      "question": "How many lobes is the parenchyma of the breast typically composed of?",
+      "options": [
+        "5 to 10",
+        "15 to 20",
+        "25 to 30",
+        "35 to 40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It consists of about 15-20 lobes arranged in a radial fashion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.6875,
+      "question": "Each lobe of the breast is drained by which structure?",
+      "options": [
+        "Lactiferous duct",
+        "Lactiferous sinus",
+        "Alveolar duct",
+        "Lymphatic vessel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each lobe is drained by a lactiferous duct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.1113,
+      "question": "Near its termination, the lactiferous duct expands into a structure that serves as a reservoir of milk called what?",
+      "options": [
+        "Lactiferous sinus",
+        "Areola",
+        "Montgomery's tubercle",
+        "Alveolus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Near its termination, each duct expands into a lactiferous sinus, which serves as a reservoir of milk.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.772,
+      "question": "The lobules of the breast consist of a cluster of what?",
+      "options": [
+        "Acini",
+        "Ducts",
+        "Sinuses",
+        "Ligaments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each lobe is divided into lobules, which consist of a cluster of acini.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.1548,
+      "question": "Which feature makes the nipple the most sensitive part of the breast?",
+      "options": [
+        "Presence of smooth muscle",
+        "Rich innervation by sensory nerve endings",
+        "Abundant fat deposits",
+        "Thick epidermis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Being richly innervated by sensory nerve endings, the nipple is highly sensitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.2915,
+      "question": "The color of the areola and nipple varies with what?",
+      "options": [
+        "Age",
+        "Complexion of the woman",
+        "Body weight",
+        "Lactation status"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The color of the areola and nipple varies with the complexion of the woman.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.6082,
+      "question": "The axillary tail of the breast is a site of high percentage of what?",
+      "options": [
+        "Milk production",
+        "Breast tumor",
+        "Fat storage",
+        "Lymph nodes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axillary tail is the site of a high percentage of breast tumors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.4558,
+      "question": "Which of the following muscles lies deep to the breast, along with pectoralis major and serratus anterior?",
+      "options": [
+        "Latissimus dorsi",
+        "External oblique",
+        "Rectus abdominis",
+        "Trapezius"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The three muscles deep to the breast are pectoralis major, serratus anterior, and external oblique.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.4922,
+      "question": "What makes the nipple stiff and erect during sexual arousal?",
+      "options": [
+        "Smooth muscle fibres",
+        "Skeletal muscle fibres",
+        "Elastic cartilage",
+        "Fibrous tissue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nipple contains smooth muscle fibres that can make it stiff and erect.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064638231.1663,
+      "question": "The oily secretion from the areolar glands prevents the nipple and areola from doing what?",
+      "options": [
+        "Producing milk",
+        "Drying and cracking",
+        "Changing color",
+        "Losing sensation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The oily secretion lubricates the nipple and areola, preventing them from drying and cracking.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
