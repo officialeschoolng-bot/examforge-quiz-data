@@ -3,7 +3,7 @@
   "title": "MTH 101: SET THEORY",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 8,
+  "totalQuestions": 10,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -125,6 +125,34 @@
       ],
       "correctAnswer": 1,
       "explanation": "Let the set of students offering Mathematics be <b>M</b> and Physics be <b>P</b>.<br><br><b>Step 1: Find the number of students offering at least one subject</b><br>Total students = 40. Students offering neither = 4.<br>Students offering at least one (M ∪ P) = Total − Neither<br>n(M ∪ P) = 40 − 4 = <b>36</b>.<br><br><b>Step 2: Use the set formula to find the intersection</b><br>The formula for the union of two sets is:<br>n(M ∪ P) = n(M) + n(P) − n(M ∩ P)<br><br>Substitute the known values:<br>36 = 32 + 24 − n(M ∩ P)<br>36 = 56 − n(M ∩ P)<br>n(M ∩ P) = 56 − 36 = <b>20</b>.<br><br>• Option A (16) is a trap for those who subtract the neither group from the sum of the two subjects incorrectly.<br>• Option C (36) is the number of students who offer at least one subject.<br>• Option D (12) is a trap for those who forget to account for the students who offer neither.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795119178737.0334,
+      "question": "Out of 50 students in a class, 30 like Mathematics, 25 like Physics, and 10 like both subjects. How many students like <b>exactly one</b> of the two subjects?",
+      "options": [
+        "15",
+        "35",
+        "45",
+        "40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>Step 1: Organize the given information</b><br>• Total students n(U) = 50<br>• Like Mathematics n(M) = 30<br>• Like Physics n(P) = 25<br>• Like both n(M ∩ P) = 10<br><br><b>Step 2: Find the number of students who like ONLY one subject</b><br>• Mathematics only = n(M) − n(M ∩ P) = 30 − 10 = <b>20</b>.<br>• Physics only = n(P) − n(M ∩ P) = 25 − 10 = <b>15</b>.<br><br><b>Step 3: Add the 'only' regions together</b><br>Exactly one subject = (Mathematics only) + (Physics only)<br>Exactly one subject = 20 + 15 = <b>35</b>.<br><br>• Option A (15) is just the number of students who like Physics only.<br>• Option C (45) is the number of students who like at least one subject (M ∪ P = 30 + 25 − 10 = 45).<br>• Option D (40) is a trap for those who mistakenly subtract the intersection twice (30 + 25 − 10 − 5).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795119178737.6465,
+      "question": "In a survey of 60 people, 30 read Newspaper A, 25 read Newspaper B, 20 read Newspaper C. 10 read both A and B, 8 read both B and C, 6 read both A and C, and 4 read all three newspapers. How many people read <b>none</b> of the three newspapers?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can use the formula for the union of three sets to find the number of people who read at least one newspaper.<br><br><b>Formula:</b><br>n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(B ∩ C) − n(A ∩ C) + n(A ∩ B ∩ C)<br><br><b>Step 1: Substitute the values</b><br>n(A ∪ B ∪ C) = 30 + 25 + 20 − 10 − 8 − 6 + 4<br>n(A ∪ B ∪ C) = 75 − 24 + 4<br>n(A ∪ B ∪ C) = <b>55</b>.<br><br>This means 55 people read at least one of the newspapers.<br><br><b>Step 2: Find the number of people who read none</b><br>Total people = 60.<br>None = Total − n(A ∪ B ∪ C)<br>None = 60 − 55 = <b>5</b>.<br><br>• Option B (10) is a trap for those who forget to add the intersection of all three (4) back into the formula.<br>• Option C (15) is a trap for those who add the pairwise intersections instead of subtracting them.<br>• Option D (20) is a trap for those who simply subtract the largest set from the total (60 − 40 = 20).",
       "difficulty": "easy",
       "points": 1
     }
