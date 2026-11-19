@@ -3,16 +3,438 @@
   "title": "ANA 201 : PECTORAL REGION 2",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795064613671.6514,
+      "question": "Where does the subclavius muscle lie in relation to the clavicle?",
+      "options": [
+        "Superior to it",
+        "Inferior to it",
+        "Anterior to it",
+        "Posterior to it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subclavius is a small rounded muscle that lies horizontally inferior to the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.946,
+      "question": "From which structure does the subclavius muscle originate?",
+      "options": [
+        "First rib at the costochondral junction",
+        "Second rib at the costochondral junction",
+        "Clavicle",
+        "Coracoid process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It arises from the first rib at the costochondral junction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.736,
+      "question": "Into which structure does the subclavius muscle insert?",
+      "options": [
+        "Subclavian groove of the clavicle",
+        "Conoid tubercle",
+        "Coracoid process",
+        "First rib"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subclavius is inserted into the subclavian groove on the inferior surface of the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.1323,
+      "question": "Which nerve supplies the subclavius muscle?",
+      "options": [
+        "Nerve to subclavius",
+        "Medial pectoral nerve",
+        "Lateral pectoral nerve",
+        "Long thoracic nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is supplied by the nerve to subclavius from the upper trunk of the brachial plexus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.8906,
+      "question": "The nerve to subclavius arises from which part of the brachial plexus?",
+      "options": [
+        "Upper trunk",
+        "Middle trunk",
+        "Lower trunk",
+        "Lateral cord"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The nerve to subclavius arises from the upper trunk of the brachial plexus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.39,
+      "question": "What is the main action of the subclavius muscle?",
+      "options": [
+        "Stabilizes the clavicle",
+        "Protracts the scapula",
+        "Flexes the arm",
+        "Elevates the ribs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The subclavius stabilizes the clavicle by pulling it inferiorly and medially.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.3206,
+      "question": "Which muscle is described as a broad sheet that clothes the side wall of the thorax?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Serratus anterior",
+        "Subclavius"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The serratus anterior is a broad sheet of muscle that clothes the side wall of the thorax.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.3655,
+      "question": "From how many ribs does the serratus anterior arise?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It arises by a series of 8 digitations from the upper eight ribs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.0925,
+      "question": "Which ribs give rise to the first digitation of the serratus anterior?",
+      "options": [
+        "1st and 2nd ribs",
+        "2nd and 3rd ribs",
+        "3rd and 4th ribs",
+        "4th and 5th ribs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first digitation arises from the 1st and 2nd ribs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.0159,
+      "question": "Where is the serratus anterior inserted?",
+      "options": [
+        "Costal surface of scapula",
+        "Dorsal surface of scapula",
+        "Coracoid process",
+        "Acromion process"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is inserted into the costal surface of the scapula along its medial border.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.336,
+      "question": "Which nerve supplies the serratus anterior?",
+      "options": [
+        "Long thoracic nerve",
+        "Thoracodorsal nerve",
+        "Lateral pectoral nerve",
+        "Axillary nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is supplied by the long thoracic nerve (C5, C6, and C7).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.3955,
+      "question": "Which spinal roots contribute to the long thoracic nerve?",
+      "options": [
+        "C3, C4, C5",
+        "C4, C5, C6",
+        "C5, C6, C7",
+        "C6, C7, C8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The long thoracic nerve carries fibers from C5, C6, and C7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.8066,
+      "question": "The serratus anterior is also called the boxer's muscle because it performs which action?",
+      "options": [
+        "Powerful protraction of scapula",
+        "Retraction of scapula",
+        "Elevation of scapula",
+        "Depression of scapula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It pulls the scapula forward for pushing and punching movements as required during boxing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.3096,
+      "question": "The lower 4 or 5 digitations of the serratus anterior rotate the scapula in which direction?",
+      "options": [
+        "Medially and downwards",
+        "Laterally and upwards",
+        "Anteriorly and downwards",
+        "Posteriorly and upwards"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Its lower 4 or 5 digitations rotate the scapula laterally and upwards during overhead abduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.6104,
+      "question": "Paralysis of the serratus anterior leads to which clinical condition?",
+      "options": [
+        "Winging of the scapula",
+        "Frozen shoulder",
+        "Claw hand",
+        "Wrist drop"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paralysis leads to a condition called winging of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613671.2363,
+      "question": "Which structure is continuous inferiorly with the pectoral fascia?",
+      "options": [
+        "Fascia of anterior abdominal wall",
+        "Investing layer of deep cervical fascia",
+        "Prevertebral fascia",
+        "Axillary sheath"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inferiorly, the pectoral fascia is continuous with the fascia of the anterior abdominal wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.2385,
+      "question": "The pectoral fascia is continuous superolaterally with the fascia covering which muscle?",
+      "options": [
+        "Deltoid",
+        "Trapezius",
+        "Infraspinatus",
+        "Latissimus dorsi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It passes over the deltopectoral groove to become continuous with the fascia covering the deltoid muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.4124,
+      "question": "The clavipectoral fascia fills the space between the clavicle and which muscle?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Subclavius",
+        "Serratus anterior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It fills the space between the clavicle and the pectoralis minor muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.8733,
+      "question": "Which muscle is enclosed by the upper part of the clavipectoral fascia?",
+      "options": [
+        "Subclavius",
+        "Pectoralis major",
+        "Serratus anterior",
+        "Deltoid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The upper part of the clavipectoral fascia splits into two laminae to enclose the subclavius muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.5422,
+      "question": "Which muscle is enclosed by the lower part of the clavipectoral fascia?",
+      "options": [
+        "Pectoralis minor",
+        "Subclavius",
+        "Pectoralis major",
+        "Serratus anterior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Its lower part splits to enclose the pectoralis minor muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.6187,
+      "question": "Below the pectoralis minor, the clavipectoral fascia extends downwards as what structure?",
+      "options": [
+        "Suspensory ligament of axilla",
+        "Costocoracoid ligament",
+        "Axillary fascia",
+        "Pectoral fascia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It extends downwards as the suspensory ligament of axilla, which is attached to the dome of the axillary fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.9543,
+      "question": "What is the function of the suspensory ligament of axilla?",
+      "options": [
+        "Maintains axillary concavity",
+        "Elevates the clavicle",
+        "Protracts the scapula",
+        "Flexes the arm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It keeps the dome of axillary fascia pulled up, thus maintaining the concavity of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.338,
+      "question": "The thick upper part of the clavipectoral fascia is called what?",
+      "options": [
+        "Costocoracoid ligament",
+        "Suspensory ligament",
+        "Coracoacromial ligament",
+        "Coracoclavicular ligament"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thick upper part extending from the first rib to the coracoid process is called the costocoracoid ligament.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.5261,
+      "question": "Which nerve pierces the clavipectoral fascia?",
+      "options": [
+        "Lateral pectoral nerve",
+        "Medial pectoral nerve",
+        "Long thoracic nerve",
+        "Thoracodorsal nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lateral pectoral nerve is one of the four structures that pierce the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.4744,
+      "question": "Which artery pierces the clavipectoral fascia?",
+      "options": [
+        "Thoraco-acromial artery",
+        "Axillary artery",
+        "Internal thoracic artery",
+        "Subscapular artery"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thoraco-acromial artery pierces the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.1177,
+      "question": "Which vein pierces the clavipectoral fascia?",
+      "options": [
+        "Axillary vein",
+        "Cephalic vein",
+        "Basilic vein",
+        "Subclavian vein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cephalic vein pierces the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.6477,
+      "question": "The lymphatics piercing the clavipectoral fascia drain to which group of nodes?",
+      "options": [
+        "Apical group",
+        "Central group",
+        "Lateral group",
+        "Posterior group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lymphatics from the breast pierce the fascia to reach the apical group of axillary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.6199,
+      "question": "Which two structures pass outwards after piercing the clavipectoral fascia?",
+      "options": [
+        "Lateral pectoral nerve and thoraco-acromial artery",
+        "Cephalic vein and lymphatics",
+        "Medial pectoral nerve and axillary artery",
+        "Basilic vein and radial nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lateral pectoral nerve and thoraco-acromial artery pass outwards, while the other two pass inwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.273,
+      "question": "Which two structures pass inwards after piercing the clavipectoral fascia?",
+      "options": [
+        "Lymphatics and cephalic vein",
+        "Lateral pectoral nerve and thoraco-acromial artery",
+        "Axillary artery and vein",
+        "Long thoracic nerve and thoracodorsal artery"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lymphatics and cephalic vein pass inwards through the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795064613672.7393,
+      "question": "Which structure does the pectoral fascia become continuous with inferolaterally?",
+      "options": [
+        "Axillary fascia",
+        "Clavipectoral fascia",
+        "Brachial fascia",
+        "Antebrachial fascia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inferolaterally, it curves round the inferolateral border of the pectoralis major to become continuous with the axillary fascia.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
