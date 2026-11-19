@@ -3,16 +3,718 @@
   "title": "BIO 101 : ( UNINIGER ) : REPRODUCTION",
   "subject": "BIO 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
     "canRetake": true,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795080233780.3232,
+      "question": "Developmental biology is the study of a process whereby a single cell divides and selectively activates expression of what?",
+      "options": [
+        "Proteins",
+        "Cells",
+        "Genes",
+        "Tissues"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Developmental biology studies how a single cell selectively activates gene expression.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.4866,
+      "question": "The process by which a single cell divides to produce a complex organism involves selective activation of what?",
+      "options": [
+        "Gene expression",
+        "Cell fusion",
+        "Protein degradation",
+        "Axis formation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Selective activation of gene expression is key to forming a complex organism from a single cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.163,
+      "question": "Which of the following is a required process to form an embryo?",
+      "options": [
+        "Cell death",
+        "Gamete fusion",
+        "Protein denaturation",
+        "Organ removal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gametes forming and fusing is a fundamental process required to form an embryo.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.4985,
+      "question": "The process of cells multiplying during embryo formation is known as what?",
+      "options": [
+        "Differentiation",
+        "Growth",
+        "Morphogenesis",
+        "Reproduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Growth refers to the multiplication of cells during embryonic development.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9685,
+      "question": "Anterior/Posterior, Dorsal/Ventral, and Left/Right are examples of what type of determination?",
+      "options": [
+        "Cell fate",
+        "Gene expression",
+        "Axis determination",
+        "Protein folding"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These are the axes determined during embryo formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.6943,
+      "question": "The process where cells become specialized in structure and function is called what?",
+      "options": [
+        "Growth",
+        "Differentiation",
+        "Morphogenesis",
+        "Reproduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differentiation is the process by which cells become specialized.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.2056,
+      "question": "Structures are built from cells during a process known as what?",
+      "options": [
+        "Differentiation",
+        "Binary fission",
+        "Morphogenesis",
+        "Budding"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Morphogenesis is the process of building structures from cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9065,
+      "question": "Animal cells organize into sheets and move, while plant cells form structures without doing what?",
+      "options": [
+        "Dividing",
+        "Growing",
+        "Moving",
+        "Differentiating"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plant cells form structures without moving, unlike animal cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9785,
+      "question": "The study of a process whereby a single cell divides and selectively activates gene expression is called what?",
+      "options": [
+        "Genetics",
+        "Ecology",
+        "Cytology",
+        "Developmental biology"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Developmental biology studies this process.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.1313,
+      "question": "Differentiation is a central idea of development where all cells have the same DNA but express different what?",
+      "options": [
+        "Proteins",
+        "Cells",
+        "Genes",
+        "Tissues"
+      ],
+      "correctAnswer": 2,
+      "explanation": "All cells have the same DNA but express different genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.634,
+      "question": "Although all cells in a body have the same DNA, they express different genes due to their different what?",
+      "options": [
+        "Sizes",
+        "Tasks",
+        "Ages",
+        "Shapes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Different cells express different genes because they have different tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5457,
+      "question": "The cellular machinery is largely made up of which type of molecules?",
+      "options": [
+        "Carbohydrates",
+        "Proteins",
+        "Lipids",
+        "Nucleic acids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cellular machinery is largely made up of proteins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.4856,
+      "question": "Different cells contain different proteins because they have different what?",
+      "options": [
+        "Tasks",
+        "Nuclei",
+        "Membranes",
+        "Sizes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Different cells contain different proteins due to their different tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.3962,
+      "question": "Proteins are made up of chains of amino acids encoded in the cell's what?",
+      "options": [
+        "RNA",
+        "Lipids",
+        "DNA",
+        "Sugars"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The amino acid sequence of proteins is encoded in the cell's DNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9617,
+      "question": "Information flows from DNA to RNA to what molecule?",
+      "options": [
+        "Lipid",
+        "Protein",
+        "Carbohydrate",
+        "DNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The central dogma states information flows from DNA to RNA to protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.0334,
+      "question": "When one gene is mutated, what is the direct consequence?",
+      "options": [
+        "All proteins change",
+        "DNA is destroyed",
+        "One protein is affected",
+        "Cells stop dividing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A mutation in one gene typically affects one protein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.483,
+      "question": "Most organisms use information from parents and what other source to know which genes to activate?",
+      "options": [
+        "Enemies",
+        "Neighbors",
+        "Gravity",
+        "Light"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cells use information from parents and neighbors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.105,
+      "question": "Information from parents during development is known as the cell what?",
+      "options": [
+        "Environment",
+        "Signal",
+        "Lineage",
+        "Receptor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information from parents is referred to as the cell lineage.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.1204,
+      "question": "The unequal localization of determinants during cell division is a mechanism to generate what?",
+      "options": [
+        "Symmetry",
+        "Growth",
+        "Asymmetry",
+        "Death"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unequal localization of determinants generates asymmetry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5798,
+      "question": "What type of molecules are typically the \"determinants\" that are segregated during cell division?",
+      "options": [
+        "Proteins or mRNA",
+        "Lipids or DNA",
+        "Carbohydrates or RNA",
+        "Sugars or proteins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Determinants are usually proteins or mRNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9263,
+      "question": "Cell division transfers determinants to a single daughter cell, causing the cells to become what?",
+      "options": [
+        "Identical",
+        "Dead",
+        "Larger",
+        "Different"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Transferring determinants to one daughter cell makes the cells different.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9302,
+      "question": "An alternative mechanism to generate asymmetry is cell division placing daughter cells in different what?",
+      "options": [
+        "Nuclei",
+        "Environments",
+        "Sizes",
+        "Ages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cell division can place daughter cells in different environments, generating asymmetry.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.3752,
+      "question": "Different environments lead daughter cells to have different what?",
+      "options": [
+        "DNA",
+        "Nuclei",
+        "Cell fates",
+        "Membranes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different environments lead to different cell fates.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5454,
+      "question": "Single yeast cells \"talk\" to each other when they want to do what?",
+      "options": [
+        "Divide",
+        "Mate",
+        "Die",
+        "Move"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yeast cells communicate when they want to mate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5796,
+      "question": "In yeast, what are the names of the two cell types?",
+      "options": [
+        "\"X\" and \"Y\"",
+        "\"M\" and \"F\"",
+        "\"A\" and \"alpha\"",
+        "\"1\" and \"2\""
+      ],
+      "correctAnswer": 2,
+      "explanation": "The two yeast cell types are \"A\" and \"alpha\".",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.8064,
+      "question": "In yeast, each cell type makes a specific signal and has receptors only for the opposite what?",
+      "options": [
+        "Cell",
+        "Gene",
+        "Signal",
+        "Protein"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each cell type has receptors only for the opposite signal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.0764,
+      "question": "The cell-cell signals in yeast lead the cells to move together, change shape, and ultimately do what?",
+      "options": [
+        "Fuse",
+        "Divide",
+        "Die",
+        "Separate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The signals lead the yeast cells to fuse.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.1992,
+      "question": "The fusion of yeast cells produces what type of cell?",
+      "options": [
+        "Haploid",
+        "Triploid",
+        "Tetraploid",
+        "Diploid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The fusion of two yeast cells produces a diploid cell.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.404,
+      "question": "Even the most simple eukaryotic organisms sense their environment, migrate, adhere, differentiate and do what?",
+      "options": [
+        "Photosynthesize",
+        "Interact",
+        "Hibernate",
+        "Die"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Even simple organisms sense, migrate, adhere, differentiate and interact.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.2153,
+      "question": "All organisms share similar cellular machinery, and all animals use this machinery in similar ways to direct what?",
+      "options": [
+        "Weather patterns",
+        "Plant growth",
+        "Embryonic development",
+        "Bacterial division"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Animals use similar cellular machinery to direct embryonic development.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5618,
+      "question": "Asexual reproduction requires only how many parents?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Asexual reproduction requires only one parent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9866,
+      "question": "Offspring produced by asexual reproduction are an exact copy of the parent, known as a what?",
+      "options": [
+        "Hybrid",
+        "Clone",
+        "Mutant",
+        "Variation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Offspring that are exact copies are called clones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5444,
+      "question": "Organisms that reproduce asexually cannot develop much variety because they are doing what to the original organism?",
+      "options": [
+        "Changing",
+        "Mutating",
+        "Copying",
+        "Ignoring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asexual reproduction copies the original organism exactly, limiting variety.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.4907,
+      "question": "The lack of variety in asexual reproduction does not allow for what process?",
+      "options": [
+        "Growth",
+        "Evolution",
+        "Division",
+        "Fusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Without variety, evolution of the species cannot occur.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.24,
+      "question": "Asexual reproduction takes a relatively short period of time and can produce how many offspring?",
+      "options": [
+        "Only one",
+        "Millions",
+        "1-100s",
+        "Billions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asexual reproduction can produce 1 to 100s of offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.6611,
+      "question": "Which of the following is a method of asexual reproduction?",
+      "options": [
+        "Fertilization",
+        "Binary fission",
+        "Meiosis",
+        "Pollination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Binary fission is a method of asexual reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.6033,
+      "question": "Single-celled organisms like Amoeba and Paramecium reproduce asexually by dividing into two equal halves, a process called what?",
+      "options": [
+        "Budding",
+        "Fragmentation",
+        "Parthenogenesis",
+        "Binary fission"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dividing into two equal halves is called binary fission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5273,
+      "question": "Binary fission is a very effective way of producing many offspring when conditions are what?",
+      "options": [
+        "Harsh",
+        "Good",
+        "Cold",
+        "Dry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Binary fission is effective when conditions are good, like plenty of food and water.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.081,
+      "question": "In the space of 8 hours, a Paramecium can divide, grow, and divide again, representing what type of reproduction?",
+      "options": [
+        "Sexual",
+        "Budding",
+        "Binary fission",
+        "Fragmentation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This rapid division is characteristic of binary fission.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.5476,
+      "question": "In which method of asexual reproduction does an offspring grow out of the body of the parent?",
+      "options": [
+        "Binary fission",
+        "Fragmentation",
+        "Budding",
+        "Parthenogenesis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Budding involves an offspring growing out of the parent's body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9963,
+      "question": "Hydra and Cactus are examples of organisms that use which method of asexual reproduction?",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Fragmentation",
+        "Parthenogenesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydra and Cactus reproduce by budding.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.1624,
+      "question": "Which method of asexual reproduction involves an organism breaking into fragments that grow into new individuals?",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Parthenogenesis",
+        "Fragmentation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fragmentation involves breaking into pieces that grow into new individuals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9526,
+      "question": "Which method of asexual reproduction involves an egg developing without fertilization?",
+      "options": [
+        "Binary fission",
+        "Parthenogenesis",
+        "Budding",
+        "Fragmentation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parthenogenesis is the development of an egg without fertilization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.9155,
+      "question": "The generation of asymmetry is a required process to form what?",
+      "options": [
+        "A cell",
+        "A tissue",
+        "An embryo",
+        "An organ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Generating asymmetry is required for embryo formation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.0166,
+      "question": "What is the central idea of development?",
+      "options": [
+        "Growth",
+        "Reproduction",
+        "Differentiation",
+        "Morphogenesis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Differentiation is a central idea of development.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.3486,
+      "question": "The information flow from DNA to RNA to Protein is a fundamental concept in what?",
+      "options": [
+        "Physics",
+        "Chemistry",
+        "Geology",
+        "Biology"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This is a fundamental concept in biology.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.0964,
+      "question": "Cell lineage provides information from which source?",
+      "options": [
+        "Neighbors",
+        "Environment",
+        "Parents",
+        "Signals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cell lineage is information from parents.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.0635,
+      "question": "The \"determinants\" passed from parent to offspring are usually what type of molecules?",
+      "options": [
+        "Lipids",
+        "Proteins or mRNA",
+        "Carbohydrates",
+        "DNA only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Determinants are usually proteins or mRNA.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.8655,
+      "question": "Yeast cells \"talk\" to each other using specific signals to initiate what process?",
+      "options": [
+        "Division",
+        "Death",
+        "Mating",
+        "Growth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Yeast cells communicate to initiate mating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795080233786.242,
+      "question": "Asexual reproduction produces offspring that are an exact copy of the parent, meaning they are what?",
+      "options": [
+        "Mutants",
+        "Clones",
+        "Hybrids",
+        "Variations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Asexual offspring are clones.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
