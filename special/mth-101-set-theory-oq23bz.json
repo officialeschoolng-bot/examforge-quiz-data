@@ -3,7 +3,7 @@
   "title": "MTH 101: SET THEORY",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 20,
+  "totalQuestions": 28,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -293,6 +293,118 @@
       ],
       "correctAnswer": 1,
       "explanation": "<b>Step 1: Find the total number of subsets.</b><br>For a set with n elements, the total number of subsets is 2<sup>n</sup>.<br>Total subsets = 2<sup>5</sup> = <b>32</b>.<br><br><b>Step 2: Find the proper subsets.</b><br>A proper subset is any subset of the set that is <b>not equal</b> to the set itself. <br>To find the number of proper subsets, subtract 1 (the set itself) from the total number of subsets.<br>Proper subsets = 32 − 1 = <b>31</b>.<br><br>• Option A (32) is the total number of subsets, including the set itself.<br>• Option C (30) is a trap for those who accidentally subtract 2 instead of 1.<br>• Option D (25) is a trap for those who square the number of elements (5²).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.9858,
+      "question": "If A = {1, 2} and B = {1, 2, 3}, which of the following statements is strictly true?",
+      "options": [
+        "A ⊂ B",
+        "B ⊂ A",
+        "A = B",
+        "A ∈ B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The symbol ⊂ means 'is a proper subset of'. A proper subset contains some, but not all, of the elements of the other set.<br><br>Since every element in A (1 and 2) is also in B, but B contains an extra element (3), Set A is a proper subset of Set B.<br><br>• Option B is false because B has an element (3) not found in A.<br>• Option C is false because they do not have the exact same elements.<br>• Option D is false because A is a set, not an element of B.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.6216,
+      "question": "What is the result of intersecting any set A with the null set (∅)?",
+      "options": [
+        "A",
+        "∅",
+        "Universal Set",
+        "A'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The intersection of two sets (A ∩ ∅) consists of elements that are in <b>both</b> sets.<br><br>Since the null set (∅) contains no elements at all, there are no elements that can possibly be in both A and ∅.<br><br>Therefore, A ∩ ∅ = <b>∅</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.1418,
+      "question": "Given Set P = {a, b, c, d} and Set Q = {c, d, e}, find the set difference <b>P − Q</b>.",
+      "options": [
+        "{a, b}",
+        "{e}",
+        "{c, d}",
+        "{a, b, e}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set difference P − Q (also written as P \\ Q) consists of all elements that are in Set P but <b>not</b> in Set Q.<br><br>• Elements in P: {a, b, c, d}<br>• Elements in Q: {c, d, e}<br><br>We remove the elements 'c' and 'd' from P because they are in Q.<br>The remaining elements are {a, b}.<br><br>• Option B ({e}) is Q − P.<br>• Option C ({c, d}) is P ∩ Q.<br>• Option D ({a, b, e}) is the symmetric difference (P Δ Q).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.41,
+      "question": "If U is the universal set and A is a subset of U, what is the union of A and U (A ∪ U)?",
+      "options": [
+        "A",
+        "∅",
+        "U",
+        "A'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The union of two sets (A ∪ U) consists of all elements that are in A, or in U, or in both.<br><br>Since U is the universal set, it already contains every possible element in the discussion, including all elements of A.<br><br>Therefore, combining A and U simply gives you the entire universal set, <b>U</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.6394,
+      "question": "What is the number of subsets that can be formed from the empty set (∅)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number of subsets for a set with <b>n</b> elements is given by the formula 2<sup>n</sup>.<br><br>The empty set (∅) has exactly 0 elements (n = 0).<br>Total subsets = 2<sup>0</sup> = <b>1</b>.<br><br>The only subset of an empty set is the empty set itself.<br><br>• Option A (0) is a common trap; people often think an empty set has no subsets, but it has one (itself).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.7427,
+      "question": "Which set law is illustrated by the equation <b>A ∪ A = A</b>?",
+      "options": [
+        "Commutative Law",
+        "Associative Law",
+        "Idempotent Law",
+        "Distributive Law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The <b>Idempotent Law</b> states that performing a union or intersection of a set with itself yields the original set without any changes.<br><br>• The Commutative Law is A ∪ B = B ∪ A.<br>• The Associative Law is (A ∪ B) ∪ C = A ∪ (B ∪ C).<br>• The Distributive Law is A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.976,
+      "question": "Given that A = {x : x is a prime number less than 10} and B = {2, 3, 5, 7}. What is the relationship between Set A and Set B?",
+      "options": [
+        "A ⊂ B",
+        "B ⊂ A",
+        "A = B",
+        "A ∩ B = ∅"
+      ],
+      "correctAnswer": 2,
+      "explanation": "<b>Step 1: List the elements of Set A.</b><br>The prime numbers less than 10 are 2, 3, 5, and 7.<br>So, A = {2, 3, 5, 7}.<br><br><b>Step 2: Compare with Set B.</b><br>Set B is explicitly given as {2, 3, 5, 7}.<br><br>Since both sets contain exactly the same elements, they are equal. Therefore, <b>A = B</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795120971030.0818,
+      "question": "In a survey, 15 people like tea, 20 like coffee, and 5 like both. How many people like <b>tea or coffee</b> (or both)?",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is solved using the formula for the union of two sets:<br><br>n(T ∪ C) = n(T) + n(C) − n(T ∩ C)<br><br>Where:<br>• n(T) = 15<br>• n(C) = 20<br>• n(T ∩ C) = 5<br><br>n(T ∪ C) = 15 + 20 − 5<br>n(T ∪ C) = 35 − 5 = <b>30</b>.<br><br>• Option B (35) is a trap for those who forget to subtract the intersection (15 + 20).<br>• Option C (40) is a trap for those who add the intersection instead of subtracting it (15 + 20 + 5).",
       "difficulty": "easy",
       "points": 1
     }
