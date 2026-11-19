@@ -3,16 +3,88 @@
   "title": "MTH 101: SET THEORY",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 5,
   "defaultTimePerQuestion": 60,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795118299471.4998,
+      "question": "<div style='font-size: 1.1rem; font-weight: 600;'>If a set A has 4 elements, what is the cardinality of its power set?</div>",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The power set of a set with <b>n</b> elements has <b>2<sup>n</sup></b> elements.<br><br>Here, n = 4.<br>Cardinality = 2<sup>4</sup> = 2 × 2 × 2 × 2 = <b>16</b>.<br><br>• Option A (4) is the number of elements in the original set.<br>• Option B (8) is 2<sup>3</sup>, the power set for a 3-element set.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795118299471.1577,
+      "question": "<div style='font-size: 1.1rem; font-weight: 600;'>Given that <b>A = {2, 4, 6, 8}</b> and <b>B = {1, 3, 5, 7}</b>, find <b>A ∩ B</b>.</div>",
+      "options": [
+        "{ }",
+        "{1, 2, 3, 4, 5, 6, 7, 8}",
+        "{2, 4, 6, 8}",
+        "{1, 3, 5, 7}"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The symbol <b>∩</b> represents intersection, which means finding the elements common to both sets.<br><br>Set A contains only even numbers, while Set B contains only odd numbers. Because they have no elements in common, their intersection is an empty set (also called a null set), represented by <b>{ }</b> or ∅.<br><br>• Option B is the union (A ∪ B).<br>• Options C and D are just the individual sets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795118299471.1377,
+      "question": "<div style='font-size: 1.1rem; font-weight: 600;'>In a class of 40 students, 32 offer Mathematics, 24 offer Physics, and 4 offer neither. How many students offer both subjects?</div>",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let x be the number of students who offer both subjects.<br><br><b>Step 1: Find the number who offer at least one subject</b><br>Total students who offer at least one = 40 (total) − 4 (neither) = 36.<br><br><b>Step 2: Use the union formula</b><br>n(M ∪ P) = n(M) + n(P) − n(M ∩ P)<br>36 = 32 + 24 − x<br>36 = 56 − x<br>x = 56 − 36 = <b>20</b>.<br><br>• Option C (24) is just the number who take Physics.<br>• Option A (16) is the number who take <i>only</i> Mathematics (32 − 20 = 12) plus the number who take <i>neither</i> (4) - a common calculation error.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795118299471.7185,
+      "question": "<div style='font-size: 1.1rem; font-weight: 600;'>Which of the following correctly represents De Morgan's Law?</div>",
+      "options": [
+        "(A ∩ B)' = A' ∪ B'",
+        "(A ∪ B)' = A' ∪ B'",
+        "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "A Δ B = (A − B) ∪ (B − A)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "De Morgan's Laws describe how the complement of a union or intersection relates to the complements of the individual sets. The two laws are:<br>1) (A ∪ B)' = A' ∩ B'<br>2) <b>(A ∩ B)' = A' ∪ B'</b><br><br>• Option B is incorrect because the union shouldn't remain a union after taking the complement.<br>• Option C is the Distributive Law.<br>• Option D is the definition of Symmetric Difference.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795118299471.2014,
+      "question": "<div style='font-size: 1.1rem; font-weight: 600;'>Given the universal set <b>U = {1, 2, 3, 4, 5, 6}</b> and set <b>A = {2, 4, 6}</b>, what is <b>A'</b>?</div>",
+      "options": [
+        "{2, 4, 6}",
+        "{1, 3, 5}",
+        "{1, 2, 3}",
+        "{ }"
+      ],
+      "correctAnswer": 1,
+      "explanation": "<b>A'</b> (A prime or A complement) consists of all the elements in the Universal set (U) that are <b>not</b> in Set A.<br><br>U = {1, 2, 3, 4, 5, 6}<br>A = {2, 4, 6}<br><br>By removing the elements of A from U, we are left with the odd numbers: <b>{1, 3, 5}</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
