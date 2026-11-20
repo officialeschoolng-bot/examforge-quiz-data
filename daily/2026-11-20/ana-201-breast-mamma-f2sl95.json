@@ -3,16 +3,718 @@
   "title": "ANA 201 : BREAST ( MAMMARY GLAND ) 2",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795184102726.229,
+      "question": "Which artery supplies the breast through perforating branches that pierce the 2nd, 3rd, and 4th intercostal spaces?",
+      "options": [
+        "Axillary artery",
+        "Internal thoracic artery",
+        "Posterior intercostal artery",
+        "Subclavian artery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The internal thoracic (mammary) artery supplies the breast via its perforating branches in the 2nd, 3rd, and 4th intercostal spaces.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8691,
+      "question": "Which branches of the axillary artery supply the breast?",
+      "options": [
+        "Lateral thoracic and superior thoracic",
+        "Subscapular and circumflex scapular",
+        "Thoracoacromial and anterior circumflex",
+        "Posterior circumflex and subscapular"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The axillary artery supplies the breast through its lateral thoracic, superior thoracic, and acromiothoracic branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.9824,
+      "question": "The posterior intercostal arteries supply the breast through which branches?",
+      "options": [
+        "Anterior branches",
+        "Medial branches",
+        "Lateral branches",
+        "Perforating branches"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The posterior intercostal arteries supply the breast through their lateral branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.683,
+      "question": "Which of the following is a vein that drains the breast?",
+      "options": [
+        "Internal jugular vein",
+        "Axillary vein",
+        "Subclavian vein",
+        "Cephalic vein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The venous drainage of the breast takes place by the axillary, internal thoracic, and posterior intercostal veins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6953,
+      "question": "Before running into superficial and deep sets, the veins of the breast converge to form what?",
+      "options": [
+        "Anastomotic venous circle",
+        "Venous plexus",
+        "Venous sinus",
+        "Venous arch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The veins converge towards the base of the nipple where they form an anastomotic venous circle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.4526,
+      "question": "The superficial veins of the breast drain into which vein?",
+      "options": [
+        "Axillary vein",
+        "Internal thoracic vein",
+        "Posterior intercostal vein",
+        "Subclavian vein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The superficial veins drain into the internal thoracic vein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.7495,
+      "question": "Through which venous route can breast cancer metastasize to the brain?",
+      "options": [
+        "Axillary vein",
+        "Internal thoracic vein",
+        "Posterior intercostal veins",
+        "Pulmonary veins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cancer cells can travel through posterior intercostal veins to the vertebral venous plexus and then to the brain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.2434,
+      "question": "The nerve supply of the breast is derived from which intercostal nerves?",
+      "options": [
+        "1st to 4th",
+        "2nd to 6th",
+        "3rd to 7th",
+        "4th to 8th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nerve supply is derived from the 2nd to 6th intercostal nerves through their anterior and lateral cutaneous branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.714,
+      "question": "The sensory nerve endings in the nipple and areola stimulate the release of milk in response to what?",
+      "options": [
+        "Hormonal changes",
+        "Suckling by the infant",
+        "Emotional stress",
+        "Temperature change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sensory nerve endings stimulate the release of milk from the mammary gland in response to suckling by the infant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.2678,
+      "question": "Which hormone controls the secretion of milk from the breast?",
+      "options": [
+        "Oxytocin",
+        "Prolactin",
+        "Estrogen",
+        "Progesterone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The secretion of milk from the breast is not under neural control but by prolactin hormone secreted by the pituitary gland.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.3206,
+      "question": "Which group of lymph nodes lies along the internal thoracic vessels?",
+      "options": [
+        "Axillary lymph nodes",
+        "Internal mammary nodes",
+        "Supraclavicular nodes",
+        "Posterior intercostal nodes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internal mammary nodes lie along the internal thoracic vessels.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6472,
+      "question": "Which lymph nodes lie in the deltopectoral groove?",
+      "options": [
+        "Apical nodes",
+        "Central nodes",
+        "Cephalic nodes",
+        "Posterior nodes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cephalic (deltopectoral) nodes lie in the deltopectoral groove.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.1145,
+      "question": "The lymphatics draining the breast are divided into which two groups?",
+      "options": [
+        "Superficial and deep",
+        "Anterior and posterior",
+        "Medial and lateral",
+        "Upper and lower"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lymphatics draining the breast are divided into superficial and deep groups.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.3035,
+      "question": "A plexus of lymph vessels deep to the areola is called what?",
+      "options": [
+        "Plexus of Sappey",
+        "Plexus of Santorini",
+        "Plexus of Auerbach",
+        "Plexus of Meissner"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A plexus of lymph vessels deep to the areola is called the subareolar plexus of Sappey.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.2317,
+      "question": "The superficial lymphatics of the breast of one side communicate with those of which side?",
+      "options": [
+        "Same side only",
+        "Opposite side",
+        "Neither side",
+        "Lower limb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The superficial lymphatics of the breast of one side communicate with those of the opposite side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.046,
+      "question": "Into which group of nodes is lymph from the lateral quadrants of the breast drained?",
+      "options": [
+        "Internal mammary",
+        "Anterior axillary",
+        "Posterior intercostal",
+        "Supraclavicular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lymph from the lateral quadrants is drained into the anterior axillary or pectoral group of lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.72,
+      "question": "Lymph from the medial quadrants is drained into which nodes?",
+      "options": [
+        "Anterior axillary",
+        "Internal mammary",
+        "Posterior intercostal",
+        "Cephalic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lymph from the medial quadrants is drained into internal mammary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8315,
+      "question": "What percentage of lymph from the breast is drained into the axillary nodes?",
+      "options": [
+        "50%",
+        "75%",
+        "20%",
+        "5%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About 75% of the lymph from the breast is drained into axillary nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.838,
+      "question": "What percentage of lymph from the breast is drained into internal mammary lymph nodes?",
+      "options": [
+        "75%",
+        "20%",
+        "5%",
+        "50%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About 20% of the lymph from the breast is drained into internal mammary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8994,
+      "question": "What percentage of lymph from the breast is drained into posterior intercostal lymph nodes?",
+      "options": [
+        "75%",
+        "20%",
+        "5%",
+        "50%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "About 5% of the lymph from the breast is drained into the posterior intercostal lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.9524,
+      "question": "Breast cancer arises from the epithelial cells of which structure?",
+      "options": [
+        "Areola",
+        "Lactiferous ducts",
+        "Nipple",
+        "Suspensory ligaments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Breast cancer arises from the epithelial cells of the lactiferous ducts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8027,
+      "question": "In which quadrant does breast cancer occur in about 60% of cases?",
+      "options": [
+        "Upper medial",
+        "Lower lateral",
+        "Upper lateral",
+        "Lower medial"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In about 60% of cases, breast cancer occurs in the upper lateral quadrant.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6206,
+      "question": "What clinical sign refers to the skin appearance similar to an orange peel due to obstruction of superficial lymphatics?",
+      "options": [
+        "Peau d'orange",
+        "Krukenberg's tumor",
+        "Montgomery's tubercle",
+        "Gynecomastia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peau d'orange appearance is due to obstruction of superficial lymphatics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.959,
+      "question": "Infiltration of lactiferous ducts by cancer cells can lead to what clinical sign?",
+      "options": [
+        "Dimpling of skin",
+        "Nipple retraction",
+        "Peau d'orange",
+        "Erythema"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retraction of the nipple is due to infiltration and fibrosis of lactiferous ducts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.473,
+      "question": "What is the name of the secondary tumor in the ovary caused by the spread of breast cancer cells?",
+      "options": [
+        "Krukenberg's tumor",
+        "Brenner tumor",
+        "Granulosa cell tumor",
+        "Dysgerminoma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cancer cells can migrate transcoelomically and deposit on the ovary producing a secondary tumor called Krukenberg's tumor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.2146,
+      "question": "How many steps are there in breast self-examination?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text outlines six steps of breast self-examination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.3303,
+      "question": "During breast self-examination, when should steps 4 and 5 be repeated?",
+      "options": [
+        "Standing up",
+        "Lying down",
+        "Sitting up",
+        "Leaning forward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Steps 4 and 5 should be repeated in a lying down position as the breasts are flattened, making them easier to palpate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.543,
+      "question": "The breast develops from an ectodermal thickening called what?",
+      "options": [
+        "Mammary ridge",
+        "Milk line",
+        "Areolar line",
+        "Nipple line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The breast develops from an ectodermal thickening called the milk line or ridge of Schultz.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8906,
+      "question": "Where does the milk line extend from and to?",
+      "options": [
+        "Shoulder to elbow",
+        "Axilla to groin",
+        "Neck to pelvis",
+        "Chest to thigh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The milk line extends from the axilla to the groin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.441,
+      "question": "In the pectoral region, the thickened ectodermal structure gives off how many solid cords?",
+      "options": [
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It gives off 15-20 solid cords that grow in the underlying mesenchyme.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.9768,
+      "question": "The stroma of the breast develops from which germ layer?",
+      "options": [
+        "Ectoderm",
+        "Endoderm",
+        "Mesoderm",
+        "Neuroectoderm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The stroma of the breast develops from surrounding mesoderm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6682,
+      "question": "Supernumerary nipples appearing along the milk ridge are known as what?",
+      "options": [
+        "Polymastia",
+        "Polythelia",
+        "Gynecomastia",
+        "Retracted nipple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polythelia refers to supernumerary nipples which appear along the milk ridge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.115,
+      "question": "If the nipple fails to develop from the ectodermal pit, what condition occurs?",
+      "options": [
+        "Polythelia",
+        "Polymastia",
+        "Retracted nipple",
+        "Gynecomastia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Retracted or inverted nipple occurs if the nipple fails to develop from the ectodermal pit.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.7983,
+      "question": "The development of more than one breast along the milk line is called what?",
+      "options": [
+        "Polythelia",
+        "Polymastia",
+        "Gynecomastia",
+        "Inverted nipple"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polymastia refers to the development of more than one breast along the milk line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6562,
+      "question": "Development of breasts in males mainly at puberty is known as what?",
+      "options": [
+        "Polymastia",
+        "Polythelia",
+        "Gynecomastia",
+        "Mastitis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gynecomastia is the development of breast in males, mainly at puberty.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.0862,
+      "question": "Gynecomastia is usually thought to occur due to what?",
+      "options": [
+        "Infection",
+        "Hormonal imbalance",
+        "Tumor",
+        "Trauma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is usually bilateral and thought to occur due to hormonal imbalance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.5269,
+      "question": "Which structure is considered the most important surface feature of the pectoral region in the female?",
+      "options": [
+        "Clavicle",
+        "Nipple",
+        "Breast",
+        "Sternal angle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The breast is the most important structure of the pectoral region in females.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.4302,
+      "question": "What is the largest muscle of the pectoral region?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Subclavius",
+        "Serratus anterior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pectoralis major is the largest muscle of the pectoral region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8145,
+      "question": "Which muscle is considered the key muscle of the axilla?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Serratus anterior",
+        "Latissimus dorsi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pectoralis minor is considered the key muscle of the axilla because it divides the axillary artery into three parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.5063,
+      "question": "Where do most of the lymph vessels of the upper limb drain into?",
+      "options": [
+        "Lateral group of axillary nodes",
+        "Anterior group",
+        "Posterior group",
+        "Apical group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most of the superficial lymph vessels of the upper limb drain into the lateral group of axillary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8953,
+      "question": "What does the subareolar plexus of Sappey refer to?",
+      "options": [
+        "Plexus of veins",
+        "Plexus of lymph vessels",
+        "Plexus of nerves",
+        "Plexus of arteries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is a plexus of lymph vessels deep to the areola that drain into the anterior axillary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8052,
+      "question": "What are the interpectoral lymph nodes also known as?",
+      "options": [
+        "Rotter's lymph nodes",
+        "Sappey's lymph nodes",
+        "Virchow's nodes",
+        "Delphian nodes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Interpectoral lymph nodes are also known as Rotter's lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.0771,
+      "question": "What is the most common site of breast cancer?",
+      "options": [
+        "Upper and outer quadrant",
+        "Lower and inner quadrant",
+        "Upper and inner quadrant",
+        "Lower and outer quadrant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The most common site of breast cancer is the upper and outer quadrant of the breast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.457,
+      "question": "Which muscle forms the anterior wall of the axilla along with the clavipectoral fascia?",
+      "options": [
+        "Serratus anterior",
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Subscapularis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pectoralis major, subclavius, and pectoralis minor form the anterior wall of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.6611,
+      "question": "Which structure forms the medial boundary of the cervico-axillary canal?",
+      "options": [
+        "Clavicle",
+        "Scapula",
+        "First rib",
+        "Humerus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The outer border of the first rib forms the medial boundary of the cervico-axillary canal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.8884,
+      "question": "Which nerve is also known as the nerve to serratus anterior?",
+      "options": [
+        "Long thoracic nerve",
+        "Thoracodorsal nerve",
+        "Axillary nerve",
+        "Medial pectoral nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The long thoracic nerve is also called the nerve to serratus anterior.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102726.0076,
+      "question": "Which structure is located immediately inferior to the inferior angle of the scapula?",
+      "options": [
+        "6th rib",
+        "7th rib",
+        "8th rib",
+        "9th rib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The eighth rib is palpable immediately inferior to the inferior angle of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102727.7441,
+      "question": "The triangle of auscultation is bounded by the latissimus dorsi, the medial border of the scapula, and which muscle?",
+      "options": [
+        "Trapezius",
+        "Rhomboideus major",
+        "Infraspinatus",
+        "Teres major"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The boundaries are the trapezius, latissimus dorsi, and the medial border of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102727.687,
+      "question": "What is the commonest cause of lymphedema of the upper limb?",
+      "options": [
+        "Trauma",
+        "Removal of axillary lymph nodes during mastectomy",
+        "Infection",
+        "Venous thrombosis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Removal of axillary lymph nodes during mastectomy commonly causes lymphedema of the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795184102727.0066,
+      "question": "Which muscle is responsible for the rounded contour of the shoulder?",
+      "options": [
+        "Pectoralis major",
+        "Trapezius",
+        "Deltoid",
+        "Teres major"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The deltoid forms the rounded contour of the shoulder.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
