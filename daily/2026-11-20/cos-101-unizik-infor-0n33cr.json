@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNIZIK ) : INFORMATION PROCESSING",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795194036298.9287,
+      "question": "Which process involves collecting, managing, and analyzing data?",
+      "options": [
+        "Data encryption protocols",
+        "Network routing systems",
+        "Information processing",
+        "File compression algorithms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information processing is the series of actions taken to collect, manage, and analyze data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.63,
+      "question": "Which initial role of information processing involves gathering data from sensors?",
+      "options": [
+        "Data analysis",
+        "Data collection",
+        "Data automation",
+        "Data sharing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Data collection begins the process by gathering data from various sources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.036,
+      "question": "Which role of information processing uses statistical analysis and machine learning?",
+      "options": [
+        "Data collection",
+        "Automation",
+        "Communication",
+        "Data analysis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Data analysis involves tools and techniques to extract useful information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.2168,
+      "question": "Which role of information processing ensures transparency and accountability?",
+      "options": [
+        "Communication",
+        "Data analysis",
+        "Automation",
+        "Data collection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Communication and dissemination share processed information with stakeholders.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.5176,
+      "question": "Which technology is increasingly used to handle repetitive tasks?",
+      "options": [
+        "Advanced quantum computing",
+        "Immersive virtual reality",
+        "Artificial intelligence",
+        "Distributed blockchain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "AI and robotic process automation handle repetitive and complex tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.671,
+      "question": "Which role of information processing drives productivity and innovation?",
+      "options": [
+        "Social impact",
+        "Economic influence",
+        "Security and privacy",
+        "Future trends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Economically, information processing drives productivity and innovation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.5247,
+      "question": "Which role of information processing focuses on protecting sensitive data?",
+      "options": [
+        "Automation and efficiency",
+        "Communication and dissemination",
+        "Data collection and storage",
+        "Security and privacy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Security and privacy deal with protecting sensitive information from breaches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.59,
+      "question": "Which of the following is considered a future trend in information processing?",
+      "options": [
+        "Quantum computing",
+        "Manual data entry",
+        "Analog storage devices",
+        "Paper file records"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quantum computing and advanced AI are emerging future trends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.6182,
+      "question": "Which sector uses electronic health records to improve patient care?",
+      "options": [
+        "Education",
+        "Business",
+        "Healthcare",
+        "Government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Healthcare uses electronic health records for improved diagnostics.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.3955,
+      "question": "Big data analytics in healthcare helps accelerate research in which area?",
+      "options": [
+        "Tax collection",
+        "Disease patterns",
+        "Enrollment systems",
+        "Market trends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Big data analytics helps understand disease patterns and drug efficacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.1782,
+      "question": "Which sector uses information processing to track infectious diseases?",
+      "options": [
+        "Educational research",
+        "Environmental management",
+        "Business commerce",
+        "Public health"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Public health uses information processing to monitor infectious diseases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.4795,
+      "question": "Which sector uses learning management systems for personalized learning?",
+      "options": [
+        "Education",
+        "Healthcare",
+        "Business",
+        "Government"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Education uses LMS and adaptive learning for personalized experiences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.8967,
+      "question": "Efficient data management in education helps streamline which tasks?",
+      "options": [
+        "Disease tracking",
+        "Tax collection",
+        "Administrative tasks",
+        "Market analysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Education administration uses data management to streamline enrollment and grading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.0825,
+      "question": "Which sector uses data analytics to understand market trends?",
+      "options": [
+        "Education",
+        "Business",
+        "Healthcare",
+        "Government"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Businesses use data analytics to understand market trends and optimize operations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.9795,
+      "question": "Customer Relationship Management enables businesses to understand which of the following?",
+      "options": [
+        "Disease patterns",
+        "Climate changes",
+        "Student performance",
+        "Customer needs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "CRM helps businesses understand customer needs and behaviors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.3733,
+      "question": "Analyzing market trends helps companies achieve which outcome?",
+      "options": [
+        "Innovation",
+        "Job displacement",
+        "Data overload",
+        "Privacy concerns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Analyzing trends helps companies innovate and develop new products.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.2883,
+      "question": "Which sector uses data-driven insights for policy making?",
+      "options": [
+        "Business",
+        "Education",
+        "Government",
+        "Healthcare"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Governments use data-driven insights to design effective policies.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.8987,
+      "question": "Efficient information processing improves the delivery of which government function?",
+      "options": [
+        "Market analysis",
+        "Public services",
+        "Personalized learning",
+        "Patient care"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Public services like social security are improved by efficient processing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.2324,
+      "question": "Information systems enhance which principle by providing citizens access to government data?",
+      "options": [
+        "Innovation",
+        "Automation",
+        "Efficiency",
+        "Transparency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Transparency and accountability are enhanced by providing access to data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.5466,
+      "question": "Which field uses information processing to monitor environmental indicators?",
+      "options": [
+        "Environmental management",
+        "Business administration",
+        "Educational institutions",
+        "Government commerce"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Environmental management uses tools to monitor indicators and assess impacts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.706,
+      "question": "Data analysis helps scientists understand which environmental phenomenon?",
+      "options": [
+        "Customer behavior",
+        "Student performance",
+        "Climate change",
+        "Market trends"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Data analysis helps scientists understand climate patterns and predict changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.2314,
+      "question": "Which tool supports wildlife conservation through remote sensing?",
+      "options": [
+        "EHR",
+        "GIS",
+        "CRM",
+        "LMS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Geographic Information Systems and remote sensing support wildlife conservation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.0752,
+      "question": "Unfair treatment due to amplified prejudices is known as which disadvantage?",
+      "options": [
+        "Personal privacy concerns",
+        "Overwhelming data overload",
+        "Significant job displacement",
+        "Bias and discrimination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Algorithms can perpetuate biases, leading to unfair treatment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.879,
+      "question": "Which disadvantage of information processing can lead to financial theft?",
+      "options": [
+        "Security risks",
+        "Privacy concerns",
+        "Dependence on technology",
+        "Data overload"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Security risks include cyberattacks that can lead to financial theft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.717,
+      "question": "Which disadvantage of information processing refers to the overwhelming volume of available information?",
+      "options": [
+        "Privacy concerns",
+        "Security risks",
+        "Data overload",
+        "High cost"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Data overload makes it difficult to filter relevant information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.6897,
+      "question": "Over-reliance on information systems creates which specific vulnerability?",
+      "options": [
+        "Personal privacy concerns",
+        "Dependence on technology",
+        "Overwhelming data overload",
+        "Significant job displacement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dependence on technology creates vulnerabilities if systems fail.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.6133,
+      "question": "Automation in information processing can lead to which outcome for workers?",
+      "options": [
+        "Data overload",
+        "Privacy concerns",
+        "Security risks",
+        "Job displacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Automation can lead to job losses, especially in routine tasks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.6248,
+      "question": "Developing and maintaining advanced information systems can be which disadvantage?",
+      "options": [
+        "High cost",
+        "Data overload",
+        "Job displacement",
+        "Privacy concerns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The financial burden of developing and maintaining systems can be high.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.332,
+      "question": "Processing large amounts of personal data can lead to which disadvantage?",
+      "options": [
+        "Data overload",
+        "Security risks",
+        "Privacy concerns",
+        "Bias and discrimination"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Processing large amounts of personal data can lead to privacy invasions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.4985,
+      "question": "The internet is a global network of interconnected computers that use which system to communicate?",
+      "options": [
+        "Standardized protocols",
+        "TCP/IP",
+        "Digital satellite links",
+        "Physical fiber cables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The internet uses standardized protocols like TCP/IP for communication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.4033,
+      "question": "Which organization developed the precursor to the internet known as ARPANET?",
+      "options": [
+        "International Telecommunication Union",
+        "European Organization for Nuclear Research",
+        "World Wide Web Consortium",
+        "U.S. Department of Defense"
+      ],
+      "correctAnswer": 3,
+      "explanation": "ARPANET was developed by the U.S. Department of Defense in the late 1960s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.8604,
+      "question": "The internet infrastructure includes hardware and which other component?",
+      "options": [
+        "Protocols",
+        "Digital cables",
+        "Data centers",
+        "Satellites"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The infrastructure consists of hardware and software protocols like TCP/IP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.8723,
+      "question": "Which application of the internet involves services like WhatsApp and Zoom?",
+      "options": [
+        "Information retrieval",
+        "Entertainment",
+        "Communication",
+        "E-commerce"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Communication applications include email, instant messaging, and VoIP.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.876,
+      "question": "Which internet application relies on search engines?",
+      "options": [
+        "Real time communication",
+        "Information retrieval",
+        "Interactive entertainment",
+        "Financial commerce"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Search engines are tools used for information retrieval.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.7275,
+      "question": "Which internet application includes platforms like Netflix and YouTube?",
+      "options": [
+        "E-commerce",
+        "Communication",
+        "Education",
+        "Entertainment"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Streaming services are entertainment applications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.798,
+      "question": "Which application of the internet is utilized by platforms like Amazon and eBay?",
+      "options": [
+        "E-commerce",
+        "Entertainment",
+        "Communication",
+        "Information retrieval"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Online shopping platforms are part of e-commerce.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.1711,
+      "question": "Which internet application includes platforms like Coursera and Khan Academy?",
+      "options": [
+        "Healthcare",
+        "E-commerce",
+        "Education",
+        "Entertainment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "E-learning platforms are educational applications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.9883,
+      "question": "Which internet application supports remote consultation through telemedicine?",
+      "options": [
+        "Education",
+        "Healthcare",
+        "E-commerce",
+        "Entertainment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Telemedicine is a healthcare application of the internet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.8215,
+      "question": "Which type of software is used to access and navigate the internet?",
+      "options": [
+        "Search engine",
+        "Operating system",
+        "Firewall",
+        "Browser"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Browsers are applications used to access and navigate the internet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.0232,
+      "question": "Which of the following is an example of a web browser?",
+      "options": [
+        "Google Chrome",
+        "DuckDuckGo",
+        "Google Scholar",
+        "JSTOR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Google Chrome is a web browser, while others are search engines or databases.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.83,
+      "question": "Which feature of a web browser allows users to save frequently visited pages?",
+      "options": [
+        "Incognito mode",
+        "History",
+        "Bookmarks",
+        "Tabs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bookmarks allow users to save and quickly access frequently visited pages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.1243,
+      "question": "Which feature of a web browser allows users to open multiple pages in one window?",
+      "options": [
+        "Bookmarks",
+        "Tabs",
+        "History",
+        "Incognito mode"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tabs allow multiple pages to be open simultaneously in one window.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.2422,
+      "question": "The primary function of a search engine is to perform which action?",
+      "options": [
+        "Connect internet providers",
+        "Encrypt the user data",
+        "Block malicious software",
+        "Index and retrieve data"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Search engines index and retrieve information from the web.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.606,
+      "question": "Which of the following is a tip for effective search engine usage?",
+      "options": [
+        "Use specific keywords",
+        "Avoid advanced filters",
+        "Enter full sentences",
+        "Ignore file types"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using specific keywords helps yield precise results.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.9753,
+      "question": "Which step is essential when accessing online resources?",
+      "options": [
+        "Use a calculator",
+        "Print the webpage",
+        "Open a browser",
+        "Disable antivirus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Opening a browser is the first basic step to access online resources.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.0408,
+      "question": "Which impact of the internet involves global trade and remote work?",
+      "options": [
+        "Social impact",
+        "Economic impact",
+        "Cultural impact",
+        "Political impact"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Economic impacts include global trade and remote work changes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.3418,
+      "question": "Which impact of the internet involves issues of data security?",
+      "options": [
+        "Economic impact",
+        "Cultural impact",
+        "Political impact",
+        "Social impact"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Social impacts include connectivity and privacy concerns.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.6284,
+      "question": "Which impact of the internet includes content creation by influencers?",
+      "options": [
+        "Cultural impact",
+        "Social impact",
+        "Economic impact",
+        "Political impact"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cultural impacts include content creation and cultural exchange.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.5603,
+      "question": "The rise of digital literacy is categorized under which internet impact?",
+      "options": [
+        "Social connectivity impact",
+        "Economic productivity impact",
+        "Educational impact",
+        "Political activism impact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Educational impact includes access to knowledge and digital literacy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194036298.0466,
+      "question": "Which impact of the internet involves the spread of misinformation?",
+      "options": [
+        "Social impact",
+        "Political impact",
+        "Economic impact",
+        "Cultural impact"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Political impacts include activism and challenges with misinformation.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
