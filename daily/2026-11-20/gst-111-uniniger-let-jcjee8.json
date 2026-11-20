@@ -3,16 +3,718 @@
   "title": "GST 111 ( UNINIGER ) : LETTER WRITING",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795194321558.499,
+      "question": "Letter writing is a kind of written communication composed in which style?",
+      "options": [
+        "Verse",
+        "Prose",
+        "Rhyme",
+        "Drama"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letter writing is defined as a kind of written communication composed in prose.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.2537,
+      "question": "Letter writing is considered one of the oldest means of which activity?",
+      "options": [
+        "Communication",
+        "Transport",
+        "Farming",
+        "Building"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letter writing is described as one of the oldest means of communication.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.0134,
+      "question": "Letter writing enables people to send information and materials despite which obstacle?",
+      "options": [
+        "Financial limits",
+        "Physical separation",
+        "Language barriers",
+        "Technical gaps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letter writing helps people communicate despite their physical separation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.4482,
+      "question": "Letter writing saves time and facilitates which outcome?",
+      "options": [
+        "Wealth",
+        "Progress",
+        "Conflict",
+        "Isolation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that letter writing saves time and facilitates progress.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.5173,
+      "question": "Which advantage of letter writing provides an opportunity for full expression?",
+      "options": [
+        "Message analysis",
+        "Saving money",
+        "Building ties",
+        "Sending gifts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letter writing provides the opportunity for analyzing and full expression of messages.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.7107,
+      "question": "In business life, a letter can serve as which of the following?",
+      "options": [
+        "New product",
+        "Legal contract",
+        "Financial loan",
+        "Marketing tool"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In business life, a letter can be the basis or evidence of an agreement or contract.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321558.8435,
+      "question": "Which advantage of letter writing allows it to serve as a reminder of information?",
+      "options": [
+        "It is fast",
+        "It is physical",
+        "It is digital",
+        "It is verbal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A physical letter can serve as a reminder of the information expressed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.7202,
+      "question": "Which of the following is a main type of letter recognized in contemporary society?",
+      "options": [
+        "Digital",
+        "Informal",
+        "Technical",
+        "Legal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two main types of letters are informal and formal letters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.975,
+      "question": "Formal letters are also known by which other name?",
+      "options": [
+        "Personal letters",
+        "Public letters",
+        "Friendly letters",
+        "Private letters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formal letters are also called business, official, or public letters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.9893,
+      "question": "Informal letters are written to people with whom the writer has which type of relationship?",
+      "options": [
+        "Familiar",
+        "Professional",
+        "Distant",
+        "Official"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Informal letters are written to people with whom we are familiar or in intimate relationships.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.2505,
+      "question": "The style of informal letters is usually described in which manner?",
+      "options": [
+        "Highly formal",
+        "Casual",
+        "Strictly academic",
+        "Extremely rigid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The style of informal letters is usually very informal, casual, and conversational.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.0188,
+      "question": "Which of the following individuals would most likely receive an informal letter?",
+      "options": [
+        "A company CEO",
+        "A cousin",
+        "A bank manager",
+        "A government official"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Informal letters are written to relatives like brothers, sisters, or cousins.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.331,
+      "question": "Which element appears in the top right corner of an informal letter?",
+      "options": [
+        "The date",
+        "The salutation",
+        "The writer's address",
+        "The complimentary close"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The writer's address appears in the top-right corner of the page.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.0415,
+      "question": "The writer's name should not be written alongside which element?",
+      "options": [
+        "The date",
+        "The address",
+        "The salutation",
+        "The body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The writer should not write his or her name alongside the address.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.859,
+      "question": "Which of the following is part of the structure of an informal letter?",
+      "options": [
+        "The memo tag",
+        "The subject line",
+        "The date",
+        "The reference number"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The date of the letter is the second structural element of an informal letter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.0667,
+      "question": "The ending of an informal letter includes the complimentary close and which other item?",
+      "options": [
+        "Writer's signature",
+        "Writer's name",
+        "Receiver's name",
+        "Writer's title"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ending includes both the complimentary close and the name of the writer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.9783,
+      "question": "Which component of an informal letter shows intimacy and is written by the left hand corner?",
+      "options": [
+        "The address",
+        "The date",
+        "The salutation",
+        "The close"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The salutation shows intimacy and is written a space or two below the address by the left hand corner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.2168,
+      "question": "Which element directly follows the writer's address in the structure of an informal letter?",
+      "options": [
+        "The salutation",
+        "The body",
+        "The date",
+        "The close"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The date is written under the writer's address.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.42,
+      "question": "In the slanted format of an address, the lines are indented towards which direction?",
+      "options": [
+        "Left",
+        "Right",
+        "Center",
+        "Justified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the slanted format, the lines of the address are indented progressively to the right-hand side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.5337,
+      "question": "Which format of writing an address does not use indentation?",
+      "options": [
+        "Slant",
+        "Block",
+        "Progressive",
+        "Cursive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the block format, the address lines are not indented.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.9363,
+      "question": "The writer's address can be written using which two main forms?",
+      "options": [
+        "Slant and block",
+        "Open and closed",
+        "Formal and casual",
+        "Short and long"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The writer's address can be written in the slant or progressive form and the block form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.725,
+      "question": "A block format address is typically associated with which style?",
+      "options": [
+        "Open",
+        "Closed",
+        "Slant",
+        "Indented"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text shows an example of a block with open style.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.809,
+      "question": "The date in an informal letter is written under which section?",
+      "options": [
+        "The salutation",
+        "The body",
+        "The address",
+        "The close"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The date in an informal letter is written under the writer's address.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.2605,
+      "question": "Which punctuation mark is advisable to add at the end of a date?",
+      "options": [
+        "Comma",
+        "Semicolon",
+        "Full stop",
+        "Colon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It is advisable nowadays that a full stop or period should be added at the end of the date.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.6719,
+      "question": "Adjectival markers like st and th are written on which lines?",
+      "options": [
+        "Previous lines",
+        "Following lines",
+        "Same lines",
+        "Alternate lines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adjectival markers are written on the same lines as the day.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.386,
+      "question": "Which of the following represents an acceptable way to write a date?",
+      "options": [
+        "14-08-2022",
+        "2022-14-08",
+        "08/14/2022",
+        "22-08-14"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text lists 14-08-2022 as a correct date form.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.725,
+      "question": "Which of the following correctly illustrates the placement of adjectival markers in a date?",
+      "options": [
+        "14 th August",
+        "14th August",
+        "14 August th",
+        "th14 August"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjectival markers are written on the same line as the day.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.9954,
+      "question": "The salutation is typically written at which part of the page?",
+      "options": [
+        "Top right edge",
+        "Bottom right edge",
+        "Left corner",
+        "Center area"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The salutation should be written a space or two below the address, but by the left-hand corner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.3523,
+      "question": "Which of the following is an acceptable salutation for an informal letter?",
+      "options": [
+        "Dear Sir",
+        "Dear Abba",
+        "Dear Manager",
+        "Dear Customer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "My dear Abba or Dear Abba is an acceptable informal salutation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.8635,
+      "question": "Which of the following is an acceptable salutation for an older friend?",
+      "options": [
+        "Dear Sir",
+        "Dear John",
+        "Dear Friend",
+        "Dear Colleague"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dear Sir is used to older friends in Standard Nigerian English.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.4155,
+      "question": "Which of the following is an acceptable salutation for academic doctors?",
+      "options": [
+        "Dear Doctor",
+        "Dear Doc",
+        "Dear Medical",
+        "Dear Physician"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dear Doc or Dr is used for academic doctors only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.577,
+      "question": "Which of the following is an acceptable salutation for medical doctors?",
+      "options": [
+        "Dear Doc",
+        "Dear Doctor",
+        "Dear Prof",
+        "Dear Academic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dear Doctor is used for medical doctors only.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.5742,
+      "question": "Which of the following is an acceptable salutation for an older female friend?",
+      "options": [
+        "Dear Madam",
+        "Dear Lady",
+        "Dear Female",
+        "Dear Mrs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dear Madam is an acceptable salutation for older female friends.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.624,
+      "question": "Which of the following salutations is incorrect because it lacks a surname?",
+      "options": [
+        "Dear Uncle Joe",
+        "Dear Mr",
+        "Dear Alhaji",
+        "Dear Professor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You should not write Dear Mr, Dear Mrs alone without the surname.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.2336,
+      "question": "Which of the following correctly pairs a salutation with its intended recipient?",
+      "options": [
+        "Dear Doc for doctors",
+        "Dear Doctor for academics",
+        "Dear Prof for professors",
+        "Dear Mr for friends"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dear Professor or Dear Prof is the correct salutation for professors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.0154,
+      "question": "The body of an informal letter should be written in which tone?",
+      "options": [
+        "Formal",
+        "Informal",
+        "Academic",
+        "Authoritative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The body should be written in an informal tone and conversational language.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.9543,
+      "question": "Which of the following language forms is permitted in the body of an informal letter?",
+      "options": [
+        "Slangs",
+        "Registers",
+        "Contracts",
+        "Abstract terms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The use of idioms, colloquialisms, slangs, and contracted forms is permitted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.6453,
+      "question": "How should the body of an informal letter be arranged?",
+      "options": [
+        "Block format",
+        "Only centered",
+        "Strictly slanted",
+        "Bullet points"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The body should be written in an indented or block paragraph.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.759,
+      "question": "Repeating the salutation in the body of the letter is considered which of the following?",
+      "options": [
+        "Necessary",
+        "Unnecessary",
+        "Mandatory",
+        "Polite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is not necessary to keep repeating the salutation in the body of the letter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.7607,
+      "question": "The ending of a personal letter includes the name of the writer and which other element?",
+      "options": [
+        "The sender's full address",
+        "The exact written date",
+        "The complimentary close",
+        "The formal salutation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ending includes both the complimentary close and the name of the writer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.7043,
+      "question": "The complimentary close is written from which position on the page?",
+      "options": [
+        "Top left edge",
+        "Center right",
+        "Bottom left edge",
+        "Top right edge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is usually written from the center of the page towards the right end of the letter.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.4216,
+      "question": "In the complimentary close, only which part of the writer's name is usually written?",
+      "options": [
+        "Surname",
+        "Initials",
+        "First name",
+        "Full name"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only the first name of the writer as known by the receiver is usually written.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.4373,
+      "question": "Which of the following is a common complimentary close for an informal letter?",
+      "options": [
+        "Yours sincerely",
+        "Best regards",
+        "Faithfully yours",
+        "Thank you"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The most common complimentary close used is Yours sincerely or Yours affectionately.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.324,
+      "question": "Which spelling of the possessive word is correct for a complimentary close?",
+      "options": [
+        "Your's",
+        "Yours",
+        "Yours'",
+        "Your"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The possessive Yours is not contracted as Your's.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.1511,
+      "question": "Which of the following is an acceptable complimentary close depending on the relationship?",
+      "options": [
+        "Your lovely",
+        "Yours truly",
+        "Yours faithfully",
+        "Humble servant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The complimentary close could depend on the relationship so that Your lovely and Your ever are also permitted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.7986,
+      "question": "Formal letters are written to achieve which purpose?",
+      "options": [
+        "Friendly chats",
+        "Official matters",
+        "Personal greetings",
+        "Family updates"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formal letters are written to achieve specific purposes in official matters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.337,
+      "question": "Which of the following language forms should be avoided in formal letters?",
+      "options": [
+        "Registers",
+        "Slangs",
+        "Simple words",
+        "Straight language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Slangs and colloquial expressions are completely avoided in formal letters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.8955,
+      "question": "Which type of language should be adopted when writing formal letters?",
+      "options": [
+        "Complex metaphors",
+        "Simple registers",
+        "Slang and idioms",
+        "Contractions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Appropriate registers, simple and straightforward language should be adopted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.3005,
+      "question": "The tone of a formal letter should primarily show which quality?",
+      "options": [
+        "Humor",
+        "Respect",
+        "Anger",
+        "Sarcasm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tone should show respect, since such a letter is mainly for official purposes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795194321559.4004,
+      "question": "Formal letters are also known by which specific term?",
+      "options": [
+        "Public letters",
+        "Intimate letters",
+        "Private letters",
+        "Personal letters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Formal letters are also called public letters, although these letters are not always for the public to read.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
