@@ -3,16 +3,438 @@
   "title": "ANA 201 : AXILLA INTRO",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795237855455.0686,
+      "question": "The axilla is described as a fat-filled space of which shape?",
+      "options": [
+        "Cuboidal",
+        "Cylindrical",
+        "Pyramid",
+        "Spherical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The axilla is described as a fat-filled pyramid-shaped space.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.868,
+      "question": "Where is the axilla located?",
+      "options": [
+        "Between the upper arm and chest wall",
+        "Between the forearm and chest wall",
+        "Between the neck and head",
+        "Between the thigh and abdomen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The axilla is located between the upper part of the arm and the side of the chest wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.1936,
+      "question": "Which of the following structures is NOT contained within the axilla?",
+      "options": [
+        "Brachial plexus",
+        "Axillary vessels",
+        "Femoral artery",
+        "Lymph nodes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The axilla contains the brachial plexus, axillary vessels, and lymph nodes. The femoral artery is in the lower limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.6018,
+      "question": "The axillary lymph nodes within the axilla primarily drain which regions?",
+      "options": [
+        "Lower limb and abdomen",
+        "Upper limb and breast",
+        "Head and neck only",
+        "Pelvis and perineum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Groups of lymph nodes within the axilla drain the upper limb and the breast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.5718,
+      "question": "Why is the axilla clinically important during physical examination?",
+      "options": [
+        "It is a common site for fractures",
+        "Axillary lymph nodes are often enlarged",
+        "It contains the thyroid gland",
+        "It is the origin of the sciatic nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axillary lymph nodes are often enlarged and hence routinely palpated during physical examination.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.9448,
+      "question": "The axilla resembles a truncated four-sided pyramid and presents an apex, a base, and how many walls?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The axilla presents an apex, a base, and four walls (anterior, posterior, medial, and lateral).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.619,
+      "question": "The apex of the axilla is also known as what?",
+      "options": [
+        "Axillary fascia",
+        "Cervico-axillary canal",
+        "Bicipital groove",
+        "Clavipectoral triangle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apex is also termed the cervico-axillary canal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.74,
+      "question": "The apex of the axilla is bounded anteriorly by which structure?",
+      "options": [
+        "First rib",
+        "Clavicle",
+        "Scapula",
+        "Humerus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apex is bounded in front by the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.4539,
+      "question": "The apex of the axilla is bounded posteriorly by which structure?",
+      "options": [
+        "Upper border of the scapula",
+        "Lower border of the scapula",
+        "Clavicle",
+        "Second rib"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The apex is bounded behind by the upper border of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.0676,
+      "question": "The apex of the axilla is bounded medially by which structure?",
+      "options": [
+        "Body of the sternum",
+        "Outer border of the first rib",
+        "Humerus",
+        "Medial border of the scapula"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apex is bounded medially by the outer border of the first rib.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.2065,
+      "question": "Which structures pass through the cervico-axillary canal to enter the axilla from the neck?",
+      "options": [
+        "Axillary artery and brachial plexus",
+        "Radial nerve and cephalic vein",
+        "Femoral nerve and artery",
+        "Median nerve and basilic vein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The axillary artery and brachial plexus enter the axilla from the neck through this gap.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.7122,
+      "question": "The base or floor of the axilla is formed by which structure?",
+      "options": [
+        "Clavipectoral fascia",
+        "Axillary fascia",
+        "Pectoral fascia",
+        "Brachial fascia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base is at the lower end of the axilla and is formed by the axillary fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.6025,
+      "question": "The anterior axillary fold is formed by the lower border of which muscle?",
+      "options": [
+        "Latissimus dorsi",
+        "Teres major",
+        "Pectoralis major",
+        "Serratus anterior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterior axillary fold is formed by the lower border of the pectoralis major muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.9866,
+      "question": "The posterior axillary fold is formed by which muscles?",
+      "options": [
+        "Pectoralis major and minor",
+        "Latissimus dorsi and teres major",
+        "Serratus anterior and subscapularis",
+        "Biceps and coracobrachialis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The posterior axillary fold is formed by the tendon of latissimus dorsi and teres major muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.039,
+      "question": "The perpendicular line dropped midway between the anterior and posterior axillary folds is called what?",
+      "options": [
+        "Midclavicular line",
+        "Anterior axillary line",
+        "Midaxillary line",
+        "Posterior axillary line"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The perpendicular line dropped from a point midway between the anterior and posterior axillary folds is called the midaxillary line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.4434,
+      "question": "The anterior wall of the axilla is formed by all of the following muscles EXCEPT?",
+      "options": [
+        "Pectoralis major",
+        "Subclavius",
+        "Pectoralis minor",
+        "Subscapularis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The anterior wall is formed by the pectoralis major, subclavius, and pectoralis minor. The subscapularis forms the posterior wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.6792,
+      "question": "The posterior wall of the axilla is formed by which muscle above?",
+      "options": [
+        "Subscapularis",
+        "Teres major",
+        "Latissimus dorsi",
+        "Pectoralis minor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior wall is formed by the subscapularis muscle above.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.911,
+      "question": "The posterior wall of the axilla is formed by which muscles below?",
+      "options": [
+        "Pectoralis major and minor",
+        "Latissimus dorsi and teres major",
+        "Subscapularis and serratus anterior",
+        "Biceps and coracobrachialis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The posterior wall is formed by the latissimus dorsi and teres major muscles below.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.9636,
+      "question": "The medial wall of the axilla is formed by the upper four or five ribs and which muscle?",
+      "options": [
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Serratus anterior",
+        "Subscapularis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The medial wall is formed by the upper four or five ribs and corresponding intercostal spaces covered by the serratus anterior muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.9836,
+      "question": "The lateral wall of the axilla is formed by the tendon of which muscle in the bicipital groove?",
+      "options": [
+        "Biceps brachii",
+        "Triceps brachii",
+        "Coracobrachialis",
+        "Pectoralis major"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lateral wall is formed by the tendon of biceps brachii in the bicipital groove of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.4514,
+      "question": "Which other muscle, besides the short head of the biceps brachii, forms the lateral wall?",
+      "options": [
+        "Coracobrachialis",
+        "Brachialis",
+        "Brachioradialis",
+        "Teres major"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lateral wall is formed by the coracobrachialis and short head of the biceps brachii.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.945,
+      "question": "Why is the lateral wall of the axilla described as extremely narrow?",
+      "options": [
+        "It is covered by thick fat",
+        "Anterior and posterior walls converge there",
+        "It lacks muscle tissue",
+        "It is made only of fascia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lateral wall is extremely narrow because the anterior and posterior walls of the axilla converge at this site.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.0933,
+      "question": "The axilla acts as a funnel-shaped tunnel for what structures?",
+      "options": [
+        "Digestive tract",
+        "Neurovascular structures",
+        "Lymphatic ducts only",
+        "Air passages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It acts as a funnel-shaped tunnel for neurovascular structures to pass from the root of the neck to the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.2327,
+      "question": "The axillary vein enters the neck from the axilla through which structure?",
+      "options": [
+        "Foramen ovale",
+        "Cervico-axillary canal",
+        "Carpal tunnel",
+        "Inguinal canal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axillary vein enters the neck from the axilla through the cervico-axillary canal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.4153,
+      "question": "The base of the axilla is directed in which direction?",
+      "options": [
+        "Upwards",
+        "Medially",
+        "Downwards",
+        "Laterally"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The base is at the lower end of the axilla and directed downwards.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.4392,
+      "question": "What forms the medial boundary of the base of the axilla?",
+      "options": [
+        "Lateral aspect of the chest wall",
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Humerus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The base is bounded medially by the lateral aspect of the chest wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.649,
+      "question": "The apex of the axilla is directed towards which region?",
+      "options": [
+        "The abdomen",
+        "The root of the neck",
+        "The lower limb",
+        "The back"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apex is directed upwards and medially into the root of the neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.7554,
+      "question": "Which important surface landmark is associated with the base of the axilla?",
+      "options": [
+        "Midclavicular line",
+        "Midaxillary line",
+        "Midsternal line",
+        "Scapular line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The midaxillary line is an important surface landmark related to the base of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.7505,
+      "question": "Pus formation in this region is common and is referred to as what?",
+      "options": [
+        "Cyst",
+        "Abscess",
+        "Tumor",
+        "Hematoma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes that an abscess in this region is also common.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795237855455.9111,
+      "question": "The anterior and posterior walls of the axilla converge at which wall?",
+      "options": [
+        "Medial wall",
+        "Lateral wall",
+        "Superior wall",
+        "Inferior wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lateral wall is extremely narrow because the anterior and posterior walls of the axilla converge at this site.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
