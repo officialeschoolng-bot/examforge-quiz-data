@@ -3,16 +3,438 @@
   "title": "ANA 201 : AXILLARY ARTERY",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795324946574.4863,
+      "question": "Which of the following is listed as a content of the axilla?",
+      "options": [
+        "Radial artery",
+        "Cords of brachial plexus",
+        "Ulnar nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text explicitly lists the cords of the brachial plexus as one of the contents of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.3904,
+      "question": "The neurovascular structures in the axilla are vulnerable to injury when the arm is in which position?",
+      "options": [
+        "Adducted",
+        "Flexed",
+        "Abducted",
+        "Extended"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that the structures are vulnerable to injury when the arm is abducted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.057,
+      "question": "The axillary artery is the main artery of which part of the body?",
+      "options": [
+        "Lower limb",
+        "Head and neck",
+        "Thorax",
+        "Upper limb"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The first sentence under the AXILLARY ARTERY heading states it is the main artery of the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.5972,
+      "question": "At which border does the axillary artery begin?",
+      "options": [
+        "Inner border of the second rib",
+        "Outer border of the first rib",
+        "Lower border of the teres major",
+        "Upper border of the pectoralis minor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states it begins at the outer border of the first rib.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.758,
+      "question": "The axillary artery is a continuation of which artery?",
+      "options": [
+        "Brachial artery",
+        "Radial artery",
+        "Subclavian artery",
+        "Ulnar artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It begins as the continuation of the subclavian artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.7776,
+      "question": "At which structure does the axillary artery end by becoming the brachial artery?",
+      "options": [
+        "Lower border of teres major",
+        "Upper border of teres major",
+        "Lower border of pectoralis minor",
+        "Outer border of the first rib"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states it ends by becoming the brachial artery at the lower border of the teres major.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.0146,
+      "question": "During its course through the axilla, the axillary artery runs nearer to which wall?",
+      "options": [
+        "Posterior wall",
+        "Medial wall",
+        "Anterior wall",
+        "Superior wall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It runs along the lateral wall nearer to the anterior wall than the posterior wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.9087,
+      "question": "Which muscle crosses the axillary artery on its superficial aspect?",
+      "options": [
+        "Pectoralis major",
+        "Subscapularis",
+        "Teres major",
+        "Pectoralis minor"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It is crossed on its superficial aspect by the pectoralis minor muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.3384,
+      "question": "The pectoralis minor muscle divides the axillary artery into how many parts?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that the pectoralis minor divides the artery into three parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.779,
+      "question": "Where is the axillary vein located in relation to the axillary artery?",
+      "options": [
+        "Lateral",
+        "Superior",
+        "Medial",
+        "Posterior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly states, \"The axillary vein is medial to the artery throughout its course.\"",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.954,
+      "question": "The cords of the brachial plexus are arranged around which part of the axillary artery?",
+      "options": [
+        "First part",
+        "Second part",
+        "Third part",
+        "All parts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes the cords are arranged around the second part of the artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.7847,
+      "question": "Which cord of the brachial plexus is located medially to the second part of the axillary artery?",
+      "options": [
+        "Lateral cord",
+        "Posterior cord",
+        "Medial cord",
+        "Inferior cord"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists the medial cord of the brachial plexus as a medial relation of the second part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.8955,
+      "question": "Which cord of the brachial plexus is located laterally to the second part of the axillary artery?",
+      "options": [
+        "Lateral cord",
+        "Medial cord",
+        "Posterior cord",
+        "Superior cord"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The table lists the lateral cord of the brachial plexus as a lateral relation of the second part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.9292,
+      "question": "Which nerve is listed as a posterior relation of the first part of the axillary artery?",
+      "options": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Ulnar nerve",
+        "Long thoracic nerve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The table lists the long thoracic nerve as a posterior relation of the first part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.2378,
+      "question": "Which structure is an anterior relation of the second part of the axillary artery?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Subscapularis",
+        "Medial root of median nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The table explicitly lists the pectoralis minor as the anterior relation of the second part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.287,
+      "question": "Which nerve is a posterior relation of the third part of the axillary artery?",
+      "options": [
+        "Musculocutaneous nerve",
+        "Medial root of median nerve",
+        "Radial nerve",
+        "Ulnar nerve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists the radial nerve as a posterior relation of the third part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.9282,
+      "question": "Which nerve is a lateral relation of the third part of the axillary artery?",
+      "options": [
+        "Radial nerve",
+        "Ulnar nerve",
+        "Medial root of median nerve",
+        "Musculocutaneous nerve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The table lists the musculocutaneous nerve as the lateral relation of the third part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.512,
+      "question": "How many branches does the axillary artery give from its first part?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states the axillary artery gives one branch from the first part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.4075,
+      "question": "Which artery arises from the first part of the axillary artery?",
+      "options": [
+        "Lateral thoracic artery",
+        "Superior thoracic artery",
+        "Subscapular artery",
+        "Thoraco-acromial artery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states the superior thoracic artery arises from the first part.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.0754,
+      "question": "The superior thoracic artery passes between which two muscles?",
+      "options": [
+        "Subscapularis and teres major",
+        "Pectoralis major and minor",
+        "Pectoralis minor and subclavius",
+        "Serratus anterior and subscapularis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes it passes between the pectoralis major and minor muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.7283,
+      "question": "At which border of the pectoralis minor does the thoraco-acromial artery emerge?",
+      "options": [
+        "Inferior border",
+        "Medial border",
+        "Lateral border",
+        "Upper border"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The thoraco-acromial artery emerges at the upper border of the pectoralis minor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.7583,
+      "question": "The thoraco-acromial artery pierces which fascia?",
+      "options": [
+        "Pectoral fascia",
+        "Clavipectoral fascia",
+        "Axillary fascia",
+        "Brachial fascia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states it pierces the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.7017,
+      "question": "Which of the following is a branch of the thoraco-acromial artery?",
+      "options": [
+        "Subscapular branch",
+        "Lateral thoracic branch",
+        "Clavicular branch",
+        "Superior thoracic branch"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The four branches are pectoral, deltoid, acromial, and clavicular.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.4895,
+      "question": "The lateral thoracic artery runs along which border of the pectoralis minor?",
+      "options": [
+        "Upper border",
+        "Medial border",
+        "Inferior border",
+        "Lateral border"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lateral thoracic artery emerges at and runs along the inferior border of the pectoralis minor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.0728,
+      "question": "Which artery is the largest branch of the axillary artery?",
+      "options": [
+        "Superior thoracic artery",
+        "Thoraco-acromial artery",
+        "Subscapular artery",
+        "Posterior circumflex humeral artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly identifies the subscapular artery as the largest branch of the axillary artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.2722,
+      "question": "The circumflex scapular artery is a large branch of which artery?",
+      "options": [
+        "Axillary artery",
+        "Subscapular artery",
+        "Thoraco-acromial artery",
+        "Suprascapular artery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states the subscapular artery gives a large branch called the circumflex scapular artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.2976,
+      "question": "The posterior circumflex humeral artery passes backwards through which space?",
+      "options": [
+        "Upper triangular intermuscular space",
+        "Lower triangular intermuscular space",
+        "Quadrangular intermuscular space",
+        "Axillary space"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It passes through the quadrangular intermuscular space along with the axillary nerve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.1887,
+      "question": "The anterior and posterior circumflex humeral arteries anastomose to form an arterial circle around which structure?",
+      "options": [
+        "Anatomical neck of the humerus",
+        "Surgical neck of the humerus",
+        "Shaft of the humerus",
+        "Glenoid cavity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They form an arterial circle around the surgical neck of the humerus.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.8423,
+      "question": "Which artery is a branch of the thyrocervical trunk that participates in the scapular anastomosis around the body of the scapula?",
+      "options": [
+        "Subscapular artery",
+        "Suprascapular artery",
+        "Posterior circumflex humeral artery",
+        "Thoraco-acromial artery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text lists the suprascapular artery as a branch of the thyrocervical trunk involved in this anastomosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795324946575.1318,
+      "question": "Clinically, what does the scapular anastomosis serve as if the subclavian or axillary arteries are blocked?",
+      "options": [
+        "Venous drainage pathway",
+        "Collateral circulation pathway",
+        "Lymphatic drainage pathway",
+        "Nerve conduction pathway"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It serves as a potential pathway (collateral circulation) to ensure adequate circulation to the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
