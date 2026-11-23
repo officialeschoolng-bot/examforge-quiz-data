@@ -3,7 +3,7 @@
   "title": "MTH 101: INDICES",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 35,
+  "totalQuestions": 30,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -87,34 +87,6 @@
       "points": 1
     },
     {
-      "id": 1795467268044.137,
-      "question": "Simplify <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>x<sup>-5</sup></kbd>",
-      "options": [
-        "-x<sup>5</sup>",
-        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>x<sup>5</sup></span></span>",
-        "x<sup>1/5</sup>",
-        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>x</span><span style='display:block;padding:0 .35em;'>5</span></span>"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A negative exponent indicates the reciprocal of the base. <br><br>x<sup>-5</sup> = <b><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>x<sup>5</sup></span></span></b>.<br><br>• Option A incorrectly brings down a negative sign.<br>• Option C turns it into a fractional exponent.<br>• Option D incorrectly puts the exponent in the denominator.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795467268044.2402,
-      "question": "Evaluate <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>9<sup>1/2</sup></kbd>",
-      "options": [
-        "81",
-        "4.5",
-        "3",
-        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>9</span></span>"
-      ],
-      "correctAnswer": 2,
-      "explanation": "A fractional exponent of 1/2 represents the square root of the base. <br><br>9<sup>1/2</sup> = &radic;9 = <b>3</b>.<br><br>• Option A squares the number.<br>• Option B divides by 2.<br>• Option D finds the reciprocal.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795467268044.402,
       "question": "Evaluate <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>27<sup>1/3</sup></kbd>",
       "options": [
@@ -181,20 +153,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Apply the power to both the coefficient and the variable. <br><br>(5a<sup>2</sup>)<sup>3</sup> = 5<sup>3</sup> &times; (a<sup>2</sup>)<sup>3</sup> = 125 &times; a<sup>2 &times; 3</sup> = <b>125a<sup>6</sup></b>.<br><br>• Option A multiplies 5 by 3 instead of cubing it.<br>• Option B adds the exponents instead of multiplying.<br>• Option D squares 5 instead of cubing it.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795467268045.7896,
-      "question": "Simplify <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'><span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>20x<sup>6</sup></span><span style='display:block;padding:0 .35em;'>4x<sup>2</sup></span></span></kbd>",
-      "options": [
-        "5x<sup>3</sup>",
-        "5x<sup>4</sup>",
-        "16x<sup>4</sup>",
-        "5x<sup>8</sup>"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Divide the coefficients and subtract the exponents of the matching variables. <br><br>20/4 = 5.<br>x<sup>6</sup> / x<sup>2</sup> = x<sup>6 - 2</sup> = x<sup>4</sup>.<br>Result: <b>5x<sup>4</sup></b>.<br><br>• Option A subtracts exponents incorrectly.<br>• Option D adds the exponents.",
       "difficulty": "easy",
       "points": 1
     },
@@ -339,20 +297,6 @@
       "points": 1
     },
     {
-      "id": 1795467268045.644,
-      "question": "Solve for x: <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>3<sup>2x-1</sup> = 27</kbd>",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Express 27 as a power of 3. <br><br>27 = 3<sup>3</sup>.<br>So, 3<sup>2x-1</sup> = 3<sup>3</sup>.<br>Equating the exponents: 2x - 1 = 3.<br>2x = 4<br><b>x = 2</b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": 1795467268045.9158,
       "question": "Solve for x: <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>10<sup>x</sup> = 0.0001</kbd>",
       "options": [
@@ -447,20 +391,6 @@
       ],
       "correctAnswer": 0,
       "explanation": "Simplify the numerator by adding exponents, then subtract the denominator's exponent. <br><br>Numerator: 10<sup>x + (x+1)</sup> = 10<sup>2x+1</sup>.<br><br>Now divide: 10<sup>2x+1</sup> &divide; 10<sup>2x-1</sup> = 10<sup>(2x+1) - (2x-1)</sup>.<br>Be careful with the negative sign: (2x + 1) - (2x - 1) = 2x + 1 - 2x + 1 = 2.<br>Result: <b>10<sup>2</sup></b>.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795467268045.1704,
-      "question": "Solve for x: <kbd style='display:inline-block; background:rgba(128,128,128,0.15); padding:8px 16px; border-radius:6px; font-size:1.4em; font-weight:900;'>8<sup>2x</sup> = 4<sup>3x-1</sup></kbd>",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Express both sides with base 2. <br><br>8<sup>2x</sup> = (2<sup>3</sup>)<sup>2x</sup> = 2<sup>6x</sup>.<br>4<sup>3x-1</sup> = (2<sup>2</sup>)<sup>3x-1</sup> = 2<sup>6x-2</sup>.<br><br>Equating exponents: 6x = 6x - 2.<br>This yields 0 = -2, which is impossible. However, following the provided key which marks Option A, if the question was intended to be 8<sup>2x</sup> = 4<sup>3x-1</sup> with a different base or typo, the key dictates Option A. Mathematically, the equation as written has no solution. (For the sake of the key: if the question intended <b>8<sup>x</sup> = 4<sup>2x-1</sup></b>, then 3x = 4x - 2, giving x = 2. If it intended <b>8<sup>2x</sup> = 4<sup>3x-2</sup></b>, no solution. The closest match yielding 1 is <b>8<sup>2x-1</sup> = 4<sup>3x-2</sup></b> -> 6x-3 = 6x-4, no. Or <b>8<sup>x-1</sup> = 4<sup>x-2</sup></b> -> 3x-3=2x-4, x=-1.) <br><br>Proceeding with the assumption of a typo and taking the key's answer: <b>x = 1</b>.",
       "difficulty": "easy",
       "points": 1
     },
