@@ -3,16 +3,438 @@
   "title": "ANA 201 : AXILLARY VEIN AND LYMPH NODES",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795439238594.1885,
+      "question": "The axillary vein is formed at the lower border of which muscle?",
+      "options": [
+        "Pectoralis major",
+        "Pectoralis minor",
+        "Teres major",
+        "Subscapularis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the axillary vein is formed at the lower border of the teres major muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.2612,
+      "question": "Which two veins unite to form the axillary vein?",
+      "options": [
+        "Basilic vein and venae comitantes of the brachial artery",
+        "Cephalic vein and subclavian vein",
+        "Radial vein and ulnar vein",
+        "Internal jugular vein and subclavian vein"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The axillary vein is formed by the union of the basilic vein and venae comitantes of the brachial artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.484,
+      "question": "Along which side of the axillary artery does the axillary vein run?",
+      "options": [
+        "Lateral side",
+        "Medial side",
+        "Anterior side",
+        "Posterior side"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axillary vein runs upwards along the medial side of the axillary artery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.051,
+      "question": "The axillary vein ends at the outer border of the first rib by becoming which vein?",
+      "options": [
+        "Brachial vein",
+        "Cephalic vein",
+        "Basilic vein",
+        "Subclavian vein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It ends at the outer border of the first rib by becoming the subclavian vein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.816,
+      "question": "Which of the following is a tributary of the axillary vein?",
+      "options": [
+        "Radial vein",
+        "Ulnar vein",
+        "Lateral thoracic vein",
+        "Internal jugular vein"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The veins corresponding to the branches of the axillary artery, namely the lateral thoracic vein and subscapular vein, are tributaries.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.8853,
+      "question": "The cephalic vein joins the axillary vein after piercing which fascia?",
+      "options": [
+        "Pectoral fascia",
+        "Axillary fascia",
+        "Clavipectoral fascia",
+        "Brachial fascia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the cephalic vein joins it after piercing the clavipectoral fascia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.119,
+      "question": "Why can the axillary vein freely expand during increased venous return?",
+      "options": [
+        "It has thick muscular walls",
+        "There is no or very thin axillary sheath around it",
+        "It lacks valves",
+        "It is surrounded by bone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes there is no or a very thin axillary sheath around the vein, allowing it to expand freely.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238594.2178,
+      "question": "The spontaneous thrombosis of the axillary vein can be caused by compression from which structure?",
+      "options": [
+        "The axillary arch",
+        "The pectoralis minor",
+        "The clavicle",
+        "The first rib"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A muscular band called the axillary arch may compress the vein, causing spontaneous thrombosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.1309,
+      "question": "How many axillary lymph nodes are typically present in the axilla?",
+      "options": [
+        "5 to 10",
+        "10 to 20",
+        "20 to 30",
+        "30 to 40"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states their number varies between 20 and 30.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.74,
+      "question": "The axillary lymph nodes are divided into how many groups?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They are divided into five groups: anterior, posterior, lateral, central, and apical.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.516,
+      "question": "Which group of lymph nodes lies along the lateral thoracic vein at the lower border of the pectoralis minor?",
+      "options": [
+        "Lateral group",
+        "Anterior or pectoral group",
+        "Posterior group",
+        "Central group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The anterior or pectoral group lies along the lateral thoracic vein at the lower border of the pectoralis minor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.524,
+      "question": "The axillary tail of Spence is in direct contact with which lymph node group?",
+      "options": [
+        "Apical group",
+        "Central group",
+        "Anterior group",
+        "Posterior group"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the axillary tail of Spence is in actual contact with the anterior lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.7107,
+      "question": "Which group of lymph nodes lies on the posterior axillary fold along the subscapular vein?",
+      "options": [
+        "Anterior group",
+        "Posterior or subscapular group",
+        "Lateral group",
+        "Apical group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The posterior or subscapular group lies on the posterior axillary fold along the subscapular vein.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.2383,
+      "question": "Which group of lymph nodes drains lymph from the upper limb?",
+      "options": [
+        "Anterior group",
+        "Posterior group",
+        "Lateral group",
+        "Central group"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lateral group drains the lymph from the upper limb.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.3215,
+      "question": "Enlargement of the central group of lymph nodes may compress which nerve?",
+      "options": [
+        "Radial nerve",
+        "Axillary nerve",
+        "Intercostobrachial nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The intercostobrachial nerve passes amongst these nodes; enlargement can compress it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.674,
+      "question": "Where are the apical or infraclavicular group of lymph nodes situated?",
+      "options": [
+        "Along the humerus",
+        "Deep to the clavipectoral fascia",
+        "On the posterior axillary fold",
+        "In the upper part of the axilla"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apical or infraclavicular group is situated deep to the clavipectoral fascia at the apex of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.7605,
+      "question": "On the right side, the apical lymph nodes drain into which structure?",
+      "options": [
+        "Thoracic duct",
+        "Subclavian lymph trunk",
+        "Right lymphatic duct",
+        "Internal jugular vein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They drain into the subclavian lymph trunk on the right side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.9302,
+      "question": "On the left side, the apical lymph nodes drain into which structure?",
+      "options": [
+        "Subclavian lymph trunk",
+        "Thoracic duct",
+        "Right lymphatic duct",
+        "Axillary vein"
+      ],
+      "correctAnswer": 1,
+      "explanation": "On the left side, they drain into the thoracic duct.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.5364,
+      "question": "How can the deeply located apical lymph nodes be palpated?",
+      "options": [
+        "By pushing fingers into the apex of the axilla from below",
+        "By pressing on the anterior chest wall",
+        "By palpating the posterior axillary fold",
+        "By palpating the lower border of pectoralis minor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They can be palpated by pushing fingers into the apex of the axilla from below and behind the clavicle from above.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.9287,
+      "question": "Level I axillary lymph nodes lie in which relation to the pectoralis minor?",
+      "options": [
+        "Lateral to its lower border",
+        "Deep to it",
+        "Medial to its upper border",
+        "Superior to it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Level I nodes lie lateral to the lower border of the pectoralis minor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.5005,
+      "question": "Level II axillary lymph nodes lie in which relation to the pectoralis minor?",
+      "options": [
+        "Lateral to its lower border",
+        "Deep to it",
+        "Medial to its upper border",
+        "Superior to it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Level II nodes lie deep to the pectoralis minor muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.1184,
+      "question": "Level III axillary lymph nodes lie in which relation to the pectoralis minor?",
+      "options": [
+        "Lateral to its lower border",
+        "Deep to it",
+        "Medial to its upper border",
+        "Superior to it"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Level III nodes lie medial to the upper border of the pectoralis minor.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.1875,
+      "question": "What is the term for the first lymph nodes to receive lymph from a breast area involved in cancer?",
+      "options": [
+        "Sentinel lymph nodes",
+        "Apical lymph nodes",
+        "Central lymph nodes",
+        "Rotter's nodes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These are termed sentinel lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.0928,
+      "question": "Sentinel lymph nodes are usually which level of lymph nodes?",
+      "options": [
+        "Level I",
+        "Level II",
+        "Level III",
+        "Level IV"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states sentinel nodes are usually the level I lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.7742,
+      "question": "How are sentinel lymph nodes confirmed clinically?",
+      "options": [
+        "By injecting a radioactive substance",
+        "By taking an X-ray",
+        "By performing an ultrasound",
+        "By blood test"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They are confirmed by injecting a radioactive substance into the affected area of the breast.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.9316,
+      "question": "What is the primary reason axillary lymph nodes are palpated during a clinical examination?",
+      "options": [
+        "To check for infection in the arm",
+        "Due to their involvement in breast cancer",
+        "To check for fractures",
+        "To check for vascular diseases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Palpation is part of the clinical examination of the breast due to their involvement in cancer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.2244,
+      "question": "An axillary abscess arises from infection of which structure?",
+      "options": [
+        "Axillary artery",
+        "Axillary vein",
+        "Axillary lymph nodes",
+        "Brachial plexus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The abscess arises from infection and suppuration of the axillary lymph nodes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.9211,
+      "question": "The pus of an axillary abscess may track into the arm if it enters which structure?",
+      "options": [
+        "Clavipectoral fascia",
+        "Axillary sheath",
+        "Pectoral fascia",
+        "Axillary fascia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pus may track into the neck or arm if it enters the axillary sheath.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.7385,
+      "question": "Where is the incision made to drain an axillary abscess?",
+      "options": [
+        "In the apex of the axilla",
+        "On the anterior axillary fold",
+        "In the floor of the axilla",
+        "On the posterior axillary fold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The abscess is drained by giving an incision in the floor of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795439238595.2097,
+      "question": "Why is the incision for an axillary abscess made nearer to the medial wall?",
+      "options": [
+        "To access the lymph nodes easily",
+        "To avoid injury to the main vessels",
+        "To promote faster healing",
+        "To reduce pain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The incision is made nearer the medial wall to avoid injury to the main vessels running along the walls of the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
