@@ -3,7 +3,7 @@
   "title": "Football Knowledge Competition Questions",
   "subject": "Sports Knowledge",
   "description": "",
-  "totalQuestions": 33,
+  "totalQuestions": 42,
   "defaultTimePerQuestion": 12,
   "settings": {
     "canChangeTime": false,
@@ -153,20 +153,6 @@
       ],
       "correctAnswer": 2,
       "explanation": "Under current IFAB rules, teams are allowed to make up to <b>5 substitutions</b>, using a maximum of three stoppages in play (plus half-time) to make them.<br><br>• Option A (3) was the old rule before the COVID-19 pandemic.<br>• Options B and D are incorrect.",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": 1795540021666.2026,
-      "question": "If a player receives a second yellow card in the same match, what is the immediate result?",
-      "options": [
-        "They are warned",
-        "They are sent off and shown a red card",
-        "They are replaced by a substitute",
-        "They are suspended for the next match only"
-      ],
-      "correctAnswer": 1,
-      "explanation": "If a player receives two yellow cards in a single match, the referee will show them a <b>red card</b>, and they will be sent off. The two yellows are recorded, and the team plays with one fewer player.<br><br>• Option D is partially true (they usually get a suspension), but the *immediate* result is being sent off (Option B).",
       "difficulty": "easy",
       "points": 1
     },
@@ -475,6 +461,146 @@
       ],
       "correctAnswer": 2,
       "explanation": "The <b>Halfway Line</b> runs across the middle of the pitch, dividing it into two halves. Kick-offs are taken from the center circle located on this line.<br><br>• Option A (Touchline) is the side boundary.<br>• Option B (Goal line) is the boundary where goals are located.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.8357,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>What is it called when a player scores two goals in a single match?</span></div>",
+      "options": [
+        "A Hat-trick",
+        "A Brace",
+        "A Double",
+        "A Bracelet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scoring two goals in a single match is known as a <b>Brace</b>.<br><br>• Option A (Hat-trick) is scoring three goals.<br>• Options C and D are not standard football terminology for scoring two goals.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.6077,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>What is the maximum amount of time added for extra time in a knockout match (two halves)?</span></div>",
+      "options": [
+        "10 minutes",
+        "15 minutes",
+        "30 minutes",
+        "45 minutes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a match requires a winner and is tied after 90 minutes, extra time is played. It consists of two halves of 15 minutes each, totaling <b>30 minutes</b>.<br><br>• Option A and B are less than standard extra time.<br>• Option D (45 minutes) is the length of a regular half.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.188,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>What does the term 'Clean Sheet' mean in football?</span></div>",
+      "options": [
+        "Scoring a goal directly from a corner",
+        "The goalkeeper conceding zero goals in a match",
+        "A player receiving no fouls",
+        "A match ending in a draw"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A <b>Clean Sheet</b> is a term used when a team (specifically the goalkeeper and defense) does not concede any goals during the entire match.<br><br>• Options A, C, and D are unrelated to the term.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.124,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>From where is a corner kick taken?</span></div>",
+      "options": [
+        "The Penalty Spot",
+        "The Center Circle",
+        "The Corner Arc",
+        "The Edge of the Penalty Box"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A corner kick is taken from the <b>Corner Arc</b> (a small quarter-circle drawn in each corner of the pitch).<br><br>• Option A is for a penalty kick.<br>• Option B is for a kick-off.<br>• Option D is where a free kick might be taken after a foul.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.1968,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>If a player is shown a red card, what is the immediate consequence for their team?</span></div>",
+      "options": [
+        "They must substitute the player",
+        "They play with one less player",
+        "They forfeit the match",
+        "They receive a penalty kick"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If a player is sent off with a red card, they cannot be replaced. Their team must play the rest of the match with <b>one fewer player</b> on the pitch.<br><br>• Option A is incorrect; red-carded players cannot be substituted.<br>• Option C is only for extreme circumstances (like a team having fewer than 7 players).",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.1047,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>Which official is primarily responsible for enforcing the rules and managing the match on the pitch?</span></div>",
+      "options": [
+        "The Linesman",
+        "The Referee",
+        "The Coach",
+        "The Fourth Official"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>Referee</b> is the main official in charge of the match. They enforce the Laws of the Game, keep time, and make final decisions on fouls and goals.<br><br>• The Linesman (Assistant Referee) helps with offsides and out-of-bounds.<br>• The Fourth Official manages substitutions and the technical area.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.6013,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>What is the primary international competition for national men's football teams called?</span></div>",
+      "options": [
+        "The UEFA Champions League",
+        "The FIFA World Cup",
+        "The Africa Cup of Nations",
+        "The English Premier League"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The <b>FIFA World Cup</b> is the highest-level international competition for national teams, held every four years.<br><br>• Option A is for European club teams.<br>• Option C is for African national teams.<br>• Option D is a domestic league in England.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.53,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>What is the name of the trophy awarded to the winner of the English top-flight football league?</span></div>",
+      "options": [
+        "The FA Cup",
+        "The Premier League Trophy",
+        "The Carabao Cup",
+        "The Community Shield"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The winner of the top division in English football (the Premier League) is awarded the <b>Premier League Trophy</b>.<br><br>• Option A is a knockout cup competition.<br>• Option C is another knockout cup.<br>• Option D is a one-off match between the league and FA Cup winners.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.636,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>If a match is tied after 90 minutes in a league game, what is the result?</span></div>",
+      "options": [
+        "Both teams get 3 points",
+        "Both teams get 0 points",
+        "Both teams get 1 point",
+        "They play extra time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In standard league football, if the match ends in a draw, <b>both teams are awarded 1 point</b>.<br><br>• Option A is only for a win.<br>• Option D (extra time) is usually reserved for knockout tournaments, not league matches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795540599930.385,
+      "question": "<div style='text-align: center; margin: 15px 0;'><span style='display: inline-block; font-size: 1.4em; font-weight: 800; padding: 12px 20px; background: rgba(128,128,128,0.15); border-radius: 8px; border-left: 5px solid currentColor;'>How many minutes are usually added to the end of a half for injuries, substitutions, and time-wasting?</span></div>",
+      "options": [
+        "Stoppage time",
+        "Half time",
+        "Extra time",
+        "Golden goal time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Time added by the referee at the end of a half to make up for lost time is called <b>Stoppage time</b> (or injury time).<br><br>• Option B is the break between halves.<br>• Option C is the two 15-minute periods played in knockouts.<br>• Option D is a historical rule no longer used.",
       "difficulty": "easy",
       "points": 1
     }
