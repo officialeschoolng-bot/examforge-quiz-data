@@ -3,16 +3,718 @@
   "title": "ANA 201 : BRACHIAL PLEXUS",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795520053369.227,
+      "question": "The brachial plexus is formed by the anterior rami of which spinal nerves?",
+      "options": [
+        "Lower four cervical and first thoracic",
+        "Upper four cervical and second thoracic",
+        "Lower three cervical and first thoracic",
+        "First four thoracic and lower cervical"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states it is formed by the anterior rami of lower four cervical and the first thoracic spinal nerves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.2861,
+      "question": "What is a prefixed brachial plexus characterized by?",
+      "options": [
+        "Large C4 and absent T2",
+        "Large T2 and absent C4",
+        "Absence of C5 and C6",
+        "Large C8 and T1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A prefixed brachial plexus occurs if the contribution from C4 is large and that from T2 is absent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3718,
+      "question": "What is a postfixed brachial plexus characterized by?",
+      "options": [
+        "Large C4 and absent T2",
+        "Large T2 and absent C4",
+        "Absence of C5 and C6",
+        "Large C7 and C8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A postfixed brachial plexus occurs if the contribution from T2 is large and that from C4 is absent.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.1333,
+      "question": "How many components make up the brachial plexus?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The brachial plexus consists of four components: roots, trunks, divisions, and cords.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.7246,
+      "question": "Where are the roots and trunks of the brachial plexus located?",
+      "options": [
+        "In the axilla",
+        "Behind the clavicle",
+        "In the neck",
+        "In the arm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The roots and trunks are located in the neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.2607,
+      "question": "Where are the divisions of the brachial plexus located?",
+      "options": [
+        "In the neck",
+        "Behind the clavicle",
+        "In the axilla",
+        "In the arm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The divisions lie behind the clavicle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.8042,
+      "question": "Where are the cords of the brachial plexus located?",
+      "options": [
+        "In the neck",
+        "Behind the clavicle",
+        "In the axilla",
+        "In the arm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cords are located in the axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0034,
+      "question": "Between which two muscles do the trunks of the brachial plexus lie?",
+      "options": [
+        "Scalenus medius and scalenus anterior",
+        "Pectoralis major and minor",
+        "Subscapularis and teres major",
+        "Sternocleidomastoid and trapezius"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They lie in the neck occupying the cleft between scalenus medius behind and the scalenus anterior in front.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.86,
+      "question": "What does each trunk divide into?",
+      "options": [
+        "Anterior and posterior divisions",
+        "Superior and inferior divisions",
+        "Medial and lateral divisions",
+        "Deep and superficial divisions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each trunk divides into anterior and posterior divisions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0125,
+      "question": "Which divisions unite to form the lateral cord?",
+      "options": [
+        "Posterior divisions of all trunks",
+        "Anterior divisions of upper and middle trunks",
+        "Anterior division of lower trunk",
+        "Posterior divisions of upper and middle trunks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The anterior divisions of the upper and middle trunks unite to form the lateral cord.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.9685,
+      "question": "Which division continues as the medial cord?",
+      "options": [
+        "Anterior division of upper trunk",
+        "Posterior division of lower trunk",
+        "Anterior division of lower trunk",
+        "Posterior division of middle trunk"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anterior division of the lower trunk continues as the medial cord.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3616,
+      "question": "Which divisions unite to form the posterior cord?",
+      "options": [
+        "Anterior divisions of upper and middle trunks",
+        "Anterior division of lower trunk",
+        "Posterior divisions of the three trunks",
+        "Posterior divisions of upper and lower trunks"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The posterior divisions of the three trunks unite to form the posterior cord.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.217,
+      "question": "Which nerve is a branch from the roots?",
+      "options": [
+        "Long thoracic nerve",
+        "Suprascapular nerve",
+        "Ulnar nerve",
+        "Axillary nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The long thoracic nerve is a branch from the roots.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.6902,
+      "question": "Which nerve is also known as the nerve to rhomboids?",
+      "options": [
+        "Long thoracic nerve",
+        "Dorsal scapular nerve",
+        "Suprascapular nerve",
+        "Medial pectoral nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The dorsal scapular nerve is also called the nerve to rhomboids.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.021,
+      "question": "Which nerve arises from the trunks?",
+      "options": [
+        "Radial nerve",
+        "Musculocutaneous nerve",
+        "Suprascapular nerve",
+        "Ulnar nerve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suprascapular nerve and nerve to subclavius arise from the trunks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.388,
+      "question": "What are the branches arising from the roots and trunks collectively called?",
+      "options": [
+        "Infraclavicular branches",
+        "Supraclavicular branches",
+        "Axillary branches",
+        "Brachial branches"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The branches arising from roots and trunks are supraclavicular branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.8308,
+      "question": "Which of the following is a branch of the lateral cord?",
+      "options": [
+        "Ulnar nerve",
+        "Radial nerve",
+        "Musculocutaneous nerve",
+        "Medial cutaneous nerve of arm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lateral cord gives off the lateral pectoral nerve, lateral root of median nerve, and musculocutaneous nerve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.45,
+      "question": "Which of the following is a branch of the medial cord?",
+      "options": [
+        "Musculocutaneous nerve",
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Radial nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial cord gives off the medial pectoral, medial cutaneous of arm, medial cutaneous of forearm, medial root of median, and ulnar nerve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.1702,
+      "question": "Which of the following is a branch of the posterior cord?",
+      "options": [
+        "Ulnar nerve",
+        "Median nerve",
+        "Axillary nerve",
+        "Medial pectoral nerve"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The posterior cord gives off the radial, axillary, thoraco-dorsal, upper subscapular, and lower subscapular nerves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0735,
+      "question": "What is Erb's point?",
+      "options": [
+        "The region where the posterior cord is formed",
+        "The region of the upper trunk where six nerves meet",
+        "The point where the roots exit the vertebrae",
+        "The termination of the brachial plexus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Erb's point is the region of the upper trunk where six nerves meet.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.1047,
+      "question": "Which spinal segment controls adduction of the shoulder?",
+      "options": [
+        "C5",
+        "C6",
+        "C8",
+        "T1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adduction of the shoulder is controlled by the C5 segment.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0168,
+      "question": "Which spinal segments control abduction of the shoulder?",
+      "options": [
+        "C5 and C6",
+        "C6 and C7",
+        "C7 and C8",
+        "C8 and T1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abduction of the shoulder is controlled by the C6 and C7 segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.5928,
+      "question": "Which spinal segments control flexion of the elbow?",
+      "options": [
+        "C5 and C6",
+        "C6 and C7",
+        "C7 and C8",
+        "C8 and T1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Flexion of the elbow is controlled by the C5 and C6 segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0667,
+      "question": "Which spinal segments control extension of the elbow?",
+      "options": [
+        "C4 and C5",
+        "C5 and C6",
+        "C6 and C7",
+        "C7 and C8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extension of the elbow is controlled by the C6 and C7 segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3784,
+      "question": "Which spinal segments control flexion of the wrist and fingers?",
+      "options": [
+        "C5 and C6",
+        "C6 and C7",
+        "C7 and C8",
+        "C8 and T1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Flexion of the wrist and fingers is controlled by the C8 and T1 segments.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3801,
+      "question": "What causes Erb's paralysis?",
+      "options": [
+        "Hyperabduction of the arm",
+        "Excessive increase in the angle between the head and shoulder",
+        "Direct trauma to the axilla",
+        "Compression by the clavicle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Erb's paralysis is caused by an excessive increase in the angle between the head and shoulder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.1536,
+      "question": "Which trunk is involved in Erb's paralysis?",
+      "options": [
+        "Lower trunk",
+        "Middle trunk",
+        "Upper trunk",
+        "All trunks"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Erb's paralysis involves the upper trunk.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.837,
+      "question": "What is the typical deformity of the limb in Erb's paralysis called?",
+      "options": [
+        "Claw hand",
+        "Policeman's tip hand",
+        "Wrist drop",
+        "Ape thumb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The deformity is called policeman's tip hand, porter's tip hand, or waiter's tip hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.1597,
+      "question": "What is the position of the arm in Erb's paralysis?",
+      "options": [
+        "Abducted and laterally rotated",
+        "Adducted and medially rotated",
+        "Flexed and supinated",
+        "Extended and laterally rotated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In this deformity, the arm hangs by the side, adducted and medially rotated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.4685,
+      "question": "What is the position of the forearm in Erb's paralysis?",
+      "options": [
+        "Flexed and supinated",
+        "Extended and pronated",
+        "Flexed and pronated",
+        "Extended and supinated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In this deformity, the forearm is extended and pronated.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.9465,
+      "question": "Adduction of the arm in Erb's paralysis is due to paralysis of which muscle?",
+      "options": [
+        "Supraspinatus",
+        "Deltoid",
+        "Biceps brachii",
+        "Infraspinatus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adduction of the arm is due to paralysis of the deltoid muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.7844,
+      "question": "Medial rotation of the arm in Erb's paralysis is due to paralysis of which muscles?",
+      "options": [
+        "Supraspinatus, infraspinatus, and teres minor",
+        "Deltoid and subscapularis",
+        "Biceps brachii and brachialis",
+        "Teres major and latissimus dorsi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Medial rotation is due to paralysis of the supraspinatus, infraspinatus, and teres minor muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0261,
+      "question": "Extension of the elbow in Erb's paralysis is due to paralysis of which muscle?",
+      "options": [
+        "Triceps brachii",
+        "Brachioradialis",
+        "Biceps brachii",
+        "Coracobrachialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Extension of the elbow is due to paralysis of the biceps brachii.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.8767,
+      "question": "Pronation of the forearm in Erb's paralysis is due to paralysis of which muscle?",
+      "options": [
+        "Pronator teres",
+        "Pronator quadratus",
+        "Biceps brachii",
+        "Brachioradialis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronation of the forearm is due to paralysis of the biceps brachii.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0547,
+      "question": "Where is sensation lost in Erb's paralysis?",
+      "options": [
+        "Along the medial border of forearm and hand",
+        "Along the outer aspect of the arm",
+        "Along the anterior chest wall",
+        "Over the deltoid only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is a loss of sensation (minimal) along the outer aspect of the arm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.4932,
+      "question": "What causes Klumpke's paralysis?",
+      "options": [
+        "Fall on the shoulder",
+        "Hyperabduction of the arm",
+        "Traction of the arm during birth",
+        "Excessive flexion of the neck"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Klumpke's paralysis is caused by the hyperabduction of the arm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.6633,
+      "question": "Which nerve roots are involved in Klumpke's paralysis?",
+      "options": [
+        "C5 and C6",
+        "C6 and C7",
+        "C8 and T1",
+        "C4 and C5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nerve roots involved in this injury are C8 and T1 and sometimes C7.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.018,
+      "question": "What is the characteristic hand deformity in Klumpke's paralysis?",
+      "options": [
+        "Policeman's tip hand",
+        "Claw hand",
+        "Wrist drop",
+        "Dupuytren's contracture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Claw hand is due to paralysis of the flexors of the wrist and fingers and all intrinsic muscles of the hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.7798,
+      "question": "Where is sensation lost in Klumpke's paralysis?",
+      "options": [
+        "Along the outer aspect of the arm",
+        "Along the medial border of forearm and hand",
+        "Over the thenar eminence",
+        "Along the radial side of the forearm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is a loss of sensations along the medial border of the forearm and hand.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.693,
+      "question": "Which syndrome is associated with Klumpke's paralysis?",
+      "options": [
+        "Carpal tunnel syndrome",
+        "Horner's syndrome",
+        "Raynaud's syndrome",
+        "Thoracic outlet syndrome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Horner's syndrome occurs due to involvement of sympathetic fibres supplying the head and neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.8599,
+      "question": "What are the signs of Horner's syndrome?",
+      "options": [
+        "Ptosis, miosis, anhydrosis, and enophthalmos",
+        "Exophthalmos, mydriasis, and sweating",
+        "Ptosis, mydriasis, and lacrimation",
+        "Enophthalmos, mydriasis, and anhydrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text lists partial ptosis, miosis, anhydrosis, and enophthalmos as signs of Horner's syndrome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.253,
+      "question": "The sympathetic fibres involved in Horner's syndrome leave the spinal cord through which root?",
+      "options": [
+        "C5",
+        "C6",
+        "C8",
+        "T1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sympathetic fibres leave the spinal cord through T1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.2947,
+      "question": "How is the axilla approached surgically for the excision of axillary lymph nodes?",
+      "options": [
+        "Through the apex of the axilla",
+        "Through the skin of the floor of axilla",
+        "Through the clavicle",
+        "Through the anterior chest wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The axilla is approached surgically through the skin of the floor of axilla.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.7983,
+      "question": "Which nerve is at risk during the surgical approach to the axilla?",
+      "options": [
+        "Intercostobrachial nerve",
+        "Phrenic nerve",
+        "Radial nerve",
+        "Median nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intercostobrachial nerve is one of the structures at risk during this procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.188,
+      "question": "Which of the following is a structure at risk during the surgical approach to the axilla?",
+      "options": [
+        "Long thoracic nerve",
+        "Vagus nerve",
+        "Axillary artery",
+        "Suprascapular nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The long thoracic nerve is at risk during this procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3027,
+      "question": "Which nerve is at risk during the surgical approach to the axilla?",
+      "options": [
+        "Musculocutaneous nerve",
+        "Thoraco-dorsal nerve",
+        "Ulnar nerve",
+        "Medial pectoral nerve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The thoraco-dorsal nerve is at risk during this procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.3423,
+      "question": "Which artery is at risk during the surgical approach to the axilla?",
+      "options": [
+        "Thoraco-dorsal artery",
+        "Axillary artery",
+        "Brachial artery",
+        "Subscapular artery"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The thoraco-dorsal artery is at risk during this procedure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.04,
+      "question": "Which of the following is NOT listed as a structure at risk during the surgical approach to the axilla?",
+      "options": [
+        "Intercostobrachial nerve",
+        "Long thoracic nerve",
+        "Axillary vein",
+        "Thoraco-dorsal artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The axillary vein is not specifically listed in the text as a structure at risk for this surgical approach.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.0098,
+      "question": "Branches from the roots of the brachial plexus supply which muscle besides the scalene muscles?",
+      "options": [
+        "Longus colli",
+        "Pectoralis major",
+        "Latissimus dorsi",
+        "Teres major"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Branches are given by the roots to supply scalene muscles and longus colli.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795520053369.956,
+      "question": "The roots of the brachial plexus contribute to which other nerve?",
+      "options": [
+        "Phrenic nerve",
+        "Vagus nerve",
+        "Accessory nerve",
+        "Hypoglossal nerve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states there is contribution to the phrenic nerve from the roots.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
