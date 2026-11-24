@@ -3,16 +3,718 @@
   "title": "PHY 101 ( UNIZIK ) : PROJECTILE MOTION",
   "subject": "PHY 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 42,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 42
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795533868736.994,
+      "question": "An object that moves in a parabolic path from the point of projection to a horizontal plane is called which term?",
+      "options": [
+        "Trajectory",
+        "Displacement",
+        "Projectile",
+        "Velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A projectile is defined as an object that moves in a parabolic path to a horizontal plane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868737.5742,
+      "question": "The parabolic path followed by a launched object describes which concept?",
+      "options": [
+        "Circular motion",
+        "Projectile motion",
+        "Rotational motion",
+        "Oscillatory motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Projectile motion is the trajectory of a projectile when launched.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868737.0078,
+      "question": "Which factor primarily influences the highest height reached by a projectile?",
+      "options": [
+        "Initial mass",
+        "Target distance",
+        "Air resistance",
+        "Launch angle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The line with a high launch angle has the highest height.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868737.1238,
+      "question": "A high initial speed of a projectile primarily results in which outcome?",
+      "options": [
+        "Longest range",
+        "Highest height",
+        "Shortest flight",
+        "Zero acceleration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The line with high initial speed has the longest range.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868737.7993,
+      "question": "A high launch angle for a projectile primarily produces which result?",
+      "options": [
+        "Longest range",
+        "Shortest flight",
+        "Highest height",
+        "Constant speed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The line with a high launch angle has the highest height.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868737.2263,
+      "question": "Kicked footballs and launched missiles are examples of which physical phenomenon?",
+      "options": [
+        "Circular motion",
+        "Rotational motion",
+        "Oscillatory motion",
+        "Projectile motion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kicked footballs and launched missiles are common examples of projectile motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.7283,
+      "question": "Archery and firing of canon are military applications of which concept?",
+      "options": [
+        "Linear motion",
+        "Projectile motion",
+        "Random motion",
+        "Circular motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Military applications of projectile motion include launching missiles, firing of canon, and archery.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.2097,
+      "question": "Projectile motion can be analyzed by splitting it into which two components?",
+      "options": [
+        "Vertical, horizontal",
+        "Lateral and medial",
+        "Forward and backward",
+        "Upward and downward"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A projectile exhibits vertical and horizontal motions simultaneously.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.9302,
+      "question": "The time taken to travel from the projection point to the horizontal plane is called which term?",
+      "options": [
+        "Time of launch",
+        "Time to apex",
+        "Time of flight",
+        "Time of descent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time of flight is the time taken by a projectile to travel from the point of projection to the plane again.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.1033,
+      "question": "The time taken to reach the maximum height is described by which term?",
+      "options": [
+        "Time of flight",
+        "Time to apex",
+        "Time of launch",
+        "Time of descent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Time to apex is the time taken by the projectile to reach the maximum height.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.823,
+      "question": "The angle a projectile makes with the horizontal plane is called which term?",
+      "options": [
+        "Flight angle",
+        "Descent angle",
+        "Range angle",
+        "Launch angle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Launch angle is the angle the projectile makes with the projection plane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.3792,
+      "question": "The highest point attained by a projectile is known as which term?",
+      "options": [
+        "Max height",
+        "Max range",
+        "Time of flight",
+        "Initial speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum height is the highest point attained by the projectile.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.6895,
+      "question": "The horizontal distance covered by a projectile is referred to as which term?",
+      "options": [
+        "Height",
+        "Flight time",
+        "Range",
+        "Displacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Range is the horizontal distance covered by a projectile.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.9333,
+      "question": "The speed at which a projectile is launched is known as which quantity?",
+      "options": [
+        "Final speed",
+        "Initial speed",
+        "Average speed",
+        "Maximum speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initial speed is the speed at which the projectile is launched into the air.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.9316,
+      "question": "The horizontal component of initial speed in projectile motion is expressed by which formula?",
+      "options": [
+        "U sin θ",
+        "U tan θ",
+        "U cot θ",
+        "U cos θ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The horizontal component of initial speed is U cos θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.1821,
+      "question": "The vertical component of initial speed in projectile motion is expressed by which formula?",
+      "options": [
+        "U sin θ",
+        "U cos θ",
+        "U tan θ",
+        "U cot θ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The vertical component of initial speed is U sin θ.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.1643,
+      "question": "Throughout projectile motion, the horizontal component of velocity remains in which state?",
+      "options": [
+        "Increasing",
+        "Constant",
+        "Decreasing",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal component of velocity is constant because horizontal acceleration is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.6667,
+      "question": "The vertical component of a projectile's velocity at its maximum height is which value?",
+      "options": [
+        "Maximum",
+        "Constant",
+        "Zero",
+        "Negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vertical component becomes zero at maximum height before changing direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.8445,
+      "question": "The acceleration acting on a projectile in vertical motion is caused by which force?",
+      "options": [
+        "Friction",
+        "Tension",
+        "Normal force",
+        "Gravity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The vertical motion is influenced by the acceleration due to gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.5784,
+      "question": "The time taken to reach the maximum height is given by which equation?",
+      "options": [
+        "U cos θ / g",
+        "U sin θ / g",
+        "U tan θ / g",
+        "U cot θ / g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The time to reach maximum height is calculated as U sin θ / g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.2178,
+      "question": "The total time of flight for a projectile is expressed by which equation?",
+      "options": [
+        "U sin θ / g",
+        "2U cos θ / g",
+        "2U sin θ / g",
+        "U cos θ / g"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time of flight is twice the time taken to reach maximum height.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.4143,
+      "question": "The maximum height reached by a projectile is calculated using which equation?",
+      "options": [
+        "U² sin² θ / 2g",
+        "U² cos² θ / 2g",
+        "U² tan² θ / 2g",
+        "U² cot² θ / 2g"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum height is evaluated using the equation Hₘ = U² sin² θ / 2g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.979,
+      "question": "The range of a projectile is evaluated using which equation?",
+      "options": [
+        "U² cos 2θ / g",
+        "U² tan 2θ / g",
+        "U² cot 2θ / g",
+        "U² sin 2θ / g"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The range is evaluated using R = U² sin 2θ / g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.4524,
+      "question": "At which launch angle is the range of a projectile maximized?",
+      "options": [
+        "30 degrees",
+        "45 degrees",
+        "60 degrees",
+        "90 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The range is maximum when sin 2θ equals 1, which occurs at 45 degrees.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.7502,
+      "question": "The trajectory of a projectile is described by which shape?",
+      "options": [
+        "Circular",
+        "Straight",
+        "Parabolic",
+        "Elliptical"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A projectile moves in a parabolic path from projection to the horizontal plane.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.314,
+      "question": "During the descent of a projectile, its vertical velocity becomes which state?",
+      "options": [
+        "Negative increase",
+        "Positive increase",
+        "Constant positive",
+        "Constant negative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The vertical velocity becomes increasingly negative as the projectile moves towards the right-hand side.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.7878,
+      "question": "The range equation simplifies to U²/g when the launch angle is which value?",
+      "options": [
+        "30 degrees",
+        "60 degrees",
+        "90 degrees",
+        "45 degrees"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At 45 degrees, the range equation reduces to Rₘₐₓ = U²/g.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.8494,
+      "question": "For an object projected from a height, horizontal and vertical motions are considered to be which type?",
+      "options": [
+        "Dependent",
+        "Unrelated",
+        "Opposing",
+        "Identical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An object projected from a height undergoes two simultaneous motions that are independent of each other.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.4182,
+      "question": "In horizontal projection, the initial vertical velocity is which value?",
+      "options": [
+        "Maximum",
+        "Constant",
+        "Zero",
+        "Negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an object projected horizontally, the vertical component of the initial velocity is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.533,
+      "question": "For a horizontally projected object, the horizontal velocity remains in which state?",
+      "options": [
+        "Constant",
+        "Zero",
+        "Increasing",
+        "Decreasing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The horizontal velocity is constant throughout the motion because horizontal acceleration is zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.586,
+      "question": "The vertical distance covered by a horizontally projected object is expressed by which formula?",
+      "options": [
+        "U sin θ",
+        "U cos θ",
+        "gt²/2",
+        "U t"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vertical distance is expressed as H = ½gt².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.232,
+      "question": "The horizontal distance covered by a horizontally projected object is given by which expression?",
+      "options": [
+        "uₓ / t",
+        "0.5 g t²",
+        "uₓ g",
+        "uₓ t"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Horizontal distance is obtained by multiplying the horizontal velocity by time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.564,
+      "question": "A horizontally projected object has an acceleration in the horizontal direction equal to which value?",
+      "options": [
+        "g",
+        "Zero",
+        "-g",
+        "Maximum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is no acceleration in the horizontal direction for a horizontal projectile.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.6555,
+      "question": "A baseball projected horizontally from a building falls under which acceleration?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Tension",
+        "Normal force"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The vertical motion of a horizontally projected object is under the acceleration due to gravity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.5364,
+      "question": "The time it takes for a baseball to hit the ground after horizontal projection depends on which factor?",
+      "options": [
+        "Object mass",
+        "Launch speed",
+        "Launch angle",
+        "Height"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The time to hit the ground depends on the height from which the object is projected.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.818,
+      "question": "The vertical component of velocity just before a horizontally projected object hits the ground is computed using which formula?",
+      "options": [
+        "Square root of U²",
+        "U sin θ",
+        "√2gH",
+        "U cos θ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vertical velocity is obtained using vᵧ² = uᵧ² + 2gH.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.3958,
+      "question": "A ball is projected horizontally off a cliff with a velocity of 60 m/s. If it takes 20 s to hit the horizontal ground, the horizontal range is which value?",
+      "options": [
+        "600 m",
+        "1200 m",
+        "120 m",
+        "2400 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The horizontal range is the product of horizontal speed and time, which is 1200 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.946,
+      "question": "If a cliff is 500 m high, calculate the time taken for a ball dropped from that height to hit the ground.",
+      "options": [
+        "5 s",
+        "20 s",
+        "15 s",
+        "10 s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using t = square root of 2H/g, the time is approximately 10 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.281,
+      "question": "A ball is kicked with a 3 m/s horizontal and 4 m/s vertical initial velocity. The speed it hits the ground is which value?",
+      "options": [
+        "7 m/s",
+        "4 m/s",
+        "5 m/s",
+        "3 m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The speed is the vector sum of the horizontal and vertical components, which is 5 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.196,
+      "question": "For a ball kicked with 3 m/s horizontal and 4 m/s vertical velocity, the time spent in the air is approximately which value?",
+      "options": [
+        "0.5 s",
+        "0.8 s",
+        "1.0 s",
+        "1.2 s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The time in the air is calculated using the vertical velocity and gravity, yielding approximately 0.5 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.745,
+      "question": "A ball kicked with 4 m/s vertical velocity attains a maximum height of which approximate value?",
+      "options": [
+        "0.50 m",
+        "2.00 m",
+        "1.50 m",
+        "1.25 m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using H = uᵧ² / 2g, the maximum height is approximately 1.25 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.6504,
+      "question": "A bullet is fired horizontally at 200 m/s from an 80 m tower. The time to reach the target is approximately which value?",
+      "options": [
+        "2.55 s",
+        "4.04 s",
+        "3.19 s",
+        "5.12 s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The time to hit the ground depends only on height and is approximately 4.04 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.7573,
+      "question": "In the military operation example, a bullet is fired horizontally at which velocity value?",
+      "options": [
+        "39.6 m/s",
+        "12.6 m/s",
+        "49.5 m/s",
+        "31.3 m/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The horizontal velocity required to travel 200 m in 4.04 s is 49.5 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.93,
+      "question": "When a body is projected at 50 m/s at a 30-degree angle, its maximum height is which value?",
+      "options": [
+        "31.8 m",
+        "22.5 m",
+        "45.0 m",
+        "15.9 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using U² sin² θ / 2g, the maximum height is calculated as 31.8 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.6746,
+      "question": "The time of flight for an object projected at 50 m/s and 30 degrees is approximately which value?",
+      "options": [
+        "2.5 s",
+        "7.6 s",
+        "3.8 s",
+        "5.1 s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using 2U sin θ / g, the time of flight is approximately 5.1 s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.3984,
+      "question": "The range of an object projected at 50 m/s and 30 degrees is which value?",
+      "options": [
+        "110.4 m",
+        "220.7 m",
+        "250.0 m",
+        "310.5 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using U² sin 2θ / g, the range is calculated as 220.7 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.5435,
+      "question": "For a horizontally launched object, time of flight is obtained using which standard equation?",
+      "options": [
+        "H = ½gt²",
+        "H = ut + ½gt²",
+        "H = u sin θ t",
+        "H = u cos θ t"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since initial vertical velocity is zero, the time of flight equation simplifies to H = ½gt².",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.389,
+      "question": "A projectile fired at 60 m/s horizontally from a cliff hits the ground after 20 seconds. The horizontal range is which value?",
+      "options": [
+        "600 m",
+        "2400 m",
+        "1200 m",
+        "1800 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The horizontal range is the product of horizontal speed and time, which is 1200 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.4756,
+      "question": "A projectile fired horizontally from an 80 m tower travels 200 m horizontally. The initial horizontal velocity is approximately which value?",
+      "options": [
+        "39.6 m/s",
+        "12.6 m/s",
+        "31.3 m/s",
+        "49.5 m/s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dividing the horizontal distance by the time of flight gives an initial velocity of 49.5 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533868738.9065,
+      "question": "A vertical component of 4 m/s and a horizontal component of 3 m/s produce an initial speed of which value?",
+      "options": [
+        "7 m/s",
+        "5 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The initial speed is the vector sum of the components, calculated as 5 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
