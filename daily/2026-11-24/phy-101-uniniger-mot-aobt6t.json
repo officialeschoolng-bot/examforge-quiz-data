@@ -3,16 +3,718 @@
   "title": "PHY 101 ( UNINIGER ) : MOTION IN ONE DIMENSION",
   "subject": "Phy",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795533550725.137,
+      "question": "Particle kinematics studies motion without considering which factor?",
+      "options": [
+        "Direction",
+        "Position",
+        "Causes",
+        "Time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Particle kinematics studies motion without considering the causes of motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.4592,
+      "question": "Any change in position during a time interval is called which term?",
+      "options": [
+        "Velocity",
+        "Force value",
+        "Mass value",
+        "Motion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Motion is defined as any change in the position of a particle during a time interval.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.8853,
+      "question": "Which path type produces curvilinear translational motion?",
+      "options": [
+        "Curved",
+        "Straight",
+        "Circular",
+        "Fixed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Curvilinear translational motion occurs when the path is curved.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.0564,
+      "question": "Motion of a car from Awka to Onitsha is an example of which motion?",
+      "options": [
+        "Rotational motion",
+        "Translational",
+        "Vibrational motion",
+        "Random molecular motion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The car changes position from one place to another along a path.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.943,
+      "question": "Rectilinear translational motion follows which path?",
+      "options": [
+        "Curved path",
+        "Circular path",
+        "Random path",
+        "Straight"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rectilinear translational motion occurs along a straight line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.4854,
+      "question": "Motion of a simple pendulum bob about its equilibrium position is an example of which motion?",
+      "options": [
+        "Oscillatory",
+        "Translational",
+        "Random",
+        "Rotational"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A pendulum bob moves to and fro about a fixed equilibrium point.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.4758,
+      "question": "Dust and smoke particles exhibit which motion?",
+      "options": [
+        "Rotational",
+        "Translational",
+        "Random",
+        "Oscillatory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dust and smoke particles move in an irregular and haphazard manner.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.5337,
+      "question": "Random motion has no defined path or which other feature?",
+      "options": [
+        "Constant speed",
+        "Direction",
+        "Fixed mass",
+        "Fixed time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Random motion has no defined path and no defined direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.3342,
+      "question": "Motion of fan blades is an example of which motion?",
+      "options": [
+        "Random",
+        "Translational",
+        "Oscillatory",
+        "Rotational"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fan blades move about a fixed position, which is rotational motion.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.5144,
+      "question": "Location of a body at a particular instant is called which term?",
+      "options": [
+        "Position",
+        "Total distance",
+        "Displacement",
+        "Average speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Position is the location of a body at a particular instant of time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.7368,
+      "question": "Total path travelled by a body is called which quantity?",
+      "options": [
+        "Displacement",
+        "Final position",
+        "Distance",
+        "Average velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Distance is the total path travelled by a body.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.927,
+      "question": "Distance is classified as which type of quantity?",
+      "options": [
+        "Vector quantity",
+        "Scalar",
+        "Tensor quantity",
+        "Rotational quantity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distance has magnitude only and is therefore a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.5234,
+      "question": "Displacement is classified as which type of quantity?",
+      "options": [
+        "Scalar quantity",
+        "Tensor quantity",
+        "Random quantity",
+        "Vector"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Displacement has both magnitude and direction and is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.3027,
+      "question": "Displacement equation uses final position minus which position?",
+      "options": [
+        "Average position",
+        "Final position",
+        "Initial",
+        "Maximum position"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Displacement equals final position minus initial position.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.4277,
+      "question": "Total distance covered per unit time defines which quantity?",
+      "options": [
+        "Speed",
+        "Velocity",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed is the total distance covered by a particle per unit time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.6775,
+      "question": "Average speed equals distance divided by which quantity?",
+      "options": [
+        "Displacement",
+        "Time",
+        "Velocity",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Average speed is total distance divided by the time interval.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.411,
+      "question": "Instantaneous speed is the limiting value of average speed as time interval approaches which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Maximum",
+        "Zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Instantaneous speed is obtained as the time interval approaches zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.8123,
+      "question": "S.I. unit of speed is which unit?",
+      "options": [
+        "m/s",
+        "kg",
+        "m/s²",
+        "s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The S.I. unit of speed is metre per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.587,
+      "question": "Speed is scalar because it lacks which feature?",
+      "options": [
+        "Magnitude",
+        "Unit measure",
+        "Direction",
+        "Time interval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed has no direction and is therefore a scalar quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.431,
+      "question": "Average velocity is displacement divided by which quantity?",
+      "options": [
+        "Displacement",
+        "Time",
+        "Speed value",
+        "Acceleration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Average velocity is displacement divided by the time interval.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.5825,
+      "question": "Instantaneous velocity is the limiting value of average velocity as time interval approaches which value?",
+      "options": [
+        "One",
+        "Infinity",
+        "Maximum",
+        "Zero"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Instantaneous velocity is obtained as the time interval approaches zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.0286,
+      "question": "Instantaneous velocity equals which derivative?",
+      "options": [
+        "dx/dt",
+        "dv/dt",
+        "dt/dx",
+        "d²x/dt²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Instantaneous velocity is the derivative of position with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.9617,
+      "question": "Velocity is classified as which type of quantity?",
+      "options": [
+        "Scalar quantity",
+        "Tensor quantity",
+        "Vector",
+        "Random quantity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Velocity has both magnitude and direction and is a vector quantity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.8486,
+      "question": "S.I. unit of velocity is which unit?",
+      "options": [
+        "m/s²",
+        "m/s",
+        "kg",
+        "s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. unit of velocity is metre per second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.2502,
+      "question": "Average velocity is the rate of change of distance in a specified what?",
+      "options": [
+        "Direction",
+        "Time interval",
+        "Mass value",
+        "Speed value"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Average velocity is the rate of change of distance in a specified direction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.9155,
+      "question": "Average acceleration is rate of change of which quantity?",
+      "options": [
+        "Position value",
+        "Distance covered",
+        "Speed value",
+        "Velocity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Average acceleration is the rate of change of velocity with time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.807,
+      "question": "Instantaneous acceleration equals which derivative?",
+      "options": [
+        "dx/dt",
+        "dt/dv",
+        "dv/dt",
+        "dv/dx"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Instantaneous acceleration is the derivative of velocity with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.852,
+      "question": "S.I. unit of acceleration is which unit?",
+      "options": [
+        "m/s",
+        "m/s²",
+        "kilogram",
+        "second"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The S.I. unit of acceleration is metre per second square.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.9292,
+      "question": "Acceleration is defined as limiting value of average acceleration as time interval approaches which value?",
+      "options": [
+        "Zero",
+        "One",
+        "Infinity",
+        "Maximum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Instantaneous acceleration is obtained as the time interval approaches zero.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.55,
+      "question": "Velocity as a function of time is integral of which quantity?",
+      "options": [
+        "Position value",
+        "Distance covered",
+        "Speed value",
+        "Acceleration"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Velocity is obtained by integrating acceleration with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550725.0674,
+      "question": "Position as a function of time is integral of which quantity?",
+      "options": [
+        "Acceleration",
+        "Velocity",
+        "Distance",
+        "Speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Position is obtained by integrating velocity with respect to time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.1392,
+      "question": "Integration formula for tⁿ has denominator given by which expression?",
+      "options": [
+        "n - 1",
+        "n + 2",
+        "n + 1",
+        "n"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The integral of tⁿ is t raised to n plus 1 divided by n plus 1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.3887,
+      "question": "In Example 3.4 initial velocity is given as which value?",
+      "options": [
+        "2 m/s",
+        "3 m/s",
+        "4 m/s",
+        "5 m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Example 3.4 states that the initial velocity is 2 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.255,
+      "question": "In Example 3.4 initial position is given as which value?",
+      "options": [
+        "2 m",
+        "3 m",
+        "5 m",
+        "4 m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Example 3.4 states that the initial position is 4 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.072,
+      "question": "Displacement-time graph plots displacement against which variable?",
+      "options": [
+        "Velocity",
+        "Time",
+        "Acceleration",
+        "Distance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A displacement-time graph plots displacement on the y-axis and time on the x-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.6018,
+      "question": "Slope of displacement-time graph gives which quantity?",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Distance",
+        "Speed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope of a displacement-time graph gives velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.6897,
+      "question": "Velocity-time graph plots velocity against which variable?",
+      "options": [
+        "Displacement",
+        "Acceleration",
+        "Distance",
+        "Time"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A velocity-time graph plots velocity on the y-axis and time on the x-axis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.3403,
+      "question": "Area under velocity-time graph gives which quantity?",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Displacement",
+        "Time interval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The area under a velocity-time graph gives total displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.8867,
+      "question": "Slope of velocity-time graph gives which quantity?",
+      "options": [
+        "Velocity value",
+        "Acceleration",
+        "Displacement",
+        "Distance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slope of a velocity-time graph gives acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.943,
+      "question": "In Example 3.5 total distance is which value?",
+      "options": [
+        "1200 m",
+        "900 m",
+        "150 m",
+        "12000 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area under the graph in Example 3.5 gives 1200 m.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.8052,
+      "question": "Uniform motion has which acceleration?",
+      "options": [
+        "One",
+        "Infinity",
+        "Zero",
+        "Maximum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uniform motion has constant velocity and therefore zero acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.7424,
+      "question": "Non-uniform motion has which velocity behavior?",
+      "options": [
+        "Constant value",
+        "Zero value",
+        "Fixed value",
+        "Changing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Non-uniform motion involves a changing velocity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.3855,
+      "question": "Uniform acceleration means velocity changes at which rate?",
+      "options": [
+        "Equal rate",
+        "Random rate",
+        "Increasing rate",
+        "Variable rate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Uniform acceleration means velocity changes at a constant rate.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.5078,
+      "question": "In v = u + at, the symbol a represents which quantity?",
+      "options": [
+        "Distance",
+        "Acceleration",
+        "Speed value",
+        "Time interval"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the equation v = u + at, a represents acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.8936,
+      "question": "In v² = u² + 2as, the symbol s represents which quantity?",
+      "options": [
+        "Speed value",
+        "Time interval",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In v² = u² + 2as, s represents displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.0933,
+      "question": "In s = ut + ½at², the symbol s represents which quantity?",
+      "options": [
+        "Velocity value",
+        "Acceleration",
+        "Displacement",
+        "Time interval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In s = ut + ½at², s represents displacement.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.2578,
+      "question": "Equation s = average velocity times t applies to which acceleration?",
+      "options": [
+        "Uniform",
+        "Variable",
+        "Random",
+        "Zero only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The equation uses average velocity and applies to uniform acceleration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.5623,
+      "question": "Example 3.6 final velocity of the car is which value?",
+      "options": [
+        "10.0 m/s",
+        "5 m/s",
+        "7 m/s",
+        "12 m/s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Example 3.6 gives a final velocity of 12 m/s.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.3948,
+      "question": "Example 3.8 distance travelled in the sixth complete second is which value?",
+      "options": [
+        "162 m",
+        "112.5 m",
+        "49.5 m",
+        "54 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Example 3.8 obtains 49.5 m for the sixth complete second.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795533550726.0474,
+      "question": "Newton developed the equations of motion for particles travelling with which acceleration?",
+      "options": [
+        "Random",
+        "Uniform",
+        "Variable",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Newton's equations of motion apply to uniform acceleration on a straight line.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
