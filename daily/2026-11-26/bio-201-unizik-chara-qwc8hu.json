@@ -3,16 +3,718 @@
   "title": "BIO 201 ( UNIZIK ) : CHARACTER INHERITANCE: HERITABLE AND NON-HERITABLE TRAITS",
   "subject": "BIO 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795703489647.6833,
+      "question": "Passing on of traits from parents to offspring is known as which term?",
+      "options": [
+        "Genetics",
+        "Heredity",
+        "Evolution",
+        "Mutation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heredity is the passing of traits from parents to offspring through reproduction.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0012,
+      "question": "Which term describes the visible or measurable properties of heritable traits?",
+      "options": [
+        "Genotypes",
+        "Alleles",
+        "Phenotypes",
+        "Chromosomes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Phenotypes are the visible or measurable properties, while genotypes are the genetic factors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.8435,
+      "question": "Which feature represents a physical inherited trait?",
+      "options": [
+        "Scars",
+        "Dimples",
+        "Tattoos",
+        "Language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimples are listed as an example of a physical inherited trait.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.7856,
+      "question": "Which term defines a change caused after birth by environmental influences?",
+      "options": [
+        "Inherited trait",
+        "Somatic mutation",
+        "Non-heritable",
+        "Phenotype"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Non-heritable changes occur after birth due to environmental influences and are not passed to offspring.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.3743,
+      "question": "Which of the following is an example of a non-heritable trait?",
+      "options": [
+        "Dimples",
+        "Tattoos",
+        "Eye color",
+        "Height"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tattoos are damage inflicted to the body and cannot be inherited.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6113,
+      "question": "Somatic cancers are not heritable because they develop from which source?",
+      "options": [
+        "Inherited alleles",
+        "Germline cells",
+        "New mutations",
+        "Recessive genes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Somatic cancers develop from new mutations rather than inherited ones.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.9844,
+      "question": "An abnormality in an individual's genome causes which condition?",
+      "options": [
+        "Somatic injury",
+        "Genetic disease",
+        "Somatic cancer",
+        "Acquired trait"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A genetic disease is caused by an abnormality in the individual's genome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.4045,
+      "question": "Which category includes single gene inheritance and multifactorial inheritance?",
+      "options": [
+        "Genetic inheritance",
+        "Environmental factors",
+        "Non-heritable traits",
+        "Somatic mutations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Single gene and multifactorial inheritance are types of genetic inheritance.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.7427,
+      "question": "Mitochondrial genetic inheritance is caused by mutations in which type of DNA?",
+      "options": [
+        "Nuclear DNA",
+        "Non-nuclear DNA",
+        "Viral DNA",
+        "Bacterial DNA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondrial disorders are caused by mutations in the non-nuclear DNA of mitochondria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6562,
+      "question": "Which condition represents a mitochondrial genetic disease?",
+      "options": [
+        "Albinism",
+        "Dementia",
+        "Cystic fibrosis",
+        "Phenylketonuria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dementia is listed as an example of a mitochondrial disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.839,
+      "question": "Sickle cell disease affects haemoglobin S and distorts red blood cells into which shape?",
+      "options": [
+        "Crescent",
+        "Oval",
+        "Spherical",
+        "Star"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sickle cell disease distorts red blood cells into a sickle or crescent shape.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.9373,
+      "question": "Which tumour type is slow-growing and does not invade surrounding tissues?",
+      "options": [
+        "Malignant",
+        "Metastatic",
+        "Benign",
+        "Invasive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Benign tumours are slow-growing and do not spread or invade surrounding tissues.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.5764,
+      "question": "Down syndrome is a common disorder resulting from three copies of which chromosome?",
+      "options": [
+        "Chromosome 18",
+        "Chromosome 21",
+        "Chromosome 23",
+        "Chromosome 15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Down syndrome occurs when a person has three copies of chromosome 21.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6953,
+      "question": "Albinism results from the absence or defect of which enzyme?",
+      "options": [
+        "Phenylalanine hydroxylase",
+        "Homogentisate 1,2-dioxygenase",
+        "CFTR",
+        "Tyrosinase"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Albinism is caused by the absence or defect of tyrosinase, an enzyme for melanin production.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0488,
+      "question": "Phenylketonuria is caused by a mutation in the gene for which enzyme?",
+      "options": [
+        "Tyrosinase",
+        "Phenylalanine hydroxylase",
+        "Homogentisate dioxygenase",
+        "CFTR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "PKU is characterized by a mutation in the gene for the hepatic enzyme phenylalanine hydroxylase.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.8186,
+      "question": "Which condition is known as black urine disease?",
+      "options": [
+        "Alkaptonuria",
+        "Cystic fibrosis",
+        "Sickle cell disease",
+        "Phenylketonuria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alcaptonuria or alkaptonuria is also known as black urine disease.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.8076,
+      "question": "Cystic fibrosis is caused by a mutation in the gene for which protein?",
+      "options": [
+        "PAH",
+        "CFTR",
+        "Tyrosinase",
+        "Hemoglobin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CF is caused by a mutation in the gene for the protein cystic fibrosis transmembrane conductance regulator.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.7324,
+      "question": "Which symptom is associated with cystic fibrosis?",
+      "options": [
+        "Black urine",
+        "Salty tasting skin",
+        "Large muscles",
+        "Absence of pigment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Signs and symptoms of cystic fibrosis include salty tasting skin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.1665,
+      "question": "Goitre is a noncancerous enlargement of which gland?",
+      "options": [
+        "Pituitary",
+        "Adrenal",
+        "Thyroid",
+        "Pancreas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Goitre is an enlargement of the thyroid gland, often associated with iodine deficiency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.2285,
+      "question": "Which condition is classified as a multifactorial inheritance disorder?",
+      "options": [
+        "Cystic fibrosis",
+        "Down syndrome",
+        "Sickle cell anaemia",
+        "Diabetes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Diabetes is a multifactorial disorder caused by a combination of environmental factors and mutations in multiple genes.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.4414,
+      "question": "Normal red blood cells live for approximately 90 to 120 days, while sickle cells typically last for which duration?",
+      "options": [
+        "30 to 40 days",
+        "10 to 20 days",
+        "5 to 10 days",
+        "50 to 60 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sickle cells burst apart or haemolyse much faster than normal cells, lasting only 10 to 20 days.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.4512,
+      "question": "Painful swelling of the hands and feet in early childhood is known by which medical term?",
+      "options": [
+        "Jaundice",
+        "Icteris",
+        "Dactylitis",
+        "Enuresis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dactylitis is the painful swelling of the hands and feet and is an early symptom of SCD.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0999,
+      "question": "An aplastic crisis in sickle cell disease is usually caused by which viral infection?",
+      "options": [
+        "Parvovirus B19",
+        "Influenza virus",
+        "Pneumococcus",
+        "Meningococcus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Parvovirus B19 can cause the bone marrow to temporarily stop producing new red cells, leading to severe anaemia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0098,
+      "question": "A splenic sequestration crisis occurs when red blood cells get trapped and enlarge which organ?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Spleen",
+        "Heart"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sickle cells can get stuck in the spleen, causing it to enlarge rapidly and leading to severe anaemia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6672,
+      "question": "Clinical stroke may affect what percentage of people with haemoglobin SS by age 45?",
+      "options": [
+        "10 percent",
+        "24 percent",
+        "50 percent",
+        "5 percent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As many as 24 percent of people with haemoglobin SS may suffer a clinical stroke by age 45.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.342,
+      "question": "Which part of the eye is the most common site of damage in sickle cell disease?",
+      "options": [
+        "Lens",
+        "Cornea",
+        "Iris",
+        "Retina"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The retina is the most common site of eye damage, where blood vessels can overgrow, get blocked, or bleed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6863,
+      "question": "Males with sickle cell disease may experience painful, prolonged erections known as which condition?",
+      "options": [
+        "Priapism",
+        "Pulmonary hypertension",
+        "Nocturnal enuresis",
+        "Avascular necrosis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Priapism happens when blood flow out of the penis is blocked by sickled cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.9321,
+      "question": "Emergency medical care should be sought for priapism if the condition lasts for more than which duration?",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "4 hours",
+        "8 hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If priapism lasts for more than 4 hours, emergency medical care is required to avoid complications.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.2622,
+      "question": "When red cells haemolyse, haemoglobin breaks down into which substance that can form gallstones?",
+      "options": [
+        "Melanin",
+        "Tyrosine",
+        "Homogentisic acid",
+        "Bilirubin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Haemoglobin breaks down into bilirubin, which can form stones that get stuck in the gallbladder.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.1748,
+      "question": "Doctors can diagnose SCD before a baby is born by testing which fluid?",
+      "options": [
+        "Blood",
+        "Urine",
+        "Amniotic fluid",
+        "Cerebrospinal fluid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prenatal screening involves using a sample of amniotic fluid to test for the sickle haemoglobin gene.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.6614,
+      "question": "Which medication is given twice a day to children with SCD to reduce the risk of severe pneumococcal infection?",
+      "options": [
+        "Hydroxyurea",
+        "Penicillin",
+        "Ibuprofen",
+        "Ascorbic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taking penicillin two times a day has been shown to reduce severe infections caused by pneumococcus bacteria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.8997,
+      "question": "At present, which medical procedure is considered the only cure for sickle cell disease?",
+      "options": [
+        "Blood transfusion",
+        "Hydroxyurea therapy",
+        "Haematopoietic stem cell transplantation",
+        "Gene therapy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Haematopoietic stem cell transplantation (HSCT) is currently the only known cure for SCD.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.8306,
+      "question": "According to the trichromatic theory, the three types of cone cells react most strongly to which combination of lights?",
+      "options": [
+        "Red, green, violet",
+        "Red, blue, yellow",
+        "Green, yellow, blue",
+        "Blue, red, orange"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three types of cones each have a pigment that reacts most strongly to red, green, and violet light.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.573,
+      "question": "The highest concentration of cone cells in the eye is found in which structure?",
+      "options": [
+        "Optic nerve",
+        "Macula",
+        "Sclera",
+        "Iris"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The highest concentration of cone cells is found in the macula, which is the central part of the retina.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0386,
+      "question": "A severe liver complication in SCD where sickled cells block blood vessels in the liver is called what?",
+      "options": [
+        "Cholecystitis",
+        "Intrahepatic cholestasis",
+        "Avascular necrosis",
+        "Pulmonary hypertension"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sickle cell intrahepatic cholestasis occurs when sickled cells block blood vessels in the liver.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.5784,
+      "question": "A Transcranial Doppler ultrasound screening is primarily used to check a child's risk for which complication?",
+      "options": [
+        "Stroke",
+        "Gallstones",
+        "Priapism",
+        "Leg ulcers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Transcranial Doppler study can determine if a child is at higher risk for a stroke.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.9783,
+      "question": "Children with SCD often grow and develop more slowly than their peers primarily due to which condition?",
+      "options": [
+        "Iron overload",
+        "Liver failure",
+        "Anaemia",
+        "Kidney disease"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that children with SCD may grow and develop more slowly because of anaemia.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.3328,
+      "question": "A joint complication in SCD caused by decreased oxygen flow to the bones is known as what?",
+      "options": [
+        "Osteoarthritis",
+        "Gout",
+        "Rheumatoid arthritis",
+        "Avascular necrosis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Decreased oxygen flow to bones in the hip, knees, and ankles can result in avascular or aseptic necrosis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.3508,
+      "question": "Symptoms of acute chest syndrome in SCD may include chest pain along with which other sign?",
+      "options": [
+        "Jaundice",
+        "Fever",
+        "Bedwetting",
+        "Dactylitis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Symptoms of acute chest syndrome include chest pain, fever, shortness of breath, rapid breathing, and cough.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.5483,
+      "question": "People with SCD typically do not develop leg ulcers until they are past which age?",
+      "options": [
+        "5 years",
+        "10 years",
+        "15 years",
+        "20 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes that people with SCD usually do not get leg ulcers until after the age of 10.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.2515,
+      "question": "Glucose-6-phosphate dehydrogenase deficiency is inherited in which genetic pattern?",
+      "options": [
+        "Autosomal dominant",
+        "X-linked dominant",
+        "X-linked recessive",
+        "Autosomal recessive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The condition is inherited in an X-linked recessive pattern because the gene is located on the X chromosome.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.615,
+      "question": "Carriers of a G6PD mutation are believed to have partial protection against which parasite?",
+      "options": [
+        "Plasmodium",
+        "Giardia",
+        "Entamoeba",
+        "Trypanosoma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carriers may be partially protected against Plasmodium, which causes malaria.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.1667,
+      "question": "Eating fava beans can trigger haemolytic anaemia in G6PD patients, producing a reaction known as which term?",
+      "options": [
+        "Priapism",
+        "Dactylitis",
+        "Icteris",
+        "Favism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A reaction caused by eating fava beans or inhaling pollen from fava plants is called favism.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.4783,
+      "question": "Marfan syndrome is an inherited genetic disorder that follows which inheritance pattern?",
+      "options": [
+        "X-linked recessive",
+        "Autosomal dominant",
+        "Autosomal recessive",
+        "X-linked dominant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Marfan syndrome is an autosomal dominant disorder where an affected parent has a 50% risk of passing it on.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.2705,
+      "question": "A defect in which specific glycoprotein is responsible for causing Marfan syndrome?",
+      "options": [
+        "Fibrillin-1",
+        "Haemoglobin",
+        "Tyrosinase",
+        "Bilirubin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Marfan syndrome is caused by a defect in the FBN1 gene, which encodes the glycoprotein fibrillin-1.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.796,
+      "question": "Dislocation of the eye lens in Marfan syndrome is medically known by which term?",
+      "options": [
+        "Astigmatism",
+        "Ectopia lentis",
+        "Aortic aneurysm",
+        "Spontaneous pneumothorax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medical term for lens dislocation caused by weak ciliary zonules is ectopia lentis.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.4583,
+      "question": "Identify the Marfan complication involving a tear in the innermost layer of the aortic wall.",
+      "options": [
+        "Aortic aneurysm",
+        "Aortic dissection",
+        "Dural ectasia",
+        "Spontaneous pneumothorax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An aortic dissection occurs when a tear allows blood to squeeze between the layers of the aortic wall.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.227,
+      "question": "Huntington's disease is caused by an expanded trinucleotide repeat of which sequence in the HTT gene?",
+      "options": [
+        "GAA",
+        "CTG",
+        "CGG",
+        "CAG"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The disease results from expanded CAG triplet repeats, which produce an abnormal protein that damages brain cells.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.0505,
+      "question": "Involuntary jerking or writhing movements experienced by patients with Huntington's disease are called what?",
+      "options": [
+        "Chorea",
+        "Dystonia",
+        "Ataxia",
+        "Tremor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chorea refers to the involuntary jerking or writhing movements seen in movement disorders associated with HD.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795703489648.18,
+      "question": "Which symptom of Huntington's disease is primarily treated using the medication tetrabenazine?",
+      "options": [
+        "Depression",
+        "Dementia",
+        "Chorea",
+        "Pneumonia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The best evidence for treating the movement problems associated with HD is with the medication tetrabenazine.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
