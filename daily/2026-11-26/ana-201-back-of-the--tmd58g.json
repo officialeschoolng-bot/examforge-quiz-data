@@ -3,16 +3,438 @@
   "title": "ANA 201 : BACK OF THE BODY INTRO",
   "subject": "ANA 201",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 30,
+  "defaultTimePerQuestion": 40,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
     "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 40
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795695750070.6736,
+      "question": "What is the name given to the muscles that attach the shoulder girdle to the axial skeleton posteriorly?",
+      "options": [
+        "Anterior axio-appendicular muscles",
+        "Posterior axio-appendicular muscles",
+        "Scapulohumeral muscles",
+        "Axio-humeral muscles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states these muscles are called posterior axio-appendicular muscles.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.8413,
+      "question": "Removal of the scapula in malignant disease like fibrosarcoma requires detailed knowledge of what?",
+      "options": [
+        "Only the bones of the back",
+        "Muscles, nerves, and vessels on the back",
+        "Only the skin and superficial fascia",
+        "The abdominal organs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes this removal requires detailed knowledge of the muscles, nerves, and vessels on the back.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.4226,
+      "question": "Which structure is considered the most important surface landmark on the back?",
+      "options": [
+        "Eighth rib",
+        "Iliac crest",
+        "Scapula",
+        "Twelfth rib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly states that the scapula is the most important surface landmark on the back.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.9524,
+      "question": "Vertically, the scapula extends from which rib to which rib?",
+      "options": [
+        "1st to 5th",
+        "2nd to 7th",
+        "3rd to 8th",
+        "4th to 9th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes that the scapula vertically extends from the 2nd to the 7th rib.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.6638,
+      "question": "The superior angle of the scapula lies at the level of which vertebral spine?",
+      "options": [
+        "T1",
+        "T2",
+        "T3",
+        "T7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states the superior angle of the scapula lies opposite the spine of the T2 vertebra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.4446,
+      "question": "The root of the spine of the scapula lies at the level of which vertebra?",
+      "options": [
+        "T2",
+        "T3",
+        "T4",
+        "T7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The root of the spine lies at the level of the T3 vertebra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.2805,
+      "question": "The inferior angle of the scapula lies at the level of which vertebra?",
+      "options": [
+        "T5",
+        "T6",
+        "T7",
+        "T8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The inferior angle of the scapula lies at the level of the T7 vertebra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.401,
+      "question": "Approximately how many muscles are attached to the processes and fossae of the scapula?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text notes the scapula is freely mobile as about 15 muscles are attached to its processes and fossae.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.2693,
+      "question": "Which rib is palpable immediately inferior to the inferior angle of the scapula?",
+      "options": [
+        "6th rib",
+        "7th rib",
+        "8th rib",
+        "9th rib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The eighth rib is palpable immediately inferior to the inferior angle of the scapula.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.0027,
+      "question": "The lower ribs can be counted from which rib?",
+      "options": [
+        "6th rib",
+        "7th rib",
+        "8th rib",
+        "9th rib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the eighth rib is palpable immediately inferior to the inferior angle, and the lower ribs can be counted from it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.475,
+      "question": "How far above the iliac crest can the twelfth rib be palpated if it projects beyond the lateral margin of the erector spinae muscle?",
+      "options": [
+        "1 cm",
+        "2 cm",
+        "3 cm",
+        "5 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states the twelfth rib can be palpated about 3 cm above the iliac crest.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.086,
+      "question": "The posterior superior iliac spine may be felt in a shallow dimple about how far from the median line?",
+      "options": [
+        "3 cm",
+        "5 cm",
+        "7 cm",
+        "10 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states it may be felt in a shallow dimple of skin above the buttock, about 5 cm from the median line.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.7449,
+      "question": "The back of the sacrum lies between which two structures?",
+      "options": [
+        "The right and left dimples",
+        "The two iliac crests",
+        "The posterior superior iliac spines",
+        "The buttocks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The back of the sacrum lies between the right and left dimples.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.7698,
+      "question": "Which bone is slightly movable and may be felt deep between the buttocks in the natal cleft?",
+      "options": [
+        "Sacrum",
+        "Coccyx",
+        "Iliac crest",
+        "Lumbar spine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coccyx is described as a slightly movable bone felt deep in the natal cleft.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.4365,
+      "question": "Which vertebra is known as the vertebra prominens and is readily felt at the root of the neck?",
+      "options": [
+        "C5",
+        "C6",
+        "C7",
+        "T1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spine of the 7th cervical vertebra is called the vertebra prominens.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.6433,
+      "question": "What demarcates the junction between the head and neck posteriorly?",
+      "options": [
+        "Nuchal groove and ligamentum nuchae",
+        "External occipital protuberance and superior nuchal lines",
+        "Mastoid process and inferior nuchal lines",
+        "Spine of C7 and ligamentum nuchae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These bony features demarcate the junction between the head and neck posteriorly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.2488,
+      "question": "The external occipital protuberance is felt in the midline on which part of the body?",
+      "options": [
+        "Front of the chest",
+        "Side of the neck",
+        "Back of the head",
+        "Lower back"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text describes it as a bony projection felt in the midline on the back of the head.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.1523,
+      "question": "The nuchal groove furrow extends from the external occipital protuberance to the spine of which vertebra?",
+      "options": [
+        "C5",
+        "C6",
+        "C7",
+        "T1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The nuchal groove furrow extends from the external occipital protuberance to the spine of C7 vertebra.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.9238,
+      "question": "What is the median fibrous partition on the back of the neck called?",
+      "options": [
+        "Nuchal groove",
+        "Ligamentum flavum",
+        "Supraspinous ligament",
+        "Ligamentum nuchae"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The text defines the ligamentum nuchae as the median fibrous partition on the back of the neck.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.9224,
+      "question": "The ligamentum nuchae separates the short cervical spines from what?",
+      "options": [
+        "The muscles of the back",
+        "The skin",
+        "The spinal cord",
+        "The skull"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states it separates the short cervical spines from the skin.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.2026,
+      "question": "The cutaneous nerves on the back are derived from which rami of the spinal nerves?",
+      "options": [
+        "Anterior rami",
+        "Posterior rami",
+        "Medial rami",
+        "Lateral rami"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cutaneous nerves on the back are derived from the posterior rami of the spinal nerves.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.4734,
+      "question": "Up to which vertebral level is cutaneous innervation of the back provided by medial branches of the posterior rami?",
+      "options": [
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Up to T6, the cutaneous innervation is provided by medial branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.2,
+      "question": "Below T6, the cutaneous innervation of the back is provided by which branches?",
+      "options": [
+        "Medial branches",
+        "Lateral branches",
+        "Anterior branches",
+        "Ventral branches"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Below T6, the cutaneous innervation is provided by lateral branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.0835,
+      "question": "The lateral branches below T6 emerge in line with the lateral edge of which muscle?",
+      "options": [
+        "Trapezius",
+        "Latissimus dorsi",
+        "Erector spinae",
+        "Rhomboid major"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These lateral branches emerge in line with the lateral edge of the erector spinae muscle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.8613,
+      "question": "The cutaneous branches of the upper three lumbar nerves supply the skin of which region?",
+      "options": [
+        "Upper back",
+        "Lower back",
+        "Gluteal region",
+        "Posterior thigh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These branches turn down over the iliac crest to supply the skin of the gluteal region.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.3232,
+      "question": "The posterior rami of which of the following spinal nerves do NOT give any cutaneous branches?",
+      "options": [
+        "C1",
+        "C5",
+        "T2",
+        "T12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The posterior rami of C1, C7, C8, L4, and L5 do not give any cutaneous branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.6257,
+      "question": "The posterior rami of which lumbar spinal nerves do NOT give any cutaneous branches?",
+      "options": [
+        "L1 and L2",
+        "L2 and L3",
+        "L4 and L5",
+        "L3 and L4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text lists L4 and L5 among those that do not give any cutaneous branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.202,
+      "question": "The approximate level of the highest point of the iliac crest is at which vertebral spine?",
+      "options": [
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table indicates the highest point of the iliac crest is at the L4 level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.4236,
+      "question": "The posterior-superior iliac spine corresponds to which vertebral level?",
+      "options": [
+        "L4",
+        "L5",
+        "S1",
+        "S2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The table indicates the posterior-superior iliac spine is at the S2 level.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795695750070.846,
+      "question": "The crest of the spine of the scapula meets its medial border at the level of which vertebra?",
+      "options": [
+        "T2",
+        "T3",
+        "T4",
+        "T7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The table indicates this meeting point is at the T3 level.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
