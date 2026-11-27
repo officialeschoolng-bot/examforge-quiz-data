@@ -3,16 +3,718 @@
   "title": "GST 111 ( UNINIGER ) : LANGUAGE SKILLS",
   "subject": "GST 111",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795801616466.638,
+      "question": "Language skills are commonly grouped under how many abilities?",
+      "options": [
+        "Two skills",
+        "Three skills",
+        "Four skills",
+        "Five skills"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Language skills are commonly grouped into listening, speaking, reading, and writing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616466.746,
+      "question": "The LANGUAGE SKILLS topic primarily covers which pair?",
+      "options": [
+        "Listening and speaking skills",
+        "Reading and writing",
+        "Grammar and spelling rules",
+        "Punctuation and tone use"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The provided slides focus mainly on reading skill and writing skill.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616466.3716,
+      "question": "Which ability appears in the learning objectives for LANGUAGE SKILLS?",
+      "options": [
+        "Draw language symbols",
+        "Sing language songs",
+        "Count language words",
+        "Define skills"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The first learning objective is to define the term language skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616466.2712,
+      "question": "The learning objectives require differentiating listening and speaking and also which other pair?",
+      "options": [
+        "Reading writing",
+        "Grammar and usage",
+        "Spelling and tone",
+        "Sound and silence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The objectives include differentiating reading and writing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.7969,
+      "question": "Ogayi and Chima 2005 define reading skill as the ability to do which?",
+      "options": [
+        "Speak words clearly",
+        "Copy written text",
+        "Read writing signs",
+        "Count printed lines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading skill involves perceiving and understanding writing symbols.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.504,
+      "question": "In reading, the reader uses which resource to interpret meaning?",
+      "options": [
+        "Previous word knowledge",
+        "Random guessing habits",
+        "Loud vocal noises",
+        "Finger tracking methods"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Readers use previous knowledge of words and context to interpret meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.2048,
+      "question": "In the reading process, the writer is described as which?",
+      "options": [
+        "Decoder",
+        "Encoder",
+        "Listener",
+        "Speaker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The writer encodes the message while the reader decodes it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.2656,
+      "question": "In reading, the reader is referred to as which?",
+      "options": [
+        "The encoder",
+        "The speaker",
+        "The decoder",
+        "The listener"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The reader decodes the message tied up by the writer.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.0308,
+      "question": "The writer uses which signs and symbols to convey messages?",
+      "options": [
+        "Numerical chart symbols",
+        "Musical notation marks",
+        "Spoken sound patterns",
+        "Graphological signs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The writer writes using graphological signs and symbols.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.7083,
+      "question": "Reading requires recognizing letters and reading groups of letters as which?",
+      "options": [
+        "Words",
+        "Charts",
+        "Sounds",
+        "Lines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A basic reading ability is recognizing groups of letters as words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.9617,
+      "question": "Reading ability includes understanding relationships between clauses and which other unit?",
+      "options": [
+        "Single letters",
+        "Spoken sounds",
+        "Sentences",
+        "Page numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading involves understanding relationships between clauses and sentences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.1658,
+      "question": "Understanding the grammar of a sentence is listed as which reading ability?",
+      "options": [
+        "A reading ability",
+        "A writing handicap",
+        "A speaking method",
+        "A listening defect"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Understanding sentence grammar is listed as a reading ability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.9944,
+      "question": "Reading skill involves perceiving and understanding which elements?",
+      "options": [
+        "Written symbols",
+        "Spoken accent patterns",
+        "Musical rhythm patterns",
+        "Body gesture patterns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reading deals with seeing and recognizing written symbols.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.932,
+      "question": "Which purpose of reading involves gaining knowledge from texts?",
+      "options": [
+        "Relaxation",
+        "Entertainment",
+        "Guidance",
+        "Information"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reading is done to get information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.1372,
+      "question": "Reading for enjoyment is captured by which purpose?",
+      "options": [
+        "Problem solving",
+        "Guidance seeking",
+        "Entertainment",
+        "Relaxation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One purpose of reading is to be entertained.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.0837,
+      "question": "Which purpose of reading supports professional practice?",
+      "options": [
+        "Entertainment purposes",
+        "Guidance and direction",
+        "Professional training",
+        "Relaxation and rest"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading supports training and practice in one's profession.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.632,
+      "question": "Which purpose of reading helps solve difficulties?",
+      "options": [
+        "Relaxation and rest",
+        "Solve problems",
+        "Entertainment purposes",
+        "Guidance and direction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading can be used to solve problems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.8704,
+      "question": "Which purpose of reading develops intellectual ability?",
+      "options": [
+        "Intellectual growth",
+        "Physical fitness training",
+        "Social status improvement",
+        "Financial gain pursuit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reading helps develop intellectual ability.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.6716,
+      "question": "Reading for rest and calmness serves which purpose?",
+      "options": [
+        "Information",
+        "Guidance",
+        "Relaxation",
+        "Training"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Relaxation is listed as a purpose of reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.8035,
+      "question": "Reading without audible noise is called which type?",
+      "options": [
+        "Reading aloud",
+        "Creative reading",
+        "Critical reading",
+        "Silent reading"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Silent reading is reading without audible noise.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.916,
+      "question": "Reading with audible noise is known as which type?",
+      "options": [
+        "Silent reading",
+        "Critical reading",
+        "Reading aloud",
+        "Intensive reading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading aloud involves audible noise.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.9634,
+      "question": "Which reading type is especially used during speech presentation?",
+      "options": [
+        "Silent reading",
+        "Reading aloud",
+        "Creative reading",
+        "Critical reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading aloud is particularly useful during speech presentation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4482,
+      "question": "Reading to solve a particular problem is called which type?",
+      "options": [
+        "Silent reading",
+        "Critical reading",
+        "Creative reading",
+        "Intensive slow reading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Creative reading targets a particular problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.6465,
+      "question": "Critical reading involves reacting to which aspect of a text?",
+      "options": [
+        "Print size and font",
+        "Page number order",
+        "Good or bad",
+        "Author age details"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critical reading reacts to what is good or bad in a text.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.3367,
+      "question": "Intensive reading is also known by which name?",
+      "options": [
+        "Fast scanning",
+        "Loud reading",
+        "Slow reading",
+        "Silent guessing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intensive reading is also known as slow-careful reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.8896,
+      "question": "Intensive reading is used for which kind of text?",
+      "options": [
+        "Large easy texts",
+        "Long simple texts",
+        "Short spoken texts",
+        "Difficult text"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensive reading is used for a small amount of difficult text.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.814,
+      "question": "In intensive reading, the reader often focuses on which element?",
+      "options": [
+        "Page layout design",
+        "Book cover artwork",
+        "Author name details",
+        "Language use"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensive reading often focuses on language rather than the text.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.3037,
+      "question": "Vocalisation in reading refers to which habit?",
+      "options": [
+        "Pronouncing aloud",
+        "Counting every word",
+        "Pointing at lines",
+        "Moving the head"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vocalisation means pronouncing each word aloud as one reads.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.7805,
+      "question": "Sub-vocalisation involves hearing words where?",
+      "options": [
+        "On the page",
+        "In the mind",
+        "In a group",
+        "Through speakers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sub-vocalisation means pronouncing words within the mind.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.5903,
+      "question": "Counting words while reading mainly causes which problem?",
+      "options": [
+        "Better recall",
+        "Faster reading",
+        "Clearer tone",
+        "Slower speed"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Counting words slows the speed of reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.299,
+      "question": "Finger pointing is described as a reading practice common among which group?",
+      "options": [
+        "Adult readers",
+        "Expert readers",
+        "Teacher readers",
+        "Children"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Finger pointing is used by children and not adults.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.7537,
+      "question": "Head movement during reading is criticized because it reduces which quality?",
+      "options": [
+        "Page size",
+        "Focus",
+        "Print clarity",
+        "Book weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moving the head side to side reduces concentration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.5425,
+      "question": "Daydreaming during reading involves thinking about which kind of ideas?",
+      "options": [
+        "Relevant reading ideas",
+        "Main textual ideas",
+        "Irrelevant things",
+        "Key textual ideas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Daydreaming involves thinking of irrelevant things not related to reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4004,
+      "question": "Which practice helps break the habit of daydreaming during reading?",
+      "options": [
+        "Having a purpose",
+        "Reading in noise",
+        "Avoiding all notes",
+        "Moving the head"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Having a purpose and making notes improve concentration.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.1516,
+      "question": "Memorisation in reading is described as which kind of activity?",
+      "options": [
+        "Physical activity",
+        "Mental activity",
+        "Social activity",
+        "Musical activity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Memorisation is described as a psychological and mental activity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.456,
+      "question": "Memorisation is considered a bad reading form because of which risk?",
+      "options": [
+        "Faster recall",
+        "Better understanding",
+        "Clearer spelling",
+        "Poor recall"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Memorisation risks inability to recall under psychological tension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.8137,
+      "question": "Ogayi 2005 defines writing skill as the skillful use of which elements?",
+      "options": [
+        "Language signs",
+        "Spoken accent patterns",
+        "Body gesture patterns",
+        "Musical note patterns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Writing skill uses language symbols to express thoughts and ideas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.1426,
+      "question": "Writing skill involves expressing ideas through which medium?",
+      "options": [
+        "Spoken words",
+        "Body movements",
+        "Musical sounds",
+        "Written words"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Writing expresses ideas through written words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.3982,
+      "question": "Writing development begins with recognizing letters and then moves to which step?",
+      "options": [
+        "Paragraph editing",
+        "Complex essays",
+        "Spelling words",
+        "Public speech"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Writing starts from letters to spelling of words.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4324,
+      "question": "Ogayi 2005 says a writer needs to organize ideas in which unit?",
+      "options": [
+        "Short sentences",
+        "Paragraphs",
+        "Whole chapters",
+        "Book titles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The writer needs to organize pieces of information or ideas in paragraphs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.451,
+      "question": "Extensive and regular reading improves writing by providing which benefit?",
+      "options": [
+        "New vocabularies",
+        "Faster typing speed",
+        "Better handwriting",
+        "Louder reading voice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reading exposes writers to new vocabulary and good presentations.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.6562,
+      "question": "Writing with the audience in mind helps determine which choice?",
+      "options": [
+        "Appropriate style",
+        "Paper size choice",
+        "Pen colour choice",
+        "Font name choice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Audience determines whether writing is formal or informal.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.5684,
+      "question": "Using informal words in an official document is described as which?",
+      "options": [
+        "Very correct",
+        "Highly formal",
+        "Always polite",
+        "Wrong"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Informal words are wrong in documents meant for official matters.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.3677,
+      "question": "A writer should handle tone in which manner?",
+      "options": [
+        "Extremely harsh",
+        "Appropriate",
+        "Very careless",
+        "Always angry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Writers should set an appropriate tone when writing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4055,
+      "question": "Reading your writing aloud helps mainly to detect which issues?",
+      "options": [
+        "Book prices",
+        "Page numbers",
+        "Author names",
+        "Errors"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reading aloud helps draw attention to areas where there are errors.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.9812,
+      "question": "Reading writing aloud helps remove wrong grammar and which other feature?",
+      "options": [
+        "Paper size",
+        "Pen colour",
+        "Punctuation",
+        "Cover design"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading aloud helps remove wrong grammar and punctuation marks.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.813,
+      "question": "Using only one sentence type in writing is described as which?",
+      "options": [
+        "Very rhythmic",
+        "Highly natural",
+        "Always clear",
+        "Monotonous"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using only one sentence type sounds monotonous.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4553,
+      "question": "Combining different sentence types helps writing maintain which quality?",
+      "options": [
+        "Page length",
+        "Font size",
+        "Good rhythm",
+        "Pen colour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different sentence types maintain good rhythm and natural flow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.739,
+      "question": "Unity in writing requires every element to support which item?",
+      "options": [
+        "Main idea",
+        "Author name details",
+        "Page number order",
+        "Book title choice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unity requires all elements to support one central idea.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801616467.4326,
+      "question": "Cohesion in writing requires every idea to be linked to which element?",
+      "options": [
+        "Author age",
+        "Page size",
+        "Cover colour",
+        "Main idea"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cohesion links every idea to the central idea in the work.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
