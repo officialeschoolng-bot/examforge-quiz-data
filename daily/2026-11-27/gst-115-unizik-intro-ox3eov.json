@@ -3,16 +3,718 @@
   "title": "GST 115 ( UNIZIK ) : INTRODUCTION TO READING AND READING SKILLS",
   "subject": "GST 115",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795802027011.6443,
+      "question": "Which position does reading occupy among the four main language skills?",
+      "options": [
+        "First skill",
+        "Third skill",
+        "Second skill",
+        "Fourth skill"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading is the third of the four main language skills alongside listening, speaking, and writing.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.6316,
+      "question": "Reading critically in education primarily helps students to achieve which outcome?",
+      "options": [
+        "Faster speech",
+        "Good choices",
+        "Louder voice",
+        "Longer memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading critically helps one make good choices, evaluate what to read, and understand key points.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.3394,
+      "question": "Which description matches reading as a cognitive process?",
+      "options": [
+        "Speaking loud words",
+        "Copying text lines",
+        "Decoding symbols",
+        "Counting printed words"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading is defined as a cognitive process that involves decoding symbols to arrive at meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.9946,
+      "question": "Reading is classified as which type of language skill?",
+      "options": [
+        "Receptive skill",
+        "Productive skill",
+        "Expressive skill",
+        "Creative skill"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reading is a receptive skill that allows us to receive information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.366,
+      "question": "The process of looking at a series of written symbols to get meaning is known as which activity?",
+      "options": [
+        "Writing",
+        "Speaking",
+        "Listening",
+        "Reading"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reading is the process of looking at a series of written symbols and getting meaning from them.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.924,
+      "question": "Which term describes perceiving a written text silently to understand its contents?",
+      "options": [
+        "Reading out loud",
+        "Reading silently",
+        "Reading very fast",
+        "Reading with noise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perceiving a written text to understand its contents can be done silently as silent reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.5588,
+      "question": "When a written text is read aloud, it is referred to as which type of reading?",
+      "options": [
+        "Silent reading",
+        "Oral reading",
+        "Fast reading",
+        "Speed reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When we say a written text aloud, it is called oral reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.0535,
+      "question": "Reading words accurately requires the integration of visual, auditory, and which other type of skills?",
+      "options": [
+        "Physical abilities",
+        "Musical abilities",
+        "Cognitive skills",
+        "Social abilities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reading words accurately requires the integration of visual, auditory, and cognitive skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.0862,
+      "question": "Reading provides access to stories from around the world which helps people to become more of which trait?",
+      "options": [
+        "Empathetic",
+        "Wealthy",
+        "Athletic",
+        "Talkative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reading stories helps to understand people and make them more empathetic.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.3538,
+      "question": "Boosting knowledge and brainpower is achieved through which activity?",
+      "options": [
+        "Sleeping",
+        "Reading",
+        "Watching TV",
+        "Listening to music"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading improves memory, boosts knowledge and brainpower.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.2202,
+      "question": "Identifying the words we see during reading is known as which process?",
+      "options": [
+        "Fluency",
+        "Word decoding",
+        "Comprehension",
+        "Speed reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To be able to read, we need to identify the words we see which is word recognition.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.703,
+      "question": "Understanding the meaning of the words we read is called which process?",
+      "options": [
+        "Fluency",
+        "Comprehension",
+        "Word recognition",
+        "Skimming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To be able to read, we need to understand what words mean which is comprehension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.593,
+      "question": "Connecting words and their meaning so that reading becomes automatic is termed which ability?",
+      "options": [
+        "Fluency",
+        "Comprehension",
+        "Scanning",
+        "Skimming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Connecting words and their meaning so reading is automatic is fluency.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7947,
+      "question": "Reading improves focus, concentration, and increases which personal trait?",
+      "options": [
+        "Height",
+        "Creativity",
+        "Body weight",
+        "Reading speed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading improves focus and concentration and increases imagination and creativity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.8672,
+      "question": "Learning to read consists of developing skills in reading accurately and which other critical area?",
+      "options": [
+        "Writing fast",
+        "Speaking loud",
+        "Understanding",
+        "Spelling words"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Simple View of Reading includes reading words accurately/fluently and comprehending the meaning.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7964,
+      "question": "Recognizing words automatically and pronouncing them quickly is known as which skill?",
+      "options": [
+        "Fluency",
+        "Scanning",
+        "Skimming",
+        "Guessing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluency improves as students recognize words automatically and pronounce them quickly.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4636,
+      "question": "Reading the word dig instead of dog hinders comprehension due to a lack of which skill?",
+      "options": [
+        "Random guessing",
+        "Accurate reading",
+        "Speaking very fast",
+        "Using a loud voice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading words inaccurately like dig for dog hinders comprehension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.0679,
+      "question": "Seeing each letter in a word accurately requires which type of acuity?",
+      "options": [
+        "Visual acuity",
+        "Auditory acuity",
+        "Physical acuity",
+        "Musical acuity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Seeing each letter accurately in print requires visual acuity.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.499,
+      "question": "Producing the sound each letter makes relies on which type of perception?",
+      "options": [
+        "Visual perception",
+        "Auditory perception",
+        "Physical perception",
+        "Cognitive perception"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Producing the sound each letter makes requires auditory perception.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.1743,
+      "question": "Understanding an example sentence about dogs and cats requires which element?",
+      "options": [
+        "Background knowledge",
+        "Fast reading speed",
+        "A loud reading voice",
+        "Excellent spelling skill"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Background knowledge assists comprehension of sentences about dogs and cats.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.6238,
+      "question": "Background knowledge assists comprehension by helping students understand concepts like size and which other feature?",
+      "options": [
+        "Color",
+        "Shape",
+        "Barking",
+        "Flying"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Students must know what bark means and that little and big refer to size concepts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.742,
+      "question": "A student sensing the irony of a little dog barking at a big cat demonstrates which deeper understanding?",
+      "options": [
+        "Word spelling",
+        "Understanding",
+        "Fast reading",
+        "Loud reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding the irony in a sentence shows text comprehension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.8438,
+      "question": "Browsing through reading material to look for main ideas is a technique known as which of the following?",
+      "options": [
+        "Scanning",
+        "Skimming",
+        "Intensive reading",
+        "Critical reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skimming is a speed-reading technique where the reader browses for main ideas.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.8313,
+      "question": "Skimming is compared to lifting which part of milk?",
+      "options": [
+        "The bottom",
+        "The whole",
+        "The cream",
+        "The water"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Skimming is like lifting the cream off the top of the milk.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.3247,
+      "question": "Sourcing relevant information quickly and saving time are advantages of which reading technique?",
+      "options": [
+        "Skimming",
+        "Scanning",
+        "Critical reading",
+        "Intensive reading"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Advantages of skimming include sourcing relevant information quickly and saving time.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7468,
+      "question": "Searching for a specific piece of information within a text is called which skill?",
+      "options": [
+        "Skimming",
+        "Scanning",
+        "Extensive reading",
+        "Critical reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scanning enables the reader to look for a specific piece of information.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4033,
+      "question": "Scanning is also known by which alternative term?",
+      "options": [
+        "Speed reading method",
+        "Search reading",
+        "Deep-reading",
+        "Slow-reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scanning is called search-reading.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7012,
+      "question": "Looking for a particular number in a phone directory is an example of which technique?",
+      "options": [
+        "Skimming",
+        "Scanning",
+        "Critical reading",
+        "Extensive reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A reader can scan for a particular number in a phone directory.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.9526,
+      "question": "The reading process that ends as soon as the required information is reached is which technique?",
+      "options": [
+        "Scanning",
+        "Skimming",
+        "Intensive reading",
+        "Extensive reading"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In scanning, the search ends as soon as the information is reached.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.6638,
+      "question": "Reading texts for enjoyment or leisure is categorized as which type of reading?",
+      "options": [
+        "Intensive reading",
+        "Extensive reading",
+        "Critical reading",
+        "Scanning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Extensive reading involves learners reading texts for enjoyment or leisure.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4573,
+      "question": "An approach that encourages students to read a large number of easy books is known as which reading?",
+      "options": [
+        "Extensive Reading",
+        "Intensive Reading",
+        "Critical Reading",
+        "Speed Reading"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extensive Reading encourages students to read many relatively easy books.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7314,
+      "question": "Extensive reading enhances general language competence and develops which other asset?",
+      "options": [
+        "General knowledge",
+        "Physical strength",
+        "Musical talent",
+        "Social status"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extensive reading helps develop general knowledge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4463,
+      "question": "Extensive reading consolidates and sustains growth in which area?",
+      "options": [
+        "Vocabulary",
+        "Spelling",
+        "Grammar",
+        "Punctuation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extensive reading extends, consolidates, and sustains vocabulary growth.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4243,
+      "question": "Reading widely during extensive reading increases one's reading speed and which other metric?",
+      "options": [
+        "Reading amount",
+        "Reading anxiety",
+        "Writing errors",
+        "Speaking volume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extensive reading increases the amount of material one reads and reading speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.1204,
+      "question": "Creating pleasure and relaxation is a benefit associated with which reading type?",
+      "options": [
+        "Extensive reading",
+        "Intensive reading",
+        "Scanning",
+        "Skimming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Extensive reading creates pleasure and relaxation.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.0364,
+      "question": "Detailed reading to understand the text and learn language features is called which technique?",
+      "options": [
+        "Extensive reading",
+        "Intensive reading",
+        "Skimming",
+        "Scanning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intensive reading involves detailed reading with the goals of understanding text and learning language features.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.588,
+      "question": "Intensive reading is typically applied to texts that learners would find what without help?",
+      "options": [
+        "Easy to read",
+        "Hard to read",
+        "Fun to read",
+        "Boring to read"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intensive reading texts are typically ones learners would have difficulty reading unassisted.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.8416,
+      "question": "Developing critical thinking and improving analytical skills is a goal of which reading approach?",
+      "options": [
+        "Skimming",
+        "Scanning",
+        "Intensive reading",
+        "Extensive reading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intensive reading aims to develop critical thinking and analytical skills.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.1624,
+      "question": "Intensive reading is a great tool for improving fluency and which other reading metric?",
+      "options": [
+        "Reading speed",
+        "Writing speed",
+        "Listening skill",
+        "Speaking tone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intensive reading is a great tool for improving fluency and reading speed.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.3298,
+      "question": "Understanding an author's intentions is a key goal of which reading technique?",
+      "options": [
+        "Extensive reading",
+        "Skimming",
+        "Scanning",
+        "Intensive reading"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Intensive reading aims to understand subject matter and the author's intentions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.3286,
+      "question": "Learning new skills like making inferences and identifying main ideas occurs in which reading type?",
+      "options": [
+        "Intensive reading",
+        "Extensive reading",
+        "Scanning",
+        "Skimming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intensive reading involves learning new skills such as making inferences.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4448,
+      "question": "Analyzing, interpreting, and sometimes evaluating a text is a process known as which reading?",
+      "options": [
+        "Skimming",
+        "Scanning",
+        "Critical reading",
+        "Extensive reading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critical reading is a process of analyzing, interpreting, and sometimes evaluating.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4502,
+      "question": "Questioning both the text and our own reading is a feature of which reading approach?",
+      "options": [
+        "Critical reading",
+        "Extensive reading",
+        "Intensive reading",
+        "Skimming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When we read critically, we question both the text and our own reading of it.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.79,
+      "question": "Judging whether an author is biased or truthful is a primary focus of which reading?",
+      "options": [
+        "Scanning",
+        "Skimming",
+        "Extensive reading",
+        "Critical reading"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Critical reading judges the writer in terms of truthfulness, bias, and knowledge.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.9114,
+      "question": "Critical reading requires full concentration and makes the reader a perfect which of the following?",
+      "options": [
+        "A scholar",
+        "A writer",
+        "A speaker",
+        "A listener"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical reading involves full concentration and makes the reader a perfect intellectual.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.2485,
+      "question": "Leading to innovation, invention, or propounding a theory is a result of which reading?",
+      "options": [
+        "Critical reading",
+        "Scanning",
+        "Extensive reading",
+        "Skimming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical reading leads to innovation, invention, or propounding a theory or principle.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.7776,
+      "question": "Reading involves a complex integration of skills and serves as which type of skill?",
+      "options": [
+        "Productive",
+        "Expressive",
+        "Creative",
+        "Receptive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reading is a receptive skill through which information is received.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.095,
+      "question": "Proficient readers make reading look effortless, but reading instruction requires which approach?",
+      "options": [
+        "Random practice",
+        "Planned approach",
+        "Casual reading",
+        "Fast reading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading instruction for all students requires systematic instruction in word reading and comprehension.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.1729,
+      "question": "Developing appropriate reading skills helps minimize the waste of which two elements?",
+      "options": [
+        "Money and space",
+        "Paper and ink",
+        "Time and energy",
+        "Words and lines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Developing appropriate reading skills minimizes waste of time and energy.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795802027011.4236,
+      "question": "For students who struggle with reading, instruction and intervention must be carefully planned to address which issues?",
+      "options": [
+        "Speech issues",
+        "Writing issues",
+        "Problem areas",
+        "Listening issues"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Problem areas must be determined, and instruction and intervention must be carefully planned to address them.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
