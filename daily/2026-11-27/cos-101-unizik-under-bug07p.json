@@ -3,16 +3,718 @@
   "title": "COS 101 ( UNIZIK ) : UNDERSTANDING PROBLEM -SOLVING",
   "subject": "COS 101",
   "description": "",
-  "totalQuestions": 0,
-  "defaultTimePerQuestion": 60,
+  "totalQuestions": 50,
+  "defaultTimePerQuestion": 24,
   "settings": {
-    "canChangeTime": true,
-    "canPracticeMode": true,
+    "canChangeTime": false,
+    "canPracticeMode": false,
     "canSeeCorrection": true,
-    "canRetake": true,
+    "canRetake": false,
     "passMark": 50,
-    "shuffleQuestions": false,
-    "shuffleOptions": false
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "defaultTimePerQuestion": 24
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795801867639.43,
+      "question": "Problem-solving techniques in computer science are methods employed to find solutions for which type of issues?",
+      "options": [
+        "Simple data entry",
+        "Complex issues",
+        "Easy routines",
+        "Basic syntax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Problem-solving techniques are used to find solutions to complex issues using algorithmic or heuristic approaches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.8013,
+      "question": "Problem-solving techniques can be systematic, analytical, or which other approach?",
+      "options": [
+        "Random",
+        "Passive",
+        "Intuitive",
+        "Manual"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Techniques in computer science can be systematic, analytical, or intuitive.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3816,
+      "question": "Solving an issue within software development by modifying a specific segment of code is called which process?",
+      "options": [
+        "Updating",
+        "Testing",
+        "Coding",
+        "Debugging"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In software development, problem-solving might involve debugging an application.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.1196,
+      "question": "Problem solving is a sequential process that involves analyzing information to generate which items?",
+      "options": [
+        "System crash events",
+        "Network graph models",
+        "Response options",
+        "Coding syntax errors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Problem solving is the sequential process of analyzing information and generating appropriate response options.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.0176,
+      "question": "Which step is first in the six steps of problem-solving?",
+      "options": [
+        "Develop an Algorithm",
+        "Formulate a Model",
+        "Understand Problem",
+        "Test the Program"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The first step is to make sure you understand the problem you are trying to solve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.6465,
+      "question": "Checking whether anything is missing is a question asked during which step?",
+      "options": [
+        "Find missing data",
+        "Know input format",
+        "Check output type",
+        "Understand problem"
+      ],
+      "correctAnswer": 3,
+      "explanation": "During the first step, you must determine if anything is missing from the available data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.0957,
+      "question": "The second step of the problem-solving process involves formulating which element?",
+      "options": [
+        "A Model",
+        "An Algorithm",
+        "A Program",
+        "A Solution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After understanding the problem, the second step is to formulate a model.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.2021,
+      "question": "Computing the average of incoming grades is given as an example during which step?",
+      "options": [
+        "Understand Problem",
+        "Formulate Model",
+        "Develop Algorithm",
+        "Write Program"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text provides computing the average of incoming grades as an example of formulating a mathematical model.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.1787,
+      "question": "Which step entails creating a precise sequence of instructions for solving a problem?",
+      "options": [
+        "Formulate a Model",
+        "Develop Algorithm",
+        "Write the Code",
+        "Test the Program"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Developing an algorithm involves coming up with a precise plan for the computer to follow.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.1252,
+      "question": "A precise sequence of instructions for solving a problem is known by which term?",
+      "options": [
+        "A compiler",
+        "A database",
+        "An algorithm",
+        "A program"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An algorithm is defined as a precise sequence of instructions for solving a problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.669,
+      "question": "Writing a program is often referred to as which of the following?",
+      "options": [
+        "Testing an algorithm",
+        "Writing code",
+        "Evaluating data",
+        "Designing a model"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Writing a program is often called writing code or implementing an algorithm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.668,
+      "question": "The code or source code is actually which element?",
+      "options": [
+        "The computer",
+        "The compiler",
+        "The algorithm",
+        "The program"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The code or source code is actually the program itself.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.9617,
+      "question": "Running a program is the process of telling the computer to perform which action?",
+      "options": [
+        "Compile the code",
+        "Evaluate instructions",
+        "Delete the files",
+        "Store the data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Running a program is the process of telling the computer to evaluate the compiled instructions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.9314,
+      "question": "Checking that a program solves the intended problem and produces correct solutions occurs during which step?",
+      "options": [
+        "Step 3",
+        "Step 4",
+        "Step 5",
+        "Step 6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fifth step is testing the program to make sure it solves the problem it was intended to solve.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.7312,
+      "question": "The final step of the problem-solving process requires evaluating the solution to ensure it does which?",
+      "options": [
+        "Runs quickly",
+        "Fits properly",
+        "Uses no memory",
+        "Has no syntax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Evaluating the solution requires making sure the answer is formatted into a proper solution.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.4995,
+      "question": "Realizing that a program solution does not solve the problem as wanted often occurs during which step?",
+      "options": [
+        "Step 2",
+        "Step 4",
+        "Step 5",
+        "Step 6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "During the evaluation step, you may realize that your program solution does not solve the problem the way you wanted it to.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.7302,
+      "question": "Problem-solving techniques help mitigate which issues by identifying and rectifying coding mistakes?",
+      "options": [
+        "Network issues",
+        "Syntax errors",
+        "Runtime errors",
+        "Hardware faults"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitigating runtime errors and system crashes is achieved by identifying and rectifying coding mistakes effectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.4478,
+      "question": "Improving the efficiency of software leads to enhanced user experience and reduced use of which element?",
+      "options": [
+        "Power",
+        "Resources",
+        "Storage",
+        "Bandwidth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Optimizing software helps improve efficiency, leading to enhanced user experience and reduced resource consumption.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.5369,
+      "question": "Data analysis uses problem-solving techniques to help organize and interpret which type of datasets?",
+      "options": [
+        "Simple datasets",
+        "Complex datasets",
+        "Text datasets",
+        "Image datasets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Problem-solving techniques help in organizing, evaluating, and interpreting complex datasets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3074,
+      "question": "Cyber security uses problem-solving techniques to patch vulnerabilities before they are which of the following?",
+      "options": [
+        "Decoded",
+        "Replaced",
+        "Exploited",
+        "Deleted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Identifying potential vulnerabilities and patching them before they can be exploited helps safeguard digital assets.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3716,
+      "question": "Breaking a larger problem into smaller manageable parts describes which basic technique?",
+      "options": [
+        "Algorithm Design",
+        "Recursive Logic",
+        "Divide Conquer",
+        "Heuristics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Divide and conquer involves breaking a larger problem into smaller, more manageable parts.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.4993,
+      "question": "Formalizing a series of organized steps into an algorithm is called which technique?",
+      "options": [
+        "Algorithm Design",
+        "Recursive Thinking",
+        "Divide and Conquer",
+        "Heuristics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Algorithm design involves formalizing a series of organized steps into an algorithm to solve a specific problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.8335,
+      "question": "Which basic technique uses rules of thumb when problems are too complex for direct mathematical approaches?",
+      "options": [
+        "Algorithm Design",
+        "Divide Conquer",
+        "Recursive Logic",
+        "Heuristics"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Heuristics are rules of thumb or educated guesses used when problems are too complex for direct mathematical approaches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.9856,
+      "question": "Solving a problem by breaking it down into smaller instances of the same problem is called which technique?",
+      "options": [
+        "Recursive Thinking",
+        "Algorithm Design",
+        "Divide and Conquer",
+        "Heuristics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recursive thinking involves solving a problem by breaking it down into smaller instances of the same problem.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.961,
+      "question": "Quick Sort and Merge Sort are practical applications of which basic technique?",
+      "options": [
+        "Heuristics",
+        "Divide Conquer",
+        "Algorithm Design",
+        "Recursion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divide and conquer is used in sorting algorithms like Quick Sort and Merge Sort.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.101,
+      "question": "Dijkstra's algorithm for routing protocols is an application of which technique?",
+      "options": [
+        "Heuristics",
+        "Recursive Thinking",
+        "Algorithm Design",
+        "Divide and Conquer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Algorithm design is used in routing protocols for networks like Dijkstra's algorithm.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.6592,
+      "question": "Which technique is commonly used in AI for game playing like Chess and Go?",
+      "options": [
+        "Divide Conquer",
+        "Algorithm Design",
+        "Recursive Logic",
+        "Heuristics"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Heuristics are used in AI for game playing like Chess and Go.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3506,
+      "question": "Parsing syntax trees in compilers is a practical application of which basic technique?",
+      "options": [
+        "Recursion",
+        "Algorithm Design",
+        "Divide Conquer",
+        "Heuristics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Recursive thinking is used in parsing syntax trees in compilers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.4355,
+      "question": "The tools software developers use to create and manage applications effectively are called which techniques?",
+      "options": [
+        "System",
+        "Network",
+        "Hardware",
+        "Coding"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Coding problem-solving techniques are the tools software developers use to create, optimize, and manage software applications effectively.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.8325,
+      "question": "Ensuring a consistent naming scheme and descriptive comments helps facilitate which aspect of coding?",
+      "options": [
+        "Readability",
+        "System speed",
+        "Data security",
+        "Data storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Good coding practices like consistent naming and descriptive comments make code easier to understand, troubleshoot, and maintain.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.9094,
+      "question": "Implementing complex functionalities requires mastery of which coding techniques?",
+      "options": [
+        "Testing",
+        "Booting",
+        "Coding",
+        "Refactoring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mastery of coding problem-solving techniques enables developers to tackle complex functionalities and data structures.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.6006,
+      "question": "Identifying and rectifying coding errors using built-in tools is a technique called which of the following?",
+      "options": [
+        "Refactoring",
+        "Debugging",
+        "Versioning",
+        "Compiling code"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Debugging is the process of identifying and rectifying coding errors using built-in tools or software debuggers.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.45,
+      "question": "Rearranging and improving the structure of existing code without changing its functionality is known as which process?",
+      "options": [
+        "Systematic testing",
+        "Software debugging",
+        "Refactoring",
+        "Program compiling"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Refactoring implies rearranging and improving the structure of existing code without changing its functionality.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.4644,
+      "question": "Which systems help manage changes, track history, and merge code from different branches?",
+      "options": [
+        "Version control",
+        "Data structures",
+        "Operating systems",
+        "Web browsers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Version control systems like Git help manage changes, track history, and merge code from different branches.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.2375,
+      "question": "Arrays, linked lists, and hash tables are examples of which coding tool?",
+      "options": [
+        "Data structures",
+        "Algorithms",
+        "Version systems",
+        "Debuggers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Data structures include arrays, linked lists, stacks, queues, trees, and hash tables.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.8992,
+      "question": "Which computing discipline focuses on the design of digital hardware and software systems?",
+      "options": [
+        "Computer Sciences and Theory",
+        "Data Sciences and Analytics",
+        "Information Tech and Systems",
+        "Computer Engineering"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Computer engineering students study the design of digital hardware and software systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3674,
+      "question": "The development of embedded systems is an important area within which discipline?",
+      "options": [
+        "Data Science and Analytics",
+        "Computer Science and Theory",
+        "Software Engineering Field",
+        "Computer Engineering"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An important area within computing engineering is the development of embedded systems.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.0354,
+      "question": "Devices such as cell phones and digital audio players require integration of hardware and which other element?",
+      "options": [
+        "Storage",
+        "Software",
+        "Networks",
+        "Power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Devices like cell phones require the integration of hardware and embedded software.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.1658,
+      "question": "Which discipline spans the range from theory through programming to cutting-edge development?",
+      "options": [
+        "Data Analytics Field",
+        "Computer Science",
+        "Software Eng",
+        "Information Tech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Computer science spans the range from theory through programming to cutting-edge development of computing solutions.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.218,
+      "question": "Designing and building software is one of the three work categories for professionals in which field?",
+      "options": [
+        "Data Science",
+        "Software Eng",
+        "Computer Science",
+        "Information Technology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The work of computer scientists falls into three categories, including designing and building software.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3162,
+      "question": "Devising new and better ways of using computers is a work category in which field?",
+      "options": [
+        "Building software",
+        "Solving problems",
+        "Managing data",
+        "Testing systems"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Computer scientists devise new and better ways of using computers and addressing particular challenges.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.1414,
+      "question": "Extracting insights and knowledge from structured and unstructured data is the focus of which field?",
+      "options": [
+        "Computer Science",
+        "Data Science",
+        "Software Eng",
+        "Information Tech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Data science is a multidisciplinary field that involves extracting insights and knowledge from structured and unstructured data.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.9397,
+      "question": "Data science involves techniques including statistics, machine learning, and which other field?",
+      "options": [
+        "Physics",
+        "Computer science",
+        "Biology",
+        "Chemistry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Data science uses various techniques, including statistics, machine learning, and computer science.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.3528,
+      "question": "Selecting hardware and software products appropriate for an organization is a responsibility of which field?",
+      "options": [
+        "Data Science",
+        "Computer Science Theory",
+        "Information Tech",
+        "Software Eng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IT professionals assume responsibility for selecting hardware and software products appropriate for an organization.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.509,
+      "question": "Writing short programs that typically connect existing components is known as which practice in IT?",
+      "options": [
+        "Scripting",
+        "Coding",
+        "Testing",
+        "Booting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In IT, programming often involves writing short programs that typically connect existing components, known as scripting.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.8477,
+      "question": "Which field is concerned with developing software systems that behave reliably and efficiently?",
+      "options": [
+        "Data Science and Analytics",
+        "Computer Science and Theory",
+        "Information Technology",
+        "Software Engineering"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Software engineering is concerned with developing and maintaining software systems that behave reliably and efficiently.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.382,
+      "question": "Assessing customer needs and developing usable software is a core focus of which discipline?",
+      "options": [
+        "Data Science and Analytics",
+        "Computer Science and Theory",
+        "Software Engineering",
+        "Information Technology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Software engineering students learn how to assess customer needs and develop usable software that meets those needs.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.5796,
+      "question": "Software engineering integrates significant mathematics, computer science, and practices from which field?",
+      "options": [
+        "Art",
+        "Math",
+        "Science",
+        "Engineering"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Software engineering integrates significant mathematics, computer science, and practices whose origins are in engineering.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.199,
+      "question": "Which discipline's core focus includes computational systems theory and practical aspects?",
+      "options": [
+        "Data Analytics Field",
+        "Computer Science",
+        "Software Eng Field",
+        "Information Tech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The core focus of computer science includes computational systems theory and practical aspects such as algorithms and programming.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795801867640.808,
+      "question": "Cloud computing and cybersecurity are listed as career paths for which discipline?",
+      "options": [
+        "Computer Sciences",
+        "Data Science",
+        "Info Technology",
+        "Software Eng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cloud computing and cybersecurity are listed as career paths for Information Technology.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
