@@ -3,7 +3,7 @@
   "title": "MTH 101 (UNINIGER): EXPONENTIAL AND LOGARITHMIC FUNCTIONS",
   "subject": "MTH 101",
   "description": "",
-  "totalQuestions": 0,
+  "totalQuestions": 35,
   "defaultTimePerQuestion": 60,
   "settings": {
     "canChangeTime": false,
@@ -15,5 +15,496 @@
     "shuffleOptions": true,
     "defaultTimePerQuestion": 60
   },
-  "questions": []
+  "questions": [
+    {
+      "id": 1795857681208.029,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>For <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b> with <b>a > 1</b>, the horizontal asymptote is:</div>",
+      "options": [
+        "y = 1",
+        "x = 0",
+        "y = 0",
+        "x = 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For exponential functions of the form y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span> where a > 1, as x approaches negative infinity (&minus;&infin;), the value of a<span style='vertical-align: super; font-size: 0.75em;'>x</span> approaches 0. Therefore, the graph gets closer and closer to the line y = 0 (the x-axis) but never touches it. The horizontal asymptote is <b>y = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.114,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The y-intercept of <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b> is:</div>",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the y-intercept, we set x = 0.<br>y = a<span style='vertical-align: super; font-size: 0.75em;'>0</span><br>Any non-zero number raised to the power of 0 is 1. Therefore, y = 1. The y-intercept is the point (0, 1), so the value is <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.4158,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>If <b>0 < a < 1</b>, the graph of <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b> is:</div>",
+      "options": [
+        "increasing",
+        "decreasing",
+        "constant",
+        "neither"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the base 'a' is a fraction between 0 and 1 (e.g., y = (1/2)<span style='vertical-align: super; font-size: 0.75em;'>x</span>), the function represents exponential decay. As x increases, the value of y gets smaller. Therefore, the graph is strictly <b>decreasing</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7969,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The number <b>e</b> is defined as the limit of:</div>",
+      "options": [
+        "(1 + 1/n)<span style='vertical-align: super; font-size: 0.75em;'>n</span> as n &rarr; &infin;",
+        "(1 + n)<span style='vertical-align: super; font-size: 0.75em;'>1/n</span> as n &rarr; &infin;",
+        "(1 + 1/n)<span style='vertical-align: super; font-size: 0.75em;'>1/n</span> as n &rarr; &infin;",
+        "(1 + n)<span style='vertical-align: super; font-size: 0.75em;'>n</span> as n &rarr; &infin;"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mathematical constant e (Euler's number) is fundamentally defined as the limit of <b>(1 + 1/n)<span style='vertical-align: super; font-size: 0.75em;'>n</span></b> as n approaches infinity. It is approximately equal to 2.71828.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.3906,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>For <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b>, a > 1, as x decreases through negative values, the graph:</div>",
+      "options": [
+        "intersects the x-axis",
+        "approaches the x-axis but never intersects it",
+        "rises rapidly",
+        "becomes vertical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As x takes on larger and larger negative values (e.g., x = &minus;10, &minus;100), a<span style='vertical-align: super; font-size: 0.75em;'>x</span> becomes a very small positive fraction (e.g., a<span style='vertical-align: super; font-size: 0.75em;'>&minus;10</span> = 1 / a<span style='vertical-align: super; font-size: 0.75em;'>10</span>). The graph gets infinitely close to the x-axis (y=0) but <b>never actually intersects it</b>, creating a horizontal asymptote.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.656,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The domain of <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b>, a > 0, a &ne; 1, is:</div>",
+      "options": [
+        "all real numbers",
+        "x > 0",
+        "x < 0",
+        "x &ge; 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "You can raise a positive number to any real power (positive, negative, zero, integer, or fraction) and get a valid real result. Therefore, the domain is <b>all real numbers</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.9697,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The range of <b>y = a<span style='vertical-align: super; font-size: 0.75em;'>x</span></b>, a > 0, a &ne; 1, is:</div>",
+      "options": [
+        "all real numbers",
+        "y > 0",
+        "y &ge; 0",
+        "y &ne; 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A positive number raised to any real power will always yield a positive result. It will never be zero or negative. Therefore, the range is <b>y > 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7002,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(64)<span style='vertical-align: super; font-size: 0.75em;'>2/3</span></b></div>",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctAnswer": 2,
+      "explanation": "First, rewrite 64 as a power of 4 (or 2). 64 = 4<span style='vertical-align: super; font-size: 0.75em;'>3</span> or 2<span style='vertical-align: super; font-size: 0.75em;'>6</span>.<br><br>Using 64 = 4<span style='vertical-align: super; font-size: 0.75em;'>3</span>:<br>(4<span style='vertical-align: super; font-size: 0.75em;'>3</span>)<span style='vertical-align: super; font-size: 0.75em;'>2/3</span> = 4<span style='vertical-align: super; font-size: 0.75em;'>3 &times; (2/3)</span> = 4<span style='vertical-align: super; font-size: 0.75em;'>2</span> = <b>16</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7056,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(9)<span style='vertical-align: super; font-size: 0.75em;'>1/2</span> &times; (2)<span style='vertical-align: super; font-size: 0.75em;'>&minus;3</span></b></div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>8</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>4</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>2</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>8</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(9)<span style='vertical-align: super; font-size: 0.75em;'>1/2</span> is the square root of 9, which is 3.<br>(2)<span style='vertical-align: super; font-size: 0.75em;'>&minus;3</span> is equal to 1 / (2<span style='vertical-align: super; font-size: 0.75em;'>3</span>) = 1/8.<br>Multiplying them: 3 &times; (1/8) = <b>3/8</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.1611,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(125)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span></b></div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>5</span></span>",
+        "5",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>25</span></span>",
+        "25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A negative fractional exponent means taking the reciprocal and the root.<br>125<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span> = 1 / (125<span style='vertical-align: super; font-size: 0.75em;'>1/3</span>)<br>The cube root of 125 is 5 (since 5 &times; 5 &times; 5 = 125).<br>Therefore, the answer is <b>1/5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.1455,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(0.027)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span></b></div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>10</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>3</span><span style='display:block;padding:0 .35em;'>10</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>3</span></span>",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Convert 0.027 to a fraction: 27/1000.<br>So, (0.027)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span> = (27/1000)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span> = (1000/27)<span style='vertical-align: super; font-size: 0.75em;'>1/3</span>.<br>Cube root of 1000 = 10. Cube root of 27 = 3.<br>The answer is <b>10/3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.576,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(625)<span style='vertical-align: super; font-size: 0.75em;'>3/8</span> &times; (5)<span style='vertical-align: super; font-size: 0.75em;'>1/2</span> &divide; 25</b></div>",
+      "options": [
+        "5",
+        "25",
+        "1",
+        "125"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Express all terms with base 5:<br>625 = 5<span style='vertical-align: super; font-size: 0.75em;'>4</span>.<br>(5<span style='vertical-align: super; font-size: 0.75em;'>4</span>)<span style='vertical-align: super; font-size: 0.75em;'>3/8</span> = 5<span style='vertical-align: super; font-size: 0.75em;'>12/8</span> = 5<span style='vertical-align: super; font-size: 0.75em;'>3/2</span>.<br>The expression becomes: 5<span style='vertical-align: super; font-size: 0.75em;'>3/2</span> &times; 5<span style='vertical-align: super; font-size: 0.75em;'>1/2</span> &divide; 5<span style='vertical-align: super; font-size: 0.75em;'>2</span>.<br>Add exponents for multiplication: 3/2 + 1/2 = 2, so we have 5<span style='vertical-align: super; font-size: 0.75em;'>2</span>.<br>Subtract exponents for division: 5<span style='vertical-align: super; font-size: 0.75em;'>2 &minus; 2</span> = 5<span style='vertical-align: super; font-size: 0.75em;'>0</span> = <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.0298,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(27)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span> &times; (64)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/2</span> &times; 4<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/2</span></b></div>",
+      "options": [
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>48</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>24</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>12</span></span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>6</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Evaluate each term with a negative exponent:<br>(27)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/3</span> = 1/3<br>(64)<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/2</span> = 1/8<br>4<span style='vertical-align: super; font-size: 0.75em;'>&minus;1/2</span> = 1/2<br>Multiply them together: (1/3) &times; (1/8) &times; (1/2) = <b>1/48</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.808,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Simplify: <b>(27)<span style='vertical-align: super; font-size: 0.75em;'>m+2</span> &times; (4)<span style='vertical-align: super; font-size: 0.75em;'>m</span> &divide; 6<span style='vertical-align: super; font-size: 0.75em;'>2m</span></b></div>",
+      "options": [
+        "3<span style='vertical-align: super; font-size: 0.75em;'>m+6</span>",
+        "3<span style='vertical-align: super; font-size: 0.75em;'>m+2</span>",
+        "3<span style='vertical-align: super; font-size: 0.75em;'>3m+6</span>",
+        "3<span style='vertical-align: super; font-size: 0.75em;'>m</span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Express all bases as products of prime factors:<br>27 = 3<span style='vertical-align: super; font-size: 0.75em;'>3</span>, 4 = 2<span style='vertical-align: super; font-size: 0.75em;'>2</span>, 6 = 2 &times; 3.<br>Expression = (3<span style='vertical-align: super; font-size: 0.75em;'>3</span>)<span style='vertical-align: super; font-size: 0.75em;'>m+2</span> &times; (2<span style='vertical-align: super; font-size: 0.75em;'>2</span>)<span style='vertical-align: super; font-size: 0.75em;'>m</span> &divide; (2 &times; 3)<span style='vertical-align: super; font-size: 0.75em;'>2m</span><br>= 3<span style='vertical-align: super; font-size: 0.75em;'>3m+6</span> &times; 2<span style='vertical-align: super; font-size: 0.75em;'>2m</span> &divide; (2<span style='vertical-align: super; font-size: 0.75em;'>2m</span> &times; 3<span style='vertical-align: super; font-size: 0.75em;'>2m</span>)<br>The 2<span style='vertical-align: super; font-size: 0.75em;'>2m</span> cancels out.<br>We are left with 3<span style='vertical-align: super; font-size: 0.75em;'>3m+6</span> &divide; 3<span style='vertical-align: super; font-size: 0.75em;'>2m</span> = 3<span style='vertical-align: super; font-size: 0.75em;'>(3m+6) &minus; 2m</span> = <b>3<span style='vertical-align: super; font-size: 0.75em;'>m+6</span></b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7817,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>3<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 81</b></div>",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Express 81 as a power of 3.<br>3 &times; 3 &times; 3 &times; 3 = 81, so 81 = 3<span style='vertical-align: super; font-size: 0.75em;'>4</span>.<br>Therefore, 3<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 3<span style='vertical-align: super; font-size: 0.75em;'>4</span>. Since the bases are equal, the exponents must be equal.<br>x = <b>4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.5862,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>4<span style='vertical-align: super; font-size: 0.75em;'>2x</span> = 2<span style='vertical-align: super; font-size: 0.75em;'>6x&minus;2</span></b></div>",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Express both sides with the same base. Since 4 = 2<span style='vertical-align: super; font-size: 0.75em;'>2</span>:<br>(2<span style='vertical-align: super; font-size: 0.75em;'>2</span>)<span style='vertical-align: super; font-size: 0.75em;'>2x</span> = 2<span style='vertical-align: super; font-size: 0.75em;'>6x&minus;2</span><br>2<span style='vertical-align: super; font-size: 0.75em;'>4x</span> = 2<span style='vertical-align: super; font-size: 0.75em;'>6x&minus;2</span><br>Equate the exponents:<br>4x = 6x &minus; 2<br>2 = 2x<br>x = <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7886,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>2<span style='vertical-align: super; font-size: 0.75em;'>x</span> + 2<span style='vertical-align: super; font-size: 0.75em;'>x&minus;1</span> = 48</b></div>",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Factor out the smallest power, which is 2<span style='vertical-align: super; font-size: 0.75em;'>x&minus;1</span>:<br>2<span style='vertical-align: super; font-size: 0.75em;'>x&minus;1</span>(2<span style='vertical-align: super; font-size: 0.75em;'>1</span> + 1) = 48<br>2<span style='vertical-align: super; font-size: 0.75em;'>x&minus;1</span>(3) = 48<br>Divide by 3:<br>2<span style='vertical-align: super; font-size: 0.75em;'>x&minus;1</span> = 16<br>Since 16 = 2<span style='vertical-align: super; font-size: 0.75em;'>4</span>:<br>x &minus; 1 = 4<br>x = <b>5</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.4287,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>2(2<span style='vertical-align: super; font-size: 0.75em;'>2x</span>) &minus; 5(2<span style='vertical-align: super; font-size: 0.75em;'>x</span>) + 2 = 0</b></div>",
+      "options": [
+        "x = &minus;1 or x = 1",
+        "x = 0 or x = 1",
+        "x = &minus;1 or x = 0",
+        "x = 1 or x = 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is a quadratic equation in disguise. Let y = 2<span style='vertical-align: super; font-size: 0.75em;'>x</span>. Then 2<span style='vertical-align: super; font-size: 0.75em;'>2x</span> = y<span style='vertical-align: super; font-size: 0.75em;'>2</span>.<br>2y<span style='vertical-align: super; font-size: 0.75em;'>2</span> &minus; 5y + 2 = 0<br>Factor the quadratic: (2y &minus; 1)(y &minus; 2) = 0<br>y = 1/2 or y = 2.<br>Substitute back:<br>If 2<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 1/2, then 2<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 2<span style='vertical-align: super; font-size: 0.75em;'>&minus;1</span>, so x = &minus;1.<br>If 2<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 2, then x = 1.<br>Therefore, <b>x = &minus;1 or x = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.3438,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'><b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x = y</b> is equivalent to:</div>",
+      "options": [
+        "a<span style='vertical-align: super; font-size: 0.75em;'>y</span> = x",
+        "x<span style='vertical-align: super; font-size: 0.75em;'>a</span> = y",
+        "a<span style='vertical-align: super; font-size: 0.75em;'>x</span> = y",
+        "y<span style='vertical-align: super; font-size: 0.75em;'>a</span> = x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The definition of a logarithm states that log<span style='vertical-align: sub; font-size: 0.75em;'>base</span>(result) = exponent. Therefore, log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x = y means that the base 'a' raised to the power 'y' equals 'x'.<br>So, <b>a<span style='vertical-align: super; font-size: 0.75em;'>y</span> = x</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.7817,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The domain of <b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x</b> is:</div>",
+      "options": [
+        "all real numbers",
+        "x > 0",
+        "x &ge; 0",
+        "x &ne; 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You cannot take the logarithm of zero or a negative number because there is no real exponent you can raise a positive base to that will yield a negative result or zero. Therefore, the argument x must be strictly positive: <b>x > 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.0332,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The graph of <b>y = log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x</b>, a > 1, has a vertical asymptote at:</div>",
+      "options": [
+        "x = 0",
+        "y = 0",
+        "x = 1",
+        "y = 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As x approaches 0 from the right (x &rarr; 0<span style='vertical-align: super; font-size: 0.75em;'>+</span>), the value of log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x approaches negative infinity (&minus;&infin;). The graph gets infinitely close to the y-axis but never touches it. The vertical asymptote is <b>x = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.4546,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The x-intercept of <b>y = log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x</b> is:</div>",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find the x-intercept, set y = 0.<br>0 = log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x<br>By the definition of logarithms, a<span style='vertical-align: super; font-size: 0.75em;'>0</span> = x.<br>Since any non-zero number to the power of 0 is 1, x = 1. The x-intercept is <b>1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.6565,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>If <b>a > 1</b>, <b>y = log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> x</b> is:</div>",
+      "options": [
+        "increasing",
+        "decreasing",
+        "constant",
+        "neither"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a logarithmic function with a base greater than 1, as x increases, y also increases. The graph rises from left to right. Therefore, the function is strictly <b>increasing</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681208.2385,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'><b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(MN)</b> equals:</div>",
+      "options": [
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M + log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M &times; log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M</span><span style='display:block;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the Product Rule for logarithms. The logarithm of a product is equal to the <b>sum of the logarithms</b> of its factors.<br>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(MN) = <b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M + log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.9514,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'><b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>M</span><span style='display:block;padding:0 .35em;'>N</span></span>)</b> equals:</div>",
+      "options": [
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M + log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M &times; log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M</span><span style='display:block;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N</span></span>"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the Quotient Rule for logarithms. The logarithm of a quotient is equal to the <b>difference of the logarithms</b>.<br>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(M/N) = <b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.9119,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'><b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(M<span style='vertical-align: super; font-size: 0.75em;'>k</span>)</b> equals:</div>",
+      "options": [
+        "k log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M + k",
+        "(log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M)<span style='vertical-align: super; font-size: 0.75em;'>k</span>",
+        "<span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M</span><span style='display:block;padding:0 .35em;'>k</span></span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the Power Rule for logarithms. The logarithm of a number raised to a power is equal to the power multiplied by the logarithm of the number.<br>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span>(M<span style='vertical-align: super; font-size: 0.75em;'>k</span>) = <b>k log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.8513,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>The change-of-base formula is:</div>",
+      "options": [
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> M</span><span style='display:block;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> a</span></span>",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> a</span><span style='display:block;padding:0 .35em;'>log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> M</span></span>",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> M &times; log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> a",
+        "log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = log<span style='vertical-align: sub; font-size: 0.75em;'>b</span>(M/a)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The change-of-base formula allows you to evaluate a logarithm with any base 'b'. It states that log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M is equal to the logarithm of M (in the new base) divided by the logarithm of a (in the new base).<br><b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = (log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> M) / (log<span style='vertical-align: sub; font-size: 0.75em;'>b</span> a)</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.7087,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>If <b>log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> M = log<span style='vertical-align: sub; font-size: 0.75em;'>a</span> N</b>, then:</div>",
+      "options": [
+        "M = N",
+        "M = &minus;N",
+        "M = <span style='display:inline-block;text-align:center;vertical-align:middle;'><span style='display:block;border-bottom:1.5px solid currentColor;padding:0 .35em;'>1</span><span style='display:block;padding:0 .35em;'>N</span></span>",
+        "M = N<span style='vertical-align: super; font-size: 0.75em;'>2</span>"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logarithmic functions are one-to-one. If two logarithms with the same base are equal, their arguments must also be equal.<br>Therefore, <b>M = N</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.2446,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3<span style='vertical-align: super; font-size: 0.75em;'>x</span> &minus; 4 log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3 = 0</b></div>",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Move the second term to the other side:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3<span style='vertical-align: super; font-size: 0.75em;'>x</span> = 4 log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3<br>Use the power rule to bring the exponents down:<br>x log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3 = 4 log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3<br>Divide both sides by log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3 (since log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> 3 &ne; 0):<br>x = <b>4</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.6543,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>3</span>(4x+1) &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>3</span>(3x&minus;5) = 2</b></div>",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = 3",
+        "x = 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the quotient rule to combine the left side:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>3</span>( (4x+1) / (3x&minus;5) ) = 2<br>Convert to exponential form:<br>(4x+1) / (3x&minus;5) = 3<span style='vertical-align: super; font-size: 0.75em;'>2</span><br>(4x+1) / (3x&minus;5) = 9<br>Cross-multiply:<br>4x + 1 = 9(3x &minus; 5)<br>4x + 1 = 27x &minus; 45<br>46 = 23x<br>x = <b>2</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.1924,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>2 log<span style='vertical-align: sub; font-size: 0.75em;'>5</span> x &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>5</span>(3+2x) = 0</b></div>",
+      "options": [
+        "x = 3 or x = &minus;1",
+        "x = 3 only",
+        "x = &minus;1 only",
+        "no solution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Move the second term to the other side:<br>2 log<span style='vertical-align: sub; font-size: 0.75em;'>5</span> x = log<span style='vertical-align: sub; font-size: 0.75em;'>5</span>(3+2x)<br>Use the power rule:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>5</span>(x<span style='vertical-align: super; font-size: 0.75em;'>2</span>) = log<span style='vertical-align: sub; font-size: 0.75em;'>5</span>(3+2x)<br>Equate the arguments:<br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> = 3 + 2x<br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> &minus; 2x &minus; 3 = 0<br>(x &minus; 3)(x + 1) = 0<br>x = 3 or x = &minus;1.<br>However, the domain of a logarithm requires the argument to be positive. If x = &minus;1, then log<span style='vertical-align: sub; font-size: 0.75em;'>5</span>(&minus;1) is undefined.<br>Therefore, the only valid solution is <b>x = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.1956,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+9) = 1 + log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+3) &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+2)</b></div>",
+      "options": [
+        "x = 0",
+        "x = 1",
+        "x = 2",
+        "x = 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewrite 1 as log<span style='vertical-align: sub; font-size: 0.75em;'>6</span> 6 and combine the right side using log laws:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+9) = log<span style='vertical-align: sub; font-size: 0.75em;'>6</span> 6 + log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+3) &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+2)<br>log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>(x+9) = log<span style='vertical-align: sub; font-size: 0.75em;'>6</span>( 6(x+3) / (x+2) )<br>Equate the arguments:<br>x + 9 = (6x + 18) / (x + 2)<br>Cross-multiply:<br>(x + 9)(x + 2) = 6x + 18<br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 11x + 18 = 6x + 18<br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 5x = 0<br>x(x + 5) = 0<br>x = 0 or x = &minus;5.<br>Check the domain: x+9 > 0, x+3 > 0, x+2 > 0, so x > &minus;2.<br>Therefore, x = &minus;5 is rejected. The solution is <b>x = 0</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.7124,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>10</span>(x<span style='vertical-align: super; font-size: 0.75em;'>2</span>+9) &minus; 2 log<span style='vertical-align: sub; font-size: 0.75em;'>10</span> x = 1</b></div>",
+      "options": [
+        "x = 1",
+        "x = 3",
+        "x = 9",
+        "x = 1/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewrite 1 as log<span style='vertical-align: sub; font-size: 0.75em;'>10</span> 10 and use the power rule:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>10</span>(x<span style='vertical-align: super; font-size: 0.75em;'>2</span>+9) &minus; log<span style='vertical-align: sub; font-size: 0.75em;'>10</span>(x<span style='vertical-align: super; font-size: 0.75em;'>2</span>) = log<span style='vertical-align: sub; font-size: 0.75em;'>10</span> 10<br>Use the quotient rule:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>10</span>( (x<span style='vertical-align: super; font-size: 0.75em;'>2</span>+9) / x<span style='vertical-align: super; font-size: 0.75em;'>2</span> ) = log<span style='vertical-align: sub; font-size: 0.75em;'>10</span> 10<br>Equate the arguments:<br>(x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 9) / x<span style='vertical-align: super; font-size: 0.75em;'>2</span> = 10<br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 9 = 10x<span style='vertical-align: super; font-size: 0.75em;'>2</span><br>9 = 9x<span style='vertical-align: super; font-size: 0.75em;'>2</span><br>x<span style='vertical-align: super; font-size: 0.75em;'>2</span> = 1<br>x = 1 or x = &minus;1.<br>Since the domain requires x > 0, we reject &minus;1.<br>The solution is <b>x = 1</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.8745,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> x + log<span style='vertical-align: sub; font-size: 0.75em;'>x</span> 4 = 2.5</b></div>",
+      "options": [
+        "x = 2 or x = 16",
+        "x = 2 or x = 4",
+        "x = 4 or x = 16",
+        "x = 2 or x = 1/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the change-of-base formula on the second term: log<span style='vertical-align: sub; font-size: 0.75em;'>x</span> 4 = 1 / log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> x.<br>Let y = log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> x. The equation becomes:<br>y + 1/y = 2.5<br>Multiply by y:<br>y<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 1 = 2.5y<br>2y<span style='vertical-align: super; font-size: 0.75em;'>2</span> &minus; 5y + 2 = 0<br>Factor:<br>(2y &minus; 1)(y &minus; 2) = 0<br>y = 1/2 or y = 2.<br>Substitute back:<br>If log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> x = 1/2, then x = 4<span style='vertical-align: super; font-size: 0.75em;'>1/2</span> = 2.<br>If log<span style='vertical-align: sub; font-size: 0.75em;'>4</span> x = 2, then x = 4<span style='vertical-align: super; font-size: 0.75em;'>2</span> = 16.<br>Both are valid positive numbers, so <b>x = 2 or x = 16</b>.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": 1795857681209.841,
+      "question": "<div style='font-size: 1.2em; font-weight: 600;'>Solve: <b>log<span style='vertical-align: sub; font-size: 0.75em;'>3</span> x + log<span style='vertical-align: sub; font-size: 0.75em;'>3</span>(2x+3) = 3</b></div>",
+      "options": [
+        "x = 3",
+        "x = 2",
+        "x = 1",
+        "x = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the product rule to combine the left side:<br>log<span style='vertical-align: sub; font-size: 0.75em;'>3</span>( x(2x+3) ) = 3<br>Convert to exponential form:<br>x(2x+3) = 3<span style='vertical-align: super; font-size: 0.75em;'>3</span><br>2x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 3x = 27<br>2x<span style='vertical-align: super; font-size: 0.75em;'>2</span> + 3x &minus; 27 = 0<br>Factor the quadratic:<br>(2x + 9)(x &minus; 3) = 0<br>x = &minus;4.5 or x = 3.<br>Since the domain of log<span style='vertical-align: sub; font-size: 0.75em;'>3</span> x requires x > 0, we reject the negative solution.<br>The solution is <b>x = 3</b>.",
+      "difficulty": "easy",
+      "points": 1
+    }
+  ]
 }
